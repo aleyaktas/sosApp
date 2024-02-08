@@ -17,13 +17,31 @@ import {IVerb} from '../types';
 
 const Home = () => {
   const [inputText, setInputText] = useState('');
-  const [options, setOptions] = useState([]);
+  const [options, setOptions] = useState([
+    'A1',
+    'B1',
+    'C1',
+    'A2',
+    'B2',
+    'C2',
+    'A3',
+    'B3',
+    'C3',
+    'A4',
+    'B4',
+    'C4',
+  ]);
+
   const [selectedOption, setSelectedOption] = useState('');
-  const [states, setStates] = useState([]);
+  const [states, setStates] = useState(['+', '-', '?']);
   const [selectedState, setSelectedState] = useState('');
   const [entry, setEntry] = useState<string | IVerb>('');
-  const [selectedSubject, setSelectedSubject] = useState('');
-  const subjects = ['you', 'he', 'she', 'it', 'we', 'they'];
+  const [selectedSubject, setSelectedSubject] = useState('Are');
+  const [question, setQuestion] = useState('you ready?');
+  const [isSubjectSingle, setIsSubjectSingle] = useState(false);
+  const [answer, setAnswer] = useState('');
+
+  const subjects = ['I', 'you', 'he', 'she', 'it', 'we', 'they'];
 
   const getRandomStates = () => {
     const length = states.length;
@@ -54,22 +72,201 @@ const Home = () => {
     const state = getRandomStates();
     const option = getRandomOption();
     setSelectedSubject(subject);
+    setIsSubjectSingle(
+      subject === 'he' || subject === 'she' || subject === 'it',
+    );
     setSelectedState(state);
     setSelectedOption(option);
+    console.log(option, 'test');
     if (option[1] === '1') {
       const entry = getRandomEntry(false) as string;
+      console.log(entry);
       setEntry(entry);
       return option[0] === 'A'
-        ? `${subject} (${state}) ${entry} ${option}`
-        : `${subject} (${state}) be ${entry} ${option}`;
+        ? setQuestion(`(${state}) ${entry} ${option}`)
+        : setQuestion(`(${state}) be ${entry} ${option}`);
     } else {
       const entry = getRandomEntry(true) as IVerb;
       setEntry(entry);
-      return `${subject} (${state}) ${entry.presentPlural} ${option}`;
+      setQuestion(`(${state}) ${entry.presentPlural} ${option}`);
     }
   };
 
-  const generateAnswer = () => {};
+  const generateAnswer = () => {
+    console.log(selectedState);
+    switch (selectedOption) {
+      case 'A1':
+        if (selectedState === '+') {
+          return `${selectedSubject} will be ${entry}`;
+        } else if (selectedState === '-') {
+          return `${selectedSubject} won't be ${entry}`;
+        } else {
+          return `will ${selectedSubject} be ${entry}?`;
+        }
+      case 'B1':
+        if (selectedState === '+') {
+          return `${selectedSubject} ${
+            isSubjectSingle ? 'is' : selectedSubject === 'I' ? 'am' : 'are'
+          } ${entry}`;
+        } else if (selectedState === '-') {
+          return `${selectedSubject} ${
+            isSubjectSingle
+              ? `isn't`
+              : selectedSubject === 'I'
+              ? 'am not'
+              : `aren't`
+          } ${entry}`;
+        } else {
+          return `${
+            isSubjectSingle ? `Is` : selectedSubject === 'I' ? 'Am' : `Are`
+          } ${selectedSubject}  ${entry}?`;
+        }
+      case 'C1':
+        if (selectedState === '+') {
+          return `${selectedSubject} ${
+            isSubjectSingle ? 'was' : selectedSubject === 'I' ? 'was' : 'were'
+          } ${entry}`;
+        } else if (selectedState === '-') {
+          return `${selectedSubject} ${
+            isSubjectSingle
+              ? `wasn't`
+              : selectedSubject === 'I'
+              ? `wasn't`
+              : `weren't`
+          } ${entry}`;
+        } else {
+          return `${
+            isSubjectSingle ? `Was` : selectedSubject === 'I' ? `Was` : `Were`
+          } ${selectedSubject} ${entry}?`;
+        }
+      case 'A2':
+        if (typeof entry === 'object') {
+          if (selectedState === '+') {
+            return `${selectedSubject} will ${entry.presentPlural}`;
+          } else if (selectedState === '-') {
+            return `${selectedSubject} won't ${entry.presentPlural}`;
+          } else {
+            return `Will ${selectedSubject} ${entry.presentPlural}?`;
+          }
+        }
+      case 'B2':
+        if (typeof entry === 'object') {
+          if (selectedState === '+') {
+            return `${selectedSubject} ${
+              isSubjectSingle ? entry.presentSingular : entry.presentPlural
+            }`;
+          } else if (selectedState === '-') {
+            return `${selectedSubject} ${
+              isSubjectSingle ? `doesn't` : `don't`
+            } ${entry.presentPlural}`;
+          } else {
+            return `${isSubjectSingle ? `Does` : `Do`} ${selectedSubject} ${
+              entry.presentPlural
+            }?`;
+          }
+        }
+      case 'C2':
+        if (typeof entry === 'object') {
+          if (selectedState === '+') {
+            return `${selectedSubject} ${entry.pastV2}`;
+          } else if (selectedState === '-') {
+            return `${selectedSubject} didn't ${entry.presentPlural}?`;
+          } else {
+            return `Did ${selectedSubject} ${entry.presentPlural}`;
+          }
+        }
+      case 'A3':
+        if (typeof entry === 'object') {
+          if (selectedState === '+') {
+            return `${selectedSubject} will be ${entry.verbIng}`;
+          } else if (selectedState === '-') {
+            return `${selectedSubject} won't ${entry.verbIng}`;
+          } else {
+            return `Will ${selectedSubject} be ${entry.verbIng}?`;
+          }
+        }
+      case 'B3':
+        if (typeof entry === 'object') {
+          if (selectedState === '+') {
+            return `${selectedSubject} ${
+              isSubjectSingle ? `is` : selectedSubject === 'I' ? 'am' : `are`
+            } ${entry.verbIng}`;
+          } else if (selectedState === '-') {
+            return `${selectedSubject} ${
+              isSubjectSingle
+                ? `isn't`
+                : selectedSubject === 'I'
+                ? 'am not'
+                : `aren't`
+            } ${entry.verbIng}`;
+          } else {
+            return `${
+              isSubjectSingle ? `Is` : selectedSubject === 'I' ? 'Am' : `Are`
+            } ${selectedSubject} be ${entry.verbIng}?`;
+          }
+        }
+      case 'C3':
+        if (typeof entry === 'object') {
+          if (selectedState === '+') {
+            return `${selectedSubject} ${
+              isSubjectSingle ? `was` : selectedSubject === 'I' ? `was` : `were`
+            } ${entry.verbIng}`;
+          } else if (selectedState === '-') {
+            return `${selectedSubject} ${
+              isSubjectSingle
+                ? `wasn't`
+                : selectedSubject === 'I'
+                ? `wasn't`
+                : `weren't`
+            } ${entry.verbIng}`;
+          } else {
+            return `${
+              isSubjectSingle
+                ? `Was`
+                : selectedSubject === 'I'
+                ? `Were`
+                : `Were`
+            } ${selectedSubject} ${entry.verbIng}?`;
+          }
+        }
+      case 'A4':
+        if (typeof entry === 'object') {
+          if (selectedState === '+') {
+            return `${selectedSubject} will have ${entry.pastV3}`;
+          } else if (selectedState === '-') {
+            return `${selectedSubject} won't have ${entry.pastV3}`;
+          } else {
+            return `Will ${selectedSubject} have ${entry.pastV3}?`;
+          }
+        }
+      case 'B4':
+        if (typeof entry === 'object') {
+          if (selectedState === '+') {
+            return `${selectedSubject} ${isSubjectSingle ? 'has' : 'have'} ${
+              entry.pastV3
+            }`;
+          } else if (selectedState === '-') {
+            return `${selectedSubject} ${
+              isSubjectSingle ? "hasn't" : "haven't"
+            } ${entry.pastV3}`;
+          } else {
+            return `${selectedSubject} ${isSubjectSingle ? 'has' : 'have'} ${
+              entry.pastV3
+            }?`;
+          }
+        }
+      case 'C4':
+        if (typeof entry === 'object') {
+          if (selectedState === '+') {
+            return `${selectedSubject} had ${entry.pastV3}`;
+          } else if (selectedState === '-') {
+            return `${selectedSubject} hadn't ${entry.pastV3}`;
+          } else {
+            return `Had ${entry.pastV3}?`;
+          }
+        }
+    }
+  };
 
   const handleInputChange = (text: string) => {
     setInputText(text);
@@ -93,16 +290,28 @@ const Home = () => {
         </View>
       </View>
       <Table />
-      <TouchableOpacity style={styles.askButton} activeOpacity={0.7}>
+      <TouchableOpacity
+        style={styles.askButton}
+        activeOpacity={0.7}
+        onPress={() => generateQuestion()}>
         <Text style={styles.askButtonText}>Sor</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.askButton}
+        activeOpacity={0.7}
+        onPress={() => setAnswer(generateAnswer() || '')}>
+        <Text style={styles.askButtonText}>Cevabı Gör</Text>
       </TouchableOpacity>
       <View style={styles.questionContainer}>
         <View style={styles.subjectContainer}>
-          <Text style={styles.readyText}>you</Text>
+          <Text style={styles.readyText}>{selectedSubject}</Text>
         </View>
         <View style={styles.sentenceContainer}>
-          <Text style={styles.readyText}>lend a helping hand</Text>
+          <Text style={styles.readyText}>{question}</Text>
         </View>
+      </View>
+      <View>
+        <Text>{answer}</Text>
       </View>
       <View style={styles.answerContainer}>
         <TextInput
