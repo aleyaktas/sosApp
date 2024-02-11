@@ -1,22 +1,78 @@
 [
-  "similar to your friends",
-  "at work",
-  "positive",
-  "really lucky",
-  "so kind",
-  "lazy",
-  "independent",
-  "unlucky",
-  "sensible",
-  "rich",
-  "actually sorry",
-  "in the class",
-  "afraid of snakes",
-  "talented",
-  "really hot",
-  "social",
-  "quite different",
-  "crazy",
-  "very beautiful",
-  "in the park"
+  {
+    "presentPlural": "similar to your friends",
+    "turkishMean": "arkadaşlarına benzer"
+  },
+  {
+    "presentPlural": "at work",
+    "turkishMean": "işte"
+  },
+  {
+    "presentPlural": "positive",
+    "turkishMean": "olumlu"
+  },
+  {
+    "presentPlural": "really lucky",
+    "turkishMean": "gerçekten şanslı"
+  },
+  {
+    "presentPlural": "so kind",
+    "turkishMean": "çok nazik"
+  },
+  {
+    "presentPlural": "lazy",
+    "turkishMean": "tembel"
+  },
+  {
+    "presentPlural": "independent",
+    "turkishMean": "bağımsız"
+  },
+  {
+    "presentPlural": "unlucky",
+    "turkishMean": "şanssız"
+  },
+  {
+    "presentPlural": "sensible",
+    "turkishMean": "mantıklı"
+  },
+  {
+    "presentPlural": "rich",
+    "turkishMean": "zengin"
+  },
+  {
+    "presentPlural": "actually sorry",
+    "turkishMean": "aslında üzgün"
+  },
+  {
+    "presentPlural": "in the class",
+    "turkishMean": "sınıfta"
+  },
+  {
+    "presentPlural": "afraid of snakes",
+    "turkishMean": "yılanlardan korkan"
+  },
+  {
+    "presentPlural": "talented",
+    "turkishMean": "yetenekli"
+  },
+  {
+    "presentPlural": "social",
+    "turkishMean": "sosyal"
+  },
+  {
+    "presentPlural": "quite different",
+    "turkishMean": "oldukça farklı"
+  },
+  {
+    "presentPlural": "crazy",
+    "turkishMean": "çılgın"
+  },
+  {
+    "presentPlural": "very beautiful",
+    "turkishMean": "çok güzel"
+  },
+  {
+    "presentPlural": "in the park",
+    "turkishMean": "parkta"
+  }
 ]

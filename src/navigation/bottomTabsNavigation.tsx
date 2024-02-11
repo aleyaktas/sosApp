@@ -1,13 +1,11 @@
-// BottomTabNavigation.tsx
-
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home';
+import Icon from '../themes/Icon';
 import {RouteProp} from '@react-navigation/native';
 
 export type BottomTabParamList = {
   Home: undefined;
-  // Diğer ekranlar buraya eklenebilir
 };
 
 export type BottomTabNavigationProp<T extends keyof BottomTabParamList> = {
@@ -25,7 +23,11 @@ const BottomTabNavigation: React.FC = () => {
         name="Home"
         component={Home}
         options={{
-          headerTitle: 'Sos Uygulaması',
+          headerTitle: 'Sos Tablosu',
+          headerTitleAlign: 'center',
+          tabBarActiveTintColor: 'black',
+          // headerShown: false,
+          tabBarIcon: () => <Icon name="Home" color="black" />,
         }}
       />
     </BottomTab.Navigator>

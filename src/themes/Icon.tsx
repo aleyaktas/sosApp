@@ -4,12 +4,20 @@ import User from '../assets/icons/User.svg';
 import Mail from '../assets/icons/Mail.svg';
 import Lock from '../assets/icons/Lock.svg';
 import Tick from '../assets/icons/Tick.svg';
+import Mic from '../assets/icons/Mic.svg';
+import ToastError from '../assets/icons/ToastError.svg';
+import ToastSuccess from '../assets/icons/ToastSuccess.svg';
+import Home from '../assets/icons/Home.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
   Mail,
   Lock,
   Tick,
+  Mic,
+  ToastError,
+  ToastSuccess,
+  Home,
 };
 
 interface IconProps {
