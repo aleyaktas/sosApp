@@ -8,6 +8,9 @@ import {
   StyleSheet,
   Alert,
   KeyboardAvoidingView,
+  Image,
+  PermissionsAndroid,
+  Platform,
 } from 'react-native';
 import CheckBox from 'react-native-check-box';
 import Table from '../components/Table';
@@ -15,9 +18,10 @@ import verbs from '../utils/verbs.json';
 import nouns from '../utils/nouns.json';
 import {useEffect, useState} from 'react';
 import {IVerb} from '../types';
-import Voice from '@react-native-community/voice';
+import Voice from '@react-native-voice/voice';
 import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
+import Icon from '../themes/Icon';
 
 const Home = () => {
   const [inputText, setInputText] = useState('');
@@ -189,7 +193,7 @@ const Home = () => {
         if (state === '+') {
           return `${subject} will be ${selectedEntry.verbIng}`;
         } else if (state === '-') {
-          return `${subject} won't ${selectedEntry.verbIng}`;
+          return `${subject} won't be ${selectedEntry.verbIng}`;
         } else {
           return `Will ${subject} be ${selectedEntry.verbIng}?`;
         }
@@ -266,13 +270,31 @@ const Home = () => {
     setInputText(text);
   };
 
+  const contractions = {
+    'is not': "isn't",
+    'are not': "aren't",
+    'will not': "won't",
+    'has not': "hasn't",
+    'have not': "haven't",
+    'had not': "hadn't",
+    'would not': "wouldn't",
+    'could not': "couldn't",
+    'should not': "shouldn't",
+    'do not': "don't",
+    'does not': "doesn't",
+    'did not': "didn't",
+  };
+
   const handleButtonPress = () => {
     setSelectedOption('');
     setSelectedState('');
-    if (
-      answer.toLowerCase().replace(/[?.,]/g, '') ===
-      inputText.toLowerCase().replace(/[?.,]/g, '')
-    ) {
+
+    const normalizedInput = inputText.toLowerCase().replace(/[?.,]/g, '');
+    const normalizedAnswer = answer.toLowerCase().replace(/[?.,]/g, '');
+    const normalizedInputWithContractions =
+      replaceContractions(normalizedInput);
+
+    if (normalizedAnswer === normalizedInputWithContractions) {
       setCorrectAnswers(correctAnswers + 1);
       showMessage('Correct answer!', 'success');
       setIsAnswerVisible(true);
@@ -284,18 +306,24 @@ const Home = () => {
     }
   };
 
-  const [recognized, setRecognized] = useState('');
-  const [volume, setVolume] = useState('');
-  const [error, setError] = useState('');
-  const [end, setEnd] = useState('');
+  const replaceContractions = (text: string): string => {
+    Object.entries(contractions).forEach(([key, value]) => {
+      text = text.replace(new RegExp(key, 'g'), value);
+    });
+    return text;
+  };
+
   const [started, setStarted] = useState('');
-  const [results, setResults] = useState([]);
-  const [partialResults, setPartialResults] = useState([]);
+  const [ended, setEnded] = useState('');
+  const [results, setResults] = useState<string[]>([]);
 
   useEffect(() => {
     Voice.onSpeechStart = onSpeechStart;
-    Voice.onSpeechEnd = stopListing;
+    Voice.onSpeechEnd = onSpeechEnd;
     Voice.onSpeechResults = onSpeechResults;
+    Voice.onSpeechError = error => {
+      console.log('error', error);
+    };
 
     return () => {
       Voice.destroy().then(Voice.removeAllListeners);
@@ -303,33 +331,40 @@ const Home = () => {
   }, []);
 
   const onSpeechStart = (e: any) => {
-    console.log('onSpeechStart: ', e);
+    console.log('onSpeechStart', e);
+    setStarted('√');
   };
 
-  // const onSpeechEnd = (e: any) => {
-  //   console.log('onSpeechEnd: ', e);
-  // };
+  const onSpeechEnd = (e: any) => {
+    console.log('onSpeechEnd', e);
+    setEnded('√');
+  };
 
   const onSpeechResults = (e: any) => {
-    console.log('onSpeechResults: ', e);
-    const text = e.value[0];
-    setRecognized(text);
+    console.log('onSpeechResults', e.value[0]);
+    setResults(e.value);
+    setInputText(e.value[0]);
   };
 
-  const startListing = async () => {
+  const startRecognizing = async () => {
     try {
-      await Voice.start('en-US');
-    } catch (error) {
-      console.log(error);
+      await Voice.start('en_US');
+      setStarted('');
+      setEnded('');
+      setResults([]);
+    } catch (e) {
+      console.log(e);
     }
   };
 
-  const stopListing = async () => {
+  const stopRecognizing = async () => {
     try {
-      Voice.removeAllListeners();
       await Voice.stop();
-    } catch (error) {
-      console.log(error);
+      setStarted('');
+      setEnded('');
+      setResults([]);
+    } catch (e) {
+      console.error(e);
     }
   };
 
@@ -413,12 +448,18 @@ const Home = () => {
                   value={inputText}
                   placeholderTextColor={'#282828'}
                 />
-                {/* <TouchableOpacity
-                  // onPressIn={startListing}
-                  // onPressOut={stopListing}
-                  onPress={startListing}>
+                <TouchableOpacity
+                  // onPress={() => {
+                  //   startRecognizing();
+                  // }}
+                  onPressIn={() => {
+                    startRecognizing();
+                  }}
+                  onPressOut={() => {
+                    stopRecognizing();
+                  }}>
                   <Icon name="Mic" color="#282828" />
-                </TouchableOpacity> */}
+                </TouchableOpacity>
               </View>
 
               <TouchableOpacity
@@ -435,6 +476,7 @@ const Home = () => {
               </TouchableOpacity>
             </View>
           )}
+
           <CheckBox
             style={{
               borderRadius: 8,
@@ -455,12 +497,6 @@ const Home = () => {
             }}
             checkBoxColor="green"
           />
-          {results.map((result, index) => {
-            return <Text key={`result-${index}`}>{result}</Text>;
-          })}
-          {partialResults.map((result, index) => {
-            return <Text key={`partial-result-${index}`}>{result}</Text>;
-          })}
         </ScrollView>
       </KeyboardAvoidingView>
     </SafeAreaView>
