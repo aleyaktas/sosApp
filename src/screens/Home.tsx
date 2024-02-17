@@ -15,6 +15,8 @@ import {
 import CheckBox from 'react-native-check-box';
 import Table from '../components/Table';
 import verbs from '../utils/verbs.json';
+import kidVerbs from '../utils/kidVerbs.json';
+import kidNouns from '../utils/kidNouns.json';
 import nouns from '../utils/nouns.json';
 import {useEffect, useState} from 'react';
 import {IVerb} from '../types';
@@ -43,27 +45,10 @@ const Home = () => {
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(0);
-  const [isTimerRunning, setIsTimerRunning] = useState(false);
   const [time, setTime] = useState(15);
   const [isKid, setIsKid] = useState(false);
 
   const subjects = ['I', 'you', 'he', 'she', 'it', 'we', 'they'];
-
-  const UrgeWithPleasureComponent = () => (
-    <View>
-      <CountdownCircleTimer
-        key={!isAnswerVisible ? time : undefined}
-        size={40}
-        strokeWidth={5}
-        isPlaying={!isAnswerVisible}
-        duration={time}
-        onComplete={() => handleButtonPress()}
-        colors={['#2AC769', '#86E892', '#FB4E4E', '#F12100']}
-        colorsTime={[time, (2 * time) / 3, time / 3, 0]}>
-        {({remainingTime}) => <Text>{remainingTime.toString()}</Text>}
-      </CountdownCircleTimer>
-    </View>
-  );
 
   const getRandomStates = () => {
     const length = selectedSymbols.length;
@@ -90,6 +75,7 @@ const Home = () => {
   };
 
   const generateQuestion = () => {
+    let entry: IVerb;
     setInputText('');
     const subject = getRandomSubject();
     const state = getRandomStates();
@@ -102,8 +88,14 @@ const Home = () => {
     setSelectedOption(option);
 
     if (option[1] === '1') {
-      const entry = getRandomEntry(false);
-      setEntry(entry);
+      console.log('option 1', isKid);
+      if (isKid) {
+        entry = kidNouns;
+        setEntry(kidNouns);
+      } else {
+        entry = getRandomEntry(false);
+        setEntry(entry);
+      }
       const answer = generateAnswer(
         option,
         entry,
@@ -116,8 +108,18 @@ const Home = () => {
         ? setQuestion(`(${state}) ${entry.presentPlural} (${option})`)
         : setQuestion(`(${state}) be ${entry.presentPlural} (${option})`);
     } else {
-      const entry = getRandomEntry(true);
-      setEntry(entry);
+      if (isKid) {
+        entry =
+          option[1] === '2'
+            ? kidVerbs[0]
+            : option[1] === '3'
+            ? kidVerbs[1]
+            : kidVerbs[2];
+        setEntry(entry);
+      } else {
+        entry = getRandomEntry(true);
+        setEntry(entry);
+      }
       const answer = generateAnswer(
         option,
         entry,
@@ -459,21 +461,61 @@ const Home = () => {
               style={{
                 flex: 1,
               }}>
-              <Text>
-                <Text style={{fontWeight: 'bold', color: 'black'}}>
+              <View
+                style={{
+                  flex: 1,
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  marginBottom: 8,
+                }}>
+                <Text
+                  style={{
+                    fontWeight: 'bold',
+                    color: 'black',
+                    alignSelf: 'flex-start',
+                  }}>
                   Anlam:{' '}
                 </Text>
-                {isAnswerVisible &&
-                  entry.turkishMean.charAt(0).toUpperCase() +
-                    entry.turkishMean.slice(1)}
-              </Text>
-              <Text>
-                <Text style={{fontWeight: 'bold', color: 'black'}}>
+                {isAnswerVisible ? (
+                  <Text
+                    style={{
+                      color: '#6c6c6c',
+                      flex: 1,
+                    }}>
+                    {entry.turkishMean.charAt(0).toUpperCase() +
+                      entry.turkishMean.slice(1)}
+                  </Text>
+                ) : (
+                  <Icon name="Lock" color="#6c6c6c" width={16} height={16} />
+                )}
+              </View>
+              <View
+                style={{
+                  flex: 1,
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  marginBottom: 8,
+                }}>
+                <Text
+                  style={{
+                    fontWeight: 'bold',
+                    color: 'black',
+                    alignSelf: 'flex-start',
+                  }}>
                   Cevap:{' '}
                 </Text>
-                {isAnswerVisible &&
-                  answer.charAt(0).toUpperCase() + answer.slice(1)}
-              </Text>
+                {isAnswerVisible ? (
+                  <Text
+                    style={{
+                      color: '#6c6c6c',
+                      flex: 1,
+                    }}>
+                    {answer.charAt(0).toUpperCase() + answer.slice(1)}
+                  </Text>
+                ) : (
+                  <Icon name="Lock" color="#6c6c6c" width={16} height={16} />
+                )}
+              </View>
             </View>
             <View
               style={{
@@ -564,7 +606,7 @@ const Home = () => {
             onClick={() => {
               setIsKid(!isKid);
             }}
-            isChecked={isChecked}
+            isChecked={isKid}
             rightText="Aliş Kid"
             rightTextStyle={{
               flex: 0,

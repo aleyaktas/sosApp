@@ -1,0 +1,29 @@
+[
+  {
+    "verb": "love",
+    "presentPlural": "love",
+    "presentSingular": "loves",
+    "pastV2": "loved",
+    "verbIng": "loving",
+    "pastV3": "loved",
+    "turkishMean": "sevmek"
+  },
+  {
+    "verb": "study",
+    "presentPlural": "study",
+    "presentSingular": "studies",
+    "pastV2": "studied",
+    "verbIng": "studying",
+    "pastV3": "studied",
+    "turkishMean": "çalışmak"
+  },
+  {
+    "verb": "learn",
+    "presentPlural": "learn",
+    "presentSingular": "learns",
+    "pastV2": "learned",
+    "verbIng": "learning",
+    "pastV3": "learned",
+    "turkishMean": "öğrenmek"
+  }
+]
