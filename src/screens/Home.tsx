@@ -22,6 +22,7 @@ import Voice from '@react-native-voice/voice';
 import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
 import Icon from '../themes/Icon';
+import {CountdownCircleTimer} from 'react-native-countdown-circle-timer';
 
 const Home = () => {
   const [inputText, setInputText] = useState('');
@@ -42,8 +43,27 @@ const Home = () => {
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(0);
+  const [isTimerRunning, setIsTimerRunning] = useState(false);
+  const [time, setTime] = useState(15);
+  const [isKid, setIsKid] = useState(false);
 
   const subjects = ['I', 'you', 'he', 'she', 'it', 'we', 'they'];
+
+  const UrgeWithPleasureComponent = () => (
+    <View>
+      <CountdownCircleTimer
+        key={!isAnswerVisible ? time : undefined}
+        size={40}
+        strokeWidth={5}
+        isPlaying={!isAnswerVisible}
+        duration={time}
+        onComplete={() => handleButtonPress()}
+        colors={['#2AC769', '#86E892', '#FB4E4E', '#F12100']}
+        colorsTime={[time, (2 * time) / 3, time / 3, 0]}>
+        {({remainingTime}) => <Text>{remainingTime.toString()}</Text>}
+      </CountdownCircleTimer>
+    </View>
+  );
 
   const getRandomStates = () => {
     const length = selectedSymbols.length;
@@ -285,6 +305,22 @@ const Home = () => {
     'did not': "didn't",
   };
 
+  const handleAskButton = () => {
+    if (selectedCells.length === 0 || selectedSymbols.length === 0) {
+      return Alert.alert('Warning!', 'Please select a state and an option');
+    }
+
+    isAnswerVisible && generateQuestion();
+    !isAnswerVisible && setSelectedOption('');
+    !isAnswerVisible && setSelectedState('');
+    setIsAnswerVisible(!isAnswerVisible);
+    setTotalQuestions(totalQuestions + 1);
+  };
+
+  useEffect(() => {
+    setTime(15);
+  }, [isAnswerVisible]);
+
   const handleButtonPress = () => {
     setSelectedOption('');
     setSelectedState('');
@@ -304,6 +340,7 @@ const Home = () => {
       showMessage('Wrong answer!', 'error');
       setIsAnswerVisible(true);
     }
+    handleAskButton();
   };
 
   const replaceContractions = (text: string): string => {
@@ -396,17 +433,7 @@ const Home = () => {
             style={styles.askButton}
             activeOpacity={0.7}
             onPress={() => {
-              if (selectedCells.length === 0 || selectedSymbols.length === 0) {
-                return Alert.alert(
-                  'Warning!',
-                  'Please select a state and an option',
-                );
-              }
-              isAnswerVisible && generateQuestion();
-              !isAnswerVisible && setSelectedOption('');
-              !isAnswerVisible && setSelectedState('');
-              setIsAnswerVisible(!isAnswerVisible);
-              setTotalQuestions(totalQuestions + 1);
+              handleAskButton();
             }}>
             <Text style={styles.askButtonText}>
               {isAnswerVisible ? 'SOR' : 'CEVABI GÖR'}
@@ -423,18 +450,47 @@ const Home = () => {
           <View
             style={{
               paddingTop: 8,
+              display: 'flex',
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              alignItems: 'center',
             }}>
-            <Text>
-              <Text style={{fontWeight: 'bold', color: 'black'}}>Anlam: </Text>
-              {isAnswerVisible &&
-                entry.turkishMean.charAt(0).toUpperCase() +
-                  entry.turkishMean.slice(1)}
-            </Text>
-            <Text>
-              <Text style={{fontWeight: 'bold', color: 'black'}}>Cevap: </Text>
-              {isAnswerVisible &&
-                answer.charAt(0).toUpperCase() + answer.slice(1)}
-            </Text>
+            <View
+              style={{
+                flex: 1,
+              }}>
+              <Text>
+                <Text style={{fontWeight: 'bold', color: 'black'}}>
+                  Anlam:{' '}
+                </Text>
+                {isAnswerVisible &&
+                  entry.turkishMean.charAt(0).toUpperCase() +
+                    entry.turkishMean.slice(1)}
+              </Text>
+              <Text>
+                <Text style={{fontWeight: 'bold', color: 'black'}}>
+                  Cevap:{' '}
+                </Text>
+                {isAnswerVisible &&
+                  answer.charAt(0).toUpperCase() + answer.slice(1)}
+              </Text>
+            </View>
+            <View
+              style={{
+                marginRight: 20,
+              }}>
+              <CountdownCircleTimer
+                key={!isAnswerVisible ? time : undefined}
+                size={40}
+                strokeWidth={5}
+                isPlaying={!isAnswerVisible}
+                duration={time}
+                onComplete={() => handleButtonPress()}
+                colors={['#2AC769', '#86E892', '#FB4E4E', '#F12100']}
+                colorsTime={[time, (2 * time) / 3, time / 3, 0]}>
+                {({remainingTime}) => <Text>{remainingTime.toString()}</Text>}
+              </CountdownCircleTimer>
+            </View>
           </View>
           {isChecked && (
             <View style={styles.answerContainer}>
@@ -490,6 +546,26 @@ const Home = () => {
             }}
             isChecked={isChecked}
             rightText="Soruyu cevaplamak istiyorum"
+            rightTextStyle={{
+              flex: 0,
+              marginLeft: 2,
+              color: 'black',
+            }}
+            checkBoxColor="green"
+          />
+          <CheckBox
+            style={{
+              borderRadius: 8,
+              marginTop: 8,
+              width: 'auto',
+              height: 'auto',
+              alignSelf: 'flex-start',
+            }}
+            onClick={() => {
+              setIsKid(!isKid);
+            }}
+            isChecked={isChecked}
+            rightText="Aliş Kid"
             rightTextStyle={{
               flex: 0,
               marginLeft: 2,
