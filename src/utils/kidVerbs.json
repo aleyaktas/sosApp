@@ -1,29 +1,29 @@
 [
   {
-    "verb": "love",
-    "presentPlural": "love",
-    "presentSingular": "loves",
-    "pastV2": "loved",
-    "verbIng": "loving",
-    "pastV3": "loved",
-    "turkishMean": "sevmek"
+    "verb": "love Ayşe",
+    "presentPlural": "love Ayşe",
+    "presentSingular": "loves Ayşe",
+    "pastV2": "loved Ayşe",
+    "verbIng": "loving Ayşe",
+    "pastV3": "loved Ayşe",
+    "turkishMean": "Ayşe'yi sevmek"
   },
   {
-    "verb": "study",
-    "presentPlural": "study",
-    "presentSingular": "studies",
-    "pastV2": "studied",
-    "verbIng": "studying",
-    "pastV3": "studied",
-    "turkishMean": "çalışmak"
+    "verb": "study English",
+    "presentPlural": "study English",
+    "presentSingular": "studies English",
+    "pastV2": "studied English",
+    "verbIng": "studying English",
+    "pastV3": "studied English",
+    "turkishMean": "İngilizce çalışmak"
   },
   {
-    "verb": "learn",
-    "presentPlural": "learn",
-    "presentSingular": "learns",
-    "pastV2": "learned",
-    "verbIng": "learning",
-    "pastV3": "learned",
-    "turkishMean": "öğrenmek"
+    "verb": "learn 100 words",
+    "presentPlural": "learn 100 words",
+    "presentSingular": "learns 100 words",
+    "pastV2": "learned 100 words",
+    "verbIng": "learning 100 words",
+    "pastV3": "learned 100 words",
+    "turkishMean": "100 kelime öğrenmek"
   }
 ]
