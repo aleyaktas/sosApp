@@ -8,6 +8,7 @@ import Mic from '../assets/icons/Mic.svg';
 import ToastError from '../assets/icons/ToastError.svg';
 import ToastSuccess from '../assets/icons/ToastSuccess.svg';
 import Home from '../assets/icons/Home.svg';
+import Sound from '../assets/icons/Sound.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
@@ -18,6 +19,7 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   ToastError,
   ToastSuccess,
   Home,
+  Sound,
 };
 
 interface IconProps {

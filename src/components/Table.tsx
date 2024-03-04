@@ -2,6 +2,7 @@ import React, {useEffect, useRef} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet, Animated} from 'react-native';
 import Icon from '../themes/Icon';
 import Blink from './Blink';
+import Triangle from './Triangle';
 
 interface TableProps {
   selectedCells: string[];
@@ -20,8 +21,25 @@ const Table = ({
   selectedCell,
   selectedSymbol,
 }: TableProps) => {
+  useEffect(() => {
+    console.log('selectedCells', selectedCells);
+  }, [selectedCells]);
+
   const handleCellPress = (cell: string) => {
     setSelectedCells(prevSelectedCells => {
+      if (cell.split('-').length > 1) {
+        if (!prevSelectedCells.includes(cell)) {
+          const [cellName, selected] = cell.split('-');
+          const findCell = prevSelectedCells.find(pCell =>
+            pCell.includes(cellName),
+          );
+          if (findCell && findCell.split('-')[1] === selected) {
+            return prevSelectedCells.filter(pCell => pCell !== cell);
+          } else if (findCell && findCell.split('-')[1] !== selected) {
+            return [...prevSelectedCells, cell];
+          }
+        }
+      }
       const isSelected = prevSelectedCells.includes(cell);
       if (isSelected) {
         return prevSelectedCells.filter(selectedCell => selectedCell !== cell);
@@ -52,15 +70,62 @@ const Table = ({
   const renderRow = (rowHeader: string) => (
     <View style={styles.row} key={rowHeader}>
       <Text style={styles.header}>{rowHeader}</Text>
-      {[1, 2, 3, 4].map(colHeader => (
-        <TouchableOpacity
-          activeOpacity={0.7}
-          key={colHeader}
-          style={styles.cell}
-          disabled={selectedCell !== ''}
-          onPress={() => handleCellPress(`${rowHeader}${colHeader}`)}>
-          {selectedCell === `${rowHeader}${colHeader}` ? (
-            <Blink duration={600}>
+      {[1, 2, 3, 4].map(colHeader => {
+        if (
+          (rowHeader === 'A' && colHeader === 1) ||
+          (rowHeader === 'A' && colHeader === 2)
+        ) {
+          return (
+            <TouchableOpacity
+              activeOpacity={0.7}
+              key={colHeader}
+              style={styles.cell}
+              disabled={selectedCell !== ''}
+              // onPress={() => handleCellPress(`${rowHeader}${colHeader}`)}
+            >
+              <View
+                style={[styles.radioButton, {}]}
+                key={`${rowHeader}${colHeader}`}>
+                <Triangle
+                  activeW={isCellSelected(`${rowHeader}${colHeader}-W`)}
+                  activeG={isCellSelected(`${rowHeader}${colHeader}-G`)}
+                  // selectedCell={selectedCell}
+                  isWSelected={selectedCell === `${rowHeader}${colHeader}-W`}
+                  isGSelected={selectedCell === `${rowHeader}${colHeader}-G`}
+                  handlePress={cell =>
+                    handleCellPress(`${rowHeader}${colHeader}-${cell}`)
+                  }
+                />
+              </View>
+            </TouchableOpacity>
+          );
+        }
+        return (
+          <TouchableOpacity
+            activeOpacity={0.7}
+            key={colHeader}
+            style={styles.cell}
+            disabled={selectedCell !== ''}
+            onPress={() => handleCellPress(`${rowHeader}${colHeader}`)}>
+            {selectedCell === `${rowHeader}${colHeader}` ? (
+              <Blink duration={600}>
+                <View
+                  style={[
+                    styles.radioButton,
+                    {
+                      backgroundColor: isCellSelected(
+                        `${rowHeader}${colHeader}`,
+                      )
+                        ? '#32936f'
+                        : 'white',
+                    },
+                  ]}>
+                  {isCellSelected(`${rowHeader}${colHeader}`) && (
+                    <Icon name="Tick" color="white" />
+                  )}
+                </View>
+              </Blink>
+            ) : (
               <View
                 style={[
                   styles.radioButton,
@@ -74,24 +139,10 @@ const Table = ({
                   <Icon name="Tick" color="white" />
                 )}
               </View>
-            </Blink>
-          ) : (
-            <View
-              style={[
-                styles.radioButton,
-                {
-                  backgroundColor: isCellSelected(`${rowHeader}${colHeader}`)
-                    ? '#32936f'
-                    : 'white',
-                },
-              ]}>
-              {isCellSelected(`${rowHeader}${colHeader}`) && (
-                <Icon name="Tick" color="white" />
-              )}
-            </View>
-          )}
-        </TouchableOpacity>
-      ))}
+            )}
+          </TouchableOpacity>
+        );
+      })}
     </View>
   );
 

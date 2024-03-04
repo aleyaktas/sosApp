@@ -40,7 +40,6 @@ const Blink: React.FC<BlinkProps> = ({
     animate();
 
     return () => {
-      // Animasyon bileşen demontaj edildiğinde durdurulur.
       fadeAnimation.setValue(0);
     };
   }, [fadeAnimation, duration, repeat_count]);

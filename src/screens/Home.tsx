@@ -22,7 +22,11 @@ import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
 import Icon from '../themes/Icon';
 import {CountdownCircleTimer} from 'react-native-countdown-circle-timer';
+import {handleVoice} from '../helpers/voiceCenter';
 import Tts from 'react-native-tts';
+import Triangle from '../components/Triangle';
+import App from '../components/Triangle';
+import TriangleRectangle from '../components/Triangle';
 
 const Home = () => {
   const [inputText, setInputText] = useState('');
@@ -52,37 +56,24 @@ const Home = () => {
 
   const subjects = ['I', 'you', 'he', 'she', 'it', 'we', 'they'];
 
-  const getRandomStates = () => {
-    const length = selectedSymbols.length;
+  const getRandomItem = (array: any) => {
+    const length = array.length;
     const randomIndex = Math.floor(Math.random() * length);
-    console.log('randomIndex', selectedSymbols[randomIndex]);
-    return selectedSymbols[randomIndex];
+    return array[randomIndex];
   };
 
-  const getRandomOption = () => {
-    const length = selectedCells.length;
-    const randomIndex = Math.floor(Math.random() * length);
-    return selectedCells[randomIndex];
-  };
+  Tts.setDefaultLanguage('en-US');
+  Tts.setDefaultVoice('com.apple.ttsbundle.Samantha-compact');
 
-  const getRandomSubject = () => {
-    const length = subjects.length;
-    const randomIndex = Math.floor(Math.random() * length);
-    return subjects[randomIndex];
-  };
-
-  const getRandomEntry: (isVerb: boolean) => IVerb = isVerb => {
-    const length = isVerb ? verbs.length : nouns.length;
-    const randomIndex = Math.floor(Math.random() * length);
-    return isVerb ? verbs[randomIndex] : nouns[randomIndex];
-  };
+  Tts.setDefaultRate(0.5);
+  Tts.setDefaultPitch(1);
 
   const generateQuestion = () => {
     let entry: IVerb;
     setInputText('');
-    const subject = getRandomSubject();
-    const state = getRandomStates();
-    const option = getRandomOption();
+    const subject = getRandomItem(subjects);
+    const state = getRandomItem(selectedSymbols);
+    const option = getRandomItem(selectedCells);
     setSelectedSubject(subject);
     setIsSubjectSingle(
       subject === 'he' || subject === 'she' || subject === 'it',
@@ -100,7 +91,7 @@ const Home = () => {
         entry = kidNouns;
         setEntry(kidNouns);
       } else {
-        entry = getRandomEntry(false);
+        entry = getRandomItem(nouns);
         setEntry(entry);
       }
       const answer = generateAnswer(
@@ -124,7 +115,7 @@ const Home = () => {
             : kidVerbs[2];
         setEntry(entry);
       } else {
-        entry = getRandomEntry(true);
+        entry = getRandomItem(verbs);
         setEntry(entry);
       }
       const answer = generateAnswer(
@@ -147,13 +138,27 @@ const Home = () => {
     isSingle: boolean,
   ) => {
     switch (option) {
-      case 'A1':
+      case 'A1-W':
         if (state === '+') {
           return `${subject} will be ${selectedEntry.presentPlural}`;
         } else if (state === '-') {
           return `${subject} won't be ${selectedEntry.presentPlural}`;
         } else {
           return `will ${subject} be ${selectedEntry.presentPlural}?`;
+        }
+      case 'A1-G':
+        if (state === '+') {
+          return `${subject} ${
+            isSingle ? 'is' : subject === 'I' ? 'am' : 'are'
+          } going to be ${selectedEntry.presentPlural}`;
+        } else if (state === '-') {
+          return `${subject} ${
+            isSingle ? `isn't` : subject === 'I' ? 'am not' : `aren't`
+          } going to be ${selectedEntry.presentPlural}`;
+        } else {
+          return `${
+            isSingle ? `Is` : subject === 'I' ? 'Am' : `Are`
+          } ${subject} going to be ${selectedEntry.presentPlural}?`;
         }
       case 'B1':
         if (state === '+') {
@@ -183,7 +188,7 @@ const Home = () => {
             isSingle ? `Was` : subject === 'I' ? `Was` : `Were`
           } ${subject} ${selectedEntry.presentPlural}?`;
         }
-      case 'A2':
+      case 'A2-W':
         if (state === '+') {
           return `${subject} will ${selectedEntry.presentPlural}`;
         } else if (state === '-') {
@@ -191,7 +196,20 @@ const Home = () => {
         } else {
           return `Will ${subject} ${selectedEntry.presentPlural}?`;
         }
-
+      case 'A2-G':
+        if (state === '+') {
+          return `${subject} ${
+            isSingle ? 'is' : subject === 'I' ? 'am' : 'are'
+          } going to ${selectedEntry.presentPlural}`;
+        } else if (state === '-') {
+          return `${subject} ${
+            isSingle ? `isn't` : subject === 'I' ? 'am not' : `aren't`
+          } going to ${selectedEntry.presentPlural}`;
+        } else {
+          return `${
+            isSingle ? `Is` : subject === 'I' ? 'Am' : `Are`
+          } ${subject} going to ${selectedEntry.presentPlural}?`;
+        }
       case 'B2':
         if (state === '+') {
           return `${subject} ${
@@ -217,7 +235,6 @@ const Home = () => {
         } else {
           return `Did ${subject} ${selectedEntry.presentPlural}?`;
         }
-
       case 'A3':
         if (state === '+') {
           return `${subject} will be ${selectedEntry.verbIng}`;
@@ -267,6 +284,7 @@ const Home = () => {
             return `Will ${subject} have ${selectedEntry.pastV3}?`;
           }
         }
+
       case 'B4':
         if (state === '+') {
           return `${subject} ${isSingle ? 'has' : 'have'} ${
@@ -325,6 +343,7 @@ const Home = () => {
     isAnswerVisible && setTotalQuestions(totalQuestions + 1);
     !isAnswerVisible && setSelectedOption('');
     !isAnswerVisible && setSelectedState('');
+    !isAnswerVisible && handleVoice(answer);
     setIsAnswerVisible(!isAnswerVisible);
   };
 
@@ -332,7 +351,7 @@ const Home = () => {
     setTime(15);
   }, [isAnswerVisible]);
 
-  const handleButtonPress = () => {
+  const checkAnswer = () => {
     setSelectedOption('');
     setSelectedState('');
 
@@ -605,7 +624,12 @@ const Home = () => {
             <View style={styles.subjectContainer}>
               <Text style={styles.readyText}>{selectedSubject}</Text>
             </View>
-            <TouchableOpacity style={styles.sentenceContainer}>
+            <TouchableOpacity
+              style={styles.sentenceContainer}
+              activeOpacity={0.7}
+              onPress={() => {
+                handleVoice(question);
+              }}>
               <Text style={styles.readyText}>{question}</Text>
             </TouchableOpacity>
           </View>
@@ -665,13 +689,24 @@ const Home = () => {
                   Cevap:{' '}
                 </Text>
                 {isAnswerVisible ? (
-                  <Text
+                  <TouchableOpacity
                     style={{
-                      color: '#6c6c6c',
                       flex: 1,
-                    }}>
-                    {answer.charAt(0).toUpperCase() + answer.slice(1)}
-                  </Text>
+                      flexDirection: 'row',
+                      justifyContent: 'space-between',
+                      alignItems: 'flex-start',
+                    }}
+                    onPress={() => {
+                      handleVoice(answer);
+                    }}
+                    activeOpacity={0.7}>
+                    <Text
+                      style={{
+                        color: '#6c6c6c',
+                      }}>
+                      {answer.charAt(0).toUpperCase() + answer.slice(1)}
+                    </Text>
+                  </TouchableOpacity>
                 ) : (
                   <Icon name="Lock" color="#6c6c6c" width={16} height={16} />
                 )}
@@ -681,22 +716,45 @@ const Home = () => {
               style={{
                 marginRight: 20,
               }}>
-              <CountdownCircleTimer
-                key={!isAnswerVisible ? time : undefined}
-                size={40}
-                strokeWidth={5}
-                isPlaying={!isAnswerVisible}
-                duration={time}
-                onComplete={() => handleButtonPress()}
-                colors={['#2AC769', '#86E892', '#FB4E4E', '#F12100']}
-                colorsTime={[time, (2 * time) / 3, time / 3, 0]}>
-                {({remainingTime}) => <Text>{remainingTime.toString()}</Text>}
-              </CountdownCircleTimer>
+              <TouchableOpacity
+                onPress={() => handleVoice(answer)}
+                activeOpacity={0.7}>
+                <CountdownCircleTimer
+                  key={!isAnswerVisible ? time : undefined}
+                  size={40}
+                  strokeWidth={5}
+                  isPlaying={!isAnswerVisible}
+                  duration={time}
+                  onComplete={() => checkAnswer()}
+                  colors={['#2AC769', '#86E892', '#FB4E4E', '#F12100']}
+                  colorsTime={[time, (2 * time) / 3, time / 3, 0]}>
+                  {({remainingTime}) =>
+                    isAnswerVisible && answer ? (
+                      <TouchableOpacity
+                        onPress={() => handleVoice(answer)}
+                        activeOpacity={0.7}>
+                        <Icon
+                          name="Sound"
+                          color="#6c6c6c"
+                          width={16}
+                          height={16}
+                        />
+                      </TouchableOpacity>
+                    ) : (
+                      <Text>{remainingTime.toString()}</Text>
+                    )
+                  }
+                </CountdownCircleTimer>
+              </TouchableOpacity>
             </View>
           </View>
           {isChecked && (
             <View style={styles.answerContainer}>
-              <View style={styles.input}>
+              <View
+                style={[
+                  styles.input,
+                  started ? styles.voiceInput : styles.input,
+                ]}>
                 <TextInput
                   placeholder="Bir şeyler yazın..."
                   onChangeText={handleInputChange}
@@ -726,7 +784,7 @@ const Home = () => {
                 ]}
                 activeOpacity={0.7}
                 disabled={isAnswerVisible || !answer || !inputText}
-                onPress={() => handleButtonPress()}>
+                onPress={() => checkAnswer()}>
                 <Text style={styles.askButtonText}>Cevapla</Text>
               </TouchableOpacity>
             </View>
@@ -772,6 +830,16 @@ const Home = () => {
             }}
             checkBoxColor="green"
           />
+          {/* <View
+            style={{
+              width: 250,
+              height: 200,
+              justifyContent: 'center',
+              alignItems: 'center',
+              marginTop: 16,
+            }}>
+            <TriangleRectangle />
+          </View> */}
         </ScrollView>
       </KeyboardAvoidingView>
     </SafeAreaView>
@@ -832,14 +900,12 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     marginTop: 16,
   },
-
   readyText: {
     color: 'white',
     fontWeight: 'bold',
     lineHeight: 20,
     textAlign: 'center',
   },
-
   askButton: {
     justifyContent: 'center',
     alignItems: 'center',
@@ -874,6 +940,18 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     backgroundColor: 'white',
     color: 'black',
+  },
+  voiceInput: {
+    borderColor: 'green',
+    borderWidth: 2,
+    shadowColor: 'green',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
   },
   answerButton: {
     justifyContent: 'center',
