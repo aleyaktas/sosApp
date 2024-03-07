@@ -1,5 +1,5 @@
-import React, {useEffect, useRef} from 'react';
-import {View, Text, TouchableOpacity, StyleSheet, Animated} from 'react-native';
+import React, {useEffect} from 'react';
+import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import Icon from '../themes/Icon';
 import Blink from './Blink';
 import Triangle from './Triangle';
@@ -80,16 +80,13 @@ const Table = ({
               activeOpacity={0.7}
               key={colHeader}
               style={styles.cell}
-              disabled={selectedCell !== ''}
-              // onPress={() => handleCellPress(`${rowHeader}${colHeader}`)}
-            >
+              disabled={selectedCell !== ''}>
               <View
                 style={[styles.radioButton, {}]}
                 key={`${rowHeader}${colHeader}`}>
                 <Triangle
                   activeW={isCellSelected(`${rowHeader}${colHeader}-W`)}
                   activeG={isCellSelected(`${rowHeader}${colHeader}-G`)}
-                  // selectedCell={selectedCell}
                   isWSelected={selectedCell === `${rowHeader}${colHeader}-W`}
                   isGSelected={selectedCell === `${rowHeader}${colHeader}-G`}
                   handlePress={cell =>
@@ -202,7 +199,7 @@ const Table = ({
   };
 
   return (
-    <View style={styles.container}>
+    <View>
       <View style={styles.row}>
         <Text style={styles.emptyHeader} />
         {[1, 2, 3, 4].map(colHeader => (
@@ -224,12 +221,6 @@ const Table = ({
 };
 
 const styles = StyleSheet.create({
-  container: {
-    // padding: 10,
-    // borderWidth: 0.5,
-    // borderColor: 'gray',
-    // borderRadius: 8,
-  },
   row: {
     flexDirection: 'row',
     alignItems: 'center',

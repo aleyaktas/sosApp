@@ -15,7 +15,7 @@ import verbs from '../utils/verbs.json';
 import kidVerbs from '../utils/kidVerbs.json';
 import kidNouns from '../utils/kidNouns.json';
 import nouns from '../utils/nouns.json';
-import {useEffect, useState} from 'react';
+import {useContext, useEffect, useState} from 'react';
 import {IVerb} from '../types';
 import Voice from '@react-native-voice/voice';
 import {showMessage} from '../utils/showMessage';
@@ -24,9 +24,8 @@ import Icon from '../themes/Icon';
 import {CountdownCircleTimer} from 'react-native-countdown-circle-timer';
 import {handleVoice} from '../helpers/voiceCenter';
 import Tts from 'react-native-tts';
-import Triangle from '../components/Triangle';
-import App from '../components/Triangle';
-import TriangleRectangle from '../components/Triangle';
+import IVerbsModal from '../components/IVerbsModal';
+import {ModalContext} from '../contexts/ModalContext';
 
 const Home = () => {
   const [inputText, setInputText] = useState('');
@@ -53,6 +52,14 @@ const Home = () => {
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [time, setTime] = useState(15);
   const [isKid, setIsKid] = useState(false);
+  // const [isModalVisible, setModalVisible] = useState(false);
+
+  // const toggleModal = () => {
+  //   setModalVisible(!isModalVisible);
+  // };
+
+  const {isModalVisible, setIsModalVisible, toggleModal} =
+    useContext(ModalContext);
 
   const subjects = ['I', 'you', 'he', 'she', 'it', 'we', 'they'];
 
@@ -610,16 +617,21 @@ const Home = () => {
             selectedCell={selectedOption}
             selectedSymbol={selectedState}
           />
-          <TouchableOpacity
-            style={styles.askButton}
-            activeOpacity={0.7}
-            onPress={() => {
-              handleAskButton();
+          <View
+            style={{
+              marginTop: 16,
             }}>
-            <Text style={styles.askButtonText}>
-              {isAnswerVisible ? 'SOR' : 'CEVABI GÖR'}
-            </Text>
-          </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.askButton}
+              activeOpacity={0.7}
+              onPress={() => {
+                handleAskButton();
+              }}>
+              <Text style={styles.askButtonText}>
+                {isAnswerVisible ? 'SOR' : 'CEVABI GÖR'}
+              </Text>
+            </TouchableOpacity>
+          </View>
           <View style={styles.questionContainer}>
             <View style={styles.subjectContainer}>
               <Text style={styles.readyText}>{selectedSubject}</Text>
@@ -830,17 +842,8 @@ const Home = () => {
             }}
             checkBoxColor="green"
           />
-          {/* <View
-            style={{
-              width: 250,
-              height: 200,
-              justifyContent: 'center',
-              alignItems: 'center',
-              marginTop: 16,
-            }}>
-            <TriangleRectangle />
-          </View> */}
         </ScrollView>
+        <IVerbsModal />
       </KeyboardAvoidingView>
     </SafeAreaView>
   );
@@ -907,6 +910,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   askButton: {
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#FE6D73',
@@ -914,6 +918,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     paddingVertical: 10,
   },
+
   askButtonText: {
     fontFamily: 'Poppins-Medium',
     fontSize: 16,

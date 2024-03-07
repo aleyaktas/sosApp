@@ -9,6 +9,10 @@ import ToastError from '../assets/icons/ToastError.svg';
 import ToastSuccess from '../assets/icons/ToastSuccess.svg';
 import Home from '../assets/icons/Home.svg';
 import Sound from '../assets/icons/Sound.svg';
+import Close from '../assets/icons/Close.svg';
+import Search from '../assets/icons/Search.svg';
+import Info from '../assets/icons/Info.svg';
+import Information from '../assets/icons/Information.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
@@ -20,6 +24,10 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   ToastSuccess,
   Home,
   Sound,
+  Close,
+  Search,
+  Info,
+  Information,
 };
 
 interface IconProps {

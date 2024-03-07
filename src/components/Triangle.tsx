@@ -1,8 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
-import Svg, {G, Polygon, Text} from 'react-native-svg';
-import Blink from './Blink';
+import Svg, {Polygon, Text} from 'react-native-svg';
 import {Animated} from 'react-native';
-import {Line} from 'react-native-svg';
 
 const Triangle = ({
   activeW,
@@ -34,11 +32,9 @@ const Triangle = ({
     return selectedCells.includes(cell);
   };
 
-  // const opacityAnim = useState(new Animated.Value(1))[0];
   const fadeAnimation = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
-    // const animate = () => {
     Animated.loop(
       Animated.sequence([
         Animated.timing(fadeAnimation, {
@@ -53,11 +49,6 @@ const Triangle = ({
         }),
       ]),
     ).start();
-    // };
-    // animate();
-    // return () => {
-    //   opacityAnim.setValue(1);
-    // };
   }, [isWSelected, isGSelected, fadeAnimation]);
 
   const AnimatedPolygon = Animated.createAnimatedComponent(Polygon);
@@ -165,9 +156,6 @@ const Triangle = ({
           </Text>
         </>
       )}
-      {/* <G transform="translate(60 60)">
-        <Icon name="Tick" width="40" height="40" color="black" />
-      </G> */}
     </Svg>
   );
 };

@@ -14,7 +14,19 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleLogin = () => {
+  const handleLogin = async () => {
+    const formData = new FormData();
+    formData.append('email', username);
+    formData.append('password', password);
+    const res = await fetch('https://kelibu.net/api/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+      body: formData,
+    });
+    // console.log(res._bodyBlob.data);
+
     navigation.reset({
       index: 0,
       routes: [
@@ -48,7 +60,7 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
           <View style={styles.inputContainer}>
             <TextInput
               style={styles.textInput}
-              placeholder="Username"
+              placeholder="Email"
               placeholderTextColor={'gray'}
               value={username}
               onChangeText={setUsername}

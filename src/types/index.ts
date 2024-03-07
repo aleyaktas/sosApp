@@ -7,8 +7,3 @@ export interface IVerb {
   pastV3?: string;
   turkishMean: string;
 }
-
-// export interface INoun {
-//   presentPlural: string;
-//   turkishMean: string;
-// }

@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home';
 import Icon from '../themes/Icon';
 import {RouteProp} from '@react-navigation/native';
+import {TouchableOpacity} from 'react-native';
+import {ModalContext} from '../contexts/ModalContext';
 
 export type BottomTabParamList = {
   Home: undefined;
@@ -17,6 +19,7 @@ export type BottomTabNavigationProp<T extends keyof BottomTabParamList> = {
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
 
 const BottomTabNavigation: React.FC = () => {
+  const {toggleModal} = useContext(ModalContext);
   return (
     <BottomTab.Navigator>
       <BottomTab.Screen
@@ -26,7 +29,12 @@ const BottomTabNavigation: React.FC = () => {
           headerTitle: 'Sos Tablosu',
           headerTitleAlign: 'center',
           tabBarActiveTintColor: 'black',
-          // headerShown: false,
+          headerRight: () => (
+            <TouchableOpacity onPress={() => toggleModal()} activeOpacity={0.7}>
+              <Icon name="Info" color="#3bcd6b" width={28} height={28} />
+            </TouchableOpacity>
+          ),
+          headerRightContainerStyle: {paddingRight: 20},
           tabBarIcon: () => <Icon name="Home" color="black" />,
         }}
       />
