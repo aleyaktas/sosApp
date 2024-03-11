@@ -13,6 +13,7 @@ import Close from '../assets/icons/Close.svg';
 import Search from '../assets/icons/Search.svg';
 import Info from '../assets/icons/Info.svg';
 import Information from '../assets/icons/Information.svg';
+import Right from '../assets/icons/Right.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
@@ -28,6 +29,7 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   Search,
   Info,
   Information,
+  Right,
 };
 
 interface IconProps {

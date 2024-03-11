@@ -14,7 +14,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Register from './src/screens/Register';
 import Login from './src/screens/Login';
-import Home from './src/screens/Home';
+import Home from './src/screens/SosTable';
 import RootNavigation from './src/navigation/rootNavigation';
 import {ModalProvider} from './src/contexts/ModalContext';
 
