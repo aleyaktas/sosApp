@@ -6,6 +6,7 @@ export type ScreenProp = StackNavigationProp<StackNavigatorList> &
 
 export type StackNavigatorList = {
   Sos: undefined;
+  SubCategory: undefined;
 };
 
 export type BottomNavigatorList = {

@@ -6,6 +6,7 @@ import SosTable from '../screens/SosTable';
 import {TouchableOpacity} from 'react-native';
 import Icon from '../themes/Icon';
 import {ModalContext} from '../contexts/ModalContext';
+import SubCategory from '../screens/SubCategory';
 
 const Stack = createStackNavigator();
 
@@ -31,6 +32,15 @@ const RootNavigation = () => {
               <Icon name="Info" color="#3bcd6b" width={28} height={28} />
             </TouchableOpacity>
           ),
+        }}
+      />
+      <Stack.Screen
+        name="SubCategory"
+        component={SubCategory}
+        options={{
+          headerTitle: 'Konular',
+          headerShown: true,
+          headerTitleAlign: 'center',
         }}
       />
     </Stack.Navigator>

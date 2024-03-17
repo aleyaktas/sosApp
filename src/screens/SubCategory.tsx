@@ -3,20 +3,21 @@ import {Text, View, Image, ScrollView} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import {useNavigation} from '@react-navigation/native';
 import {ScreenProp} from '../navigation/types';
-import {categories} from '../utils/data';
+import {subCategory} from '../utils/data';
 
-const Home = () => {
+const SubCategory = () => {
   const navigation = useNavigation<ScreenProp>();
   return (
-    <ScrollView>
-      <View
-        style={{
-          backgroundColor: 'white',
-        }}>
-        {categories.map(item => (
+    <ScrollView
+      style={{
+        backgroundColor: 'white',
+        flex: 1,
+      }}>
+      <View>
+        {subCategory.map(item => (
           <TouchableOpacity
             activeOpacity={0.7}
-            onPress={() => navigation.navigate('SubCategory')}
+            onPress={() => navigation.navigate('Sos')}
             key={item.id}
             style={{
               flexDirection: 'row',
@@ -61,4 +62,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default SubCategory;

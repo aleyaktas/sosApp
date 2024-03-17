@@ -14,6 +14,12 @@ import Search from '../assets/icons/Search.svg';
 import Info from '../assets/icons/Info.svg';
 import Information from '../assets/icons/Information.svg';
 import Right from '../assets/icons/Right.svg';
+import Up from '../assets/icons/Up.svg';
+import Down from '../assets/icons/Down.svg';
+import Star from '../assets/icons/Star.svg';
+import Stars from '../assets/icons/Stars.svg';
+import UpArrow from '../assets/icons/UpArrow.svg';
+import DownArrow from '../assets/icons/DownArrow.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
@@ -30,6 +36,12 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   Info,
   Information,
   Right,
+  Up,
+  Down,
+  Star,
+  Stars,
+  UpArrow,
+  DownArrow,
 };
 
 interface IconProps {
