@@ -16,7 +16,7 @@ import kidVerbs from '../utils/kidVerbs.json';
 import kidNouns from '../utils/kidNouns.json';
 import nouns from '../utils/nouns.json';
 import {useEffect, useState} from 'react';
-import {IVerb} from '../types';
+import {IVerb} from '../types/IVerb';
 import Voice from '@react-native-voice/voice';
 import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';

@@ -12,17 +12,20 @@ import {irregularVerbs} from '../utils/irregularVerbs';
 import Icon from '../themes/Icon';
 import {handleVoice} from '../helpers/voiceCenter';
 import {ModalContext} from '../contexts/ModalContext';
-
-interface IrregularVerb {
-  v1: string;
-  v2: string;
-  v3: string;
-  mean: string;
-}
+import {
+  irregularV1Sentences,
+  irregularV2Sentences,
+} from '../utils/irregularVerbs';
+import {IVerbsSentences, IrregularVerb} from '../types/IVerb';
 
 const IVerbsModal = () => {
   const [page, setPage] = useState(1);
   const [data, setData] = useState<IrregularVerb[]>([]);
+  const [sentences, setSentences] = useState<IVerbsSentences>(
+    irregularV1Sentences[0],
+  );
+  const [currentSentenceIndex, setCurrentSentenceIndex] = useState<number>(0);
+  const [totalSentences, setTotalSentences] = useState<number>(0);
   const {isModalVisible, toggleModal} = useContext(ModalContext);
 
   const handlePageChange = (page: number) => {
@@ -34,33 +37,27 @@ const IVerbsModal = () => {
     setData(irregularVerbs.slice(0, end));
   }, [page]);
 
-  const renderItem = ({item}: {item: IrregularVerb}) => {
-    const handleVerbPress = (verb: string) => {
-      const voice = verb === 'read' ? 'red' : verb;
-      handleVoice(voice);
-    };
+  useEffect(() => {
+    let total = 0;
+    for (const key in sentences) {
+      if (sentences.hasOwnProperty(key)) {
+        if (sentences[key as keyof IVerbsSentences]) {
+          total++;
+        }
+      }
+    }
+    setTotalSentences(total);
+  }, [sentences]);
 
-    return (
-      <View style={styles.row}>
-        <TouchableOpacity
-          style={{width: '25%'}}
-          onPress={() => handleVoice(item.v1)}>
-          <Text style={[styles.text, styles.green]}>{item.v1}</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={{width: '25%'}}
-          onPress={() => handleVoice(item.v2 === 'read' ? 'red' : item.v2)}>
-          <Text style={[styles.text, styles.blue]}>{item.v2}</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={{width: '25%'}}
-          onPress={() => handleVoice(item.v3 === 'read' ? 'red' : item.v3)}>
-          <Text style={[styles.text, styles.purple]}>{item.v3}</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={{width: '25%'}}>
-          <Text style={[styles.table_meaning, styles.bold]}>{item.mean}</Text>
-        </TouchableOpacity>
-      </View>
+  const navigatePrevious = () => {
+    setCurrentSentenceIndex(prevIndex =>
+      prevIndex === 0 ? totalSentences - 3 : prevIndex - 1,
+    );
+  };
+
+  const navigateNext = () => {
+    setCurrentSentenceIndex(prevIndex =>
+      prevIndex === totalSentences - 3 ? 0 : prevIndex + 1,
     );
   };
 
@@ -94,23 +91,88 @@ const IVerbsModal = () => {
                 onEndReached={() => handlePageChange(page + 1)}
                 onEndReachedThreshold={0.5}
                 initialNumToRender={20}
-                renderItem={renderItem}
+                renderItem={({item}) => (
+                  <View style={styles.row}>
+                    <TouchableOpacity
+                      activeOpacity={0.7}
+                      style={styles.rowButton}
+                      onPress={() => {
+                        handleVoice(item.v1);
+                        setCurrentSentenceIndex(0);
+                        setSentences(
+                          irregularV1Sentences.find(
+                            el => el.word === item.v1,
+                          ) || irregularV1Sentences[0],
+                        );
+                      }}>
+                      <Text style={[styles.text, styles.green]}>{item.v1}</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                      activeOpacity={0.7}
+                      style={styles.rowButton}
+                      onPress={() => {
+                        handleVoice(item.v2);
+                        setCurrentSentenceIndex(0);
+                        setSentences(
+                          irregularV2Sentences.find(
+                            el => el.word === item.v2,
+                          ) || irregularV2Sentences[0],
+                        );
+                      }}>
+                      <Text style={[styles.text, styles.blue]}>{item.v2}</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                      activeOpacity={0.7}
+                      style={styles.rowButton}
+                      onPress={() => {
+                        handleVoice(item.v3);
+                        // handleVerbSentences(item.v3);
+                      }}>
+                      <Text style={[styles.text, styles.purple]}>
+                        {item.v3}
+                      </Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                      style={styles.rowButton}
+                      activeOpacity={0.7}>
+                      <Text style={[styles.table_meaning, styles.bold]}>
+                        {item.mean}
+                      </Text>
+                    </TouchableOpacity>
+                  </View>
+                )}
               />
             </View>
           </View>
           <View style={styles.footer}>
             <Icon name="Stars" color="#26954B" width={28} height={28} />
-            <TouchableOpacity style={styles.footerTextContainer}>
+            <TouchableOpacity
+              activeOpacity={0.7}
+              style={styles.footerTextContainer}
+              onPress={() =>
+                handleVoice(
+                  sentences[
+                    `sentence${
+                      currentSentenceIndex + 1
+                    }` as keyof IVerbsSentences
+                  ] ?? '',
+                )
+              }>
               <Text style={styles.footerText}>
-                I always arise at 7 o'clock to start my day, I always arise at 7
-                o'clock to start my day
+                {
+                  sentences[
+                    `sentence${
+                      currentSentenceIndex + 1
+                    }` as keyof IVerbsSentences
+                  ]
+                }
               </Text>
             </TouchableOpacity>
             <View style={styles.arrowsContainer}>
-              <TouchableOpacity>
+              <TouchableOpacity onPress={navigatePrevious} activeOpacity={0.7}>
                 <Icon name="UpArrow" color="#26954B" width={20} height={20} />
               </TouchableOpacity>
-              <TouchableOpacity>
+              <TouchableOpacity onPress={navigateNext} activeOpacity={0.7}>
                 <Icon name="DownArrow" color="#26954B" width={20} height={20} />
               </TouchableOpacity>
             </View>
@@ -170,10 +232,6 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     padding: 5,
   },
-  table1: {
-    marginHorizontal: 15,
-    backgroundColor: '#fff',
-  },
   head: {
     flexDirection: 'row',
     borderColor: '#ddd',
@@ -190,6 +248,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     borderColor: '#ddd',
     paddingHorizontal: 7,
+  },
+  rowButton: {
+    width: '25%',
   },
   column: {
     flex: 1,
