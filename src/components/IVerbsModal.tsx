@@ -16,6 +16,7 @@ import {ModalContext} from '../contexts/ModalContext';
 import {
   irregularV1Sentences,
   irregularV2Sentences,
+  irregularV3Sentences,
 } from '../utils/irregularVerbs';
 import {IVerbsSentences, IrregularVerb} from '../types/IVerb';
 
@@ -177,7 +178,12 @@ const IVerbsModal = () => {
                         style={styles.rowButton}
                         onPress={() => {
                           handleVoice(item.v3);
-                          // handleVerbSentences(item.v3);
+                          setCurrentSentenceIndex(0);
+                          setSentences(
+                            irregularV3Sentences.find(
+                              el => el.word === item.v3,
+                            ) || irregularV3Sentences[0],
+                          );
                         }}>
                         <Text style={[styles.text, styles.purple]}>
                           {item.v3}
@@ -216,10 +222,10 @@ const IVerbsModal = () => {
             </TouchableOpacity>
             <View style={styles.arrowsContainer}>
               <TouchableOpacity onPress={navigatePrevious} activeOpacity={0.7}>
-                <Icon name="UpArrow" color="#26954B" width={20} height={20} />
+                <Icon name="UpArrow" color="#26954B" width={24} height={24} />
               </TouchableOpacity>
               <TouchableOpacity onPress={navigateNext} activeOpacity={0.7}>
-                <Icon name="DownArrow" color="#26954B" width={20} height={20} />
+                <Icon name="DownArrow" color="#26954B" width={24} height={24} />
               </TouchableOpacity>
             </View>
           </View>
@@ -352,13 +358,9 @@ const styles = StyleSheet.create({
   },
   searchInput: {
     flex: 1,
-    // marginLeft: 10,
     paddingVertical: 0,
     fontSize: 14,
     color: '#333',
-  },
-  searchButton: {
-    // padding: 10,
   },
   clearButton: {},
   emptyData: {

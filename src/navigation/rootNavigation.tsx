@@ -4,9 +4,9 @@ import AuthNavigation from './authNavigation';
 import BottomTabsNavigation from './bottomTabsNavigation';
 import SosTable from '../screens/SosTable';
 import {TouchableOpacity} from 'react-native';
-import Icon from '../themes/Icon';
 import {ModalContext} from '../contexts/ModalContext';
 import SubCategory from '../screens/SubCategory';
+import {Text} from 'react-native';
 
 const Stack = createStackNavigator();
 
@@ -29,7 +29,17 @@ const RootNavigation = () => {
           headerRightContainerStyle: {right: 20},
           headerRight: () => (
             <TouchableOpacity onPress={() => toggleModal()} activeOpacity={0.7}>
-              <Icon name="Info" color="#3bcd6b" width={28} height={28} />
+              <Text
+                style={{
+                  color: 'white',
+                  padding: 4,
+                  backgroundColor: '#3bcd6b',
+                  fontSize: 16,
+                  borderRadius: 5,
+                  fontWeight: 'bold',
+                }}>
+                Irregular
+              </Text>
             </TouchableOpacity>
           ),
         }}
