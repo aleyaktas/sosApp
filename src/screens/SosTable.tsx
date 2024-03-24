@@ -775,7 +775,6 @@ const SosTable = () => {
                   <Icon name="Mic" color="#282828" />
                 </TouchableOpacity>
               </View>
-
               <TouchableOpacity
                 style={[
                   styles.answerButton,
@@ -790,7 +789,6 @@ const SosTable = () => {
               </TouchableOpacity>
             </View>
           )}
-
           <CheckBox
             style={{
               borderRadius: 8,

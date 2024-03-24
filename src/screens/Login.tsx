@@ -25,8 +25,6 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
       },
       body: formData,
     });
-    // console.log(res._bodyBlob.data);
-
     navigation.reset({
       index: 0,
       routes: [

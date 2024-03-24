@@ -8,11 +8,11 @@ import {categories} from '../utils/data';
 const Home = () => {
   const navigation = useNavigation<ScreenProp>();
   return (
-    <ScrollView>
-      <View
-        style={{
-          backgroundColor: 'white',
-        }}>
+    <ScrollView
+      style={{
+        backgroundColor: 'white',
+      }}>
+      <View>
         {categories.map(item => (
           <TouchableOpacity
             activeOpacity={0.7}

@@ -4,6 +4,7 @@ import {
   FlatList,
   StyleSheet,
   Text,
+  TextInput,
   TouchableOpacity,
   View,
 } from 'react-native';
@@ -24,6 +25,7 @@ const IVerbsModal = () => {
   const [sentences, setSentences] = useState<IVerbsSentences>(
     irregularV1Sentences[0],
   );
+  const [search, setSearch] = useState<string>('');
   const [currentSentenceIndex, setCurrentSentenceIndex] = useState<number>(0);
   const [totalSentences, setTotalSentences] = useState<number>(0);
   const {isModalVisible, toggleModal} = useContext(ModalContext);
@@ -34,20 +36,29 @@ const IVerbsModal = () => {
 
   useEffect(() => {
     const end = page * 20;
-    setData(irregularVerbs.slice(0, end));
+    if (search === '') {
+      setData(irregularVerbs.slice(0, end));
+    } else {
+      handleSearch();
+    }
   }, [page]);
 
   useEffect(() => {
+    handleSearch();
+  }, [search]);
+
+  useEffect(() => {
     let total = 0;
-    for (const key in sentences) {
-      if (sentences.hasOwnProperty(key)) {
-        if (sentences[key as keyof IVerbsSentences]) {
-          total++;
-        }
-      }
+    if (sentences.sentences) {
+      total = sentences.sentences.length;
     }
     setTotalSentences(total);
-  }, [sentences]);
+  }, [sentences.word]);
+
+  useEffect(() => {
+    console.log('sentences', sentences);
+    console.log('currentSentenceIndex', currentSentenceIndex);
+  }, [sentences, currentSentenceIndex]);
 
   const navigatePrevious = () => {
     setCurrentSentenceIndex(prevIndex =>
@@ -59,6 +70,24 @@ const IVerbsModal = () => {
     setCurrentSentenceIndex(prevIndex =>
       prevIndex === totalSentences - 3 ? 0 : prevIndex + 1,
     );
+  };
+
+  const handleSearch = () => {
+    const result = irregularVerbs.filter(
+      el =>
+        el.v1.toLowerCase().includes(search.toLowerCase()) ||
+        el.v2.toLowerCase().includes(search.toLowerCase()) ||
+        el.v3.toLowerCase().includes(search.toLowerCase()) ||
+        el.mean.toLowerCase().includes(search.toLowerCase()),
+    );
+    console.log('result', result);
+    setData(result);
+  };
+
+  const handleClose = () => {
+    toggleModal();
+    setCurrentSentenceIndex(0);
+    setSentences(irregularV1Sentences[0]);
   };
 
   return (
@@ -73,9 +102,26 @@ const IVerbsModal = () => {
         <View style={styles.modalContent}>
           <View style={styles.header}>
             <Text style={styles.headerTitle}>Irregular Verbs</Text>
-            <TouchableOpacity style={styles.closeButton} onPress={toggleModal}>
+            <TouchableOpacity style={styles.closeButton} onPress={handleClose}>
               <Icon name="Close" />
             </TouchableOpacity>
+          </View>
+          <View style={styles.searchContainer}>
+            <Icon name="Search" color="black" width={18} height={18} />
+            <TextInput
+              style={styles.searchInput}
+              placeholder="Ara..."
+              placeholderTextColor="#333"
+              value={search}
+              onChangeText={setSearch}
+            />
+            {search !== '' && (
+              <TouchableOpacity
+                style={styles.clearButton}
+                onPress={() => setSearch('')}>
+                <Icon name="Close" color="black" width={18} height={18} />
+              </TouchableOpacity>
+            )}
           </View>
           <View style={styles.wrapper}>
             <View style={styles.table}>
@@ -85,63 +131,75 @@ const IVerbsModal = () => {
                 <Text style={styles.headText}>V3</Text>
                 <Text style={styles.headText}>Meaning</Text>
               </View>
-              <FlatList
-                data={data}
-                keyExtractor={(item, index) => index.toString()}
-                onEndReached={() => handlePageChange(page + 1)}
-                onEndReachedThreshold={0.5}
-                initialNumToRender={20}
-                renderItem={({item}) => (
-                  <View style={styles.row}>
-                    <TouchableOpacity
-                      activeOpacity={0.7}
-                      style={styles.rowButton}
-                      onPress={() => {
-                        handleVoice(item.v1);
-                        setCurrentSentenceIndex(0);
-                        setSentences(
-                          irregularV1Sentences.find(
-                            el => el.word === item.v1,
-                          ) || irregularV1Sentences[0],
-                        );
-                      }}>
-                      <Text style={[styles.text, styles.green]}>{item.v1}</Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity
-                      activeOpacity={0.7}
-                      style={styles.rowButton}
-                      onPress={() => {
-                        handleVoice(item.v2);
-                        setCurrentSentenceIndex(0);
-                        setSentences(
-                          irregularV2Sentences.find(
-                            el => el.word === item.v2,
-                          ) || irregularV2Sentences[0],
-                        );
-                      }}>
-                      <Text style={[styles.text, styles.blue]}>{item.v2}</Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity
-                      activeOpacity={0.7}
-                      style={styles.rowButton}
-                      onPress={() => {
-                        handleVoice(item.v3);
-                        // handleVerbSentences(item.v3);
-                      }}>
-                      <Text style={[styles.text, styles.purple]}>
-                        {item.v3}
-                      </Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity
-                      style={styles.rowButton}
-                      activeOpacity={0.7}>
-                      <Text style={[styles.table_meaning, styles.bold]}>
-                        {item.mean}
-                      </Text>
-                    </TouchableOpacity>
-                  </View>
-                )}
-              />
+              {data.length > 0 ? (
+                <FlatList
+                  data={data}
+                  keyExtractor={(item, index) => index.toString()}
+                  onEndReached={() => handlePageChange(page + 1)}
+                  onEndReachedThreshold={0.5}
+                  initialNumToRender={20}
+                  renderItem={({item}) => (
+                    <View style={styles.row}>
+                      <TouchableOpacity
+                        activeOpacity={0.7}
+                        style={styles.rowButton}
+                        onPress={() => {
+                          handleVoice(item.v1);
+                          setCurrentSentenceIndex(0);
+                          setSentences(
+                            irregularV1Sentences.find(
+                              el => el.word === item.v1,
+                            ) || irregularV1Sentences[0],
+                          );
+                        }}>
+                        <Text style={[styles.text, styles.green]}>
+                          {item.v1}
+                        </Text>
+                      </TouchableOpacity>
+                      <TouchableOpacity
+                        activeOpacity={0.7}
+                        style={styles.rowButton}
+                        onPress={() => {
+                          handleVoice(item.v2);
+                          setCurrentSentenceIndex(0);
+                          setSentences(
+                            irregularV2Sentences.find(
+                              el => el.word === item.v2,
+                            ) || irregularV2Sentences[0],
+                          );
+                        }}>
+                        <Text style={[styles.text, styles.blue]}>
+                          {item.v2}
+                        </Text>
+                      </TouchableOpacity>
+                      <TouchableOpacity
+                        activeOpacity={0.7}
+                        style={styles.rowButton}
+                        onPress={() => {
+                          handleVoice(item.v3);
+                          // handleVerbSentences(item.v3);
+                        }}>
+                        <Text style={[styles.text, styles.purple]}>
+                          {item.v3}
+                        </Text>
+                      </TouchableOpacity>
+                      <TouchableOpacity
+                        style={styles.rowButton}
+                        activeOpacity={0.7}>
+                        <Text style={[styles.table_meaning, styles.bold]}>
+                          {item.mean}
+                        </Text>
+                      </TouchableOpacity>
+                    </View>
+                  )}
+                />
+              ) : (
+                <View style={styles.emptyData}>
+                  <Text style={styles.emptyDataText}>
+                    Kelime bulunamadı, lütfen başka bir kelime deneyin.
+                  </Text>
+                </View>
+              )}
             </View>
           </View>
           <View style={styles.footer}>
@@ -150,22 +208,10 @@ const IVerbsModal = () => {
               activeOpacity={0.7}
               style={styles.footerTextContainer}
               onPress={() =>
-                handleVoice(
-                  sentences[
-                    `sentence${
-                      currentSentenceIndex + 1
-                    }` as keyof IVerbsSentences
-                  ] ?? '',
-                )
+                handleVoice(sentences.sentences[currentSentenceIndex])
               }>
               <Text style={styles.footerText}>
-                {
-                  sentences[
-                    `sentence${
-                      currentSentenceIndex + 1
-                    }` as keyof IVerbsSentences
-                  ]
-                }
+                {sentences.sentences[currentSentenceIndex]}
               </Text>
             </TouchableOpacity>
             <View style={styles.arrowsContainer}>
@@ -293,5 +339,38 @@ const styles = StyleSheet.create({
   arrowsContainer: {
     flexDirection: 'column',
     gap: 10,
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#ddd',
+    borderRadius: 5,
+    margin: 15,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+  },
+  searchInput: {
+    flex: 1,
+    // marginLeft: 10,
+    paddingVertical: 0,
+    fontSize: 14,
+    color: '#333',
+  },
+  searchButton: {
+    // padding: 10,
+  },
+  clearButton: {},
+  emptyData: {
+    alignItems: 'center',
+    marginTop: 20,
+    flex: 1,
+  },
+  emptyDataText: {
+    fontSize: 16,
+    fontWeight: '500',
+    color: 'black',
+    padding: 7,
+    textAlign: 'center',
   },
 });

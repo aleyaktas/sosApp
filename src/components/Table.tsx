@@ -3,15 +3,7 @@ import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import Icon from '../themes/Icon';
 import Blink from './Blink';
 import Triangle from './Triangle';
-
-interface TableProps {
-  selectedCells: string[];
-  setSelectedCells: React.Dispatch<React.SetStateAction<string[]>>;
-  selectedSymbols: string[];
-  setSelectedSymbols: React.Dispatch<React.SetStateAction<string[]>>;
-  selectedCell: string;
-  selectedSymbol: string;
-}
+import {TableProps} from '../types/SosTable';
 
 const Table = ({
   selectedCells,

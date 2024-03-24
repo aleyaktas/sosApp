@@ -7,14 +7,12 @@ import Login from '../screens/Login';
 import Register from '../screens/Register';
 import {BottomTabParamList} from './bottomTabsNavigation';
 
-// Define the ParamList type for the stack navigator
 type AuthStackParamList = {
   Login: undefined;
   Register: undefined;
   BottomTabs: BottomTabParamList;
 };
 
-// Define the navigation prop types for Login and Register screens
 export type AuthNavigationProps = {
   navigation: StackNavigationProp<AuthStackParamList>;
 };

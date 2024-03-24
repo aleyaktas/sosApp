@@ -16,16 +16,7 @@ export interface IrregularVerb {
 }
 
 export interface IVerbsSentences {
-  sentence1?: string;
-  sentence2?: string;
-  sentence3?: string;
-  sentence4?: string;
-  sentence5?: string;
-  sentence6?: string;
-  sentence7?: string;
-  sentence8?: string;
-  sentence9?: string;
-  sentence10?: string;
+  sentences: string[];
   word: string;
   mean: string;
 }
