@@ -32,7 +32,8 @@ const RootNavigation = () => {
               <Text
                 style={{
                   color: 'white',
-                  padding: 4,
+                  paddingVertical: 5,
+                  paddingHorizontal: 10,
                   backgroundColor: '#3bcd6b',
                   fontSize: 16,
                   borderRadius: 5,

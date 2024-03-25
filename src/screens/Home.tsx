@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, View, Image, ScrollView} from 'react-native';
+import {Text, View, Image, ScrollView, StyleSheet} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import {useNavigation} from '@react-navigation/native';
 import {ScreenProp} from '../navigation/types';
@@ -16,40 +16,25 @@ const Home = () => {
         {categories.map(item => (
           <TouchableOpacity
             activeOpacity={0.7}
+            disabled={item.title !== 'Zamanlar'}
             onPress={() => navigation.navigate('SubCategory')}
             key={item.id}
-            style={{
-              flexDirection: 'row',
-              alignItems: 'center',
-              gap: 14,
-              padding: 16,
-              backgroundColor: 'white',
-              borderWidth: 0.3,
-              borderColor: '#e0e0e0',
-              borderRadius: 10,
-              marginVertical: 12,
-              marginHorizontal: 24,
-              shadowColor: '#000',
-              shadowOffset: {
-                width: 0,
-                height: 2,
+            style={[
+              styles.categoriesButton,
+              {
+                backgroundColor:
+                  item.title === 'Zamanlar' ? 'white' : '#f5f5f5',
               },
-              shadowOpacity: 0.25,
-              shadowRadius: 3.84,
-              elevation: 5,
-            }}>
+            ]}>
             <Image source={item.image} style={{width: 60, height: 60}} />
-            <View
-              style={{
-                flexDirection: 'column',
-                justifyContent: 'space-between',
-              }}>
+            <View style={styles.categoriesContainer}>
               <Text
-                style={{
-                  fontSize: 18,
-                  fontWeight: 'bold',
-                  color: 'black',
-                }}>
+                style={[
+                  styles.categoriesTitle,
+                  {
+                    color: item.title === 'Zamanlar' ? 'black' : 'darkgray',
+                  },
+                ]}>
                 {item.title}
               </Text>
               <Text>{item.description}</Text>
@@ -60,5 +45,37 @@ const Home = () => {
     </ScrollView>
   );
 };
+
+const styles = StyleSheet.create({
+  categoriesButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 14,
+    padding: 16,
+    backgroundColor: 'white',
+    borderWidth: 0.3,
+    borderColor: '#e0e0e0',
+    borderRadius: 10,
+    marginVertical: 12,
+    marginHorizontal: 24,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  categoriesContainer: {
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+  },
+  categoriesTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: 'black',
+  },
+});
 
 export default Home;
