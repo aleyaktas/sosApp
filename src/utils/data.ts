@@ -164,24 +164,28 @@ export const subCategory = [
     id: 1,
     title: 'Uygulama',
     description: 'Sos uygulaması',
+    page: 'Sos',
     image: require('../assets/icons/application.png'),
   },
   {
     id: 2,
     title: 'Videolar',
     description: 'Konu videoları',
+    page: 'Sos',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 3,
     title: 'Notlar',
     description: 'Konu notları',
+    page: 'Sos',
     image: require('../assets/icons/subjects.png'),
   },
   {
     id: 4,
     title: 'Çeviri Çalışması',
     description: 'Çeviri çalışmaları',
+    page: 'Translation',
     image: require('../assets/icons/translation.png'),
   },
 ];

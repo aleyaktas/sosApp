@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {FC, useState} from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -8,11 +8,16 @@ import {
   TouchableOpacity,
   StyleSheet,
 } from 'react-native';
+import {AuthNavigationProps} from '../navigation/authNavigation';
 
-const Register = () => {
+const Register: FC<AuthNavigationProps> = ({navigation}) => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+  const handleLogin = async () => {
+    navigation.navigate('Login');
+  };
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -58,6 +63,7 @@ const Register = () => {
             </Text>
             <TouchableOpacity
               activeOpacity={0.9}
+              onPress={() => handleLogin()}
               style={styles.loginPromptButton}>
               <Text style={styles.loginPromptText}>Login</Text>
             </TouchableOpacity>
@@ -103,7 +109,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     backgroundColor: '#e5e5e5e5',
-    borderRadius: 4,
+    borderRadius: 8,
     width: '100%',
     height: 48,
     paddingHorizontal: 12,
@@ -124,11 +130,12 @@ const styles = StyleSheet.create({
   },
   loginButton: {
     width: '100%',
-    height: 48,
+    paddingVertical: 12,
+    paddingHorizontal: 24,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#151954',
-    borderRadius: 4,
+    backgroundColor: '#1292B4',
+    borderRadius: 8,
   },
   loginButtonText: {
     fontFamily: 'Poppins-Medium',

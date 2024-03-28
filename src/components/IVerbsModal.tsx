@@ -209,7 +209,7 @@ const IVerbsModal = () => {
             </View>
           </View>
           <View style={styles.footer}>
-            <Icon name="Stars" color="#26954B" width={28} height={28} />
+            <Icon name="Stars" color="#1292B4" width={28} height={28} />
             <TouchableOpacity
               activeOpacity={0.7}
               style={styles.footerTextContainer}
@@ -222,10 +222,10 @@ const IVerbsModal = () => {
             </TouchableOpacity>
             <View style={styles.arrowsContainer}>
               <TouchableOpacity onPress={navigatePrevious} activeOpacity={0.7}>
-                <Icon name="UpArrow" color="#26954B" width={24} height={24} />
+                <Icon name="UpArrow" color="#2AC769" width={24} height={24} />
               </TouchableOpacity>
               <TouchableOpacity onPress={navigateNext} activeOpacity={0.7}>
-                <Icon name="DownArrow" color="#26954B" width={24} height={24} />
+                <Icon name="DownArrow" color="#2AC769" width={24} height={24} />
               </TouchableOpacity>
             </View>
           </View>
@@ -241,13 +241,15 @@ const styles = StyleSheet.create({
   wrapper: {
     justifyContent: 'center',
     alignItems: 'center',
+    borderRadius: 8,
+    overflow: 'hidden',
     flex: 1,
   },
   table_head: {
     flexDirection: 'row',
     borderColor: '#ddd',
     padding: 7,
-    backgroundColor: '#26954B',
+    backgroundColor: '#1292B4',
   },
   table_meaning: {
     fontSize: 12,
@@ -259,6 +261,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     elevation: 1,
     backgroundColor: '#fff',
+    borderRadius: 8,
+    overflow: 'hidden',
+    borderBottomRightRadius: 0,
+    borderBottomLeftRadius: 0,
   },
   container: {
     flex: 1,
@@ -266,6 +272,8 @@ const styles = StyleSheet.create({
   modalContent: {
     flex: 1,
     backgroundColor: 'white',
+    borderRadius: 8,
+    overflow: 'hidden',
   },
   header: {
     flexDirection: 'row',
@@ -277,6 +285,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 20,
     fontWeight: 'bold',
+    color: '#333333',
   },
   closeButton: {
     borderColor: '#ddd',
@@ -288,7 +297,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     borderColor: '#ddd',
     padding: 7,
-    backgroundColor: '#26954B',
+    backgroundColor: '#1292B4',
   },
   headText: {
     flex: 1,
@@ -330,8 +339,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 15,
     paddingVertical: 10,
-    backgroundColor: '#e6ffff',
-    borderTopColor: 'green',
+    backgroundColor: '#ccf3fc',
+    borderTopColor: '#3e7cb1',
     borderTopWidth: 0.6,
   },
   footerTextContainer: {
@@ -339,7 +348,7 @@ const styles = StyleSheet.create({
   },
   footerText: {
     fontSize: 16,
-    fontWeight: '500',
+    fontWeight: '600',
     color: '#333333',
   },
   arrowsContainer: {
@@ -351,7 +360,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderWidth: 1,
     borderColor: '#ddd',
-    borderRadius: 5,
+    borderRadius: 8,
     margin: 15,
     paddingHorizontal: 10,
     paddingVertical: 5,

@@ -12,11 +12,8 @@ const Table = ({
   setSelectedSymbols,
   selectedCell,
   selectedSymbol,
+  isSymbolActive,
 }: TableProps) => {
-  useEffect(() => {
-    console.log('selectedCells', selectedCells);
-  }, [selectedCells]);
-
   const handleCellPress = (cell: string) => {
     setSelectedCells(prevSelectedCells => {
       if (cell.split('-').length > 1) {
@@ -44,20 +41,22 @@ const Table = ({
   useEffect(() => {}, [selectedCells]);
 
   const handleBoxPress = (symbol: string) => {
-    setSelectedSymbols(prevSelectedSymbols => {
-      const isSelected = prevSelectedSymbols.includes(symbol);
-      if (isSelected) {
-        return prevSelectedSymbols.filter(
-          selectedSymbol => selectedSymbol !== symbol,
-        );
-      } else {
-        return [...prevSelectedSymbols, symbol];
-      }
-    });
+    setSelectedSymbols &&
+      setSelectedSymbols(prevSelectedSymbols => {
+        const isSelected = prevSelectedSymbols.includes(symbol);
+        if (isSelected) {
+          return prevSelectedSymbols.filter(
+            selectedSymbol => selectedSymbol !== symbol,
+          );
+        } else {
+          return [...prevSelectedSymbols, symbol];
+        }
+      });
   };
 
   const isCellSelected = (cell: string) => selectedCells.includes(cell);
-  const isSymbolSelected = (symbol: string) => selectedSymbols.includes(symbol);
+  const isSymbolSelected = (symbol: string) =>
+    selectedSymbols && selectedSymbols.includes(symbol);
 
   const renderRow = (rowHeader: string) => (
     <View style={styles.row} key={rowHeader}>
@@ -200,14 +199,14 @@ const Table = ({
           </Text>
         ))}
       </View>
-
       {['A', 'B', 'C'].map(rowHeader => renderRow(rowHeader))}
-
-      <View style={styles.buttonContainer}>
-        {renderBox('+')}
-        {renderBox('-')}
-        {renderBox('?')}
-      </View>
+      {isSymbolActive && (
+        <View style={styles.buttonContainer}>
+          {renderBox('+')}
+          {renderBox('-')}
+          {renderBox('?')}
+        </View>
+      )}
     </View>
   );
 };

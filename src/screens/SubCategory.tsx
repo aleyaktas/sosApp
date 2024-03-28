@@ -5,6 +5,14 @@ import {useNavigation} from '@react-navigation/native';
 import {ScreenProp} from '../navigation/types';
 import {subCategory} from '../utils/data';
 
+export interface SubCategory {
+  id: number;
+  title: string;
+  description: string;
+  image: any;
+  page: string;
+}
+
 const SubCategory = () => {
   const navigation = useNavigation<ScreenProp>();
   return (
@@ -14,10 +22,10 @@ const SubCategory = () => {
         flex: 1,
       }}>
       <View>
-        {subCategory.map(item => (
+        {subCategory.map((item: SubCategory) => (
           <TouchableOpacity
             activeOpacity={0.7}
-            onPress={() => navigation.navigate('Sos')}
+            onPress={() => item.page && navigation.navigate(item.page as never)}
             key={item.id}
             style={{
               flexDirection: 'row',

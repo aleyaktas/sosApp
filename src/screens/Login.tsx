@@ -79,7 +79,6 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
             activeOpacity={0.7}>
             <Text style={styles.forgotPasswordText}>Forgot Password?</Text>
           </TouchableOpacity>
-
           <TouchableOpacity
             style={styles.loginButton}
             activeOpacity={0.7}
@@ -130,7 +129,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     backgroundColor: '#e5e5e5e5',
-    borderRadius: 4,
+    borderRadius: 8,
     width: '100%',
     height: 48,
     paddingHorizontal: 12,
@@ -151,11 +150,12 @@ const styles = StyleSheet.create({
   },
   loginButton: {
     width: '100%',
-    height: 48,
+    paddingVertical: 12,
+    paddingHorizontal: 24,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#151954',
-    borderRadius: 4,
+    backgroundColor: '#1292B4',
+    borderRadius: 8,
   },
   loginButtonText: {
     fontFamily: 'Poppins-Medium',
@@ -164,15 +164,15 @@ const styles = StyleSheet.create({
   },
   registerButton: {
     width: '100%',
-    height: 48,
+    paddingVertical: 12,
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: 4,
+    borderRadius: 8,
   },
   registerText: {
     fontFamily: 'Poppins-Medium',
     fontSize: 16,
-    color: '#151954',
+    color: '#1292B4',
   },
 });
 

@@ -605,6 +605,7 @@ const SosTable = () => {
             setSelectedSymbols={setSelectedSymbols}
             selectedCell={selectedOption}
             selectedSymbol={selectedState}
+            isSymbolActive={true}
           />
           <View
             style={{
@@ -839,7 +840,7 @@ const SosTable = () => {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    marginHorizontal: 12,
+    padding: 12,
   },
   title: {
     textAlign: 'center',

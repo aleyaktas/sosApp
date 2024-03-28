@@ -7,6 +7,7 @@ import {TouchableOpacity} from 'react-native';
 import {ModalContext} from '../contexts/ModalContext';
 import SubCategory from '../screens/SubCategory';
 import {Text} from 'react-native';
+import TranslationTable from '../screens/TranslationTable';
 
 const Stack = createStackNavigator();
 
@@ -34,7 +35,7 @@ const RootNavigation = () => {
                   color: 'white',
                   paddingVertical: 5,
                   paddingHorizontal: 10,
-                  backgroundColor: '#3bcd6b',
+                  backgroundColor: '#1292B4',
                   fontSize: 16,
                   borderRadius: 5,
                   fontWeight: 'bold',
@@ -43,6 +44,15 @@ const RootNavigation = () => {
               </Text>
             </TouchableOpacity>
           ),
+        }}
+      />
+      <Stack.Screen
+        name="Translation"
+        component={TranslationTable}
+        options={{
+          headerTitle: 'Çeviri Çalışması',
+          headerShown: true,
+          headerTitleAlign: 'center',
         }}
       />
       <Stack.Screen
