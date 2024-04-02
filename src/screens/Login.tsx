@@ -18,13 +18,13 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
     const formData = new FormData();
     formData.append('email', username);
     formData.append('password', password);
-    const res = await fetch('https://kelibu.net/api/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'multipart/form-data',
-      },
-      body: formData,
-    });
+    // const res = await fetch('https://kelibu.net/api/login', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'multipart/form-data',
+    //   },
+    //   body: formData,
+    // });
     navigation.reset({
       index: 0,
       routes: [

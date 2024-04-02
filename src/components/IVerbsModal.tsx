@@ -161,7 +161,9 @@ const IVerbsModal = () => {
                         activeOpacity={0.7}
                         style={styles.rowButton}
                         onPress={() => {
-                          handleVoice(item.v2);
+                          item.v2 === 'read'
+                            ? handleVoice('red')
+                            : handleVoice(item.v2);
                           setCurrentSentenceIndex(0);
                           setSentences(
                             irregularV2Sentences.find(
@@ -177,7 +179,9 @@ const IVerbsModal = () => {
                         activeOpacity={0.7}
                         style={styles.rowButton}
                         onPress={() => {
-                          handleVoice(item.v3);
+                          item.v3 === 'read'
+                            ? handleVoice('red')
+                            : handleVoice(item.v3);
                           setCurrentSentenceIndex(0);
                           setSentences(
                             irregularV3Sentences.find(

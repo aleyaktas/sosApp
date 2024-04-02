@@ -7,7 +7,7 @@ import {TouchableOpacity} from 'react-native';
 import {ModalContext} from '../contexts/ModalContext';
 import SubCategory from '../screens/SubCategory';
 import {Text} from 'react-native';
-import TranslationTable from '../screens/TranslationTable';
+import Translation from '../screens/Translation';
 
 const Stack = createStackNavigator();
 
@@ -48,7 +48,7 @@ const RootNavigation = () => {
       />
       <Stack.Screen
         name="Translation"
-        component={TranslationTable}
+        component={Translation}
         options={{
           headerTitle: 'Çeviri Çalışması',
           headerShown: true,
