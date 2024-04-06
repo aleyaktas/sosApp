@@ -30,6 +30,7 @@ const IVerbsModal = () => {
   const [currentSentenceIndex, setCurrentSentenceIndex] = useState<number>(0);
   const [totalSentences, setTotalSentences] = useState<number>(0);
   const {isModalVisible, toggleModal} = useContext(ModalContext);
+  const [isV1, setIsV1] = useState<boolean>(true);
 
   const handlePageChange = (page: number) => {
     setPage(page);
@@ -152,6 +153,7 @@ const IVerbsModal = () => {
                               el => el.word === item.v1,
                             ) || irregularV1Sentences[0],
                           );
+                          setIsV1(true);
                         }}>
                         <Text style={[styles.text, styles.green]}>
                           {item.v1}
@@ -170,6 +172,7 @@ const IVerbsModal = () => {
                               el => el.word === item.v2,
                             ) || irregularV2Sentences[0],
                           );
+                          setIsV1(false);
                         }}>
                         <Text style={[styles.text, styles.blue]}>
                           {item.v2}
@@ -188,6 +191,7 @@ const IVerbsModal = () => {
                               el => el.word === item.v3,
                             ) || irregularV3Sentences[0],
                           );
+                          setIsV1(false);
                         }}>
                         <Text style={[styles.text, styles.purple]}>
                           {item.v3}
@@ -218,7 +222,14 @@ const IVerbsModal = () => {
               activeOpacity={0.7}
               style={styles.footerTextContainer}
               onPress={() =>
-                handleVoice(sentences.sentences[currentSentenceIndex])
+                isV1
+                  ? handleVoice(sentences.sentences[currentSentenceIndex])
+                  : handleVoice(
+                      sentences.sentences[currentSentenceIndex].replace(
+                        'read',
+                        'red',
+                      ),
+                    )
               }>
               <Text style={styles.footerText}>
                 {sentences.sentences[currentSentenceIndex]}

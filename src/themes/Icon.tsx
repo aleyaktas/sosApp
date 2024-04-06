@@ -20,6 +20,8 @@ import Star from '../assets/icons/Star.svg';
 import Stars from '../assets/icons/Stars.svg';
 import UpArrow from '../assets/icons/UpArrow.svg';
 import DownArrow from '../assets/icons/DownArrow.svg';
+import CloseFilled from '../assets/icons/CloseFilled.svg';
+import TickFilled from '../assets/icons/TickFilled.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
@@ -42,6 +44,8 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   Stars,
   UpArrow,
   DownArrow,
+  CloseFilled,
+  TickFilled,
 };
 
 interface IconProps {

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useCallback, useRef, useState} from 'react';
 import {
   Alert,
   FlatList,
@@ -7,7 +7,6 @@ import {
   ScrollView,
   StyleSheet,
   Text,
-  TextInput,
   TouchableOpacity,
   View,
 } from 'react-native';
@@ -15,8 +14,10 @@ import Table from '../components/Table';
 import {translationWords} from '../utils/translation';
 import DraggableFlatList from 'react-native-draggable-flatlist';
 import {handleVoice} from '../helpers/voiceCenter';
+import BottomSheet, {BottomSheetView} from '@gorhom/bottom-sheet';
+import Icon from '../themes/Icon';
 
-const Translation = () => {
+const Translation: React.FC = () => {
   const [totalQuestions, setTotalQuestions] = useState<number>(0);
   const [correctAnswers, setCorrectAnswers] = useState<number>(0);
   const [wrongAnswers, setWrongAnswers] = useState<number>(0);
@@ -26,17 +27,17 @@ const Translation = () => {
   const [sentence, setSentence] = useState<string>(
     'Henüz bir soru yok, hücrelerden seçim yapıp sor tuşuna basmalısın!',
   );
-  const [question, setQuestion] = useState<{[key: string]: string}>({});
   const [answer, setAnswer] = useState<string>('');
-  const [enteredAnswer, setEnteredAnswer] = useState<string>('');
   const [meaning, setMeaning] = useState<string[]>([]);
   const [textInputValue, setTextInputValue] = useState<string[]>([]);
+  const [isBottomSheetVisible, setIsBottomSheetVisible] = useState(false);
+  const [isAnswerTrue, setIsAnswerTrue] = useState(false);
 
-  // const generateQuestion = () => {
-  //   const randomIndex = Math.floor(Math.random() * translationWords.length);
-  //   const question = translationWords[randomIndex];
-  //   return question;
-  // };
+  const bottomSheetRef = useRef<BottomSheet>(null);
+
+  const handleSheetChanges = useCallback((index: number) => {
+    console.log('handleSheetChanges', index);
+  }, []);
 
   const handleSelect = (item: string) => {
     handleVoice(item);
@@ -49,10 +50,68 @@ const Translation = () => {
     setTextInputValue(prevValue => prevValue.filter(word => word !== item));
   };
 
+  const continueButton = () => {
+    setSentence('Yeni soru için sor butonuna basınız!');
+    setTextInputValue([]);
+    setAnswer('');
+    setMeaning([]);
+    handleAskButton();
+    bottomSheetRef.current?.close();
+  };
+
+  const renderCorrectAnswer = () => (
+    <View style={styles.answerContainer}>
+      <View style={styles.answerHeader}>
+        <Icon name="TickFilled" color="#56A500" />
+        <Text style={styles.correctAnswerText}>Tebrikler, doğru cevap!</Text>
+      </View>
+      <TouchableOpacity
+        onPress={() => handleVoice(answer)}
+        style={styles.answerButtonHeader}>
+        <Icon name="Sound" color="#56A500" width={20} height={20} />
+        <Text style={styles.correctAnswerText}>{answer}</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => continueButton()}
+        style={[styles.answerButton, styles.correctButton]}>
+        <Text style={styles.answerButtonText}>DEVAM ET</Text>
+      </TouchableOpacity>
+    </View>
+  );
+
+  const renderIncorrectAnswer = () => (
+    <View style={styles.answerContainer}>
+      <View style={styles.answerHeader}>
+        <Icon name="CloseFilled" color="#DE3F41" />
+        <Text style={styles.incorrectAnswerText}>Üzgünüm, yanlış cevap!</Text>
+      </View>
+      <TouchableOpacity
+        onPress={() => handleVoice(answer)}
+        style={styles.answerButtonHeader}>
+        <Icon name="Sound" color="#DE3F41" width={20} height={20} />
+        <Text style={styles.incorrectAnswerText}>{answer}</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => continueButton()}
+        style={[styles.incorrectButton, styles.answerButton]}>
+        <Text style={styles.answerButtonText}>TAMAM</Text>
+      </TouchableOpacity>
+    </View>
+  );
+
+  const shuffleArray = (array: string[]) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+
   const generateQuestion = () => {
     const randomIndexWords = Math.floor(
       Math.random() * translationWords.length,
     );
+
     const questions: {[key: string]: string} =
       translationWords[randomIndexWords];
     const keys = Object.keys(questions);
@@ -72,7 +131,7 @@ const Translation = () => {
     const sentence = questions[sentenceKey];
     setAnswer(questions[meaningKey]);
     const meaning = questions[meaningKey].split(' ');
-    const mixSentence = meaning.sort(() => Math.random() - 0.5);
+    const mixSentence = shuffleArray([...meaning]);
 
     setSelectedCell(sentenceKey.replace('-meaning', ''));
     setSentence(sentence);
@@ -80,20 +139,21 @@ const Translation = () => {
   };
 
   const checkAnswer = () => {
+    if (textInputValue.length === 0) {
+      return;
+    }
     if (textInputValue.join(' ') === answer) {
-      Alert.alert('Tebrikler, doğru cevap!');
+      bottomSheetRef.current?.expand();
+      handleVoice(answer);
+      setIsAnswerTrue(true);
       setCorrectAnswers(correctAnswers + 1);
     } else {
-      Alert.alert('Üzgünüm, yanlış cevap!');
+      bottomSheetRef.current?.expand();
+      handleVoice(answer);
+      setIsAnswerTrue(false);
       setWrongAnswers(wrongAnswers + 1);
     }
-    setSentence('Yeni soru için sor butonuna basınız!');
-    setTextInputValue([]);
-    setEnteredAnswer('');
-    setAnswer('');
-    // setSentence('');
-    setMeaning([]);
-    handleAskButton();
+    setSelectedCell('');
   };
 
   const handleAskButton = () => {
@@ -104,60 +164,11 @@ const Translation = () => {
     isAnswerVisible && setTotalQuestions(totalQuestions + 1);
     !isAnswerVisible && setSelectedCell('');
     setIsAnswerVisible(!isAnswerVisible);
-
-    setEnteredAnswer(textInputValue.join(' '));
-    // if (enteredAnswer.length > 0) {
-    //   if (enteredAnswer === answer) {
-    //     Alert.alert('Tebrikler, doğru cevap!');
-    //     setTextInputValue([]);
-    //     setEnteredAnswer('');
-    //     setAnswer('');
-    //     setSentence('');
-    //     setMeaning([]);
-    //     setIsQuestionActive(false);
-    //   } else {
-    //     Alert.alert('Üzgünüm, yanlış cevap!');
-    //     setTextInputValue([]);
-    //     setEnteredAnswer('');
-    //     setAnswer('');
-    //     setSentence('');
-    //     setMeaning([]);
-    //     setIsQuestionActive(false);
-    //   }
-    // }
-    // setIsQuestionActive(true);
-
-    // const questions: {[key: string]: string} = generateQuestion();
-    // const keys = Object.keys(questions);
-    // const filteredKeys = keys.filter(key =>
-    //   selectedCells.includes(key.replace('-meaning', '')),
-    // );
-
-    // if (filteredKeys.length === 0) {
-    //   return Alert.alert('Seçilen hücreler için bir soru bulunamadı');
-    // }
-
-    // const randomIndex =
-    //   Math.floor(Math.random() * (filteredKeys.length / 2)) * 2;
-    // const meaningKey = filteredKeys[randomIndex];
-    // const sentenceKey = filteredKeys[randomIndex + 1];
-
-    // const sentence = questions[sentenceKey];
-    // setAnswer(questions[meaningKey]);
-    // const meaning = questions[meaningKey].split(' ');
-    // const mixSentence = meaning.sort(() => Math.random() - 0.5);
-
-    // setSelectedCell(sentenceKey.replace('-meaning', ''));
-    // setSentence(sentence);
-    // setMeaning(mixSentence);
   };
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <ScrollView
-        style={{
-          padding: 12,
-        }}>
+      <ScrollView style={styles.scrollView}>
         <View style={styles.headerView}>
           <View style={styles.header}>
             <Text>Sorulan: {totalQuestions}</Text>
@@ -175,11 +186,7 @@ const Translation = () => {
           selectedCell={selectedCell}
           isSymbolActive={false}
         />
-        <View
-          style={{
-            marginTop: 16,
-            flex: 1,
-          }}>
+        <View style={styles.askButtonContainer}>
           <TouchableOpacity
             style={styles.askButton}
             activeOpacity={0.7}
@@ -188,7 +195,14 @@ const Translation = () => {
                 isAnswerVisible ? handleAskButton() : checkAnswer();
               }
             }}>
-            <Text style={styles.askButtonText}>
+            <Text
+              style={[
+                styles.askButtonText,
+                {
+                  opacity:
+                    textInputValue.length === 0 && !isAnswerVisible ? 0.5 : 1,
+                },
+              ]}>
               {isAnswerVisible ? 'Sor' : 'Cevapla'}
             </Text>
           </TouchableOpacity>
@@ -198,15 +212,7 @@ const Translation = () => {
               style={styles.image}
             />
             <View style={styles.bubble}>
-              <Text
-                style={{
-                  fontSize: 16,
-                  fontWeight: 'bold',
-                  // color: '#227C9D',
-                  color: 'black',
-                }}>
-                {sentence}
-              </Text>
+              <Text style={styles.sentence}>{sentence}</Text>
             </View>
           </View>
           <View
@@ -215,130 +221,34 @@ const Translation = () => {
               marginTop: 20,
               gap: 50,
             }}>
-            <View
-              style={{
-                flex: 1,
-                backgroundColor: 'white',
-                width: '100%',
-                minHeight: 100,
-                padding: 8,
-                borderRadius: 8,
-                shadowColor: '#000',
-                shadowOffset: {
-                  width: 0,
-                  height: 1,
-                },
-                shadowOpacity: 0.22,
-                shadowRadius: 2.22,
-                elevation: 3,
-              }}>
+            <View style={styles.inputArea}>
               <FlatList
                 data={textInputValue}
-                // ListEmptyComponent={
-                //   <Text
-                //     style={{
-                //       fontSize: 16,
-                //       fontWeight: 'bold',
-                //     }}>
-
-                //   </Text>
-                // }
-                contentContainerStyle={{
-                  flexDirection: 'row',
-                  flexWrap: 'wrap',
-                  justifyContent: 'flex-start',
-                  alignItems: 'center',
-                  gap: 8,
-                }}
+                contentContainerStyle={styles.inputValues}
                 renderItem={({item}) => (
                   <TouchableOpacity
                     onPress={() => handleSelectReverse(item)}
-                    style={{
-                      backgroundColor: '#227C9D',
-                      borderRadius: 8,
-                      paddingVertical: 8,
-                      paddingHorizontal: 16,
-                      margin: 2,
-                    }}>
-                    <Text
-                      style={{
-                        fontSize: 16,
-                        fontWeight: 'bold',
-                        color: 'white',
-                      }}>
-                      {item}
-                    </Text>
+                    style={styles.inputButton}>
+                    <Text style={styles.inputText}>{item}</Text>
                   </TouchableOpacity>
                 )}
                 keyExtractor={(item, index) => `meaning-${index}`}
               />
             </View>
-            {/* <View
-            style={{
-              flexDirection: 'row',
-              flexWrap: 'wrap',
-              justifyContent: 'center',
-              alignItems: 'center',
-
-              marginTop: 20,
-            }}>
-            {meaning.map((word, index) => (
-              <View key={index} style={{margin: 2, flex: 1}}>
-                <Draggable onDragRelease={() => handleDragEnd(index)}>
-                  <View
-                    style={{
-                      backgroundColor: '#227C9D',
-                      borderRadius: 8,
-                      paddingVertical: 8,
-                      paddingHorizontal: 16,
-                    }}>
-                    <Text
-                      style={{
-                        fontSize: 16,
-                        fontWeight: 'bold',
-                        color: 'white',
-                      }}>
-                      {word}
-                    </Text>
-                  </View>
-                </Draggable>
-              </View>
-            ))}
-          </View> */}
             <View
               style={{
                 flex: 1,
               }}>
               <DraggableFlatList
                 data={meaning}
-                contentContainerStyle={{
-                  flexDirection: 'row',
-                  flexWrap: 'wrap',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  gap: 8,
-                }}
+                contentContainerStyle={styles.draggableList}
                 renderItem={({item, drag}) => (
-                  <View style={{}}>
-                    <TouchableOpacity
-                      onLongPress={drag}
-                      onPress={() => handleSelect(item)}
-                      style={{
-                        backgroundColor: '#227C9D',
-                        borderRadius: 8,
-                        paddingVertical: 8,
-                        paddingHorizontal: 16,
-                      }}>
-                      <Text
-                        style={{
-                          fontSize: 16,
-                          fontWeight: 'bold',
-                          color: 'white',
-                        }}>
-                        {item}
-                      </Text>
-                    </TouchableOpacity>
-                  </View>
+                  <TouchableOpacity
+                    onLongPress={drag}
+                    onPress={() => handleSelect(item)}
+                    style={styles.draggableItem}>
+                    <Text style={styles.draggableText}>{item}</Text>
+                  </TouchableOpacity>
                 )}
                 keyExtractor={(item, index) => `draggable-item-${index}`}
                 onDragEnd={({data}) => console.log('data', data)}
@@ -347,6 +257,22 @@ const Translation = () => {
           </View>
         </View>
       </ScrollView>
+      <BottomSheet
+        ref={bottomSheetRef}
+        onChange={handleSheetChanges}
+        index={isBottomSheetVisible ? 0 : -1}
+        snapPoints={['28%']}>
+        <BottomSheetView
+          style={[
+            styles.bottomSheetContainer,
+            {
+              backgroundColor: isAnswerTrue ? '#C8EFAE' : '#F8D9DC',
+              opacity: 0.9,
+            },
+          ]}>
+          {isAnswerTrue ? renderCorrectAnswer() : renderIncorrectAnswer()}
+        </BottomSheetView>
+      </BottomSheet>
     </SafeAreaView>
   );
 };
@@ -354,6 +280,14 @@ const Translation = () => {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
+  },
+  scrollView: {
+    padding: 16,
+  },
+  bottomSheetContainer: {
+    flex: 1,
+    borderTopRightRadius: 20,
+    borderTopLeftRadius: 20,
   },
   headerView: {
     display: 'flex',
@@ -371,6 +305,50 @@ const styles = StyleSheet.create({
     color: 'white',
     padding: 8,
     borderRadius: 8,
+  },
+  inputArea: {
+    flex: 1,
+    backgroundColor: 'white',
+    width: '100%',
+    minHeight: 100,
+    padding: 8,
+    borderRadius: 8,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+    elevation: 3,
+  },
+  inputValues: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    gap: 8,
+  },
+  inputButton: {
+    backgroundColor: '#227C9D',
+    borderRadius: 8,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    margin: 2,
+  },
+  inputText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: 'white',
+  },
+  sentence: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: 'black',
+  },
+  askButtonContainer: {
+    flex: 1,
+    marginTop: 16,
   },
   askButton: {
     justifyContent: 'center',
@@ -411,6 +389,73 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.22,
     shadowRadius: 2.22,
     elevation: 3,
+  },
+  correctAnswerText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#56A500',
+  },
+  answerContainer: {
+    flex: 1,
+    padding: 20,
+    gap: 12,
+  },
+  answerHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  incorrectAnswerText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#DE3F41',
+  },
+
+  answerText: {
+    fontSize: 20,
+    fontWeight: '500',
+    color: '#DE3F41',
+  },
+  answerButton: {
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 8,
+    bottom: 0,
+    marginTop: 'auto',
+  },
+  incorrectButton: {
+    backgroundColor: '#FF4B4C',
+  },
+  correctButton: {
+    backgroundColor: '#57CC06',
+  },
+  answerButtonText: {
+    fontWeight: 'bold',
+    color: 'white',
+    textAlign: 'center',
+  },
+  answerButtonHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+  },
+  draggableList: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 8,
+  },
+  draggableItem: {
+    backgroundColor: '#227C9D',
+    borderRadius: 8,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+  },
+  draggableText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: 'white',
   },
 });
 
