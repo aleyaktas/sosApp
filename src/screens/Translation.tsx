@@ -1,4 +1,4 @@
-import React, {useCallback, useRef, useState} from 'react';
+import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {
   Alert,
   FlatList,
@@ -7,6 +7,7 @@ import {
   ScrollView,
   StyleSheet,
   Text,
+  TextInput,
   TouchableOpacity,
   View,
 } from 'react-native';
@@ -16,6 +17,8 @@ import DraggableFlatList from 'react-native-draggable-flatlist';
 import {handleVoice} from '../helpers/voiceCenter';
 import BottomSheet, {BottomSheetView} from '@gorhom/bottom-sheet';
 import Icon from '../themes/Icon';
+import Voice from '@react-native-voice/voice';
+import CheckBox from 'react-native-check-box';
 
 const Translation: React.FC = () => {
   const [totalQuestions, setTotalQuestions] = useState<number>(0);
@@ -32,6 +35,7 @@ const Translation: React.FC = () => {
   const [textInputValue, setTextInputValue] = useState<string[]>([]);
   const [isBottomSheetVisible, setIsBottomSheetVisible] = useState(false);
   const [isAnswerTrue, setIsAnswerTrue] = useState(false);
+  const [isVoiceActive, setIsVoiceActive] = useState(false);
 
   const bottomSheetRef = useRef<BottomSheet>(null);
 
@@ -57,6 +61,61 @@ const Translation: React.FC = () => {
     setMeaning([]);
     handleAskButton();
     bottomSheetRef.current?.close();
+  };
+
+  const [started, setStarted] = useState('');
+  const [ended, setEnded] = useState('');
+  const [results, setResults] = useState<string[]>([]);
+
+  useEffect(() => {
+    Voice.onSpeechStart = onSpeechStart;
+    Voice.onSpeechEnd = onSpeechEnd;
+    Voice.onSpeechResults = onSpeechResults;
+    Voice.onSpeechError = error => {
+      console.log('error', error);
+    };
+
+    return () => {
+      Voice.destroy().then(Voice.removeAllListeners);
+    };
+  }, []);
+
+  const onSpeechStart = (e: any) => {
+    console.log('onSpeechStart', e);
+    setStarted('√');
+  };
+
+  const onSpeechEnd = (e: any) => {
+    console.log('onSpeechEnd', e);
+    setEnded('√');
+  };
+
+  const onSpeechResults = (e: any) => {
+    console.log('onSpeechResults', e.value[0]);
+    setResults(e.value);
+    setTextInputValue(e.value[0].split(' '));
+  };
+
+  const startRecognizing = async () => {
+    try {
+      await Voice.start('en_US');
+      setStarted('');
+      setEnded('');
+      setResults([]);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  const stopRecognizing = async () => {
+    try {
+      await Voice.stop();
+      setStarted('');
+      setEnded('');
+      setResults([]);
+    } catch (e) {
+      console.error(e);
+    }
   };
 
   const renderCorrectAnswer = () => (
@@ -120,7 +179,25 @@ const Translation: React.FC = () => {
     );
 
     if (filteredKeys.length === 0) {
-      return Alert.alert('Seçilen hücreler için bir soru bulunamadı');
+      return Alert.alert(
+        'Seçilen hücreler için bir soru bulunamadı',
+        'Lütfen farklı hücreler seçiniz',
+        [
+          {
+            text: 'Tamam',
+            onPress: () => {
+              setIsAnswerVisible(true);
+              setSelectedCell('');
+              setSentence(
+                'Henüz bir soru yok, hücrelerden seçim yapıp sor tuşuna basmalısın!',
+              );
+              setTextInputValue([]);
+              setAnswer('');
+              setMeaning([]);
+            },
+          },
+        ],
+      );
     }
 
     const randomIndex =
@@ -142,7 +219,10 @@ const Translation: React.FC = () => {
     if (textInputValue.length === 0) {
       return;
     }
-    if (textInputValue.join(' ') === answer) {
+    if (
+      textInputValue.join(' ').replace('.', '').toLowerCase() ===
+      answer.toLowerCase().replace('.', '')
+    ) {
       bottomSheetRef.current?.expand();
       handleVoice(answer);
       setIsAnswerTrue(true);
@@ -154,6 +234,7 @@ const Translation: React.FC = () => {
       setWrongAnswers(wrongAnswers + 1);
     }
     setSelectedCell('');
+    setTextInputValue([]);
   };
 
   const handleAskButton = () => {
@@ -219,41 +300,94 @@ const Translation: React.FC = () => {
             style={{
               flex: 1,
               marginTop: 20,
-              gap: 50,
+              gap: 10,
             }}>
-            <View style={styles.inputArea}>
-              <FlatList
-                data={textInputValue}
-                contentContainerStyle={styles.inputValues}
-                renderItem={({item}) => (
-                  <TouchableOpacity
-                    onPress={() => handleSelectReverse(item)}
-                    style={styles.inputButton}>
-                    <Text style={styles.inputText}>{item}</Text>
-                  </TouchableOpacity>
-                )}
-                keyExtractor={(item, index) => `meaning-${index}`}
-              />
-            </View>
             <View
-              style={{
-                flex: 1,
-              }}>
-              <DraggableFlatList
-                data={meaning}
-                contentContainerStyle={styles.draggableList}
-                renderItem={({item, drag}) => (
-                  <TouchableOpacity
-                    onLongPress={drag}
-                    onPress={() => handleSelect(item)}
-                    style={styles.draggableItem}>
-                    <Text style={styles.draggableText}>{item}</Text>
-                  </TouchableOpacity>
-                )}
-                keyExtractor={(item, index) => `draggable-item-${index}`}
-                onDragEnd={({data}) => console.log('data', data)}
-              />
+              style={[
+                styles.inputArea,
+                started ? styles.voiceInputArea : styles.inputArea,
+              ]}>
+              {isVoiceActive ? (
+                <TextInput
+                  style={{
+                    fontSize: 16,
+                    color: 'black',
+                  }}
+                  value={textInputValue.join(' ')}
+                  onChangeText={text => setTextInputValue([text])}
+                />
+              ) : (
+                <FlatList
+                  data={textInputValue}
+                  contentContainerStyle={styles.inputValues}
+                  renderItem={({item}) => (
+                    <TouchableOpacity
+                      onPress={() => handleSelectReverse(item)}
+                      style={styles.inputButton}>
+                      <Text style={styles.inputText}>{item}</Text>
+                    </TouchableOpacity>
+                  )}
+                  keyExtractor={(item, index) => `meaning-${index}`}
+                />
+              )}
+              <TouchableOpacity
+                style={{
+                  position: 'absolute',
+                  right: 10,
+                  bottom: 10,
+                  opacity: isVoiceActive ? 1 : 0.5,
+                }}
+                disabled={!isVoiceActive}
+                onPressIn={() => {
+                  startRecognizing();
+                }}
+                onPressOut={() => {
+                  stopRecognizing();
+                }}>
+                <Icon name="Mic" color="#282828" />
+              </TouchableOpacity>
             </View>
+            <CheckBox
+              style={{
+                borderRadius: 8,
+                width: 'auto',
+                height: 'auto',
+                alignSelf: 'flex-start',
+              }}
+              onClick={() => {
+                setTextInputValue([]);
+                setIsVoiceActive(!isVoiceActive);
+              }}
+              isChecked={isVoiceActive}
+              rightText="Sesli yanıtla"
+              rightTextStyle={{
+                flex: 0,
+                marginLeft: 2,
+                color: 'black',
+              }}
+              checkBoxColor="green"
+            />
+            {!isVoiceActive && (
+              <View
+                style={{
+                  flex: 1,
+                }}>
+                <DraggableFlatList
+                  data={meaning}
+                  contentContainerStyle={styles.draggableList}
+                  renderItem={({item, drag}) => (
+                    <TouchableOpacity
+                      onLongPress={drag}
+                      onPress={() => handleSelect(item)}
+                      style={styles.draggableItem}>
+                      <Text style={styles.draggableText}>{item}</Text>
+                    </TouchableOpacity>
+                  )}
+                  keyExtractor={(item, index) => `draggable-item-${index}`}
+                  onDragEnd={({data}) => console.log('data', data)}
+                />
+              </View>
+            )}
           </View>
         </View>
       </ScrollView>
@@ -261,7 +395,7 @@ const Translation: React.FC = () => {
         ref={bottomSheetRef}
         onChange={handleSheetChanges}
         index={isBottomSheetVisible ? 0 : -1}
-        snapPoints={['28%']}>
+        snapPoints={['30%']}>
         <BottomSheetView
           style={[
             styles.bottomSheetContainer,
@@ -305,6 +439,18 @@ const styles = StyleSheet.create({
     color: 'white',
     padding: 8,
     borderRadius: 8,
+  },
+  voiceInputArea: {
+    borderColor: 'green',
+    borderWidth: 2,
+    shadowColor: 'green',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
   },
   inputArea: {
     flex: 1,
@@ -409,6 +555,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     color: '#DE3F41',
+    paddingHorizontal: 4,
   },
 
   answerText: {
