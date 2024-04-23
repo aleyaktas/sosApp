@@ -22,6 +22,7 @@ import UpArrow from '../assets/icons/UpArrow.svg';
 import DownArrow from '../assets/icons/DownArrow.svg';
 import CloseFilled from '../assets/icons/CloseFilled.svg';
 import TickFilled from '../assets/icons/TickFilled.svg';
+import RightArrow from '../assets/icons/RightArrow.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
@@ -46,6 +47,7 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   DownArrow,
   CloseFilled,
   TickFilled,
+  RightArrow,
 };
 
 interface IconProps {

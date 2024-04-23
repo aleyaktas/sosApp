@@ -1,6 +1,7 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {
   Alert,
+  Dimensions,
   FlatList,
   Image,
   SafeAreaView,
@@ -19,6 +20,8 @@ import BottomSheet, {BottomSheetView} from '@gorhom/bottom-sheet';
 import Icon from '../themes/Icon';
 import Voice from '@react-native-voice/voice';
 import CheckBox from 'react-native-check-box';
+import {Bar} from 'react-native-progress';
+import {checkAbbrevation} from '../utils/abbreviation';
 
 const Translation: React.FC = () => {
   const [totalQuestions, setTotalQuestions] = useState<number>(0);
@@ -36,6 +39,7 @@ const Translation: React.FC = () => {
   const [isBottomSheetVisible, setIsBottomSheetVisible] = useState(false);
   const [isAnswerTrue, setIsAnswerTrue] = useState(false);
   const [isVoiceActive, setIsVoiceActive] = useState(false);
+  const [snapPoints, setSnapPoints] = useState(['30%']);
 
   const bottomSheetRef = useRef<BottomSheet>(null);
 
@@ -118,10 +122,39 @@ const Translation: React.FC = () => {
     }
   };
 
+  const ChartComponent = () => {
+    return (
+      <View
+        style={{
+          flex: 1,
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: 8,
+          marginTop: 16,
+        }}>
+        <Bar
+          // progress={totalQuestions !== 0 ? correctAnswers / totalQuestions : 0}
+          //progres % lik olmalı
+          progress={totalQuestions !== 0 ? correctAnswers / totalQuestions : 0}
+          color={'#56A500'}
+          unfilledColor={wrongAnswers !== 0 ? '#DE3F41' : '#E1D9DC'}
+          borderWidth={0}
+          width={Dimensions.get('window').width - 80}
+          style={{
+            borderRadius: 8,
+          }}
+        />
+        <Text style={{fontSize: 16, fontWeight: 'bold'}}>
+          {correctAnswers}/{totalQuestions}
+        </Text>
+      </View>
+    );
+  };
+
   const renderCorrectAnswer = () => (
     <View style={styles.answerContainer}>
       <View style={styles.answerHeader}>
-        <Icon name="TickFilled" color="#56A500" />
+        <Icon name="TickFilled" color="#56A500" width={20} height={20} />
         <Text style={styles.correctAnswerText}>Tebrikler, doğru cevap!</Text>
       </View>
       <TouchableOpacity
@@ -141,14 +174,20 @@ const Translation: React.FC = () => {
   const renderIncorrectAnswer = () => (
     <View style={styles.answerContainer}>
       <View style={styles.answerHeader}>
-        <Icon name="CloseFilled" color="#DE3F41" />
+        <Icon name="CloseFilled" color="#DE3F41" width={24} height={24} />
         <Text style={styles.incorrectAnswerText}>Üzgünüm, yanlış cevap!</Text>
+      </View>
+      <View style={styles.answerHeader}>
+        <Icon name="RightArrow" color="#DE3F41" width={20} height={20} />
+        <Text style={styles.incorrectAnswerText}>
+          {textInputValue.join(' ')}
+        </Text>
       </View>
       <TouchableOpacity
         onPress={() => handleVoice(answer)}
         style={styles.answerButtonHeader}>
-        <Icon name="Sound" color="#DE3F41" width={20} height={20} />
-        <Text style={styles.incorrectAnswerText}>{answer}</Text>
+        <Icon name="Sound" color="#56A500" width={20} height={20} />
+        <Text style={styles.correctAnswerText}>{answer}</Text>
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => continueButton()}
@@ -167,52 +206,50 @@ const Translation: React.FC = () => {
   };
 
   const generateQuestion = () => {
+    console.log('selectedCells', selectedCells);
     const randomIndexWords = Math.floor(
       Math.random() * translationWords.length,
     );
 
-    const questions: {[key: string]: string} =
-      translationWords[randomIndexWords];
+    let questions: {[key: string]: any} = translationWords[randomIndexWords];
     const keys = Object.keys(questions);
-    const filteredKeys = keys.filter(key =>
+    let filteredKeys = keys.filter(key =>
       selectedCells.includes(key.replace('-meaning', '')),
     );
+    console.log(questions, 'questions');
+    console.log(filteredKeys, 'filteredKeys1');
 
-    if (filteredKeys.length === 0) {
-      return Alert.alert(
-        'Seçilen hücreler için bir soru bulunamadı',
-        'Lütfen farklı hücreler seçiniz',
-        [
-          {
-            text: 'Tamam',
-            onPress: () => {
-              setIsAnswerVisible(true);
-              setSelectedCell('');
-              setSentence(
-                'Henüz bir soru yok, hücrelerden seçim yapıp sor tuşuna basmalısın!',
-              );
-              setTextInputValue([]);
-              setAnswer('');
-              setMeaning([]);
-            },
-          },
-        ],
+    while (filteredKeys.length === 0) {
+      const randomIndexWords = Math.floor(
+        Math.random() * translationWords.length,
       );
+      questions = translationWords[randomIndexWords];
+      const newKeys = Object.keys(questions);
+      filteredKeys = newKeys.filter(key =>
+        selectedCells.includes(key.replace('-meaning', '')),
+      );
+      console.log('newQuestions', questions);
+      console.log(filteredKeys, 'filteredKeys2');
     }
 
-    const randomIndex =
-      Math.floor(Math.random() * (filteredKeys.length / 2)) * 2;
-    const meaningKey = filteredKeys[randomIndex];
-    const sentenceKey = filteredKeys[randomIndex + 1];
+    if (filteredKeys.length > 0) {
+      const randomIndex =
+        Math.floor(Math.random() * (filteredKeys.length / 2)) * 2;
+      const meaningKey = filteredKeys[randomIndex];
+      const sentenceKey = filteredKeys[randomIndex + 1];
 
-    const sentence = questions[sentenceKey];
-    setAnswer(questions[meaningKey]);
-    const meaning = questions[meaningKey].split(' ');
-    const mixSentence = shuffleArray([...meaning]);
+      const sentence = questions[sentenceKey];
+      setAnswer(questions[meaningKey]);
+      console.log('answer', questions[meaningKey]);
+      console.log('sentence', sentence);
+      console.log('ques', questions);
+      const meaning = questions[meaningKey].split(' ');
+      const mixSentence = shuffleArray([...meaning]);
 
-    setSelectedCell(sentenceKey.replace('-meaning', ''));
-    setSentence(sentence);
-    setMeaning(mixSentence);
+      setSelectedCell(sentenceKey.replace('-meaning', ''));
+      setSentence(sentence);
+      setMeaning(mixSentence);
+    }
   };
 
   const contractions = {
@@ -234,8 +271,8 @@ const Translation: React.FC = () => {
 
   const replaceContractions = (text: string): string => {
     Object.entries(contractions).forEach(([key, value]) => {
-      console.log('key', key);
-      console.log('value', value);
+      // console.log('key', key);
+      // console.log('value', value);
       text = text.replace(new RegExp(key, 'g'), value);
     });
     return text;
@@ -252,6 +289,46 @@ const Translation: React.FC = () => {
       .replace(/[?.,]/g, '');
     const normalizedAnswer = answer.toLowerCase().replace(/[?.,]/g, '');
     let normalizedInputWithContractions = replaceContractions(normalizedInput);
+    // console.log('normalizedInput', normalizedInput);
+    // console.log('normalizedAnswer', normalizedAnswer);
+    // console.log(
+    //   'normalizedInputWithContractions',
+    //   normalizedInputWithContractions,
+    // );
+
+    //isn't => is not, aren't => are not, won't => will not, hasn't => has not, haven't => have not, hadn't => had not, wouldn't => would not, couldn't => could not, shouldn't => should not, don't => do not, doesn't => does not, didn't => did not, wasn't => was not, weren't => were not
+    normalizedInputWithContractions = normalizedInputWithContractions.replace(
+      /isn't|aren't|won't|hasn't|haven't|hadn't|wouldn't|couldn't|shouldn't|don't|doesn't|didn't|wasn't|weren't/g,
+      match => {
+        return match === "isn't"
+          ? 'is not'
+          : match === "aren't"
+          ? 'are not'
+          : match === "won't"
+          ? 'will not'
+          : match === "hasn't"
+          ? 'has not'
+          : match === "haven't"
+          ? 'have not'
+          : match === "hadn't"
+          ? 'had not'
+          : match === "wouldn't"
+          ? 'would not'
+          : match === "couldn't"
+          ? 'could not'
+          : match === "shouldn't"
+          ? 'should not'
+          : match === "don't"
+          ? 'do not'
+          : match === "doesn't"
+          ? 'does not'
+          : match === "didn't"
+          ? 'did not'
+          : match === "wasn't"
+          ? 'was not'
+          : 'were not';
+      },
+    );
 
     // i'm => i am, i'd => i had, he's => he is, they're => they are, we're => we are, you're => you are, she's => she is, it's => it is
     if (selectedCell[1] !== '4') {
@@ -396,30 +473,39 @@ const Translation: React.FC = () => {
 
     normalizedInput = normalizedInput.trim();
     normalizedInputWithContractions = normalizedInputWithContractions.trim();
-    console.log('normalizedInput', normalizedInput);
-    console.log('normalizedAnswer', normalizedAnswer);
-    console.log(
-      'normalizedInputWithContractions',
-      normalizedInputWithContractions,
-    );
+    // console.log('normalizedInput', normalizedInput);
+    // console.log('normalizedAnswer', normalizedAnswer);
+    // console.log(
+    //   'normalizedInputWithContractions',
+    //   normalizedInputWithContractions,
+    // );
 
     if (
-      // textInputValue.join(' ').replace('.', '').toLowerCase() ===
-      // answer.toLowerCase().replace('.', '')
-      normalizedAnswer === normalizedInputWithContractions
+      normalizedAnswer
+        .trim()
+        .replace('.', '')
+        .replace('?', '')
+        .toLowerCase() ===
+      normalizedInputWithContractions
+        .trim()
+        .replace('.', '')
+        .replace('?', '')
+        .toLowerCase()
+      // normalizedAnswer === normalizedInputWithContractions
     ) {
+      setSnapPoints(['32%']);
       bottomSheetRef.current?.expand();
       handleVoice(answer);
       setIsAnswerTrue(true);
       setCorrectAnswers(correctAnswers + 1);
     } else {
+      setSnapPoints(['38%']);
       bottomSheetRef.current?.expand();
       handleVoice(answer);
       setIsAnswerTrue(false);
       setWrongAnswers(wrongAnswers + 1);
     }
     setSelectedCell('');
-    setTextInputValue([]);
   };
 
   const handleAskButton = () => {
@@ -436,15 +522,20 @@ const Translation: React.FC = () => {
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView style={styles.scrollView}>
-        <View style={styles.headerView}>
-          <View style={styles.header}>
-            <Text>Sorulan: {totalQuestions}</Text>
-          </View>
-          <View style={styles.header}>
-            <Text>Doğru: {correctAnswers}</Text>
-          </View>
-          <View style={styles.header}>
-            <Text>Yanlış: {wrongAnswers}</Text>
+        <View style={styles.chartContainer}>
+          <ChartComponent />
+          <View style={styles.headerView}>
+            <View style={styles.header}>
+              <Text style={styles.statisticText}>
+                Sorulan: {totalQuestions}
+              </Text>
+            </View>
+            <View style={styles.header}>
+              <Text style={styles.statisticText}>Doğru: {correctAnswers}</Text>
+            </View>
+            <View style={styles.header}>
+              <Text style={styles.statisticText}>Yanlış: {wrongAnswers}</Text>
+            </View>
           </View>
         </View>
         <Table
@@ -558,6 +649,7 @@ const Translation: React.FC = () => {
             <View
               style={{
                 flex: 1,
+                marginBottom: 20,
               }}>
               <DraggableFlatList
                 data={meaning}
@@ -582,7 +674,7 @@ const Translation: React.FC = () => {
         ref={bottomSheetRef}
         onChange={handleSheetChanges}
         index={isBottomSheetVisible ? 0 : -1}
-        snapPoints={['30%']}>
+        snapPoints={snapPoints}>
         <BottomSheetView
           style={[
             styles.bottomSheetContainer,
@@ -603,7 +695,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   scrollView: {
-    padding: 16,
+    paddingHorizontal: 16,
   },
   bottomSheetContainer: {
     flex: 1,
@@ -615,15 +707,18 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     width: '100%',
     gap: 8,
-    marginVertical: 28,
+    marginBottom: 28,
+    marginTop: 16,
   },
   header: {
     flex: 1,
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FFCB77',
-    color: 'white',
+    // backgroundColor: '#FFCB77',
+    backgroundColor: '#f8f8f8',
+    borderColor: '#FFCB77',
+    borderWidth: 2,
     padding: 8,
     borderRadius: 8,
   },
@@ -702,6 +797,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  chartContainer: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   image: {
     width: 100,
     height: 100,
@@ -733,18 +834,11 @@ const styles = StyleSheet.create({
     padding: 20,
     gap: 12,
   },
-  answerHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
-  },
   incorrectAnswerText: {
     fontSize: 18,
     fontWeight: 'bold',
     color: '#DE3F41',
-    paddingHorizontal: 4,
   },
-
   answerText: {
     fontSize: 20,
     fontWeight: '500',
@@ -768,10 +862,16 @@ const styles = StyleSheet.create({
     color: 'white',
     textAlign: 'center',
   },
+  answerHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
   answerButtonHeader: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 4,
+    gap: 6,
+    paddingRight: 8,
   },
   draggableList: {
     flexDirection: 'row',
@@ -790,6 +890,10 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     color: 'white',
+  },
+  statisticText: {
+    // color: '#282828',
+    fontWeight: 'bold',
   },
 });
 
