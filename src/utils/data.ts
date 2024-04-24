@@ -188,4 +188,18 @@ export const subCategory = [
     page: 'Translation',
     image: require('../assets/icons/translation.png'),
   },
+  {
+    id: 5,
+    title: 'Test',
+    description: 'Konu testleri',
+    page: 'Sos',
+    image: require('../assets/icons/exam.png'),
+  },
+  {
+    id: 6,
+    title: '4 beceri',
+    description: 'Dinleme, konuşma, okuma, yazma',
+    page: 'Sos',
+    image: require('../assets/icons/four_skills.png'),
+  },
 ];
