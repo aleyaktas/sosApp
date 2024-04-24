@@ -1,4 +1,4 @@
-const contractions = {
+export const contractions = {
   'is not': "isn't",
   'are not': "aren't",
   'will not': "won't",
@@ -15,7 +15,7 @@ const contractions = {
   'were not': "weren't",
 };
 
-const replaceContractions = (text: string): string => {
+export const replaceContractions = (text: string): string => {
   Object.entries(contractions).forEach(([key, value]) => {
     console.log('key', key);
     console.log('value', value);
@@ -28,17 +28,13 @@ export const checkAbbrevation = ({
   input,
   answer,
   selectedCell,
-  setSelectedCell,
-  customFunction,
 }: {
   input: string[];
   answer: string;
   selectedCell: string;
-  setSelectedCell: (value: string) => void;
-  customFunction: () => void;
 }) => {
   let normalizedInput = input.join(' ').toLowerCase().replace(/[?.,]/g, '');
-  const normalizedAnswer = answer.toLowerCase().replace(/[?.,]/g, '');
+  let normalizedAnswer = answer.toLowerCase().replace(/[?.,]/g, '');
   let normalizedInputWithContractions = replaceContractions(normalizedInput);
 
   // i'm => i am, i'd => i had, he's => he is, they're => they are, we're => we are, you're => you are, she's => she is, it's => it is
@@ -77,6 +73,39 @@ export const checkAbbrevation = ({
           : match === "she's"
           ? 'she is'
           : 'it is';
+      },
+    );
+    // //isn't => is not, aren't => are not, won't => will not, hasn't => has not, haven't => have not, hadn't => had not, wouldn't => would not, couldn't => could not, shouldn't => should not, don't => do not, doesn't => does not, didn't => did not, wasn't => was not, weren't => were not
+    normalizedAnswer = normalizedAnswer.replace(
+      /isn't|aren't|won't|hasn't|haven't|hadn't|wouldn't|couldn't|shouldn't|don't|doesn't|didn't|wasn't|weren't/g,
+      match => {
+        return match === "isn't"
+          ? 'is not'
+          : match === "aren't"
+          ? 'are not'
+          : match === "won't"
+          ? 'will not'
+          : match === "hasn't"
+          ? 'has not'
+          : match === "haven't"
+          ? 'have not'
+          : match === "hadn't"
+          ? 'had not'
+          : match === "wouldn't"
+          ? 'would not'
+          : match === "couldn't"
+          ? 'could not'
+          : match === "shouldn't"
+          ? 'should not'
+          : match === "don't"
+          ? 'do not'
+          : match === "doesn't"
+          ? 'does not'
+          : match === "didn't"
+          ? 'did not'
+          : match === "wasn't"
+          ? 'was not'
+          : 'were not';
       },
     );
   }
@@ -191,23 +220,9 @@ export const checkAbbrevation = ({
     normalizedInputWithContractions,
   );
 
-  // if (
-  //   // textInputValue.join(' ').replace('.', '').toLowerCase() ===
-  //   // answer.toLowerCase().replace('.', '')
-  //   normalizedAnswer === normalizedInputWithContractions
-  // ) {
-  //   setSnapPoints(['32%']);
-  //   bottomSheetRef.current?.expand();
-  //   handleVoice(answer);
-  //   setIsAnswerTrue(true);
-  //   setCorrectAnswers(correctAnswers + 1);
-  // } else {
-  //   setSnapPoints(['38%']);
-  //   bottomSheetRef.current?.expand();
-  //   handleVoice(answer);
-  //   setIsAnswerTrue(false);
-  //   setWrongAnswers(wrongAnswers + 1);
-  // }
-  customFunction();
-  setSelectedCell('');
+  return {
+    normalizedInput,
+    normalizedAnswer,
+    normalizedInputWithContractions,
+  };
 };
