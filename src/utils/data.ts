@@ -7,15 +7,15 @@ export const categories = [
   },
   {
     id: 2,
-    title: 'Zamirler',
-    description: 'Zamirlerin kullanımı ve çeşitleri.',
-    image: require('../assets/icons/pronoun.png'),
-  },
-  {
-    id: 3,
     title: 'Sorular',
     description: 'Soru cümleleri ve nasıl oluşturuldukları.',
     image: require('../assets/icons/questions.png'),
+  },
+  {
+    id: 3,
+    title: 'Zamirler',
+    description: 'Zamirlerin kullanımı ve çeşitleri.',
+    image: require('../assets/icons/pronoun.png'),
   },
   {
     id: 4,
