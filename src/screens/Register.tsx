@@ -19,6 +19,37 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
     navigation.navigate('Login');
   };
 
+  const handleRegister = async () => {
+    const formData = new FormData();
+    formData.append('email', email);
+    formData.append('username', username);
+    formData.append('password', password);
+    const res = await fetch('https://kelibu.net/api/register-sos', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+      body: formData,
+    });
+    console.log(res);
+    navigation.reset({
+      index: 0,
+      routes: [
+        {
+          name: 'BottomTabs',
+          state: {
+            index: 0,
+            routes: [
+              {
+                name: 'Home',
+              },
+            ],
+          },
+        },
+      ],
+    });
+  };
+
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.scrollView}>
@@ -68,7 +99,12 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
               <Text style={styles.loginPromptText}>Login</Text>
             </TouchableOpacity>
           </View>
-          <TouchableOpacity style={styles.loginButton} activeOpacity={0.7}>
+          <TouchableOpacity
+            style={styles.loginButton}
+            activeOpacity={0.7}
+            onPress={() => {
+              handleRegister();
+            }}>
             <Text style={styles.loginButtonText}>Register</Text>
           </TouchableOpacity>
         </View>

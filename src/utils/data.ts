@@ -171,7 +171,7 @@ export const subCategory = [
     id: 2,
     title: 'Videolar',
     description: 'Konu videoları',
-    page: 'Sos',
+    page: 'Videos',
     image: require('../assets/icons/video.png'),
   },
   {
@@ -199,7 +199,133 @@ export const subCategory = [
     id: 6,
     title: '4 beceri',
     description: 'Dinleme, konuşma, okuma, yazma',
-    page: 'Sos',
+    page: 'Units',
     image: require('../assets/icons/four_skills.png'),
+  },
+];
+
+export const units = [
+  {
+    id: 1,
+    title: 'Ünite 1',
+    description: 'Zamanlar ünite 1',
+    page: 'FourSkills',
+    image: require('../assets/icons/1.png'),
+  },
+  {
+    id: 2,
+    title: 'Ünite 2',
+    description: 'Sorular ünite 2',
+    page: 'FourSkills',
+    image: require('../assets/icons/2.png'),
+  },
+  {
+    id: 3,
+    title: 'Ünite 3',
+    description: 'Zamirler ünite 3',
+    page: 'FourSkills',
+    image: require('../assets/icons/3.png'),
+  },
+  {
+    id: 4,
+    title: 'Ünite 4',
+    description: 'There is / There are ünite 4',
+    page: 'FourSkills',
+    image: require('../assets/icons/4.png'),
+  },
+  {
+    id: 5,
+    title: 'Ünite 5',
+    description: 'A, An, The ünite 5',
+    page: 'FourSkills',
+    image: require('../assets/icons/5.png'),
+  },
+];
+
+export const fourSkills = [
+  {
+    id: 1,
+    title: 'Dinleme',
+    description: 'Dinleme becerisi',
+    page: 'FourSkills',
+    image: require('../assets/icons/listening.png'),
+  },
+  {
+    id: 2,
+    title: 'Konuşma',
+    description: 'Konuşma becerisi',
+    page: 'FourSkills',
+    image: require('../assets/icons/speaking.png'),
+  },
+  {
+    id: 3,
+    title: 'Okuma',
+    description: 'Okuma becerisi',
+    page: 'FourSkills',
+    image: require('../assets/icons/reading.png'),
+  },
+  {
+    id: 4,
+    title: 'Yazma',
+    description: 'Yazma becerisi',
+    page: 'FourSkills',
+    image: require('../assets/icons/writing.png'),
+  },
+];
+
+export const videos = [
+  {
+    id: 1,
+    title: '1b',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: '1c',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: '1a',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 4,
+    title: '2b',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 5,
+    title: '2c',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 6,
+    title: '2a',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 7,
+    title: '3b',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 8,
+    title: '3c',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 9,
+    title: '3a',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
   },
 ];

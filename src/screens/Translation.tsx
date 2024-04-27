@@ -243,6 +243,7 @@ const Translation: React.FC = () => {
       console.log('ques', questions);
       const meaning = questions[meaningKey].split(' ');
       const mixSentence = shuffleArray([...meaning]);
+      console.log('mixSentence', mixSentence);
 
       setSelectedCell(sentenceKey.replace('-meaning', ''));
       setSentence(sentence);

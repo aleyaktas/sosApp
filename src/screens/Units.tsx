@@ -10,18 +10,18 @@ import {
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import {useNavigation} from '@react-navigation/native';
 import {ScreenProp} from '../navigation/types';
-import {subCategory} from '../utils/data';
+import {units} from '../utils/data';
 import MenuItem from '../components/MenuItem';
 
 export interface SubCategory {
   id: number;
   title: string;
-  description?: string;
+  description: string;
   image: any;
   page: string;
 }
 
-const SubCategory = () => {
+const Units = () => {
   const navigation = useNavigation<ScreenProp>();
   return (
     <ScrollView
@@ -31,7 +31,7 @@ const SubCategory = () => {
       }}>
       <View>
         <FlatList
-          data={subCategory}
+          data={units}
           renderItem={({item}) => <MenuItem item={item} />}
           keyExtractor={item => item.id.toString()}
         />
@@ -40,4 +40,4 @@ const SubCategory = () => {
   );
 };
 
-export default SubCategory;
+export default Units;

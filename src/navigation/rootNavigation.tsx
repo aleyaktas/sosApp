@@ -8,6 +8,9 @@ import {ModalContext} from '../contexts/ModalContext';
 import SubCategory from '../screens/SubCategory';
 import {Text} from 'react-native';
 import Translation from '../screens/Translation';
+import Units from '../screens/Units';
+import FourSkills from '../screens/FourSkills';
+import Videos from '../screens/Videos';
 
 const Stack = createStackNavigator();
 
@@ -60,6 +63,33 @@ const RootNavigation = () => {
         component={SubCategory}
         options={{
           headerTitle: 'Konular',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="Units"
+        component={Units}
+        options={{
+          headerTitle: 'Üniteler',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="FourSkills"
+        component={FourSkills}
+        options={{
+          headerTitle: 'Dört Beceri',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="Videos"
+        component={Videos}
+        options={{
+          headerTitle: 'Videolar',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
