@@ -64,7 +64,6 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
               style={styles.textInput}
               placeholder="Email"
               placeholderTextColor={'gray'}
-              secureTextEntry
               value={email}
               onChangeText={setEmail}
             />

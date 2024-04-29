@@ -16,14 +16,20 @@ const Home = () => {
         {categories.map(item => (
           <TouchableOpacity
             activeOpacity={0.7}
-            disabled={item.title !== 'Zamanlar'}
-            onPress={() => navigation.navigate('SubCategory')}
+            disabled={item.title !== 'Zamanlar' && item.title !== 'Sorular'}
+            onPress={() =>
+              navigation.navigate('SubCategory', {
+                title: item.en,
+              })
+            }
             key={item.id}
             style={[
               styles.categoriesButton,
               {
                 backgroundColor:
-                  item.title === 'Zamanlar' ? 'white' : '#f5f5f5',
+                  item.title === 'Zamanlar' || item.title === 'Sorular'
+                    ? 'white'
+                    : '#f5f5f5',
               },
             ]}>
             <Image source={item.image} style={{width: 60, height: 60}} />
@@ -32,7 +38,10 @@ const Home = () => {
                 style={[
                   styles.categoriesTitle,
                   {
-                    color: item.title === 'Zamanlar' ? 'black' : 'darkgray',
+                    color:
+                      item.title === 'Zamanlar' || item.title === 'Sorular'
+                        ? 'black'
+                        : 'darkgray',
                   },
                 ]}>
                 {item.title}

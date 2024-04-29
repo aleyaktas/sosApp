@@ -11,6 +11,7 @@ import Translation from '../screens/Translation';
 import Units from '../screens/Units';
 import FourSkills from '../screens/FourSkills';
 import Videos from '../screens/Videos';
+import Notes from '../screens/Notes';
 
 const Stack = createStackNavigator();
 
@@ -90,6 +91,15 @@ const RootNavigation = () => {
         component={Videos}
         options={{
           headerTitle: 'Videolar',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="Notes"
+        component={Notes}
+        options={{
+          headerTitle: 'Notlar',
           headerShown: true,
           headerTitleAlign: 'center',
         }}

@@ -8,9 +8,9 @@ import {
   FlatList,
 } from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
-import {useNavigation} from '@react-navigation/native';
+import {Route, useNavigation, useRoute} from '@react-navigation/native';
 import {ScreenProp} from '../navigation/types';
-import {subCategory} from '../utils/data';
+// import {subCategory} from '../utils/data';
 import MenuItem from '../components/MenuItem';
 
 export interface SubCategory {
@@ -21,8 +21,17 @@ export interface SubCategory {
   page: string;
 }
 
+type SubCategoryRoute = Route<'SubCategory', {title: string}>;
+
 const SubCategory = () => {
   const navigation = useNavigation<ScreenProp>();
+  const route = useRoute<SubCategoryRoute>();
+
+  //dynamic import of data // navigation route name
+
+  const title = route.params.title;
+  const subCategory = require(`../utils/data`)[`${title}SubCategory`];
+
   return (
     <ScrollView
       style={{
