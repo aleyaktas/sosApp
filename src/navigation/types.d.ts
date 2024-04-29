@@ -8,6 +8,9 @@ export type StackNavigatorList = {
   Sos: undefined;
   Translation: undefined;
   SubCategory: {title: string};
+  FourSkills: {title?: string};
+  Units: {title: string};
+  Videos: {title?: string};
 };
 
 export type BottomNavigatorList = {

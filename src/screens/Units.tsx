@@ -1,28 +1,15 @@
 import React from 'react';
-import {
-  Text,
-  View,
-  Image,
-  ScrollView,
-  StyleSheet,
-  FlatList,
-} from 'react-native';
-import {TouchableOpacity} from 'react-native-gesture-handler';
-import {useNavigation} from '@react-navigation/native';
-import {ScreenProp} from '../navigation/types';
-import {units} from '../utils/data';
+import {View, ScrollView, FlatList} from 'react-native';
+import {Route, useRoute} from '@react-navigation/native';
 import MenuItem from '../components/MenuItem';
 
-export interface SubCategory {
-  id: number;
-  title: string;
-  description: string;
-  image: any;
-  page: string;
-}
+type UnitsRoute = Route<'Units', {title: string}>;
 
 const Units = () => {
-  const navigation = useNavigation<ScreenProp>();
+  const route = useRoute<UnitsRoute>();
+  const title = route.params.title;
+  const units = require(`../utils/data`)[`${title}Units`];
+
   return (
     <ScrollView
       style={{

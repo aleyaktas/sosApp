@@ -2,20 +2,23 @@ import React from 'react';
 import {
   View,
   FlatList,
-  Touchable,
   TouchableOpacity,
   Image,
   Text,
   StyleSheet,
 } from 'react-native';
-import {videos} from '../utils/data';
-import MenuItem from '../components/MenuItem';
 import {ScreenProp} from '../navigation/types';
-import {useNavigation} from '@react-navigation/native';
+import {Route, useNavigation, useRoute} from '@react-navigation/native';
 import {SubCategory} from './SubCategory';
+
+type VideosRoute = Route<'Videos', {title: string}>;
 
 const Videos = () => {
   const navigation = useNavigation<ScreenProp>();
+  const route = useRoute<VideosRoute>();
+  const title = route.params.title;
+  const videos = require(`../utils/data`)[`${title}Videos`];
+
   const menuItem = ({item}: {item: SubCategory}) => {
     return (
       <TouchableOpacity
@@ -35,16 +38,16 @@ const Videos = () => {
     <View style={styles.container}>
       <FlatList
         contentContainerStyle={{
-          marginTop: 12,
+          marginTop: 20,
+          marginHorizontal: 12,
         }}
         data={videos}
         renderItem={({item}) => menuItem({item})}
         keyExtractor={item => item.id.toString()}
         numColumns={3}
         columnWrapperStyle={{
-          justifyContent: 'center',
-          alignItems: 'center',
-          columnGap: 24,
+          gap: 16,
+          marginVertical: 8,
         }}
       />
     </View>
@@ -54,16 +57,17 @@ const Videos = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginVertical: 12,
   },
   button: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 8,
-    paddingVertical: 16,
-    paddingHorizontal: 20,
+    gap: 4,
+    paddingHorizontal: 8,
+    paddingVertical: 8,
+
+    flex: 1,
     backgroundColor: 'white',
-    marginVertical: 12,
+
     borderWidth: 0.3,
     borderColor: '#e0e0e0',
     borderRadius: 10,
@@ -77,15 +81,15 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   image: {
-    width: 60,
-    height: 60,
+    width: 50,
+    height: 50,
   },
   text: {
     flexDirection: 'column',
     justifyContent: 'space-between',
   },
   title: {
-    fontSize: 20,
+    fontSize: 16,
     fontWeight: 'bold',
     color: 'black',
   },

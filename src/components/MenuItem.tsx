@@ -1,17 +1,26 @@
 import React from 'react';
 import {Text, View, Image, ScrollView, StyleSheet} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
-import {subCategory} from '../utils/data';
 import {SubCategory} from '../screens/SubCategory';
 import {ScreenProp} from '../navigation/types';
 import {useNavigation} from '@react-navigation/native';
 
 const MenuItem = ({item}: {item: SubCategory}) => {
   const navigation = useNavigation<ScreenProp>();
+  console.log(item);
   return (
     <TouchableOpacity
       activeOpacity={0.7}
-      onPress={() => item.page && navigation.navigate(item.page as never)}
+      onPress={() => {
+        if (item.page) {
+          if (item.en) {
+            return navigation.navigate(item.page as any, {
+              title: item.en,
+            });
+          }
+          navigation.navigate(item.page as never);
+        }
+      }}
       key={item.id}
       style={styles.button}>
       <Image source={item.image} style={{width: 60, height: 60}} />

@@ -188,6 +188,7 @@ export const TensesSubCategory = [
   {
     id: 1,
     title: 'Uygulama',
+    en: 'Application',
     description: 'Sos uygulaması',
     page: 'Sos',
     image: require('../assets/icons/application.png'),
@@ -195,6 +196,7 @@ export const TensesSubCategory = [
   {
     id: 2,
     title: 'Videolar',
+    en: 'Tenses',
     description: 'Konu videoları',
     page: 'Videos',
     image: require('../assets/icons/video.png'),
@@ -202,6 +204,7 @@ export const TensesSubCategory = [
   {
     id: 3,
     title: 'Notlar',
+    en: 'Notes',
     description: 'Konu notları',
     page: 'Notes',
     image: require('../assets/icons/subjects.png'),
@@ -209,6 +212,7 @@ export const TensesSubCategory = [
   {
     id: 4,
     title: 'Çeviri Çalışması',
+    en: 'Translation',
     description: 'Çeviri çalışmaları',
     page: 'Translation',
     image: require('../assets/icons/translation.png'),
@@ -216,6 +220,7 @@ export const TensesSubCategory = [
   {
     id: 5,
     title: 'Test',
+    en: 'Test',
     description: 'Konu testleri',
     page: 'Sos',
     image: require('../assets/icons/exam.png'),
@@ -223,6 +228,7 @@ export const TensesSubCategory = [
   {
     id: 6,
     title: '4 beceri',
+    en: 'FourSkills',
     description: 'Dinleme, konuşma, okuma, yazma',
     page: 'Units',
     image: require('../assets/icons/four_skills.png'),
@@ -239,7 +245,7 @@ export const QuestionsSubCategory = [
   },
 ];
 
-export const units = [
+export const FourSkillsUnits = [
   {
     id: 1,
     title: 'Ünite 1',
@@ -308,57 +314,75 @@ export const fourSkills = [
   },
 ];
 
-export const videos = [
+export const TensesVideos = [
   {
     id: 1,
-    title: '1b',
+    title: '1. Ünite',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 2,
-    title: '1c',
+    title: '2. Ünite',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 3,
-    title: '1a',
+    title: '3. Ünite',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 4,
-    title: '2b',
+    title: '1b',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 5,
-    title: '2c',
+    title: '1c',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 6,
-    title: '2a',
+    title: '1a',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 7,
-    title: '3b',
+    title: '2b',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 8,
-    title: '3c',
+    title: '2c',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 9,
+    title: '2a',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 10,
+    title: '3b',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 11,
+    title: '3c',
+    page: 'Video',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 12,
     title: '3a',
     page: 'Video',
     image: require('../assets/icons/video.png'),
