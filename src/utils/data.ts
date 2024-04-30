@@ -1,36 +1,44 @@
-export const categories = [
+interface ICategory {
+  id: number;
+  title: string;
+  mainCategory: string;
+  description: string;
+  image: any;
+}
+
+export const Categories: ICategory[] = [
   {
     id: 1,
     title: 'Zamanlar',
-    en: 'Tenses',
+    mainCategory: 'Tenses',
     description: 'Zaman kavramları hakkında bilgiler.',
     image: require('../assets/icons/tenses.png'),
   },
   {
     id: 2,
     title: 'Sorular',
-    en: 'Questions',
+    mainCategory: 'Questions',
     description: 'Soru cümleleri ve nasıl oluşturuldukları.',
     image: require('../assets/icons/questions.png'),
   },
   {
     id: 3,
     title: 'Zamirler',
-    en: 'Pronouns',
+    mainCategory: 'Pronouns',
     description: 'Zamirlerin kullanımı ve çeşitleri.',
     image: require('../assets/icons/pronoun.png'),
   },
   {
     id: 4,
     title: 'There is / There are',
-    en: 'ThereIsThereAre',
+    mainCategory: 'ThereIsThereAre',
     description: 'There is ve there are yapıları.',
     image: require('../assets/icons/thereis.png'),
   },
   {
     id: 5,
     title: 'A, An, The',
-    en: 'Articles',
+    mainCategory: 'Articles',
     description: 'Belirli ve belirsiz tanımlıkların kullanımı.',
     image: require('../assets/icons/a_an.png'),
   },
@@ -43,35 +51,35 @@ export const categories = [
   {
     id: 7,
     title: 'Prepositions',
-    en: 'Prepositions',
+    mainCategory: 'Prepositions',
     description: 'Edatların kullanımı ve çeşitleri.',
     image: require('../assets/icons/prepositions.png'),
   },
   {
     id: 8,
     title: "'s vs of",
-    en: 'SvsOf',
+    mainCategory: 'SvsOf',
     description: 'İyelik ekleri ve of kullanımı arasındaki farklar.',
     image: require('../assets/icons/s_vs_of.png'),
   },
   {
     id: 9,
     title: 'Comparative & Superlatives',
-    en: 'Comparatives',
+    mainCategory: 'Comparatives',
     description: 'Karşılaştırmalı ve üstünlük derecesi.',
     image: require('../assets/icons/comparatives.png'),
   },
   {
     id: 10,
     title: 'Have / Has',
-    en: 'HaveHas',
+    mainCategory: 'HaveHas',
     description: 'Have ve has fiillerinin kullanımı.',
     image: require('../assets/icons/have_has.png'),
   },
   {
     id: 11,
     title: 'Exciting / Excited',
-    en: 'ExcitingExcited',
+    mainCategory: 'ExcitingExcited',
     description:
       'Exciting ve excited kelimelerinin kullanımı arasındaki farklar.',
     image: require('../assets/icons/excited.png'),
@@ -79,63 +87,63 @@ export const categories = [
   {
     id: 12,
     title: 'Emirler',
-    en: 'Imperatives',
+    mainCategory: 'Imperatives',
     description: 'Emir cümleleri oluşturma.',
     image: require('../assets/icons/command.png'),
   },
   {
     id: 13,
     title: 'Lets / Shall',
-    en: 'LetsShall',
+    mainCategory: 'LetsShall',
     description: 'Lets ve shall fiillerinin kullanımı.',
     image: require('../assets/icons/lets.png'),
   },
   {
     id: 14,
     title: 'Sıfatlar ve Zarflar',
-    en: 'AdjectivesAdverbs',
+    mainCategory: 'AdjectivesAdverbs',
     description: 'Sıfat ve zarfların kullanımı ve çeşitleri.',
     image: require('../assets/icons/adjective.png'),
   },
   {
     id: 15,
     title: 'Many, Much, Some, Any, A lot of',
-    en: 'Quantifiers',
+    mainCategory: 'Quantifiers',
     description: 'Çokluk belirten kelimelerin kullanımı.',
     image: require('../assets/icons/quantifiers.png'),
   },
   {
     id: 16,
     title: 'Belgisiz Zamirler',
-    en: 'IndefinitePronouns',
+    mainCategory: 'IndefinitePronouns',
     description: 'Belgisiz zamirlerin kullanımı.',
     image: require('../assets/icons/indefinite.png'),
   },
   {
     id: 17,
     title: 'Modals',
-    en: 'Modals',
+    mainCategory: 'Modals',
     description: 'Modal yardımcı fiillerin kullanımı.',
     image: require('../assets/icons/modalverbs.png'),
   },
   {
     id: 18,
     title: 'Gerund & Infinitive',
-    en: 'GerundInfinitive',
+    mainCategory: 'GerundInfinitive',
     description: 'Fiil çekimleri ve kullanımı.',
     image: require('../assets/icons/gerund.png'),
   },
   {
     id: 19,
     title: 'Passive',
-    en: 'Passive',
+    mainCategory: 'Passive',
     description: 'Edilgen yapıların kullanımı.',
     image: require('../assets/icons/passive_voice.png'),
   },
   {
     id: 20,
     title: 'Şahsiyetsiz "It"',
-    en: 'ImpersonalIt',
+    mainCategory: 'ImpersonalIt',
     description:
       'İnsansı olmayan nesneleri işaret etmek için kullanılan it kelimesi.',
     image: require('../assets/icons/impersonal.png'),
@@ -143,52 +151,60 @@ export const categories = [
   {
     id: 21,
     title: 'Çiçek "To"',
-    en: 'FlowerTo',
+    mainCategory: 'FlowerTo',
     description: 'İngilizcede yaygın olarak kullanılan "to" bağlaçları.',
     image: require('../assets/icons/flower.png'),
   },
   {
     id: 22,
     title: 'RC (Relative Clause)',
-    en: 'RelativeClause',
+    mainCategory: 'RelativeClause',
     description: 'Sıfat cümleciklerinin kullanımı ve yapısı.',
     image: require('../assets/icons/relative_clause.png'),
   },
   {
     id: 23,
     title: 'NC (Noun Clause)',
-    en: 'NounClause',
+    mainCategory: 'NounClause',
     description: 'İsim cümleciklerinin kullanımı ve yapısı.',
     image: require('../assets/icons/noun_clause.png'),
   },
   {
     id: 24,
     title: 'Bağlaçlar-1G',
-    en: 'Conjunctions1G',
+    mainCategory: 'Conjunctions1G',
     description: '1G Bağlaçların kullanımı ve çeşitleri.',
     image: require('../assets/icons/conj_1.png'),
   },
   {
     id: 25,
     title: 'Bağlaçlar-2G',
-    en: 'Conjunctions2G',
+    mainCategory: 'Conjunctions2G',
     description: '2G Bağlaçların kullanımı ve çeşitleri.',
     image: require('../assets/icons/conj_2.png'),
   },
   {
     id: 26,
     title: 'Bağlaçlar-3G',
-    en: 'Conjunctions3G',
+    mainCategory: 'Conjunctions3G',
     description: '3G Bağlaçların kullanımı ve çeşitleri.',
     image: require('../assets/icons/conj_3.png'),
   },
 ];
 
-export const TensesSubCategory = [
+export interface ISubCategory {
+  id: number;
+  title: string;
+  mainCategory: string;
+  description: string;
+  page: string;
+  image: any;
+}
+export const TensesSubCategory: ISubCategory[] = [
   {
     id: 1,
     title: 'Uygulama',
-    en: 'Application',
+    mainCategory: 'Application',
     description: 'Sos uygulaması',
     page: 'Sos',
     image: require('../assets/icons/application.png'),
@@ -196,7 +212,7 @@ export const TensesSubCategory = [
   {
     id: 2,
     title: 'Videolar',
-    en: 'Tenses',
+    mainCategory: 'Tenses',
     description: 'Konu videoları',
     page: 'Videos',
     image: require('../assets/icons/video.png'),
@@ -204,7 +220,7 @@ export const TensesSubCategory = [
   {
     id: 3,
     title: 'Notlar',
-    en: 'Notes',
+    mainCategory: 'Notes',
     description: 'Konu notları',
     page: 'Notes',
     image: require('../assets/icons/subjects.png'),
@@ -212,7 +228,7 @@ export const TensesSubCategory = [
   {
     id: 4,
     title: 'Çeviri Çalışması',
-    en: 'Translation',
+    mainCategory: 'Translation',
     description: 'Çeviri çalışmaları',
     page: 'Translation',
     image: require('../assets/icons/translation.png'),
@@ -220,7 +236,7 @@ export const TensesSubCategory = [
   {
     id: 5,
     title: 'Test',
-    en: 'Test',
+    mainCategory: 'Test',
     description: 'Konu testleri',
     page: 'Sos',
     image: require('../assets/icons/exam.png'),
@@ -228,24 +244,33 @@ export const TensesSubCategory = [
   {
     id: 6,
     title: '4 beceri',
-    en: 'FourSkills',
+    mainCategory: 'FourSkills',
     description: 'Dinleme, konuşma, okuma, yazma',
     page: 'Units',
     image: require('../assets/icons/four_skills.png'),
   },
 ];
 
-export const QuestionsSubCategory = [
+export const QuestionsSubCategory: ISubCategory[] = [
   {
     id: 4,
     title: 'Çeviri Çalışması',
+    mainCategory: 'Translation',
     description: 'Çeviri çalışmaları',
     page: 'Translation',
     image: require('../assets/icons/translation.png'),
   },
 ];
 
-export const FourSkillsUnits = [
+export interface IUnit {
+  id: number;
+  title: string;
+  description: string;
+  page: string;
+  image: any;
+}
+
+export const FourSkillsUnits: IUnit[] = [
   {
     id: 1,
     title: 'Ünite 1',
@@ -283,7 +308,15 @@ export const FourSkillsUnits = [
   },
 ];
 
-export const fourSkills = [
+export interface IFourSkill {
+  id: number;
+  title: string;
+  description: string;
+  page: string;
+  image: any;
+}
+
+export const fourSkills: IFourSkill[] = [
   {
     id: 1,
     title: 'Dinleme',
@@ -314,7 +347,14 @@ export const fourSkills = [
   },
 ];
 
-export const TensesVideos = [
+export interface IVideo {
+  id: number;
+  title: string;
+  page: string;
+  image: any;
+}
+
+export const TensesVideos: IVideo[] = [
   {
     id: 1,
     title: '1. Ünite',

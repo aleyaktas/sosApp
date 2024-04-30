@@ -3,7 +3,7 @@ import {Text, View, Image, ScrollView, StyleSheet} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import {useNavigation} from '@react-navigation/native';
 import {ScreenProp} from '../navigation/types';
-import {categories} from '../utils/data';
+import {Categories} from '../utils/data';
 
 const Home = () => {
   const navigation = useNavigation<ScreenProp>();
@@ -13,13 +13,13 @@ const Home = () => {
         backgroundColor: 'white',
       }}>
       <View>
-        {categories.map(item => (
+        {Categories.map(item => (
           <TouchableOpacity
             activeOpacity={0.7}
             disabled={item.title !== 'Zamanlar' && item.title !== 'Sorular'}
             onPress={() =>
               navigation.navigate('SubCategory', {
-                title: item.en,
+                title: item.mainCategory,
               })
             }
             key={item.id}

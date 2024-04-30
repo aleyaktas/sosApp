@@ -13,9 +13,9 @@ const MenuItem = ({item}: {item: SubCategory}) => {
       activeOpacity={0.7}
       onPress={() => {
         if (item.page) {
-          if (item.en) {
+          if (item.mainCategory) {
             return navigation.navigate(item.page as any, {
-              title: item.en,
+              title: item.mainCategory,
             });
           }
           navigation.navigate(item.page as never);

@@ -6,7 +6,7 @@ import MenuItem from '../components/MenuItem';
 export interface SubCategory {
   id: number;
   title: string;
-  en?: string;
+  mainCategory?: string;
   description?: string;
   image: any;
   page: string;
