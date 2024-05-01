@@ -13,7 +13,6 @@ import {
   View,
 } from 'react-native';
 import Table from '../components/Table';
-import {translationWords} from '../utils/translation';
 import DraggableFlatList from 'react-native-draggable-flatlist';
 import {handleVoice} from '../helpers/voiceCenter';
 import BottomSheet, {BottomSheetView} from '@gorhom/bottom-sheet';
@@ -21,7 +20,8 @@ import Icon from '../themes/Icon';
 import Voice from '@react-native-voice/voice';
 import CheckBox from 'react-native-check-box';
 import {Bar} from 'react-native-progress';
-import {checkAbbrevation, replaceContractions} from '../utils/abbreviation';
+import {checkAbbrevation} from '../utils/abbreviation';
+import {translationSentences} from '../utils/translation';
 
 const Translation: React.FC = () => {
   const [totalQuestions, setTotalQuestions] = useState<number>(0);
@@ -40,6 +40,11 @@ const Translation: React.FC = () => {
   const [isAnswerTrue, setIsAnswerTrue] = useState(false);
   const [isVoiceActive, setIsVoiceActive] = useState(false);
   const [snapPoints, setSnapPoints] = useState(['30%']);
+  const [newTranslationSentences, setNewTranslationSentences] =
+    useState<any>(translationSentences);
+  const [questionIndex, setQuestionIndex] = useState<number>(0);
+  const [remainingQuestionCount, setRemainingQuestionCount] =
+    useState<number>(0);
 
   const bottomSheetRef = useRef<BottomSheet>(null);
 
@@ -47,15 +52,17 @@ const Translation: React.FC = () => {
     console.log('handleSheetChanges', index);
   }, []);
 
-  const handleSelect = (item: string) => {
+  const handleSelect = (item: string, index: number) => {
     handleVoice(item);
     setTextInputValue(prevValue => [...prevValue, item]);
-    setMeaning(prevMeaning => prevMeaning.filter(word => word !== item));
+    setMeaning(prevMeaning => prevMeaning.filter((word, idx) => idx !== index));
   };
 
-  const handleSelectReverse = (item: string) => {
+  const handleSelectReverse = (item: string, index: number) => {
     setMeaning(prevMeaning => [...prevMeaning, item]);
-    setTextInputValue(prevValue => prevValue.filter(word => word !== item));
+    setTextInputValue(prevValue =>
+      prevValue.filter((word, idx) => idx !== index),
+    );
   };
 
   const continueButton = () => {
@@ -203,52 +210,82 @@ const Translation: React.FC = () => {
     return array;
   };
 
+  // const generateQuestion = () => {
+  //   console.log('selectedCells', selectedCells);
+  //   const randomIndexWords = Math.floor(
+  //     Math.random() * translationWords.length,
+  //   );
+
+  //   let questions: {[key: string]: any} = translationWords[randomIndexWords];
+  //   const keys = Object.keys(questions);
+  //   let filteredKeys = keys.filter(key =>
+  //     selectedCells.includes(key.replace('-meaning', '')),
+  //   );
+  //   console.log(questions, 'questions');
+  //   console.log(filteredKeys, 'filteredKeys1');
+
+  //   while (filteredKeys.length === 0) {
+  //     const randomIndexWords = Math.floor(
+  //       Math.random() * translationWords.length,
+  //     );
+  //     questions = translationWords[randomIndexWords];
+  //     const newKeys = Object.keys(questions);
+  //     filteredKeys = newKeys.filter(key =>
+  //       selectedCells.includes(key.replace('-meaning', '')),
+  //     );
+  //     console.log('newQuestions', questions);
+  //     console.log(filteredKeys, 'filteredKeys2');
+  //   }
+
+  //   if (filteredKeys.length > 0) {
+  //     const randomIndex =
+  //       Math.floor(Math.random() * (filteredKeys.length / 2)) * 2;
+  //     const meaningKey = filteredKeys[randomIndex];
+  //     const sentenceKey = filteredKeys[randomIndex + 1];
+
+  //     const sentence = questions[sentenceKey];
+  //     setAnswer(questions[meaningKey]);
+  //     console.log('answer', questions[meaningKey]);
+  //     console.log('sentence', sentence);
+  //     console.log('ques', questions);
+  //     const meaning = questions[meaningKey].split(' ');
+  //     const mixSentence = shuffleArray([...meaning]);
+  //     console.log('mixSentence', mixSentence);
+
+  //     setSelectedCell(sentenceKey.replace('-meaning', ''));
+  //     setSentence(sentence);
+  //     setMeaning(mixSentence);
+  //   }
+  // };
+
   const generateQuestion = () => {
-    console.log('selectedCells', selectedCells);
-    const randomIndexWords = Math.floor(
-      Math.random() * translationWords.length,
+    console.log(newTranslationSentences['B1'], 'newTranslationSentences');
+    //selected cells centences count
+    let selectedCellsCount = 0;
+    selectedCells.map(cell => {
+      selectedCellsCount += newTranslationSentences[cell].length;
+    });
+    setRemainingQuestionCount(selectedCellsCount);
+
+    const randomIndex = Math.floor(Math.random() * selectedCells.length);
+    const selectedCell = selectedCells[randomIndex];
+    setSelectedCell(selectedCell);
+
+    const selectedCellSentences = newTranslationSentences[selectedCell];
+
+    const randomIndexSentences = Math.floor(
+      Math.random() * selectedCellSentences.length,
     );
-
-    let questions: {[key: string]: any} = translationWords[randomIndexWords];
-    const keys = Object.keys(questions);
-    let filteredKeys = keys.filter(key =>
-      selectedCells.includes(key.replace('-meaning', '')),
-    );
-    console.log(questions, 'questions');
-    console.log(filteredKeys, 'filteredKeys1');
-
-    while (filteredKeys.length === 0) {
-      const randomIndexWords = Math.floor(
-        Math.random() * translationWords.length,
-      );
-      questions = translationWords[randomIndexWords];
-      const newKeys = Object.keys(questions);
-      filteredKeys = newKeys.filter(key =>
-        selectedCells.includes(key.replace('-meaning', '')),
-      );
-      console.log('newQuestions', questions);
-      console.log(filteredKeys, 'filteredKeys2');
-    }
-
-    if (filteredKeys.length > 0) {
-      const randomIndex =
-        Math.floor(Math.random() * (filteredKeys.length / 2)) * 2;
-      const meaningKey = filteredKeys[randomIndex];
-      const sentenceKey = filteredKeys[randomIndex + 1];
-
-      const sentence = questions[sentenceKey];
-      setAnswer(questions[meaningKey]);
-      console.log('answer', questions[meaningKey]);
-      console.log('sentence', sentence);
-      console.log('ques', questions);
-      const meaning = questions[meaningKey].split(' ');
-      const mixSentence = shuffleArray([...meaning]);
-      console.log('mixSentence', mixSentence);
-
-      setSelectedCell(sentenceKey.replace('-meaning', ''));
-      setSentence(sentence);
-      setMeaning(mixSentence);
-    }
+    const selectedSentence = selectedCellSentences[randomIndexSentences];
+    console.log('selectedSentence', selectedSentence);
+    console.log('meaning', selectedSentence.meaning.split(' '));
+    console.log('sentence', selectedSentence.sentence);
+    setSentence(selectedSentence.meaning);
+    setAnswer(selectedSentence.sentence);
+    const meaning = selectedSentence.sentence.split(' ');
+    const mixSentence = shuffleArray([...meaning]);
+    setMeaning(mixSentence);
+    setQuestionIndex(randomIndexSentences);
   };
 
   const checkAnswer = () => {
@@ -280,6 +317,8 @@ const Translation: React.FC = () => {
       handleVoice(answer);
       setIsAnswerTrue(true);
       setCorrectAnswers(correctAnswers + 1);
+      newTranslationSentences[selectedCell].splice(questionIndex, 1);
+      setNewTranslationSentences(newTranslationSentences);
     } else {
       setSnapPoints(['38%']);
       bottomSheetRef.current?.expand();
@@ -379,9 +418,9 @@ const Translation: React.FC = () => {
                 <FlatList
                   data={textInputValue}
                   contentContainerStyle={styles.inputValues}
-                  renderItem={({item}) => (
+                  renderItem={({item, index}) => (
                     <TouchableOpacity
-                      onPress={() => handleSelectReverse(item)}
+                      onPress={() => handleSelectReverse(item, index)}
                       style={styles.inputButton}>
                       <Text style={styles.inputText}>{item}</Text>
                     </TouchableOpacity>
@@ -406,27 +445,44 @@ const Translation: React.FC = () => {
                 <Icon name="Mic" color="#282828" />
               </TouchableOpacity>
             </View>
-            <CheckBox
+            <View
               style={{
-                borderRadius: 8,
-                width: 'auto',
-                height: 'auto',
-                alignSelf: 'flex-start',
-              }}
-              onClick={() => {
-                setIsVoiceActive(!isVoiceActive);
-                textInputValue.map(item => handleSelectReverse(item));
-                setTextInputValue([]);
-              }}
-              isChecked={isVoiceActive}
-              rightText="Sesli yanıtla"
-              rightTextStyle={{
-                flex: 0,
-                marginLeft: 2,
-                color: 'black',
-              }}
-              checkBoxColor="green"
-            />
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+              }}>
+              <CheckBox
+                style={{
+                  borderRadius: 8,
+                  width: 'auto',
+                  height: 'auto',
+                  alignSelf: 'flex-start',
+                }}
+                onClick={() => {
+                  setIsVoiceActive(!isVoiceActive);
+                  textInputValue.map((item, index) =>
+                    handleSelectReverse(item, index),
+                  );
+                  setTextInputValue([]);
+                }}
+                isChecked={isVoiceActive}
+                rightText="Sesli yanıtla"
+                rightTextStyle={{
+                  flex: 0,
+                  marginLeft: 2,
+                  color: 'black',
+                }}
+                checkBoxColor="green"
+              />
+              <Text
+                style={{
+                  fontSize: 14,
+                  fontWeight: 'bold',
+                  color: 'black',
+                }}>
+                Kalan Soru: {remainingQuestionCount}
+              </Text>
+            </View>
 
             <View
               style={{
@@ -436,10 +492,10 @@ const Translation: React.FC = () => {
               <DraggableFlatList
                 data={meaning}
                 contentContainerStyle={styles.draggableList}
-                renderItem={({item, drag}) => (
+                renderItem={({item, getIndex, drag}) => (
                   <TouchableOpacity
                     onLongPress={drag}
-                    onPress={() => handleSelect(item)}
+                    onPress={() => handleSelect(item, getIndex() || 0)} // Use a default value of 0 if getIndex() returns undefined
                     disabled={isVoiceActive}
                     style={styles.draggableItem}>
                     <Text style={styles.draggableText}>{item}</Text>
