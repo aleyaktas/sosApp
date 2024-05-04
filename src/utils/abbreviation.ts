@@ -37,6 +37,47 @@ export const checkAbbrevation = ({
   let normalizedAnswer = answer.toLowerCase().replace(/[?.,]/g, '');
   let normalizedInputWithContractions = replaceContractions(normalizedInput);
 
+  //they're not => they are not, we're not => we are not, you're not => you are not, she's not => she is not, it's not => it is not, i'm not => i am not, he's not => he is not,
+  normalizedAnswer = normalizedAnswer.replace(
+    /they're not|we're not|you're not|she's not|it's not|he's not|I'm not/g,
+    match => {
+      return match === "they're not"
+        ? 'they are not'
+        : match === "we're not"
+        ? 'we are not'
+        : match === "you're not"
+        ? 'you are not'
+        : match === "she's not"
+        ? 'she is not'
+        : match === "it's not"
+        ? 'it is not'
+        : match === "he's not"
+        ? 'he is not'
+        : 'i am not';
+    },
+  );
+  //they're => they are, we're => we are, you're => you are, she's => she is, it's => it is, i'm => i am, he's => he is,
+  normalizedAnswer = normalizedAnswer.replace(
+    /they're|we're|you're|she's|it's|he's|i'm|I'm/g,
+    match => {
+      return match === "they're"
+        ? 'they are'
+        : match === "we're"
+        ? 'we are'
+        : match === "you're"
+        ? 'you are'
+        : match === "she's"
+        ? 'she is'
+        : match === "he's"
+        ? 'he is'
+        : match === "i'm"
+        ? 'i am'
+        : match === "I'm"
+        ? 'I am'
+        : 'it is';
+    },
+  );
+
   // i'm => i am, i'd => i had, he's => he is, they're => they are, we're => we are, you're => you are, she's => she is, it's => it is
   if (selectedCell[1] !== '4') {
     normalizedInputWithContractions = normalizedInputWithContractions.replace(

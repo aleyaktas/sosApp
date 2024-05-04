@@ -220,7 +220,7 @@ export const TensesSubCategory: ISubCategory[] = [
   {
     id: 3,
     title: 'Notlar',
-    mainCategory: 'Notes',
+    mainCategory: 'Tenses',
     description: 'Konu notları',
     page: 'Notes',
     image: require('../assets/icons/subjects.png'),
@@ -228,7 +228,7 @@ export const TensesSubCategory: ISubCategory[] = [
   {
     id: 4,
     title: 'Çeviri Çalışması',
-    mainCategory: 'Translation',
+    mainCategory: 'Tenses',
     description: 'Çeviri çalışmaları',
     page: 'Translation',
     image: require('../assets/icons/translation.png'),
@@ -255,7 +255,7 @@ export const QuestionsSubCategory: ISubCategory[] = [
   {
     id: 4,
     title: 'Çeviri Çalışması',
-    mainCategory: 'Translation',
+    mainCategory: 'Questions',
     description: 'Çeviri çalışmaları',
     page: 'Translation',
     image: require('../assets/icons/translation.png'),

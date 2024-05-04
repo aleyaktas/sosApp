@@ -21,9 +21,24 @@ import Voice from '@react-native-voice/voice';
 import CheckBox from 'react-native-check-box';
 import {Bar} from 'react-native-progress';
 import {checkAbbrevation} from '../utils/abbreviation';
-import {translationSentences} from '../utils/translation';
+import {Route, useRoute} from '@react-navigation/native';
+
+export interface Translation {
+  id: number;
+  title: string;
+  mainCategory?: string;
+  description?: string;
+  image: any;
+  page: string;
+}
+type TranslationRoute = Route<'Translation', {title: string}>;
 
 const Translation: React.FC = () => {
+  const route = useRoute<TranslationRoute>();
+  const title = route.params.title;
+  const translationSentences =
+    require(`../utils/translation`)[`${title}TranslationSentences`];
+
   const [totalQuestions, setTotalQuestions] = useState<number>(0);
   const [correctAnswers, setCorrectAnswers] = useState<number>(0);
   const [wrongAnswers, setWrongAnswers] = useState<number>(0);
@@ -45,6 +60,15 @@ const Translation: React.FC = () => {
   const [questionIndex, setQuestionIndex] = useState<number>(0);
   const [remainingQuestionCount, setRemainingQuestionCount] =
     useState<number>(0);
+  const [selectedSymbols, setSelectedSymbols] = useState<string[]>([
+    'What',
+    'Who',
+    'Where',
+    'When',
+    'Why',
+    'How',
+  ]);
+  const [selectedSymbol, setSelectedSymbol] = useState<string>('');
 
   const bottomSheetRef = useRef<BottomSheet>(null);
 
@@ -210,55 +234,8 @@ const Translation: React.FC = () => {
     return array;
   };
 
-  // const generateQuestion = () => {
-  //   console.log('selectedCells', selectedCells);
-  //   const randomIndexWords = Math.floor(
-  //     Math.random() * translationWords.length,
-  //   );
-
-  //   let questions: {[key: string]: any} = translationWords[randomIndexWords];
-  //   const keys = Object.keys(questions);
-  //   let filteredKeys = keys.filter(key =>
-  //     selectedCells.includes(key.replace('-meaning', '')),
-  //   );
-  //   console.log(questions, 'questions');
-  //   console.log(filteredKeys, 'filteredKeys1');
-
-  //   while (filteredKeys.length === 0) {
-  //     const randomIndexWords = Math.floor(
-  //       Math.random() * translationWords.length,
-  //     );
-  //     questions = translationWords[randomIndexWords];
-  //     const newKeys = Object.keys(questions);
-  //     filteredKeys = newKeys.filter(key =>
-  //       selectedCells.includes(key.replace('-meaning', '')),
-  //     );
-  //     console.log('newQuestions', questions);
-  //     console.log(filteredKeys, 'filteredKeys2');
-  //   }
-
-  //   if (filteredKeys.length > 0) {
-  //     const randomIndex =
-  //       Math.floor(Math.random() * (filteredKeys.length / 2)) * 2;
-  //     const meaningKey = filteredKeys[randomIndex];
-  //     const sentenceKey = filteredKeys[randomIndex + 1];
-
-  //     const sentence = questions[sentenceKey];
-  //     setAnswer(questions[meaningKey]);
-  //     console.log('answer', questions[meaningKey]);
-  //     console.log('sentence', sentence);
-  //     console.log('ques', questions);
-  //     const meaning = questions[meaningKey].split(' ');
-  //     const mixSentence = shuffleArray([...meaning]);
-  //     console.log('mixSentence', mixSentence);
-
-  //     setSelectedCell(sentenceKey.replace('-meaning', ''));
-  //     setSentence(sentence);
-  //     setMeaning(mixSentence);
-  //   }
-  // };
-
   const generateQuestion = () => {
+    setSelectedSymbol('What');
     console.log(newTranslationSentences['B1'], 'newTranslationSentences');
     //selected cells centences count
     let selectedCellsCount = 0;
@@ -334,6 +311,7 @@ const Translation: React.FC = () => {
       setIsAnswerVisible(true);
       return Alert.alert('Lütfen bir hücre seçiniz');
     }
+
     isAnswerVisible && generateQuestion();
     isAnswerVisible && setTotalQuestions(totalQuestions + 1);
     !isAnswerVisible && setSelectedCell('');
@@ -363,12 +341,16 @@ const Translation: React.FC = () => {
           selectedCells={selectedCells}
           setSelectedCells={setSelectedCells}
           selectedCell={selectedCell}
-          isSymbolActive={false}
+          isSymbolActive={true}
+          selectedSymbols={selectedSymbols}
+          setSelectedSymbols={setSelectedSymbols}
+          selectedSymbol={selectedSymbol}
         />
         <View style={styles.askButtonContainer}>
           <TouchableOpacity
             style={styles.askButton}
             activeOpacity={0.7}
+            // disabled={textInputValue.length !== 0 && !isAnswerVisible}
             onPress={() => {
               {
                 isAnswerVisible ? handleAskButton() : checkAnswer();

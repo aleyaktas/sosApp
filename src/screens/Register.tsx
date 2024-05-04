@@ -9,45 +9,58 @@ import {
   StyleSheet,
 } from 'react-native';
 import {AuthNavigationProps} from '../navigation/authNavigation';
+import {showMessage} from '../utils/showMessage';
 
 const Register: FC<AuthNavigationProps> = ({navigation}) => {
-  const [username, setUsername] = useState('');
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
 
   const handleLogin = async () => {
     navigation.navigate('Login');
   };
 
   const handleRegister = async () => {
+    if (password !== confirmPassword) {
+      showMessage('Parolalar eşleşmiyor. Lütfen kontrol ediniz.', 'error');
+      return;
+    }
     const formData = new FormData();
     formData.append('email', email);
-    formData.append('username', username);
+    formData.append('name', name);
     formData.append('password', password);
-    const res = await fetch('https://kelibu.net/api/register-sos', {
+    formData.append('phone', '0');
+    formData.append('points', '0');
+
+    const res = await fetch('https://kelibu.net/api/kelibu/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'multipart/form-data',
+        'X-Custom-Header': 'Hilal',
       },
       body: formData,
     });
-    console.log(res);
-    navigation.reset({
-      index: 0,
-      routes: [
-        {
-          name: 'BottomTabs',
-          state: {
-            index: 0,
-            routes: [
-              {
-                name: 'Home',
-              },
-            ],
+    if (res.status === 200 || res.status === 201) {
+      navigation.reset({
+        index: 0,
+        routes: [
+          {
+            name: 'BottomTabs',
+            state: {
+              index: 0,
+              routes: [
+                {
+                  name: 'Home',
+                },
+              ],
+            },
           },
-        },
-      ],
-    });
+        ],
+      });
+    } else {
+      showMessage('Bir hata oluştu. Lütfen tekrar deneyiniz.', 'error');
+    }
   };
 
   return (
@@ -71,10 +84,10 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
           <View style={styles.inputContainer}>
             <TextInput
               style={styles.textInput}
-              placeholder="Username"
+              placeholder="Name"
               placeholderTextColor={'gray'}
-              value={username}
-              onChangeText={setUsername}
+              value={name}
+              onChangeText={setName}
             />
           </View>
           <View style={styles.inputContainer}>
@@ -85,6 +98,16 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
               secureTextEntry
               value={password}
               onChangeText={setPassword}
+            />
+          </View>
+          <View style={styles.inputContainer}>
+            <TextInput
+              style={styles.textInput}
+              placeholder="Confirm Password"
+              placeholderTextColor={'gray'}
+              secureTextEntry
+              value={confirmPassword}
+              onChangeText={setConfirmPassword}
             />
           </View>
           <View style={styles.accountPromptContainer}>
