@@ -199,6 +199,7 @@ export interface ISubCategory {
   description: string;
   page: string;
   image: any;
+  symbols?: string[];
   selectedSymbols?: string[];
 }
 export const TensesSubCategory: ISubCategory[] = [
@@ -209,6 +210,7 @@ export const TensesSubCategory: ISubCategory[] = [
     description: 'Sos uygulaması',
     page: 'Sos',
     image: require('../assets/icons/application.png'),
+    symbols: ['+', '-', '?'],
     selectedSymbols: ['+', '-', '?'],
   },
   {
@@ -259,7 +261,8 @@ export const QuestionsSubCategory: ISubCategory[] = [
     title: 'Çeviri Çalışması',
     mainCategory: 'Questions',
     description: 'Çeviri çalışmaları',
-    selectedSymbols: ['What', 'Who', 'Where', 'When', 'Why', 'How'],
+    symbols: ['What', 'Who', 'Where', 'When', 'Why', 'How'],
+    selectedSymbols: ['What'],
     page: 'Translation',
     image: require('../assets/icons/translation.png'),
   },

@@ -36,7 +36,8 @@ type TranslationRoute = Route<'Translation', {title: string; item?: any}>;
 const Translation: React.FC = () => {
   const route = useRoute<TranslationRoute>();
   const title = route.params.title;
-  const symbols = route.params.item.selectedSymbols || [];
+  const cellSelectedSymbols = route.params.item?.selectedSymbols || [];
+  const symbols = route.params.item.symbols || [];
   console.log('symbols', symbols);
   const translationSentences =
     require(`../utils/translation`)[`${title}TranslationSentences`];
@@ -62,7 +63,8 @@ const Translation: React.FC = () => {
   const [questionIndex, setQuestionIndex] = useState<number>(0);
   const [remainingQuestionCount, setRemainingQuestionCount] =
     useState<number>(0);
-  const [selectedSymbols, setSelectedSymbols] = useState<string[]>(symbols);
+  const [selectedSymbols, setSelectedSymbols] =
+    useState<string[]>(cellSelectedSymbols);
   const [selectedSymbol, setSelectedSymbol] = useState<string>('');
 
   const bottomSheetRef = useRef<BottomSheet>(null);
