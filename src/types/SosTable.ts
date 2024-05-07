@@ -6,4 +6,5 @@ export interface TableProps {
   selectedCell: string;
   selectedSymbol?: string;
   isSymbolActive: boolean;
+  symbols?: string[];
 }

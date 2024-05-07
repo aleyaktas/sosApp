@@ -199,15 +199,17 @@ export interface ISubCategory {
   description: string;
   page: string;
   image: any;
+  selectedSymbols?: string[];
 }
 export const TensesSubCategory: ISubCategory[] = [
   {
     id: 1,
     title: 'Uygulama',
-    mainCategory: 'Application',
+    mainCategory: 'Tenses',
     description: 'Sos uygulaması',
     page: 'Sos',
     image: require('../assets/icons/application.png'),
+    selectedSymbols: ['+', '-', '?'],
   },
   {
     id: 2,
@@ -257,6 +259,7 @@ export const QuestionsSubCategory: ISubCategory[] = [
     title: 'Çeviri Çalışması',
     mainCategory: 'Questions',
     description: 'Çeviri çalışmaları',
+    selectedSymbols: ['What', 'Who', 'Where', 'When', 'Why', 'How'],
     page: 'Translation',
     image: require('../assets/icons/translation.png'),
   },
@@ -426,5 +429,113 @@ export const TensesVideos: IVideo[] = [
     title: '3a',
     page: 'Video',
     image: require('../assets/icons/video.png'),
+  },
+];
+
+interface INotes {
+  id: number;
+  title: string;
+  page: string;
+  mainCategory: string;
+  pdfUrl: string;
+  image: any;
+}
+
+export const TensesNotes: INotes[] = [
+  {
+    id: 1,
+    title: '1b Am Is Are',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_1_1b_am_is_are',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 2,
+    title: '1c Was Were Are',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_2_1c_was_were',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 3,
+    title: '1a Will Be',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_3_1a_will_be',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 4,
+    title: '1a Going To Be',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_4_1a_going_to_be',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 5,
+    title: '2b Do Does',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_5_2b_do_does',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 6,
+    title: '2c Did',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_6_2c_did',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 7,
+    title: '2a Will Do',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_7_2a_will_do',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 8,
+    title: '2a Going To Do',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_8_2a_going_to_do',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 9,
+    title: '3b Am Is Are Doing',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_9_3b_am_is_are_doing',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 10,
+    title: '3c Was Were Doing',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_10_3c_was_were_doing',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 11,
+    title: '3a Will Be Doing',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_11_3a_will_be_doing',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 12,
+    title: '4b Have Has Done',
+    page: 'NoteDetails',
+    mainCategory: 'Tenses',
+    pdfUrl: 'Tenses_12_4b_have_has_done',
+    image: require('../assets/icons/subjects.png'),
   },
 ];

@@ -28,8 +28,22 @@ import IVerbsModal from '../components/IVerbsModal';
 import {ttsSettings} from '../utils/ttsSettings';
 import {checkAbbrevation} from '../utils/abbreviation';
 import {Bar} from 'react-native-progress';
+import {Route, useRoute} from '@react-navigation/native';
+
+export interface SosTable {
+  id: number;
+  title: string;
+  mainCategory?: string;
+  description?: string;
+  image: any;
+  page: string;
+}
+type SosTableRoute = Route<'Sos', {title: string; item?: any}>;
 
 const SosTable = () => {
+  const route = useRoute<SosTableRoute>();
+  const symbols = route.params.item.selectedSymbols || [];
+
   const [inputText, setInputText] = useState('');
   const [selectedOption, setSelectedOption] = useState<string>('');
   const [selectedState, setSelectedState] = useState<string>('');
@@ -42,11 +56,7 @@ const SosTable = () => {
   const [isSubjectSingle, setIsSubjectSingle] = useState(false);
   const [answer, setAnswer] = useState('');
   const [selectedCells, setSelectedCells] = useState<string[]>(['B1']);
-  const [selectedSymbols, setSelectedSymbols] = useState<string[]>([
-    '+',
-    '-',
-    '?',
-  ]);
+  const [selectedSymbols, setSelectedSymbols] = useState<string[]>(symbols);
   const [isAnswerVisible, setIsAnswerVisible] = useState(true);
   const [isChecked, setIsChecked] = useState(false);
   const [correctAnswers, setCorrectAnswers] = useState(0);
@@ -496,6 +506,7 @@ const SosTable = () => {
             selectedCell={selectedOption}
             selectedSymbol={selectedState}
             isSymbolActive={true}
+            symbols={symbols}
           />
           <View
             style={{

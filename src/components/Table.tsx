@@ -4,6 +4,7 @@ import Icon from '../themes/Icon';
 import Blink from './Blink';
 import Triangle from './Triangle';
 import {TableProps} from '../types/SosTable';
+import {FlatList} from 'react-native-gesture-handler';
 
 const Table = ({
   selectedCells,
@@ -13,6 +14,7 @@ const Table = ({
   selectedCell,
   selectedSymbol,
   isSymbolActive,
+  symbols,
 }: TableProps) => {
   const handleCellPress = (cell: string) => {
     setSelectedCells(prevSelectedCells => {
@@ -37,8 +39,6 @@ const Table = ({
       }
     });
   };
-
-  useEffect(() => {}, [selectedCells]);
 
   const handleBoxPress = (symbol: string) => {
     setSelectedSymbols &&
@@ -200,12 +200,20 @@ const Table = ({
         ))}
       </View>
       {['A', 'B', 'C'].map(rowHeader => renderRow(rowHeader))}
-      {isSymbolActive && (
-        <View style={styles.buttonContainer}>
-          {renderBox('+')}
-          {renderBox('-')}
-          {renderBox('?')}
-        </View>
+      {isSymbolActive && symbols && (
+        <FlatList
+          data={symbols}
+          keyExtractor={item => item}
+          renderItem={({item}) => renderBox(item)}
+          numColumns={symbols.length > 2 ? 3 : 1}
+          contentContainerStyle={[styles.buttonContainer, {marginTop: 10}]}
+          columnWrapperStyle={styles.buttonContainer}
+        />
+        // <View style={styles.buttonContainer}>
+        //   {renderBox('+')}
+        //   {renderBox('-')}
+        //   {renderBox('?')}
+        // </View>
       )}
     </View>
   );
@@ -251,10 +259,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   buttonContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
     gap: 8,
-    marginTop: 20,
+    // marginTop: 10,
   },
   box: {
     flex: 1,

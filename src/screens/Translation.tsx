@@ -31,11 +31,13 @@ export interface Translation {
   image: any;
   page: string;
 }
-type TranslationRoute = Route<'Translation', {title: string}>;
+type TranslationRoute = Route<'Translation', {title: string; item?: any}>;
 
 const Translation: React.FC = () => {
   const route = useRoute<TranslationRoute>();
   const title = route.params.title;
+  const symbols = route.params.item.selectedSymbols || [];
+  console.log('symbols', symbols);
   const translationSentences =
     require(`../utils/translation`)[`${title}TranslationSentences`];
 
@@ -60,14 +62,7 @@ const Translation: React.FC = () => {
   const [questionIndex, setQuestionIndex] = useState<number>(0);
   const [remainingQuestionCount, setRemainingQuestionCount] =
     useState<number>(0);
-  const [selectedSymbols, setSelectedSymbols] = useState<string[]>([
-    'What',
-    'Who',
-    'Where',
-    'When',
-    'Why',
-    'How',
-  ]);
+  const [selectedSymbols, setSelectedSymbols] = useState<string[]>(symbols);
   const [selectedSymbol, setSelectedSymbol] = useState<string>('');
 
   const bottomSheetRef = useRef<BottomSheet>(null);
@@ -237,7 +232,6 @@ const Translation: React.FC = () => {
   const generateQuestion = () => {
     setSelectedSymbol('What');
     console.log(newTranslationSentences['B1'], 'newTranslationSentences');
-    //selected cells centences count
     let selectedCellsCount = 0;
     selectedCells.map(cell => {
       selectedCellsCount += newTranslationSentences[cell].length;
@@ -269,6 +263,8 @@ const Translation: React.FC = () => {
     if (textInputValue.length === 0) {
       return;
     }
+
+    setSelectedSymbol('');
 
     const {normalizedInput, normalizedAnswer, normalizedInputWithContractions} =
       checkAbbrevation({
@@ -341,10 +337,11 @@ const Translation: React.FC = () => {
           selectedCells={selectedCells}
           setSelectedCells={setSelectedCells}
           selectedCell={selectedCell}
-          isSymbolActive={true}
+          isSymbolActive={selectedSymbols.length !== 0}
           selectedSymbols={selectedSymbols}
           setSelectedSymbols={setSelectedSymbols}
           selectedSymbol={selectedSymbol}
+          symbols={symbols}
         />
         <View style={styles.askButtonContainer}>
           <TouchableOpacity

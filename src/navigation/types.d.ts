@@ -5,12 +5,14 @@ export type ScreenProp = StackNavigationProp<StackNavigatorList> &
   BottomTabNavigationProp<BottomNavigatorList>;
 
 export type StackNavigatorList = {
-  Sos: undefined;
-  Translation: {title: string};
-  SubCategory: {title: string};
-  FourSkills: {title?: string};
-  Units: {title: string};
-  Videos: {title?: string};
+  Sos: {title: string; item?: any};
+  Translation: {title: string; item?: any};
+  SubCategory: {title: string; item?: any};
+  FourSkills: {title?: string; item?: any};
+  Units: {title: string; item?: any};
+  Videos: {title?: string; item?: any};
+  Notes: {title: string; item?: any};
+  NoteDetails: {title?: string; pdfName: string; item?: any};
 };
 
 export type BottomNavigatorList = {

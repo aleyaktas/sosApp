@@ -12,6 +12,7 @@ import Units from '../screens/Units';
 import FourSkills from '../screens/FourSkills';
 import Videos from '../screens/Videos';
 import Notes from '../screens/Notes';
+import NoteDetails from '../screens/NoteDetails';
 
 const Stack = createStackNavigator();
 
@@ -100,6 +101,15 @@ const RootNavigation = () => {
         component={Notes}
         options={{
           headerTitle: 'Notlar',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="NoteDetails"
+        component={NoteDetails}
+        options={{
+          headerTitle: 'Not Detayı',
           headerShown: true,
           headerTitleAlign: 'center',
         }}

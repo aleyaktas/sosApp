@@ -1,31 +1,42 @@
+import {Route, useNavigation, useRoute} from '@react-navigation/native';
 import React from 'react';
-import {Dimensions, Platform, StyleSheet, View} from 'react-native';
-import Pdf from 'react-native-pdf';
+import {Dimensions, FlatList, StyleSheet, View} from 'react-native';
+import MenuItem from '../components/MenuItem';
+import {ScreenProp} from '../navigation/types';
+
+export interface Notes {
+  id: number;
+  title: string;
+  pdfUrl: string;
+  image: any;
+}
+type NotesRoute = Route<'Notes', {title: string}>;
 
 const Notes = () => {
-  const source =
-    Platform.OS === 'ios'
-      ? require('../assets/pdfs/1a_ going_to_be.pdf')
-      : {
-          uri: 'bundle-assets://1a_ going_to_be.pdf',
-        };
+  const route = useRoute<NotesRoute>();
+  const title = route.params.title;
+  const notes = require(`../utils/data`)[`${title}Notes`];
+
+  const navigation = useNavigation<ScreenProp>();
+
   return (
-    <View style={styles.container}>
-      <Pdf
-        source={source}
-        onLoadComplete={(numberOfPages, filePath) => {
-          console.log(`Number of pages: ${numberOfPages}`);
-        }}
-        onPageChanged={(page, numberOfPages) => {
-          console.log(`Current page: ${page}`);
-        }}
-        onError={error => {
-          console.log(error);
-        }}
-        onPressLink={uri => {
-          console.log(`Link pressed: ${uri}`);
-        }}
-        style={styles.pdf}
+    <View>
+      <FlatList
+        data={notes}
+        renderItem={({item}) => (
+          <MenuItem
+            item={item}
+            // onPress={() => {
+            //   if (item.pdfUrl) {
+            //     navigation.navigate('NoteDetails', {
+            //       title: title,
+            //       pdfName: item.pdfUrl,
+            //     });
+            //   }
+            // }}
+          />
+        )}
+        keyExtractor={item => item.id.toString()}
       />
     </View>
   );

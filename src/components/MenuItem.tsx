@@ -5,7 +5,13 @@ import {SubCategory} from '../screens/SubCategory';
 import {ScreenProp} from '../navigation/types';
 import {useNavigation} from '@react-navigation/native';
 
-const MenuItem = ({item}: {item: SubCategory}) => {
+const MenuItem = ({
+  item,
+  onPress,
+}: {
+  item: SubCategory;
+  onPress?: () => void;
+}) => {
   const navigation = useNavigation<ScreenProp>();
   console.log(item);
   return (
@@ -16,6 +22,7 @@ const MenuItem = ({item}: {item: SubCategory}) => {
           if (item.mainCategory) {
             return navigation.navigate(item.page as any, {
               title: item.mainCategory,
+              item: item,
             });
           }
           navigation.navigate(item.page as never);
