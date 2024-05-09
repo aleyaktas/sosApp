@@ -232,8 +232,6 @@ const Translation: React.FC = () => {
   };
 
   const generateQuestion = () => {
-    setSelectedSymbol('What');
-    console.log(newTranslationSentences['B1'], 'newTranslationSentences');
     let selectedCellsCount = 0;
     selectedCells.map(cell => {
       selectedCellsCount += newTranslationSentences[cell].length;
@@ -310,6 +308,11 @@ const Translation: React.FC = () => {
       return Alert.alert('Lütfen bir hücre seçiniz');
     }
 
+    if (title === 'Questions' && selectedSymbols.length === 0) {
+      setIsAnswerVisible(true);
+      return Alert.alert('Lütfen bir sembol seçiniz');
+    }
+
     isAnswerVisible && generateQuestion();
     isAnswerVisible && setTotalQuestions(totalQuestions + 1);
     !isAnswerVisible && setSelectedCell('');
@@ -339,16 +342,18 @@ const Translation: React.FC = () => {
           selectedCells={selectedCells}
           setSelectedCells={setSelectedCells}
           selectedCell={selectedCell}
-          isSymbolActive={selectedSymbols.length !== 0}
+          isSymbolActive={symbols.length > 0}
           selectedSymbols={selectedSymbols}
           setSelectedSymbols={setSelectedSymbols}
           selectedSymbol={selectedSymbol}
           symbols={symbols}
+          mainCategory={title}
         />
         <View style={styles.askButtonContainer}>
           <TouchableOpacity
             style={styles.askButton}
             activeOpacity={0.7}
+            disabled={selectedCell === '' && !isAnswerVisible}
             // disabled={textInputValue.length !== 0 && !isAnswerVisible}
             onPress={() => {
               {

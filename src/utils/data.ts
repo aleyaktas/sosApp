@@ -357,26 +357,30 @@ export interface IVideo {
   id: number;
   title: string;
   page: string;
+  url?: string;
   image: any;
 }
 
 export const TensesVideos: IVideo[] = [
   {
     id: 1,
-    title: '1. Ünite',
-    page: 'Video',
+    title: '1. Sütun',
+    page: 'VideoDetails',
+    url: '0d0cf50462n.mp4',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 2,
-    title: '2. Ünite',
-    page: 'Video',
+    title: '2. Sütun',
+    page: 'VideoDetails',
+    url: '4f544d0f86n.mp4',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 3,
-    title: '3. Ünite',
-    page: 'Video',
+    title: '3. Sütun',
+    url: 'd121a3912fn.mp4',
+    page: 'VideoDetails',
     image: require('../assets/icons/video.png'),
   },
   {

@@ -507,6 +507,7 @@ const SosTable = () => {
             selectedSymbol={selectedState}
             isSymbolActive={true}
             symbols={symbols}
+            mainCategory="Sos"
           />
           <View
             style={{

@@ -117,7 +117,7 @@ export const checkAbbrevation = ({
       },
     );
     // //isn't => is not, aren't => are not, won't => will not, hasn't => has not, haven't => have not, hadn't => had not, wouldn't => would not, couldn't => could not, shouldn't => should not, don't => do not, doesn't => does not, didn't => did not, wasn't => was not, weren't => were not
-    normalizedAnswer = normalizedAnswer.replace(
+    normalizedInputWithContractions = normalizedInputWithContractions.replace(
       /isn't|aren't|won't|hasn't|haven't|hadn't|wouldn't|couldn't|shouldn't|don't|doesn't|didn't|wasn't|weren't/g,
       match => {
         return match === "isn't"

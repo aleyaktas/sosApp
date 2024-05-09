@@ -7,4 +7,5 @@ export interface TableProps {
   selectedSymbol?: string;
   isSymbolActive: boolean;
   symbols?: string[];
+  mainCategory: string;
 }

@@ -15,6 +15,7 @@ const Table = ({
   selectedSymbol,
   isSymbolActive,
   symbols,
+  mainCategory,
 }: TableProps) => {
   const handleCellPress = (cell: string) => {
     setSelectedCells(prevSelectedCells => {
@@ -135,6 +136,7 @@ const Table = ({
   );
 
   const renderBox = (symbol: string) => {
+    console.log('selectedSymbol', symbol);
     return selectedSymbol === symbol ? (
       <TouchableOpacity
         activeOpacity={0.7}
@@ -144,7 +146,10 @@ const Table = ({
           borderRadius: 8,
         }}
         key={symbol}
-        disabled={selectedSymbol !== ''}
+        disabled={
+          selectedSymbol !== '' ||
+          (mainCategory === 'Questions' && symbol !== 'What')
+        }
         onPress={() => handleBoxPress(symbol)}>
         <Blink duration={600}>
           <View
@@ -175,7 +180,10 @@ const Table = ({
           },
         ]}
         key={symbol}
-        disabled={selectedSymbol !== ''}
+        disabled={
+          selectedSymbol !== '' ||
+          (mainCategory === 'Questions' && symbol !== 'What')
+        }
         onPress={() => handleBoxPress(symbol)}>
         <Text
           style={[

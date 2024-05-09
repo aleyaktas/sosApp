@@ -13,6 +13,7 @@ export type StackNavigatorList = {
   Videos: {title?: string; item?: any};
   Notes: {title: string; item?: any};
   NoteDetails: {title?: string; pdfName: string; item?: any};
+  VideoDetails: {title?: string; item?: any};
 };
 
 export type BottomNavigatorList = {
