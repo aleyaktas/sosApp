@@ -23,7 +23,13 @@ const Videos = () => {
     return (
       <TouchableOpacity
         activeOpacity={0.7}
-        onPress={() => item.page && navigation.navigate(item.page as never)}
+        onPress={() =>
+          item.page &&
+          navigation.navigate(item.page as any, {
+            title: item.mainCategory,
+            item: item,
+          })
+        }
         key={item.id}
         style={styles.button}>
         <Image source={item.image} style={{width: 30, height: 30}} />

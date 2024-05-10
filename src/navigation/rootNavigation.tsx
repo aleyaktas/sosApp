@@ -13,7 +13,7 @@ import FourSkills from '../screens/FourSkills';
 import Videos from '../screens/Videos';
 import Notes from '../screens/Notes';
 import NoteDetails from '../screens/NoteDetails';
-// import VideoDetails from '../screens/VideoDetails';
+import VideoDetails from '../screens/VideoDetails';
 
 const Stack = createStackNavigator();
 
@@ -115,7 +115,7 @@ const RootNavigation = () => {
           headerTitleAlign: 'center',
         }}
       />
-      {/* <Stack.Screen
+      <Stack.Screen
         name="VideoDetails"
         component={VideoDetails}
         options={{
@@ -123,7 +123,7 @@ const RootNavigation = () => {
           headerShown: true,
           headerTitleAlign: 'center',
         }}
-      /> */}
+      />
     </Stack.Navigator>
   );
 };

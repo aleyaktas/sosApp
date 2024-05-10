@@ -357,7 +357,7 @@ export interface IVideo {
   id: number;
   title: string;
   page: string;
-  url?: string;
+  videoUri?: string;
   image: any;
 }
 
@@ -366,20 +366,23 @@ export const TensesVideos: IVideo[] = [
     id: 1,
     title: '1. Sütun',
     page: 'VideoDetails',
-    url: '0d0cf50462n.mp4',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-tablosu-1-sutun-1607200374.mp4',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 2,
     title: '2. Sütun',
     page: 'VideoDetails',
-    url: '4f544d0f86n.mp4',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-tablosu-2-sutun-1609073885.mp4',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 3,
     title: '3. Sütun',
-    url: 'd121a3912fn.mp4',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-tablosu-3-sutun-1663927809.mp4',
     page: 'VideoDetails',
     image: require('../assets/icons/video.png'),
   },
