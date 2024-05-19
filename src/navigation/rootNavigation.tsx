@@ -14,6 +14,7 @@ import Videos from '../screens/Videos';
 import Notes from '../screens/Notes';
 import NoteDetails from '../screens/NoteDetails';
 import VideoDetails from '../screens/VideoDetails';
+import Listening from '../screens/Listening';
 
 const Stack = createStackNavigator();
 
@@ -120,6 +121,15 @@ const RootNavigation = () => {
         component={VideoDetails}
         options={{
           headerTitle: 'Video Detayı',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="Listening"
+        component={Listening}
+        options={{
+          headerTitle: 'Listening',
           headerShown: true,
           headerTitleAlign: 'center',
         }}

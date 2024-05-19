@@ -22,6 +22,7 @@
     "react-native": "^0.73.4",
     "react-native-blob-util": "^0.19.9",
     "react-native-check-box": "^2.1.7",
+    "react-native-collapsible": "^1.6.1",
     "react-native-countdown-circle-timer": "^3.2.1",
     "react-native-draggable-flatlist": "^4.0.1",
     "react-native-gesture-handler": "^2.14.0",

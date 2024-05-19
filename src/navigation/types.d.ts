@@ -14,6 +14,7 @@ export type StackNavigatorList = {
   Notes: {title: string; item?: any};
   NoteDetails: {title?: string; pdfName: string; item?: any};
   VideoDetails: {title?: string; item?: any};
+  Listening: {title?: string; item?: any};
 };
 
 export type BottomNavigatorList = {

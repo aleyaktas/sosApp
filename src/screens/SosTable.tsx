@@ -884,8 +884,8 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   statisticText: {
-    // color: '#282828',
     fontWeight: 'bold',
+    color: 'black',
   },
 });
 

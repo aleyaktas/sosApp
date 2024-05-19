@@ -1,7 +1,6 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Route, useRoute} from '@react-navigation/native';
-import Video from 'react-native-video';
 import VideoPlayer from 'react-native-video-controls';
 
 export interface VideoDetails {

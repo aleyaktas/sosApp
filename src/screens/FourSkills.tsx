@@ -5,7 +5,11 @@ import MenuItem from '../components/MenuItem';
 
 const FourSkills = () => {
   return (
-    <View>
+    <View
+      style={{
+        flex: 1,
+        backgroundColor: 'white',
+      }}>
       <FlatList
         data={fourSkills}
         renderItem={({item}) => <MenuItem item={item} />}
