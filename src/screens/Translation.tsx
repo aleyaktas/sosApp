@@ -716,7 +716,7 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   statisticText: {
-    // color: '#282828',
+    color: '#282828',
     fontWeight: 'bold',
   },
 });

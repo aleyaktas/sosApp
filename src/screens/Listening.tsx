@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {
   View,
   Text,
@@ -7,20 +7,85 @@ import {
   TouchableOpacity,
   StyleSheet,
   Image,
+  FlatList,
 } from 'react-native';
 import BubbleOne from '../assets/icons/BubbleOne.png';
 import BubbleTwo from '../assets/icons/BubbleTwo.png';
 import Icon from '../themes/Icon';
 import {handleVoice} from '../helpers/voiceCenter';
 import Collapsible from 'react-native-collapsible';
+import {Route, useRoute} from '@react-navigation/native';
+import {QuestionContext} from '../contexts/QuestionContext';
+import {showMessage} from '../utils/showMessage';
+
+export interface FourSkills {
+  id: number;
+  title: string;
+  mainCategory?: string;
+  description?: string;
+  image: any;
+  page: string;
+}
+
+interface Questions {
+  question: string;
+  correct_option: string;
+  option1: string;
+  option2: string;
+  option3: string;
+  option4: string;
+}
+[];
+
+type FourSkillsRoute = Route<'FourSkills', {title: string; item?: any}>;
 
 const Listening = () => {
-  const readingText = `Emily is a teacher. She is young and friendly. She gets up early every day. She is up at 7:00 a.m. Emily lives in a nice house. Her house is big and comfortable. In the morning, Emily is busy. First, she makes coffee. She loves coffee. She drinks coffee and eats bread with jam for breakfast. After breakfast, Emily goes to work. Her school is not far. It is near her house. At school, Emily is happy. She likes her job. She teaches small children. They are young and cute. Emily eats lunch at school. She usually eats a sandwich and an apple. After school, Emily goes home. She is tired but she is also happy. At home, she often reads a book. Emily likes books. She eats dinner at 7:00 p.m. Her dinner is simple. Sometimes, she watches TV after dinner. Emily goes to bed early. She is in bed at 10:00 p.m.`;
-
+  const route = useRoute<FourSkillsRoute>();
+  const {questionText, answers, setAnswers, setQuestionText} =
+    useContext(QuestionContext);
+  const [questionTextTitle, setQuestionTextTitle] = useState({
+    title: '',
+    text: '',
+  });
   const [isTextVisible, setIsTextVisible] = useState(true);
+  const [questionList, setQuestionList] = useState(answers);
+  const [question, setQuestion] = useState(answers[0]);
+  const [totalQuestions, setTotalQuestions] = useState(0);
+  const [correctAnswers, setCorrectAnswers] = useState(0);
+  const [wrongAnswers, setWrongAnswers] = useState(0);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+
+  useEffect(() => {
+    return () => {
+      setAnswers([]);
+      setQuestionText({title: '', text: ''});
+    };
+  }, []);
+
+  useEffect(() => {
+    setQuestionTextTitle(questionText);
+    setQuestionList(answers);
+    setQuestion(answers[0]);
+    setTotalQuestions(answers.length);
+  }, [answers, questionText]);
 
   const toggleTextVisibility = () => {
     setIsTextVisible(!isTextVisible);
+  };
+
+  const checkAnswer = (selectedOption: string) => {
+    if (currentQuestion + 1 === answers.length) {
+      showMessage('Sorular bitti', 'error');
+      return;
+    }
+    if (selectedOption === question.correct_option) {
+      setCorrectAnswers(correctAnswers + 1);
+    } else {
+      setWrongAnswers(wrongAnswers + 1);
+    }
+
+    setCurrentQuestion(currentQuestion + 1);
+    setQuestion(questionList[currentQuestion + 1]);
   };
 
   return (
@@ -28,6 +93,17 @@ const Listening = () => {
       <Image source={BubbleOne} style={styles.bubbleOne} />
       <Image source={BubbleTwo} style={styles.bubbleTwo} />
       <View style={styles.contentContainer}>
+        <View style={styles.statisticHeaderView}>
+          <View style={styles.statisticHeader}>
+            <Text style={styles.statisticText}>Sorulan: {totalQuestions}</Text>
+          </View>
+          <View style={styles.statisticHeader}>
+            <Text style={styles.statisticText}>Doğru: {correctAnswers}</Text>
+          </View>
+          <View style={styles.statisticHeader}>
+            <Text style={styles.statisticText}>Yanlış: {wrongAnswers}</Text>
+          </View>
+        </View>
         <ScrollView style={styles.card}>
           <View
             style={{
@@ -46,9 +122,9 @@ const Listening = () => {
                   justifyContent: 'center',
                   gap: 4,
                 }}>
-                <Text style={styles.cardTitle}>Emily's Day</Text>
-                <TouchableOpacity onPress={() => handleVoice(readingText)}>
-                  {/* <Image source={PlayAudio} width={30} height={30} /> */}
+                <Text style={styles.cardTitle}>{questionTextTitle.title}</Text>
+                <TouchableOpacity
+                  onPress={() => handleVoice(questionText.text)}>
                   <Icon name="PlayAudio" width={30} height={30} color="green" />
                 </TouchableOpacity>
               </View>
@@ -59,7 +135,7 @@ const Listening = () => {
               </TouchableOpacity>
             </View>
             <Collapsible collapsed={!isTextVisible}>
-              <Text style={styles.text}>{readingText}</Text>
+              <Text style={styles.text}>{questionTextTitle.text}</Text>
             </Collapsible>
           </View>
         </ScrollView>
@@ -71,8 +147,36 @@ const Listening = () => {
               padding: 16,
             },
           ]}>
-          <Text style={styles.cardTitle}>What time does Emily get up?</Text>
-          <TouchableOpacity style={styles.choice}>
+          <Text style={styles.cardTitle}>{question && question.question}</Text>
+          <TouchableOpacity
+            style={styles.choice}
+            onPress={() => checkAnswer(question && question.option1)}>
+            <Text style={styles.choiceText}>
+              {question && question.option1}
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.choice}
+            onPress={() => checkAnswer(question && question.option2)}>
+            <Text style={styles.choiceText}>
+              {question && question.option2}
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.choice}
+            onPress={() => checkAnswer(question && question.option3)}>
+            <Text style={styles.choiceText}>
+              {question && question.option3}
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.choice}
+            onPress={() => checkAnswer(question && question.option4)}>
+            <Text style={styles.choiceText}>
+              {question && question.option4}
+            </Text>
+          </TouchableOpacity>
+          {/* <TouchableOpacity style={styles.choice}>
             <Text style={styles.choiceText}>A) at 7:00 a.m.</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.choice}>
@@ -83,7 +187,7 @@ const Listening = () => {
           </TouchableOpacity>
           <TouchableOpacity style={styles.choice}>
             <Text style={styles.choiceText}>D) at 10:00 a.m.</Text>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       </View>
     </SafeAreaView>
@@ -105,8 +209,8 @@ const styles = StyleSheet.create({
   },
   bubbleOne: {
     position: 'absolute',
-    top: -60,
-    left: -40,
+    top: -70,
+    left: -60,
     width: 150,
     height: 170,
   },
@@ -163,6 +267,29 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     borderWidth: 1,
     borderColor: '#ccc',
+  },
+  statisticHeaderView: {
+    display: 'flex',
+    flexDirection: 'row',
+    width: '100%',
+    gap: 8,
+    marginTop: 8,
+  },
+  statisticHeader: {
+    flex: 1,
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    // backgroundColor: '#FFCB77',
+    backgroundColor: '#f8f8f8',
+    borderColor: '#FFCB77',
+    borderWidth: 2,
+    padding: 8,
+    borderRadius: 8,
+  },
+  statisticText: {
+    color: '#282828',
+    fontWeight: 'bold',
   },
 });
 

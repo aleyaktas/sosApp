@@ -13,11 +13,11 @@ const MenuItem = ({
   onPress?: () => void;
 }) => {
   const navigation = useNavigation<ScreenProp>();
-  console.log(item);
   return (
     <TouchableOpacity
       activeOpacity={0.7}
       onPress={() => {
+        onPress && onPress();
         if (item.page) {
           if (item.mainCategory) {
             return navigation.navigate(item.page as any, {

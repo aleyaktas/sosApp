@@ -17,6 +17,7 @@ import Login from './src/screens/Login';
 import Home from './src/screens/SosTable';
 import RootNavigation from './src/navigation/rootNavigation';
 import {ModalProvider} from './src/contexts/ModalContext';
+import {QuestionProvider} from './src/contexts/QuestionContext';
 
 const BottomTab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -32,7 +33,9 @@ function App(): React.JSX.Element {
     <SafeAreaView style={styles.safeArea}>
       <NavigationContainer>
         <ModalProvider>
-          <RootNavigation />
+          <QuestionProvider>
+            <RootNavigation />
+          </QuestionProvider>
         </ModalProvider>
       </NavigationContainer>
     </SafeAreaView>

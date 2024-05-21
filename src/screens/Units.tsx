@@ -8,7 +8,7 @@ type UnitsRoute = Route<'Units', {title: string}>;
 const Units = () => {
   const route = useRoute<UnitsRoute>();
   const title = route.params.title;
-  const units = require(`../utils/data`)[`${title}Units`];
+  const units = require(`../utils/data`)[`${title}FourSkillsUnits`];
 
   return (
     <ScrollView
