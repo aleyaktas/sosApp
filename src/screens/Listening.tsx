@@ -3,20 +3,21 @@ import {
   View,
   Text,
   SafeAreaView,
-  ScrollView,
   TouchableOpacity,
   StyleSheet,
   Image,
   FlatList,
+  Dimensions,
 } from 'react-native';
+import {ScrollView} from 'react-native-gesture-handler';
 import BubbleOne from '../assets/icons/BubbleOne.png';
 import BubbleTwo from '../assets/icons/BubbleTwo.png';
 import Icon from '../themes/Icon';
 import {handleVoice} from '../helpers/voiceCenter';
 import Collapsible from 'react-native-collapsible';
-import {Route, useRoute} from '@react-navigation/native';
 import {QuestionContext} from '../contexts/QuestionContext';
 import {showMessage} from '../utils/showMessage';
+import Carousel from 'react-native-reanimated-carousel';
 
 export interface FourSkills {
   id: number;
@@ -27,20 +28,7 @@ export interface FourSkills {
   page: string;
 }
 
-interface Questions {
-  question: string;
-  correct_option: string;
-  option1: string;
-  option2: string;
-  option3: string;
-  option4: string;
-}
-[];
-
-type FourSkillsRoute = Route<'FourSkills', {title: string; item?: any}>;
-
 const Listening = () => {
-  const route = useRoute<FourSkillsRoute>();
   const {questionText, answers, setAnswers, setQuestionText} =
     useContext(QuestionContext);
   const [questionTextTitle, setQuestionTextTitle] = useState({
@@ -66,7 +54,6 @@ const Listening = () => {
     setQuestionTextTitle(questionText);
     setQuestionList(answers);
     setQuestion(answers[0]);
-    setTotalQuestions(answers.length);
   }, [answers, questionText]);
 
   const toggleTextVisibility = () => {
@@ -83,7 +70,7 @@ const Listening = () => {
     } else {
       setWrongAnswers(wrongAnswers + 1);
     }
-
+    setTotalQuestions(totalQuestions + 1);
     setCurrentQuestion(currentQuestion + 1);
     setQuestion(questionList[currentQuestion + 1]);
   };
@@ -104,90 +91,99 @@ const Listening = () => {
             <Text style={styles.statisticText}>Yanlış: {wrongAnswers}</Text>
           </View>
         </View>
-        <ScrollView style={styles.card}>
-          <View
-            style={{
-              padding: 16,
-            }}>
-            <View
-              style={{
-                flexDirection: 'row',
-                justifyContent: 'space-between',
-                alignItems: 'center',
-              }}>
-              <View
-                style={{
-                  flexDirection: 'row',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  gap: 4,
-                }}>
-                <Text style={styles.cardTitle}>{questionTextTitle.title}</Text>
-                <TouchableOpacity
-                  onPress={() => handleVoice(questionText.text)}>
-                  <Icon name="PlayAudio" width={30} height={30} color="green" />
-                </TouchableOpacity>
-              </View>
-              <TouchableOpacity onPress={toggleTextVisibility}>
-                <Text style={styles.toggleButtonText}>
-                  {isTextVisible ? 'Gizle' : 'Göster'}
-                </Text>
-              </TouchableOpacity>
-            </View>
-            <Collapsible collapsed={!isTextVisible}>
-              <Text style={styles.text}>{questionTextTitle.text}</Text>
-            </Collapsible>
-          </View>
-        </ScrollView>
-
-        <View
+        <ScrollView
           style={[
             styles.card,
             {
               padding: 16,
             },
           ]}>
-          <Text style={styles.cardTitle}>{question && question.question}</Text>
-          <TouchableOpacity
-            style={styles.choice}
-            onPress={() => checkAnswer(question && question.option1)}>
-            <Text style={styles.choiceText}>
-              {question && question.option1}
-            </Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.choice}
-            onPress={() => checkAnswer(question && question.option2)}>
-            <Text style={styles.choiceText}>
-              {question && question.option2}
-            </Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.choice}
-            onPress={() => checkAnswer(question && question.option3)}>
-            <Text style={styles.choiceText}>
-              {question && question.option3}
-            </Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.choice}
-            onPress={() => checkAnswer(question && question.option4)}>
-            <Text style={styles.choiceText}>
-              {question && question.option4}
-            </Text>
-          </TouchableOpacity>
-          {/* <TouchableOpacity style={styles.choice}>
-            <Text style={styles.choiceText}>A) at 7:00 a.m.</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.choice}>
-            <Text style={styles.choiceText}>B) at 8:00 a.m.</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.choice}>
-            <Text style={styles.choiceText}>C) at 9:00 a.m.</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.choice}>
-            <Text style={styles.choiceText}>D) at 10:00 a.m.</Text>
-          </TouchableOpacity> */}
+          <View style={styles.cardContainer}>
+            <View style={styles.cardHeader}>
+              <Text style={styles.cardTitle} numberOfLines={3}>
+                {questionTextTitle.title}
+              </Text>
+              <TouchableOpacity onPress={() => handleVoice(questionText.text)}>
+                <Icon name="PlayAudio" width={30} height={30} color="green" />
+              </TouchableOpacity>
+            </View>
+            <View>
+              <TouchableOpacity onPress={toggleTextVisibility}>
+                <Text style={styles.toggleButtonText}>
+                  {isTextVisible ? 'Gizle' : 'Göster'}
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+          <Collapsible collapsed={!isTextVisible}>
+            <Text style={styles.text}>{questionTextTitle.text}</Text>
+          </Collapsible>
+        </ScrollView>
+        <Carousel
+          width={Dimensions.get('window').width - 40}
+          overscrollEnabled
+          style={styles.card}
+          data={questionList}
+          renderItem={({item}) => (
+            <View style={{flex: 1, padding: 16}}>
+              <ScrollView
+                style={{
+                  flex: 1,
+                }}
+                contentContainerStyle={styles.answerContainer}>
+                <Text style={styles.cardTitle}>{item.question}</Text>
+                <TouchableOpacity
+                  style={styles.choice}
+                  onPress={() => checkAnswer(item.option1)}>
+                  <Text style={styles.choiceText}>{item.option1}</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  style={styles.choice}
+                  onPress={() => checkAnswer(item.option2)}>
+                  <Text style={styles.choiceText}>{item.option2}</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  style={styles.choice}
+                  onPress={() => checkAnswer(item.option3)}>
+                  <Text style={styles.choiceText}>{item.option3}</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  style={styles.choice}
+                  onPress={() => checkAnswer(item.option4)}>
+                  <Text style={styles.choiceText}>{item.option4}</Text>
+                </TouchableOpacity>
+              </ScrollView>
+            </View>
+          )}
+          onSnapToItem={index => setCurrentQuestion(index)}
+        />
+        <View style={styles.questionNumberContainer}>
+          <FlatList
+            data={answers}
+            renderItem={({item, index}) => {
+              return (
+                <View
+                  style={{
+                    paddingVertical: 8,
+                    paddingHorizontal: 12,
+                    borderRadius: 8,
+                    backgroundColor:
+                      index === currentQuestion ? '#FFCB77' : 'white',
+                  }}>
+                  <Text
+                    style={{
+                      color: index === currentQuestion ? '#282828' : '#333',
+                      fontWeight: index === currentQuestion ? 'bold' : 'normal',
+                    }}>
+                    {index + 1}
+                  </Text>
+                </View>
+              );
+            }}
+            horizontal={true}
+            showsHorizontalScrollIndicator={false}
+            contentContainerStyle={styles.questionNumberList}
+          />
         </View>
       </View>
     </SafeAreaView>
@@ -202,7 +198,7 @@ const styles = StyleSheet.create({
   contentContainer: {
     padding: 20,
     position: 'relative',
-    flexShrink: 1,
+    flex: 1,
     flexDirection: 'column',
     justifyContent: 'space-between',
     gap: 12,
@@ -223,7 +219,6 @@ const styles = StyleSheet.create({
     height: 150,
   },
   card: {
-    gap: 10,
     backgroundColor: '#FFFFFF',
     borderRadius: 12,
     shadowColor: '#000',
@@ -234,13 +229,31 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 5,
+    flex: 1,
+  },
+  cardContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingBottom: 8,
+    gap: 2,
+  },
+  cardHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flex: 1,
   },
   cardTitle: {
-    fontSize: 18,
     fontWeight: 'bold',
-
-    textAlign: 'center',
+    textAlign: 'left',
     color: '#333',
+    marginBottom: 8,
+    fontSize: 16,
+    flex: 1,
+  },
+  answerContainer: {
+    flexDirection: 'column',
+    gap: 8,
   },
   text: {
     fontSize: 16,
@@ -251,7 +264,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5F5F5',
     padding: 12,
     borderRadius: 8,
-    marginBottom: 8,
   },
   choiceText: {
     fontSize: 16,
@@ -280,7 +292,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    // backgroundColor: '#FFCB77',
     backgroundColor: '#f8f8f8',
     borderColor: '#FFCB77',
     borderWidth: 2,
@@ -290,6 +301,44 @@ const styles = StyleSheet.create({
   statisticText: {
     color: '#282828',
     fontWeight: 'bold',
+  },
+  questionsContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  listContainer: {
+    paddingHorizontal: 10,
+    justifyContent: 'space-between',
+  },
+  itemContainer: {
+    padding: 8,
+    backgroundColor: '#FFCB77',
+    marginHorizontal: 5,
+    borderRadius: 5,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  questionNumberContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'white',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    borderRadius: 8,
+  },
+  questionNumberList: {
+    paddingHorizontal: 10,
+    justifyContent: 'space-between',
+    gap: 16,
   },
 });
 
