@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useEffect, useRef, useState} from 'react';
 import {
   View,
   Text,
@@ -29,6 +29,9 @@ export interface FourSkills {
 }
 
 const Listening = () => {
+  const carouselRef = useRef(null);
+  const answersListRef = useRef<FlatList>(null);
+
   const {questionText, answers, setAnswers, setQuestionText} =
     useContext(QuestionContext);
   const [questionTextTitle, setQuestionTextTitle] = useState({
@@ -42,6 +45,8 @@ const Listening = () => {
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [isSelectedOption, setIsSelectedOption] = useState('');
+  const [isCorrectOption, setIsCorrectOption] = useState('');
 
   useEffect(() => {
     return () => {
@@ -60,19 +65,132 @@ const Listening = () => {
     setIsTextVisible(!isTextVisible);
   };
 
-  const checkAnswer = (selectedOption: string) => {
+  const checkAnswer = (selectedOption: string, optionTitle: string) => {
     if (currentQuestion + 1 === answers.length) {
       showMessage('Sorular bitti', 'error');
       return;
     }
+    setIsCorrectOption(question.correct_option);
     if (selectedOption === question.correct_option) {
       setCorrectAnswers(correctAnswers + 1);
+      //item is correct true and update setQuestionList
+      const updatedQuestionList = questionList.map((item, index) => {
+        if (index === currentQuestion) {
+          return {
+            ...item,
+            isCorrectAnswer: true,
+            selectedOption,
+            selectedOptionTitle: optionTitle,
+          };
+        }
+        return item;
+      });
+      setQuestionList(updatedQuestionList);
     } else {
       setWrongAnswers(wrongAnswers + 1);
+      //item is correct false and update setQuestionList
+      const updatedQuestionList = questionList.map((item, index) => {
+        if (index === currentQuestion) {
+          return {
+            ...item,
+            isCorrectAnswer: false,
+            selectedOption,
+            selectedOptionTitle: optionTitle,
+          };
+        }
+        return item;
+      });
+      setQuestionList(updatedQuestionList);
     }
     setTotalQuestions(totalQuestions + 1);
-    setCurrentQuestion(currentQuestion + 1);
-    setQuestion(questionList[currentQuestion + 1]);
+  };
+
+  useEffect(() => {
+    setIsSelectedOption('');
+    setIsCorrectOption('');
+    if (carouselRef.current) {
+      (carouselRef.current as any).scrollTo({
+        index: currentQuestion,
+        animated: true,
+      });
+    }
+  }, [currentQuestion]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (answersListRef.current && answers.length > 0) {
+        answersListRef.current.scrollToIndex({
+          index: currentQuestion,
+          animated: true,
+        });
+      }
+    }, 100);
+    return () => clearTimeout(timer);
+  }, [currentQuestion]);
+
+  useEffect(() => {
+    setIsSelectedOption('');
+    setIsCorrectOption('');
+    if (!Number.isNaN((carouselRef.current as any).getCurrentIndex())) {
+      setCurrentQuestion((carouselRef.current as any).getCurrentIndex());
+      setQuestion(questionList[(carouselRef.current as any).getCurrentIndex()]);
+    }
+  }, [carouselRef.current]);
+
+  const shuffledOptions = (item: any) =>
+    [item.option1, item.option2, item.option3, item.option4].sort(
+      () => Math.random() - 0.5,
+    );
+
+  const renderChoice = ({
+    optionTitle,
+    option,
+    bgColor,
+    question,
+  }: {
+    optionTitle: string;
+    option: string;
+    bgColor: string;
+    question: any;
+  }) => {
+    return (
+      <TouchableOpacity
+        disabled={
+          question.selectedOptionTitle && question.selectedOptionTitle !== ''
+        }
+        style={[
+          styles.choice,
+          {
+            backgroundColor:
+              question.selectedOptionTitle === optionTitle &&
+              question.selectedOption === question.correct_option
+                ? '#98D832'
+                : question.selectedOptionTitle === optionTitle &&
+                  question.selectedOption !== question.correct_option
+                ? '#FF4D4F'
+                : question.selectedOptionTitle !== optionTitle &&
+                  question.selectedOption &&
+                  option === question.correct_option
+                ? '#98D832'
+                : '#F5F5F5',
+          },
+        ]}
+        onPress={() => {
+          setIsSelectedOption(optionTitle);
+          checkAnswer(option, optionTitle);
+        }}>
+        <View
+          style={[
+            styles.choiceOption,
+            {
+              backgroundColor: bgColor,
+            },
+          ]}>
+          <Text style={styles.choiceOptionText}>{optionTitle}</Text>
+        </View>
+        <Text style={styles.choiceText}>{option}</Text>
+      </TouchableOpacity>
+    );
   };
 
   return (
@@ -91,13 +209,7 @@ const Listening = () => {
             <Text style={styles.statisticText}>Yanlış: {wrongAnswers}</Text>
           </View>
         </View>
-        <ScrollView
-          style={[
-            styles.card,
-            {
-              padding: 16,
-            },
-          ]}>
+        <ScrollView style={[styles.card, styles.textCard]}>
           <View style={styles.cardContainer}>
             <View style={styles.cardHeader}>
               <Text style={styles.cardTitle} numberOfLines={3}>
@@ -116,14 +228,21 @@ const Listening = () => {
             </View>
           </View>
           <Collapsible collapsed={!isTextVisible}>
-            <Text style={styles.text}>{questionTextTitle.text}</Text>
+            <View style={styles.collapsibleContent}>
+              <Text style={styles.text}>{questionTextTitle.text}</Text>
+            </View>
           </Collapsible>
         </ScrollView>
         <Carousel
+          ref={carouselRef}
           width={Dimensions.get('window').width - 40}
           overscrollEnabled
-          style={styles.card}
+          style={[styles.card]}
           data={questionList}
+          onScrollBegin={() => {
+            setIsCorrectOption('');
+            setIsSelectedOption('');
+          }}
           renderItem={({item}) => (
             <View style={{flex: 1, padding: 16}}>
               <ScrollView
@@ -132,26 +251,30 @@ const Listening = () => {
                 }}
                 contentContainerStyle={styles.answerContainer}>
                 <Text style={styles.cardTitle}>{item.question}</Text>
-                <TouchableOpacity
-                  style={styles.choice}
-                  onPress={() => checkAnswer(item.option1)}>
-                  <Text style={styles.choiceText}>{item.option1}</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={styles.choice}
-                  onPress={() => checkAnswer(item.option2)}>
-                  <Text style={styles.choiceText}>{item.option2}</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={styles.choice}
-                  onPress={() => checkAnswer(item.option3)}>
-                  <Text style={styles.choiceText}>{item.option3}</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={styles.choice}
-                  onPress={() => checkAnswer(item.option4)}>
-                  <Text style={styles.choiceText}>{item.option4}</Text>
-                </TouchableOpacity>
+                {renderChoice({
+                  optionTitle: 'A',
+                  option: item.option1,
+                  bgColor: '#FACA77',
+                  question: item,
+                })}
+                {renderChoice({
+                  optionTitle: 'B',
+                  option: item.option2,
+                  bgColor: '#13E0E6',
+                  question: item,
+                })}
+                {renderChoice({
+                  optionTitle: 'C',
+                  option: item.option3,
+                  bgColor: '#D274DB',
+                  question: item,
+                })}
+                {renderChoice({
+                  optionTitle: 'D',
+                  option: item.option4,
+                  bgColor: '#98D832',
+                  question: item,
+                })}
               </ScrollView>
             </View>
           )}
@@ -159,16 +282,23 @@ const Listening = () => {
         />
         <View style={styles.questionNumberContainer}>
           <FlatList
+            ref={answersListRef}
             data={answers}
             renderItem={({item, index}) => {
               return (
-                <View
+                <TouchableOpacity
                   style={{
                     paddingVertical: 8,
                     paddingHorizontal: 12,
                     borderRadius: 8,
                     backgroundColor:
                       index === currentQuestion ? '#FFCB77' : 'white',
+                  }}
+                  onPress={() => {
+                    setCurrentQuestion(index);
+                    setQuestion(questionList[index]);
+                    console.log('Current question:', index);
+                    console.log('Question changed to:', questionList[index]);
                   }}>
                   <Text
                     style={{
@@ -177,7 +307,7 @@ const Listening = () => {
                     }}>
                     {index + 1}
                   </Text>
-                </View>
+                </TouchableOpacity>
               );
             }}
             horizontal={true}
@@ -198,7 +328,8 @@ const styles = StyleSheet.create({
   contentContainer: {
     padding: 20,
     position: 'relative',
-    flex: 1,
+    flexShrink: 1,
+    height: '100%',
     flexDirection: 'column',
     justifyContent: 'space-between',
     gap: 12,
@@ -231,6 +362,11 @@ const styles = StyleSheet.create({
     elevation: 5,
     flex: 1,
   },
+  textCard: {
+    padding: 16,
+    borderColor: '#FFCB77',
+    borderWidth: 1,
+  },
   cardContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -260,10 +396,28 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     color: '#333',
   },
+  choiceOption: {
+    borderRadius: 12,
+    width: 24,
+    height: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  choiceOptionText: {
+    color: '#fff',
+    fontSize: 14,
+    fontWeight: '500',
+  },
   choice: {
     backgroundColor: '#F5F5F5',
-    padding: 12,
+    color: '#333',
+    paddingVertical: 8,
+    paddingHorizontal: 12,
     borderRadius: 8,
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
   },
   choiceText: {
     fontSize: 16,
@@ -279,6 +433,9 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     borderWidth: 1,
     borderColor: '#ccc',
+  },
+  collapsibleContent: {
+    paddingVertical: 8,
   },
   statisticHeaderView: {
     display: 'flex',
@@ -339,6 +496,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     justifyContent: 'space-between',
     gap: 16,
+  },
+  collapsible: {
+    flexGrow: 1, // Ensure that the collapsible content grows within the parent container
   },
 });
 

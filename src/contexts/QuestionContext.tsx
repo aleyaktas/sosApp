@@ -80,8 +80,6 @@ export const QuestionProvider: FC<QuestionProviderProps> = ({
         text: findQuestions[0].metin,
       });
 
-      console.log('findQuestions', findQuestions);
-      console.log('id', findQuestions[0].id);
       const formDataAnswers = new FormData();
       formDataAnswers.append('metin_id', findQuestions[0].id);
 
