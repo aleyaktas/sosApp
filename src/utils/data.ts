@@ -547,7 +547,7 @@ export const fourSkills: IFourSkill[] = [
     id: 3,
     title: 'Okuma',
     description: 'Okuma becerisi',
-    page: 'Listening',
+    page: 'Reading',
     image: require('../assets/icons/reading.png'),
   },
   {

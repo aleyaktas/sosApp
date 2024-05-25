@@ -134,6 +134,15 @@ const RootNavigation = () => {
           headerTitleAlign: 'center',
         }}
       />
+      <Stack.Screen
+        name="Reading"
+        component={Listening}
+        options={{
+          headerTitle: 'Reading',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
     </Stack.Navigator>
   );
 };
