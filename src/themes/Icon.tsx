@@ -24,6 +24,8 @@ import CloseFilled from '../assets/icons/CloseFilled.svg';
 import TickFilled from '../assets/icons/TickFilled.svg';
 import RightArrow from '../assets/icons/RightArrow.svg';
 import PlayAudio from '../assets/icons/PlayAudio.svg';
+import Play from '../assets/icons/Play.svg';
+import Pause from '../assets/icons/Pause.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
@@ -50,6 +52,8 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   TickFilled,
   RightArrow,
   PlayAudio,
+  Play,
+  Pause,
 };
 
 interface IconProps {

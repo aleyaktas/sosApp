@@ -1,6 +1,10 @@
 import React, {createContext, useState, FC, ReactNode} from 'react';
 
 interface QuestionContextType {
+  uniteno: string;
+  type: string;
+  setType: (type: string) => void;
+  setUniteno: (uniteno: string) => void;
   questionText: {title: string; text: string};
   answers: {
     id: number;
@@ -19,6 +23,10 @@ interface QuestionContextType {
 
 export const QuestionContext = createContext<QuestionContextType>({
   questionText: {title: '', text: ''},
+  uniteno: '',
+  type: '',
+  setType: () => {},
+  setUniteno: () => {},
   answers: [
     {
       id: 0,
@@ -59,6 +67,8 @@ export const QuestionProvider: FC<QuestionProviderProps> = ({
     },
   ]);
   const [loading, setLoading] = useState(true);
+  const [uniteno, setUniteno] = useState('');
+  const [type, setType] = useState('');
 
   const shuffleArray = (array: any) => {
     const shuffledArray = array.sort(() => Math.random() - 0.5);
@@ -112,6 +122,10 @@ export const QuestionProvider: FC<QuestionProviderProps> = ({
         setQuestionText,
         fetchText,
         loading,
+        uniteno,
+        type,
+        setUniteno,
+        setType,
       }}>
       {children}
     </QuestionContext.Provider>

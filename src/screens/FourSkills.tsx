@@ -20,7 +20,7 @@ const FourSkills = () => {
   const route = useRoute<FourSkillsRoute>();
   const uniteNo = route.params.item.id;
 
-  const {fetchText} = useContext(QuestionContext);
+  const {fetchText, setUniteno, setType} = useContext(QuestionContext);
 
   return (
     <View
@@ -31,7 +31,14 @@ const FourSkills = () => {
       <FlatList
         data={fourSkills}
         renderItem={({item}) => (
-          <MenuItem item={item} onPress={() => fetchText(uniteNo, item.page)} />
+          <MenuItem
+            item={item}
+            onPress={() => {
+              setUniteno(uniteNo);
+              setType(item.page);
+              fetchText(uniteNo, item.page);
+            }}
+          />
         )}
         keyExtractor={item => item.id.toString()}
       />

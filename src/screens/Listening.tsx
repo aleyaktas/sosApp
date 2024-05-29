@@ -8,16 +8,21 @@ import {
   Image,
   FlatList,
   Dimensions,
+  Button,
 } from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import BubbleOne from '../assets/icons/BubbleOne.png';
 import BubbleTwo from '../assets/icons/BubbleTwo.png';
 import Icon from '../themes/Icon';
-import {handleVoice} from '../helpers/voiceCenter';
 import Collapsible from 'react-native-collapsible';
 import {QuestionContext} from '../contexts/QuestionContext';
-import {showMessage} from '../utils/showMessage';
 import Carousel from 'react-native-reanimated-carousel';
+import Slider from '@react-native-community/slider';
+import TrackPlayer, {
+  Capability,
+  State,
+  useProgress,
+} from 'react-native-track-player';
 
 export interface FourSkills {
   id: number;
@@ -32,7 +37,7 @@ const Listening = () => {
   const carouselRef = useRef(null);
   const answersListRef = useRef<FlatList>(null);
 
-  const {questionText, answers, setAnswers, setQuestionText} =
+  const {questionText, answers, setAnswers, setQuestionText, uniteno, type} =
     useContext(QuestionContext);
   const [questionTextTitle, setQuestionTextTitle] = useState({
     title: '',
@@ -45,6 +50,39 @@ const Listening = () => {
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const [url, setUrl] = useState('');
+
+  useEffect(() => {
+    async function setupPlayer() {
+      await TrackPlayer.setupPlayer();
+      TrackPlayer.updateOptions({
+        stopWithApp: true,
+        capabilities: [Capability.Play, Capability.Pause, Capability.Stop],
+        compactCapabilities: [Capability.Play, Capability.Pause],
+      });
+    }
+
+    setupPlayer();
+
+    return async () => {
+      await TrackPlayer.reset();
+      progress.position = 0;
+      await TrackPlayer.stop();
+      await TrackPlayer.seekTo(0);
+      setIsPlaying(false);
+    };
+  }, []);
+
+  useEffect(() => {
+    setUrl(
+      `https://phdakademi.com/uploads/logo/${uniteno}${
+        type === 'Listening' ? 'din' : type === 'Reading' ? 'oku' : ''
+      }.mp3`,
+    );
+    console.log('URL:', type);
+  }, [uniteno, type]);
 
   useEffect(() => {
     return () => {
@@ -183,6 +221,25 @@ const Listening = () => {
     );
   };
 
+  const progress = useProgress();
+
+  const playTrack = async () => {
+    console.log('Playing track:', url);
+    await TrackPlayer.add({
+      id: url,
+      url,
+      title: 'Track Title',
+      artist: 'Track Artist',
+    });
+    setIsPlaying(true);
+    await TrackPlayer.play();
+  };
+
+  const pauseTrack = async () => {
+    setIsPlaying(false);
+    await TrackPlayer.pause();
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       <Image source={BubbleOne} style={styles.bubbleOne} />
@@ -198,6 +255,71 @@ const Listening = () => {
           <View style={styles.statisticHeader}>
             <Text style={styles.statisticText}>Yanlış: {wrongAnswers}</Text>
           </View>
+        </View>
+
+        <View
+          style={{
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            backgroundColor: 'white',
+            paddingHorizontal: 16,
+            paddingVertical: 2,
+            gap: 4,
+            borderRadius: 8,
+            shadowColor: '#000',
+            shadowOffset: {
+              width: 0,
+              height: 2,
+            },
+            shadowOpacity: 0.25,
+            shadowRadius: 3.84,
+            elevation: 5,
+          }}>
+          <TouchableOpacity
+            onPress={isPlaying ? pauseTrack : playTrack}
+            style={{
+              // backgroundColor: '#FFD369',
+              // padding: 8,
+              borderRadius: 8,
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}>
+            <Icon
+              name={isPlaying ? 'Pause' : 'Play'}
+              width={32}
+              height={32}
+              color="green"
+            />
+          </TouchableOpacity>
+          <Slider
+            style={{
+              // width: '100%',
+              flex: 1,
+              height: 40,
+            }}
+            value={progress.position}
+            minimumValue={0}
+            maximumValue={progress.duration}
+            thumbTintColor="#FFD369"
+            minimumTrackTintColor="#FFD369"
+            maximumTrackTintColor="#bbb"
+            onSlidingComplete={async value => {
+              await TrackPlayer.seekTo(value);
+            }}
+          />
+          <Text>
+            {Math.floor(progress.position / 60)}:
+            {Math.floor(progress.position % 60) < 10
+              ? '0' + Math.floor(progress.position % 60)
+              : Math.floor(progress.position % 60)}
+            {' / '}
+            {Math.floor(progress.duration / 60)}:
+            {Math.floor(progress.duration % 60) < 10
+              ? '0' + Math.floor(progress.duration % 60)
+              : Math.floor(progress.duration % 60)}
+          </Text>
+          {/* <Button title="Pause" onPress={pauseTrack} /> */}
         </View>
         <View style={[styles.card, styles.textCard]}>
           <ScrollView
