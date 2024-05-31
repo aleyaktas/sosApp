@@ -8,21 +8,16 @@ import {
   Image,
   FlatList,
   Dimensions,
-  Button,
 } from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import BubbleOne from '../assets/icons/BubbleOne.png';
 import BubbleTwo from '../assets/icons/BubbleTwo.png';
-import Icon from '../themes/Icon';
-import Collapsible from 'react-native-collapsible';
 import {QuestionContext} from '../contexts/QuestionContext';
 import Carousel from 'react-native-reanimated-carousel';
-import Slider from '@react-native-community/slider';
-import TrackPlayer, {
-  Capability,
-  State,
-  useProgress,
-} from 'react-native-track-player';
+import TrackPlayer, {Capability, useProgress} from 'react-native-track-player';
+import MediaPlayer from '../components/MediaPlayer';
+import QuestionText from '../components/QuestionText';
+import Statistics from '../components/Statistics';
 
 export interface FourSkills {
   id: number;
@@ -31,6 +26,13 @@ export interface FourSkills {
   description?: string;
   image: any;
   page: string;
+}
+
+export interface Choice {
+  optionTitle: string;
+  option: string;
+  bgColor: string;
+  question: any;
 }
 
 const Listening = () => {
@@ -43,7 +45,6 @@ const Listening = () => {
     title: '',
     text: '',
   });
-  const [isTextVisible, setIsTextVisible] = useState(true);
   const [questionList, setQuestionList] = useState(answers);
   const [question, setQuestion] = useState(answers[0]);
   const [totalQuestions, setTotalQuestions] = useState(0);
@@ -51,14 +52,13 @@ const Listening = () => {
   const [wrongAnswers, setWrongAnswers] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
-
   const [url, setUrl] = useState('');
 
   useEffect(() => {
     async function setupPlayer() {
       await TrackPlayer.setupPlayer();
       TrackPlayer.updateOptions({
-        stopWithApp: true,
+        // stopWithApp: true,
         capabilities: [Capability.Play, Capability.Pause, Capability.Stop],
         compactCapabilities: [Capability.Play, Capability.Pause],
       });
@@ -66,12 +66,14 @@ const Listening = () => {
 
     setupPlayer();
 
-    return async () => {
-      await TrackPlayer.reset();
-      progress.position = 0;
-      await TrackPlayer.stop();
-      await TrackPlayer.seekTo(0);
-      setIsPlaying(false);
+    return () => {
+      (async () => {
+        await TrackPlayer.reset();
+        progress.position = 0;
+        await TrackPlayer.stop();
+        await TrackPlayer.seekTo(0);
+        setIsPlaying(false);
+      })();
     };
   }, []);
 
@@ -81,7 +83,6 @@ const Listening = () => {
         type === 'Listening' ? 'din' : type === 'Reading' ? 'oku' : ''
       }.mp3`,
     );
-    console.log('URL:', type);
   }, [uniteno, type]);
 
   useEffect(() => {
@@ -97,16 +98,8 @@ const Listening = () => {
     setQuestion(answers[0]);
   }, [answers, questionText]);
 
-  const toggleTextVisibility = () => {
-    setIsTextVisible(!isTextVisible);
-  };
-
   const checkAnswer = (selectedOption: string, optionTitle: string) => {
-    console.log('Selected option:', selectedOption);
-    console.log('Correct option:', question.correct_option);
-
     if (currentQuestion === answers.length) {
-      console.log('Questions are finished');
       return;
     }
     if (selectedOption === question.correct_option) {
@@ -171,17 +164,7 @@ const Listening = () => {
     }
   }, [carouselRef.current]);
 
-  const renderChoice = ({
-    optionTitle,
-    option,
-    bgColor,
-    question,
-  }: {
-    optionTitle: string;
-    option: string;
-    bgColor: string;
-    question: any;
-  }) => {
+  const renderChoice = ({optionTitle, option, bgColor, question}: Choice) => {
     return (
       <TouchableOpacity
         disabled={
@@ -223,138 +206,27 @@ const Listening = () => {
 
   const progress = useProgress();
 
-  const playTrack = async () => {
-    console.log('Playing track:', url);
-    await TrackPlayer.add({
-      id: url,
-      url,
-      title: 'Track Title',
-      artist: 'Track Artist',
-    });
-    setIsPlaying(true);
-    await TrackPlayer.play();
-  };
-
-  const pauseTrack = async () => {
-    setIsPlaying(false);
-    await TrackPlayer.pause();
-  };
-
   return (
     <SafeAreaView style={styles.container}>
       <Image source={BubbleOne} style={styles.bubbleOne} />
       <Image source={BubbleTwo} style={styles.bubbleTwo} />
       <View style={styles.contentContainer}>
-        <View style={styles.statisticHeaderView}>
-          <View style={styles.statisticHeader}>
-            <Text style={styles.statisticText}>Sorulan: {totalQuestions}</Text>
-          </View>
-          <View style={styles.statisticHeader}>
-            <Text style={styles.statisticText}>Doğru: {correctAnswers}</Text>
-          </View>
-          <View style={styles.statisticHeader}>
-            <Text style={styles.statisticText}>Yanlış: {wrongAnswers}</Text>
-          </View>
-        </View>
-
-        <View
-          style={{
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            backgroundColor: 'white',
-            paddingHorizontal: 16,
-            paddingVertical: 2,
-            gap: 4,
-            borderRadius: 8,
-            shadowColor: '#000',
-            shadowOffset: {
-              width: 0,
-              height: 2,
-            },
-            shadowOpacity: 0.25,
-            shadowRadius: 3.84,
-            elevation: 5,
-          }}>
-          <TouchableOpacity
-            onPress={isPlaying ? pauseTrack : playTrack}
-            style={{
-              // backgroundColor: '#FFD369',
-              // padding: 8,
-              borderRadius: 8,
-              justifyContent: 'center',
-              alignItems: 'center',
-            }}>
-            <Icon
-              name={isPlaying ? 'Pause' : 'Play'}
-              width={32}
-              height={32}
-              color="green"
-            />
-          </TouchableOpacity>
-          <Slider
-            style={{
-              // width: '100%',
-              flex: 1,
-              height: 40,
-            }}
-            value={progress.position}
-            minimumValue={0}
-            maximumValue={progress.duration}
-            thumbTintColor="#FFD369"
-            minimumTrackTintColor="#FFD369"
-            maximumTrackTintColor="#bbb"
-            onSlidingComplete={async value => {
-              await TrackPlayer.seekTo(value);
-            }}
-          />
-          <Text>
-            {Math.floor(progress.position / 60)}:
-            {Math.floor(progress.position % 60) < 10
-              ? '0' + Math.floor(progress.position % 60)
-              : Math.floor(progress.position % 60)}
-            {' / '}
-            {Math.floor(progress.duration / 60)}:
-            {Math.floor(progress.duration % 60) < 10
-              ? '0' + Math.floor(progress.duration % 60)
-              : Math.floor(progress.duration % 60)}
-          </Text>
-          {/* <Button title="Pause" onPress={pauseTrack} /> */}
-        </View>
-        <View style={[styles.card, styles.textCard]}>
-          <ScrollView
-            style={{
-              // flexGrow: 1,
-              maxHeight: Dimensions.get('window').height / 3,
-            }}>
-            <View style={styles.cardContainer}>
-              <View style={styles.cardHeader}>
-                <Text style={styles.cardTitle} numberOfLines={3}>
-                  {questionTextTitle.title}
-                </Text>
-                {/* <TouchableOpacity
-                  onPress={() => handleVoice(questionText.text)}>
-                  <Icon name="PlayAudio" width={30} height={30} color="green" />
-                </TouchableOpacity> */}
-              </View>
-              <TouchableOpacity onPress={toggleTextVisibility}>
-                <Text style={styles.toggleButtonText}>
-                  {isTextVisible ? 'Gizle' : 'Göster'}
-                </Text>
-              </TouchableOpacity>
-            </View>
-            <Collapsible collapsed={!isTextVisible}>
-              <View style={styles.collapsibleContent}>
-                <Text style={styles.text}>{questionTextTitle.text}</Text>
-              </View>
-            </Collapsible>
-          </ScrollView>
-        </View>
-
-        <View
-          style={{
-            flex: 1,
-          }}>
+        <Statistics
+          totalQuestions={totalQuestions}
+          correctAnswers={correctAnswers}
+          wrongAnswers={wrongAnswers}
+        />
+        <MediaPlayer
+          isPlaying={isPlaying}
+          setIsPlaying={setIsPlaying}
+          url={url}
+          progress={progress}
+        />
+        <QuestionText
+          title={questionTextTitle.title}
+          text={questionTextTitle.text}
+        />
+        <View style={styles.flex}>
           <Carousel
             ref={carouselRef}
             width={Dimensions.get('window').width - 40}
@@ -363,11 +235,9 @@ const Listening = () => {
             style={styles.card}
             onScrollBegin={() => {}}
             renderItem={({item}) => (
-              <View style={{flex: 1, padding: 16}}>
+              <View style={styles.choiceContainer}>
                 <ScrollView
-                  style={{
-                    flex: 1,
-                  }}
+                  style={styles.flex}
                   contentContainerStyle={styles.answerContainer}>
                   <Text style={styles.cardTitle}>{item.question}</Text>
                   {renderChoice({
@@ -417,8 +287,6 @@ const Listening = () => {
                   onPress={() => {
                     setCurrentQuestion(index);
                     setQuestion(questionList[index]);
-                    console.log('Current question:', index);
-                    console.log('Question changed to:', questionList[index]);
                   }}>
                   <Text
                     style={{
@@ -543,45 +411,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#333',
   },
-  toggleButtonText: {
-    fontSize: 16,
-    color: '#333',
-    textAlign: 'right',
-    paddingVertical: 4,
-    paddingHorizontal: 8,
-    backgroundColor: '#F5F5F5',
-    borderRadius: 8,
-    borderWidth: 1,
-    borderColor: '#ccc',
-  },
-  collapsibleContent: {
-    paddingVertical: 8,
-  },
-  statisticHeaderView: {
-    display: 'flex',
-    flexDirection: 'row',
-    width: '100%',
-    gap: 8,
-    marginTop: 8,
-  },
-  statisticHeader: {
-    flex: 1,
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#f8f8f8',
-    borderColor: '#FFCB77',
-    borderWidth: 2,
-    padding: 8,
-    borderRadius: 8,
-  },
-  // collapsible: {
-  //   flexGrow: 0,
-  // },
-  statisticText: {
-    color: '#282828',
-    fontWeight: 'bold',
-  },
   questionsContainer: {
     flex: 1,
     justifyContent: 'center',
@@ -620,6 +449,10 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     gap: 16,
   },
+  flex: {
+    flex: 1,
+  },
+  choiceContainer: {flex: 1, padding: 16},
 });
 
 export default Listening;
