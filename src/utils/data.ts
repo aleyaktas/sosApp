@@ -520,6 +520,25 @@ export const TensesFourSkillsUnits: IUnit[] = [
   },
 ];
 
+export const TensesSubTest: IUnit[] = [
+  {
+    id: 1,
+    title: 'Cloze Test',
+    description: 'Zamanlar cloze test',
+    mainCategory: 'Tenses',
+    page: 'ClozeTest',
+    image: require('../assets/images/numbers/1.png'),
+  },
+  {
+    id: 1,
+    title: 'Çoktan Seçmeli',
+    description: 'Zamanlar çoktan seçmeli test',
+    mainCategory: 'Tenses',
+    page: 'MultipleChoiceTest',
+    image: require('../assets/images/numbers/1.png'),
+  },
+];
+
 export interface IFourSkill {
   id: number;
   title: string;

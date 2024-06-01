@@ -18,22 +18,7 @@ import TrackPlayer, {Capability, useProgress} from 'react-native-track-player';
 import MediaPlayer from '../components/MediaPlayer';
 import QuestionText from '../components/QuestionText';
 import Statistics from '../components/Statistics';
-
-export interface FourSkills {
-  id: number;
-  title: string;
-  mainCategory?: string;
-  description?: string;
-  image: any;
-  page: string;
-}
-
-export interface Choice {
-  optionTitle: string;
-  option: string;
-  bgColor: string;
-  question: any;
-}
+import {Choice} from '../types/Choice';
 
 const Listening = () => {
   const carouselRef = useRef(null);
@@ -102,36 +87,29 @@ const Listening = () => {
     if (currentQuestion === answers.length) {
       return;
     }
-    if (selectedOption === question.correct_option) {
-      setCorrectAnswers(correctAnswers + 1);
-      const updatedQuestionList = questionList.map((item, index) => {
-        if (index === currentQuestion) {
-          return {
-            ...item,
-            isCorrectAnswer: true,
-            selectedOption,
-            selectedOptionTitle: optionTitle,
-          };
-        }
-        return item;
-      });
-      setQuestionList(updatedQuestionList);
+
+    const isCorrect = selectedOption === question.correct_option;
+    const updatedQuestionList = questionList.map((item, index) => {
+      if (index === currentQuestion) {
+        return {
+          ...item,
+          isCorrectAnswer: isCorrect,
+          selectedOption,
+          selectedOptionTitle: optionTitle,
+        };
+      }
+      return item;
+    });
+
+    setQuestionList(updatedQuestionList);
+
+    setTotalQuestions(prevTotalQuestions => prevTotalQuestions + 1);
+
+    if (isCorrect) {
+      setCorrectAnswers(prevCorrectAnswers => prevCorrectAnswers + 1);
     } else {
-      setWrongAnswers(wrongAnswers + 1);
-      const updatedQuestionList = questionList.map((item, index) => {
-        if (index === currentQuestion) {
-          return {
-            ...item,
-            isCorrectAnswer: false,
-            selectedOption,
-            selectedOptionTitle: optionTitle,
-          };
-        }
-        return item;
-      });
-      setQuestionList(updatedQuestionList);
+      setWrongAnswers(prevWrongAnswers => prevWrongAnswers + 1);
     }
-    setTotalQuestions(totalQuestions + 1);
   };
 
   useEffect(() => {
@@ -164,7 +142,8 @@ const Listening = () => {
     }
   }, [carouselRef.current]);
 
-  const renderChoice = ({optionTitle, option, bgColor, question}: Choice) => {
+  const renderChoice = (choice: Choice) => {
+    const {optionTitle, option, bgColor, question} = choice;
     return (
       <TouchableOpacity
         disabled={
@@ -204,6 +183,13 @@ const Listening = () => {
     );
   };
 
+  const options = [
+    {optionTitle: 'A', option: question.option1, bgColor: '#FACA77'},
+    {optionTitle: 'B', option: question.option2, bgColor: '#13E0E6'},
+    {optionTitle: 'C', option: question.option3, bgColor: '#D274DB'},
+    {optionTitle: 'D', option: question.option4, bgColor: '#98D832'},
+  ];
+
   const progress = useProgress();
 
   return (
@@ -240,30 +226,11 @@ const Listening = () => {
                   style={styles.flex}
                   contentContainerStyle={styles.answerContainer}>
                   <Text style={styles.cardTitle}>{item.question}</Text>
-                  {renderChoice({
-                    optionTitle: 'A',
-                    option: item.option1,
-                    bgColor: '#FACA77',
-                    question: item,
-                  })}
-                  {renderChoice({
-                    optionTitle: 'B',
-                    option: item.option2,
-                    bgColor: '#13E0E6',
-                    question: item,
-                  })}
-                  {renderChoice({
-                    optionTitle: 'C',
-                    option: item.option3,
-                    bgColor: '#D274DB',
-                    question: item,
-                  })}
-                  {renderChoice({
-                    optionTitle: 'D',
-                    option: item.option4,
-                    bgColor: '#98D832',
-                    question: item,
-                  })}
+                  {options.map(opt => (
+                    <View key={opt.optionTitle}>
+                      {renderChoice({...opt, question: item})}
+                    </View>
+                  ))}
                 </ScrollView>
               </View>
             )}
@@ -348,24 +315,6 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 5,
-    // flex: 1,
-  },
-  textCard: {
-    padding: 16,
-    borderColor: '#FFCB77',
-    borderWidth: 1,
-  },
-  cardContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingBottom: 8,
-    gap: 2,
-  },
-  cardHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    flex: 1,
   },
   cardTitle: {
     fontWeight: 'bold',
@@ -410,23 +359,6 @@ const styles = StyleSheet.create({
   choiceText: {
     fontSize: 16,
     color: '#333',
-  },
-  questionsContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  listContainer: {
-    paddingHorizontal: 10,
-    justifyContent: 'space-between',
-  },
-  itemContainer: {
-    padding: 8,
-    backgroundColor: '#FFCB77',
-    marginHorizontal: 5,
-    borderRadius: 5,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
   questionNumberContainer: {
     justifyContent: 'center',
