@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {
   View,
   Text,
@@ -12,14 +12,21 @@ import Collapsible from 'react-native-collapsible';
 interface QuestionTextProps {
   title: string;
   text: string;
+  type: string;
 }
 
-const QuestionText: React.FC<QuestionTextProps> = ({title, text}) => {
+const QuestionText: React.FC<QuestionTextProps> = ({title, text, type}) => {
   const [isTextVisible, setIsTextVisible] = useState(true);
 
   const toggleTextVisibility = () => {
     setIsTextVisible(!isTextVisible);
   };
+
+  useEffect(() => {
+    if (type === 'Listening') {
+      setIsTextVisible(false);
+    }
+  }, [type]);
 
   return (
     <View style={[styles.card, styles.textCard]}>

@@ -1,4 +1,4 @@
-import React, {FC, useState} from 'react';
+import React, {FC, useEffect, useState} from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -9,6 +9,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import {AuthNavigationProps} from '../navigation/authNavigation';
+import {translateArray} from '../helpers/translateArray';
 
 const Login: FC<AuthNavigationProps> = ({navigation}) => {
   const [username, setUsername] = useState('');

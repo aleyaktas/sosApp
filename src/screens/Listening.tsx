@@ -211,6 +211,7 @@ const Listening = () => {
         <QuestionText
           title={questionTextTitle.title}
           text={questionTextTitle.text}
+          type={type}
         />
         <View style={styles.flex}>
           <Carousel

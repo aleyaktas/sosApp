@@ -148,7 +148,9 @@ const Table = ({
         key={symbol}
         disabled={
           selectedSymbol !== '' ||
-          (mainCategory === 'Questions' && symbol !== 'What')
+          (mainCategory === 'Questions' &&
+            symbol !== 'What' &&
+            symbol !== 'Where')
         }
         onPress={() => handleBoxPress(symbol)}>
         <Blink duration={600}>
@@ -182,7 +184,9 @@ const Table = ({
         key={symbol}
         disabled={
           selectedSymbol !== '' ||
-          (mainCategory === 'Questions' && symbol !== 'What')
+          (mainCategory === 'Questions' &&
+            symbol !== 'What' &&
+            symbol !== 'Where')
         }
         onPress={() => handleBoxPress(symbol)}>
         <Text

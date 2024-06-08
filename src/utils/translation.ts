@@ -6473,6 +6473,2947 @@ export const TensesTranslationSentences = {
   ],
 };
 
+export const QuestionsTranslationSentencesWhere = {
+  'A1-G': [
+    {
+      meaning: 'Yarın nerede olacağım?',
+      sentence: 'Where am I going to be tomorrow?',
+    },
+    {
+      meaning: 'Gelecek hafta nerede olacaksın?',
+      sentence: 'Where are you going to be next week?',
+    },
+    {
+      meaning: 'Bir saat içinde nerede olacak?',
+      sentence: 'Where is he going to be in an hour?',
+    },
+    {
+      meaning: 'Bu gece nerede olacak?',
+      sentence: 'Where is she going to be tonight?',
+    },
+    {
+      meaning: 'Gelecek ay nerede olacağız?',
+      sentence: 'Where are we going to be next month?',
+    },
+    {
+      meaning: 'Bu hafta sonu nerede olacaklar?',
+      sentence: 'Where are they going to be this weekend?',
+    },
+    {
+      meaning: 'Erkek kardeşin yarın sabah nerede olacak?',
+      sentence: 'Where is your brother going to be tomorrow morning?',
+    },
+    {
+      meaning: 'Kız kardeşin bu öğleden sonra nerede olacak?',
+      sentence: 'Where is your sister going to be this afternoon?',
+    },
+    {
+      meaning: 'Ebeveynlerin bu gece nerede olacak?',
+      sentence: 'Where are your parents going to be tonight?',
+    },
+    {
+      meaning: 'Otobüs durağı nerede olacak?',
+      sentence: 'Where is the bus stop going to be?',
+    },
+    {
+      meaning: 'En yakın hastane nerede olacak?',
+      sentence: 'Where is the nearest hospital going to be?',
+    },
+    {
+      meaning: 'Çocuklar okuldan sonra nerede olacak?',
+      sentence: 'Where are the kids going to be after school?',
+    },
+    {
+      meaning: 'Favori restoranın nerede olacak?',
+      sentence: 'Where is your favorite restaurant going to be?',
+    },
+    {
+      meaning: 'Anahtarlarını nerede tutacaksın?',
+      sentence: 'Where are you going to be keeping your keys?',
+    },
+    {
+      meaning: 'Ofisin nerede olacak?',
+      sentence: 'Where is your office going to be?',
+    },
+    {
+      meaning: 'Kütüphane nerede olacak?',
+      sentence: 'Where is the library going to be?',
+    },
+    {
+      meaning: 'Çocuklar bu hafta sonu nerede olacak?',
+      sentence: 'Where are the children going to be this weekend?',
+    },
+    {
+      meaning: 'Ayakkabıların nerede olacak?',
+      sentence: 'Where are your shoes going to be?',
+    },
+    {
+      meaning: 'Araban nerede olacak?',
+      sentence: 'Where is your car going to be?',
+    },
+    {
+      meaning: 'Toplantı odası nerede olacak?',
+      sentence: 'Where is the meeting room going to be?',
+    },
+    {
+      meaning: 'Memleketin neresi olacak?',
+      sentence: 'Where is your hometown going to be?',
+    },
+    {
+      meaning: 'En yakın bakkal nerede olacak?',
+      sentence: 'Where is the nearest grocery store going to be?',
+    },
+    {
+      meaning: 'Bu gece nerede olacaksın?',
+      sentence: 'Where are you going to be tonight?',
+    },
+    {
+      meaning: 'Çıkış nerede olacak?',
+      sentence: 'Where is the exit going to be?',
+    },
+    {
+      meaning: 'Arkadaşın yarın nerede olacak?',
+      sentence: 'Where is your friend going to be tomorrow?',
+    },
+    {
+      meaning: 'Köpek nerede olacak?',
+      sentence: 'Where is the dog going to be?',
+    },
+    {
+      meaning: 'Biletler nerede olacak?',
+      sentence: 'Where are the tickets going to be?',
+    },
+    {
+      meaning: 'Nerede oturuyor olacaksın?',
+      sentence: 'Where are you going to be sitting?',
+    },
+    {
+      meaning: 'Banyo nerede olacak?',
+      sentence: 'Where is the bathroom going to be?',
+    },
+    {
+      meaning: 'Tren istasyonu nerede olacak?',
+      sentence: 'Where is the train station going to be?',
+    },
+    {
+      meaning: 'Bundan sonra nerede olacaksın?',
+      sentence: 'Where are you going to be from now on?',
+    },
+    {
+      meaning: 'En yakın banka nerede olacak?',
+      sentence: 'Where is the nearest bank going to be?',
+    },
+    {
+      meaning: 'Belgeler nerede olacak?',
+      sentence: 'Where are the documents going to be?',
+    },
+    {
+      meaning: 'Konferans nerede yapılacak?',
+      sentence: 'Where is the conference going to be held?',
+    },
+    {
+      meaning: 'Randevun nerede olacak?',
+      sentence: 'Where is your appointment going to be?',
+    },
+    {
+      meaning: 'Misafirler nerede kalacak?',
+      sentence: 'Where are the guests going to be staying?',
+    },
+    {
+      meaning: 'Okul nerede olacak?',
+      sentence: 'Where is the school going to be located?',
+    },
+    {
+      meaning: 'Yeni alışveriş merkezi nerede olacak?',
+      sentence: 'Where is the new mall going to be?',
+    },
+    {
+      meaning: 'Cüzdanın nerede olacak?',
+      sentence: 'Where is your wallet going to be?',
+    },
+    {
+      meaning: 'Elmalar nerede olacak?',
+      sentence: 'Where are the apples going to be?',
+    },
+    {
+      meaning: 'Çocuklar nerede futbol oynayacak?',
+      sentence: 'Where are the kids going to be playing soccer?',
+    },
+    {
+      meaning: 'En yakın eczane nerede olacak?',
+      sentence: 'Where is the nearest pharmacy going to be?',
+    },
+    {
+      meaning: 'Otobüs nereye gidiyor olacak?',
+      sentence: 'Where is the bus going to be going?',
+    },
+    {
+      meaning: 'Gözlüklerin nerede olacak?',
+      sentence: 'Where are your glasses going to be?',
+    },
+    {
+      meaning: 'Kitaplar nerede olacak?',
+      sentence: 'Where are the books going to be?',
+    },
+    {
+      meaning: 'En yakın benzin istasyonu nerede olacak?',
+      sentence: 'Where is the nearest gas station going to be?',
+    },
+    {meaning: 'Kedi nerede olacak?', sentence: 'Where is the cat going to be?'},
+    {
+      meaning: 'Havlular nerede olacak?',
+      sentence: 'Where are the towels going to be?',
+    },
+    {
+      meaning: 'Müzik nereden geliyor olacak?',
+      sentence: 'Where is the music going to be from?',
+    },
+    {meaning: 'Şef nerede olacak?', sentence: 'Where is the chef going to be?'},
+  ],
+  'A1-G-possible-answer': [
+    {meaning: undefined, sentence: 'You are going to be at school.'},
+    {meaning: undefined, sentence: 'I am going to be on vacation.'},
+    {meaning: undefined, sentence: 'He is going to be at home.'},
+    {meaning: undefined, sentence: 'She is going to be at a concert.'},
+    {meaning: undefined, sentence: 'We are going to be in Paris.'},
+    {meaning: undefined, sentence: 'They are going to be at the beach.'},
+    {meaning: undefined, sentence: 'He is going to be at practice.'},
+    {meaning: undefined, sentence: 'She is going to be at the mall.'},
+    {meaning: undefined, sentence: 'They are going to be at a restaurant.'},
+    {
+      meaning: undefined,
+      sentence: 'The bus stop is going to be on Main Street.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'The nearest hospital is going to be downtown.',
+    },
+    {meaning: undefined, sentence: 'The kids are going to be at the park.'},
+    {
+      meaning: undefined,
+      sentence: 'My favorite restaurant is going to be on Elm Street.',
+    },
+    {meaning: undefined, sentence: 'I am going to be keeping them in my bag.'},
+    {
+      meaning: undefined,
+      sentence: 'My office is going to be in the city center.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'The library is going to be next to the post office.',
+    },
+    {meaning: undefined, sentence: 'They are going to be at the zoo.'},
+    {meaning: undefined, sentence: 'My shoes are going to be under the bed.'},
+    {meaning: undefined, sentence: 'My car is going to be in the garage.'},
+    {
+      meaning: undefined,
+      sentence: 'The meeting room is going to be on the second floor.',
+    },
+    {meaning: undefined, sentence: 'My hometown is going to be Karaman.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest grocery store is going to be around the corner.',
+    },
+    {meaning: undefined, sentence: 'I am going to be at a concert.'},
+    {meaning: undefined, sentence: 'The exit is going to be to your right.'},
+    {meaning: undefined, sentence: 'My friend is going to be at the library.'},
+    {meaning: undefined, sentence: 'The dog is going to be in the backyard.'},
+    {meaning: undefined, sentence: 'The tickets are going to be in my pocket.'},
+    {
+      meaning: undefined,
+      sentence: 'I am going to be sitting in the front row.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'The bathroom is going to be down the hall.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'The train station is going to be near the museum.',
+    },
+    {meaning: undefined, sentence: 'I am going to be in Elazığ.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest bank is going to be across the street.',
+    },
+    {meaning: undefined, sentence: 'The documents are going to be on my desk.'},
+    {
+      meaning: undefined,
+      sentence: 'The conference is going to be at the convention center.',
+    },
+    {
+      meaning: undefined,
+      sentence: "My appointment is going to be at the dentist's office.",
+    },
+    {meaning: undefined, sentence: 'The guests are going to be at the hotel.'},
+    {meaning: undefined, sentence: 'The school is going to be in the suburb.'},
+    {
+      meaning: undefined,
+      sentence: 'The new mall is going to be near the airport.',
+    },
+    {meaning: undefined, sentence: 'My wallet is going to be in my backpack.'},
+    {
+      meaning: undefined,
+      sentence: 'The apples are going to be in the kitchen.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'They are going to be playing soccer in the field.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'The nearest pharmacy is going to be next to the supermarket.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'The bus is going to be going to the city center.',
+    },
+    {meaning: undefined, sentence: 'My glasses are going to be on the table.'},
+    {meaning: undefined, sentence: 'The books are going to be on the shelf.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest gas station is going to be down the street.',
+    },
+    {meaning: undefined, sentence: 'The cat is going to be under the couch.'},
+    {
+      meaning: undefined,
+      sentence: 'The towels are going to be in the bathroom.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'The music is going to be from the next room.',
+    },
+    {meaning: undefined, sentence: 'The chef is going to be in the kitchen.'},
+  ],
+  'A1-W': [
+    {meaning: 'Yarın nerede olacağım?', sentence: 'Where will I be tomorrow?'},
+    {
+      meaning: 'Gelecek hafta nerede olacaksın?',
+      sentence: 'Where will you be next week?',
+    },
+    {
+      meaning: 'Bir saat içinde nerede olacak?',
+      sentence: 'Where will he be in an hour?',
+    },
+    {meaning: 'Bu gece nerede olacak?', sentence: 'Where will she be tonight?'},
+    {
+      meaning: 'Gelecek ay nerede olacağız?',
+      sentence: 'Where will we be next month?',
+    },
+    {
+      meaning: 'Bu hafta sonu nerede olacaklar?',
+      sentence: 'Where will they be this weekend?',
+    },
+    {
+      meaning: 'Erkek kardeşin yarın sabah nerede olacak?',
+      sentence: 'Where will your brother be tomorrow morning?',
+    },
+    {
+      meaning: 'Kız kardeşin bu öğleden sonra nerede olacak?',
+      sentence: 'Where will your sister be this afternoon?',
+    },
+    {
+      meaning: 'Ebeveynlerin bu gece nerede olacak?',
+      sentence: 'Where will your parents be tonight?',
+    },
+    {
+      meaning: 'Otobüs durağı nerede olacak?',
+      sentence: 'Where will the bus stop be?',
+    },
+    {
+      meaning: 'En yakın hastane nerede olacak?',
+      sentence: 'Where will the nearest hospital be?',
+    },
+    {
+      meaning: 'Çocuklar okuldan sonra nerede olacak?',
+      sentence: 'Where will the kids be after school?',
+    },
+    {
+      meaning: 'Favori restoranın nerede olacak?',
+      sentence: 'Where will your favorite restaurant be?',
+    },
+    {
+      meaning: 'Anahtarlarını nerede tutacaksın?',
+      sentence: 'Where will you be keeping your keys?',
+    },
+    {meaning: 'Ofisin nerede olacak?', sentence: 'Where will your office be?'},
+    {
+      meaning: 'Kütüphane nerede olacak?',
+      sentence: 'Where will the library be?',
+    },
+    {
+      meaning: 'Çocuklar bu hafta sonu nerede olacak?',
+      sentence: 'Where will the children be this weekend?',
+    },
+    {
+      meaning: 'Ayakkabıların nerede olacak?',
+      sentence: 'Where will your shoes be?',
+    },
+    {meaning: 'Araban nerede olacak?', sentence: 'Where will your car be?'},
+    {
+      meaning: 'Toplantı odası nerede olacak?',
+      sentence: 'Where will the meeting room be?',
+    },
+    {
+      meaning: 'Memleketin neresi olacak?',
+      sentence: 'Where will your hometown be?',
+    },
+    {
+      meaning: 'En yakın bakkal nerede olacak?',
+      sentence: 'Where will the nearest grocery store be?',
+    },
+    {
+      meaning: 'Bu gece nerede olacaksın?',
+      sentence: 'Where will you be tonight?',
+    },
+    {meaning: 'Çıkış nerede olacak?', sentence: 'Where will the exit be?'},
+    {
+      meaning: 'Arkadaşın yarın nerede olacak?',
+      sentence: 'Where will your friend be tomorrow?',
+    },
+    {meaning: 'Köpek nerede olacak?', sentence: 'Where will the dog be?'},
+    {
+      meaning: 'Biletler nerede olacak?',
+      sentence: 'Where will the tickets be?',
+    },
+    {
+      meaning: 'Nerede oturuyor olacaksın?',
+      sentence: 'Where will you be sitting?',
+    },
+    {meaning: 'Banyo nerede olacak?', sentence: 'Where will the bathroom be?'},
+    {
+      meaning: 'Tren istasyonu nerede olacak?',
+      sentence: 'Where will the train station be?',
+    },
+    {
+      meaning: 'Bundan sonra nerede olacaksın?',
+      sentence: 'Where will you be from now on?',
+    },
+    {
+      meaning: 'En yakın banka nerede olacak?',
+      sentence: 'Where will the nearest bank be?',
+    },
+    {
+      meaning: 'Belgeler nerede olacak?',
+      sentence: 'Where will the documents be?',
+    },
+    {
+      meaning: 'Konferans nerede yapılacak?',
+      sentence: 'Where will the conference be held?',
+    },
+    {
+      meaning: 'Randevun nerede olacak?',
+      sentence: 'Where will your appointment be?',
+    },
+    {
+      meaning: 'Misafirler nerede kalacak?',
+      sentence: 'Where will the guests be staying?',
+    },
+    {
+      meaning: 'Okul nerede olacak?',
+      sentence: 'Where will the school be located?',
+    },
+    {
+      meaning: 'Yeni alışveriş merkezi nerede olacak?',
+      sentence: 'Where will the new mall be?',
+    },
+    {
+      meaning: 'Cüzdanın nerede olacak?',
+      sentence: 'Where will your wallet be?',
+    },
+    {meaning: 'Elmalar nerede olacak?', sentence: 'Where will the apples be?'},
+    {
+      meaning: 'Çocuklar nerede futbol oynayacak?',
+      sentence: 'Where will the kids be playing soccer?',
+    },
+    {
+      meaning: 'En yakın eczane nerede olacak?',
+      sentence: 'Where will the nearest pharmacy be?',
+    },
+    {
+      meaning: 'Otobüs nereye gidiyor olacak?',
+      sentence: 'Where will the bus be going?',
+    },
+    {
+      meaning: 'Gözlüklerin nerede olacak?',
+      sentence: 'Where will your glasses be?',
+    },
+    {meaning: 'Kitaplar nerede olacak?', sentence: 'Where will the books be?'},
+    {
+      meaning: 'En yakın benzin istasyonu nerede olacak?',
+      sentence: 'Where will the nearest gas station be?',
+    },
+    {meaning: 'Kedi nerede olacak?', sentence: 'Where will the cat be?'},
+    {meaning: 'Havlular nerede olacak?', sentence: 'Where will the towels be?'},
+    {
+      meaning: 'Müzik nereden geliyor olacak?',
+      sentence: 'Where will the music be from?',
+    },
+    {meaning: 'Şef nerede olacak?', sentence: 'Where will the chef be?'},
+  ],
+  'A1-W-possible-answer': [
+    {meaning: undefined, sentence: 'You will be at school.'},
+    {meaning: undefined, sentence: 'I will be on vacation.'},
+    {meaning: undefined, sentence: 'He will be at home.'},
+    {meaning: undefined, sentence: 'She will be at a concert.'},
+    {meaning: undefined, sentence: 'We will be in Paris.'},
+    {meaning: undefined, sentence: 'They will be at the beach.'},
+    {meaning: undefined, sentence: 'He will be at practice.'},
+    {meaning: undefined, sentence: 'She will be at the mall.'},
+    {meaning: undefined, sentence: 'They will be at a restaurant.'},
+    {meaning: undefined, sentence: 'The bus stop will be on Main Street.'},
+    {meaning: undefined, sentence: 'The nearest hospital will be downtown.'},
+    {meaning: undefined, sentence: 'The kids will be at the park.'},
+    {
+      meaning: undefined,
+      sentence: 'My favorite restaurant will be on Elm Street.',
+    },
+    {meaning: undefined, sentence: 'I will be keeping them in my bag.'},
+    {meaning: undefined, sentence: 'My office will be in the city center.'},
+    {
+      meaning: undefined,
+      sentence: 'The library will be next to the post office.',
+    },
+    {meaning: undefined, sentence: 'They will be at the zoo.'},
+    {meaning: undefined, sentence: 'My shoes will be under the bed.'},
+    {meaning: undefined, sentence: 'My car will be in the garage.'},
+    {
+      meaning: undefined,
+      sentence: 'The meeting room will be on the second floor.',
+    },
+    {meaning: undefined, sentence: 'My hometown will be Karaman.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest grocery store will be around the corner.',
+    },
+    {meaning: undefined, sentence: 'I will be at a concert.'},
+    {meaning: undefined, sentence: 'The exit will be to your right.'},
+    {meaning: undefined, sentence: 'My friend will be at the library.'},
+    {meaning: undefined, sentence: 'The dog will be in the backyard.'},
+    {meaning: undefined, sentence: 'The tickets will be in my pocket.'},
+    {meaning: undefined, sentence: 'I will be sitting in the front row.'},
+    {meaning: undefined, sentence: 'The bathroom will be down the hall.'},
+    {
+      meaning: undefined,
+      sentence: 'The train station will be near the museum.',
+    },
+    {meaning: undefined, sentence: 'I will be in Elazığ.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest bank will be across the street.',
+    },
+    {meaning: undefined, sentence: 'The documents will be on my desk.'},
+    {
+      meaning: undefined,
+      sentence: 'The conference will be at the convention center.',
+    },
+    {
+      meaning: undefined,
+      sentence: "My appointment will be at the dentist's office.",
+    },
+    {meaning: undefined, sentence: 'The guests will be at the hotel.'},
+    {meaning: undefined, sentence: 'The school will be in the suburb.'},
+    {meaning: undefined, sentence: 'The new mall will be near the airport.'},
+    {meaning: undefined, sentence: 'My wallet will be in my backpack.'},
+    {meaning: undefined, sentence: 'The apples will be in the kitchen.'},
+    {meaning: undefined, sentence: 'They will be playing soccer in the field.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest pharmacy will be next to the supermarket.',
+    },
+    {meaning: undefined, sentence: 'The bus will be going to the city center.'},
+    {meaning: undefined, sentence: 'My glasses will be on the table.'},
+    {meaning: undefined, sentence: 'The books will be on the shelf.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest gas station will be down the street.',
+    },
+    {meaning: undefined, sentence: 'The cat will be under the couch.'},
+    {meaning: undefined, sentence: 'The towels will be in the bathroom.'},
+    {meaning: undefined, sentence: 'The music will be from the next room.'},
+    {meaning: undefined, sentence: 'The chef will be in the kitchen.'},
+  ],
+  'A2-G': [
+    {meaning: 'Nerede yaşayacaksın?', sentence: 'Where are you going to live?'},
+    {meaning: 'Nerede çalışacaksın?', sentence: 'Where are you going to work?'},
+    {
+      meaning: 'Nerede öğrenim göreceksin?',
+      sentence: 'Where are you going to study?',
+    },
+    {
+      meaning: 'Nereden alışveriş yapacaksın?',
+      sentence: 'Where are you going to buy groceries?',
+    },
+    {
+      meaning: 'Nereye yürüyüşe gideceksin?',
+      sentence: 'Where are you going to go for a walk?',
+    },
+    {
+      meaning: 'Nerede öğle yemeği yiyeceksin?',
+      sentence: 'Where are you going to eat lunch?',
+    },
+    {
+      meaning: 'Nerede spor yapacaksın?',
+      sentence: 'Where are you going to play sports?',
+    },
+    {
+      meaning: 'Arkadaşlarınla nerede buluşacaksın?',
+      sentence: 'Where are you going to meet your friends?',
+    },
+    {
+      meaning: 'Nerede film izleyeceksin?',
+      sentence: 'Where are you going to watch movies?',
+    },
+    {
+      meaning: 'Otobüse nerede bineceksin?',
+      sentence: 'Where are you going to catch the bus?',
+    },
+    {
+      meaning: 'Nerede kitap okuyacaksın?',
+      sentence: 'Where are you going to read books?',
+    },
+    {meaning: 'Nerede yüzeceksin?', sentence: 'Where are you going to swim?'},
+    {
+      meaning: 'Nerede alışveriş yapacaksın?',
+      sentence: 'Where are you going to go shopping?',
+    },
+    {
+      meaning: 'Hafta sonlarını nerede geçireceksin?',
+      sentence: 'Where are you going to spend your weekends?',
+    },
+    {
+      meaning: 'Köpeğini yürüyüşe nerede çıkaracaksın?',
+      sentence: 'Where are you going to take your dog for a walk?',
+    },
+    {
+      meaning: 'Annen nerede çalışacak?',
+      sentence: 'Where is your mother going to work?',
+    },
+    {
+      meaning: 'Baban nerede koşuya gidecek?',
+      sentence: 'Where is your father going to go for a run?',
+    },
+    {
+      meaning: 'Kız kardeşin nerede okuyacak?',
+      sentence: 'Where is your sister going to study?',
+    },
+    {
+      meaning: 'Erkek kardeşin nerede futbol oynayacak?',
+      sentence: 'Where is your brother going to play football?',
+    },
+    {
+      meaning: 'Arkadaşın nerede yaşayacak?',
+      sentence: 'Where is your friend going to live?',
+    },
+    {
+      meaning: 'Öğretmen nerede ders verecek?',
+      sentence: 'Where is the teacher going to teach?',
+    },
+    {
+      meaning: 'Arabasını nerede park edecek?',
+      sentence: 'Where is he going to park his car?',
+    },
+    {
+      meaning: 'Doğum günlerini nerede kutlayacaklar?',
+      sentence: 'Where are they going to celebrate birthdays?',
+    },
+    {
+      meaning: 'Kıyafetlerini nereden alacak?',
+      sentence: 'Where is she going to buy her clothes?',
+    },
+    {
+      meaning: 'Tatile nereye gideceksin?',
+      sentence: 'Where are you going to go on vacation?',
+    },
+    {
+      meaning: 'Yogayı nerede yapacaksın?',
+      sentence: 'Where are you going to practice yoga?',
+    },
+    {
+      meaning: 'Yeni kitapları nerede bulacaklar?',
+      sentence: 'Where are they going to find new books?',
+    },
+    {meaning: 'Nerede resim yapacak?', sentence: 'Where is he going to paint?'},
+    {
+      meaning: 'Bisikletini nerede tamir edecek?',
+      sentence: 'Where is she going to fix her bike?',
+    },
+    {
+      meaning: 'Eski kıyafetlerini nereye bağışlayacaksın?',
+      sentence: 'Where are you going to donate old clothes?',
+    },
+    {
+      meaning: 'Toplantılara nerede katılacağız?',
+      sentence: 'Where are we going to join meetings?',
+    },
+    {
+      meaning: 'Nerede gönüllü olacaklar?',
+      sentence: 'Where are they going to volunteer?',
+    },
+    {
+      meaning: 'Çiçekleri nerede ekeceğiz?',
+      sentence: 'Where are we going to plant flowers?',
+    },
+    {
+      meaning: 'Akşam yemeğini nerede yapacak?',
+      sentence: 'Where is she going to cook dinner?',
+    },
+    {
+      meaning: 'Müziği nerede dinleyecek?',
+      sentence: 'Where is he going to listen to music?',
+    },
+    {
+      meaning: 'Satranç nerede oynayacaksın?',
+      sentence: 'Where are you going to play chess?',
+    },
+    {
+      meaning: 'Mektupları nerede yazacak?',
+      sentence: 'Where is she going to write letters?',
+    },
+    {
+      meaning: 'Ayakkabılarını nerede temizleyecekler?',
+      sentence: 'Where are they going to clean their shoes?',
+    },
+    {
+      meaning: 'Nerede performans sergileyeceksin?',
+      sentence: 'Where are you going to perform?',
+    },
+    {
+      meaning: 'Kıyafetleri nerede dikecek?',
+      sentence: 'Where is he going to sew clothes?',
+    },
+    {
+      meaning: 'Ödevini nerede yapacaksın?',
+      sentence: 'Where are you going to do your homework?',
+    },
+    {
+      meaning: 'Belgeleri nerede yazdıracaklar?',
+      sentence: 'Where are they going to print documents?',
+    },
+    {
+      meaning: 'Piyano nerede çalacak?',
+      sentence: 'Where is she going to play the piano?',
+    },
+    {
+      meaning: 'Telefon görüşmelerini nerede yapacaksın?',
+      sentence: 'Where are you going to make phone calls?',
+    },
+    {
+      meaning: 'Telefonunu nerede şarj edecek?',
+      sentence: 'Where is he going to charge his phone?',
+    },
+    {
+      meaning: 'Sebzeleri nerede yetiştireceğiz?',
+      sentence: 'Where are we going to grow vegetables?',
+    },
+    {
+      meaning: 'Arabanı nerede yıkayacaksın?',
+      sentence: 'Where are you going to wash your car?',
+    },
+    {
+      meaning: 'Fotoğrafları nerede basacak?',
+      sentence: 'Where is she going to print photos?',
+    },
+    {
+      meaning: 'Yeni becerileri nerede öğrenecekler?',
+      sentence: 'Where are they going to learn new skills?',
+    },
+    {
+      meaning: 'Yemek tariflerini nerede bulacağız?',
+      sentence: 'Where are we going to find recipes?',
+    },
+  ],
+  'A2-G-possible-answer': [
+    {meaning: undefined, sentence: 'I am going to live in Istanbul.'},
+    {meaning: undefined, sentence: 'I am going to work in a hospital.'},
+    {meaning: undefined, sentence: 'I am going to study at a university.'},
+    {
+      meaning: undefined,
+      sentence: 'I am going to buy groceries at the market.',
+    },
+    {meaning: undefined, sentence: 'I am going to go for a walk in the park.'},
+    {meaning: undefined, sentence: 'I am going to eat lunch at a restaurant.'},
+    {meaning: undefined, sentence: 'I am going to play sports at the gym.'},
+    {meaning: undefined, sentence: 'I am going to meet my friends at a café.'},
+    {meaning: undefined, sentence: 'I am going to watch movies at the cinema.'},
+    {
+      meaning: undefined,
+      sentence: 'I am going to catch the bus at the bus stop.',
+    },
+    {meaning: undefined, sentence: 'I am going to read books at the library.'},
+    {meaning: undefined, sentence: 'I am going to swim at the pool.'},
+    {meaning: undefined, sentence: 'I am going to go shopping at the mall.'},
+    {meaning: undefined, sentence: 'I am going to spend my weekends at home.'},
+    {
+      meaning: undefined,
+      sentence: 'I am going to take my dog for a walk in the park.',
+    },
+    {meaning: undefined, sentence: 'She is going to work at a school.'},
+    {
+      meaning: undefined,
+      sentence: 'He is going to go for a run in the neighborhood.',
+    },
+    {meaning: undefined, sentence: 'She is going to study at a high school.'},
+    {
+      meaning: undefined,
+      sentence: 'He is going to play football at the stadium.',
+    },
+    {meaning: undefined, sentence: 'She is going to live in a different city.'},
+    {
+      meaning: undefined,
+      sentence: 'The teacher is going to teach at the university.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'He is going to park his car in the garage.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'They are going to celebrate birthdays at home.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'She is going to buy her clothes at the boutique.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'I am going to go on vacation to the beach.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'I am going to practice yoga at the studio.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'They are going to find new books at the bookstore.',
+    },
+    {meaning: undefined, sentence: 'He is going to paint in his art studio.'},
+    {
+      meaning: undefined,
+      sentence: 'She is going to fix her bike in the garage.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'I am going to donate old clothes to the charity.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'We are going to join meetings in the conference room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'They are going to volunteer at the community center.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'We are going to plant flowers in the garden.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'She is going to cook dinner in the kitchen.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'He is going to listen to music in his room.',
+    },
+    {meaning: undefined, sentence: 'I am going to play chess in the club.'},
+    {
+      meaning: undefined,
+      sentence: 'She is going to write letters at her desk.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'They are going to clean their shoes in the backyard.',
+    },
+    {meaning: undefined, sentence: 'I am going to perform on the stage.'},
+    {
+      meaning: undefined,
+      sentence: 'He is going to sew clothes in the sewing room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'I am going to do my homework in my study room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'They are going to print documents at the office.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'She is going to play the piano in the music room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'I am going to make phone calls in my office.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'He is going to charge his phone in the living room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'We are going to grow vegetables in the garden.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'I am going to wash my car in the driveway.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'She is going to print photos at the photo shop.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'They are going to learn new skills online.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'We are going to find recipes on the internet.',
+    },
+  ],
+  'A2-W': [
+    {meaning: 'Nerede yaşayacaksın?', sentence: 'Where will you live?'},
+    {meaning: 'Nerede çalışacaksın?', sentence: 'Where will you work?'},
+    {meaning: 'Nerede öğrenim göreceksin?', sentence: 'Where will you study?'},
+    {
+      meaning: 'Nereden alışveriş yapacaksın?',
+      sentence: 'Where will you buy groceries?',
+    },
+    {
+      meaning: 'Nereye yürüyüşe gideceksin?',
+      sentence: 'Where will you go for a walk?',
+    },
+    {
+      meaning: 'Nerede öğle yemeği yiyeceksin?',
+      sentence: 'Where will you eat lunch?',
+    },
+    {
+      meaning: 'Nerede spor yapacaksın?',
+      sentence: 'Where will you play sports?',
+    },
+    {
+      meaning: 'Arkadaşlarınla nerede buluşacaksın?',
+      sentence: 'Where will you meet your friends?',
+    },
+    {
+      meaning: 'Nerede film izleyeceksin?',
+      sentence: 'Where will you watch movies?',
+    },
+    {
+      meaning: 'Otobüse nerede bineceksin?',
+      sentence: 'Where will you catch the bus?',
+    },
+    {
+      meaning: 'Nerede kitap okuyacaksın?',
+      sentence: 'Where will you read books?',
+    },
+    {meaning: 'Nerede yüzeceksin?', sentence: 'Where will you swim?'},
+    {
+      meaning: 'Nerede alışveriş yapacaksın?',
+      sentence: 'Where will you go shopping?',
+    },
+    {
+      meaning: 'Hafta sonlarını nerede geçireceksin?',
+      sentence: 'Where will you spend your weekends?',
+    },
+    {
+      meaning: 'Köpeğini yürüyüşe nerede çıkaracaksın?',
+      sentence: 'Where will you take your dog for a walk?',
+    },
+    {
+      meaning: 'Annen nerede çalışacak?',
+      sentence: 'Where will your mother work?',
+    },
+    {
+      meaning: 'Baban nerede koşuya gidecek?',
+      sentence: 'Where will your father go for a run?',
+    },
+    {
+      meaning: 'Kız kardeşin nerede okuyacak?',
+      sentence: 'Where will your sister study?',
+    },
+    {
+      meaning: 'Erkek kardeşin nerede futbol oynayacak?',
+      sentence: 'Where will your brother play football?',
+    },
+    {
+      meaning: 'Arkadaşın nerede yaşayacak?',
+      sentence: 'Where will your friend live?',
+    },
+    {
+      meaning: 'Öğretmen nerede ders verecek?',
+      sentence: 'Where will the teacher teach?',
+    },
+    {
+      meaning: 'Arabasını nerede park edecek?',
+      sentence: 'Where will he park his car?',
+    },
+    {
+      meaning: 'Doğum günlerini nerede kutlayacaklar?',
+      sentence: 'Where will they celebrate birthdays?',
+    },
+    {
+      meaning: 'Kıyafetlerini nereden alacak?',
+      sentence: 'Where will she buy her clothes?',
+    },
+    {
+      meaning: 'Tatile nereye gideceksin?',
+      sentence: 'Where will you go on vacation?',
+    },
+    {
+      meaning: 'Yogayı nerede yapacaksın?',
+      sentence: 'Where will you practice yoga?',
+    },
+    {
+      meaning: 'Yeni kitapları nerede bulacaklar?',
+      sentence: 'Where will they find new books?',
+    },
+    {meaning: 'Nerede resim yapacak?', sentence: 'Where will he paint?'},
+    {
+      meaning: 'Bisikletini nerede tamir edecek?',
+      sentence: 'Where will she fix her bike?',
+    },
+    {
+      meaning: 'Eski kıyafetlerini nereye bağışlayacaksın?',
+      sentence: 'Where will you donate old clothes?',
+    },
+    {
+      meaning: 'Toplantılara nerede katılacağız?',
+      sentence: 'Where will we join meetings?',
+    },
+    {
+      meaning: 'Nerede gönüllü olacaklar?',
+      sentence: 'Where will they volunteer?',
+    },
+    {
+      meaning: 'Çiçekleri nerede ekeceğiz?',
+      sentence: 'Where will we plant flowers?',
+    },
+    {
+      meaning: 'Akşam yemeğini nerede yapacak?',
+      sentence: 'Where will she cook dinner?',
+    },
+    {
+      meaning: 'Müziği nerede dinleyecek?',
+      sentence: 'Where will he listen to music?',
+    },
+    {
+      meaning: 'Satranç nerede oynayacaksın?',
+      sentence: 'Where will you play chess?',
+    },
+    {
+      meaning: 'Mektupları nerede yazacak?',
+      sentence: 'Where will she write letters?',
+    },
+    {
+      meaning: 'Ayakkabılarını nerede temizleyecekler?',
+      sentence: 'Where will they clean their shoes?',
+    },
+    {
+      meaning: 'Nerede performans sergileyeceksin?',
+      sentence: 'Where will you perform?',
+    },
+    {
+      meaning: 'Kıyafetleri nerede dikecek?',
+      sentence: 'Where will he sew clothes?',
+    },
+    {
+      meaning: 'Ödevini nerede yapacaksın?',
+      sentence: 'Where will you do your homework?',
+    },
+    {
+      meaning: 'Belgeleri nerede yazdıracaklar?',
+      sentence: 'Where will they print documents?',
+    },
+    {
+      meaning: 'Piyano nerede çalacak?',
+      sentence: 'Where will she play the piano?',
+    },
+    {
+      meaning: 'Telefon görüşmelerini nerede yapacaksın?',
+      sentence: 'Where will you make phone calls?',
+    },
+    {
+      meaning: 'Telefonunu nerede şarj edecek?',
+      sentence: 'Where will he charge his phone?',
+    },
+    {
+      meaning: 'Sebzeleri nerede yetiştireceğiz?',
+      sentence: 'Where will we grow vegetables?',
+    },
+    {
+      meaning: 'Arabanı nerede yıkayacaksın?',
+      sentence: 'Where will you wash your car?',
+    },
+    {
+      meaning: 'Fotoğrafları nerede basacak?',
+      sentence: 'Where will she print photos?',
+    },
+    {
+      meaning: 'Yeni becerileri nerede öğrenecekler?',
+      sentence: 'Where will they learn new skills?',
+    },
+    {
+      meaning: 'Yemek tariflerini nerede bulacağız?',
+      sentence: 'Where will we find recipes?',
+    },
+  ],
+  'A2-W-possible-answer': [
+    {meaning: undefined, sentence: 'I will live in Istanbul.'},
+    {meaning: undefined, sentence: 'I will work in a hospital.'},
+    {meaning: undefined, sentence: 'I will study at a university.'},
+    {meaning: undefined, sentence: 'I will buy groceries at the market.'},
+    {meaning: undefined, sentence: 'I will go for a walk in the park.'},
+    {meaning: undefined, sentence: 'I will eat lunch at a restaurant.'},
+    {meaning: undefined, sentence: 'I will play sports at the gym.'},
+    {meaning: undefined, sentence: 'I will meet my friends at a café.'},
+    {meaning: undefined, sentence: 'I will watch movies at the cinema.'},
+    {meaning: undefined, sentence: 'I will catch the bus at the bus stop.'},
+    {meaning: undefined, sentence: 'I will read books at the library.'},
+    {meaning: undefined, sentence: 'I will swim at the pool.'},
+    {meaning: undefined, sentence: 'I will go shopping at the mall.'},
+    {meaning: undefined, sentence: 'I will spend my weekends at home.'},
+    {
+      meaning: undefined,
+      sentence: 'I will take my dog for a walk in the park.',
+    },
+    {meaning: undefined, sentence: 'She will work at a school.'},
+    {meaning: undefined, sentence: 'He will go for a run in the neighborhood.'},
+    {meaning: undefined, sentence: 'She will study at a high school.'},
+    {meaning: undefined, sentence: 'He will play football at the stadium.'},
+    {meaning: undefined, sentence: 'She will live in a different city.'},
+    {meaning: undefined, sentence: 'The teacher will teach at the university.'},
+    {meaning: undefined, sentence: 'He will park his car in the garage.'},
+    {meaning: undefined, sentence: 'They will celebrate birthdays at home.'},
+    {meaning: undefined, sentence: 'She will buy her clothes at the boutique.'},
+    {meaning: undefined, sentence: 'I will go on vacation to the beach.'},
+    {meaning: undefined, sentence: 'I will practice yoga at the studio.'},
+    {
+      meaning: undefined,
+      sentence: 'They will find new books at the bookstore.',
+    },
+    {meaning: undefined, sentence: 'He will paint in his art studio.'},
+    {meaning: undefined, sentence: 'She will fix her bike in the garage.'},
+    {meaning: undefined, sentence: 'I will donate old clothes to the charity.'},
+    {
+      meaning: undefined,
+      sentence: 'We will join meetings in the conference room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'They will volunteer at the community center.',
+    },
+    {meaning: undefined, sentence: 'We will plant flowers in the garden.'},
+    {meaning: undefined, sentence: 'She will cook dinner in the kitchen.'},
+    {meaning: undefined, sentence: 'He will listen to music in his room.'},
+    {meaning: undefined, sentence: 'I will play chess in the club.'},
+    {meaning: undefined, sentence: 'She will write letters at her desk.'},
+    {
+      meaning: undefined,
+      sentence: 'They will clean their shoes in the backyard.',
+    },
+    {meaning: undefined, sentence: 'I will perform on the stage.'},
+    {meaning: undefined, sentence: 'He will sew clothes in the sewing room.'},
+    {meaning: undefined, sentence: 'I will do my homework in my study room.'},
+    {meaning: undefined, sentence: 'They will print documents at the office.'},
+    {
+      meaning: undefined,
+      sentence: 'She will play the piano in the music room.',
+    },
+    {meaning: undefined, sentence: 'I will make phone calls in my office.'},
+    {
+      meaning: undefined,
+      sentence: 'He will charge his phone in the living room.',
+    },
+    {meaning: undefined, sentence: 'We will grow vegetables in the garden.'},
+    {meaning: undefined, sentence: 'I will wash my car in the driveway.'},
+    {meaning: undefined, sentence: 'She will print photos at the photo shop.'},
+    {meaning: undefined, sentence: 'They will learn new skills online.'},
+    {meaning: undefined, sentence: 'We will find recipes on the internet.'},
+  ],
+  A3: [
+    {
+      meaning: 'Nerede yaşıyor olacaksın?',
+      sentence: 'Where will you be living?',
+    },
+    {
+      meaning: 'Nerede çalışıyor olacaksın?',
+      sentence: 'Where will you be working?',
+    },
+    {
+      meaning: 'Nerede öğrenim görüyor olacaksın?',
+      sentence: 'Where will you be studying?',
+    },
+    {
+      meaning: 'Nereden alışveriş yapıyor olacaksın?',
+      sentence: 'Where will you be buying groceries?',
+    },
+    {
+      meaning: 'Nereye yürüyüşe gidiyor olacaksın?',
+      sentence: 'Where will you be going for a walk?',
+    },
+    {
+      meaning: 'Nerede öğle yemeği yiyor olacaksın?',
+      sentence: 'Where will you be eating lunch?',
+    },
+    {
+      meaning: 'Nerede spor yapıyor olacaksın?',
+      sentence: 'Where will you be playing sports?',
+    },
+    {
+      meaning: 'Arkadaşlarınla nerede buluşuyor olacaksın?',
+      sentence: 'Where will you be meeting your friends?',
+    },
+    {
+      meaning: 'Nerede film izliyor olacaksın?',
+      sentence: 'Where will you be watching movies?',
+    },
+    {
+      meaning: 'Otobüse nerede biniyor olacaksın?',
+      sentence: 'Where will you be catching the bus?',
+    },
+    {
+      meaning: 'Nerede kitap okuyor olacaksın?',
+      sentence: 'Where will you be reading books?',
+    },
+    {
+      meaning: 'Nerede yüzüyor olacaksın?',
+      sentence: 'Where will you be swimming?',
+    },
+    {
+      meaning: 'Nerede alışveriş yapıyor olacaksın?',
+      sentence: 'Where will you be going shopping?',
+    },
+    {
+      meaning: 'Hafta sonlarını nerede geçiriyor olacaksın?',
+      sentence: 'Where will you be spending your weekends?',
+    },
+    {
+      meaning: 'Köpeğini yürüyüşe nerede çıkarıyor olacaksın?',
+      sentence: 'Where will you be taking your dog for a walk?',
+    },
+    {
+      meaning: 'Annen nerede çalışıyor olacak?',
+      sentence: 'Where will your mother be working?',
+    },
+    {
+      meaning: 'Baban nerede koşuya gidiyor olacak?',
+      sentence: 'Where will your father be going for a run?',
+    },
+    {
+      meaning: 'Kız kardeşin nerede okuyor olacak?',
+      sentence: 'Where will your sister be studying?',
+    },
+    {
+      meaning: 'Erkek kardeşin nerede futbol oynuyor olacak?',
+      sentence: 'Where will your brother be playing football?',
+    },
+    {
+      meaning: 'Arkadaşın nerede yaşıyor olacak?',
+      sentence: 'Where will your friend be living?',
+    },
+    {
+      meaning: 'Öğretmen nerede ders veriyor olacak?',
+      sentence: 'Where will the teacher be teaching?',
+    },
+    {
+      meaning: 'Arabasını nerede park ediyor olacak?',
+      sentence: 'Where will he be parking his car?',
+    },
+    {
+      meaning: 'Doğum günlerini nerede kutluyor olacaklar?',
+      sentence: 'Where will they be celebrating birthdays?',
+    },
+    {
+      meaning: 'Kıyafetlerini nereden alıyor olacak?',
+      sentence: 'Where will she be buying her clothes?',
+    },
+    {
+      meaning: 'Tatile nereye gidiyor olacaksın?',
+      sentence: 'Where will you be going on vacation?',
+    },
+    {
+      meaning: 'Yogayı nerede yapıyor olacaksın?',
+      sentence: 'Where will you be practicing yoga?',
+    },
+    {
+      meaning: 'Yeni kitapları nerede buluyor olacaklar?',
+      sentence: 'Where will they be finding new books?',
+    },
+    {
+      meaning: 'Nerede resim yapıyor olacak?',
+      sentence: 'Where will he be painting?',
+    },
+    {
+      meaning: 'Bisikletini nerede tamir ediyor olacak?',
+      sentence: 'Where will she be fixing her bike?',
+    },
+    {
+      meaning: 'Eski kıyafetlerini nereye bağışlıyor olacaksın?',
+      sentence: 'Where will you be donating old clothes?',
+    },
+    {
+      meaning: 'Toplantılara nerede katılıyor olacağız?',
+      sentence: 'Where will we be joining meetings?',
+    },
+    {
+      meaning: 'Nerede gönüllü oluyor olacaklar?',
+      sentence: 'Where will they be volunteering?',
+    },
+    {
+      meaning: 'Çiçekleri nerede ekiyor olacağız?',
+      sentence: 'Where will we be planting flowers?',
+    },
+    {
+      meaning: 'Akşam yemeğini nerede yapıyor olacak?',
+      sentence: 'Where will she be cooking dinner?',
+    },
+    {
+      meaning: 'Müziği nerede dinliyor olacak?',
+      sentence: 'Where will he be listening to music?',
+    },
+    {
+      meaning: 'Satranç nerede oynuyor olacaksın?',
+      sentence: 'Where will you be playing chess?',
+    },
+    {
+      meaning: 'Mektupları nerede yazıyor olacak?',
+      sentence: 'Where will she be writing letters?',
+    },
+    {
+      meaning: 'Ayakkabılarını nerede temizliyor olacaklar?',
+      sentence: 'Where will they be cleaning their shoes?',
+    },
+    {
+      meaning: 'Nerede performans sergiliyor olacaksın?',
+      sentence: 'Where will you be performing?',
+    },
+    {
+      meaning: 'Kıyafetleri nerede dikiyor olacak?',
+      sentence: 'Where will he be sewing clothes?',
+    },
+    {
+      meaning: 'Ödevini nerede yapıyor olacaksın?',
+      sentence: 'Where will you be doing your homework?',
+    },
+    {
+      meaning: 'Belgeleri nerede yazdırıyor olacaklar?',
+      sentence: 'Where will they be printing documents?',
+    },
+    {
+      meaning: 'Piyano nerede çalıyor olacak?',
+      sentence: 'Where will she be playing the piano?',
+    },
+    {
+      meaning: 'Telefon görüşmelerini nerede yapıyor olacaksın?',
+      sentence: 'Where will you be making phone calls?',
+    },
+    {
+      meaning: 'Telefonunu nerede şarj ediyor olacak?',
+      sentence: 'Where will he be charging his phone?',
+    },
+    {
+      meaning: 'Sebzeleri nerede yetiştiriyor olacağız?',
+      sentence: 'Where will we be growing vegetables?',
+    },
+    {
+      meaning: 'Arabanı nerede yıkıyor olacaksın?',
+      sentence: 'Where will you be washing your car?',
+    },
+    {
+      meaning: 'Fotoğrafları nerede basıyor olacak?',
+      sentence: 'Where will she be printing photos?',
+    },
+    {
+      meaning: 'Yeni becerileri nerede öğreniyor olacaklar?',
+      sentence: 'Where will they be learning new skills?',
+    },
+    {
+      meaning: 'Yemek tariflerini nerede buluyor olacağız?',
+      sentence: 'Where will we be finding recipes?',
+    },
+  ],
+  'A3-possible-answer': [
+    {meaning: undefined, sentence: 'I will be living in Istanbul.'},
+    {meaning: undefined, sentence: 'I will be working in a hospital.'},
+    {meaning: undefined, sentence: 'I will be studying at a university.'},
+    {meaning: undefined, sentence: 'I will be buying groceries at the market.'},
+    {meaning: undefined, sentence: 'I will be going for a walk in the park.'},
+    {meaning: undefined, sentence: 'I will be eating lunch at a restaurant.'},
+    {meaning: undefined, sentence: 'I will be playing sports at the gym.'},
+    {meaning: undefined, sentence: 'I will be meeting my friends at a café.'},
+    {meaning: undefined, sentence: 'I will be watching movies at the cinema.'},
+    {
+      meaning: undefined,
+      sentence: 'I will be catching the bus at the bus stop.',
+    },
+    {meaning: undefined, sentence: 'I will be reading books at the library.'},
+    {meaning: undefined, sentence: 'I will be swimming at the pool.'},
+    {meaning: undefined, sentence: 'I will be going shopping at the mall.'},
+    {meaning: undefined, sentence: 'I will be spending my weekends at home.'},
+    {
+      meaning: undefined,
+      sentence: 'I will be taking my dog for a walk in the park.',
+    },
+    {meaning: undefined, sentence: 'She will be working at a school.'},
+    {
+      meaning: undefined,
+      sentence: 'He will be going for a run in the neighborhood.',
+    },
+    {meaning: undefined, sentence: 'She will be studying at a high school.'},
+    {
+      meaning: undefined,
+      sentence: 'He will be playing football at the stadium.',
+    },
+    {meaning: undefined, sentence: 'She will be living in a different city.'},
+    {
+      meaning: undefined,
+      sentence: 'The teacher will be teaching at the university.',
+    },
+    {meaning: undefined, sentence: 'He will be parking his car in the garage.'},
+    {
+      meaning: undefined,
+      sentence: 'They will be celebrating birthdays at home.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'She will be buying her clothes at the boutique.',
+    },
+    {meaning: undefined, sentence: 'I will be going on vacation to the beach.'},
+    {meaning: undefined, sentence: 'I will be practicing yoga at the studio.'},
+    {
+      meaning: undefined,
+      sentence: 'They will be finding new books at the bookstore.',
+    },
+    {meaning: undefined, sentence: 'He will be painting in his art studio.'},
+    {
+      meaning: undefined,
+      sentence: 'She will be fixing her bike in the garage.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'I will be donating old clothes to the charity.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'We will be joining meetings in the conference room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'They will be volunteering at the community center.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'We will be planting flowers in the garden.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'She will be cooking dinner in the kitchen.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'He will be listening to music in his room.',
+    },
+    {meaning: undefined, sentence: 'I will be playing chess in the club.'},
+    {meaning: undefined, sentence: 'She will be writing letters at her desk.'},
+    {
+      meaning: undefined,
+      sentence: 'They will be cleaning their shoes in the backyard.',
+    },
+    {meaning: undefined, sentence: 'I will be performing on the stage.'},
+    {
+      meaning: undefined,
+      sentence: 'He will be sewing clothes in the sewing room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'I will be doing my homework in my study room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'They will be printing documents at the office.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'She will be playing the piano in the music room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'I will be making phone calls in my office.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'He will be charging his phone in the living room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'We will be growing vegetables in the garden.',
+    },
+    {meaning: undefined, sentence: 'I will be washing my car in the driveway.'},
+    {
+      meaning: undefined,
+      sentence: 'She will be printing photos at the photo shop.',
+    },
+    {meaning: undefined, sentence: 'They will be learning new skills online.'},
+    {
+      meaning: undefined,
+      sentence: 'We will be finding recipes on the internet.',
+    },
+  ],
+  B1: [
+    {meaning: 'Ben neredeyim?', sentence: 'Where am I?'},
+    {meaning: 'Sen neredesin?', sentence: 'Where are you?'},
+    {meaning: 'O nerede?', sentence: 'Where is he?'},
+    {meaning: 'O nerede?', sentence: 'Where is she?'},
+    {meaning: 'Biz neredeyiz?', sentence: 'Where are we?'},
+    {meaning: 'Onlar nerede?', sentence: 'Where are they?'},
+    {meaning: 'Erkek kardeşin nerede?', sentence: 'Where is your brother?'},
+    {meaning: 'Kız kardeşin nerede?', sentence: 'Where is your sister?'},
+    {meaning: 'Ebeveynlerin nerede?', sentence: 'Where are your parents?'},
+    {meaning: 'Otobüs durağı nerede?', sentence: 'Where is the bus stop?'},
+    {
+      meaning: 'En yakın hastane nerede?',
+      sentence: 'Where is the nearest hospital?',
+    },
+    {meaning: 'Çocuklar nerede?', sentence: 'Where are the kids?'},
+    {
+      meaning: 'Favori restoranın nerede?',
+      sentence: 'Where is your favorite restaurant?',
+    },
+    {
+      meaning: 'Anahtarlarını nerede tutuyorsun?',
+      sentence: 'Where are you keeping your keys?',
+    },
+    {meaning: 'Ofisin nerede?', sentence: 'Where is your office?'},
+    {meaning: 'Kütüphane nerede?', sentence: 'Where is the library?'},
+    {meaning: 'Çocuklar nerede?', sentence: 'Where are the children?'},
+    {meaning: 'Ayakkabıların nerede?', sentence: 'Where are your shoes?'},
+    {meaning: 'Araban nerede?', sentence: 'Where is your car?'},
+    {meaning: 'Toplantı odası nerede?', sentence: 'Where is the meeting room?'},
+    {meaning: 'Memleketin neresi?', sentence: 'Where is your hometown?'},
+    {
+      meaning: 'En yakın bakkal nerede?',
+      sentence: 'Where is the nearest grocery store?',
+    },
+    {
+      meaning: 'Bu gece nereye gitmeyi planlıyorsun?',
+      sentence: 'Where are you planning to go tonight?',
+    },
+    {meaning: 'Çıkış nerede?', sentence: 'Where is the exit?'},
+    {meaning: 'Arkadaşın nerede?', sentence: 'Where is your friend?'},
+    {meaning: 'Köpek nerede?', sentence: 'Where is the dog?'},
+    {meaning: 'Biletler nerede?', sentence: 'Where are the tickets?'},
+    {meaning: 'Nerede oturuyorsun?', sentence: 'Where are you sitting?'},
+    {meaning: 'Banyo nerede?', sentence: 'Where is the bathroom?'},
+    {
+      meaning: 'Tren istasyonu nerede?',
+      sentence: 'Where is the train station?',
+    },
+    {meaning: 'Nerelisin?', sentence: 'Where are you from?'},
+    {meaning: 'En yakın banka nerede?', sentence: 'Where is the nearest bank?'},
+    {meaning: 'Belgeler nerede?', sentence: 'Where are the documents?'},
+    {meaning: 'Konferans nerede?', sentence: 'Where is the conference?'},
+    {meaning: 'Randevun nerede?', sentence: 'Where is your appointment?'},
+    {meaning: 'Misafirler nerede?', sentence: 'Where are the guests?'},
+    {meaning: 'Okul nerede?', sentence: 'Where is the school?'},
+    {
+      meaning: 'Yeni alışveriş merkezi nerede?',
+      sentence: 'Where is the new mall?',
+    },
+    {meaning: 'Cüzdanın nerede?', sentence: 'Where is your wallet?'},
+    {meaning: 'Elmalar nerede?', sentence: 'Where are the apples?'},
+    {
+      meaning: 'Çocuklar nerede futbol oynuyor?',
+      sentence: 'Where are the kids playing soccer?',
+    },
+    {
+      meaning: 'En yakın eczane nerede?',
+      sentence: 'Where is the nearest pharmacy?',
+    },
+    {meaning: 'Otobüs nereye gidiyor?', sentence: 'Where is the bus going?'},
+    {meaning: 'Gözlüklerin nerede?', sentence: 'Where are your glasses?'},
+    {meaning: 'Kitaplar nerede?', sentence: 'Where are the books?'},
+    {
+      meaning: 'En yakın benzin istasyonu nerede?',
+      sentence: 'Where is the nearest gas station?',
+    },
+    {meaning: 'Kedi nerede?', sentence: 'Where is the cat?'},
+    {meaning: 'Havlular nerede?', sentence: 'Where are the towels?'},
+    {
+      meaning: 'Müzik nereden geliyor?',
+      sentence: 'Where is the music coming from?',
+    },
+    {meaning: 'Şef nerede?', sentence: 'Where is the chef?'},
+  ],
+  'B1-possible-answer': [
+    {meaning: undefined, sentence: 'You are in the classroom.'},
+    {meaning: undefined, sentence: 'I am at home.'},
+    {meaning: undefined, sentence: 'He is at the park.'},
+    {meaning: undefined, sentence: 'She is in the library.'},
+    {meaning: undefined, sentence: 'We are at the mall.'},
+    {meaning: undefined, sentence: 'They are in the office.'},
+    {meaning: undefined, sentence: 'He is at school.'},
+    {meaning: undefined, sentence: 'She is at the gym.'},
+    {meaning: undefined, sentence: 'They are in the garden.'},
+    {meaning: undefined, sentence: 'The bus stop is on Main Street.'},
+    {meaning: undefined, sentence: 'The nearest hospital is downtown.'},
+    {meaning: undefined, sentence: 'The kids are in the playground.'},
+    {meaning: undefined, sentence: 'My favorite restaurant is on Elm Street.'},
+    {meaning: undefined, sentence: 'I am keeping them in my bag.'},
+    {meaning: undefined, sentence: 'My office is in the city center.'},
+    {meaning: undefined, sentence: 'The library is next to the post office.'},
+    {meaning: undefined, sentence: 'They are at the zoo.'},
+    {meaning: undefined, sentence: 'My shoes are under the bed.'},
+    {meaning: undefined, sentence: 'My car is in the garage.'},
+    {meaning: undefined, sentence: 'The meeting room is on the second floor.'},
+    {meaning: undefined, sentence: 'My hometown is Karaman.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest grocery store is around the corner.',
+    },
+    {meaning: undefined, sentence: 'I am planning to go to a concert.'},
+    {meaning: undefined, sentence: 'The exit is to your right.'},
+    {meaning: undefined, sentence: 'My friend is at the library.'},
+    {meaning: undefined, sentence: 'The dog is in the backyard.'},
+    {meaning: undefined, sentence: 'The tickets are in my pocket.'},
+    {meaning: undefined, sentence: 'I am sitting in the front row.'},
+    {meaning: undefined, sentence: 'The bathroom is down the hall.'},
+    {meaning: undefined, sentence: 'The train station is near the museum.'},
+    {meaning: undefined, sentence: 'I am from Elazığ.'},
+    {meaning: undefined, sentence: 'The nearest bank is across the street.'},
+    {meaning: undefined, sentence: 'The documents are on my desk.'},
+    {
+      meaning: undefined,
+      sentence: 'The conference is at the convention center.',
+    },
+    {
+      meaning: undefined,
+      sentence: "My appointment is at the dentist's office.",
+    },
+    {meaning: undefined, sentence: 'The guests are at the hotel.'},
+    {meaning: undefined, sentence: 'The school is in the suburb.'},
+    {meaning: undefined, sentence: 'The new mall is near the airport.'},
+    {meaning: undefined, sentence: 'My wallet is in my backpack.'},
+    {meaning: undefined, sentence: 'The apples are in the kitchen.'},
+    {meaning: undefined, sentence: 'They are playing soccer in the field.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest pharmacy is next to the supermarket.',
+    },
+    {meaning: undefined, sentence: 'The bus is going to the city center.'},
+    {meaning: undefined, sentence: 'My glasses are on the table.'},
+    {meaning: undefined, sentence: 'The books are on the shelf.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest gas station is down the street.',
+    },
+    {meaning: undefined, sentence: 'The cat is under the couch.'},
+    {meaning: undefined, sentence: 'The towels are in the bathroom.'},
+    {meaning: undefined, sentence: 'The music is coming from the next room.'},
+    {meaning: undefined, sentence: 'The chef is in the kitchen.'},
+  ],
+  B2: [
+    {meaning: 'Nerede yaşıyorsun?', sentence: 'Where do you live?'},
+    {meaning: 'Nerede çalışıyorsun?', sentence: 'Where do you work?'},
+    {meaning: 'Nerede öğrenim görüyorsun?', sentence: 'Where do you study?'},
+    {
+      meaning: 'Nereden alışveriş yaparsın?',
+      sentence: 'Where do you buy groceries?',
+    },
+    {
+      meaning: 'Nereye yürüyüşe gidersin?',
+      sentence: 'Where do you go for a walk?',
+    },
+    {
+      meaning: 'Nerede öğle yemeği yersin?',
+      sentence: 'Where do you eat lunch?',
+    },
+    {meaning: 'Nerede spor yaparsın?', sentence: 'Where do you play sports?'},
+    {
+      meaning: 'Arkadaşlarınla nerede buluşursun?',
+      sentence: 'Where do you meet your friends?',
+    },
+    {meaning: 'Nerede film izlersin?', sentence: 'Where do you watch movies?'},
+    {
+      meaning: 'Otobüse nerede binersin?',
+      sentence: 'Where do you catch the bus?',
+    },
+    {meaning: 'Nerede kitap okursun?', sentence: 'Where do you read books?'},
+    {meaning: 'Nerede yüzersin?', sentence: 'Where do you swim?'},
+    {
+      meaning: 'Nerede alışveriş yaparsın?',
+      sentence: 'Where do you go shopping?',
+    },
+    {
+      meaning: 'Hafta sonlarını nerede geçirirsin?',
+      sentence: 'Where do you spend your weekends?',
+    },
+    {
+      meaning: 'Annen nerede çalışıyor?',
+      sentence: 'Where does your mother work?',
+    },
+    {
+      meaning: 'Kız kardeşin nerede okuyor?',
+      sentence: 'Where does your sister study?',
+    },
+    {
+      meaning: 'Erkek kardeşin nerede futbol oynar?',
+      sentence: 'Where does your brother play football?',
+    },
+    {
+      meaning: 'Arkadaşın nerede yaşıyor?',
+      sentence: 'Where does your friend live?',
+    },
+    {
+      meaning: 'Arabasını nerede park eder?',
+      sentence: 'Where does he park his car?',
+    },
+    {
+      meaning: 'Doğum günlerini nerede kutlarlar?',
+      sentence: 'Where do they celebrate birthdays?',
+    },
+    {
+      meaning: 'Kıyafetlerini nereden alır?',
+      sentence: 'Where does she buy her clothes?',
+    },
+    {
+      meaning: 'Tatile nereye gideriz?',
+      sentence: 'Where do we go on vacation?',
+    },
+    {
+      meaning: 'Yeni kitapları nerede bulurlar?',
+      sentence: 'Where do they find new books?',
+    },
+    {
+      meaning: 'Bisikletini nerede tamir eder?',
+      sentence: 'Where does she fix her bike?',
+    },
+    {
+      meaning: 'Eski kıyafetlerini nereye bağışlarsın?',
+      sentence: 'Where do you donate old clothes?',
+    },
+    {
+      meaning: 'Toplantılara nerede katılırız?',
+      sentence: 'Where do we join meetings?',
+    },
+    {meaning: 'Nerede gönüllü olurlar?', sentence: 'Where do they volunteer?'},
+    {
+      meaning: 'Çiçekleri nerede ekeriz?',
+      sentence: 'Where do we plant flowers?',
+    },
+    {
+      meaning: 'Akşam yemeğini nerede yapar?',
+      sentence: 'Where does she cook dinner?',
+    },
+    {
+      meaning: 'Müziği nerede dinler?',
+      sentence: 'Where does he listen to music?',
+    },
+    {meaning: 'Satranç nerede oynarsın?', sentence: 'Where do you play chess?'},
+    {
+      meaning: 'Mektupları nerede yazar?',
+      sentence: 'Where does she write letters?',
+    },
+    {
+      meaning: 'Ayakkabılarını nerede temizlerler?',
+      sentence: 'Where do they clean their shoes?',
+    },
+    {
+      meaning: 'Nerede performans sergilersin?',
+      sentence: 'Where do you perform?',
+    },
+    {
+      meaning: 'Kıyafetleri nerede diker?',
+      sentence: 'Where does he sew clothes?',
+    },
+    {
+      meaning: 'Ödevini nerede yaparsın?',
+      sentence: 'Where do you do your homework?',
+    },
+    {
+      meaning: 'Belgeleri nerede yazdırırlar?',
+      sentence: 'Where do they print documents?',
+    },
+    {
+      meaning: 'Piyano nerede çalar?',
+      sentence: 'Where does she play the piano?',
+    },
+    {
+      meaning: 'Telefon görüşmelerini nerede yaparsın?',
+      sentence: 'Where do you make phone calls?',
+    },
+    {
+      meaning: 'Telefonunu nerede şarj eder?',
+      sentence: 'Where does he charge his phone?',
+    },
+    {
+      meaning: 'Sebzeleri nerede yetiştiririz?',
+      sentence: 'Where do we grow vegetables?',
+    },
+    {
+      meaning: 'Arabanı nerede yıkarsın?',
+      sentence: 'Where do you wash your car?',
+    },
+    {
+      meaning: 'Fotoğrafları nerede basar?',
+      sentence: 'Where does she print photos?',
+    },
+    {
+      meaning: 'Yeni becerileri nerede öğrenirler?',
+      sentence: 'Where do they learn new skills?',
+    },
+    {
+      meaning: 'Yemek tariflerini nerede buluruz?',
+      sentence: 'Where do we find recipes?',
+    },
+    {meaning: 'Parayı nerede saklarsın?', sentence: 'Where do you save money?'},
+    {
+      meaning: 'Fotoğrafı nerede çeker?',
+      sentence: 'Where does he take photos?',
+    },
+    {
+      meaning: 'Televizyonu nerede izlersin?',
+      sentence: 'Where do you watch TV?',
+    },
+    {
+      meaning: 'Kahvaltıyı nerede yaparlar?',
+      sentence: 'Where do they eat breakfast?',
+    },
+    {
+      meaning: 'Balık tutmaya nereye gidersin?',
+      sentence: 'Where do you go fishing?',
+    },
+  ],
+  'B2-possible-answer': [
+    {meaning: undefined, sentence: 'I live in Istanbul.'},
+    {meaning: undefined, sentence: 'I work in a hospital.'},
+    {meaning: undefined, sentence: 'I study at a university.'},
+    {meaning: undefined, sentence: 'I buy groceries at the market.'},
+    {meaning: undefined, sentence: 'I go for a walk in the park.'},
+    {meaning: undefined, sentence: 'I eat lunch at a restaurant.'},
+    {meaning: undefined, sentence: 'I play sports at the gym.'},
+    {meaning: undefined, sentence: 'I meet my friends at a café.'},
+    {meaning: undefined, sentence: 'I watch movies at the cinema.'},
+    {meaning: undefined, sentence: 'I catch the bus at the bus stop.'},
+    {meaning: undefined, sentence: 'I read books at the library.'},
+    {meaning: undefined, sentence: 'I swim at the pool.'},
+    {meaning: undefined, sentence: 'I go shopping at the mall.'},
+    {meaning: undefined, sentence: 'I spend my weekends at home.'},
+    {meaning: undefined, sentence: 'She works at a school.'},
+    {meaning: undefined, sentence: 'She studies at a high school.'},
+    {meaning: undefined, sentence: 'He plays football at the stadium.'},
+    {meaning: undefined, sentence: 'She lives in a different city.'},
+    {meaning: undefined, sentence: 'He parks his car in the garage.'},
+    {meaning: undefined, sentence: 'They celebrate birthdays at home.'},
+    {meaning: undefined, sentence: 'She buys her clothes at the boutique.'},
+    {meaning: undefined, sentence: 'We go on vacation to the beach.'},
+    {meaning: undefined, sentence: 'They find new books at the bookstore.'},
+    {meaning: undefined, sentence: 'She fixes her bike in the garage.'},
+    {meaning: undefined, sentence: 'I donate old clothes to the charity.'},
+    {meaning: undefined, sentence: 'We join meetings in the conference room.'},
+    {meaning: undefined, sentence: 'They volunteer at the community center.'},
+    {meaning: undefined, sentence: 'We plant flowers in the garden.'},
+    {meaning: undefined, sentence: 'She cooks dinner in the kitchen.'},
+    {meaning: undefined, sentence: 'He listens to music in his room.'},
+    {meaning: undefined, sentence: 'I play chess in the club.'},
+    {meaning: undefined, sentence: 'She writes letters at her desk.'},
+    {meaning: undefined, sentence: 'They clean their shoes in the backyard.'},
+    {meaning: undefined, sentence: 'I perform on the stage.'},
+    {meaning: undefined, sentence: 'He sews clothes in the sewing room.'},
+    {meaning: undefined, sentence: 'I do my homework in my study room.'},
+    {meaning: undefined, sentence: 'They print documents at the office.'},
+    {meaning: undefined, sentence: 'She plays the piano in the music room.'},
+    {meaning: undefined, sentence: 'I make phone calls in my office.'},
+    {meaning: undefined, sentence: 'He charges his phone in the living room.'},
+    {meaning: undefined, sentence: 'We grow vegetables in the garden.'},
+    {meaning: undefined, sentence: 'I wash my car in the driveway.'},
+    {meaning: undefined, sentence: 'She prints photos at the photo shop.'},
+    {meaning: undefined, sentence: 'They learn new skills online.'},
+    {meaning: undefined, sentence: 'We find recipes on the internet.'},
+    {meaning: undefined, sentence: 'I save money in the bank.'},
+    {meaning: undefined, sentence: 'He takes photos at scenic spots.'},
+    {meaning: undefined, sentence: 'I watch TV in the living room.'},
+    {meaning: undefined, sentence: 'They eat breakfast in the kitchen.'},
+    {meaning: undefined, sentence: 'I go to Keban.'},
+  ],
+  B3: [
+    {meaning: 'Nerede yaşıyorsun?', sentence: 'Where are you living?'},
+    {meaning: 'Nerede çalışıyorsun?', sentence: 'Where are you working?'},
+    {
+      meaning: 'Nerede öğrenim görüyorsun?',
+      sentence: 'Where are you studying?',
+    },
+    {
+      meaning: 'Nereden alışveriş yapıyorsun?',
+      sentence: 'Where are you buying groceries?',
+    },
+    {
+      meaning: 'Nereye yürüyüşe gidiyorsun?',
+      sentence: 'Where are you going for a walk?',
+    },
+    {
+      meaning: 'Nerede öğle yemeği yiyorsun?',
+      sentence: 'Where are you eating lunch?',
+    },
+    {
+      meaning: 'Nerede spor yapıyorsun?',
+      sentence: 'Where are you playing sports?',
+    },
+    {
+      meaning: 'Arkadaşlarınla nerede buluşuyorsun?',
+      sentence: 'Where are you meeting your friends?',
+    },
+    {
+      meaning: 'Nerede film izliyorsun?',
+      sentence: 'Where are you watching movies?',
+    },
+    {
+      meaning: 'Otobüse nerede biniyorsun?',
+      sentence: 'Where are you catching the bus?',
+    },
+    {
+      meaning: 'Nerede kitap okuyorsun?',
+      sentence: 'Where are you reading books?',
+    },
+    {meaning: 'Nerede yüzüyorsun?', sentence: 'Where are you swimming?'},
+    {
+      meaning: 'Nerede alışveriş yapıyorsun?',
+      sentence: 'Where are you going shopping?',
+    },
+    {
+      meaning: 'Hafta sonlarını nerede geçiriyorsun?',
+      sentence: 'Where are you spending your weekends?',
+    },
+    {
+      meaning: 'Köpeğini yürüyüşe nerede çıkarıyorsun?',
+      sentence: 'Where are you taking your dog for a walk?',
+    },
+    {
+      meaning: 'Annen nerede çalışıyor?',
+      sentence: 'Where is your mother working?',
+    },
+    {
+      meaning: 'Baban nerede koşuya gidiyor?',
+      sentence: 'Where is your father going for a run?',
+    },
+    {
+      meaning: 'Kız kardeşin nerede okuyor?',
+      sentence: 'Where is your sister studying?',
+    },
+    {
+      meaning: 'Erkek kardeşin nerede futbol oynuyor?',
+      sentence: 'Where is your brother playing football?',
+    },
+    {
+      meaning: 'Arkadaşın nerede yaşıyor?',
+      sentence: 'Where is your friend living?',
+    },
+    {
+      meaning: 'Öğretmen nerede ders veriyor?',
+      sentence: 'Where is the teacher teaching?',
+    },
+    {
+      meaning: 'Arabasını nerede park ediyor?',
+      sentence: 'Where is he parking his car?',
+    },
+    {
+      meaning: 'Doğum günlerini nerede kutluyorlar?',
+      sentence: 'Where are they celebrating birthdays?',
+    },
+    {
+      meaning: 'Kıyafetlerini nereden alıyor?',
+      sentence: 'Where is she buying her clothes?',
+    },
+    {
+      meaning: 'Tatile nereye gidiyorsun?',
+      sentence: 'Where are you going on vacation?',
+    },
+    {
+      meaning: 'Yogayı nerede yapıyorsun?',
+      sentence: 'Where are you practicing yoga?',
+    },
+    {
+      meaning: 'Yeni kitapları nerede buluyorlar?',
+      sentence: 'Where are they finding new books?',
+    },
+    {meaning: 'Nerede resim yapıyor?', sentence: 'Where is he painting?'},
+    {
+      meaning: 'Bisikletini nerede tamir ediyor?',
+      sentence: 'Where is she fixing her bike?',
+    },
+    {
+      meaning: 'Eski kıyafetlerini nereye bağışlıyorsun?',
+      sentence: 'Where are you donating old clothes?',
+    },
+    {
+      meaning: 'Toplantılara nerede katılıyoruz?',
+      sentence: 'Where are we joining meetings?',
+    },
+    {
+      meaning: 'Nerede gönüllü oluyorlar?',
+      sentence: 'Where are they volunteering?',
+    },
+    {
+      meaning: 'Çiçekleri nerede ekiyoruz?',
+      sentence: 'Where are we planting flowers?',
+    },
+    {
+      meaning: 'Akşam yemeğini nerede yapıyor?',
+      sentence: 'Where is she cooking dinner?',
+    },
+    {
+      meaning: 'Müziği nerede dinliyor?',
+      sentence: 'Where is he listening to music?',
+    },
+    {
+      meaning: 'Satranç nerede oynuyorsun?',
+      sentence: 'Where are you playing chess?',
+    },
+    {
+      meaning: 'Mektupları nerede yazıyor?',
+      sentence: 'Where is she writing letters?',
+    },
+    {
+      meaning: 'Ayakkabılarını nerede temizliyorlar?',
+      sentence: 'Where are they cleaning their shoes?',
+    },
+    {
+      meaning: 'Nerede performans sergiliyorsun?',
+      sentence: 'Where are you performing?',
+    },
+    {
+      meaning: 'Kıyafetleri nerede dikiyor?',
+      sentence: 'Where is he sewing clothes?',
+    },
+    {
+      meaning: 'Ödevini nerede yapıyorsun?',
+      sentence: 'Where are you doing your homework?',
+    },
+    {
+      meaning: 'Belgeleri nerede yazdırıyorlar?',
+      sentence: 'Where are they printing documents?',
+    },
+    {
+      meaning: 'Piyano nerede çalıyor?',
+      sentence: 'Where is she playing the piano?',
+    },
+    {
+      meaning: 'Telefon görüşmelerini nerede yapıyorsun?',
+      sentence: 'Where are you making phone calls?',
+    },
+    {
+      meaning: 'Telefonunu nerede şarj ediyor?',
+      sentence: 'Where is he charging his phone?',
+    },
+    {
+      meaning: 'Sebzeleri nerede yetiştiriyoruz?',
+      sentence: 'Where are we growing vegetables?',
+    },
+    {
+      meaning: 'Arabanı nerede yıkıyorsun?',
+      sentence: 'Where are you washing your car?',
+    },
+    {
+      meaning: 'Fotoğrafları nerede basıyor?',
+      sentence: 'Where is she printing photos?',
+    },
+    {
+      meaning: 'Yeni becerileri nerede öğreniyorlar?',
+      sentence: 'Where are they learning new skills?',
+    },
+    {
+      meaning: 'Yemek tariflerini nerede buluyoruz?',
+      sentence: 'Where are we finding recipes?',
+    },
+  ],
+  B4: [
+    {meaning: 'Nerede yaşadın?', sentence: 'Where have you lived?'},
+    {meaning: 'Nerede çalıştın?', sentence: 'Where have you worked?'},
+    {meaning: 'Nerede öğrenim gördün?', sentence: 'Where have you studied?'},
+    {
+      meaning: 'Nereden alışveriş yaptın?',
+      sentence: 'Where have you bought groceries?',
+    },
+    {
+      meaning: 'Nereye yürüyüşe gittin?',
+      sentence: 'Where have you gone for a walk?',
+    },
+    {
+      meaning: 'Nerede öğle yemeği yedin?',
+      sentence: 'Where have you eaten lunch?',
+    },
+    {meaning: 'Nerede spor yaptın?', sentence: 'Where have you played sports?'},
+    {
+      meaning: 'Arkadaşlarınla nerede buluştun?',
+      sentence: 'Where have you met your friends?',
+    },
+    {
+      meaning: 'Nerede film izledin?',
+      sentence: 'Where have you watched movies?',
+    },
+    {
+      meaning: 'Otobüse nerede bindin?',
+      sentence: 'Where have you caught the bus?',
+    },
+    {meaning: 'Nerede kitap okudun?', sentence: 'Where have you read books?'},
+    {meaning: 'Nerede yüzdün?', sentence: 'Where have you swum?'},
+    {
+      meaning: 'Nerede alışveriş yaptın?',
+      sentence: 'Where have you gone shopping?',
+    },
+    {
+      meaning: 'Hafta sonlarını nerede geçirdin?',
+      sentence: 'Where have you spent your weekends?',
+    },
+    {
+      meaning: 'Köpeğini yürüyüşe nerede çıkardın?',
+      sentence: 'Where have you taken your dog for a walk?',
+    },
+    {
+      meaning: 'Annen nerede çalıştı?',
+      sentence: 'Where has your mother worked?',
+    },
+    {
+      meaning: 'Baban nerede koşuya gitti?',
+      sentence: 'Where has your father gone for a run?',
+    },
+    {
+      meaning: 'Kız kardeşin nerede okudu?',
+      sentence: 'Where has your sister studied?',
+    },
+    {
+      meaning: 'Erkek kardeşin nerede futbol oynadı?',
+      sentence: 'Where has your brother played football?',
+    },
+    {
+      meaning: 'Arkadaşın nerede yaşadı?',
+      sentence: 'Where has your friend lived?',
+    },
+    {
+      meaning: 'Öğretmen nerede ders verdi?',
+      sentence: 'Where has the teacher taught?',
+    },
+    {
+      meaning: 'Arabasını nerede park etti?',
+      sentence: 'Where has he parked his car?',
+    },
+    {
+      meaning: 'Doğum günlerini nerede kutladılar?',
+      sentence: 'Where have they celebrated birthdays?',
+    },
+    {
+      meaning: 'Kıyafetlerini nereden aldı?',
+      sentence: 'Where has she bought her clothes?',
+    },
+    {
+      meaning: 'Tatile nereye gittin?',
+      sentence: 'Where have you gone on vacation?',
+    },
+    {
+      meaning: 'Yogayı nerede yaptın?',
+      sentence: 'Where have you practiced yoga?',
+    },
+    {
+      meaning: 'Yeni kitapları nerede buldular?',
+      sentence: 'Where have they found new books?',
+    },
+    {meaning: 'Nerede resim yaptı?', sentence: 'Where has he painted?'},
+    {
+      meaning: 'Bisikletini nerede tamir etti?',
+      sentence: 'Where has she fixed her bike?',
+    },
+    {
+      meaning: 'Eski kıyafetlerini nereye bağışladın?',
+      sentence: 'Where have you donated old clothes?',
+    },
+    {
+      meaning: 'Toplantılara nerede katıldık?',
+      sentence: 'Where have we joined meetings?',
+    },
+    {
+      meaning: 'Nerede gönüllü oldular?',
+      sentence: 'Where have they volunteered?',
+    },
+    {
+      meaning: 'Çiçekleri nerede ektik?',
+      sentence: 'Where have we planted flowers?',
+    },
+    {
+      meaning: 'Akşam yemeğini nerede yaptı?',
+      sentence: 'Where has she cooked dinner?',
+    },
+    {
+      meaning: 'Müziği nerede dinledi?',
+      sentence: 'Where has he listened to music?',
+    },
+    {
+      meaning: 'Satranç nerede oynadın?',
+      sentence: 'Where have you played chess?',
+    },
+    {
+      meaning: 'Mektupları nerede yazdı?',
+      sentence: 'Where has she written letters?',
+    },
+    {
+      meaning: 'Ayakkabılarını nerede temizlediler?',
+      sentence: 'Where have they cleaned their shoes?',
+    },
+    {
+      meaning: 'Nerede performans sergiledin?',
+      sentence: 'Where have you performed?',
+    },
+    {
+      meaning: 'Kıyafetleri nerede dikti?',
+      sentence: 'Where has he sewn clothes?',
+    },
+    {
+      meaning: 'Ödevini nerede yaptın?',
+      sentence: 'Where have you done your homework?',
+    },
+    {
+      meaning: 'Belgeleri nerede yazdırdılar?',
+      sentence: 'Where have they printed documents?',
+    },
+    {
+      meaning: 'Piyano nerede çaldı?',
+      sentence: 'Where has she played the piano?',
+    },
+    {
+      meaning: 'Telefon görüşmelerini nerede yaptın?',
+      sentence: 'Where have you made phone calls?',
+    },
+    {
+      meaning: 'Telefonunu nerede şarj etti?',
+      sentence: 'Where has he charged his phone?',
+    },
+    {
+      meaning: 'Sebzeleri nerede yetiştirdik?',
+      sentence: 'Where have we grown vegetables?',
+    },
+    {
+      meaning: 'Arabanı nerede yıkadın?',
+      sentence: 'Where have you washed your car?',
+    },
+    {
+      meaning: 'Fotoğrafları nerede bastı?',
+      sentence: 'Where has she printed photos?',
+    },
+    {
+      meaning: 'Yeni becerileri nerede öğrendiler?',
+      sentence: 'Where have they learned new skills?',
+    },
+    {
+      meaning: 'Yemek tariflerini nerede bulduk?',
+      sentence: 'Where have we found recipes?',
+    },
+  ],
+  'B4-possible-answer': [
+    {meaning: undefined, sentence: 'I have lived in Istanbul.'},
+    {meaning: undefined, sentence: 'I have worked in a hospital.'},
+    {meaning: undefined, sentence: 'I have studied at a university.'},
+    {meaning: undefined, sentence: 'I have bought groceries at the market.'},
+    {meaning: undefined, sentence: 'I have gone for a walk in the park.'},
+    {meaning: undefined, sentence: 'I have eaten lunch at a restaurant.'},
+    {meaning: undefined, sentence: 'I have played sports at the gym.'},
+    {meaning: undefined, sentence: 'I have met my friends at a café.'},
+    {meaning: undefined, sentence: 'I have watched movies at the cinema.'},
+    {meaning: undefined, sentence: 'I have caught the bus at the bus stop.'},
+    {meaning: undefined, sentence: 'I have read books at the library.'},
+    {meaning: undefined, sentence: 'I have swum at the pool.'},
+    {meaning: undefined, sentence: 'I have gone shopping at the mall.'},
+    {meaning: undefined, sentence: 'I have spent my weekends at home.'},
+    {
+      meaning: undefined,
+      sentence: 'I have taken my dog for a walk in the park.',
+    },
+    {meaning: undefined, sentence: 'She has worked at a school.'},
+    {
+      meaning: undefined,
+      sentence: 'He has gone for a run in the neighborhood.',
+    },
+    {meaning: undefined, sentence: 'She has studied at a high school.'},
+    {meaning: undefined, sentence: 'He has played football at the stadium.'},
+    {meaning: undefined, sentence: 'She has lived in a different city.'},
+    {meaning: undefined, sentence: 'The teacher has taught at the university.'},
+    {meaning: undefined, sentence: 'He has parked his car in the garage.'},
+    {meaning: undefined, sentence: 'They have celebrated birthdays at home.'},
+    {
+      meaning: undefined,
+      sentence: 'She has bought her clothes at the boutique.',
+    },
+    {meaning: undefined, sentence: 'I have gone on vacation to the beach.'},
+    {meaning: undefined, sentence: 'I have practiced yoga at the studio.'},
+    {
+      meaning: undefined,
+      sentence: 'They have found new books at the bookstore.',
+    },
+    {meaning: undefined, sentence: 'He has painted in his art studio.'},
+    {meaning: undefined, sentence: 'She has fixed her bike in the garage.'},
+    {
+      meaning: undefined,
+      sentence: 'I have donated old clothes to the charity.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'We have joined meetings in the conference room.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'They have volunteered at the community center.',
+    },
+    {meaning: undefined, sentence: 'We have planted flowers in the garden.'},
+    {meaning: undefined, sentence: 'She has cooked dinner in the kitchen.'},
+    {meaning: undefined, sentence: 'He has listened to music in his room.'},
+    {meaning: undefined, sentence: 'I have played chess in the club.'},
+    {meaning: undefined, sentence: 'She has written letters at her desk.'},
+    {
+      meaning: undefined,
+      sentence: 'They have cleaned their shoes in the backyard.',
+    },
+    {meaning: undefined, sentence: 'I have performed on the stage.'},
+    {meaning: undefined, sentence: 'He has sewn clothes in the sewing room.'},
+    {meaning: undefined, sentence: 'I have done my homework in my study room.'},
+    {
+      meaning: undefined,
+      sentence: 'They have printed documents at the office.',
+    },
+    {
+      meaning: undefined,
+      sentence: 'She has played the piano in the music room.',
+    },
+    {meaning: undefined, sentence: 'I have made phone calls in my office.'},
+    {
+      meaning: undefined,
+      sentence: 'He has charged his phone in the living room.',
+    },
+    {meaning: undefined, sentence: 'We have grown vegetables in the garden.'},
+    {meaning: undefined, sentence: 'I have washed my car in the driveway.'},
+    {meaning: undefined, sentence: 'She has printed photos at the photo shop.'},
+    {meaning: undefined, sentence: 'They have learned new skills online.'},
+    {meaning: undefined, sentence: 'We have found recipes on the internet.'},
+  ],
+  C1: [
+    {meaning: 'Dün gece neredeydim?', sentence: 'Where was I last night?'},
+    {meaning: 'Dün neredeydin?', sentence: 'Where were you yesterday?'},
+    {meaning: 'Bu sabah neredeydi?', sentence: 'Where was he this morning?'},
+    {
+      meaning: 'O, Pazartesi günü neredeydi?',
+      sentence: 'Where was she on Monday?',
+    },
+    {
+      meaning: 'Geçen hafta sonu neredeydik?',
+      sentence: 'Where were we last weekend?',
+    },
+    {
+      meaning: 'Geçen yaz neredeydiler?',
+      sentence: 'Where were they last summer?',
+    },
+    {
+      meaning: 'Erkek kardeşin dün gece neredeydi?',
+      sentence: 'Where was your brother last night?',
+    },
+    {
+      meaning: 'Kız kardeşin geçen hafta neredeydi?',
+      sentence: 'Where was your sister last week?',
+    },
+    {
+      meaning: 'Ebeveynlerin dün neredeydi?',
+      sentence: 'Where were your parents yesterday?',
+    },
+    {meaning: 'Otobüs durağı neredeydi?', sentence: 'Where was the bus stop?'},
+    {
+      meaning: 'En yakın hastane neredeydi?',
+      sentence: 'Where was the nearest hospital?',
+    },
+    {
+      meaning: 'Çocuklar nerede oynuyordu?',
+      sentence: 'Where were the kids playing?',
+    },
+    {
+      meaning: 'Favori restoranın neredeydi?',
+      sentence: 'Where was your favorite restaurant?',
+    },
+    {
+      meaning: 'Anahtarlarını nerede tutuyordun?',
+      sentence: 'Where were you keeping your keys?',
+    },
+    {meaning: 'Ofisin neredeydi?', sentence: 'Where was your office?'},
+    {meaning: 'Kütüphane neredeydi?', sentence: 'Where was the library?'},
+    {
+      meaning: 'Çocuklar nereye gidiyordu?',
+      sentence: 'Where were the children going?',
+    },
+    {meaning: 'Ayakkabıların neredeydi?', sentence: 'Where were your shoes?'},
+    {
+      meaning: 'Araban nerede park edilmişti?',
+      sentence: 'Where was your car parked?',
+    },
+    {
+      meaning: 'Toplantı odası neredeydi?',
+      sentence: 'Where was the meeting room?',
+    },
+    {meaning: 'Memleketin neresiydi?', sentence: 'Where was your hometown?'},
+    {
+      meaning: 'En yakın bakkal neredeydi?',
+      sentence: 'Where was the nearest grocery store?',
+    },
+    {
+      meaning: 'Nereye gitmeyi planlıyordun?',
+      sentence: 'Where were you planning to go?',
+    },
+    {meaning: 'Çıkış neredeydi?', sentence: 'Where was the exit?'},
+    {meaning: 'Arkadaşın neredeydi?', sentence: 'Where was your friend?'},
+    {meaning: 'Köpek neredeydi?', sentence: 'Where was the dog?'},
+    {meaning: 'Biletler neredeydi?', sentence: 'Where were the tickets?'},
+    {meaning: 'Nerede oturuyordun?', sentence: 'Where were you sitting?'},
+    {meaning: 'Banyo neredeydi?', sentence: 'Where was the bathroom?'},
+    {
+      meaning: 'Tren istasyonu neredeydi?',
+      sentence: 'Where was the train station?',
+    },
+    {meaning: 'Nereliydin?', sentence: 'Where were you from?'},
+    {
+      meaning: 'En yakın banka neredeydi?',
+      sentence: 'Where was the nearest bank?',
+    },
+    {meaning: 'Belgeler neredeydi?', sentence: 'Where were the documents?'},
+    {
+      meaning: 'Konferans nerede yapıldı?',
+      sentence: 'Where was the conference held?',
+    },
+    {meaning: 'Randevun neredeydi?', sentence: 'Where was your appointment?'},
+    {
+      meaning: 'Misafirler nerede kalıyordu?',
+      sentence: 'Where were the guests staying?',
+    },
+    {meaning: 'Okul neredeydi?', sentence: 'Where was the school located?'},
+    {
+      meaning: 'Yeni alışveriş merkezi neredeydi?',
+      sentence: 'Where was the new mall?',
+    },
+    {meaning: 'Cüzdanın neredeydi?', sentence: 'Where was your wallet?'},
+    {meaning: 'Elmalar neredeydi?', sentence: 'Where were the apples?'},
+    {
+      meaning: 'Çocuklar nerede futbol oynuyordu?',
+      sentence: 'Where were the kids playing soccer?',
+    },
+    {
+      meaning: 'En yakın eczane neredeydi?',
+      sentence: 'Where was the nearest pharmacy?',
+    },
+    {meaning: 'Otobüs nereye gidiyordu?', sentence: 'Where was the bus going?'},
+    {meaning: 'Gözlüklerin neredeydi?', sentence: 'Where were your glasses?'},
+    {meaning: 'Kitaplar neredeydi?', sentence: 'Where were the books?'},
+    {
+      meaning: 'En yakın benzin istasyonu neredeydi?',
+      sentence: 'Where was the nearest gas station?',
+    },
+    {
+      meaning: 'Kedi nerede saklanıyordu?',
+      sentence: 'Where was the cat hiding?',
+    },
+    {meaning: 'Havlular neredeydi?', sentence: 'Where were the towels?'},
+    {
+      meaning: 'Müzik nereden geliyordu?',
+      sentence: 'Where was the music coming from?',
+    },
+    {
+      meaning: 'Şef yemeği nerede hazırlıyordu?',
+      sentence: 'Where was the chef preparing the food?',
+    },
+  ],
+  'C1-possible-answer': [
+    {meaning: undefined, sentence: 'You were at home.'},
+    {meaning: undefined, sentence: 'I was at the park.'},
+    {meaning: undefined, sentence: 'He was at school.'},
+    {meaning: undefined, sentence: 'She was at work.'},
+    {meaning: undefined, sentence: 'We were at the beach.'},
+    {meaning: undefined, sentence: 'They were in Italy.'},
+    {meaning: undefined, sentence: 'He was at a concert.'},
+    {meaning: undefined, sentence: 'She was in London.'},
+    {meaning: undefined, sentence: 'They were at a restaurant.'},
+    {meaning: undefined, sentence: 'The bus stop was on Main Street.'},
+    {meaning: undefined, sentence: 'The nearest hospital was downtown.'},
+    {meaning: undefined, sentence: 'The kids were playing in the park.'},
+    {meaning: undefined, sentence: 'My favorite restaurant was on Elm Street.'},
+    {meaning: undefined, sentence: 'I was keeping them in my bag.'},
+    {meaning: undefined, sentence: 'My office was in the city center.'},
+    {meaning: undefined, sentence: 'The library was next to the post office.'},
+    {meaning: undefined, sentence: 'They were going to the zoo.'},
+    {meaning: undefined, sentence: 'My shoes were under the bed.'},
+    {meaning: undefined, sentence: 'It was parked in the garage.'},
+    {meaning: undefined, sentence: 'The meeting room was on the second floor.'},
+    {meaning: undefined, sentence: 'My hometown was Karaman.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest grocery store was around the corner.',
+    },
+    {meaning: undefined, sentence: 'I was planning to go to a concert.'},
+    {meaning: undefined, sentence: 'The exit was to your right.'},
+    {meaning: undefined, sentence: 'My friend was at the library.'},
+    {meaning: undefined, sentence: 'The dog was in the backyard.'},
+    {meaning: undefined, sentence: 'The tickets were in my pocket.'},
+    {meaning: undefined, sentence: 'I was sitting in the front row.'},
+    {meaning: undefined, sentence: 'The bathroom was down the hall.'},
+    {meaning: undefined, sentence: 'The train station was near the museum.'},
+    {meaning: undefined, sentence: 'I was from Elazığ.'},
+    {meaning: undefined, sentence: 'The nearest bank was across the street.'},
+    {meaning: undefined, sentence: 'The documents were on my desk.'},
+    {
+      meaning: undefined,
+      sentence: 'The conference was held at the convention center.',
+    },
+    {
+      meaning: undefined,
+      sentence: "My appointment was at the dentist's office.",
+    },
+    {meaning: undefined, sentence: 'The guests were staying at the hotel.'},
+    {meaning: undefined, sentence: 'The school was located in the suburb.'},
+    {meaning: undefined, sentence: 'The new mall was near the airport.'},
+    {meaning: undefined, sentence: 'My wallet was in my backpack.'},
+    {meaning: undefined, sentence: 'The apples were in the kitchen.'},
+    {meaning: undefined, sentence: 'They were playing soccer in the field.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest pharmacy was next to the supermarket.',
+    },
+    {meaning: undefined, sentence: 'The bus was going to the city center.'},
+    {meaning: undefined, sentence: 'My glasses were on the table.'},
+    {meaning: undefined, sentence: 'The books were on the shelf.'},
+    {
+      meaning: undefined,
+      sentence: 'The nearest gas station was down the street.',
+    },
+    {meaning: undefined, sentence: 'The cat was hiding under the couch.'},
+    {meaning: undefined, sentence: 'The towels were in the bathroom.'},
+    {meaning: undefined, sentence: 'The music was coming from the next room.'},
+    {
+      meaning: undefined,
+      sentence: 'The chef was preparing the food in the kitchen.',
+    },
+  ],
+  C2: [
+    {meaning: 'Nerede yaşadın?', sentence: 'Where did you live?'},
+    {meaning: 'Nerede çalıştın?', sentence: 'Where did you work?'},
+    {meaning: 'Nerede okudun?', sentence: 'Where did you study?'},
+    {
+      meaning: 'Nereden market alışverişi yaptın?',
+      sentence: 'Where did you buy groceries?',
+    },
+    {
+      meaning: 'Nerede yürüyüş yaptın?',
+      sentence: 'Where did you go for a walk?',
+    },
+    {
+      meaning: 'Öğle yemeğini nerede yedin?',
+      sentence: 'Where did you eat lunch?',
+    },
+    {meaning: 'Nerede spor yaptın?', sentence: 'Where did you play sports?'},
+    {
+      meaning: 'Arkadaşlarınla nerede buluştun?',
+      sentence: 'Where did you meet your friends?',
+    },
+    {
+      meaning: 'Filmleri nerede izledin?',
+      sentence: 'Where did you watch movies?',
+    },
+    {
+      meaning: 'Otobüsü nerede yakaladın?',
+      sentence: 'Where did you catch the bus?',
+    },
+    {
+      meaning: 'Kitapları nerede okudun?',
+      sentence: 'Where did you read books?',
+    },
+    {meaning: 'Nerede yüzdün?', sentence: 'Where did you swim?'},
+    {
+      meaning: 'Nerede alışveriş yaptın?',
+      sentence: 'Where did you go shopping?',
+    },
+    {
+      meaning: 'Hafta sonlarını nerede geçirdin?',
+      sentence: 'Where did you spend your weekends?',
+    },
+    {
+      meaning: 'Köpeğini nerede yürüyüşe çıkardın?',
+      sentence: 'Where did you take your dog for a walk?',
+    },
+    {meaning: 'Annen nerede çalıştı?', sentence: 'Where did your mother work?'},
+    {
+      meaning: 'Baban nerede koşuya çıktı?',
+      sentence: 'Where did your father go for a run?',
+    },
+    {
+      meaning: 'Kız kardeşin nerede okudu?',
+      sentence: 'Where did your sister study?',
+    },
+    {
+      meaning: 'Erkek kardeşin nerede futbol oynadı?',
+      sentence: 'Where did your brother play football?',
+    },
+    {
+      meaning: 'Arkadaşın nerede yaşadı?',
+      sentence: 'Where did your friend live?',
+    },
+    {
+      meaning: 'Öğretmen nerede ders verdi?',
+      sentence: 'Where did the teacher teach?',
+    },
+    {
+      meaning: 'Arabayı nerede park etti?',
+      sentence: 'Where did he park his car?',
+    },
+    {
+      meaning: 'Doğum günlerini nerede kutladılar?',
+      sentence: 'Where did they celebrate birthdays?',
+    },
+    {
+      meaning: 'Elbiselerini nereden aldı?',
+      sentence: 'Where did she buy her clothes?',
+    },
+    {
+      meaning: 'Tatile nereye gittik?',
+      sentence: 'Where did we go on vacation?',
+    },
+    {meaning: 'Yoga nerede yaptın?', sentence: 'Where did you practice yoga?'},
+    {
+      meaning: 'Yeni kitapları nerede buldular?',
+      sentence: 'Where did they find new books?',
+    },
+    {meaning: 'Nerede resim yaptı?', sentence: 'Where did he paint?'},
+    {
+      meaning: 'Bisikletini nerede tamir etti?',
+      sentence: 'Where did she fix her bike?',
+    },
+    {
+      meaning: 'Eski kıyafetleri nereye bağışladın?',
+      sentence: 'Where did you donate old clothes?',
+    },
+    {
+      meaning: 'Toplantılara nerede katıldık?',
+      sentence: 'Where did we join meetings?',
+    },
+    {meaning: 'Nerede gönüllü oldular?', sentence: 'Where did they volunteer?'},
+    {
+      meaning: 'Çiçekleri nerede diktik?',
+      sentence: 'Where did we plant flowers?',
+    },
+    {meaning: 'Yemeği nerede pişirdi?', sentence: 'Where did she cook dinner?'},
+    {
+      meaning: 'Müziği nerede dinledi?',
+      sentence: 'Where did he listen to music?',
+    },
+    {meaning: 'Nerede satranç oynadın?', sentence: 'Where did you play chess?'},
+    {
+      meaning: 'Mektupları nerede yazdı?',
+      sentence: 'Where did she write letters?',
+    },
+    {
+      meaning: 'Ayakkabılarını nerede temizlediler?',
+      sentence: 'Where did they clean their shoes?',
+    },
+    {
+      meaning: 'Nerede performans sergiledin?',
+      sentence: 'Where did you perform?',
+    },
+    {
+      meaning: 'Kıyafetleri nerede dikti?',
+      sentence: 'Where did he sew clothes?',
+    },
+    {
+      meaning: 'Ödevini nerede yaptın?',
+      sentence: 'Where did you do your homework?',
+    },
+    {
+      meaning: 'Belgeleri nerede bastılar?',
+      sentence: 'Where did they print documents?',
+    },
+    {
+      meaning: 'Piyanoyu nerede çaldı?',
+      sentence: 'Where did she play the piano?',
+    },
+    {
+      meaning: 'Telefon görüşmelerini nerede yaptın?',
+      sentence: 'Where did you make phone calls?',
+    },
+    {
+      meaning: 'Telefonunu nerede şarj etti?',
+      sentence: 'Where did he charge his phone?',
+    },
+    {
+      meaning: 'Sebzeleri nerede yetiştirdik?',
+      sentence: 'Where did we grow vegetables?',
+    },
+    {
+      meaning: 'Arabayı nerede yıkadın?',
+      sentence: 'Where did you wash your car?',
+    },
+    {
+      meaning: 'Fotoğrafları nerede bastı?',
+      sentence: 'Where did she print photos?',
+    },
+    {
+      meaning: 'Yeni becerileri nerede öğrendiler?',
+      sentence: 'Where did they learn new skills?',
+    },
+    {
+      meaning: 'Yemek tariflerini nerede bulduk?',
+      sentence: 'Where did we find recipes?',
+    },
+  ],
+  'C2-possible-answer': [
+    {meaning: undefined, sentence: 'I lived in New York.'},
+    {meaning: undefined, sentence: 'I worked at a hospital.'},
+    {meaning: undefined, sentence: 'I studied at university.'},
+    {meaning: undefined, sentence: 'I bought groceries at the local market.'},
+    {meaning: undefined, sentence: 'I went for a walk in the park.'},
+    {meaning: undefined, sentence: 'I ate lunch at a restaurant.'},
+    {meaning: undefined, sentence: 'I played sports in the gym.'},
+    {meaning: undefined, sentence: 'I met my friends at the café.'},
+    {meaning: undefined, sentence: 'I watched movies at home.'},
+    {meaning: undefined, sentence: 'I caught the bus at the main station.'},
+    {meaning: undefined, sentence: 'I read books in the library.'},
+    {meaning: undefined, sentence: 'I swam in the lake.'},
+    {meaning: undefined, sentence: 'I went shopping at the mall.'},
+    {meaning: undefined, sentence: 'I spent my weekends at the beach.'},
+    {
+      meaning: undefined,
+      sentence: 'I took my dog for a walk in the neighborhood.',
+    },
+    {meaning: undefined, sentence: 'My mother worked at a school.'},
+    {meaning: undefined, sentence: 'My father went for a run in the morning.'},
+    {meaning: undefined, sentence: 'My sister studied in Paris.'},
+    {
+      meaning: undefined,
+      sentence: 'My brother played football at the local field.',
+    },
+    {meaning: undefined, sentence: 'My friend lived in Los Angeles.'},
+    {meaning: undefined, sentence: 'The teacher taught at the high school.'},
+    {meaning: undefined, sentence: 'He parked his car in the garage.'},
+    {meaning: undefined, sentence: 'They celebrated birthdays at home.'},
+    {meaning: undefined, sentence: 'She bought her clothes online.'},
+    {meaning: undefined, sentence: 'We went on vacation to Italy.'},
+    {meaning: undefined, sentence: 'I practiced yoga at the studio.'},
+    {meaning: undefined, sentence: 'They found new books at the bookstore.'},
+    {meaning: undefined, sentence: 'He painted in his studio.'},
+    {meaning: undefined, sentence: 'She fixed her bike in the garage.'},
+    {meaning: undefined, sentence: 'I donated old clothes to charity.'},
+    {meaning: undefined, sentence: 'We joined meetings at the office.'},
+    {meaning: undefined, sentence: 'They volunteered at the animal shelter.'},
+    {meaning: undefined, sentence: 'We planted flowers in the garden.'},
+    {meaning: undefined, sentence: 'She cooked dinner in the kitchen.'},
+    {meaning: undefined, sentence: 'He listened to music in his room.'},
+    {meaning: undefined, sentence: 'I played chess with my brother.'},
+    {meaning: undefined, sentence: 'She wrote letters at her desk.'},
+    {meaning: undefined, sentence: 'They cleaned their shoes in the hallway.'},
+    {meaning: undefined, sentence: 'I performed on stage.'},
+    {meaning: undefined, sentence: 'He sewed clothes at home.'},
+    {meaning: undefined, sentence: 'I did my homework at the library.'},
+    {meaning: undefined, sentence: 'They printed documents at the office.'},
+    {meaning: undefined, sentence: 'She played the piano in the living room.'},
+    {meaning: undefined, sentence: 'I made phone calls from my office.'},
+    {meaning: undefined, sentence: 'He charged his phone in the living room.'},
+    {meaning: undefined, sentence: 'We grew vegetables in the backyard.'},
+    {meaning: undefined, sentence: 'I washed my car in the driveway.'},
+    {meaning: undefined, sentence: 'She printed photos at the print shop.'},
+    {
+      meaning: undefined,
+      sentence: 'They learned new skills at the community center.',
+    },
+    {meaning: undefined, sentence: 'We found recipes online.'},
+  ],
+  C3: [
+    {meaning: 'Nerede yaşıyordun?', sentence: 'Where were you living?'},
+    {meaning: 'Nerede çalışıyordun?', sentence: 'Where were you working?'},
+    {
+      meaning: 'Nerede öğrenim görüyordun?',
+      sentence: 'Where were you studying?',
+    },
+    {
+      meaning: 'Nereden alışveriş yapıyordun?',
+      sentence: 'Where were you buying groceries?',
+    },
+    {
+      meaning: 'Nereye yürüyüşe gidiyordun?',
+      sentence: 'Where were you going for a walk?',
+    },
+    {
+      meaning: 'Nerede öğle yemeği yiyordun?',
+      sentence: 'Where were you eating lunch?',
+    },
+    {
+      meaning: 'Nerede spor yapıyordun?',
+      sentence: 'Where were you playing sports?',
+    },
+    {
+      meaning: 'Arkadaşlarınla nerede buluşuyordun?',
+      sentence: 'Where were you meeting your friends?',
+    },
+    {
+      meaning: 'Nerede film izliyordun?',
+      sentence: 'Where were you watching movies?',
+    },
+    {
+      meaning: 'Otobüse nerede biniyordun?',
+      sentence: 'Where were you catching the bus?',
+    },
+    {
+      meaning: 'Nerede kitap okuyordun?',
+      sentence: 'Where were you reading books?',
+    },
+    {meaning: 'Nerede yüzüyordun?', sentence: 'Where were you swimming?'},
+    {
+      meaning: 'Nerede alışveriş yapıyordun?',
+      sentence: 'Where were you going shopping?',
+    },
+    {
+      meaning: 'Hafta sonlarını nerede geçiriyordun?',
+      sentence: 'Where were you spending your weekends?',
+    },
+    {
+      meaning: 'Köpeğini yürüyüşe nerede çıkarıyordun?',
+      sentence: 'Where were you taking your dog for a walk?',
+    },
+    {
+      meaning: 'Annen nerede çalışıyordu?',
+      sentence: 'Where was your mother working?',
+    },
+    {
+      meaning: 'Baban nerede koşuya gidiyordu?',
+      sentence: 'Where was your father going for a run?',
+    },
+    {
+      meaning: 'Kız kardeşin nerede okuyordu?',
+      sentence: 'Where was your sister studying?',
+    },
+    {
+      meaning: 'Erkek kardeşin nerede futbol oynuyordu?',
+      sentence: 'Where was your brother playing football?',
+    },
+    {
+      meaning: 'Arkadaşın nerede yaşıyordu?',
+      sentence: 'Where was your friend living?',
+    },
+    {
+      meaning: 'Öğretmen nerede ders veriyordu?',
+      sentence: 'Where was the teacher teaching?',
+    },
+    {
+      meaning: 'Arabasını nerede park ediyordu?',
+      sentence: 'Where was he parking his car?',
+    },
+    {
+      meaning: 'Doğum günlerini nerede kutluyorlardı?',
+      sentence: 'Where were they celebrating birthdays?',
+    },
+    {
+      meaning: 'Kıyafetlerini nereden alıyordu?',
+      sentence: 'Where was she buying her clothes?',
+    },
+    {
+      meaning: 'Tatile nereye gidiyordun?',
+      sentence: 'Where were you going on vacation?',
+    },
+    {
+      meaning: 'Yogayı nerede yapıyordun?',
+      sentence: 'Where were you practicing yoga?',
+    },
+    {
+      meaning: 'Yeni kitapları nerede buluyorlardı?',
+      sentence: 'Where were they finding new books?',
+    },
+    {meaning: 'Nerede resim yapıyordu?', sentence: 'Where was he painting?'},
+    {
+      meaning: 'Bisikletini nerede tamir ediyordu?',
+      sentence: 'Where was she fixing her bike?',
+    },
+    {
+      meaning: 'Eski kıyafetlerini nereye bağışlıyordun?',
+      sentence: 'Where were you donating old clothes?',
+    },
+    {
+      meaning: 'Toplantılara nerede katılıyorduk?',
+      sentence: 'Where were we joining meetings?',
+    },
+    {
+      meaning: 'Nerede gönüllü oluyorlardı?',
+      sentence: 'Where were they volunteering?',
+    },
+    {
+      meaning: 'Çiçekleri nerede ekiyorduk?',
+      sentence: 'Where were we planting flowers?',
+    },
+    {
+      meaning: 'Akşam yemeğini nerede yapıyordu?',
+      sentence: 'Where was she cooking dinner?',
+    },
+    {
+      meaning: 'Müziği nerede dinliyordu?',
+      sentence: 'Where was he listening to music?',
+    },
+    {
+      meaning: 'Satranç nerede oynuyordun?',
+      sentence: 'Where were you playing chess?',
+    },
+    {
+      meaning: 'Mektupları nerede yazıyordu?',
+      sentence: 'Where was she writing letters?',
+    },
+    {
+      meaning: 'Ayakkabılarını nerede temizliyorlardı?',
+      sentence: 'Where were they cleaning their shoes?',
+    },
+    {
+      meaning: 'Nerede performans sergiliyordun?',
+      sentence: 'Where were you performing?',
+    },
+    {
+      meaning: 'Kıyafetleri nerede dikiyordu?',
+      sentence: 'Where was he sewing clothes?',
+    },
+    {
+      meaning: 'Ödevini nerede yapıyordun?',
+      sentence: 'Where were you doing your homework?',
+    },
+    {
+      meaning: 'Belgeleri nerede yazdırıyorlardı?',
+      sentence: 'Where were they printing documents?',
+    },
+    {
+      meaning: 'Piyano nerede çalıyordu?',
+      sentence: 'Where was she playing the piano?',
+    },
+    {
+      meaning: 'Telefon görüşmelerini nerede yapıyordun?',
+      sentence: 'Where were you making phone calls?',
+    },
+    {
+      meaning: 'Telefonunu nerede şarj ediyordu?',
+      sentence: 'Where was he charging his phone?',
+    },
+    {
+      meaning: 'Sebzeleri nerede yetiştiriyorduk?',
+      sentence: 'Where were we growing vegetables?',
+    },
+    {
+      meaning: 'Arabanı nerede yıkıyordun?',
+      sentence: 'Where were you washing your car?',
+    },
+    {
+      meaning: 'Fotoğrafları nerede basıyordu?',
+      sentence: 'Where was she printing photos?',
+    },
+    {
+      meaning: 'Yeni becerileri nerede öğreniyorlardı?',
+      sentence: 'Where were they learning new skills?',
+    },
+    {
+      meaning: 'Yemek tariflerini nerede buluyorduk?',
+      sentence: 'Where were we finding recipes?',
+    },
+  ],
+};
+
 export const QuestionsTranslationSentences = {
   'A1-G': [
     {

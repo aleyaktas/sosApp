@@ -62,6 +62,16 @@ const RootNavigation = () => {
           headerTitleAlign: 'center',
         }}
       />
+      {/* <Stack.Screen
+        name="QuestionsTranslation"
+        component={QuestionsTranslation}
+        options={{
+          headerTitle: 'Çeviri Çalışması',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      /> */}
+
       <Stack.Screen
         name="SubCategory"
         component={SubCategory}

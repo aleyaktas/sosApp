@@ -281,7 +281,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 1,
     title: 'Ünite 1',
-    description: 'Zamanlar ünite 1',
+    description: 'Geniş Zamanlar Ünite 1',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/1.png'),
@@ -289,7 +289,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 2,
     title: 'Ünite 2',
-    description: 'Zamanlar ünite 2',
+    description: 'Geniş Zamanlar Ünite 2',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/2.png'),
@@ -297,7 +297,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 3,
     title: 'Ünite 3',
-    description: 'Zamanlar ünite 3',
+    description: 'Geniş Zamanlar Ünite 3',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/3.png'),
@@ -305,7 +305,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 4,
     title: 'Ünite 4',
-    description: 'Zamanlar ünite 4',
+    description: 'Geniş Zamanlar Ünite 4',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/4.png'),
@@ -313,7 +313,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 5,
     title: 'Ünite 5',
-    description: 'Zamanlar ünite 5',
+    description: 'Geniş Zamanlar Ünite 5',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/5.png'),
@@ -321,7 +321,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 6,
     title: 'Ünite 6',
-    description: 'Zamanlar ünite 6',
+    description: 'Geniş Zamanlar Ünite 6',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/6.png'),
@@ -329,7 +329,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 7,
     title: 'Ünite 7',
-    description: 'Zamanlar ünite 7',
+    description: 'Geniş Zamanlar Ünite 7',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/7.png'),
@@ -337,7 +337,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 8,
     title: 'Ünite 8',
-    description: 'Zamanlar ünite 8',
+    description: 'Geniş Zamanlar Ünite 8',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/8.png'),
@@ -345,7 +345,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 9,
     title: 'Ünite 9',
-    description: 'Zamanlar ünite 9',
+    description: 'Geniş Zamanlar Ünite 9',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/9.png'),
@@ -353,7 +353,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 10,
     title: 'Ünite 10',
-    description: 'Zamanlar ünite 10',
+    description: 'Geniş Zamanlar Ünite 10',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/10.png'),
@@ -361,7 +361,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 11,
     title: 'Ünite 11',
-    description: 'Zamanlar ünite 11',
+    description: 'Geniş Zamanlar Ünite 11',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/11.png'),
@@ -369,7 +369,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 12,
     title: 'Ünite 12',
-    description: 'Zamanlar ünite 12',
+    description: 'Geniş Zamanlar Ünite 12',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/12.png'),
@@ -377,7 +377,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 13,
     title: 'Ünite 13',
-    description: 'Zamanlar ünite 13',
+    description: 'Geniş Zamanlar Ünite 13',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/13.png'),
@@ -385,7 +385,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 14,
     title: 'Ünite 14',
-    description: 'Zamanlar ünite 14',
+    description: 'Geniş Zamanlar Ünite 14',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/14.png'),
@@ -393,7 +393,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 15,
     title: 'Ünite 15',
-    description: 'Zamanlar ünite 15',
+    description: 'Geniş Zamanlar Ünite 15',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/15.png'),
@@ -401,7 +401,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 16,
     title: 'Ünite 16',
-    description: 'Zamanlar ünite 16',
+    description: 'Geniş Zamanlar Ünite 16',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/16.png'),
@@ -409,7 +409,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 17,
     title: 'Ünite 17',
-    description: 'Zamanlar ünite 17',
+    description: 'Geniş Zamanlar Ünite 17',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/17.png'),
@@ -417,7 +417,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 18,
     title: 'Ünite 18',
-    description: 'Zamanlar ünite 18',
+    description: 'Geniş Zamanlar Ünite 18',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/18.png'),
@@ -425,7 +425,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 19,
     title: 'Ünite 19',
-    description: 'Zamanlar ünite 19',
+    description: 'Geniş Zamanlar Ünite 19',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/19.png'),
@@ -433,7 +433,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 20,
     title: 'Ünite 20',
-    description: 'Zamanlar ünite 20',
+    description: 'Geniş Zamanlar Ünite 20',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/20.png'),
@@ -441,7 +441,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 21,
     title: 'Ünite 21',
-    description: 'Zamanlar ünite 21',
+    description: 'Geniş Zamanlar Ünite 21',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/21.png'),
@@ -449,7 +449,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 22,
     title: 'Ünite 22',
-    description: 'Zamanlar ünite 22',
+    description: 'Geniş Zamanlar Ünite 22',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/22.png'),
@@ -457,7 +457,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 23,
     title: 'Ünite 23',
-    description: 'Zamanlar ünite 23',
+    description: 'Geniş Zamanlar Ünite 23',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/23.png'),
@@ -465,7 +465,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 24,
     title: 'Ünite 24',
-    description: 'Zamanlar ünite 24',
+    description: 'Geniş Zamanlar Ünite 24',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/24.png'),
@@ -473,7 +473,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 25,
     title: 'Ünite 25',
-    description: 'Zamanlar ünite 25',
+    description: 'Geniş Zamanlar Ünite 25',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/25.png'),
@@ -481,7 +481,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 26,
     title: 'Ünite 26',
-    description: 'Zamanlar ünite 26',
+    description: 'Geniş Zamanlar Ünite 26',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/26.png'),
@@ -489,7 +489,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 27,
     title: 'Ünite 27',
-    description: 'Zamanlar ünite 27',
+    description: 'Geniş Zamanlar Ünite 27',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/27.png'),
@@ -497,7 +497,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 28,
     title: 'Ünite 28',
-    description: 'Zamanlar ünite 28',
+    description: 'Geniş Zamanlar Ünite 28',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/28.png'),
@@ -505,7 +505,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 29,
     title: 'Ünite 29',
-    description: 'Zamanlar ünite 29',
+    description: 'Geniş Zamanlar Ünite 29',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/29.png'),
@@ -513,7 +513,7 @@ export const TensesFourSkillsUnits: IUnit[] = [
   {
     id: 30,
     title: 'Ünite 30',
-    description: 'Zamanlar ünite 30',
+    description: 'Geniş Zamanlar Ünite 30',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/30.png'),
@@ -615,52 +615,66 @@ export const TensesVideos: IVideo[] = [
     id: 4,
     title: '1b',
     page: 'Video',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-1b-am-is-are-use-and-form-1715788902.mp4',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 5,
     title: '1c',
     page: 'Video',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-1c-was-were-use-and-form/3587',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 6,
-    title: '1a',
+    title: '1a Will',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-1a-will-be-use-and-form-1715788836.mp4',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 7,
+    title: '1a Going To',
+    page: 'Video',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-1a-going-to-be-use-and-form-1715788843.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 8,
     title: '2b',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
-    id: 8,
+    id: 9,
     title: '2c',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
-    id: 9,
+    id: 10,
     title: '2a',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
-    id: 10,
+    id: 11,
     title: '3b',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
-    id: 11,
+    id: 12,
     title: '3c',
     page: 'Video',
     image: require('../assets/icons/video.png'),
   },
   {
-    id: 12,
+    id: 13,
     title: '3a',
     page: 'Video',
     image: require('../assets/icons/video.png'),
