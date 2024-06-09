@@ -84,6 +84,8 @@ export const QuestionProvider: FC<QuestionProviderProps> = ({
         body: formData,
       });
       const data = await res.json();
+      console.log('res', data);
+      console.log('type', type);
       const findQuestions = data.filter((item: any) => item.type === type);
       setQuestionText({
         title: findQuestions[0].title,
@@ -92,6 +94,7 @@ export const QuestionProvider: FC<QuestionProviderProps> = ({
 
       const formDataAnswers = new FormData();
       formDataAnswers.append('metin_id', findQuestions[0].id);
+      console.log('resAnswers', formDataAnswers);
 
       try {
         const resAnswers = await fetch(
@@ -102,7 +105,8 @@ export const QuestionProvider: FC<QuestionProviderProps> = ({
           },
         );
         const dataAnswers = await resAnswers.json();
-        const newArr = shuffleArray(dataAnswers);
+        const newArr =
+          type !== 'clozetest' ? shuffleArray(dataAnswers) : dataAnswers;
         setAnswers(newArr);
         setLoading(false);
       } catch (err) {
