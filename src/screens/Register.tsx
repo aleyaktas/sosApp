@@ -10,9 +10,10 @@ import {
 } from 'react-native';
 import {AuthNavigationProps} from '../navigation/authNavigation';
 import {showMessage} from '../utils/showMessage';
+import Toast from '../components/Toast';
 
 const Register: FC<AuthNavigationProps> = ({navigation}) => {
-  const [name, setName] = useState('');
+  // const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
@@ -28,7 +29,7 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
     }
     const formData = new FormData();
     formData.append('email', email);
-    formData.append('name', name);
+    // formData.append('name', name);
     formData.append('password', password);
     formData.append('phone', '0');
     formData.append('points', '0');
@@ -65,6 +66,7 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
 
   return (
     <SafeAreaView style={styles.safeArea}>
+      <Toast />
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View style={styles.mainContainer}>
           <Text style={styles.welcomeText}>Create Account</Text>
@@ -79,15 +81,6 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
               placeholderTextColor={'gray'}
               value={email}
               onChangeText={setEmail}
-            />
-          </View>
-          <View style={styles.inputContainer}>
-            <TextInput
-              style={styles.textInput}
-              placeholder="Name"
-              placeholderTextColor={'gray'}
-              value={name}
-              onChangeText={setName}
             />
           </View>
           <View style={styles.inputContainer}>

@@ -15,6 +15,7 @@ import Notes from '../screens/Notes';
 import NoteDetails from '../screens/NoteDetails';
 import VideoDetails from '../screens/VideoDetails';
 import Listening from '../screens/Listening';
+import QuestionsTranslation from '../screens/QuestionsTranslation';
 
 const Stack = createStackNavigator();
 
@@ -62,7 +63,7 @@ const RootNavigation = () => {
           headerTitleAlign: 'center',
         }}
       />
-      {/* <Stack.Screen
+      <Stack.Screen
         name="QuestionsTranslation"
         component={QuestionsTranslation}
         options={{
@@ -70,7 +71,7 @@ const RootNavigation = () => {
           headerShown: true,
           headerTitleAlign: 'center',
         }}
-      /> */}
+      />
 
       <Stack.Screen
         name="SubCategory"

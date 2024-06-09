@@ -10,6 +10,9 @@ import {
 } from 'react-native';
 import {AuthNavigationProps} from '../navigation/authNavigation';
 import {translateArray} from '../helpers/translateArray';
+import {showMessage} from '../utils/showMessage';
+import Toast from '../components/Toast';
+import {test2} from '../utils/data';
 
 const Login: FC<AuthNavigationProps> = ({navigation}) => {
   const [username, setUsername] = useState('');
@@ -19,29 +22,35 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
     const formData = new FormData();
     formData.append('email', username);
     formData.append('password', password);
-    // const res = await fetch('https://kelibu.net/api/login', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'multipart/form-data',
-    //   },
-    //   body: formData,
-    // });
-    navigation.reset({
-      index: 0,
-      routes: [
-        {
-          name: 'BottomTabs',
-          state: {
-            index: 0,
-            routes: [
-              {
-                name: 'Home',
-              },
-            ],
-          },
-        },
-      ],
+    const res = await fetch('https://kelibu.net/api/sos/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'multipart/form-data',
+        'X-Custom-Header': 'Hilal',
+      },
+      body: formData,
     });
+    console.log(res);
+    if (res.status === 200 || res.status === 201) {
+      navigation.reset({
+        index: 0,
+        routes: [
+          {
+            name: 'BottomTabs',
+            state: {
+              index: 0,
+              routes: [
+                {
+                  name: 'Home',
+                },
+              ],
+            },
+          },
+        ],
+      });
+    } else {
+      showMessage('Kullanıcı bulunamadı, bilgilerinizi kontrol edin', 'error');
+    }
   };
 
   const handleRegister = () => {
@@ -50,6 +59,7 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
 
   return (
     <SafeAreaView style={styles.safeArea}>
+      <Toast />
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View style={styles.mainContainer}>
           <Text style={styles.welcomeText}>Welcome</Text>
