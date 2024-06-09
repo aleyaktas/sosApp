@@ -19,6 +19,8 @@ const Videos = () => {
   const title = route.params.title;
   const videos = require(`../utils/data`)[`${title}Videos`];
 
+  console.log(videos);
+
   const menuItem = ({item}: {item: SubCategory}) => {
     return (
       <TouchableOpacity
@@ -46,15 +48,15 @@ const Videos = () => {
         contentContainerStyle={{
           marginTop: 20,
           marginHorizontal: 12,
+          flexWrap: 'wrap',
+          justifyContent: 'flex-start',
+          flexDirection: 'row',
+          rowGap: 16,
+          columnGap: 16,
         }}
         data={videos}
         renderItem={({item}) => menuItem({item})}
         keyExtractor={item => item.id.toString()}
-        numColumns={3}
-        columnWrapperStyle={{
-          gap: 16,
-          marginVertical: 8,
-        }}
       />
     </View>
   );
@@ -70,10 +72,8 @@ const styles = StyleSheet.create({
     gap: 4,
     paddingHorizontal: 8,
     paddingVertical: 8,
-
-    flex: 1,
+    // flex: 1,
     backgroundColor: 'white',
-
     borderWidth: 0.3,
     borderColor: '#e0e0e0',
     borderRadius: 10,

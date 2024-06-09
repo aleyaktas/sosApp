@@ -131,7 +131,7 @@ const RootNavigation = () => {
         name="VideoDetails"
         component={VideoDetails}
         options={{
-          headerTitle: 'Video Detayı',
+          headerTitle: '',
           headerShown: true,
           headerTitleAlign: 'center',
         }}

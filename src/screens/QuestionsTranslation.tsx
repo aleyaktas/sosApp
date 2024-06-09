@@ -190,11 +190,13 @@ const QuestionsTranslation: React.FC = () => {
         <Icon name="Sound" color="#56A500" width={20} height={20} />
         <Text style={styles.correctAnswerText}>{answer}</Text>
       </TouchableOpacity>
-      <View style={styles.answerHeader}>
-        <Text style={styles.possibleAnswerText}>
-          Olası Cevap: {possibleAnswer}
-        </Text>
-      </View>
+      {possibleAnswer && (
+        <View style={styles.answerHeader}>
+          <Text style={styles.possibleAnswerText}>
+            Olası Cevap: {possibleAnswer}
+          </Text>
+        </View>
+      )}
       <TouchableOpacity
         onPress={() => continueButton()}
         style={[styles.answerButton, styles.correctButton]}>
@@ -222,11 +224,14 @@ const QuestionsTranslation: React.FC = () => {
         <Icon name="Sound" color="#56A500" width={20} height={20} />
         <Text style={styles.correctAnswerText}>{answer}</Text>
       </TouchableOpacity>
-      <View style={styles.answerHeader}>
-        <Text style={styles.possibleAnswerText}>
-          Olası Cevap: {possibleAnswer}
-        </Text>
-      </View>
+      {possibleAnswer && (
+        <View style={styles.answerHeader}>
+          <Text style={styles.possibleAnswerText}>
+            Olası Cevap: {possibleAnswer}
+          </Text>
+        </View>
+      )}
+
       <TouchableOpacity
         onPress={() => continueButton()}
         style={[styles.incorrectButton, styles.answerButton]}>

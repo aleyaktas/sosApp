@@ -1,7 +1,8 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import {Route, useRoute} from '@react-navigation/native';
+import {Route, useNavigation, useRoute} from '@react-navigation/native';
 import VideoPlayer from 'react-native-video-controls';
+import {ScreenProp} from '../navigation/types';
 
 export interface VideoDetails {
   id: number;
@@ -17,6 +18,9 @@ const VideoDetails = () => {
   const videoUri = route.params.item.videoUri;
   const [isVideoOpen, setIsVideoOpen] = React.useState(false);
 
+  console.log(videoUri);
+  const navigation = useNavigation<ScreenProp>();
+
   return (
     <>
       <VideoPlayer
@@ -27,7 +31,10 @@ const VideoDetails = () => {
         controlAnimationTiming={200}
         showTimeRemaining={false}
         controlTimeout={5000}
-        onBack={() => setIsVideoOpen(false)}
+        onBack={() => {
+          navigation.goBack();
+          setIsVideoOpen(false);
+        }}
         // navigator={navigation}
         source={{uri: videoUri}}
         style={styles.video}

@@ -614,7 +614,7 @@ export const TensesVideos: IVideo[] = [
   {
     id: 4,
     title: '1b',
-    page: 'Video',
+    page: 'VideoDetails',
     videoUri:
       'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-1b-am-is-are-use-and-form-1715788902.mp4',
     image: require('../assets/icons/video.png'),
@@ -622,7 +622,7 @@ export const TensesVideos: IVideo[] = [
   {
     id: 5,
     title: '1c',
-    page: 'Video',
+    page: 'VideoDetails',
     videoUri:
       'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-1c-was-were-use-and-form/3587',
     image: require('../assets/icons/video.png'),
@@ -632,13 +632,13 @@ export const TensesVideos: IVideo[] = [
     title: '1a Will',
     videoUri:
       'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-1a-will-be-use-and-form-1715788836.mp4',
-    page: 'Video',
+    page: 'VideoDetails',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 7,
     title: '1a Going To',
-    page: 'Video',
+    page: 'VideoDetails',
     videoUri:
       'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-1a-going-to-be-use-and-form-1715788843.mp4',
     image: require('../assets/icons/video.png'),
@@ -646,37 +646,37 @@ export const TensesVideos: IVideo[] = [
   {
     id: 8,
     title: '2b',
-    page: 'Video',
+    page: 'VideoDetails',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 9,
     title: '2c',
-    page: 'Video',
+    page: 'VideoDetails',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 10,
     title: '2a',
-    page: 'Video',
+    page: 'VideoDetails',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 11,
     title: '3b',
-    page: 'Video',
+    page: 'VideoDetails',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 12,
     title: '3c',
-    page: 'Video',
+    page: 'VideoDetails',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 13,
     title: '3a',
-    page: 'Video',
+    page: 'VideoDetails',
     image: require('../assets/icons/video.png'),
   },
 ];
