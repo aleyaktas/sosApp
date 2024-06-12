@@ -6,6 +6,7 @@ import {
   Image,
   Text,
   StyleSheet,
+  Dimensions,
 } from 'react-native';
 import {ScreenProp} from '../navigation/types';
 import {Route, useNavigation, useRoute} from '@react-navigation/native';
@@ -34,7 +35,7 @@ const Videos = () => {
         }
         key={item.id}
         style={styles.button}>
-        <Image source={item.image} style={{width: 30, height: 30}} />
+        <Image source={item.image} style={styles.image} />
         <View style={styles.text}>
           <Text style={styles.title}>{item.title}</Text>
         </View>
@@ -45,34 +46,34 @@ const Videos = () => {
   return (
     <View style={styles.container}>
       <FlatList
-        contentContainerStyle={{
-          marginTop: 20,
-          marginHorizontal: 12,
-          flexWrap: 'wrap',
-          justifyContent: 'flex-start',
-          flexDirection: 'row',
-          rowGap: 16,
-          columnGap: 16,
-        }}
+        contentContainerStyle={styles.contentContainer}
         data={videos}
         renderItem={({item}) => menuItem({item})}
         keyExtractor={item => item.id.toString()}
+        numColumns={2}
       />
     </View>
   );
 };
 
+const {width} = Dimensions.get('window');
+const ITEM_WIDTH = (width - 48) / 2; // Calculate item width to fit within the screen with margins
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#f8f8f8',
+    paddingHorizontal: 16,
+  },
+  contentContainer: {
+    marginTop: 20,
+    justifyContent: 'center', // Center items horizontally
+    paddingBottom: 20,
   },
   button: {
-    flexDirection: 'row',
+    flexDirection: 'column',
     alignItems: 'center',
-    gap: 4,
-    paddingHorizontal: 8,
-    paddingVertical: 8,
-    // flex: 1,
+    padding: 16,
     backgroundColor: 'white',
     borderWidth: 0.3,
     borderColor: '#e0e0e0',
@@ -85,19 +86,22 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 5,
+    width: ITEM_WIDTH,
+    margin: 8, // Adjust margins for spacing
   },
   image: {
-    width: 50,
-    height: 50,
+    width: 100,
+    height: 100,
+    marginBottom: 8,
   },
   text: {
-    flexDirection: 'column',
-    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   title: {
     fontSize: 16,
     fontWeight: 'bold',
     color: 'black',
+    textAlign: 'center',
   },
   description: {
     fontSize: 14,
