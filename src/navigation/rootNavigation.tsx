@@ -17,6 +17,7 @@ import VideoDetails from '../screens/VideoDetails';
 import Listening from '../screens/Listening';
 import QuestionsTranslation from '../screens/QuestionsTranslation';
 import Tests from '../screens/Tests';
+import MultipleChoice from '../screens/MultipleChoice';
 
 const Stack = createStackNavigator();
 
@@ -158,6 +159,15 @@ const RootNavigation = () => {
         component={Tests}
         options={{
           headerTitle: 'Testler',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="MultipleChoice"
+        component={MultipleChoice}
+        options={{
+          headerTitle: 'Multiple Choice',
           headerShown: true,
           headerTitleAlign: 'center',
         }}

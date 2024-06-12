@@ -545,7 +545,7 @@ export const TensesSubTest: IUnit[] = [
     title: 'Çoktan Seçmeli',
     description: 'Zamanlar çoktan seçmeli test',
     mainCategory: 'TensesClozeTest',
-    page: 'MultipleChoiceTest',
+    page: 'MultipleChoice',
     image: require('../assets/images/Vocabulary.png'),
   },
 ];
