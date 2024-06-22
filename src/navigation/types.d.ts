@@ -17,6 +17,7 @@ export type StackNavigatorList = {
   VideoDetails: {title?: string; item?: any};
   Listening: {title?: string; item?: any};
   Tests: {title: string; item?: any};
+  MultipleChoice: undefined;
 };
 
 export type BottomNavigatorList = {

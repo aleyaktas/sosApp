@@ -18,6 +18,7 @@ import Home from './src/screens/SosTable';
 import RootNavigation from './src/navigation/rootNavigation';
 import {ModalProvider} from './src/contexts/ModalContext';
 import {QuestionProvider} from './src/contexts/QuestionContext';
+import {MultipleChoiceProvider} from './src/contexts/MultipleChoiceContext';
 
 const BottomTab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -34,7 +35,9 @@ function App(): React.JSX.Element {
       <NavigationContainer>
         <ModalProvider>
           <QuestionProvider>
-            <RootNavigation />
+            <MultipleChoiceProvider>
+              <RootNavigation />
+            </MultipleChoiceProvider>
           </QuestionProvider>
         </ModalProvider>
       </NavigationContainer>

@@ -1,35 +1,39 @@
-import React, {useContext, useState} from 'react';
-import {
-  Modal,
-  Text,
-  TouchableHighlight,
-  View,
-  StyleSheet,
-  TouchableOpacity,
-} from 'react-native';
+import React, {useContext, useEffect, useState} from 'react';
+import {Modal, Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 import {MultipleChoiceContext} from '../contexts/MultipleChoiceContext';
+import Loading from '../assets/gifs/Loading.gif';
 
 const MultipleChoiceModal = ({
   modalVisible,
   setModalVisible,
+  showQuestionsPress,
 }: {
   modalVisible: boolean;
   setModalVisible: (modalVisible: boolean) => void;
+  showQuestionsPress: () => void;
 }) => {
-  const levelOptions = [
-    {label: 'Seviye 1', value: 'level1'},
-    {label: 'Seviye 2', value: 'level2'},
-  ];
+  const [newCategories, setNewategories] = useState<any[]>([]);
+  const [newLevels, setNewLevels] = useState<any[]>([]);
 
-  const subjectOptions = [
-    {label: 'Sağlık', value: 'health'},
-    {label: 'Fen Bilimleri', value: 'science'},
-    {label: 'Sosyal', value: 'social'},
-  ];
-
-  const {selectedLevel, setSelectedLevel, selectedSubject, setSelectedSubject} =
+  const {categories, levels, setSelectedLevel, setSelectedSubject, loading} =
     useContext(MultipleChoiceContext);
+
+  useEffect(() => {
+    const transformedLevels = levels.map(level => ({
+      label: level.baslik,
+      value: level.id,
+    }));
+
+    setNewLevels(transformedLevels);
+
+    const transformedCategories = categories.map(category => ({
+      label: category.baslik,
+      value: category.id,
+    }));
+
+    setNewategories(transformedCategories);
+  }, [categories, levels]);
 
   return (
     <Modal
@@ -41,25 +45,33 @@ const MultipleChoiceModal = ({
       }}>
       <View style={styles.centeredView}>
         <View style={styles.modalView}>
-          {/* <Text style={styles.modalText}>
+          <Text style={styles.modalText}>
             Soruları görmek için seviye ve konu seçiniz
-          </Text> */}
+          </Text>
           <RNPickerSelect
             onValueChange={value => setSelectedLevel(value)}
-            items={levelOptions}
+            items={newLevels}
             style={pickerSelectStyles}
           />
           <RNPickerSelect
             onValueChange={value => setSelectedSubject(value)}
-            items={subjectOptions}
+            items={newCategories}
             style={pickerSelectStyles}
           />
           <TouchableOpacity
-            style={{...styles.openButton, backgroundColor: '#2196F3'}}
-            onPress={() => {
-              setModalVisible(!modalVisible);
-            }}>
-            <Text style={styles.textStyle}>Soruları Gör</Text>
+            style={{...styles.openButton}}
+            activeOpacity={0.6}
+            onPress={() => showQuestionsPress()}>
+            <Text style={styles.textStyle}>
+              {loading ? (
+                <Text>
+                  <Text>Yükleniyor</Text>
+                  <Loading />
+                </Text>
+              ) : (
+                <Text>Soruları Gör</Text>
+              )}
+            </Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -90,12 +102,12 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   openButton: {
-    backgroundColor: '#F194FF',
     borderRadius: 10,
     paddingVertical: 10,
     paddingHorizontal: 20,
     elevation: 2,
     marginTop: 20,
+    backgroundColor: 'green',
   },
   textStyle: {
     color: 'white',
