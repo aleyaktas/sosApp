@@ -60,7 +60,6 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
     console.log('fetchCategoriesLevels');
 
     try {
-      setLoading(true);
       console.log('fetchCategoriesLevels try');
       const res = await fetch('https://phdakademi.com/api/sos/getQuizData', {
         method: 'POST',
@@ -73,8 +72,6 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
       console.log('data', data);
       console.log('data.kategoriler', data.kategoriler);
       console.log('data.seviyeler', data.seviyeler);
-
-      setLoading(false);
 
       setCategories(data.kategoriler);
       setLevels(data.seviyeler);
@@ -96,6 +93,7 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
     console.log('selectedLevel', selectedLevel);
 
     try {
+      setLoading(true);
       console.log('fetchQuestions try');
       const res = await fetch(
         'https://phdakademi.com/api/sos/questionsAllPhd',
@@ -111,16 +109,17 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
 
       console.log('data', data);
 
-      const newArr = shuffleArray(data.sorular);
-      // setQuestions(data.sorular);
-      setQuestions(newArr);
-
-      console.log('data', data);
+      const newArr = await shuffleArray(data.sorular);
+      if (newArr) {
+        setQuestions(newArr);
+      }
+      return newArr;
     } catch (err) {
       console.log('err', err);
+    } finally {
+      setLoading(false);
     }
   };
-
   return (
     <MultipleChoiceContext.Provider
       value={{

@@ -2,7 +2,8 @@ import React, {useContext, useEffect, useState} from 'react';
 import {Modal, Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 import {MultipleChoiceContext} from '../contexts/MultipleChoiceContext';
-import Loading from '../assets/gifs/Loading.gif';
+import {ScreenProp} from '../navigation/types';
+import {useNavigation} from '@react-navigation/native';
 
 const MultipleChoiceModal = ({
   modalVisible,
@@ -16,8 +17,16 @@ const MultipleChoiceModal = ({
   const [newCategories, setNewategories] = useState<any[]>([]);
   const [newLevels, setNewLevels] = useState<any[]>([]);
 
-  const {categories, levels, setSelectedLevel, setSelectedSubject, loading} =
-    useContext(MultipleChoiceContext);
+  const navigation = useNavigation<ScreenProp>();
+  const {
+    categories,
+    levels,
+    setSelectedLevel,
+    setSelectedSubject,
+    loading,
+    selectedLevel,
+    selectedSubject,
+  } = useContext(MultipleChoiceContext);
 
   useEffect(() => {
     const transformedLevels = levels.map(level => ({
@@ -42,6 +51,7 @@ const MultipleChoiceModal = ({
       visible={modalVisible}
       onRequestClose={() => {
         setModalVisible(!modalVisible);
+        navigation.goBack();
       }}>
       <View style={styles.centeredView}>
         <View style={styles.modalView}>
@@ -63,11 +73,8 @@ const MultipleChoiceModal = ({
             activeOpacity={0.6}
             onPress={() => showQuestionsPress()}>
             <Text style={styles.textStyle}>
-              {loading ? (
-                <Text>
-                  <Text>Yükleniyor</Text>
-                  <Loading />
-                </Text>
+              {loading && selectedLevel && selectedSubject ? (
+                <Text>Yükleniyor</Text>
               ) : (
                 <Text>Soruları Gör</Text>
               )}
