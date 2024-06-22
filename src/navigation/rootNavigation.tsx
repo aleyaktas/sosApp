@@ -18,6 +18,7 @@ import Listening from '../screens/Listening';
 import QuestionsTranslation from '../screens/QuestionsTranslation';
 import Tests from '../screens/Tests';
 import MultipleChoice from '../screens/MultipleChoice';
+import Vocabulary from '../screens/Vocabulary';
 
 const Stack = createStackNavigator();
 
@@ -168,6 +169,15 @@ const RootNavigation = () => {
         component={MultipleChoice}
         options={{
           headerTitle: 'Multiple Choice',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="Vocabulary"
+        component={Vocabulary}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
           headerShown: true,
           headerTitleAlign: 'center',
         }}

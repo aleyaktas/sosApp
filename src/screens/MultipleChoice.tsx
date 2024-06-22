@@ -81,10 +81,10 @@ const MultipleChoice = () => {
       const backAction = () => {
         if (modalVisible) {
           setModalVisible(false);
-          navigation.goBack(); // Sayfadan çık
-          return true; // Geri tuşunu burada durdurun
+          navigation.goBack();
+          return true;
         }
-        return false; // Geri tuşunun normal işlevine devam etmesine izin verin
+        return false;
       };
 
       const backHandler = BackHandler.addEventListener(

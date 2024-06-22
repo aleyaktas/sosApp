@@ -12,6 +12,7 @@ import {AuthNavigationProps} from '../navigation/authNavigation';
 import {translateArray} from '../helpers/translateArray';
 import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
+import {translateVocArray} from '../helpers/translateVocArray';
 
 const Login: FC<AuthNavigationProps> = ({navigation}) => {
   const [username, setUsername] = useState('');

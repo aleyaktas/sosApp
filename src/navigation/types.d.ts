@@ -18,6 +18,7 @@ export type StackNavigatorList = {
   Listening: {title?: string; item?: any};
   Tests: {title: string; item?: any};
   MultipleChoice: undefined;
+  Vocabulary: {title?: string; item?: any};
 };
 
 export type BottomNavigatorList = {
