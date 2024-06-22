@@ -12,11 +12,26 @@ import {AuthNavigationProps} from '../navigation/authNavigation';
 import {translateArray} from '../helpers/translateArray';
 import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
-import {translateVocArray} from '../helpers/translateVocArray';
+import Icon from '../themes/Icon';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Login: FC<AuthNavigationProps> = ({navigation}) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [rememberMe, setRememberMe] = useState(false);
+
+  useEffect(() => {
+    const fetchRememberedUser = async () => {
+      const rememberedUsername = await AsyncStorage.getItem('username');
+      const rememberedPassword = await AsyncStorage.getItem('password');
+      if (rememberedUsername && rememberedPassword) {
+        setUsername(rememberedUsername);
+        setPassword(rememberedPassword);
+        setRememberMe(true);
+      }
+    };
+    fetchRememberedUser();
+  }, []);
 
   const handleLogin = async () => {
     const formData = new FormData();
@@ -32,6 +47,14 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
     });
     console.log(res);
     if (res.status === 200 || res.status === 201) {
+      if (rememberMe) {
+        await AsyncStorage.setItem('username', username);
+        await AsyncStorage.setItem('password', password);
+      } else {
+        await AsyncStorage.removeItem('username');
+        await AsyncStorage.removeItem('password');
+      }
+
       navigation.reset({
         index: 0,
         routes: [
@@ -85,11 +108,38 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
               onChangeText={setPassword}
             />
           </View>
-          <TouchableOpacity
-            style={styles.forgotPasswordButton}
-            activeOpacity={0.7}>
-            <Text style={styles.forgotPasswordText}>Forgot Password?</Text>
-          </TouchableOpacity>
+          <View
+            style={{
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              width: '100%',
+            }}>
+            <TouchableOpacity
+              style={styles.rememberMeButton}
+              onPress={() => setRememberMe(!rememberMe)}
+              activeOpacity={0.7}>
+              <Icon
+                name={rememberMe ? 'CheckboxFilled' : 'Checkbox'}
+                width={24}
+                height={24}
+                color="black"
+              />
+              <Text
+                style={[
+                  styles.forgotPasswordText,
+                  {
+                    textDecorationLine: 'none',
+                  },
+                ]}>
+                Remember me
+              </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.forgotPasswordButton}
+              activeOpacity={0.7}>
+              <Text style={styles.forgotPasswordText}>Forgot Password?</Text>
+            </TouchableOpacity>
+          </View>
           <TouchableOpacity
             style={styles.loginButton}
             activeOpacity={0.7}
@@ -184,6 +234,10 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins-Medium',
     fontSize: 16,
     color: '#1292B4',
+  },
+  rememberMeButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
   },
 });
 

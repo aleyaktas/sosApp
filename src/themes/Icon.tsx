@@ -26,6 +26,8 @@ import RightArrow from '../assets/icons/RightArrow.svg';
 import PlayAudio from '../assets/icons/PlayAudio.svg';
 import Play from '../assets/icons/Play.svg';
 import Pause from '../assets/icons/Pause.svg';
+import Checkbox from '../assets/icons/Checkbox.svg';
+import CheckboxFilled from '../assets/icons/CheckboxFilled.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
@@ -54,6 +56,8 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   PlayAudio,
   Play,
   Pause,
+  Checkbox,
+  CheckboxFilled,
 };
 
 interface IconProps {
