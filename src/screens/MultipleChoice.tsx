@@ -107,7 +107,9 @@ const MultipleChoice = () => {
       return;
     }
     //get 10 item from questions
+
     let newQuestions = questions.slice(0, 10);
+
     setQuestionList(newQuestions);
 
     setQuestion(questions[0]);
@@ -118,6 +120,7 @@ const MultipleChoice = () => {
       questionList.length,
       questionList.length + 10,
     );
+
     setQuestionList([...questionList, ...newQuestions]);
   };
 
@@ -236,29 +239,41 @@ const MultipleChoice = () => {
           modalVisible={modalVisible}
           setModalVisible={setModalVisible}
           showQuestionsPress={async () => {
-            const res = await fetchQuestions();
-            console.log('res1111', res);
-            console.log('selectedLevel', selectedLevel);
-            console.log('selectedSubject', selectedSubject);
-            console.log('questions', questions);
-            if (loading) {
-              setModalVisible(true);
-            } else {
-              if (res?.length === 0) {
-                showMessage('Sorular bulunamadı', 'error');
-                Alert.alert(
-                  'Hata',
-                  'Seçtiğiniz kategori ve seviyeye ait soru bulunamadı',
-                  [
-                    {
-                      text: 'Tamam',
-                      onPress: () => console.log('OK Pressed'),
-                    },
-                  ],
-                );
-                return;
+            try {
+              const res = await fetchQuestions();
+
+              if (loading) {
+                // If loading state is still true, keep the modal visible
+                setModalVisible(true);
+              } else {
+                console.log('Questions:', questions);
+                // Loading is false, check if questions array is empty
+                if (res.length === 0) {
+                  // Show alert if no questions were fetched
+                  Alert.alert(
+                    'Hata',
+                    'Seçtiğiniz kategori ve seviyeye ait soru bulunamadı',
+                    [
+                      {
+                        text: 'Tamam',
+                        onPress: () => console.log('OK Pressed'),
+                      },
+                    ],
+                  );
+                } else {
+                  // Questions fetched successfully, hide the modal
+                  setModalVisible(false);
+                }
               }
-              setModalVisible(false);
+            } catch (error) {
+              console.error('Error fetching questions:', error);
+              // Optionally handle any specific errors here
+              Alert.alert('Hata', 'Soruları getirirken bir hata oluştu', [
+                {
+                  text: 'Tamam',
+                  onPress: () => console.log('OK Pressed'),
+                },
+              ]);
             }
           }}
         />

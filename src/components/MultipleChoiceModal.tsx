@@ -1,5 +1,12 @@
-import React, {useContext, useEffect, useState} from 'react';
-import {Modal, Text, View, StyleSheet, TouchableOpacity} from 'react-native';
+import React, {useContext} from 'react';
+import {
+  Modal,
+  Text,
+  View,
+  StyleSheet,
+  TouchableOpacity,
+  ActivityIndicator,
+} from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 import {MultipleChoiceContext} from '../contexts/MultipleChoiceContext';
 import {ScreenProp} from '../navigation/types';
@@ -14,35 +21,27 @@ const MultipleChoiceModal = ({
   setModalVisible: (modalVisible: boolean) => void;
   showQuestionsPress: () => void;
 }) => {
-  const [newCategories, setNewategories] = useState<any[]>([]);
-  const [newLevels, setNewLevels] = useState<any[]>([]);
-
-  const navigation = useNavigation<ScreenProp>();
   const {
+    isModalVisible,
+    setIsModalVisible,
+    selectedLevel,
+    setSelectedLevel,
+    selectedSubject,
+    setSelectedSubject,
+    fetchCategoriesLevels,
+    fetchQuestions,
     categories,
     levels,
-    setSelectedLevel,
-    setSelectedSubject,
+    questions,
     loading,
-    selectedLevel,
-    selectedSubject,
   } = useContext(MultipleChoiceContext);
 
-  useEffect(() => {
-    const transformedLevels = levels.map(level => ({
-      label: level.baslik,
-      value: level.id,
-    }));
+  const navigation = useNavigation<ScreenProp>();
 
-    setNewLevels(transformedLevels);
-
-    const transformedCategories = categories.map(category => ({
-      label: category.baslik,
-      value: category.id,
-    }));
-
-    setNewategories(transformedCategories);
-  }, [categories, levels]);
+  const shuffleArray = (array: any[]) => {
+    const shuffledArray = array.sort(() => Math.random() - 0.5);
+    return shuffledArray;
+  };
 
   return (
     <Modal
@@ -60,25 +59,34 @@ const MultipleChoiceModal = ({
           </Text>
           <RNPickerSelect
             onValueChange={value => setSelectedLevel(value)}
-            items={newLevels}
+            items={levels.map(level => ({
+              label: level.baslik,
+              value: level.id,
+            }))}
             style={pickerSelectStyles}
           />
           <RNPickerSelect
             onValueChange={value => setSelectedSubject(value)}
-            items={newCategories}
+            items={categories.map(category => ({
+              label: category.baslik,
+              value: category.id,
+            }))}
             style={pickerSelectStyles}
           />
           <TouchableOpacity
-            style={{...styles.openButton}}
+            style={styles.openButton}
             activeOpacity={0.6}
-            onPress={() => showQuestionsPress()}>
-            <Text style={styles.textStyle}>
-              {loading && selectedLevel && selectedSubject ? (
-                <Text>Yükleniyor</Text>
-              ) : (
-                <Text>Soruları Gör</Text>
-              )}
-            </Text>
+            onPress={async () => {
+              // if (!loading && selectedLevel && selectedSubject) {
+              //   await fetchQuestions();
+              // }
+              await showQuestionsPress();
+            }}>
+            {loading ? (
+              <ActivityIndicator size="small" color="white" />
+            ) : (
+              <Text style={styles.textStyle}>Soruları Gör</Text>
+            )}
           </TouchableOpacity>
         </View>
       </View>
@@ -139,8 +147,8 @@ const pickerSelectStyles = StyleSheet.create({
     borderColor: 'gray',
     borderRadius: 4,
     color: 'black',
-    paddingRight: 30, // to ensure the text is never behind the icon
-    width: '100%', // make sure the picker takes full width
+    paddingRight: 30,
+    width: '100%',
   },
   inputAndroid: {
     fontSize: 16,
@@ -150,8 +158,8 @@ const pickerSelectStyles = StyleSheet.create({
     borderColor: 'purple',
     borderRadius: 8,
     color: 'black',
-    paddingRight: 30, // to ensure the text is never behind the icon
-    width: '100%', // make sure the picker takes full width
+    paddingRight: 30,
+    width: '100%',
   },
 });
 

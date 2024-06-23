@@ -57,11 +57,6 @@ const IVerbsModal = () => {
     setTotalSentences(total);
   }, [sentences.word]);
 
-  useEffect(() => {
-    console.log('sentences', sentences);
-    console.log('currentSentenceIndex', currentSentenceIndex);
-  }, [sentences, currentSentenceIndex]);
-
   const navigatePrevious = () => {
     setCurrentSentenceIndex(prevIndex =>
       prevIndex === 0 ? totalSentences - 3 : prevIndex - 1,

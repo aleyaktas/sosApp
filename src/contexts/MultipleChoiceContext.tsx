@@ -29,7 +29,7 @@ export const MultipleChoiceContext = createContext<{
   levels: [],
   questions: [],
   setQuestions: () => {},
-  loading: true,
+  loading: false,
 });
 
 interface ModalProviderProps {
@@ -45,7 +45,7 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
   const [categories, setCategories] = useState([]);
   const [levels, setLevels] = useState([]);
   const [questions, setQuestions] = useState<any>([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   const toggleModal = () => {
     setIsModalVisible(!isModalVisible);
@@ -85,15 +85,15 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
     console.log('selectedLevel', selectedLevel);
 
     const formData = new FormData();
-    formData.append('kategori_id', 5);
+    formData.append('kategori_id', '5'); // Ensure kategori_id is a string
     formData.append('konu_id', selectedSubject);
     formData.append('seviye_id', selectedLevel);
 
-    console.log('selectedSubject', selectedSubject);
-    console.log('selectedLevel', selectedLevel);
+    console.log('formData', formData);
 
     try {
-      setLoading(true);
+      setLoading(true); // Start loading indicator
+
       console.log('fetchQuestions try');
       const res = await fetch(
         'https://phdakademi.com/api/sos/questionsAllPhd',
@@ -109,17 +109,17 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
 
       console.log('data', data);
 
-      const newArr = await shuffleArray(data.sorular);
-      if (newArr) {
-        setQuestions(newArr);
-      }
+      const newArr = shuffleArray(data.sorular);
+      setQuestions(newArr);
+
       return newArr;
     } catch (err) {
-      console.log('err', err);
+      console.log('Error fetching questions:', err);
     } finally {
       setLoading(false);
     }
   };
+
   return (
     <MultipleChoiceContext.Provider
       value={{
