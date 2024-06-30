@@ -1938,11 +1938,6 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/slider/-/slider-4.5.2.tgz#c3835788dbc1bd83d3778b83ca15533c805db149"
   integrity sha512-DbFyCyI7rwl0FkBkp0lzEVp+5mNfS5qU/nM2sK2aSguWhj0Odkt1aKHP2iW/ljruOhgS/O4dEixXlne4OdZJDQ==
 
-"@react-native-picker/picker@^2.7.7":
-  version "2.7.7"
-  resolved "https://registry.yarnpkg.com/@react-native-picker/picker/-/picker-2.7.7.tgz#6e19c3a72a482be015f5194794e6c14efe8762e8"
-  integrity sha512-CTHthVmx8ujlH/u5AnxLQfsheh/DoEbo+Kbx0HGTlbKVLC1eZ4Kr9jXIIUcwB7JEgOXifdZIPQCsoTc/7GQ0ag==
-
 "@react-native-voice/voice@^3.2.4":
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/@react-native-voice/voice/-/voice-3.2.4.tgz#a0f9e5986c3c290155dd6e35ed192dab1c453f2c"
@@ -6500,6 +6495,11 @@ react-native-draggable-flatlist@^4.0.1:
   integrity sha512-ZO1QUTNx64KZfXGXeXcBfql67l38X7kBcJ3rxUVZzPHt5r035GnGzIC0F8rqSXp6zgnwgUYMfB6zQc5PKmPL9Q==
   dependencies:
     "@babel/preset-typescript" "^7.17.12"
+
+react-native-dropdown-picker@^5.4.6:
+  version "5.4.6"
+  resolved "https://registry.yarnpkg.com/react-native-dropdown-picker/-/react-native-dropdown-picker-5.4.6.tgz#3736fc468de4a295e4df8d1f65ed2eadaf9b445f"
+  integrity sha512-T1XBHbE++M6aRU3wFYw3MvcOuabhWZ29RK/Ivdls2r1ZkZ62iEBZknLUPeVLMX3x6iUxj4Zgr3X2DGlEGXeHsA==
 
 react-native-gesture-handler@^2.14.0:
   version "2.16.2"

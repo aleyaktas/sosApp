@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {
   Modal,
   Text,
@@ -7,10 +7,12 @@ import {
   TouchableOpacity,
   ActivityIndicator,
 } from 'react-native';
-import RNPickerSelect from 'react-native-picker-select';
+
 import {MultipleChoiceContext} from '../contexts/MultipleChoiceContext';
 import {ScreenProp} from '../navigation/types';
 import {useNavigation} from '@react-navigation/native';
+import DropDownPicker from 'react-native-dropdown-picker';
+import Icon from '../themes/Icon';
 
 const MultipleChoiceModal = ({
   modalVisible,
@@ -22,25 +24,46 @@ const MultipleChoiceModal = ({
   showQuestionsPress: () => void;
 }) => {
   const {
-    isModalVisible,
-    setIsModalVisible,
-    selectedLevel,
-    setSelectedLevel,
-    selectedSubject,
-    setSelectedSubject,
-    fetchCategoriesLevels,
-    fetchQuestions,
+    setSelectedLevels,
+    setSelectedSubjects,
+    selectedLevels,
+    selectedSubjects,
     categories,
     levels,
-    questions,
     loading,
+    questions,
+    fetchQuestions,
+    selectedQuestionCount,
+    setSelectedQuestionCount,
   } = useContext(MultipleChoiceContext);
 
   const navigation = useNavigation<ScreenProp>();
+  const [openLevels, setOpenLevels] = useState(false);
+  const [openSubjects, setOpenSubjects] = useState(false);
+  const [openQuestionCount, setOpenQuestionCount] = useState(false);
+  const [numberArr, setNumberArr] = useState<number[]>([]);
 
-  const shuffleArray = (array: any[]) => {
-    const shuffledArray = array.sort(() => Math.random() - 0.5);
-    return shuffledArray;
+  console.log('categories', categories);
+
+  useEffect(() => {
+    if (selectedLevels.length > 0 && selectedSubjects.length > 0) {
+      fetchQuestions().then(res => {
+        createNumberArr(res.length);
+      });
+    }
+  }, [selectedLevels, selectedSubjects]);
+
+  const createNumberArr = (length: number) => {
+    if (length < 10) {
+      setNumberArr(Array.from({length: length}, (_, i) => i + 1));
+    } else {
+      const arr = [];
+      for (let i = 0; i < length; i += 10) {
+        arr.push(i);
+      }
+
+      setNumberArr(arr);
+    }
   };
 
   return (
@@ -49,37 +72,133 @@ const MultipleChoiceModal = ({
       transparent={true}
       visible={modalVisible}
       onRequestClose={() => {
-        setModalVisible(!modalVisible);
         navigation.goBack();
       }}>
       <View style={styles.centeredView}>
         <View style={styles.modalView}>
+          <TouchableOpacity
+            style={{
+              marginLeft: 'auto',
+              marginBottom: 10,
+              backgroundColor: 'white',
+              borderRadius: 8,
+              padding: 4,
+              borderColor: '#c4c4c4',
+              borderWidth: 1,
+            }}
+            onPress={() => {
+              setModalVisible(!modalVisible);
+              navigation.goBack();
+            }}>
+            <Icon name="Close" color="black" width={20} height={20} />
+          </TouchableOpacity>
           <Text style={styles.modalText}>
             Soruları görmek için seviye ve konu seçiniz
           </Text>
-          <RNPickerSelect
-            onValueChange={value => setSelectedLevel(value)}
-            items={levels.map(level => ({
-              label: level.baslik,
-              value: level.id,
-            }))}
-            style={pickerSelectStyles}
-          />
-          <RNPickerSelect
-            onValueChange={value => setSelectedSubject(value)}
-            items={categories.map(category => ({
-              label: category.baslik,
-              value: category.id,
-            }))}
-            style={pickerSelectStyles}
-          />
+          <View
+            style={{
+              gap: 10,
+            }}>
+            <DropDownPicker
+              open={openLevels}
+              zIndex={1000}
+              style={{
+                width: '100%',
+                borderColor: '#c4c4c4',
+                borderWidth: 1,
+              }}
+              value={selectedLevels}
+              multiple={true}
+              items={levels.map(level => ({
+                label: level.baslik,
+                value: level.id,
+              }))}
+              closeOnBackPressed={true}
+              setOpen={() => {
+                setOpenSubjects(false);
+                setOpenLevels(!openLevels);
+                setOpenQuestionCount(false);
+              }}
+              setValue={(value: any) => setSelectedLevels(value)}
+              setItems={(items: any) => console.log('items', items)}
+              placeholder="Seviye Seçiniz"
+              mode="BADGE"
+              badgeDotColors={[
+                '#e76f51',
+                '#00b4d8',
+                '#e9c46a',
+                '#e76f51',
+                '#8ac926',
+                '#00b4d8',
+                '#e9c46a',
+              ]}
+            />
+            <DropDownPicker
+              open={openSubjects}
+              zIndex={999}
+              style={{
+                width: '100%',
+                borderColor: '#c4c4c4',
+                borderWidth: 1,
+              }}
+              value={selectedSubjects}
+              multiple={true}
+              items={categories.map(level => ({
+                label: level.baslik,
+                value: level.id,
+              }))}
+              setOpen={() => {
+                setOpenLevels(false);
+                setOpenSubjects(!openSubjects);
+                setOpenQuestionCount(false);
+              }}
+              setValue={(value: any) => setSelectedSubjects(value)}
+              setItems={(items: any) => console.log('items', items)}
+              placeholder="Kategori Seçiniz"
+              mode="BADGE"
+              badgeDotColors={[
+                '#e76f51',
+                '#00b4d8',
+                '#e9c46a',
+                '#e76f51',
+                '#8ac926',
+                '#00b4d8',
+                '#e9c46a',
+              ]}
+            />
+            <DropDownPicker
+              open={openQuestionCount}
+              zIndex={998}
+              style={{
+                width: '100%',
+                borderColor: '#c4c4c4',
+                borderWidth: 1,
+              }}
+              value={
+                selectedQuestionCount === undefined
+                  ? null
+                  : selectedQuestionCount
+              }
+              multiple={false}
+              items={numberArr.map(level => ({
+                label: level.toString(),
+                value: level,
+              }))}
+              setOpen={() => {
+                setOpenLevels(false);
+                setOpenSubjects(false);
+                setOpenQuestionCount(!openQuestionCount);
+              }}
+              setValue={(value: any) => setSelectedQuestionCount(value)}
+              setItems={(items: any) => console.log('items', items)}
+              placeholder="Soru Sayısı Seçiniz"
+            />
+          </View>
+
           <TouchableOpacity
             style={styles.openButton}
             activeOpacity={0.6}
             onPress={async () => {
-              // if (!loading && selectedLevel && selectedSubject) {
-              //   await fetchQuestions();
-              // }
               await showQuestionsPress();
             }}>
             {loading ? (
@@ -135,31 +254,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 16,
     paddingHorizontal: 10,
-  },
-});
-
-const pickerSelectStyles = StyleSheet.create({
-  inputIOS: {
-    fontSize: 16,
-    paddingVertical: 12,
-    paddingHorizontal: 10,
-    borderWidth: 1,
-    borderColor: 'gray',
-    borderRadius: 4,
-    color: 'black',
-    paddingRight: 30,
-    width: '100%',
-  },
-  inputAndroid: {
-    fontSize: 16,
-    paddingHorizontal: 10,
-    paddingVertical: 8,
-    borderWidth: 0.5,
-    borderColor: 'purple',
-    borderRadius: 8,
-    color: 'black',
-    paddingRight: 30,
-    width: '100%',
   },
 });
 

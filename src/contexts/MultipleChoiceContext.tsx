@@ -4,32 +4,36 @@ export const MultipleChoiceContext = createContext<{
   isModalVisible: boolean;
   setIsModalVisible: (value: boolean) => void;
   toggleModal: () => void;
-  selectedLevel: string;
-  setSelectedLevel: (value: string) => void;
-  selectedSubject: string;
-  setSelectedSubject: (value: string) => void;
+  selectedLevels: string[];
+  setSelectedLevels: (value: string[]) => void;
+  selectedSubjects: string[];
+  setSelectedSubjects: (value: string[]) => void;
   fetchCategoriesLevels: () => void;
-  fetchQuestions: () => void;
+  fetchQuestions: () => Promise<any>;
   categories: any[];
   levels: any[];
   questions: any[];
   setQuestions: (value: any[]) => void;
   loading: boolean;
+  selectedQuestionCount: number;
+  setSelectedQuestionCount: (value: number) => void;
 }>({
   isModalVisible: false,
   setIsModalVisible: () => {},
   toggleModal: () => {},
-  selectedLevel: '',
-  setSelectedLevel: () => {},
-  selectedSubject: '',
-  setSelectedSubject: () => {},
+  selectedLevels: [],
+  setSelectedLevels: () => {},
+  selectedSubjects: [],
+  setSelectedSubjects: () => {},
   fetchCategoriesLevels: () => {},
-  fetchQuestions: () => {},
+  fetchQuestions: async () => {},
   categories: [],
   levels: [],
   questions: [],
   setQuestions: () => {},
   loading: false,
+  selectedQuestionCount: 0,
+  setSelectedQuestionCount: () => {},
 });
 
 interface ModalProviderProps {
@@ -40,12 +44,13 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
   children,
 }: ModalProviderProps) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const [selectedLevel, setSelectedLevel] = useState('');
-  const [selectedSubject, setSelectedSubject] = useState('');
+  const [selectedLevels, setSelectedLevels] = useState<string[]>([]);
+  const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
   const [categories, setCategories] = useState([]);
   const [levels, setLevels] = useState([]);
   const [questions, setQuestions] = useState<any>([]);
   const [loading, setLoading] = useState(false);
+  const [selectedQuestionCount, setSelectedQuestionCount] = useState<number>(0);
 
   const toggleModal = () => {
     setIsModalVisible(!isModalVisible);
@@ -81,13 +86,29 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
   };
 
   const fetchQuestions = async () => {
-    console.log('selectedSubject', selectedSubject);
-    console.log('selectedLevel', selectedLevel);
+    console.log('selectedSubject', selectedSubjects);
+    console.log('selectedLevel', selectedLevels);
 
     const formData = new FormData();
-    formData.append('kategori_id', '5'); // Ensure kategori_id is a string
-    formData.append('konu_id', selectedSubject);
-    formData.append('seviye_id', selectedLevel);
+    formData.append('kategori_id', '5');
+
+    // Dizilere dönüştürün
+    const subjectsArray = Array.isArray(selectedSubjects)
+      ? selectedSubjects
+      : [selectedSubjects];
+    const levelsArray = Array.isArray(selectedLevels)
+      ? selectedLevels
+      : [selectedLevels];
+
+    // selectedSubjects array'ini ekleyin
+    subjectsArray.forEach((subject, index) => {
+      formData.append(`konu_id[${index}]`, subject);
+    });
+
+    // selectedLevels array'ini ekleyin
+    levelsArray.forEach((level, index) => {
+      formData.append(`seviye_id[${index}]`, level);
+    });
 
     console.log('formData', formData);
 
@@ -96,7 +117,7 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
 
       console.log('fetchQuestions try');
       const res = await fetch(
-        'https://phdakademi.com/api/sos/questionsAllPhd',
+        'https://phdakademi.com/api/sos/questionsAllPhdMulti',
         {
           method: 'POST',
           headers: {
@@ -126,10 +147,10 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
         isModalVisible,
         setIsModalVisible,
         toggleModal,
-        selectedLevel,
-        setSelectedLevel,
-        selectedSubject,
-        setSelectedSubject,
+        selectedLevels,
+        setSelectedLevels,
+        selectedSubjects,
+        setSelectedSubjects,
         fetchCategoriesLevels,
         fetchQuestions,
         categories,
@@ -137,6 +158,8 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
         questions,
         setQuestions,
         loading,
+        selectedQuestionCount,
+        setSelectedQuestionCount,
       }}>
       {children}
     </MultipleChoiceContext.Provider>

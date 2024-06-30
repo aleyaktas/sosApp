@@ -19,7 +19,6 @@ import MultipleChoiceModal from '../components/MultipleChoiceModal';
 import Carousel from 'react-native-reanimated-carousel';
 import {useFocusEffect, useNavigation} from '@react-navigation/native';
 import {ScreenProp} from '../navigation/types';
-import {showMessage} from '../utils/showMessage';
 
 interface QuestionItem {
   id: number;
@@ -45,10 +44,10 @@ const MultipleChoice = () => {
   const {
     questions,
     setQuestions,
-    fetchQuestions,
+    setSelectedLevels,
+    setSelectedSubjects,
     loading,
-    selectedLevel,
-    selectedSubject,
+    selectedQuestionCount,
   } = useContext(MultipleChoiceContext);
   const [questionList, setQuestionList] = useState<QuestionItem[]>([]);
   const [question, setQuestion] = useState<QuestionItem>();
@@ -57,19 +56,20 @@ const MultipleChoice = () => {
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
   const [modalVisible, setModalVisible] = useState(true);
+  const [remainingQuestionCount, setRemainingQuestionCount] = useState(0);
 
   useEffect(() => {
     return () => {
       setQuestionList([]);
       setQuestions([]);
+      setSelectedLevels([]);
+      setSelectedSubjects([]);
     };
   }, []);
 
   const carouselRef = useRef(null);
 
   const onSnapToItem = (index: number) => {
-    // setActiveIndex(index);
-    console.log('Index123', index);
     setCurrentQuestion(index);
     setQuestion(questionList[index]);
     if (index === questionList.length - 1) {
@@ -111,17 +111,27 @@ const MultipleChoice = () => {
     let newQuestions = questions.slice(0, 10);
 
     setQuestionList(newQuestions);
+    setRemainingQuestionCount(selectedQuestionCount - 10);
 
     setQuestion(questions[0]);
   }, [questions]);
 
   const loadMoreQuestions = () => {
-    let newQuestions = questions.slice(
-      questionList.length,
-      questionList.length + 10,
-    );
+    let newQuestions;
+    if (selectedQuestionCount <= questionList.length + 10) {
+      newQuestions = questions.slice(
+        questionList.length,
+        selectedQuestionCount,
+      );
+    } else {
+      newQuestions = questions.slice(
+        questionList.length,
+        questionList.length + 10,
+      );
+    }
 
     setQuestionList([...questionList, ...newQuestions]);
+    setRemainingQuestionCount(remainingQuestionCount - 10);
   };
 
   useEffect(() => {
@@ -141,6 +151,9 @@ const MultipleChoice = () => {
   }, [currentQuestion, questionList]);
 
   const renderChoice = ({optionTitle, option, bgColor, question}: any) => {
+    console.log('----');
+    console.log('optionTitle', optionTitle);
+    console.log('option', option);
     const isSelected = question.selectedOptionTitle === optionTitle;
     const optionNumber =
       optionTitle === 'A'
@@ -152,12 +165,19 @@ const MultipleChoice = () => {
         : optionTitle === 'D'
         ? '4'
         : '5';
+    console.log('optionNumber', optionNumber);
+    console.log('question.dogru_secenek', question.dogru_secenek);
+    console.log('isSelected', isSelected);
+    console.log('question.selectedOptionTitle', question.selectedOptionTitle);
+    console.log('----');
+
     const isCorrect = question.dogru_secenek === optionNumber;
     const bgColorStyle = isSelected
       ? isCorrect
         ? '#98D832'
         : '#FF4D4F'
-      : optionTitle === question.dogru_secenek
+      : optionNumber === question.dogru_secenek &&
+        question.selectedOptionTitle !== undefined
       ? '#98D832'
       : '#F5F5F5';
 
@@ -240,7 +260,7 @@ const MultipleChoice = () => {
           setModalVisible={setModalVisible}
           showQuestionsPress={async () => {
             try {
-              const res = await fetchQuestions();
+              // const res = await fetchQuestions();
 
               if (loading) {
                 // If loading state is still true, keep the modal visible
@@ -248,7 +268,7 @@ const MultipleChoice = () => {
               } else {
                 console.log('Questions:', questions);
                 // Loading is false, check if questions array is empty
-                if (res.length === 0) {
+                if (questions.length === 0) {
                   // Show alert if no questions were fetched
                   Alert.alert(
                     'Hata',
@@ -348,6 +368,15 @@ const MultipleChoice = () => {
                         question: item,
                       })}
                     </View>
+                    <Text
+                      style={{
+                        textAlign: 'right',
+                        marginTop: 16,
+                        color: '#333',
+                      }}>
+                      Kalan soru sayısı: {currentQuestion + 1} /{' '}
+                      {selectedQuestionCount}
+                    </Text>
                   </View>
                 );
               }}
