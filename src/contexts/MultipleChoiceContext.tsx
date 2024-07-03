@@ -90,7 +90,7 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
     console.log('selectedLevel', selectedLevels);
 
     const formData = new FormData();
-    formData.append('kategori_id', '5');
+    formData.append('konu_id', '5');
 
     // Dizilere dönüştürün
     const subjectsArray = Array.isArray(selectedSubjects)
@@ -102,7 +102,7 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
 
     // selectedSubjects array'ini ekleyin
     subjectsArray.forEach((subject, index) => {
-      formData.append(`konu_id[${index}]`, subject);
+      formData.append(`kategori_id[${index}]`, subject);
     });
 
     // selectedLevels array'ini ekleyin

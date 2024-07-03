@@ -54,14 +54,17 @@ const MultipleChoiceModal = ({
   }, [selectedLevels, selectedSubjects]);
 
   const createNumberArr = (length: number) => {
-    if (length < 10) {
-      setNumberArr(Array.from({length: length}, (_, i) => i + 1));
+    const roundedLength = Math.ceil(length); // Uzunluğu yukarı yuvarla
+    if (roundedLength < 10) {
+      setNumberArr(Array.from({length: roundedLength}, (_, i) => i + 1));
     } else {
       const arr = [];
-      for (let i = 0; i < length; i += 10) {
+      for (let i = 0; i < roundedLength; i += 10) {
         arr.push(i);
       }
-
+      if (arr[arr.length - 1] !== roundedLength) {
+        arr.push(roundedLength); // Son elemanı ekle
+      }
       setNumberArr(arr);
     }
   };
@@ -193,6 +196,16 @@ const MultipleChoiceModal = ({
               setItems={(items: any) => console.log('items', items)}
               placeholder="Soru Sayısı Seçiniz"
             />
+            <View
+              style={{
+                flexDirection: 'row',
+                justifyContent: 'flex-end',
+              }}>
+              <Text style={{color: 'black'}}>Toplam Soru Sayısı: </Text>
+              <Text style={{color: 'green', fontWeight: 'bold'}}>
+                {questions.length}
+              </Text>
+            </View>
           </View>
 
           <TouchableOpacity
