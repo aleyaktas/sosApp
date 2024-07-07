@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from 'react';
+import React, {useContext} from 'react';
 import {View, FlatList} from 'react-native';
 import {fourSkills} from '../utils/data';
 import MenuItem from '../components/MenuItem';

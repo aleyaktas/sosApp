@@ -92,7 +92,6 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
     const formData = new FormData();
     formData.append('konu_id', '5');
 
-    // Dizilere dönüştürün
     const subjectsArray = Array.isArray(selectedSubjects)
       ? selectedSubjects
       : [selectedSubjects];
@@ -100,12 +99,10 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
       ? selectedLevels
       : [selectedLevels];
 
-    // selectedSubjects array'ini ekleyin
     subjectsArray.forEach((subject, index) => {
       formData.append(`kategori_id[${index}]`, subject);
     });
 
-    // selectedLevels array'ini ekleyin
     levelsArray.forEach((level, index) => {
       formData.append(`seviye_id[${index}]`, level);
     });
@@ -113,7 +110,7 @@ export const MultipleChoiceProvider: FC<ModalProviderProps> = ({
     console.log('formData', formData);
 
     try {
-      setLoading(true); // Start loading indicator
+      setLoading(true);
 
       console.log('fetchQuestions try');
       const res = await fetch(

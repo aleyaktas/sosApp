@@ -43,7 +43,6 @@ const Listening = () => {
     async function setupPlayer() {
       await TrackPlayer.setupPlayer();
       TrackPlayer.updateOptions({
-        // stopWithApp: true,
         capabilities: [Capability.Play, Capability.Pause, Capability.Stop],
         compactCapabilities: [Capability.Play, Capability.Pause],
       });
@@ -183,13 +182,6 @@ const Listening = () => {
     );
   };
 
-  // const options = [
-  //   {optionTitle: 'A', option: question.option1, bgColor: '#FACA77'},
-  //   {optionTitle: 'B', option: question.option2, bgColor: '#13E0E6'},
-  //   {optionTitle: 'C', option: question.option3, bgColor: '#D274DB'},
-  //   {optionTitle: 'D', option: question.option4, bgColor: '#98D832'},
-  // ];
-
   const progress = useProgress();
 
   return (
@@ -227,11 +219,6 @@ const Listening = () => {
                   style={styles.flex}
                   contentContainerStyle={styles.answerContainer}>
                   <Text style={styles.cardTitle}>{item.question}</Text>
-                  {/* {options.map(opt => (
-                    <View key={opt.optionTitle}>
-                      {renderChoice({...opt, question: item})}
-                    </View>
-                  ))} */}
                   {renderChoice({
                     optionTitle: 'A',
                     option: item.option1,

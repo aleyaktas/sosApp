@@ -539,7 +539,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    // backgroundColor: '#FFCB77',
     backgroundColor: '#f8f8f8',
     borderColor: '#FFCB77',
     borderWidth: 2,

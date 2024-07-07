@@ -57,7 +57,7 @@ const Videos = () => {
 };
 
 const {width} = Dimensions.get('window');
-const ITEM_WIDTH = (width - 48) / 2; // Calculate item width to fit within the screen with margins
+const ITEM_WIDTH = (width - 48) / 2;
 
 const styles = StyleSheet.create({
   container: {
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
   },
   contentContainer: {
     marginTop: 20,
-    justifyContent: 'center', // Center items horizontally
+    justifyContent: 'center',
     paddingBottom: 20,
   },
   button: {
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     shadowRadius: 3.84,
     elevation: 5,
     width: ITEM_WIDTH,
-    margin: 8, // Adjust margins for spacing
+    margin: 8,
   },
   image: {
     width: 100,

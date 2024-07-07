@@ -145,15 +145,11 @@ const MultipleChoice = () => {
           animated: true,
         });
       }
-      // setQuestion(questionList[currentQuestion]);
     }, 5);
     return () => clearTimeout(timer);
   }, [currentQuestion, questionList]);
 
   const renderChoice = ({optionTitle, option, bgColor, question}: any) => {
-    console.log('----');
-    console.log('optionTitle', optionTitle);
-    console.log('option', option);
     const isSelected = question.selectedOptionTitle === optionTitle;
     const optionNumber =
       optionTitle === 'A'
@@ -165,12 +161,6 @@ const MultipleChoice = () => {
         : optionTitle === 'D'
         ? '4'
         : '5';
-    console.log('optionNumber', optionNumber);
-    console.log('question.dogru_secenek', question.dogru_secenek);
-    console.log('isSelected', isSelected);
-    console.log('question.selectedOptionTitle', question.selectedOptionTitle);
-    console.log('----');
-
     const isCorrect = question.dogru_secenek === optionNumber;
     const bgColorStyle = isSelected
       ? isCorrect
@@ -248,8 +238,6 @@ const MultipleChoice = () => {
       setWrongAnswers(prevWrongAnswers => prevWrongAnswers + 1);
     }
     setTotalQuestions(prevTotalQuestions => prevTotalQuestions + 1);
-
-    // setCurrentQuestion(prevCurrentQuestion => prevCurrentQuestion + 1);
   };
 
   return (
@@ -260,16 +248,11 @@ const MultipleChoice = () => {
           setModalVisible={setModalVisible}
           showQuestionsPress={async () => {
             try {
-              // const res = await fetchQuestions();
-
               if (loading) {
-                // If loading state is still true, keep the modal visible
                 setModalVisible(true);
               } else {
                 console.log('Questions:', questions);
-                // Loading is false, check if questions array is empty
                 if (questions.length === 0) {
-                  // Show alert if no questions were fetched
                   Alert.alert(
                     'Hata',
                     'Seçtiğiniz kategori ve seviyeye ait soru bulunamadı',
@@ -281,13 +264,11 @@ const MultipleChoice = () => {
                     ],
                   );
                 } else {
-                  // Questions fetched successfully, hide the modal
                   setModalVisible(false);
                 }
               }
             } catch (error) {
               console.error('Error fetching questions:', error);
-              // Optionally handle any specific errors here
               Alert.alert('Hata', 'Soruları getirirken bir hata oluştu', [
                 {
                   text: 'Tamam',
@@ -390,10 +371,6 @@ const MultipleChoice = () => {
                   <TouchableOpacity
                     key={item.id.toString()}
                     disabled
-                    // onPress={() => {
-                    //   setCurrentQuestion(index);
-                    //   setQuestion(questionList[index]);
-                    // }}
                     style={{
                       paddingVertical: 8,
                       paddingHorizontal: 12,

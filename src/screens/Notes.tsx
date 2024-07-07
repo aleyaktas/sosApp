@@ -1,8 +1,7 @@
-import {Route, useNavigation, useRoute} from '@react-navigation/native';
+import {Route, useRoute} from '@react-navigation/native';
 import React from 'react';
 import {Dimensions, FlatList, StyleSheet, View} from 'react-native';
 import MenuItem from '../components/MenuItem';
-import {ScreenProp} from '../navigation/types';
 
 export interface Notes {
   id: number;
@@ -17,25 +16,11 @@ const Notes = () => {
   const title = route.params.title;
   const notes = require(`../utils/data`)[`${title}Notes`];
 
-  const navigation = useNavigation<ScreenProp>();
-
   return (
     <View>
       <FlatList
         data={notes}
-        renderItem={({item}) => (
-          <MenuItem
-            item={item}
-            // onPress={() => {
-            //   if (item.pdfUrl) {
-            //     navigation.navigate('NoteDetails', {
-            //       title: title,
-            //       pdfName: item.pdfUrl,
-            //     });
-            //   }
-            // }}
-          />
-        )}
+        renderItem={({item}) => <MenuItem item={item} />}
         keyExtractor={item => item.id.toString()}
       />
     </View>
