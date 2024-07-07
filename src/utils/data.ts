@@ -685,18 +685,30 @@ export const TensesVideos: IVideo[] = [
     id: 11,
     title: '3b',
     page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/3b-am-doing-use-and-form-1720117234.mp4',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 12,
     title: '3c',
     page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/3c-was-doing-use-and-form-1720117297.mp4',
     image: require('../assets/icons/video.png'),
   },
   {
     id: 13,
     title: '3a',
     page: 'VideoDetails',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 14,
+    title: '4b',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-4b-have-done-use-and-form-1720298364.mp4',
     image: require('../assets/icons/video.png'),
   },
 ];

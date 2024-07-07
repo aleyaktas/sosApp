@@ -25,6 +25,7 @@ import {Route, useRoute} from '@react-navigation/native';
 import {
   QuestionsTranslationSentencesWhat,
   QuestionsTranslationSentencesWhere,
+  QuestionsTranslationSentencesWhen,
 } from '../utils/translation';
 import QuestionsTable from '../components/QuestionsTable';
 
@@ -264,6 +265,9 @@ const QuestionsTranslation: React.FC = () => {
         break;
       case 'Where':
         newTranslationSentences = QuestionsTranslationSentencesWhere;
+        break;
+      case 'When':
+        newTranslationSentences = QuestionsTranslationSentencesWhen;
         break;
     }
     setTranslationSentences(newTranslationSentences);

@@ -9,7 +9,6 @@ import {
   StyleSheet,
 } from 'react-native';
 import {AuthNavigationProps} from '../navigation/authNavigation';
-import {translateArray} from '../helpers/translateArray';
 import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
 import Icon from '../themes/Icon';

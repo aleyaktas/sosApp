@@ -1,9 +1,7 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {QuestionContext} from '../contexts/QuestionContext';
-import {IFourSkill} from '../utils/data';
 import {Route, useRoute} from '@react-navigation/native';
 import {
-  Button,
   FlatList,
   StyleSheet,
   Text,
@@ -11,17 +9,8 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import Modal from 'react-native-modal';
-import {irregularVerbs} from '../utils/irregularVerbs';
 import Icon from '../themes/Icon';
 import {handleVoice} from '../helpers/voiceCenter';
-import {ModalContext} from '../contexts/ModalContext';
-import {
-  irregularV1Sentences,
-  irregularV2Sentences,
-  irregularV3Sentences,
-} from '../utils/irregularVerbs';
-import {IVerbsSentences, IrregularVerb} from '../types/IVerb';
 
 type VocabularyRoute = Route<'Vocabulary', {title?: string; item?: any}>;
 
@@ -81,7 +70,6 @@ const Vocabulary = () => {
   return (
     <View style={styles.container}>
       <View style={styles.searchContainer}>
-        {/* <Icon name="Search" color="black" width={18} height={18} /> */}
         <TextInput
           style={styles.searchInput}
           placeholder="Ara..."
@@ -101,7 +89,13 @@ const Vocabulary = () => {
         data={vocabulary}
         renderItem={({item}) => (
           <View style={styles.wordContainer}>
-            <Text style={styles.word}>{item.word}</Text>
+            <TouchableOpacity
+              onPress={() => handleVoice(item.word)}
+              activeOpacity={0.7}
+              style={{flexDirection: 'row', alignItems: 'center', gap: 4}}>
+              <Icon name="Sound" color="#000" width={20} height={20} />
+              <Text style={styles.word}>{item.word}</Text>
+            </TouchableOpacity>
             <Text style={styles.mean}>{item.mean}</Text>
           </View>
         )}

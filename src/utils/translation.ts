@@ -14273,3 +14273,3036 @@ export const QuestionsTranslationSentencesWhat = {
     },
   ],
 };
+
+export const QuestionsTranslationSentencesWhen = {
+  'A1-G': [
+    {
+      meaning: 'Ne zaman müsait olacaksın?',
+      possibleAnswer: 'I am going to be available next week.',
+      sentence: 'When are you going to be available?',
+    },
+    {
+      meaning: 'Toplantı ne zaman olacak?',
+      possibleAnswer: 'The meeting is going to be at 10 AM.',
+      sentence: 'When is the meeting going to be?',
+    },
+    {
+      meaning: 'TV şovu ne zaman olacak?',
+      possibleAnswer: 'The TV show is going to be on Friday nights.',
+      sentence: 'When is the TV show going to be on?',
+    },
+    {
+      meaning: 'Sınav ne zaman olacak?',
+      possibleAnswer: 'The exam is going to be next Monday.',
+      sentence: 'When is the exam going to be?',
+    },
+    {
+      meaning: 'Okul gezisi ne zaman olacak?',
+      possibleAnswer: 'The school trip is going to be in April.',
+      sentence: 'When is the school trip going to be?',
+    },
+    {
+      meaning: 'Tatil ne zaman olacak?',
+      possibleAnswer: 'The holiday is going to be in December.',
+      sentence: 'When is the holiday going to be?',
+    },
+    {
+      meaning: 'Annenin doğum günü ne zaman olacak?',
+      possibleAnswer: "My mom's birthday is going to be in September.",
+      sentence: "When is your mom's birthday going to be?",
+    },
+    {
+      meaning: 'Konser ne zaman olacak?',
+      possibleAnswer: 'The concert is going to be this weekend.',
+      sentence: 'When is the concert going to be?',
+    },
+    {
+      meaning: 'Randevun ne zaman olacak?',
+      possibleAnswer: 'My appointment is going to be tomorrow.',
+      sentence: 'When is your appointment going to be?',
+    },
+    {
+      meaning: 'Akşam yemeği ne zaman olacak?',
+      possibleAnswer: 'Dinner is going to be at 7 PM.',
+      sentence: 'When is dinner going to be?',
+    },
+    {
+      meaning: 'Arkadaşın ne zaman ziyaret edecek?',
+      possibleAnswer: 'My friend is going to be visiting this Saturday.',
+      sentence: 'When is your friend going to be visiting?',
+    },
+    {
+      meaning: 'Ders ne zaman olacak?',
+      possibleAnswer: 'The class is going to be at 8 AM.',
+      sentence: 'When is the class going to be?',
+    },
+    {
+      meaning: 'Uçuş ne zaman olacak?',
+      possibleAnswer: 'The flight is going to be at noon.',
+      sentence: 'When is the flight going to be?',
+    },
+    {
+      meaning: 'Görüşmen ne zaman olacak?',
+      possibleAnswer: 'My interview is going to be on Wednesday.',
+      sentence: 'When is your interview going to be?',
+    },
+    {
+      meaning: 'Parti ne zaman olacak?',
+      possibleAnswer: 'The party is going to be on Saturday night.',
+      sentence: 'When is the party going to be?',
+    },
+    {
+      meaning: 'Bir sonraki toplantı ne zaman olacak?',
+      possibleAnswer: 'The next meeting is going to be on Tuesday.',
+      sentence: 'When is the next meeting going to be?',
+    },
+    {
+      meaning: 'Son tarih ne zaman olacak?',
+      possibleAnswer: 'The deadline is going to be on Friday.',
+      sentence: 'When is the deadline going to be?',
+    },
+    {
+      meaning: 'Tren ne zaman olacak?',
+      possibleAnswer: 'The train is going to be at 6 PM.',
+      sentence: 'When is the train going to be?',
+    },
+    {
+      meaning: 'Film ne zaman olacak?',
+      possibleAnswer: 'The movie is going to be at 7 PM.',
+      sentence: 'When is the movie going to be?',
+    },
+    {
+      meaning: 'Seminer ne zaman olacak?',
+      possibleAnswer: 'The seminar is going to be next week.',
+      sentence: 'When is the seminar going to be?',
+    },
+    {
+      meaning: 'Oyun ne zaman olacak?',
+      possibleAnswer: 'The game is going to be on Saturday.',
+      sentence: 'When is the game going to be?',
+    },
+    {
+      meaning: 'Randevun ne zaman olacak?',
+      possibleAnswer: 'My appointment is going to be on Thursday.',
+      sentence: 'When is your appointment going to be?',
+    },
+    {
+      meaning: 'Okul oyunu ne zaman olacak?',
+      possibleAnswer: 'The school play is going to be in March.',
+      sentence: 'When is the school play going to be?',
+    },
+    {
+      meaning: 'Kütüphane ne zaman kapanacak?',
+      possibleAnswer: 'The library is going to be closing at 8 PM.',
+      sentence: 'When is the library going to be closing?',
+    },
+    {
+      meaning: 'Doğum günü partin ne zaman olacak?',
+      possibleAnswer: 'The party is going to be on Saturday.',
+      sentence: 'When is your birthday party going to be?',
+    },
+    {
+      meaning: 'Yeni yıl kutlaması ne zaman olacak?',
+      possibleAnswer: 'The celebration is going to be on December 31st.',
+      sentence: 'When is the new year celebration going to be?',
+    },
+    {
+      meaning: 'Kitap kulübü toplantısı ne zaman olacak?',
+      possibleAnswer: 'The book club meeting is going to be on Wednesday.',
+      sentence: 'When is the book club meeting going to be?',
+    },
+    {
+      meaning: 'Yoga dersin ne zaman olacak?',
+      possibleAnswer: 'The yoga class is going to be on Thursday.',
+      sentence: 'When is your yoga class going to be?',
+    },
+    {
+      meaning: 'Pazar ne zaman açık olacak?',
+      possibleAnswer: 'The market is going to be open on weekends.',
+      sentence: 'When is the market going to be open?',
+    },
+    {
+      meaning: 'Doktor randevun ne zaman olacak?',
+      possibleAnswer: 'The appointment is going to be at 11 AM.',
+      sentence: 'When is the doctor’s appointment going to be?',
+    },
+    {
+      meaning: 'Bir sonraki futbol maçı ne zaman olacak?',
+      possibleAnswer: 'The game is going to be next weekend.',
+      sentence: 'When is the next football game going to be?',
+    },
+    {
+      meaning: 'Takım toplantısı ne zaman olacak?',
+      possibleAnswer: 'The meeting is going to be on Tuesday.',
+      sentence: 'When is the team meeting going to be?',
+    },
+    {
+      meaning: 'Müze turu ne zaman olacak?',
+      possibleAnswer: 'The tour is going to be in October.',
+      sentence: 'When is the museum tour going to be?',
+    },
+    {
+      meaning: 'Final sınavı ne zaman olacak?',
+      possibleAnswer: 'The exam is going to be in May.',
+      sentence: 'When is the final exam going to be?',
+    },
+    {
+      meaning: 'Spor dersi ne zaman olacak?',
+      possibleAnswer: 'The class is going to be on Monday.',
+      sentence: 'When is the gym class going to be?',
+    },
+    {
+      meaning: 'Düğün ne zaman olacak?',
+      possibleAnswer: 'The wedding is going to be in June.',
+      sentence: 'When is the wedding going to be?',
+    },
+    {
+      meaning: 'Bir sonraki doktor ziyaretin ne zaman olacak?',
+      possibleAnswer: 'My next visit is going to be in two weeks.',
+      sentence: "When is your next doctor's visit going to be?",
+    },
+    {
+      meaning: 'Yemek kursu ne zaman olacak?',
+      possibleAnswer: 'The class is going to be on Saturday.',
+      sentence: 'When is the cooking class going to be?',
+    },
+    {
+      meaning: 'Maraton ne zaman olacak?',
+      possibleAnswer: 'The marathon is going to be in October.',
+      sentence: 'When is the marathon going to be?',
+    },
+    {
+      meaning: 'Müzik festivali ne zaman olacak?',
+      possibleAnswer: 'The festival is going to be in July.',
+      sentence: 'When is the music festival going to be?',
+    },
+    {
+      meaning: 'Mezuniyetin ne zaman olacak?',
+      possibleAnswer: 'My graduation is going to be in June.',
+      sentence: 'When is your graduation going to be?',
+    },
+    {
+      meaning: 'Dönem sonu ne zaman olacak?',
+      possibleAnswer: 'The semester is going to be ending in December.',
+      sentence: 'When is the end of the semester going to be?',
+    },
+    {
+      meaning: 'Kamp gezisi ne zaman olacak?',
+      possibleAnswer: 'The trip is going to be in August.',
+      sentence: 'When is the camping trip going to be?',
+    },
+    {
+      meaning: 'Yaz kampı ne zaman olacak?',
+      possibleAnswer: 'The camp is going to be in July.',
+      sentence: 'When is the summer camp going to be?',
+    },
+    {
+      meaning: 'Veli toplantısı ne zaman olacak?',
+      possibleAnswer: 'The meeting is going to be on Thursday.',
+      sentence: 'When is the parent meeting going to be?',
+    },
+    {
+      meaning: 'Dil sınavı ne zaman olacak?',
+      possibleAnswer: 'The exam is going to be in April.',
+      sentence: 'When is the language exam going to be?',
+    },
+    {
+      meaning: 'Okulun ilk günü ne zaman olacak?',
+      possibleAnswer: 'The first day is going to be in September.',
+      sentence: 'When is the first day of school going to be?',
+    },
+    {
+      meaning: 'Okulun son günü ne zaman olacak?',
+      possibleAnswer: 'The last day is going to be in June.',
+      sentence: 'When is the last day of school going to be?',
+    },
+    {
+      meaning: 'Resim dersi ne zaman olacak?',
+      possibleAnswer: 'The class is going to be on Monday.',
+      sentence: 'When is the painting class going to be?',
+    },
+    {
+      meaning: 'Bir sonraki aile yemeği ne zaman olacak?',
+      possibleAnswer: 'The dinner is going to be next weekend.',
+      sentence: 'When is the next family dinner going to be?',
+    },
+  ],
+  'A1-W': [
+    {
+      meaning: 'Ne zaman müsait olacaksın?',
+      possibleAnswer: 'I will be available next week.',
+      sentence: 'When will you be available?',
+    },
+    {
+      meaning: 'Toplantı ne zaman olacak?',
+      possibleAnswer: 'The meeting will be at 10 AM.',
+      sentence: 'When will the meeting be?',
+    },
+    {
+      meaning: 'TV şovu ne zaman olacak?',
+      possibleAnswer: 'The TV show will be on Friday nights.',
+      sentence: 'When will the TV show be on?',
+    },
+    {
+      meaning: 'Sınav ne zaman olacak?',
+      possibleAnswer: 'The exam will be next Monday.',
+      sentence: 'When will the exam be?',
+    },
+    {
+      meaning: 'Okul gezisi ne zaman olacak?',
+      possibleAnswer: 'The school trip will be in April.',
+      sentence: 'When will the school trip be?',
+    },
+    {
+      meaning: 'Tatil ne zaman olacak?',
+      possibleAnswer: 'The holiday will be in December.',
+      sentence: 'When will the holiday be?',
+    },
+    {
+      meaning: 'Annenin doğum günü ne zaman olacak?',
+      possibleAnswer: "My mom's birthday will be in September.",
+      sentence: "When will your mom's birthday be?",
+    },
+    {
+      meaning: 'Konser ne zaman olacak?',
+      possibleAnswer: 'The concert will be this weekend.',
+      sentence: 'When will the concert be?',
+    },
+    {
+      meaning: 'Randevun ne zaman olacak?',
+      possibleAnswer: 'My appointment will be tomorrow.',
+      sentence: 'When will your appointment be?',
+    },
+    {
+      meaning: 'Akşam yemeği ne zaman olacak?',
+      possibleAnswer: 'Dinner will be at 7 PM.',
+      sentence: 'When will dinner be?',
+    },
+    {
+      meaning: 'Arkadaşın ne zaman ziyaret edecek?',
+      possibleAnswer: 'My friend will be visiting this Saturday.',
+      sentence: 'When will your friend be visiting?',
+    },
+    {
+      meaning: 'Ders ne zaman olacak?',
+      possibleAnswer: 'The class will be at 8 AM.',
+      sentence: 'When will the class be?',
+    },
+    {
+      meaning: 'Uçuş ne zaman olacak?',
+      possibleAnswer: 'The flight will be at noon.',
+      sentence: 'When will the flight be?',
+    },
+    {
+      meaning: 'Görüşmen ne zaman olacak?',
+      possibleAnswer: 'My interview will be on Wednesday.',
+      sentence: 'When will your interview be?',
+    },
+    {
+      meaning: 'Parti ne zaman olacak?',
+      possibleAnswer: 'The party will be on Saturday night.',
+      sentence: 'When will the party be?',
+    },
+    {
+      meaning: 'Bir sonraki toplantı ne zaman olacak?',
+      possibleAnswer: 'The next meeting will be on Tuesday.',
+      sentence: 'When will the next meeting be?',
+    },
+    {
+      meaning: 'Son tarih ne zaman olacak?',
+      possibleAnswer: 'The deadline will be on Friday.',
+      sentence: 'When will the deadline be?',
+    },
+    {
+      meaning: 'Tren ne zaman olacak?',
+      possibleAnswer: 'The train will be at 6 PM.',
+      sentence: 'When will the train be?',
+    },
+    {
+      meaning: 'Film ne zaman olacak?',
+      possibleAnswer: 'The movie will be at 7 PM.',
+      sentence: 'When will the movie be?',
+    },
+    {
+      meaning: 'Seminer ne zaman olacak?',
+      possibleAnswer: 'The seminar will be next week.',
+      sentence: 'When will the seminar be?',
+    },
+    {
+      meaning: 'Oyun ne zaman olacak?',
+      possibleAnswer: 'The game will be on Saturday.',
+      sentence: 'When will the game be?',
+    },
+    {
+      meaning: 'Randevun ne zaman olacak?',
+      possibleAnswer: 'My appointment will be on Thursday.',
+      sentence: 'When will your appointment be?',
+    },
+    {
+      meaning: 'Okul oyunu ne zaman olacak?',
+      possibleAnswer: 'The school play will be in March.',
+      sentence: 'When will the school play be?',
+    },
+    {
+      meaning: 'Kütüphane ne zaman kapanacak?',
+      possibleAnswer: 'The library will be closing at 8 PM.',
+      sentence: 'When will the library be closing?',
+    },
+    {
+      meaning: 'Doğum günü partin ne zaman olacak?',
+      possibleAnswer: 'The party will be on Saturday.',
+      sentence: 'When will your birthday party be?',
+    },
+    {
+      meaning: 'Yeni yıl kutlaması ne zaman olacak?',
+      possibleAnswer: 'The celebration will be on December 31st.',
+      sentence: 'When will the new year celebration be?',
+    },
+    {
+      meaning: 'Kitap kulübü toplantısı ne zaman olacak?',
+      possibleAnswer: 'The book club meeting will be on Wednesday.',
+      sentence: 'When will the book club meeting be?',
+    },
+    {
+      meaning: 'Yoga dersin ne zaman olacak?',
+      possibleAnswer: 'The yoga class will be on Thursday.',
+      sentence: 'When will your yoga class be?',
+    },
+    {
+      meaning: 'Pazar ne zaman açık olacak?',
+      possibleAnswer: 'The market will be open on weekends.',
+      sentence: 'When will the market be open?',
+    },
+    {
+      meaning: 'Doktor randevun ne zaman olacak?',
+      possibleAnswer: 'The appointment will be at 11 AM.',
+      sentence: 'When will the doctor’s appointment be?',
+    },
+    {
+      meaning: 'Bir sonraki futbol maçı ne zaman olacak?',
+      possibleAnswer: 'The game will be next weekend.',
+      sentence: 'When will the next football game be?',
+    },
+    {
+      meaning: 'Takım toplantısı ne zaman olacak?',
+      possibleAnswer: 'The meeting will be on Tuesday.',
+      sentence: 'When will the team meeting be?',
+    },
+    {
+      meaning: 'Müze turu ne zaman olacak?',
+      possibleAnswer: 'The tour will be in October.',
+      sentence: 'When will the museum tour be?',
+    },
+    {
+      meaning: 'Final sınavı ne zaman olacak?',
+      possibleAnswer: 'The exam will be in May.',
+      sentence: 'When will the final exam be?',
+    },
+    {
+      meaning: 'Spor dersi ne zaman olacak?',
+      possibleAnswer: 'The class will be on Monday.',
+      sentence: 'When will the gym class be?',
+    },
+    {
+      meaning: 'Düğün ne zaman olacak?',
+      possibleAnswer: 'The wedding will be in June.',
+      sentence: 'When will the wedding be?',
+    },
+    {
+      meaning: 'Bir sonraki doktor ziyaretin ne zaman olacak?',
+      possibleAnswer: 'My next visit will be in two weeks.',
+      sentence: "When will your next doctor's visit be?",
+    },
+    {
+      meaning: 'Yemek kursu ne zaman olacak?',
+      possibleAnswer: 'The class will be on Saturday.',
+      sentence: 'When will the cooking class be?',
+    },
+    {
+      meaning: 'Maraton ne zaman olacak?',
+      possibleAnswer: 'The marathon will be in October.',
+      sentence: 'When will the marathon be?',
+    },
+    {
+      meaning: 'Müzik festivali ne zaman olacak?',
+      possibleAnswer: 'The festival will be in July.',
+      sentence: 'When will the music festival be?',
+    },
+    {
+      meaning: 'Mezuniyetin ne zaman olacak?',
+      possibleAnswer: 'My graduation will be in June.',
+      sentence: 'When will your graduation be?',
+    },
+    {
+      meaning: 'Dönem sonu ne zaman olacak?',
+      possibleAnswer: 'The semester will be ending in December.',
+      sentence: 'When will the end of the semester be?',
+    },
+    {
+      meaning: 'Kamp gezisi ne zaman olacak?',
+      possibleAnswer: 'The trip will be in August.',
+      sentence: 'When will the camping trip be?',
+    },
+    {
+      meaning: 'Yaz kampı ne zaman olacak?',
+      possibleAnswer: 'The camp will be in July.',
+      sentence: 'When will the summer camp be?',
+    },
+    {
+      meaning: 'Veli toplantısı ne zaman olacak?',
+      possibleAnswer: 'The meeting will be on Thursday.',
+      sentence: 'When will the parent meeting be?',
+    },
+    {
+      meaning: 'Dil sınavı ne zaman olacak?',
+      possibleAnswer: 'The exam will be in April.',
+      sentence: 'When will the language exam be?',
+    },
+    {
+      meaning: 'Okulun ilk günü ne zaman olacak?',
+      possibleAnswer: 'The first day will be in September.',
+      sentence: 'When will the first day of school be?',
+    },
+    {
+      meaning: 'Okulun son günü ne zaman olacak?',
+      possibleAnswer: 'The last day will be in June.',
+      sentence: 'When will the last day of school be?',
+    },
+    {
+      meaning: 'Resim dersi ne zaman olacak?',
+      possibleAnswer: 'The class will be on Monday.',
+      sentence: 'When will the painting class be?',
+    },
+    {
+      meaning: 'Bir sonraki aile yemeği ne zaman olacak?',
+      possibleAnswer: 'The dinner will be next weekend.',
+      sentence: 'When will the next family dinner be?',
+    },
+  ],
+  'A2-G': [
+    {
+      meaning: "Ne zaman Avrupa'ya seyahat edeceksin?",
+      possibleAnswer: 'I am going to travel to Europe next summer.',
+      sentence: 'When are you going to travel to Europe?',
+    },
+    {
+      meaning: 'Ne zaman yeni işine başlayacaksın?',
+      possibleAnswer: 'I am going to start my new job in a month.',
+      sentence: 'When are you going to start your new job?',
+    },
+    {
+      meaning: 'Ne zaman aileni ziyaret edeceksin?',
+      possibleAnswer: 'I am going to visit my family this weekend.',
+      sentence: 'When are you going to visit your family?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir araba alacaksın?',
+      possibleAnswer: 'I am going to buy a new car in six months.',
+      sentence: 'When are you going to buy a new car?',
+    },
+    {
+      meaning: 'Ne zaman yemek yapmayı öğreneceksin?',
+      possibleAnswer: 'I am going to learn to cook this winter.',
+      sentence: 'When are you going to learn to cook?',
+    },
+    {
+      meaning: 'Ne zaman düğününü planlayacaksın?',
+      possibleAnswer: 'I am going to plan my wedding next year.',
+      sentence: 'When are you going to plan your wedding?',
+    },
+    {
+      meaning: 'Ne zaman evi boyayacaksın?',
+      possibleAnswer: 'I am going to paint the house in the spring.',
+      sentence: 'When are you going to paint the house?',
+    },
+    {
+      meaning: 'Ne zaman tatile çıkacaksın?',
+      possibleAnswer: 'I am going to take a vacation in December.',
+      sentence: 'When are you going to take a vacation?',
+    },
+    {
+      meaning: 'Ne zaman yeni komşuyla tanışacaksın?',
+      possibleAnswer: 'I am going to meet the new neighbor tomorrow.',
+      sentence: 'When are you going to meet the new neighbor?',
+    },
+    {
+      meaning: 'Ne zaman egzersiz yapmaya başlayacaksın?',
+      possibleAnswer: 'I am going to start exercising next week.',
+      sentence: 'When are you going to start exercising?',
+    },
+    {
+      meaning: 'Ne zaman kitabını yazacaksın?',
+      possibleAnswer: 'I am going to write my book next month.',
+      sentence: 'When are you going to write your book?',
+    },
+    {
+      meaning: 'Ne zaman projeye başlayacaksın?',
+      possibleAnswer: 'I am going to start the project next Monday.',
+      sentence: 'When are you going to start the project?',
+    },
+    {
+      meaning: 'Ne zaman bahçeyi dikeceksin?',
+      possibleAnswer: 'I am going to plant the garden in April.',
+      sentence: 'When are you going to plant the garden?',
+    },
+    {
+      meaning: 'Ne zaman bir spor salonuna katılacaksın?',
+      possibleAnswer: 'I am going to join a gym in January.',
+      sentence: 'When are you going to join a gym?',
+    },
+    {
+      meaning: 'Ne zaman bir blog oluşturacaksın?',
+      possibleAnswer: 'I am going to create a blog next month.',
+      sentence: 'When are you going to create a blog?',
+    },
+    {
+      meaning: 'Ne zaman doğa yürüyüşüne çıkacaksın?',
+      possibleAnswer: 'I am going to go hiking next weekend.',
+      sentence: 'When are you going to go hiking?',
+    },
+    {
+      meaning: 'Ne zaman müzeyi ziyaret edeceksin?',
+      possibleAnswer: 'I am going to visit the museum next Tuesday.',
+      sentence: 'When are you going to visit the museum?',
+    },
+    {
+      meaning: 'Ne zaman tenis oynayacaksın?',
+      possibleAnswer: 'I am going to play tennis this weekend.',
+      sentence: 'When are you going to play tennis?',
+    },
+    {
+      meaning: 'Ne zaman bir iş kuracaksın?',
+      possibleAnswer: 'I am going to start a business next year.',
+      sentence: 'When are you going to start a business?',
+    },
+    {
+      meaning: 'Ne zaman arkadaşını arayacaksın?',
+      possibleAnswer: 'I am going to call my friend this evening.',
+      sentence: 'When are you going to call your friend?',
+    },
+    {
+      meaning: 'Ne zaman filmi izleyeceksin?',
+      possibleAnswer: 'I am going to watch the movie tomorrow.',
+      sentence: 'When are you going to watch the movie?',
+    },
+    {
+      meaning: 'Ne zaman plaja süreceksin?',
+      possibleAnswer: 'I am going to drive to the beach next weekend.',
+      sentence: 'When are you going to drive to the beach?',
+    },
+    {
+      meaning: 'Ne zaman resim yapmaya başlayacaksın?',
+      possibleAnswer: 'I am going to start painting this weekend.',
+      sentence: 'When are you going to start painting?',
+    },
+    {
+      meaning: 'Ne zaman geziyi planlayacaksın?',
+      possibleAnswer: 'I am going to plan the trip next month.',
+      sentence: 'When are you going to plan the trip?',
+    },
+    {
+      meaning: 'Ne zaman parkı ziyaret edeceksin?',
+      possibleAnswer: 'I am going to visit the park this Sunday.',
+      sentence: 'When are you going to visit the park?',
+    },
+    {
+      meaning: 'Ne zaman atölye çalışmasına katılacaksın?',
+      possibleAnswer: 'I am going to attend the workshop next Friday.',
+      sentence: 'When are you going to attend the workshop?',
+    },
+    {
+      meaning: "Ne zaman Japonya'ya seyahat edeceksin?",
+      possibleAnswer: 'I am going to travel to Japan next summer.',
+      sentence: 'When are you going to travel to Japan?',
+    },
+    {
+      meaning: 'Ne zaman arabayı tamir edeceksin?',
+      possibleAnswer: 'I am going to repair the car this weekend.',
+      sentence: 'When are you going to repair the car?',
+    },
+    {
+      meaning: 'Ne zaman özgeçmişini güncelleyeceksin?',
+      possibleAnswer: 'I am going to update my resume tomorrow.',
+      sentence: 'When are you going to update your resume?',
+    },
+    {
+      meaning: 'Ne zaman sınava gireceksin?',
+      possibleAnswer: 'I am going to take the exam next semester.',
+      sentence: 'When are you going to take the exam?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir laptop alacaksın?',
+      possibleAnswer: 'I am going to buy a new laptop next month.',
+      sentence: 'When are you going to buy a new laptop?',
+    },
+    {
+      meaning: 'Ne zaman dişçiyi ziyaret edeceksin?',
+      possibleAnswer: 'I am going to visit the dentist next week.',
+      sentence: 'When are you going to visit the dentist?',
+    },
+    {
+      meaning: 'Ne zaman kan bağışlayacaksın?',
+      possibleAnswer: 'I am going to donate blood next month.',
+      sentence: 'When are you going to donate blood?',
+    },
+    {
+      meaning: 'Ne zaman yarışmaya katılacaksın?',
+      possibleAnswer:
+        'I am going to participate in the competition next month.',
+      sentence: 'When are you going to participate in the competition?',
+    },
+    {
+      meaning: 'Ne zaman konsere katılacaksın?',
+      possibleAnswer: 'I am going to attend the concert next Friday.',
+      sentence: 'When are you going to attend the concert?',
+    },
+    {
+      meaning: 'Ne zaman yeni mobilya alacaksın?',
+      possibleAnswer: 'I am going to buy new furniture next month.',
+      sentence: 'When are you going to buy new furniture?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir iş bulacaksın?',
+      possibleAnswer: 'I am going to get a new job next year.',
+      sentence: 'When are you going to get a new job?',
+    },
+    {
+      meaning: "Ne zaman Avustralya'ya seyahat edeceksin?",
+      possibleAnswer: 'I am going to travel to Australia next winter.',
+      sentence: 'When are you going to travel to Australia?',
+    },
+    {
+      meaning: 'Ne zaman web seminerine katılacaksın?',
+      possibleAnswer: 'I am going to attend the webinar next week.',
+      sentence: 'When are you going to attend the webinar?',
+    },
+    {
+      meaning: 'Ne zaman para biriktirmeye başlayacaksın?',
+      possibleAnswer: 'I am going to start saving money next year.',
+      sentence: 'When are you going to start saving money?',
+    },
+    {
+      meaning: 'Ne zaman saçını kestireceksin?',
+      possibleAnswer: 'I am going to get a haircut this weekend.',
+      sentence: 'When are you going to get a haircut?',
+    },
+    {
+      meaning: 'Ne zaman akvaryumu ziyaret edeceksin?',
+      possibleAnswer: 'I am going to visit the aquarium next Sunday.',
+      sentence: 'When are you going to visit the aquarium?',
+    },
+    {
+      meaning: 'Ne zaman kayak yapmaya gideceksin?',
+      possibleAnswer: 'I am going to go skiing next winter.',
+      sentence: 'When are you going to go skiing?',
+    },
+    {
+      meaning: 'Ne zaman meditasyon yapmaya başlayacaksın?',
+      possibleAnswer: 'I am going to start meditating tomorrow.',
+      sentence: 'When are you going to start meditating?',
+    },
+    {
+      meaning: 'Ne zaman ehliyetini yenileyeceksin?',
+      possibleAnswer: "I am going to renew my driver's license next month.",
+      sentence: "When are you going to renew your driver's license?",
+    },
+    {
+      meaning: 'Ne zaman bir atölyeye katılacaksın?',
+      possibleAnswer: 'I am going to attend a workshop next Friday.',
+      sentence: 'When are you going to attend a workshop?',
+    },
+    {
+      meaning: 'Ne zaman bahçeciliğe başlayacaksın?',
+      possibleAnswer: 'I am going to start gardening in the spring.',
+      sentence: 'When are you going to start gardening?',
+    },
+    {
+      meaning: 'Ne zaman yüzmeyi öğreneceksin?',
+      possibleAnswer: 'I am going to learn to swim this summer.',
+      sentence: 'When are you going to learn to swim?',
+    },
+    {
+      meaning: 'Ne zaman kamp yapmaya gideceksin?',
+      possibleAnswer: 'I am going to go camping next weekend.',
+      sentence: 'When are you going to go camping?',
+    },
+    {
+      meaning: 'Ne zaman dolabını düzenleyeceksin?',
+      possibleAnswer: 'I am going to organize my closet this weekend.',
+      sentence: 'When are you going to organize your closet?',
+    },
+  ],
+  'A2-W': [
+    {
+      meaning: "Ne zaman Avrupa'ya seyahat edeceksin?",
+      possibleAnswer: 'I will travel to Europe next summer.',
+      sentence: 'When will you travel to Europe?',
+    },
+    {
+      meaning: 'Ne zaman yeni işine başlayacaksın?',
+      possibleAnswer: 'I will start my new job in a month.',
+      sentence: 'When will you start your new job?',
+    },
+    {
+      meaning: 'Ne zaman diplomanı bitireceksin?',
+      possibleAnswer: 'I will finish my degree next year.',
+      sentence: 'When will you finish your degree?',
+    },
+    {
+      meaning: 'Ne zaman düğününü planlayacaksın?',
+      possibleAnswer: 'I will plan my wedding next year.',
+      sentence: 'When will you plan your wedding?',
+    },
+    {
+      meaning: 'Ne zaman yeni komşuyla tanışacaksın?',
+      possibleAnswer: 'I will meet the new neighbor tomorrow.',
+      sentence: 'When will you meet the new neighbor?',
+    },
+    {
+      meaning: 'Ne zaman konsere gideceksin?',
+      possibleAnswer: 'I will go to the concert next Friday.',
+      sentence: 'When will you go to the concert?',
+    },
+    {
+      meaning: 'Ne zaman odanı düzenleyeceksin?',
+      possibleAnswer: 'I will organize my room tomorrow.',
+      sentence: 'When will you organize your room?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir dil öğreneceksin?',
+      possibleAnswer: 'I will learn a new language next year.',
+      sentence: 'When will you learn a new language?',
+    },
+    {
+      meaning: 'Ne zaman alışveriş yapacaksın?',
+      possibleAnswer: 'I will buy groceries this afternoon.',
+      sentence: 'When will you buy groceries?',
+    },
+    {
+      meaning: 'Ne zaman seminere katılacaksın?',
+      possibleAnswer: 'I will attend the seminar next month.',
+      sentence: 'When will you attend the seminar?',
+    },
+    {
+      meaning: 'Ne zaman resim yapmaya başlayacaksın?',
+      possibleAnswer: 'I will start painting this weekend.',
+      sentence: 'When will you start painting?',
+    },
+    {
+      meaning: 'Ne zaman kulübe katılacaksın?',
+      possibleAnswer: 'I will join the club next week.',
+      sentence: 'When will you join the club?',
+    },
+    {
+      meaning: 'Ne zaman ödevi tamamlayacaksın?',
+      possibleAnswer: 'I will complete the assignment tomorrow.',
+      sentence: 'When will you complete the assignment?',
+    },
+    {
+      meaning: 'Ne zaman geziyi planlayacaksın?',
+      possibleAnswer: 'I will plan the trip next month.',
+      sentence: 'When will you plan the trip?',
+    },
+    {
+      meaning: 'Ne zaman telefonunu yükselteceksin?',
+      possibleAnswer: 'I will upgrade my phone next year.',
+      sentence: 'When will you upgrade your phone?',
+    },
+    {
+      meaning: 'Ne zaman parkı ziyaret edeceksin?',
+      possibleAnswer: 'I will visit the park this Sunday.',
+      sentence: 'When will you visit the park?',
+    },
+    {
+      meaning: 'Ne zaman tavan arasını temizleyeceksin?',
+      possibleAnswer: 'I will clean the attic next Saturday.',
+      sentence: 'When will you clean the attic?',
+    },
+    {
+      meaning: 'Ne zaman atölye çalışmasına katılacaksın?',
+      possibleAnswer: 'I will attend the workshop next Friday.',
+      sentence: 'When will you attend the workshop?',
+    },
+    {
+      meaning: 'Ne zaman etkinliği organize edeceksin?',
+      possibleAnswer: 'I will organize the event next month.',
+      sentence: 'When will you organize the event?',
+    },
+    {
+      meaning: "Ne zaman Japonya'ya seyahat edeceksin?",
+      possibleAnswer: 'I will travel to Japan next summer.',
+      sentence: 'When will you travel to Japan?',
+    },
+    {
+      meaning: 'Ne zaman arabayı tamir edeceksin?',
+      possibleAnswer: 'I will repair the car this weekend.',
+      sentence: 'When will you repair the car?',
+    },
+    {
+      meaning: 'Ne zaman özgeçmişini güncelleyeceksin?',
+      possibleAnswer: 'I will update my resume tomorrow.',
+      sentence: 'When will you update your resume?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir eve taşınacaksın?',
+      possibleAnswer: 'I will move to a new house next month.',
+      sentence: 'When will you move to a new house?',
+    },
+    {
+      meaning: 'Ne zaman kursa kayıt olacaksın?',
+      possibleAnswer: 'I will register for the course next week.',
+      sentence: 'When will you register for the course?',
+    },
+    {
+      meaning: 'Ne zaman toplantıyı planlayacaksın?',
+      possibleAnswer: 'I will schedule the meeting for next Tuesday.',
+      sentence: 'When will you schedule the meeting?',
+    },
+    {
+      meaning: 'Ne zaman makaleyi yazacaksın?',
+      possibleAnswer: 'I will write the article next week.',
+      sentence: 'When will you write the article?',
+    },
+    {
+      meaning: 'Ne zaman raporu yayınlayacaksın?',
+      possibleAnswer: 'I will publish the report next month.',
+      sentence: 'When will you publish the report?',
+    },
+    {
+      meaning: 'Ne zaman sınava gireceksin?',
+      possibleAnswer: 'I will take the exam next semester.',
+      sentence: 'When will you take the exam?',
+    },
+    {
+      meaning: 'Ne zaman e-postayı göndereceksin?',
+      possibleAnswer: 'I will send the email tomorrow.',
+      sentence: 'When will you send the email?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir laptop alacaksın?',
+      possibleAnswer: 'I will buy a new laptop next month.',
+      sentence: 'When will you buy a new laptop?',
+    },
+    {
+      meaning: 'Ne zaman pasaportunu yenileyeceksin?',
+      possibleAnswer: 'I will renew my passport next year.',
+      sentence: 'When will you renew your passport?',
+    },
+    {
+      meaning: 'Ne zaman ağaçları dikeceksin?',
+      possibleAnswer: 'I will plant the trees in the spring.',
+      sentence: 'When will you plant the trees?',
+    },
+    {
+      meaning: 'Ne zaman diziyi izleyeceksin?',
+      possibleAnswer: 'I will watch the series tonight.',
+      sentence: 'When will you watch the series?',
+    },
+    {
+      meaning: 'Ne zaman yoga dersine katılacaksın?',
+      possibleAnswer: 'I will join the yoga class next week.',
+      sentence: 'When will you join the yoga class?',
+    },
+    {
+      meaning: 'Ne zaman konsere katılacaksın?',
+      possibleAnswer: 'I will attend the concert next Friday.',
+      sentence: 'When will you attend the concert?',
+    },
+    {
+      meaning: 'Ne zaman aile buluşmasına katılacaksın?',
+      possibleAnswer: 'I will attend the family reunion next summer.',
+      sentence: 'When will you attend the family reunion?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir iş bulacaksın?',
+      possibleAnswer: 'I will get a new job next year.',
+      sentence: 'When will you get a new job?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir hobiye başlayacaksın?',
+      possibleAnswer: 'I will start a new hobby next month.',
+      sentence: 'When will you start a new hobby?',
+    },
+    {
+      meaning: 'Ne zaman bilgisayarını yükselteceksin?',
+      possibleAnswer: 'I will upgrade my computer next month.',
+      sentence: 'When will you upgrade your computer?',
+    },
+    {
+      meaning: 'Ne zaman saçını kestireceksin?',
+      possibleAnswer: 'I will get a haircut this weekend.',
+      sentence: 'When will you get a haircut?',
+    },
+    {
+      meaning: 'Ne zaman akvaryumu ziyaret edeceksin?',
+      possibleAnswer: 'I will visit the aquarium next Sunday.',
+      sentence: 'When will you visit the aquarium?',
+    },
+    {
+      meaning: 'Ne zaman balık tutmaya gideceksin?',
+      possibleAnswer: 'I will go fishing next weekend.',
+      sentence: 'When will you go fishing?',
+    },
+    {
+      meaning: 'Ne zaman gönüllülük yapmaya başlayacaksın?',
+      possibleAnswer: 'I will start volunteering next month.',
+      sentence: 'When will you start volunteering?',
+    },
+    {
+      meaning: 'Ne zaman kayak yapmaya gideceksin?',
+      possibleAnswer: 'I will go skiing next winter.',
+      sentence: 'When will you go skiing?',
+    },
+    {
+      meaning: 'Ne zaman bir atölyeye katılacaksın?',
+      possibleAnswer: 'I will attend a workshop next Friday.',
+      sentence: 'When will you attend a workshop?',
+    },
+    {
+      meaning: 'Ne zaman bahçeciliğe başlayacaksın?',
+      possibleAnswer: 'I will start gardening in the spring.',
+      sentence: 'When will you start gardening?',
+    },
+    {
+      meaning: 'Ne zaman yemek kursuna katılacaksın?',
+      possibleAnswer: 'I will take a cooking class next week.',
+      sentence: 'When will you take a cooking class?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir kamera alacaksın?',
+      possibleAnswer: 'I will buy a new camera next month.',
+      sentence: 'When will you buy a new camera?',
+    },
+    {
+      meaning: 'Ne zaman dans dersine katılacaksın?',
+      possibleAnswer: 'I will join a dance class next week.',
+      sentence: 'When will you join a dance class?',
+    },
+    {
+      meaning: "Ne zaman New York'a seyahat edeceksin?",
+      possibleAnswer: 'I will travel to New York next year.',
+      sentence: 'When will you travel to New York?',
+    },
+  ],
+  A3: [
+    {
+      meaning: "Ne zaman Avrupa'ya seyahat ediyor olacaksın?",
+      possibleAnswer: 'I will be traveling to Europe next summer.',
+      sentence: 'When will you be traveling to Europe?',
+    },
+    {
+      meaning: 'Ne zaman yeni işine başlıyor olacaksın?',
+      possibleAnswer: 'I will be starting my new job in a month.',
+      sentence: 'When will you be starting your new job?',
+    },
+    {
+      meaning: 'Ne zaman aileni ziyaret ediyor olacaksın?',
+      possibleAnswer: 'I will be visiting my family this weekend.',
+      sentence: 'When will you be visiting your family?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir araba alıyor olacaksın?',
+      possibleAnswer: 'I will be buying a new car in six months.',
+      sentence: 'When will you be buying a new car?',
+    },
+    {
+      meaning: 'Ne zaman yemek yapmayı öğreniyor olacaksın?',
+      possibleAnswer: 'I will be learning to cook this winter.',
+      sentence: 'When will you be learning to cook?',
+    },
+    {
+      meaning: 'Ne zaman düğününü planlıyor olacaksın?',
+      possibleAnswer: 'I will be planning my wedding next year.',
+      sentence: 'When will you be planning your wedding?',
+    },
+    {
+      meaning: 'Ne zaman evi boyuyor olacaksın?',
+      possibleAnswer: 'I will be painting the house in the spring.',
+      sentence: 'When will you be painting the house?',
+    },
+    {
+      meaning: 'Ne zaman tatile çıkıyor olacaksın?',
+      possibleAnswer: 'I will be taking a vacation in December.',
+      sentence: 'When will you be taking a vacation?',
+    },
+    {
+      meaning: 'Ne zaman yeni komşuyla tanışıyor olacaksın?',
+      possibleAnswer: 'I will be meeting the new neighbor tomorrow.',
+      sentence: 'When will you be meeting the new neighbor?',
+    },
+    {
+      meaning: 'Ne zaman egzersiz yapmaya başlıyor olacaksın?',
+      possibleAnswer: 'I will be starting to exercise next week.',
+      sentence: 'When will you be starting to exercise?',
+    },
+    {
+      meaning: 'Ne zaman kitabını yazıyor olacaksın?',
+      possibleAnswer: 'I will be writing my book next month.',
+      sentence: 'When will you be writing your book?',
+    },
+    {
+      meaning: 'Ne zaman projeye başlıyor olacaksın?',
+      possibleAnswer: 'I will be starting the project next Monday.',
+      sentence: 'When will you be starting the project?',
+    },
+    {
+      meaning: 'Ne zaman bahçeyi dikiyor olacaksın?',
+      possibleAnswer: 'I will be planting the garden in April.',
+      sentence: 'When will you be planting the garden?',
+    },
+    {
+      meaning: 'Ne zaman bir spor salonuna katılıyor olacaksın?',
+      possibleAnswer: 'I will be joining a gym in January.',
+      sentence: 'When will you be joining a gym?',
+    },
+    {
+      meaning: 'Ne zaman bir blog oluşturuyor olacaksın?',
+      possibleAnswer: 'I will be creating a blog next month.',
+      sentence: 'When will you be creating a blog?',
+    },
+    {
+      meaning: 'Ne zaman doğa yürüyüşüne çıkıyor olacaksın?',
+      possibleAnswer: 'I will be going hiking next weekend.',
+      sentence: 'When will you be going hiking?',
+    },
+    {
+      meaning: 'Ne zaman müzeyi ziyaret ediyor olacaksın?',
+      possibleAnswer: 'I will be visiting the museum next Tuesday.',
+      sentence: 'When will you be visiting the museum?',
+    },
+    {
+      meaning: 'Ne zaman tenis oynuyor olacaksın?',
+      possibleAnswer: 'I will be playing tennis this weekend.',
+      sentence: 'When will you be playing tennis?',
+    },
+    {
+      meaning: 'Ne zaman bir iş kuruyor olacaksın?',
+      possibleAnswer: 'I will be starting a business next year.',
+      sentence: 'When will you be starting a business?',
+    },
+    {
+      meaning: 'Ne zaman arkadaşını arıyor olacaksın?',
+      possibleAnswer: 'I will be calling my friend this evening.',
+      sentence: 'When will you be calling your friend?',
+    },
+    {
+      meaning: 'Ne zaman filmi izliyor olacaksın?',
+      possibleAnswer: 'I will be watching the movie tomorrow.',
+      sentence: 'When will you be watching the movie?',
+    },
+    {
+      meaning: 'Ne zaman plaja sürüyor olacaksın?',
+      possibleAnswer: 'I will be driving to the beach next weekend.',
+      sentence: 'When will you be driving to the beach?',
+    },
+    {
+      meaning: 'Ne zaman resim yapmaya başlıyor olacaksın?',
+      possibleAnswer: 'I will be starting painting this weekend.',
+      sentence: 'When will you be starting painting?',
+    },
+    {
+      meaning: 'Ne zaman geziyi planlıyor olacaksın?',
+      possibleAnswer: 'I will be planning the trip next month.',
+      sentence: 'When will you be planning the trip?',
+    },
+    {
+      meaning: 'Ne zaman parkı ziyaret ediyor olacaksın?',
+      possibleAnswer: 'I will be visiting the park this Sunday.',
+      sentence: 'When will you be visiting the park?',
+    },
+    {
+      meaning: 'Ne zaman atölye çalışmasına katılıyor olacaksın?',
+      possibleAnswer: 'I will be attending the workshop next Friday.',
+      sentence: 'When will you be attending the workshop?',
+    },
+    {
+      meaning: "Ne zaman Japonya'ya seyahat ediyor olacaksın?",
+      possibleAnswer: 'I will be traveling to Japan next summer.',
+      sentence: 'When will you be traveling to Japan?',
+    },
+    {
+      meaning: 'Ne zaman arabayı tamir ediyor olacaksın?',
+      possibleAnswer: 'I will be repairing the car this weekend.',
+      sentence: 'When will you be repairing the car?',
+    },
+    {
+      meaning: 'Ne zaman özgeçmişini güncelliyor olacaksın?',
+      possibleAnswer: 'I will be updating my resume tomorrow.',
+      sentence: 'When will you be updating your resume?',
+    },
+    {
+      meaning: 'Ne zaman sınava giriyor olacaksın?',
+      possibleAnswer: 'I will be taking the exam next semester.',
+      sentence: 'When will you be taking the exam?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir laptop alıyor olacaksın?',
+      possibleAnswer: 'I will be buying a new laptop next month.',
+      sentence: 'When will you be buying a new laptop?',
+    },
+    {
+      meaning: 'Ne zaman dişçiyi ziyaret ediyor olacaksın?',
+      possibleAnswer: 'I will be visiting the dentist next week.',
+      sentence: 'When will you be visiting the dentist?',
+    },
+    {
+      meaning: 'Ne zaman kan bağışlıyor olacaksın?',
+      possibleAnswer: 'I will be donating blood next month.',
+      sentence: 'When will you be donating blood?',
+    },
+    {
+      meaning: 'Ne zaman yarışmaya katılıyor olacaksın?',
+      possibleAnswer: 'I will be participating in the competition next month.',
+      sentence: 'When will you be participating in the competition?',
+    },
+    {
+      meaning: 'Ne zaman konsere katılıyor olacaksın?',
+      possibleAnswer: 'I will be attending the concert next Friday.',
+      sentence: 'When will you be attending the concert?',
+    },
+    {
+      meaning: 'Ne zaman yeni mobilya alıyor olacaksın?',
+      possibleAnswer: 'I will be buying new furniture next month.',
+      sentence: 'When will you be buying new furniture?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir iş buluyor olacaksın?',
+      possibleAnswer: 'I will be getting a new job next year.',
+      sentence: 'When will you be getting a new job?',
+    },
+    {
+      meaning: "Ne zaman Avustralya'ya seyahat ediyor olacaksın?",
+      possibleAnswer: 'I will be traveling to Australia next winter.',
+      sentence: 'When will you be traveling to Australia?',
+    },
+    {
+      meaning: 'Ne zaman web seminerine katılıyor olacaksın?',
+      possibleAnswer: 'I will be attending the webinar next week.',
+      sentence: 'When will you be attending the webinar?',
+    },
+    {
+      meaning: 'Ne zaman para biriktirmeye başlıyor olacaksın?',
+      possibleAnswer: 'I will be starting to save money next year.',
+      sentence: 'When will you be starting to save money?',
+    },
+    {
+      meaning: 'Ne zaman saçını kestiriyor olacaksın?',
+      possibleAnswer: 'I will be getting a haircut this weekend.',
+      sentence: 'When will you be getting a haircut?',
+    },
+    {
+      meaning: 'Ne zaman akvaryumu ziyaret ediyor olacaksın?',
+      possibleAnswer: 'I will be visiting the aquarium next Sunday.',
+      sentence: 'When will you be visiting the aquarium?',
+    },
+    {
+      meaning: 'Ne zaman kayak yapmaya gidiyor olacaksın?',
+      possibleAnswer: 'I will be going skiing next winter.',
+      sentence: 'When will you be going skiing?',
+    },
+    {
+      meaning: 'Ne zaman meditasyon yapmaya başlıyor olacaksın?',
+      possibleAnswer: 'I will be starting to meditate tomorrow.',
+      sentence: 'When will you be starting to meditate?',
+    },
+    {
+      meaning: 'Ne zaman ehliyetini yeniliyor olacaksın?',
+      possibleAnswer: "I will be renewing my driver's license next month.",
+      sentence: "When will you be renewing your driver's license?",
+    },
+    {
+      meaning: 'Ne zaman bir atölyeye katılıyor olacaksın?',
+      possibleAnswer: 'I will be attending a workshop next Friday.',
+      sentence: 'When will you be attending a workshop?',
+    },
+    {
+      meaning: 'Ne zaman bahçeciliğe başlıyor olacaksın?',
+      possibleAnswer: 'I will be starting to garden in the spring.',
+      sentence: 'When will you be starting to garden?',
+    },
+    {
+      meaning: 'Ne zaman yüzmeyi öğreniyor olacaksın?',
+      possibleAnswer: 'I will be learning to swim this summer.',
+      sentence: 'When will you be learning to swim?',
+    },
+    {
+      meaning: 'Ne zaman kamp yapmaya gidiyor olacaksın?',
+      possibleAnswer: 'I will be going camping next weekend.',
+      sentence: 'When will you be going camping?',
+    },
+    {
+      meaning: 'Ne zaman dolabını düzenliyor olacaksın?',
+      possibleAnswer: 'I will be organizing my closet this weekend.',
+      sentence: 'When will you be organizing your closet?',
+    },
+  ],
+  B1: [
+    {
+      meaning: 'Doğum günün ne zaman?',
+      possibleAnswer: 'My birthday is on June 5th.',
+      sentence: 'When is your birthday?',
+    },
+    {
+      meaning: 'Toplantı ne zaman?',
+      possibleAnswer: 'The meeting is at 10 AM.',
+      sentence: 'When is the meeting?',
+    },
+    {
+      meaning: 'TV şovu ne zaman?',
+      possibleAnswer: 'The TV show is on Friday nights.',
+      sentence: 'When is the TV show on?',
+    },
+    {
+      meaning: 'Sınav ne zaman?',
+      possibleAnswer: 'The exam is next Monday.',
+      sentence: 'When is the exam?',
+    },
+    {
+      meaning: 'Okul gezisi ne zaman?',
+      possibleAnswer: 'The school trip is in April.',
+      sentence: 'When is the school trip?',
+    },
+    {
+      meaning: 'Tatil ne zaman?',
+      possibleAnswer: 'The holiday is in December.',
+      sentence: 'When is the holiday?',
+    },
+    {
+      meaning: 'Annenin doğum günü ne zaman?',
+      possibleAnswer: "My mom's birthday is in September.",
+      sentence: "When is your mom's birthday?",
+    },
+    {
+      meaning: 'Konser ne zaman?',
+      possibleAnswer: 'The concert is this weekend.',
+      sentence: 'When is the concert?',
+    },
+    {
+      meaning: 'Randevun ne zaman?',
+      possibleAnswer: 'My appointment is tomorrow.',
+      sentence: 'When is your appointment?',
+    },
+    {
+      meaning: 'Akşam yemeği ne zaman?',
+      possibleAnswer: 'Dinner is at 7 PM.',
+      sentence: 'When is dinner?',
+    },
+    {
+      meaning: 'Arkadaşın ne zaman ziyaret edecek?',
+      possibleAnswer: 'My friend is visiting this Saturday.',
+      sentence: 'When is your friend visiting?',
+    },
+    {
+      meaning: 'Ders ne zaman?',
+      possibleAnswer: 'The class is at 8 AM.',
+      sentence: 'When is the class?',
+    },
+    {
+      meaning: 'Uçuş ne zaman?',
+      possibleAnswer: 'The flight is at noon.',
+      sentence: 'When is the flight?',
+    },
+    {
+      meaning: 'Görüşmen ne zaman?',
+      possibleAnswer: 'My interview is on Wednesday.',
+      sentence: 'When is your interview?',
+    },
+    {
+      meaning: 'Parti ne zaman?',
+      possibleAnswer: 'The party is on Saturday night.',
+      sentence: 'When is the party?',
+    },
+    {
+      meaning: 'Bir sonraki toplantı ne zaman?',
+      possibleAnswer: 'The next meeting is on Tuesday.',
+      sentence: 'When is the next meeting?',
+    },
+    {
+      meaning: 'Son tarih ne zaman?',
+      possibleAnswer: 'The deadline is on Friday.',
+      sentence: 'When is the deadline?',
+    },
+    {
+      meaning: 'Tren ne zaman?',
+      possibleAnswer: 'The train is at 6 PM.',
+      sentence: 'When is the train?',
+    },
+    {
+      meaning: 'Film ne zaman?',
+      possibleAnswer: 'The movie is at 7 PM.',
+      sentence: 'When is the movie?',
+    },
+    {
+      meaning: 'Seminer ne zaman?',
+      possibleAnswer: 'The seminar is next week.',
+      sentence: 'When is the seminar?',
+    },
+    {
+      meaning: 'Oyun ne zaman?',
+      possibleAnswer: 'The game is on Saturday.',
+      sentence: 'When is the game?',
+    },
+    {
+      meaning: 'Randevun ne zaman?',
+      possibleAnswer: 'My appointment is on Thursday.',
+      sentence: 'When is your appointment?',
+    },
+    {
+      meaning: 'Okul oyunu ne zaman?',
+      possibleAnswer: 'The school play is in March.',
+      sentence: 'When is the school play?',
+    },
+    {
+      meaning: 'Kütüphane ne zaman kapanıyor?',
+      possibleAnswer: 'The library is closing at 8 PM.',
+      sentence: 'When is the library closing?',
+    },
+    {
+      meaning: 'Doğum günü partin ne zaman?',
+      possibleAnswer: 'The party is on Saturday.',
+      sentence: 'When is your birthday party?',
+    },
+    {
+      meaning: 'Yeni yıl kutlaması ne zaman?',
+      possibleAnswer: 'The celebration is on December 31st.',
+      sentence: 'When is the new year celebration?',
+    },
+    {
+      meaning: 'Kitap kulübü toplantısı ne zaman?',
+      possibleAnswer: 'The book club meeting is on Wednesday.',
+      sentence: 'When is the book club meeting?',
+    },
+    {
+      meaning: 'Yoga dersin ne zaman?',
+      possibleAnswer: 'The yoga class is on Thursday.',
+      sentence: 'When is your yoga class?',
+    },
+    {
+      meaning: 'Pazar ne zaman açık?',
+      possibleAnswer: 'The market is open on weekends.',
+      sentence: 'When is the market open?',
+    },
+    {
+      meaning: 'Doktor randevusu ne zaman?',
+      possibleAnswer: 'The appointment is at 11 AM.',
+      sentence: 'When is the doctor’s appointment?',
+    },
+    {
+      meaning: 'Bir sonraki futbol maçı ne zaman?',
+      possibleAnswer: 'The game is next weekend.',
+      sentence: 'When is the next football game?',
+    },
+    {
+      meaning: 'Takım toplantısı ne zaman?',
+      possibleAnswer: 'The meeting is on Tuesday.',
+      sentence: 'When is the team meeting?',
+    },
+    {
+      meaning: 'Müze turu ne zaman?',
+      possibleAnswer: 'The tour is in October.',
+      sentence: 'When is the museum tour?',
+    },
+    {
+      meaning: 'Final sınavı ne zaman?',
+      possibleAnswer: 'The exam is in May.',
+      sentence: 'When is the final exam?',
+    },
+    {
+      meaning: 'Spor dersi ne zaman?',
+      possibleAnswer: 'The class is on Monday.',
+      sentence: 'When is the gym class?',
+    },
+    {
+      meaning: 'Düğün ne zaman?',
+      possibleAnswer: 'The wedding is in June.',
+      sentence: 'When is the wedding?',
+    },
+    {
+      meaning: 'Bir sonraki doktor ziyaretin ne zaman?',
+      possibleAnswer: 'My next visit is in two weeks.',
+      sentence: "When is your next doctor's visit?",
+    },
+    {
+      meaning: 'Yemek kursu ne zaman?',
+      possibleAnswer: 'The class is on Saturday.',
+      sentence: 'When is the cooking class?',
+    },
+    {
+      meaning: 'Maraton ne zaman?',
+      possibleAnswer: 'The marathon is in October.',
+      sentence: 'When is the marathon?',
+    },
+    {
+      meaning: 'Müzik festivali ne zaman?',
+      possibleAnswer: 'The festival is in July.',
+      sentence: 'When is the music festival?',
+    },
+    {
+      meaning: 'Mezuniyetin ne zaman?',
+      possibleAnswer: 'My graduation is in June.',
+      sentence: 'When is your graduation?',
+    },
+    {
+      meaning: 'Dönem sonu ne zaman?',
+      possibleAnswer: 'The semester ends in December.',
+      sentence: 'When is the end of the semester?',
+    },
+    {
+      meaning: 'Kamp gezisi ne zaman?',
+      possibleAnswer: 'The trip is in August.',
+      sentence: 'When is the camping trip?',
+    },
+    {
+      meaning: 'Yaz kampı ne zaman?',
+      possibleAnswer: 'The camp is in July.',
+      sentence: 'When is the summer camp?',
+    },
+    {
+      meaning: 'Veli toplantısı ne zaman?',
+      possibleAnswer: 'The meeting is on Thursday.',
+      sentence: 'When is the parent meeting?',
+    },
+    {
+      meaning: 'Dil sınavı ne zaman?',
+      possibleAnswer: 'The exam is in April.',
+      sentence: 'When is the language exam?',
+    },
+    {
+      meaning: 'Okulun ilk günü ne zaman?',
+      possibleAnswer: 'The first day is in September.',
+      sentence: 'When is the first day of school?',
+    },
+    {
+      meaning: 'Okulun son günü ne zaman?',
+      possibleAnswer: 'The last day is in June.',
+      sentence: 'When is the last day of school?',
+    },
+    {
+      meaning: 'Resim dersi ne zaman?',
+      possibleAnswer: 'The class is on Monday.',
+      sentence: 'When is the painting class?',
+    },
+    {
+      meaning: 'Bir sonraki aile yemeği ne zaman?',
+      possibleAnswer: 'The dinner is next weekend.',
+      sentence: 'When is the next family dinner?',
+    },
+  ],
+  B2: [
+    {
+      meaning: 'Ne zaman okula gidersin?',
+      possibleAnswer: 'I go to school at 8 AM.',
+      sentence: 'When do you go to school?',
+    },
+    {
+      meaning: 'Ne zaman kahvaltı yaparsın?',
+      possibleAnswer: 'I have breakfast at 7 AM.',
+      sentence: 'When do you have breakfast?',
+    },
+    {
+      meaning: 'Dersin ne zaman başlar?',
+      possibleAnswer: 'My class starts at 9 AM.',
+      sentence: 'When does your class start?',
+    },
+    {
+      meaning: 'Ödevini ne zaman bitirirsin?',
+      possibleAnswer: 'I finish my homework in the evening.',
+      sentence: 'When do you finish your homework?',
+    },
+    {
+      meaning: 'Ne zaman futbol oynarsın?',
+      possibleAnswer: 'I play soccer on Saturdays.',
+      sentence: 'When do you play soccer?',
+    },
+    {
+      meaning: 'Ne zaman televizyon izlersin?',
+      possibleAnswer: 'I watch TV after dinner.',
+      sentence: 'When do you watch TV?',
+    },
+    {
+      meaning: 'Ne zaman yatarsın?',
+      possibleAnswer: 'I go to bed at 10 PM.',
+      sentence: 'When do you go to bed?',
+    },
+    {
+      meaning: 'Ne zaman kitap okursun?',
+      possibleAnswer: 'I read books in the afternoon.',
+      sentence: 'When do you read books?',
+    },
+    {
+      meaning: 'Ne zaman arkadaşlarınla buluşursun?',
+      possibleAnswer: 'I meet my friends on weekends.',
+      sentence: 'When do you meet your friends?',
+    },
+    {
+      meaning: 'Otobüs ne zaman gelir?',
+      possibleAnswer: 'The bus arrives at 8:30 AM.',
+      sentence: 'When does the bus arrive?',
+    },
+    {
+      meaning: 'Ne zaman odanı temizlersin?',
+      possibleAnswer: 'I clean my room on Saturdays.',
+      sentence: 'When do you clean your room?',
+    },
+    {
+      meaning: 'Ne zaman çamaşır yıkarsın?',
+      possibleAnswer: 'I do my laundry on Sundays.',
+      sentence: 'When do you do your laundry?',
+    },
+    {
+      meaning: 'Ne zaman kütüphaneyi ziyaret edersin?',
+      possibleAnswer: 'I visit the library on Mondays.',
+      sentence: 'When do you visit the library?',
+    },
+    {
+      meaning: 'Ne zaman piyano çalışırsın?',
+      possibleAnswer: 'I practice the piano every afternoon.',
+      sentence: 'When do you practice the piano?',
+    },
+    {
+      meaning: 'Ne zaman bitkileri sularsın?',
+      possibleAnswer: 'I water the plants in the morning.',
+      sentence: 'When do you water the plants?',
+    },
+    {
+      meaning: 'Ne zaman kurabiye yaparsın?',
+      possibleAnswer: 'I bake cookies on weekends.',
+      sentence: 'When do you bake cookies?',
+    },
+    {
+      meaning: 'Ne zaman pazara gidersin?',
+      possibleAnswer: 'I go to the market on Saturdays.',
+      sentence: 'When do you go to the market?',
+    },
+    {
+      meaning: 'Projene ne zaman başlarsın?',
+      possibleAnswer: 'I start my project after school.',
+      sentence: 'When do you start your project?',
+    },
+    {
+      meaning: 'Ne zaman ebeveynlerini ararsın?',
+      possibleAnswer: 'I call my parents every evening.',
+      sentence: 'When do you call your parents?',
+    },
+    {
+      meaning: 'Ne zaman günlüğüne yazarsın?',
+      possibleAnswer: 'I write in my journal before bed.',
+      sentence: 'When do you write in your journal?',
+    },
+    {
+      meaning: 'Ne zaman duş alırsın?',
+      possibleAnswer: 'I have a shower in the morning.',
+      sentence: 'When do you have a shower?',
+    },
+    {
+      meaning: 'Ne zaman egzersiz yaparsın?',
+      possibleAnswer: 'I do my exercises every day.',
+      sentence: 'When do you do your exercises?',
+    },
+    {
+      meaning: 'Ne zaman arkadaşlarını ziyaret ediyorsun?',
+      possibleAnswer: 'I visit my friends on Fridays.',
+      sentence: 'When do you visit your friends?',
+    },
+    {
+      meaning: 'Kız kardeşin ne zaman piyano dersleri alıyor?',
+      possibleAnswer: 'My sister has piano lessons on Tuesdays.',
+      sentence: 'When does your sister have piano lessons?',
+    },
+    {
+      meaning: 'Ne zaman müzeyi ziyaret ediyorsun?',
+      possibleAnswer: 'I visit the museum on Saturdays.',
+      sentence: 'When do you visit the museum?',
+    },
+    {
+      meaning: 'Ne zaman ev işlerini bitiriyorsun?',
+      possibleAnswer: 'I finish my chores in the morning.',
+      sentence: 'When do you finish your chores?',
+    },
+    {
+      meaning: 'Tren ne zaman kalkıyor?',
+      possibleAnswer: 'The train leaves at 6 PM.',
+      sentence: 'When does the train leave?',
+    },
+    {
+      meaning: 'Ne zaman yüzme havuzuna gidiyorsun?',
+      possibleAnswer: 'I go to the swimming pool on Fridays.',
+      sentence: 'When do you go to the swimming pool?',
+    },
+    {
+      meaning: 'Ne zaman dans derslerine katılıyorsun?',
+      possibleAnswer: 'I attend dance classes on Wednesdays.',
+      sentence: 'When do you attend dance classes?',
+    },
+    {
+      meaning: 'Ne zaman resim yapıyorsun?',
+      possibleAnswer: 'I paint on weekends.',
+      sentence: 'When do you paint?',
+    },
+    {
+      meaning: 'Ne zaman plaja gidiyorsun?',
+      possibleAnswer: 'I go to the beach in the summer.',
+      sentence: 'When do you go to the beach?',
+    },
+    {
+      meaning: 'Ne zaman doktora gidiyorsun?',
+      possibleAnswer: 'I visit the doctor once a year.',
+      sentence: 'When do you visit the doctor?',
+    },
+    {
+      meaning: 'Ne zaman hayvanat bahçesini ziyaret ediyorsun?',
+      possibleAnswer: 'I visit the zoo in the spring.',
+      sentence: 'When do you visit the zoo?',
+    },
+    {
+      meaning: 'Ne zaman yoga yapıyorsun?',
+      possibleAnswer: 'I practice yoga every morning.',
+      sentence: 'When do you practice yoga?',
+    },
+    {
+      meaning: 'Ne zaman satranç oynuyorsun?',
+      possibleAnswer: 'I play chess with my friends.',
+      sentence: 'When do you play chess?',
+    },
+    {
+      meaning: 'Ne zaman kuzenlerini ziyaret ediyorsun?',
+      possibleAnswer: 'I visit my cousins on holidays.',
+      sentence: 'When do you visit your cousins?',
+    },
+    {
+      meaning: 'Ne zaman matematik çalışıyorsun?',
+      possibleAnswer: 'I study math in the evening.',
+      sentence: 'When do you study math?',
+    },
+    {
+      meaning: 'Ne zaman arkadaşlarını arıyorsun?',
+      possibleAnswer: 'I call my friends every day.',
+      sentence: 'When do you call your friends?',
+    },
+    {
+      meaning: 'Ne zaman resim yapıyorsun?',
+      possibleAnswer: 'I paint on Saturdays.',
+      sentence: 'When do you paint?',
+    },
+    {
+      meaning: 'Ne zaman radyo dinliyorsun?',
+      possibleAnswer: 'I listen to the radio in the morning.',
+      sentence: 'When do you listen to the radio?',
+    },
+    {
+      meaning: 'Ne zaman kahvaltı yaparsın?',
+      possibleAnswer: 'I make breakfast on weekends.',
+      sentence: 'When do you make breakfast?',
+    },
+    {
+      meaning: 'Ne zaman kek yapıyorsun?',
+      possibleAnswer: 'I bake cakes on special occasions.',
+      sentence: 'When do you bake cakes?',
+    },
+    {
+      meaning: 'Ne zaman doktora gidiyorsun?',
+      possibleAnswer: 'I visit the doctor once a year.',
+      sentence: 'When do you visit the doctor?',
+    },
+    {
+      meaning: 'Ne zaman alışveriş yaparsın?',
+      possibleAnswer: 'I go shopping on Saturdays.',
+      sentence: 'When do you go shopping?',
+    },
+    {
+      meaning: 'Ne zaman kardeşine yardım ediyorsun?',
+      possibleAnswer: 'I help my brother with his homework.',
+      sentence: 'When do you help your brother?',
+    },
+    {
+      meaning: 'Ne zaman çöpü çıkarıyorsun?',
+      possibleAnswer: 'I take out the trash in the evening.',
+      sentence: 'When do you take out the trash?',
+    },
+    {
+      meaning: 'Ne zaman bulaşıkları yıkıyorsun?',
+      possibleAnswer: 'I wash the dishes after dinner.',
+      sentence: 'When do you wash the dishes?',
+    },
+    {
+      meaning: 'Ne zaman banyo yapıyorsun?',
+      possibleAnswer: 'I take a bath in the evening.',
+      sentence: 'When do you take a bath?',
+    },
+    {
+      meaning: 'Ne zaman bahçeyi suluyorsun?',
+      possibleAnswer: 'I water the garden in the morning.',
+      sentence: 'When do you water the garden?',
+    },
+    {
+      meaning: 'Ne zaman büyükanne ve büyükbabanı ziyaret edersin?',
+      possibleAnswer: 'I visit my grandparents on Sundays.',
+      sentence: 'When do you visit your grandparents?',
+    },
+  ],
+  B3: [
+    {
+      meaning: "Ne zaman Avrupa'ya seyahat ediyorsun?",
+      possibleAnswer: 'I am traveling to Europe next summer.',
+      sentence: 'When are you traveling to Europe?',
+    },
+    {
+      meaning: 'Ne zaman yeni işine başlıyorsun?',
+      possibleAnswer: 'I am starting my new job in a month.',
+      sentence: 'When are you starting your new job?',
+    },
+    {
+      meaning: 'Ne zaman aileni ziyaret ediyorsun?',
+      possibleAnswer: 'I am visiting my family this weekend.',
+      sentence: 'When are you visiting your family?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir araba alıyorsun?',
+      possibleAnswer: 'I am buying a new car in six months.',
+      sentence: 'When are you buying a new car?',
+    },
+    {
+      meaning: 'Ne zaman yemek yapmayı öğreniyorsun?',
+      possibleAnswer: 'I am learning to cook this winter.',
+      sentence: 'When are you learning to cook?',
+    },
+    {
+      meaning: 'Ne zaman düğününü planlıyorsun?',
+      possibleAnswer: 'I am planning my wedding next year.',
+      sentence: 'When are you planning your wedding?',
+    },
+    {
+      meaning: 'Ne zaman evi boyuyorsun?',
+      possibleAnswer: 'I am painting the house in the spring.',
+      sentence: 'When are you painting the house?',
+    },
+    {
+      meaning: 'Ne zaman tatile çıkıyorsun?',
+      possibleAnswer: 'I am taking a vacation in December.',
+      sentence: 'When are you taking a vacation?',
+    },
+    {
+      meaning: 'Ne zaman yeni komşuyla tanışıyorsun?',
+      possibleAnswer: 'I am meeting the new neighbor tomorrow.',
+      sentence: 'When are you meeting the new neighbor?',
+    },
+    {
+      meaning: 'Ne zaman egzersiz yapmaya başlıyorsun?',
+      possibleAnswer: 'I am starting to exercise next week.',
+      sentence: 'When are you starting to exercise?',
+    },
+    {
+      meaning: 'Ne zaman kitabını yazıyorsun?',
+      possibleAnswer: 'I am writing my book next month.',
+      sentence: 'When are you writing your book?',
+    },
+    {
+      meaning: 'Ne zaman projeye başlıyorsun?',
+      possibleAnswer: 'I am starting the project next Monday.',
+      sentence: 'When are you starting the project?',
+    },
+    {
+      meaning: 'Ne zaman bahçeyi dikiyorsun?',
+      possibleAnswer: 'I am planting the garden in April.',
+      sentence: 'When are you planting the garden?',
+    },
+    {
+      meaning: 'Ne zaman bir spor salonuna katılıyorsun?',
+      possibleAnswer: 'I am joining a gym in January.',
+      sentence: 'When are you joining a gym?',
+    },
+    {
+      meaning: 'Ne zaman bir blog oluşturuyorsun?',
+      possibleAnswer: 'I am creating a blog next month.',
+      sentence: 'When are you creating a blog?',
+    },
+    {
+      meaning: 'Ne zaman doğa yürüyüşüne çıkıyorsun?',
+      possibleAnswer: 'I am going hiking next weekend.',
+      sentence: 'When are you going hiking?',
+    },
+    {
+      meaning: 'Ne zaman müzeyi ziyaret ediyorsun?',
+      possibleAnswer: 'I am visiting the museum next Tuesday.',
+      sentence: 'When are you visiting the museum?',
+    },
+    {
+      meaning: 'Ne zaman tenis oynuyorsun?',
+      possibleAnswer: 'I am playing tennis this weekend.',
+      sentence: 'When are you playing tennis?',
+    },
+    {
+      meaning: 'Ne zaman bir iş kuruyorsun?',
+      possibleAnswer: 'I am starting a business next year.',
+      sentence: 'When are you starting a business?',
+    },
+    {
+      meaning: 'Ne zaman arkadaşını arıyorsun?',
+      possibleAnswer: 'I am calling my friend this evening.',
+      sentence: 'When are you calling your friend?',
+    },
+    {
+      meaning: 'Ne zaman filmi izliyorsun?',
+      possibleAnswer: 'I am watching the movie tomorrow.',
+      sentence: 'When are you watching the movie?',
+    },
+    {
+      meaning: 'Ne zaman plaja sürüyorsun?',
+      possibleAnswer: 'I am driving to the beach next weekend.',
+      sentence: 'When are you driving to the beach?',
+    },
+    {
+      meaning: 'Ne zaman resim yapmaya başlıyorsun?',
+      possibleAnswer: 'I am starting painting this weekend.',
+      sentence: 'When are you starting painting?',
+    },
+    {
+      meaning: 'Ne zaman geziyi planlıyorsun?',
+      possibleAnswer: 'I am planning the trip next month.',
+      sentence: 'When are you planning the trip?',
+    },
+    {
+      meaning: 'Ne zaman parkı ziyaret ediyorsun?',
+      possibleAnswer: 'I am visiting the park this Sunday.',
+      sentence: 'When are you visiting the park?',
+    },
+    {
+      meaning: 'Ne zaman atölye çalışmasına katılıyorsun?',
+      possibleAnswer: 'I am attending the workshop next Friday.',
+      sentence: 'When are you attending the workshop?',
+    },
+    {
+      meaning: "Ne zaman Japonya'ya seyahat ediyorsun?",
+      possibleAnswer: 'I am traveling to Japan next summer.',
+      sentence: 'When are you traveling to Japan?',
+    },
+    {
+      meaning: 'Ne zaman arabayı tamir ediyorsun?',
+      possibleAnswer: 'I am repairing the car this weekend.',
+      sentence: 'When are you repairing the car?',
+    },
+    {
+      meaning: 'Ne zaman özgeçmişini güncelleyorsun?',
+      possibleAnswer: 'I am updating my resume tomorrow.',
+      sentence: 'When are you updating your resume?',
+    },
+    {
+      meaning: 'Ne zaman sınava giriyorsun?',
+      possibleAnswer: 'I am taking the exam next semester.',
+      sentence: 'When are you taking the exam?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir laptop alıyorsun?',
+      possibleAnswer: 'I am buying a new laptop next month.',
+      sentence: 'When are you buying a new laptop?',
+    },
+    {
+      meaning: 'Ne zaman dişçiyi ziyaret ediyorsun?',
+      possibleAnswer: 'I am visiting the dentist next week.',
+      sentence: 'When are you visiting the dentist?',
+    },
+    {
+      meaning: 'Ne zaman kan bağışlıyorsun?',
+      possibleAnswer: 'I am donating blood next month.',
+      sentence: 'When are you donating blood?',
+    },
+    {
+      meaning: 'Ne zaman yarışmaya katılıyorsun?',
+      possibleAnswer: 'I am participating in the competition next month.',
+      sentence: 'When are you participating in the competition?',
+    },
+    {
+      meaning: 'Ne zaman konsere katılıyorsun?',
+      possibleAnswer: 'I am attending the concert next Friday.',
+      sentence: 'When are you attending the concert?',
+    },
+    {
+      meaning: 'Ne zaman yeni mobilya alıyorsun?',
+      possibleAnswer: 'I am buying new furniture next month.',
+      sentence: 'When are you buying new furniture?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir iş buluyorsun?',
+      possibleAnswer: 'I am getting a new job next year.',
+      sentence: 'When are you getting a new job?',
+    },
+    {
+      meaning: "Ne zaman Avustralya'ya seyahat ediyorsun?",
+      possibleAnswer: 'I am traveling to Australia next winter.',
+      sentence: 'When are you traveling to Australia?',
+    },
+    {
+      meaning: 'Ne zaman web seminerine katılıyorsun?',
+      possibleAnswer: 'I am attending the webinar next week.',
+      sentence: 'When are you attending the webinar?',
+    },
+    {
+      meaning: 'Ne zaman para biriktirmeye başlıyorsun?',
+      possibleAnswer: 'I am starting to save money next year.',
+      sentence: 'When are you starting to save money?',
+    },
+    {
+      meaning: 'Ne zaman saçını kestiriyorsun?',
+      possibleAnswer: 'I am getting a haircut this weekend.',
+      sentence: 'When are you getting a haircut?',
+    },
+    {
+      meaning: 'Ne zaman akvaryumu ziyaret ediyorsun?',
+      possibleAnswer: 'I am visiting the aquarium next Sunday.',
+      sentence: 'When are you visiting the aquarium?',
+    },
+    {
+      meaning: 'Ne zaman kayak yapmaya gidiyorsun?',
+      possibleAnswer: 'I am going skiing next winter.',
+      sentence: 'When are you going skiing?',
+    },
+    {
+      meaning: 'Ne zaman meditasyon yapmaya başlıyorsun?',
+      possibleAnswer: 'I am starting to meditate tomorrow.',
+      sentence: 'When are you starting to meditate?',
+    },
+    {
+      meaning: 'Ne zaman ehliyetini yeniliyorsun?',
+      possibleAnswer: "I am renewing my driver's license next month.",
+      sentence: "When are you renewing your driver's license?",
+    },
+    {
+      meaning: 'Ne zaman bir atölyeye katılıyorsun?',
+      possibleAnswer: 'I am attending a workshop next Friday.',
+      sentence: 'When are you attending a workshop?',
+    },
+    {
+      meaning: 'Ne zaman bahçeciliğe başlıyorsun?',
+      possibleAnswer: 'I am starting to garden in the spring.',
+      sentence: 'When are you starting to garden?',
+    },
+    {
+      meaning: 'Ne zaman yüzmeyi öğreniyorsun?',
+      possibleAnswer: 'I am learning to swim this summer.',
+      sentence: 'When are you learning to swim?',
+    },
+    {
+      meaning: 'Ne zaman kamp yapmaya gidiyorsun?',
+      possibleAnswer: 'I am going camping next weekend.',
+      sentence: 'When are you going camping?',
+    },
+    {
+      meaning: 'Ne zaman dolabını düzenliyorsun?',
+      possibleAnswer: 'I am organizing my closet this weekend.',
+      sentence: 'When are you organizing your closet?',
+    },
+  ],
+  B4: [
+    {
+      meaning: "Ne zaman Eyfel Kulesi'ni ziyaret ettin?",
+      possibleAnswer: 'I have visited the Eiffel Tower last year.',
+      sentence: 'When have you visited the Eiffel Tower?',
+    },
+    {
+      meaning: 'Ne zaman projenizi tamamladın?',
+      possibleAnswer: 'I have completed my project last week.',
+      sentence: 'When have you completed your project?',
+    },
+    {
+      meaning: 'Ne zaman yeni müdürle tanıştın?',
+      possibleAnswer: 'I have met the new manager this morning.',
+      sentence: 'When have you met the new manager?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir laptop aldın?',
+      possibleAnswer: 'I have bought a new laptop this month.',
+      sentence: 'When have you bought a new laptop?',
+    },
+    {
+      meaning: 'Ne zaman suşi denedin?',
+      possibleAnswer: 'I have tried sushi last weekend.',
+      sentence: 'When have you tried sushi?',
+    },
+    {
+      meaning: 'Ne zaman Harry Potter serisini okudun?',
+      possibleAnswer: 'I have read the Harry Potter series last summer.',
+      sentence: 'When have you read the Harry Potter series?',
+    },
+    {
+      meaning: "Ne zaman Japonya'ya seyahat ettin?",
+      possibleAnswer: 'I have traveled to Japan last winter.',
+      sentence: 'When have you traveled to Japan?',
+    },
+    {
+      meaning: 'Ne zaman son filmi izledin?',
+      possibleAnswer: 'I have watched the latest movie yesterday.',
+      sentence: 'When have you watched the latest movie?',
+    },
+    {
+      meaning: 'Ne zaman bir yemek kursuna katıldın?',
+      possibleAnswer: 'I have taken a cooking class last year.',
+      sentence: 'When have you taken a cooking class?',
+    },
+    {
+      meaning: 'Ne zaman bir kitap kulübüne katıldın?',
+      possibleAnswer: 'I have joined a book club this month.',
+      sentence: 'When have you joined a book club?',
+    },
+    {
+      meaning: 'Ne zaman yüzmeyi öğrendin?',
+      possibleAnswer: 'I have learned to swim this summer.',
+      sentence: 'When have you learned to swim?',
+    },
+    {
+      meaning: 'Ne zaman bir resim yaptın?',
+      possibleAnswer: 'I have painted a picture last week.',
+      sentence: 'When have you painted a picture?',
+    },
+    {
+      meaning: 'Ne zaman bir müzeyi ziyaret ettin?',
+      possibleAnswer: 'I have visited a museum last month.',
+      sentence: 'When have you visited a museum?',
+    },
+    {
+      meaning: 'Ne zaman tenis oynadın?',
+      possibleAnswer: 'I have played tennis last weekend.',
+      sentence: 'When have you played tennis?',
+    },
+    {
+      meaning: 'Ne zaman bir parti organize ettin?',
+      possibleAnswer: 'I have organized a party last year.',
+      sentence: 'When have you organized a party?',
+    },
+    {
+      meaning: 'Ne zaman garajı temizledin?',
+      possibleAnswer: 'I have cleaned the garage this morning.',
+      sentence: 'When have you cleaned the garage?',
+    },
+    {
+      meaning: 'Ne zaman bir blog başlattın?',
+      possibleAnswer: 'I have started a blog this month.',
+      sentence: 'When have you started a blog?',
+    },
+    {
+      meaning: 'Ne zaman bir dans dersine katıldın?',
+      possibleAnswer: 'I have taken a dance class last week.',
+      sentence: 'When have you taken a dance class?',
+    },
+    {
+      meaning: 'Ne zaman trenle seyahat ettin?',
+      possibleAnswer: 'I have traveled by train last year.',
+      sentence: 'When have you traveled by train?',
+    },
+    {
+      meaning: 'Ne zaman bir şiir yazdın?',
+      possibleAnswer: 'I have written a poem this week.',
+      sentence: 'When have you written a poem?',
+    },
+    {
+      meaning: 'Ne zaman bir müzik aleti çaldın?',
+      possibleAnswer: 'I have played a musical instrument this morning.',
+      sentence: 'When have you played a musical instrument?',
+    },
+    {
+      meaning: 'Ne zaman bir çiftliği ziyaret ettin?',
+      possibleAnswer: 'I have visited a farm last weekend.',
+      sentence: 'When have you visited a farm?',
+    },
+    {
+      meaning: "Ne zaman İtalya'ya seyahat ettin?",
+      possibleAnswer: 'I have traveled to Italy last summer.',
+      sentence: 'When have you traveled to Italy?',
+    },
+    {
+      meaning: 'Ne zaman fotoğrafçılık kursuna katıldın?',
+      possibleAnswer: 'I have taken a photography class last year.',
+      sentence: 'When have you taken a photography class?',
+    },
+    {
+      meaning: 'Ne zaman bir milli parkı ziyaret ettin?',
+      possibleAnswer: 'I have visited a national park last spring.',
+      sentence: 'When have you visited a national park?',
+    },
+    {
+      meaning: 'Ne zaman kek pişirdin?',
+      possibleAnswer: 'I have baked a cake yesterday.',
+      sentence: 'When have you baked a cake?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir dil öğrendin?',
+      possibleAnswer: 'I have learned a new language this year.',
+      sentence: 'When have you learned a new language?',
+    },
+    {
+      meaning: 'Ne zaman kamp yaptın?',
+      possibleAnswer: 'I have gone camping last summer.',
+      sentence: 'When have you gone camping?',
+    },
+    {
+      meaning: 'Ne zaman bir festivale katıldın?',
+      possibleAnswer: 'I have attended a festival last weekend.',
+      sentence: 'When have you attended a festival?',
+    },
+    {
+      meaning: 'Ne zaman puzzle yaptın?',
+      possibleAnswer: 'I have done a puzzle last night.',
+      sentence: 'When have you done a puzzle?',
+    },
+    {
+      meaning: 'Ne zaman bir hayvanat bahçesini ziyaret ettin?',
+      possibleAnswer: 'I have visited a zoo last month.',
+      sentence: 'When have you visited a zoo?',
+    },
+    {
+      meaning: 'Ne zaman bir hikaye yazdın?',
+      possibleAnswer: 'I have written a story this week.',
+      sentence: 'When have you written a story?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir tarif pişirdin?',
+      possibleAnswer: 'I have cooked a new recipe yesterday.',
+      sentence: 'When have you cooked a new recipe?',
+    },
+    {
+      meaning: 'Ne zaman plaja gittin?',
+      possibleAnswer: 'I have gone to the beach last summer.',
+      sentence: 'When have you gone to the beach?',
+    },
+    {
+      meaning: 'Ne zaman piknik yaptın?',
+      possibleAnswer: 'I have gone on a picnic last weekend.',
+      sentence: 'When have you gone on a picnic?',
+    },
+    {
+      meaning: 'Ne zaman bir tiyatro oyununa katıldın?',
+      possibleAnswer: 'I have attended a play last month.',
+      sentence: 'When have you attended a play?',
+    },
+    {
+      meaning: 'Ne zaman yoga dersine katıldın?',
+      possibleAnswer: 'I have taken a yoga class last week.',
+      sentence: 'When have you taken a yoga class?',
+    },
+    {
+      meaning: 'Ne zaman bir dil kursuna katıldın?',
+      possibleAnswer: 'I have taken a language course this year.',
+      sentence: 'When have you taken a language course?',
+    },
+    {
+      meaning: 'Ne zaman bir tarihi yeri ziyaret ettin?',
+      possibleAnswer: 'I have visited a historical site last year.',
+      sentence: 'When have you visited a historical site?',
+    },
+    {
+      meaning: 'Ne zaman bir fitness dersine katıldın?',
+      possibleAnswer: 'I have taken a fitness class last month.',
+      sentence: 'When have you taken a fitness class?',
+    },
+    {
+      meaning: 'Ne zaman buz pateni yaptın?',
+      possibleAnswer: 'I have gone ice skating last winter.',
+      sentence: 'When have you gone ice skating?',
+    },
+    {
+      meaning: 'Ne zaman bir sanat galerisini ziyaret ettin?',
+      possibleAnswer: 'I have visited an art gallery last month.',
+      sentence: 'When have you visited an art gallery?',
+    },
+    {
+      meaning: 'Ne zaman bir komedi şovuna gittin?',
+      possibleAnswer: 'I have gone to a comedy show last month.',
+      sentence: 'When have you gone to a comedy show?',
+    },
+    {
+      meaning: 'Ne zaman bir spor salonuna katıldın?',
+      possibleAnswer: 'I have joined a gym this year.',
+      sentence: 'When have you joined a gym?',
+    },
+    {
+      meaning: 'Ne zaman bir yolculuğa çıktın?',
+      possibleAnswer: 'I have gone on a road trip last summer.',
+      sentence: 'When have you gone on a road trip?',
+    },
+    {
+      meaning: 'Ne zaman bir resim dersine katıldın?',
+      possibleAnswer: 'I have taken a painting class last year.',
+      sentence: 'When have you taken a painting class?',
+    },
+    {
+      meaning: 'Ne zaman bir bilim müzesine gittin?',
+      possibleAnswer: 'I have gone to a science museum last weekend.',
+      sentence: 'When have you gone to a science museum?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir arkadaş edindin?',
+      possibleAnswer: 'I have made a new friend last week.',
+      sentence: 'When have you made a new friend?',
+    },
+    {
+      meaning: 'Ne zaman satranç oynamayı öğrendin?',
+      possibleAnswer: 'I have learned to play chess last year.',
+      sentence: 'When have you learned to play chess?',
+    },
+    {
+      meaning: 'Ne zaman bir müzik festivaline gittin?',
+      possibleAnswer: 'I have gone to a music festival last month.',
+      sentence: 'When have you gone to a music festival?',
+    },
+  ],
+  C1: [
+    {
+      meaning: 'Doğum günün ne zamandı?',
+      possibleAnswer: 'My birthday was on June 5th.',
+      sentence: 'When was your birthday?',
+    },
+    {
+      meaning: 'Toplantı ne zamandı?',
+      possibleAnswer: 'The meeting was at 10 AM.',
+      sentence: 'When was the meeting?',
+    },
+    {
+      meaning: 'TV şovu ne zamandı?',
+      possibleAnswer: 'The TV show was on Friday nights.',
+      sentence: 'When was the TV show on?',
+    },
+    {
+      meaning: 'Sınav ne zamandı?',
+      possibleAnswer: 'The exam was last Monday.',
+      sentence: 'When was the exam?',
+    },
+    {
+      meaning: 'Okul gezisi ne zamandı?',
+      possibleAnswer: 'The school trip was in April.',
+      sentence: 'When was the school trip?',
+    },
+    {
+      meaning: 'Tatil ne zamandı?',
+      possibleAnswer: 'The holiday was in December.',
+      sentence: 'When was the holiday?',
+    },
+    {
+      meaning: 'Annenin doğum günü ne zamandı?',
+      possibleAnswer: "My mom's birthday was in September.",
+      sentence: "When was your mom's birthday?",
+    },
+    {
+      meaning: 'Konser ne zamandı?',
+      possibleAnswer: 'The concert was last weekend.',
+      sentence: 'When was the concert?',
+    },
+    {
+      meaning: 'Randevun ne zamandı?',
+      possibleAnswer: 'My appointment was yesterday.',
+      sentence: 'When was your appointment?',
+    },
+    {
+      meaning: 'Akşam yemeği ne zamandı?',
+      possibleAnswer: 'Dinner was at 7 PM.',
+      sentence: 'When was dinner?',
+    },
+    {
+      meaning: 'Arkadaşın ne zaman ziyaret ediyordu?',
+      possibleAnswer: 'My friend was visiting last Saturday.',
+      sentence: 'When was your friend visiting?',
+    },
+    {
+      meaning: 'Ders ne zamandı?',
+      possibleAnswer: 'The class was at 8 AM.',
+      sentence: 'When was the class?',
+    },
+    {
+      meaning: 'Uçuş ne zamandı?',
+      possibleAnswer: 'The flight was at noon.',
+      sentence: 'When was the flight?',
+    },
+    {
+      meaning: 'Görüşmen ne zamandı?',
+      possibleAnswer: 'My interview was on Wednesday.',
+      sentence: 'When was your interview?',
+    },
+    {
+      meaning: 'Parti ne zamandı?',
+      possibleAnswer: 'The party was on Saturday night.',
+      sentence: 'When was the party?',
+    },
+    {
+      meaning: 'Bir sonraki toplantı ne zamandı?',
+      possibleAnswer: 'The next meeting was on Tuesday.',
+      sentence: 'When was the next meeting?',
+    },
+    {
+      meaning: 'Son tarih ne zamandı?',
+      possibleAnswer: 'The deadline was on Friday.',
+      sentence: 'When was the deadline?',
+    },
+    {
+      meaning: 'Tren ne zamandı?',
+      possibleAnswer: 'The train was at 6 PM.',
+      sentence: 'When was the train?',
+    },
+    {
+      meaning: 'Film ne zamandı?',
+      possibleAnswer: 'The movie was at 7 PM.',
+      sentence: 'When was the movie?',
+    },
+    {
+      meaning: 'Seminer ne zamandı?',
+      possibleAnswer: 'The seminar was last week.',
+      sentence: 'When was the seminar?',
+    },
+    {
+      meaning: 'Oyun ne zamandı?',
+      possibleAnswer: 'The game was on Saturday.',
+      sentence: 'When was the game?',
+    },
+    {
+      meaning: 'Randevun ne zamandı?',
+      possibleAnswer: 'My appointment was on Thursday.',
+      sentence: 'When was your appointment?',
+    },
+    {
+      meaning: 'Okul oyunu ne zamandı?',
+      possibleAnswer: 'The school play was in March.',
+      sentence: 'When was the school play?',
+    },
+    {
+      meaning: 'Kütüphane ne zaman kapanıyordu?',
+      possibleAnswer: 'The library was closing at 8 PM.',
+      sentence: 'When was the library closing?',
+    },
+    {
+      meaning: 'Doğum günü partin ne zamandı?',
+      possibleAnswer: 'The party was on Saturday.',
+      sentence: 'When was your birthday party?',
+    },
+    {
+      meaning: 'Yeni yıl kutlaması ne zamandı?',
+      possibleAnswer: 'The celebration was on December 31st.',
+      sentence: 'When was the new year celebration?',
+    },
+    {
+      meaning: 'Kitap kulübü toplantısı ne zamandı?',
+      possibleAnswer: 'The book club meeting was on Wednesday.',
+      sentence: 'When was the book club meeting?',
+    },
+    {
+      meaning: 'Yoga dersin ne zamandı?',
+      possibleAnswer: 'The yoga class was on Thursday.',
+      sentence: 'When was your yoga class?',
+    },
+    {
+      meaning: 'Pazar ne zamandı?',
+      possibleAnswer: 'The market was open on weekends.',
+      sentence: 'When was the market open?',
+    },
+    {
+      meaning: 'Doktor randevusu ne zamandı?',
+      possibleAnswer: 'The appointment was at 11 AM.',
+      sentence: 'When was the doctor’s appointment?',
+    },
+    {
+      meaning: 'Bir sonraki futbol maçı ne zamandı?',
+      possibleAnswer: 'The game was last weekend.',
+      sentence: 'When was the next football game?',
+    },
+    {
+      meaning: 'Takım toplantısı ne zamandı?',
+      possibleAnswer: 'The meeting was on Tuesday.',
+      sentence: 'When was the team meeting?',
+    },
+    {
+      meaning: 'Müze turu ne zamandı?',
+      possibleAnswer: 'The tour was in October.',
+      sentence: 'When was the museum tour?',
+    },
+    {
+      meaning: 'Final sınavı ne zamandı?',
+      possibleAnswer: 'The exam was in May.',
+      sentence: 'When was the final exam?',
+    },
+    {
+      meaning: 'Spor dersi ne zamandı?',
+      possibleAnswer: 'The class was on Monday.',
+      sentence: 'When was the gym class?',
+    },
+    {
+      meaning: 'Düğün ne zamandı?',
+      possibleAnswer: 'The wedding was in June.',
+      sentence: 'When was the wedding?',
+    },
+    {
+      meaning: 'Bir sonraki doktor ziyaretin ne zamandı?',
+      possibleAnswer: 'My next visit was two weeks ago.',
+      sentence: "When was your next doctor's visit?",
+    },
+    {
+      meaning: 'Yemek kursu ne zamandı?',
+      possibleAnswer: 'The class was on Saturday.',
+      sentence: 'When was the cooking class?',
+    },
+    {
+      meaning: 'Maraton ne zamandı?',
+      possibleAnswer: 'The marathon was in October.',
+      sentence: 'When was the marathon?',
+    },
+    {
+      meaning: 'Müzik festivali ne zamandı?',
+      possibleAnswer: 'The festival was in July.',
+      sentence: 'When was the music festival?',
+    },
+    {
+      meaning: 'Mezuniyetin ne zamandı?',
+      possibleAnswer: 'My graduation was in June.',
+      sentence: 'When was your graduation?',
+    },
+    {
+      meaning: 'Dönem sonu ne zamandı?',
+      possibleAnswer: 'The semester ended in December.',
+      sentence: 'When was the end of the semester?',
+    },
+    {
+      meaning: 'Kamp gezisi ne zamandı?',
+      possibleAnswer: 'The trip was in August.',
+      sentence: 'When was the camping trip?',
+    },
+    {
+      meaning: 'Yaz kampı ne zamandı?',
+      possibleAnswer: 'The camp was in July.',
+      sentence: 'When was the summer camp?',
+    },
+    {
+      meaning: 'Veli toplantısı ne zamandı?',
+      possibleAnswer: 'The meeting was on Thursday.',
+      sentence: 'When was the parent meeting?',
+    },
+    {
+      meaning: 'Dil sınavı ne zamandı?',
+      possibleAnswer: 'The exam was in April.',
+      sentence: 'When was the language exam?',
+    },
+    {
+      meaning: 'Okulun ilk günü ne zamandı?',
+      possibleAnswer: 'The first day was in September.',
+      sentence: 'When was the first day of school?',
+    },
+    {
+      meaning: 'Okulun son günü ne zamandı?',
+      possibleAnswer: 'The last day was in June.',
+      sentence: 'When was the last day of school?',
+    },
+    {
+      meaning: 'Resim dersi ne zamandı?',
+      possibleAnswer: 'The class was on Monday.',
+      sentence: 'When was the painting class?',
+    },
+    {
+      meaning: 'Bir sonraki aile yemeği ne zamandı?',
+      possibleAnswer: 'The dinner was last weekend.',
+      sentence: 'When was the next family dinner?',
+    },
+  ],
+  C2: [
+    {
+      meaning: 'Ne zaman okula gittin?',
+      possibleAnswer: 'I went to school at 8 AM.',
+      sentence: 'When did you go to school?',
+    },
+    {
+      meaning: 'Ne zaman kahvaltı yaptın?',
+      possibleAnswer: 'I had breakfast at 7 AM.',
+      sentence: 'When did you have breakfast?',
+    },
+    {
+      meaning: 'Dersin ne zaman başladı?',
+      possibleAnswer: 'My class started at 9 AM.',
+      sentence: 'When did your class start?',
+    },
+    {
+      meaning: 'Ödevini ne zaman bitirdin?',
+      possibleAnswer: 'I finished my homework in the evening.',
+      sentence: 'When did you finish your homework?',
+    },
+    {
+      meaning: 'Ne zaman futbol oynadın?',
+      possibleAnswer: 'I played soccer on Saturday.',
+      sentence: 'When did you play soccer?',
+    },
+    {
+      meaning: 'Ne zaman televizyon izledin?',
+      possibleAnswer: 'I watched TV after dinner.',
+      sentence: 'When did you watch TV?',
+    },
+    {
+      meaning: 'Ne zaman yattın?',
+      possibleAnswer: 'I went to bed at 10 PM.',
+      sentence: 'When did you go to bed?',
+    },
+    {
+      meaning: 'Ne zaman kitap okudun?',
+      possibleAnswer: 'I read books in the afternoon.',
+      sentence: 'When did you read books?',
+    },
+    {
+      meaning: 'Ne zaman arkadaşlarınla buluştun?',
+      possibleAnswer: 'I met my friends on the weekend.',
+      sentence: 'When did you meet your friends?',
+    },
+    {
+      meaning: 'Otobüs ne zaman geldi?',
+      possibleAnswer: 'The bus arrived at 8:30 AM.',
+      sentence: 'When did the bus arrive?',
+    },
+    {
+      meaning: 'Ne zaman odanı temizledin?',
+      possibleAnswer: 'I cleaned my room on Saturday.',
+      sentence: 'When did you clean your room?',
+    },
+    {
+      meaning: 'Ne zaman çamaşır yıkadın?',
+      possibleAnswer: 'I did my laundry on Sunday.',
+      sentence: 'When did you do your laundry?',
+    },
+    {
+      meaning: 'Ne zaman kütüphaneyi ziyaret ettin?',
+      possibleAnswer: 'I visited the library on Monday.',
+      sentence: 'When did you visit the library?',
+    },
+    {
+      meaning: 'Ne zaman piyano çalıştın?',
+      possibleAnswer: 'I practiced the piano every afternoon.',
+      sentence: 'When did you practice the piano?',
+    },
+    {
+      meaning: 'Ne zaman bitkileri suladın?',
+      possibleAnswer: 'I watered the plants in the morning.',
+      sentence: 'When did you water the plants?',
+    },
+    {
+      meaning: 'Ne zaman kurabiye yaptın?',
+      possibleAnswer: 'I baked cookies on the weekend.',
+      sentence: 'When did you bake cookies?',
+    },
+    {
+      meaning: 'Ne zaman pazara gittin?',
+      possibleAnswer: 'I went to the market on Saturday.',
+      sentence: 'When did you go to the market?',
+    },
+    {
+      meaning: 'Projene ne zaman başladın?',
+      possibleAnswer: 'I started my project after school.',
+      sentence: 'When did you start your project?',
+    },
+    {
+      meaning: 'Ne zaman ebeveynlerini aradın?',
+      possibleAnswer: 'I called my parents every evening.',
+      sentence: 'When did you call your parents?',
+    },
+    {
+      meaning: 'Ne zaman günlüğüne yazdın?',
+      possibleAnswer: 'I wrote in my journal before bed.',
+      sentence: 'When did you write in your journal?',
+    },
+    {
+      meaning: 'Ne zaman duş aldın?',
+      possibleAnswer: 'I had a shower in the morning.',
+      sentence: 'When did you have a shower?',
+    },
+    {
+      meaning: 'Ne zaman egzersiz yaptın?',
+      possibleAnswer: 'I did my exercises every day.',
+      sentence: 'When did you do your exercises?',
+    },
+    {
+      meaning: 'Ne zaman arkadaşlarını ziyaret ettin?',
+      possibleAnswer: 'I visited my friends on Friday.',
+      sentence: 'When did you visit your friends?',
+    },
+    {
+      meaning: 'Kız kardeşin ne zaman piyano dersleri aldı?',
+      possibleAnswer: 'My sister had piano lessons on Tuesday.',
+      sentence: 'When did your sister have piano lessons?',
+    },
+    {
+      meaning: 'Ne zaman müzeyi ziyaret ettin?',
+      possibleAnswer: 'I visited the museum on Saturday.',
+      sentence: 'When did you visit the museum?',
+    },
+    {
+      meaning: 'Ne zaman ev işlerini bitirdin?',
+      possibleAnswer: 'I finished my chores in the morning.',
+      sentence: 'When did you finish your chores?',
+    },
+    {
+      meaning: 'Tren ne zaman kalktı?',
+      possibleAnswer: 'The train left at 6 PM.',
+      sentence: 'When did the train leave?',
+    },
+    {
+      meaning: 'Ne zaman yüzme havuzuna gittin?',
+      possibleAnswer: 'I went to the swimming pool on Friday.',
+      sentence: 'When did you go to the swimming pool?',
+    },
+    {
+      meaning: 'Ne zaman dans derslerine katıldın?',
+      possibleAnswer: 'I attended dance classes on Wednesday.',
+      sentence: 'When did you attend dance classes?',
+    },
+    {
+      meaning: 'Ne zaman resim yaptın?',
+      possibleAnswer: 'I painted on the weekend.',
+      sentence: 'When did you paint?',
+    },
+    {
+      meaning: 'Ne zaman plaja gittin?',
+      possibleAnswer: 'I went to the beach in the summer.',
+      sentence: 'When did you go to the beach?',
+    },
+    {
+      meaning: 'Ne zaman doktora gittin?',
+      possibleAnswer: 'I visited the doctor once a year.',
+      sentence: 'When did you visit the doctor?',
+    },
+    {
+      meaning: 'Ne zaman hayvanat bahçesini ziyaret ettin?',
+      possibleAnswer: 'I visited the zoo in the spring.',
+      sentence: 'When did you visit the zoo?',
+    },
+    {
+      meaning: 'Ne zaman yoga yaptın?',
+      possibleAnswer: 'I practiced yoga every morning.',
+      sentence: 'When did you practice yoga?',
+    },
+    {
+      meaning: 'Ne zaman satranç oynadın?',
+      possibleAnswer: 'I played chess with my friends.',
+      sentence: 'When did you play chess?',
+    },
+    {
+      meaning: 'Ne zaman kuzenlerini ziyaret ettin?',
+      possibleAnswer: 'I visited my cousins on holidays.',
+      sentence: 'When did you visit your cousins?',
+    },
+    {
+      meaning: 'Ne zaman matematik çalıştın?',
+      possibleAnswer: 'I studied math in the evening.',
+      sentence: 'When did you study math?',
+    },
+    {
+      meaning: 'Ne zaman arkadaşlarını aradın?',
+      possibleAnswer: 'I called my friends every day.',
+      sentence: 'When did you call your friends?',
+    },
+    {
+      meaning: 'Ne zaman resim yaptın?',
+      possibleAnswer: 'I painted on Saturday.',
+      sentence: 'When did you paint?',
+    },
+    {
+      meaning: 'Ne zaman radyo dinledin?',
+      possibleAnswer: 'I listened to the radio in the morning.',
+      sentence: 'When did you listen to the radio?',
+    },
+    {
+      meaning: 'Ne zaman kahvaltı yaptın?',
+      possibleAnswer: 'I made breakfast on the weekend.',
+      sentence: 'When did you make breakfast?',
+    },
+    {
+      meaning: 'Ne zaman kek yaptın?',
+      possibleAnswer: 'I baked cakes on special occasions.',
+      sentence: 'When did you bake cakes?',
+    },
+    {
+      meaning: 'Ne zaman doktora gittin?',
+      possibleAnswer: 'I visited the doctor once a year.',
+      sentence: 'When did you visit the doctor?',
+    },
+    {
+      meaning: 'Ne zaman alışveriş yaptın?',
+      possibleAnswer: 'I went shopping on Saturday.',
+      sentence: 'When did you go shopping?',
+    },
+    {
+      meaning: 'Ne zaman kardeşine yardım ettin?',
+      possibleAnswer: 'I helped my brother with his homework.',
+      sentence: 'When did you help your brother?',
+    },
+    {
+      meaning: 'Ne zaman çöpü çıkardın?',
+      possibleAnswer: 'I took out the trash in the evening.',
+      sentence: 'When did you take out the trash?',
+    },
+    {
+      meaning: 'Ne zaman bulaşıkları yıkadın?',
+      possibleAnswer: 'I washed the dishes after dinner.',
+      sentence: 'When did you wash the dishes?',
+    },
+    {
+      meaning: 'Ne zaman banyo yaptın?',
+      possibleAnswer: 'I took a bath in the evening.',
+      sentence: 'When did you take a bath?',
+    },
+    {
+      meaning: 'Ne zaman bahçeyi suladın?',
+      possibleAnswer: 'I watered the garden in the morning.',
+      sentence: 'When did you water the garden?',
+    },
+    {
+      meaning: 'Ne zaman büyükanne ve büyükbabanı ziyaret ettin?',
+      possibleAnswer: 'I visited my grandparents on Sunday.',
+      sentence: 'When did you visit your grandparents?',
+    },
+  ],
+  C3: [
+    {
+      meaning: "Ne zaman Avrupa'ya seyahat ediyordun?",
+      possibleAnswer: 'I was traveling to Europe last summer.',
+      sentence: 'When were you traveling to Europe?',
+    },
+    {
+      meaning: 'Ne zaman yeni işine başlıyordun?',
+      possibleAnswer: 'I was starting my new job in January.',
+      sentence: 'When were you starting your new job?',
+    },
+    {
+      meaning: 'Ne zaman aileni ziyaret ediyordun?',
+      possibleAnswer: 'I was visiting my family last weekend.',
+      sentence: 'When were you visiting your family?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir araba alıyordun?',
+      possibleAnswer: 'I was buying a new car last month.',
+      sentence: 'When were you buying a new car?',
+    },
+    {
+      meaning: 'Ne zaman yemek yapmayı öğreniyordun?',
+      possibleAnswer: 'I was learning to cook last winter.',
+      sentence: 'When were you learning to cook?',
+    },
+    {
+      meaning: 'Ne zaman düğününü planlıyordun?',
+      possibleAnswer: 'I was planning my wedding last year.',
+      sentence: 'When were you planning your wedding?',
+    },
+    {
+      meaning: 'Ne zaman evi boyuyordun?',
+      possibleAnswer: 'I was painting the house last spring.',
+      sentence: 'When were you painting the house?',
+    },
+    {
+      meaning: 'Ne zaman konsere gidiyordun?',
+      possibleAnswer: 'I was going to the concert last Friday.',
+      sentence: 'When were you going to the concert?',
+    },
+    {
+      meaning: 'Ne zaman egzersiz yapmaya başlıyordun?',
+      possibleAnswer: 'I was starting to exercise last week.',
+      sentence: 'When were you starting to exercise?',
+    },
+    {
+      meaning: 'Ne zaman garajı temizliyordun?',
+      possibleAnswer: 'I was cleaning the garage on Saturday.',
+      sentence: 'When were you cleaning the garage?',
+    },
+    {
+      meaning: 'Ne zaman kitabını yazıyordun?',
+      possibleAnswer: 'I was writing my book last month.',
+      sentence: 'When were you writing your book?',
+    },
+    {
+      meaning: 'Ne zaman saç stilini değiştiriyordun?',
+      possibleAnswer: 'I was changing my hairstyle last weekend.',
+      sentence: 'When were you changing your hairstyle?',
+    },
+    {
+      meaning: 'Ne zaman odanı düzenliyordun?',
+      possibleAnswer: 'I was organizing my room yesterday.',
+      sentence: 'When were you organizing your room?',
+    },
+    {
+      meaning: 'Ne zaman projeye başlıyordun?',
+      possibleAnswer: 'I was starting the project last Monday.',
+      sentence: 'When were you starting the project?',
+    },
+    {
+      meaning: 'Ne zaman bahçeyi dikiyordun?',
+      possibleAnswer: 'I was planting the garden in April.',
+      sentence: 'When were you planting the garden?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir dil öğreniyordun?',
+      possibleAnswer: 'I was learning a new language last year.',
+      sentence: 'When were you learning a new language?',
+    },
+    {
+      meaning: 'Ne zaman bir spor salonuna katılıyordun?',
+      possibleAnswer: 'I was joining a gym in January.',
+      sentence: 'When were you joining a gym?',
+    },
+    {
+      meaning: 'Ne zaman bir blog oluşturuyordun?',
+      possibleAnswer: 'I was creating a blog last month.',
+      sentence: 'When were you creating a blog?',
+    },
+    {
+      meaning: 'Ne zaman müzeyi ziyaret ediyordun?',
+      possibleAnswer: 'I was visiting the museum last Tuesday.',
+      sentence: 'When were you visiting the museum?',
+    },
+    {
+      meaning: 'Ne zaman tenis oynuyordun?',
+      possibleAnswer: 'I was playing tennis last weekend.',
+      sentence: 'When were you playing tennis?',
+    },
+    {
+      meaning: 'Ne zaman arkadaşını arıyordun?',
+      possibleAnswer: 'I was calling my friend last evening.',
+      sentence: 'When were you calling your friend?',
+    },
+    {
+      meaning: 'Ne zaman filmi izliyordun?',
+      possibleAnswer: 'I was watching the movie yesterday.',
+      sentence: 'When were you watching the movie?',
+    },
+    {
+      meaning: 'Ne zaman plaja sürüyordun?',
+      possibleAnswer: 'I was driving to the beach last weekend.',
+      sentence: 'When were you driving to the beach?',
+    },
+    {
+      meaning: 'Ne zaman resim yapmaya başlıyordun?',
+      possibleAnswer: 'I was starting painting last weekend.',
+      sentence: 'When were you starting painting?',
+    },
+    {
+      meaning: 'Ne zaman kulübe katılıyordun?',
+      possibleAnswer: 'I was joining the club last week.',
+      sentence: 'When were you joining the club?',
+    },
+    {
+      meaning: 'Ne zaman geziyi planlıyordun?',
+      possibleAnswer: 'I was planning the trip last month.',
+      sentence: 'When were you planning the trip?',
+    },
+    {
+      meaning: 'Ne zaman parkı ziyaret ediyordun?',
+      possibleAnswer: 'I was visiting the park last Sunday.',
+      sentence: 'When were you visiting the park?',
+    },
+    {
+      meaning: 'Ne zaman etkinliği organize ediyordun?',
+      possibleAnswer: 'I was organizing the event last month.',
+      sentence: 'When were you organizing the event?',
+    },
+    {
+      meaning: "Ne zaman Japonya'ya seyahat ediyordun?",
+      possibleAnswer: 'I was traveling to Japan last summer.',
+      sentence: 'When were you traveling to Japan?',
+    },
+    {
+      meaning: 'Ne zaman arabayı tamir ediyordun?',
+      possibleAnswer: 'I was repairing the car last weekend.',
+      sentence: 'When were you repairing the car?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir eve taşınıyordun?',
+      possibleAnswer: 'I was moving to a new house last month.',
+      sentence: 'When were you moving to a new house?',
+    },
+    {
+      meaning: 'Ne zaman sınava giriyordun?',
+      possibleAnswer: 'I was taking the exam last semester.',
+      sentence: 'When were you taking the exam?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir laptop alıyordun?',
+      possibleAnswer: 'I was buying a new laptop last month.',
+      sentence: 'When were you buying a new laptop?',
+    },
+    {
+      meaning: 'Ne zaman dişçiyi ziyaret ediyordun?',
+      possibleAnswer: 'I was visiting the dentist last week.',
+      sentence: 'When were you visiting the dentist?',
+    },
+    {
+      meaning: 'Ne zaman ağaçları dikiyordun?',
+      possibleAnswer: 'I was planting the trees last spring.',
+      sentence: 'When were you planting the trees?',
+    },
+    {
+      meaning: 'Ne zaman yoga dersine katılıyordun?',
+      possibleAnswer: 'I was joining the yoga class last week.',
+      sentence: 'When were you joining the yoga class?',
+    },
+    {
+      meaning: 'Ne zaman diyete başlıyordun?',
+      possibleAnswer: 'I was starting the diet yesterday.',
+      sentence: 'When were you starting the diet?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir iş buluyordun?',
+      possibleAnswer: 'I was getting a new job last year.',
+      sentence: 'When were you getting a new job?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir hobiye başlıyordun?',
+      possibleAnswer: 'I was starting a new hobby last month.',
+      sentence: 'When were you starting a new hobby?',
+    },
+    {
+      meaning: "Ne zaman Avustralya'ya seyahat ediyordun?",
+      possibleAnswer: 'I was traveling to Australia last winter.',
+      sentence: 'When were you traveling to Australia?',
+    },
+    {
+      meaning: 'Ne zaman para biriktirmeye başlıyordun?',
+      possibleAnswer: 'I was starting to save money last year.',
+      sentence: 'When were you starting to save money?',
+    },
+    {
+      meaning: 'Ne zaman akvaryumu ziyaret ediyordun?',
+      possibleAnswer: 'I was visiting the aquarium last Sunday.',
+      sentence: 'When were you visiting the aquarium?',
+    },
+    {
+      meaning: 'Ne zaman balık tutmaya gidiyordun?',
+      possibleAnswer: 'I was going fishing last weekend.',
+      sentence: 'When were you going fishing?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir tarif deniyordun?',
+      possibleAnswer: 'I was trying a new recipe last night.',
+      sentence: 'When were you trying a new recipe?',
+    },
+    {
+      meaning: 'Ne zaman bahçeciliğe başlıyordun?',
+      possibleAnswer: 'I was starting to garden in the spring.',
+      sentence: 'When were you starting to garden?',
+    },
+    {
+      meaning: 'Ne zaman yüzmeyi öğreniyordun?',
+      possibleAnswer: 'I was learning to swim last summer.',
+      sentence: 'When were you learning to swim?',
+    },
+    {
+      meaning: 'Ne zaman yemek kursuna katılıyordun?',
+      possibleAnswer: 'I was taking a cooking class last week.',
+      sentence: 'When were you taking a cooking class?',
+    },
+    {
+      meaning: 'Ne zaman kamp yapmaya gidiyordun?',
+      possibleAnswer: 'I was going camping last weekend.',
+      sentence: 'When were you going camping?',
+    },
+    {
+      meaning: 'Ne zaman yeni bir kamera alıyordun?',
+      possibleAnswer: 'I was buying a new camera last month.',
+      sentence: 'When were you buying a new camera?',
+    },
+    {
+      meaning: 'Ne zaman dans dersine katılıyordun?',
+      possibleAnswer: 'I was joining a dance class last week.',
+      sentence: 'When were you joining a dance class?',
+    },
+    {
+      meaning: "Ne zaman New York'a seyahat ediyordun?",
+      possibleAnswer: 'I was traveling to New York last year.',
+      sentence: 'When were you traveling to New York?',
+    },
+  ],
+};
