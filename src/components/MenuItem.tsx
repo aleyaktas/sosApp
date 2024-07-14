@@ -16,6 +16,7 @@ const MenuItem = ({
   return (
     <TouchableOpacity
       activeOpacity={0.7}
+      disabled={item.disabled ? true : false}
       onPress={() => {
         onPress && onPress();
         if (item.page) {
@@ -29,7 +30,12 @@ const MenuItem = ({
         }
       }}
       key={item.id}
-      style={styles.button}>
+      style={[
+        styles.button,
+        {
+          backgroundColor: !item.disabled ? 'white' : '#f5f5f5',
+        },
+      ]}>
       <Image source={item.image} style={{width: 60, height: 60}} />
       <View style={styles.text}>
         <Text style={styles.title}>{item.title}</Text>

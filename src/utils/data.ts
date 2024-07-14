@@ -201,6 +201,7 @@ export interface ISubCategory {
   image: any;
   symbols?: string[];
   selectedSymbols?: string[];
+  disabled?: boolean;
 }
 export const TensesSubCategory: ISubCategory[] = [
   {
@@ -273,6 +274,7 @@ export const QuestionsSubCategory: ISubCategory[] = [
     description: 'Konu videoları',
     page: 'Videos',
     image: require('../assets/icons/video.png'),
+    disabled: true,
   },
   {
     id: 3,
@@ -281,6 +283,7 @@ export const QuestionsSubCategory: ISubCategory[] = [
     description: 'Konu notları',
     page: 'Notes',
     image: require('../assets/icons/subjects.png'),
+    disabled: true,
   },
 ];
 
