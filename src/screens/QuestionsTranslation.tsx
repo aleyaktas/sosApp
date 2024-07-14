@@ -192,10 +192,40 @@ const QuestionsTranslation: React.FC = () => {
         <Text style={styles.correctAnswerText}>{answer}</Text>
       </TouchableOpacity>
       {possibleAnswer && (
-        <View style={styles.answerHeader}>
-          <Text style={styles.possibleAnswerText}>
-            Olası Cevap: {possibleAnswer}
+        // <View style={styles.answerHeader}>
+        //   <Text style={styles.possibleAnswerText}>
+        //     Olası Cevap: {possibleAnswer}
+        //   </Text>
+        // </View>
+        <View
+          style={{
+            flexDirection: 'column',
+            alignItems: 'flex-start',
+            gap: 2,
+          }}>
+          <Text
+            style={[
+              styles.possibleAnswerText,
+              {
+                fontSize: 14,
+                fontWeight: 'bold',
+                color: '#1c9aa8',
+              },
+            ]}>
+            Olası Cevap:{' '}
           </Text>
+          <TouchableOpacity
+            onPress={() => handleVoice(possibleAnswer)}
+            style={{
+              flexDirection: 'row',
+              alignItems: 'center',
+              justifyContent: 'center',
+              // flex: 1,
+              gap: 6,
+            }}>
+            <Icon name="Sound" color="#1c9aa8" width={20} height={20} />
+            <Text style={styles.possibleAnswerText}>{possibleAnswer}</Text>
+          </TouchableOpacity>
         </View>
       )}
       <TouchableOpacity
@@ -226,10 +256,35 @@ const QuestionsTranslation: React.FC = () => {
         <Text style={styles.correctAnswerText}>{answer}</Text>
       </TouchableOpacity>
       {possibleAnswer && (
-        <View style={styles.answerHeader}>
-          <Text style={styles.possibleAnswerText}>
-            Olası Cevap: {possibleAnswer}
+        <View
+          style={{
+            flexDirection: 'column',
+            alignItems: 'flex-start',
+            gap: 2,
+          }}>
+          <Text
+            style={[
+              styles.possibleAnswerText,
+              {
+                fontSize: 14,
+                fontWeight: 'bold',
+                color: '#1c9aa8',
+              },
+            ]}>
+            Olası Cevap:{' '}
           </Text>
+          <TouchableOpacity
+            onPress={() => handleVoice(possibleAnswer)}
+            style={{
+              flexDirection: 'row',
+              alignItems: 'center',
+              justifyContent: 'center',
+              // flex: 1,
+              gap: 6,
+            }}>
+            <Icon name="Sound" color="#1c9aa8" width={20} height={20} />
+            <Text style={styles.possibleAnswerText}>{possibleAnswer}</Text>
+          </TouchableOpacity>
         </View>
       )}
 
@@ -270,6 +325,7 @@ const QuestionsTranslation: React.FC = () => {
         newTranslationSentences = QuestionsTranslationSentencesWhen;
         break;
     }
+
     setTranslationSentences(newTranslationSentences);
 
     const randomIndex = Math.floor(Math.random() * selectedCells.length);
@@ -277,6 +333,21 @@ const QuestionsTranslation: React.FC = () => {
     setSelectedCell(newSelectedCell);
 
     const newSelectedCellSentences = newTranslationSentences[newSelectedCell];
+
+    if (newSelectedCellSentences === undefined) {
+      // setSelectedCells([]);
+      setSelectedCells((prevCells: string[]) =>
+        prevCells.filter(cell => cell !== newSelectedCell),
+      );
+      setSelectedCell('');
+      setSelectedSymbol('');
+      setSentence(
+        'Henüz bir soru yok, hücrelerden seçim yapıp sor tuşuna basmalısın!',
+      );
+      Alert.alert(`${newSelectedSymbol} için çeviri cümlesi bulunamadı!`);
+      setIsAnswerVisible(true);
+      return;
+    }
 
     const randomIndexSentences = Math.floor(
       Math.random() * newSelectedCellSentences.length,
@@ -709,7 +780,7 @@ const styles = StyleSheet.create({
   answerContainer: {
     flex: 1,
     padding: 20,
-    gap: 12,
+    gap: 6,
   },
   incorrectAnswerText: {
     fontSize: 18,

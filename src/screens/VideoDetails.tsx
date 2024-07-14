@@ -27,7 +27,6 @@ const VideoDetails = () => {
         resizeMode="contain"
         fullscreen
         fullscreenOrientation="all"
-        // title={userStore.info.introduction_video.split('/files/')[1].split('.mp4')[0]}
         controlAnimationTiming={200}
         showTimeRemaining={false}
         controlTimeout={5000}

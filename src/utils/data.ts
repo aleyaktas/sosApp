@@ -257,7 +257,7 @@ export const TensesSubCategory: ISubCategory[] = [
 
 export const QuestionsSubCategory: ISubCategory[] = [
   {
-    id: 4,
+    id: 1,
     title: 'Çeviri Çalışması',
     mainCategory: 'Questions',
     description: 'Çeviri çalışmaları',
@@ -265,6 +265,22 @@ export const QuestionsSubCategory: ISubCategory[] = [
     selectedSymbols: ['What'],
     page: 'QuestionsTranslation',
     image: require('../assets/icons/translation.png'),
+  },
+  {
+    id: 2,
+    title: 'Videolar',
+    mainCategory: 'Questions',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Notlar',
+    mainCategory: 'Questions',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
   },
 ];
 
