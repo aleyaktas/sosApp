@@ -664,6 +664,7 @@ const SosTable = () => {
                   onChangeText={handleInputChange}
                   style={{
                     flex: 1,
+                    color: 'black',
                   }}
                   value={inputText}
                   placeholderTextColor={'#282828'}

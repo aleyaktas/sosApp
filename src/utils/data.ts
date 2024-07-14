@@ -663,7 +663,7 @@ export const TensesVideos: IVideo[] = [
     title: '1c',
     page: 'VideoDetails',
     videoUri:
-      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-1c-was-were-use-and-form/3587',
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sos-1c-was-were-use-and-form-1715788827.mp4',
     image: require('../assets/icons/video.png'),
   },
   {
