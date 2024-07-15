@@ -11,6 +11,7 @@ export type StackNavigatorList = {
   SubCategory: {title: string; item?: any};
   FourSkills: {title?: string; item?: any};
   Units: {title: string; item?: any};
+  UnitChoices: {title: string; item?: any};
   Videos: {title?: string; item?: any};
   Notes: {title: string; item?: any};
   NoteDetails: {title?: string; pdfName: string; item?: any};

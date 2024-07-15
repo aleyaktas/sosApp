@@ -19,6 +19,7 @@ import QuestionsTranslation from '../screens/QuestionsTranslation';
 import Tests from '../screens/Tests';
 import MultipleChoice from '../screens/MultipleChoice';
 import Vocabulary from '../screens/Vocabulary';
+import UnitChoices from '../screens/UnitChoices';
 
 const Stack = createStackNavigator();
 
@@ -88,6 +89,15 @@ const RootNavigation = () => {
       <Stack.Screen
         name="Units"
         component={Units}
+        options={{
+          headerTitle: 'Üniteler',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="UnitChoices"
+        component={UnitChoices}
         options={{
           headerTitle: 'Üniteler',
           headerShown: true,
