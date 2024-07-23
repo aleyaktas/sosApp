@@ -20,3 +20,10 @@ export interface IVerbsSentences {
   word: string;
   mean: string;
 }
+
+export interface IThereIsAre {
+  positivePlural?: string;
+  negativePlural?: string;
+  positiveSingular?: string;
+  negativeSingular?: string;
+}

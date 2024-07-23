@@ -20,6 +20,7 @@ import Tests from '../screens/Tests';
 import MultipleChoice from '../screens/MultipleChoice';
 import Vocabulary from '../screens/Vocabulary';
 import UnitChoices from '../screens/UnitChoices';
+import ThereIsAreSosTable from '../screens/ThereIsAreSosTable';
 
 const Stack = createStackNavigator();
 
@@ -186,6 +187,15 @@ const RootNavigation = () => {
       <Stack.Screen
         name="Vocabulary"
         component={Vocabulary}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="ThereIsAreSosTable"
+        component={ThereIsAreSosTable}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,

@@ -23,17 +23,17 @@ export const Categories: ICategory[] = [
   },
   {
     id: 3,
-    title: 'Zamirler',
-    mainCategory: 'Pronouns',
-    description: 'Zamirlerin kullanımı ve çeşitleri.',
-    image: require('../assets/icons/pronoun.png'),
-  },
-  {
-    id: 4,
     title: 'There is / There are',
     mainCategory: 'ThereIsThereAre',
     description: 'There is ve there are yapıları.',
     image: require('../assets/icons/thereis.png'),
+  },
+  {
+    id: 4,
+    title: 'Zamirler',
+    mainCategory: 'Pronouns',
+    description: 'Zamirlerin kullanımı ve çeşitleri.',
+    image: require('../assets/icons/pronoun.png'),
   },
   {
     id: 5,
@@ -287,6 +287,19 @@ export const QuestionsSubCategory: ISubCategory[] = [
   },
 ];
 
+export const ThereIsThereAreSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Uygulama',
+    mainCategory: 'ThereIsThereAre',
+    description: 'Sos uygulaması',
+    page: 'ThereIsAreSosTable',
+    image: require('../assets/icons/application.png'),
+    symbols: ['+', '-', '?'],
+    selectedSymbols: ['+', '-', '?'],
+  },
+];
+
 export interface IUnit {
   id: number;
   title: string;
@@ -366,7 +379,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 1,
     title: 'Ünite 1',
-    description: 'Geniş Zamanlar Ünite 1',
+    description: 'Daily Routines: Describing a typical day.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/1.png'),
@@ -374,7 +387,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 2,
     title: 'Ünite 2',
-    description: 'Geniş Zamanlar Ünite 2',
+    description: `Occupations: Talking about people's jobs.`,
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/2.png'),
@@ -382,7 +395,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 3,
     title: 'Ünite 3',
-    description: 'Geniş Zamanlar Ünite 3',
+    description:
+      'Personal Descriptions: Describing physical appearance and personality.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/3.png'),
@@ -390,7 +404,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 4,
     title: 'Ünite 4',
-    description: 'Geniş Zamanlar Ünite 4',
+    description: 'Weather Conditions: Discussing the weather.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/4.png'),
@@ -398,7 +412,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 5,
     title: 'Ünite 5',
-    description: 'Geniş Zamanlar Ünite 5',
+    description: 'Emotions and Feelings: Expressing how someone feels.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/5.png'),
@@ -406,7 +420,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 6,
     title: 'Ünite 6',
-    description: 'Geniş Zamanlar Ünite 6',
+    description:
+      'Family Relationships: Describing family members and their roles.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/6.png'),
@@ -414,7 +429,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 7,
     title: 'Ünite 7',
-    description: 'Geniş Zamanlar Ünite 7',
+    description: 'Pets and Animals: Talking about characteristics of animals.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/7.png'),
@@ -422,7 +437,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 8,
     title: 'Ünite 8',
-    description: 'Geniş Zamanlar Ünite 8',
+    description: 'Classroom Objects: Identifying objects around the school.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/8.png'),
@@ -430,7 +445,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 9,
     title: 'Ünite 9',
-    description: 'Geniş Zamanlar Ünite 9',
+    description:
+      'Hobbies and Interests: Sharing personal interests and hobbies.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/9.png'),
@@ -438,7 +454,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 10,
     title: 'Ünite 10',
-    description: 'Geniş Zamanlar Ünite 10',
+    description: 'Sports: Discussing various sports and who plays them.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/10.png'),
@@ -446,7 +462,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 11,
     title: 'Ünite 11',
-    description: 'Geniş Zamanlar Ünite 11',
+    description:
+      'Health and Fitness: Talking about health habits and conditions.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/11.png'),
@@ -454,7 +471,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 12,
     title: 'Ünite 12',
-    description: 'Geniş Zamanlar Ünite 12',
+    description: 'Clothing and Fashion: Describing what people wear.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/12.png'),
@@ -462,7 +479,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 13,
     title: 'Ünite 13',
-    description: 'Geniş Zamanlar Ünite 13',
+    description:
+      'Food and Cooking: Talking about different foods and cooking methods.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/13.png'),
@@ -470,7 +488,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 14,
     title: 'Ünite 14',
-    description: 'Geniş Zamanlar Ünite 14',
+    description:
+      'Travel and Tourism: Describing popular tourist destinations and activities.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/14.png'),
@@ -478,7 +497,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 15,
     title: 'Ünite 15',
-    description: 'Geniş Zamanlar Ünite 15',
+    description: 'Cultural Festivals: Discussing traditional celebrations.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/15.png'),
@@ -486,7 +505,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 16,
     title: 'Ünite 16',
-    description: 'Geniş Zamanlar Ünite 16',
+    description:
+      'Music and Movies: Sharing preferences and opinions about music and films.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/16.png'),
@@ -494,7 +514,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 17,
     title: 'Ünite 17',
-    description: 'Geniş Zamanlar Ünite 17',
+    description:
+      'Books and Reading: Talking about favorite books and reading habits.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/17.png'),
@@ -502,7 +523,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 18,
     title: 'Ünite 18',
-    description: 'Geniş Zamanlar Ünite 18',
+    description:
+      'Technology and Gadgets: Describing various technologies and their uses.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/18.png'),
@@ -510,7 +532,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 19,
     title: 'Ünite 19',
-    description: 'Geniş Zamanlar Ünite 19',
+    description: 'Social Media: Discussing the impact and use of social media.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/19.png'),
@@ -518,7 +540,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 20,
     title: 'Ünite 20',
-    description: 'Geniş Zamanlar Ünite 20',
+    description:
+      'Transportation: Talking about different types of transportation.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/20.png'),
@@ -526,7 +549,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 21,
     title: 'Ünite 21',
-    description: 'Geniş Zamanlar Ünite 21',
+    description: 'School Subjects: Describing what is learned in each subject.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/21.png'),
@@ -534,7 +557,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 22,
     title: 'Ünite 22',
-    description: 'Geniş Zamanlar Ünite 22',
+    description:
+      'Holidays and Vacations: Talking about holiday plans and experiences.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/22.png'),
@@ -542,7 +566,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 23,
     title: 'Ünite 23',
-    description: 'Geniş Zamanlar Ünite 23',
+    description:
+      'Houses and Homes: Describing parts of the house and household items',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/23.png'),
@@ -550,7 +575,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 24,
     title: 'Ünite 24',
-    description: 'Geniş Zamanlar Ünite 24',
+    description:
+      'Neighborhoods: Talking about what can be found in a neighborhood.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/24.png'),
@@ -558,7 +584,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 25,
     title: 'Ünite 25',
-    description: 'Geniş Zamanlar Ünite 25',
+    description:
+      'Countries and Nationalities: Describing countries and the nationality of people.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/25.png'),
@@ -566,7 +593,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 26,
     title: 'Ünite 26',
-    description: 'Geniş Zamanlar Ünite 26',
+    description: 'Historical Events: Discussing significant events in history.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/26.png'),
@@ -574,7 +601,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 27,
     title: 'Ünite 27',
-    description: 'Geniş Zamanlar Ünite 27',
+    description:
+      'Environmental Issues: Talking about the environment and sustainability.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/27.png'),
@@ -582,7 +610,7 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 28,
     title: 'Ünite 28',
-    description: 'Geniş Zamanlar Ünite 28',
+    description: 'Space Exploration: Describing planets and space missions.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/28.png'),
@@ -590,7 +618,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 29,
     title: 'Ünite 29',
-    description: 'Geniş Zamanlar Ünite 29',
+    description:
+      'Art and Exhibitions: Talking about different art styles and exhibitions.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/29.png'),
@@ -598,7 +627,8 @@ export const PresentSimpleUnits: IUnit[] = [
   {
     id: 30,
     title: 'Ünite 30',
-    description: 'Geniş Zamanlar Ünite 30',
+    description:
+      'Urban vs. Rural Life: Comparing life in cities to life in rural areas',
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/30.png'),

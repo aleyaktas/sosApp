@@ -11,13 +11,13 @@ import {
   Dimensions,
 } from 'react-native';
 import CheckBox from 'react-native-check-box';
-import Table from '../components/Table';
-import verbs from '../utils/verbs.json';
-import kidVerbs from '../utils/kidVerbs.json';
-import kidNouns from '../utils/kidNouns.json';
-import nouns from '../utils/nouns.json';
+import Table from '../components/ThereIsAreTable';
+import verbs from '../utils/thereIsAreVerbs.json';
+// import kidVerbs from '../utils/kidVerbs.json';
+// import kidNouns from '../utils/kidNouns.json';
+// import nouns from '../utils/nouns.json';
 import {useEffect, useState} from 'react';
-import {IVerb} from '../types/IVerb';
+import {IThereIsAre, IVerb} from '../types/IVerb';
 import Voice from '@react-native-voice/voice';
 import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
@@ -26,9 +26,10 @@ import {CountdownCircleTimer} from 'react-native-countdown-circle-timer';
 import {handleVoice} from '../helpers/voiceCenter';
 import IVerbsModal from '../components/IVerbsModal';
 import {ttsSettings} from '../utils/ttsSettings';
-import {checkAbbrevation} from '../utils/abbreviation';
 import {Bar} from 'react-native-progress';
 import {Route, useRoute} from '@react-navigation/native';
+import ThereIsAreSentences from '../utils/thereIsAreVerbs.json';
+import {organizeSentences} from '../helpers/organizeSentences';
 
 export interface SosTable {
   id: number;
@@ -40,19 +41,15 @@ export interface SosTable {
 }
 type SosTableRoute = Route<'Sos', {title: string; item?: any}>;
 
-const SosTable = () => {
+const ThereIsAreSosTable = () => {
   const route = useRoute<SosTableRoute>();
   const symbols = route.params.item.selectedSymbols || [];
 
   const [inputText, setInputText] = useState('');
   const [selectedOption, setSelectedOption] = useState<string>('');
   const [selectedState, setSelectedState] = useState<string>('');
-  const [entry, setEntry] = useState<IVerb>({
-    presentPlural: '',
-    turkishMean: '',
-  });
   const [selectedSubject, setSelectedSubject] = useState('Are');
-  const [question, setQuestion] = useState('you ready?');
+  const [question, setQuestion] = useState('Are you ready?');
   const [isSubjectSingle, setIsSubjectSingle] = useState(false);
   const [answer, setAnswer] = useState('');
   const [selectedCells, setSelectedCells] = useState<string[]>(['B1']);
@@ -64,8 +61,9 @@ const SosTable = () => {
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [time, setTime] = useState(15);
   const [isKid, setIsKid] = useState(false);
+  const [sentences, setSentences] = useState<any>(ThereIsAreSentences);
 
-  const subjects = ['I', 'you', 'he', 'she', 'it', 'we', 'they'];
+  const subjects = ['Plural', 'Singular'];
 
   const ChartComponent = () => {
     return (
@@ -105,246 +103,134 @@ const SosTable = () => {
   }, []);
 
   const generateQuestion = () => {
-    let entry: IVerb;
     setInputText('');
     const subject = getRandomItem(subjects);
     const state = getRandomItem(selectedSymbols);
     const option = getRandomItem(selectedCells);
     setSelectedSubject(subject);
-    setIsSubjectSingle(
-      subject === 'he' || subject === 'she' || subject === 'it',
-    );
+    setIsSubjectSingle(subject === 'Singular');
     setSelectedState(state);
     setSelectedOption(option);
 
     console.log('option', option);
     console.log('state', state);
     console.log('subject', subject);
+    console.log('option', option);
 
-    if (option[1] === '1') {
-      console.log('option 1', isKid);
-      if (isKid) {
-        entry = kidNouns;
-        console.log('entry', entry);
-        setEntry(kidNouns);
-      } else {
-        entry = getRandomItem(nouns);
-        console.log('entry', entry);
-        setEntry(entry);
-      }
-      const answer = generateAnswer(
-        option,
-        entry,
-        state,
-        subject,
-        subject === 'he' || subject === 'she' || subject === 'it',
-      );
-      setAnswer(answer);
-      return option[0] === 'A'
-        ? setQuestion(`${entry.presentPlural}`)
-        : setQuestion(`be ${entry.presentPlural}`);
-    } else {
-      if (isKid) {
-        entry =
-          option[1] === '2'
-            ? kidVerbs[0]
-            : option[1] === '3'
-            ? kidVerbs[1]
-            : kidVerbs[2];
-        setEntry(entry);
-      } else {
-        entry = getRandomItem(verbs);
-        setEntry(entry);
-      }
-      const answer = generateAnswer(
-        option,
-        entry,
-        state,
-        subject,
-        subject === 'he' || subject === 'she' || subject === 'it',
-      );
-      setAnswer(answer);
-      setQuestion(`${entry.presentPlural}`);
+    // entry = getRandomItem(sentences);
+
+    let question = '';
+    if (isSubjectSingle && state === '+') {
+      let sentence = sentences['positivePlural'];
+      let entry = getRandomItem(sentence);
+      question = `${entry.sentence.replace(/[?.,]/g, '')}`;
+      setQuestion(`${question}`);
+    } else if (isSubjectSingle && (state === '-' || state === '?')) {
+      let sentence = sentences['negativePlural'];
+      let entry = getRandomItem(sentence);
+      question = `${entry.sentence.replace(/[?.,]/g, '')}`;
+      setQuestion(`${question}`);
+    } else if (!isSubjectSingle && state === '+') {
+      let sentence = sentences['positiveSingular'];
+      let entry = getRandomItem(sentence);
+      question = `${entry.sentence.replace(/[?.,]/g, '')}`;
+      setQuestion(`${question}`);
+    } else if (!isSubjectSingle && (state === '-' || state === '?')) {
+      let sentence = sentences['negativeSingular'];
+      let entry = getRandomItem(sentence);
+      question = `${entry.sentence.replace(/[?.,]/g, '')}`;
+      setQuestion(`${question}`);
     }
+
+    const answer = generateAnswer(
+      option,
+      state,
+      question,
+      subject,
+      isSubjectSingle,
+    );
+    setAnswer(answer);
+
+    // if (isSubjectSingle) {
+    //   if (state === '+') {
+    //     let sentence = sentences['positivePlural'];
+    //     let entry = getRandomItem(sentence);
+    //     setQuestion(`${entry.sentence}`);
+    //   } else if (state === '-') {
+    //     let sentence = sentences['negativePlural'];
+    //     let entry = getRandomItem(sentence);
+    //     setQuestion(`be ${entry.sentence}`);
+    //   } else if (state === '?') {
+    //     let sentence = sentences['negativePlural'];
+    //     let entry = getRandomItem(sentence);
+    //     setQuestion(`be ${entry.sentence}`);
+    //   }
+    // } else {
+    //   if (state === '+') {
+    //     let sentence = sentences['positiveSingular'];
+    //     let entry = getRandomItem(sentence);
+    //     setQuestion(`${entry.sentence}`);
+    //   } else if (state === '-') {
+    //     let sentence = sentences['negativeSingular'];
+    //     let entry = getRandomItem(sentence);
+    //     setQuestion(`be ${entry.sentence}`);
+    //   } else if (state === '?') {
+    //     let sentence = sentences['negativeSingular'];
+    //     let entry = getRandomItem(sentence);
+    //     setQuestion(`be ${entry.sentence}`);
+    //   }
+    // }
   };
 
   const generateAnswer = (
     option: string,
-    selectedEntry: IVerb,
     state: string,
+    question: string,
     subject: string,
     isSingle: boolean,
   ) => {
     switch (option) {
-      case 'A1-W':
-        if (state === '+') {
-          return `${subject} will be ${selectedEntry.presentPlural}`;
-        } else if (state === '-') {
-          return `${subject} won't be ${selectedEntry.presentPlural}`;
-        } else {
-          return `will ${subject} be ${selectedEntry.presentPlural}?`;
-        }
-      case 'A1-G':
-        if (state === '+') {
-          return `${subject} ${
-            isSingle ? 'is' : subject === 'I' ? 'am' : 'are'
-          } going to be ${selectedEntry.presentPlural}`;
-        } else if (state === '-') {
-          return `${subject} ${
-            isSingle ? `isn't` : subject === 'I' ? 'am not' : `aren't`
-          } going to be ${selectedEntry.presentPlural}`;
-        } else {
-          return `${
-            isSingle ? `Is` : subject === 'I' ? 'Am' : `Are`
-          } ${subject} going to be ${selectedEntry.presentPlural}?`;
+      case 'A1':
+        if (state === '+' && isSingle) {
+          return `There will be ${question}.`;
+        } else if (state === '+' && !isSingle) {
+          return `There will be ${question}.`;
+        } else if (state === '-' && isSingle) {
+          return `There won't be ${question}.`;
+        } else if (state === '-' && !isSingle) {
+          return `There won't be ${question}.`;
+        } else if (state === '?' && isSingle) {
+          return `Will there be ${question}?`;
+        } else if (state === '?' && !isSingle) {
+          return `Will there be ${question}?`;
         }
       case 'B1':
-        if (state === '+') {
-          return `${subject} ${
-            isSingle ? 'is' : subject === 'I' ? 'am' : 'are'
-          } ${selectedEntry.presentPlural}`;
-        } else if (state === '-') {
-          return `${subject} ${
-            isSingle ? `isn't` : subject === 'I' ? 'am not' : `aren't`
-          } ${selectedEntry.presentPlural}`;
-        } else {
-          return `${
-            isSingle ? `Is` : subject === 'I' ? 'Am' : `Are`
-          } ${subject} ${selectedEntry.presentPlural}?`;
+        if (state === '+' && isSingle) {
+          return `There is ${question}.`;
+        } else if (state === '+' && !isSingle) {
+          return `There are ${question}.`;
+        } else if (state === '-' && isSingle) {
+          return `There isn't ${question}.`;
+        } else if (state === '-' && !isSingle) {
+          return `There aren't ${question}.`;
+        } else if (state === '?' && isSingle) {
+          return `Is there ${question}?`;
+        } else if (state === '?' && !isSingle) {
+          return `Are there ${question}?`;
         }
       case 'C1':
-        if (state === '+') {
-          return `${subject} ${
-            isSingle ? 'was' : subject === 'I' ? 'was' : 'were'
-          } ${selectedEntry.presentPlural}`;
-        } else if (state === '-') {
-          return `${subject} ${
-            isSingle ? `wasn't` : subject === 'I' ? `wasn't` : `weren't`
-          } ${selectedEntry.presentPlural}`;
-        } else {
-          return `${
-            isSingle ? `Was` : subject === 'I' ? `Was` : `Were`
-          } ${subject} ${selectedEntry.presentPlural}?`;
-        }
-      case 'A2-W':
-        if (state === '+') {
-          return `${subject} will ${selectedEntry.presentPlural}`;
-        } else if (state === '-') {
-          return `${subject} won't ${selectedEntry.presentPlural}`;
-        } else {
-          return `Will ${subject} ${selectedEntry.presentPlural}?`;
-        }
-      case 'A2-G':
-        if (state === '+') {
-          return `${subject} ${
-            isSingle ? 'is' : subject === 'I' ? 'am' : 'are'
-          } going to ${selectedEntry.presentPlural}`;
-        } else if (state === '-') {
-          return `${subject} ${
-            isSingle ? `isn't` : subject === 'I' ? 'am not' : `aren't`
-          } going to ${selectedEntry.presentPlural}`;
-        } else {
-          return `${
-            isSingle ? `Is` : subject === 'I' ? 'Am' : `Are`
-          } ${subject} going to ${selectedEntry.presentPlural}?`;
-        }
-      case 'B2':
-        if (state === '+') {
-          return `${subject} ${
-            isSingle
-              ? selectedEntry.presentSingular
-              : selectedEntry.presentPlural
-          }`;
-        } else if (state === '-') {
-          return `${subject} ${isSingle ? `doesn't` : `don't`} ${
-            selectedEntry.presentPlural
-          }`;
-        } else {
-          return `${isSingle ? `Does` : `Do`} ${subject} ${
-            selectedEntry.presentPlural
-          }?`;
-        }
-
-      case 'C2':
-        if (state === '+') {
-          return `${subject} ${selectedEntry.pastV2}`;
-        } else if (state === '-') {
-          return `${subject} didn't ${selectedEntry.presentPlural}`;
-        } else {
-          return `Did ${subject} ${selectedEntry.presentPlural}?`;
-        }
-      case 'A3':
-        if (state === '+') {
-          return `${subject} will be ${selectedEntry.verbIng}`;
-        } else if (state === '-') {
-          return `${subject} won't be ${selectedEntry.verbIng}`;
-        } else {
-          return `Will ${subject} be ${selectedEntry.verbIng}?`;
-        }
-
-      case 'B3':
-        if (state === '+') {
-          return `${subject} ${
-            isSingle ? `is` : subject === 'I' ? 'am' : `are`
-          } ${selectedEntry.verbIng}`;
-        } else if (state === '-') {
-          return `${subject} ${
-            isSingle ? `isn't` : subject === 'I' ? 'am not' : `aren't`
-          } ${selectedEntry.verbIng}`;
-        } else {
-          return `${
-            isSingle ? `Is` : subject === 'I' ? 'Am' : `Are`
-          } ${subject} ${selectedEntry.verbIng}?`;
-        }
-
-      case 'C3':
-        if (state === '+') {
-          return `${subject} ${
-            isSingle ? `was` : subject === 'I' ? `was` : `were`
-          } ${selectedEntry.verbIng}`;
-        } else if (state === '-') {
-          return `${subject} ${
-            isSingle ? `wasn't` : subject === 'I' ? `wasn't` : `weren't`
-          } ${selectedEntry.verbIng}`;
-        } else {
-          return `${
-            isSingle ? `Was` : subject === 'I' ? `Was` : `Were`
-          } ${subject} ${selectedEntry.verbIng}?`;
-        }
-
-      case 'A4':
-        if (typeof selectedEntry === 'object') {
-          if (state === '+') {
-            return `${subject} will have ${selectedEntry.pastV3}`;
-          } else if (state === '-') {
-            return `${subject} won't have ${selectedEntry.pastV3}`;
-          } else {
-            return `Will ${subject} have ${selectedEntry.pastV3}?`;
-          }
-        }
-
-      case 'B4':
-        if (state === '+') {
-          return `${subject} ${isSingle ? 'has' : 'have'} ${
-            selectedEntry.pastV3
-          }`;
-        } else if (state === '-') {
-          return `${subject} ${isSingle ? "hasn't" : "haven't"} ${
-            selectedEntry.pastV3
-          }`;
-        } else {
-          return `${isSingle ? 'has' : 'have'} ${subject} ${
-            selectedEntry.pastV3
-          }?`;
-        }
-
-      case 'C4':
-        if (state === '+') {
-          return `${subject} had ${selectedEntry.pastV3}`;
-        } else if (state === '-') {
-          return `${subject} hadn't ${selectedEntry.pastV3}`;
-        } else {
-          return `Had ${selectedEntry.pastV3}?`;
+        if (state === '+' && isSingle) {
+          return `There was ${question}.`;
+        } else if (state === '+' && !isSingle) {
+          return `There were ${question}.`;
+        } else if (state === '-' && isSingle) {
+          return `There wasn't ${question}.`;
+        } else if (state === '-' && !isSingle) {
+          return `There weren't ${question}.`;
+        } else if (state === '?' && isSingle) {
+          return `Was there ${question}?`;
+        } else if (state === '?' && !isSingle) {
+          return `Were there ${question}?`;
         }
       default:
         return 'test';
@@ -353,23 +239,6 @@ const SosTable = () => {
 
   const handleInputChange = (text: string) => {
     setInputText(text);
-  };
-
-  const contractions = {
-    'is not': "isn't",
-    'are not': "aren't",
-    'will not': "won't",
-    'has not': "hasn't",
-    'have not': "haven't",
-    'had not': "hadn't",
-    'would not': "wouldn't",
-    'could not': "couldn't",
-    'should not': "shouldn't",
-    'do not': "don't",
-    'does not': "doesn't",
-    'did not': "didn't",
-    'was not': "wasn't",
-    'were not': "weren't",
   };
 
   const handleAskButton = () => {
@@ -389,16 +258,73 @@ const SosTable = () => {
     setTime(15);
   }, [isAnswerVisible]);
 
+  const contractions = {
+    'is not': "isn't",
+    'are not': "aren't",
+    'will not': "won't",
+    'was not': "wasn't",
+    'were not': "weren't",
+  };
+
+  const replaceContractions = (text: string): string => {
+    Object.entries(contractions).forEach(([key, value]) => {
+      console.log('key', key);
+      console.log('value', value);
+      text = text.replace(new RegExp(key, 'g'), value);
+    });
+    return text;
+  };
+
   const checkAnswer = () => {
     setSelectedOption('');
     setSelectedState('');
 
-    const {normalizedInput, normalizedAnswer, normalizedInputWithContractions} =
-      checkAbbrevation({
-        input: inputText.split(' '),
-        answer,
-        selectedCell: selectedOption,
-      });
+    console.log('inputText', inputText);
+    console.log('answer', answer);
+
+    let normalizedInput = inputText
+      .split(' ')
+      .join(' ')
+      .toLowerCase()
+      .replace(/[?.,]/g, '');
+    let normalizedAnswer = answer.toLowerCase().replace(/[?.,]/g, '');
+    let normalizedInputWithContractions = replaceContractions(normalizedInput);
+
+    //isn't => is not, aren't => are not, won't => will not, there's => there is, there're => there are, there'll => there will
+    normalizedInputWithContractions = normalizedInputWithContractions.replace(
+      /there's not|there're not|there'll not|isn't|aren't|won't|there'll|there're|there's|wasn't|weren't/g,
+      match => {
+        return match === "there's not"
+          ? 'there is not'
+          : match === "there're not"
+          ? 'there are not'
+          : match === "there'll not"
+          ? 'there will not'
+          : match === "isn't"
+          ? 'is not'
+          : match === "aren't"
+          ? 'are not'
+          : match === "won't"
+          ? 'will not'
+          : match === "there'll"
+          ? 'there will'
+          : match === "there're"
+          ? 'there are'
+          : match === "there's"
+          ? 'there is'
+          : match === "wasn't"
+          ? 'was not'
+          : match === "weren't"
+          ? 'were not'
+          : match;
+      },
+    );
+
+    console.log('normalizedAnswer', normalizedAnswer);
+    console.log(
+      'normalizedInputWithContractions',
+      normalizedInputWithContractions,
+    );
 
     if (normalizedAnswer === normalizedInputWithContractions) {
       setCorrectAnswers(correctAnswers + 1);
@@ -411,15 +337,6 @@ const SosTable = () => {
       setIsAnswerVisible(true);
     }
     handleAskButton();
-  };
-
-  const replaceContractions = (text: string): string => {
-    Object.entries(contractions).forEach(([key, value]) => {
-      console.log('key', key);
-      console.log('value', value);
-      text = text.replace(new RegExp(key, 'g'), value);
-    });
-    return text;
   };
 
   const [started, setStarted] = useState('');
@@ -509,7 +426,7 @@ const SosTable = () => {
             selectedSymbol={selectedState}
             isSymbolActive={true}
             symbols={symbols}
-            mainCategory="Sos"
+            mainCategory="ThereIsAre"
           />
           <View
             style={{
@@ -527,9 +444,9 @@ const SosTable = () => {
             </TouchableOpacity>
           </View>
           <View style={styles.questionContainer}>
-            <View style={styles.subjectContainer}>
+            {/* <View style={styles.subjectContainer}>
               <Text style={styles.readyText}>{selectedSubject}</Text>
-            </View>
+            </View> */}
             <TouchableOpacity
               style={styles.sentenceContainer}
               activeOpacity={0.7}
@@ -572,8 +489,8 @@ const SosTable = () => {
                       color: '#6c6c6c',
                       flex: 1,
                     }}>
-                    {entry.turkishMean.charAt(0).toUpperCase() +
-                      entry.turkishMean.slice(1)}
+                    {/* {entry.turkishMean.charAt(0).toUpperCase() +
+                      entry.turkishMean.slice(1)} */}
                   </Text>
                 ) : (
                   <Icon name="Lock" color="#6c6c6c" width={16} height={16} />
@@ -892,4 +809,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SosTable;
+export default ThereIsAreSosTable;

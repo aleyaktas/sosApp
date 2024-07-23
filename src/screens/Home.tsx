@@ -16,7 +16,11 @@ const Home = () => {
         {Categories.map(item => (
           <TouchableOpacity
             activeOpacity={0.7}
-            disabled={item.title !== 'Zamanlar' && item.title !== 'Sorular'}
+            disabled={
+              item.title !== 'Zamanlar' &&
+              item.title !== 'Sorular' &&
+              item.title !== 'There is / There are'
+            }
             onPress={() =>
               navigation.navigate('SubCategory', {
                 title: item.mainCategory,
@@ -27,7 +31,9 @@ const Home = () => {
               styles.categoriesButton,
               {
                 backgroundColor:
-                  item.title === 'Zamanlar' || item.title === 'Sorular'
+                  item.title === 'Zamanlar' ||
+                  item.title === 'Sorular' ||
+                  item.title === 'There is / There are'
                     ? 'white'
                     : '#f5f5f5',
               },
@@ -39,7 +45,9 @@ const Home = () => {
                   styles.categoriesTitle,
                   {
                     color:
-                      item.title === 'Zamanlar' || item.title === 'Sorular'
+                      item.title === 'Zamanlar' ||
+                      item.title === 'Sorular' ||
+                      item.title === 'There is / There are'
                         ? 'black'
                         : 'darkgray',
                   },

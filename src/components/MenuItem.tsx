@@ -71,8 +71,12 @@ const styles = StyleSheet.create({
     height: 60,
   },
   text: {
+    display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-between',
+    // justifyContent: 'space-between',
+    alignItems: 'flex-start',
+    gap: 4,
+    flex: 1,
   },
   title: {
     fontSize: 18,
@@ -82,6 +86,7 @@ const styles = StyleSheet.create({
   description: {
     fontSize: 14,
     color: 'black',
+    flex: 1,
   },
 });
 
