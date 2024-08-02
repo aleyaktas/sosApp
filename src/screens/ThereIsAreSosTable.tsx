@@ -12,12 +12,7 @@ import {
 } from 'react-native';
 import CheckBox from 'react-native-check-box';
 import Table from '../components/ThereIsAreTable';
-import verbs from '../utils/thereIsAreVerbs.json';
-// import kidVerbs from '../utils/kidVerbs.json';
-// import kidNouns from '../utils/kidNouns.json';
-// import nouns from '../utils/nouns.json';
 import {useEffect, useState} from 'react';
-import {IThereIsAre, IVerb} from '../types/IVerb';
 import Voice from '@react-native-voice/voice';
 import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
@@ -29,7 +24,6 @@ import {ttsSettings} from '../utils/ttsSettings';
 import {Bar} from 'react-native-progress';
 import {Route, useRoute} from '@react-navigation/native';
 import ThereIsAreSentences from '../utils/thereIsAreVerbs.json';
-import {organizeSentences} from '../helpers/organizeSentences';
 
 export interface SosTable {
   id: number;
@@ -121,22 +115,22 @@ const ThereIsAreSosTable = () => {
 
     let question = '';
     if (isSubjectSingle && state === '+') {
-      let sentence = sentences['positivePlural'];
-      let entry = getRandomItem(sentence);
-      question = `${entry.sentence.replace(/[?.,]/g, '')}`;
-      setQuestion(`${question}`);
-    } else if (isSubjectSingle && (state === '-' || state === '?')) {
-      let sentence = sentences['negativePlural'];
-      let entry = getRandomItem(sentence);
-      question = `${entry.sentence.replace(/[?.,]/g, '')}`;
-      setQuestion(`${question}`);
-    } else if (!isSubjectSingle && state === '+') {
       let sentence = sentences['positiveSingular'];
       let entry = getRandomItem(sentence);
       question = `${entry.sentence.replace(/[?.,]/g, '')}`;
       setQuestion(`${question}`);
-    } else if (!isSubjectSingle && (state === '-' || state === '?')) {
+    } else if (isSubjectSingle && (state === '-' || state === '?')) {
       let sentence = sentences['negativeSingular'];
+      let entry = getRandomItem(sentence);
+      question = `${entry.sentence.replace(/[?.,]/g, '')}`;
+      setQuestion(`${question}`);
+    } else if (!isSubjectSingle && state === '+') {
+      let sentence = sentences['positivePlural'];
+      let entry = getRandomItem(sentence);
+      question = `${entry.sentence.replace(/[?.,]/g, '')}`;
+      setQuestion(`${question}`);
+    } else if (!isSubjectSingle && (state === '-' || state === '?')) {
+      let sentence = sentences['negativePlural'];
       let entry = getRandomItem(sentence);
       question = `${entry.sentence.replace(/[?.,]/g, '')}`;
       setQuestion(`${question}`);

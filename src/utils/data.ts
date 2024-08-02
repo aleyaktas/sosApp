@@ -314,7 +314,7 @@ export const TensesUnitChoices: IUnit[] = [
   {
     id: 1,
     title: 'Present Simple Tense',
-    description: 'Do, does, am, is, are',
+    description: '1-30 Units',
     mainCategory: 'PresentSimple',
     page: 'Units',
     image: require('../assets/images/PresentSimple.png'),
@@ -322,7 +322,7 @@ export const TensesUnitChoices: IUnit[] = [
   {
     id: 2,
     title: 'Past Simple Tense',
-    description: 'Did, was, were',
+    description: '31-60 Units',
     mainCategory: 'PastSimple',
     page: 'Units',
     image: require('../assets/images/PastSimple.png'),
@@ -331,7 +331,7 @@ export const TensesUnitChoices: IUnit[] = [
   {
     id: 3,
     title: 'Present Continuous Tense',
-    description: 'Am, is, are, -ing',
+    description: '61-70 Units',
     mainCategory: 'PresentContinuous',
     page: 'Units',
     image: require('../assets/images/PresentContTense.png'),
@@ -340,7 +340,7 @@ export const TensesUnitChoices: IUnit[] = [
   {
     id: 4,
     title: 'Past Continuous Tense',
-    description: 'Was, were, -ing',
+    description: '71-80 Units',
     mainCategory: 'PastContinuous',
     page: 'Units',
     image: require('../assets/images/PastContTense.png'),
@@ -349,7 +349,7 @@ export const TensesUnitChoices: IUnit[] = [
   {
     id: 5,
     title: 'Future Tenses',
-    description: 'Will, be going to',
+    description: '81-90 Units',
     mainCategory: 'FutureTenses',
     page: 'Units',
     image: require('../assets/images/FutureTense.png'),
@@ -358,7 +358,7 @@ export const TensesUnitChoices: IUnit[] = [
   {
     id: 6,
     title: 'Present Perfect Tense',
-    description: 'Have done, has done',
+    description: '91-100 Units',
     mainCategory: 'PresentPerfect',
     page: 'Units',
     image: require('../assets/images/PresentPerfect.png'),
@@ -367,7 +367,7 @@ export const TensesUnitChoices: IUnit[] = [
   {
     id: 7,
     title: 'Past Perfect Tense',
-    description: 'Had done',
+    description: '101-110 Units',
     mainCategory: 'PastPerfect',
     page: 'Units',
     image: require('../assets/images/PastPerfect.png'),

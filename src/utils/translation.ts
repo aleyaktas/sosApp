@@ -9505,4770 +9505,6520 @@ export const QuestionsTranslationSentencesWhat = {
   'A1-G': [
     {
       meaning: 'Araba ne renk olacak?',
+      possibleAnswer: 'The car is going to be red.',
       sentence: 'What color is the car going to be?',
     },
     {
       meaning: 'Parti için sen ne olacaksın?',
+      possibleAnswer: 'I am going to be a pirate for the party.',
       sentence: 'What are you going to be for the party?',
     },
     {
       meaning: 'Hava yarın nasıl olacak?',
+      possibleAnswer: 'The weather is going to be sunny tomorrow.',
       sentence: 'What is the weather going to be like tomorrow?',
     },
     {
       meaning: 'Öğle yemeği için ne olacak?',
+      possibleAnswer: 'For lunch, there will be sandwiches and salad.',
       sentence: 'What is going to be for lunch?',
     },
     {
       meaning: 'Yeni okulun nasıl olacak?',
+      possibleAnswer: 'My new school is going to be big and modern.',
       sentence: 'What is your new school going to be like?',
     },
     {
       meaning: 'Sen gelecek yıl ne olacaksın?',
+      possibleAnswer: 'Next year, I am going to be a sophomore.',
       sentence: 'What are you going to be next year?',
     },
     {
       meaning: 'Senin annen işte ne yapacak?',
+      possibleAnswer: 'My mom is going to be attending meetings at work.',
       sentence: 'What is your mom going to be doing at work?',
     },
     {
       meaning: 'Film ne zaman olacak?',
+      possibleAnswer: 'The movie is going to be at 7 PM.',
       sentence: 'What time is the movie going to be?',
     },
     {
       meaning: 'Senin yeni evcil hayvanının ne olacak?',
+      possibleAnswer: 'My new pet is going to be a kitten.',
       sentence: 'What is your new pet going to be?',
     },
     {
       meaning: 'Çantanın içinde ne olacak?',
+      possibleAnswer: 'In my bag, there will be books, a laptop, and snacks.',
       sentence: 'What is going to be in your bag?',
     },
     {
       meaning: 'Oyun bu gece ne olacak?',
+      possibleAnswer: 'The game tonight is going to be soccer.',
       sentence: 'What is the game going to be tonight?',
     },
     {
       meaning: 'Okuldan sonra ne yapacaksın?',
+      possibleAnswer: 'After school, I am going to be doing my homework.',
       sentence: 'What are you going to be doing after school?',
     },
     {
       meaning: 'Senin ödevin ne olacak?',
+      possibleAnswer: 'My homework is going to be a math assignment.',
       sentence: 'What is your homework going to be?',
     },
     {
       meaning: 'Akşam yemeği ne olacak?',
+      possibleAnswer: 'For dinner, there will be pasta and garlic bread.',
       sentence: 'What is going to be for dinner?',
     },
     {
       meaning: 'Ana yemek ne olacak?',
+      possibleAnswer: 'The main dish is going to be grilled chicken.',
       sentence: 'What is the main dish going to be?',
     },
     {
       meaning: 'Senin öğretmeninin adı ne olacak?',
+      possibleAnswer: "My teacher's name is going to be Mr. Smith.",
       sentence: "What is your teacher's name going to be?",
     },
     {
       meaning: 'Hayvanat bahçesinde ne olacak?',
+      possibleAnswer: 'At the zoo, there will be lions, tigers, and bears.',
       sentence: 'What is going to be at the zoo?',
     },
     {
       meaning: 'Hikaye ne hakkında olacak?',
+      possibleAnswer: 'The story is going to be about a brave knight.',
       sentence: 'What is the story going to be about?',
     },
     {
       meaning: 'Televizyonda ne olacak?',
+      possibleAnswer:
+        'On TV, there is going to be a new episode of my favorite show.',
       sentence: 'What is going to be on TV?',
     },
     {
       meaning: 'Pazar günü hava nasıl olacak?',
+      possibleAnswer: 'The weather is going to be rainy on Sunday.',
       sentence: 'What is the weather going to be like on Sunday?',
     },
     {
       meaning: 'Senin odanın rengi ne olacak?',
+      possibleAnswer: 'My room is going to be painted blue.',
       sentence: 'What color is your room going to be?',
     },
     {
       meaning: 'Bugünün tarihi ne olacak?',
+      possibleAnswer: 'Today is going to be July 25th.',
       sentence: 'What is the date going to be today?',
     },
     {
       meaning: 'Senin kitabın ne hakkında olacak?',
+      possibleAnswer: 'My book is going to be about adventures in space.',
       sentence: 'What is your book going to be about?',
     },
     {
       meaning: 'Senin kız kardeşin ne olacak?',
+      possibleAnswer: 'My sister is going to be a doctor.',
       sentence: 'What is your sister going to be?',
     },
     {
       meaning: 'Favori yiyeceğin ne olacak?',
+      possibleAnswer: 'My favorite food is going to be pizza.',
       sentence: 'What is your favorite food going to be?',
     },
     {
       meaning: 'Kutunun içinde ne olacak?',
+      possibleAnswer: 'In the box, there is going to be a surprise gift.',
       sentence: 'What is going to be in the box?',
     },
     {
       meaning: 'Senin kedinin rengi ne olacak?',
+      possibleAnswer: 'My cat is going to be black and white.',
       sentence: 'What color is your cat going to be?',
     },
     {
       meaning: 'Partide ne olacak?',
+      possibleAnswer: 'At the party, there will be music, games, and food.',
       sentence: 'What is going to be at the party?',
     },
     {
       meaning: 'Senin sorun ne olacak?',
+      possibleAnswer: 'My question is going to be about the homework.',
       sentence: 'What is your question going to be?',
     },
     {
       meaning: 'Büyük haber ne olacak?',
+      possibleAnswer:
+        'The big news is going to be about a new project at work.',
       sentence: 'What is the big news going to be?',
     },
     {
       meaning: 'En iyi oyun ne olacak?',
+      possibleAnswer: 'The best game is going to be the championship match.',
       sentence: 'What is the best game going to be?',
     },
     {
       meaning: 'Senin numaran ne olacak?',
+      possibleAnswer: 'My number is going to be 7.',
       sentence: 'What is your number going to be?',
     },
     {
       meaning: 'Sürpriz ne olacak?',
+      possibleAnswer: 'The surprise is going to be a new puppy.',
       sentence: 'What is the surprise going to be?',
     },
     {
       meaning: 'Senin tatil planların ne olacak?',
+      possibleAnswer:
+        'My holiday plans are going to be visiting family and traveling.',
       sentence: 'What are your holiday plans going to be?',
     },
     {
       meaning: 'Sandviçte ne olacak?',
+      possibleAnswer:
+        'In the sandwich, there is going to be turkey and cheese.',
       sentence: 'What is going to be in the sandwich?',
     },
     {
       meaning: 'Sepette ne meyve olacak?',
+      possibleAnswer: 'In the basket, there is going to be apples and bananas.',
       sentence: 'What fruit is going to be in the basket?',
     },
     {
       meaning: 'Senin hediyen ne olacak?',
+      possibleAnswer: 'My gift is going to be a new watch.',
       sentence: 'What is your gift going to be?',
     },
     {
       meaning: 'Senin yeni oyunun ne olacak?',
+      possibleAnswer: 'My new game is going to be an adventure game.',
       sentence: 'What is your new game going to be?',
     },
     {
       meaning: 'Sınavda ne olacak?',
+      possibleAnswer:
+        'On the quiz, there are going to be questions about history.',
       sentence: 'What is going to be on the quiz?',
     },
     {
       meaning: 'Senin oyunda rolün ne olacak?',
+      possibleAnswer: 'My role in the play is going to be the lead character.',
       sentence: 'What is your role in the play going to be?',
     },
     {
       meaning: 'Sizin dans şarkınız ne olacak?',
+      possibleAnswer: 'My dance song is going to be a pop hit.',
       sentence: 'What is your dance song going to be?',
     },
     {
       meaning: 'Fuarda ne olacak?',
+      possibleAnswer: 'At the fair, there will be rides and games.',
       sentence: 'What is going to be at the fair?',
     },
     {
       meaning: 'Senin yeni filmin ne hakkında olacak?',
+      possibleAnswer: 'My new movie is going to be about a superhero.',
       sentence: 'What is your new movie going to be about?',
     },
     {
       meaning: 'Kahvaltıda ne olacak?',
+      possibleAnswer: 'For breakfast, there will be pancakes and eggs.',
       sentence: 'What is going to be for breakfast?',
     },
     {
       meaning: 'Bahçede ne olacak?',
+      possibleAnswer:
+        'In the garden, there are going to be flowers and vegetables.',
       sentence: 'What is going to be in the garden?',
     },
     {
       meaning: 'Orada ne tür bitki olacak?',
+      possibleAnswer: 'There is going to be a rose bush.',
       sentence: 'What type of plant is going to be there?',
     },
     {
       meaning: 'Film saat kaçta olacak?',
+      possibleAnswer: 'The movie is going to be at 7 PM.',
       sentence: 'What time is the movie going to be?',
     },
     {
       meaning: 'Senin yeni çantan ne renk olacak?',
+      possibleAnswer: 'My new bag is going to be red.',
       sentence: 'What color is your new bag going to be?',
     },
     {
       meaning: 'Partide atıştırmalık ne olacak?',
+      possibleAnswer: 'At the party, there are going to be chips and dip.',
       sentence: 'What snack is going to be at the party?',
     },
     {
       meaning: 'Bu akşam ödev ne olacak?',
+      possibleAnswer: "Tonight's homework is going to be math exercises.",
       sentence: 'What is the homework going to be tonight?',
     },
     {
       meaning: 'Restoranda özel yemek ne olacak?',
+      possibleAnswer: 'The special dish is going to be grilled salmon.',
       sentence: 'What is the special dish going to be at the restaurant?',
     },
     {
       meaning: 'Senin projen ne hakkında olacak?',
+      possibleAnswer: 'My project is going to be about renewable energy.',
       sentence: 'What is your project going to be about?',
     },
     {
       meaning: 'Salatada meyve ne olacak?',
+      possibleAnswer:
+        'In the salad, there is going to be strawberries and blueberries.',
       sentence: 'What fruit is going to be in the salad?',
     },
     {
       meaning: 'Yeni öğretmenin nasıl olacak?',
+      possibleAnswer: 'My new teacher is going to be kind and helpful.',
       sentence: 'What is your new teacher going to be like?',
     },
     {
       meaning: 'Yeni oyun ne hakkında olacak?',
+      possibleAnswer:
+        'The new game is going to be about exploring a fantasy world.',
       sentence: 'What is the new game going to be about?',
     },
     {
       meaning: 'Sınıf oyunu ne hakkında olacak?',
+      possibleAnswer:
+        'The class play is going to be about a group of friends on an adventure.',
       sentence: 'What is the class play going to be about?',
     },
     {
       meaning: 'Gelecek ayki okul etkinliği ne olacak?',
+      possibleAnswer:
+        'The school event next month is going to be a talent show.',
       sentence: 'What is the school event going to be next month?',
     },
     {
       meaning: 'Yeni boya ne renkte olacak?',
+      possibleAnswer: 'The new paint is going to be green.',
       sentence: 'What color is the new paint going to be?',
     },
     {
       meaning: 'Cadılar Bayramı için kostümün ne olacak?',
+      possibleAnswer: 'For Halloween, my costume is going to be a witch.',
       sentence: 'What is your costume going to be for Halloween?',
     },
     {
       meaning: 'Bilim deneyi ne hakkında olacak?',
+      possibleAnswer:
+        'The science experiment is going to be about chemical reactions.',
       sentence: 'What is the science experiment going to be about?',
     },
     {
       meaning: 'Çorbada sebze ne olacak?',
+      possibleAnswer: 'In the soup, there is going to be carrots and potatoes.',
       sentence: 'What vegetable is going to be in the soup?',
     },
     {
       meaning: 'Proje içindeki rolün ne olacak?',
+      possibleAnswer: 'My role in the project is going to be the presenter.',
       sentence: 'What is your role going to be in the project?',
     },
     {
       meaning: 'Akşam yemeğinde tatlı ne olacak?',
+      possibleAnswer:
+        'The dessert at the dinner is going to be chocolate cake.',
       sentence: 'What dessert is going to be at the dinner?',
     },
     {
       meaning: 'Okul panayırı için tema ne olacak?',
+      possibleAnswer: 'The theme for the school fair is going to be carnival.',
       sentence: 'What is the theme going to be for the school fair?',
     },
     {
       meaning: 'Arkadaşın heyecanlanacağı hediye ne olacak?',
+      possibleAnswer:
+        'My friend is going to be excited about a new video game.',
       sentence: 'What gift is your friend going to be excited about?',
     },
     {
       meaning: 'En sevdiğin çizgi film ne hakkında olacak?',
+      possibleAnswer: 'My favorite cartoon is going to be about superheroes.',
       sentence: 'What is your favorite cartoon going to be about?',
     },
     {
       meaning: 'Sınıf için dekorasyon ne olacak?',
+      possibleAnswer:
+        'The decoration for the classroom is going to be winter-themed.',
       sentence: 'What is the decoration going to be for the classroom?',
     },
     {
       meaning: 'Senin yeni ceketinin rengi ne olacak?',
+      possibleAnswer: 'My new coat is going to be black.',
       sentence: 'What color is your new coat going to be?',
     },
     {
       meaning: 'Senin matematik problemi ne hakkında olacak?',
+      possibleAnswer: 'My math problem is going to be about algebra.',
       sentence: 'What is your math problem going to be about?',
     },
     {
       meaning: 'Senin en sevdiğin video ne hakkında olacak?',
+      possibleAnswer:
+        'My favorite video is going to be about space exploration.',
       sentence: 'What is your favorite video going to be about?',
     },
     {
       meaning: 'Sınıftaki yeni kural ne olacak?',
+      possibleAnswer:
+        'The new rule in class is going to be no phones during lessons.',
       sentence: 'What is the new rule going to be in class?',
     },
     {
       meaning: 'En sevdiğin şarkı ne hakkında olacak?',
+      possibleAnswer:
+        'My favorite song is going to be about love and friendship.',
       sentence: 'What is your favorite song going to be about?',
     },
     {
       meaning: 'Senin en sevdiğin oyuncak hangi olacak?',
+      possibleAnswer: 'My favorite toy is going to be a remote-controlled car.',
       sentence: 'What  toy is going to be your favorite?',
     },
     {
       meaning: 'Bu yıl okul oyunu ne olacak?',
+      possibleAnswer:
+        'The school play this year is going to be ""Alice in Wonderland.""',
       sentence: 'What is the school play going to be this year?',
     },
     {
       meaning: 'Pastanın aroması ne olacak?',
+      possibleAnswer: 'My cake is going to be chocolate-flavored.',
       sentence: 'What flavor is your cake going to be?',
     },
     {
       meaning: 'Yarınki grup etkinliği ne olacak?',
+      possibleAnswer:
+        'The group activity tomorrow is going to be a team-building exercise.',
       sentence: 'What is the group activity going to be tomorrow?',
     },
     {
       meaning: 'Senin yeni yavru kedine ne olacak?',
+      possibleAnswer: 'My new kitten is going to be a tabby cat.',
       sentence: 'What is your new kitten going to be?',
     },
     {
       meaning: 'Senin okuyacağın kitabın adı ne olacak?',
+      possibleAnswer:
+        'The name of the book I am going to be reading is ""The Great Gatsby.""',
       sentence: 'What is the name of the book you are going to be reading?',
     },
     {
       meaning: 'Senin çizeceğin çizgi film karakterini ne olacak?',
+      possibleAnswer: 'I am going to be drawing Mickey Mouse.',
       sentence: 'What cartoon character are you going to be drawing?',
     },
     {
       meaning: 'Senin Bu geceki öykün ne olacak?',
+      possibleAnswer:
+        'My story tonight is going to be about a magical journey.',
       sentence: 'What is your story going to be tonight?',
     },
     {
       meaning: 'Konserde hangi şarkı çalınacak?',
+      possibleAnswer:
+        'The song that is going to be played at the concert is ""Imagine"" by John Lennon.',
       sentence: 'What song is going to be played at the concert?',
     },
     {
       meaning: 'Senin bilim modelin ne olacak?',
+      possibleAnswer: 'My science model is going to be of the solar system.',
       sentence: 'What is your science model going to be of?',
     },
     {
       meaning: 'Senin balonun ne şekilde olacak?',
+      possibleAnswer: 'My balloon is going to be heart-shaped.',
       sentence: 'What shape is your balloon going to be?',
     },
     {
       meaning: 'Sınıf tartışması ne hakkında olacak?',
+      possibleAnswer:
+        'The class discussion is going to be about climate change.',
       sentence: 'What is the class discussion going to be about?',
     },
     {
       meaning: 'Senin partinin teması ne olacak?',
+      possibleAnswer: 'The theme of my party is going to be a beach party.',
       sentence: 'What theme is your party going to be?',
     },
     {
       meaning: 'Senin tatilin nasıl olacak?',
+      possibleAnswer: 'My holiday is going to be relaxing and fun.',
       sentence: 'What is your holiday going to be like?',
     },
     {
       meaning: 'Oyun için sen ne karakteri  olacak?',
+      possibleAnswer: 'For the play, I am going to be the main character.',
       sentence: 'What character are you going to be for the play?',
     },
     {
       meaning: 'Gezimiz için hava nasıl olacak?',
+      possibleAnswer: 'The weather for our trip is going to be sunny and warm.',
       sentence: 'What is the weather going to be like for our trip?',
     },
     {
       meaning: 'Senin çözeceğin bulmaca ne olacak?',
+      possibleAnswer: 'I am going to be doing a 1000-piece puzzle.',
       sentence: 'What puzzle are you going to be doing?',
     },
     {
       meaning: 'Senin dans rutinin ne olacak?',
+      possibleAnswer: 'My dance routine is going to be energetic and fun.',
       sentence: 'What is your dance routine going to be like?',
     },
     {
       meaning: 'Senin yeni ayakkabıların ne renk olacak?',
+      possibleAnswer: 'My new shoes are going to be white.',
       sentence: 'What color are your new shoes going to be?',
     },
     {
       meaning: 'Senin sunumun ne hakkında olacak?',
+      possibleAnswer: 'My presentation is going to be on renewable energy.',
       sentence: 'What is your presentation going to be on?',
     },
     {
       meaning: 'Bir sonraki sanat projesinin teması ne olacak?',
+      possibleAnswer: 'The theme of my next art project is nature.',
       sentence: 'What is the theme of your next art project?',
     },
     {
       meaning: 'Senin en sevdiğin TV şovu ne hakkında olacak?',
+      possibleAnswer:
+        'My favorite TV show is going to be about detectives solving mysteries.',
       sentence: 'What is your favorite TV show going to be about?',
     },
     {
       meaning: 'Senin öğle yemeğin ne olacak?',
+      possibleAnswer: 'My lunch is going to be a turkey sandwich and an apple.',
       sentence: 'What is your lunch going to be?',
     },
     {
       meaning: 'Senin yeni masal kitabın ne hakkında olacak?',
+      possibleAnswer:
+        'My new storybook is going to be about a dragon and a princess.',
       sentence: 'What is your new storybook going to be about?',
     },
     {
       meaning: 'Senin annen için hediye ne olacak?',
+      possibleAnswer: 'The gift for my mother is going to be a necklace.',
       sentence: 'What gift is going to be for your mother?',
     },
     {
       meaning: 'Senin en sevdiğin oyun ne olacak?',
+      possibleAnswer:
+        'My favorite game is going to be action-packed and thrilling.',
       sentence: 'What is your favorite game going to be like?',
     },
     {
       meaning: 'Bu dönem sınıf projesi ne olacak?',
+      possibleAnswer:
+        'The class project this semester is going to be a science fair.',
       sentence: 'What is the class project going to be this semester?',
     },
     {
       meaning: 'Senin yeni mayonun rengi ne olacak?',
+      possibleAnswer: 'My new swimsuit is going to be blue.',
       sentence: 'What color is your new swimsuit going to be?',
     },
   ],
   'A1-W': [
     {
       meaning: 'Senin öğle yemeğinde ne olacak?',
-      sentence: 'What will be your lunch?',
+      possibleAnswer:
+        'My lunch will be a turkey sandwich with a side of salad.',
+      sentence: 'What will your lunch be?',
     },
     {
       meaning: 'Yarın senin gömleğinin rengi ne olacak?',
-      sentence: 'What will be the color of your shirt tomorrow?',
+      possibleAnswer: 'The color of my shirt tomorrow will be blue.',
+      sentence: 'What will the color of your shirt be tomorrow?',
     },
     {
       meaning: 'Senin sonraki dersin ne olacak?',
-      sentence: 'What will be your next class?',
+      possibleAnswer: 'My next class will be Mathematics.',
+      sentence: 'What will your next class be?',
     },
     {
       meaning: 'Senin bu akşam içeceğin ne olacak?',
-      sentence: 'What will be your drink tonight?',
+      possibleAnswer: 'My drink tonight will be a glass of red wine.',
+      sentence: 'What will your drink be tonight?',
     },
     {
       meaning: 'Bu akşamki film ne olacak?',
-      sentence: 'What will be the movie tonight?',
+      possibleAnswer: 'The movie tonight will be ""Inception.""',
+      sentence: 'What will the movie be tonight?',
     },
     {
       meaning: 'Senin büyüdüğünde işin ne olacak?',
-      sentence: 'What will be your job when you grow up?',
+      possibleAnswer: 'My job when I grow up will be a doctor.',
+      sentence: 'What will your job be when you grow up?',
     },
     {
       meaning: 'Senin evcil hayvanının adı ne olacak?',
-      sentence: "What will be your pet's name?",
+      possibleAnswer: "My pet's name will be Bella.",
+      sentence: "What will your pet's name be?",
     },
     {
       meaning: 'Senin kahvaltın ne olacak?',
-      sentence: 'What will be your breakfast?',
+      possibleAnswer: 'My breakfast will be pancakes with maple syrup.',
+      sentence: 'What will your breakfast be?',
     },
     {
       meaning: 'Senin sonraki oyunun ne olacak?',
-      sentence: 'What will be your next game?',
+      possibleAnswer: 'My next game will be chess.',
+      sentence: 'What will your next game be?',
     },
     {
       meaning: 'Senin atıştırmalığın ne olacak?',
-      sentence: 'What will be your snack?',
+      possibleAnswer: 'My snack will be an apple and peanut butter.',
+      sentence: 'What will your snack be?',
     },
     {
       meaning: 'Bu hafta sonu hava nasıl olacak?',
-      sentence: 'What will be the weather this weekend?',
+      possibleAnswer: 'The weather this weekend will be sunny and warm.',
+      sentence: 'What will the weather be this weekend?',
     },
     {
       meaning: 'Senin sonraki tatilin ne olacak?',
-      sentence: 'What will be your next holiday?',
+      possibleAnswer: 'My next holiday will be Christmas.',
+      sentence: 'What will your next holiday be?',
     },
     {
       meaning: 'Bizim sonraki dersimizin konusu ne olacak?',
-      sentence: 'What will be the subject of our next lesson?',
+      possibleAnswer: 'The subject of our next lesson will be world history.',
+      sentence: 'What will the subject of our next lesson be?',
     },
     {
       meaning: 'Senin sonraki kitabın ne olacak?',
-      sentence: 'What will be your next book?',
+      possibleAnswer: 'My next book will be ""The Great Gatsby.""',
+      sentence: 'What will your next book be?',
     },
     {
       meaning: 'Senin ev ödevin ne olacak?',
-      sentence: 'What will be your homework?',
+      possibleAnswer: 'My homework will be a science project on plants.',
+      sentence: 'What will your homework be?',
     },
     {
       meaning: 'Senin sonraki oyuncağın ne olacak?',
-      sentence: 'What will be your next toy?',
+      possibleAnswer: 'My next toy will be a remote-controlled car.',
+      sentence: 'What will your next toy be?',
     },
     {
       meaning: 'Senin sonraki sporun ne olacak?',
-      sentence: 'What will be your next sport?',
+      possibleAnswer: 'My next sport will be basketball.',
+      sentence: 'What will your next sport be?',
     },
     {
       meaning: 'Partinin saati ne olacak?',
-      sentence: 'What will be the time of the party?',
+      possibleAnswer: 'The time of the party will be 7 PM.',
+      sentence: 'What will the time of the party be?',
     },
     {
       meaning: 'Sonraki şarkın ne olacak?',
-      sentence: 'What will be your next song?',
+      possibleAnswer: 'My next song will be ""Bohemian Rhapsody"" by Queen.',
+      sentence: 'What will your next song be?',
     },
     {
       meaning: 'Senin okulunun adı ne olacak?',
-      sentence: 'What will be the name of your school?',
+      possibleAnswer: 'The name of my school will be Green Valley High.',
+      sentence: 'What will the name of your school be?',
     },
     {
       meaning: 'Gelecek yıl senin öğretmeninin adı ne olacak?',
-      sentence: "What will be your teacher's name next year?",
+      possibleAnswer: "My teacher's name next year will be Mr. Thompson.",
+      sentence: "What will your teacher's name be next year?",
     },
     {
       meaning: 'Senin sonraki TV şovun ne olacak?',
-      sentence: 'What will be your next TV show?',
+      possibleAnswer: 'My next TV show will be ""Stranger Things.""',
+      sentence: 'What will your next TV show be?',
     },
     {
       meaning: 'Senin bu gece tatlın ne olacak?',
-      sentence: 'What will be your dessert tonight?',
+      possibleAnswer: 'My dessert tonight will be chocolate cake.',
+      sentence: 'What will your dessert be tonight?',
     },
-    {meaning: 'Ana yemek ne olacak?', sentence: 'What will be the main dish?'},
+    {
+      meaning: 'Ana yemek ne olacak?',
+      possibleAnswer: 'The main dish will be grilled salmon.',
+      sentence: 'What will the main dish be?',
+    },
     {
       meaning: 'Senin yeni bisikletinin rengi ne olacak?',
-      sentence: 'What will be the color of your new bike?',
+      possibleAnswer: 'The color of my new bike will be red.',
+      sentence: 'What will the color of your new bike be?',
     },
     {
       meaning: 'Senin yeni odan nasıl olacak?',
-      sentence: 'What will be your new room like?',
+      possibleAnswer: 'My new room will be spacious and bright.',
+      sentence: 'What will your new room be like?',
     },
     {
       meaning: 'Gelecek yıl senin favori rengin ne olacak?',
-      sentence: 'What will be your favorite color next year?',
+      possibleAnswer: 'My favorite color next year will be purple.',
+      sentence: 'What will your favorite color be next year?',
     },
     {
       meaning: 'Yarının tarih ne olacak?',
-      sentence: 'What will be the date tomorrow?',
+      possibleAnswer: 'The date tomorrow will be July 26, 2024.',
+      sentence: 'What will the date be tomorrow?',
     },
     {
       meaning: 'Senin sonraki dansın ne olacak?',
-      sentence: 'What will be your next dance?',
+      possibleAnswer: 'My next dance will be the waltz.',
+      sentence: 'What will your next dance be?',
     },
     {
       meaning: 'Okuldaki yeni kural ne olacak?',
-      sentence: 'What will be the new rule at school?',
+      possibleAnswer:
+        'The new rule at school will be no cell phones during class.',
+      sentence: 'What will the new rule at school be?',
     },
     {
       meaning: 'Senin sonraki çizimin ne olacak?',
-      sentence: 'What will be your next drawing?',
+      possibleAnswer: 'My next drawing will be a landscape.',
+      sentence: 'What will your next drawing be?',
     },
     {
       meaning: 'Senin sandviçinde ne olacak?',
+      possibleAnswer: 'In my sandwich will be ham, cheese, and lettuce.',
       sentence: 'What will be in your sandwich?',
     },
     {
       meaning: 'Senin sonraki arkadaşının adı ne olacak?',
-      sentence: 'What will be the name of your next friend?',
+      possibleAnswer: 'The name of my next friend will be Alex.',
+      sentence: 'What will the name of your next friend be?',
     },
     {
       meaning: 'Senin sonraki sanat projen ne olacak?',
-      sentence: 'What will be your next art project?',
+      possibleAnswer: 'My next art project will be a painting.',
+      sentence: 'What will your next art project be?',
     },
     {
       meaning: 'Senin favori hayvanın ne olacak?',
-      sentence: 'What will be your favorite animal?',
+      possibleAnswer: 'My favorite animal will be a dolphin.',
+      sentence: 'What will your favorite animal be?',
     },
     {
       meaning: 'Senin sonraki ziyaretin ne olacak?',
-      sentence: 'What will be your next visit?',
+      possibleAnswer: 'My next visit will be to the zoo.',
+      sentence: 'What will your next visit be?',
     },
     {
       meaning: 'Bu gece senin uyku zamanın ne olacak?',
-      sentence: 'What will be your bedtime tonight?',
+      possibleAnswer: 'My bedtime tonight will be 10 PM.',
+      sentence: 'What will your bedtime be tonight?',
     },
     {
       meaning: 'Senin dondurmanın aroması ne olacak?',
-      sentence: 'What will be the flavor of your ice cream?',
+      possibleAnswer: 'The flavor of my ice cream will be vanilla.',
+      sentence: 'What will the flavor of your ice cream be?',
     },
     {
       meaning: 'Senin sonraki okul gezin ne olacak?',
-      sentence: 'What will be your next field trip?',
+      possibleAnswer: 'My next field trip will be to the science museum.',
+      sentence: 'What will your next field trip be?',
     },
     {
       meaning: 'Senin sonraki doğum günü hediyen ne olacak?',
-      sentence: 'What will be your next birthday present?',
+      possibleAnswer: 'My next birthday present will be a smartwatch.',
+      sentence: 'What will your next birthday present be?',
     },
     {
       meaning: 'Senin parti için kostümün ne olacak?',
-      sentence: 'What will be your costume for the party?',
+      possibleAnswer: 'My costume for the party will be a superhero.',
+      sentence: 'What will your costume for the party be?',
     },
     {
       meaning: 'Senin yeni ayakkabılarının rengi ne olacak?',
-      sentence: 'What will be the color of your new shoes?',
+      possibleAnswer: 'The color of my new shoes will be black.',
+      sentence: 'What will the color of your new shoes be?',
     },
     {
       meaning: 'Senin oyunda pozisyonun ne olacak?',
-      sentence: 'What will be your position in the game?',
+      possibleAnswer: 'My position in the game will be forward.',
+      sentence: 'What will your position in the game be?',
     },
     {
       meaning: 'Senin sonraki favori filmin ne olacak?',
-      sentence: 'What will be your next favorite movie?',
+      possibleAnswer: 'My next favorite movie will be ""The Lion King.""',
+      sentence: 'What will your next favorite movie be?',
     },
     {
       meaning: 'Senin sonraki hobin ne olacak?',
-      sentence: 'What will be your next hobby?',
+      possibleAnswer: 'My next hobby will be photography.',
+      sentence: 'What will your next hobby be?',
     },
     {
       meaning: 'Senin sonraki öğretmenin adı ne olacak?',
-      sentence: 'What will be the name of your next teacher?',
+      possibleAnswer: 'The name of my next teacher will be Mrs. Brown.',
+      sentence: 'What will the name of your next teacher be?',
     },
     {
       meaning: 'Senin takımının skoru ne olacak?',
-      sentence: "What will be your team's score?",
+      possibleAnswer: "My team's score will be 3-1.",
+      sentence: "What will your team's score be?",
     },
     {
       meaning: 'Senin oyundaki rolün ne olacak?',
-      sentence: 'What will be your role in the play?',
+      possibleAnswer: 'My role in the play will be the lead character.',
+      sentence: 'What will your role in the play be?',
     },
     {
       meaning: 'Senin sonraki bulmacan ne olacak?',
-      sentence: 'What will be your next puzzle?',
+      possibleAnswer: 'My next puzzle will be a 1000-piece jigsaw puzzle.',
+      sentence: 'What will your next puzzle be?',
     },
     {
       meaning: 'Senin gelecek ay favori şarkın ne olacak?',
-      sentence: 'What will be your favorite song next month?',
+      possibleAnswer:
+        'My favorite song next month will be ""Blinding Lights"" by The Weeknd.',
+      sentence: 'What will your favorite song be next month?',
     },
     {
       meaning: 'Yarın hava nasıl olacak?',
-      sentence: 'What will be the weather like tomorrow?',
+      possibleAnswer: 'The weather tomorrow will be partly cloudy.',
+      sentence: 'What will the weather be like tomorrow?',
     },
     {
       meaning: 'Bu gece televizyonda ne olacak?',
+      possibleAnswer:
+        'On TV tonight will be a new episode of my favorite show.',
       sentence: 'What will be on TV tonight?',
     },
     {
       meaning: 'Senin gelecekteki işin ne olacak?',
-      sentence: 'What will be your job in the future?',
+      possibleAnswer: 'My job in the future will be a software developer.',
+      sentence: 'What will your job be in the future?',
     },
     {
       meaning: 'Akşam yemeğinde ana yemek ne olacak?',
-      sentence: 'What will be the main dish for dinner?',
+      possibleAnswer: 'The main dish for dinner will be pasta.',
+      sentence: 'What will the main dish for dinner be?',
     },
     {
       meaning: 'Senin ev ödevin ne olacak?',
-      sentence: 'What will be your homework?',
+      possibleAnswer: 'My homework will be a math assignment.',
+      sentence: 'What will your homework be?',
     },
     {
       meaning: 'Senin sonraki arabanın rengi ne olacak?',
-      sentence: 'What will be the color of your next car?',
+      possibleAnswer: 'The color of my next car will be blue.',
+      sentence: 'What will the color of your next car be?',
     },
     {
       meaning: 'Senin sonraki tatilinin varış yeri neresi olacak?',
-      sentence: 'What will be your next holiday destination?',
+      possibleAnswer: 'My next holiday destination will be Japan.',
+      sentence: 'What will your next holiday destination be?',
     },
     {
       meaning: 'Bizim sonraki dersimizin konusu ne olacak?',
-      sentence: 'What will be the topic of our next class?',
+      possibleAnswer:
+        'The topic of our next class will be environmental science.',
+      sentence: 'What will the topic of our next class be?',
     },
     {
       meaning: 'Senin hafta sonu planlarının neler olacak?',
-      sentence: 'What will be your weekend plans?',
+      possibleAnswer:
+        'My weekend plans will be to go hiking and visit friends.',
+      sentence: 'What will your weekend plans be?',
     },
     {
       meaning: 'Toplantının saati ne olacak?',
-      sentence: 'What will be the time of the meeting?',
+      possibleAnswer: 'The time of the meeting will be 2 PM.',
+      sentence: 'What will the time of the meeting be?',
     },
     {
       meaning: 'Sonraki evcil hayvanının adı ne olacak?',
-      sentence: 'What will be the name of your next pet?',
+      possibleAnswer: 'The name of my next pet will be Max.',
+      sentence: 'What will the name of your next pet be?',
     },
     {
       meaning: 'Senin işteki sonraki projen ne olacak?',
-      sentence: 'What will be your next project at work?',
+      possibleAnswer:
+        'My next project at work will be developing a new marketing strategy.',
+      sentence: 'What will your next project at work be?',
     },
     {
       meaning: 'Senin sonraki büyük alımın ne olacak?',
-      sentence: 'What will be your next major purchase?',
+      possibleAnswer: 'My next major purchase will be a new laptop.',
+      sentence: 'What will your next major purchase be?',
     },
     {
       meaning: 'Senin okuyacağın sonraki kitap ne olacak?',
-      sentence: 'What will be your next book to read?',
+      possibleAnswer: 'My next book to read will be ""1984"" by George Orwell.',
+      sentence: 'What will your next book to read be?',
     },
     {
       meaning: 'Partideki ana etkinlik ne olacak?',
-      sentence: 'What will be the main event at the party?',
+      possibleAnswer: 'The main event at the party will be a karaoke contest.',
+      sentence: 'What will the main event at the party be?',
     },
     {
       meaning: 'Senin Yeni Yıl kararın ne olacak?',
-      sentence: "What will be your New Year's resolution?",
+      possibleAnswer: "My New Year's resolution will be to exercise regularly.",
+      sentence: "What will your New Year's resolution be?",
     },
     {
       meaning: 'Senin sonraki okul etkinliğin ne olacak?',
-      sentence: 'What will be your next school event?',
+      possibleAnswer: 'My next school event will be the science fair.',
+      sentence: 'What will your next school event be?',
     },
     {
       meaning: 'Oyunun skoru ne olacak?',
-      sentence: 'What will be the score of the game?',
+      possibleAnswer: 'The score of the game will be 4-2.',
+      sentence: 'What will the score of the game be?',
     },
     {
       meaning: 'Sonraki saç kesiminin stili ne olacak?',
-      sentence: 'What will be the style of your next haircut?',
+      possibleAnswer: 'The style of my next haircut will be short and layered.',
+      sentence: 'What will the style of your next haircut be?',
     },
     {
       meaning: 'İzleyeceğin sonraki film ne olacak?',
-      sentence: 'What will be the next movie you watch?',
+      possibleAnswer: 'The next movie I watch will be ""Avatar.""',
+      sentence: 'What will the next movie you watch be?',
     },
     {
-      meaning: 'Semin sonraki egzersiz programın ne olacak?',
-      sentence: 'What will be your next exercise routine?',
+      meaning: 'Senin sonraki egzersiz programın ne olacak?',
+      possibleAnswer: 'My next exercise routine will be yoga.',
+      sentence: 'What will your next exercise routine be?',
     },
     {
       meaning: 'Senin gitarla öğreneceğin sonraki şarkı ne olacak?',
-      sentence: 'What will be the next song you learn on guitar?',
+      possibleAnswer:
+        'The next song I learn on guitar will be ""Wonderwall"" by Oasis.',
+      sentence: 'What will the next song you learn on guitar be?',
     },
     {
       meaning: 'Doğum günü pastanızın aroması ne olacak?',
-      sentence: 'What will be the flavor of your birthday cake?',
+      possibleAnswer: 'The flavor of my birthday cake will be chocolate.',
+      sentence: 'What will the flavor of your birthday cake be?',
     },
     {
       meaning: 'Müze sergisinin başlıca cazibe noktaları neler olacak?',
-      sentence: 'What will be the main attractions of the museum exhibit?',
+      possibleAnswer:
+        'The main attractions of the museum exhibit will be the dinosaur fossils and ancient artifacts.',
+      sentence: 'What will the main attractions of the museum exhibit be?',
     },
     {
       meaning: 'Sonraki telefon modelin ne olacak?',
-      sentence: 'What will be your next phone model?',
+      possibleAnswer: 'My next phone model will be an iPhone.',
+      sentence: 'What will your next phone model be?',
     },
     {
       meaning: 'Senin uçuşunun süresi ne olacak?',
-      sentence: 'What will be the duration of your flight?',
+      possibleAnswer: 'The duration of my flight will be 6 hours.',
+      sentence: 'What will the duration of your flight be?',
     },
     {
       meaning: 'Sonraki öğreneceğin dil ne olacak?',
-      sentence: 'What will be your next language to learn?',
+      possibleAnswer: 'My next language to learn will be Spanish.',
+      sentence: 'What will your next language to learn be?',
     },
     {
       meaning: 'Sonraki parti teması ne olacak?',
-      sentence: 'What will be the theme of your next party?',
+      possibleAnswer: 'The theme of my next party will be a masquerade.',
+      sentence: 'What will the theme of your next party be?',
     },
     {
       meaning: 'Seçimin sonucu ne olacak?',
-      sentence: 'What will be the outcome of the election?',
+      possibleAnswer:
+        'The outcome of the election will be announced next week.',
+      sentence: 'What will the outcome of the election be?',
     },
     {
       meaning: 'Konferansın ana konusu ne olacak?',
-      sentence: 'What will be the main topic of the conference?',
+      possibleAnswer:
+        'The main topic of the conference will be technological innovations.',
+      sentence: 'What will the main topic of the conference be?',
     },
     {
       meaning: 'Senin sonraki Açıkhava maceran ne olacak?',
-      sentence: 'What will be your next outdoor adventure?',
+      possibleAnswer: 'My next outdoor adventure will be camping.',
+      sentence: 'What will your next outdoor adventure be?',
     },
     {
       meaning: 'Senin satın alacağın sonraki hediye ne olacak?',
-      sentence: 'What will be the next gift you buy?',
+      possibleAnswer: 'The next gift I buy will be a watch.',
+      sentence: 'What will the next gift you buy be?',
     },
     {
       meaning: 'Düğün için giyeceğin kıyafet ne olacak?',
-      sentence: 'What will be your outfit for the wedding?',
+      possibleAnswer: 'My outfit for the wedding will be a formal suit.',
+      sentence: 'What will your outfit for the wedding be?',
     },
     {
       meaning: 'Bu testin sonucu ne olacak?',
-      sentence: 'What will be the result of this test?',
+      possibleAnswer: 'The result of this test will be posted online.',
+      sentence: 'What will the result of this test be?',
     },
     {
       meaning: 'Senin sonraki video oyunun ne olacak?',
-      sentence: 'What will be your next video game?',
+      possibleAnswer: 'My next video game will be ""The Legend of Zelda.""',
+      sentence: 'What will your next video game be?',
     },
     {
       meaning: 'Senin yarınki öğle yemeğinin içeriği ne olacak?',
-      sentence: 'What will be the contents of your lunch tomorrow?',
+      possibleAnswer:
+        'The contents of my lunch tomorrow will be a chicken wrap, a banana, and a bottle of water.',
+      sentence: 'What will the contents of your lunch tomorrow be?',
     },
     {
       meaning: 'Sonraki sanat eserinin ana konusu ne olacak?',
-      sentence: 'What will be the main subject of your next art piece?',
+      possibleAnswer: 'The main subject of my next art piece will be nature.',
+      sentence: 'What will the main subject of your next art piece be?',
     },
     {
       meaning: 'Sonraki sahne performansın ne olacak?',
-      sentence: 'What will be your next stage performance?',
+      possibleAnswer: 'My next stage performance will be a musical.',
+      sentence: 'What will your next stage performance be?',
     },
     {
       meaning: 'Sonraki toplantımızın ana odak noktası ne olacak?',
-      sentence: 'What will be the primary focus of our next meeting?',
+      possibleAnswer:
+        'The primary focus of our next meeting will be the quarterly financial report.',
+      sentence: 'What will the primary focus of our next meeting be?',
     },
     {
       meaning: 'Sonraki kitap kulübünün adı ne olacak?',
-      sentence: 'What will be the name of the next book club?',
+      possibleAnswer:
+        'The name of the next book club will be ""Readers\' Haven.""',
+      sentence: 'What will the name of the next book club be?',
     },
     {
       meaning: 'Senin sonraki el işi projen ne olacak?',
-      sentence: 'What will be your next craft project?',
+      possibleAnswer: 'My next craft project will be making a scrapbook.',
+      sentence: 'What will your next craft project be?',
     },
     {
       meaning: "Şükran Günü'ndeki ana yemek ne olacak?",
-      sentence: 'What will be the main dish at Thanksgiving?',
+      possibleAnswer: 'The main dish at Thanksgiving will be turkey.',
+      sentence: 'What will the main dish at Thanksgiving be?',
     },
     {
       meaning: 'Senin sonraki okul gezinin varış yeri neresi olacak?',
-      sentence: 'What will be the destination of your next school trip?',
+      possibleAnswer:
+        'The destination of my next school trip will be the local zoo.',
+      sentence: 'What will the destination of your next school trip be?',
     },
     {
       meaning: 'Senin gelecek haftanın programın ne olacak?',
-      sentence: 'What will be your schedule next week?',
+      possibleAnswer:
+        'My schedule next week will include attending classes, working on a project, and going to the gym.',
+      sentence: 'What will your schedule be next week?',
     },
     {
       meaning: 'Senin satın alacağın sonraki teknolojik cihaz ne olacak?',
-      sentence: 'What will be the next tech gadget you buy?',
+      possibleAnswer: 'The next tech gadget I buy will be a smartwatch.',
+      sentence: 'What will the next tech gadget you buy be?',
     },
     {
       meaning: 'Senin sonraki araştırma makalenin teması ne olacak?',
-      sentence: 'What will be the theme of your next research paper?',
+      possibleAnswer:
+        'The theme of my next research paper will be climate change.',
+      sentence: 'What will the theme of your next research paper be?',
     },
     {
       meaning: 'Senin sonraki fitness meydan okumanın ana hedefi ne olacak?',
-      sentence: 'What will be the main goal of your next fitness challenge?',
+      possibleAnswer:
+        'The main goal of my next fitness challenge will be to run a 5K.',
+      sentence: 'What will the main goal of your next fitness challenge be?',
     },
     {
       meaning: 'Senin sonraki indireceğin uygulama ne olacak?',
-      sentence: 'What will be the next app you download?',
+      possibleAnswer: 'The next app I download will be a meditation app.',
+      sentence: 'What will the next app you download be?',
     },
     {
       meaning: 'Senin ziyaret edeceğin sonraki ülke neresi olacak?',
-      sentence: 'What will be the next country you visit?',
+      possibleAnswer: 'The next country I visit will be Italy.',
+      sentence: 'What will the next country you visit be?',
     },
     {
       meaning: 'Bu yıl şirketin ana hedefi ne olacak? ',
-      sentence: 'What will be the main resolution for the company this year?',
+      possibleAnswer:
+        'The main resolution for the company this year will be to improve customer satisfaction.',
+      sentence: 'What will the main resolution for the company this year be?',
+    },
+  ],
+  'A2-G': [
+    {
+      meaning: 'Sen okuldan sonra ne yapacaksın?',
+      possibleAnswer:
+        'After school, I am going to do my homework and then play soccer.',
+      sentence: 'What are you going to do after school?',
+    },
+    {
+      meaning: 'O kahvaltıda ne yiyecek?',
+      possibleAnswer: 'She is going to eat cereal and fruit for breakfast.',
+      sentence: 'What is she going to eat for breakfast?',
+    },
+    {
+      meaning: 'Onlar mola sırasında ne oynayacaklar?',
+      possibleAnswer: 'They are going to play tag at recess.',
+      sentence: 'What are they going to play at recess?',
+    },
+    {
+      meaning: 'O bu akşam televizyonda ne izleyecek?',
+      possibleAnswer: 'He is going to watch a documentary on TV tonight.',
+      sentence: 'What is he going to watch on TV tonight?',
+    },
+    {
+      meaning: 'Biz İngilizce dersinde ne çalışacağız?',
+      possibleAnswer:
+        "In English class, we are going to study Shakespeare's plays.",
+      sentence: 'What are we going to study in English class?',
+    },
+    {
+      meaning: 'Senin baban evde neyi tamir edecek?',
+      possibleAnswer:
+        'My father is going to fix the leaking faucet in the house.',
+      sentence: 'What is your father going to fix in the house?',
+    },
+    {
+      meaning: 'Senin Öğretmenin bugün neyi açıklayacak?',
+      possibleAnswer:
+        'My teacher is going to explain the new math concepts today.',
+      sentence: 'What is your teacher going to explain today?',
+    },
+    {
+      meaning: 'Sen mağazadan ne alacaksın?',
+      possibleAnswer: 'I am going to buy some groceries at the store.',
+      sentence: 'What are you going to buy at the store?',
+    },
+    {
+      meaning: 'Sen akşam yemeği için ne yapacaksın? ',
+      possibleAnswer: 'I am going to make spaghetti for dinner.',
+      sentence: 'What are you going to make for dinner?',
+    },
+    {
+      meaning: 'Ebeveynlerin Pazar günü ne pişirecek?',
+      possibleAnswer: 'My parents are going to cook a roast chicken on Sunday.',
+      sentence: 'What are your parents going to cook on Sunday?',
+    },
+    {
+      meaning: 'Köpeğin bu öğleden sonra ne yapacak?',
+      possibleAnswer: 'My dog is going to play in the yard this afternoon.',
+      sentence: 'What is your dog going to do this afternoon?',
+    },
+    {
+      meaning: 'Biz toplantıda neyi tartışacağız?',
+      possibleAnswer:
+        'At the meeting, we are going to discuss the new project.',
+      sentence: 'What are we going to discuss at the meeting?',
+    },
+    {
+      meaning: 'Kedi ne ile oynayacak?',
+      possibleAnswer: 'The cat is going to play with a ball of yarn.',
+      sentence: 'What is the cat going to play with?',
+    },
+    {
+      meaning: 'Sen resim dersinde ne çizeceksin?',
+      possibleAnswer: 'I am going to draw a landscape in art class.',
+      sentence: 'What are you going to draw in art class?',
+    },
+    {
+      meaning: 'Senin kuzenin pikniğe ne getirecek?',
+      possibleAnswer: 'My cousin is going to bring sandwiches to the picnic.',
+      sentence: 'What is your cousin going to bring to the picnic?',
+    },
+    {
+      meaning: 'Sen bu hafta sonu ne yapacaksın?',
+      possibleAnswer: 'This weekend, I am going to visit my grandparents.',
+      sentence: 'What are you going to do this weekend?',
+    },
+    {
+      meaning: 'Sen tatlı için ne seçeceksin?',
+      possibleAnswer: 'I am going to choose ice cream for dessert.',
+      sentence: 'What are you going to choose for dessert?',
+    },
+    {
+      meaning: 'Senin komşun bahçeye ne ekecek?',
+      possibleAnswer: 'My neighbor is going to plant tomatoes in the garden.',
+      sentence: 'What is your neighbor going to plant in the garden?',
+    },
+    {
+      meaning: 'Sen günlüğüne ne yazacaksın?',
+      possibleAnswer: 'I am going to write about my day in my journal.',
+      sentence: 'What are you going to write in your journal?',
+    },
+    {
+      meaning: 'Sen konserde sen ne söyleyeceksin?',
+      possibleAnswer: 'I am going to sing a pop song at the concert.',
+      sentence: 'What are you going to sing at the concert?',
+    },
+    {
+      meaning: 'Senin annen senin notların hakkında ne diyecek?',
+      possibleAnswer: 'My mother is going to be proud of my grades.',
+      sentence: 'What is your mother going to say about your grades?',
+    },
+    {
+      meaning: 'Çocuklar yarın ne oynayacaklar?',
+      possibleAnswer: 'The children are going to play hide and seek tomorrow.',
+      sentence: 'What are the children going to play tomorrow?',
+    },
+    {
+      meaning: 'Sen eski oyuncaklarınla ne yapacaksın?',
+      possibleAnswer: 'I am going to donate my old toys.',
+      sentence: 'What are you going to do with your old toys?',
+    },
+    {
+      meaning: 'Sen yaz tatili boyunca ne yapacaksın?',
+      possibleAnswer:
+        'During the summer break, I am going to travel and relax.',
+      sentence: 'What are you going to do during the summer break?',
+    },
+    {
+      meaning: 'Senin teyzen/halan Şükran Günü için ne getirecek?',
+      possibleAnswer:
+        'My aunt is going to bring a pumpkin pie for Thanksgiving.',
+      sentence: 'What is your aunt going to bring for Thanksgiving?',
+    },
+    {
+      meaning: 'Sen arkadaşına ne söyleyeceksin?',
+      possibleAnswer: 'I am going to say hello to my friend.',
+      sentence: 'What are you going to say to your friend?',
+    },
+    {
+      meaning: 'Sen müzik dersinde ne pratiği yapacaksın?',
+      possibleAnswer:
+        'In music class, I am going to practice playing the piano.',
+      sentence: 'What are you going to practice in music class?',
+    },
+    {
+      meaning: 'Sen İnternette ne arayacaksın?',
+      possibleAnswer: 'I am going to search for information on the internet.',
+      sentence: 'What are you going to search on the internet?',
+    },
+    {
+      meaning: 'Senin baban garajda neyi tamir edecek?',
+      possibleAnswer: 'My dad is going to repair the lawnmower in the garage.',
+      sentence: 'What is your dad going to repair in the garage?',
+    },
+    {
+      meaning: 'Sen dans dersinde ne öğreneceksin?',
+      possibleAnswer: 'In dance class, I am going to learn a new routine.',
+      sentence: 'What are you going to learn in dance class?',
+    },
+    {
+      meaning: 'Sen annenin doğum günü için ne yapacaksın?',
+      possibleAnswer: "For my mom's birthday, I am going to bake a cake.",
+      sentence: "What are you going to do for your mom's birthday?",
+    },
+    {
+      meaning: 'Senin en iyi arkadaşın restoranda ne sipariş edecek?',
+      possibleAnswer:
+        'My best friend is going to order a pizza at the restaurant.',
+      sentence: 'What is your best friend going to order at the restaurant?',
+    },
+    {
+      meaning: 'Sen sinemada ne izleyeceksin?',
+      possibleAnswer: 'I am going to watch an action movie at the cinema.',
+      sentence: 'What are you going to watch at the cinema?',
+    },
+    {
+      meaning: 'Senin öğretmenin sınıfa ne getirecek?',
+      possibleAnswer: 'My teacher is going to bring new textbooks to class.',
+      sentence: 'What is your teacher going to bring to class?',
+    },
+    {
+      meaning: 'Sen Cadılar Bayramı için ne yapacaksın?',
+      possibleAnswer: 'For Halloween, I am going to dress up as a vampire.',
+      sentence: 'What are you going to do for Halloween?',
+    },
+    {
+      meaning: 'Okul arasında sen ne oynayacaksın?',
+      possibleAnswer:
+        'During the school break, I am going to play video games.',
+      sentence: 'What are you going to play during the school break?',
+    },
+    {
+      meaning: 'Akşam yemeği için senin baban ne pişirecek?',
+      possibleAnswer: 'My father is going to cook steak for dinner.',
+      sentence: 'What is your father going to cook for dinner?',
+    },
+    {
+      meaning: 'Okul panayırına sen ne getireceksin?',
+      possibleAnswer:
+        'I am going to bring homemade cookies to the school fair.',
+      sentence: 'What are you going to bring to the school fair?',
+    },
+    {
+      meaning: 'Mezuniyetten sonra senin arkadaşın ne yapacak?',
+      possibleAnswer: 'My friend is going to travel after graduation.',
+      sentence: 'What is your friend going to do after graduation?',
+    },
+    {
+      meaning: 'Sen Sonraki sanat projesi için ne yapacaksın?',
+      possibleAnswer:
+        'For my next art project, I am going to create a sculpture.',
+      sentence: 'What are you going to do for your next art project?',
+    },
+    {
+      meaning: 'Senin annen bu akşam televizyonda ne izleyecek?',
+      possibleAnswer: 'My mom is going to watch a drama on TV tonight.',
+      sentence: 'What is your mom going to watch on TV tonight?',
+    },
+    {
+      meaning: 'Sen ve arkadaşların bu cuma ne yapacaksınız?',
+      possibleAnswer: 'This Friday, I am going to go bowling with my friends.',
+      sentence: 'What are you going to do with your friends this Friday?',
+    },
+    {
+      meaning: 'Senin öğretmenin fen dersinde ne gösterecek?',
+      possibleAnswer:
+        'My teacher is going to show a chemistry experiment in science class.',
+      sentence: 'What is your teacher going to show in science class?',
+    },
+    {
+      meaning: 'Sen bir sonraki tatilinde ne yapacaksın?',
+      possibleAnswer: 'On my next holiday, I am going to visit the beach.',
+      sentence: 'What are you going to do on your next holiday?',
+    },
+    {
+      meaning: 'Senin kuzenin yeni daire için ne satın alacak?',
+      possibleAnswer:
+        'My cousin is going to buy furniture for his new apartment.',
+      sentence: 'What is your cousin going to buy for his new apartment?',
+    },
+    {
+      meaning: 'Sen bilgisayarda ne oynayacaksın?',
+      possibleAnswer: 'I am going to play a strategy game on the computer.',
+      sentence: 'What are you going to play on the computer?',
+    },
+    {
+      meaning: 'Senin komşun arabasında neyi tamir edecek?',
+      possibleAnswer: 'My neighbor is going to fix the brakes on his car.',
+      sentence: 'What is your neighbor going to fix on his car?',
+    },
+    {
+      meaning: 'Sen egzersiz için ne yapacaksın?',
+      possibleAnswer: 'For exercise, I am going to go jogging.',
+      sentence: 'What are you going to do for exercise?',
+    },
+    {
+      meaning: 'Senin kardeşin kolejde neyi çalışacak?',
+      possibleAnswer: 'My brother is going to study engineering in college.',
+      sentence: 'What is your brother going to study in college?',
+    },
+    {
+      meaning: 'Sen senin yeni odan için ne alacaksın?',
+      possibleAnswer: 'For my new room, I am going to buy a new bed.',
+      sentence: 'What are you going to buy for your new room?',
+    },
+    {
+      meaning: 'Senin öğretmenin sınıfa ne okuyacak?',
+      possibleAnswer: 'My teacher is going to read a story to the class.',
+      sentence: 'What is your teacher going to read to the class?',
+    },
+    {
+      meaning: 'Sen spor dersinde ne yapacaksın?',
+      possibleAnswer: 'In the gym class, I am going to play basketball.',
+      sentence: 'What are you going to do in the gym class?',
+    },
+    {
+      meaning: 'Senin ailen barbeküde ne yiyecek?',
+      possibleAnswer:
+        'At the barbecue, my family is going to eat grilled chicken and ribs.',
+      sentence: 'What is your family going to eat at the barbecue?',
+    },
+    {
+      meaning: 'Sen kütüphanede ne yapacaksın?',
+      possibleAnswer: 'At the library, I am going to study for my exams.',
+      sentence: 'What are you going to do at the library?',
+    },
+    {
+      meaning: 'Senin amcan av sezonunda ne avlayacak?',
+      possibleAnswer:
+        'During the hunting season, my uncle is going to hunt deer.',
+      sentence: 'What is your uncle going to hunt during the hunting season?',
+    },
+    {
+      meaning: 'Sen okul orkestrasında ne çalacaksın?',
+      possibleAnswer: 'In the school band, I am going to play the trumpet.',
+      sentence: 'What are you going to play in the school band?',
+    },
+    {
+      meaning: 'Senin komşun evini ne renge boyayacak?',
+      possibleAnswer: 'My neighbor is going to paint his house blue.',
+      sentence: 'What is your neighbor going to paint his house?',
+    },
+    {
+      meaning: 'Sen yarın öğretmenine ne soracaksın?',
+      possibleAnswer:
+        'Tomorrow, I am going to ask my teacher about the homework.',
+      sentence: 'What are you going to ask your teacher tomorrow?',
+    },
+    {
+      meaning: 'Senin arkadaşın onun doğum günü için ne alacak?',
+      possibleAnswer: 'My friend is going to get a new bike for his birthday.',
+      sentence: 'What is your friend going to get for his birthday?',
+    },
+    {
+      meaning: 'Sen Noel tatili boyunca ne yapacaksın?',
+      possibleAnswer:
+        'During the Christmas break, I am going to visit my relatives.',
+      sentence: 'What are you going to do during the Christmas break?',
+    },
+    {
+      meaning: 'Senin baban atölyesinde ne tamir edecek?',
+      possibleAnswer: 'My father is going to fix a chair in his workshop.',
+      sentence: 'What is your father going to fix in his workshop?',
+    },
+    {
+      meaning: 'Sen arkadaşının pijama partisinde ne yapacaksın?',
+      possibleAnswer: 'At my friend’s sleepover, I am going to watch movies.',
+      sentence: 'What are you going to do at your friend’s sleepover?',
+    },
+    {
+      meaning: 'Senin annen Şükran Günü yemeği için ne hazırlayacak?',
+      possibleAnswer:
+        'My mother is going to prepare a turkey for Thanksgiving dinner.',
+      sentence: 'What is your mother going to prepare for Thanksgiving dinner?',
+    },
+    {
+      meaning: 'Senin el sanatları dersinde ne yapacaksın?',
+      possibleAnswer: 'In my craft class, I am going to build a birdhouse.',
+      sentence: 'What are you going to build in your craft class?',
+    },
+    {
+      meaning: 'Senin kuzenin sana bilgisayarında ne gösterecek?',
+      possibleAnswer:
+        'My cousin is going to show me his new game on his computer.',
+      sentence: 'What is your cousin going to show you on his computer?',
+    },
+    {
+      meaning: 'Sen partide ne içeceksin?',
+      possibleAnswer: 'At the party, I am going to drink soda.',
+      sentence: 'What are you going to drink at the party?',
+    },
+    {
+      meaning: 'Sen marketten ne alacaksın?',
+      possibleAnswer:
+        'At the supermarket, I am going to buy fruits and vegetables.',
+      sentence: 'What are you going to buy at the supermarket?',
+    },
+    {
+      meaning: 'Senin baban tiyatroda ne izleyecek?',
+      possibleAnswer: 'My dad is going to watch a comedy at the theater.',
+      sentence: 'What is your dad going to watch at the theater?',
+    },
+    {
+      meaning: 'Sen kütüphanede ne arayacaksın?',
+      possibleAnswer:
+        'At the library, I am going to search for books on history.',
+      sentence: 'What are you going to search for at the library?',
+    },
+    {
+      meaning: 'Senin kız kardeşin aile gecesi için ne pişirecek?',
+      possibleAnswer: 'For the family night, my sister is going to cook pasta.',
+      sentence: 'What is your sister going to cook for the family night?',
+    },
+    {
+      meaning: 'Sen gelecek ay hangi kitabı okuyacaksın?',
+      possibleAnswer:
+        'Next month, I am going to read ""To Kill a Mockingbird.""',
+      sentence: 'What book are you going to read next month?',
+    },
+    {
+      meaning: 'Sen ve arkadaşların hangi bulmacayı çözeceksiniz?',
+      possibleAnswer:
+        'I am going to solve a 1000-piece puzzle with my friends.',
+      sentence: 'What puzzle are you going to solve with your friends?',
+    },
+    {
+      meaning: 'Sen yetenek gösterisinde hangi şarkıyı söyleyeceksin?',
+      possibleAnswer: 'At the talent show, I am going to sing ""Let It Be.""',
+      sentence: 'What song are you going to sing at the talent show?',
+    },
+    {
+      meaning: "Sen Anneler Günü'nde annen için ne yapacaksın?",
+      possibleAnswer:
+        'On Mother’s Day, I am going to make breakfast for my mother.',
+      sentence: 'What are you going to do for your mother on Mother’s Day?',
+    },
+    {
+      meaning: 'Sen bu bahar bahçene ne ekeceksin?',
+      possibleAnswer: 'This spring, I am going to plant roses in my garden.',
+      sentence: 'What are you going to plant in your garden this spring?',
+    },
+    {
+      meaning: "Sen YouTube'da hangi videoyu izleyeceksin?",
+      possibleAnswer: 'On YouTube, I am going to watch a tutorial video.',
+      sentence: 'What video are you going to watch on YouTube?',
+    },
+    {
+      meaning: 'Sen senin telefonuna hangi uygulamayı indireceksin?',
+      possibleAnswer: 'I am going to download a fitness app on my phone.',
+      sentence: 'What app are you going to download on your phone?',
+    },
+    {
+      meaning: 'Sen bu hafta sonu odanda neyi temizleyeceksin?',
+      possibleAnswer: 'This weekend, I am going to clean my closet in my room.',
+      sentence: 'What are you going to clean in your room this weekend?',
+    },
+    {
+      meaning: 'Sen garaj satışında neyi satacaksın?',
+      possibleAnswer:
+        'At the garage sale, I am going to sell old clothes and toys.',
+      sentence: 'What are you going to sell at the garage sale?',
+    },
+    {
+      meaning: 'Sen yaz tatilinde hangi beceriyi öğreneceksin?',
+      possibleAnswer:
+        'During summer vacation, I am going to learn how to play the guitar.',
+      sentence: 'What skill are you going to learn during summer vacation?',
+    },
+    {
+      meaning: 'Sen biriktirdiğin parayı ne yapacaksın?',
+      possibleAnswer: 'With the money I saved, I am going to buy a new laptop.',
+      sentence: 'What are you going to do with the money you saved?',
+    },
+    {
+      meaning: 'Sen Internette ne arayacaksın?',
+      possibleAnswer:
+        'On the internet, I am going to search for travel destinations.',
+      sentence: 'What are you going to search for on the internet?',
+    },
+    {
+      meaning: 'Sen hobin için hangi projeyle başlayacaksın?',
+      possibleAnswer: 'For my hobby, I am going to start a scrapbook project.',
+      sentence: 'What project are you going to start for your hobby?',
+    },
+    {
+      meaning: 'Sen kamp gezisi için ne paketleyeceksin?',
+      possibleAnswer:
+        'For my camping trip, I am going to pack a tent, sleeping bag, and food.',
+      sentence: 'What are you going to pack for your camping trip?',
+    },
+    {
+      meaning: 'Sen marketten ne alacaksın?',
+      possibleAnswer:
+        'At the grocery store, I am going to buy milk, eggs, and bread.',
+      sentence: 'What are you going to buy at the grocery store?',
+    },
+    {
+      meaning: 'Sen partide hangi şakayı yapacaksın?',
+      possibleAnswer: 'At the party, I am going to tell a knock-knock joke.',
+      sentence: 'What joke are you going to tell at the party?',
+    },
+    {
+      meaning: 'Sen evde yardım etmek için ne yapacaksın?',
+      possibleAnswer: 'To help out at home, I am going to do the dishes.',
+      sentence: 'What are you going to do to help out at home?',
+    },
+    {
+      meaning: 'Sen yeni restoranda hangi yemeği deneyeceksin?',
+      possibleAnswer: 'At the new restaurant, I am going to try the sushi.',
+      sentence: 'What dish are you going to try at the new restaurant?',
+    },
+    {
+      meaning: 'Sen okul toplantısında ne yapacaksın?',
+      possibleAnswer:
+        'During the school assembly, I am going to listen to the speakers.',
+      sentence: 'What are you going to do during the school assembly?',
+    },
+    {
+      meaning: 'Sen seçmeli ders olarak neyi seçeceksin?',
+      possibleAnswer: 'For my elective subject, I am going to choose art.',
+      sentence: 'What are you going to choose for your elective subject?',
+    },
+    {
+      meaning: 'Sen bilgisayarında hangi oyunu oynayacaksın?',
+      possibleAnswer: 'On my computer, I am going to play a puzzle game.',
+      sentence: 'What game are you going to play on your computer?',
+    },
+    {
+      meaning: 'Sen fitness merkezinde ne yapacaksın?',
+      possibleAnswer: 'At the fitness center, I am going to lift weights.',
+      sentence: 'What are you going to do at the fitness center?',
+    },
+    {
+      meaning: 'Senin yeni akvaryumun için ne alacaksın?',
+      possibleAnswer: 'For my new aquarium, I am going to buy fish and plants.',
+      sentence: 'What are you going to buy for your new aquarium?',
+    },
+    {
+      meaning: 'Sen sınıf için hangi konuşmayı hazırlayacaksın?',
+      possibleAnswer:
+        'For class, I am going to prepare a speech on climate change.',
+      sentence: 'What speech are you going to prepare for class?',
+    },
+    {
+      meaning: 'Sen bu öğleden sonra parkta ne yapacaksın?',
+      possibleAnswer:
+        'This afternoon, I am going to have a picnic at the park.',
+      sentence: 'What are you going to do at the park this afternoon?',
+    },
+    {
+      meaning: 'Sen kütüphanede ne arayacaksın?',
+      possibleAnswer:
+        'In the library, I am going to search for books on science.',
+      sentence: 'What are you going to search for in the library?',
+    },
+    {
+      meaning: 'Sen arkadaşının evinde hangi filmi izleyeceksin?',
+      possibleAnswer:
+        'At my friend’s house, I am going to watch an action movie.',
+      sentence: 'What movie are you going to watch at your friend’s house?',
+    },
+    {
+      meaning: 'Sen küçük kız kardeşinle ne oynayacaksın?',
+      possibleAnswer: 'With my little sister, I am going to play board games.',
+      sentence: 'What are you going to play with your little sister?',
+    },
+    {
+      meaning: 'Sen hayvanat bahçesinde ne yapacaksın?',
+      possibleAnswer: 'At the zoo, I am going to see the animals.',
+      sentence: 'What are you going to do at the zoo?',
+    },
+    {
+      meaning: 'Sen bu yıl hangi yeni sporu deneyeceksin?',
+      possibleAnswer: 'This year, I am going to try playing tennis.',
+      sentence: 'What new sport are you going to try this year?',
     },
   ],
   'A2-W': [
     {
       meaning: 'Sen yarın öğle yemeği için ne yiyeceksin?',
+      possibleAnswer: 'I will eat a chicken salad for lunch tomorrow.',
       sentence: 'What will you eat for lunch tomorrow?',
     },
     {
       meaning: 'Sen partide ne giyeceksin?',
+      possibleAnswer: 'I will wear a blue dress to the party.',
       sentence: 'What will you wear to the party?',
     },
     {
       meaning: 'Sen bu hafta sonu ne yapacaksın?',
+      possibleAnswer: 'This weekend, I will go hiking and visit a friend.',
       sentence: 'What will you do this weekend?',
     },
     {
       meaning: 'Sen bu gece ne izleyeceksin?',
+      possibleAnswer:
+        'Tonight, I will watch a new episode of my favorite TV show.',
       sentence: 'What will you watch tonight?',
     },
     {
       meaning: 'Sen mağazadan ne alacaksın?',
+      possibleAnswer: 'I will buy groceries and a birthday card at the store.',
       sentence: 'What will you buy at the store?',
     },
     {
       meaning: 'Sen akşam yemeği için ne pişireceksin?',
+      possibleAnswer: 'I will cook spaghetti and meatballs for dinner.',
       sentence: 'What will you cook for dinner?',
     },
     {
       meaning: 'Sen pikniğe ne götüreceksin?',
+      possibleAnswer:
+        'I will bring sandwiches, fruit, and drinks to the picnic.',
       sentence: 'What will you bring to the picnic?',
     },
     {
       meaning: 'Sen arkadaşlarınla ne oynayacaksın?',
+      possibleAnswer: 'I will play soccer with my friends.',
       sentence: 'What will you play with your friends?',
     },
     {
       meaning: 'Sen sanat dersinde ne çizeceksin?',
+      possibleAnswer: 'I will draw a landscape in art class.',
       sentence: 'What will you draw in art class?',
     },
     {
       meaning: 'Sen sonra ne okuyacaksın?',
+      possibleAnswer: 'Next, I will read ""To Kill a Mockingbird.""',
       sentence: 'What will you read next?',
     },
     {
       meaning: 'Sen sınavın için ne çalışacaksın?',
+      possibleAnswer: 'I will study algebra for my exam.',
       sentence: 'What will you study for your exam?',
     },
     {
       meaning: 'Sen odanda neyi temizleyeceksin?',
+      possibleAnswer: 'I will clean my desk and bookshelf in my room.',
       sentence: 'What will you clean in your room?',
     },
     {
       meaning: 'Sen tatlı için ne yapacaksın?',
+      possibleAnswer: 'I will make chocolate brownies for dessert.',
       sentence: 'What will you make for dessert?',
     },
     {
       meaning: 'Sen büyükannenin evine ne götüreceksin?',
+      possibleAnswer: "I will take a homemade pie to my grandmother's house.",
       sentence: "What will you take to your grandmother's house?",
     },
     {
       meaning: 'Sen arkadaşına ne diyeceksin?',
+      possibleAnswer: 'I will say congratulations to my friend.',
       sentence: 'What will you say to your friend?',
     },
     {
       meaning: 'Sen projen için ne seçeceksin?',
+      possibleAnswer: 'I will choose renewable energy for my project.',
       sentence: 'What will you choose for your project?',
     },
     {
       meaning: 'Sen öğretmenine ne soracaksın?',
+      possibleAnswer: 'I will ask my teacher for extra help with the homework.',
       sentence: 'What will you ask your teacher?',
     },
     {
       meaning: 'Sen okuldan sonra ne yapacaksın?',
+      possibleAnswer: 'After school, I will go to the library to study.',
       sentence: 'What will you do after school?',
     },
     {
       meaning: 'Sen yemeğin ile ne içeceksin?',
+      possibleAnswer: 'I will drink orange juice with my meal.',
       sentence: 'What will you drink with your meal?',
     },
     {
       meaning: 'Sen toplantıya ne getireceksin?',
+      possibleAnswer: 'I will bring my laptop and a notebook to the meeting.',
       sentence: 'What will you bring to the meeting?',
     },
     {
       meaning: 'Sen sunumda ne diyeceksin?',
+      possibleAnswer:
+        'At the presentation, I will discuss our new marketing strategy.',
       sentence: 'What will you say at the presentation?',
     },
     {
       meaning: 'Sen annenin doğum günü için ne yapacaksın?',
+      possibleAnswer:
+        "For my mother's birthday, I will bake her favorite cake.",
       sentence: "What will you do for your mother's birthday?",
     },
     {
       meaning: 'Sen seyahatin için ne paketleyeceksin?',
+      possibleAnswer:
+        'I will pack clothes, toiletries, and a camera for my trip.',
       sentence: 'What will you pack for your trip?',
     },
     {
       meaning: 'Sen yağmur yağarsa ne yapacaksın?',
+      possibleAnswer: 'If it rains, I will stay indoors and watch a movie.',
       sentence: 'What will you do if it rains?',
     },
     {
       meaning: 'Sen erkek kardeşine ne hediye alacaksın?',
+      possibleAnswer: "I will buy a new video game for my brother's gift.",
       sentence: "What will you buy for your brother's gift?",
     },
     {
       meaning: 'Sen tatillerde ne yapacaksın?',
+      possibleAnswer: 'During the holidays, I will visit family and friends.',
       sentence: 'What will you do during the holidays?',
     },
     {
       meaning: 'Sen plajda ne bulacaksın?',
+      possibleAnswer: 'At the beach, I will find seashells and crabs.',
       sentence: 'What will you find at the beach?',
     },
     {
       meaning: 'Sen günlüğüne ne yazacaksın?',
+      possibleAnswer: 'In my diary, I will write about my day and my feelings.',
       sentence: 'What will you write in your diary?',
     },
     {
       meaning: 'Sen postada ne göndereceksin?',
+      possibleAnswer: 'I will send a thank-you card in the mail.',
       sentence: 'What will you send in the mail?',
     },
     {
       meaning: 'Sen arka bahçende ne tamir edeceksin?',
+      possibleAnswer: 'I will fix the fence in my backyard.',
       sentence: 'What will you fix in your backyard?',
     },
     {
       meaning: 'Sen babana ne yapmasında yardım edeceksin?',
+      possibleAnswer: 'I will help my dad wash the car.',
       sentence: 'What will you help your dad do?',
     },
     {
       meaning: 'Sen bilgisayarda ne oynayacaksın?',
+      possibleAnswer: 'I will play a strategy game on the computer.',
       sentence: 'What will you play on the computer?',
     },
     {
       meaning: 'Sen paran ile ne alacaksın?',
+      possibleAnswer: 'With my money, I will buy a new book.',
       sentence: 'What will you buy with your money?',
     },
     {
       meaning: 'Sen yeni yılda ne yapacaksın?',
+      possibleAnswer: 'In the new year, I will start a new hobby.',
       sentence: 'What will you do in the new year?',
     },
     {
       meaning: 'Sen bilim fuarı için ne yapacaksın?',
+      possibleAnswer:
+        'For the science fair, I will make a model of the solar system.',
       sentence: 'What will you make for the science fair?',
     },
     {
       meaning: 'Sen bu gece arkadaşlarınla ne yapacaksın?',
+      possibleAnswer: 'Tonight, I will watch a movie with my friends.',
       sentence: 'What will you do with your friends tonight?',
     },
     {
       meaning: 'Sen akşam yemeği için ne isteyeceksin?',
+      possibleAnswer: 'I will ask for pizza for dinner.',
       sentence: 'What will you ask for dinner?',
     },
     {
       meaning: 'Sen eski kıyafetlerinle ne yapacaksın?',
+      possibleAnswer: 'I will donate the old clothes to charity.',
       sentence: 'What will you do with the old clothes?',
     },
     {
       meaning: 'Sen sanat ödevin için ne çizeceksin?',
+      possibleAnswer: 'For my art homework, I will draw a still life.',
       sentence: 'What will you draw for your art homework?',
     },
     {
       meaning: 'Sen molada ne oynayacaksın?',
+      possibleAnswer: 'At recess, I will play basketball.',
       sentence: 'What will you play at recess?',
     },
     {
       meaning: 'Sen İnternette ne arayacaksın?',
+      possibleAnswer: 'I will search for recipes on the internet.',
       sentence: 'What will you search on the internet?',
     },
     {
       meaning: 'Sen yeni odan için ne alacaksın?',
+      possibleAnswer: 'For my new room, I will buy a desk and a chair.',
       sentence: 'What will you buy for your new room?',
     },
     {
       meaning: 'Sen parkta ne yapacaksın?',
+      possibleAnswer: 'At the park, I will go for a run and have a picnic.',
       sentence: 'What will you do at the park?',
     },
     {
       meaning: 'Sen pazar günü kahvaltıda ne yiyeceksin?',
+      possibleAnswer: 'On Sunday, I will eat pancakes for breakfast.',
       sentence: 'What will you eat for breakfast on Sunday?',
     },
     {
       meaning: 'Sen misafirler için ne hazırlayacaksın?',
+      possibleAnswer: 'I will prepare appetizers and drinks for the guests.',
       sentence: 'What will you prepare for the guests?',
     },
     {
       meaning: 'Sen öğle yemeği için ne getireceksin?',
+      possibleAnswer: 'I will bring a turkey sandwich and an apple for lunch.',
       sentence: 'What will you bring for lunch?',
     },
     {
       meaning: 'Sen egzersiz için ne yapacaksın?',
+      possibleAnswer: 'For exercise, I will go jogging and do some yoga.',
       sentence: 'What will you do for exercise?',
     },
     {
       meaning: 'Sen İngilizce dersinde ne yazacaksın?',
+      possibleAnswer: 'In my English class, I will write an essay.',
       sentence: 'What will you write in your English class?',
     },
     {
       meaning: 'Sen kuzenine ne soracaksın?',
+      possibleAnswer: 'I will ask my cousin about her new job.',
       sentence: 'What will you ask your cousin?',
     },
     {
       meaning: 'Sen evcil hayvanının doğum günü için ne yapacaksın?',
+      possibleAnswer: "For my pet's birthday, I will bake a special treat.",
       sentence: "What will you do for your pet's birthday?",
     },
     {
       meaning: 'Sen sinemaya ne götüreceksin?',
+      possibleAnswer: 'I will take some popcorn and a soda to the cinema.',
       sentence: 'What will you take to the cinema?',
     },
     {
       meaning: 'Sen fırından ne alacaksın?',
+      possibleAnswer:
+        'I will buy a loaf of bread and some pastries at the bakery.',
       sentence: 'What will you buy at the bakery?',
     },
     {
       meaning: 'Sen beden eğitimi dersinde ne oynayacaksın?',
+      possibleAnswer: 'In gym class, I will play volleyball.',
       sentence: 'What will you play in gym class?',
     },
     {
       meaning: 'Sen tatilinde ne yapacaksın?',
+      possibleAnswer:
+        'On my vacation, I will visit the beach and go sightseeing.',
       sentence: 'What will you do on your vacation?',
     },
     {
       meaning: 'Sen kafeteryada ne seçeceksin?',
+      possibleAnswer: 'At the cafeteria, I will choose a salad and soup.',
       sentence: 'What will you choose at the cafeteria?',
     },
     {
       meaning: 'Sen kütüphanede ne arayacaksın?',
+      possibleAnswer: 'At the library, I will search for books on history.',
       sentence: 'What will you search for at the library?',
     },
     {
       meaning: 'Sen oyunu kazanırsan ne yapacaksın?',
+      possibleAnswer: 'If I win the game, I will celebrate with my friends.',
       sentence: 'What will you do if you win the game?',
     },
     {
       meaning: 'Sen arkadaşının evine ne getirmek?',
+      possibleAnswer: "I will bring a board game to my friend's house.",
       sentence: "What will you bring to your friend's house?",
     },
     {
       meaning: 'Sen okulun ilk günü ne yapacaksın?',
+      possibleAnswer:
+        'On the first day of school, I will meet my new teachers and classmates.',
       sentence: 'What will you do on the first day of school?',
     },
     {
       meaning: 'Sen parti için ne alacaksın?',
+      possibleAnswer: 'I will buy decorations and snacks for the party.',
       sentence: 'What will you buy for the party?',
     },
     {
       meaning: 'Sen kahvaltı için ne yapacaksın?',
+      possibleAnswer: 'I will prepare scrambled eggs and toast for breakfast.',
       sentence: 'What will you prepare for breakfast?',
     },
     {
       meaning: 'Sen hayvanat bahçesinde ne yapacaksın?',
+      possibleAnswer: 'At the zoo, I will see the animals and take pictures.',
       sentence: 'What will you do at the zoo?',
     },
     {
       meaning: 'Sen mağazada ne arayacaksın?',
+      possibleAnswer: 'In the store, I will look for a new jacket.',
       sentence: 'What will you look for in the store?',
     },
     {
       meaning: 'Sen öğretmenine ne götüreceksin?',
+      possibleAnswer: 'I will bring an apple to my teacher.',
       sentence: 'What will you bring to your teacher?',
     },
     {
       meaning: 'Sen müzede ne yapacaksın?',
+      possibleAnswer:
+        'At the museum, I will explore the exhibits and learn about history.',
       sentence: 'What will you do at the museum?',
     },
     {
       meaning: 'Sen bu malzemeler ile ne yapacaksın?',
+      possibleAnswer:
+        'With these ingredients, I will make a vegetable stir-fry.',
       sentence: 'What will you make with these ingredients?',
     },
     {
       meaning: 'Sen eve geldiğinde ne yapacaksın?',
+      possibleAnswer: 'When I get home, I will do my homework and relax.',
       sentence: 'What will you do when you get home?',
     },
     {
       meaning: 'Sen doğa yürüyüşünde ne giyeceksin?',
+      possibleAnswer:
+        'On the hike, I will wear comfortable clothes and hiking boots.',
       sentence: 'What will you wear on the hike?',
     },
     {
       meaning: 'Sen kız kardeşin ile ne oynayacaksın?',
+      possibleAnswer: 'I will play a board game with my sister.',
       sentence: 'What will you play with your sister?',
     },
     {
       meaning: 'Sen telefonunda ne arayacaksın?',
+      possibleAnswer:
+        'On my phone, I will search for directions to the nearest cafe.',
       sentence: 'What will you search for on your phone?',
     },
     {
       meaning: 'Sen doğum günleri için arkadaşlarına ne vereceksin?',
+      possibleAnswer: 'For their birthday, I will give my friend a gift card.',
       sentence: 'What will you give your friend for their birthday?',
     },
     {
       meaning: 'Sen bahçede ne yapacaksın?',
+      possibleAnswer:
+        'In the garden, I will plant flowers and water the plants.',
       sentence: 'What will you do in the garden?',
     },
     {
       meaning: 'Sen ebeveynlerine ne soracaksın?',
+      possibleAnswer:
+        'I will ask my parents for permission to go to the party.',
       sentence: 'What will you ask your parents?',
     },
     {
       meaning: 'Sen evin için ne alacaksın?',
+      possibleAnswer: 'For my home, I will buy new curtains and cushions.',
       sentence: 'What will you buy for your home?',
     },
     {
       meaning: 'Sen mangala ne getireceksin?',
+      possibleAnswer: 'I will bring potato salad to the barbecue.',
       sentence: 'What will you bring to the barbecue?',
     },
     {
       meaning: 'Sen plaja ne götüreceksin?',
+      possibleAnswer:
+        'I will take a towel, sunscreen, and a beach ball to the beach.',
       sentence: 'What will you take to the beach?',
     },
     {
       meaning: 'Sen toplum projesi için ne yapacaksın?',
+      possibleAnswer:
+        'For the community project, I will help clean up the local park.',
       sentence: 'What will you do for the community project?',
     },
     {
       meaning: 'Sen kil ile ne yapacaksın?',
+      possibleAnswer: 'With the clay, I will make a small sculpture.',
       sentence: 'What will you make with the clay?',
     },
     {
       meaning: 'Sen boş zamanında ne yapacaksın? ',
+      possibleAnswer: 'In my free time, I will read a book and go for a walk.',
       sentence: 'What will you do with your free time?',
     },
     {
       meaning: 'Sen Noel için ne alacaksın?',
+      possibleAnswer:
+        'For Christmas, I will buy gifts for my family and friends.',
       sentence: 'What will you buy for Christmas?',
     },
     {
       meaning: 'Sen telefonunda ne oynayacaksın?',
+      possibleAnswer: 'On my phone, I will play a puzzle game.',
       sentence: 'What will you play on your phone?',
     },
     {
       meaning: 'Sen teşekkür kartlarına ne yazacaksın?',
+      possibleAnswer:
+        'In my thank-you cards, I will express my gratitude and appreciation.',
       sentence: 'What will you write in your thank-you cards?',
     },
     {
       meaning: 'Sen patates ile ne pişireceksin?',
+      possibleAnswer:
+        'With potatoes, I will cook mashed potatoes and baked potatoes.',
       sentence: 'What will you cook with potatoes?',
     },
     {
       meaning: 'Sen sınıf partisine ne götüreceksin?',
+      possibleAnswer: 'I will bring cupcakes to the class party.',
       sentence: 'What will you bring to the class party?',
     },
     {
       meaning: 'Sen kar yağarsa ne yapacaksın?',
+      possibleAnswer:
+        'If it snows, I will build a snowman and have a snowball fight.',
       sentence: 'What will you do if it snows?',
     },
     {
       meaning: 'Sen elektronik mağazasında ne alacaksın?',
+      possibleAnswer:
+        'At the electronic store, I will buy a new phone charger.',
       sentence: 'What will you buy at the electronic store?',
     },
     {
       meaning: 'Sen fitness rutinin için ne yapacaksın?',
+      possibleAnswer:
+        'For my fitness routine, I will go to the gym and do cardio exercises.',
       sentence: 'What will you do for your fitness routine?',
     },
     {
       meaning: 'Sen karnavalda ne yiyeceksin?',
+      possibleAnswer: 'At the carnival, I will eat cotton candy and hot dogs.',
       sentence: 'What will you eat at the carnival?',
     },
     {
       meaning: 'Sen sanat sergisi için ne yapacaksın?',
+      possibleAnswer: 'For the art exhibition, I will make a painting.',
       sentence: 'What will you make for the art exhibition?',
     },
     {
       meaning: 'Sen eğitim gezisine ne götüreceksin?',
+      possibleAnswer:
+        'On the field trip, I will take a backpack with snacks and water.',
       sentence: 'What will you take on the field trip?',
     },
     {
       meaning: 'Sen kitap fuarında ne alacaksın?',
+      possibleAnswer: 'At the book fair, I will buy a novel and a comic book.',
       sentence: 'What will you buy at the book fair?',
     },
     {
       meaning: 'Sen yavru köpeğinle ne oynayacaksın?',
+      possibleAnswer: 'I will play fetch with my puppy.',
       sentence: 'What will you play with your puppy?',
     },
     {
       meaning: 'Sen raporunda ne hakkında yazacaksın?',
+      possibleAnswer:
+        'In my report, I will write about the effects of climate change.',
       sentence: 'What will you write about in your report?',
     },
     {
       meaning: 'Sen sınav için ne hazırlayacaksın?',
+      possibleAnswer:
+        'I will prepare study notes and review the textbook for the exam.',
       sentence: 'What will you prepare for the exam?',
     },
     {
       meaning: 'Sen mülakatta ne soracaksın?',
+      possibleAnswer:
+        "In the interview, I will ask about the company's culture and growth opportunities.",
       sentence: 'What will you ask in the interview?',
     },
     {
       meaning: 'Sen teknede ne yapacaksın?',
+      possibleAnswer: 'On the boat, I will fish and enjoy the scenery.',
       sentence: 'What will you do on the boat?',
     },
     {
       meaning: 'Sen ebeveynlerinin yıldönümleri için ne yapacaksın?',
+      possibleAnswer: "For my parents' anniversary, I will make a photo album.",
       sentence: "What will you make for your parents' anniversary?",
     },
     {
       meaning: 'Sen çiftlikte ne yapacaksın?',
+      possibleAnswer:
+        'At the farm, I will help feed the animals and pick vegetables.',
       sentence: 'What will you do at the farm?',
     },
     {
       meaning: 'Sen spor salonuna ne giyeceksin?',
+      possibleAnswer: 'I will wear a t-shirt and leggings to the gym.',
       sentence: 'What will you wear to the gym?',
     },
     {
       meaning: 'Sen bit pazarında ne arayacaksın?',
+      possibleAnswer:
+        'At the flea market, I will search for vintage items and collectibles.',
       sentence: 'What will you search for at the flea market?',
     },
   ],
   A3: [
     {
       meaning: 'Sen bu hafta sonu ne yapıyor olacaksın?',
+      possibleAnswer:
+        'This weekend, I will be going hiking and visiting friends.',
       sentence: 'What will you be doing this weekend?',
     },
     {
       meaning: 'O yarın partide ne giyiyor olacak?',
+      possibleAnswer: 'She will be wearing a blue dress at the party tomorrow.',
       sentence: 'What will she be wearing at the party tomorrow?',
     },
     {
       meaning: 'Onlar vardığımızda ne yiyor olacaklar?',
+      possibleAnswer: 'They will be eating dinner when we arrive.',
       sentence: 'What will they be eating when we arrive?',
     },
     {
       meaning: "O, bu gece TV'de ne izliyor olacak? ",
+      possibleAnswer: 'He will be watching a documentary on TV tonight.',
       sentence: 'What will he be watching on TV tonight?',
     },
     {
       meaning: 'Biz yarınki toplantıda ne tartışıyor olacağız?',
+      possibleAnswer:
+        "We will be discussing the new project in tomorrow's meeting.",
       sentence: "What will we be discussing in tomorrow's meeting?",
     },
     {
       meaning: 'Biz eve vardığımızda senin köpeğin ne yapıyor olacak?',
+      possibleAnswer: 'My dog will be waiting by the door when we get home.',
       sentence: 'What will your dog be doing when we get home?',
     },
     {
       meaning: 'Senin ebeveynlerin bu akşam ne pişiriyor olacak?',
+      possibleAnswer: 'My parents will be cooking lasagna for dinner tonight.',
       sentence: 'What will your parents be cooking for dinner tonight?',
     },
     {
       meaning:
         'Senin erkek kardeşin yarın öğleden sonra neyi çalışıyor olacak?',
+      possibleAnswer: 'My brother will be studying physics tomorrow afternoon.',
       sentence: 'What will your brother be studying tomorrow afternoon?',
     },
     {
       meaning: 'Senin arkadaşların Cumartesi günü parkta ne oynayuyor olacak?',
+      possibleAnswer:
+        'My friends will be playing soccer at the park on Saturday.',
       sentence: 'What will your friends be playing at the park on Saturday?',
     },
     {
       meaning: 'Öğretmen sınıf başladığında neyi açıklıyor olacak?',
+      possibleAnswer:
+        'My teacher will be explaining the new lesson when class starts.',
       sentence: 'What will your teacher be explaining when class starts?',
     },
     {
       meaning: 'Kuşlar yarın güneş doğarken ne yapıyor olacak?',
+      possibleAnswer: 'The birds will be singing at sunrise tomorrow.',
       sentence: 'What will the birds be doing at sunrise tomorrow?',
     },
     {
       meaning: 'Biz ayrıldığımızda o çantasında ne arıyor olacak?',
+      possibleAnswer:
+        'She will be looking for her phone in her bag when we leave.',
       sentence: 'What will she be looking for in her bag when we leave?',
     },
     {
       meaning: 'Sen gelecek hafta sanat sınıfında ne çiziyor olacaksın?',
+      possibleAnswer: 'I will be drawing a portrait in my art class next week.',
       sentence: 'What will you be drawing in your art class next week?',
     },
     {
       meaning: 'O süre dolarken neyi yazıyor olacak?',
+      possibleAnswer: 'He will be typing his report when the deadline comes.',
       sentence: 'What will he be typing when the deadline comes?',
     },
     {
       meaning: 'Onlar gelecek ay arka bahçede ne inşa ediyor olacaklar?',
+      possibleAnswer:
+        'They will be building a shed in the backyard next month.',
       sentence: 'What will they be building in the backyard next month?',
     },
     {
       meaning: 'Senin kedin yarın sabah neyi kovalıyor olacak?',
+      possibleAnswer: 'My cat will be chasing a toy mouse tomorrow morning.',
       sentence: 'What will your cat be chasing tomorrow morning?',
     },
     {
       meaning: 'Biz mangalı başlattığımızda komşular ne yapıyor olacak?',
+      possibleAnswer:
+        'The neighbors will be setting up their grill when we start the barbecue.',
       sentence: 'What will the neighbors be doing when we start the barbecue?',
     },
     {
       meaning: 'Senin kız kardeşin bu gece gitarda neyi Pratik ediyor olacak?',
+      possibleAnswer:
+        'My sister will be practicing a new song on her guitar tonight.',
       sentence: 'What will your sister be practicing on her guitar tonight?',
     },
     {
       meaning: 'Öğrenciler okul toplantısında ne yapıyor olacaklar?',
+      possibleAnswer:
+        'The students will be listening to the principal during the school assembly.',
       sentence: 'What will the students be doing during the school assembly?',
     },
     {
       meaning: 'Biz onu aradığımızda, senin annen ne yapıyor olacak?',
+      possibleAnswer: 'My mom will be cooking dinner when we call her.',
       sentence: 'What will your mom be doing when we call her?',
     },
     {
       meaning: 'Sen projen için gelecek Cuma ne planlıyor olacaksın? ',
+      possibleAnswer:
+        'I will be planning the presentation for my project next Friday.',
       sentence: 'What will you be planning for your project next Friday?',
     },
     {
       meaning: 'Senin baban bu haftasonu neyi tamir ediyor olacak?',
+      possibleAnswer:
+        'My dad will be fixing the lawnmower in the garage this weekend.',
       sentence: 'What will your dad be fixing in the garage this weekend?',
     },
     {
       meaning: 'Çocuklar bu öğleden sonra oyun alanında ne yapıyor olacaklar?',
+      possibleAnswer:
+        'The children will be playing on the swings at the playground this afternoon.',
       sentence:
         'What will the children be doing at the playground this afternoon?',
     },
     {
       meaning: 'O etkinlikte kamera ile ne yapıyor olacak?',
+      possibleAnswer:
+        'She will be taking pictures with the camera at the event.',
       sentence: 'What will she be doing with the camera at the event?',
     },
     {
       meaning: 'Sen sanat projen için gelecek hafta ne yapıyor olacaksın? ',
+      possibleAnswer:
+        'I will be making a sculpture for my art project next week.',
       sentence: 'What will you be making for your art project next week?',
     },
     {
       meaning: 'O yarın bilgisayarında ne arıyor olacak?',
+      possibleAnswer:
+        'He will be searching for information on his computer tomorrow.',
       sentence: 'What will he be searching for on his computer tomorrow?',
     },
     {
       meaning: 'Sen film gecen sırasında ne izliyor olacaksın?',
+      possibleAnswer: 'I will be watching a comedy during my movie night.',
       sentence: 'What will you be watching during your movie night?',
     },
     {
       meaning: 'Arkadaşın müzede neyi izliyor olacak?',
+      possibleAnswer:
+        'My friend will be looking at the ancient artifacts in the museum.',
       sentence: 'What will your friend be looking at in the museum?',
     },
     {
       meaning: 'Öğretmenler konferans sırasında neyi tartışıyor olacak?',
+      possibleAnswer:
+        'The teachers will be discussing the new curriculum during the conference.',
       sentence: 'What will the teachers be discussing during the conference?',
     },
     {
       meaning: 'Biz ziyaret ettiğimizde bebek ne yapıyor olacak?',
+      possibleAnswer: 'The baby will be napping when we visit.',
       sentence: 'What will the baby be doing when we visit?',
     },
     {
       meaning: 'Okula giderken neyi dinliyor olacaksın?',
+      possibleAnswer: 'I will be listening to a podcast on my way to school.',
       sentence: 'What will you be listening to on your way to school?',
     },
     {
       meaning: 'O önümüzdeki Çarşamba egzersiz için ne yapıyor olacak?',
+      possibleAnswer: 'She will be doing yoga for exercise next Wednesday.',
       sentence: 'What will she be doing for exercise next Wednesday?',
     },
     {
       meaning: 'Sen pazar yemeği için ne hazırlıyor olacaksın?',
+      possibleAnswer: "I will be preparing roast chicken for Sunday's dinner.",
       sentence: "What will you be preparing for Sunday's dinner?",
     },
     {
       meaning: 'O bu gece ödevi için ne yapıyor olacak?',
+      possibleAnswer:
+        'He will be working on his math assignment for his homework tonight.',
       sentence: 'What will he be doing for his homework tonight?',
     },
     {
       meaning: 'Onlar bilim fuarı için gelecek ay ne yapıyor olacak?',
+      possibleAnswer:
+        'They will be presenting their experiment at the science fair next month.',
       sentence: 'What will they be doing for the science fair next month?',
     },
     {
       meaning: 'Büyükanneniz Noel için ne örüyor olacak?',
+      possibleAnswer: 'My grandmother will be knitting sweaters for Christmas.',
       sentence: 'What will your grandmother be knitting for Christmas?',
     },
     {
       meaning: 'Sen kütüphanede gelecek hafta ne arıyorsun olacak?',
+      possibleAnswer:
+        'I will be searching for books on history in the library next week.',
       sentence: 'What will you be searching for in the library next week?',
     },
     {
       meaning: 'O bu gece günlüğüne ne yazıyor olacak?',
+      possibleAnswer: 'She will be writing about her day in her diary tonight.',
       sentence: 'What will she be writing in her diary tonight?',
     },
     {
       meaning: 'Onlar pazartesi günü grup projesi için ne yapıyor olacak?',
+      possibleAnswer:
+        'They will be preparing their presentation for the group project on Monday.',
       sentence: 'What will they be doing for the group project on Monday?',
     },
     {
       meaning: 'Kuzenin gelecek Cumartesi parti sırasında ne yapıyor olacak?',
+      possibleAnswer: 'My cousin will be dancing at the party next Saturday.',
       sentence: 'What will your cousin be doing at the party next Saturday?',
     },
     {
       meaning: 'Cuma günü okuldan sonra ne yapıyorsun olacak?',
+      possibleAnswer:
+        'After school on Friday, I will be going to the mall with friends.',
       sentence: 'What will you be doing after school on Friday?',
     },
     {
       meaning: 'Teyzeniz fırın satışı için ne pişiriyor olacak?',
+      possibleAnswer: 'My aunt will be baking cookies for the bake sale.',
       sentence: 'What will your aunt be baking for the bake sale?',
     },
     {
       meaning: 'Turistler pazar günü müzede ne yapıyor olacak?',
+      possibleAnswer:
+        'The tourists will be taking a guided tour at the museum on Sunday.',
       sentence: 'What will the tourists be doing at the museum on Sunday?',
     },
     {
       meaning: 'Evcil hayvanınız yarın öğleden sonra ne yapıyor olacak?',
+      possibleAnswer: 'My pet will be playing in the yard tomorrow afternoon.',
       sentence: 'What will your pet be doing tomorrow afternoon?',
     },
     {
       meaning: 'Yarın sabah kahvaltıda ne yiyorsun olacak?',
+      possibleAnswer: 'I will be eating pancakes for breakfast tomorrow.',
       sentence: 'What will you be eating for breakfast tomorrow?',
     },
     {
       meaning: 'O resim dersinde bir sonraki oturumda neyi boyuyor olacak?',
+      possibleAnswer:
+        'She will be painting a landscape in her art class next session.',
       sentence: 'What will she be painting in her art class next session?',
     },
     {
       meaning: 'Onlar gelecek hafta spor günü için ne pratik yapıyor olacak?',
+      possibleAnswer:
+        'They will be practicing relay races for sports day next week.',
       sentence: 'What will they be practicing for sports day next week?',
     },
     {
       meaning: 'Dayınız cumartesi günü atölyesinde ne tamir ediyor olacak?',
+      possibleAnswer:
+        'My uncle will be repairing a chair in his workshop on Saturday.',
       sentence:
         'What will your uncle be repairing in his workshop on Saturday?',
     },
     {
       meaning: 'Öğrenciler bu akşam kütüphanede ne yapıyor olacak?',
+      possibleAnswer:
+        'The students will be studying in the library this evening.',
       sentence: 'What will the students be doing in the library this evening?',
     },
     {
       meaning:
         'Sizin antrenörünüz yarınki antrenman sırasında ne yapıyor olacak?',
+      possibleAnswer:
+        "My coach will be explaining drills during tomorrow's practice.",
       sentence: "What will your coach be doing during tomorrow's practice?",
     },
     {
       meaning: 'Sen gelecek derste ne öğreniyor olacaksın?',
+      possibleAnswer: 'I will be learning about photosynthesis next lesson.',
       sentence: 'What will you be learning next lesson?',
     },
     {
       meaning: 'O bu hafta sonu yeni cihazıyla ne yapıyor olacak?',
+      possibleAnswer: 'She will be setting up her new gadget this weekend.',
       sentence: 'What will she be doing with her new gadget this weekend?',
     },
     {
       meaning: 'Onlar gelecek Pazar plajda ne yapıyor olacaklar acaba?',
+      possibleAnswer:
+        'They will be swimming and sunbathing at the beach next Sunday.',
       sentence: 'What will they be doing at the beach next Sunday?',
     },
     {
       meaning: 'Tamirci yarın araban ile ne yapıyor olacak?',
+      possibleAnswer:
+        'The mechanic will be changing the oil in my car tomorrow.',
       sentence: 'What will the mechanic be doing with your car tomorrow?',
     },
     {
       meaning: 'Şefler Cuma günü restoranda ne pişiriyor olacaklar?',
+      possibleAnswer:
+        'The chefs will be cooking seafood in the restaurant on Friday.',
       sentence: 'What will the chefs be cooking in the restaurant on Friday?',
     },
     {
       meaning: 'Öğretmen yarın dersin başında ne yapıyor olacak?',
+      possibleAnswer:
+        'The teacher will be reviewing the homework at the start of class tomorrow.',
       sentence:
         'What will the teacher be doing at the start of class tomorrow?',
     },
     {
       meaning:
         'Çocuklar oyun konsollarında gelecek akşam ne yapıyor olacaklar?',
+      possibleAnswer:
+        'The kids will be playing a racing game on their game console next evening.',
       sentence:
         'What will the kids be playing on their game console next evening?',
     },
     {
       meaning: 'Senin takım arkadaşın yarınki maç sırasında ne yapıyor olacak?',
+      possibleAnswer: "My teammate will be defending during tomorrow's game.",
       sentence: "What will your teammate be doing during tomorrow's game?",
     },
     {
       meaning: 'Gelecek hafta tatil için ne paketliyor olacaksın?',
+      possibleAnswer:
+        'I will be packing summer clothes for my vacation next week.',
       sentence: 'What will you be packing for your vacation next week?',
     },
     {
       meaning: 'O düğün için çiçekler ile ne yapıyor olacak?',
+      possibleAnswer: 'She will be arranging the flowers for the wedding.',
       sentence: 'What will she be doing with the flowers for the wedding?',
     },
     {
       meaning: 'Onlar gelecek Pazartesi günü spor salonunda ne yapıyor olacak?',
+      possibleAnswer:
+        'They will be doing strength training at the gym next Monday.',
       sentence: 'What will they be doing at the gym next Monday?',
     },
     {
       meaning:
         'Senin arkadaşın gelecek hafta doğum günü partisi için ne yapıyor olacak?',
+      possibleAnswer:
+        'My friend will be hosting a barbecue for his birthday party next week.',
       sentence:
         'What will your friend be doing for his birthday party next week?',
     },
     {
       meaning:
         'Oyuncular gelecek haftanın maçı sırasında ne yapıyor olacaklar?',
+      possibleAnswer:
+        "The players will be strategizing during next week's match.",
       sentence: "What will the players be doing during next week's match?",
     },
     {
       meaning: 'Postacı yarın onu gördüğünde ne yapıyor olacak?',
+      possibleAnswer:
+        'The mailman will be delivering mail when I see him tomorrow.',
       sentence: 'What will the mailman be doing when you see him tomorrow?',
     },
     {
       meaning: 'Yarın gece televizyonda ne izliyor olacak?',
+      possibleAnswer:
+        'I will be watching a new drama series on TV tomorrow night.',
       sentence: 'What will you be watching on TV tomorrow night?',
     },
     {
       meaning: 'O, yarın sabah masasında ne yapıyor olacak?',
+      possibleAnswer: 'She will be writing a report at her desk next morning.',
       sentence: 'What will she be doing at her desk next morning?',
     },
     {
       meaning: 'Onlar gelecek hafta proje ile ne yapıyor olacaklar?',
+      possibleAnswer:
+        'They will be finalizing the details of the project next week.',
       sentence: 'What will they be doing with the project next week?',
     },
     {
       meaning: 'Sanatçı yarın atölyesinde ne yapıyor olacak?',
+      possibleAnswer:
+        'The artist will be painting a mural in his studio tomorrow.',
       sentence: 'What will the artist be doing in his studio tomorrow?',
     },
     {
       meaning: 'Dansçılar gelecek haftanın gösterisinde ne yapıyor olacaklar?',
+      possibleAnswer:
+        "The dancers will be performing a ballet at next week's show.",
       sentence: "What will the dancers be performing at next week's show?",
     },
     {
       meaning: 'Öğretmenin hafta sonu boyunca neyi değerlendiriyor olacak?',
+      possibleAnswer: 'My teacher will be grading essays during the weekend.',
       sentence: 'What will your teacher be grading during the weekend?',
     },
     {
       meaning: 'Sen gelecek haftanın ziyafeti için ne pişiriyor olacak?',
+      possibleAnswer: "I will be cooking lasagna for next week's potluck.",
       sentence: "What will you be cooking for next week's potluck?",
     },
     {
       meaning: 'O, gelecek Cumartesi günü bahçede ne yapıyor olacak?',
+      possibleAnswer:
+        'She will be planting flowers in the garden next Saturday.',
       sentence: 'What will she be doing in the garden next Saturday?',
     },
     {
       meaning: 'Onlar yarın atölyede ne monte ediyor olacaklar?',
+      possibleAnswer:
+        'They will be assembling furniture in the workshop tomorrow.',
       sentence: 'What will they be assembling in the workshop tomorrow?',
     },
     {
       meaning: 'Bahçıvan gelecek hafta bahçeye ne dikiyor olacak?',
+      possibleAnswer:
+        'The gardener will be planting tomatoes in the garden next week.',
       sentence: 'What will the gardener be planting in the garden next week?',
     },
     {
       meaning: 'İnsanlar festival sırasında meydanda ne yapıyor olacaklar?',
+      possibleAnswer:
+        'People will be dancing and celebrating in the square during the festival.',
       sentence: 'What will people be doing in the square during the festival?',
     },
     {
       meaning:
         'Senin liderin gelecek haftanın toplantısında neyi tartışıyor olacak?',
+      possibleAnswer:
+        "My leader will be discussing the new strategy in next week's meeting.",
       sentence: "What will your leader be discussing in next week's meeting?",
     },
     {
       meaning: 'Gelecek ayki yardım etkinliğine ne bağışlıyor olacaksın?',
+      possibleAnswer:
+        'I will be donating clothes to the charity event next month.',
       sentence: 'What will you be donating to the charity event next month?',
     },
     {
       meaning:
         'O, gelecek hafta sonu çatıyı tamir etmek için ne kullanıyor olacak?',
+      possibleAnswer:
+        'He will be using a ladder and tools to fix the roof next weekend.',
       sentence: 'What will he be using to fix the roof next weekend?',
     },
     {
       meaning:
         'Onlar gelecek Cuma günü okul projesi için neyi çekiyor olacaklar?',
+      possibleAnswer:
+        'They will be filming interviews for the school project next Friday.',
       sentence: 'What will they be filming for the school project next Friday?',
     },
     {
       meaning: 'Garson partide ne servis ediyor olacak?',
+      possibleAnswer:
+        'The waitress will be serving drinks and appetizers at the party.',
       sentence: 'What will the waitress be serving at the party?',
     },
     {
       meaning: 'Sen gelecek Perşembe günü egzersiz için ne yapıyor olacaksın?',
+      possibleAnswer: 'For exercise next Thursday, I will be going for a run.',
       sentence: 'What will you be doing for exercise next Thursday?',
     },
     {
       meaning: 'Patronun gelecek haftaki toplantıda ne sunuyor olacak?',
+      possibleAnswer:
+        'My boss will be presenting the quarterly report at the meeting next week.',
       sentence: 'What will your boss be presenting at the meeting next week?',
     },
     {
       meaning: 'Turistler gelecek Salı günü şehirde ne keşfediyor olacaklar?',
+      possibleAnswer:
+        'The tourists will be exploring historical landmarks in the city next Tuesday.',
       sentence: 'What will the tourists be exploring in the city next Tuesday?',
     },
     {
       meaning: 'Senin öğretmenin gelecek hafta ders için ne hazırlıyor olacak?',
+      possibleAnswer:
+        'My teacher will be preparing a new lesson plan for the class next week.',
       sentence: 'What will your teacher be preparing for the class next week?',
     },
     {
       meaning:
         'Çocuklar sanat dersinde bir sonraki sefer neyi boyuyor olacaklar?',
+      possibleAnswer:
+        'The children will be painting landscapes in art class next time.',
       sentence: 'What will the children be painting in art class next time?',
     },
     {
       meaning: 'Fotoğrafçı etkinlikte neyi çekiyor olacak?',
+      possibleAnswer:
+        'The photographer will be shooting candid moments at the event.',
       sentence: 'What will the photographer be shooting at the event?',
     },
     {
       meaning:
         'Oyuncular bir sonraki oyun sırasında, devre arası boyunca ne yapıyor olacaklar?',
+      possibleAnswer:
+        'The players will be discussing tactics at half-time during next game.',
       sentence: 'What will the players be doing at half-time during next game?',
     },
     {
       meaning:
         'Komşun çarşamba günü arabasını temizlemek için ne kullanıyor olacak?',
+      possibleAnswer:
+        'My neighbor will be using a hose and sponge to clean his car next weekend.',
       sentence:
         'What will your neighbor be using to clean his car next weekend?',
     },
     {
       meaning: 'Sen gelecek ayki sağlık kontrolünde ne yapıyor olacaksın?',
+      possibleAnswer:
+        'I will be getting a physical examination for my health check-up next month.',
       sentence: 'What will you be doing for your health check-up next month?',
     },
     {
       meaning: 'O, gelecek hafta konferans için ne düzenliyor olacak?',
+      possibleAnswer:
+        'She will be arranging the schedule for the conference next week.',
       sentence: 'What will she be arranging for the conference next week?',
     },
     {
       meaning:
         'Onlar gelecek ayki müzik konseri için neyi çalışıyor olacaklar?',
+      possibleAnswer:
+        'They will be practicing their songs for the music concert next month.',
       sentence:
         'What will they be practicing for the music concert next month?',
     },
     {
       meaning: 'Sınıf arkadaşın tarih ödevi için ne araştırıyor olacak?',
+      possibleAnswer:
+        'My classmate will be researching World War II for the history assignment.',
       sentence:
         'What will your classmate be researching for the history assignment?',
     },
     {
       meaning:
         'İşçiler yarın sabah inşaat sahasında ne inşa ediyor olacaklar? ',
+      possibleAnswer:
+        'The workers will be constructing a new building at the site next morning.',
       sentence:
         'What will the workers be constructing at the site next morning?',
     },
     {
       meaning:
         'Resepsiyonist bir sonraki saatte ofiste ne kontrol ediyor olacak?',
+      possibleAnswer:
+        'The receptionist will be checking appointments in the office next hour.',
       sentence:
         'What will the receptionist be checking in the office next hour?',
     },
     {
       meaning: 'Bahçede gelecek bahar ne ekiyor olacaksın?',
+      possibleAnswer:
+        'I will be planting flowers and herbs in the garden next spring.',
       sentence: 'What will you be planting in the garden next spring?',
     },
     {
       meaning: 'O, gelecek çarşamba günü toplantıda neyi tartışıyor olacak?',
+      possibleAnswer:
+        'She will be discussing the new project in the meeting next Wednesday.',
       sentence: 'What will she be discussing in the meeting next Wednesday?',
     },
     {
       meaning: 'Onlar gelecek ayki teknoloji fuarında ne sergiliyor olacaklar?',
+      possibleAnswer:
+        'They will be showcasing their new software at the tech expo next month.',
       sentence: 'What will they be showcasing at the tech expo next month?',
     },
     {
       meaning: 'Senin antrenörün yarın spor salonunda neyi gösteriyor olacak?',
+      possibleAnswer:
+        'My trainer will be demonstrating new exercises in the gym tomorrow.',
       sentence: 'What will your trainer be demonstrating in the gym tomorrow?',
     },
     {
       meaning:
         'Sen gelecek hafta projeyi tamamlamak için neyi kullanıyor olacaksın?',
+      possibleAnswer:
+        'I will be using my laptop to complete the project next week.',
       sentence: 'What will you be using to complete the project next week?',
     },
     {
       meaning: 'O, yarın işte öğle yemeği için ne sipariş ediyor olacak?',
+      possibleAnswer: 'He will be ordering a salad for lunch at work tomorrow.',
       sentence: 'What will he be ordering for lunch at work tomorrow?',
     },
   ],
   B1: [
-    {meaning: 'Senin ismin nedir?', sentence: 'What is your name?'},
-    {meaning: 'Bu nedir?', sentence: 'What is this?'},
-    {meaning: 'Şu nedir ', sentence: 'What is that?'},
+    {
+      meaning: 'Senin ismin nedir?',
+      possibleAnswer: 'My name is Alex Johnson.',
+      sentence: 'What is your name?',
+    },
+    {
+      meaning: 'Bu nedir?',
+      possibleAnswer:
+        'This is a book about the history of ancient civilizations.',
+      sentence: 'What is this?',
+    },
+    {
+      meaning: 'Şu nedir ',
+      possibleAnswer: 'That is a painting by Vincent van Gogh.',
+      sentence: 'What is that?',
+    },
     {
       meaning: 'Senin en sevdiğin renk nedir?',
+      possibleAnswer: 'My favorite color is blue.',
       sentence: 'What is your favorite color?',
     },
-    {meaning: 'Onun mesleği nedir?', sentence: 'What is her job?'},
-    {meaning: 'Onun hobisi nedir?', sentence: 'What is his hobby?'},
+    {
+      meaning: 'Onun mesleği nedir?',
+      possibleAnswer: 'She is a software engineer at a tech company.',
+      sentence: 'What is her job?',
+    },
+    {
+      meaning: 'Onun hobisi nedir?',
+      possibleAnswer: 'His hobby is playing the guitar.',
+      sentence: 'What is his hobby?',
+    },
     {
       meaning: 'Bugün hava durumu nasıl?',
+      possibleAnswer: 'The weather today is sunny and warm.',
       sentence: 'What is the weather like today?',
     },
     {
       meaning: 'Senin babanın adı nedir?',
+      possibleAnswer: "My father's name is Robert.",
       sentence: "What is your father's name?",
     },
-    {meaning: 'Çantanda ne var?', sentence: 'What is in your bag?'},
+    {
+      meaning: 'Çantanda ne var?',
+      possibleAnswer: 'In my bag, I have a laptop, a notebook, and a pen.',
+      sentence: 'What is in your bag?',
+    },
     {
       meaning: 'Senin en sevdiğin yemek nedir?',
+      possibleAnswer: 'My favorite food is sushi.',
       sentence: 'What is your favorite food?',
     },
     {
       meaning: 'Bu akşam televizyonda ne var?',
+      possibleAnswer:
+        'There is a new episode of my favorite series on TV tonight.',
       sentence: 'What is on TV tonight?',
     },
-    {meaning: 'Saat kaç?', sentence: 'What is the time?'},
+    {
+      meaning: 'Saat kaç?',
+      possibleAnswer: 'The time is 3:45 PM.',
+      sentence: 'What is the time?',
+    },
     {
       meaning: 'Senin telefon numaran nedir?',
+      possibleAnswer: 'My phone number is 123-456-7890.',
       sentence: 'What is your phone number?',
     },
-    {meaning: 'Senin adresin nedir?', sentence: 'What is your address?'},
+    {
+      meaning: 'Senin adresin nedir?',
+      possibleAnswer: 'My address is 123 Main Street, Springfield.',
+      sentence: 'What is your address?',
+    },
     {
       meaning: 'Senin annenin işi nedir?',
+      possibleAnswer: 'My mother is a nurse at the local hospital.',
       sentence: "What is your mother's job?",
     },
     {
       meaning: 'Senin en iyi arkadaşının ismi nedir?',
+      possibleAnswer: "My best friend's name is Emily.",
       sentence: "What is your best friend's name?",
     },
     {
       meaning: 'Senin köpeğinin adı nedir?',
+      possibleAnswer: "My dog's name is Max.",
       sentence: "What is your dog's name?",
     },
-    {meaning: 'Senin kedinin adı nedir?', sentence: 'What is your cat’s name'},
+    {
+      meaning: 'Senin kedinin adı nedir?',
+      possibleAnswer: 'My cat’s name is Whiskers.',
+      sentence: 'What is your cat’s name',
+    },
     {
       meaning: 'Senin en sevdiğin film nedir?',
+      possibleAnswer: "My favorite movie is 'Inception'.",
       sentence: 'What is your favorite movie?',
     },
     {
       meaning: 'Senin en sevdiğin şarkı nedir?',
+      possibleAnswer: "My favorite song is 'Bohemian Rhapsody' by Queen.",
       sentence: 'What is your favorite song?',
     },
     {
       meaning: 'Senin en sevdiğin kitap nedir?',
+      possibleAnswer:
+        "My favorite book is 'To Kill a Mockingbird' by Harper Lee.",
       sentence: 'What is your favorite book?',
     },
     {
       meaning: 'Senin en sevdiğin hayvan nedir?',
+      possibleAnswer: 'My favorite animal is the dolphin.',
       sentence: 'What is your favorite animal?',
     },
     {
       meaning: 'Senin en sevdiğin sport nedir?',
+      possibleAnswer: 'My favorite sport is basketball.',
       sentence: 'What is your favorite sport?',
     },
-    {meaning: 'Bugünün tarihi nedir?', sentence: 'What is the date today?'},
+    {
+      meaning: 'Bugünün tarihi nedir?',
+      possibleAnswer: 'Today is July 25, 2024.',
+      sentence: 'What is the date today?',
+    },
     {
       meaning: 'Onun kız arkadaşının ismi nedir?',
+      possibleAnswer: "His girlfriend's name is Sarah.",
       sentence: "What is his girlfriend's name?",
     },
     {
       meaning: 'Senin ülkenin başkenti nedir?',
+      possibleAnswer: 'The capital of my country is Washington, D.C.',
       sentence: 'What is the capital of your country?',
     },
     {
       meaning: 'Onun en sevdiği renk nedir?',
+      possibleAnswer: 'Her favorite color is purple.',
       sentence: 'What is her favorite color?',
     },
     {
       meaning: 'Onun en sevdiği oyun nedir?',
+      possibleAnswer: 'His favorite game is chess.',
       sentence: 'What is his favorite game?',
     },
     {
       meaning: 'Senin en sevdiğin mevsim nedir?',
+      possibleAnswer: 'My favorite season is autumn.',
       sentence: 'What is your favorite season?',
     },
     {
       meaning: 'Senin kız kardeşinin ismi nedir?',
+      possibleAnswer: "My sister's name is Jessica.",
       sentence: "What is your sister's name?",
     },
     {
       meaning: 'Senin erkek kardeşin nasıl biridir?',
+      possibleAnswer: 'My brother is very kind and helpful.',
       sentence: 'What is your brother like?',
     },
     {
       meaning: 'Senin öğretmeninin adı nedir?',
+      possibleAnswer: "My teacher's name is Mr. Smith.",
       sentence: "What is your teacher's name?",
     },
-    {meaning: 'Senin odanın içinde ne var?', sentence: 'What is in your room?'},
+    {
+      meaning: 'Senin odanın içinde ne var?',
+      possibleAnswer: 'In my room, there is a bed, a desk, and a bookshelf.',
+      sentence: 'What is in your room?',
+    },
     {
       meaning: 'Senin en sevdiğin içecek nedir?',
+      possibleAnswer: 'My favorite drink is iced coffee.',
       sentence: 'What is your favorite drink?',
     },
     {
       meaning: 'Senin en sevdiğin ders nedir?',
+      possibleAnswer: 'My favorite subject is history.',
       sentence: 'What is your favorite subject?',
     },
     {
       meaning: 'Senin en sevdiğin oyun nedir?',
+      possibleAnswer: 'My favorite game is Monopoly.',
       sentence: 'What is your favorite game?',
     },
     {
       meaning: 'Senin en sevdiğin TV programı nedir?',
+      possibleAnswer: "My favorite TV show is 'Friends'.",
       sentence: 'What is your favorite TV show?',
     },
     {
       meaning: 'Senin en sevdiğin aktivite nedir?',
+      possibleAnswer: 'My favorite activity is hiking.',
       sentence: 'What is your favorite activity?',
     },
     {
       meaning: 'Senin ülkenin ana dili nedir?',
+      possibleAnswer: 'The main language in my country is English.',
       sentence: 'What is the main language in your country?',
     },
-    {meaning: 'Senin milliyetin nedir?', sentence: 'What is your nationality?'},
+    {
+      meaning: 'Senin milliyetin nedir?',
+      possibleAnswer: 'My nationality is American.',
+      sentence: 'What is your nationality?',
+    },
     {
       meaning: 'Senin en sevdiğin meyve nedir?',
+      possibleAnswer: 'My favorite fruit is mango.',
       sentence: 'What is your favorite fruit?',
     },
     {
       meaning: 'Senin en sevdiğin tatlı nedir?',
+      possibleAnswer: 'My favorite dessert is chocolate cake.',
       sentence: 'What is your favorite dessert?',
     },
     {
       meaning: 'Senin en sevdiğin atıştırmalık nedir?',
+      possibleAnswer: 'My favorite snack is popcorn.',
       sentence: 'What is your favorite snack?',
     },
     {
       meaning: 'Senin okulunun adı nedir?',
+      possibleAnswer: 'The name of my school is Green Valley High School.',
       sentence: 'What is the name of your school?',
     },
     {
       meaning: 'Senin en sevdiğin tatil nedir?',
+      possibleAnswer: 'My favorite holiday is Christmas.',
       sentence: 'What is your favorite holiday?',
     },
     {
       meaning: 'Senin evcil hayvanının adı nedir?',
+      possibleAnswer: "My pet's name is Bella.",
       sentence: "What is your pet's name?",
     },
     {
       meaning: 'Senin en sevdiğin dondurma aroması nedir?',
+      possibleAnswer: 'My favorite ice cream flavor is vanilla.',
       sentence: 'What is your favorite ice cream flavor?',
     },
     {
       meaning: 'Senin en sevdiğin sebze nedir?',
+      possibleAnswer: 'My favorite vegetable is broccoli.',
       sentence: 'What is your favorite vegetable?',
     },
-    {meaning: 'Ayakkabı numaran nedir?', sentence: 'What is your shoe size?'},
+    {
+      meaning: 'Ayakkabı numaran nedir?',
+      possibleAnswer: 'My shoe size is 9.',
+      sentence: 'What is your shoe size?',
+    },
     {
       meaning: 'Senin en sevdiğin park nedir?',
+      possibleAnswer: 'My favorite park is Central Park.',
       sentence: 'What is your favorite park?',
     },
     {
       meaning: 'Senin en sevdiğin oyuncak nedir?',
+      possibleAnswer: 'My favorite toy is a Lego set.',
       sentence: 'What is your favorite toy?',
     },
     {
       meaning: 'Senin erkek kardeşinin hobisi nedir?',
+      possibleAnswer: "My brother's hobby is painting.",
       sentence: "What is your brother's hobby?",
     },
     {
       meaning: 'Senin ebeveynlerinin meslekleri nedir?',
+      possibleAnswer: 'My father is an accountant, and my mother is a teacher.',
       sentence: "What are your parents' jobs?",
     },
     {
       meaning: 'Senin şehrinin ismi nedir?',
+      possibleAnswer: 'The name of my city is New York.',
       sentence: 'What is the name of your city?',
     },
     {
       meaning: 'Senin evcil hayvanlarının isimleri nelerdir?',
+      possibleAnswer: "My pets' names are Max and Whiskers.",
       sentence: 'What are the names of your pets?',
     },
     {
       meaning: 'Senin okuldaki en sevdiğin ders nedir?',
+      possibleAnswer: 'My favorite subject at school is science.',
       sentence: 'What is your favorite subject at school?',
     },
     {
       meaning: 'Senin en sevdiğin ayakkkabılar nedir?',
+      possibleAnswer: 'My favorite shoes are my black sneakers.',
       sentence: 'What are your favorite shoes?',
     },
-    {meaning: 'Senin sıranda neler var?', sentence: 'What is on your desk?'},
+    {
+      meaning: 'Senin sıranda neler var?',
+      possibleAnswer:
+        'On my desk, there is a computer, a lamp, and some books.',
+      sentence: 'What is on your desk?',
+    },
     {
       meaning: 'Sırt çantanın içinde neler var?',
+      possibleAnswer:
+        'In my backpack, there are textbooks, notebooks, and a water bottle.',
       sentence: 'What are the things in your backpack?',
     },
     {
       meaning: 'Senin öğretmeninin en sevdiği kitap nedir?',
+      possibleAnswer: "My teacher's favorite book is '1984' by George Orwell.",
       sentence: "What is your teacher's favorite book?",
     },
-    {meaning: 'Senin hobilerin nelerdir?', sentence: 'What are your hobbies?'},
+    {
+      meaning: 'Senin hobilerin nelerdir?',
+      possibleAnswer: 'My hobbies are reading, painting, and playing soccer.',
+      sentence: 'What are your hobbies?',
+    },
     {
       meaning: 'Senin en sevdiğin yemek nedir?',
+      possibleAnswer: 'My favorite dish is spaghetti carbonara.',
       sentence: 'What is your favorite dish?',
     },
     {
       meaning: 'Senin en sevdiğin meyveler neler?',
+      possibleAnswer:
+        'My favorite fruits are apples, bananas, and strawberries.',
       sentence: 'What are your favorite fruits?',
     },
     {
       meaning: 'Senin beslenme çantanda ne var?',
+      possibleAnswer:
+        'In my lunchbox, there is a sandwich, an apple, and a juice box.',
       sentence: 'What is in your lunchbox?',
     },
     {
       meaning: 'Gökkuşağının renkleri nelerdir?',
+      possibleAnswer:
+        'The colors of the rainbow are red, orange, yellow, green, blue, indigo, and violet.',
       sentence: 'What are the colors of the rainbow?',
     },
     {
       meaning: 'Senin gördüğün en iyi film nedir?',
+      possibleAnswer: "My favorite movie is 'The Lord of the Rings'.",
       sentence: 'What is your favorite movie?',
     },
     {
       meaning: 'Sen hangi dersleri çalışıyorsun?',
+      possibleAnswer:
+        'The subjects I study are math, science, English, and history.',
       sentence: 'What are the subjects you study?',
     },
     {
       meaning: 'Bu akşamki ana yemek nedir?',
+      possibleAnswer:
+        'The main dish tonight is grilled chicken with vegetables.',
       sentence: 'What is the main dish tonight?',
     },
     {
       meaning: 'Senin oynamayı sevdiğin oyunlar nelerdir?',
+      possibleAnswer:
+        'The games I like to play are soccer, chess, and video games.',
       sentence: 'What are the games you like to play?',
     },
     {
       meaning: 'Senin en sevdiğin oyuncak nedir?',
+      possibleAnswer: 'My favorite toy is a remote-controlled car.',
       sentence: 'What is your favorite toy?',
     },
     {
       meaning: 'Sen sahip olmak istediğin evcil hayvanlar nelerdir?',
+      possibleAnswer: 'The pets I like are dogs and cats.',
       sentence: 'What are the pets do you like?',
     },
     {
       meaning: 'Senin en sevdiğin kitabın başlığı nedir?',
+      possibleAnswer:
+        "The title of my favorite book is 'Harry Potter and the Sorcerer's Stone'.",
       sentence: 'What is the title of your favorite book?',
     },
     {
       meaning: 'Senin alışveriş listendeki ürünler nelerdir?',
+      possibleAnswer:
+        'The items on my grocery list are milk, bread, eggs, and bananas.',
       sentence: 'What are the items on your grocery list?',
     },
-    {meaning: 'Sen neyde iyisin? ', sentence: 'What are you good at?'},
+    {
+      meaning: 'Sen neyde iyisin? ',
+      possibleAnswer: 'I am good at playing the piano and solving puzzles.',
+      sentence: 'What are you good at?',
+    },
     {
       meaning: 'Senin babanın en sevdiği spor nedir?',
+      possibleAnswer: "My dad's favorite sport is football.",
       sentence: "What is your dad's favorite sport?",
     },
     {
       meaning: 'Senin haftasonu için planların neler?',
+      possibleAnswer:
+        'My plans for the weekend are to visit a museum and have a picnic.',
       sentence: 'What are your plans for the weekend?',
     },
     {
       meaning: 'Senin kız kardeşinin en sevdiği renk nedir?',
+      possibleAnswer: "My sister's favorite color is pink.",
       sentence: "What is your sister's favorite color?",
     },
     {
       meaning: 'Pizzada ana malzemeler nelerdir?',
+      possibleAnswer:
+        'The main ingredients in pizza are dough, tomato sauce, and cheese.',
       sentence: 'What are the main ingredients in pizza?',
     },
     {
       meaning: 'Senin en iyi arkadaşının kişiliği nasıl?',
+      possibleAnswer: 'My best friend is very funny and outgoing.',
       sentence: "What is your best friend's personality like?",
     },
     {
       meaning: 'Oyunun kuralları neler?',
+      possibleAnswer:
+        "The rules of the game are to score points by hitting the ball into the opponent's goal.",
       sentence: 'What are the rules of the game?',
     },
     {
       meaning: 'Bu caddenin adı nedir?',
+      possibleAnswer: 'The name of this street is Elm Street.',
       sentence: 'What is the name of this street?',
     },
     {
       meaning: 'Senin şehrindeki ana turistik yerler nelerdir? ',
+      possibleAnswer:
+        'The main attractions in my city are the zoo, the museum, and the amusement park.',
       sentence: 'What are the main attractions in your city?',
     },
     {
       meaning: 'Telefonunun markası nedir?',
+      possibleAnswer: "My phone's brand is Apple.",
       sentence: "What is your phone's brand?",
     },
     {
       meaning: 'Senin ülkende konuşulan diller nelerdir?',
+      possibleAnswer:
+        'The languages spoken in my country are English and Spanish.',
       sentence: 'What are the languages spoken in your country?',
     },
     {
       meaning: 'Senin en sevdiğin müzik türü nedir?',
+      possibleAnswer: 'My favorite type of music is rock.',
       sentence: 'What is your favorite type of music?',
     },
-    {meaning: 'Senin korkuların neler?', sentence: 'What are your fears?'},
+    {
+      meaning: 'Senin korkuların neler?',
+      possibleAnswer: 'My fears are heights and spiders.',
+      sentence: 'What are your fears?',
+    },
     {
       meaning: 'Senin gününün en sevdiğin kısmı nedir?',
+      possibleAnswer:
+        'The best part of my day is spending time with my family.',
       sentence: 'What is the best part of your day?',
     },
     {
       meaning: 'Bu kitabın ismi nedir?',
+      possibleAnswer: "The name of this book is 'The Great Gatsby'.",
       sentence: 'What is the name of this book?',
     },
     {
       meaning: 'Senin şehrindeki en büyük park nedir?',
+      possibleAnswer: 'The biggest park in my town is Central Park.',
       sentence: 'What is the biggest park in your town?',
     },
     {
       meaning: 'Senin pişirmeyi bildiğin yemekler nelerdir?',
+      possibleAnswer:
+        'The dishes I know how to cook are pasta, pancakes, and salad.',
       sentence: 'What are the dishes you know how to cook?',
     },
     {
       meaning: 'Dersimizin ana konusu nedir?',
+      possibleAnswer: 'The main topic of our lesson is climate change.',
       sentence: 'What is the main topic of our lesson?',
     },
     {
       meaning: 'Ülkendeki en popular sporlar nelerdir?',
+      possibleAnswer:
+        'The most popular sports in my country are football, basketball, and baseball.',
       sentence: 'What are the most popular sports in your country?',
     },
-    {meaning: 'Senin fikrin nedir?', sentence: 'What is your idea?'},
+    {
+      meaning: 'Senin fikrin nedir?',
+      possibleAnswer: 'My idea is to start a community garden.',
+      sentence: 'What is your idea?',
+    },
     {
       meaning: 'Senin Haftasonu günlük ev işlerin nelerdir?',
+      possibleAnswer:
+        'My weekend chores are cleaning my room and doing laundry.',
       sentence: 'What are your weekend chores?',
     },
     {
       meaning: 'Senin favori yiyeceğin nedir?',
+      possibleAnswer: 'My favorite food is pizza.',
       sentence: 'What is your favorite food?',
     },
     {
       meaning: 'Senin en sevdiğin TV programları nelerdir?',
+      possibleAnswer:
+        "My favorite TV shows are 'Breaking Bad' and 'Game of Thrones'.",
       sentence: 'What are your favorite TV shows?',
     },
     {
       meaning: 'Senin evine en yakın otobüs durağı neresi?',
+      possibleAnswer: 'The nearest bus stop to my house is two blocks away.',
       sentence: 'What is the nearest bus stop to your house?',
     },
     {
       meaning: 'Senin kültüründeki tipik kahvaltı yiyecekleri nelerdir?',
+      possibleAnswer:
+        'The typical breakfast foods in my culture are eggs, bacon, and toast.',
       sentence: 'What are the typical breakfast foods in your culture?',
     },
   ],
   B2: [
     {
       meaning: 'Sen kahvaltı için ne yersin?',
+      possibleAnswer: 'I eat cereal with milk for breakfast.',
       sentence: 'What do you eat for breakfast?',
     },
-    {meaning: 'O okulda ne giyer?', sentence: 'What does he wear to school?'},
+    {
+      meaning: 'O okulda ne giyer?',
+      possibleAnswer: 'He wears a uniform to school.',
+      sentence: 'What does he wear to school?',
+    },
     {
       meaning: 'Sen pazar günleri ne yaparsın?',
+      possibleAnswer: 'On Sundays, I go to the park and relax.',
       sentence: 'What do you do on Sundays?',
     },
-    {meaning: 'O neyi sever?', sentence: 'What does she like?'},
+    {
+      meaning: 'O neyi sever?',
+      possibleAnswer: 'She likes reading books and playing the piano.',
+      sentence: 'What does she like?',
+    },
     {
       meaning: 'Bizim marketten neye ihtiyacımız var?',
+      possibleAnswer: 'We need milk, bread, and eggs from the store.',
       sentence: 'What do we need from the store?',
     },
-    {meaning: 'Senin kedin ne yapar?', sentence: 'What does your cat do?'},
+    {
+      meaning: 'Senin kedin ne yapar?',
+      possibleAnswer: 'My cat likes to nap in the sun.',
+      sentence: 'What does your cat do?',
+    },
     {
       meaning: 'Sen parkta ne görürsün?',
+      possibleAnswer:
+        'In the park, I see children playing and people walking their dogs.',
       sentence: 'What do you see in the park?',
     },
-    {meaning: 'Bu düğme ne yapar?', sentence: 'What does this button do?'},
-    {meaning: 'Onlar neye çalışır?', sentence: 'What do they study?'},
-    {meaning: 'Senin annen ne pişirir?', sentence: 'What does your mom cook?'},
+    {
+      meaning: 'Bu düğme ne yapar?',
+      possibleAnswer: 'This button turns on the TV.',
+      sentence: 'What does this button do?',
+    },
+    {
+      meaning: 'Onlar neye çalışır?',
+      possibleAnswer: 'They study mathematics and science.',
+      sentence: 'What do they study?',
+    },
+    {
+      meaning: 'Senin annen ne pişirir?',
+      possibleAnswer: 'My mom cooks delicious pasta dishes.',
+      sentence: 'What does your mom cook?',
+    },
     {
       meaning: 'Sen öğle yemeğin ile ne içersin?',
+      possibleAnswer: 'I drink water with lunch.',
       sentence: 'What do you drink with lunch?',
     },
-    {meaning: 'Senin köpeğin ne yer?', sentence: 'What does your dog eat?'},
+    {
+      meaning: 'Senin köpeğin ne yer?',
+      possibleAnswer: 'My dog eats dry kibble and sometimes chicken.',
+      sentence: 'What does your dog eat?',
+    },
     {
       meaning: 'Sen okula ne getirirsin?',
+      possibleAnswer:
+        'I bring my backpack, notebooks, and a lunchbox to school.',
       sentence: 'What do you bring to school?',
     },
     {
       meaning: 'Senin öğretmenin ne söyler?',
+      possibleAnswer:
+        'My teacher says to always do your best and ask questions.',
       sentence: 'What does your teacher say?',
     },
     {
       meaning: 'Sen televizyonda ne izlersin?',
+      possibleAnswer: 'I watch documentaries and comedy shows on TV.',
       sentence: 'What do you watch on TV?',
     },
     {
       meaning: 'Senin bisikletinin neye ihtiyacı var?',
+      possibleAnswer: 'My bike needs new tires and a tune-up.',
       sentence: 'What does your bike need?',
     },
     {
       meaning: 'Sen geceleri ne okursun?',
+      possibleAnswer: 'I read mystery novels at night.',
       sentence: 'What do you read at night?',
     },
     {
       meaning: 'Senin baban ne tamir eder?',
+      possibleAnswer: 'My dad fixes the car and household appliances.',
       sentence: 'What does your dad fix?',
     },
     {
       meaning: 'Sen arkadaşlar ile ne oynarsın?',
+      possibleAnswer: 'I play soccer and board games with my friends.',
       sentence: 'What do you play with friends?',
     },
     {
       meaning: 'Senin kız kardeşin ne çizer?',
+      possibleAnswer: 'My sister draws pictures of animals and nature.',
       sentence: 'What does your sister draw?',
     },
     {
       meaning: 'Sen okulda ne kullanırsın?',
+      possibleAnswer: 'I use pencils, notebooks, and a laptop at school.',
       sentence: 'What do you use at school?',
     },
     {
       meaning: 'Senin kuzenin ne oynar?',
+      possibleAnswer: 'My cousin plays the guitar.',
       sentence: 'What does your cousin play?',
     },
     {
       meaning: 'Sen dışarıda ne görürsün?',
+      possibleAnswer: 'Outside, I see trees, cars, and people walking.',
       sentence: 'What do you see outside?',
     },
     {
       meaning: 'Senin telefonun neye sahip?',
+      possibleAnswer:
+        'My phone has apps for messaging, social media, and games.',
       sentence: 'What does your phone have?',
     },
     {
       meaning: 'Sen arkadaşlara ne dersin?',
+      possibleAnswer: 'I say hello and ask how they are doing.',
       sentence: 'What do you say to friends?',
     },
     {
       meaning: 'Senin erkek kardeşin ne oynar?',
+      possibleAnswer: 'My brother plays video games and basketball.',
       sentence: 'What does your brother play?',
     },
     {
       meaning: 'Sen dükkandan ne satin alırsın?',
+      possibleAnswer: 'I buy snacks, drinks, and stationery at the shop.',
       sentence: 'What do you buy at the shop?',
     },
-    {meaning: 'Güneş ne yapar?', sentence: 'What does the sun do?'},
+    {
+      meaning: 'Güneş ne yapar?',
+      possibleAnswer: 'The sun rises in the morning and sets in the evening.',
+      sentence: 'What does the sun do?',
+    },
     {
       meaning: 'Sen şu anda ne duyarsın?',
+      possibleAnswer: 'Right now, I hear birds chirping and cars passing by.',
       sentence: 'What do you hear right now?',
     },
     {
       meaning: 'Senin öğretmenin ne kullanır?',
+      possibleAnswer: 'My teacher uses a whiteboard and markers to teach.',
       sentence: 'What does your teacher use?',
     },
     {
       meaning: 'Sen okul ile ilgili neyi seversin?',
+      possibleAnswer:
+        'I like learning new things and meeting my friends at school.',
       sentence: 'What do you like about school?',
     },
     {
       meaning: 'Senin saçının neye ihtiyacı var?',
+      possibleAnswer: 'My hair needs shampoo and conditioner.',
       sentence: 'What does your hair need?',
     },
-    {meaning: 'Sen evde ne giyersin?', sentence: 'What do you wear at home?'},
-    {meaning: 'Senin araban neye sahip?', sentence: 'What does your car have?'},
+    {
+      meaning: 'Sen evde ne giyersin?',
+      possibleAnswer: 'I wear comfortable clothes at home.',
+      sentence: 'What do you wear at home?',
+    },
+    {
+      meaning: 'Senin araban neye sahip?',
+      possibleAnswer: 'My car has a GPS system and air conditioning.',
+      sentence: 'What does your car have?',
+    },
     {
       meaning: 'Sen oyun ile ilgili ne düşünürsün?',
+      possibleAnswer: 'I think the game is exciting and challenging.',
       sentence: 'What do you think of the game?',
     },
     {
       meaning: 'Senin çantan ne içerir?',
+      possibleAnswer: 'My bag contains books, a water bottle, and a wallet.',
       sentence: 'What does your bag contain?',
     },
     {
       meaning: 'Akşam yemeği için sen ne istersin?',
+      possibleAnswer: 'I want pizza for dinner.',
       sentence: 'What do you want for dinner?',
     },
-    {meaning: 'Senin balığın ne yer?', sentence: 'What does your fish eat?'},
+    {
+      meaning: 'Senin balığın ne yer?',
+      possibleAnswer: 'My fish eat flakes and pellets.',
+      sentence: 'What does your fish eat?',
+    },
     {
       meaning: 'Sen seyahate ne getirirsin?',
+      possibleAnswer: 'I bring clothes, toiletries, and a camera on a trip.',
       sentence: 'What do you bring on a trip?',
     },
     {
       meaning: 'Senin saatin ne gösterir?',
+      possibleAnswer: 'My clock shows the time and date.',
       sentence: 'What does your clock show?',
     },
     {
       meaning: 'Okuldan sonra sen ne yaparsın?',
+      possibleAnswer: 'After school, I do my homework and play outside.',
       sentence: 'What do you do after school?',
     },
     {
       meaning: 'Senin bitkinin neye ihtiyacı var?',
+      possibleAnswer: 'My plant needs water and sunlight.',
       sentence: 'What does your plant need?',
     },
     {
       meaning: 'Sen odanda ne bulursun?',
+      possibleAnswer: 'In my room, I find my bed, desk, and wardrobe.',
       sentence: 'What do you find in your room?',
     },
     {
       meaning: 'Senin evcil hayvanın neye ihtiyacı var?',
+      possibleAnswer: 'My pet needs food, water, and exercise.',
       sentence: 'What does your pet need?',
     },
     {
       meaning: 'Sen tatlı olarak ne yersin?',
+      possibleAnswer: 'I eat ice cream for dessert.',
       sentence: 'What do you eat for dessert?',
     },
-    {meaning: 'Senin kuşun ne görür?', sentence: 'What does your bird see?'},
+    {
+      meaning: 'Senin kuşun ne görür?',
+      possibleAnswer: 'My bird sees the outside world from its cage.',
+      sentence: 'What does your bird see?',
+    },
     {
       meaning: 'Sen plaja ne götürürsün?',
+      possibleAnswer:
+        'I take sunscreen, a towel, and a beach ball to the beach.',
       sentence: 'What do you take to the beach?',
     },
     {
       meaning: 'Senin arkadaşın ne getirir?',
+      possibleAnswer: 'My friend brings snacks and drinks to the party.',
       sentence: 'What does your friend bring?',
     },
     {
       meaning: 'Sen akşamları ne izlersin?',
+      possibleAnswer: 'In the evening, I watch the news and a movie.',
       sentence: 'What do you watch in the evening?',
     },
-    {meaning: 'Senin lamban ne yapar?', sentence: 'What does your lamp do?'},
+    {
+      meaning: 'Senin lamban ne yapar?',
+      possibleAnswer: 'My lamp provides light for reading.',
+      sentence: 'What does your lamp do?',
+    },
     {
       meaning: 'Sen kahvaltı için ne hazırlarsın?',
+      possibleAnswer: 'I prepare toast and scrambled eggs for breakfast.',
       sentence: 'What do you prepare for breakfast?',
     },
     {
       meaning: 'Senin erkek kardeşin okuldan sonra ne yapar?',
+      possibleAnswer:
+        'My brother plays soccer and does his homework after school.',
       sentence: 'What does your brother do after school?',
     },
     {
       meaning: 'Bizim sınıf için neye ihtiyacımız var?',
+      possibleAnswer: 'We need notebooks, pens, and textbooks for the class.',
       sentence: 'What do we need for the class?',
     },
-    {meaning: 'O işe ne giyer?', sentence: 'What does she wear to work?'},
+    {
+      meaning: 'O işe ne giyer?',
+      possibleAnswer: 'She wears a business suit to work.',
+      sentence: 'What does she wear to work?',
+    },
     {
       meaning: 'Sen hafta sonları ne yaparsın?',
+      possibleAnswer:
+        'On weekends, I relax, go hiking, and spend time with family.',
       sentence: 'What do you do on weekends?',
     },
     {
       meaning: 'Senin baban geçinmek için yapar?',
+      possibleAnswer: 'My father is an engineer.',
       sentence: 'What does your father do for a living?',
     },
     {
       meaning: 'Onlar mola sırasında ne oynarlar?',
+      possibleAnswer: 'They play tag and hide-and-seek during recess.',
       sentence: 'What do they play during recess?',
     },
     {
       meaning: 'Senin öğretmenin ödev hakkında ne der?',
+      possibleAnswer: 'My teacher says homework is important for practice.',
       sentence: 'What does your teacher say about homework?',
     },
     {
       meaning: 'Sen televizyonda ne izlersin?',
+      possibleAnswer: 'I watch nature documentaries on TV.',
       sentence: 'What do you watch on TV?',
     },
     {
       meaning: 'Senin kedin neyi severek yer?',
+      possibleAnswer: 'My cat likes to eat fish and cat food.',
       sentence: 'What does your cat like to eat?',
     },
     {
       meaning: 'Senin arkadaşların okuldan sonra ne yapar? ',
+      possibleAnswer:
+        'My friends play sports and do their homework after school.',
       sentence: 'What do your friends do after school?',
     },
     {
       meaning: 'Köpek sabah ne yapar? ',
+      possibleAnswer: 'The dog goes for a walk in the morning.',
       sentence: 'What does the dog do in the morning?',
     },
     {
       meaning: 'Sen İngilizce dersine ne getirirsin?',
+      possibleAnswer: 'I bring a notebook and a pen to my English class.',
       sentence: 'What do you bring to your English class?',
     },
     {
       meaning: 'Senin annen akşam yemeği için ne pişirir?',
+      possibleAnswer: 'My mom cooks spaghetti for dinner.',
       sentence: 'What does your mom cook for dinner?',
     },
     {
       meaning: 'Sen öğle yemeğiyle birlikte ne içersin?',
+      possibleAnswer: 'I drink apple juice with lunch.',
       sentence: 'What do you drink with lunch?',
     },
     {
       meaning: 'Senin kız kardeşin boş vaktinde ne yapar?',
+      possibleAnswer: 'My sister reads books and paints in her free time.',
       sentence: 'What does your sister do in her free time?',
     },
     {
       meaning: 'Senin ülkende insanlar neyi kutlar?',
+      possibleAnswer:
+        'People celebrate Independence Day and New Year in my country.',
       sentence: 'What do people celebrate in your country?',
     },
-    {meaning: 'Bu düğme ne yapar?', sentence: 'What does this button do?'},
+    {
+      meaning: 'Bu düğme ne yapar?',
+      possibleAnswer: 'This button starts the washing machine.',
+      sentence: 'What does this button do?',
+    },
     {
       meaning: 'Çocuklar oyun alanında ne yapar?',
+      possibleAnswer: 'Children swing and slide in the playground.',
       sentence: 'What do children do in the playground?',
     },
     {
       meaning: 'Senin büyükbaban bahçede ne yapar?',
+      possibleAnswer: 'My grandfather plants vegetables in the garden.',
       sentence: 'What does your grandfather do in the garden?',
     },
     {
       meaning: 'Sen yatmadan önce ne okursun?',
+      possibleAnswer: 'I read a novel before bed.',
       sentence: 'What do you read before bed?',
     },
-    {meaning: 'Postacı ne getirir?', sentence: 'What does the postman bring?'},
+    {
+      meaning: 'Postacı ne getirir?',
+      possibleAnswer: 'The postman brings letters and packages.',
+      sentence: 'What does the postman bring?',
+    },
     {
       meaning: 'Sen parkta ne görürsün?',
+      possibleAnswer: 'At the park, I see flowers, trees, and people jogging.',
       sentence: 'What do you see at the park?',
     },
     {
       meaning: 'Senin öğretmenin öğle yemeği boyunca ne yapar?',
+      possibleAnswer: 'My teacher grades papers during lunch.',
       sentence: 'What does your teacher do during lunch?',
     },
     {
       meaning: 'Sen yazmak için ne kullanırsın? ',
+      possibleAnswer: 'I use a pen and paper to write.',
       sentence: 'What do you use to write?',
     },
     {
       meaning: 'Senin akıllı telefonun ne yapar?',
+      possibleAnswer:
+        'My smartphone makes calls, sends messages, and takes photos.',
       sentence: 'What does your smartphone do?',
     },
     {
       meaning: 'Sen yeni film hakkında ne düşünüyorsun?',
+      possibleAnswer: 'I think the new movie is fantastic and thrilling.',
       sentence: 'What do you think about the new movie?',
     },
     {
       meaning: 'Senin komşun geçinmek için ne yapar?',
+      possibleAnswer: 'My neighbor is a firefighter.',
       sentence: 'What does your neighbor do for work?',
     },
     {
       meaning: 'Senin ebeveynlerin televizyonda ne izler?',
+      possibleAnswer: 'My parents watch news and drama series on television.',
       sentence: 'What do your parents watch on television?',
     },
     {
       meaning: 'Arabanın sorunsuz çalışması için neye ihtiyacı var?',
+      possibleAnswer:
+        'The car needs regular maintenance and fuel to run smoothly.',
       sentence: 'What does the car need to run smoothly?',
     },
     {
       meaning: 'Sen okulun ile ilgili neyi seversin? ',
+      possibleAnswer:
+        'I like the friendly teachers and the variety of extracurricular activities at my school.',
       sentence: 'What do you like about your school?',
     },
     {
       meaning: 'Senin arkadaşın partide ne giyer? ',
+      possibleAnswer: 'My friend wears a stylish dress to the party.',
       sentence: 'What does your friend wear to the party?',
     },
     {
       meaning: 'Sen marketten ne alırsın?',
+      possibleAnswer:
+        'I buy fruits, vegetables, and snacks at the grocery store.',
       sentence: 'What do you buy at the grocery store?',
     },
     {
       meaning: 'Hava bugün nasıl görünüyor?',
+      possibleAnswer: 'The weather today looks sunny and bright.',
       sentence: 'What does the weather look like today?',
     },
     {
       meaning: 'Sen yeni biriyle tanıştığında ne söylersin?',
+      possibleAnswer: 'I say, ""Nice to meet you,"" when I meet someone new.',
       sentence: 'What do you say when you meet someone new?',
     },
     {
       meaning: 'Senin antrenörün takım hakkında ne söyler?',
+      possibleAnswer: 'My coach says the team is improving and working hard.',
       sentence: 'What does your coach say about the team?',
     },
     {
       meaning: 'Senin öğretmenlerin senden ne bekliyor?',
+      possibleAnswer:
+        'My teachers expect me to do my best and participate in class.',
       sentence: 'What do your teachers expect from you?',
     },
     {
       meaning: 'Senin patronun genellikle senden ne yapmanı ister? ',
+      possibleAnswer:
+        'My boss typically asks me to complete reports and attend meetings.',
       sentence: 'What does your boss typically ask you to do?',
     },
     {
       meaning: 'Sen üzgün hissetiğinde ne yaparsın?',
+      possibleAnswer:
+        'When I feel sad, I listen to music and talk to a friend.',
       sentence: 'What do you do when you feel sad?',
     },
     {
       meaning: 'Senin şehrin turistlere ne sunuyor?',
+      possibleAnswer:
+        'My city offers tourists museums, parks, and historical sites.',
       sentence: 'What does your city offer tourists?',
     },
     {
       meaning: 'Sen son tatilin hakkında ne düşünüyorsun?',
+      possibleAnswer: 'I think my last holiday was relaxing and fun.',
       sentence: 'What do you think of your last holiday?',
     },
     {
       meaning: 'Senin evcil hayvanın sen evde değilken ne yapar?',
+      possibleAnswer:
+        "My pet usually sleeps and plays with toys when I'm not home.",
       sentence: "What does your pet do when you're not home?",
     },
     {
       meaning: 'Öğrenciler kütüphanede ne yapar?',
+      possibleAnswer: 'Students read, study, and borrow books in the library.',
       sentence: 'What do students do in the library?',
     },
     {
       meaning: 'Senin bahçen ne üretiyor?',
+      possibleAnswer: 'My garden produces tomatoes, carrots, and herbs.',
       sentence: 'What does your garden produce?',
     },
     {
       meaning: 'Sen sağlıklı kalmak için ne yaparsın?',
+      possibleAnswer:
+        'To stay healthy, I exercise regularly and eat a balanced diet.',
       sentence: 'What do you do to stay healthy?',
     },
     {
       meaning: 'Senin ailen Pazarları ne yaparlar?',
+      possibleAnswer:
+        'On Sundays, my family goes to church and has a big lunch together.',
       sentence: 'What does your family do on Sundays?',
     },
     {
       meaning: 'Sen pencerenden dışarı baktığında ne görürsün?',
+      possibleAnswer: 'When I look out my window, I see the street and trees.',
       sentence: 'What do you see when you look out your window?',
     },
     {
       meaning: 'Senin öğretmenin ödevlerini kontrol etmek için ne kullanır? ',
+      possibleAnswer: 'My teacher uses a red pen to check my homework.',
       sentence: 'What does your teacher use to check your homework?',
     },
     {
       meaning: 'Sen okuldaki neyi en zorlayıcı bulursun?',
+      possibleAnswer: 'I find math the most challenging subject in school.',
       sentence: 'What do you find most challenging in school?',
     },
     {
       meaning: 'Senin bilgisayarın başladığında ne yapar? ',
+      possibleAnswer:
+        'When it starts up, my computer loads the operating system and applications.',
       sentence: 'What does your computer do when it starts up?',
-    },
-  ],
-  'A2-G': [
-    {
-      meaning: 'Sen okuldan sonra ne yapacaksın?',
-      sentence: 'What are you going to do after school?',
-    },
-    {
-      meaning: 'O kahvaltıda ne yiyecek?',
-      sentence: 'What is she going to eat for breakfast?',
-    },
-    {
-      meaning: 'Onlar mola sırasında ne oynayacaklar?',
-      sentence: 'What are they going to play at recess?',
-    },
-    {
-      meaning: 'O bu akşam televizyonda ne izleyecek?',
-      sentence: 'What is he going to watch on TV tonight?',
-    },
-    {
-      meaning: 'Biz İngilizce dersinde ne çalışacağız?',
-      sentence: 'What are we going to study in English class?',
-    },
-    {
-      meaning: 'Senin baban evde neyi tamir edecek?',
-      sentence: 'What is your father going to fix in the house?',
-    },
-    {
-      meaning: 'Senin Öğretmenin bugün neyi açıklayacak?',
-      sentence: 'What is your teacher going to explain today?',
-    },
-    {
-      meaning: 'Sen mağazadan ne alacaksın?',
-      sentence: 'What are you going to buy at the store?',
-    },
-    {
-      meaning: 'Sen akşam yemeği için ne yapacaksın? ',
-      sentence: 'What are you going to make for dinner?',
-    },
-    {
-      meaning: 'Ebeveynlerin Pazar günü ne pişirecek?',
-      sentence: 'What are your parents going to cook on Sunday?',
-    },
-    {
-      meaning: 'Köpeğin bu öğleden sonra ne yapacak?',
-      sentence: 'What is your dog going to do this afternoon?',
-    },
-    {
-      meaning: 'Biz toplantıda neyi tartışacağız?',
-      sentence: 'What are we going to discuss at the meeting?',
-    },
-    {
-      meaning: 'Kedi ne ile oynayacak?',
-      sentence: 'What is the cat going to play with?',
-    },
-    {
-      meaning: 'Sen resim dersinde ne çizeceksin?',
-      sentence: 'What are you going to draw in art class?',
-    },
-    {
-      meaning: 'Senin kuzenin pikniğe ne getirecek?',
-      sentence: 'What is your cousin going to bring to the picnic?',
-    },
-    {
-      meaning: 'Sen bu hafta sonu ne yapacaksın?',
-      sentence: 'What are you going to do this weekend?',
-    },
-    {
-      meaning: 'Sen tatlı için ne seçeceksin?',
-      sentence: 'What are you going to choose for dessert?',
-    },
-    {
-      meaning: 'Senin komşun bahçeye ne ekecek?',
-      sentence: 'What is your neighbor going to plant in the garden?',
-    },
-    {
-      meaning: 'Sen günlüğüne ne yazacaksın?',
-      sentence: 'What are you going to write in your journal?',
-    },
-    {
-      meaning: 'Sen konserde sen ne söyleyeceksin?',
-      sentence: 'What are you going to sing at the concert?',
-    },
-    {
-      meaning: 'Senin annen senin notların hakkında ne diyecek?',
-      sentence: 'What is your mother going to say about your grades?',
-    },
-    {
-      meaning: 'Çocuklar yarın ne oynayacaklar?',
-      sentence: 'What are the children going to play tomorrow?',
-    },
-    {
-      meaning: 'Sen eski oyuncaklarınla ne yapacaksın?',
-      sentence: 'What are you going to do with your old toys?',
-    },
-    {
-      meaning: 'Sen yaz tatili boyunca ne yapacaksın?',
-      sentence: 'What are you going to do during the summer break?',
-    },
-    {
-      meaning: 'Senin teyzen/halan Şükran Günü için ne getirecek?',
-      sentence: 'What is your aunt going to bring for Thanksgiving?',
-    },
-    {
-      meaning: 'Sen arkadaşına ne söyleyeceksin?',
-      sentence: 'What are you going to say to your friend?',
-    },
-    {
-      meaning: 'Sen müzik dersinde ne pratiği yapacaksın?',
-      sentence: 'What are you going to practice in music class?',
-    },
-    {
-      meaning: 'Sen İnternette ne arayacaksın?',
-      sentence: 'What are you going to search on the internet?',
-    },
-    {
-      meaning: 'Senin baban garajda neyi tamir edecek?',
-      sentence: 'What is your dad going to repair in the garage?',
-    },
-    {
-      meaning: 'Sen dans dersinde ne öğreneceksin?',
-      sentence: 'What are you going to learn in dance class?',
-    },
-    {
-      meaning: 'Sen annenin doğum günü için ne yapacaksın?',
-      sentence: "What are you going to do for your mom's birthday?",
-    },
-    {
-      meaning: 'Senin en iyi arkadaşın restoranda ne sipariş edecek?',
-      sentence: 'What is your best friend going to order at the restaurant?',
-    },
-    {
-      meaning: 'Sen sinemada ne izleyeceksin?',
-      sentence: 'What are you going to watch at the cinema?',
-    },
-    {
-      meaning: 'Senin öğretmenin sınıfa ne getirecek?',
-      sentence: 'What is your teacher going to bring to class?',
-    },
-    {
-      meaning: 'Sen Cadılar Bayramı için ne yapacaksın?',
-      sentence: 'What are you going to do for Halloween?',
-    },
-    {
-      meaning: 'Okul arasında sen ne oynayacaksın?',
-      sentence: 'What are you going to play during the school break?',
-    },
-    {
-      meaning: 'Akşam yemeği için senin baban ne pişirecek?',
-      sentence: 'What is your father going to cook for dinner?',
-    },
-    {
-      meaning: 'Okul panayırına sen ne getireceksin?',
-      sentence: 'What are you going to bring to the school fair?',
-    },
-    {
-      meaning: 'Mezuniyetten sonra senin arkadaşın ne yapacak?',
-      sentence: 'What is your friend going to do after graduation?',
-    },
-    {
-      meaning: 'Sen Sonraki sanat projesi için ne yapacaksın?',
-      sentence: 'What are you going to do for your next art project?',
-    },
-    {
-      meaning: 'Senin annen bu akşam televizyonda ne izleyecek?',
-      sentence: 'What is your mom going to watch on TV tonight?',
-    },
-    {
-      meaning: 'Sen ve arkadaşların bu cuma ne yapacaksınız?',
-      sentence: 'What are you going to do with your friends this Friday?',
-    },
-    {
-      meaning: 'Senin öğretmenin fen dersinde ne gösterecek?',
-      sentence: 'What is your teacher going to show in science class?',
-    },
-    {
-      meaning: 'Sen bir sonraki tatilinde ne yapacaksın?',
-      sentence: 'What are you going to do on your next holiday?',
-    },
-    {
-      meaning: 'Senin kuzenin yeni daire için ne satın alacak?',
-      sentence: 'What is your cousin going to buy for his new apartment?',
-    },
-    {
-      meaning: 'Sen bilgisayarda ne oynayacaksın?',
-      sentence: 'What are you going to play on the computer?',
-    },
-    {
-      meaning: 'Senin komşun arabasında neyi tamir edecek?',
-      sentence: 'What is your neighbor going to fix on his car?',
-    },
-    {
-      meaning: 'Sen egzersiz için ne yapacaksın?',
-      sentence: 'What are you going to do for exercise?',
-    },
-    {
-      meaning: 'Senin kardeşin kolejde neyi çalışacak?',
-      sentence: 'What is your brother going to study in college?',
-    },
-    {
-      meaning: 'Sen senin yeni odan için ne alacaksın?',
-      sentence: 'What are you going to buy for your new room?',
-    },
-    {
-      meaning: 'Senin öğretmenin sınıfa ne okuyacak?',
-      sentence: 'What is your teacher going to read to the class?',
-    },
-    {
-      meaning: 'Sen spor dersinde ne yapacaksın?',
-      sentence: 'What are you going to do in the gym class?',
-    },
-    {
-      meaning: 'Senin ailen barbeküde ne yiyecek?',
-      sentence: 'What is your family going to eat at the barbecue?',
-    },
-    {
-      meaning: 'Sen kütüphanede ne yapacaksın?',
-      sentence: 'What are you going to do at the library?',
-    },
-    {
-      meaning: 'Senin amcan av sezonunda ne avlayacak?',
-      sentence: 'What is your uncle going to hunt during the hunting season?',
-    },
-    {
-      meaning: 'Sen okul orkestrasında ne çalacaksın?',
-      sentence: 'What are you going to play in the school band?',
-    },
-    {
-      meaning: 'Senin komşun evini ne renge boyayacak?',
-      sentence: 'What is your neighbor going to paint his house?',
-    },
-    {
-      meaning: 'Sen yarın öğretmenine ne soracaksın?',
-      sentence: 'What are you going to ask your teacher tomorrow?',
-    },
-    {
-      meaning: 'Senin arkadaşın onun doğum günü için ne alacak?',
-      sentence: 'What is your friend going to get for his birthday?',
-    },
-    {
-      meaning: 'Sen Noel tatili boyunca ne yapacaksın?',
-      sentence: 'What are you going to do during the Christmas break?',
-    },
-    {
-      meaning: 'Senin baban atölyesinde ne tamir edecek?',
-      sentence: 'What is your father going to fix in his workshop?',
-    },
-    {
-      meaning: 'Sen arkadaşının pijama partisinde ne yapacaksın?',
-      sentence: 'What are you going to do at your friend’s sleepover?',
-    },
-    {
-      meaning: 'Senin annen Şükran Günü yemeği için ne hazırlayacak?',
-      sentence: 'What is your mother going to prepare for Thanksgiving dinner?',
-    },
-    {
-      meaning: 'Senin el sanatları dersinde ne yapacaksın?',
-      sentence: 'What are you going to build in your craft class?',
-    },
-    {
-      meaning: 'Senin kuzenin sana bilgisayarında ne gösterecek?',
-      sentence: 'What is your cousin going to show you on his computer?',
-    },
-    {
-      meaning: 'Sen partide ne içeceksin?',
-      sentence: 'What are you going to drink at the party?',
-    },
-    {
-      meaning: 'Sen marketten ne alacaksın?',
-      sentence: 'What are you going to buy at the supermarket?',
-    },
-    {
-      meaning: 'Senin baban tiyatroda ne izleyecek?',
-      sentence: 'What is your dad going to watch at the theater?',
-    },
-    {
-      meaning: 'Sen kütüphanede ne arayacaksın?',
-      sentence: 'What are you going to search for at the library?',
-    },
-    {
-      meaning: 'Senin kız kardeşin aile gecesi için ne pişirecek?',
-      sentence: 'What is your sister going to cook for the family night?',
-    },
-    {
-      meaning: 'Sen gelecek ay hangi kitabı okuyacaksın?',
-      sentence: 'What book are you going to read next month?',
-    },
-    {
-      meaning: 'Sen ve arkadaşların hangi bulmacayı çözeceksiniz?',
-      sentence: 'What puzzle are you going to solve with your friends?',
-    },
-    {
-      meaning: 'Sen yetenek gösterisinde hangi şarkıyı söyleyeceksin?',
-      sentence: 'What song are you going to sing at the talent show?',
-    },
-    {
-      meaning: "Sen Anneler Günü'nde annen için ne yapacaksın?",
-      sentence: 'What are you going to do for your mother on Mother’s Day?',
-    },
-    {
-      meaning: 'Sen bu bahar bahçene ne ekeceksin?',
-      sentence: 'What are you going to plant in your garden this spring?',
-    },
-    {
-      meaning: "Sen YouTube'da hangi videoyu izleyeceksin?",
-      sentence: 'What video are you going to watch on YouTube?',
-    },
-    {
-      meaning: 'Sen senin telefonuna hangi uygulamayı indireceksin?',
-      sentence: 'What app are you going to download on your phone?',
-    },
-    {
-      meaning: 'Sen bu hafta sonu odanda neyi temizleyeceksin?',
-      sentence: 'What are you going to clean in your room this weekend?',
-    },
-    {
-      meaning: 'Sen garaj satışında neyi satacaksın?',
-      sentence: 'What are you going to sell at the garage sale?',
-    },
-    {
-      meaning: 'Sen yaz tatilinde hangi beceriyi öğreneceksin?',
-      sentence: 'What skill are you going to learn during summer vacation?',
-    },
-    {
-      meaning: 'Sen biriktirdiğin parayı ne yapacaksın?',
-      sentence: 'What are you going to do with the money you saved?',
-    },
-    {
-      meaning: 'Sen Internette ne arayacaksın?',
-      sentence: 'What are you going to search for on the internet?',
-    },
-    {
-      meaning: 'Sen hobin için hangi projeyle başlayacaksın?',
-      sentence: 'What project are you going to start for your hobby?',
-    },
-    {
-      meaning: 'Sen kamp gezisi için ne paketleyeceksin?',
-      sentence: 'What are you going to pack for your camping trip?',
-    },
-    {
-      meaning: 'Sen marketten ne alacaksın?',
-      sentence: 'What are you going to buy at the grocery store?',
-    },
-    {
-      meaning: 'Sen partide hangi şakayı yapacaksın?',
-      sentence: 'What joke are you going to tell at the party?',
-    },
-    {
-      meaning: 'Sen evde yardım etmek için ne yapacaksın?',
-      sentence: 'What are you going to do to help out at home?',
-    },
-    {
-      meaning: 'Sen yeni restoranda hangi yemeği deneyeceksin?',
-      sentence: 'What dish are you going to try at the new restaurant?',
-    },
-    {
-      meaning: 'Sen okul toplantısında ne yapacaksın?',
-      sentence: 'What are you going to do during the school assembly?',
-    },
-    {
-      meaning: 'Sen seçmeli ders olarak neyi seçeceksin?',
-      sentence: 'What are you going to choose for your elective subject?',
-    },
-    {
-      meaning: 'Sen bilgisayarında hangi oyunu oynayacaksın?',
-      sentence: 'What game are you going to play on your computer?',
-    },
-    {
-      meaning: 'Sen fitness merkezinde ne yapacaksın?',
-      sentence: 'What are you going to do at the fitness center?',
-    },
-    {
-      meaning: 'Senin yeni akvaryumun için ne alacaksın?',
-      sentence: 'What are you going to buy for your new aquarium?',
-    },
-    {
-      meaning: 'Sen sınıf için hangi konuşmayı hazırlayacaksın?',
-      sentence: 'What speech are you going to prepare for class?',
-    },
-    {
-      meaning: 'Sen bu öğleden sonra parkta ne yapacaksın?',
-      sentence: 'What are you going to do at the park this afternoon?',
-    },
-    {
-      meaning: 'Sen kütüphanede ne arayacaksın?',
-      sentence: 'What are you going to search for in the library?',
-    },
-    {
-      meaning: 'Sen arkadaşının evinde hangi filmi izleyeceksin?',
-      sentence: 'What movie are you going to watch at your friend’s house?',
-    },
-    {
-      meaning: 'Sen küçük kız kardeşinle ne oynayacaksın?',
-      sentence: 'What are you going to play with your little sister?',
-    },
-    {
-      meaning: 'Sen hayvanat bahçesinde ne yapacaksın?',
-      sentence: 'What are you going to do at the zoo?',
-    },
-    {
-      meaning: 'Sen bu yıl hangi yeni sporu deneyeceksin?',
-      sentence: 'What new sport are you going to try this year?',
     },
   ],
   B3: [
     {
       meaning: 'Sen şu anda ne yapıyorsun?',
+      possibleAnswer: 'Right now, I am typing on my computer.',
       sentence: 'What are you doing right now?',
     },
-    {meaning: 'O bugün ne giyiyor?', sentence: 'What is she wearing today?'},
+    {
+      meaning: 'O bugün ne giyiyor?',
+      possibleAnswer: 'Today, she is wearing a blue dress.',
+      sentence: 'What is she wearing today?',
+    },
     {
       meaning: 'Onlar öğle yemeği için ne yiyorlar?',
+      possibleAnswer: 'They are eating sandwiches and fruit for lunch.',
       sentence: 'What are they eating for lunch?',
     },
     {
       meaning: 'O şu anda ne okuyor?',
+      possibleAnswer: 'At the moment, he is reading a mystery novel.',
       sentence: 'What is he reading at the moment?',
     },
     {
       meaning: 'Biz bugün ne çalışıyoruz?',
+      possibleAnswer: 'Today, we are studying world history.',
       sentence: 'What are we studying today?',
     },
-    {meaning: 'Senin köpeğin ne yapıyor?', sentence: 'What is your dog doing?'},
+    {
+      meaning: 'Senin köpeğin ne yapıyor?',
+      possibleAnswer: 'My dog is napping on the couch.',
+      sentence: 'What is your dog doing?',
+    },
     {
       meaning: 'Senin ebeveynlerin akşam yemeği için ne pişiriyorlar?',
+      possibleAnswer: 'My parents are cooking pasta for dinner.',
       sentence: 'What are your parents cooking for dinner?',
     },
     {
       meaning: 'Senin erkek kardeşin televizyonda ne izliyor?',
+      possibleAnswer: 'My brother is watching a soccer match on TV.',
       sentence: 'What is your brother watching on TV?',
     },
     {
       meaning: 'Senin arkadaşların parkta ne oynuyor?',
+      possibleAnswer: 'My friends are playing basketball in the park.',
       sentence: 'What are your friends playing in the park?',
     },
     {
       meaning: 'Senin öğretmenin şu anda neyi açıklıyor?',
+      possibleAnswer: 'My teacher is explaining the rules of grammar now.',
       sentence: 'What is your teacher explaining now?',
     },
     {
       meaning: 'Pencerenin dışındaki kuşlar ne yapıyorlar?',
+      possibleAnswer:
+        'The birds are chirping and building a nest outside the window.',
       sentence: 'What are the birds doing outside the window?',
     },
     {
       meaning: 'O çantasında ne arıyor?',
+      possibleAnswer: 'She is looking for her keys in her bag.',
       sentence: 'What is she looking for in her bag?',
     },
     {
       meaning: 'Sen defterine ne çiziyorsun?',
+      possibleAnswer: 'I am drawing a landscape in my notebook.',
       sentence: 'What are you drawing in your notebook?',
     },
     {
       meaning: 'O bilgisayarında ne yazıyor?',
+      possibleAnswer: 'He is typing an email on his computer.',
       sentence: 'What is he typing on his computer?',
     },
     {
       meaning: 'Onlar bahçede ne inşa ediyorlar?',
+      possibleAnswer: 'They are building a treehouse in the backyard.',
       sentence: 'What are they building in the backyard?',
     },
     {
       meaning: 'Senin kedin ne kovalıyor?',
+      possibleAnswer: 'My cat is chasing a toy mouse.',
       sentence: 'What is your cat chasing?',
     },
     {
       meaning: 'Komşular bahçelerinde ne yapıyorlar?',
+      possibleAnswer: 'The neighbors are planting flowers in their garden.',
       sentence: 'What are the neighbors doing in their garden?',
     },
     {
       meaning: 'Senin kız kardeşin gitarında ne pratiği yapıyor?',
+      possibleAnswer: 'My sister is practicing a new song on her guitar.',
       sentence: 'What is your sister practicing on her guitar?',
     },
     {
       meaning: 'öğrenciler sınıfta ne yapıyorlar?',
+      possibleAnswer:
+        'The students are working on a group project in the classroom.',
       sentence: 'What are the students doing in the classroom?',
     },
     {
       meaning: 'Senin annen mutfakta ne yapıyor?',
+      possibleAnswer: 'My mom is baking cookies in the kitchen.',
       sentence: 'What is your mom doing in the kitchen?',
     },
     {
       meaning: 'Sen projen için ne planlıyorsun?',
+      possibleAnswer: 'I am planning a presentation for my project.',
       sentence: 'What are you planning for your project?',
     },
     {
       meaning: 'Senin baban garajda neyi tamir ediyor?',
+      possibleAnswer: 'My dad is fixing the car in the garage.',
       sentence: 'What is your dad fixing in the garage?',
     },
     {
       meaning: 'Çocuklar oyun parkında ne yapıyor?',
+      possibleAnswer:
+        'The children are playing on the swings at the playground.',
       sentence: 'What are the children doing at the playground?',
     },
     {
       meaning: 'O fotoğraf makinesiyle ne yapıyor?',
+      possibleAnswer: 'She is taking pictures with the camera.',
       sentence: 'What is she doing with the camera?',
     },
     {
       meaning: 'Sen sanat dersin için ne yapıyorsun?',
+      possibleAnswer: 'I am making a sculpture for my art class.',
       sentence: 'What are you making for your art class?',
     },
     {
       meaning: 'O Internette neyi arıyor?',
+      possibleAnswer: 'He is searching for information on the internet.',
       sentence: 'What is he searching for on the internet?',
     },
     {
       meaning: 'Sen telefonunda ne izliyorsun?',
+      possibleAnswer: 'I am watching a video on my phone.',
       sentence: 'What are you watching on your phone?',
     },
     {
       meaning: 'Senin arkadaşın neye bakıyor?',
+      possibleAnswer: 'My friend is looking at a painting in the gallery.',
       sentence: 'What is your friend looking at?',
     },
     {
       meaning: 'Öğretmenler neyi tartışıyorlar?',
+      possibleAnswer: 'The teachers are discussing the new curriculum.',
       sentence: 'What are the teachers discussing?',
     },
-    {meaning: 'Bebek ne yapıyor?', sentence: 'What is the baby doing?'},
-    {meaning: 'Sen ne dinliyorsun?', sentence: 'What are you listening to?'},
+    {
+      meaning: 'Bebek ne yapıyor?',
+      possibleAnswer: 'The baby is playing with a toy.',
+      sentence: 'What is the baby doing?',
+    },
+    {
+      meaning: 'Sen ne dinliyorsun?',
+      possibleAnswer: 'I am listening to music.',
+      sentence: 'What are you listening to?',
+    },
     {
       meaning: 'O egzersiz için ne yapıyor?',
+      possibleAnswer: 'She is doing yoga for exercise.',
       sentence: 'What is she doing for exercise?',
     },
     {
       meaning: 'Sen akşam yemeği için ne hazırlıyorsun?',
+      possibleAnswer: 'I am preparing a salad for dinner.',
       sentence: 'What are you preparing for dinner?',
     },
     {
       meaning: 'O ödevi için ne yapıyor?',
+      possibleAnswer: 'He is working on a math assignment for his homework.',
       sentence: 'What is he doing for his homework?',
     },
     {
       meaning: 'Onlar bilim fuarı için ne yapıyorlar?',
+      possibleAnswer: 'They are building a volcano model for the science fair.',
       sentence: 'What are they doing for the science fair?',
     },
     {
       meaning: 'Senin büyükannen ne örüyor?',
+      possibleAnswer: 'My grandmother is knitting a scarf.',
       sentence: 'What is your grandmother knitting?',
     },
     {
       meaning: 'Sen kitapta neyi arıyorsun?',
+      possibleAnswer: 'I am searching for a specific chapter in the book.',
       sentence: 'What are you searching for in the book?',
     },
     {
       meaning: 'O günlüğüne ne yazıyor?',
+      possibleAnswer: 'She is writing about her day in her diary.',
       sentence: 'What is she writing in her diary?',
     },
     {
       meaning: 'Onlar grup projesi için ne yapıyorlar?',
+      possibleAnswer: 'They are creating a poster for the group project.',
       sentence: 'What are they doing for the group project?',
     },
     {
       meaning: 'Senin kuzenin partide ne yapıyor?',
+      possibleAnswer: 'My cousin is dancing at the party.',
       sentence: 'What is your cousin doing at the party?',
     },
     {
       meaning: 'Sen okuldan sonra ne yapıyorsun?',
+      possibleAnswer: 'After school, I am going to the library to study.',
       sentence: 'What are you doing after school?',
     },
     {
       meaning: 'Senin teyzen ne pişiriyor?',
+      possibleAnswer: 'My aunt is baking a pie.',
       sentence: 'What is your aunt baking?',
     },
     {
       meaning: 'Turistler müzede ne yapıyorlar?',
+      possibleAnswer: 'The tourists are taking a guided tour at the museum.',
       sentence: 'What are the tourists doing at the museum?',
     },
     {
       meaning: 'Senin evcil hayvanın şu anda ne yapıyor?',
+      possibleAnswer: 'Right now, my pet is sleeping.',
       sentence: 'What is your pet doing right now?',
     },
     {
       meaning: 'Sen kahvaltıda ne yiyorsun?',
+      possibleAnswer: 'I am eating cereal for breakfast.',
       sentence: 'What are you eating for breakfast?',
     },
     {
       meaning: 'O sanat dersinde ne boyuyor?',
+      possibleAnswer: 'She is painting a portrait in art class.',
       sentence: 'What is she painting in art class?',
     },
     {
       meaning: 'Onlar spor günü için ne pratik yapıyorlar?',
+      possibleAnswer: 'They are practicing running for sports day.',
       sentence: 'What are they practicing for sports day?',
     },
     {
       meaning: 'Senin amcan ne tamir ediyor?',
+      possibleAnswer: 'My uncle is repairing the fence.',
       sentence: 'What is your uncle repairing?',
     },
     {
       meaning: 'Öğrenciler kütüphanede ne yapıyorlar?',
+      possibleAnswer: 'The students are reading and studying in the library.',
       sentence: 'What are the students doing in the library?',
     },
     {
       meaning: 'Senin antrenörün antrenman sırasında ne yapıyor?',
+      possibleAnswer: 'My coach is giving instructions during practice.',
       sentence: 'What is your coach doing during practice?',
     },
     {
       meaning: 'Sen müzik dersinde ne öğreniyorsun?',
+      possibleAnswer: 'I am learning to play the piano in music class.',
       sentence: 'What are you learning in music class?',
     },
     {
       meaning: 'Onun yeni telefonuyla ne yapıyor?',
+      possibleAnswer: 'She is setting up her new phone.',
       sentence: 'What is she doing with her new phone?',
     },
     {
       meaning: 'Onlar plajda ne yapıyorlar?',
+      possibleAnswer:
+        'They are swimming and building sandcastles at the beach.',
       sentence: 'What are they doing at the beach?',
     },
     {
       meaning: 'Tamirci araba ile ne yapıyor?',
+      possibleAnswer: 'The mechanic is changing the oil in the car.',
       sentence: 'What is the mechanic doing with the car?',
     },
     {
       meaning: 'Şefler restoranda ne pişiriyorlar?',
+      possibleAnswer:
+        'The chefs are cooking a variety of dishes in the restaurant.',
       sentence: 'What are the chefs cooking in the restaurant?',
     },
     {
       meaning: 'Öğretmen sınıfın önünde ne yapıyor?',
+      possibleAnswer:
+        'The teacher is explaining the lesson at the front of the class.',
       sentence: 'What is the teacher doing at the front of the class?',
     },
     {
       meaning: 'Çocuklar bilgisayarda ne yapıyorlar?',
+      possibleAnswer: 'The kids are playing educational games on the computer.',
       sentence: 'What are the kids doing on the computer?',
     },
     {
       meaning: 'Senin takım arkadaşın maçta ne yapıyor?',
+      possibleAnswer: 'My teammate is warming up at the game.',
       sentence: 'What is your teammate doing at the game?',
     },
     {
       meaning: 'Sen seyahatin için ne paketliyorsun?',
+      possibleAnswer: 'I am packing clothes and toiletries for my trip.',
       sentence: 'What are you packing for your trip?',
     },
     {
       meaning: 'O çiçekler ile ne yapıyor?',
+      possibleAnswer: 'She is arranging the flowers in a vase.',
       sentence: 'What is she doing with the flowers?',
     },
     {
       meaning: 'Onlar spor salonunda ne yapıyorlar?',
+      possibleAnswer: 'They are working out at the gym.',
       sentence: 'What are they doing at the gym?',
     },
     {
       meaning: 'Senin arkadaşın hafta sonu için ne yapıyor?',
+      possibleAnswer: 'My friend is going camping for the weekend.',
       sentence: 'What is your friend doing for the weekend?',
     },
     {
       meaning: 'Oyuncular sahada ne yapıyorlar?',
+      possibleAnswer: 'The players are practicing drills on the field.',
       sentence: 'What are the players doing on the field?',
     },
     {
       meaning: 'Postacı dışarıda ne yapıyor?',
+      possibleAnswer: 'The mailman is delivering letters outside.',
       sentence: 'What is the mailman doing outside?',
     },
     {
       meaning: 'Sen televizyonda ne izliyorsun?',
+      possibleAnswer: 'I am watching a documentary on television.',
       sentence: 'What are you watching on television?',
     },
     {
       meaning: 'O masasında ne yapıyor?',
+      possibleAnswer: 'She is writing a report at her desk.',
       sentence: 'What is she doing at her desk?',
     },
     {
       meaning: 'Onlar harita ile ne yapıyorlar?',
+      possibleAnswer: 'They are planning their route with the map.',
       sentence: 'What are they doing with the map?',
     },
     {
       meaning: 'Sanatçı stüdyoda ne yapıyor?',
+      possibleAnswer: 'The artist is painting in the studio.',
       sentence: 'What is the artist doing in the studio?',
     },
     {
       meaning: 'Dansçılar sahnede ne yapıyorlar?',
+      possibleAnswer: 'The dancers are rehearsing on stage.',
       sentence: 'What are the dancers doing on stage?',
     },
     {
       meaning: 'Senin öğretmenin o kağıtlarla ne yapıyor?',
+      possibleAnswer: 'My teacher is grading those papers.',
       sentence: 'What is your teacher doing with those papers?',
     },
     {
       meaning: 'Sen bu kurabiyelerle ne yapıyorsun?',
+      possibleAnswer: 'I am putting those cookies in a jar.',
       sentence: 'What are you doing with those cookies?',
     },
     {
       meaning: 'O bahçede ne yapıyor?',
+      possibleAnswer: 'She is watering the plants in the garden.',
       sentence: 'What is she doing in the garden?',
     },
     {
       meaning: 'Onlar bulmaca ile ne yapıyorlar?',
+      possibleAnswer: 'They are solving the puzzle together.',
       sentence: 'What are they doing with the puzzle?',
     },
     {
       meaning: 'Bahçıvan bitkiler ile ne yapıyor?',
+      possibleAnswer: 'The gardener is trimming the plants.',
       sentence: 'What is the gardener doing with the plants?',
     },
     {
       meaning: 'İnsanlar meydanda ne yapıyorlar?',
+      possibleAnswer: 'The people are attending a festival in the square.',
       sentence: 'What are the people doing in the square?',
     },
     {
       meaning: 'Senin liderin toplantıda ne yapıyor?',
+      possibleAnswer: 'My leader is presenting a new project at the meeting.',
       sentence: 'What is your leader doing at the meeting?',
     },
     {
       meaning: 'Sen eski kıyafetlerin ile ne yapıyorsun?',
+      possibleAnswer: 'I am donating my old clothes.',
       sentence: 'What are you doing with your old clothes?',
     },
     {
       meaning: 'O, alet çantasıyla ne yapıyor?',
+      possibleAnswer: 'He is fixing the sink with the toolbox.',
       sentence: 'What is he doing with the toolbox?',
     },
     {
       meaning: 'Onlar video kamerasıyla ne yapıyor?',
+      possibleAnswer: 'They are filming a documentary with the video camera.',
       sentence: 'What are they doing with the video camera?',
     },
     {
       meaning: 'Garson siparişler ile ne yapıyor?',
+      possibleAnswer: 'The waitress is serving the orders to the customers.',
       sentence: 'What is the waitress doing with the orders?',
     },
     {
       meaning: 'Sen egzersiz için ne yapıyorsun?',
+      possibleAnswer: 'For exercise, I am jogging and doing push-ups.',
       sentence: 'What are you doing for exercise?',
     },
     {
       meaning: 'Senin patronun şu anda ne yapıyor?',
+      possibleAnswer: 'Right now, my boss is in a meeting.',
       sentence: 'What is your boss doing right now?',
     },
     {
       meaning: 'Turistler rehber ile ne yapıyorlar?',
+      possibleAnswer: 'The tourists are taking a tour with the guide.',
       sentence: 'What are the tourists doing with the guide?',
     },
     {
       meaning: 'Senin öğretmenin sınav için ne yapıyor?',
+      possibleAnswer: 'My teacher is preparing study materials for the test.',
       sentence: 'What is your teacher doing for the test?',
     },
     {
       meaning: 'Çocuklar boya ile ne yapıyorlar?',
+      possibleAnswer: 'The children are painting a mural with the paint.',
       sentence: 'What are the children doing with the paint?',
     },
     {
       meaning: 'Fotoğrafçı o kamera ile ne yapıyor?',
+      possibleAnswer: 'The photographer is taking pictures with that camera.',
       sentence: 'What is the photographer doing with that camera?',
     },
     {
       meaning: 'Oyuncular mola sırasında ne yapıyor?',
+      possibleAnswer: 'The players are discussing strategy during the timeout.',
       sentence: 'What are the players doing during the timeout?',
     },
     {
       meaning: 'Senin komşun o merdivenle ne yapıyor?',
+      possibleAnswer: 'My neighbor is cleaning the gutters with that ladder.',
       sentence: 'What is your neighbor doing with that ladder?',
     },
     {
       meaning: 'Sen sağlığın için ne yapıyorsun?',
+      possibleAnswer:
+        'For my health, I am eating a balanced diet and exercising regularly.',
       sentence: 'What are you doing for your health?',
     },
     {
       meaning: 'O dergiler ile ne yapıyor?',
+      possibleAnswer: 'She is organizing those magazines on the shelf.',
       sentence: 'What is she doing with those magazines?',
     },
     {
       meaning: 'Onlar konser için ne yapıyorlar?',
+      possibleAnswer: 'They are setting up the stage for the concert.',
       sentence: 'What are they doing for the concert?',
     },
     {
       meaning: 'Senin sınıf arkadaşın kitaplar ile ne yapıyor?',
+      possibleAnswer: 'My classmate is organizing the books on the shelf.',
       sentence: 'What is your classmate doing with the books?',
     },
     {
       meaning: 'İşçiler inşaat alanında ne yapıyorlar?',
+      possibleAnswer:
+        'The workers are building a new office at the construction site.',
       sentence: 'What are the workers doing at the construction site?',
     },
     {
       meaning: 'Resepsiyonist masada ne yapıyor?',
+      possibleAnswer: 'The receptionist is answering phone calls at the desk.',
       sentence: 'What is the receptionist doing at the desk?',
     },
     {
       meaning: 'Bahçe araçları ile sen ne yapıyorsun?',
+      possibleAnswer: 'I am planting flowers with the gardening tools.',
       sentence: 'What are you doing with the gardening tools?',
     },
     {
       meaning: 'O, belgeler ile ne yapıyor?',
+      possibleAnswer: 'She is filing the documents.',
       sentence: 'What is she doing with the documents?',
     },
     {
       meaning: 'Onlar sunum için ne yapıyorlar?',
+      possibleAnswer: 'They are creating slides for the presentation.',
       sentence: 'What are they doing for the presentation?',
     },
     {
       meaning: 'Senin antrenörün spor salonunda ne yapıyor?',
+      possibleAnswer: 'My trainer is demonstrating exercises in the gym.',
       sentence: 'What is your trainer doing in the gym?',
     },
     {
       meaning: 'Sen bilgisayarla ne yapıyorsun?',
+      possibleAnswer: 'I am writing an essay with the computer.',
       sentence: 'What are you doing with the computer?',
     },
     {
       meaning: 'O süpermarkette ne yapıyor?',
+      possibleAnswer: 'He is shopping for groceries at the supermarket.',
       sentence: 'What is he doing at the supermarket?',
     },
   ],
   B4: [
-    {meaning: 'Sen bugün ne yedin?', sentence: 'What have you eaten today?'},
+    {
+      meaning: 'Sen bugün ne yedin?',
+      possibleAnswer: 'Today, I have eaten a sandwich and an apple.',
+      sentence: 'What have you eaten today?',
+    },
     {
       meaning: 'O, okulda ne öğrendi?',
+      possibleAnswer: 'She has learned about the water cycle in school.',
       sentence: 'What has she learned in school?',
     },
     {
       meaning: 'Onlar kitap ile ne yaptılar?',
+      possibleAnswer: 'They have returned the book to the library.',
       sentence: 'What have they done with the book?',
     },
     {
       meaning: 'O, tahtaya ne yazdı?',
+      possibleAnswer: 'He has written the math equations on the board.',
       sentence: 'What has he written on the board?',
     },
     {
       meaning: 'Biz bu hafta ne başardık?',
+      possibleAnswer:
+        'This week, we have completed our project and met our goals.',
       sentence: 'What have we achieved this week?',
     },
     {
       meaning: 'Senin köpeğin bahçede ne buldu?',
+      possibleAnswer: 'My dog has found a bone in the garden.',
       sentence: 'What has your dog found in the garden?',
     },
     {
       meaning: 'Ebeveynlerin ev için ne satın aldılar?',
+      possibleAnswer: 'My parents have bought new furniture for the house.',
       sentence: 'What have your parents bought for the house?',
     },
     {
       meaning: 'Senin erkek kardeşin televizyonda ne izledi? ',
+      possibleAnswer: 'My brother has watched a football match on TV.',
       sentence: 'What has your brother watched on TV?',
     },
     {
       meaning: 'Senin arkadaşların film hakkında ne söyledi?',
+      possibleAnswer: 'My friends have said that the movie was exciting.',
       sentence: 'What have your friends said about the movie?',
     },
     {
       meaning: 'Senin öğretmenin ders hakkında ne açıkladı?',
+      possibleAnswer:
+        'My teacher has explained the main concepts of the lesson.',
       sentence: 'What has your teacher explained about the lesson?',
     },
     {
       meaning: 'Kuşlar yuvada ne yaptılar?',
+      possibleAnswer: 'The birds have laid eggs in the nest.',
       sentence: 'What have the birds done in the nest?',
     },
     {
       meaning: 'O, öğle yemeği için ne getirdi?',
+      possibleAnswer: 'She has brought a salad and a juice for lunch.',
       sentence: 'What has she brought for lunch?',
     },
     {
       meaning: 'Sen sanat dersinde ne çizdin?',
+      possibleAnswer: 'I have drawn a landscape in my art class.',
       sentence: 'What have you drawn in your art class?',
     },
     {
       meaning: 'O garajda ne tamir etti?',
+      possibleAnswer: 'He has fixed the bicycle in the garage.',
       sentence: 'What has he fixed in the garage?',
     },
     {
       meaning: 'Onlar arka bahçede ne inşa ettiler?',
+      possibleAnswer: 'They have built a treehouse in the backyard.',
       sentence: 'What have they built in the backyard?',
     },
     {
       meaning: 'Kedin bu sabah ne yakaladı?',
+      possibleAnswer: 'My cat has caught a mouse this morning.',
       sentence: 'What has your cat caught this morning?',
     },
     {
       meaning: 'Komşular parti hakkında ne karar verdiler?',
+      possibleAnswer:
+        'The neighbors have decided to have the party next weekend.',
       sentence: 'What have the neighbors decided about the party?',
     },
     {
       meaning: 'Senin kız kardeşin projesi için ne seçti?',
+      possibleAnswer: 'My sister has chosen renewable energy for her project.',
       sentence: 'What has your sister chosen for her project?',
     },
     {
       meaning: 'Öğrenciler ödev için ne sundular?',
+      possibleAnswer:
+        'The students have submitted their research papers for the assignment.',
       sentence: 'What have the students submitted for the assignment?',
     },
     {
       meaning: 'Senin annen akşam yemeği için ne pişirdi?',
+      possibleAnswer: 'My mom has cooked spaghetti for dinner.',
       sentence: 'What has your mom cooked for dinner?',
     },
     {
       meaning: 'Sen raporun içine ne ekledin?',
+      possibleAnswer: 'I have added the financial summary to the report.',
       sentence: 'What have you added to the report?',
     },
     {
       meaning: 'Senin baban bu hafta sonu ne tamir etti?',
+      possibleAnswer: 'My dad has repaired the fence this weekend.',
       sentence: 'What has your dad repaired this weekend?',
     },
     {
       meaning: 'Çocuklar evde ne temizlediler?',
+      possibleAnswer: 'The children have cleaned their rooms in the house.',
       sentence: 'What have the children cleaned in the house?',
     },
     {
       meaning: 'O belgede ne yazdı?',
+      possibleAnswer:
+        'She has typed the minutes of the meeting in the document.',
       sentence: 'What has she typed in the document?',
     },
     {
       meaning: 'Sen bilim fuarı için ne yaptın?',
+      possibleAnswer: 'I have made a volcano model for the science fair.',
       sentence: 'What have you made for the science fair?',
     },
     {
       meaning: 'O, internet üzerinde ne aradı?',
+      possibleAnswer: 'He has searched for job openings on the internet.',
       sentence: 'What has he searched for on the internet?',
     },
     {
       meaning: 'Sen tatiller boyunca ne izledin?',
+      possibleAnswer:
+        'During the holidays, I have watched several movies and TV shows.',
       sentence: 'What have you watched during the holidays?',
     },
     {
       meaning: 'Senin arkadaşın mağazadan ne satın aldı?',
+      possibleAnswer: 'My friend has bought groceries at the store.',
       sentence: 'What has your friend bought at the store?',
     },
     {
       meaning: 'Öğretmenler dönem için ne planladı?',
+      possibleAnswer:
+        'The teachers have planned the curriculum for the semester.',
       sentence: 'What have the teachers planned for the semester?',
     },
     {
       meaning: 'Bebek odada ne kırdı?',
+      possibleAnswer: 'The baby has broken a vase in the room.',
       sentence: 'What has the baby broken in the room?',
     },
     {
       meaning: 'Sen bu sabah ne dinledin?',
+      possibleAnswer: 'This morning, I have listened to a podcast.',
       sentence: 'What have you listened to this morning?',
     },
     {
       meaning: 'O, spor salonunda ne yaptı?',
+      possibleAnswer: 'She has done a cardio workout at the gym.',
       sentence: 'What has she done at the gym?',
     },
     {
       meaning: 'Sen bugünkü toplantı için ne hazırladın?',
+      possibleAnswer: "I have prepared a presentation for today's meeting.",
       sentence: "What have you prepared for today's meeting?",
     },
-    // {
-    //   meaning: 'O, kariyerinde ne başardı?',
-    //   sentence: 'What has he accomplished in his career?',
-    // },
+    {
+      meaning: 'O, kariyerinde ne başardı?',
+      possibleAnswer:
+        'He has accomplished many things in his career, including several promotions.',
+      sentence: 'What has he accomplished in his career?',
+    },
     {
       meaning: 'Onlar galeride ne gösterdiler?',
+      possibleAnswer: 'They have shown various artworks in the gallery.',
       sentence: 'What have they shown in the gallery?',
     },
     {
       meaning: 'Senin büyükannen sana ne ördü?',
+      possibleAnswer: 'My grandmother has knitted a scarf for me.',
       sentence: 'What has your grandmother knitted for you?',
     },
     {
       meaning: 'Sen eski kutuda ne buldun?',
+      possibleAnswer: 'I have found old photographs in the old box.',
       sentence: 'What have you found in the old box?',
     },
     {
       meaning: 'O, makalesinde yazdı?',
+      possibleAnswer: 'She has written about climate change in her essay.',
       sentence: 'What has she written in her essay?',
     },
     {
       meaning: 'Onlar grupta ne paylaştılar?',
+      possibleAnswer:
+        'They have shared their ideas and suggestions in the group.',
       sentence: 'What have they shared in the group?',
     },
     {
       meaning: 'Senin kuzenin üniversite hakkında ne karar verdi?',
+      possibleAnswer: 'My cousin has decided to study engineering in college.',
       sentence: 'What has your cousin decided about college?',
     },
     {
       meaning: 'Sen son zamanlarda okuldan sonra ne yaptın?',
+      possibleAnswer:
+        'After school lately, I have been going to the library to study.',
       sentence: 'What have you done after school lately?',
     },
     {
       meaning: 'Senin teyzen yarışma için ne pişirdi?',
+      possibleAnswer: 'My aunt has baked a cake for the competition.',
       sentence: 'What has your aunt baked for the competition?',
     },
     {
       meaning: 'Turistler şehirde ne gördüler?',
+      possibleAnswer:
+        'The tourists have seen many attractions in the city, including museums and parks.',
       sentence: 'What have the tourists seen in the city?',
     },
     {
       meaning: 'Sen evcil hayvanın eğitimden ne öğrendi?',
+      possibleAnswer: 'My pet has learned to sit and stay from training.',
       sentence: 'What has your pet learned from training?',
     },
     {
       meaning: 'Sen kahvaltıda ne yedin?',
+      possibleAnswer: 'For breakfast, I have eaten cereal and a banana.',
       sentence: 'What have you eaten for breakfast?',
     },
     {
       meaning: 'O, bu yıl ne boyadı?',
+      possibleAnswer:
+        'This year, she has painted several landscapes and portraits.',
       sentence: 'What has she painted this year?',
     },
     {
       meaning: 'Onlar oyun için ne pratik ettiler?',
+      possibleAnswer:
+        'They have practiced their lines and movements for the play.',
       sentence: 'What have they practiced for the play?',
     },
     {
       meaning: 'Senin amcan pazarda ne sattı?',
+      possibleAnswer: 'My uncle has sold fresh vegetables at the market.',
       sentence: 'What has your uncle sold at the market?',
     },
     {
       meaning: 'Öğrenciler sınavları için ne çalıştılar?',
+      possibleAnswer:
+        'The students have studied various subjects for their exams.',
       sentence: 'What have the students studied for their exams?',
     },
     {
       meaning: 'Senin antrenörün sana teknik hakkında ne söyledi?',
+      possibleAnswer: 'My coach has told me to improve my form and technique.',
       sentence: 'What has your coach told you about the technique?',
     },
     {
       meaning: 'Sen müzik dersinde ne öğrendin?',
+      possibleAnswer: 'In music class, I have learned to play the guitar.',
       sentence: 'What have you learned in music class?',
     },
     {
       meaning: 'O planda neyi değiştirdi?',
+      possibleAnswer: 'She has changed the timeline in the plan.',
       sentence: 'What has she changed in the plan?',
     },
     {
       meaning: 'Onlar seyahatleri sırasında neyi ziyaret ettiler? ',
+      possibleAnswer:
+        'During their trip, they have visited many historical sites and museums.',
       sentence: 'What have they visited during their trip?',
     },
     {
       meaning: 'Tamirci arabada neyi kontrol etti?',
+      possibleAnswer:
+        'The mechanic has checked the brakes and the oil in the car.',
       sentence: 'What has the mechanic checked in the car?',
     },
     {
       meaning: 'Şefler özel menü için ne hazırladılar?',
+      possibleAnswer:
+        'The chefs have prepared several gourmet dishes for the special menu.',
       sentence: 'What have the chefs prepared for the special menu?',
     },
     {
       meaning: 'Öğretmen senin ödevinde ne düzeltti?',
+      possibleAnswer:
+        'The teacher has corrected the grammar and spelling in my homework.',
       sentence: 'What has the teacher corrected in your homework?',
     },
     {
       meaning: 'Çocuklar fuarda neyle eğlendiler?',
+      possibleAnswer: 'The kids have enjoyed the rides and games at the fair.',
       sentence: 'What have the kids enjoyed at the fair?',
     },
     {
       meaning: 'Senin takım arkadaşın sporda ne başardı?',
+      possibleAnswer:
+        'My teammate has achieved a new personal best in the sport.',
       sentence: 'What has your teammate achieved in the sport?',
     },
     {
       meaning: 'Sen tatil için ne paketledin?',
+      possibleAnswer:
+        'I have packed clothes, toiletries, and a camera for my vacation.',
       sentence: 'What have you packed for your vacation?',
     },
     {
       meaning: 'O toplantı için ne düzenledi?',
+      possibleAnswer:
+        'She has arranged the agenda and materials for the meeting.',
       sentence: 'What has she arranged for the meeting?',
     },
     {
       meaning: 'Onlar etkinlik için ne planladılar?',
+      possibleAnswer:
+        'They have organized the schedule and activities for the event.',
       sentence: 'What have they organized for the event?',
     },
     {
       meaning: 'Senin arkadaşın proje için ne yazdı?',
+      possibleAnswer: 'My friend has written the introduction for the project.',
       sentence: 'What has your friend written for the project?',
     },
     {
       meaning: 'Oyuncular oyunda neyi geliştirdiler?',
+      possibleAnswer:
+        'The players have improved their teamwork and strategy in the game.',
       sentence: 'What have the players improved in the game?',
     },
     {
       meaning: 'Postacı bu hafta ne teslim etti?',
+      possibleAnswer:
+        'This week, the mailman has delivered several packages and letters.',
       sentence: 'What has the mailman delivered this week?',
     },
     {
       meaning: "Sen Netflix'te ne izledin?",
+      possibleAnswer: 'I have watched a new series on Netflix.',
       sentence: 'What have you watched on Netflix?',
     },
     {
       meaning: 'O sistemde ne güncelledi?',
+      possibleAnswer: 'She has updated the software in the system.',
       sentence: 'What has she updated in the system?',
     },
     {
       meaning: 'Onlar konferansta ne tartıştılar?',
+      possibleAnswer:
+        'They have discussed new research findings in the conference.',
       sentence: 'What have they discussed in the conference?',
     },
     {
       meaning: 'Sanatçı bu ay ne yarattı?',
+      possibleAnswer:
+        'This month, the artist has created several new paintings.',
       sentence: 'What has the artist created this month?',
     },
     {
       meaning: 'Dansçılar gösteride ne sundular?',
+      possibleAnswer: 'The dancers have performed a ballet at the show.',
       sentence: 'What have the dancers performed at the show?',
     },
     {
       meaning: 'Senin öğretmenin sınıf için ne sağladı?',
+      possibleAnswer:
+        'My teacher has provided study guides and resources for the class.',
       sentence: 'What has your teacher provided for the class?',
     },
     {
       meaning: 'Sen ailen için ne pişirdin?',
+      possibleAnswer: 'I have cooked a roast chicken dinner for my family.',
       sentence: 'What have you cooked for your family?',
     },
     {
       meaning: 'O bahçeye ne dikti?',
+      possibleAnswer: 'She has planted flowers and herbs in the garden.',
       sentence: 'What has she planted in the garden?',
     },
     {
       meaning: 'Onlar atölyede ne monte ettiler?',
+      possibleAnswer:
+        'They have assembled a new piece of furniture in the workshop.',
       sentence: 'What have they assembled in the workshop?',
     },
     {
       meaning: 'Bahçıvan bu mevsim ne ekti?',
+      possibleAnswer:
+        'The gardener has planted tomatoes and cucumbers this season.',
       sentence: 'What has the gardener planted this season?',
     },
     {
       meaning: 'İnsanlar hayır işi için ne yaptılar?',
+      possibleAnswer: 'People have donated clothes and money for the charity.',
       sentence: 'What have people done for the charity?',
     },
     {
       meaning: 'Senin Liderin strateji için ne önerdi?',
+      possibleAnswer: 'My leader has proposed a new marketing strategy.',
       sentence: 'What has your leader proposed for the strategy?',
     },
     {
       meaning: 'Sen ikinci el mağazasına ne bağışladın?',
+      possibleAnswer: 'I have donated clothes and books to the thrift store.',
       sentence: 'What have you donated to the thrift store?',
     },
     {
       meaning: 'O tamir için ne kullandı?',
+      possibleAnswer: 'He has used a wrench and screwdriver for the repair.',
       sentence: 'What has he used for the repair?',
     },
     {
       meaning: 'Onlar belgesel için ne çektiler?',
+      possibleAnswer:
+        'They have filmed interviews and scenes for the documentary.',
       sentence: 'What have they filmed for the documentary?',
     },
     {
       meaning: 'Garson masanda ne servis etti?',
+      possibleAnswer:
+        'The waitress has served appetizers and drinks at my table.',
       sentence: 'What has the waitress served at your table?',
     },
     {
       meaning: 'Sen bu hafta egzersiz için ne yaptın?',
+      possibleAnswer:
+        'This week, I have gone jogging and done yoga for exercise.',
       sentence: 'What have you done for exercise this week?',
     },
     {
       meaning: 'Senin patronun verilerden ne sonuç çıkardı?',
+      possibleAnswer:
+        'My boss has concluded that sales have increased from the data.',
       sentence: 'What has your boss concluded from the data?',
     },
     {
       meaning: 'Turistler kültür hakkında ne öğrendi?',
+      possibleAnswer:
+        'The tourists have learned about the local customs and traditions.',
       sentence: 'What have the tourists learned about the culture?',
     },
     {
       meaning: 'Öğretmenin geçmiş etkinlik hakkında ne anlattı?',
+      possibleAnswer:
+        'My teacher has described the historical significance of the past event.',
       sentence: 'What has your teacher described about the past event?',
     },
     {
       meaning: 'Çocuklar sınıfta ne çizdi?',
+      possibleAnswer:
+        'The children have drawn pictures of their families in class.',
       sentence: 'What have the children drawn in class?',
     },
     {
       meaning: 'Fotoğrafçı etkinlikte ne yakaladı?',
+      possibleAnswer:
+        'The photographer has captured candid moments in the event.',
       sentence: 'What has the photographer captured in the event?',
     },
     {
       meaning: 'Oyuncular turnuvalarda ne kazandılar?',
+      possibleAnswer:
+        'The players have won several trophies in the tournaments.',
       sentence: 'What have the players won in the tournaments?',
     },
     {
       meaning: 'Komşun evinde ne tamir etti?',
+      possibleAnswer: 'My neighbor has fixed the leaky faucet in his house.',
       sentence: 'What has your neighbor fixed in his house?',
     },
     {
       meaning: 'Sen sağlığın için son zamanlarda ne yaptın?',
+      possibleAnswer:
+        'Recently, I have started eating healthier and exercising regularly for my health.',
       sentence: 'What have you done for your health recently?',
     },
     {
       meaning: 'O araştırmasında ne keşfetti?',
+      possibleAnswer:
+        'She has discovered new information about the topic in her research.',
       sentence: 'What has she discovered in her research?',
     },
     {
       meaning: 'Onlar tiyatroda ne oynadılar?',
+      possibleAnswer: 'They have played a Shakespearean play in the theater.',
       sentence: 'What have they played in the theater?',
     },
     {
       meaning: 'Sınıf arkadaşın kütüphanede ne buldu?',
+      possibleAnswer:
+        'My classmate has found several useful books in the library.',
       sentence: 'What has your classmate found in the library?',
     },
     {
       meaning: 'İşçiler alanda ne inşa ettiler?',
+      possibleAnswer:
+        'The workers have constructed a new building at the site.',
       sentence: 'What have the workers constructed at the site?',
     },
     {
       meaning: 'Resepsiyonist ofiste ne düzenledi?',
+      possibleAnswer:
+        'The receptionist has arranged appointments at the office.',
       sentence: 'What has the receptionist arranged at the office?',
     },
     {
       meaning: 'Sen arka bahçene ne diktin?',
+      possibleAnswer: 'I have planted flowers and vegetables in my backyard.',
       sentence: 'What have you planted in your backyard?',
     },
     {
       meaning: 'O sunumunda ne tartıştı?',
+      possibleAnswer:
+        'She has discussed the results of her study in her presentation.',
       sentence: 'What has she discussed in her presentation?',
     },
     {
       meaning: 'Onlar toplantıda ne başardılar?',
+      possibleAnswer:
+        'They have accomplished setting new goals in the meeting.',
       sentence: 'What have they accomplished in the meeting?',
     },
     {
       meaning: 'Eğitmenin senin rutinin için ne önerdi?',
+      possibleAnswer:
+        'My trainer has suggested adding more cardio to my routine.',
       sentence: 'What has your trainer suggested for your routine?',
     },
     {
       meaning: 'Sen sanat eserini tamamlamak için ne kullandın?',
+      possibleAnswer: 'I have used acrylic paints to complete my artwork.',
       sentence: 'What have you used to complete your artwork?',
     },
     {
       meaning: 'O bugün öğle yemeği için ne sipariş etti?',
+      possibleAnswer: 'He has ordered a sandwich and a salad for lunch today.',
       sentence: 'What has he ordered for lunch today?',
     },
   ],
   C1: [
     {
       meaning: 'Senin dünkü kahvaltın neydi?',
+      possibleAnswer:
+        'I had scrambled eggs, toast, and orange juice for breakfast yesterday.',
       sentence: 'What was your breakfast yesterday?',
     },
     {
       meaning: 'Dünkü ana etkinlikler nelerdi?',
+      possibleAnswer:
+        'The main events yesterday were attending a business meeting, visiting a friend, and going to the gym.',
       sentence: 'What were the main events yesterday?',
     },
     {
       meaning: 'Geçen pazartesi hava nasıldı?',
+      possibleAnswer: 'Last Monday, the weather was rainy and cool.',
       sentence: 'What was the weather like last Monday?',
     },
     {
       meaning: 'Dün gece televizyonda ne vardı?',
+      possibleAnswer:
+        'Last night, there was a documentary about wildlife on TV.',
       sentence: 'What was on TV last night?',
     },
     {
       meaning: 'Dün gece saat sekizde ne yapıyordun?',
+      possibleAnswer:
+        "At 8 o'clock last night, I was having dinner with my family.",
       sentence: "What were you doing at 8 o'clock last night?",
     },
     {
       meaning: 'Anaokulunda öğretmeninin adı neydi?',
+      possibleAnswer: "My teacher's name in kindergarten was Mrs. Robinson.",
       sentence: "What was your teacher's name in kindergarten?",
     },
     {
       meaning: 'Senin Çocukken en sevdiğin oyuncaklar nelerdi?',
+      possibleAnswer:
+        'My favorite toys when I was young were Lego sets and action figures.',
       sentence: 'What were your favorite toys when you were young?',
     },
     {
       meaning: 'Senin bebekken ilk kelimen neydi?',
+      possibleAnswer: 'My first word as a baby was ""mama.""',
       sentence: 'What was your first word as a baby?',
     },
     {
       meaning: 'Senin izlediğin son film neydi?',
+      possibleAnswer: 'The last movie I watched was ""The Avengers.""',
       sentence: 'What was the last movie you watched?',
     },
     {
       meaning: 'Senin ilk bisikletinin renkleri nelerdi?',
+      possibleAnswer: 'The colors of my first bicycle were red and white.',
       sentence: 'What were the colors of your first bicycle?',
     },
     {
       meaning: 'Senin geçen sene en sevdiğin ders neydi?',
+      possibleAnswer: 'My favorite subject last year was biology.',
       sentence: 'What was your favorite subject last year?',
     },
     {
       meaning: 'Senin çocukluk evcil hayvanlarının isimleri nelerdi?',
+      possibleAnswer: 'The names of my childhood pets were Max and Bella.',
       sentence: 'What were the names of your childhood pets?',
     },
     {
       meaning: 'Senin en iyi tatilin neydi? ',
+      possibleAnswer: 'My best vacation was a trip to Hawaii.',
       sentence: 'What was your best vacation?',
     },
     {
       meaning: 'Geçen Pazar akşam yemeğinde neler vardı? ',
+      possibleAnswer:
+        'The dishes at dinner last Sunday were roasted chicken, mashed potatoes, and green beans.',
       sentence: 'What were the dishes at dinner last Sunday?',
     },
     {
       meaning: 'Senin geçen hafta aldığın mektupta ne vardı?',
+      possibleAnswer:
+        'The letter I received last week contained an invitation to a wedding.',
       sentence: 'What was in the letter you received last week?',
     },
     {
       meaning: 'Senin Üç yıl önceki hobilerin nelerdi?',
+      possibleAnswer: 'Three years ago, my hobbies were painting and cycling.',
       sentence: 'What were your hobbies three years ago?',
     },
     {
       meaning: 'Senin çocukken en sevdiğin oyun neydi?',
+      possibleAnswer: 'My favorite game as a child was hide and seek.',
       sentence: 'What was your favorite game as a child?',
     },
     {
       meaning: 'Senin küçükken en sevdiğin atıştırmalıklar nelerdi?',
+      possibleAnswer:
+        'My favorite snacks when I was little were cookies and fruit snacks.',
       sentence: 'What were your favorite snacks when you were little?',
     },
     {
       meaning: 'Senin geçen doğum gününün en büyük sürprizi neydi?',
+      possibleAnswer:
+        'The biggest surprise of my last birthday was a surprise party organized by my friends.',
       sentence: 'What was the biggest surprise of your last birthday?',
     },
     {
       meaning: 'Senin yaz boyunca en sevdiğin aktiviteler nelerdi?',
+      possibleAnswer:
+        'My favorite activities during summer were swimming and playing volleyball.',
       sentence: 'What were your favorite activities during summer?',
     },
     {
       meaning: 'Senin en son okuduğun kitap neydi?',
+      possibleAnswer: 'The last book I read was ""The Catcher in the Rye.""',
       sentence: 'What was the last book you read?',
     },
     {
       meaning: 'Senin son sınavında konular nelerdi?',
+      possibleAnswer:
+        'The main topics in my last exam were algebra and geometry.',
       sentence: 'What were the main topics in your last exam?',
     },
     {
       meaning: 'Senin izlediğin son oyunda skor neydi?',
+      possibleAnswer: 'The score in the last game I watched was 3-2.',
       sentence: 'What was the score in the last game you watched?',
     },
     {
       meaning: 'Senin okulun ilk günündeki duyguların nelerdi?',
+      possibleAnswer:
+        'On the first day of school, I felt excited and a bit nervous.',
       sentence: 'What were your feelings on the first day of school?',
     },
     {
       meaning: 'Senin ilk öğretmeninin adı neydi?',
+      possibleAnswer: 'The name of my first teacher was Mrs. Johnson.',
       sentence: 'What was the name of your first teacher?',
     },
     {
       meaning: 'Senin ilkokuldaki en iyi arkadaşlarının isimleri nelerdi?',
+      possibleAnswer:
+        'The names of my best friends in primary school were Emma and Jack.',
       sentence: 'What were the names of your best friends in primary school?',
     },
     {
       meaning: 'Senin geçen haftaki son görevin neydi? ',
+      possibleAnswer:
+        'My main task at work last week was to prepare a presentation for a client meeting.',
       sentence: 'What was your main task at work last week?',
     },
     {
       meaning: 'Senin son tatilinin önemli olayları nelerdi?',
+      possibleAnswer:
+        'The highlights of my last holiday were visiting historical sites and trying local cuisine.',
       sentence: 'What were the highlights of your last holiday?',
     },
     {
       meaning: 'Senin ilk evcil hayvanının adı neydi?',
+      possibleAnswer: 'The name of my first pet was Buddy.',
       sentence: 'What was the name of your first pet?',
     },
     {
       meaning: 'Geçen yılın en iyi anları nelerdi?',
+      possibleAnswer:
+        'The best moments of last year were graduating from college and starting my first job.',
       sentence: 'What were the best moments of last year?',
     },
     {
       meaning: 'Senin okuldaki oyununuzdaki rolün neydi?',
+      possibleAnswer: 'My role in the school play was the lead character.',
       sentence: 'What was your role in the school play?',
     },
     {
       meaning: 'Senin son testinin sonuçları nelerdi?',
+      possibleAnswer:
+        'The results of my last test were excellent; I scored 95%.',
       sentence: 'What were the results of your last test?',
     },
     {
       meaning: 'Senin geçen Noel aldığın en iyi hediye neydi?',
+      possibleAnswer:
+        'The best gift I received last Christmas was a new laptop.',
       sentence: 'What was the best gift you received last Christmas?',
     },
     {
       meaning: 'Senin geçen hafta sonu günlük ev işlerin nelerdi?',
+      possibleAnswer:
+        'My chores last weekend were cleaning the house and mowing the lawn.',
       sentence: 'What were your chores last weekend?',
     },
     {
       meaning: 'Senin geçen yılın en sevdiğin şarkısı neydi?',
+      possibleAnswer:
+        'My favorite song last year was ""Shape of You"" by Ed Sheeran.',
       sentence: 'What was your favorite song last year?',
     },
     {
       meaning: 'Senin yılın başındaki kararların nelerdi?',
+      possibleAnswer:
+        'My resolutions at the beginning of the year were to exercise more and eat healthier.',
       sentence: 'What were your resolutions at the beginning of the year?',
     },
     {
       meaning: 'Son partinin teması neydi?',
+      possibleAnswer: 'The theme of my last party was a tropical luau.',
       sentence: 'What was the theme of your last party?',
     },
     {
       meaning: "Son Şükran Günü'ndeki ana yemekler nelerdi?",
+      possibleAnswer:
+        'The main dishes at my last Thanksgiving were turkey, stuffing, and cranberry sauce.',
       sentence: 'What were the main dishes at your last Thanksgiving?',
     },
     {
       meaning: 'Geçen ay verdiğin en zor karar neydi?',
+      possibleAnswer:
+        'The hardest decision I made last month was to change jobs.',
       sentence: 'What was the hardest decision you made last month?',
     },
     {
       meaning: 'Geçen yıl en sevdiğin TV şovları nelerdi?',
+      possibleAnswer:
+        'My favorite TV shows last year were ""Stranger Things"" and ""The Crown.""',
       sentence: 'What were your favorite TV shows last year?',
     },
     {
       meaning: 'Senin son ziyaret ettiğin restoran neydi?',
+      possibleAnswer: 'The last restaurant I visited was an Italian bistro.',
       sentence: 'What was the last restaurant you visited?',
     },
     {
       meaning: 'Senin katıldığın festivaldeki ana etkinlikler nelerdi?',
+      possibleAnswer:
+        'The main events at the festival I attended were live music performances and food tastings.',
       sentence: 'What were the main events at the festival you attended?',
     },
     {
       meaning: 'Senin son okul gezinde en iyi kısım neydi?',
+      possibleAnswer:
+        'The best part of my last school trip was visiting the science museum.',
       sentence: 'What was the best part of your last school trip?',
     },
     {
       meaning: 'Geçen hafta en önemli haberler nelerdi?',
+      possibleAnswer:
+        'The most important news last week was about the new policies announced by the government.',
       sentence: 'What were the most important news last week?',
     },
     {
       meaning: 'Senin geçen yılın en büyük başarın neydi?',
+      possibleAnswer:
+        'My biggest achievement last year was completing a marathon.',
       sentence: 'What was your biggest achievement last year?',
     },
     {
       meaning: 'Geçen haftaki piyango çekilişinde kazanan numaralar nelerdi?',
+      possibleAnswer:
+        'The winning numbers in the lottery last week were 5, 12, 23, 34, and 45.',
       sentence: 'What were the winning numbers in the lottery last week?',
     },
     {
       meaning: 'Senin arkadaşınla son sohbetinizin konusu neydi?',
+      possibleAnswer:
+        'The topic of my last conversation with my friend was our upcoming vacation plans.',
       sentence:
         'What was the topic of your last conversation with your friend?',
     },
     {
       meaning: 'Senin son projen bittiğinde hislerin nelerdi?',
+      possibleAnswer:
+        'When I finished my last project, I felt relieved and accomplished.',
       sentence: 'What were your feelings when you finished your last project?',
     },
     {
       meaning: 'Sen en son son ziyaret ettiğinde parkın durumu nasıldı?',
+      possibleAnswer:
+        'The condition of the park last time I visited was clean and well-maintained.',
       sentence: 'What was the condition of the park last time you visited?',
     },
     {
       meaning: 'Senin son işindeki görevlerin nelerdi?',
+      possibleAnswer:
+        'My duties at my last job were managing social media accounts and creating content.',
       sentence: 'What were your duties at your last job?',
     },
     {
       meaning: 'Sen çocukken evinizin rengi neydi?',
+      possibleAnswer: 'The color of my house when I was a child was yellow.',
       sentence: 'What was the color of your house when you were a child?',
     },
     {
       meaning: 'Senin geçen ay okuduğun kitapların adları nelerdi?',
+      possibleAnswer:
+        'The names of the books I read last month were ""1984"" and ""Pride and Prejudice.""',
       sentence: 'What were the names of the books you read last month?',
     },
     {
       meaning: 'Senin son akşam yemeğindeki ana yemek neydi?',
+      possibleAnswer: 'The main dish at my last dinner was grilled salmon.',
       sentence: 'What was the main dish at your last dinner?',
     },
     {
       meaning: 'Senin geçen hafta sonu film izlerkenki duyguların nelerdi?',
+      possibleAnswer:
+        'During the movie last weekend, I felt a mix of excitement and suspense.',
       sentence: 'What were your emotions during the movie last weekend?',
     },
     {
       meaning: 'Senin Son seyahatinin varış yeri neydi?',
+      possibleAnswer: 'The destination of my last trip was Paris.',
       sentence: 'What was the destination of your last trip?',
     },
     {
       meaning: 'Senin dün öğle yemeğindeki çeşitler nelerdi?',
+      possibleAnswer:
+        'The items in my lunch yesterday were a sandwich, an apple, and a yogurt.',
       sentence: 'What were the items in your lunch yesterday?',
     },
     {
       meaning: 'Sen dün eve geldiğinde evcil hayvanının tepkisi neydi?',
+      possibleAnswer:
+        'My pet was very excited and wagged its tail when I came home yesterday.',
       sentence: "What was your pet's reaction when you came home yesterday?",
     },
     {
       meaning:
         'Senin geçen haftaki projende karşılaştığın en büyük zorluklar nelerdi? ',
+      possibleAnswer:
+        'The biggest challenges in my project last week were meeting the tight deadlines and coordinating with team members.',
       sentence: 'What were the biggest challenges in your project last week?',
     },
     {
       meaning: 'Senin son iş toplantındaki en önemli olay neydi?',
+      possibleAnswer:
+        'The highlight of my last business meeting was the successful presentation to the clients.',
       sentence: 'What was the highlight of your last business meeting?',
     },
     {
       meaning:
         'Sen ziyaret ettiğinde müzenin başlıca cazibe noktaları nelerdi?',
+      possibleAnswer:
+        'The main attractions at the museum I visited were the dinosaur exhibit and the art gallery.',
       sentence: 'What were the main attractions at the museum you visited?',
     },
     {
       meaning: 'Dün sabah dışarıdaki hava sıcaklığı neydi?',
+      possibleAnswer:
+        'The temperature outside yesterday morning was 60 degrees Fahrenheit.',
       sentence: 'What was the temperature outside yesterday morning?',
     },
     {
       meaning: 'Senin son sunumunun ana noktaları nelerdi?',
+      possibleAnswer:
+        "The key points of my last presentation were the project's goals, timeline, and expected outcomes.",
       sentence: 'What were the key points of your last presentation?',
     },
     {
       meaning: 'Partideki pastanın tadı neydi?',
+      possibleAnswer: 'The flavor of the cake at the party was chocolate.',
       sentence: 'What was the flavor of the cake at the party?',
     },
     {
       meaning: 'Senin son dersinde tartışılan konular nelerdi?',
+      possibleAnswer:
+        'The topics discussed in my last class were world history and economics.',
       sentence: 'What were the topics discussed in your last class?',
     },
     {
       meaning: 'Senin geçen yıl şirketteki pozisyonun neydi? ',
+      possibleAnswer:
+        'My position in the company last year was a marketing coordinator.',
       sentence: 'What was your position in the company last year?',
     },
     {
       meaning: 'Geçen hafta sonu maçlardaki son skorlar nelerdi?',
+      possibleAnswer:
+        'The final scores in the matches last weekend were 2-1 and 3-0.',
       sentence: 'What were the final scores in the matches last weekend?',
     },
     {
       meaning: 'Senin restoranda en sevdiğin tatlı neydi?',
+      possibleAnswer: 'My favorite dessert at the restaurant was cheesecake.',
       sentence: 'What was your favorite dessert at the restaurant?',
     },
     {
       meaning: 'Senin gördüğün resimdeki başlıca renkler nelerdi?',
+      possibleAnswer:
+        'The main colors in the painting I saw were blue and green.',
       sentence: 'What were the main colors in the painting you saw?',
     },
     {
       meaning: 'Senin büyüdüğün sokağın adı neydi?',
+      possibleAnswer:
+        'The name of the street where I grew up was Maple Street.',
       sentence: 'What was the name of the street where you grew up?',
     },
     {
       meaning: 'Senin ziyaret ettiğin parktaki ağaç türleri nelerdi?',
+      possibleAnswer:
+        'The types of trees in the park I visited were oak, pine, and maple.',
       sentence: 'What were the types of trees in the park you visited?',
     },
     {
       meaning: 'Dün gece aldığın habere tepkin neydi?',
+      possibleAnswer:
+        'My response to the news last night was surprise and concern.',
       sentence: 'What was your response to the news last night?',
     },
     {
       meaning: 'Gösterideki dans stilleri nelerdi?',
+      possibleAnswer:
+        'The styles of dance at the show were ballet and contemporary.',
       sentence: 'What were the styles of dance at the show?',
     },
     {
       meaning: 'Senin son tatilinin türü neydi (plaj, dağ, şehir)?',
+      possibleAnswer: 'The type of my last vacation was a beach vacation.',
       sentence:
         'What was the type of your last vacation (beach, mountain, city)?',
     },
     {
       meaning: 'Bu sabah kahvaltındaki başlıca malzemeler nelerdi?',
+      possibleAnswer:
+        'The main ingredients in my breakfast this morning were oats, milk, and berries.',
       sentence:
         'What were the main ingredients in your breakfast this morning?',
     },
     {
       meaning: 'Senin geçen cuma izlediğin filmin başlığı neydi?',
+      possibleAnswer:
+        'The title of the film I watched last Friday was ""Inception.""',
       sentence: 'What was the title of the film you watched last Friday?',
     },
     {
       meaning: 'Senin yıl başladığında hissettiklerin nelerdi?',
+      possibleAnswer: 'When the year started, I felt hopeful and motivated.',
       sentence: 'What were your feelings when the year started?',
     },
     {
       meaning: 'Senin son katıldığın konserin adı neydi?',
+      possibleAnswer: 'The name of the last concert I attended was Coldplay.',
       sentence: 'What was the name of the last concert you attended?',
     },
     {
       meaning: 'Senin ziyaret ettiğin serginin ana temaları nelerdi?',
+      possibleAnswer:
+        'The main themes of the exhibition I visited were modern art and innovation.',
       sentence: 'What were the main themes of the exhibition you visited?',
     },
     {
       meaning: 'Senin okulun yıllık oyunundaki rolün neydi?',
+      possibleAnswer:
+        "My role in the school's annual play was a supporting character.",
       sentence: "What was your role in the school's annual play?",
     },
     {
       meaning: 'Senin geçen hafta sonu bahçedeki görevlerin nelerdi?',
+      possibleAnswer:
+        'My tasks in the garden last weekend were planting flowers and weeding.',
       sentence: 'What were your tasks in the garden last weekend?',
     },
     {
       meaning: 'Geçen hafta uçuşunun gecikme nedeni neydi?',
+      possibleAnswer:
+        'The reason for the delay of my flight last week was bad weather.',
       sentence: 'What was the reason for the delay of your flight last week?',
     },
     {
       meaning: 'Senin son doktor randevunun başlıca sonuçları nelerdi?',
+      possibleAnswer:
+        'The key outcomes of my last doctor’s appointment were a clean bill of health and some dietary recommendations.',
       sentence: 'What were the key outcomes of your last doctor’s appointment?',
     },
     {
       meaning: 'Senin geçen yaz piknik yaptığın parkın adı neydi?',
+      possibleAnswer:
+        'The name of the park where I picnicked last summer was Central Park.',
       sentence:
         'What was the name of the park where you picnicked last summer?',
     },
     {
       meaning: 'Senin doğa yürüyüşün sırasında gördüğün kuş türleri nelerdi?',
+      possibleAnswer:
+        'The types of birds I saw during my hike were sparrows and eagles.',
       sentence: 'What were the types of birds you saw during your hike?',
     },
     {
       meaning: 'Senin oyunu kazanmana tepkin neydi?',
+      possibleAnswer: 'My reaction to winning the game was joy and excitement.',
       sentence: 'What was your reaction to winning the game?',
     },
     {
       meaning: 'Senin ilk işindeki ana görevlerin nelerdi?',
+      possibleAnswer:
+        'My main duties at my first job were customer service and inventory management.',
       sentence: 'What were your main duties at your first job?',
     },
     {
       meaning: 'Senin gönderdiğin son e-postanın konusu neydi?',
+      possibleAnswer:
+        'The subject of the last email I sent was a project update.',
       sentence: 'What was the subject of the last email you sent?',
     },
     {
       meaning: 'Senin doğum günü partindeki misafirlerin isimleri nelerdi?',
+      possibleAnswer:
+        'The names of the guests at my birthday party were John, Emily, and Sarah.',
       sentence: 'What were the names of the guests at your birthday party?',
     },
     {
       meaning: 'Senin katıldığın serginin en iyi kısmı neydi?',
+      possibleAnswer:
+        'The best part of the exhibition I attended was the interactive displays.',
       sentence: 'What was the best part of the exhibition you attended?',
     },
     {
       meaning: 'Festivalde temsil edilen farklı kültürler nelerdi?',
+      possibleAnswer:
+        'The different cultures represented at the festival were Asian, European, and African.',
       sentence: 'What were the different cultures represented at the festival?',
     },
     {
       meaning: 'Senin etkinliğe varış saatin neydi?',
+      possibleAnswer: 'The time of my arrival at the event was 6:00 PM.',
       sentence: 'What was the time of your arrival at the event?',
     },
     {
       meaning:
         'Senin son satın aldığın akıllı telefonun başlıca özellikleri nelerdi?',
+      possibleAnswer:
+        'The key features of the last smartphone I bought were a high-resolution camera and fast processing speed.',
       sentence: 'What were the key features of the last smartphone you bought?',
     },
     {
       meaning: 'Senin son kütüphaneye ziyaretinin başlıca nedeni neydi?',
+      possibleAnswer:
+        'The primary reason for my last visit to the library was to research for a school project.',
       sentence:
         'What was the primary reason for your last visit to the library?',
     },
     {
       meaning: 'Müzayedede kazanan öğeler nelerdi?',
+      possibleAnswer:
+        'The winning items at the auction were a vintage car and a painting.',
       sentence: 'What were the winning items at the auction?',
     },
     {
       meaning: 'Dünkü toplantıdaki tartışmanın ana konusu neydi?',
+      possibleAnswer:
+        "The main topic of the discussion in yesterday's meeting was the new marketing strategy.",
       sentence:
         "What was the main topic of the discussion in yesterday's meeting?",
     },
     {
       meaning: 'Katıldığın son seminerin öne çıkan noktaları nelerdi?',
+      possibleAnswer:
+        'The highlights of the last seminar I attended were the keynote speaker and the networking opportunities.',
       sentence: 'What were the highlights of the last seminar you attended?',
     },
     {
       meaning: 'Senin bu sabahki ilk düşüncen neydi?',
+      possibleAnswer:
+        'My first thought this morning was about the tasks I need to complete today.',
       sentence: 'What was your first thought this morning?',
     },
     {
       meaning: 'Senin geçen hafta aldığın paketin içeriği neydi?',
+      possibleAnswer:
+        'The contents of the package I received last week were books and a new charger.',
       sentence: 'What were the contents of the package you received last week?',
     },
     {
       meaning: 'Senin son gezin sırasında konakladığın otelin adı neydi?',
+      possibleAnswer:
+        'The name of the hotel where I stayed during my last trip was The Grand Hotel.',
       sentence:
         'What was the name of the hotel where you stayed during your last trip?',
     },
     {
       meaning: 'Senin geçen ay tamamladığın projenin hedefleri nelerdi?',
+      possibleAnswer:
+        'The goals of the project I completed last month were to increase brand awareness and improve customer engagement.',
       sentence: 'What were the goals of the project you completed last month?',
     },
   ],
   C2: [
     {
       meaning: 'Sen dün kahvaltı için ne yedin?',
+      possibleAnswer: 'I ate oatmeal with berries for breakfast yesterday.',
       sentence: 'What did you eat for breakfast yesterday?',
     },
     {
       meaning: 'O partide ne giydi?',
+      possibleAnswer: 'She wore a red dress to the party.',
       sentence: 'What did she wear to the party?',
     },
     {
       meaning: 'Biz geçen hafta sonu ne yaptık?',
+      possibleAnswer: 'Last weekend, we went hiking and had a barbecue.',
       sentence: 'What did we do last weekend?',
     },
     {
       meaning: 'O dün gece televizyonda ne izledi?',
+      possibleAnswer: 'He watched a football game on TV last night.',
       sentence: 'What did he watch on TV last night?',
     },
     {
       meaning: 'Onlar molada ne oynadılar?',
+      possibleAnswer: 'They played tag and soccer at recess.',
       sentence: 'What did they play at recess?',
     },
     {
       meaning: 'Senin annen akşam yemeği için ne pişirdi?',
+      possibleAnswer: 'My mom cooked spaghetti and meatballs for dinner.',
       sentence: 'What did your mom cook for dinner?',
     },
     {
       meaning: 'Sen hayvanat bahçesinde ne gördün?',
+      possibleAnswer: 'At the zoo, I saw lions, tigers, and elephants.',
       sentence: 'What did you see at the zoo?',
     },
     {
       meaning: 'Senin öğretmenin ödevle ilgili ne söyledi?',
+      possibleAnswer:
+        'My teacher said the homework was well done and provided good feedback.',
       sentence: 'What did your teacher say about the homework?',
     },
     {
       meaning: 'Sen dün okula ne getirdin?',
+      possibleAnswer:
+        'Yesterday, I brought my backpack, textbooks, and lunchbox to school.',
       sentence: 'What did you bring to school yesterday?',
     },
     {
       meaning: 'Senin baban garajda ne tamir etti?',
+      possibleAnswer: 'My dad fixed the lawnmower in the garage.',
       sentence: 'What did your dad fix in the garage?',
     },
     {
       meaning: 'Sen dün gece ne okudun?',
+      possibleAnswer: 'Last night, I read a mystery novel.',
       sentence: 'What did you read last night?',
     },
     {
       meaning: 'Senin arkadaşların okuldan sonra ne yaptı?',
+      possibleAnswer:
+        'After school, my friends went to the park to play basketball.',
       sentence: 'What did your friends do after school?',
     },
     {
       meaning: 'Köpek bu sabah ne yedi?',
+      possibleAnswer: 'The dog ate its regular kibble this morning.',
       sentence: 'What did the dog eat this morning?',
     },
     {
       meaning: 'Sen dükkândan ne aldın?',
+      possibleAnswer: 'I bought groceries and a new notebook at the store.',
       sentence: 'What did you buy at the store?',
     },
     {
       meaning: 'Sen akşam yemeği ile birlikte ne içtin?',
+      possibleAnswer: 'I drank iced tea with dinner.',
       sentence: 'What did you drink with dinner?',
     },
     {
       meaning: 'O doğum günü için ne yaptı?',
+      possibleAnswer:
+        'For her birthday, she had a party with friends and family.',
       sentence: 'What did she do for her birthday?',
     },
     {
       meaning: 'Sen gece boyunca ne duydun?',
+      possibleAnswer: 'During the night, I heard rain and thunder.',
       sentence: 'What did you hear during the night?',
     },
     {
       meaning: 'Onlar parkta ne buldular?',
+      possibleAnswer: 'They found a lost puppy in the park.',
       sentence: 'What did they find in the park?',
     },
     {
       meaning: 'O projesi için ne seçti?',
+      possibleAnswer: 'He chose to do a science project on volcanoes.',
       sentence: 'What did he choose for his project?',
     },
     {
       meaning: 'Senin ebeveynlerin televizyonda ne izledi?',
+      possibleAnswer: 'My parents watched a documentary on TV.',
       sentence: 'What did your parents watch on TV?',
     },
     {
       meaning: 'Sen odanı temizlemek için ne kullandın?',
+      possibleAnswer: 'I used a vacuum cleaner and a duster to clean the room.',
       sentence: 'What did you use to clean the room?',
     },
-    {meaning: 'Sen evde ne unuttun?', sentence: 'What did she forget at home?'},
+    {
+      meaning: 'Sen evde ne unuttun?',
+      possibleAnswer: 'She forgot her keys at home.',
+      sentence: 'What did she forget at home?',
+    },
     {
       meaning: 'Onlar yürüyüşlerinde ne gördüler?',
+      possibleAnswer: 'On their walk, they saw birds and flowers.',
       sentence: 'What did they see on their walk?',
     },
     {
       meaning: 'Sen pikniğe ne götürdün?',
+      possibleAnswer: 'I took sandwiches, fruits, and drinks to the picnic.',
       sentence: 'What did you take to the picnic?',
     },
     {
       meaning: 'O film hakkında ne dedi?',
+      possibleAnswer: 'He said the movie was exciting and well-made.',
       sentence: 'What did he say about the movie?',
     },
     {
       meaning: 'Sen sanat dersi için ne yaptın?',
+      possibleAnswer: 'I made a clay sculpture for the art class.',
       sentence: 'What did you make for the art class?',
     },
     {
       meaning: 'Onlar tatil boyunca ne yaptı?',
+      possibleAnswer:
+        'During the holiday, they visited family and went sightseeing.',
       sentence: 'What did they do during the holiday?',
     },
     {
       meaning: 'Senin erkek kardeşin dün ne oynadı?',
+      possibleAnswer: 'My brother played video games yesterday.',
       sentence: 'What did your brother play yesterday?',
     },
     {
       meaning: 'Sen dün okulda ne öğrendin?',
+      possibleAnswer: 'Yesterday, I learned about fractions in math class.',
       sentence: 'What did you learn in school yesterday?',
     },
     {
       meaning: 'O defterine ne çizdi?',
+      possibleAnswer: 'She drew a landscape in her notebook.',
       sentence: 'What did she draw in her notebook?',
     },
     {
       meaning: 'Onlar sana ne söylediler?',
+      possibleAnswer: 'They said they appreciated my help.',
       sentence: 'What did they say to you?',
     },
     {
       meaning: 'Senin kız kardeşin dün ne giydi?',
+      possibleAnswer: 'My sister wore a blue sweater and jeans yesterday.',
       sentence: 'What did your sister wear yesterday?',
     },
     {
       meaning: 'Sen çantanın içinde ne buldun?',
+      possibleAnswer: 'I found my missing pen in my bag.',
       sentence: 'What did you find in your bag?',
     },
-    {meaning: 'O geçen yaz ne yaptı?', sentence: 'What did he do last summer?'},
+    {
+      meaning: 'O geçen yaz ne yaptı?',
+      possibleAnswer: 'Last summer, he worked at a summer camp.',
+      sentence: 'What did he do last summer?',
+    },
     {
       meaning: 'Sen partide ne yedin?',
+      possibleAnswer: 'At the party, I ate cake and snacks.',
       sentence: 'What did you eat at the party?',
     },
     {
       meaning: 'O toplantıya ne getirdi?',
+      possibleAnswer: 'She brought her laptop and a notebook to the meeting.',
       sentence: 'What did she bring to the meeting?',
     },
     {
       meaning: 'Onlar alışveriş merkezinden ne aldılar?',
+      possibleAnswer: 'They bought clothes and shoes at the mall.',
       sentence: 'What did they buy at the mall?',
     },
     {
       meaning: 'Senin öğretmenin sana ödev için ne Verdi?',
+      possibleAnswer: 'My teacher gave me a math worksheet for homework.',
       sentence: 'What did your teacher give you for homework?',
     },
     {
       meaning: 'Sen günlüğüne ne yazdın?',
+      possibleAnswer: 'I wrote about my day and my thoughts in my diary.',
       sentence: 'What did you write in your diary?',
     },
     {
       meaning: 'O parkta ne kaybetti?',
+      possibleAnswer: 'He lost his hat at the park.',
       sentence: 'What did he lose at the park?',
     },
     {
       meaning: 'Sen müzede ne gördün?',
+      possibleAnswer: 'At the museum, I saw ancient artifacts and paintings.',
       sentence: 'What did you see at the museum?',
     },
     {
       meaning: 'O bilgisayarda ne oynadı?',
+      possibleAnswer: 'She played a puzzle game on the computer.',
       sentence: 'What did she play on the computer?',
     },
     {
       meaning: 'Onlar akşam yemeğinden sonra ne yaptılar?',
+      possibleAnswer: 'After dinner, they watched a movie together.',
       sentence: 'What did they do after dinner?',
     },
     {
       meaning: 'Senin kedin bütün gün ne yaptı?',
+      possibleAnswer: 'My cat slept and watched birds all day.',
       sentence: 'What did your cat do all day?',
     },
     {
       meaning: 'Konser hakkında ne düşündün? ',
+      possibleAnswer: 'I thought the concert was amazing and entertaining.',
       sentence: 'What did you think of the concert?',
     },
     {
       meaning: 'O öğretmene ne söyledi?',
+      possibleAnswer: 'She asked the teacher a question about the assignment.',
       sentence: 'What did she say to the teacher?',
     },
     {
       meaning: 'Onlar öğle yemeği için ne yediler?',
+      possibleAnswer: 'They had sandwiches and salad for lunch.',
       sentence: 'What did they have for lunch?',
     },
     {
       meaning: 'Sen egzersiz için ne yaptın?',
+      possibleAnswer: 'For exercise, I went for a run and did some yoga.',
       sentence: 'What did you do for exercise?',
     },
     {
       meaning: 'O okul için ne giydi? ',
+      possibleAnswer: 'He wore a hoodie and jeans to school.',
       sentence: 'What did he wear to school?',
     },
     {
       meaning: 'Sen sanat dersin ne çizdin?',
+      possibleAnswer: 'In art class, I drew a portrait of my friend.',
       sentence: 'What did you draw in art class?',
     },
     {
       meaning: 'O kahvaltı için ne yedi?',
+      possibleAnswer: 'She ate pancakes with syrup for breakfast.',
       sentence: 'What did she eat for breakfast?',
     },
     {
       meaning: 'Onlar geçen Cuma ne yaptılar?',
+      possibleAnswer: 'Last Friday, they went to a concert.',
       sentence: 'What did they do last Friday?',
     },
     {
       meaning: "Sen YouTube'da ne izledin?",
+      possibleAnswer: 'I watched a cooking tutorial on YouTube.',
       sentence: 'What did you watch on YouTube?',
     },
     {
       meaning: 'O konserde ne duydu?',
+      possibleAnswer: 'He heard his favorite band playing at the concert.',
       sentence: 'What did he hear at the concert?',
     },
     {
       meaning: 'Sen öğle yemeği için ne getirdin?',
+      possibleAnswer: 'I brought a turkey sandwich and an apple for lunch.',
       sentence: 'What did you bring for lunch?',
     },
     {
       meaning: 'O e-postada ne yazdı?',
+      possibleAnswer: 'She wrote a message to her friend in the email.',
       sentence: 'What did she write in the email?',
     },
     {
       meaning: 'Onlar fuarda ne sattılar?',
+      possibleAnswer: 'They sold handmade crafts and food at the fair.',
       sentence: 'What did they sell at the fair?',
     },
     {
       meaning: 'Senin ebeveynlerin senin notların hakkında ne söyledi?',
+      possibleAnswer: 'My parents said they were proud of my grades.',
       sentence: 'What did your parents say about your grades?',
     },
     {
       meaning: 'Sen plajda ne buldun?',
+      possibleAnswer: 'I found seashells and a starfish at the beach.',
       sentence: 'What did you find at the beach?',
     },
     {
       meaning: 'O arkadaşlarıyla ne oynadı?',
+      possibleAnswer: 'He played soccer with his friends.',
       sentence: 'What did he play with his friends?',
     },
     {
       meaning: 'Sen seyahatinde ne aldın?',
+      possibleAnswer: 'I took clothes, a camera, and a guidebook on my trip.',
       sentence: 'What did you take on your trip?',
     },
     {
       meaning: 'O kamera ile ne yaptı?',
+      possibleAnswer: 'She took pictures of the scenery with the camera.',
       sentence: 'What did she do with the camera?',
     },
     {
       meaning: 'Onlar akşam yemeği için ne pişirdiler?',
+      possibleAnswer: 'They cooked grilled chicken and vegetables for dinner.',
       sentence: 'What did they cook for dinner?',
     },
     {
       meaning: 'Sen doğum gününde ne aldın?',
+      possibleAnswer: 'I received a new bike for my birthday.',
       sentence: 'What did you receive for your birthday?',
     },
     {
       meaning: 'O garajda ne buldu?',
+      possibleAnswer: 'He found an old toolbox in the garage.',
       sentence: 'What did he find in the garage?',
     },
     {
       meaning: 'Sen bahçede ne gördün?',
+      possibleAnswer: 'In the garden, I saw blooming flowers and butterflies.',
       sentence: 'What did you see in the garden?',
     },
     {
       meaning: 'O sınıfta ne öğrendi?',
+      possibleAnswer: 'She learned about the water cycle in class.',
       sentence: 'What did she learn in class?',
     },
     {
       meaning: 'Onlar evde ne unuttular?',
+      possibleAnswer: 'They forgot their lunch at home.',
       sentence: 'What did they forget at home?',
     },
     {
       meaning: 'Sen evde neyi temizledin?',
+      possibleAnswer: 'I cleaned the kitchen and the living room in the house.',
       sentence: 'What did you clean in the house?',
     },
     {
       meaning: 'O sinemada ne izledi?',
+      possibleAnswer: 'He watched a new action movie at the cinema.',
       sentence: 'What did he watch at the cinema?',
     },
     {
       meaning: 'Sen kafeteryada ne yedin?',
+      possibleAnswer: 'I ate a salad and a sandwich at the cafeteria.',
       sentence: 'What did you eat at the cafeteria?',
     },
     {
       meaning: 'O spor salonunda ne yaptı?',
+      possibleAnswer: 'She did a cardio workout at the gym.',
       sentence: 'What did she do at the gym?',
     },
     {
       meaning: 'Onlar toplantıda ne hakkında konuştular?',
+      possibleAnswer: 'They talked about the new project at the meeting.',
       sentence: 'What did they talk about at the meeting?',
     },
     {
       meaning: 'Sen pazartesi günü ne giydin?',
+      possibleAnswer: 'On Monday, I wore a blue shirt and black pants.',
       sentence: 'What did you wear on Monday?',
     },
     {
       meaning: 'O kütüphanede ne okudu?',
+      possibleAnswer: 'He read a mystery novel in the library.',
       sentence: 'What did he read in the library?',
     },
     {
       meaning: 'Sen sabah ne duydun?',
+      possibleAnswer: 'In the morning, I heard birds singing outside.',
       sentence: 'What did you hear in the morning?',
     },
     {
       meaning: 'O marketten ne aldı?',
+      possibleAnswer:
+        'She bought fruits, vegetables, and milk at the grocery store.',
       sentence: 'What did she buy at the grocery store?',
     },
     {
       meaning: 'Onlar şehirde ne ziyaret ettiler?',
+      possibleAnswer: 'They visited the museum and the aquarium in the city.',
       sentence: 'What did they visit in the city?',
     },
     {
       meaning: 'Sen doğa yürüyüşünde ne gördün?',
+      possibleAnswer: 'On the hike, I saw beautiful landscapes and wildlife.',
       sentence: 'What did you see on the hike?',
     },
     {
       meaning: 'O partide ne içti?',
+      possibleAnswer: 'He drank lemonade at the party.',
       sentence: 'What did he drink at the party?',
     },
     {
       meaning: 'Sen parkta ne oynadın?',
+      possibleAnswer: 'In the park, I played frisbee with my friends.',
       sentence: 'What did you play in the park?',
     },
     {
       meaning: 'O okula giderken ne kaybetti?',
+      possibleAnswer: 'She lost her notebook on her way to school.',
       sentence: 'What did she lose on her way to school?',
     },
     {
       meaning: 'Onlar düğünde giydiler?',
+      possibleAnswer: 'They wore formal dresses and suits to the wedding.',
       sentence: 'What did they wear to the wedding?',
     },
     {
       meaning: 'Siz sınıfta ne tartıştınız?',
+      possibleAnswer: 'We discussed environmental issues in class.',
       sentence: 'What did you discuss in class?',
     },
     {
       meaning: 'O senin evinde ne unuttu?',
+      possibleAnswer: 'He forgot his jacket at my house.',
       sentence: 'What did he forget at your house?',
     },
     {
       meaning: 'Sen spor salonunda ne yaptın?',
+      possibleAnswer:
+        'At the gym, I did strength training and cardio exercises.',
       sentence: 'What did you do at the gym?',
     },
     {
       meaning: 'O sen onu aradığında ne söyledi?',
+      possibleAnswer: 'She said she was busy and would call back later.',
       sentence: 'What did she say when you called her?',
     },
     {
       meaning: 'Onlar sınıfa ne getirdiler?',
+      possibleAnswer:
+        'They brought their projects and presentations to the class.',
       sentence: 'What did they bring to the class?',
     },
     {
       meaning: 'Sen akşam yemeği için ne yaptın?',
+      possibleAnswer: 'I made lasagna for dinner.',
       sentence: 'What did you make for dinner?',
     },
     {
       meaning: 'O kitaptan ne öğrendi?',
+      possibleAnswer: 'He learned about ancient civilizations from the book.',
       sentence: 'What did he learn from the book?',
     },
     {
       meaning: 'Sen restoranda ne seçtin?',
+      possibleAnswer: 'I chose the pasta dish at the restaurant.',
       sentence: 'What did you choose at the restaurant?',
     },
     {
       meaning: 'O ders esnasında ne duydu?',
+      possibleAnswer:
+        'She heard about new scientific discoveries during the lecture.',
       sentence: 'What did she hear during the lecture?',
     },
     {
       meaning: 'Onlar yıldönümlerinde ne yaptılar?',
+      possibleAnswer: 'They went on a romantic getaway for their anniversary.',
       sentence: 'What did they do for their anniversary?',
     },
     {
       meaning: 'Sen mektubunda ne yazdın?',
+      possibleAnswer:
+        'I wrote about my recent experiences and future plans in my letter.',
       sentence: 'What did you write in your letter?',
     },
     {
       meaning: 'O seyahatinden ne getirdi?',
+      possibleAnswer: 'He brought souvenirs and postcards from his trip.',
       sentence: 'What did he bring from his trip?',
     },
     {
       meaning: 'Sen müzede neyi ilginç buldun?',
+      possibleAnswer: 'I found the dinosaur fossils interesting at the museum.',
       sentence: 'What did you find interesting at the museum?',
     },
     {
       meaning: 'O bilgisayarında ne izledi?',
+      possibleAnswer: 'She watched a documentary on her computer.',
       sentence: 'What did she watch on her computer?',
     },
     {
       meaning: 'Onlar piknikte ne yediler?',
+      possibleAnswer: 'They ate sandwiches and fruit at the picnic.',
       sentence: 'What did they eat at the picnic?',
     },
     {
       meaning: 'Sen spor salonunda ne giydin?',
+      possibleAnswer: 'I wore a t-shirt and shorts to the gym.',
       sentence: 'What did you wear to the gym?',
     },
     {
       meaning: 'O senin fikrin hakkında ne dedi?',
+      possibleAnswer: 'He said my idea was innovative and worth pursuing.',
       sentence: 'What did he say about your idea?',
     },
   ],
   C3: [
     {
       meaning: 'Sen dün gece saat 8’de ne yapıyordun?',
+      possibleAnswer:
+        "At 8 o'clock last night, I was having dinner with my family.",
       sentence: "What were you doing at 8 o'clock last night?",
     },
     {
       meaning: 'Sen onu gördüğünde senin kız kardeşin ne giyiyordu?',
+      possibleAnswer: 'She was wearing a red dress when I saw her.',
       sentence: 'What was she wearing when you saw her?',
     },
     {
       meaning: 'Sen vardığında onlar ne yiyorlardı?',
+      possibleAnswer: 'They were eating pizza when I arrived.',
       sentence: 'What were they eating when you arrived?',
     },
     {
       meaning: 'Sen dün akşam ne izliyordun?',
+      possibleAnswer: 'He was watching a documentary on TV yesterday evening.',
       sentence: 'What was he watching on TV yesterday evening?',
     },
     {
       meaning: 'O, müdahale ettiğinde seninle neyi tartışıyorduk?',
+      possibleAnswer:
+        'We were discussing our weekend plans when she interrupted.',
       sentence: 'What were we discussing when she interrupted?',
     },
     {
       meaning: 'Sen evden ayrıldığında senin köpeğin ne yapıyordu?',
+      possibleAnswer: 'My dog was sleeping on the couch when I left the house.',
       sentence: 'What was your dog doing when you left the house?',
     },
     {
       meaning: 'Senin ebeveynlerin dün gece akşam yemeği için ne pişiriyordu?',
+      possibleAnswer: 'My parents were cooking pasta for dinner last night.',
       sentence: 'What were your parents cooking for dinner last night?',
     },
     {
       meaning: 'Sen onu aradığında senin erkek kardeşin ne çalışıyordu?',
+      possibleAnswer: 'My brother was studying chemistry when I called him.',
       sentence: 'What was your brother studying when you called him?',
     },
     {
       meaning:
         'Sen yağmur yağmaya başladığında senin arkadaşların ne oynuyordu?',
+      possibleAnswer: 'My friends were playing soccer when it started raining.',
       sentence: 'What were your friends playing when it started raining?',
     },
     {
       meaning: 'Zil çaldığında senin öğretmenin neyi açıklıyordu?',
+      possibleAnswer:
+        'My teacher was explaining the homework assignment when the bell rang.',
       sentence: 'What was your teacher explaining when the bell rang?',
     },
     {
       meaning: 'Sen uyandığında kuşlar ne yapıyorlardı',
+      possibleAnswer: 'The birds were chirping when I woke up.',
       sentence: 'What were the birds doing when you woke up?',
     },
     {
       meaning: 'Sen onu son gördüğünde o ne arıyordu?',
+      possibleAnswer: 'She was looking for her keys when I last saw her.',
       sentence: 'What was she looking for when you last saw her?',
     },
     {
       meaning: 'Sen kalemin bittiği zaman ne çiziyordun?',
+      possibleAnswer: 'I was drawing a landscape when my pen ran out.',
       sentence: 'What were you drawing when your pen ran out?',
     },
     {
       meaning: 'Bilgisayar çöktüğünde o ne yazıyordu?',
+      possibleAnswer: 'He was typing an email when the computer crashed.',
       sentence: 'What was he typing when the computer crashed?',
     },
     {
       meaning: 'Fırtına geldiğinde onlar ne inşa ediyordu?',
+      possibleAnswer: 'They were building a treehouse when the storm came.',
       sentence: 'What were they building when the storm came?',
     },
     {
       meaning: 'Sen onu yakalamaya çalışırken senin kedin neyi kovalıyordu?',
+      possibleAnswer:
+        'My cat was chasing a butterfly when I tried to catch it.',
       sentence: 'What was your cat chasing when you tried to catch it?',
     },
     {
       meaning: 'Sen dışarı çıktığında komşular ne yapıyordu?',
+      possibleAnswer:
+        'The neighbors were having a barbecue when I went outside.',
       sentence: 'What were the neighbors doing when you went outside?',
     },
     {
       meaning: 'Dün senin kız kardeşin piyanosunda ne pratiği yapıyordu?',
+      possibleAnswer:
+        'My sister was practicing a new song on her piano yesterday.',
       sentence: 'What was your sister practicing on her piano yesterday?',
     },
     {
       meaning: 'Yangın alarmı çaldığında öğrenciler ne yapıyordu?',
+      possibleAnswer:
+        'The students were taking a test when the fire alarm sounded.',
       sentence: 'What were the students doing when the fire alarm sounded?',
     },
     {
       meaning: 'Sen onu aradığında senin annen ne yapıyordu?',
+      possibleAnswer: 'My mom was cooking dinner when I called her.',
       sentence: 'What was your mom doing when you called her?',
     },
     {
       meaning: 'Seni son gördüğümde sen ne planlıyordun?',
+      possibleAnswer: 'I was planning my vacation when you saw me last.',
       sentence: 'What were you planning when I saw you last?',
     },
     {
       meaning: 'Sen ondan yardım istediğinde senin baban neyi tamir ediyordu?',
+      possibleAnswer: 'My dad was fixing the car when I asked him for help.',
       sentence: 'What was your dad fixing when you asked him for help?',
     },
     {
       meaning: 'Sen parktan ayrıldığında çocuklar ne yapıyordu?',
+      possibleAnswer:
+        'The children were playing on the swings when I left the park.',
       sentence: 'What were the children doing when you left the park?',
     },
     {
       meaning: 'Kamera düştüğünde o ne yapıyordu?',
+      possibleAnswer: 'She was taking a photo with the camera when it fell.',
       sentence: 'What was she doing with the camera when it fell?',
     },
     {
       meaning: 'Dün sen sanat projen için ne yapıyordun?',
+      possibleAnswer:
+        'I was making a clay sculpture for my art project yesterday.',
       sentence: 'What were you making for your art project yesterday?',
     },
     {
       meaning: 'O, anahtarlarını kaybettiğinde o ne arıyordu?',
+      possibleAnswer: 'He was searching for his phone when he lost his keys.',
       sentence: 'What was he searching for when he lost his keys?',
     },
     {
       meaning: 'Ben içeri girdiğimde sen ne izliyordun?',
+      possibleAnswer: 'I was watching a movie when you came in.',
       sentence: 'What were you watching when I came in?',
     },
     {
       meaning: 'Sen ona süpriz yaptığında senin arkadaşın neye bakıyordu?',
+      possibleAnswer:
+        'My friend was looking at her phone when I surprised her.',
       sentence: 'What was your friend looking at when you surprised her?',
     },
     {
       meaning: 'Sen geçerken öğretmenler neyi tartışıyordu?',
+      possibleAnswer:
+        'The teachers were discussing the upcoming school event when I passed by.',
       sentence: 'What were the teachers discussing when you passed by?',
     },
     {
       meaning: 'Sen ağladığını duyduğunda bebek ne yapıyordu?',
+      possibleAnswer:
+        'The baby was waking up from a nap when I heard her crying.',
       sentence: 'What was the baby doing when you heard her crying?',
     },
     {
       meaning: 'Seni aradığımda sen ne dinliyordun?',
+      possibleAnswer: 'I was listening to music when you called me.',
       sentence: 'What were you listening to when I called you?',
     },
     {
       meaning: 'Sen katıldığında senin egzersiz için ne yaptığı?',
+      possibleAnswer: 'She was jogging for exercise when I joined her.',
       sentence: 'What was she doing for exercise when you joined her?',
     },
     {
       meaning: 'Dün öğle yemeği için sen ne hazırlıyordun?',
+      possibleAnswer: 'I was preparing a salad for lunch yesterday.',
       sentence: 'What were you preparing for lunch yesterday?',
     },
     {
       meaning: 'Işık söndüğünde o ödevi için ne yapıyordu?',
+      possibleAnswer:
+        'He was reading a book for his homework when the light went out.',
       sentence: 'What was he doing for his homework when the light went out?',
     },
     {
       meaning: 'Sen ziyaret ettiğinde bilim fuarı için onlar ne yapıyorlardı?',
+      possibleAnswer:
+        'They were building a model volcano for the science fair when I visited.',
       sentence: 'What were they doing for the science fair when you visited?',
     },
     {
       meaning: 'Sen vardığında senin büyükannen ne örüyordu?',
+      possibleAnswer: 'My grandmother was knitting a sweater when I arrived.',
       sentence: 'What was your grandmother knitting when you arrived?',
     },
     {
       meaning: 'Seni gördüğümde sen ne arıyordun?',
+      possibleAnswer:
+        'I was searching for a specific chapter in the book when you saw me.',
       sentence: 'What were you searching for in the book when I saw you?',
     },
     {
       meaning: 'Sen ona sorduğunda senin günlüğüne ne yazıyordu?',
+      possibleAnswer:
+        'She was writing about her day in her diary when I asked her.',
       sentence: 'What was she writing in her diary when you asked her?',
     },
     {
       meaning: 'Öğretmen geldiğinde grup projesi için onlar ne yapıyorlardı?',
+      possibleAnswer:
+        'They were making a poster for the group project when the teacher came.',
       sentence:
         'What were they doing for the group project when the teacher came?',
     },
     {
       meaning: 'Sen onu gördüğünde senin kuzenin partide ne yapıyordu?',
+      possibleAnswer: 'My cousin was dancing at the party when I saw him.',
       sentence: 'What was your cousin doing at the party when you saw him?',
     },
     {
       meaning: 'Sen dün okuldan sonra ne yapıyordun?',
+      possibleAnswer: 'After school yesterday, I was studying at the library.',
       sentence: 'What were you doing after school yesterday?',
     },
     {
       meaning: 'Fırın bozulduğunda senin teyzen ne pişiriyordu?',
+      possibleAnswer: 'My aunt was baking a cake when the oven broke.',
       sentence: 'What was your aunt baking when the oven broke?',
     },
     {
       meaning: 'Rehber konuşmaya başladığında müzede turistler ne yapıyordu?',
+      possibleAnswer:
+        'The tourists were looking at the exhibits when the guide started speaking.',
       sentence:
         'What were the tourists doing at the museum when the guide started speaking?',
     },
     {
       meaning: 'Sen onu beslemeden önce senin evcil hayvanın ne yapıyordu?',
+      possibleAnswer: 'My pet was sitting by its bowl right before I fed it.',
       sentence: 'What was your pet doing right before you fed it?',
     },
     {
       meaning: 'Ben seni aradığımda sen ne yiyordun?',
+      possibleAnswer: 'I was eating dinner when you called me yesterday.',
       sentence: 'What were you eating when I called you yesterday?',
     },
     {
       meaning: 'Sen ayrıldığında, o sanat sınıfında ne boyuyordu?',
+      possibleAnswer: 'She was painting a still life in art class when I left.',
       sentence: 'What was she painting in art class when you left?',
     },
     {
       meaning: 'Yağmur yağdığında onlar spor günü için ne pratik yapıyorlardı?',
+      possibleAnswer:
+        'They were practicing relay races for sports day when it rained.',
       sentence: 'What were they practicing for sports day when it rained?',
     },
     {
       meaning: 'Sen son ziyaret ettiğinde senin amcan ne tamir ediyordu?',
+      possibleAnswer: 'My uncle was repairing his bicycle when I last visited.',
       sentence: 'What was your uncle repairing when you last visited?',
     },
     {
       meaning:
         'Kütüphaneci onlarla konuştuğunda senin öğrencilerin kütüphanede ne yapıyordu?',
+      possibleAnswer:
+        'The students were talking loudly in the library when the librarian spoke to them.',
       sentence:
         'What were the students doing in the library when the librarian spoke to them?',
     },
     {
       meaning:
         'Sen vardığında, senin antrenörün antrenman sırasında ne yapıyordu?',
+      possibleAnswer:
+        'My coach was setting up cones during practice when I arrived.',
       sentence: 'What was your coach doing during practice when you arrived?',
     },
     {
       meaning: 'Zil çaldığında müzik dersinde sen ne öğreniyordun?',
+      possibleAnswer:
+        'We were learning a new song in music class when the bell rang.',
       sentence: 'What were you learning in music class when the bell rang?',
     },
     {
       meaning: 'O kaydığı zaman yeni telefonu ile ne yapıyordu?',
+      possibleAnswer: 'She was texting with her new phone when it slipped.',
       sentence: 'What was she doing with her new phone when it slipped?',
     },
     {
       meaning: 'Cankurtaran ıslık çaldığında plajda onlar ne yapıyorlardı?',
+      possibleAnswer:
+        'They were swimming at the beach when the lifeguard whistled.',
       sentence:
         'What were they doing at the beach when the lifeguard whistled?',
     },
     {
       meaning: 'Son kontrol ettiğinde tamirci araçla ne yapıyordu?',
+      possibleAnswer:
+        'The mechanic was changing the tires on the car when I last checked.',
       sentence:
         'What was the mechanic doing with the car when you last checked?',
     },
     {
       meaning: 'Mutfağa baktığında şefler restoranda ne pişiriyordu?',
+      possibleAnswer:
+        'The chefs were cooking steak and vegetables in the restaurant when I looked in the kitchen.',
       sentence:
         'What were the chefs cooking in the restaurant when you looked in the kitchen?',
     },
     {
       meaning: 'Müdür içeri girdiğinde öğretmen sınıfın önünde ne yapıyordu?',
+      possibleAnswer:
+        'The teacher was explaining the lesson at the front of the class when the principal entered.',
       sentence:
         'What was the teacher doing at the front of the class when the principal entered?',
     },
     {
       meaning: 'O çöktüğünde çocuklar bilgisayarda ne yapıyorlardı? ',
+      possibleAnswer:
+        'The kids were playing a game on the computer when it crashed.',
       sentence: 'What were the kids doing on the computer when it crashed?',
     },
     {
       meaning: 'Sen sayı attığında senin takım arkadaşın maçta ne yapıyordu?',
+      possibleAnswer: 'My teammate was celebrating at the game when I scored.',
       sentence: 'What was your teammate doing at the game when you scored?',
     },
     {
       meaning:
         'Pasaportunu unuttuğunu fark ettiğinde seyahatin için ne paketliyordun?',
+      possibleAnswer:
+        'I was packing my clothes for the trip when I realized I forgot my passport.',
       sentence:
         'What were you packing for your trip when you realized you forgot your passport?',
     },
     {
       meaning: 'Yardım teklif ettiğinde çiçeklerle ne yapıyordu?',
+      possibleAnswer:
+        'She was arranging the flowers in a vase when I offered to help.',
       sentence: 'What was she doing with the flowers when you offered to help?',
     },
     {
       meaning: 'Sen onlara katıldığında onlar spor salonunda ne yapıyorlardı?',
+      possibleAnswer:
+        'They were lifting weights at the gym when I joined them.',
       sentence: 'What were they doing at the gym when you joined them?',
     },
     {
       meaning:
         'Sen ziyaret etmeyi planladığında arkadaşın hafta sonu için ne yapıyordu?',
+      possibleAnswer:
+        'My friend was going camping for the weekend when I planned to visit.',
       sentence:
         'What was your friend doing for the weekend when you planned to visit?',
     },
     {
       meaning: 'Dolu yağmaya başladığında oyuncular sahada ne yapıyorlardı?',
+      possibleAnswer:
+        'The players were practicing on the field when it started to hail.',
       sentence:
         'What were the players doing on the field when it started to hail?',
     },
     {
       meaning: 'Sen onu selamladığında postacı dışarıda ne yapıyordu?',
+      possibleAnswer:
+        'The mailman was delivering mail outside when I greeted him.',
       sentence: 'What was the mailman doing outside when you greeted him?',
     },
     {
       meaning: 'Elektrikler kesildiğinde televizyonda ne izliyordun?',
+      possibleAnswer:
+        'I was watching a movie on television when the power went out.',
       sentence: 'What were you watching on television when the power went out?',
     },
     {
       meaning: 'Sen ona bir soru sorduğunda masasında ne yapıyordu?',
+      possibleAnswer:
+        'She was writing a report at her desk when I asked her a question.',
       sentence: 'What was she doing at her desk when you asked her a question?',
     },
     {
       meaning:
         'Sen katılmaya karar verdiğinde onlar harita ile ne yapıyorlardı?',
+      possibleAnswer:
+        'They were planning a hike with the map when I decided to join them.',
       sentence:
         'What were they doing with the map when you decided to join them?',
     },
     {
       meaning: 'Sen vardığında sanatçı stüdyoda ne yapıyordu?',
+      possibleAnswer: 'The artist was painting in the studio when I arrived.',
       sentence: 'What was the artist doing in the studio when you arrived?',
     },
     {
       meaning: 'Müzik durduğunda dansçılar sahnede ne yapıyorlardı?',
+      possibleAnswer:
+        'The dancers were performing on stage when the music stopped.',
       sentence: 'What were the dancers doing on stage when the music stopped?',
     },
     {
       meaning: 'Sen odaya girdiğinde öğretmen o kağıtlar ile ne yapıyordu?',
+      possibleAnswer:
+        'My teacher was grading those papers when I entered the room.',
       sentence:
         'What was your teacher doing with those papers when you entered the room?',
     },
     {
       meaning: 'Sen, o kurabiyeler ile ne yapıyordun?',
+      possibleAnswer: 'I was putting those cookies in a jar.',
       sentence: 'What were you doing with those cookies?',
     },
     {
       meaning: 'Yağmur yağmaya başladığında o, bahçede ne yapıyordu?',
+      possibleAnswer:
+        'She was planting flowers in the garden when it started raining.',
       sentence: 'What was she doing in the garden when it started raining?',
     },
     {
       meaning: 'Onlar bitirdiğinde puzzle ile ne yapıyorlardı?',
+      possibleAnswer:
+        'They were taking a picture with the puzzle when they finished it.',
       sentence: 'What were they doing with the puzzle when they finished it?',
     },
     {
       meaning: 'Sen onunla konuştuğunda bahçıvan bitkilerle ne yapıyordu?',
+      possibleAnswer:
+        'The gardener was watering the plants when I spoke to him.',
       sentence:
         'What was the gardener doing with the plants when you spoke to him?',
     },
     {
       meaning: 'Geçit töreni başladığında insanlar meydanda ne yapıyordu?',
+      possibleAnswer:
+        'The people were cheering in the square when the parade started.',
       sentence:
         'What were the people doing in the square when the parade started?',
     },
     {
       meaning: 'Sen toplantıda sorunu sorduğunda lideriniz ne yapıyordu?',
+      possibleAnswer:
+        'My leader was presenting at the meeting when I asked my question.',
       sentence:
         'What was your leader doing at the meeting when you asked your question?',
     },
     {
       meaning:
         'Sen bağışlamaya karar verdiğinde eski kıyafetlerin ile, ne yapıyordun?',
+      possibleAnswer:
+        'I was sorting my old clothes when I decided to donate them.',
       sentence:
         'What were you doing with your old clothes when you decided to donate them?',
     },
     {
       meaning: 'O, eli incindiğinde alet çantası ile ne yapıyordu?',
+      possibleAnswer:
+        'He was fixing the sink with the toolbox when he hurt his hand.',
       sentence: 'What was he doing with the toolbox when he hurt his hand?',
     },
     {
       meaning:
         'O kayıt yapmayı durdurduğunda, onlar kamera ile ne yapıyorlardı?',
+      possibleAnswer:
+        'They were filming a scene with the video camera when it stopped recording.',
       sentence:
         'What were they doing with the video camera when it stopped recording?',
     },
     {
       meaning: 'Sen faturayı istediğinde, garson siparişler ile ne yapıyordu?',
+      possibleAnswer:
+        'The waitress was serving other tables with the orders when I asked for the bill.',
       sentence:
         'What was the waitress doing with the orders when you asked for the bill?',
     },
     {
       meaning: 'Sen ayak bileğini burktuğunda, egzersiz için ne yapıyordun?',
+      possibleAnswer: 'I was jogging when I twisted my ankle.',
       sentence: 'What were you doing for exercise when you twisted your ankle?',
     },
     {
       meaning: 'İzin istediğinde, senin patronun ne yapıyordu?',
+      possibleAnswer: 'My boss was in a meeting when I requested a day off.',
       sentence: 'What was your boss doing when you requested a day off?',
     },
     {
       meaning: 'Sen onları gördüğünde, turistler rehber ile ne yapıyorlardı?',
+      possibleAnswer:
+        'The tourists were listening to the guide when I saw them.',
       sentence:
         'What were the tourists doing with the guide when you saw them?',
     },
     {
       meaning:
         'Sen sınıfa girdiğinde, senin öğretmenin test için ne yapıyordu?',
+      possibleAnswer:
+        'My teacher was handing out papers for the test when I entered the classroom.',
       sentence:
         'What was your teacher doing for the test when you entered the classroom?',
     },
     {
       meaning: 'Anneleri içeri girdiğinde çocuklar boya ile ne yapıyorlardı?',
+      possibleAnswer:
+        'The children were painting a mural with the paint when their mum came in.',
       sentence:
         'What were the children doing with the paint when their mum came in?',
     },
     {
       meaning: 'Onu en son gördüğünde, fotoğrafçı o kamera ile ne yapıyordu?',
+      possibleAnswer:
+        'The photographer was taking pictures with that camera when I last saw him.',
       sentence:
         'What was the photographer doing with that camera when you last saw him?',
     },
     {
       meaning:
         'Mola sırasında, oyuncular antrenör onlara konuşurken ne yapıyorlardı?',
+      possibleAnswer:
+        'The players were drinking water during the timeout when the coach spoke to them.',
       sentence:
         'What were the players doing during the timeout when the coach spoke to them?',
     },
     {
       meaning: 'Yardım teklif ettiğinde, komşun o merdivenle ne yapıyordu?',
+      possibleAnswer:
+        'My neighbor was cleaning the gutters with that ladder when I offered to help.',
       sentence:
         'What was your neighbor doing with that ladder when you offered to help?',
     },
     {
       meaning: 'Sen koşmaya başladığında sağlığın için ne yapıyordun?',
+      possibleAnswer:
+        'I was following a fitness routine for my health when I started jogging.',
       sentence: 'What were you doing for your health when you started jogging?',
     },
     {
       meaning: 'O, sen ulaştığında dergilerle ne yapıyordu?',
+      possibleAnswer: 'She was organizing those magazines when I arrived.',
       sentence: 'What was she doing with those magazines when you arrived?',
     },
     {
       meaning: 'Sen biletleri aldığında onlar konser için ne yapıyorlardı?',
+      possibleAnswer:
+        'They were rehearsing for the concert when I bought tickets.',
       sentence: 'What were they doing for the concert when you bought tickets?',
     },
     {
       meaning:
         'Sen katılmak için sorduğunda senin sınıf arkadaşın kitap ile ne yapıyordu?',
+      possibleAnswer:
+        'My classmate was studying with the books when I asked to join.',
       sentence:
         'What was your classmate doing with the books when you asked to join?',
     },
     {
       meaning: 'Sen geçerken, işçiler inşaat alanında ne yapıyorlardı?',
+      possibleAnswer:
+        'The workers were building a new office at the construction site when I passed by.',
       sentence:
         'What were the workers doing at the construction site when you passed by?',
     },
     {
       meaning: 'Sen otele giriş yaparken, resepsiyonist masada ne yapıyordu?',
+      possibleAnswer:
+        'The receptionist was checking in guests at the desk when I checked in.',
       sentence:
         'What was the receptionist doing at the desk when you checked in?',
     },
     {
       meaning:
         'Eski bozuk parayı bulduğunda, sen bahçe aletleriyle ne yapıyordun?',
+      possibleAnswer:
+        'I was digging a hole with the gardening tools when I found the old coin.',
       sentence:
         'What were you doing with the gardening tools when you found the old coin?',
     },
     {
       meaning: 'Sen ona konuşmak istediğinde, o belgelerle ne yapıyordu?',
+      possibleAnswer:
+        'She was filing the documents when I needed to talk to her.',
       sentence:
         'What was she doing with the documents when you needed to talk to her?',
     },
     {
       meaning:
         'Projektör bozulduğunda, onlar sunum için ne yapıyorlardı onlar?',
+      possibleAnswer:
+        'They were discussing backup plans for the presentation when the projector failed.',
       sentence:
         'What were they doing for the presentation when the projector failed?',
     },
     {
       meaning: 'Sen geldiğinde, antrenör spor salonunda ne yapıyordu?',
+      possibleAnswer:
+        'My trainer was demonstrating exercises in the gym when I arrived.',
       sentence: 'What was your trainer doing in the gym when you arrived?',
     },
     {
       meaning:
         'Sen bilgisayar güncellenmeye başladığında, sen bilgisayarla ne yapıyordun?',
+      possibleAnswer:
+        'I was writing an essay with the computer when it started updating.',
       sentence:
         'What were you doing with the computer when it started updating?',
     },
     {
       meaning: 'Sen süpermarkette onu gördüğünde o ne yapıyordu?',
+      possibleAnswer:
+        'He was shopping for groceries at the supermarket when I saw him.',
       sentence: 'What was he doing at the supermarket when you saw him?',
     },
   ],
