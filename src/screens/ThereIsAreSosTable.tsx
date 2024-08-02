@@ -24,6 +24,7 @@ import {ttsSettings} from '../utils/ttsSettings';
 import {Bar} from 'react-native-progress';
 import {Route, useRoute} from '@react-navigation/native';
 import ThereIsAreSentences from '../utils/thereIsAreVerbs.json';
+import {questionsTranslateArray} from '../helpers/translateArray';
 
 export interface SosTable {
   id: number;

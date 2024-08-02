@@ -146,12 +146,7 @@ const Table = ({
           borderRadius: 8,
         }}
         key={symbol}
-        disabled={
-          selectedSymbol !== '' ||
-          (mainCategory === 'Questions' &&
-            symbol !== 'What' &&
-            symbol !== 'Where')
-        }
+        disabled={selectedSymbol !== ''}
         onPress={() => handleBoxPress(symbol)}>
         <Blink duration={600}>
           <View
@@ -182,12 +177,7 @@ const Table = ({
           },
         ]}
         key={symbol}
-        disabled={
-          selectedSymbol !== '' ||
-          (mainCategory === 'Questions' &&
-            symbol !== 'What' &&
-            symbol !== 'Where')
-        }
+        disabled={selectedSymbol !== ''}
         onPress={() => handleBoxPress(symbol)}>
         <Text
           style={[

@@ -19056,3 +19056,3118 @@ export const QuestionsTranslationSentencesWhen = {
     },
   ],
 };
+
+export const QuestionsTranslationSentencesWhy = {
+  'A1-G': [
+    {
+      meaning: 'Neden geç kalacaksın?',
+      possibleAnswer: 'Because there is a lot of traffic.',
+      sentence: 'Why are you going to be late?',
+    },
+    {
+      meaning: 'Neden mutlu olacak?',
+      possibleAnswer: 'Because she will see her friend.',
+      sentence: 'Why is she going to be happy?',
+    },
+    {
+      meaning: 'Neden yorgun olacaklar?',
+      possibleAnswer: 'Because they will work all day.',
+      sentence: 'Why are they going to be tired?',
+    },
+    {
+      meaning: 'Neden meşgul olacak?',
+      possibleAnswer: 'Because he has many things to do.',
+      sentence: 'Why is he going to be busy?',
+    },
+    {
+      meaning: 'Neden heyecanlı olacaksın?',
+      possibleAnswer: 'Because I will go on vacation.',
+      sentence: 'Why are you going to be excited?',
+    },
+    {
+      meaning: 'Neden kızgın olacak?',
+      possibleAnswer: 'Because his team will lose the game.',
+      sentence: 'Why is he going to be angry?',
+    },
+    {
+      meaning: 'Neden dikkatli olacaksın?',
+      possibleAnswer: 'Because the road is slippery.',
+      sentence: 'Why are you going to be careful?',
+    },
+    {
+      meaning: 'Neden sessiz olacaklar?',
+      possibleAnswer: 'Because the baby is sleeping.',
+      sentence: 'Why are they going to be quiet?',
+    },
+    {
+      meaning: 'Neden zengin olacak?',
+      possibleAnswer: 'Because he will work hard and save money.',
+      sentence: 'Why is he going to be rich?',
+    },
+    {
+      meaning: 'Neden üzgün olacaksın?',
+      possibleAnswer: 'Because my friend will move away.',
+      sentence: 'Why are you going to be sad?',
+    },
+    {
+      meaning: 'Neden ünlü olacak?',
+      possibleAnswer: 'Because she will star in a popular movie.',
+      sentence: 'Why is she going to be famous?',
+    },
+    {
+      meaning: 'Neden üşüyecekler?',
+      possibleAnswer: 'Because they forgot their coats.',
+      sentence: 'Why are they going to be cold?',
+    },
+    {
+      meaning: 'Neden aç olacak?',
+      possibleAnswer: 'Because he will skip lunch.',
+      sentence: 'Why is he going to be hungry?',
+    },
+    {
+      meaning: 'Neden yalnız olacaksın?',
+      possibleAnswer: 'Because my family will go on a trip.',
+      sentence: 'Why are you going to be alone?',
+    },
+    {
+      meaning: 'Neden okula geç kalacaklar?',
+      possibleAnswer: "Because their alarm didn't ring.",
+      sentence: 'Why are they going to be late for school?',
+    },
+    {
+      meaning: 'Neden başarılı olacak?',
+      possibleAnswer: 'Because he studies hard every day.',
+      sentence: 'Why is he going to be successful?',
+    },
+    {
+      meaning: 'Neden şaşıracaksın?',
+      possibleAnswer: 'Because they will throw me a party.',
+      sentence: 'Why are you going to be surprised?',
+    },
+    {
+      meaning: 'Neden sıkılacak?',
+      possibleAnswer: "Because there's nothing to do at home.",
+      sentence: 'Why is she going to be bored?',
+    },
+    {
+      meaning: 'Neden endişeli olacaklar?',
+      possibleAnswer: 'Because the weather will be bad.',
+      sentence: 'Why are they going to be worried?',
+    },
+    {
+      meaning: 'Neden ünlü olacak?',
+      possibleAnswer: 'Because he will write a bestselling book.',
+      sentence: 'Why is he going to be famous?',
+    },
+    {
+      meaning: 'Neden susamış olacaksın?',
+      possibleAnswer: 'Because I will forget my water bottle.',
+      sentence: 'Why are you going to be thirsty?',
+    },
+    {
+      meaning: 'Neden işe geç kalacak?',
+      possibleAnswer: "Because her car won't start.",
+      sentence: 'Why is she going to be late for work?',
+    },
+    {
+      meaning: 'Neden mutlu olacaklar?',
+      possibleAnswer: 'Because they will go on vacation.',
+      sentence: 'Why are they going to be happy?',
+    },
+    {
+      meaning: 'Neden üzgün olacak?',
+      possibleAnswer: 'Because he will lose his favorite toy.',
+      sentence: 'Why is he going to be upset?',
+    },
+    {
+      meaning: 'Neden erken geleceksin?',
+      possibleAnswer: 'Because I want to get a good seat.',
+      sentence: 'Why are you going to be early?',
+    },
+    {
+      meaning: 'Neden korkacak?',
+      possibleAnswer: 'Because she will watch a horror movie.',
+      sentence: 'Why is she going to be scared?',
+    },
+    {
+      meaning: 'Neden gururlu olacaklar?',
+      possibleAnswer: 'Because their son will graduate.',
+      sentence: 'Why are they going to be proud?',
+    },
+    {
+      meaning: 'Neden tembel olacak?',
+      possibleAnswer: "Because it's his day off.",
+      sentence: 'Why is he going to be lazy?',
+    },
+    {
+      meaning: 'Neden kafan karışacak?',
+      possibleAnswer: 'Because the instructions are not clear.',
+      sentence: 'Why are you going to be confused?',
+    },
+    {
+      meaning: 'Neden sessiz olacak?',
+      possibleAnswer: 'Because she has a sore throat.',
+      sentence: 'Why is she going to be quiet?',
+    },
+    {
+      meaning: 'Neden heyecanlı olacaklar?',
+      possibleAnswer: 'Because they will go to a concert.',
+      sentence: 'Why are they going to be excited?',
+    },
+    {
+      meaning: 'Neden hayal kırıklığına uğrayacak?',
+      possibleAnswer: "Because the movie won't be good.",
+      sentence: 'Why is he going to be disappointed?',
+    },
+    {
+      meaning: 'Neden güçlü olacaksın?',
+      possibleAnswer: 'Because I will exercise every day.',
+      sentence: 'Why are you going to be strong?',
+    },
+    {
+      meaning: 'Neden zengin olacak?',
+      possibleAnswer: 'Because she will win the lottery.',
+      sentence: 'Why is she going to be rich?',
+    },
+    {
+      meaning: 'Neden gürültülü olacaklar?',
+      possibleAnswer: 'Because they will celebrate their victory.',
+      sentence: 'Why are they going to be loud?',
+    },
+    {
+      meaning: 'Neden arkadaş canlısı olacak?',
+      possibleAnswer: 'Because he wants to make new friends.',
+      sentence: 'Why is he going to be friendly?',
+    },
+    {
+      meaning: 'Yarın neden meşgul olacaksın?',
+      possibleAnswer: 'Because I have many meetings at work.',
+      sentence: 'Why are you going to be busy tomorrow?',
+    },
+    {
+      meaning: 'Gelecek yıl neden farklı olacak?',
+      possibleAnswer: 'Because he will change his hairstyle.',
+      sentence: 'Why is he going to be different next year?',
+    },
+    {
+      meaning: 'Neden İngilizcesi iyi olacak?',
+      possibleAnswer: 'Because she will practice every day.',
+      sentence: 'Why is she going to be good at English?',
+    },
+    {
+      meaning: 'Neden gürültülü olacaklar?',
+      possibleAnswer: 'Because they will have a party.',
+      sentence: 'Why are they going to be noisy?',
+    },
+    {
+      meaning: 'Neden akıllı olacak?',
+      possibleAnswer: 'Because he will read many books.',
+      sentence: 'Why is he going to be smart?',
+    },
+    {
+      meaning: 'Kardeşine neden kızgın olacak?',
+      possibleAnswer: 'Because he will break her favorite toy.',
+      sentence: 'Why is she going to be angry at her brother?',
+    },
+    {
+      meaning: 'Yeni evlerinde neden mutlu olacaklar?',
+      possibleAnswer: 'Because it will be bigger and nicer.',
+      sentence: 'Why are they going to be happy in their new house?',
+    },
+    {
+      meaning: 'Neden sporda iyi olacak?',
+      possibleAnswer: 'Because he will practice every day.',
+      sentence: 'Why is he going to be good at sports?',
+    },
+    {
+      meaning: 'Neden iyi bir öğretmen olacak?',
+      possibleAnswer: 'Because she will be patient and kind.',
+      sentence: 'Why is she going to be a good teacher?',
+    },
+    {
+      meaning: 'Yürüyüşten sonra neden yorgun olacaklar?',
+      possibleAnswer: 'Because the trail will be long and steep.',
+      sentence: 'Why are they going to be tired after the hike?',
+    },
+    {
+      meaning: 'Neden doktor olacak?',
+      possibleAnswer: 'Because he wants to help sick people.',
+      sentence: 'Why is he going to be a doctor?',
+    },
+    {
+      meaning: 'Neden iyi bir aşçı olacak?',
+      possibleAnswer: 'Because she will practice cooking every day.',
+      sentence: 'Why is she going to be a good cook?',
+    },
+    {
+      meaning: 'Neden iyi bir arkadaş olacak?',
+      possibleAnswer: 'Because she will always listen and help others.',
+      sentence: 'Why is she going to be a good friend?',
+    },
+    {
+      meaning: 'Neden resim yapmada iyi olacak?',
+      possibleAnswer: 'Because he will practice every day.',
+      sentence: 'Why is he going to be good at drawing?',
+    },
+  ],
+  'A1-W': [
+    {
+      meaning: 'Yarın neden geç kalacaksın?',
+      possibleAnswer: "Because I have a doctor's appointment.",
+      sentence: 'Why will you be late tomorrow?',
+    },
+    {
+      meaning: 'Mağaza gelecek hafta neden kapalı olacak?',
+      possibleAnswer: 'Because they will renovate the interior.',
+      sentence: 'Why will the store be closed next week?',
+    },
+    {
+      meaning: 'Doğum gününde neden mutlu olacak?',
+      possibleAnswer: 'Because her family will surprise her.',
+      sentence: 'Why will she be happy on her birthday?',
+    },
+    {
+      meaning: 'Konser neden pahalı olacak?',
+      possibleAnswer: 'Because a famous band will perform.',
+      sentence: 'Why will the concert be expensive?',
+    },
+    {
+      meaning: 'Yolculuktan sonra neden yorgun olacaksın?',
+      possibleAnswer: 'Because I will walk a lot during the tour.',
+      sentence: 'Why will you be tired after the trip?',
+    },
+    {
+      meaning: 'Sınav neden zor olacak?',
+      possibleAnswer: 'Because it will cover advanced topics.',
+      sentence: 'Why will the exam be difficult?',
+    },
+    {
+      meaning: 'Mülakat öncesi neden gergin olacaksın?',
+      possibleAnswer: 'Because I really want the job.',
+      sentence: 'Why will you be nervous before the interview?',
+    },
+    {
+      meaning: 'Yollar gelecek ay neden yoğun olacak?',
+      possibleAnswer: 'Because it will be holiday season.',
+      sentence: 'Why will the roads be busy next month?',
+    },
+    {
+      meaning: 'Yeni telefon neden popüler olacak?',
+      possibleAnswer: 'Because it will have innovative features.',
+      sentence: 'Why will the new phone be popular?',
+    },
+    {
+      meaning: 'Hafta sonu için neden heyecanlı olacaksın?',
+      possibleAnswer: 'Because I will go to a music festival.',
+      sentence: 'Why will you be excited for the weekend?',
+    },
+    {
+      meaning: 'Restoran bu gece neden dolu olacak?',
+      possibleAnswer: 'Because a celebrity chef will cook there.',
+      sentence: 'Why will the restaurant be full tonight?',
+    },
+    {
+      meaning: 'Hava yarın neden kötü olacak?',
+      possibleAnswer: 'Because a storm will arrive.',
+      sentence: 'Why will the weather be bad tomorrow?',
+    },
+    {
+      meaning: 'Gelecek hafta neden meşgul olacaksın?',
+      possibleAnswer: 'Because I will have many deadlines.',
+      sentence: 'Why will you be busy next week?',
+    },
+    {
+      meaning: 'Film neden başarılı olacak?',
+      possibleAnswer: 'Because it will have a great story and cast.',
+      sentence: 'Why will the movie be successful?',
+    },
+    {
+      meaning: 'Şehir bu gece neden gürültülü olacak?',
+      possibleAnswer: "Because there will be New Year's celebrations.",
+      sentence: 'Why will the city be noisy tonight?',
+    },
+    {
+      meaning: 'Oyun neden heyecan verici olacak?',
+      possibleAnswer: 'Because two rival teams will compete.',
+      sentence: 'Why will the game be exciting?',
+    },
+    {
+      meaning: 'Gelecek ay neden gururlu olacaksın?',
+      possibleAnswer: 'Because I will graduate from university.',
+      sentence: 'Why will you be proud next month?',
+    },
+    {
+      meaning: 'Parti neden eğlenceli olacak?',
+      possibleAnswer: 'Because there will be great music and food.',
+      sentence: 'Why will the party be fun?',
+    },
+    {
+      meaning: 'Gelecekte neden zengin olacaksın?',
+      possibleAnswer: 'Because I will work hard and invest wisely.',
+      sentence: 'Why will you be rich in the future?',
+    },
+    {
+      meaning: 'Uçuş neden uzun olacak?',
+      possibleAnswer: 'Because we will cross multiple time zones.',
+      sentence: 'Why will the flight be long?',
+    },
+    {
+      meaning: 'Kitap neden ilginç olacak?',
+      possibleAnswer: 'Because it will reveal new historical facts.',
+      sentence: 'Why will the book be interesting?',
+    },
+    {
+      meaning: 'Bir gün neden ünlü olacaksın?',
+      possibleAnswer: 'Because I will make a groundbreaking invention.',
+      sentence: 'Why will you be famous one day?',
+    },
+    {
+      meaning: 'Toplantı neden önemli olacak?',
+      possibleAnswer: "Because we will discuss the company's future.",
+      sentence: 'Why will the meeting be important?',
+    },
+    {
+      meaning: 'Su yarın neden soğuk olacak?',
+      possibleAnswer: 'Because the temperature will drop overnight.',
+      sentence: 'Why will the water be cold tomorrow?',
+    },
+    {
+      meaning: 'Yarın işe neden erken geleceksin?',
+      possibleAnswer: 'Because I will avoid the morning traffic.',
+      sentence: 'Why will you be early for work tomorrow?',
+    },
+    {
+      meaning: 'Yeni bina neden yüksek olacak?',
+      possibleAnswer: 'Because it will maximize space in the city center.',
+      sentence: 'Why will the new building be tall?',
+    },
+    {
+      meaning: 'Yemek neden baharatlı olacak?',
+      possibleAnswer: 'Because the chef will use special peppers.',
+      sentence: 'Why will the food be spicy?',
+    },
+    {
+      meaning: 'Bir dahaki sefere neden dikkatli olacaksın?',
+      possibleAnswer: 'Because I will learn from my mistakes.',
+      sentence: 'Why will you be careful next time?',
+    },
+    {
+      meaning: 'Test sonuçları neden geç olacak?',
+      possibleAnswer: 'Because the lab will process many samples.',
+      sentence: 'Why will the test results be late?',
+    },
+    {
+      meaning: 'Sunum sırasında neden kendine güvenli olacaksın?',
+      possibleAnswer: 'Because I will prepare thoroughly.',
+      sentence: 'Why will you be confident during the presentation?',
+    },
+    {
+      meaning: 'Festival neden renkli olacak?',
+      possibleAnswer: 'Because it will showcase diverse cultures.',
+      sentence: 'Why will the festival be colorful?',
+    },
+    {
+      meaning: 'Yeni teknoloji neden devrim niteliğinde olacak?',
+      possibleAnswer: 'Because it will solve major global problems.',
+      sentence: 'Why will the new technology be revolutionary?',
+    },
+    {
+      meaning: 'Yeni park neden popüler olacak?',
+      possibleAnswer: 'Because it will offer diverse recreational activities.',
+      sentence: 'Why will the new park be popular?',
+    },
+    {
+      meaning: 'Konuşma neden ilham verici olacak?',
+      possibleAnswer: 'Because it will address important social issues.',
+      sentence: 'Why will the speech be inspiring?',
+    },
+    {
+      meaning: 'Yeni iş neden zorlu olacak?',
+      possibleAnswer: 'Because it will require learning new skills.',
+      sentence: 'Why will the new job be challenging?',
+    },
+    {
+      meaning: 'Parti neden eğlenceli olacak?',
+      possibleAnswer: 'Because it will have great music and games.',
+      sentence: 'Why will the party be fun?',
+    },
+    {
+      meaning: 'Yeni ürün neden pahalı olacak?',
+      possibleAnswer: 'Because it will use high-quality materials.',
+      sentence: 'Why will the new product be expensive?',
+    },
+    {
+      meaning: 'Bahçe gelecek bahar neden güzel olacak?',
+      possibleAnswer: 'Because we will plant many colorful flowers.',
+      sentence: 'Why will the garden be beautiful next spring?',
+    },
+    {
+      meaning: 'Gelecek hakkında neden heyecanlı olacaksın?',
+      possibleAnswer: 'Because I will have many opportunities ahead.',
+      sentence: 'Why will you be excited about the future?',
+    },
+    {
+      meaning: 'Mülakat neden stresli olacak?',
+      possibleAnswer: 'Because I will compete for my dream job.',
+      sentence: 'Why will the interview be stressful?',
+    },
+    {
+      meaning: 'Yemek yarın neden daha lezzetli olacak?',
+      possibleAnswer: 'Because the ingredients will marinate overnight.',
+      sentence: 'Why will the food taste better tomorrow?',
+    },
+    {
+      meaning: 'Yeni uygulama neden faydalı olacak?',
+      possibleAnswer: 'Because it will simplify daily tasks.',
+      sentence: 'Why will the new app be useful?',
+    },
+    {
+      meaning: 'Parti neden kalabalık olacak?',
+      possibleAnswer: 'Because many people will attend.',
+      sentence: 'Why will the party be crowded?',
+    },
+    {
+      meaning: 'Antrenman sonrası neden yorgun olacaksın?',
+      possibleAnswer: 'Because I will push myself to the limit.',
+      sentence: 'Why will you be tired after the workout?',
+    },
+    {
+      meaning: 'Yeni kahve dükkanı neden popüler olacak?',
+      possibleAnswer: 'Because it will serve unique blends.',
+      sentence: 'Why will the new coffee shop be popular?',
+    },
+    {
+      meaning: 'Oyun neden zorlu olacak?',
+      possibleAnswer: 'Because it will have complex puzzles.',
+      sentence: 'Why will the game be challenging?',
+    },
+    {
+      meaning: 'Yeni telefon neden pahalı olacak?',
+      possibleAnswer: 'Because it will have cutting-edge features.',
+      sentence: 'Why will the new phone be expensive?',
+    },
+    {
+      meaning: 'Yeni kitap neden çok satan olacak?',
+      possibleAnswer: 'Because it will tell a captivating story.',
+      sentence: 'Why will the new book be a bestseller?',
+    },
+    {
+      meaning: 'Hava piknik için neden mükemmel olacak?',
+      possibleAnswer: 'Because it will be sunny and mild.',
+      sentence: 'Why will the weather be perfect for the picnic?',
+    },
+    {
+      meaning: 'Yeni yıl hakkında neden heyecanlı olacaksın?',
+      possibleAnswer: 'Because it will bring new opportunities.',
+      sentence: 'Why will you be excited about the new year?',
+    },
+    {
+      meaning: 'Toplantı neden verimli olacak?',
+      possibleAnswer: 'Because everyone will come prepared.',
+      sentence: 'Why will the meeting be productive?',
+    },
+  ],
+  'A2-G': [
+    {
+      meaning: 'Neden müzeyi ziyaret edecekler?',
+      possibleAnswer: 'Because they want to learn about history.',
+      sentence: 'Why are they going to visit the museum?',
+    },
+    {
+      meaning: 'Neden İngilizce öğreneceksin?',
+      possibleAnswer: 'Because I want to talk to people from other countries.',
+      sentence: 'Why are you going to learn English?',
+    },
+    {
+      meaning: 'Neden bir spor salonuna üye olacak?',
+      possibleAnswer: 'Because he wants to get fit and healthy.',
+      sentence: 'Why is he going to join a gym?',
+    },
+    {
+      meaning: 'Neden film izleyeceksin?',
+      possibleAnswer: 'Because I want to relax after work.',
+      sentence: 'Why are you going to watch a movie?',
+    },
+    {
+      meaning: 'Neden arkadaşını arayacak?',
+      possibleAnswer: 'Because she wants to talk about their plans.',
+      sentence: 'Why is she going to call her friend?',
+    },
+    {
+      meaning: 'Neden odayı boyayacaklar?',
+      possibleAnswer: 'Because they want to change its color.',
+      sentence: 'Why are they going to paint the room?',
+    },
+    {
+      meaning: 'Neden taksi çağıracak?',
+      possibleAnswer: "Because it's raining and he doesn't have an umbrella.",
+      sentence: 'Why is he going to take a taxi?',
+    },
+    {
+      meaning: 'Neden çok çalışacak?',
+      possibleAnswer: 'Because she has an important test next week.',
+      sentence: 'Why is she going to study hard?',
+    },
+    {
+      meaning: 'Neden evi temizleyecekler?',
+      possibleAnswer: 'Because guests are coming over tonight.',
+      sentence: 'Why are they going to clean the house?',
+    },
+    {
+      meaning: 'Neden bir e-posta gönderecek?',
+      possibleAnswer: 'Because he needs to ask his boss a question.',
+      sentence: 'Why is he going to send an email?',
+    },
+    {
+      meaning: 'Neden mont giyeceksin?',
+      possibleAnswer: "Because it's cold outside today.",
+      sentence: 'Why are you going to wear a coat?',
+    },
+    {
+      meaning: 'Neden salata yiyecek?',
+      possibleAnswer: 'Because she wants to eat healthy food.',
+      sentence: 'Why is she going to eat a salad?',
+    },
+    {
+      meaning: 'Neden futbol oynayacaklar?',
+      possibleAnswer: 'Because they enjoy sports and want to have fun.',
+      sentence: 'Why are they going to play football?',
+    },
+    {
+      meaning: 'Neden fotoğraf çekecek?',
+      possibleAnswer: 'Because he wants to remember this beautiful place.',
+      sentence: 'Why is he going to take photos?',
+    },
+    {
+      meaning: 'Neden su içecek?',
+      possibleAnswer: 'Because she feels thirsty after exercise.',
+      sentence: 'Why is she going to drink water?',
+    },
+    {
+      meaning: 'Neden arabayı yıkayacak?',
+      possibleAnswer: "Because it's very dirty after the long trip.",
+      sentence: 'Why is he going to wash the car?',
+    },
+    {
+      meaning: 'Neden kapıyı açacak?',
+      possibleAnswer: 'Because someone is knocking.',
+      sentence: 'Why is she going to open the door?',
+    },
+    {
+      meaning: 'Neden kitap okuyacak?',
+      possibleAnswer: 'Because he wants to learn new things.',
+      sentence: 'Why is he going to read a book?',
+    },
+    {
+      meaning: 'Neden okula yürüyecek?',
+      possibleAnswer: "Because it's a nice day and not far.",
+      sentence: 'Why is she going to walk to school?',
+    },
+    {
+      meaning: 'Neden müzik dinleyeceksin?',
+      possibleAnswer: 'Because it helps me relax and feel happy.',
+      sentence: 'Why are you going to listen to music?',
+    },
+    {
+      meaning: 'Neden akşam yemeği pişirecek?',
+      possibleAnswer: "Because it's his turn to make food for the family.",
+      sentence: 'Why is he going to cook dinner?',
+    },
+    {
+      meaning: 'Neden trenle seyahat edecekler?',
+      possibleAnswer: "Because it's cheaper than flying.",
+      sentence: 'Why are they going to travel by train?',
+    },
+    {
+      meaning: 'Neden sırada bekleyecekler?',
+      possibleAnswer: 'Because they want to buy tickets for the concert.',
+      sentence: 'Why are they going to wait in line?',
+    },
+    {
+      meaning: 'Neden bir hikaye yazacak?',
+      possibleAnswer: 'Because he has a good idea for a book.',
+      sentence: 'Why is he going to write a story?',
+    },
+    {
+      meaning: 'Neden kağıt oynayacaklar?',
+      possibleAnswer: "Because it's a fun game to play with friends.",
+      sentence: 'Why are they going to play cards?',
+    },
+    {
+      meaning: 'Neden gözlük takacaksın?',
+      possibleAnswer: "Because I can't see well without them.",
+      sentence: 'Why are you going to wear glasses?',
+    },
+    {
+      meaning: 'Neden bir hediye alacak?',
+      possibleAnswer: "Because it's her mother's birthday tomorrow.",
+      sentence: 'Why is she going to buy a gift?',
+    },
+    {
+      meaning: 'Neden ilaç alacaksın?',
+      possibleAnswer: 'Because I have a headache and want to feel better.',
+      sentence: 'Why are you going to take medicine?',
+    },
+    {
+      meaning: 'Neden ellerini yıkayacak?',
+      possibleAnswer: "Because they are dirty and it's time to eat.",
+      sentence: 'Why is he going to wash his hands?',
+    },
+    {
+      meaning: 'Neden fotoğraf çekecekler?',
+      possibleAnswer: 'Because they want to remember this moment.',
+      sentence: 'Why are they going to take a photo?',
+    },
+    {
+      meaning: 'Neden kahve içecek?',
+      possibleAnswer: 'Because he feels sleepy and needs energy.',
+      sentence: 'Why is he going to drink coffee?',
+    },
+    {
+      meaning: 'Neden harita alacaklar?',
+      possibleAnswer: "Because they don't know the way to the museum.",
+      sentence: 'Why are they going to buy a map?',
+    },
+    {
+      meaning: 'Neden pencereyi açacaksın?',
+      possibleAnswer: 'Because the room is hot and needs fresh air.',
+      sentence: 'Why are you going to open the window?',
+    },
+    {
+      meaning: 'Neden kahve yapacak?',
+      possibleAnswer: 'Because she feels tired and wants to wake up.',
+      sentence: 'Why is she going to make coffee?',
+    },
+    {
+      meaning: 'Neden televizyon izleyecekler?',
+      possibleAnswer: 'Because their favorite show is on tonight.',
+      sentence: 'Why are they going to watch TV?',
+    },
+    {
+      meaning: 'Neden doktor çağıracaksın?',
+      possibleAnswer: 'Because I feel sick and need help.',
+      sentence: 'Why are you going to call a doctor?',
+    },
+    {
+      meaning: 'Neden e-posta yazacak?',
+      possibleAnswer: 'Because she needs to tell her friend about the party.',
+      sentence: 'Why is she going to write an email?',
+    },
+    {
+      meaning: 'Neden havuzda yüzecekler?',
+      possibleAnswer: "Because it's hot and they want to cool down.",
+      sentence: 'Why are they going to swim in the pool?',
+    },
+    {
+      meaning: 'Neden yeni ayakkabı alacak?',
+      possibleAnswer: 'Because his old shoes are too small now.',
+      sentence: 'Why is he going to buy new shoes?',
+    },
+    {
+      meaning: 'Neden kahvaltı yapacaksın?',
+      possibleAnswer: "Because I'm hungry and it's morning time.",
+      sentence: 'Why are you going to eat breakfast?',
+    },
+    {
+      meaning: 'Neden süt alacaksın?',
+      possibleAnswer: 'Because we need it for breakfast tomorrow.',
+      sentence: 'Why are you going to buy milk?',
+    },
+    {
+      meaning: 'Neden perdeleri kapatacak?',
+      possibleAnswer: 'Because the sun is too bright in the room.',
+      sentence: 'Why is she going to close the curtains?',
+    },
+    {
+      meaning: 'Neden hediye alacaksın?',
+      possibleAnswer: "Because it's my friend's birthday tomorrow.",
+      sentence: 'Why are you going to buy a present?',
+    },
+    {
+      meaning: 'Neden büyükanneyi ziyaret edecekler?',
+      possibleAnswer: 'Because they miss her and want to see her.',
+      sentence: 'Why are they going to visit grandma?',
+    },
+    {
+      meaning: 'Neden sandviç yapacaksın?',
+      possibleAnswer: "Because I'm hungry and want a quick snack.",
+      sentence: 'Why are you going to make a sandwich?',
+    },
+    {
+      meaning: 'Neden otobüse binecek?',
+      possibleAnswer: "Because her car isn't working today.",
+      sentence: 'Why is she going to take the bus?',
+    },
+    {
+      meaning: 'Neden yemek yapmayı öğrenecekler?',
+      possibleAnswer: 'Because they want to make their own meals.',
+      sentence: 'Why are they going to learn to cook?',
+    },
+    {
+      meaning: 'Neden telefonunu şarj edecek?',
+      possibleAnswer: 'Because the battery is low and might die soon.',
+      sentence: 'Why is he going to charge his phone?',
+    },
+    {
+      meaning: 'Neden çiçek dikecekler?',
+      possibleAnswer: 'Because they want to make the garden look pretty.',
+      sentence: 'Why are they going to plant flowers?',
+    },
+    {
+      meaning: 'Neden şaka yapacaksın?',
+      possibleAnswer: 'Because I want to make my friends laugh.',
+      sentence: 'Why are you going to tell a joke?',
+    },
+  ],
+  'A2-W': [
+    {
+      meaning: "Neden Japonya'ya seyahat edeceksin?",
+      possibleAnswer: 'Because I want to experience its unique culture.',
+      sentence: 'Why will you travel to Japan?',
+    },
+    {
+      meaning: 'Sıcaklık gelecek hafta neden yükselecek?',
+      possibleAnswer: 'Because a heat wave will arrive.',
+      sentence: 'Why will the temperature rise next week?',
+    },
+    {
+      meaning: 'Neden gitar çalmayı öğreneceksin?',
+      possibleAnswer: 'Because I want to express myself musically.',
+      sentence: 'Why will you learn to play the guitar?',
+    },
+    {
+      meaning: 'Film neden popüler olacak?',
+      possibleAnswer:
+        'Because it features a talented cast and compelling story.',
+      sentence: 'Why will the movie become popular?',
+    },
+    {
+      meaning: 'Takım neden şampiyonluğu kazanacak?',
+      possibleAnswer:
+        'Because they have skilled players and excellent strategies.',
+      sentence: 'Why will the team win the championship?',
+    },
+    {
+      meaning: 'Neden yeni bir hobiye başlayacaksın?',
+      possibleAnswer:
+        'Because I want to challenge myself and learn new skills.',
+      sentence: 'Why will you start a new hobby?',
+    },
+    {
+      meaning: 'Şirket neden daha fazla çalışan işe alacak?',
+      possibleAnswer: 'Because they plan to expand their operations.',
+      sentence: 'Why will the company hire more employees?',
+    },
+    {
+      meaning: 'Neden yeni bir apartman dairesine taşınacaksın?',
+      possibleAnswer: 'Because I need more space and a better location.',
+      sentence: 'Why will you move to a new apartment?',
+    },
+    {
+      meaning: 'Neden bir evcil hayvan sahipleneceksin?',
+      possibleAnswer: 'Because I want companionship and to care for an animal.',
+      sentence: 'Why will you adopt a pet?',
+    },
+    {
+      meaning: 'Okul neden yeni bir müfredat tanıtacak?',
+      possibleAnswer: 'Because they aim to improve educational outcomes.',
+      sentence: 'Why will the school introduce a new curriculum?',
+    },
+    {
+      meaning: 'Neden para biriktirmeye başlayacaksın?',
+      possibleAnswer: 'Because I want to prepare for future expenses.',
+      sentence: 'Why will you start saving money?',
+    },
+    {
+      meaning: 'Bilim insanları neden yeni bir araştırma yapacak?',
+      possibleAnswer: 'Because they want to explore unanswered questions.',
+      sentence: 'Why will the scientists conduct new research?',
+    },
+    {
+      meaning: 'Neden yeni bir dil öğreneceksin?',
+      possibleAnswer:
+        'Because I want to communicate with people from different cultures.',
+      sentence: 'Why will you learn a new language?',
+    },
+    {
+      meaning: 'Şehir neden büyük bir etkinliğe ev sahipliği yapacak?',
+      possibleAnswer:
+        'Because they want to boost tourism and their international profile.',
+      sentence: 'Why will the city host a major event?',
+    },
+    {
+      meaning: 'Neden düzenli egzersiz yapmaya başlayacaksın?',
+      possibleAnswer: 'Because I want to improve my health and fitness.',
+      sentence: 'Why will you start exercising regularly?',
+    },
+    {
+      meaning: 'Fiyatlar gelecek yıl neden artacak?',
+      possibleAnswer: 'Because of inflation and rising production costs.',
+      sentence: 'Why will the prices increase next year?',
+    },
+    {
+      meaning: 'Neden bir blog başlatacaksın?',
+      possibleAnswer:
+        'Because I want to share my ideas and experiences with others.',
+      sentence: 'Why will you start a blog?',
+    },
+    {
+      meaning: 'Uygulama neden popüler olacak?',
+      possibleAnswer:
+        'Because it offers unique features and solves common problems.',
+      sentence: 'Why will the app become popular?',
+    },
+    {
+      meaning: 'Televizyon programı neden sona erecek?',
+      possibleAnswer:
+        'Because the storyline will conclude and actors want to move on.',
+      sentence: 'Why will the television show end?',
+    },
+    {
+      meaning: 'Neden yeni bir araba alacaksın?',
+      possibleAnswer: 'Because my current one is old and unreliable.',
+      sentence: 'Why will you buy a new car?',
+    },
+    {
+      meaning: 'Şirket neden işgücünü azaltacak?',
+      possibleAnswer: 'Because they need to cut costs and increase efficiency.',
+      sentence: 'Why will the company reduce its workforce?',
+    },
+    {
+      meaning: 'Neden kendi işini kuracaksın?',
+      possibleAnswer: 'Because I want to pursue my entrepreneurial dreams.',
+      sentence: 'Why will you start your own business?',
+    },
+    {
+      meaning: 'Havalimanı neden genişleyecek?',
+      possibleAnswer:
+        'Because they need to accommodate increasing passenger numbers.',
+      sentence: 'Why will the airport expand?',
+    },
+    {
+      meaning: 'Neden bir kitap yazacaksın?',
+      possibleAnswer: 'Because I have a story I want to share with the world.',
+      sentence: 'Why will you write a book?',
+    },
+    {
+      meaning: 'Şirket neden esnek çalışma saatleri uygulayacak?',
+      possibleAnswer:
+        'Because they want to improve employee satisfaction and productivity.',
+      sentence: 'Why will the company introduce flexible working hours?',
+    },
+    {
+      meaning: 'Neden yemek yapmayı öğreneceksin?',
+      possibleAnswer: 'Because I want to eat healthier and save money.',
+      sentence: 'Why will you learn to cook?',
+    },
+    {
+      meaning: 'Moda trendleri gelecek sezon neden değişecek?',
+      possibleAnswer:
+        'Because designers will introduce new styles and concepts.',
+      sentence: 'Why will the fashion trends change next season?',
+    },
+    {
+      meaning: 'Neden fotoğrafçılığa başlayacaksın?',
+      possibleAnswer:
+        'Because I want to capture and preserve memories creatively.',
+      sentence: 'Why will you take up photography?',
+    },
+    {
+      meaning: 'Neden evini yenileyeceksin?',
+      possibleAnswer: 'Because I want to increase its value and comfort.',
+      sentence: 'Why will you renovate your house?',
+    },
+    {
+      meaning: 'Neden satranç oynamayı öğreneceksin?',
+      possibleAnswer: 'Because I want to improve my strategic thinking skills.',
+      sentence: 'Why will you learn to play chess?',
+    },
+    {
+      meaning: 'Neden bir YouTube kanalı başlatacaksın?',
+      possibleAnswer:
+        'Because I want to share my knowledge and connect with an audience.',
+      sentence: 'Why will you start a YouTube channel?',
+    },
+    {
+      meaning: 'Restoran neden menüsünü değiştirecek?',
+      possibleAnswer:
+        'Because they want to attract new customers and stay competitive.',
+      sentence: 'Why will the restaurant change its menu?',
+    },
+    {
+      meaning: 'Deniz seviyeleri neden yükselecek?',
+      possibleAnswer:
+        'Because of melting polar ice caps and thermal expansion of water.',
+      sentence: 'Why will the sea levels rise?',
+    },
+    {
+      meaning: 'Neden bir podcast başlatacaksın?',
+      possibleAnswer:
+        'Because I want to share interesting conversations and ideas.',
+      sentence: 'Why will you start a podcast?',
+    },
+    {
+      meaning: 'Şirket neden yeni bir ürün geliştirecek?',
+      possibleAnswer: 'Because they want to meet changing consumer needs.',
+      sentence: 'Why will the company develop a new product?',
+    },
+    {
+      meaning: 'Orman neden yeniden büyüyecek?',
+      possibleAnswer:
+        'Because of conservation efforts and natural regeneration.',
+      sentence: 'Why will the forest grow back?',
+    },
+    {
+      meaning: 'Neden bir spor salonuna üye olacaksın?',
+      possibleAnswer: 'Because I want to improve my fitness and health.',
+      sentence: 'Why will you join a gym?',
+    },
+    {
+      meaning: 'Neden bir sebze bahçesi kuracaksın?',
+      possibleAnswer: 'Because I want to grow my own fresh, organic produce.',
+      sentence: 'Why will you start a vegetable garden?',
+    },
+    {
+      meaning: 'Neden bir enstrüman çalmayı öğreneceksin?',
+      possibleAnswer:
+        'Because I want to express myself musically and relieve stress.',
+      sentence: 'Why will you learn to play an instrument?',
+    },
+    {
+      meaning: 'Neden bir tasarruf hesabı açacaksın?',
+      possibleAnswer:
+        'Because I want to prepare for future expenses and emergencies.',
+      sentence: 'Why will you start a savings account?',
+    },
+    {
+      meaning: 'Siyasi parti neden seçimi kaybedecek?',
+      possibleAnswer: 'Because of unpopular policies and strong opposition.',
+      sentence: 'Why will the political party lose the election?',
+    },
+    {
+      meaning: 'Neden bir kar amacı gütmeyen kuruluş başlatacaksın?',
+      possibleAnswer: 'Because I want to make a positive impact on society.',
+      sentence: 'Why will you start a nonprofit organization?',
+    },
+    {
+      meaning: 'Ülke neden eğitim sistemini değiştirecek?',
+      possibleAnswer:
+        'Because they want to improve learning outcomes and prepare students for the future.',
+      sentence: 'Why will the country change its education system?',
+    },
+    {
+      meaning: 'Neden yeni bir beceri öğreneceksin?',
+      possibleAnswer:
+        'Because I want to enhance my personal and professional development.',
+      sentence: 'Why will you learn a new skill?',
+    },
+    {
+      meaning: 'Şehir neden daha fazla güvenlik kamerası kuracak?',
+      possibleAnswer:
+        'Because they want to reduce crime and increase public safety.',
+      sentence: 'Why will the city install more security cameras?',
+    },
+    {
+      meaning: 'Neden sosyal medya detoksuna başlayacaksın?',
+      possibleAnswer:
+        'Because I want to improve my mental health and productivity.',
+      sentence: 'Why will you start a social media detox?',
+    },
+    {
+      meaning: 'Şirket neden uluslararası alanda genişleyecek?',
+      possibleAnswer:
+        'Because they want to access new markets and increase profits.',
+      sentence: 'Why will the company expand internationally?',
+    },
+    {
+      meaning: 'Neden yaşam tarzını değiştireceksin?',
+      possibleAnswer:
+        'Because I want to improve my overall well-being and happiness.',
+      sentence: 'Why will you change your lifestyle?',
+    },
+    {
+      meaning: 'Neden meditasyon yapmayı öğreneceksin?',
+      possibleAnswer:
+        'Because I want to reduce stress and improve my mental clarity.',
+      sentence: 'Why will you learn to meditate?',
+    },
+    {
+      meaning: 'Neden dünyayı gezeceksin?',
+      possibleAnswer:
+        'Because I want to experience different cultures and broaden my perspective.',
+      sentence: '00. Why will you travel the world?',
+    },
+  ],
+  A3: [
+    {
+      meaning: 'Yarın neden mont giyiyor olacaksın?',
+      possibleAnswer: 'Because it will be cold outside.',
+      sentence: 'Why will you be wearing a coat tomorrow?',
+    },
+    {
+      meaning: 'Filmde neden ağlıyor olacak?',
+      possibleAnswer: 'Because it will be very sad.',
+      sentence: 'Why will she be crying at the movie?',
+    },
+    {
+      meaning: 'Gelecek hafta neden İngilizce çalışıyor olacaksın?',
+      possibleAnswer: 'Because I will have a big test soon.',
+      sentence: 'Why will you be studying English next week?',
+    },
+    {
+      meaning: "Saat 7'de neden akşam yemeği pişiriyor olacak?",
+      possibleAnswer: 'Because her family will be coming home then.',
+      sentence: 'Why will she be cooking dinner at 7 PM?',
+    },
+    {
+      meaning: 'Yarın sabah neden sırada bekliyor olacaklar?',
+      possibleAnswer: 'Because they will be buying concert tickets.',
+      sentence: 'Why will they be waiting in line tomorrow morning?',
+    },
+    {
+      meaning: 'Gelecek ay neden o kitabı okuyor olacaksın?',
+      possibleAnswer: 'Because it will be part of my school assignment.',
+      sentence: 'Why will you be reading that book next month?',
+    },
+    {
+      meaning: 'İşe neden hızlı yürüyor olacak?',
+      possibleAnswer: 'Because she will be running late.',
+      sentence: 'Why will she be walking fast to work?',
+    },
+    {
+      meaning: 'Yağmurda neden futbol oynuyor olacaklar?',
+      possibleAnswer: 'Because the game will not be cancelled.',
+      sentence: 'Why will they be playing football in the rain?',
+    },
+    {
+      meaning: 'Gece neden güneş gözlüğü takıyor olacak?',
+      possibleAnswer: 'Because he will have had eye surgery.',
+      sentence: 'Why will he be wearing sunglasses at night?',
+    },
+    {
+      meaning: 'Neden çok su içiyor olacaksın?',
+      possibleAnswer: 'Because I will be exercising all day.',
+      sentence: 'Why will you be drinking a lot of water?',
+    },
+    {
+      meaning: 'Neden büyükannene mektup yazıyor olacaksın?',
+      possibleAnswer: 'Because it will be her birthday.',
+      sentence: 'Why will you be writing a letter to your grandmother?',
+    },
+    {
+      meaning: 'Duşta neden şarkı söylüyor olacak?',
+      possibleAnswer: 'Because she will be practicing for a concert.',
+      sentence: 'Why will she be singing in the shower?',
+    },
+    {
+      meaning: 'Bütün gün neden evi temizliyor olacaklar?',
+      possibleAnswer: 'Because they will be having guests over.',
+      sentence: 'Why will they be cleaning the house all day?',
+    },
+    {
+      meaning: 'Gelecek ay neden dans etmeyi öğreniyor olacak?',
+      possibleAnswer: 'Because she will be preparing for her wedding.',
+      sentence: 'Why will she be learning to dance next month?',
+    },
+    {
+      meaning: 'Garajda neden arabayı tamir ediyor olacak?',
+      possibleAnswer: 'Because it will have broken down.',
+      sentence: 'Why will he be fixing the car in the garage?',
+    },
+    {
+      meaning: 'Gelecek hafta sonu neden duvarları boyuyor olacaklar?',
+      possibleAnswer: 'Because they will be redecorating the house.',
+      sentence: 'Why will they be painting the walls next weekend?',
+    },
+    {
+      meaning: 'Sabah neden anahtarlarını arıyor olacaksın?',
+      possibleAnswer: 'Because I will have misplaced them tonight.',
+      sentence: 'Why will you be looking for your keys in the morning?',
+    },
+    {
+      meaning: 'İşte neden şık bir elbise giyiyor olacak?',
+      possibleAnswer: 'Because there will be a special event.',
+      sentence: 'Why will she be wearing a fancy dress at work?',
+    },
+    {
+      meaning: 'Neden hesap hakkında tartışıyor olacaklar?',
+      possibleAnswer: 'Because it will be higher than expected.',
+      sentence: 'Why will they be arguing about the bill?',
+    },
+    {
+      meaning: 'Neden arkadaşına mobilyaları taşımada yardım ediyor olacak?',
+      possibleAnswer: 'Because his friend will be moving to a new house.',
+      sentence: 'Why will he be helping his friend move furniture?',
+    },
+    {
+      meaning: 'Neden yüksek sesle müzik dinliyor olacaklar?',
+      possibleAnswer: 'Because they will be having a party.',
+      sentence: 'Why will they be listening to loud music?',
+    },
+    {
+      meaning: 'Akşam neden bitkileri suluyor olacak?',
+      possibleAnswer: 'Because it will be too hot during the day.',
+      sentence: 'Why will she be watering the plants in the evening?',
+    },
+    {
+      meaning: 'Arabada neden sandviç yiyor olacaksın?',
+      possibleAnswer: 'Because I will not have time for breakfast at home.',
+      sentence: 'Why will you be eating a sandwich in the car?',
+    },
+    {
+      meaning: 'Gölde neden yüzüyor olacaklar?',
+      possibleAnswer: 'Because it will be a very hot day.',
+      sentence: 'Why will they be swimming in the lake?',
+    },
+    {
+      meaning: 'Gece geç saatte neden e-posta yazıyor olacak?',
+      possibleAnswer:
+        'Because he will need to send an important message before morning.',
+      sentence: 'Why will he be writing an email late at night?',
+    },
+    {
+      meaning: 'Neden bütün ışıkları kapatıyor olacaksın?',
+      possibleAnswer: 'Because we will be leaving for vacation.',
+      sentence: 'Why will you be turning off all the lights?',
+    },
+    {
+      meaning: 'Pazar günü neden market alışverişi yapıyor olacaklar?',
+      possibleAnswer: 'Because the stores will be closed on Monday.',
+      sentence: 'Why will they be shopping for groceries on Sunday?',
+    },
+    {
+      meaning: 'Yağmurda neden bisiklet sürüyor olacak?',
+      possibleAnswer: "Because his car will be at the mechanic's.",
+      sentence: 'Why will he be riding a bike in the rain?',
+    },
+    {
+      meaning: 'Öğleden sonra neden yatağını düzeltiyor olacak?',
+      possibleAnswer:
+        'Because she will have forgotten to do it in the morning.',
+      sentence: 'Why will she be making her bed in the afternoon?',
+    },
+    {
+      meaning: 'Parkta neden satranç oynuyor olacaklar?',
+      possibleAnswer: 'Because it will be a nice day to be outside.',
+      sentence: 'Why will they be playing chess in the park?',
+    },
+    {
+      meaning: 'Sabah neden yoga yapıyor olacak?',
+      possibleAnswer: 'Because it will help her start the day feeling relaxed.',
+      sentence: 'Why will she be doing yoga in the morning?',
+    },
+    {
+      meaning: 'Bahçede neden ağaç dikiyor olacak?',
+      possibleAnswer: 'Because he will want to make the garden more beautiful.',
+      sentence: 'Why will he be planting trees in the garden?',
+    },
+    {
+      meaning: 'Neden kalın bir ceket giyiyor olacak?',
+      possibleAnswer: 'Because the weather forecast will say it will be cold.',
+      sentence: 'Why will she be putting on a warm jacket?',
+    },
+    {
+      meaning: 'Neden her ay para biriktiriyor olacaklar?',
+      possibleAnswer: 'Because they will want to buy a new car.',
+      sentence: 'Why will they be saving money every month?',
+    },
+    {
+      meaning: 'Neden ders çalışmaya ara veriyor olacaksın?',
+      possibleAnswer: 'Because I will be feeling tired and will need to rest.',
+      sentence: 'Why will you be taking a break from studying?',
+    },
+    {
+      meaning: 'Gece neden kıyafetlerini ütülüyor olacak?',
+      possibleAnswer: 'Because she will need them clean for work the next day.',
+      sentence: 'Why will she be ironing her clothes at night?',
+    },
+    {
+      meaning: 'Ders sırasında neden bu kadar çok gülüyor olacaklar?',
+      possibleAnswer: 'Because the teacher will tell a funny joke.',
+      sentence: 'Why will they be laughing so much during class?',
+    },
+    {
+      meaning: 'Neden davul çalmayı öğreniyor olacak?',
+      possibleAnswer: 'Because he will want to join a band.',
+      sentence: 'Why will he be learning to play drums?',
+    },
+    {
+      meaning: 'Pazar günü neden toplantı yapıyor olacaklar?',
+      possibleAnswer: 'Because they will have an urgent project to discuss.',
+      sentence: 'Why will they be having a meeting on Sunday?',
+    },
+    {
+      meaning: 'Yağmurda neden köpeği gezdiriyor olacak?',
+      possibleAnswer: 'Because the dog will need exercise, rain or shine.',
+      sentence: 'Why will he be walking the dog in the rain?',
+    },
+    {
+      meaning: 'Neden bu kadar ağır bir sırt çantası taşıyor olacaksın?',
+      possibleAnswer: 'Because I will have many books for all my classes.',
+      sentence: 'Why will you be carrying such a heavy backpack?',
+    },
+    {
+      meaning: 'Telefonda neden bu kadar yüksek sesle konuşuyor olacak?',
+      possibleAnswer:
+        'Because the connection will be bad and she will not be able to hear well.',
+      sentence: 'Why will she be speaking so loudly on the phone?',
+    },
+    {
+      meaning: 'Parkta neden yaprak topluyor olacak?',
+      possibleAnswer: 'Because she will want to make an art project.',
+      sentence: 'Why will she be collecting leaves in the park?',
+    },
+    {
+      meaning: 'Cumartesi günü neden takım elbise giyiyor olacak?',
+      possibleAnswer: 'Because he will have a job interview.',
+      sentence: 'Why will he be wearing a suit on a Saturday?',
+    },
+    {
+      meaning: 'Neden sınıfı süslüyor olacaklar?',
+      possibleAnswer: 'Because it will be the last day of school.',
+      sentence: 'Why will they be decorating the classroom?',
+    },
+    {
+      meaning: 'Neden eski kitaplarını internette satıyor olacak?',
+      possibleAnswer: 'Because he will need money to buy new ones.',
+      sentence: 'Why will he be selling his old books online?',
+    },
+    {
+      meaning: 'Yarın neden üniforma giyiyor olacaksın?',
+      possibleAnswer: 'Because I will be starting a new job at a restaurant.',
+      sentence: 'Why will you be wearing a uniform tomorrow?',
+    },
+    {
+      meaning: 'Neden işaret dili öğreniyor olacak?',
+      possibleAnswer:
+        'Because he will want to communicate with his deaf neighbor.',
+      sentence: 'Why will he be learning sign language?',
+    },
+    {
+      meaning: 'Gece yarısı neden kurabiye pişiriyor olacak?',
+      possibleAnswer:
+        'Because she will not be able to sleep and will want to do something.',
+      sentence: 'Why will she be baking cookies at midnight?',
+    },
+    {
+      meaning: 'Neden sürpriz parti planlıyor olacaklar?',
+      possibleAnswer: "Because it will be their friend's birthday next week.",
+      sentence: 'Why will they be planning a surprise party?',
+    },
+  ],
+  A4: [
+    {
+      meaning: 'Neden bugün o montu giydin?',
+      possibleAnswer: 'Because it has been very cold outside.',
+      sentence: 'Why have you worn that coat today?',
+    },
+    {
+      meaning: 'Neden ağladı?',
+      possibleAnswer: 'Because she has received bad news.',
+      sentence: 'Why has she cried?',
+    },
+    {
+      meaning: 'Bu hafta neden işe yürüdü?',
+      possibleAnswer: 'Because her car has broken down.',
+      sentence: 'Why has she walked to work this week?',
+    },
+    {
+      meaning: 'Neden içeride güneş gözlüğü taktı?',
+      possibleAnswer: 'Because he has had eye surgery.',
+      sentence: 'Why has he worn sunglasses indoors?',
+    },
+    {
+      meaning: 'Neden bu kadar çok fotoğraf çektiler?',
+      possibleAnswer: 'Because they have wanted to remember their trip.',
+      sentence: 'Why have they taken so many pictures?',
+    },
+    {
+      meaning: 'Neden her sabah duşta şarkı söyledi?',
+      possibleAnswer: 'Because she has practiced for a concert.',
+      sentence: 'Why has she sung in the shower every morning?',
+    },
+    {
+      meaning: 'Neden o televizyon programını bu kadar çok izledin?',
+      possibleAnswer: 'Because I have loved it very much.',
+      sentence: 'Why have you watched that TV show so many times?',
+    },
+    {
+      meaning: 'Neden dans etmeyi öğrendi?',
+      possibleAnswer: 'Because she has wanted to join a dance competition.',
+      sentence: 'Why has she learned to dance?',
+    },
+    {
+      meaning: 'Neden kütüphanede alçak sesle konuştun?',
+      possibleAnswer: 'Because it has been the rule there.',
+      sentence: 'Why have you spoken quietly in the library?',
+    },
+    {
+      meaning: 'Neden çantasını çoktan topladı?',
+      possibleAnswer: 'Because she has planned to leave early tomorrow.',
+      sentence: 'Why has she packed her bag already?',
+    },
+    {
+      meaning: 'Neden o elbiseyi işe giydi?',
+      possibleAnswer: 'Because there has been a special event at the office.',
+      sentence: 'Why has she worn that dress to work?',
+    },
+    {
+      meaning: 'Neden bütün pencereleri kapattın?',
+      possibleAnswer: 'Because it has started to rain heavily.',
+      sentence: 'Why have you closed all the windows?',
+    },
+    {
+      meaning: 'Neden yüksek sesle müzik dinlediler?',
+      possibleAnswer: 'Because they have had a party.',
+      sentence: 'Why have they listened to loud music?',
+    },
+    {
+      meaning: 'Neden bu kadar çok resim çizdin?',
+      possibleAnswer: 'Because I have tried to improve my art skills.',
+      sentence: 'Why have you drawn so many pictures?',
+    },
+    {
+      meaning: 'Neden her gün öğle yemeğinde sandviç yedin?',
+      possibleAnswer: 'Because I have been too busy to cook proper meals.',
+      sentence: 'Why have you eaten sandwiches for lunch every day?',
+    },
+    {
+      meaning: 'Neden haritaya bu kadar sık baktı?',
+      possibleAnswer: 'Because she has tried to find her way in a new city.',
+      sentence: 'Why has she looked at the map so often?',
+    },
+    {
+      meaning: 'Neden her gün gölde yüzdüler?',
+      possibleAnswer: 'Because the weather has been very hot.',
+      sentence: 'Why have they swum in the lake every day?',
+    },
+    {
+      meaning: 'Neden bütün ışıkları kapattın?',
+      possibleAnswer: 'Because we have tried to save electricity.',
+      sentence: 'Why have you turned off all the lights?',
+    },
+    {
+      meaning: 'Neden bugün dişlerini üç kez fırçaladı?',
+      possibleAnswer: 'Because she has eaten a lot of sugary foods.',
+      sentence: 'Why has she brushed her teeth three times today?',
+    },
+    {
+      meaning: 'Neden her gün market alışverişi yaptılar?',
+      possibleAnswer: 'Because they have cooked fresh meals daily.',
+      sentence: 'Why have they shopped for groceries every day?',
+    },
+    {
+      meaning: 'Neden işe bisikletle gitti?',
+      possibleAnswer: "Because his car has been at the mechanic's.",
+      sentence: 'Why has he ridden his bike to work?',
+    },
+    {
+      meaning: 'Neden her öğleden sonra yatağını düzeltti?',
+      possibleAnswer: 'Because she has forgotten to do it in the mornings.',
+      sentence: 'Why has she made her bed every afternoon?',
+    },
+    {
+      meaning: 'Neden Fransızca öğrendiler?',
+      possibleAnswer: 'Because they have planned a trip to Paris.',
+      sentence: 'Why have they learned French?',
+    },
+    {
+      meaning: 'Neden gece yarısı kediye yemek verdi?',
+      possibleAnswer: 'Because the cat has been very hungry at night.',
+      sentence: 'Why has he fed the cat at midnight?',
+    },
+    {
+      meaning: 'Neden arabada makyaj yaptı?',
+      possibleAnswer: 'Because she has been late for work.',
+      sentence: 'Why has she put on makeup in the car?',
+    },
+    {
+      meaning: 'Neden her akşam satranç oynadılar?',
+      possibleAnswer: 'Because they have enjoyed the game very much.',
+      sentence: 'Why have they played chess every evening?',
+    },
+    {
+      meaning: 'Neden çatıyı tamir etti?',
+      possibleAnswer: 'Because it has leaked when it rained.',
+      sentence: 'Why has he fixed the roof?',
+    },
+    {
+      meaning: 'Neden her sabah yoga yaptı?',
+      possibleAnswer: 'Because it has helped her feel relaxed.',
+      sentence: 'Why has she done yoga every morning?',
+    },
+    {
+      meaning: 'Neden kalın kıyafetler giydi?',
+      possibleAnswer: 'Because the weather has been very cold.',
+      sentence: 'Why has she worn warm clothes?',
+    },
+    {
+      meaning: 'Neden her ay para biriktirdiler?',
+      possibleAnswer: 'Because they have wanted to buy a new car.',
+      sentence: 'Why have they saved money every month?',
+    },
+    {
+      meaning: 'Neden kendi saçını kesti?',
+      possibleAnswer: 'Because he has wanted to save money.',
+      sentence: 'Why has he cut his own hair?',
+    },
+    {
+      meaning: 'Neden ders çalışırken ara verdin?',
+      possibleAnswer: 'Because I have felt tired and needed rest.',
+      sentence: 'Why have you taken breaks while studying?',
+    },
+    {
+      meaning: 'Neden kıyafetlerini gece ütüledi?',
+      possibleAnswer: 'Because she has been busy during the day.',
+      sentence: 'Why has she ironed her clothes at night?',
+    },
+    {
+      meaning: 'Neden Pazar günleri toplantı yaptılar?',
+      possibleAnswer: 'Because they have had a lot of work to discuss.',
+      sentence: 'Why have they had meetings on Sundays?',
+    },
+    {
+      meaning: 'Neden yağmurda köpeği gezdirdi?',
+      possibleAnswer: 'Because the dog has needed exercise every day.',
+      sentence: 'Why has he walked the dog in the rain?',
+    },
+    {
+      meaning: 'Neden içeride şapka taktın?',
+      possibleAnswer: 'Because I have had a bad hair day.',
+      sentence: 'Why have you worn a hat indoors?',
+    },
+    {
+      meaning: 'Neden bu kadar hızlı yazdı?',
+      possibleAnswer: 'Because she has had a lot of work to finish.',
+      sentence: 'Why has she typed so fast?',
+    },
+    {
+      meaning: 'Neden bu kadar ağır bir sırt çantası taşıdın?',
+      possibleAnswer: 'Because I have had many books for my classes.',
+      sentence: 'Why have you carried such a heavy backpack?',
+    },
+    {
+      meaning: 'Neden telefonda bu kadar yüksek sesle konuştu?',
+      possibleAnswer: 'Because the connection has been bad.',
+      sentence: 'Why has she spoken so loudly on the phone?',
+    },
+    {
+      meaning: 'Neden oturma odasında egzersiz yaptılar?',
+      possibleAnswer: 'Because it has been too cold to go outside.',
+      sentence: 'Why have they exercised in the living room?',
+    },
+    {
+      meaning: 'Neden maçlarda bu kadar yüksek sesle tezahürat yaptılar?',
+      possibleAnswer: 'Because their team has won many times.',
+      sentence: 'Why have they cheered so loudly at games?',
+    },
+    {
+      meaning: 'Neden sınıfı süslediler?',
+      possibleAnswer: 'Because it has been the end of the school year.',
+      sentence: 'Why have they decorated the classroom?',
+    },
+    {
+      meaning: 'Neden eski kitaplarını sattı?',
+      possibleAnswer: 'Because he has needed money for new ones.',
+      sentence: 'Why has he sold his old books?',
+    },
+    {
+      meaning: 'Neden üniforma giydin?',
+      possibleAnswer: 'Because I have started a new job.',
+      sentence: 'Why have you worn a uniform?',
+    },
+    {
+      meaning: 'Neden işaret dili öğrendi?',
+      possibleAnswer: 'Because he has wanted to communicate with deaf people.',
+      sentence: 'Why has he learned sign language?',
+    },
+    {
+      meaning: 'Neden mobilyaların yerini değiştirdiler?',
+      possibleAnswer: "Because they have wanted to change the room's layout.",
+      sentence: 'Why have they moved the furniture?',
+    },
+    {
+      meaning: 'Neden filmler sırasında not aldın?',
+      possibleAnswer: 'Because I have had to write reviews for my class.',
+      sentence: 'Why have you taken notes during movies?',
+    },
+    {
+      meaning: 'Neden gece kurabiye pişirdi?',
+      possibleAnswer: 'Because she has not been able to sleep.',
+      sentence: 'Why has she baked cookies at night?',
+    },
+    {
+      meaning: 'Neden konuşmasını bu kadar çok pratik yaptı?',
+      possibleAnswer: 'Because he has been nervous about public speaking.',
+      sentence: 'Why has he practiced his speech so much?',
+    },
+    {
+      meaning: 'Neden ağaçların altında durdular?',
+      possibleAnswer: 'Because it has started to rain suddenly.',
+      sentence: 'Why have they stood under trees?',
+    },
+  ],
+  B1: [
+    {
+      meaning: 'Gökyüzü neden mavi?',
+      possibleAnswer:
+        'Because of the way sunlight interacts with the atmosphere.',
+      sentence: 'Why is the sky blue?',
+    },
+    {
+      meaning: 'Bugün neden mutlusun?',
+      possibleAnswer: 'Because I got good news from my family.',
+      sentence: 'Why are you happy today?',
+    },
+    {
+      meaning: 'O neden derse geç kalıyor?',
+      possibleAnswer: "Because there's heavy traffic on the road.",
+      sentence: 'Why is she late for class?',
+    },
+    {
+      meaning: 'Neden her zaman yorgunum?',
+      possibleAnswer: 'Because you might not be getting enough sleep.',
+      sentence: 'Why am I tired all the time?',
+    },
+    {
+      meaning: 'Kediler neden iyi evcil hayvanlardır?',
+      possibleAnswer: 'Because they are independent and affectionate.',
+      sentence: 'Why are cats good pets?',
+    },
+    {
+      meaning: 'Neden İngilizce öğreniyorsun?',
+      possibleAnswer: 'Because I want to improve my job prospects.',
+      sentence: 'Why are you learning English?',
+    },
+    {
+      meaning: 'Bilgisayar neden çalışmıyor?',
+      possibleAnswer: 'Because it might have a virus or hardware problem.',
+      sentence: 'Why is the computer not working?',
+    },
+    {
+      meaning: 'Okumak neden önemlidir?',
+      possibleAnswer: 'Because it improves knowledge and imagination.',
+      sentence: 'Why is reading important?',
+    },
+    {
+      meaning: 'Bebek neden ağlıyor?',
+      possibleAnswer: 'Because it might be hungry or need a diaper change.',
+      sentence: 'Why is the baby crying?',
+    },
+    {
+      meaning: 'Akıllı telefonlar neden popüler?',
+      possibleAnswer: 'Because they are convenient and offer many features.',
+      sentence: 'Why are smartphones popular?',
+    },
+    {
+      meaning: 'Egzersiz neden sağlık için iyidir?',
+      possibleAnswer:
+        'Because it strengthens the body and improves overall well-being.',
+      sentence: 'Why is exercise good for health?',
+    },
+    {
+      meaning: 'Restoran neden kapalı?',
+      possibleAnswer: "Because it's a public holiday today.",
+      sentence: 'Why is the restaurant closed?',
+    },
+    {
+      meaning: 'Neden gülümsüyorsun?',
+      possibleAnswer: "Because I'm in a good mood.",
+      sentence: 'Why are you smiling?',
+    },
+    {
+      meaning: 'Güneş neden sıcaktır?',
+      possibleAnswer: "Because it's a giant ball of burning gases.",
+      sentence: 'Why is the sun hot?',
+    },
+    {
+      meaning: 'Neden bu kadar çok çalışıyorsun?',
+      possibleAnswer: 'Because I want to pass my exams with good grades.',
+      sentence: 'Why are you studying so hard?',
+    },
+    {
+      meaning: 'Neden gözlük takıyorsun?',
+      possibleAnswer: 'Because I need them to see clearly.',
+      sentence: 'Why are you wearing glasses?',
+    },
+    {
+      meaning: 'Neden yemek yapmayı öğreniyorsun?',
+      possibleAnswer: 'Because I want to eat healthier and save money.',
+      sentence: 'Why are you learning to cook?',
+    },
+    {
+      meaning: 'Bugün trafik neden bu kadar kötü?',
+      possibleAnswer: "Because there's a big event in the city center.",
+      sentence: 'Why is the traffic so bad today?',
+    },
+    {
+      meaning: 'Neden her zaman geç kalıyorum?',
+      possibleAnswer:
+        'Because you might need to improve your time management skills.',
+      sentence: 'Why am I always late?',
+    },
+    {
+      meaning: 'Kütüphane neden sessizdir?',
+      possibleAnswer:
+        'Because people need a calm environment to study and read.',
+      sentence: 'Why is the library quiet?',
+    },
+    {
+      meaning: 'Gece gökyüzü neden karanlıktır?',
+      possibleAnswer: 'Because the Earth is facing away from the sun.',
+      sentence: 'Why is the sky dark at night?',
+    },
+    {
+      meaning: 'Pandalar neden siyah ve beyazdır?',
+      possibleAnswer:
+        'Because their coloration helps them blend into their snowy and rocky habitat.',
+      sentence: 'Why are pandas black and white?',
+    },
+    {
+      meaning: 'Eğitim neden önemlidir?',
+      possibleAnswer:
+        'Because it helps people develop skills and knowledge for life.',
+      sentence: 'Why is education important?',
+    },
+    {
+      meaning: 'Neden her zaman uykulu hissediyorum?',
+      possibleAnswer:
+        'Because you might have poor sleep quality or a sleep disorder.',
+      sentence: 'Why am I always sleepy?',
+    },
+    {
+      meaning: 'Müze neden Pazar günleri ücretsiz?',
+      possibleAnswer:
+        'Because they want to encourage more people to visit and learn.',
+      sentence: 'Why is the museum free on Sundays?',
+    },
+    {
+      meaning: 'Neden üniforma giyiyorsun?',
+      possibleAnswer: "Because it's required for my job or school.",
+      sentence: 'Why are you wearing a uniform?',
+    },
+    {
+      meaning: 'Nehir neden kirli?',
+      possibleAnswer:
+        'Because of industrial waste and improper sewage treatment.',
+      sentence: 'Why is the river polluted?',
+    },
+    {
+      meaning: 'Takım çalışması neden önemlidir?',
+      possibleAnswer:
+        'Because it helps achieve better results and fosters cooperation.',
+      sentence: 'Why is teamwork important?',
+    },
+    {
+      meaning: 'Neden yeni bir dil öğreniyorsun?',
+      possibleAnswer:
+        'Because I want to communicate with people from different cultures.',
+      sentence: 'Why are you learning a new language?',
+    },
+    {
+      meaning: 'Bina neden bu kadar yüksek?',
+      possibleAnswer: 'Because it maximizes space in a crowded city.',
+      sentence: 'Why is the building so tall?',
+    },
+    {
+      meaning: 'Neden her zaman endişeliyim?',
+      possibleAnswer:
+        'Because you might have anxiety or face a lot of stress in your life.',
+      sentence: 'Why am I always worried?',
+    },
+    {
+      meaning: 'Neden güneş kremi sürüyorsun?',
+      possibleAnswer: 'Because I want to protect my skin from harmful UV rays.',
+      sentence: 'Why are you wearing sunscreen?',
+    },
+    {
+      meaning: 'Bitki neden ölüyor?',
+      possibleAnswer:
+        'Because it might not be getting enough water or sunlight.',
+      sentence: 'Why is the plant dying?',
+    },
+    {
+      meaning: 'Neden her zaman meşgulüm?',
+      possibleAnswer:
+        'Because you might have too many commitments or poor time management.',
+      sentence: 'Why am I always busy?',
+    },
+    {
+      meaning: 'Dürüstlük neden önemlidir?',
+      possibleAnswer: 'Because it builds trust and strong relationships.',
+      sentence: 'Why is honesty important?',
+    },
+    {
+      meaning: 'Neden egzersizden sonra her zaman açım?',
+      possibleAnswer:
+        'Because your body needs to replenish energy used during the workout.',
+      sentence: 'Why am I always hungry after exercise?',
+    },
+    {
+      meaning: 'Bazı bitkiler neden zehirlidir?',
+      possibleAnswer: "Because it's a defense mechanism against being eaten.",
+      sentence: 'Why are some plants poisonous?',
+    },
+    {
+      meaning: 'İnternet bugün neden yavaş?',
+      possibleAnswer:
+        'Because there might be high traffic or technical issues with the provider.',
+      sentence: 'Why is the internet slow today?',
+    },
+    {
+      meaning: 'Plaj neden kalabalık?',
+      possibleAnswer: "Because it's a hot day and people want to cool off.",
+      sentence: 'Why is the beach crowded?',
+    },
+    {
+      meaning: 'İşte neden her zaman stresli hissediyorum?',
+      possibleAnswer:
+        'Because you might have a heavy workload or difficult colleagues.',
+      sentence: 'Why am I always stressed at work?',
+    },
+    {
+      meaning: 'Dakiklik neden önemlidir?',
+      possibleAnswer:
+        "Because it shows respect for others' time and is professional.",
+      sentence: 'Why is punctuality important?',
+    },
+    {
+      meaning: 'Neden bir enstrüman çalmayı öğreniyorsun?',
+      possibleAnswer: 'Because I want to express myself through music.',
+      sentence: 'Why are you learning to play an instrument?',
+    },
+    {
+      meaning: 'Temiz su neden önemlidir?',
+      possibleAnswer:
+        "Because it's essential for health and prevents diseases.",
+      sentence: 'Why is clean water important?',
+    },
+    {
+      meaning: 'Neden kulaklık takıyorsun?',
+      possibleAnswer:
+        'Because I want to listen to music without disturbing others.',
+      sentence: 'Why are you wearing headphones?',
+    },
+    {
+      meaning: 'Neden mola veriyorsun?',
+      possibleAnswer: 'Because I need to rest and recharge.',
+      sentence: 'Why are you taking a break?',
+    },
+    {
+      meaning: 'Neden gülümsüyorsun?',
+      possibleAnswer: "Because I'm happy and enjoying the moment.",
+      sentence: 'Why are you smiling?',
+    },
+    {
+      meaning: 'Uyku neden önemlidir?',
+      possibleAnswer:
+        'Because it helps the body and mind recover and process information.',
+      sentence: 'Why is sleep important?',
+    },
+    {
+      meaning: 'Neden saat takıyorsun?',
+      possibleAnswer: 'Because I want to keep track of time easily.',
+      sentence: 'Why are you wearing a watch?',
+    },
+    {
+      meaning: 'Neden her zaman telefonuma bakıyorum?',
+      possibleAnswer:
+        'Because you might be addicted to social media or fear missing out.',
+      sentence: 'Why am I always looking at my phone?',
+    },
+  ],
+  B2: [
+    {
+      meaning: 'Kuşlar neden sabah şarkı söyler?',
+      possibleAnswer: 'Because they mark their territory and attract mates.',
+      sentence: 'Why do birds sing in the morning?',
+    },
+    {
+      meaning: 'Güneş neden doğudan doğar?',
+      possibleAnswer: "Because of the Earth's rotation.",
+      sentence: 'Why does the sun rise in the east?',
+    },
+    {
+      meaning: 'Soğanlar neden ağlatır?',
+      possibleAnswer: 'Because they release a gas that irritates eyes.',
+      sentence: 'Why do onions make you cry?',
+    },
+    {
+      meaning: 'Tahta neden yüzer?',
+      possibleAnswer: "Because it's less dense than water.",
+      sentence: 'Why does wood float?',
+    },
+    {
+      meaning: 'Gök gürültüsü neden şimşekten sonra gelir?',
+      possibleAnswer: 'Because light travels faster than sound.',
+      sentence: 'Why does thunder follow lightning?',
+    },
+    {
+      meaning: 'Bitkiler neden güneş ışığına ihtiyaç duyar?',
+      possibleAnswer: 'Because they use it for photosynthesis.',
+      sentence: 'Why do plants need sunlight?',
+    },
+    {
+      meaning: 'Pusula neden kuzeyi gösterir?',
+      possibleAnswer: "Because it aligns with Earth's magnetic field.",
+      sentence: 'Why does a compass point north?',
+    },
+    {
+      meaning: 'Köpekler neden havlar?',
+      possibleAnswer: 'Because they communicate or alert their owners.',
+      sentence: 'Why do dogs bark?',
+    },
+    {
+      meaning: 'Süt neden bozulur?',
+      possibleAnswer: 'Because bacteria multiply in it over time.',
+      sentence: 'Why does milk spoil?',
+    },
+    {
+      meaning: 'Araba neden yağa ihtiyaç duyar?',
+      possibleAnswer: 'Because it lubricates moving parts.',
+      sentence: 'Why does a car need oil?',
+    },
+    {
+      meaning: 'Ayna neden yansıtır?',
+      possibleAnswer: 'Because it has a smooth, reflective surface.',
+      sentence: 'Why does a mirror reflect?',
+    },
+    {
+      meaning: 'Depremler neden olur?',
+      possibleAnswer: 'Because tectonic plates move and release energy.',
+      sentence: 'Why do earthquakes happen?',
+    },
+    {
+      meaning: 'Patlamış mısır neden patlar?',
+      possibleAnswer: 'Because heat turns moisture inside into steam.',
+      sentence: 'Why does popcorn pop?',
+    },
+    {
+      meaning: 'Saçlar neden grileşir?',
+      possibleAnswer: 'Because pigment cells stop producing color.',
+      sentence: 'Why does hair turn gray?',
+    },
+    {
+      meaning: 'İnsanlar neden hapşırır?',
+      possibleAnswer: 'Because they expel irritants from their nose.',
+      sentence: 'Why do people sneeze?',
+    },
+    {
+      meaning: 'Vantilatör neden serinletir?',
+      possibleAnswer: 'Because it increases air circulation.',
+      sentence: 'Why does a fan cool you?',
+    },
+    {
+      meaning: 'Köpekler neden nefes nefese kalır?',
+      possibleAnswer: 'Because they regulate body temperature.',
+      sentence: 'Why do dogs pant?',
+    },
+    {
+      meaning: 'Sabun neden temizler?',
+      possibleAnswer: 'Because it breaks down oils and lifts dirt.',
+      sentence: 'Why does soap clean?',
+    },
+    {
+      meaning: 'Bitkiler neden ışığa doğru büyür?',
+      possibleAnswer: 'Because of a hormone called auxin.',
+      sentence: 'Why do plants grow towards light?',
+    },
+    {
+      meaning: 'Sünger neden su emer?',
+      possibleAnswer: 'Because it has many small air pockets.',
+      sentence: 'Why does a sponge absorb water?',
+    },
+    {
+      meaning: 'Balon neden yükselir?',
+      possibleAnswer: "Because it's filled with gas lighter than air.",
+      sentence: 'Why does a balloon rise?',
+    },
+    {
+      meaning: 'İnsanlar neden rüya görür?',
+      possibleAnswer: 'Because the brain processes information during sleep.',
+      sentence: 'Why do people dream?',
+    },
+    {
+      meaning: 'Yapraklar neden dökülür?',
+      possibleAnswer: 'Because trees conserve energy in winter.',
+      sentence: 'Why do leaves fall?',
+    },
+    {
+      meaning: 'Saat neden tik tak yapar?',
+      possibleAnswer: 'Because of its mechanical movement.',
+      sentence: 'Why does a clock tick?',
+    },
+    {
+      meaning: 'Gökkuşağında neden renkler vardır?',
+      possibleAnswer:
+        'Because white light separates into its component colors.',
+      sentence: 'Why does a rainbow have colors?',
+    },
+    {
+      meaning: 'İnsanlar neden dedikodu yapar?',
+      possibleAnswer: "Because it's a way of sharing social information.",
+      sentence: 'Why do people gossip?',
+    },
+    {
+      meaning: 'Gitar neden ses çıkarır?',
+      possibleAnswer: 'Because strings vibrate and create sound waves.',
+      sentence: 'Why does a guitar make sound?',
+    },
+    {
+      meaning: 'Kediler neden ayakları üzerine düşer?',
+      possibleAnswer: 'Because of their righting reflex.',
+      sentence: 'Why do cats land on their feet?',
+    },
+    {
+      meaning: 'İnsanlar neden ağlar?',
+      possibleAnswer: 'Because of emotional or physical stimuli.',
+      sentence: 'Why do people cry?',
+    },
+    {
+      meaning: 'Alev neden mavi yanar?',
+      possibleAnswer: 'Because of complete combustion of fuel.',
+      sentence: 'Why does a flame burn blue?',
+    },
+    {
+      meaning: 'Çaydanlık neden ıslık çalar?',
+      possibleAnswer: 'Because steam escapes through a small opening.',
+      sentence: 'Why does a kettle whistle?',
+    },
+    {
+      meaning: 'Peynir neden erir?',
+      possibleAnswer: 'Because heat breaks down its protein structure.',
+      sentence: 'Why does cheese melt?',
+    },
+    {
+      meaning: 'Davul neden rezonans yapar?',
+      possibleAnswer: 'Because of vibrations in its taut membrane.',
+      sentence: 'Why does a drum resonate?',
+    },
+    {
+      meaning: 'İnsanlar neden ıslık çalar?',
+      possibleAnswer: 'Because of air forced through pursed lips.',
+      sentence: 'Why do people whistle?',
+    },
+    {
+      meaning: 'Kamera neden flaş yapar?',
+      possibleAnswer: 'Because it provides extra light for the photo.',
+      sentence: 'Why does a camera flash?',
+    },
+    {
+      meaning: 'Köpekler neden ulur?',
+      possibleAnswer: 'Because of communication or response to sounds.',
+      sentence: 'Why do dogs howl?',
+    },
+    {
+      meaning: 'Kurşun kalem neden yazar?',
+      possibleAnswer: 'Because graphite leaves marks on paper.',
+      sentence: 'Why does a pencil write?',
+    },
+    {
+      meaning: 'İnsanlar neden kızarır?',
+      possibleAnswer: 'Because of emotional responses affecting blood vessels.',
+      sentence: 'Why do people blush?',
+    },
+    {
+      meaning: 'İnsanlar neden fısıldar?',
+      possibleAnswer: 'Because they want to communicate quietly.',
+      sentence: 'Why do people whisper?',
+    },
+    {
+      meaning: 'Balon neden söner?',
+      possibleAnswer: 'Because air escapes through tiny holes.',
+      sentence: 'Why does a balloon deflate?',
+    },
+    {
+      meaning: 'İnsanlar yorgun olduğunda neden esner?',
+      possibleAnswer: 'Because the body tries to wake up.',
+      sentence: 'Why do people yawn when tired?',
+    },
+    {
+      meaning: 'İnsanlar neden ıslık çalar?',
+      possibleAnswer: 'Because they express emotions or signal others.',
+      sentence: 'Why do people whistle?',
+    },
+    {
+      meaning: 'Pusula neden kuzeyi gösterir?',
+      possibleAnswer: "Because it aligns with Earth's magnetic field.",
+      sentence: 'Why does a compass point north?',
+    },
+    {
+      meaning: 'İnsanlar neden hıçkırır?',
+      possibleAnswer: 'Because of sudden diaphragm contractions.',
+      sentence: 'Why do people hiccup?',
+    },
+    {
+      meaning: 'Uçurtma neden uçar?',
+      possibleAnswer: 'Because of wind force and aerodynamic design.',
+      sentence: 'Why does a kite fly?',
+    },
+    {
+      meaning: 'Kediler neden miyavlar?',
+      possibleAnswer: 'Because they communicate with humans.',
+      sentence: 'Why do cats meow?',
+    },
+    {
+      meaning: 'İnsanlar neden hayal kurar?',
+      possibleAnswer: 'Because the mind wanders during idle moments.',
+      sentence: 'Why do people daydream?',
+    },
+    {
+      meaning: 'İnsanlar neden dans eder?',
+      possibleAnswer: 'Because of emotional expression or social bonding.',
+      sentence: 'Why do people dance?',
+    },
+    {
+      meaning: 'İnsanlar neden dedikodu yapar?',
+      possibleAnswer: 'Because they share social information.',
+      sentence: 'Why do people gossip?',
+    },
+    {
+      meaning: 'Gökkuşağı neden kaybolur?',
+      possibleAnswer: 'Because the angle of sunlight changes.',
+      sentence: '00. Why does a rainbow disappear?',
+    },
+  ],
+  B3: [
+    {
+      meaning: 'Neden mont giyiyorsun?',
+      possibleAnswer: "Because it's cold outside.",
+      sentence: 'Why are you wearing a coat?',
+    },
+    {
+      meaning: 'Neden ağlıyor?',
+      possibleAnswer: "Because she's sad.",
+      sentence: 'Why is she crying?',
+    },
+    {
+      meaning: 'Neden akşam yemeği pişiriyor?',
+      possibleAnswer: "Because she's hungry.",
+      sentence: 'Why is she cooking dinner?',
+    },
+    {
+      meaning: 'Neden gülümsüyor?',
+      possibleAnswer: "Because he's happy.",
+      sentence: 'Why is he smiling?',
+    },
+    {
+      meaning: 'Neden bu kadar hızlı yürüyor?',
+      possibleAnswer: "Because she's in a hurry.",
+      sentence: 'Why is she walking so fast?',
+    },
+    {
+      meaning: 'Neden su içiyorsun?',
+      possibleAnswer: "Because I'm thirsty.",
+      sentence: 'Why are you drinking water?',
+    },
+    {
+      meaning: 'Neden arkadaşını arıyor?',
+      possibleAnswer: 'Because she wants to talk.',
+      sentence: 'Why is she calling her friend?',
+    },
+    {
+      meaning: 'Neden çiçek alıyor?',
+      possibleAnswer: "Because it's his wife's birthday.",
+      sentence: 'Why is he buying flowers?',
+    },
+    {
+      meaning: 'Neden dans etmeyi öğreniyor?',
+      possibleAnswer: 'Because she wants to join a dance class.',
+      sentence: 'Why is she learning to dance?',
+    },
+    {
+      meaning: 'Neden dondurma yiyorlar?',
+      possibleAnswer: "Because it's a hot day.",
+      sentence: 'Why are they eating ice cream?',
+    },
+    {
+      meaning: 'Neden arabayı tamir ediyor?',
+      possibleAnswer: "Because it's not working well.",
+      sentence: 'Why is he fixing the car?',
+    },
+    {
+      meaning: 'Neden duvarı boyuyorlar?',
+      possibleAnswer: 'Because they want to change the color.',
+      sentence: 'Why are they painting the wall?',
+    },
+    {
+      meaning: 'Neden yemek yapmayı öğreniyor?',
+      possibleAnswer: 'Because he wants to eat healthy food.',
+      sentence: 'Why is he learning to cook?',
+    },
+    {
+      meaning: 'Neden anahtarlarını arıyorsun?',
+      possibleAnswer: "Because I can't find them.",
+      sentence: 'Why are you looking for your keys?',
+    },
+    {
+      meaning: 'Neden elbise giyiyor?',
+      possibleAnswer: "Because she's going to a party.",
+      sentence: 'Why is she wearing a dress?',
+    },
+    {
+      meaning: 'Neden tartışıyorlar?',
+      possibleAnswer: 'Because they disagree about something.',
+      sentence: 'Why are they arguing?',
+    },
+    {
+      meaning: 'Neden arkadaşına yardım ediyor?',
+      possibleAnswer: 'Because his friend needs help with homework.',
+      sentence: 'Why is he helping his friend?',
+    },
+    {
+      meaning: 'Neden pencereyi kapatıyorsun?',
+      possibleAnswer: "Because it's getting cold.",
+      sentence: 'Why are you closing the window?',
+    },
+    {
+      meaning: 'Neden yeni ayakkabı alıyor?',
+      possibleAnswer: 'Because her old ones are too small.',
+      sentence: 'Why is she buying new shoes?',
+    },
+    {
+      meaning: 'Neden müzik dinliyorlar?',
+      possibleAnswer: 'Because they enjoy it.',
+      sentence: 'Why are they listening to music?',
+    },
+    {
+      meaning: 'Neden telefonla konuşuyor?',
+      possibleAnswer: "Because he's calling his mother.",
+      sentence: 'Why is he talking on the phone?',
+    },
+    {
+      meaning: 'Neden ödev yapıyorlar?',
+      possibleAnswer: 'Because they have a test tomorrow.',
+      sentence: 'Why are they doing homework?',
+    },
+    {
+      meaning: 'Neden bulaşıkları yıkıyor?',
+      possibleAnswer: "Because they're dirty.",
+      sentence: 'Why is he washing the dishes?',
+    },
+    {
+      meaning: 'Neden sandviç yiyorsun?',
+      possibleAnswer: "Because I'm hungry.",
+      sentence: 'Why are you eating a sandwich?',
+    },
+    {
+      meaning: 'Neden e-posta yazıyor?',
+      possibleAnswer: 'Because he needs to send a message.',
+      sentence: 'Why is he writing an email?',
+    },
+    {
+      meaning: 'Neden bisiklet sürüyor?',
+      possibleAnswer: "Because it's good exercise.",
+      sentence: 'Why is he riding a bike?',
+    },
+    {
+      meaning: 'Neden İngilizce öğreniyorlar?',
+      possibleAnswer: 'Because they want to travel abroad.',
+      sentence: 'Why are they learning English?',
+    },
+    {
+      meaning: 'Neden makyaj yapıyor?',
+      possibleAnswer: "Because she's going out tonight.",
+      sentence: 'Why is she putting on makeup?',
+    },
+    {
+      meaning: 'Neden satranç oynuyorlar?',
+      possibleAnswer: 'Because they enjoy strategy games.',
+      sentence: 'Why are they playing chess?',
+    },
+    {
+      meaning: 'Neden kahve içiyorsun?',
+      possibleAnswer: "Because I'm feeling sleepy.",
+      sentence: 'Why are you drinking coffee?',
+    },
+    {
+      meaning: 'Neden yoga yapıyor?',
+      possibleAnswer: 'Because it helps her relax.',
+      sentence: 'Why is she doing yoga?',
+    },
+    {
+      meaning: 'Neden film izliyorlar?',
+      possibleAnswer: 'Because they want to relax after work.',
+      sentence: 'Why are they watching a movie?',
+    },
+    {
+      meaning: 'Neden para biriktiriyorlar?',
+      possibleAnswer: 'Because they want to buy a house.',
+      sentence: 'Why are they saving money?',
+    },
+    {
+      meaning: 'Neden saçını kesiyor?',
+      possibleAnswer: "Because it's too long.",
+      sentence: 'Why is he cutting his hair?',
+    },
+    {
+      meaning: 'Neden mola veriyorsun?',
+      possibleAnswer: "Because I've been working for hours.",
+      sentence: 'Why are you taking a break?',
+    },
+    {
+      meaning: 'Neden bu kadar yüksek sesle gülüyorlar?',
+      possibleAnswer: "Because they're watching a comedy show.",
+      sentence: 'Why are they laughing so loud?',
+    },
+    {
+      meaning: 'Neden gitar çalmayı öğreniyor?',
+      possibleAnswer: 'Because he loves music.',
+      sentence: 'Why is he learning to play guitar?',
+    },
+    {
+      meaning: 'Neden toplantı yapıyorlar?',
+      possibleAnswer: 'Because they need to discuss a new project.',
+      sentence: 'Why are they having a meeting?',
+    },
+    {
+      meaning: 'Neden köpeği gezdiriyor?',
+      possibleAnswer: 'Because the dog needs exercise.',
+      sentence: 'Why is he walking the dog?',
+    },
+    {
+      meaning: 'Neden şapka takıyorsun?',
+      possibleAnswer: 'Because the sun is very strong today.',
+      sentence: 'Why are you wearing a hat?',
+    },
+    {
+      meaning: 'Neden bu kadar hızlı yazıyor?',
+      possibleAnswer: 'Because she has a lot of work to finish.',
+      sentence: 'Why is she typing so fast?',
+    },
+    {
+      meaning: 'Neden yeni bir ev inşa ediyorlar?',
+      possibleAnswer: 'Because they need more space for their family.',
+      sentence: 'Why are they building a new house?',
+    },
+    {
+      meaning: 'Neden egzersiz yapıyorlar?',
+      possibleAnswer: 'Because they want to stay healthy.',
+      sentence: 'Why are they exercising?',
+    },
+    {
+      meaning: 'Neden kitap yazıyor?',
+      possibleAnswer: 'Because he wants to share his ideas.',
+      sentence: 'Why is he writing a book?',
+    },
+    {
+      meaning: 'Neden üniforma giyiyor?',
+      possibleAnswer: "Because he's going to work.",
+      sentence: 'Why is he wearing a uniform?',
+    },
+    {
+      meaning: 'Neden arabasını satıyor?',
+      possibleAnswer: 'Because he needs money.',
+      sentence: 'Why is he selling his car?',
+    },
+    {
+      meaning: 'Neden piyano çalışıyor?',
+      possibleAnswer: 'Because she has a concert next week.',
+      sentence: 'Why is she practicing the piano?',
+    },
+    {
+      meaning: 'Neden yeni bir şehre taşınıyorlar?',
+      possibleAnswer: 'Because they found better jobs there.',
+      sentence: 'Why are they moving to a new city?',
+    },
+    {
+      meaning: 'Neden not alıyorsun?',
+      possibleAnswer: 'Because I want to remember this information.',
+      sentence: 'Why are you taking notes?',
+    },
+    {
+      meaning: 'Neden parti planlıyorlar?',
+      possibleAnswer: 'Because they want to celebrate their graduation.',
+      sentence: 'Why are they planning a party?',
+    },
+    {
+      meaning: 'Neden yüzme öğreniyor?',
+      possibleAnswer: 'Because he wants to feel safe in the water.',
+      sentence: '00. Why is he learning to swim?',
+    },
+  ],
+  C1: [
+    {
+      meaning: 'Parti neden iptal edildi?',
+      possibleAnswer: 'Because the host got sick.',
+      sentence: 'Why was the party canceled?',
+    },
+    {
+      meaning: 'Dün neden geç kaldın?',
+      possibleAnswer: 'Because I missed the bus.',
+      sentence: 'Why were you late yesterday?',
+    },
+    {
+      meaning: 'Film neden bu kadar sıkıcıydı?',
+      possibleAnswer: 'Because the plot was predictable.',
+      sentence: 'Why was the movie so boring?',
+    },
+    {
+      meaning: 'Dün gece sokaklar neden boştu?',
+      possibleAnswer: 'Because there was a curfew.',
+      sentence: 'Why were the streets empty last night?',
+    },
+    {
+      meaning: 'O neden sana kızgındı?',
+      possibleAnswer: 'Because I forgot her birthday.',
+      sentence: 'Why was she angry with you?',
+    },
+    {
+      meaning: 'Restoran geçen hafta neden kapalıydı?',
+      possibleAnswer: 'Because they renovated the kitchen.',
+      sentence: 'Why was the restaurant closed last week?',
+    },
+    {
+      meaning: 'Bu sabah neden bu kadar yorgundun?',
+      possibleAnswer: 'Because I stayed up late.',
+      sentence: 'Why were you so tired this morning?',
+    },
+    {
+      meaning: 'Çiçekler neden solmuştu?',
+      possibleAnswer: 'Because nobody watered them.',
+      sentence: 'Why were the flowers wilted?',
+    },
+    {
+      meaning: 'Dün trafik neden çok kötüydü?',
+      possibleAnswer: 'Because there was a big accident.',
+      sentence: 'Why was the traffic terrible yesterday?',
+    },
+    {
+      meaning: 'Dün gece neden mutluydun?',
+      possibleAnswer: 'Because I received good news.',
+      sentence: 'Why were you happy last night?',
+    },
+    {
+      meaning: 'Kitap neden bu kadar pahalıydı?',
+      possibleAnswer: 'Because it was a rare edition.',
+      sentence: 'Why was the book so expensive?',
+    },
+    {
+      meaning: 'Çocuklar neden heyecanlıydı?',
+      possibleAnswer: 'Because they went to an amusement park.',
+      sentence: 'Why were the children excited?',
+    },
+    {
+      meaning: 'Toplantı neden iptal edildi?',
+      possibleAnswer: 'Because the CEO was ill.',
+      sentence: 'Why was the meeting cancelled?',
+    },
+    {
+      meaning: 'Haberden neden şaşırdın?',
+      possibleAnswer: 'Because it was unexpected.',
+      sentence: 'Why were you surprised by the news?',
+    },
+    {
+      meaning: 'Geçen hafta sonu şehir neden bu kadar kalabalıktı?',
+      possibleAnswer: 'Because there was a festival.',
+      sentence: 'Why was the city so crowded last weekend?',
+    },
+    {
+      meaning: 'Öğrenciler neden gergindi?',
+      possibleAnswer: 'Because they had a difficult exam.',
+      sentence: 'Why were the students nervous?',
+    },
+    {
+      meaning: 'Otel neden tamamen doluydu?',
+      possibleAnswer: 'Because it was holiday season.',
+      sentence: 'Why was the hotel fully booked?',
+    },
+    {
+      meaning: 'Kız kardeşinle neden gurur duydun?',
+      possibleAnswer: 'Because she won a competition.',
+      sentence: 'Why were you proud of your sister?',
+    },
+    {
+      meaning: 'Yemek neden soğuktu?',
+      possibleAnswer: 'Because it was left out too long.',
+      sentence: 'Why was the food cold?',
+    },
+    {
+      meaning: 'Tablo neden bu kadar değerliydi?',
+      possibleAnswer: 'Because it was painted by a famous artist.',
+      sentence: 'Why was the painting so valuable?',
+    },
+    {
+      meaning: 'Mağaza dün neden kapalıydı?',
+      possibleAnswer: 'Because it was a public holiday.',
+      sentence: 'Why was the store closed yesterday?',
+    },
+    {
+      meaning: 'Hafta sonu için neden heyecanlıydın?',
+      possibleAnswer: 'Because I planned a trip.',
+      sentence: 'Why were you excited about the weekend?',
+    },
+    {
+      meaning: 'Dün gece internet neden yavaştı?',
+      possibleAnswer: 'Because too many people used it simultaneously.',
+      sentence: 'Why was the internet slow last night?',
+    },
+    {
+      meaning: 'Komşular neden şikayet ediyordu?',
+      possibleAnswer: 'Because of the loud music.',
+      sentence: 'Why were the neighbors complaining?',
+    },
+    {
+      meaning: 'Plaj neden kapalıydı?',
+      possibleAnswer: 'Because of dangerous water conditions.',
+      sentence: 'Why was the beach closed?',
+    },
+    {
+      meaning: 'Arkadaşına neden minnettardın?',
+      possibleAnswer: 'Because they helped me in a difficult time.',
+      sentence: 'Why were you grateful to your friend?',
+    },
+    {
+      meaning: 'Paket neden geç geldi?',
+      possibleAnswer: 'Because of shipping delays.',
+      sentence: 'Why was the package late?',
+    },
+    {
+      meaning: 'Fiyatlar neden düşürüldü?',
+      possibleAnswer: 'Because it was a clearance sale.',
+      sentence: 'Why were the prices reduced?',
+    },
+    {
+      meaning: 'Yol neden kapatıldı?',
+      possibleAnswer: 'Because of construction work.',
+      sentence: 'Why was the road blocked?',
+    },
+    {
+      meaning: 'Karanlıktan neden korktun?',
+      possibleAnswer: 'Because I watched a scary movie.',
+      sentence: 'Why were you afraid of the dark?',
+    },
+    {
+      meaning: 'Su neden kesildi?',
+      possibleAnswer: 'Because of pipe repairs.',
+      sentence: 'Why was the water shut off?',
+    },
+    {
+      meaning: 'Öğrenciler neden kutlama yapıyordu?',
+      possibleAnswer: 'Because they graduated.',
+      sentence: 'Why were the students celebrating?',
+    },
+    {
+      meaning: 'Tatilden sonra neden yorgundun?',
+      possibleAnswer: 'Because I did too many activities.',
+      sentence: 'Why were you tired after the vacation?',
+    },
+    {
+      meaning: 'Proje neden gecikti?',
+      possibleAnswer: 'Because of budget issues.',
+      sentence: 'Why was the project delayed?',
+    },
+    {
+      meaning: 'Takım neden hayal kırıklığına uğradı?',
+      possibleAnswer: 'Because they lost the match.',
+      sentence: 'Why was the team disappointed?',
+    },
+    {
+      meaning: 'Konser neden iptal edildi?',
+      possibleAnswer: 'Because the singer was ill.',
+      sentence: 'Why was the concert canceled?',
+    },
+    {
+      meaning: 'Erkek kardeşine neden kızgındın?',
+      possibleAnswer: 'Because he broke my laptop.',
+      sentence: 'Why were you angry with your brother?',
+    },
+    {
+      meaning: 'Köpekler neden havlıyordu?',
+      possibleAnswer: 'Because a stranger approached.',
+      sentence: 'Why were the dogs barking?',
+    },
+    {
+      meaning: 'Müze neden kapalıydı?',
+      possibleAnswer: 'Because of renovations.',
+      sentence: 'Why was the museum closed?',
+    },
+    {
+      meaning: 'Araba neden çalışmıyordu?',
+      possibleAnswer: 'Because the battery was dead.',
+      sentence: 'Why was the car not starting?',
+    },
+    {
+      meaning: 'Kar neden sarıydı?',
+      possibleAnswer: 'Because of pollution.',
+      sentence: 'Why was the snow yellow?',
+    },
+    {
+      meaning: 'Sunum hakkında neden gergindi?',
+      possibleAnswer: 'Because it was important for my career.',
+      sentence: 'Why were you nervous about the presentation?',
+    },
+    {
+      meaning: 'Çiçekler neden bu kadar kokuluydu?',
+      possibleAnswer: 'Because they just bloomed.',
+      sentence: 'Why were the flowers so fragrant?',
+    },
+    {
+      meaning: 'Oda neden bu kadar dağınıktı?',
+      possibleAnswer: "Because I didn't have time to clean.",
+      sentence: 'Why was the room so messy?',
+    },
+    {
+      meaning: 'Posta hakkında neden heyecanlıydın?',
+      possibleAnswer: 'Because I expected an important letter.',
+      sentence: 'Why were you excited about the mail?',
+    },
+    {
+      meaning: 'Öğretmenine neden minnettardın?',
+      possibleAnswer: 'Because they helped me improve my grades.',
+      sentence: 'Why were you thankful to your teacher?',
+    },
+    {
+      meaning: 'Orman neden sessizdi?',
+      possibleAnswer: 'Because all the animals were asleep.',
+      sentence: 'Why was the forest quiet?',
+    },
+    {
+      meaning: 'Komşular neden üzgündü?',
+      possibleAnswer: 'Because their car was stolen.',
+      sentence: 'Why were the neighbors upset?',
+    },
+    {
+      meaning: 'Eski fotoğraf neden önemliydi?',
+      possibleAnswer: 'Because it showed historical events.',
+      sentence: 'Why was the old photograph important?',
+    },
+    {
+      meaning: 'Bilim insanları neden heyecanlıydı?',
+      possibleAnswer: 'Because they made a new discovery.',
+      sentence: 'Why were the scientists excited?',
+    },
+  ],
+  C2: [
+    {
+      meaning: 'Roma İmparatorluğu neden çöktü?',
+      possibleAnswer: 'Because of internal conflicts and external invasions.',
+      sentence: 'Why did the Roman Empire fall?',
+    },
+    {
+      meaning: 'Araba neden bozuldu?',
+      possibleAnswer: 'Because it lacked proper maintenance.',
+      sentence: 'Why did the car break down?',
+    },
+    {
+      meaning: 'Elektrik neden kesildi?',
+      possibleAnswer: 'Because a storm damaged the power lines.',
+      sentence: 'Why did the power go out?',
+    },
+    {
+      meaning: 'Neden bu kadar çok güldün?',
+      possibleAnswer: 'Because the joke was unexpectedly funny.',
+      sentence: 'Why did you laugh so hard?',
+    },
+    {
+      meaning: 'Borsa neden çöktü?',
+      possibleAnswer:
+        'Because of widespread panic selling and economic instability.',
+      sentence: 'Why did the stock market crash?',
+    },
+    {
+      meaning: 'Neden yeni bir şehre taşındın?',
+      possibleAnswer: 'Because I got a better job opportunity there.',
+      sentence: 'Why did you move to a new city?',
+    },
+    {
+      meaning: 'Buz çağı neden sona erdi?',
+      possibleAnswer:
+        'Because of natural climate cycles and increased solar radiation.',
+      sentence: 'Why did the ice age end?',
+    },
+    {
+      meaning: 'Bilgisayar neden dondu?',
+      possibleAnswer: 'Because too many programs were running simultaneously.',
+      sentence: 'Why did the computer freeze?',
+    },
+    {
+      meaning: 'Neden fikrin değişti?',
+      possibleAnswer:
+        'Because I received new information that altered my perspective.',
+      sentence: 'Why did you change your mind?',
+    },
+    {
+      meaning: 'Aktör neden filmden ayrıldı?',
+      possibleAnswer: 'Because of creative differences with the director.',
+      sentence: 'Why did the actor quit the movie?',
+    },
+    {
+      meaning: 'Bitki neden öldü?',
+      possibleAnswer: "Because it didn't receive enough water or sunlight.",
+      sentence: 'Why did the plant die?',
+    },
+    {
+      meaning: 'Deney neden başarısız oldu?',
+      possibleAnswer: 'Because of contamination in the samples.',
+      sentence: 'Why did the experiment fail?',
+    },
+    {
+      meaning: 'O kariyeri neden seçtin?',
+      possibleAnswer: 'Because it aligned with my passions and skills.',
+      sentence: 'Why did you choose that career?',
+    },
+    {
+      meaning: 'Tür neden uyum sağladı?',
+      possibleAnswer:
+        'Because of environmental pressures and natural selection.',
+      sentence: 'Why did the species adapt?',
+    },
+    {
+      meaning: 'Pil neden bu kadar çabuk bitti?',
+      possibleAnswer: 'Because of heavy usage and age.',
+      sentence: 'Why did the battery die so quickly?',
+    },
+    {
+      meaning: 'Kahvaltıyı neden atladın?',
+      possibleAnswer: 'Because I was running late for work.',
+      sentence: 'Why did you skip breakfast?',
+    },
+    {
+      meaning: 'Takım neden maçı kaybetti?',
+      possibleAnswer:
+        'Because they made crucial mistakes in the final minutes.',
+      sentence: 'Why did the team lose the game?',
+    },
+    {
+      meaning: 'O restoranı neden seçtin?',
+      possibleAnswer: 'Because it had great reviews and a unique menu.',
+      sentence: 'Why did you choose that restaurant?',
+    },
+    {
+      meaning: 'Tablo neden ünlü oldu?',
+      possibleAnswer:
+        'Because of its innovative style and historical significance.',
+      sentence: 'Why did the painting become famous?',
+    },
+    {
+      meaning: 'İşinden neden ayrıldın?',
+      possibleAnswer: 'Because I found a better opportunity elsewhere.',
+      sentence: 'Why did you quit your job?',
+    },
+    {
+      meaning: 'Devrim neden başarılı oldu?',
+      possibleAnswer:
+        'Because of widespread popular support and weak opposition.',
+      sentence: 'Why did the revolution succeed?',
+    },
+    {
+      meaning: 'Buz neden bu kadar çabuk eridi?',
+      possibleAnswer: 'Because of unusually high temperatures.',
+      sentence: 'Why did the ice melt so quickly?',
+    },
+    {
+      meaning: 'İlişki neden bitti?',
+      possibleAnswer: 'Because of lack of communication and growing apart.',
+      sentence: 'Why did the relationship end?',
+    },
+    {
+      meaning: 'Uçak neden düştü?',
+      possibleAnswer:
+        'Because of mechanical failure and extreme weather conditions.',
+      sentence: 'Why did the plane crash?',
+    },
+    {
+      meaning: 'Gösteri neden iptal edildi?',
+      possibleAnswer: 'Because of low ratings and high production costs.',
+      sentence: 'Why did the show get cancelled?',
+    },
+    {
+      meaning: 'Neden bir evcil hayvan sahiplendin?',
+      possibleAnswer:
+        'Because I wanted companionship and to help an animal in need.',
+      sentence: 'Why did you adopt a pet?',
+    },
+    {
+      meaning: 'O ismi neden seçtin?',
+      possibleAnswer: 'Because it had special meaning to my family.',
+      sentence: 'Why did you choose that name?',
+    },
+    {
+      meaning: 'Mağaza neden kapandı?',
+      possibleAnswer: 'Because of declining sales and increased competition.',
+      sentence: 'Why did the store close down?',
+    },
+    {
+      meaning: 'Saç stilini neden değiştirdin?',
+      possibleAnswer: 'Because I wanted a fresh look.',
+      sentence: 'Why did you change your hairstyle?',
+    },
+    {
+      meaning: 'O tatil yerini neden seçtin?',
+      possibleAnswer:
+        'Because it offered a perfect mix of relaxation and adventure.',
+      sentence: 'Why did you choose that vacation spot?',
+    },
+    {
+      meaning: 'Protesto neden başladı?',
+      possibleAnswer:
+        'Because of widespread dissatisfaction with government policies.',
+      sentence: 'Why did the protest start?',
+    },
+    {
+      meaning: 'İlaç neden işe yaradı?',
+      possibleAnswer: 'Because it targeted the specific cause of the illness.',
+      sentence: 'Why did the medicine work?',
+    },
+    {
+      meaning: 'Neden erken ayrıldın?',
+      possibleAnswer: 'Because I had another appointment to attend.',
+      sentence: 'Why did you leave early?',
+    },
+    {
+      meaning: 'Aktör neden ödül kazandı?',
+      possibleAnswer:
+        'Because of their outstanding performance in a challenging role.',
+      sentence: 'Why did the actor win an award?',
+    },
+    {
+      meaning: 'Neden bir iş kurdun?',
+      possibleAnswer:
+        'Because I wanted to be my own boss and pursue my passion.',
+      sentence: 'Why did you start a business?',
+    },
+    {
+      meaning: 'Karakter hikayede neden öldü?',
+      possibleAnswer: 'Because it served a crucial plot development.',
+      sentence: 'Why did the character die in the story?',
+    },
+    {
+      meaning: 'Barış görüşmeleri neden başarısız oldu?',
+      possibleAnswer: 'Because of unresolved conflicts and lack of trust.',
+      sentence: 'Why did the peace talks fail?',
+    },
+    {
+      meaning: 'Tür neden evrimleşti?',
+      possibleAnswer:
+        'Because of environmental pressures and genetic mutations.',
+      sentence: 'Why did the species evolve?',
+    },
+    {
+      meaning: 'Beslenme düzenini neden değiştirdin?',
+      possibleAnswer:
+        'Because I wanted to improve my health and energy levels.',
+      sentence: 'Why did you change your diet?',
+    },
+    {
+      meaning: 'Proje neden başarılı oldu?',
+      possibleAnswer: 'Because of excellent teamwork and thorough planning.',
+      sentence: 'Why did the project succeed?',
+    },
+    {
+      meaning: 'Neden kırsala taşındın?',
+      possibleAnswer: 'Because I wanted a quieter lifestyle and cleaner air.',
+      sentence: 'Why did you move to the countryside?',
+    },
+    {
+      meaning: 'Hasta neden hızlı iyileşti?',
+      possibleAnswer: 'Because of early treatment and a strong immune system.',
+      sentence: 'Why did the patient recover quickly?',
+    },
+    {
+      meaning: 'Televizyon programı neden sona erdi?',
+      possibleAnswer:
+        'Because the storyline concluded and actors wanted to move on.',
+      sentence: 'Why did the television show end?',
+    },
+    {
+      meaning: 'Yıldız neden patladı?',
+      possibleAnswer:
+        'Because it ran out of fuel and collapsed under its own gravity.',
+      sentence: 'Why did the star explode?',
+    },
+    {
+      meaning: 'Yatırım neden başarısız oldu?',
+      possibleAnswer:
+        'Because of unexpected market changes and poor risk assessment.',
+      sentence: 'Why did the investment fail?',
+    },
+    {
+      meaning: 'Neden gönüllü olmaya başladın?',
+      possibleAnswer:
+        'Because I wanted to give back to the community and make a difference.',
+      sentence: 'Why did you start volunteering?',
+    },
+    {
+      meaning: 'İnternet neden kesildi?',
+      possibleAnswer: 'Because of a major server failure at the provider.',
+      sentence: 'Why did the internet go down?',
+    },
+    {
+      meaning: 'O dövme tasarımını neden seçtin?',
+      possibleAnswer: 'Because it symbolized an important moment in my life.',
+      sentence: 'Why did you choose that tattoo design?',
+    },
+    {
+      meaning: 'Neden bir blog başlattın?',
+      possibleAnswer:
+        'Because I wanted to share my ideas and connect with like-minded people.',
+      sentence: 'Why did you start a blog?',
+    },
+    {
+      meaning: 'İcat toplumu neden değiştirdi?',
+      possibleAnswer: 'Because it revolutionized how people lived and worked.',
+      sentence: '00. Why did the invention change society?',
+    },
+  ],
+  C3: [
+    {
+      meaning: 'Dün neden mont giyiyordun?',
+      possibleAnswer: 'Because it was cold outside.',
+      sentence: 'Why were you wearing a coat yesterday?',
+    },
+    {
+      meaning: 'Dün gece neden ağlıyordu?',
+      possibleAnswer: 'Because she was sad about something.',
+      sentence: 'Why was she crying last night?',
+    },
+    {
+      meaning: 'Film sırasında neden gülüyorlardı?',
+      possibleAnswer: 'Because the movie was very funny.',
+      sentence: 'Why were they laughing during the movie?',
+    },
+    {
+      meaning: 'Parkta neden koşuyordu?',
+      possibleAnswer: 'Because he was exercising.',
+      sentence: 'Why was he running in the park?',
+    },
+    {
+      meaning: 'Geçen hafta neden İngilizce çalışıyordun?',
+      possibleAnswer: 'Because I had an important test.',
+      sentence: 'Why were you studying English last week?',
+    },
+    {
+      meaning: "Saat 7'de neden akşam yemeği pişiriyordu?",
+      possibleAnswer: 'Because her family was coming home.',
+      sentence: 'Why was she cooking dinner at 7 PM?',
+    },
+    {
+      meaning: 'Onu gördüğünde neden gülümsüyordu?',
+      possibleAnswer: 'Because he had good news.',
+      sentence: 'Why was he smiling when you saw him?',
+    },
+    {
+      meaning: 'Dün gece neden o kitabı okuyordun?',
+      possibleAnswer: 'Because it was very interesting.',
+      sentence: 'Why were you reading that book last night?',
+    },
+    {
+      meaning: 'Yağmurda neden futbol oynuyorlardı?',
+      possibleAnswer: "Because they didn't mind getting wet.",
+      sentence: 'Why were they playing football in the rain?',
+    },
+    {
+      meaning: 'Gece yarısı neden arkadaşını arıyordu?',
+      possibleAnswer: 'Because she needed to talk about something important.',
+      sentence: 'Why was she calling her friend at midnight?',
+    },
+    {
+      meaning: 'Neden binanın fotoğraflarını çekiyorlardı?',
+      possibleAnswer: 'Because it was a famous landmark.',
+      sentence: 'Why were they taking pictures of the building?',
+    },
+    {
+      meaning: 'Trende neden uyuyordu?',
+      possibleAnswer: 'Because he was tired from working all night.',
+      sentence: 'Why was he sleeping on the train?',
+    },
+    {
+      meaning: 'Duşta neden şarkı söylüyordu?',
+      possibleAnswer: 'Because she was in a good mood.',
+      sentence: 'Why was she singing in the shower?',
+    },
+    {
+      meaning: 'Gece geç saatte neden televizyon izliyordun?',
+      possibleAnswer: "Because I couldn't sleep.",
+      sentence: 'Why were you watching TV late at night?',
+    },
+    {
+      meaning: 'Geçen ay neden dans etmeyi öğreniyordu?',
+      possibleAnswer: 'Because she wanted to join a dance competition.',
+      sentence: 'Why was she learning to dance last month?',
+    },
+    {
+      meaning: 'Kışın neden dondurma yiyorlardı?',
+      possibleAnswer:
+        "Because they always enjoy ice cream, even when it's cold.",
+      sentence: 'Why were they eating ice cream in winter?',
+    },
+    {
+      meaning: 'Dün gece neden çantasını topluyordu?',
+      possibleAnswer: 'Because she was leaving for a trip in the morning.',
+      sentence: 'Why was she packing her bag last night?',
+    },
+    {
+      meaning: 'Dün neden duvarları boyuyorlardı?',
+      possibleAnswer: 'Because they wanted to change the color of the room.',
+      sentence: 'Why were they painting the walls yesterday?',
+    },
+    {
+      meaning: 'Neden bütün pencereleri kapatıyordun?',
+      possibleAnswer: 'Because it was starting to rain.',
+      sentence: 'Why were you closing all the windows?',
+    },
+    {
+      meaning: 'Alışveriş merkezinde neden yeni ayakkabı alıyordu?',
+      possibleAnswer: 'Because her old ones were worn out.',
+      sentence: 'Why was she buying new shoes at the mall?',
+    },
+    {
+      meaning: 'Neden yüksek sesle müzik dinliyorlardı?',
+      possibleAnswer: 'Because they were having a party.',
+      sentence: 'Why were they listening to loud music?',
+    },
+    {
+      meaning: 'Neden saatlerce telefonla konuşuyordu?',
+      possibleAnswer: 'Because he was catching up with an old friend.',
+      sentence: 'Why was he talking on the phone for hours?',
+    },
+    {
+      meaning: 'Akşam neden bitkileri suluyordu?',
+      possibleAnswer: 'Because it was too hot during the day.',
+      sentence: 'Why was she watering the plants in the evening?',
+    },
+    {
+      meaning: 'Cumartesi günü neden ödev yapıyorlardı?',
+      possibleAnswer: 'Because they had a big test on Monday.',
+      sentence: 'Why were they doing homework on a Saturday?',
+    },
+    {
+      meaning: 'Arabada neden sandviç yiyordun?',
+      possibleAnswer: "Because I didn't have time for breakfast at home.",
+      sentence: 'Why were you eating a sandwich in the car?',
+    },
+    {
+      meaning: 'Telefonunda neden haritaya bakıyordu?',
+      possibleAnswer: 'Because she was trying to find the right street.',
+      sentence: 'Why was she looking at the map on her phone?',
+    },
+    {
+      meaning: 'Gölde neden yüzüyorlardı?',
+      possibleAnswer: 'Because it was a hot day and they wanted to cool off.',
+      sentence: 'Why were they swimming in the lake?',
+    },
+    {
+      meaning: 'Gece geç saatte neden e-posta yazıyordu?',
+      possibleAnswer:
+        'Because he needed to send an important message before morning.',
+      sentence: 'Why was he writing an email late at night?',
+    },
+    {
+      meaning: 'Neden bütün ışıkları kapatıyordun?',
+      possibleAnswer: 'Because we were leaving the house for vacation.',
+      sentence: 'Why were you turning off all the lights?',
+    },
+    {
+      meaning: 'Neden aceleyle dişlerini fırçalıyordu?',
+      possibleAnswer: 'Because she was running late for school.',
+      sentence: 'Why was she brushing her teeth in a hurry?',
+    },
+    {
+      meaning: 'Yağmurda neden bisiklet sürüyordu?',
+      possibleAnswer: "Because his car was at the mechanic's.",
+      sentence: 'Why was he riding a bike in the rain?',
+    },
+    {
+      meaning: 'Neden gün batımının fotoğraflarını çekiyordun?',
+      possibleAnswer: 'Because it was beautiful and I wanted to remember it.',
+      sentence: 'Why were you taking photos of the sunset?',
+    },
+    {
+      meaning: 'Öğleden sonra neden yatağını düzeltiyordu?',
+      possibleAnswer: 'Because she forgot to do it in the morning.',
+      sentence: 'Why was she making her bed in the afternoon?',
+    },
+    {
+      meaning: 'Geçen yıl neden Fransızca öğreniyorlardı?',
+      possibleAnswer: 'Because they were planning a trip to Paris.',
+      sentence: 'Why were they learning French last year?',
+    },
+    {
+      meaning: 'Okurken neden gözlük takıyordun?',
+      possibleAnswer: 'Because the words were too small to see clearly.',
+      sentence: 'Why were you wearing glasses while reading?',
+    },
+    {
+      meaning: 'Parkta neden satranç oynuyorlardı?',
+      possibleAnswer: 'Because it was a nice day to be outside.',
+      sentence: 'Why were they playing chess in the park?',
+    },
+    {
+      meaning: 'Gece neden kahve içiyordun?',
+      possibleAnswer: 'Because I needed to stay awake to finish my work.',
+      sentence: 'Why were you drinking coffee at night?',
+    },
+    {
+      meaning: 'Sabah neden yoga yapıyordu?',
+      possibleAnswer: 'Because it helped her start the day feeling relaxed.',
+      sentence: 'Why was she doing yoga in the morning?',
+    },
+    {
+      meaning: 'Neden bütün pencereleri açıyordun?',
+      possibleAnswer: 'Because the room was too hot and needed fresh air.',
+      sentence: 'Why were you opening all the windows?',
+    },
+    {
+      meaning: 'Neden her ay para biriktiriyorlardı?',
+      possibleAnswer: 'Because they wanted to buy a new car.',
+      sentence: 'Why were they saving money every month?',
+    },
+    {
+      meaning: 'Neden kendi saçını kesiyordu?',
+      possibleAnswer: "Because he didn't want to spend money at the barber.",
+      sentence: 'Why was he cutting his own hair?',
+    },
+    {
+      meaning: 'Neden ders çalışmaya ara veriyordun?',
+      possibleAnswer: 'Because I was feeling tired and needed to rest.',
+      sentence: 'Why were you taking a break from studying?',
+    },
+    {
+      meaning: 'Gece neden kıyafetlerini ütülüyordu?',
+      possibleAnswer: 'Because she needed them clean for work the next day.',
+      sentence: 'Why was she ironing her clothes at night?',
+    },
+    {
+      meaning: 'Ders sırasında neden bu kadar çok gülüyorlardı?',
+      possibleAnswer: 'Because the teacher told a funny joke.',
+      sentence: 'Why were they laughing so much during class?',
+    },
+    {
+      meaning: 'Pazar günü neden toplantı yapıyorlardı?',
+      possibleAnswer: 'Because they had an urgent project to discuss.',
+      sentence: 'Why were they having a meeting on Sunday?',
+    },
+    {
+      meaning: 'Neden sürekli televizyon kanalını değiştiriyordu?',
+      possibleAnswer: "Because he couldn't find anything interesting to watch.",
+      sentence: 'Why was he changing the TV channel repeatedly?',
+    },
+    {
+      meaning: 'Oturma odasında neden egzersiz yapıyorlardı?',
+      possibleAnswer: 'Because it was too cold to go outside.',
+      sentence: 'Why were they exercising in the living room?',
+    },
+    {
+      meaning: 'Geçen yaz neden araba kullanmayı öğreniyordun?',
+      possibleAnswer: "Because I wanted to get my driver's license.",
+      sentence: 'Why were you learning to drive last summer?',
+    },
+    {
+      meaning: 'Neden işaret dili öğreniyordu?',
+      possibleAnswer:
+        'Because he wanted to communicate with his deaf neighbor.',
+      sentence: 'Why was he learning sign language?',
+    },
+    {
+      meaning: 'Gece yarısı neden kurabiye pişiriyordu?',
+      possibleAnswer: "Because she couldn't sleep and wanted to do something.",
+      sentence: 'Why was she baking cookies at midnight?',
+    },
+    {
+      meaning: 'Neden sürpriz parti planlıyorlardı?',
+      possibleAnswer: "Because it was their friend's birthday next week.",
+      sentence: 'Why were they planning a surprise party?',
+    },
+  ],
+};

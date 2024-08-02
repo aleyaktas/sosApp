@@ -26,6 +26,7 @@ import {
   QuestionsTranslationSentencesWhat,
   QuestionsTranslationSentencesWhere,
   QuestionsTranslationSentencesWhen,
+  QuestionsTranslationSentencesWhy,
 } from '../utils/translation';
 import QuestionsTable from '../components/QuestionsTable';
 
@@ -323,6 +324,9 @@ const QuestionsTranslation: React.FC = () => {
         break;
       case 'When':
         newTranslationSentences = QuestionsTranslationSentencesWhen;
+        break;
+      case 'Why':
+        newTranslationSentences = QuestionsTranslationSentencesWhy;
         break;
     }
 
