@@ -326,7 +326,6 @@ export const TensesUnitChoices: IUnit[] = [
     mainCategory: 'PastSimple',
     page: 'Units',
     image: require('../assets/images/PastSimple.png'),
-    disabled: true,
   },
   {
     id: 3,
@@ -632,6 +631,273 @@ export const PresentSimpleUnits: IUnit[] = [
     mainCategory: 'Tenses',
     page: 'FourSkills',
     image: require('../assets/images/numbers/30.png'),
+  },
+];
+
+export const PastSimpleUnits: IUnit[] = [
+  {
+    id: 31,
+    title: 'Ünite 31',
+    description:
+      'Childhood Memories: Discuss what activities they enjoyed as children.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/31.png'),
+  },
+  {
+    id: 32,
+    title: 'Ünite 32',
+    description:
+      'Last Vacation: Have students describe their most recent holiday experience.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/32.png'),
+  },
+  {
+    id: 33,
+    title: 'Ünite 33',
+    description:
+      'First Day at School: Students recount their first day at a new school.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/33.png'),
+  },
+  {
+    id: 34,
+    title: 'Ünite 34',
+    description:
+      'Historical Events: Students write about a significant event in history.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/34.png'),
+  },
+  {
+    id: 35,
+    title: 'Ünite 35',
+    description: 'A Day at the Park: Describe a past outing to a park.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/35.png'),
+  },
+  {
+    id: 36,
+    title: 'Ünite 36',
+    description:
+      'My Favorite Movie: Discuss the plot of their favorite movie seen in the past.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/36.png'),
+  },
+  {
+    id: 37,
+    title: 'Ünite 37',
+    description:
+      "Yesterday's Routine: Have students write about their activities from the previous day.",
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/37.png'),
+  },
+  {
+    id: 38,
+    title: 'Ünite 38',
+    description:
+      'A Family Gathering: Describe a family event, such as a reunion or celebration.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/38.png'),
+  },
+  {
+    id: 39,
+    title: 'Ünite 39',
+    description:
+      'Learning to Ride a Bike: Students recount their experience of learning to ride a bike.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/39.png'),
+  },
+  {
+    id: 40,
+    title: 'Ünite 40',
+    description:
+      'Cooking a Meal: Describe the process of cooking a specific dish in the past.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/40.png'),
+  },
+  {
+    id: 41,
+    title: 'Ünite 41',
+    description:
+      'A Sports Game: Write about a sports match they played or watched.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/41.png'),
+  },
+  {
+    id: 42,
+    title: 'Ünite 42',
+    description: 'My First Pet: Students talk about the first pet they had.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/42.png'),
+  },
+  {
+    id: 43,
+    title: 'Ünite 43',
+    description: 'A Concert I Attended: Describe a music concert they went to.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/43.png'),
+  },
+  {
+    id: 44,
+    title: 'Ünite 44',
+    description:
+      'A Book I Read: Discuss the storyline of a book they have finished.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/44.png'),
+  },
+  {
+    id: 45,
+    title: 'Ünite 45',
+    description:
+      'When I Got Lost: Students recount an experience of getting lost.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/45.png'),
+  },
+  {
+    id: 46,
+    title: 'Ünite 46',
+    description: 'A Birthday Party: Describe a memorable birthday celebration.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/46.png'),
+  },
+  {
+    id: 47,
+    title: 'Ünite 47',
+    description:
+      'First Time I Saw Snow: Describe experiencing snow for the first time.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/47.png'),
+  },
+  {
+    id: 48,
+    title: 'Ünite 48',
+    description:
+      'A Visit to the Zoo: Talk about a visit to the zoo and the animals they saw.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/48.png'),
+  },
+  {
+    id: 49,
+    title: 'Ünite 49',
+    description:
+      'Best Friend in Childhood: Describe their best friend during childhood and activities they did together.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/49.png'),
+  },
+  {
+    id: 50,
+    title: 'Ünite 50',
+    description:
+      'A Science Experiment: Discuss a science experiment they conducted in school.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/50.png'),
+  },
+  {
+    id: 51,
+    title: 'Ünite 51',
+    description: 'Last Weekend: Detail what they did last weekend.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/51.png'),
+  },
+  {
+    id: 52,
+    title: 'Ünite 52',
+    description: 'When I Won a Prize: Describe winning a prize or award.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/52.png'),
+  },
+  {
+    id: 53,
+    title: 'Ünite 53',
+    description:
+      'A Memorable Trip: Discuss a particularly memorable trip and why it stood out.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/53.png'),
+  },
+  {
+    id: 54,
+    title: 'Ünite 54',
+    description:
+      'My First Job: Talk about their first job and what duties they had.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/54.png'),
+  },
+  {
+    id: 55,
+    title: 'Ünite 55',
+    description:
+      'Moving to a New House: Describe the process and feelings of moving to a new home.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/55.png'),
+  },
+  {
+    id: 56,
+    title: 'Ünite 56',
+    description:
+      'Building a Snowman: Talk about the experience of building a snowman.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/56.png'),
+  },
+  {
+    id: 57,
+    title: 'Ünite 57',
+    description:
+      'A Museum Visit: Describe what they saw and learned during a museum visit.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/57.png'),
+  },
+  {
+    id: 58,
+    title: 'Ünite 58',
+    description:
+      'Repairing Something: Describe an experience where they fixed or helped fix something.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/58.png'),
+  },
+  {
+    id: 59,
+    title: 'Ünite 59',
+    description:
+      'A Surprising Event: Write about a time something unexpected happened.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/59.png'),
+  },
+  {
+    id: 60,
+    title: 'Ünite 60',
+    description:
+      'Watching a Sunrise or Sunset: Describe the experience and feelings during a sunrise or sunset viewing.',
+    mainCategory: 'Tenses',
+    page: 'FourSkills',
+    image: require('../assets/images/numbers/60.png'),
   },
 ];
 
