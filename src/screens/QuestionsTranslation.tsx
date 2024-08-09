@@ -12,7 +12,6 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import Table from '../components/Table';
 import DraggableFlatList from 'react-native-draggable-flatlist';
 import {handleVoice} from '../helpers/voiceCenter';
 import BottomSheet, {BottomSheetView} from '@gorhom/bottom-sheet';
@@ -27,6 +26,7 @@ import {
   QuestionsTranslationSentencesWhere,
   QuestionsTranslationSentencesWhen,
   QuestionsTranslationSentencesWhy,
+  QueestionsTranslationSentencesHow,
 } from '../utils/translation';
 import QuestionsTable from '../components/QuestionsTable';
 
@@ -327,6 +327,9 @@ const QuestionsTranslation: React.FC = () => {
         break;
       case 'Why':
         newTranslationSentences = QuestionsTranslationSentencesWhy;
+        break;
+      case 'How':
+        newTranslationSentences = QueestionsTranslationSentencesHow;
         break;
     }
 

@@ -22171,3 +22171,5846 @@ export const QuestionsTranslationSentencesWhy = {
     },
   ],
 };
+
+export const QueestionsTranslationSentencesHow = {
+  'A1-G': [
+    {
+      meaning: 'O nasıl olacak?',
+      possibleAnswer: 'It is going to be great.',
+      sentence: 'How is it going to be?',
+    },
+    {
+      meaning: 'Sen nasıl olacaksın?',
+      possibleAnswer: 'You are going to be fine.',
+      sentence: 'How are you going to be?',
+    },
+    {
+      meaning: 'Ben nasıl olacağım?',
+      possibleAnswer: 'I am going to be okay.',
+      sentence: 'How am I going to be?',
+    },
+    {
+      meaning: 'O (erkek) nasıl olacak?',
+      possibleAnswer: 'He is going to be fantastic.',
+      sentence: 'How is he going to be?',
+    },
+    {
+      meaning: 'O (kadın) nasıl olacak?',
+      possibleAnswer: 'She is going to be wonderful.',
+      sentence: 'How is she going to be?',
+    },
+    {
+      meaning: 'Biz nasıl olacağız?',
+      possibleAnswer: 'We are going to be good.',
+      sentence: 'How are we going to be?',
+    },
+    {
+      meaning: 'Onlar nasıl olacak?',
+      possibleAnswer: 'They are going to be amazing.',
+      sentence: 'How are they going to be?',
+    },
+    {
+      meaning: 'Hava nasıl olacak?',
+      possibleAnswer: 'It is going to be sunny.',
+      sentence: 'How is the weather going to be?',
+    },
+    {
+      meaning: 'Parti nasıl olacak?',
+      possibleAnswer: 'It is going to be fun.',
+      sentence: 'How is the party going to be?',
+    },
+    {
+      meaning: 'Yemek nasıl olacak?',
+      possibleAnswer: 'It is going to be delicious.',
+      sentence: 'How is the food going to be?',
+    },
+    {
+      meaning: 'Film nasıl olacak?',
+      possibleAnswer: 'It is going to be exciting.',
+      sentence: 'How is the movie going to be?',
+    },
+    {
+      meaning: 'Kitap nasıl olacak?',
+      possibleAnswer: 'It is going to be interesting.',
+      sentence: 'How is the book going to be?',
+    },
+    {
+      meaning: 'Etkinlik nasıl olacak?',
+      possibleAnswer: 'It is going to be successful.',
+      sentence: 'How is the event going to be?',
+    },
+    {
+      meaning: 'Seyahat nasıl olacak?',
+      possibleAnswer: 'It is going to be enjoyable.',
+      sentence: 'How is the trip going to be?',
+    },
+    {
+      meaning: 'Hafta sonu nasıl olacak?',
+      possibleAnswer: 'It is going to be relaxing.',
+      sentence: 'How is the weekend going to be?',
+    },
+    {
+      meaning: 'Toplantı nasıl olacak?',
+      possibleAnswer: 'It is going to be productive.',
+      sentence: 'How is the meeting going to be?',
+    },
+    {
+      meaning: 'Sunum nasıl olacak?',
+      possibleAnswer: 'It is going to be informative.',
+      sentence: 'How is the presentation going to be?',
+    },
+    {
+      meaning: 'Konser nasıl olacak?',
+      possibleAnswer: 'It is going to be fantastic.',
+      sentence: 'How is the concert going to be?',
+    },
+    {
+      meaning: 'Oyun nasıl olacak?',
+      possibleAnswer: 'It is going to be thrilling.',
+      sentence: 'How is the game going to be?',
+    },
+    {
+      meaning: 'Festival nasıl olacak?',
+      possibleAnswer: 'It is going to be colorful.',
+      sentence: 'How is the festival going to be?',
+    },
+    {
+      meaning: 'Trafik nasıl olacak?',
+      possibleAnswer: 'It is going to be heavy.',
+      sentence: 'How is the traffic going to be?',
+    },
+    {
+      meaning: 'Otel nasıl olacak?',
+      possibleAnswer: 'It is going to be comfortable.',
+      sentence: 'How is the hotel going to be?',
+    },
+    {
+      meaning: 'Tatil nasıl olacak?',
+      possibleAnswer: 'It is going to be wonderful.',
+      sentence: 'How is the vacation going to be?',
+    },
+    {
+      meaning: 'Sınav nasıl olacak?',
+      possibleAnswer: 'It is going to be challenging.',
+      sentence: 'How is the exam going to be?',
+    },
+    {
+      meaning: 'Ders nasıl olacak?',
+      possibleAnswer: 'It is going to be engaging.',
+      sentence: 'How is the class going to be?',
+    },
+    {
+      meaning: 'Gösteri nasıl olacak?',
+      possibleAnswer: 'It is going to be entertaining.',
+      sentence: 'How is the show going to be?',
+    },
+    {
+      meaning: 'Deneyim nasıl olacak?',
+      possibleAnswer: 'It is going to be unforgettable.',
+      sentence: 'How is the experience going to be?',
+    },
+    {
+      meaning: 'Kutlama nasıl olacak?',
+      possibleAnswer: 'It is going to be joyous.',
+      sentence: 'How is the celebration going to be?',
+    },
+    {
+      meaning: 'Yolculuk nasıl olacak?',
+      possibleAnswer: 'It is going to be adventurous.',
+      sentence: 'How is the journey going to be?',
+    },
+    {
+      meaning: 'Müzik nasıl olacak?',
+      possibleAnswer: 'It is going to be beautiful.',
+      sentence: 'How is the music going to be?',
+    },
+    {
+      meaning: 'Atmosfer nasıl olacak?',
+      possibleAnswer: 'It is going to be lively.',
+      sentence: 'How is the atmosphere going to be?',
+    },
+    {
+      meaning: 'Yeni ev nasıl olacak?',
+      possibleAnswer: 'It is going to be spacious.',
+      sentence: 'How is the new house going to be?',
+    },
+    {
+      meaning: 'Yeni araba nasıl olacak?',
+      possibleAnswer: 'It is going to be fast.',
+      sentence: 'How is the new car going to be?',
+    },
+    {
+      meaning: 'Yeni iş nasıl olacak?',
+      possibleAnswer: 'It is going to be demanding.',
+      sentence: 'How is the new job going to be?',
+    },
+    {
+      meaning: 'Sunum nasıl olacak?',
+      possibleAnswer: 'It is going to be well-received.',
+      sentence: 'How is the presentation going to be?',
+    },
+    {
+      meaning: 'Yarın hava nasıl olacak?',
+      possibleAnswer: 'It is going to be rainy.',
+      sentence: 'How is the weather going to be tomorrow?',
+    },
+    {
+      meaning: 'Sabah trafik nasıl olacak?',
+      possibleAnswer: 'It is going to be light.',
+      sentence: 'How is the traffic going to be in the morning?',
+    },
+    {
+      meaning: 'Bu gece parti nasıl olacak?',
+      possibleAnswer: 'It is going to be lively.',
+      sentence: 'How is the party going to be tonight?',
+    },
+    {
+      meaning: 'Restorandaki yemek nasıl olacak?',
+      possibleAnswer: 'It is going to be tasty.',
+      sentence: 'How is the food going to be at the restaurant?',
+    },
+    {
+      meaning: 'Dağlara seyahat nasıl olacak?',
+      possibleAnswer: 'It is going to be breathtaking.',
+      sentence: 'How is the trip going to be to the mountains?',
+    },
+    {
+      meaning: 'Yeni film nasıl olacak?',
+      possibleAnswer: 'It is going to be a blockbuster.',
+      sentence: 'How is the new movie going to be?',
+    },
+    {
+      meaning: 'Pazar günü oyun nasıl olacak?',
+      possibleAnswer: 'It is going to be intense.',
+      sentence: 'How is the game going to be on Sunday?',
+    },
+    {
+      meaning: 'Gelecek hafta gösteri nasıl olacak?',
+      possibleAnswer: 'It is going to be spectacular.',
+      sentence: 'How is the show going to be next week?',
+    },
+    {
+      meaning: 'Yeni parktaki deneyim nasıl olacak?',
+      possibleAnswer: 'It is going to be fun.',
+      sentence: 'How is the experience going to be at the new park?',
+    },
+    {
+      meaning: 'Bu yıl festival nasıl olacak?',
+      possibleAnswer: 'It is going to be memorable.',
+      sentence: 'How is the festival going to be this year?',
+    },
+    {
+      meaning: 'Senin için hafta sonu nasıl olacak?',
+      possibleAnswer: 'It is going to be restful.',
+      sentence: 'How is the weekend going to be for you?',
+    },
+    {
+      meaning: 'Patronla toplantı nasıl olacak?',
+      possibleAnswer: 'It is going to be important.',
+      sentence: 'How is the meeting going to be with the boss?',
+    },
+    {
+      meaning: 'Konferansta sunum nasıl olacak?',
+      possibleAnswer: 'It is going to be impressive.',
+      sentence: 'How is the presentation going to be at the conference?',
+    },
+    {
+      meaning: 'Konserde atmosfer nasıl olacak?',
+      possibleAnswer: 'It is going to be electric.',
+      sentence: 'How is the atmosphere going to be at the concert?',
+    },
+    {
+      meaning: 'Tatil için kutlama nasıl olacak?',
+      possibleAnswer: 'It is going to be grand.',
+      sentence: 'How is the celebration going to be for the holiday?',
+    },
+  ],
+  'A1-W': [
+    {
+      meaning: 'Ben nasıl olacağım?',
+      possibleAnswer: 'You will be fine.',
+      sentence: 'How will I be?',
+    },
+    {
+      meaning: 'O (erkek) nasıl olacak?',
+      possibleAnswer: 'He will be great.',
+      sentence: 'How will he be?',
+    },
+    {
+      meaning: 'O (kadın) nasıl olacak?',
+      possibleAnswer: 'She will be wonderful.',
+      sentence: 'How will she be?',
+    },
+    {
+      meaning: 'O (cansız) nasıl olacak?',
+      possibleAnswer: 'It will be amazing.',
+      sentence: 'How will it be?',
+    },
+    {
+      meaning: 'Sen nasıl olacaksın?',
+      possibleAnswer: 'I will be good.',
+      sentence: 'How will you be?',
+    },
+    {
+      meaning: 'Biz nasıl olacağız?',
+      possibleAnswer: 'We will be okay.',
+      sentence: 'How will we be?',
+    },
+    {
+      meaning: 'Onlar nasıl olacak?',
+      possibleAnswer: 'They will be fantastic.',
+      sentence: 'How will they be?',
+    },
+    {
+      meaning: 'Hava nasıl olacak?',
+      possibleAnswer: 'It will be sunny.',
+      sentence: 'How will the weather be?',
+    },
+    {
+      meaning: 'Parti nasıl olacak?',
+      possibleAnswer: 'It will be fun.',
+      sentence: 'How will the party be?',
+    },
+    {
+      meaning: 'Yemek nasıl olacak?',
+      possibleAnswer: 'It will be delicious.',
+      sentence: 'How will the food be?',
+    },
+    {
+      meaning: 'Film nasıl olacak?',
+      possibleAnswer: 'It will be exciting.',
+      sentence: 'How will the movie be?',
+    },
+    {
+      meaning: 'Kitap nasıl olacak?',
+      possibleAnswer: 'It will be interesting.',
+      sentence: 'How will the book be?',
+    },
+    {
+      meaning: 'Etkinlik nasıl olacak?',
+      possibleAnswer: 'It will be successful.',
+      sentence: 'How will the event be?',
+    },
+    {
+      meaning: 'Seyahat nasıl olacak?',
+      possibleAnswer: 'It will be enjoyable.',
+      sentence: 'How will the trip be?',
+    },
+    {
+      meaning: 'Hafta sonu nasıl olacak?',
+      possibleAnswer: 'It will be relaxing.',
+      sentence: 'How will the weekend be?',
+    },
+    {
+      meaning: 'Toplantı nasıl olacak?',
+      possibleAnswer: 'It will be productive.',
+      sentence: 'How will the meeting be?',
+    },
+    {
+      meaning: 'Sunum nasıl olacak?',
+      possibleAnswer: 'It will be informative.',
+      sentence: 'How will the presentation be?',
+    },
+    {
+      meaning: 'Konser nasıl olacak?',
+      possibleAnswer: 'It will be fantastic.',
+      sentence: 'How will the concert be?',
+    },
+    {
+      meaning: 'Oyun nasıl olacak?',
+      possibleAnswer: 'It will be thrilling.',
+      sentence: 'How will the game be?',
+    },
+    {
+      meaning: 'Festival nasıl olacak?',
+      possibleAnswer: 'It will be colorful.',
+      sentence: 'How will the festival be?',
+    },
+    {
+      meaning: 'Trafik nasıl olacak?',
+      possibleAnswer: 'It will be heavy.',
+      sentence: 'How will the traffic be?',
+    },
+    {
+      meaning: 'Otel nasıl olacak?',
+      possibleAnswer: 'It will be comfortable.',
+      sentence: 'How will the hotel be?',
+    },
+    {
+      meaning: 'Tatil nasıl olacak?',
+      possibleAnswer: 'It will be wonderful.',
+      sentence: 'How will the vacation be?',
+    },
+    {
+      meaning: 'Sınav nasıl olacak?',
+      possibleAnswer: 'It will be challenging.',
+      sentence: 'How will the exam be?',
+    },
+    {
+      meaning: 'Ders nasıl olacak?',
+      possibleAnswer: 'It will be engaging.',
+      sentence: 'How will the class be?',
+    },
+    {
+      meaning: 'Gösteri nasıl olacak?',
+      possibleAnswer: 'It will be entertaining.',
+      sentence: 'How will the show be?',
+    },
+    {
+      meaning: 'Deneyim nasıl olacak?',
+      possibleAnswer: 'It will be unforgettable.',
+      sentence: 'How will the experience be?',
+    },
+    {
+      meaning: 'Kutlama nasıl olacak?',
+      possibleAnswer: 'It will be joyous.',
+      sentence: 'How will the celebration be?',
+    },
+    {
+      meaning: 'Yolculuk nasıl olacak?',
+      possibleAnswer: 'It will be adventurous.',
+      sentence: 'How will the journey be?',
+    },
+    {
+      meaning: 'Müzik nasıl olacak?',
+      possibleAnswer: 'It will be beautiful.',
+      sentence: 'How will the music be?',
+    },
+    {
+      meaning: 'Atmosfer nasıl olacak?',
+      possibleAnswer: 'It will be lively.',
+      sentence: 'How will the atmosphere be?',
+    },
+    {
+      meaning: 'Yeni ev nasıl olacak?',
+      possibleAnswer: 'It will be spacious.',
+      sentence: 'How will the new house be?',
+    },
+    {
+      meaning: 'Yeni araba nasıl olacak?',
+      possibleAnswer: 'It will be fast.',
+      sentence: 'How will the new car be?',
+    },
+    {
+      meaning: 'Yeni iş nasıl olacak?',
+      possibleAnswer: 'It will be demanding.',
+      sentence: 'How will the new job be?',
+    },
+    {
+      meaning: 'Sunum nasıl olacak?',
+      possibleAnswer: 'It will be well-received.',
+      sentence: 'How will the presentation be?',
+    },
+    {
+      meaning: 'Yarın hava nasıl olacak?',
+      possibleAnswer: 'It will be rainy.',
+      sentence: 'How will the weather be tomorrow?',
+    },
+    {
+      meaning: 'Sabah trafik nasıl olacak?',
+      possibleAnswer: 'It will be light.',
+      sentence: 'How will the traffic be in the morning?',
+    },
+    {
+      meaning: 'Bu gece parti nasıl olacak?',
+      possibleAnswer: 'It will be lively.',
+      sentence: 'How will the party be tonight?',
+    },
+    {
+      meaning: 'Restorandaki yemek nasıl olacak?',
+      possibleAnswer: 'It will be tasty.',
+      sentence: 'How will the food be at the restaurant?',
+    },
+    {
+      meaning: 'Dağlara seyahat nasıl olacak?',
+      possibleAnswer: 'It will be breathtaking.',
+      sentence: 'How will the trip be to the mountains?',
+    },
+    {
+      meaning: 'Yeni film nasıl olacak?',
+      possibleAnswer: 'It will be a blockbuster.',
+      sentence: 'How will the new movie be?',
+    },
+    {
+      meaning: 'Pazar günü oyun nasıl olacak?',
+      possibleAnswer: 'It will be intense.',
+      sentence: 'How will the game be on Sunday?',
+    },
+    {
+      meaning: 'Gelecek hafta gösteri nasıl olacak?',
+      possibleAnswer: 'It will be spectacular.',
+      sentence: 'How will the show be next week?',
+    },
+    {
+      meaning: 'Yeni parktaki deneyim nasıl olacak?',
+      possibleAnswer: 'It will be fun.',
+      sentence: 'How will the experience be at the new park?',
+    },
+    {
+      meaning: 'Bu yıl festival nasıl olacak?',
+      possibleAnswer: 'It will be memorable.',
+      sentence: 'How will the festival be this year?',
+    },
+    {
+      meaning: 'Senin için hafta sonu nasıl olacak?',
+      possibleAnswer: 'It will be restful.',
+      sentence: 'How will the weekend be for you?',
+    },
+    {
+      meaning: 'Patronla toplantı nasıl olacak?',
+      possibleAnswer: 'It will be important.',
+      sentence: 'How will the meeting be with the boss?',
+    },
+    {
+      meaning: 'Konferansta sunum nasıl olacak?',
+      possibleAnswer: 'It will be impressive.',
+      sentence: 'How will the presentation be at the conference?',
+    },
+    {
+      meaning: 'Konserde atmosfer nasıl olacak?',
+      possibleAnswer: 'It will be electric.',
+      sentence: 'How will the atmosphere be at the concert?',
+    },
+    {
+      meaning: 'Tatil için kutlama nasıl olacak?',
+      possibleAnswer: 'It will be grand.',
+      sentence: 'How will the celebration be for the holiday?',
+    },
+  ],
+  'A2-G': [
+    {
+      meaning: 'Sen akşam yemeğini nasıl pişireceksin?',
+      possibleAnswer: 'I am going to follow a new recipe.',
+      sentence: 'How are you going to cook dinner tonight?',
+    },
+    {
+      meaning: 'O projeyi yarına kadar nasıl bitirecek?',
+      possibleAnswer: 'She is going to work all night.',
+      sentence: 'How is she going to finish the project by tomorrow?',
+    },
+    {
+      meaning: 'Onlar kırsala nasıl seyahat edecekler?',
+      possibleAnswer: 'They are going to take a bus.',
+      sentence: 'How are they going to travel to the countryside?',
+    },
+    {
+      meaning: 'Sen gelecek hafta sınava nasıl hazırlanacaksın?',
+      possibleAnswer: 'I am going to study every evening.',
+      sentence: 'How are you going to prepare for the exam next week?',
+    },
+    {
+      meaning: 'O doğum gününü nasıl kutlayacak?',
+      possibleAnswer: 'He is going to have a party.',
+      sentence: 'How is he going to celebrate his birthday?',
+    },
+    {
+      meaning: 'Biz evi Cumartesi nasıl temizleyeceğiz?',
+      possibleAnswer: 'We are going to start early in the morning.',
+      sentence: 'How are we going to clean the house on Saturday?',
+    },
+    {
+      meaning: 'Sen hafta sonunu nasıl geçireceksin?',
+      possibleAnswer: 'I am going to visit my grandparents.',
+      sentence: 'How are you going to spend your weekend?',
+    },
+    {
+      meaning: 'Takım maçı nasıl kazanacak?',
+      possibleAnswer: 'The team is going to practice hard.',
+      sentence: 'How is the team going to win the match?',
+    },
+    {
+      meaning: 'Sen bu problemi nasıl çözeceksin?',
+      possibleAnswer: 'I am going to ask for help.',
+      sentence: 'How are you going to solve this problem?',
+    },
+    {
+      meaning: 'Onlar etkinliği nasıl organize edecekler?',
+      possibleAnswer: 'They are going to hire a planner.',
+      sentence: 'How are they going to organize the event?',
+    },
+    {
+      meaning: 'O odayı nasıl dekore edecek?',
+      possibleAnswer: 'She is going to buy new furniture.',
+      sentence: 'How is she going to decorate the room?',
+    },
+    {
+      meaning: 'Sen son teslim tarihine nasıl yetişeceksin?',
+      possibleAnswer: 'I am going to work overtime.',
+      sentence: 'How are you going to meet the deadline?',
+    },
+    {
+      meaning: 'Biz hayır kurumu için parayı nasıl toplayacağız?',
+      possibleAnswer: 'We are going to organize a fundraiser.',
+      sentence: 'How are we going to raise money for charity?',
+    },
+    {
+      meaning: 'Sen yeni bir dili nasıl öğreneceksin?',
+      possibleAnswer: 'I am going to take online classes.',
+      sentence: 'How are you going to learn a new language?',
+    },
+    {
+      meaning: 'O arabayı nasıl tamir edecek?',
+      possibleAnswer: 'He is going to take it to the mechanic.',
+      sentence: 'How is he going to repair the car?',
+    },
+    {
+      meaning: 'Sen iş yükünü nasıl halledeceksin?',
+      possibleAnswer: 'I am going to prioritize my tasks.',
+      sentence: 'How are you going to handle the workload?',
+    },
+    {
+      meaning: 'Onlar evi nasıl boyayacaklar?',
+      possibleAnswer: 'They are going to hire a professional painter.',
+      sentence: 'How are they going to paint the house?',
+    },
+    {
+      meaning: 'O raporu nasıl yazacak?',
+      possibleAnswer: 'She is going to start with an outline.',
+      sentence: 'How is she going to write the report?',
+    },
+    {
+      meaning: 'Sen bilgiyi nasıl bulacaksın?',
+      possibleAnswer: 'I am going to search online.',
+      sentence: 'How are you going to find the information?',
+    },
+    {
+      meaning: 'Biz projeyi nasıl yöneteceğiz?',
+      possibleAnswer: 'We are going to use project management software.',
+      sentence: 'How are we going to manage the project?',
+    },
+    {
+      meaning: 'O ödevi nasıl tamamlayacak?',
+      possibleAnswer: 'He is going to do research at the library.',
+      sentence: 'How is he going to complete the assignment?',
+    },
+    {
+      meaning: 'Onlar tatili nasıl kutlayacaklar?',
+      possibleAnswer: 'They are going to have a family gathering.',
+      sentence: 'How are they going to celebrate the holiday?',
+    },
+    {
+      meaning: 'O yeteneklerini nasıl geliştirecek?',
+      possibleAnswer: 'She is going to attend workshops.',
+      sentence: 'How is she going to improve her skills?',
+    },
+    {
+      meaning: 'Sen sağlıklı kalmayı nasıl başaracaksın?',
+      possibleAnswer: 'I am going to eat balanced meals and exercise.',
+      sentence: 'How are you going to stay healthy?',
+    },
+    {
+      meaning: 'Biz dosyaları nasıl düzenleyeceğiz?',
+      possibleAnswer: 'We are going to create a new filing system.',
+      sentence: 'How are we going to organize the files?',
+    },
+    {
+      meaning: 'O maratona nasıl antrenman yapacak?',
+      possibleAnswer: 'He is going to follow a training plan.',
+      sentence: 'How is he going to train for the marathon?',
+    },
+    {
+      meaning: 'Sen stresi nasıl azaltacaksın?',
+      possibleAnswer: 'I am going to practice mindfulness.',
+      sentence: 'How are you going to reduce stress?',
+    },
+    {
+      meaning: 'Onlar web sitesini nasıl yaratacaklar?',
+      possibleAnswer: 'They are going to hire a web designer.',
+      sentence: 'How are they going to create the website?',
+    },
+    {
+      meaning: 'O durumu nasıl halledecek?',
+      possibleAnswer: 'She is going to talk to her supervisor.',
+      sentence: 'How is she going to handle the situation?',
+    },
+    {
+      meaning: 'Sen tatilinin keyfini nasıl çıkaracaksın?',
+      possibleAnswer: 'I am going to relax and explore new places.',
+      sentence: 'How are you going to enjoy your vacation?',
+    },
+    {
+      meaning: 'Biz yeni konuyu nasıl öğreteceğiz?',
+      possibleAnswer: 'We are going to use interactive activities.',
+      sentence: 'How are we going to teach the new topic?',
+    },
+    {
+      meaning: 'O paketi nasıl teslim edecek?',
+      possibleAnswer: 'He is going to use a courier service.',
+      sentence: 'How is he going to deliver the package?',
+    },
+    {
+      meaning: 'Onlar işe nasıl başlayacaklar?',
+      possibleAnswer: 'They are going to create a business plan.',
+      sentence: 'How are they going to start the business?',
+    },
+    {
+      meaning: 'O özel yemeği nasıl pişirecek?',
+      possibleAnswer: 'She is going to follow a recipe from a book.',
+      sentence: 'How is she going to cook the special dish?',
+    },
+    {
+      meaning: 'Sen zamanını nasıl yöneteceksin?',
+      possibleAnswer: 'I am going to use a planner.',
+      sentence: 'How are you going to manage your time?',
+    },
+    {
+      meaning: 'Biz toplantıya nasıl hazırlanacağız?',
+      possibleAnswer: 'We are going to review the agenda.',
+      sentence: 'How are we going to prepare for the meeting?',
+    },
+    {
+      meaning: 'O notlarını nasıl yükseltecek?',
+      possibleAnswer: 'He is going to study harder.',
+      sentence: 'How is he going to improve his grades?',
+    },
+    {
+      meaning: 'Onlar atölyeyi nasıl organize edecekler?',
+      possibleAnswer: 'They are going to send out invitations.',
+      sentence: 'How are they going to organize the workshop?',
+    },
+    {
+      meaning: 'O bulmacayı nasıl çözecek?',
+      possibleAnswer: 'She is going to look for clues.',
+      sentence: 'How is she going to solve the puzzle?',
+    },
+    {
+      meaning: 'Sen parayı nasıl biriktireceksin?',
+      possibleAnswer: 'I am going to cut down on unnecessary expenses.',
+      sentence: 'How are you going to save money?',
+    },
+    {
+      meaning: 'Biz parti için nasıl süsleyeceğiz?',
+      possibleAnswer: 'We are going to buy decorations.',
+      sentence: 'How are we going to decorate for the party?',
+    },
+    {
+      meaning: 'O bilgisayarı nasıl tamir edecek?',
+      possibleAnswer: 'He is going to replace the faulty parts.',
+      sentence: 'How is he going to fix the computer?',
+    },
+    {
+      meaning: 'Onlar araştırmayı nasıl yürütecekler?',
+      possibleAnswer: 'They are going to collect data from surveys.',
+      sentence: 'How are they going to conduct the research?',
+    },
+    {
+      meaning: 'O yarışmayı nasıl kazanacak?',
+      possibleAnswer: 'She is going to practice every day.',
+      sentence: 'How is she going to win the competition?',
+    },
+    {
+      meaning: 'Sen testi nasıl geçeceksin?',
+      possibleAnswer: 'I am going to study all the material.',
+      sentence: 'How are you going to pass the test?',
+    },
+    {
+      meaning: 'Biz yıldönümünü nasıl kutlayacağız?',
+      possibleAnswer: 'We are going to have a special dinner.',
+      sentence: 'How are we going to celebrate the anniversary?',
+    },
+    {
+      meaning: 'O aileyi nasıl destekleyecek?',
+      possibleAnswer: 'He is going to find a second job.',
+      sentence: 'How is he going to support the family?',
+    },
+    {
+      meaning: 'Onlar hedeflerine nasıl ulaşacaklar?',
+      possibleAnswer: 'They are going to set clear steps and follow them.',
+      sentence: 'How are they going to achieve their goals?',
+    },
+    {
+      meaning: 'O tatili nasıl planlayacak?',
+      possibleAnswer: 'She is going to book everything in advance.',
+      sentence: 'How is she going to plan the vacation?',
+    },
+    {
+      meaning: 'Sen projeyi nasıl tamamlayacaksın?',
+      possibleAnswer: 'I am going to allocate time each day.',
+      sentence: 'How are you going to complete the project?',
+    },
+    {
+      meaning: 'Biz konuyu nasıl ele alacağız?',
+      possibleAnswer: 'We are going to discuss it in the next meeting.',
+      sentence: 'How are we going to address the issue?',
+    },
+    {
+      meaning: 'O yeni yazılımı nasıl öğrenecek?',
+      possibleAnswer: 'He is going to take an online course.',
+      sentence: 'How is he going to learn the new software?',
+    },
+    {
+      meaning: 'Onlar yurtdışına nasıl seyahat edecekler?',
+      possibleAnswer: 'They are going to book a flight.',
+      sentence: 'How are they going to travel abroad?',
+    },
+    {
+      meaning: 'O dosyaları nasıl düzenleyecek?',
+      possibleAnswer: 'She is going to use a color-coded system.',
+      sentence: 'How is she going to organize the files?',
+    },
+    {
+      meaning: 'Sen baskıyı nasıl idare edeceksin?',
+      possibleAnswer: 'I am going to take breaks and stay calm.',
+      sentence: 'How are you going to handle the pressure?',
+    },
+    {
+      meaning: 'Biz ürünü nasıl pazarlayacağız?',
+      possibleAnswer: 'We are going to use social media ads.',
+      sentence: 'How are we going to market the product?',
+    },
+    {
+      meaning: 'O garajı nasıl temizleyecek?',
+      possibleAnswer: 'He is going to throw out the junk.',
+      sentence: 'How is he going to clean the garage?',
+    },
+    {
+      meaning: 'Onlar takımı nasıl yönetecekler?',
+      possibleAnswer: 'They are going to hold regular meetings.',
+      sentence: 'How are they going to manage the team?',
+    },
+    {
+      meaning: 'O misafirleri nasıl eğlendirecek?',
+      possibleAnswer: 'She is going to organize games and activities.',
+      sentence: 'How is she going to entertain the guests?',
+    },
+    {
+      meaning: 'Sen geziyi nasıl planlayacaksın?',
+      possibleAnswer: 'I am going to create a detailed itinerary.',
+      sentence: 'How are you going to plan the trip?',
+    },
+    {
+      meaning: 'Biz sunumu nasıl hazırlayacağız?',
+      possibleAnswer: 'We are going to gather all the necessary information.',
+      sentence: 'How are we going to prepare the presentation?',
+    },
+    {
+      meaning: 'O deneyi nasıl yürütecek?',
+      possibleAnswer: 'He is going to follow the scientific method.',
+      sentence: 'How is he going to conduct the experiment?',
+    },
+    {
+      meaning: 'Onlar yarışı nasıl bitirecekler?',
+      possibleAnswer: 'They are going to pace themselves.',
+      sentence: 'How are they going to finish the race?',
+    },
+    {
+      meaning: 'O makaleyi nasıl yazacak?',
+      possibleAnswer: 'She is going to interview experts.',
+      sentence: 'How is she going to write the article?',
+    },
+    {
+      meaning: 'Sen uygulamayı nasıl geliştireceksin?',
+      possibleAnswer: 'I am going to learn coding.',
+      sentence: 'How are you going to develop the app?',
+    },
+    {
+      meaning: 'Biz toplantıyı nasıl düzenleyeceğiz?',
+      possibleAnswer: 'We are going to send out invites.',
+      sentence: 'How are we going to arrange the meeting?',
+    },
+    {
+      meaning: 'O sınıfı nasıl öğretecek?',
+      possibleAnswer: 'He is going to use interactive methods.',
+      sentence: 'How is he going to teach the class?',
+    },
+    {
+      meaning: 'Onlar festivali nasıl organize edecekler?',
+      possibleAnswer: 'They are going to collaborate with local businesses.',
+      sentence: 'How are they going to organize the festival?',
+    },
+    {
+      meaning: 'O dersi nasıl hazırlayacak?',
+      possibleAnswer: 'She is going to research the topic thoroughly.',
+      sentence: 'How is she going to prepare the lesson?',
+    },
+    {
+      meaning: 'Sen başarıyı nasıl elde edeceksin?',
+      possibleAnswer: 'I am going to work hard and stay focused.',
+      sentence: 'How are you going to achieve success?',
+    },
+    {
+      meaning: 'Biz bütçeyi nasıl yöneteceğiz?',
+      possibleAnswer: 'We are going to track all expenses carefully.',
+      sentence: 'How are we going to manage the budget?',
+    },
+    {
+      meaning: 'O konuşmayı nasıl yapacak?',
+      possibleAnswer: 'He is going to practice in front of a mirror.',
+      sentence: 'How is he going to deliver the speech?',
+    },
+    {
+      meaning: 'Onlar çatıyı nasıl tamir edecekler?',
+      possibleAnswer: 'They are going to hire a roofing company.',
+      sentence: 'How are they going to fix the roof?',
+    },
+    {
+      meaning: 'O broşürü nasıl tasarlayacak?',
+      possibleAnswer: 'She is going to use graphic design software.',
+      sentence: 'How is she going to design the brochure?',
+    },
+    {
+      meaning: 'Sen yeni müşteri ile nasıl buluşacaksın?',
+      possibleAnswer: 'I am going to schedule a meeting.',
+      sentence: 'How are you going to meet the new client?',
+    },
+    {
+      meaning: 'Biz yemeği nasıl hazırlayacağız?',
+      possibleAnswer: 'We are going to follow a recipe.',
+      sentence: 'How are we going to prepare the meal?',
+    },
+    {
+      meaning: 'O kampanyayı nasıl başlatacak?',
+      possibleAnswer: 'He is going to create a promotional video.',
+      sentence: 'How is he going to launch the campaign?',
+    },
+    {
+      meaning: 'Onlar şikayetleri nasıl halledecekler?',
+      possibleAnswer: 'They are going to address each one individually.',
+      sentence: 'How are they going to handle the complaints?',
+    },
+    {
+      meaning: 'O yazılımı nasıl güncelleyecek?',
+      possibleAnswer: 'She is going to download the latest version.',
+      sentence: 'How is she going to update the software?',
+    },
+    {
+      meaning: 'Sen kitabı nasıl yayımlayacaksın?',
+      possibleAnswer: 'I am going to find a publisher.',
+      sentence: 'How are you going to publish the book?',
+    },
+    {
+      meaning: 'Biz çatışmayı nasıl çözeceğiz?',
+      possibleAnswer: 'We are going to have a mediation session.',
+      sentence: 'How are we going to solve the conflict?',
+    },
+    {
+      meaning: 'O fonlamayı nasıl güvence altına alacak?',
+      possibleAnswer: 'He is going to present a solid business plan.',
+      sentence: 'How is he going to secure the funding?',
+    },
+    {
+      meaning: 'Onlar mekanı nasıl süsleyecekler?',
+      possibleAnswer: 'They are going to hire a decorator.',
+      sentence: 'How are they going to decorate the venue?',
+    },
+    {
+      meaning: 'O dinleyicilere nasıl hitap edecek?',
+      possibleAnswer: 'She is going to use a confident tone.',
+      sentence: 'How is she going to address the audience?',
+    },
+    {
+      meaning: 'Sen ekipmanı nasıl kuracaksın?',
+      possibleAnswer: 'I am going to follow the manual.',
+      sentence: 'How are you going to install the equipment?',
+    },
+    {
+      meaning: 'Biz web sitesini nasıl başlatacağız?',
+      possibleAnswer: 'We are going to test it thoroughly first.',
+      sentence: 'How are we going to launch the website?',
+    },
+    {
+      meaning: 'O programı nasıl yönetecek?',
+      possibleAnswer: 'He is going to use a scheduling app.',
+      sentence: 'How is he going to manage the schedule?',
+    },
+    {
+      meaning: 'Onlar pazarlama planını nasıl yaratacaklar?',
+      possibleAnswer: 'They are going to analyze the market trends.',
+      sentence: 'How are they going to create the marketing plan?',
+    },
+    {
+      meaning: 'O geri bildirimleri nasıl ele alacak?',
+      possibleAnswer: 'She is going to review and implement suggestions.',
+      sentence: 'How is she going to handle the feedback?',
+    },
+    {
+      meaning: 'Sen kayıtları nasıl güncelleyeceksin?',
+      possibleAnswer: 'I am going to input the data regularly.',
+      sentence: 'How are you going to update the records?',
+    },
+    {
+      meaning: 'Biz yeni çalışanları nasıl eğiteceğiz?',
+      possibleAnswer: 'We are going to organize training sessions.',
+      sentence: 'How are we going to train the new employees?',
+    },
+    {
+      meaning: 'O dosyaları nasıl düzenleyecek?',
+      possibleAnswer: 'He is going to use folders and labels.',
+      sentence: 'How is he going to organize the files?',
+    },
+    {
+      meaning: 'Onlar konferansı nasıl düzenleyecekler?',
+      possibleAnswer: 'They are going to book a venue and speakers.',
+      sentence: 'How are they going to arrange the conference?',
+    },
+    {
+      meaning: 'O videoyu nasıl düzenleyecek?',
+      possibleAnswer: 'She is going to use video editing software.',
+      sentence: 'How is she going to edit the video?',
+    },
+    {
+      meaning: 'Sen etkinliği nasıl yöneteceksin?',
+      possibleAnswer: 'I am going to delegate tasks to a team.',
+      sentence: 'How are you going to manage the event?',
+    },
+    {
+      meaning: 'Biz zorlukları nasıl ele alacağız?',
+      possibleAnswer: 'We are going to brainstorm solutions.',
+      sentence: 'How are we going to address the challenges?',
+    },
+    {
+      meaning: 'O sıhhi tesisatı nasıl tamir edecek?',
+      possibleAnswer: 'He is going to call a plumber.',
+      sentence: 'How is he going to fix the plumbing?',
+    },
+    {
+      meaning: 'Onlar sunumu nasıl hazırlayacaklar?',
+      possibleAnswer: 'They are going to gather all the necessary materials.',
+      sentence: 'How are they going to prepare the presentation?',
+    },
+    {
+      meaning: 'O gezi için nasıl bavul hazırlayacak?',
+      possibleAnswer: 'She is going to make a packing list.',
+      sentence: 'How is she going to pack for the trip?',
+    },
+    {
+      meaning: 'Sen stratejiyi nasıl geliştireceksin?',
+      possibleAnswer: 'I am going to analyze the data and set goals.',
+      sentence: 'How are you going to develop the strategy?',
+    },
+  ],
+  'A2-W': [
+    {
+      meaning: 'Bu gece ödevini nasıl bitireceksin?',
+      possibleAnswer: 'I will start early and stay focused.',
+      sentence: 'How will you finish your homework tonight?',
+    },
+    {
+      meaning: 'Gelecek hafta sınav için nasıl hazırlanacaklar?',
+      possibleAnswer: 'They will study every day and review their notes.',
+      sentence: 'How will they prepare for the exam next week?',
+    },
+    {
+      meaning: 'Gelecek ay etkinliği nasıl organize edecek?',
+      possibleAnswer: 'She will plan everything in advance and delegate tasks.',
+      sentence: 'How will she organize the event next month?',
+    },
+    {
+      meaning: 'Konferansa nasıl seyahat edecek?',
+      possibleAnswer: 'He will take a flight and then a taxi.',
+      sentence: 'How will he travel to the conference?',
+    },
+    {
+      meaning: 'Doğum gününü nasıl kutlayacağız?',
+      possibleAnswer: 'We will have a party at home with friends.',
+      sentence: 'How will we celebrate your birthday?',
+    },
+    {
+      meaning: 'Çocuklar parkın tadını nasıl çıkaracaklar?',
+      possibleAnswer: 'They will play on the swings and slides.',
+      sentence: 'How will the children enjoy the park?',
+    },
+    {
+      meaning: 'Ailen habere nasıl tepki verecek?',
+      possibleAnswer: 'They will be very happy and proud.',
+      sentence: 'How will your parents react to the news?',
+    },
+    {
+      meaning: 'Takım projeyi zamanında nasıl tamamlayacak?',
+      possibleAnswer: 'They will work extra hours if necessary.',
+      sentence: 'How will the team complete the project on time?',
+    },
+    {
+      meaning: 'Öğrenciler notlarını nasıl yükseltecekler?',
+      possibleAnswer: 'They will study harder and ask for help if needed.',
+      sentence: 'How will the students improve their grades?',
+    },
+    {
+      meaning: 'Zamanını nasıl daha iyi yöneteceksin?',
+      possibleAnswer: 'I will create a schedule and stick to it.',
+      sentence: 'How will you manage your time better?',
+    },
+    {
+      meaning: 'Hava durumu planlarımızı nasıl etkileyecek?',
+      possibleAnswer: 'If it rains, we will move the picnic indoors.',
+      sentence: 'How will the weather affect our plans?',
+    },
+    {
+      meaning: 'Misafirler yeri nasıl bulacaklar?',
+      possibleAnswer: 'We will send them a map and clear directions.',
+      sentence: 'How will the guests find the location?',
+    },
+    {
+      meaning: 'Proje finansman olmadan nasıl başarılı olacak?',
+      possibleAnswer: 'We will find alternative resources and sponsors.',
+      sentence: 'How will the project succeed without funding?',
+    },
+    {
+      meaning: 'Ev tadilattan sonra nasıl görünecek?',
+      possibleAnswer: 'It will be more modern and spacious.',
+      sentence: 'How will the house look after the renovation?',
+    },
+    {
+      meaning: 'Bahçe bu yeni bitkilerle nasıl büyüyecek?',
+      possibleAnswer:
+        'We will water them regularly and ensure they get enough sunlight.',
+      sentence: 'How will the garden grow with these new plants?',
+    },
+    {
+      meaning: 'Arkadaşın ameliyattan sonra nasıl iyileşecek?',
+      possibleAnswer: "He will follow the doctor's instructions and rest well.",
+      sentence: 'How will your friend recover after the surgery?',
+    },
+    {
+      meaning: 'Maraton için nasıl antrenman yapacaksın?',
+      possibleAnswer: 'I will run every morning and follow a training plan.',
+      sentence: 'How will you train for the marathon?',
+    },
+    {
+      meaning: 'Seyahat sırasında bizimle nasıl iletişim kuracaklar?',
+      possibleAnswer: 'They will use their phones to call and message.',
+      sentence: 'How will they communicate with us during the trip?',
+    },
+    {
+      meaning: 'Konser büyük bir izleyici kitlesini nasıl çekecek?',
+      possibleAnswer:
+        'The band will promote it widely and perform their best songs.',
+      sentence: 'How will the concert attract a large audience?',
+    },
+    {
+      meaning: 'Yeni yazılım iş akışımızı nasıl iyileştirecek?',
+      possibleAnswer: 'It will automate many tasks and reduce errors.',
+      sentence: 'How will the new software improve our workflow?',
+    },
+    {
+      meaning: 'Akşam yemeği ailenizi nasıl şaşırtacak?',
+      possibleAnswer:
+        'We will cook their favorite dishes and set a beautiful table.',
+      sentence: 'How will the dinner surprise your parents?',
+    },
+    {
+      meaning: 'Öğrenciler projeye nasıl katılacaklar?',
+      possibleAnswer:
+        'They will each take on different roles and responsibilities.',
+      sentence: 'How will the students participate in the project?',
+    },
+    {
+      meaning: 'Köpeğin yeni yavru köpekle nasıl davranacak?',
+      possibleAnswer: 'He will be friendly and help the puppy adjust.',
+      sentence: 'How will your dog behave with the new puppy?',
+    },
+    {
+      meaning: 'Toplantı sırasında nasıl odaklanacaksın?',
+      possibleAnswer: 'I will take notes and avoid distractions.',
+      sentence: 'How will you stay focused during the meeting?',
+    },
+    {
+      meaning: 'Kütüphane sınavlar sırasında öğrencilere nasıl destek verecek?',
+      possibleAnswer: 'They will extend hours and provide quiet study spaces.',
+      sentence: 'How will the library support students during exams?',
+    },
+    {
+      meaning: 'Topluluk etkinliği nasıl destekleyecek?',
+      possibleAnswer: 'They will volunteer and donate resources.',
+      sentence: 'How will the community support the event?',
+    },
+    {
+      meaning: 'Sınıf gezi için nasıl hazırlanacak?',
+      possibleAnswer: 'They will pack their bags and gather supplies.',
+      sentence: 'How will the class prepare for the field trip?',
+    },
+    {
+      meaning: 'Konferans katılımcılara nasıl fayda sağlayacak?',
+      possibleAnswer:
+        'It will provide new insights and networking opportunities.',
+      sentence: 'How will the conference benefit attendees?',
+    },
+    {
+      meaning: 'Hava durumu planlarımızı nasıl etkileyecek?',
+      possibleAnswer: 'If it rains, we will move the event indoors.',
+      sentence: 'How will the weather impact our plans?',
+    },
+    {
+      meaning: 'Akşam yemeği ailenizi nasıl şaşırtacak?',
+      possibleAnswer:
+        'We will cook their favorite dishes and set a beautiful table.',
+      sentence: 'How will the dinner surprise your parents?',
+    },
+    {
+      meaning: 'Ders öğrencileri nasıl etkileyecek?',
+      possibleAnswer: 'The professor will include interactive activities.',
+      sentence: 'How will the lecture engage the students?',
+    },
+    {
+      meaning: 'Şehir festivali nasıl kutlayacak?',
+      possibleAnswer: 'There will be parades, music, and fireworks.',
+      sentence: 'How will the city celebrate the festival?',
+    },
+    {
+      meaning: 'Taşındıktan sonra arkadaşın nasıl uyum sağlayacak?',
+      possibleAnswer: 'He will be busy but happy in his new place.',
+      sentence: 'How will your friend adjust after moving?',
+    },
+    {
+      meaning: 'Çocuklar etkinliğe nasıl katılacaklar?',
+      possibleAnswer: 'They will perform a play and sing songs.',
+      sentence: 'How will the children participate in the event?',
+    },
+    {
+      meaning: 'Okul yeni dönem için nasıl hazırlanacak?',
+      possibleAnswer: 'The staff will prepare classrooms and materials.',
+      sentence: 'How will the school prepare for the new semester?',
+    },
+    {
+      meaning: 'Sunumun izleyicinin dikkatini nasıl çekecek?',
+      possibleAnswer: 'I will use engaging visuals and tell stories.',
+      sentence: "How will your presentation capture the audience's attention?",
+    },
+    {
+      meaning: 'Yeni politika sorunları nasıl ele alacak?',
+      possibleAnswer: 'It will have clear guidelines and solutions.',
+      sentence: 'How will the new policy address the issues?',
+    },
+    {
+      meaning: 'Konser kalabalığı nasıl eğlendirecek?',
+      possibleAnswer:
+        'The band will play their best songs and engage with the audience.',
+      sentence: 'How will the concert entertain the crowd?',
+    },
+    {
+      meaning: 'Proje yeni takımla nasıl başarılı olacak?',
+      possibleAnswer: 'They will bring fresh ideas and enthusiasm.',
+      sentence: 'How will the project succeed with the new team?',
+    },
+    {
+      meaning: 'Öğretmen öğrencileri nasıl motive edecek?',
+      possibleAnswer: 'She will use positive reinforcement and fun activities.',
+      sentence: 'How will the teacher motivate the students?',
+    },
+    {
+      meaning: 'Ailen yıldönümlerinin tadını nasıl çıkaracak?',
+      possibleAnswer: 'We will plan a special dinner and give them gifts.',
+      sentence: 'How will your parents enjoy their anniversary?',
+    },
+    {
+      meaning: 'Yeni yazılım takıma nasıl yardımcı olacak?',
+      possibleAnswer: 'It will streamline tasks and improve communication.',
+      sentence: 'How will the new software help the team?',
+    },
+    {
+      meaning: 'Bahçe bu yeni bitkilerle nasıl büyüyecek?',
+      possibleAnswer:
+        'We will water them regularly and ensure they get enough sunlight.',
+      sentence: 'How will the garden flourish with these new plants?',
+    },
+    {
+      meaning: 'Arkadaşın yeni işinde nasıl başarılı olacak?',
+      possibleAnswer: 'She will work hard and learn quickly.',
+      sentence: 'How will your friend succeed in her new job?',
+    },
+    {
+      meaning: 'Şehir etkinlik sırasında trafiği nasıl yönetecek?',
+      possibleAnswer: 'They will set up detours and manage traffic flow.',
+      sentence: 'How will the city handle the traffic during the event?',
+    },
+    {
+      meaning: 'Takım zorluklarla nasıl başa çıkacak?',
+      possibleAnswer: 'They will collaborate and find solutions together.',
+      sentence: 'How will the team handle the challenges?',
+    },
+    {
+      meaning: 'Hava durumu festivali nasıl etkileyecek?',
+      possibleAnswer: 'If it rains, some events may be canceled.',
+      sentence: 'How will the weather impact the festival?',
+    },
+    {
+      meaning: 'Arkadaşın başarısını nasıl kutlayacak?',
+      possibleAnswer: 'She will have a party with friends and family.',
+      sentence: 'How will your friend celebrate her success?',
+    },
+    {
+      meaning: 'Öğrenciler tartışmaya nasıl katılacaklar?',
+      possibleAnswer: 'They will prepare questions and contribute their ideas.',
+      sentence: 'How will the students participate in the discussion?',
+    },
+    {
+      meaning: 'Sunum müşterileri nasıl etkileyecek?',
+      possibleAnswer: 'We will highlight key benefits and show results.',
+      sentence: 'How will the presentation impress the clients?',
+    },
+    {
+      meaning: 'Topluluk yeni projeyi nasıl destekleyecek?',
+      possibleAnswer: 'They will volunteer and donate resources.',
+      sentence: 'How will the community support the new project?',
+    },
+    {
+      meaning: 'Öğretmen öğrencileri nasıl ilham verecek?',
+      possibleAnswer: 'She will share stories and encourage creativity.',
+      sentence: 'How will the teacher inspire the students?',
+    },
+    {
+      meaning: 'Proje son teslim tarihine nasıl uyacak?',
+      possibleAnswer: 'We will work overtime if necessary.',
+      sentence: 'How will the project meet the deadline?',
+    },
+    {
+      meaning: 'Kitap kitlesine nasıl ulaşacak?',
+      possibleAnswer: 'We will use social media and marketing strategies.',
+      sentence: 'How will the book reach its audience?',
+    },
+    {
+      meaning: 'Aile tatilleri nasıl kutlayacak?',
+      possibleAnswer:
+        'We will have a big gathering with lots of food and games.',
+      sentence: 'How will the family celebrate the holidays?',
+    },
+    {
+      meaning: 'Çocuklar yolculuk sırasında nasıl eğlenecekler?',
+      possibleAnswer: 'They will watch movies and play games.',
+      sentence: 'How will the children stay entertained during the trip?',
+    },
+    {
+      meaning: 'Şirket yeni değişiklikleri nasıl yönetecek?',
+      possibleAnswer: 'They will provide training and support to employees.',
+      sentence: 'How will the company handle the new changes?',
+    },
+    {
+      meaning: 'Arkadaşın yeni ortama nasıl uyum sağlayacak?',
+      possibleAnswer: 'He will explore the area and make new friends.',
+      sentence: 'How will your friend adapt to the new environment?',
+    },
+    {
+      meaning: 'Takım hedeflerine nasıl ulaşacak?',
+      possibleAnswer: 'They will set clear objectives and work together.',
+      sentence: 'How will the team achieve their goals?',
+    },
+    {
+      meaning: 'Toplantı nasıl sona erecek?',
+      possibleAnswer: 'We will summarize the key points and assign tasks.',
+      sentence: 'How will the meeting conclude?',
+    },
+    {
+      meaning: 'Öğretmen öğrencileri nasıl değerlendirecek?',
+      possibleAnswer: 'She will use tests, projects, and participation.',
+      sentence: 'How will the teacher evaluate the students?',
+    },
+    {
+      meaning: 'Şehir ulusal bayramı nasıl kutlayacak?',
+      possibleAnswer: 'There will be parades, concerts, and fireworks.',
+      sentence: 'How will the city celebrate the national holiday?',
+    },
+    {
+      meaning: 'Topluluk parkı nasıl geliştirecek?',
+      possibleAnswer: 'They will organize clean-ups and plant new trees.',
+      sentence: 'How will the community improve the park?',
+    },
+    {
+      meaning: 'Öğrenciler yarışma için nasıl hazırlanacaklar?',
+      possibleAnswer: 'They will practice and review their skills.',
+      sentence: 'How will the students prepare for the competition?',
+    },
+    {
+      meaning: 'Aile zor zamanlarda birbirini nasıl destekleyecek?',
+      possibleAnswer: 'They will communicate openly and stay close.',
+      sentence: 'How will the family support each other during tough times?',
+    },
+    {
+      meaning: 'Yeni politika güvenliği nasıl artıracak?',
+      possibleAnswer: 'It will implement stricter regulations and monitoring.',
+      sentence: 'How will the new policy improve safety?',
+    },
+    {
+      meaning: 'Arkadaşın doğum gününü nasıl kutlayacak?',
+      possibleAnswer: 'She will have a party with friends and family.',
+      sentence: 'How will your friend celebrate her birthday?',
+    },
+    {
+      meaning: 'Gelecek Cumartesi partiye nasıl gideceksin?',
+      possibleAnswer: 'I will drive my car to the party next Saturday.',
+      sentence: 'How will you get to the party next Saturday?',
+    },
+    {
+      meaning: 'Noel partisi için odayı nasıl dekore edecekler?',
+      possibleAnswer:
+        'They will use Christmas lights and ornaments to decorate the room.',
+      sentence: 'How will they decorate the room for the Christmas party?',
+    },
+    {
+      meaning: 'Haftasonundan önce ödevini nasıl bitirecek?',
+      possibleAnswer: 'She will work on it every evening after dinner.',
+      sentence: 'How will she finish her homework before the weekend?',
+    },
+    {
+      meaning: 'Gelecek ay olacak sınav için nasıl hazırlanacak?',
+      possibleAnswer:
+        'He will study for a few hours each day and review his notes.',
+      sentence:
+        'How will he prepare for the exam that is coming up next month?',
+    },
+    {
+      meaning: 'Gelecek hafta doğum gününü nasıl kutlayacağız?',
+      possibleAnswer: 'We will have a small party with cake and games.',
+      sentence: 'How will we celebrate your birthday next week?',
+    },
+    {
+      meaning: "Haziran'da başlayacak yaz tatilini nasıl geçireceksin?",
+      possibleAnswer: 'I will travel to the beach and relax for a few weeks.',
+      sentence: 'How will you spend your summer vacation starting in June?',
+    },
+    {
+      meaning: "Temmuz'da gerçekleşecek etkinliği nasıl organize edecekler?",
+      possibleAnswer:
+        'They will set up a planning committee and assign tasks to each member.',
+      sentence:
+        'How will they organize the event that will take place in July?',
+    },
+    {
+      meaning: 'Yıl sonuna kadar gitar çalmayı nasıl öğrencek?',
+      possibleAnswer:
+        'She will take weekly guitar lessons and practice at home.',
+      sentence: 'How will she learn to play the guitar by the end of the year?',
+    },
+    {
+      meaning:
+        'Yaklaşan iş görüşmesi için İngilizce becerilerini nasıl geliştirecek?',
+      possibleAnswer:
+        'He will practice speaking with a language tutor and read English articles.',
+      sentence:
+        'How will he improve his English skills for the upcoming job interview?',
+    },
+    {
+      meaning: 'Gelecek dönem ortaya çıkacak problemi nasıl çözecekler?',
+      possibleAnswer:
+        'They will hold meetings to discuss solutions and work together.',
+      sentence:
+        'How will they solve the problem that will arise next semester?',
+    },
+    {
+      meaning: 'Mevcut işi bitmeden yeni bir iş nasıl bulacak?',
+      possibleAnswer: 'She will apply to job openings and attend interviews.',
+      sentence: 'How will she find a new job before her current one ends?',
+    },
+    {
+      meaning:
+        'Başvuruların son tarihi geldiğinde üniversitesini nasıl seçecek?',
+      possibleAnswer:
+        'He will visit campuses and compare programs before making a decision.',
+      sentence:
+        'How will he choose his university by the time applications are due?',
+    },
+    {
+      meaning: 'Gelecek dönem zamanı nasıl daha iyi yöneteceksin?',
+      possibleAnswer:
+        'I will use a planner to schedule my tasks and set reminders.',
+      sentence:
+        'How will you manage your time better during the next semester?',
+    },
+    {
+      meaning: 'Tatil için misafirler gelmeden önce evi nasıl temizleyeceğiz?',
+      possibleAnswer:
+        'We will make a cleaning checklist and work on it over the weekend.',
+      sentence:
+        'How will we clean the house before the guests arrive for the holidays?',
+    },
+    {
+      meaning:
+        'Aile toplantısından önce kırık sandalyeyi nasıl tamir edecekler?',
+      possibleAnswer:
+        'They will buy replacement parts and assemble the chair again.',
+      sentence:
+        'How will they fix the broken chair before the family gathering?',
+    },
+    {
+      meaning: 'Bu gece özel bir durum için akşam yemeğini nasıl pişirecek?',
+      possibleAnswer:
+        'She will prepare a three-course meal and set a nice table.',
+      sentence: 'How will she cook dinner tonight for the special occasion?',
+    },
+    {
+      meaning:
+        'Gelecek yıl yapmayı planladığı tatil için yeterli parayı nasıl biriktirecek?',
+      possibleAnswer: 'He will set aside a portion of his salary each month.',
+      sentence:
+        'How will he save enough money for a vacation that he plans to take next year?',
+    },
+    {
+      meaning: 'Havuz açıldığında bu yaz yüzmeyi nasıl öğreneceksin?',
+      possibleAnswer: 'I will take swimming lessons and practice regularly.',
+      sentence: 'How will you learn to swim this summer when the pool opens?',
+    },
+    {
+      meaning:
+        'Ev açılış partisinden önce oturma odası için yeni mobilyaları nasıl alacaklar?',
+      possibleAnswer:
+        'They will shop online and visit furniture stores to choose the best pieces.',
+      sentence:
+        'How will they buy new furniture for the living room before the housewarming party?',
+    },
+    {
+      meaning: 'Bu yılın sonuna kadar kariyer yolunu nasıl seçecek?',
+      possibleAnswer:
+        'She will explore different job options and seek advice from mentors.',
+      sentence: 'How will she decide on a career path by the end of this year?',
+    },
+    {
+      meaning:
+        'Sızıntı yapan musluğu daha fazla zarar vermeden önce nasıl tamir edecek?',
+      possibleAnswer:
+        'He will purchase a repair kit and fix it as soon as possible.',
+      sentence:
+        'How will he repair the leaking faucet before it causes more damage?',
+    },
+    {
+      meaning:
+        'Okul tekrar başlamadan önce haftalık programlarımızı nasıl organize edeceğiz?',
+      possibleAnswer:
+        'We will create a weekly plan and coordinate our activities.',
+      sentence:
+        'How will we organize our schedules for the week before school starts again?',
+    },
+    {
+      meaning:
+        'Arkadaşına projesinde son tarih gelmeden nasıl yardımcı olacaksın?',
+      possibleAnswer: 'I will assist with research and review their work.',
+      sentence:
+        'How will you help your friend with their project before the deadline?',
+    },
+    {
+      meaning: 'Yeni yavru köpek gelmeden önce ona nasıl bir isim seçecekler?',
+      possibleAnswer:
+        'They will brainstorm names and choose the one they like best.',
+      sentence:
+        'How will they choose a name for the new puppy before it arrives?',
+    },
+    {
+      meaning: 'Gelecek hafta karşılaşacağı zor durumu işte nasıl halledecek?',
+      possibleAnswer:
+        'She will discuss it with her supervisor and seek solutions.',
+      sentence:
+        'How will she handle the difficult situation at work that she will face next week?',
+    },
+    {
+      meaning:
+        'Gelecek ay taşınırken yeni bir şehirde yeni insanlarla nasıl tanışacak?',
+      possibleAnswer: 'He will join local clubs and attend community events.',
+      sentence:
+        'How will he meet new people in a new city when he moves next month?',
+    },
+    {
+      meaning: 'Bu yıl fitness seviyeni maraton için nasıl artıracaksın?',
+      possibleAnswer:
+        'I will follow a training plan and increase my running distance gradually.',
+      sentence:
+        'How will you improve your fitness this year to be ready for the marathon?',
+    },
+    {
+      meaning: 'Gelecek ay geldiğinde yıl dönümlerini nasıl kutlayacaklar?',
+      possibleAnswer:
+        'They will go out for a romantic dinner and exchange gifts.',
+      sentence:
+        'How will they celebrate their anniversary when it comes next month?',
+    },
+    {
+      meaning:
+        'Gelecek hafta sonu parti için bir kek pişirmeyi nasıl öğrenecek?',
+      possibleAnswer:
+        'She will follow a recipe and practice baking a few times.',
+      sentence: 'How will she learn to bake a cake for the party next weekend?',
+    },
+    {
+      meaning: 'Okul yılı başlamadan önce yarı zamanlı bir iş nasıl bulacak?',
+      possibleAnswer:
+        'He will look for job listings and apply to suitable positions.',
+      sentence:
+        'How will he find a part-time job before the school year begins?',
+    },
+    {
+      meaning:
+        'Gelecek ay arkadaşının doğum günü için nasıl bir hediye seçeceksin?',
+      possibleAnswer:
+        'I will consider their interests and select something they will enjoy.',
+      sentence:
+        'How will you choose a gift for your friend’s birthday next month?',
+    },
+    {
+      meaning:
+        'Dönemin bitiminden önce sınıfı parti için nasıl dekore edeceğiz?',
+      possibleAnswer:
+        'We will use colorful decorations and set up a festive atmosphere.',
+      sentence:
+        'How will we decorate the classroom for the party before the end of the term?',
+    },
+    {
+      meaning: "Ağustos'ta başlayacak aile tatilini nasıl planlayacaklar?",
+      possibleAnswer:
+        'They will research destinations and book accommodations in advance.',
+      sentence: 'How will they plan the family vacation that starts in August?',
+    },
+    {
+      meaning:
+        'Gelecek hafta konferans öncesi sunum becerilerini nasıl geliştirecek?',
+      possibleAnswer:
+        'She will rehearse in front of a mirror and get feedback from friends.',
+      sentence:
+        'How will she practice her presentation skills before the conference next week?',
+    },
+    {
+      meaning:
+        'Gelecek Cumartesi büyük yarıştan önce bisikletindeki patlak lastiği nasıl tamir edecek?',
+      possibleAnswer:
+        'He will replace the tire with a new one and test the bike.',
+      sentence:
+        'How will he fix the flat tire on his bike before the big race next Saturday?',
+    },
+    {
+      meaning:
+        'Bu Cuma aile film gecesi için hangi filmi izleyeceğine nasıl karar vereceksin?',
+      possibleAnswer:
+        'I will suggest a few options and let everyone vote on their choice.',
+      sentence:
+        'How will you decide on a movie to watch for the family movie night this Friday?',
+    },
+    {
+      meaning:
+        'Sınavlar başlamadan önce çalışma gruplarını nasıl organize edecekler?',
+      possibleAnswer:
+        'They will schedule regular meetings and divide the topics among members.',
+      sentence:
+        'How will they organize their study group before the exams start?',
+    },
+    {
+      meaning:
+        'Gelecek ayki kompozisyon yarışması için yazma becerilerini nasıl geliştirecek?',
+      possibleAnswer:
+        'She will practice writing essays and review feedback from teachers.',
+      sentence:
+        'How will she improve her writing skills for the essay competition next month?',
+    },
+    {
+      meaning:
+        'Gelecek hafta için planlanan iş görüşmesine nasıl hazırlık yapacak?',
+      possibleAnswer:
+        'He will research the company and practice answering common interview questions.',
+      sentence:
+        'How will he prepare for the job interview that is scheduled for next week?',
+    },
+    {
+      meaning:
+        'Yaz indirimleri bitmeden önce yeni bir araba almak için nasıl para biriktireceğiz?',
+      possibleAnswer:
+        'We will cut back on unnecessary expenses and set aside extra savings.',
+      sentence:
+        'How will we save money for a new car before the summer sale ends?',
+    },
+    {
+      meaning:
+        "Kasım'daki turnuva öncesinde satranç oynamayı nasıl öğreneceksin?",
+      possibleAnswer:
+        'I will study chess strategies and play games with experienced players.',
+      sentence:
+        'How will you learn to play chess before the tournament in November?',
+    },
+    {
+      meaning:
+        'Gelecek Pazar yapılacak piknikten sonra parkı nasıl temizleyecekler?',
+      possibleAnswer:
+        'They will bring trash bags and cleaning supplies to pick up litter.',
+      sentence:
+        'How will they clean up the park after the picnic that will be held next Sunday?',
+    },
+    {
+      meaning:
+        'Aralık’taki moda gösterisi öncesinde kendi kıyafetlerini nasıl dikecek?',
+      possibleAnswer:
+        'She will take sewing classes and practice making garments.',
+      sentence:
+        'How will she learn to sew her own clothes before the fashion show in December?',
+    },
+    {
+      meaning:
+        'Gelecek baharda yapılacak konser öncesinde piyano çalmayı nasıl öğrenecek?',
+      possibleAnswer: 'He will take regular piano lessons and practice daily.',
+      sentence:
+        'How will he learn to play the piano before the recital next spring?',
+    },
+    {
+      meaning:
+        'Yaklaşan uzun hafta sonu için hafta sonu kaçamağını nasıl planlayacaksın?',
+      possibleAnswer:
+        'I will choose a destination, book accommodations, and plan activities.',
+      sentence:
+        'How will you plan your weekend getaway for the long weekend coming up?',
+    },
+    {
+      meaning:
+        'Gelecek Cumartesi gerçekleşecek parti için menüyü nasıl seçecekler?',
+      possibleAnswer:
+        'They will discuss preferences and select dishes that everyone will enjoy.',
+      sentence:
+        'How will they decide on the menu for the party that is happening next Saturday?',
+    },
+    {
+      meaning:
+        "Yazın İspanya'ya yapacağı seyahat öncesinde İspanyolca konuşmayı nasıl çalışacak?",
+      possibleAnswer:
+        'She will take language lessons and practice speaking with native speakers.',
+      sentence:
+        'How will she practice speaking Spanish before her trip to Spain in the summer?',
+    },
+    {
+      meaning:
+        'Baharda kuşlar dönmeden önce bahçe için bir kuş evi nasıl yapacak?',
+      possibleAnswer:
+        'He will gather materials and follow a building plan to construct the birdhouse.',
+      sentence:
+        'How will he build a birdhouse for the garden before the birds return in the spring?',
+    },
+    {
+      meaning:
+        'Gelecek ay ödül töreninden önce yarışmanın kazananlarını nasıl seçeceğiz?',
+      possibleAnswer:
+        'We will review the entries and select the best ones based on the criteria.',
+      sentence:
+        'How will we choose the winners of the contest before the awards ceremony next month?',
+    },
+    {
+      meaning:
+        'Festivaller sezonu başladığında odanı tatiller için nasıl dekore edeceksin?',
+      possibleAnswer:
+        'I will hang lights, put up decorations, and create a festive atmosphere.',
+      sentence:
+        'How will you decorate your room for the holidays when the festive season begins?',
+    },
+  ],
+  A3: [
+    {
+      meaning: 'Sen doğum gününü gelecek yıl nasıl kutluyor olacaksın?',
+      possibleAnswer: 'I will be having a party with my friends.',
+      sentence: 'How will you be celebrating your birthday next year?',
+    },
+    {
+      meaning: 'O (kadın) şehre yarın nasıl seyahat ediyor olacak?',
+      possibleAnswer: 'She will be taking the train.',
+      sentence: 'How will she be traveling to the city tomorrow?',
+    },
+    {
+      meaning: 'Onlar sınava gelecek hafta nasıl hazırlanıyor olacak?',
+      possibleAnswer: 'They will be studying every night.',
+      sentence: 'How will they be preparing for the exam next week?',
+    },
+    {
+      meaning: 'O (erkek) bu akşam yemeğini nasıl pişiriyor olacak?',
+      possibleAnswer: 'He will be grilling some steaks.',
+      sentence: 'How will he be cooking dinner this evening?',
+    },
+    {
+      meaning: 'Sen tatilini gelecek ay nasıl geçiriyor olacaksın?',
+      possibleAnswer: 'I will be relaxing at the beach.',
+      sentence: 'How will you be spending your vacation next month?',
+    },
+    {
+      meaning:
+        'O (kadın) piyano becerilerini gelecek Cumartesi nasıl çalışıyor olacak?',
+      possibleAnswer: 'She will be taking a lesson.',
+      sentence: 'How will she be practicing her piano skills next Saturday?',
+    },
+    {
+      meaning: 'Onlar etkinliği gelecek ay nasıl organize ediyor olacak?',
+      possibleAnswer: 'They will be coordinating with the team.',
+      sentence: 'How will they be organizing the event next month?',
+    },
+    {
+      meaning:
+        'O (erkek) bu hafta sonu projesi üzerinde nasıl çalışıyor olacak?',
+      possibleAnswer: 'He will be doing research at the library.',
+      sentence: 'How will he be working on his project this weekend?',
+    },
+    {
+      meaning: 'Sen arkadaşına yarın nasıl yardım ediyor olacaksın?',
+      possibleAnswer: 'I will be helping her move to a new house.',
+      sentence: 'How will you be helping your friend tomorrow?',
+    },
+    {
+      meaning: 'O (kadın) evi gelecek Pazar nasıl temizliyor olacak?',
+      possibleAnswer: 'She will be vacuuming and dusting.',
+      sentence: 'How will she be cleaning the house next Sunday?',
+    },
+    {
+      meaning: 'Onlar kamp gezisi sırasında çadırı nasıl kuruyor olacak?',
+      possibleAnswer: 'They will be pitching it by the lake.',
+      sentence: 'How will they be setting up the tent during the camping trip?',
+    },
+    {
+      meaning:
+        'O (erkek) İngilizcesini gelecek dönem nasıl geliştiriyor olacak?',
+      possibleAnswer: 'He will be taking a language course.',
+      sentence: 'How will he be improving his English next semester?',
+    },
+    {
+      meaning: 'Sen odayı parti için gelecek hafta nasıl süslüyor olacaksın?',
+      possibleAnswer: 'I will be hanging up balloons and streamers.',
+      sentence: 'How will you be decorating the room for the party next week?',
+    },
+    {
+      meaning: 'O (kadın) duvar resmini gelecek ay nasıl boyuyor olacak?',
+      possibleAnswer: 'She will be using bright colors.',
+      sentence: 'How will she be painting the mural next month?',
+    },
+    {
+      meaning: 'Onlar bahçeyi bahar için nasıl hazırlıyor olacak?',
+      possibleAnswer: 'They will be planting flowers and vegetables.',
+      sentence: 'How will they be preparing the garden for spring?',
+    },
+    {
+      meaning:
+        'O (erkek) bu yaz basketbol becerilerini nasıl çalışıyor olacak?',
+      possibleAnswer: 'He will be playing in the local league.',
+      sentence: 'How will he be practicing his basketball skills this summer?',
+    },
+    {
+      meaning:
+        'Sen İtalyan yemekleri yapmayı gelecek hafta nasıl öğreniyor olacaksın?',
+      possibleAnswer: 'I will be taking a cooking class.',
+      sentence: 'How will you be learning to cook Italian food next week?',
+    },
+    {
+      meaning: 'O (kadın) oyunu gelecek ay nasıl prova ediyor olacak?',
+      possibleAnswer: 'She will be practicing her lines with the cast.',
+      sentence: 'How will she be rehearsing for the play next month?',
+    },
+    {
+      meaning: 'Onlar gelecek yılki yolculuğu nasıl planlıyor olacak?',
+      possibleAnswer: 'They will be mapping out the route and booking hotels.',
+      sentence: 'How will they be planning the road trip next year?',
+    },
+    {
+      meaning: 'O (erkek) bu hafta sonu bisikletini nasıl tamir ediyor olacak?',
+      possibleAnswer: 'He will be replacing the tires and oiling the chain.',
+      sentence: 'How will he be fixing his bike this weekend?',
+    },
+    {
+      meaning:
+        'Sen gelecek hafta sonu çizim becerilerini nasıl çalışıyor olacaksın?',
+      possibleAnswer: 'I will be sketching in my notebook.',
+      sentence: 'How will you be practicing your drawing skills next weekend?',
+    },
+    {
+      meaning:
+        'O (kadın) gelecek Cumartesi annesine bahçede nasıl yardım ediyor olacak?',
+      possibleAnswer: 'She will be planting flowers and weeding.',
+      sentence:
+        'How will she be helping her mother in the garden next Saturday?',
+    },
+    {
+      meaning: 'Onlar düğün için salonu nasıl süslüyor olacak?',
+      possibleAnswer: 'They will be hanging lights and arranging flowers.',
+      sentence: 'How will they be decorating the hall for the wedding?',
+    },
+    {
+      meaning: 'O (erkek) dosyalarını yarın nasıl düzenliyor olacak?',
+      possibleAnswer: 'He will be sorting them into folders.',
+      sentence: 'How will he be organizing his files tomorrow?',
+    },
+    {
+      meaning: 'Sen gelecek tatilde boş zamanını nasıl geçiriyor olacaksın?',
+      possibleAnswer: 'I will be visiting my family and friends.',
+      sentence: 'How will you be spending your free time next holiday?',
+    },
+    {
+      meaning:
+        'O (kadın) konferans için konuşmasını gelecek ay nasıl hazırlıyor olacak?',
+      possibleAnswer: 'She will be writing notes and practicing.',
+      sentence:
+        'How will she be preparing her speech for the conference next month?',
+    },
+    {
+      meaning: 'Onlar yeni evde mobilyaları nasıl düzenliyor olacak?',
+      possibleAnswer:
+        'They will be moving pieces around to find the best layout.',
+      sentence: 'How will they be arranging the furniture in the new house?',
+    },
+    {
+      meaning: 'O (erkek) gelecek dönem finallerine nasıl çalışıyor olacak?',
+      possibleAnswer: 'He will be reviewing notes and taking practice tests.',
+      sentence: 'How will he be studying for his finals next semester?',
+    },
+    {
+      meaning:
+        'Sen gelecek hafta sonu en sevdiğin oyunu nasıl oynuyor olacaksın?',
+      possibleAnswer: 'I will be playing with my friends online.',
+      sentence: 'How will you be playing your favorite game next weekend?',
+    },
+    {
+      meaning: 'O (kadın) bu yaz romanını nasıl yazıyor olacak?',
+      possibleAnswer: 'She will be writing every day.',
+      sentence: 'How will she be writing her novel this summer?',
+    },
+    {
+      meaning: 'Onlar gelecek yıl maraton için nasıl antrenman yapıyor olacak?',
+      possibleAnswer: 'They will be running every morning.',
+      sentence: 'How will they be training for the marathon next year?',
+    },
+    {
+      meaning: 'O (erkek) yarın arabayı nasıl tamir ediyor olacak?',
+      possibleAnswer: 'He will be changing the oil and checking the brakes.',
+      sentence: 'How will he be fixing the car tomorrow?',
+    },
+    {
+      meaning: 'Sen gelecek Cumartesi yoga nasıl yapıyor olacaksın?',
+      possibleAnswer: 'I will be attending a yoga class.',
+      sentence: 'How will you be practicing yoga next Saturday?',
+    },
+    {
+      meaning: 'O (kadın) bu yaz nasıl dikiş dikmeyi öğreniyor olacak?',
+      possibleAnswer: 'She will be taking sewing lessons.',
+      sentence: 'How will she be learning to sew this summer?',
+    },
+    {
+      meaning: 'Onlar gelecek yıl festivali nasıl organize ediyor olacak?',
+      possibleAnswer:
+        'They will be coordinating with local vendors and performers.',
+      sentence: 'How will they be organizing the festival next year?',
+    },
+    {
+      meaning: 'O (erkek) gelecek hafta sonu gölde nasıl balık tutuyor olacak?',
+      possibleAnswer: 'He will be using a new fishing rod and bait.',
+      sentence: 'How will he be fishing at the lake next weekend?',
+    },
+    {
+      meaning: 'Sen iş görüşmesine gelecek ay nasıl hazırlanıyor olacaksın?',
+      possibleAnswer:
+        'I will be practicing my answers and reviewing my resume.',
+      sentence: 'How will you be preparing for your job interview next month?',
+    },
+    {
+      meaning:
+        'O (kadın) gelecek dönem nasıl araba kullanmayı öğreniyor olacak?',
+      possibleAnswer: 'She will be taking driving lessons.',
+      sentence: 'How will she be learning to drive next semester?',
+    },
+    {
+      meaning: 'Onlar gelecek hafta sonu plajı nasıl temizliyor olacak?',
+      possibleAnswer: 'They will be picking up trash and debris.',
+      sentence: 'How will they be cleaning the beach next weekend?',
+    },
+    {
+      meaning: 'O (erkek) yarın gitar becerilerini nasıl çalışıyor olacak?',
+      possibleAnswer: 'He will be learning new songs.',
+      sentence: 'How will he be practicing his guitar skills tomorrow?',
+    },
+    {
+      meaning:
+        'Sen gelecek hafta İngilizce konuşma pratiğini nasıl yapıyor olacaksın?',
+      possibleAnswer: 'I will be talking with a friend online.',
+      sentence: 'How will you be practicing English conversation next week?',
+    },
+    {
+      meaning: 'O (kadın) bu Aralık Noel ağacını nasıl süslüyor olacak?',
+      possibleAnswer: 'She will be hanging ornaments and lights.',
+      sentence: 'How will she be decorating the Christmas tree this December?',
+    },
+    {
+      meaning:
+        'Onlar gelecek ay yetenek gösterisi için nasıl hazırlanıyor olacak?',
+      possibleAnswer: 'They will be rehearsing their acts.',
+      sentence: 'How will they be preparing for the talent show next month?',
+    },
+    {
+      meaning: 'O (erkek) bu yaz çiti nasıl boyuyor olacak?',
+      possibleAnswer: 'He will be using a new paint sprayer.',
+      sentence: 'How will he be painting the fence this summer?',
+    },
+    {
+      meaning:
+        'Sen gelecek hafta geziniz için nasıl paketleme yapıyor olacaksın?',
+      possibleAnswer: 'I will be making a list and packing my bags.',
+      sentence: 'How will you be packing for your trip next week?',
+    },
+    {
+      meaning:
+        'O (kadın) kız kardeşine ödevlerinde nasıl yardım ediyor olacak?',
+      possibleAnswer: 'She will be explaining the math problems.',
+      sentence: 'How will she be helping her sister with her homework?',
+    },
+    {
+      meaning: 'Onlar gelecek hafta sonu çatıyı nasıl tamir ediyor olacak?',
+      possibleAnswer: 'They will be replacing the shingles.',
+      sentence: 'How will they be fixing the roof next weekend?',
+    },
+    {
+      meaning: 'O (erkek) bu yaz nasıl yüzmeyi öğreniyor olacak?',
+      possibleAnswer: 'He will be taking swimming lessons at the pool.',
+      sentence: 'How will he be learning to swim this summer?',
+    },
+    {
+      meaning: 'Sen gelecek ay yeni kitabı nasıl okuyuyor olacaksın?',
+      possibleAnswer: 'I will be reading a few chapters every night.',
+      sentence: 'How will you be reading the new book next month?',
+    },
+    {
+      meaning:
+        'O (kadın) gelecek hafta işte dosyaları nasıl düzenliyor olacak?',
+      possibleAnswer: 'She will be putting them in alphabetical order.',
+      sentence: 'How will she be organizing the files at work next week?',
+    },
+    {
+      meaning: 'Onlar gelecek hafta konser için nasıl prova yapıyor olacak?',
+      possibleAnswer: 'They will be practicing their songs together.',
+      sentence: 'How will they be practicing for the concert next week?',
+    },
+    {
+      meaning: 'O (erkek) yarın ailesi için nasıl akşam yemeği yapıyor olacak?',
+      possibleAnswer: 'He will be cooking spaghetti and meatballs.',
+      sentence: 'How will he be making dinner for his family tomorrow?',
+    },
+    {
+      meaning: 'Sen tarih sınavına gelecek ay nasıl çalışıyor olacaksın?',
+      possibleAnswer: 'I will be reviewing my notes and reading the textbook.',
+      sentence: 'How will you be studying for your history test next month?',
+    },
+    {
+      meaning: 'O (kadın) gelecek kış bir kazak nasıl örüyor olacak?',
+      possibleAnswer: 'She will be using a new knitting pattern.',
+      sentence: 'How will she be knitting a sweater next winter?',
+    },
+    {
+      meaning: 'Onlar gelecek dönem nasıl Fransızca öğreniyor olacak?',
+      possibleAnswer: 'They will be taking a French class.',
+      sentence: 'How will they be learning French next semester?',
+    },
+    {
+      meaning:
+        'O (erkek) gelecek ay hayır etkinliğini nasıl organize ediyor olacak?',
+      possibleAnswer: 'He will be contacting sponsors and volunteers.',
+      sentence: 'How will he be organizing the charity event next month?',
+    },
+    {
+      meaning: 'Sen gelecek Cumartesi odanı nasıl temizliyor olacaksın?',
+      possibleAnswer: 'I will be vacuuming and dusting.',
+      sentence: 'How will you be cleaning your room next Saturday?',
+    },
+    {
+      meaning:
+        'O (kadın) gelecek haftaki toplantı için sunumu nasıl hazırlıyor olacak?',
+      possibleAnswer: 'She will be making slides and practicing her speech.',
+      sentence:
+        "How will she be preparing the presentation for next week's meeting?",
+    },
+    {
+      meaning: 'Onlar bu yaz futbol becerilerini nasıl çalışıyor olacak?',
+      possibleAnswer: 'They will be playing in a summer league.',
+      sentence: 'How will they be practicing their soccer skills this summer?',
+    },
+    {
+      meaning: 'O (erkek) tatiller için evi nasıl süslüyor olacak?',
+      possibleAnswer: 'He will be putting up lights and decorations.',
+      sentence: 'How will he be decorating the house for the holidays?',
+    },
+    {
+      meaning: 'Sen yarın nasıl piyano çalıyor olacaksın?',
+      possibleAnswer: 'I will be practicing my new song.',
+      sentence: 'How will you be playing the piano tomorrow?',
+    },
+    {
+      meaning:
+        'O (kadın) gelecek ay düğün için çiçekleri nasıl düzenliyor olacak?',
+      possibleAnswer: 'She will be making beautiful bouquets.',
+      sentence:
+        'How will she be arranging the flowers for the wedding next month?',
+    },
+    {
+      meaning:
+        'Onlar gelecek hafta dans yarışması için nasıl prova yapıyor olacak?',
+      possibleAnswer: 'They will be practicing their routine every day.',
+      sentence:
+        'How will they be rehearsing for the dance competition next week?',
+    },
+    {
+      meaning: 'O (erkek) yarın bilgisayarı nasıl tamir ediyor olacak?',
+      possibleAnswer: 'He will be installing new software.',
+      sentence: 'How will he be fixing the computer tomorrow?',
+    },
+    {
+      meaning:
+        'Sen gelecek hafta sonu fotoğraf albümünü nasıl düzenliyor olacaksın?',
+      possibleAnswer: 'I will be sorting and labeling the photos.',
+      sentence: 'How will you be organizing your photo album next weekend?',
+    },
+    {
+      meaning:
+        'O (kadın) gelecek ay kermes için kurabiyeleri nasıl pişiriyor olacak?',
+      possibleAnswer: 'She will be trying a new recipe.',
+      sentence: 'How will she be baking cookies for the bake sale next month?',
+    },
+    {
+      meaning: 'Onlar gelecek hafta fen sınavı için nasıl çalışıyor olacak?',
+      possibleAnswer:
+        'They will be doing experiments and reading the textbook.',
+      sentence: 'How will they be studying for the science test next week?',
+    },
+    {
+      meaning:
+        'O (erkek) gelecek hafta sonu okul için makalesini nasıl yazıyor olacak?',
+      possibleAnswer: 'He will be researching and drafting.',
+      sentence: 'How will he be writing his essay for school next weekend?',
+    },
+    {
+      meaning: 'Sen gelecek yaz manzara resmini nasıl boyuyor olacaksın?',
+      possibleAnswer: 'I will be using watercolors.',
+      sentence: 'How will you be painting the landscape next summer?',
+    },
+    {
+      meaning: 'O (kadın) resital için kemanını nasıl çalışıyor olacak?',
+      possibleAnswer: 'She will be playing her piece every day.',
+      sentence: 'How will she be practicing her violin for the recital?',
+    },
+    {
+      meaning: 'Onlar konser için sahneyi nasıl kuruyor olacak?',
+      possibleAnswer: 'They will be arranging the instruments and lights.',
+      sentence: 'How will they be setting up the stage for the concert?',
+    },
+    {
+      meaning: 'O (erkek) gelecek yıl satranç oynamayı nasıl öğreniyor olacak?',
+      possibleAnswer:
+        'He will be playing with his friend and studying strategies.',
+      sentence: 'How will he be learning to play chess next year?',
+    },
+    {
+      meaning: 'Sen yarış için koşunu nasıl çalışıyor olacaksın?',
+      possibleAnswer: 'I will be running every morning.',
+      sentence: 'How will you be practicing your running for the race?',
+    },
+    {
+      meaning: 'O (kadın) bahçeyi kış için nasıl hazırlıyor olacak?',
+      possibleAnswer: 'She will be covering the plants and raking leaves.',
+      sentence: 'How will she be preparing the garden for winter?',
+    },
+    {
+      meaning: 'Onlar gelecek ay doğum günü partisini nasıl planlıyor olacak?',
+      possibleAnswer:
+        'They will be sending invitations and buying decorations.',
+      sentence: 'How will they be planning the birthday party next month?',
+    },
+    {
+      meaning: 'O (erkek) münazara için konuşmasını nasıl çalışıyor olacak?',
+      possibleAnswer: 'He will be practicing in front of a mirror.',
+      sentence: 'How will he be practicing his speech for the debate?',
+    },
+    {
+      meaning: 'Sen Cadılar Bayramı için evi nasıl süslüyor olacaksın?',
+      possibleAnswer: 'I will be putting up spooky decorations.',
+      sentence: 'How will you be decorating the house for Halloween?',
+    },
+    {
+      meaning:
+        'O (kadın) gelecek hafta sonu akvaryumu nasıl temizliyor olacak?',
+      possibleAnswer: 'She will be changing the water and cleaning the glass.',
+      sentence: 'How will she be cleaning the aquarium next weekend?',
+    },
+    {
+      meaning: 'Onlar oyun için repliklerini nasıl prova yapıyor olacak?',
+      possibleAnswer: 'They will be practicing every day with the cast.',
+      sentence: 'How will they be rehearsing their lines for the play?',
+    },
+    {
+      meaning: 'O (erkek) gelecek ay çatıyı nasıl tamir ediyor olacak?',
+      possibleAnswer:
+        'He will be replacing the shingles and sealing the leaks.',
+      sentence: 'How will he be fixing the roof next month?',
+    },
+    {
+      meaning: 'Sen gelecek hafta dans rutinin nasıl çalışıyor olacaksın?',
+      possibleAnswer: 'I will be practicing with my dance group.',
+      sentence: 'How will you be practicing your dance routine next week?',
+    },
+    {
+      meaning: 'O (kadın) Şükran Günü için hindiyi nasıl pişiriyor olacak?',
+      possibleAnswer: 'She will be roasting it in the oven.',
+      sentence: 'How will she be cooking the turkey for Thanksgiving?',
+    },
+    {
+      meaning: 'Onlar gelecek dönem final sınavlarına nasıl çalışıyor olacak?',
+      possibleAnswer: 'They will be forming study groups and reviewing notes.',
+      sentence:
+        'How will they be studying for their final exams next semester?',
+    },
+    {
+      meaning:
+        'O (erkek) gelecek hafta sonu garajdaki aletlerini nasıl düzenliyor olacak?',
+      possibleAnswer: 'He will be putting them on shelves and in toolboxes.',
+      sentence:
+        'How will he be organizing his tools in the garage next weekend?',
+    },
+    {
+      meaning: 'Sen gelecek ay kamp gezisine nasıl hazırlanıyor olacaksın?',
+      possibleAnswer: 'I will be packing my gear and checking the weather.',
+      sentence: 'How will you be preparing for the camping trip next month?',
+    },
+    {
+      meaning: 'O (kadın) gelecek hafta ünlü lazanyasını nasıl yapıyor olacak?',
+      possibleAnswer: 'She will be using her special recipe.',
+      sentence: 'How will she be making her famous lasagna next week?',
+    },
+    {
+      meaning: 'Onlar yarın bisikleti nasıl tamir ediyor olacak?',
+      possibleAnswer: 'They will be replacing the chain and fixing the brakes.',
+      sentence: 'How will they be fixing the bike tomorrow?',
+    },
+    {
+      meaning: 'O (erkek) gelecek yaz yüzme stillerini nasıl çalışıyor olacak?',
+      possibleAnswer: 'He will be swimming at the local pool every day.',
+      sentence: 'How will he be practicing his swimming strokes next summer?',
+    },
+    {
+      meaning: 'Sen gelecek Nisan vergilerini nasıl hazırlıyor olacaksın?',
+      possibleAnswer: 'I will be organizing my receipts and filling out forms.',
+      sentence: 'How will you be preparing your taxes next April?',
+    },
+    {
+      meaning:
+        'O (kadın) gelecek hafta sonu arabasını nasıl temizliyor olacak?',
+      possibleAnswer: 'She will be washing it and vacuuming the interior.',
+      sentence: 'How will she be cleaning her car next weekend?',
+    },
+    {
+      meaning:
+        'Onlar gelecek hafta futbol alıştırmalarını nasıl çalışıyor olacak?',
+      possibleAnswer: 'They will be doing drills on the field.',
+      sentence: 'How will they be practicing their soccer drills next week?',
+    },
+    {
+      meaning: 'O (erkek) gelecek yıl nasıl davul çalmayı öğreniyor olacak?',
+      possibleAnswer: 'He will be taking drum lessons.',
+      sentence: 'How will he be learning to play the drums next year?',
+    },
+    {
+      meaning: 'Sen gelecek ay dolabını nasıl düzenliyor olacaksın?',
+      possibleAnswer: 'I will be sorting clothes and donating old items.',
+      sentence: 'How will you be organizing your closet next month?',
+    },
+    {
+      meaning: 'O (kadın) bu yaz şiirlerini nasıl yazıyor olacak?',
+      possibleAnswer: 'She will be writing in her favorite park.',
+      sentence: 'How will she be writing her poetry this summer?',
+    },
+    {
+      meaning:
+        'Onlar gelecek hafta sonu yelken için tekneyi nasıl hazırlıyor olacak?',
+      possibleAnswer: 'They will be cleaning and checking the sails.',
+      sentence: 'How will they be preparing the boat for sailing next weekend?',
+    },
+    {
+      meaning: 'O (erkek) yarın ünlü kreplerini nasıl yapıyor olacak?',
+      possibleAnswer: 'He will be using his secret ingredient.',
+      sentence: 'How will he be making his famous pancakes tomorrow?',
+    },
+    {
+      meaning: 'Sen gelecek hafta meditasyonunu nasıl çalışıyor olacaksın?',
+      possibleAnswer: 'I will be joining a meditation group.',
+      sentence: 'How will you be practicing your meditation next week?',
+    },
+    {
+      meaning:
+        'O (kadın) gelecek Pazartesi matematik sınavına nasıl çalışıyor olacak?',
+      possibleAnswer: 'She will be solving practice problems.',
+      sentence: 'How will she be studying for her math test next Monday?',
+    },
+    {
+      meaning: 'Onlar gelecek ay yeni ağaçları nasıl dikiyor olacak?',
+      possibleAnswer: 'They will be digging holes and planting them.',
+      sentence: 'How will they be planting the new trees next month?',
+    },
+    {
+      meaning: 'O (erkek) bu dönem nasıl keman çalmayı öğreniyor olacak?',
+      possibleAnswer: 'He will be taking violin lessons.',
+      sentence: 'How will he be learning to play the violin this semester?',
+    },
+  ],
+  B1: [
+    {
+      meaning: 'Nasılım?',
+      possibleAnswer: 'You are doing great.',
+      sentence: 'How am I?',
+    },
+    {
+      meaning: 'Nasıl faydalıyım?',
+      possibleAnswer: 'You always offer good advice.',
+      sentence: 'How am I helpful?',
+    },
+    {
+      meaning: 'Nasıl farklıyım?',
+      possibleAnswer: 'You think outside the box.',
+      sentence: 'How am I different?',
+    },
+    {
+      meaning: 'Nasıl önemliyim?',
+      possibleAnswer: 'You play a key role in the team.',
+      sentence: 'How am I important?',
+    },
+    {
+      meaning: 'Nasıl özelim?',
+      possibleAnswer: 'You have unique talents.',
+      sentence: 'How am I special?',
+    },
+    {
+      meaning: 'O nasıl?',
+      possibleAnswer: 'He is fine.',
+      sentence: 'How is he?',
+    },
+    {
+      meaning: 'O nasıl?',
+      possibleAnswer: 'She is happy.',
+      sentence: 'How is she?',
+    },
+    {
+      meaning: 'O nasıl?',
+      possibleAnswer: 'It is working well.',
+      sentence: 'How is it?',
+    },
+    {
+      meaning: 'Günün nasıl?',
+      possibleAnswer: 'My day is going well.',
+      sentence: 'How is your day?',
+    },
+    {
+      meaning: 'Ailen nasıl?',
+      possibleAnswer: 'My family is great.',
+      sentence: 'How is your family?',
+    },
+    {
+      meaning: 'İşin nasıl?',
+      possibleAnswer: 'My job is challenging but rewarding.',
+      sentence: 'How is your job?',
+    },
+    {
+      meaning: 'Hava nasıl?',
+      possibleAnswer: 'The weather is sunny.',
+      sentence: 'How is the weather?',
+    },
+    {
+      meaning: 'Sağlığın nasıl?',
+      possibleAnswer: 'My health is good.',
+      sentence: 'How is your health?',
+    },
+    {
+      meaning: 'Modun nasıl?',
+      possibleAnswer: 'My mood is excellent.',
+      sentence: 'How is your mood?',
+    },
+    {
+      meaning: 'Okulun nasıl?',
+      possibleAnswer: 'My school is interesting.',
+      sentence: 'How is your school?',
+    },
+    {
+      meaning: 'Yemek nasıl?',
+      possibleAnswer: 'The food is delicious.',
+      sentence: 'How is the food?',
+    },
+    {
+      meaning: 'Film nasıl?',
+      possibleAnswer: 'The movie is exciting.',
+      sentence: 'How is the movie?',
+    },
+    {
+      meaning: 'Kitap nasıl?',
+      possibleAnswer: 'The book is fascinating.',
+      sentence: 'How is the book?',
+    },
+    {
+      meaning: 'Planın nasıl?',
+      possibleAnswer: 'My plan is on track.',
+      sentence: 'How is your plan?',
+    },
+    {
+      meaning: 'Geziniz nasıl?',
+      possibleAnswer: 'My trip is amazing.',
+      sentence: 'How is your trip?',
+    },
+    {
+      meaning: 'Programın nasıl?',
+      possibleAnswer: 'My schedule is busy.',
+      sentence: 'How is your schedule?',
+    },
+    {
+      meaning: 'Proje nasıl?',
+      possibleAnswer: 'The project is progressing well.',
+      sentence: 'How is the project?',
+    },
+    {
+      meaning: 'Sunum nasıl?',
+      possibleAnswer: 'The presentation is ready.',
+      sentence: 'How is the presentation?',
+    },
+    {
+      meaning: 'Yeni ev nasıl?',
+      possibleAnswer: 'The new house is beautiful.',
+      sentence: 'How is the new house?',
+    },
+    {
+      meaning: 'Yeni araba nasıl?',
+      possibleAnswer: 'The new car is fast.',
+      sentence: 'How is the new car?',
+    },
+    {
+      meaning: 'Nasılsın?',
+      possibleAnswer: 'I am fine.',
+      sentence: 'How are you?',
+    },
+    {
+      meaning: 'Bugün nasılsın?',
+      possibleAnswer: 'I am doing well today.',
+      sentence: 'How are you today?',
+    },
+    {
+      meaning: 'Nasıl hissediyorsun?',
+      possibleAnswer: 'I am feeling great.',
+      sentence: 'How are you feeling?',
+    },
+    {
+      meaning: 'Nasıl gidiyor?',
+      possibleAnswer: 'I am doing okay.',
+      sentence: 'How are you doing?',
+    },
+    {
+      meaning: 'Nasıl farklısın?',
+      possibleAnswer: 'I have a unique perspective.',
+      sentence: 'How are you different?',
+    },
+    {
+      meaning: 'Nasıl eminsin?',
+      possibleAnswer: 'I checked the details.',
+      sentence: 'How are you sure?',
+    },
+    {
+      meaning: 'Nasıl kesin biliyorsun?',
+      possibleAnswer: 'I have the evidence.',
+      sentence: 'How are you certain?',
+    },
+    {
+      meaning: 'Nasıl idare ediyorsun?',
+      possibleAnswer: 'I am managing well.',
+      sentence: 'How are you managing?',
+    },
+    {
+      meaning: 'Nasıl başa çıkıyorsun?',
+      possibleAnswer: 'I am coping fine.',
+      sentence: 'How are you coping?',
+    },
+    {
+      meaning: 'Onlar nasıl?',
+      possibleAnswer: 'They are good.',
+      sentence: 'How are they?',
+    },
+    {
+      meaning: 'Onlar nasıl gidiyor?',
+      possibleAnswer: 'They are doing well.',
+      sentence: 'How are they doing?',
+    },
+    {
+      meaning: 'Çocuklar nasıl?',
+      possibleAnswer: 'The kids are happy.',
+      sentence: 'How are the kids?',
+    },
+    {
+      meaning: 'Evcil hayvanlar nasıl?',
+      possibleAnswer: 'The pets are healthy.',
+      sentence: 'How are the pets?',
+    },
+    {
+      meaning: 'Komşular nasıl?',
+      possibleAnswer: 'The neighbors are friendly.',
+      sentence: 'How are the neighbors?',
+    },
+    {
+      meaning: 'Misafirler nasıl?',
+      possibleAnswer: 'The guests are comfortable.',
+      sentence: 'How are the guests?',
+    },
+    {
+      meaning: 'Arkadaşların nasıl?',
+      possibleAnswer: 'My friends are supportive.',
+      sentence: 'How are your friends?',
+    },
+    {
+      meaning: 'Haftan nasıl?',
+      possibleAnswer: 'My week is busy.',
+      sentence: 'How is your week?',
+    },
+    {
+      meaning: 'Hafta sonun nasıl?',
+      possibleAnswer: 'My weekend is relaxing.',
+      sentence: 'How is your weekend?',
+    },
+    {
+      meaning: 'Tatilin nasıl?',
+      possibleAnswer: 'My vacation is wonderful.',
+      sentence: 'How is your vacation?',
+    },
+    {
+      meaning: 'Antrenmanın nasıl?',
+      possibleAnswer: 'My workout is intense.',
+      sentence: 'How is your workout?',
+    },
+    {
+      meaning: 'Diyetin nasıl?',
+      possibleAnswer: 'My diet is healthy.',
+      sentence: 'How is your diet?',
+    },
+    {
+      meaning: 'Rutinlerin nasıl?',
+      possibleAnswer: 'My routine is productive.',
+      sentence: 'How is your routine?',
+    },
+    {
+      meaning: 'Performansın nasıl?',
+      possibleAnswer: 'My performance is good.',
+      sentence: 'How is your performance?',
+    },
+    {
+      meaning: 'Uykun nasıl?',
+      possibleAnswer: 'My sleep is restful.',
+      sentence: 'How is your sleep?',
+    },
+    {
+      meaning: 'İştahın nasıl?',
+      possibleAnswer: 'My appetite is normal.',
+      sentence: 'How is your appetite?',
+    },
+  ],
+  B2: [
+    {
+      meaning: 'Sen sabahları genellikle nasıl hissediyorsun?',
+      possibleAnswer: 'I usually feel refreshed and ready for the day.',
+      sentence: 'How do you usually feel in the morning?',
+    },
+    {
+      meaning: 'O (kadın) her zaman cevabı nasıl biliyor?',
+      possibleAnswer: 'She always studies hard and pays attention in class.',
+      sentence: 'How does she always know the answer?',
+    },
+    {
+      meaning: 'Onlar hafta sonları ödevlerini genellikle nasıl yapıyorlar?',
+      possibleAnswer:
+        'They usually do their homework in the morning and then play.',
+      sentence: 'How do they usually do their homework on weekends?',
+    },
+    {
+      meaning: 'O (erkek) haftaiçi zamanını sık sık nasıl yönetiyor?',
+      possibleAnswer: 'He often uses a planner to manage his time.',
+      sentence: 'How does he often manage his time during the week?',
+    },
+    {
+      meaning: 'Biz bu şehri her ziyaret ettiğimizde burayı nasıl buluyoruz?',
+      possibleAnswer: 'We use a map to find this place every time.',
+      sentence: 'How do we find this place every time we visit the city?',
+    },
+    {
+      meaning: 'O (kadın) sınıfta bu problemi nasıl açıklıyor?',
+      possibleAnswer: 'She explains it step by step to make it clear.',
+      sentence: 'How does she explain this problem in class?',
+    },
+    {
+      meaning: 'Sen bu bulmacayı her oynadığında nasıl çözüyorsun?',
+      possibleAnswer: 'I solve it by following the instructions carefully.',
+      sentence: 'How do you solve this puzzle every time you play it?',
+    },
+    {
+      meaning: 'O (erkek) işteyken stresi nasıl yönetiyor?',
+      possibleAnswer: 'He handles stress by taking short breaks.',
+      sentence: 'How does he handle stress when he is at work?',
+    },
+    {
+      meaning: 'Sen hafta sonlarını genellikle nasıl geçiriyorsun?',
+      possibleAnswer: 'I usually spend my weekends with my family.',
+      sentence: 'How do you spend your weekends usually?',
+    },
+    {
+      meaning:
+        'Onlar okula başladıklarında yeni arkadaşları nasıl ediniyorlar?',
+      possibleAnswer: 'They make new friends by joining clubs and activities.',
+      sentence: 'How do they make new friends when they start school?',
+    },
+    {
+      meaning: 'O (kadın) yoğun programıyla nasıl fit kalıyor?',
+      possibleAnswer: 'She stays fit by exercising in the mornings.',
+      sentence: 'How does she stay fit with her busy schedule?',
+    },
+    {
+      meaning: 'Biz zor zamanlarda nasıl motive kalıyoruz?',
+      possibleAnswer: 'We stay motivated by setting small goals.',
+      sentence: 'How do we stay motivated during tough times?',
+    },
+    {
+      meaning: 'O (erkek) sınavlarda genellikle nasıl sakin kalıyor?',
+      possibleAnswer: 'He stays calm by practicing deep breathing.',
+      sentence: 'How does he stay calm in exams usually?',
+    },
+    {
+      meaning: 'Sen eski arkadaşlarınla her yıl nasıl iletişimde kalıyorsun?',
+      possibleAnswer: 'I keep in touch by sending messages and making calls.',
+      sentence: 'How do you keep in touch with old friends every year?',
+    },
+    {
+      meaning:
+        'Sen her gün verimli olmak için gününü nasıl organize ediyorsun?',
+      possibleAnswer: 'I organize my day by making a to-do list.',
+      sentence: 'How do you organize your day to be productive every day?',
+    },
+    {
+      meaning: 'Onlar her hafta iş ve yaşamı nasıl dengeliyorlar?',
+      possibleAnswer: 'They balance work and life by setting boundaries.',
+      sentence: 'How do they balance work and life every week?',
+    },
+    {
+      meaning:
+        'O (kadın) sorunlar ortaya çıktığında onlarla nasıl başa çıkıyor?',
+      possibleAnswer:
+        'She deals with problems by staying calm and thinking logically.',
+      sentence: 'How does she deal with problems when they arise?',
+    },
+    {
+      meaning: 'Sen boş zamanlarında yeni şeyleri nasıl öğreniyorsun?',
+      possibleAnswer:
+        'I learn new things by reading books and watching videos.',
+      sentence: 'How do you learn new things in your free time?',
+    },
+    {
+      meaning:
+        'O (erkek) resmi eğitim olmadan becerilerini nasıl geliştiriyor?',
+      possibleAnswer: 'He improves his skills by practicing regularly.',
+      sentence: 'How does he improve his skills without formal training?',
+    },
+    {
+      meaning: 'Sen her gün işten sonra nasıl rahatlıyorsun?',
+      possibleAnswer: 'I relax by watching TV or reading a book.',
+      sentence: 'How do you relax after work every day?',
+    },
+    {
+      meaning: 'Biz hafta sonlarında boş zamanımızı nasıl değerlendiriyoruz?',
+      possibleAnswer:
+        'We enjoy our free time by going for walks and visiting friends.',
+      sentence: 'How do we enjoy our free time on weekends?',
+    },
+    {
+      meaning: 'Sen ailenle tatilleri nasıl kutluyorsun?',
+      possibleAnswer:
+        'I celebrate holidays by having special meals and family gatherings.',
+      sentence: 'How do you celebrate holidays with your family?',
+    },
+    {
+      meaning: 'O (erkek) her dönem sınavlara nasıl hazırlanıyor?',
+      possibleAnswer: 'He prepares for exams by studying a little every day.',
+      sentence: 'How does he prepare for exams every semester?',
+    },
+    {
+      meaning: 'Sen her gece yemeği nasıl yapıyorsun?',
+      possibleAnswer: 'I cook dinner by following recipes.',
+      sentence: 'How do you cook dinner every night?',
+    },
+    {
+      meaning: 'Onlar her gün okula nasıl gidiyorlar?',
+      possibleAnswer: 'They travel to school by bus.',
+      sentence: 'How do they travel to school every day?',
+    },
+    {
+      meaning: 'O (erkek) yoğun saatlerde işe nasıl gidip geliyor?',
+      possibleAnswer: 'He commutes to work by taking the train.',
+      sentence: 'How does he commute to work during rush hour?',
+    },
+    {
+      meaning: 'Sen her hafta market alışverişini nasıl yapıyorsun?',
+      possibleAnswer: 'I shop for groceries at the local market.',
+      sentence: 'How do you shop for groceries every week?',
+    },
+    {
+      meaning: 'Sen düzenli olarak nasıl para biriktiriyorsun?',
+      possibleAnswer: 'I save money by setting aside a portion of my income.',
+      sentence: 'How do you save money on a regular basis?',
+    },
+    {
+      meaning: 'Onlar her yaz tatillerini nasıl planlıyorlar?',
+      possibleAnswer:
+        'They plan their vacations by researching and booking early.',
+      sentence: 'How do they plan their vacations every summer?',
+    },
+    {
+      meaning: 'Sen her hafta sonu odanı nasıl temizliyorsun?',
+      possibleAnswer: 'I clean my room by organizing and dusting.',
+      sentence: 'How do you clean your room every weekend?',
+    },
+    {
+      meaning: 'O (kadın) her gün sağlığına nasıl bakıyor?',
+      possibleAnswer:
+        'She takes care of her health by eating well and exercising.',
+      sentence: 'How does she take care of her health every day?',
+    },
+    {
+      meaning: 'Sen tatillerde ailenle nasıl zaman geçiriyorsun?',
+      possibleAnswer:
+        'I spend time with my family by playing games and having meals together.',
+      sentence: 'How do you spend time with your family on holidays?',
+    },
+    {
+      meaning: 'Onlar okuldan sonra sporları nasıl yapıyorlar?',
+      possibleAnswer: 'They play sports by joining school teams.',
+      sentence: 'How do they play sports after school?',
+    },
+    {
+      meaning: 'Sen her sabah nasıl egzersiz yapıyorsun?',
+      possibleAnswer: 'I exercise by jogging in the park.',
+      sentence: 'How do you exercise every morning?',
+    },
+    {
+      meaning: 'Sen boş zamanlarında nasıl kitap okuyorsun?',
+      possibleAnswer: 'I read books by setting aside time each evening.',
+      sentence: 'How do you read books in your free time?',
+    },
+    {
+      meaning: 'Onlar hafta sonlarında filmleri nasıl izliyorlar?',
+      possibleAnswer: 'They watch movies by renting DVDs or streaming online.',
+      sentence: 'How do they watch movies on weekends?',
+    },
+    {
+      meaning: 'Sen her gün müziği nasıl dinliyorsun?',
+      possibleAnswer: 'I listen to music on my phone using a streaming app.',
+      sentence: 'How do you listen to music every day?',
+    },
+    {
+      meaning: 'Sen her gün iş için telefonunu nasıl kullanıyorsun?',
+      possibleAnswer: 'I use my phone to check emails and manage tasks.',
+      sentence: 'How do you use your phone for work every day?',
+    },
+    {
+      meaning: 'Sen arkadaşlarına e-postaları nasıl yazıyorsun?',
+      possibleAnswer: 'I write emails by typing them on my computer.',
+      sentence: 'How do you write emails to your friends?',
+    },
+    {
+      meaning: 'Sen günlük pratikle İngilizceni nasıl geliştiriyorsun?',
+      possibleAnswer:
+        'I improve my English by practicing speaking and listening.',
+      sentence: 'How do you improve your English with daily practice?',
+    },
+    {
+      meaning: 'Onlar evde İngilizce konuşma pratiğini nasıl yapıyorlar?',
+      possibleAnswer:
+        'They practice speaking English by talking to each other.',
+      sentence: 'How do they practice speaking English at home?',
+    },
+    {
+      meaning: 'Sen emin olmadığında nasıl karar veriyorsun?',
+      possibleAnswer: 'I make decisions by weighing the pros and cons.',
+      sentence: 'How do you make decisions when you are unsure?',
+    },
+    {
+      meaning: 'O (kadın) farklı etkinlikler için kıyafetlerini nasıl seçiyor?',
+      possibleAnswer: 'She chooses her clothes by considering the dress code.',
+      sentence: 'How does she choose her clothes for different events?',
+    },
+    {
+      meaning: 'Sen doğum günleri için hediyeleri nasıl alıyorsun?',
+      possibleAnswer: 'I buy gifts by thinking about what the person likes.',
+      sentence: 'How do you buy gifts for birthdays?',
+    },
+    {
+      meaning: 'Sen ailenle doğum günlerini nasıl kutluyorsun?',
+      possibleAnswer: 'I celebrate birthdays with my family by having a party.',
+      sentence: 'How do you celebrate birthdays with your family?',
+    },
+    {
+      meaning: 'Sen her sabah gününü nasıl planlıyorsun?',
+      possibleAnswer: 'I plan my day by making a to-do list.',
+      sentence: 'How do you plan your day every morning?',
+    },
+    {
+      meaning:
+        'Sen son teslim tarihlerini karşılamak için zamanını nasıl yönetiyorsun?',
+      possibleAnswer: 'I manage my time by prioritizing my tasks.',
+      sentence: 'How do you manage your time to meet deadlines?',
+    },
+    {
+      meaning: 'Onlar yeni yıl için hedeflerini nasıl belirliyorlar?',
+      possibleAnswer: 'They set goals by making resolutions.',
+      sentence: 'How do they set goals for the new year?',
+    },
+    {
+      meaning: 'Sen hedeflerine adım adım nasıl ulaşıyorsun?',
+      possibleAnswer: 'I achieve my goals by breaking them into smaller tasks.',
+      sentence: 'How do you achieve your goals step by step?',
+    },
+    {
+      meaning: 'Sen her gece sınavlara nasıl çalışıyorsun?',
+      possibleAnswer: 'I study for exams by reviewing my notes.',
+      sentence: 'How do you study for exams every night?',
+    },
+    {
+      meaning: 'Sen testler için bilgiyi nasıl ezberliyorsun?',
+      possibleAnswer: 'I memorize information by using flashcards.',
+      sentence: 'How do you memorize information for tests?',
+    },
+    {
+      meaning: 'O',
+      possibleAnswer: 'He uses social media by limiting his screen time.',
+      sentence: 'How does he use social media responsibly?',
+    },
+    {
+      meaning: '',
+      possibleAnswer: '',
+      sentence: ' (erkek) sosyal medyayı nasıl sorumlu bir şekilde kullanıyor?',
+    },
+    {
+      meaning: 'Sen her sabah haberleri nasıl takip ediyorsun?',
+      possibleAnswer: 'I stay updated by reading the newspaper.',
+      sentence: 'How do you stay updated with news every morning?',
+    },
+    {
+      meaning: 'Sen topluluğundaki diğerlerine nasıl yardım ediyorsun?',
+      possibleAnswer: 'I help others by volunteering.',
+      sentence: 'How do you help others in your community?',
+    },
+    {
+      meaning: 'Onlar sosyal nedenler için nasıl gönüllü oluyorlar?',
+      possibleAnswer: 'They volunteer by joining local organizations.',
+      sentence: 'How do they volunteer for social causes?',
+    },
+    {
+      meaning: 'Sen toplantılara nasıl zamanında katılıyorsun?',
+      possibleAnswer: 'I attend meetings by setting reminders.',
+      sentence: 'How do you attend meetings on time?',
+    },
+    {
+      meaning: 'Onlar bir takımı başarıya nasıl yönlendiriyorlar?',
+      possibleAnswer: 'They lead a team by being organized and supportive.',
+      sentence: 'How do they lead a team to success?',
+    },
+    {
+      meaning: 'Sen projeleri baştan sona nasıl yönetiyorsun?',
+      possibleAnswer: 'I manage projects by creating a timeline.',
+      sentence: 'How do you manage projects from start to finish?',
+    },
+    {
+      meaning: 'Sen gün boyunca nasıl verimli kalıyorsun?',
+      possibleAnswer: 'I stay productive by taking regular breaks.',
+      sentence: 'How do you stay productive throughout the day?',
+    },
+    {
+      meaning: 'Sen işte sunumları nasıl yapıyorsun?',
+      possibleAnswer: 'I give presentations by practicing beforehand.',
+      sentence: 'How do you give presentations at work?',
+    },
+    {
+      meaning: 'O (kadın) başkalarından gelen eleştirileri nasıl karşılıyor?',
+      possibleAnswer: 'She handles criticism by listening and reflecting.',
+      sentence: 'How does she handle criticism from others?',
+    },
+    {
+      meaning:
+        'Sen diğerlerini en iyi şekilde yapmaları için nasıl motive ediyorsun?',
+      possibleAnswer: 'I motivate others by encouraging them.',
+      sentence: 'How do you motivate others to do their best?',
+    },
+    {
+      meaning: 'Sen yeni şeyleri nasıl hızlı öğreniyorsun?',
+      possibleAnswer: 'I learn new things by practicing regularly.',
+      sentence: 'How do you learn new things quickly?',
+    },
+    {
+      meaning: 'Sen akranlarınla olan çatışmaları nasıl çözüyorsun?',
+      possibleAnswer: 'I solve conflicts by communicating openly.',
+      sentence: 'How do you solve conflicts with your peers?',
+    },
+    {
+      meaning: 'Sen işte zor insanlarla nasıl başa çıkıyorsun?',
+      possibleAnswer: 'I deal with difficult people by staying calm.',
+      sentence: 'How do you deal with difficult people at work?',
+    },
+    {
+      meaning: 'Sen arkadaşlarınla ilişkileri nasıl sürdürüyorsun?',
+      possibleAnswer: 'I maintain relationships by staying in touch.',
+      sentence: 'How do you maintain relationships with your friends?',
+    },
+    {
+      meaning: 'Sen meslektaşlarına takdiri nasıl gösteriyorsun?',
+      possibleAnswer: 'I show appreciation by saying thank you.',
+      sentence: 'How do you show appreciation to your colleagues?',
+    },
+    {
+      meaning: 'Sen zor zamanlarda nasıl olumlu kalıyorsun?',
+      possibleAnswer: 'I stay positive by focusing on the good things.',
+      sentence: 'How do you stay positive during tough times?',
+    },
+    {
+      meaning: 'Sen hayatındaki değişiklikleri nasıl yönetiyorsun?',
+      possibleAnswer: 'I handle change by being flexible.',
+      sentence: 'How do you handle change in your life?',
+    },
+    {
+      meaning:
+        'Sen işverenleri etkilemek için mülakatlara nasıl hazırlanıyorsun?',
+      possibleAnswer: 'I prepare for interviews by researching the company.',
+      sentence: 'How do you prepare for interviews to impress employers?',
+    },
+    {
+      meaning: 'Sen kendi alanında iş fırsatlarını nasıl buluyorsun?',
+      possibleAnswer: 'I find job opportunities by networking.',
+      sentence: 'How do you find job opportunities in your field?',
+    },
+    {
+      meaning: 'Sen öne çıkacak bir özgeçmişi nasıl yazıyorsun?',
+      possibleAnswer: 'I write a resume by highlighting my achievements.',
+      sentence: 'How do you write a resume to stand out?',
+    },
+    {
+      meaning: 'Sen çevrimiçi iş başvurularını nasıl yapıyorsun?',
+      possibleAnswer: 'I apply for jobs by using job search websites.',
+      sentence: 'How do you apply for jobs online?',
+    },
+    {
+      meaning: 'Sen maaşları güvenle nasıl pazarlık ediyorsun?',
+      possibleAnswer: 'I negotiate salaries by knowing my worth.',
+      sentence: 'How do you negotiate salaries with confidence?',
+    },
+    {
+      meaning: 'Sen kendi sektöründeki profesyonellerle nasıl ağ kuruyorsun?',
+      possibleAnswer: 'I network by attending industry events.',
+      sentence: 'How do you network with professionals in your industry?',
+    },
+    {
+      meaning: 'Sen tutkulu olduğun bir kariyeri nasıl inşa ediyorsun?',
+      possibleAnswer: 'I build a career by following my interests.',
+      sentence: 'How do you build a career you are passionate about?',
+    },
+    {
+      meaning: 'Sen zaman içinde kariyerinde nasıl ilerliyorsun?',
+      possibleAnswer: 'I advance in my career by taking on new challenges.',
+      sentence: 'How do you advance in your career over time?',
+    },
+    {
+      meaning: 'Onlar kariyerlerini nasıl başarıyla değiştiriyorlar?',
+      possibleAnswer: 'They switch careers by gaining new skills.',
+      sentence: 'How do they switch careers successfully?',
+    },
+    {
+      meaning: 'Sen sınırlı kaynaklarla bir işi nasıl başlatıyorsun?',
+      possibleAnswer: 'I start a business by being resourceful.',
+      sentence: 'How do you start a business with limited resources?',
+    },
+    {
+      meaning: 'Sen işini müşterileri çekmek için nasıl pazarlıyorsun?',
+      possibleAnswer: 'I market my business by using social media.',
+      sentence: 'How do you market your business to attract customers?',
+    },
+    {
+      meaning: 'Sen bütçede kalmak için mali durumunu nasıl yönetiyorsun?',
+      possibleAnswer: 'I manage finances by tracking expenses.',
+      sentence: 'How do you manage finances to stay on budget?',
+    },
+    {
+      meaning: 'Sen her ay faturalarını nasıl zamanında ödüyorsun?',
+      possibleAnswer: 'I pay bills by setting up automatic payments.',
+      sentence: 'How do you pay bills on time every month?',
+    },
+    {
+      meaning: 'Sen parayı nasıl akıllıca yatırıyorsun?',
+      possibleAnswer: 'I invest money by doing research.',
+      sentence: 'How do you invest money wisely?',
+    },
+    {
+      meaning: 'Sen harcamalarını nasıl etkili bir şekilde bütçeliyorsun?',
+      possibleAnswer: 'I budget my expenses by planning ahead.',
+      sentence: 'How do you budget your expenses effectively?',
+    },
+    {
+      meaning: 'Sen genç yaştan itibaren emeklilik için nasıl biriktiriyorsun?',
+      possibleAnswer:
+        'I save for retirement by contributing to a savings plan.',
+      sentence: 'How do you save for retirement from a young age?',
+    },
+    {
+      meaning: 'Sen geleceği nasıl güvenle planlıyorsun?',
+      possibleAnswer: 'I plan for the future by setting long-term goals.',
+      sentence: 'How do you plan for the future with confidence?',
+    },
+    {
+      meaning: 'Sen acil durumları nasıl sakin bir şekilde yönetiyorsun?',
+      possibleAnswer: 'I handle emergencies by staying focused.',
+      sentence: 'How do you handle emergencies calmly?',
+    },
+    {
+      meaning: 'Sen stresi sağlıklı bir şekilde nasıl yönetiyorsun?',
+      possibleAnswer: 'I deal with stress by practicing mindfulness.',
+      sentence: 'How do you deal with stress in a healthy way?',
+    },
+    {
+      meaning: 'Sen kayıp ve üzüntü ile nasıl başa çıkıyorsun?',
+      possibleAnswer: 'I cope with loss by talking to friends.',
+      sentence: 'How do you cope with loss and grief?',
+    },
+    {
+      meaning: 'Sen çatışmaları önlemek için programını nasıl yönetiyorsun?',
+      possibleAnswer: 'I manage my schedule by using a calendar.',
+      sentence: 'How do you manage your schedule to avoid conflicts?',
+    },
+    {
+      meaning: 'Sen evini nasıl düzenli ve temiz tutuyorsun?',
+      possibleAnswer: 'I keep my home organized by tidying up daily.',
+      sentence: 'How do you keep your home organized and clean?',
+    },
+    {
+      meaning: 'Sen hafta için yemekleri nasıl planlıyorsun?',
+      possibleAnswer: 'I plan meals by making a menu.',
+      sentence: 'How do you plan meals for the week?',
+    },
+    {
+      meaning: 'Sen evcil hayvanlara sorumlu bir şekilde nasıl bakıyorsun?',
+      possibleAnswer: 'I take care of pets by feeding them on time.',
+      sentence: 'How do you take care of pets responsibly?',
+    },
+    {
+      meaning: 'Sen çocuklarına önemli değerleri nasıl öğretiyorsun?',
+      possibleAnswer: 'I teach my children values by setting a good example.',
+      sentence: 'How do you teach your children important values?',
+    },
+    {
+      meaning: 'Sen çocukları sevgiyle nasıl disipline ediyorsun?',
+      possibleAnswer: 'I discipline children by being firm but kind.',
+      sentence: 'How do you discipline children with love?',
+    },
+    {
+      meaning: 'Sen nasıl mutlu ve memnun kalıyorsun?',
+      possibleAnswer: 'I stay happy by focusing on positive things.',
+      sentence: 'How do you stay happy and content?',
+    },
+    {
+      meaning: 'Sen iş-yaşam dengesini nasıl başarılı bir şekilde sağlıyorsun?',
+      possibleAnswer: 'I maintain work-life balance by setting boundaries.',
+      sentence: 'How do you maintain a work-life balance successfully?',
+    },
+    {
+      meaning: 'Sen başarıları ekibinle nasıl kutluyorsun?',
+      possibleAnswer:
+        "I celebrate achievements by recognizing everyone's efforts.",
+      sentence: 'How do you celebrate achievements with your team?',
+    },
+    {
+      meaning: 'Sen özel günler için etkinlikleri nasıl planlıyorsun?',
+      possibleAnswer: 'I plan events by organizing all the details.',
+      sentence: 'How do you plan events for special occasions?',
+    },
+    {
+      meaning: 'Sen hedeflerine nasıl odaklanıyorsun?',
+      possibleAnswer: 'I stay focused on my goals by reviewing them regularly.',
+      sentence: 'How do you stay focused on your goals?',
+    },
+  ],
+  B3: [
+    {
+      meaning: 'Bu gece akşam yemeğini nasıl pişiriyorsun?',
+      possibleAnswer: 'I am using a recipe and cooking on the stove.',
+      sentence: 'How are you cooking dinner tonight?',
+    },
+    {
+      meaning: 'O sınav için nasıl çalışıyor?',
+      possibleAnswer:
+        'He is reading his textbook and doing practice exercises.',
+      sentence: 'How is he studying for his test?',
+    },
+    {
+      meaning: 'Onlar evi nasıl temizliyorlar?',
+      possibleAnswer:
+        'They are vacuuming the floors and dusting the furniture.',
+      sentence: 'How are they cleaning the house?',
+    },
+    {
+      meaning: 'O okula nasıl hazırlanıyor?',
+      possibleAnswer: 'She is packing her backpack and getting dressed.',
+      sentence: 'How is she getting ready for school?',
+    },
+    {
+      meaning: 'Arkadaşlarınla nasıl oynuyorsun?',
+      possibleAnswer: 'We are playing a board game and having fun.',
+      sentence: 'How are you playing with your friends?',
+    },
+    {
+      meaning: 'O yatağını nasıl yapıyor?',
+      possibleAnswer:
+        'He is straightening the sheets and fluffing the pillows.',
+      sentence: 'How is he making his bed?',
+    },
+    {
+      meaning: 'Onlar arabayı nasıl tamir ediyorlar?',
+      possibleAnswer: 'They are changing the oil and checking the tires.',
+      sentence: 'How are they fixing the car?',
+    },
+    {
+      meaning: 'O kitabını nasıl okuyor?',
+      possibleAnswer: 'She is sitting on the couch and turning the pages.',
+      sentence: 'How is she reading her book?',
+    },
+    {
+      meaning: 'Bitkileri nasıl suluyorsun?',
+      possibleAnswer: 'I am using a watering can and giving them some water.',
+      sentence: 'How are you watering the plants?',
+    },
+    {
+      meaning: "O TV'yi nasıl izliyor?",
+      possibleAnswer: ' He is sitting in the living room and enjoying a movie.',
+      sentence: 'How is he watching TV?',
+    },
+    {
+      meaning: 'Onlar kahvaltıyı nasıl hazırlıyorlar?',
+      possibleAnswer: ' They are making eggs and toast in the kitchen.',
+      sentence: 'How are they preparing breakfast?',
+    },
+    {
+      meaning: 'O ödevini nasıl yazıyor?',
+      possibleAnswer: ' She is sitting at her desk and using a pen.',
+      sentence: 'How is she writing her homework?',
+    },
+    {
+      meaning: 'İngilizceyi nasıl çalışıyorsun?',
+      possibleAnswer:
+        ' I am practicing with flashcards and doing exercises online.',
+      sentence: 'How are you studying English?',
+    },
+    {
+      meaning: 'O piyano çalmayı nasıl yapıyor?',
+      possibleAnswer: ' He is pressing the keys and reading music notes.',
+      sentence: 'How is he playing the piano?',
+    },
+    {
+      meaning: 'Onlar market alışverişini nasıl yapıyorlar?',
+      possibleAnswer:
+        ' They are going to the supermarket and picking out fruits and vegetables.',
+      sentence: 'How are they shopping for groceries?',
+    },
+    {
+      meaning: 'O duş almayı nasıl yapıyor?',
+      possibleAnswer: ' She is using soap and rinsing with water.',
+      sentence: 'How is she taking a shower?',
+    },
+    {
+      meaning: 'Bir resim nasıl çiziyorsun?',
+      possibleAnswer: ' I am using colored pencils and sketching on paper.',
+      sentence: 'How are you drawing a picture?',
+    },
+    {
+      meaning: 'O öğle yemeğini nasıl yiyor?',
+      possibleAnswer: ' He is sitting at the table and eating a sandwich.',
+      sentence: 'How is he eating his lunch?',
+    },
+    {
+      meaning: 'Onlar arkadaşlarını nasıl ziyaret ediyorlar?',
+      possibleAnswer: ' They are going to their friends’ house and chatting.',
+      sentence: 'How are they visiting their friends?',
+    },
+    {
+      meaning: 'O kedisini nasıl besliyor?',
+      possibleAnswer:
+        ' She is giving it some cat food and filling its water bowl.',
+      sentence: 'How is she feeding her cat?',
+    },
+    {
+      meaning: 'Bir oyun nasıl oynuyorsun?',
+      possibleAnswer: ' I am following the rules and having a good time.',
+      sentence: 'How are you playing a game?',
+    },
+    {
+      meaning: 'O odasını nasıl temizliyor?',
+      possibleAnswer: ' He is putting away toys and making his bed.',
+      sentence: 'How is he cleaning his room?',
+    },
+    {
+      meaning: 'Onlar müzik dinlemeyi nasıl yapıyorlar?',
+      possibleAnswer:
+        ' They are using headphones and playing songs on their phone.',
+      sentence: 'How are they listening to music?',
+    },
+    {
+      meaning: 'O öğle yemeğini nasıl hazırlıyor?',
+      possibleAnswer: ' She is making a salad and cutting vegetables.',
+      sentence: 'How is she preparing lunch?',
+    },
+    {
+      meaning: 'Bir film nasıl izliyorsun?',
+      possibleAnswer: ' I am sitting on the couch and enjoying the film.',
+      sentence: 'How are you watching a movie?',
+    },
+    {
+      meaning: 'O yeni kelimeleri nasıl öğreniyor?',
+      possibleAnswer:
+        ' He is using a dictionary and practicing with flashcards.',
+      sentence: 'How is he learning new words?',
+    },
+    {
+      meaning: 'Onlar kurabiye nasıl yapıyorlar?',
+      possibleAnswer:
+        ' They are mixing ingredients and baking them in the oven.',
+      sentence: 'How are they making cookies?',
+    },
+    {
+      meaning: 'O masayı nasıl kuruyor?',
+      possibleAnswer:
+        ' She is placing plates, forks, and glasses on the table.',
+      sentence: 'How is she setting the table?',
+    },
+    {
+      meaning: 'Dersin için nasıl çalışıyorsun?',
+      possibleAnswer: ' I am reading my notes and doing practice problems.',
+      sentence: 'How are you studying for your class?',
+    },
+    {
+      meaning: 'O bir resim nasıl çiziyor?',
+      possibleAnswer:
+        ' He is using a pencil and sketching on a piece of paper.',
+      sentence: 'How is he drawing a picture?',
+    },
+    {
+      meaning: 'Onlar dışarıda nasıl oynuyorlar?',
+      possibleAnswer: ' They are running around and playing tag in the yard.',
+      sentence: 'How are they playing outside?',
+    },
+    {
+      meaning: 'O bulaşıkları nasıl yıkıyor?',
+      possibleAnswer:
+        ' She is scrubbing them with soap and rinsing them with water.',
+      sentence: 'How is she washing the dishes?',
+    },
+    {
+      meaning: 'Köpeğini nasıl besliyorsun?',
+      possibleAnswer:
+        ' I am giving it some dog food and filling its water bowl.',
+      sentence: 'How are you feeding your dog?',
+    },
+    {
+      meaning: 'O büyükanne ve büyükbabalarını nasıl ziyaret ediyor?',
+      possibleAnswer:
+        ' He is going to their house and spending time with them.',
+      sentence: 'How is he visiting his grandparents?',
+    },
+    {
+      meaning: 'Onlar ödevlerini nasıl yapıyorlar?',
+      possibleAnswer: ' They are working on their assignments at the desk.',
+      sentence: 'How are they doing their homework?',
+    },
+    {
+      meaning: 'O bir sandviç nasıl yapıyor?',
+      possibleAnswer:
+        ' She is spreading butter and adding ingredients between two slices of bread.',
+      sentence: 'How is she making a sandwich?',
+    },
+    {
+      meaning: 'Ailenle nasıl konuşuyorsun?',
+      possibleAnswer: ' I am calling them on the phone and sharing news.',
+      sentence: 'How are you talking to your family?',
+    },
+    {
+      meaning: 'O yürüyüş yapmayı nasıl yapıyor?',
+      possibleAnswer:
+        ' He is strolling around the neighborhood and enjoying the fresh air.',
+      sentence: 'How is he taking a walk?',
+    },
+    {
+      meaning: 'Onlar partiyi nasıl hazırlıyorlar?',
+      possibleAnswer: ' They are arranging decorations and preparing snacks.',
+      sentence: 'How are they setting up the party?',
+    },
+    {
+      meaning: 'O bahçeyi nasıl suluyor?',
+      possibleAnswer: ' She is using a hose and giving water to the plants.',
+      sentence: 'How is she watering the garden?',
+    },
+    {
+      meaning: 'Bir mektup nasıl yazıyorsun?',
+      possibleAnswer: ' I am using a pen and writing on a piece of paper.',
+      sentence: 'How are you writing a letter?',
+    },
+    {
+      meaning: 'O gazeteyi nasıl okuyor?',
+      possibleAnswer:
+        ' He is sitting at the kitchen table and turning the pages.',
+      sentence: 'How is he reading the newspaper?',
+    },
+    {
+      meaning: 'Onlar yolculuk için nasıl hazırlanıyorlar?',
+      possibleAnswer: ' They are packing their bags and making travel plans.',
+      sentence: 'How are they preparing for the trip?',
+    },
+    {
+      meaning: 'O kitaplarını nasıl düzenliyor?',
+      possibleAnswer: ' She is arranging them on the shelf by size and type.',
+      sentence: 'How is she organizing her books?',
+    },
+    {
+      meaning: 'Ailene nasıl yardım ediyorsun?',
+      possibleAnswer: ' I am doing chores and assisting with cooking.',
+      sentence: 'How are you helping your parents?',
+    },
+    {
+      meaning: 'O futbol becerilerini nasıl pratik yapıyor?',
+      possibleAnswer: ' He is dribbling the ball and practicing his kicks.',
+      sentence: 'How is he practicing his soccer skills?',
+    },
+    {
+      meaning: 'Onlar sandalyeleri nasıl düzenliyorlar?',
+      possibleAnswer:
+        ' They are placing them in a circle and making sure they are even.',
+      sentence: 'How are they arranging the chairs?',
+    },
+    {
+      meaning: 'O makyajını nasıl yapıyor?',
+      possibleAnswer: ' She is applying foundation and brushing on eye shadow.',
+      sentence: 'How is she doing her makeup?',
+    },
+    {
+      meaning: 'Evcil hayvanınla nasıl oynuyorsun?',
+      possibleAnswer: ' I am throwing a ball and watching it chase after it.',
+      sentence: 'How are you playing with your pet?',
+    },
+    {
+      meaning: 'O kıyafet alışverişini nasıl yapıyor?',
+      possibleAnswer:
+        ' He is trying on different outfits and choosing what he likes.',
+      sentence: 'How is he shopping for clothes?',
+    },
+    {
+      meaning: 'Kitaplarını nasıl düzenliyorsun?',
+      possibleAnswer: 'I am sorting them by genre and author.',
+      sentence: 'How are you organizing your books?',
+    },
+    {
+      meaning: 'O bir sandviç nasıl yapıyor?',
+      possibleAnswer: 'She is spreading butter and adding ham and cheese.',
+      sentence: 'How is she making a sandwich?',
+    },
+    {
+      meaning: 'Onlar satranç nasıl oynuyorlar?',
+      possibleAnswer: 'They are moving the pieces according to the rules.',
+      sentence: 'How are they playing chess?',
+    },
+    {
+      meaning: 'O kırık sandalyeyi nasıl tamir ediyor?',
+      possibleAnswer: 'He is tightening the screws and checking the joints.',
+      sentence: 'How is he fixing the broken chair?',
+    },
+    {
+      meaning: 'Odanı nasıl temizliyorsun?',
+      possibleAnswer: 'I am dusting the shelves and vacuuming the carpet.',
+      sentence: 'How are you cleaning your room?',
+    },
+    {
+      meaning: 'O fen sınavı için nasıl çalışıyor?',
+      possibleAnswer: 'She is reviewing her notes and doing practice problems.',
+      sentence: 'How is she studying for her science exam?',
+    },
+    {
+      meaning: 'Onlar akşam yemeğini nasıl pişiriyorlar?',
+      possibleAnswer:
+        'They are chopping vegetables and cooking them on the stove.',
+      sentence: 'How are they cooking dinner?',
+    },
+    {
+      meaning: 'O konuşmasını nasıl hazırlıyor?',
+      possibleAnswer:
+        'He is writing notes and practicing in front of a mirror.',
+      sentence: 'How is he preparing his speech?',
+    },
+    {
+      meaning: 'Evcil hayvanına nasıl bakıyorsun?',
+      possibleAnswer: 'I am feeding it and taking it for a walk.',
+      sentence: 'How are you taking care of your pet?',
+    },
+    {
+      meaning: 'O keman çalmayı nasıl yapıyor?',
+      possibleAnswer:
+        ' She is following the sheet music and practicing her scales.',
+      sentence: 'How is she playing the violin?',
+    },
+    {
+      meaning: 'Onlar büyükanne ve büyükbabalarını nasıl ziyaret ediyorlar?',
+      possibleAnswer: ' They are bringing gifts and spending time together.',
+      sentence: 'How are they visiting their grandparents?',
+    },
+    {
+      meaning: 'O arabayı nasıl yıkıyor?',
+      possibleAnswer: ' He is using soap and a sponge to clean the exterior.',
+      sentence: 'How is he washing the car?',
+    },
+    {
+      meaning: 'Sürpriz bir parti nasıl organize ediyorsun?',
+      possibleAnswer:
+        ' I am planning the guest list and arranging the decorations.',
+      sentence: 'How are you organizing a surprise party?',
+    },
+    {
+      meaning: 'O bir fotoğraf nasıl çekiyor?',
+      possibleAnswer: ' She is using her camera and focusing on the subject.',
+      sentence: 'How is she taking a photo?',
+    },
+    {
+      meaning: 'Onlar çadırı nasıl kuruyorlar?',
+      possibleAnswer:
+        ' They are laying out the fabric and inserting the poles.',
+      sentence: 'How are they setting up the tent?',
+    },
+    {
+      meaning: 'O gitarını nasıl çalıyor?',
+      possibleAnswer: ' He is playing chords and learning new songs.',
+      sentence: 'How is he practicing his guitar?',
+    },
+    {
+      meaning: 'Odanı nasıl dekore ediyorsun?',
+      possibleAnswer: ' I am adding new curtains and arranging the furniture.',
+      sentence: 'How are you decorating your room?',
+    },
+    {
+      meaning: 'O kek yapmayı nasıl öğreniyor?',
+      possibleAnswer:
+        ' She is following recipes and experimenting with different flavors.',
+      sentence: 'How is she learning to bake cakes?',
+    },
+    {
+      meaning: 'Onlar yeni kıyafetler için nasıl alışveriş yapıyorlar?',
+      possibleAnswer:
+        ' They are trying on different outfits and choosing what they like.',
+      sentence: 'How are they shopping for new clothes?',
+    },
+    {
+      meaning: 'O öğle yemeğini nasıl hazırlıyor?',
+      possibleAnswer: ' He is making a salad and packing it into a container.',
+      sentence: 'How is he preparing his lunch?',
+    },
+    {
+      meaning: 'Bahçeyi nasıl suluyorsun?',
+      possibleAnswer:
+        ' I am using a hose and making sure each plant gets enough water.',
+      sentence: 'How are you watering the garden?',
+    },
+    {
+      meaning: 'O dolabını nasıl düzenliyor?',
+      possibleAnswer: ' She is folding clothes and arranging them by type.',
+      sentence: 'How is she organizing her closet?',
+    },
+    {
+      meaning: 'Onlar sızdıran musluğu nasıl tamir ediyorlar?',
+      possibleAnswer:
+        ' They are replacing the washer and tightening the fittings.',
+      sentence: 'How are they fixing the leaky faucet?',
+    },
+    {
+      meaning: 'O maçı nasıl izliyor?',
+      possibleAnswer: ' He is sitting on the couch and cheering for his team.',
+      sentence: 'How is he watching the game?',
+    },
+    {
+      meaning: 'Ödevini nasıl yapıyorsun?',
+      possibleAnswer:
+        ' I am working at my desk and following the instructions.',
+      sentence: 'How are you doing your homework?',
+    },
+    {
+      meaning: 'O araba kullanmayı nasıl öğreniyor?',
+      possibleAnswer: ' She is taking driving lessons and practicing in a car.',
+      sentence: 'How is she learning to drive?',
+    },
+    {
+      meaning: 'Onlar çiçekleri nasıl düzenliyorlar?',
+      possibleAnswer: ' They are cutting the stems and placing them in a vase.',
+      sentence: 'How are they arranging the flowers?',
+    },
+    {
+      meaning: 'O mutfağı nasıl temizliyor?',
+      possibleAnswer: ' He is washing the dishes and wiping down the counters.',
+      sentence: 'How is he cleaning the kitchen?',
+    },
+    {
+      meaning: 'Yoga yapmayı nasıl pratik ediyorsun?',
+      possibleAnswer: ' I am following a video and doing different poses.',
+      sentence: 'How are you practicing yoga?',
+    },
+    {
+      meaning: 'O sunum için nasıl hazırlanıyor?',
+      possibleAnswer: ' She is creating slides and rehearsing her speech.',
+      sentence: 'How is she preparing for the presentation?',
+    },
+    {
+      meaning: 'Onlar kurabiye nasıl yapıyorlar?',
+      possibleAnswer:
+        ' They are mixing ingredients and baking them in the oven.',
+      sentence: 'How are they making cookies?',
+    },
+    {
+      meaning: 'O İspanyolca konuşmayı nasıl öğreniyor?',
+      possibleAnswer:
+        ' He is taking a language course and practicing with a tutor.',
+      sentence: 'How is he learning to speak Spanish?',
+    },
+    {
+      meaning: 'Toplantıya nasıl katılıyorsun?',
+      possibleAnswer: ' I am joining the video call and taking notes.',
+      sentence: 'How are you attending the meeting?',
+    },
+    {
+      meaning: 'O köpeğini nasıl yürüyüşe çıkarıyor?',
+      possibleAnswer:
+        ' She is putting on the leash and walking around the block.',
+      sentence: 'How is she taking her dog for a walk?',
+    },
+    {
+      meaning: 'Onlar pencereleri nasıl temizliyorlar?',
+      possibleAnswer:
+        ' They are using a squeegee and window cleaner to wipe them down.',
+      sentence: 'How are they cleaning the windows?',
+    },
+    {
+      meaning: 'O basketbolu nasıl oynuyor?',
+      possibleAnswer:
+        ' He is shooting hoops and running up and down the court.',
+      sentence: 'How is he playing basketball?',
+    },
+    {
+      meaning: 'Bir anı defteri nasıl yapıyorsun?',
+      possibleAnswer: ' I am collecting photos and decorating the pages.',
+      sentence: 'How are you making a scrapbook?',
+    },
+    {
+      meaning: 'O market alışverişini nasıl yapıyor?',
+      possibleAnswer: ' She is making a list and going to the supermarket.',
+      sentence: 'How is she buying groceries?',
+    },
+    {
+      meaning: 'Onlar parti için nasıl dekorasyon yapıyorlar?',
+      possibleAnswer: ' They are hanging balloons and setting up a food table.',
+      sentence: 'How are they decorating for the party?',
+    },
+    {
+      meaning: 'O yolculuk için nasıl hazırlanıyor?',
+      possibleAnswer:
+        ' He is packing his suitcase and checking his travel documents.',
+      sentence: 'How is he preparing for his trip?',
+    },
+    {
+      meaning: 'Yüzmeyi nasıl öğreniyorsun?',
+      possibleAnswer:
+        ' I am taking swimming lessons and practicing in the pool.',
+      sentence: 'How are you learning to swim?',
+    },
+    {
+      meaning: 'O etkinliği nasıl düzenliyor?',
+      possibleAnswer:
+        ' She is arranging the schedule and coordinating with the guests.',
+      sentence: 'How is she organizing the event?',
+    },
+    {
+      meaning: 'Onlar dans rutinlerini nasıl pratik yapıyorlar?',
+      possibleAnswer:
+        ' They are rehearsing their steps and perfecting their moves.',
+      sentence: 'How are they practicing their dance routine?',
+    },
+    {
+      meaning: 'O kahve nasıl yapıyor?',
+      possibleAnswer: ' He is grinding beans and brewing a fresh pot.',
+      sentence: 'How is he making coffee?',
+    },
+    {
+      meaning: 'Hayvanat bahçesindeki hayvanları nasıl besliyorsun?',
+      possibleAnswer:
+        ' I am following the zookeeper’s instructions and giving them the right food.',
+      sentence: 'How are you feeding the animals at the zoo?',
+    },
+    {
+      meaning: 'O bir hikaye nasıl yazıyor?',
+      possibleAnswer: ' She is brainstorming ideas and typing on her computer.',
+      sentence: 'How is she writing a story?',
+    },
+    {
+      meaning: 'Onlar konsere nasıl katılıyorlar?',
+      possibleAnswer: ' They are buying tickets and finding their seats.',
+      sentence: 'How are they attending the concert?',
+    },
+    {
+      meaning: 'O bisikleti nasıl tamir ediyor?',
+      possibleAnswer: ' He is adjusting the brakes and inflating the tires.',
+      sentence: 'How is he fixing the bicycle?',
+    },
+    {
+      meaning: 'Fotoğraflarını nasıl düzenliyorsun?',
+      possibleAnswer: ' I am sorting them into albums and labeling them.',
+      sentence: 'How are you organizing your photos?',
+    },
+    {
+      meaning: 'O hediyeler için nasıl alışveriş yapıyor?',
+      possibleAnswer:
+        ' She is looking for ideas and choosing presents for her friends.',
+      sentence: 'How is she shopping for gifts?',
+    },
+    {
+      meaning: 'Onlar İngilizceyi nasıl pratik yapıyorlar?',
+      possibleAnswer:
+        ' They are having conversations and doing language exercises.',
+      sentence: 'How are they practicing their English?',
+    },
+    {
+      meaning: 'O pizza nasıl yapıyor?',
+      possibleAnswer: ' He is preparing the dough and adding toppings.',
+      sentence: 'How is he making a pizza?',
+    },
+    {
+      meaning: 'Hafta sonunu nasıl planlıyorsun?',
+      possibleAnswer: ' I am deciding on activities and making reservations.',
+      sentence: 'How are you planning your weekend?',
+    },
+    {
+      meaning: 'O masayı nasıl kuruyor?',
+      possibleAnswer:
+        ' She is placing plates, cutlery, and glasses for dinner.',
+      sentence: 'How is she setting the table?',
+    },
+    {
+      meaning: 'Onlar parka nasıl gidiyorlar?',
+      possibleAnswer: ' They are walking there and bringing a picnic.',
+      sentence: 'How are they going to the park?',
+    },
+    {
+      meaning: 'O bir resim nasıl çiziyor?',
+      possibleAnswer: ' He is sketching with pencils and adding colors.',
+      sentence: 'How is he drawing a picture?',
+    },
+    {
+      meaning: 'Ekmek nasıl pişiriyorsun?',
+      possibleAnswer:
+        ' I am mixing the dough and letting it rise before baking.',
+      sentence: 'How are you baking bread?',
+    },
+    {
+      meaning: 'O bitkilerine nasıl bakıyor?',
+      possibleAnswer: ' She is watering them and removing any dead leaves.',
+      sentence: 'How is she taking care of her plants?',
+    },
+    {
+      meaning: 'Onlar sandalyeleri nasıl düzenliyorlar?',
+      possibleAnswer:
+        ' They are setting them in rows and making sure they are evenly spaced.',
+      sentence: 'How are they arranging the chairs?',
+    },
+    {
+      meaning: 'O radyoyu nasıl dinliyor?',
+      possibleAnswer:
+        ' He is tuning in to his favorite station and enjoying the music.',
+      sentence: 'How is he listening to the radio?',
+    },
+    {
+      meaning: 'Parti için nasıl hazırlanıyorsun?',
+      possibleAnswer: ' I am planning the menu and decorating the venue.',
+      sentence: 'How are you preparing for the party?',
+    },
+    {
+      meaning: 'O sebzeleri nasıl yıkıyor?',
+      possibleAnswer:
+        ' She is rinsing them under cold water and scrubbing them.',
+      sentence: 'How is she washing the vegetables?',
+    },
+    {
+      meaning: 'Onlar market alışverişini nasıl yapıyorlar?',
+      possibleAnswer: ' They are making a list and visiting different stores.',
+      sentence: 'How are they going grocery shopping?',
+    },
+    {
+      meaning: 'O bir maket nasıl yapıyor?',
+      possibleAnswer:
+        ' He is following instructions and assembling the pieces.',
+      sentence: 'How is he building a model?',
+    },
+    {
+      meaning: 'Bir resim nasıl boyuyorsun?',
+      possibleAnswer: ' I am using brushes and paint to create the artwork.',
+      sentence: 'How are you painting a picture?',
+    },
+    {
+      meaning: 'O bilgisayarını nasıl kuruyor?',
+      possibleAnswer: ' She is connecting the cables and installing software.',
+      sentence: 'How is she setting up her computer?',
+    },
+    {
+      meaning: 'Onlar bir film nasıl yapıyorlar?',
+      possibleAnswer: ' They are writing the script and filming scenes.',
+      sentence: 'How are they making a film?',
+    },
+    {
+      meaning: 'O kedisini nasıl besliyor?',
+      possibleAnswer:
+        ' He is putting food in its bowl and ensuring it has fresh water.',
+      sentence: 'How is he feeding his cat?',
+    },
+    {
+      meaning: 'Yemek yapmayı nasıl öğreniyorsun?',
+      possibleAnswer: ' I am watching cooking shows and trying new recipes.',
+      sentence: 'How are you learning to cook?',
+    },
+    {
+      meaning: 'O ayakkabılarını nasıl temizliyor?',
+      possibleAnswer: ' She is using a brush and cleaner to remove dirt.',
+      sentence: 'How is she cleaning her shoes?',
+    },
+  ],
+  B4: [
+    {
+      meaning: 'Sen tatilini şimdiye kadar nasıl geçirdin?',
+      possibleAnswer: 'I have enjoyed it a lot. The weather has been perfect.',
+      sentence: 'How have you enjoyed your vacation so far?',
+    },
+    {
+      meaning:
+        'O (kadın) son zamanlarda yemek pişirme becerilerini nasıl geliştirdi?',
+      possibleAnswer:
+        'She has been taking cooking classes and trying new recipes.',
+      sentence: 'How has she improved her cooking skills recently?',
+    },
+    {
+      meaning: 'Onlar işteki yeni değişiklikleri nasıl hissettiler?',
+      possibleAnswer:
+        'They have felt mixed emotions, some are excited and others are concerned.',
+      sentence: 'How have they felt about the new changes at work?',
+    },
+    {
+      meaning: 'O (erkek) gitar çalmayı nasıl öğrendi?',
+      possibleAnswer:
+        'He has learned by taking online lessons and practicing regularly.',
+      sentence: 'How has he learned to play the guitar?',
+    },
+    {
+      meaning: 'Sen bu kadar düzenli kalmayı nasıl başardın?',
+      possibleAnswer: 'I have used a planner and set reminders for my tasks.',
+      sentence: 'How have you managed to stay so organized?',
+    },
+    {
+      meaning: 'O (kadın) yeni işine nasıl uyum sağladı?',
+      possibleAnswer:
+        'She has adjusted by asking for feedback and learning the new systems quickly.',
+      sentence: 'How has she adjusted to her new job?',
+    },
+    {
+      meaning: 'Onlar bu yıl yıldönümlerini nasıl kutladılar?',
+      possibleAnswer:
+        'They have celebrated by going on a special trip together.',
+      sentence: 'How have they celebrated their anniversary this year?',
+    },
+    {
+      meaning: 'O (erkek) yeni bir şehirde yaşamayı nasıl buldu?',
+      possibleAnswer:
+        'He has found it exciting but also challenging to adjust to a new environment.',
+      sentence: 'How has he found living in a new city?',
+    },
+    {
+      meaning: 'Sen tüm görevlerini bu kadar hızlı nasıl tamamladın?',
+      possibleAnswer: 'I have used a to-do list and prioritized my tasks.',
+      sentence: 'How have you completed all your tasks so quickly?',
+    },
+    {
+      meaning: 'O (kadın) İngilizce konuşmada nasıl daha iyi oldu?',
+      possibleAnswer:
+        'She has practiced speaking with native speakers and taken advanced courses.',
+      sentence: 'How has she gotten better at speaking English?',
+    },
+    {
+      meaning: 'Onlar yaklaşan etkinlik için nasıl hazırlandılar?',
+      possibleAnswer:
+        'They have been planning every detail and doing a lot of rehearsals.',
+      sentence: 'How have they prepared for the upcoming event?',
+    },
+    {
+      meaning: 'O (erkek) son gördüğünden beri nasıl değişti?',
+      possibleAnswer: 'He has become more confident and has started a new job.',
+      sentence: 'How has he changed since you last saw him?',
+    },
+    {
+      meaning: 'Sen şimdiye kadar yerel kültürü nasıl deneyimledin?',
+      possibleAnswer:
+        'I have visited local markets and attended cultural festivals.',
+      sentence: 'How have you experienced the local culture so far?',
+    },
+    {
+      meaning: 'O (kadın) grip sezonunda nasıl sağlıklı kaldı?',
+      possibleAnswer:
+        'She has been eating well, exercising regularly, and getting enough sleep.',
+      sentence: 'How has she stayed healthy during the flu season?',
+    },
+    {
+      meaning: 'Onlar uzaktan çalışmaya nasıl uyum sağladılar?',
+      possibleAnswer:
+        'They have set up home offices and followed a strict work schedule.',
+      sentence: 'How have they adapted to remote working?',
+    },
+    {
+      meaning: 'O (erkek) izlediği yeni filmden nasıl keyif aldı?',
+      possibleAnswer:
+        'He has enjoyed it a lot; he thought the plot was interesting and the acting was great.',
+      sentence: 'How has he enjoyed the new movie he watched?',
+    },
+    {
+      meaning: 'Sen kişisel web siteni nasıl güncelledin?',
+      possibleAnswer: 'I have added new projects and updated my portfolio.',
+      sentence: 'How have you updated your personal website?',
+    },
+    {
+      meaning: 'O (kadın) yeni okulundaki zorluklarla nasıl başa çıktı?',
+      possibleAnswer:
+        'She has been seeking help from teachers and working on her study skills.',
+      sentence: 'How has she dealt with the challenges at her new school?',
+    },
+    {
+      meaning: 'Onlar yeni programla zamanlarını nasıl yönettirdiler?',
+      possibleAnswer:
+        'They have created a detailed calendar and set specific goals for each day.',
+      sentence: 'How have they managed their time with the new schedule?',
+    },
+    {
+      meaning: 'O (erkek) son zamanlarda fitness seviyesini nasıl geliştirdi?',
+      possibleAnswer:
+        'He has been working out regularly and following a balanced diet.',
+      sentence: 'How has he improved his fitness level recently?',
+    },
+    {
+      meaning: 'Sen son zamanlarda boş zamanını nasıl kullandın?',
+      possibleAnswer: 'I have been reading books and taking up new hobbies.',
+      sentence: 'How have you used your free time lately?',
+    },
+    {
+      meaning: 'O (kadın) işteki ekstra sorumluluklarla nasıl başa çıktı?',
+      possibleAnswer:
+        'She has been staying organized and asking for help when needed.',
+      sentence: 'How has she handled the extra responsibilities at work?',
+    },
+    {
+      meaning: 'Onlar tatil seyahatlerini nasıl planladılar?',
+      possibleAnswer:
+        'They have booked flights early and made a detailed itinerary.',
+      sentence: 'How have they planned their holiday travel?',
+    },
+    {
+      meaning: 'O (erkek) çalışmalarında nasıl ilerleme kaydetti?',
+      possibleAnswer:
+        'He has been studying consistently and seeking help from tutors.',
+      sentence: 'How has he made progress in his studies?',
+    },
+    {
+      meaning: 'Sen evini tatiller için nasıl organize ettin?',
+      possibleAnswer:
+        'I have decorated with festive lights and prepared a special meal.',
+      sentence: 'How have you organized your home for the holidays?',
+    },
+    {
+      meaning: 'O (kadın) son zamanlarda yeni hobiler nasıl keşfetti?',
+      possibleAnswer:
+        'She has tried different activities like painting and hiking.',
+      sentence: 'How has she discovered new hobbies recently?',
+    },
+    {
+      meaning: 'Onlar zor zamanlarda birbirlerine nasıl destek oldular?',
+      possibleAnswer:
+        'They have been communicating openly and helping each other with tasks.',
+      sentence: 'How have they supported each other during tough times?',
+    },
+    {
+      meaning: 'O (erkek) şehrindeki yeni yerleri nasıl keşfetti?',
+      possibleAnswer: 'He has visited new restaurants and local attractions.',
+      sentence: 'How has he explored new places in his city?',
+    },
+    {
+      meaning: 'Sen bu yıl motivasyonunu nasıl korudun?',
+      possibleAnswer:
+        'I have set clear goals and celebrated small achievements.',
+      sentence: 'How have you maintained your motivation this year?',
+    },
+    {
+      meaning: 'O (kadın) eski arkadaşlarıyla nasıl iletişimde kaldı?',
+      possibleAnswer: 'She has been calling and messaging them regularly.',
+      sentence: 'How has she kept in touch with old friends?',
+    },
+    {
+      meaning: 'Onlar projelerindeki sorunları nasıl çözdüler?',
+      possibleAnswer:
+        'They have held team meetings and brainstormed solutions.',
+      sentence: 'How have they resolved the issues with their project?',
+    },
+    {
+      meaning: 'O (erkek) akşam yemeği için yeni tarifleri nasıl öğrendi?',
+      possibleAnswer: 'He has watched cooking videos and read recipe books.',
+      sentence: 'How has he learned new recipes for dinner?',
+    },
+    {
+      meaning: 'Sen görevlerinin üstünde nasıl kaldın?',
+      possibleAnswer: 'I have kept a planner and set reminders for deadlines.',
+      sentence: 'How have you stayed on top of your assignments?',
+    },
+    {
+      meaning: 'O (kadın) bahçecilik becerilerini nasıl geliştirdi?',
+      possibleAnswer: 'She has read gardening books and attended workshops.',
+      sentence: 'How has she improved her gardening skills?',
+    },
+    {
+      meaning: 'Onlar fikirlerini takıma nasıl ilettiler?',
+      possibleAnswer: 'They have used presentations and group discussions.',
+      sentence: 'How have they communicated their ideas to the team?',
+    },
+    {
+      meaning: 'O (erkek) rutinindeki değişikliklere nasıl uyum sağladı?',
+      possibleAnswer: 'He has created a new schedule and stuck to it.',
+      sentence: 'How has he adjusted to the changes in his routine?',
+    },
+    {
+      meaning: 'Sen okuma listenindeki tüm kitapları nasıl bitirdin?',
+      possibleAnswer: 'I have read a few chapters every night.',
+      sentence: 'How have you finished all the books on your reading list?',
+    },
+    {
+      meaning: 'O (kadın) son zamanlarda iş-yaşam dengesini nasıl yönetti?',
+      possibleAnswer:
+        'She has been setting boundaries and taking regular breaks.',
+      sentence: 'How has she managed her work-life balance lately?',
+    },
+    {
+      meaning: 'Onlar bu yıl yeni mutfakları nasıl keşfettiler?',
+      possibleAnswer:
+        'They have tried different restaurants and cooked new dishes at home.',
+      sentence: 'How have they explored new cuisines this year?',
+    },
+    {
+      meaning: 'O (erkek) son zamanlarda kariyerinde nasıl ilerleme kaydetti?',
+      possibleAnswer:
+        'He has taken on new responsibilities and completed professional courses.',
+      sentence: 'How has he advanced in his career recently?',
+    },
+    {
+      meaning: 'Sen bölgendeki farklı mevsimleri nasıl deneyimledin?',
+      possibleAnswer:
+        'I have enjoyed outdoor activities and local festivals in each season.',
+      sentence: 'How have you experienced different seasons in your area?',
+    },
+    {
+      meaning: 'O (kadın) stresi nasıl daha iyi yönetmeyi öğrendi?',
+      possibleAnswer:
+        'She has practiced mindfulness and started a yoga routine.',
+      sentence: 'How has she learned to manage stress better?',
+    },
+    {
+      meaning: 'Onlar şehirdeki yeni parkı nasıl keyif aldılar?',
+      possibleAnswer:
+        'They have visited frequently and participated in community events.',
+      sentence: 'How have they enjoyed the new park in town?',
+    },
+    {
+      meaning: 'O (erkek) sınavlar için çalışma notlarını nasıl düzenledi?',
+      possibleAnswer:
+        'He has categorized them by subject and reviewed them regularly.',
+      sentence: 'How has he organized his study notes for exams?',
+    },
+    {
+      meaning: 'Sen yeni teknolojiyi kullanmaya nasıl uyum sağladın?',
+      possibleAnswer:
+        'I have attended training sessions and practiced using the tools.',
+      sentence: 'How have you adapted to using new technology?',
+    },
+    {
+      meaning:
+        'O (kadın) topluluk önündeki konuşma becerilerini nasıl geliştirdi?',
+      possibleAnswer:
+        'She has taken speaking courses and practiced in front of small groups.',
+      sentence: 'How has she improved her public speaking skills?',
+    },
+    {
+      meaning: 'Onlar bu yıl yerel festivalleri nasıl deneyimlediler?',
+      possibleAnswer:
+        'They have attended various events and tried local foods.',
+      sentence: 'How have they experienced local festivals this year?',
+    },
+    {
+      meaning:
+        'O (erkek) fotoğrafçılık hakkında nasıl daha fazla bilgi edindi?',
+      possibleAnswer:
+        'He has taken photography classes and practiced taking pictures.',
+      sentence: 'How has he learned more about photography?',
+    },
+    {
+      meaning: 'Sen günlük rutinindeki değişikliklerle nasıl başa çıktın?',
+      possibleAnswer:
+        'I have adjusted by creating a new routine and being flexible.',
+      sentence: 'How have you handled the changes in your daily routine?',
+    },
+    {
+      meaning:
+        'O (kadın) şehrinde ziyaret edilecek yeni yerleri nasıl keşfetti?',
+      possibleAnswer:
+        'She has explored neighborhoods and asked locals for recommendations.',
+      sentence: 'How has she discovered new places to visit in her city?',
+    },
+    {
+      meaning: 'Onlar takım çalışması becerilerini nasıl geliştirdiler?',
+      possibleAnswer:
+        'They have worked on collaborative projects and attended workshops.',
+      sentence: 'How have they improved their teamwork skills?',
+    },
+    {
+      meaning: 'O (erkek) topluluk etkinliklerine nasıl daha fazla dahil oldu?',
+      possibleAnswer:
+        'He has volunteered for local events and joined community groups.',
+      sentence: 'How has he become more involved in community activities?',
+    },
+    {
+      meaning: 'Sen akıllı telefonunun yeni özelliklerini nasıl kullandın?',
+      possibleAnswer: 'I have explored apps and customized my settings.',
+      sentence: 'How have you used the new features of your smartphone?',
+    },
+    {
+      meaning: 'O (kadın) farklı bir ülkede yaşamaya nasıl uyum sağladı?',
+      possibleAnswer:
+        'She has learned the local language and embraced the culture.',
+      sentence: 'How has she adapted to living in a different country?',
+    },
+    {
+      meaning: 'Onlar son başarıları nasıl kutladılar?',
+      possibleAnswer:
+        'They have had parties and shared their success with friends and family.',
+      sentence: 'How have they celebrated recent achievements?',
+    },
+    {
+      meaning: 'O (erkek) evden çalışmanın zorluklarıyla nasıl başa çıktı?',
+      possibleAnswer:
+        'He has created a dedicated workspace and set clear boundaries.',
+      sentence: 'How has he dealt with the challenges of working from home?',
+    },
+    {
+      meaning: 'Sen bu yıl fitness rutinini nasıl korudun?',
+      possibleAnswer:
+        'I have been going to the gym regularly and following a workout plan.',
+      sentence: 'How have you maintained your fitness routine this year?',
+    },
+    {
+      meaning: 'O (kadın) yazma becerilerini nasıl geliştirdi?',
+      possibleAnswer:
+        'She has practiced writing daily and taken creative writing classes.',
+      sentence: 'How has she improved her writing skills?',
+    },
+    {
+      meaning: 'Onlar işteki artan iş yükünü nasıl yönettiler?',
+      possibleAnswer:
+        'They have prioritized tasks and asked for assistance when needed.',
+      sentence: 'How have they handled the increased workload at work?',
+    },
+    {
+      meaning: 'O (erkek) yeni bir dili öğrenmeyi nasıl başardı?',
+      possibleAnswer:
+        'He has taken language courses and practiced speaking with native speakers.',
+      sentence: 'How has he managed to learn a new language?',
+    },
+    {
+      meaning: 'Sen pandemi sırasında yeni hobileri nasıl keşfettin?',
+      possibleAnswer:
+        'I have started gardening and learning to play an instrument.',
+      sentence: 'How have you explored new hobbies during the pandemic?',
+    },
+    {
+      meaning: 'O (kadın) yeni sezon için gardırobunu nasıl güncelledi?',
+      possibleAnswer:
+        'She has bought new clothes and donated items she no longer wears.',
+      sentence: 'How has she updated her wardrobe for the new season?',
+    },
+    {
+      meaning: 'Onlar hafta sonu kaçamaklarından nasıl keyif aldılar?',
+      possibleAnswer:
+        'They have visited scenic spots and relaxed at cozy accommodations.',
+      sentence: 'How have they enjoyed their weekend getaways?',
+    },
+    {
+      meaning:
+        'O (erkek) daha sağlıklı bir yaşam tarzı için diyetini nasıl uyarladı?',
+      possibleAnswer:
+        'He has incorporated more fruits and vegetables into his meals.',
+      sentence: 'How has he adjusted his diet for a healthier lifestyle?',
+    },
+    {
+      meaning: 'Sen iş görevlerini nasıl verimli bir şekilde organize ettin?',
+      possibleAnswer:
+        'I have used task management software and set daily goals.',
+      sentence: 'How have you organized your work tasks efficiently?',
+    },
+    {
+      meaning: 'O (kadın) aile hayatındaki değişiklikleri nasıl deneyimledi?',
+      possibleAnswer:
+        'She has adapted by communicating openly and adjusting routines.',
+      sentence: 'How has she experienced changes in her family life?',
+    },
+    {
+      meaning: 'Onlar yıl boyunca mali durumlarını nasıl yönettirdiler?',
+      possibleAnswer:
+        'They have created a budget and tracked their expenses carefully.',
+      sentence: 'How have they managed their finances during the year?',
+    },
+    {
+      meaning: 'O (erkek) evdeki DIY becerilerini nasıl geliştirdi?',
+      possibleAnswer:
+        'He has watched instructional videos and practiced various projects.',
+      sentence: 'How has he improved his DIY skills at home?',
+    },
+    {
+      meaning: 'Sen arkadaşlarınla ilişkilerini nasıl sürdürdün?',
+      possibleAnswer: 'I have stayed in touch through calls and social media.',
+      sentence: 'How have you maintained your relationships with friends?',
+    },
+    {
+      meaning: 'O (kadın) işteki beklenmedik zorluklarla nasıl başa çıktı?',
+      possibleAnswer:
+        'She has stayed calm and found solutions through problem-solving.',
+      sentence: 'How has she dealt with unexpected challenges at work?',
+    },
+    {
+      meaning: 'Onlar hafta sonu etkinliklerini nasıl planladılar?',
+      possibleAnswer:
+        'They have made a list of things to do and checked local event schedules.',
+      sentence: 'How have they planned their weekend activities?',
+    },
+    {
+      meaning:
+        'O (erkek) çevrimiçi kurslar aracılığıyla yeni beceriler nasıl öğrendi?',
+      possibleAnswer:
+        'He has completed courses and practiced skills through exercises.',
+      sentence: 'How has he learned new skills through online courses?',
+    },
+    {
+      meaning: 'Sen yeni teknolojiyi kullanmaya nasıl uyum sağladın?',
+      possibleAnswer:
+        'I have read user guides and practiced using new features.',
+      sentence: 'How have you adapted to using new technology?',
+    },
+    {
+      meaning: 'O (kadın) yemek pişirme tekniklerini nasıl geliştirdi?',
+      possibleAnswer:
+        'She has followed cooking tutorials and experimented with different methods.',
+      sentence: 'How has she improved her cooking techniques?',
+    },
+    {
+      meaning: 'Onlar evlerini konfor için nasıl düzenlediler?',
+      possibleAnswer:
+        'They have rearranged furniture and added cozy decorations.',
+      sentence: 'How have they organized their home for comfort?',
+    },
+    {
+      meaning:
+        'O (erkek) yoğun bir programın ortasında nasıl dinlenmek için zaman buldu?',
+      possibleAnswer:
+        'He has scheduled regular breaks and practiced relaxation techniques.',
+      sentence: 'How has he found time for relaxation despite a busy schedule?',
+    },
+    {
+      meaning: 'Sen bu yıl özel günleri nasıl kutladın?',
+      possibleAnswer:
+        'I have organized small gatherings and shared moments with loved ones.',
+      sentence: 'How have you celebrated special occasions this year?',
+    },
+    {
+      meaning: 'O (kadın) zamanını nasıl etkili bir şekilde yönetti?',
+      possibleAnswer:
+        'She has used time management tools and set clear priorities.',
+      sentence: 'How has she managed her time effectively?',
+    },
+    {
+      meaning: 'Onlar yeni eğlence seçeneklerini nasıl keşfettiler?',
+      possibleAnswer:
+        'They have explored streaming services and tried new activities.',
+      sentence: 'How have they discovered new entertainment options?',
+    },
+    {
+      meaning: 'O (erkek) güncel olaylar hakkında bilgisini nasıl artırdı?',
+      possibleAnswer:
+        'He has read news articles and followed reliable news sources.',
+      sentence: 'How has he enhanced his knowledge of current events?',
+    },
+    {
+      meaning: 'Sen son zamanlarda yerel gelenekleri nasıl deneyimledin?',
+      possibleAnswer:
+        'I have attended local festivals and participated in community events.',
+      sentence: 'How have you experienced local traditions recently?',
+    },
+    {
+      meaning: 'O (kadın) yeni bir çalışma şekline nasıl uyum sağladı?',
+      possibleAnswer:
+        'She has embraced flexible hours and used new collaboration tools.',
+      sentence: 'How has she adapted to a new way of working?',
+    },
+    {
+      meaning: 'Onlar aile iletişimlerini nasıl geliştirdiler?',
+      possibleAnswer:
+        'They have scheduled regular family meetings and encouraged open dialogue.',
+      sentence: 'How have they improved their family communication?',
+    },
+    {
+      meaning:
+        'O (erkek) seyahat yoluyla farklı kültürler hakkında nasıl bilgi edindi?',
+      possibleAnswer: 'He has visited museums and interacted with locals.',
+      sentence: 'How has he learned about different cultures through travel?',
+    },
+    {
+      meaning:
+        'Sen günlük alışkanlıklarındaki değişikliklerle nasıl başa çıktın?',
+      possibleAnswer:
+        'I have adjusted by creating new routines and staying flexible.',
+      sentence: 'How have you handled changes in your daily habits?',
+    },
+    {
+      meaning: 'O (kadın) yeni etkinliklerde nasıl keyif buldu?',
+      possibleAnswer:
+        'She has tried new hobbies and found enjoyment in exploring them.',
+      sentence: 'How has she found joy in new activities?',
+    },
+    {
+      meaning: 'Onlar bu yıl kişisel zorluklarla nasıl başa çıktılar?',
+      possibleAnswer:
+        'They have sought support from friends and worked on personal growth.',
+      sentence:
+        'How have they navigated through personal challenges this year?',
+    },
+    {
+      meaning: 'O (erkek) işteki yeni sorumluluklarını nasıl yönetti?',
+      possibleAnswer:
+        'He has prioritized tasks and asked for guidance when needed.',
+      sentence: 'How has he managed his new responsibilities at work?',
+    },
+    {
+      meaning: 'Sen şehrindeki yeni yemek seçeneklerini nasıl keşfettin?',
+      possibleAnswer:
+        'I have tried new restaurants and checked online reviews.',
+      sentence: 'How have you explored new dining options in your city?',
+    },
+    {
+      meaning: 'O (kadın) ev dekorunu son zamanlarda nasıl güncelledi?',
+      possibleAnswer: 'She has redecorated with new furniture and accessories.',
+      sentence: 'How has she updated her home decor recently?',
+    },
+    {
+      meaning: 'Onlar yaklaşan sınavların baskısıyla nasıl başa çıktılar?',
+      possibleAnswer:
+        'They have studied regularly and used stress-relief techniques.',
+      sentence: 'How have they handled the pressure of upcoming exams?',
+    },
+    {
+      meaning: 'O (erkek) pratik yaparak dil becerilerini nasıl geliştirdi?',
+      possibleAnswer:
+        'He has spoken with native speakers and used language learning apps.',
+      sentence: 'How has he improved his language skills through practice?',
+    },
+    {
+      meaning: 'Sen bu yıl iş ve kişisel yaşamı nasıl dengeledin?',
+      possibleAnswer:
+        'I have set boundaries and made time for hobbies and relaxation.',
+      sentence: 'How have you balanced work and personal life this year?',
+    },
+    {
+      meaning:
+        'O (kadın) sağlıklı bir yaşam tarzının faydalarını nasıl deneyimledi?',
+      possibleAnswer:
+        'She has felt more energetic and improved her overall well-being.',
+      sentence: 'How has she experienced the benefits of a healthy lifestyle?',
+    },
+    {
+      meaning: 'Onlar formda kalmak için yeni yolları nasıl keşfettiler?',
+      possibleAnswer:
+        'They have tried different workouts and joined fitness classes.',
+      sentence: 'How have they explored new ways to stay fit?',
+    },
+    {
+      meaning: 'O (erkek) çalışma alanını nasıl düzenli tutmayı başardı?',
+      possibleAnswer: 'He has organized his supplies and cleaned regularly.',
+      sentence: 'How has he managed to keep his workspace tidy?',
+    },
+    {
+      meaning: 'Sen bölgendeki kültürel etkinliklerden nasıl keyif aldın?',
+      possibleAnswer: 'I have attended concerts and art exhibitions.',
+      sentence: 'How have you enjoyed the cultural events in your area?',
+    },
+    {
+      meaning: 'O (kadın) fitness rutinini yoğun programına nasıl uyarladı?',
+      possibleAnswer:
+        'She has done shorter, more intense workouts and used online classes.',
+      sentence: 'How has she adapted her fitness routine to her busy schedule?',
+    },
+    {
+      meaning: 'Onlar arkadaşlar ve aile ile nasıl bağlantıda kaldılar?',
+      possibleAnswer:
+        'They have used video calls and social media to keep in touch.',
+      sentence:
+        'How have they managed to stay connected with friends and family?',
+    },
+    {
+      meaning: 'O (erkek) karmaşık konuları anlamasını nasıl geliştirdi?',
+      possibleAnswer:
+        'He has studied more in-depth materials and discussed them with experts.',
+      sentence: 'How has he improved his understanding of complex topics?',
+    },
+  ],
+  C1: [
+    {
+      meaning: 'Dün senin günün nasıldı?',
+      possibleAnswer: 'It was great, thanks for asking.',
+      sentence: 'How was your day yesterday?',
+    },
+    {
+      meaning: 'Geçen hafta hava nasıldı?',
+      possibleAnswer: 'It was quite rainy.',
+      sentence: 'How was the weather last week?',
+    },
+    {
+      meaning: 'Cumartesi günü parti nasıldı?',
+      possibleAnswer: 'It was really fun.',
+      sentence: 'How was the party on Saturday?',
+    },
+    {
+      meaning: "Paris'e seyahatin nasıldı?",
+      possibleAnswer: 'It was amazing, I loved it.',
+      sentence: 'How was your trip to Paris?',
+    },
+    {
+      meaning: 'Dün gece film nasıldı?',
+      possibleAnswer: 'It was very interesting.',
+      sentence: 'How was the movie last night?',
+    },
+    {
+      meaning: 'Yeni restorandaki yemek nasıldı?',
+      possibleAnswer: 'It was delicious.',
+      sentence: 'How was the food at the new restaurant?',
+    },
+    {
+      meaning: 'Senin hafta sonun nasıldı?',
+      possibleAnswer: 'It was very relaxing.',
+      sentence: 'How was your weekend?',
+    },
+    {
+      meaning: 'Katıldığın konser nasıldı?',
+      possibleAnswer: 'It was fantastic.',
+      sentence: 'How was the concert you attended?',
+    },
+    {
+      meaning: 'Bu sabah trafik nasıldı?',
+      possibleAnswer: 'It was terrible.',
+      sentence: 'How was the traffic this morning?',
+    },
+    {
+      meaning: 'Geçen haftaki sınav nasıldı?',
+      possibleAnswer: 'It was quite difficult.',
+      sentence: 'How was the exam last week?',
+    },
+    {
+      meaning: 'Dün toplantı nasıldı?',
+      possibleAnswer: 'It was very productive.',
+      sentence: 'How was the meeting yesterday?',
+    },
+    {
+      meaning: 'Müzeye ziyaretin nasıldı?',
+      possibleAnswer: 'It was educational and fun.',
+      sentence: 'How was your visit to the museum?',
+    },
+    {
+      meaning: 'Plaj gezisi nasıldı?',
+      possibleAnswer: 'It was very enjoyable.',
+      sentence: 'How was the beach trip?',
+    },
+    {
+      meaning: 'Dün gece yemeğin nasıldı?',
+      possibleAnswer: 'It was tasty.',
+      sentence: 'How was your dinner last night?',
+    },
+    {
+      meaning: 'İşteki sunum nasıldı?',
+      possibleAnswer: 'It went very well.',
+      sentence: 'How was the presentation at work?',
+    },
+    {
+      meaning: 'Dağlardaki yürüyüş nasıldı?',
+      possibleAnswer: 'It was exhausting but beautiful.',
+      sentence: 'How was the hike in the mountains?',
+    },
+    {
+      meaning: 'New York uçuşun nasıldı?',
+      possibleAnswer: 'It was smooth and comfortable.',
+      sentence: 'How was your flight to New York?',
+    },
+    {
+      meaning: 'Tiyatrodaki oyun nasıldı?',
+      possibleAnswer: 'It was entertaining.',
+      sentence: 'How was the play at the theater?',
+    },
+    {
+      meaning: 'Katıldığın seminer nasıldı?',
+      possibleAnswer: 'It was very informative.',
+      sentence: 'How was the seminar you attended?',
+    },
+    {
+      meaning: 'Doktor randevun nasıldı?',
+      possibleAnswer: 'It went well.',
+      sentence: "How was the doctor's appointment?",
+    },
+    {
+      meaning: 'Alışveriş gezisi nasıldı?',
+      possibleAnswer: 'It was successful, I found everything I needed.',
+      sentence: 'How was your shopping trip?',
+    },
+    {
+      meaning: 'Dün antrenmanın nasıldı?',
+      possibleAnswer: 'It was intense but good.',
+      sentence: 'How was your workout yesterday?',
+    },
+    {
+      meaning: 'Müzik festivali nasıldı?',
+      possibleAnswer: 'It was amazing, I had a great time.',
+      sentence: 'How was the music festival?',
+    },
+    {
+      meaning: 'Kaldığın otel nasıldı?',
+      possibleAnswer: 'It was very comfortable.',
+      sentence: 'How was the hotel you stayed at?',
+    },
+    {
+      meaning: 'Katıldığın düğün nasıldı?',
+      possibleAnswer: 'It was beautiful.',
+      sentence: 'How was the wedding you attended?',
+    },
+    {
+      meaning: 'Okuduğun kitap nasıldı?',
+      possibleAnswer: 'It was very interesting.',
+      sentence: 'How was the book you read?',
+    },
+    {
+      meaning: 'Dün geceki oyun nasıldı?',
+      possibleAnswer: 'It was exciting.',
+      sentence: 'How was the game last night?',
+    },
+    {
+      meaning: 'Katıldığın atölye çalışması nasıldı?',
+      possibleAnswer: 'It was very useful.',
+      sentence: 'How was the workshop you attended?',
+    },
+    {
+      meaning: 'Ailenle tatil nasıldı?',
+      possibleAnswer: 'It was wonderful.',
+      sentence: 'How was the holiday with your family?',
+    },
+    {
+      meaning: 'Dün ders nasıldı?',
+      possibleAnswer: 'It was very engaging.',
+      sentence: 'How was the class yesterday?',
+    },
+    {
+      meaning: 'Barbekü partisi nasıldı?',
+      possibleAnswer: 'It was fun and the food was great.',
+      sentence: 'How was the barbecue party?',
+    },
+    {
+      meaning: 'Saç kesimin nasıldı?',
+      possibleAnswer: 'It was exactly what I wanted.',
+      sentence: 'How was your haircut?',
+    },
+    {
+      meaning: 'Eğitim oturumu nasıldı?',
+      possibleAnswer: 'It was very helpful.',
+      sentence: 'How was the training session?',
+    },
+    {
+      meaning: 'Bu sabah kahven nasıldı?',
+      possibleAnswer: 'It was perfect.',
+      sentence: 'How was your coffee this morning?',
+    },
+    {
+      meaning: 'Spadaki deneyimin nasıldı?',
+      possibleAnswer: 'It was very relaxing.',
+      sentence: 'How was your experience at the spa?',
+    },
+    {
+      meaning: 'Müşteriyle toplantın nasıldı?',
+      possibleAnswer: 'It went really well.',
+      sentence: 'How was your meeting with the client?',
+    },
+    {
+      meaning: 'Bugün öğle yemeğin nasıldı?',
+      possibleAnswer: 'It was delicious.',
+      sentence: 'How was your lunch today?',
+    },
+    {
+      meaning: 'İşe gidişin nasıldı?',
+      possibleAnswer: 'It was smooth and quick.',
+      sentence: 'How was your ride to work?',
+    },
+    {
+      meaning: 'Yeni TV şovu nasıldı?',
+      possibleAnswer: 'It was quite entertaining.',
+      sentence: 'How was the new TV show?',
+    },
+    {
+      meaning: 'Dün ders nasıldı?',
+      possibleAnswer: 'It was very informative.',
+      sentence: 'How was the lecture yesterday?',
+    },
+    {
+      meaning: 'Parktaki yürüyüşün nasıldı?',
+      possibleAnswer: 'It was refreshing.',
+      sentence: 'How was your walk in the park?',
+    },
+    {
+      meaning: 'Son tatilin nasıldı?',
+      possibleAnswer: 'It was very enjoyable.',
+      sentence: 'How was your last holiday?',
+    },
+    {
+      meaning: 'Yeni spor salonundaki deneyimin nasıldı?',
+      possibleAnswer: 'It was great, the equipment is new.',
+      sentence: 'How was your experience at the new gym?',
+    },
+    {
+      meaning: 'Boş günün nasıldı?',
+      possibleAnswer: 'It was very relaxing.',
+      sentence: 'How was your day off?',
+    },
+    {
+      meaning: 'Dün geceki randevun nasıldı?',
+      possibleAnswer: 'It was wonderful.',
+      sentence: 'How was your date last night?',
+    },
+    {
+      meaning: 'Aile buluşmanız nasıldı?',
+      possibleAnswer: 'It was heartwarming.',
+      sentence: 'How was your family reunion?',
+    },
+    {
+      meaning: 'Ziyaret ettiğin sergi nasıldı?',
+      possibleAnswer: 'It was very interesting.',
+      sentence: 'How was the exhibition you visited?',
+    },
+    {
+      meaning: 'Tesisteki konaklaman nasıldı?',
+      possibleAnswer: 'It was luxurious.',
+      sentence: 'How was your stay at the resort?',
+    },
+    {
+      meaning: 'Senin gecen nasıldı?',
+      possibleAnswer: 'It was peaceful.',
+      sentence: 'How was your night?',
+    },
+    {
+      meaning: 'Dans dersi nasıldı?',
+      possibleAnswer: 'It was fun and energetic.',
+      sentence: 'How was the dance class?',
+    },
+  ],
+  C2: [
+    {
+      meaning: 'Dün toplantıdan sonra nasıl hissettin?',
+      possibleAnswer: 'I felt relieved.',
+      sentence: 'How did you feel yesterday after the meeting?',
+    },
+    {
+      meaning: 'O (kadın) sürpriz partiyi nasıl öğrendi?',
+      possibleAnswer: 'She heard it from a friend.',
+      sentence: 'How did she find out about the surprise party?',
+    },
+    {
+      meaning: 'Onlar projeyi zamanında nasıl bitirdiler?',
+      possibleAnswer: 'They worked extra hours.',
+      sentence: 'How did they manage to finish the project on time?',
+    },
+    {
+      meaning: 'O (erkek) matematik problemini nasıl çözdü?',
+      possibleAnswer: 'He used a different formula.',
+      sentence: 'How did he solve the math problem?',
+    },
+    {
+      meaning: 'Biz şehirde nasıl kaybolduk?',
+      possibleAnswer: 'We took the wrong turn.',
+      sentence: 'How did we get lost in the city?',
+    },
+    {
+      meaning: 'Son doğum gününü nasıl kutladın?',
+      possibleAnswer: 'I had a party with my friends.',
+      sentence: 'How did you celebrate your last birthday?',
+    },
+    {
+      meaning: 'Onlar geçen yaz tatillerini nasıl geçirdiler?',
+      possibleAnswer: 'They enjoyed it very much.',
+      sentence: 'How did they enjoy their vacation last summer?',
+    },
+    {
+      meaning: 'O (erkek) işteki zor durumu nasıl yönetti?',
+      possibleAnswer: 'He stayed calm and focused.',
+      sentence: 'How did he handle the difficult situation at work?',
+    },
+    {
+      meaning: 'Geçen ayki büyük sınava nasıl hazırlandın?',
+      possibleAnswer: 'I studied every night.',
+      sentence: 'How did you prepare for the big exam last month?',
+    },
+    {
+      meaning: 'O (kadın) antrenmanı sırasında nasıl motive kaldı?',
+      possibleAnswer: 'She set small goals for herself.',
+      sentence: 'How did she stay motivated during her training?',
+    },
+    {
+      meaning: 'Geçen yıl etkinliği nasıl organize ettik?',
+      possibleAnswer: 'We planned it months in advance.',
+      sentence: 'How did we organize the event last year?',
+    },
+    {
+      meaning: 'Onlar yeni komşularıyla nasıl tanıştılar?',
+      possibleAnswer: 'They introduced themselves.',
+      sentence: 'How did they meet their new neighbors?',
+    },
+    {
+      meaning: 'Bilgisayarın bozulduğunda nasıl tamir ettin?',
+      possibleAnswer: 'I followed an online tutorial.',
+      sentence: 'How did you fix your computer when it broke?',
+    },
+    {
+      meaning: 'O (erkek) kaybolan anahtarları nasıl buldu?',
+      possibleAnswer: 'He found them under the couch.',
+      sentence: 'How did he find the lost keys?',
+    },
+    {
+      meaning: 'Son tatilini nasıl geçirdin?',
+      possibleAnswer: 'I visited my family.',
+      sentence: 'How did you spend your last holiday?',
+    },
+    {
+      meaning: 'O (kadın) yemek yapma becerilerini nasıl geliştirdi?',
+      possibleAnswer: 'She took a cooking class.',
+      sentence: 'How did she improve her cooking skills?',
+    },
+    {
+      meaning: 'Şampiyona oyununu nasıl kazandık?',
+      possibleAnswer: 'We played really well as a team.',
+      sentence: 'How did we win the championship game?',
+    },
+    {
+      meaning: 'Onlar habere nasıl tepki verdiler?',
+      possibleAnswer: 'They were very surprised.',
+      sentence: 'How did they react to the news?',
+    },
+    {
+      meaning: 'Evi parti için nasıl süsledin?',
+      possibleAnswer: 'I used balloons and streamers.',
+      sentence: 'How did you decorate your house for the party?',
+    },
+    {
+      meaning: 'O (erkek) gitar çalmayı nasıl öğrendi?',
+      possibleAnswer: 'He practiced every day.',
+      sentence: 'How did he learn to play the guitar?',
+    },
+    {
+      meaning: 'Uzun yolculuktan sonra nasıl hissettin?',
+      possibleAnswer: 'I felt exhausted.',
+      sentence: 'How did you feel after the long journey?',
+    },
+    {
+      meaning: 'Onlar sırrı nasıl sakladılar?',
+      possibleAnswer: "They didn't tell anyone.",
+      sentence: 'How did they manage to keep the secret?',
+    },
+    {
+      meaning: 'O (kadın) sürüş testini nasıl geçti?',
+      possibleAnswer: 'She practiced a lot.',
+      sentence: 'How did she pass the driving test?',
+    },
+    {
+      meaning: 'Yanlış yerde nasıl bulunduk?',
+      possibleAnswer: 'We misread the map.',
+      sentence: 'How did we end up at the wrong location?',
+    },
+    {
+      meaning: 'Geçen hafta sonunu nasıl geçirdin?',
+      possibleAnswer: 'I went hiking with friends.',
+      sentence: 'How did you spend your weekend last week?',
+    },
+    {
+      meaning: 'O (erkek) kırık sandalyeyi nasıl tamir etti?',
+      possibleAnswer: 'He used some glue and nails.',
+      sentence: 'How did he fix the broken chair?',
+    },
+    {
+      meaning: 'En iyi arkadaşınla nasıl tanıştın?',
+      possibleAnswer: 'We met in high school.',
+      sentence: 'How did you meet your best friend?',
+    },
+    {
+      meaning: 'Onlar yıldönümlerini nasıl kutladılar?',
+      possibleAnswer: 'They went out for a special dinner.',
+      sentence: 'How did they celebrate their anniversary?',
+    },
+    {
+      meaning: 'O (kadın) zor müşteriyle nasıl başa çıktı?',
+      possibleAnswer: 'She stayed patient and polite.',
+      sentence: 'How did she handle the difficult customer?',
+    },
+    {
+      meaning: 'Oyunu nasıl kaybettik?',
+      possibleAnswer: 'We made too many mistakes.',
+      sentence: 'How did we lose the game?',
+    },
+    {
+      meaning: 'Maraton için nasıl antrenman yaptın?',
+      possibleAnswer: 'I ran every morning.',
+      sentence: 'How did you train for the marathon?',
+    },
+    {
+      meaning: 'O (erkek) ağaç evini nasıl inşa etti?',
+      possibleAnswer: 'He followed a guide.',
+      sentence: 'How did he build the treehouse?',
+    },
+    {
+      meaning: 'Dün akşamını nasıl geçirdin?',
+      possibleAnswer: 'I watched a movie.',
+      sentence: 'How did you spend your evening yesterday?',
+    },
+    {
+      meaning: 'Onlar konferansa nasıl seyahat ettiler?',
+      possibleAnswer: 'They took a train.',
+      sentence: 'How did they travel to the conference?',
+    },
+    {
+      meaning: 'O (kadın) tüm gece nasıl uyanık kaldı?',
+      possibleAnswer: 'She drank a lot of coffee.',
+      sentence: 'How did she manage to stay awake all night?',
+    },
+    {
+      meaning: 'Sunumu nasıl hazırladın?',
+      possibleAnswer: 'I worked on it for several days.',
+      sentence: 'How did you prepare the presentation?',
+    },
+    {
+      meaning: 'O (erkek) doğru çözümü nasıl buldu?',
+      possibleAnswer: 'He tried different methods.',
+      sentence: 'How did he find the right solution?',
+    },
+    {
+      meaning: 'Onlar yılbaşını nasıl kutladılar?',
+      possibleAnswer: 'They had a big party.',
+      sentence: "How did they celebrate New Year's Eve?",
+    },
+    {
+      meaning: 'Sürpriz habere nasıl tepki verdin?',
+      possibleAnswer: 'I was shocked and excited.',
+      sentence: 'How did you react to the surprise news?',
+    },
+    {
+      meaning: 'O (kadın) düğününü nasıl organize etti?',
+      possibleAnswer: 'She hired a wedding planner.',
+      sentence: 'How did she organize her wedding?',
+    },
+    {
+      meaning: 'Projeyi takvimden önce nasıl bitirdik?',
+      possibleAnswer: 'We worked efficiently and focused.',
+      sentence: 'How did we manage to finish the project ahead of schedule?',
+    },
+    {
+      meaning: 'Onlar konseri nasıl beğendiler?',
+      possibleAnswer: 'They loved it, it was amazing.',
+      sentence: 'How did they enjoy the concert?',
+    },
+    {
+      meaning: 'Evi bu kadar hızlı nasıl temizledin?',
+      possibleAnswer: 'I had help from my family.',
+      sentence: 'How did you clean the house so quickly?',
+    },
+    {
+      meaning: 'O (erkek) kitabı nasıl yazdı?',
+      possibleAnswer: 'He wrote a little every day.',
+      sentence: 'How did he write the book?',
+    },
+    {
+      meaning: 'İş ilanını nasıl öğrendin?',
+      possibleAnswer: 'I saw it on a job board.',
+      sentence: 'How did you learn about the job opening?',
+    },
+    {
+      meaning: 'Onlar kırık pencereyi nasıl tamir ettiler?',
+      possibleAnswer: 'They replaced the glass.',
+      sentence: 'How did they fix the broken window?',
+    },
+    {
+      meaning: 'O (kadın) yardım etkinliğini nasıl organize etti?',
+      possibleAnswer: 'She gathered a team and planned everything.',
+      sentence: 'How did she organize the charity event?',
+    },
+    {
+      meaning: 'Çalışmadan testi nasıl geçtin?',
+      possibleAnswer: 'I paid attention in class.',
+      sentence: 'How did you pass the test without studying?',
+    },
+    {
+      meaning: 'O (erkek) kriz sırasında nasıl sakin kaldı?',
+      possibleAnswer: 'He took deep breaths and stayed focused.',
+      sentence: 'How did he stay calm during the crisis?',
+    },
+    {
+      meaning: 'Dün geceki yemeği nasıl beğendin?',
+      possibleAnswer: 'It was delicious, I loved it.',
+      sentence: 'How did you enjoy the dinner last night?',
+    },
+    {
+      meaning: 'Onlar ülke çapında nasıl seyahat ettiler?',
+      possibleAnswer: 'They drove a car.',
+      sentence: 'How did they travel across the country?',
+    },
+    {
+      meaning: 'O (kadın) biletleri nasıl aldı?',
+      possibleAnswer: 'She bought them online early.',
+      sentence: 'How did she manage to get the tickets?',
+    },
+    {
+      meaning: 'Sıhhi tesisat sorununu nasıl çözdün?',
+      possibleAnswer: 'I called a plumber.',
+      sentence: 'How did you fix the plumbing issue?',
+    },
+    {
+      meaning: 'O (erkek) eve geri dönüş yolunu nasıl buldu?',
+      possibleAnswer: 'He used a map.',
+      sentence: 'How did he find his way back home?',
+    },
+    {
+      meaning: 'Geçen kış tatilini nasıl geçirdin?',
+      possibleAnswer: 'I went skiing in the mountains.',
+      sentence: 'How did you spend your vacation last winter?',
+    },
+    {
+      meaning: 'Onlar kötü havayla nasıl başa çıktılar?',
+      possibleAnswer: 'They stayed indoors.',
+      sentence: 'How did they cope with the bad weather?',
+    },
+    {
+      meaning: 'O (kadın) resim yapma becerilerini nasıl geliştirdi?',
+      possibleAnswer: 'She took art classes.',
+      sentence: 'How did she improve her painting skills?',
+    },
+    {
+      meaning: 'Yeni restoranı nasıl buldun?',
+      possibleAnswer: 'I read reviews online.',
+      sentence: 'How did you find the new restaurant?',
+    },
+    {
+      meaning: 'O (erkek) gürültülü komşularla nasıl başa çıktı?',
+      possibleAnswer: 'He talked to them politely.',
+      sentence: 'How did he deal with the noisy neighbors?',
+    },
+    {
+      meaning: 'Geçen hafta sonu boş zamanını nasıl geçirdin?',
+      possibleAnswer: 'I went to the beach.',
+      sentence: 'How did you spend your free time last weekend?',
+    },
+    {
+      meaning: 'Onlar karmaşık problemi nasıl çözdüler?',
+      possibleAnswer: 'They worked together as a team.',
+      sentence: 'How did they solve the complex problem?',
+    },
+    {
+      meaning: 'O (kadın) yükseklik kork',
+      possibleAnswer: '',
+      sentence: 'How did she get over her fear of heights?',
+    },
+    {
+      meaning: 'She took small steps to overcome it.',
+      possibleAnswer: '',
+      sentence: 'usunu nasıl yendi?',
+    },
+    {
+      meaning: 'Kayıp evcil hayvanını nasıl buldun?',
+      possibleAnswer: 'I put up flyers in the neighborhood.',
+      sentence: 'How did you find your lost pet?',
+    },
+    {
+      meaning: 'O (erkek) bozuk arabayı nasıl tamir etti?',
+      possibleAnswer: 'He took it to a mechanic.',
+      sentence: 'How did he repair the broken car?',
+    },
+    {
+      meaning: 'İşteki zor projeyi nasıl yönettin?',
+      possibleAnswer: 'I broke it down into smaller tasks.',
+      sentence: 'How did you handle the difficult project at work?',
+    },
+    {
+      meaning: 'Onlar topluluk etkinliğini nasıl organize ettiler?',
+      possibleAnswer: 'They got volunteers to help.',
+      sentence: 'How did they organize the community event?',
+    },
+    {
+      meaning: 'O (kadın) kitap kulübü toplantısını nasıl beğendi?',
+      possibleAnswer: 'She loved discussing the book with others.',
+      sentence: 'How did she enjoy the book club meeting?',
+    },
+    {
+      meaning: 'Maratonu nasıl bitirdin?',
+      possibleAnswer: 'I trained for months.',
+      sentence: 'How did you finish the marathon?',
+    },
+    {
+      meaning: 'O (erkek) böyle güzel eserleri nasıl yarattı?',
+      possibleAnswer: 'He practiced his skills regularly.',
+      sentence: 'How did he create such beautiful artwork?',
+    },
+    {
+      meaning: 'Uzun uçuş sırasında nasıl uyanık kaldın?',
+      possibleAnswer: 'I watched movies.',
+      sentence: 'How did you manage to stay awake during the long flight?',
+    },
+    {
+      meaning: 'Onlar başarılarını nasıl kutladılar?',
+      possibleAnswer: 'They threw a party.',
+      sentence: 'How did they celebrate their success?',
+    },
+    {
+      meaning: 'O (kadın) terfiyi nasıl aldı?',
+      possibleAnswer: 'She worked very hard.',
+      sentence: 'How did she manage to get a promotion?',
+    },
+    {
+      meaning: 'Yerel kültürü nasıl öğrendin?',
+      possibleAnswer: 'I talked to local people.',
+      sentence: 'How did you learn about the local culture?',
+    },
+    {
+      meaning: 'O (erkek) mükemmel hediyeyi nasıl buldu?',
+      possibleAnswer: 'He asked friends for advice.',
+      sentence: 'How did he find the perfect gift?',
+    },
+    {
+      meaning: 'Otelde konaklamanı nasıl beğendin?',
+      possibleAnswer: 'It was very comfortable.',
+      sentence: 'How did you enjoy your stay at the hotel?',
+    },
+    {
+      meaning: 'Onlar fırtınaya nasıl hazırlandılar?',
+      possibleAnswer: 'They bought supplies in advance.',
+      sentence: 'How did they prepare for the storm?',
+    },
+    {
+      meaning: 'O (kadın) yoğun programını nasıl organize etti?',
+      possibleAnswer: 'She used a planner.',
+      sentence: 'How did she organize her busy schedule?',
+    },
+    {
+      meaning: 'Dağın zirvesine nasıl çıktın?',
+      possibleAnswer: 'I hiked up the trail.',
+      sentence: 'How did you get to the top of the mountain?',
+    },
+    {
+      meaning: 'O (erkek) nasıl bu kadar iyi yemek yapmayı öğrendi?',
+      possibleAnswer: 'He practiced with different recipes.',
+      sentence: 'How did he learn to cook so well?',
+    },
+    {
+      meaning: 'Geçen hafta sonunu nasıl geçirdin?',
+      possibleAnswer: 'I visited a museum.',
+      sentence: 'How did you spend your last weekend?',
+    },
+    {
+      meaning: 'Onlar sürpriz duyuruya nasıl tepki verdiler?',
+      possibleAnswer: 'They were thrilled.',
+      sentence: 'How did they react to the surprise announcement?',
+    },
+    {
+      meaning: 'O (kadın) yeni işindeki iş yükünü nasıl yönetti?',
+      possibleAnswer: 'She prioritized her tasks.',
+      sentence: 'How did she handle the workload at her new job?',
+    },
+    {
+      meaning: 'Doğru daireyi nasıl buldun?',
+      possibleAnswer: 'I searched online listings.',
+      sentence: 'How did you find the right apartment?',
+    },
+    {
+      meaning: 'O (erkek) hastalığından nasıl iyileşti?',
+      possibleAnswer: "He followed the doctor's advice.",
+      sentence: 'How did he recover from his illness?',
+    },
+    {
+      meaning: 'Mezuniyetini nasıl kutladın?',
+      possibleAnswer: 'I had a party with my family.',
+      sentence: 'How did you celebrate your graduation?',
+    },
+    {
+      meaning: 'Onlar kriz durumunu nasıl yönetti?',
+      possibleAnswer: 'They stayed calm and followed a plan.',
+      sentence: 'How did they handle the crisis situation?',
+    },
+    {
+      meaning: 'O (kadın) yarışma için nasıl antrenman yaptı?',
+      possibleAnswer: 'She practiced every day.',
+      sentence: 'How did she train for the competition?',
+    },
+    {
+      meaning: 'Karanlıkta yolunu nasıl buldun?',
+      possibleAnswer: 'I used a flashlight.',
+      sentence: 'How did you find your way in the dark?',
+    },
+    {
+      meaning: 'O (erkek) atölyesini nasıl organize etti?',
+      possibleAnswer: 'He arranged all his tools neatly.',
+      sentence: 'How did he organize his workshop?',
+    },
+    {
+      meaning: 'Son tatilini nasıl geçirdin?',
+      possibleAnswer: 'I traveled to a new city.',
+      sentence: 'How did you spend your last holiday?',
+    },
+    {
+      meaning: 'Onlar gizemi nasıl çözdüler?',
+      possibleAnswer: 'They gathered clues and figured it out.',
+      sentence: 'How did they solve the mystery?',
+    },
+    {
+      meaning: 'O (kadın) düğününü nasıl planladı?',
+      possibleAnswer: 'She made a detailed checklist.',
+      sentence: 'How did she plan her wedding?',
+    },
+    {
+      meaning: 'Çalışmaların sırasında nasıl motive kaldın?',
+      possibleAnswer: 'I set small goals and rewarded myself.',
+      sentence: 'How did you stay motivated during your studies?',
+    },
+    {
+      meaning: 'O (erkek) iş planını nasıl oluşturdu?',
+      possibleAnswer: 'He researched and wrote it carefully.',
+      sentence: 'How did he create the business plan?',
+    },
+    {
+      meaning: 'Yeni işi nasıl buldun?',
+      possibleAnswer: 'I applied online and went for an interview.',
+      sentence: 'How did you find the new job?',
+    },
+    {
+      meaning: 'Onlar eski evi nasıl yenilediler?',
+      possibleAnswer: 'They hired a contractor.',
+      sentence: 'How did they renovate the old house?',
+    },
+    {
+      meaning:
+        'O (kadın) topluluk önünde konuşma becerilerini nasıl geliştirdi?',
+      possibleAnswer: 'She practiced in front of a mirror.',
+      sentence: 'How did she improve her public speaking skills?',
+    },
+    {
+      meaning: 'Seyahate nasıl hazırlandın?',
+      possibleAnswer: 'I packed and made an itinerary.',
+      sentence: 'How did you prepare for the trip?',
+    },
+    {
+      meaning: 'O (erkek) sözünü nasıl tuttu?',
+      possibleAnswer: 'He made sure to prioritize it.',
+      sentence: 'How did he manage to keep his promise?',
+    },
+    {
+      meaning: 'Tatil sezonunu nasıl kutladın?',
+      possibleAnswer: 'I spent time with family and friends.',
+      sentence: 'How did you celebrate the holiday season?',
+    },
+  ],
+  C3: [
+    {
+      meaning: 'Dün gece sınavına nasıl hazırlanıyordun?',
+      possibleAnswer: 'I was studying all my notes and doing practice tests.',
+      sentence: 'How were you preparing for your test last night?',
+    },
+    {
+      meaning: 'O, dün akşam yemeğini nasıl pişiriyordu?',
+      possibleAnswer:
+        'She was trying a new recipe and following it step by step.',
+      sentence: 'How was she cooking dinner yesterday evening?',
+    },
+    {
+      meaning: 'Onlar dün yağmurda futbolu nasıl oynuyorlardı?',
+      possibleAnswer:
+        'They were running around and having fun despite the rain.',
+      sentence: 'How were they playing soccer in the rain yesterday?',
+    },
+    {
+      meaning: 'O, bütün öğleden sonra arabayı nasıl tamir ediyordu?',
+      possibleAnswer: 'He was replacing the old parts and checking the engine.',
+      sentence: 'How was he fixing the car all afternoon?',
+    },
+    {
+      meaning: 'Cumartesi günü evi nasıl temizliyordun?',
+      possibleAnswer: 'I was vacuuming the floors and dusting the furniture.',
+      sentence: 'How were you cleaning the house on Saturday?',
+    },
+    {
+      meaning: 'O, bütün hafta sınavlarına nasıl çalışıyordu?',
+      possibleAnswer: 'She was reviewing her textbooks and making flashcards.',
+      sentence: 'How was she studying for her exams all week?',
+    },
+    {
+      meaning: 'Onlar geçen ay etkinliği nasıl organize ediyorlardı?',
+      possibleAnswer:
+        'They were booking the venue and sending out invitations.',
+      sentence: 'How were they organizing the event last month?',
+    },
+    {
+      meaning: 'O, geçen yaz köpeğine nasıl bakıyordu?',
+      possibleAnswer: 'He was taking it for walks and feeding it regularly.',
+      sentence: 'How was he taking care of his dog last summer?',
+    },
+    {
+      meaning: 'Parti için odayı nasıl süslüyordun?',
+      possibleAnswer: 'I was hanging up streamers and setting up the table.',
+      sentence: 'How were you decorating the room for the party?',
+    },
+    {
+      meaning: 'O, Pazar günü duvarı nasıl boyuyordu?',
+      possibleAnswer: 'She was using a roller and mixing different colors.',
+      sentence: 'How was she painting the wall on Sunday?',
+    },
+    {
+      meaning: 'Onlar geçen yıl Avrupa’yı nasıl geziyorlardı?',
+      possibleAnswer:
+        'They were visiting different cities and taking lots of photos.',
+      sentence: 'How were they traveling around Europe last year?',
+    },
+    {
+      meaning: 'O, dün konuşmasını nasıl hazırlıyordu?',
+      possibleAnswer:
+        'He was writing it out and practicing in front of the mirror.',
+      sentence: 'How was he preparing his speech yesterday?',
+    },
+    {
+      meaning: 'Geçen ay tatilini nasıl geçiriyordun?',
+      possibleAnswer: 'I was relaxing on the beach and exploring the town.',
+      sentence: 'How were you spending your vacation last month?',
+    },
+    {
+      meaning: 'O, geçen dönem Fransızcayı nasıl öğreniyordu?',
+      possibleAnswer: 'She was taking classes and practicing with a tutor.',
+      sentence: 'How was she learning French last semester?',
+    },
+    {
+      meaning: 'Onlar geçen hafta dans rutinlerini nasıl pratik yapıyorlardı?',
+      possibleAnswer:
+        'They were going over the steps and timing them to the music.',
+      sentence: 'How were they practicing their dance routine last week?',
+    },
+    {
+      meaning: 'O, doğum günü için nasıl bir kek yapıyordu?',
+      possibleAnswer:
+        'He was mixing the ingredients and baking it in the oven.',
+      sentence: 'How was he making a cake for his birthday?',
+    },
+    {
+      meaning: 'Dün spor salonunda nasıl egzersiz yapıyordun?',
+      possibleAnswer: 'I was lifting weights and running on the treadmill.',
+      sentence: 'How were you exercising at the gym yesterday?',
+    },
+    {
+      meaning: 'O, Cuma günü dosyalarını nasıl düzenliyordu?',
+      possibleAnswer:
+        'She was sorting them by date and putting them in folders.',
+      sentence: 'How was she organizing her files on Friday?',
+    },
+    {
+      meaning: 'Onlar geçen hafta sonu yarışma için nasıl hazırlanıyorlardı?',
+      possibleAnswer:
+        'They were rehearsing their routines and getting feedback.',
+      sentence: 'How were they preparing for the competition last weekend?',
+    },
+    {
+      meaning: 'O, geçen yaz çiti nasıl boyuyordu?',
+      possibleAnswer:
+        'He was sanding it down and applying a fresh coat of paint.',
+      sentence: 'How was he painting the fence last summer?',
+    },
+    {
+      meaning: 'Geçen hafta market alışverişi nasıl yapıyordun?',
+      possibleAnswer:
+        'I was checking off items from my list and looking for sales.',
+      sentence: 'How were you shopping for groceries last week?',
+    },
+    {
+      meaning: 'O, Cumartesi sabahı odasını nasıl temizliyordu?',
+      possibleAnswer: 'She was picking up clothes and making her bed.',
+      sentence: 'How was she cleaning her room on Saturday morning?',
+    },
+    {
+      meaning: 'Onlar dün gece enstrümanlarını nasıl pratik yapıyorlardı?',
+      possibleAnswer: 'They were tuning them and playing their favorite songs.',
+      sentence: 'How were they practicing their instruments last night?',
+    },
+    {
+      meaning: 'O, Pazar öğleden sonra arabasını nasıl yıkıyordu?',
+      possibleAnswer:
+        'He was scrubbing it down and rinsing it off with the hose.',
+      sentence: 'How was he washing his car on Sunday afternoon?',
+    },
+    {
+      meaning: 'Dün bütün gün raporunu nasıl yazıyordun?',
+      possibleAnswer: 'I was gathering data and typing it up on my computer.',
+      sentence: 'How were you writing your report all day yesterday?',
+    },
+    {
+      meaning: 'O, geçen hafta sonu elbisesini nasıl dikiyordu?',
+      possibleAnswer: 'She was cutting the fabric and stitching it together.',
+      sentence: 'How was she sewing her dress last weekend?',
+    },
+    {
+      meaning: 'Onlar geçen Cuma ofisi nasıl düzenliyorlardı?',
+      possibleAnswer: 'They were arranging the desks and filing papers.',
+      sentence: 'How were they organizing the office last Friday?',
+    },
+    {
+      meaning: 'O, geçen ilkbahar bahçeye çiçekleri nasıl ekiyordu?',
+      possibleAnswer: 'He was digging holes and placing the plants inside.',
+      sentence: 'How was he planting flowers in the garden last spring?',
+    },
+    {
+      meaning: 'Geçen ay arkadaşının taşınmasına nasıl yardım ediyordun?',
+      possibleAnswer: 'I was packing boxes and loading them into the truck.',
+      sentence: 'How were you helping your friend move last month?',
+    },
+    {
+      meaning: 'O, dün akşam yoga yapmayı nasıl pratik ediyordu?',
+      possibleAnswer: 'She was following a video and doing various poses.',
+      sentence: 'How was she practicing yoga last evening?',
+    },
+    {
+      meaning: 'Onlar geçen Aralık ayında Noel ağacını nasıl süslüyorlardı?',
+      possibleAnswer: 'They were hanging ornaments and stringing lights.',
+      sentence: 'How were they decorating the Christmas tree last December?',
+    },
+    {
+      meaning: 'O, geçen hafta sonu bisikletini nasıl tamir ediyordu?',
+      possibleAnswer: 'He was fixing the chain and inflating the tires.',
+      sentence: 'How was he repairing his bicycle last weekend?',
+    },
+    {
+      meaning: 'Geçen yaz yüzmeyi nasıl öğreniyordun?',
+      possibleAnswer: 'I was taking lessons and practicing in the pool.',
+      sentence: 'How were you learning to swim last summer?',
+    },
+    {
+      meaning: 'O, dün gece etkinlikte nasıl fotoğraf çekiyordu?',
+      possibleAnswer: 'She was adjusting the settings and capturing moments.',
+      sentence: 'How was she taking pictures at the event last night?',
+    },
+    {
+      meaning:
+        'Onlar geçen hafta aile toplantısı için yemeği nasıl hazırlıyorlardı?',
+      possibleAnswer:
+        'They were chopping vegetables and cooking the main dishes.',
+      sentence:
+        'How were they preparing the meal for the family gathering last week?',
+    },
+    {
+      meaning: 'O, geçen Pazar günü bütün gün gölde nasıl balık tutuyordu?',
+      possibleAnswer: 'He was casting his line and waiting patiently.',
+      sentence: 'How was he fishing at the lake all day last Sunday?',
+    },
+    {
+      meaning: 'Sunum için konuşmanı nasıl pratik yapıyordun?',
+      possibleAnswer:
+        'I was rehearsing in front of a mirror and timing myself.',
+      sentence: 'How were you practicing your speech for the presentation?',
+    },
+    {
+      meaning: 'O, dün gece en sevdiği kitabı nasıl okuyordu?',
+      possibleAnswer: 'She was curled up on the couch and totally engrossed.',
+      sentence: 'How was she reading her favorite book last night?',
+    },
+    {
+      meaning: 'Onlar dün akşam bütün akşam video oyunları nasıl oynuyorlardı?',
+      possibleAnswer: 'They were taking turns and cheering each other on.',
+      sentence: 'How were they playing video games all evening yesterday?',
+    },
+    {
+      meaning:
+        'O, geçen hafta sonu oğluna nasıl bisiklete binmeyi öğretiyordu?',
+      possibleAnswer: 'He was holding the bike steady and encouraging him.',
+      sentence: 'How was he teaching his son to ride a bike last weekend?',
+    },
+    {
+      meaning: 'Dün derste matematik problemlerini nasıl çözüyordun?',
+      possibleAnswer:
+        'I was working through the steps and asking for help when needed.',
+      sentence: 'How were you solving the math problems in class yesterday?',
+    },
+    {
+      meaning: 'O, dün gece eskiz defterine nasıl çizim yapıyordu?',
+      possibleAnswer: 'She was sketching landscapes and adding details.',
+      sentence: 'How was she drawing in her sketchbook last night?',
+    },
+    {
+      meaning: 'Onlar geçen hafta oyun için nasıl pratik yapıyorlardı?',
+      possibleAnswer:
+        'They were memorizing their lines and running through scenes.',
+      sentence: 'How were they practicing for the play last week?',
+    },
+    {
+      meaning: 'O, geçen yıl piyano çalmayı nasıl öğreniyordu?',
+      possibleAnswer: 'He was taking lessons and practicing every day.',
+      sentence: 'How was he learning to play the piano last year?',
+    },
+    {
+      meaning: 'Kış için nasıl bir atkı örüyordun?',
+      possibleAnswer: 'I was using thick yarn and following a pattern.',
+      sentence: 'How were you knitting a scarf for winter?',
+    },
+    {
+      meaning: 'O, pastane satışına nasıl kurabiye pişiriyordu?',
+      possibleAnswer: 'She was mixing the dough and cutting out shapes.',
+      sentence: 'How was she baking cookies for the bake sale?',
+    },
+    {
+      meaning: 'Onlar dün gece konser için sahneyi nasıl hazırlıyorlardı?',
+      possibleAnswer:
+        'They were setting up the equipment and testing the sound.',
+      sentence: 'How were they preparing the stage for the concert last night?',
+    },
+    {
+      meaning:
+        'O, dün öğleden sonra futbol becerilerini nasıl pratik yapıyordu?',
+      possibleAnswer: 'He was dribbling the ball and doing drills.',
+      sentence: 'How was he practicing his soccer skills yesterday afternoon?',
+    },
+    {
+      meaning: 'Geçen yaz geziyi nasıl planlıyordun?',
+      possibleAnswer: 'I was researching destinations and booking hotels.',
+      sentence: 'How were you planning the trip last summer?',
+    },
+    {
+      meaning: 'O, geçen dönem nasıl dikiş dikmeyi öğreniyordu?',
+      possibleAnswer:
+        'She was attending classes and practicing on a sewing machine.',
+      sentence: 'How was she learning to sew last semester?',
+    },
+    {
+      meaning: 'Onlar geçen ay çatı nasıl tamir ediyorlardı?',
+      possibleAnswer: 'They were replacing shingles and sealing leaks.',
+      sentence: 'How were they fixing the roof last month?',
+    },
+    {
+      meaning: 'O, geçen hafta tarih sınavı için nasıl çalışıyordu?',
+      possibleAnswer: 'He was reviewing his notes and making flashcards.',
+      sentence: 'How was he studying for his history test last week?',
+    },
+    {
+      meaning: 'Dün annene mutfakta nasıl yardım ediyordun?',
+      possibleAnswer: 'I was chopping vegetables and washing dishes.',
+      sentence: 'How were you helping your mother in the kitchen yesterday?',
+    },
+    {
+      meaning: 'O, dün gece makalesini nasıl düzenliyordu?',
+      possibleAnswer: 'She was correcting errors and improving the structure.',
+      sentence: 'How was she editing her essay last night?',
+    },
+    {
+      meaning: 'Onlar geçen Cuma yetenek gösterisi için nasıl prova yapıyordu?',
+      possibleAnswer: 'They were practicing their acts and getting feedback.',
+      sentence: 'How were they rehearsing for the talent show last Friday?',
+    },
+    {
+      meaning: 'O, geçen Pazartesi konuşmasını nasıl pratik yapıyordu?',
+      possibleAnswer: 'He was going over his notes and speaking out loud.',
+      sentence: 'How was he practicing his speech last Monday?',
+    },
+    {
+      meaning: 'Dün iş yerinde masanı nasıl düzenliyordun?',
+      possibleAnswer: 'I was sorting papers and arranging my supplies.',
+      sentence: 'How were you organizing your desk at work yesterday?',
+    },
+    {
+      meaning: 'O, geçen hafta sonu meşhur turtasını nasıl yapıyordu?',
+      possibleAnswer: 'She was mixing the filling and baking it to perfection.',
+      sentence: 'How was she making her famous pie last weekend?',
+    },
+    {
+      meaning: 'Onlar geçen yaz evi nasıl boyuyorlardı?',
+      possibleAnswer:
+        'They were prepping the surfaces and applying fresh paint.',
+      sentence: 'How were they painting the house last summer?',
+    },
+    {
+      meaning: 'O, geçen yıl satranç oynamayı nasıl öğreniyordu?',
+      possibleAnswer: 'He was reading books and playing with friends.',
+      sentence: 'How was he learning to play chess last year?',
+    },
+    {
+      meaning: 'Geçen hafta sonu garajı nasıl temizliyordun?',
+      possibleAnswer: 'I was sweeping the floor and organizing the tools.',
+      sentence: 'How were you cleaning the garage last weekend?',
+    },
+    {
+      meaning: 'O, dün çiçekleri nasıl düzenliyordu?',
+      possibleAnswer:
+        'She was picking out the best blooms and creating a bouquet.',
+      sentence: 'How was she arranging the flowers yesterday?',
+    },
+    {
+      meaning: 'Onlar dün gece bilgisayarı nasıl tamir ediyorlardı?',
+      possibleAnswer:
+        'They were troubleshooting the issue and replacing parts.',
+      sentence: 'How were they fixing the computer last night?',
+    },
+    {
+      meaning: 'O, geçen Cumartesi bebeğe nasıl bakıyordu?',
+      possibleAnswer: 'He was feeding, changing, and playing with the baby.',
+      sentence: 'How was he taking care of the baby last Saturday?',
+    },
+    {
+      meaning: 'Dün dans hareketlerini nasıl pratik yapıyordun?',
+      possibleAnswer: 'I was watching videos and repeating the steps.',
+      sentence: 'How were you practicing your dance moves yesterday?',
+    },
+    {
+      meaning: 'O, dün akşam internetten haberleri nasıl okuyordu?',
+      possibleAnswer: 'She was scrolling through articles and staying updated.',
+      sentence: 'How was she reading the news online last evening?',
+    },
+    {
+      meaning: 'Onlar bütün hafta sınava nasıl hazırlanıyorlardı?',
+      possibleAnswer: 'They were studying every day and reviewing notes.',
+      sentence: 'How were they preparing for the test all week?',
+    },
+    {
+      meaning: 'O, Pazar günü kitaplarını nasıl düzenliyordu?',
+      possibleAnswer:
+        'He was sorting them by genre and placing them on the shelves.',
+      sentence: 'How was he organizing his books on Sunday?',
+    },
+    {
+      meaning: 'Geçen Salı raporu nasıl yazıyordun?',
+      possibleAnswer: 'I was gathering information and typing it up.',
+      sentence: 'How were you writing the report last Tuesday?',
+    },
+    {
+      meaning: 'O, geçen hafta sonu bisikleti nasıl tamir ediyordu?',
+      possibleAnswer: 'She was adjusting the brakes and oiling the chain.',
+      sentence: 'How was she fixing the bike last weekend?',
+    },
+    {
+      meaning: 'Onlar dün bütün gün tenis nasıl oynuyorlardı?',
+      possibleAnswer: 'They were practicing their serves and playing matches.',
+      sentence: 'How were they playing tennis all day yesterday?',
+    },
+    {
+      meaning: 'O, geçen hafta iş görüşmesine nasıl hazırlanıyordu?',
+      possibleAnswer: 'He was researching the company and practicing answers.',
+      sentence: 'How was he preparing for the job interview last week?',
+    },
+    {
+      meaning: 'Geçen Pazartesi dosyaları nasıl düzenliyordun?',
+      possibleAnswer: 'I was labeling folders and arranging documents.',
+      sentence: 'How were you organizing the files last Monday?',
+    },
+    {
+      meaning: 'O, geçen yaz nasıl yemek yapmayı öğreniyordu?',
+      possibleAnswer: 'She was watching cooking shows and trying new recipes.',
+      sentence: 'How was she learning to cook last summer?',
+    },
+    {
+      meaning: 'Onlar dün gece banyodaki sızıntıyı nasıl tamir ediyorlardı?',
+      possibleAnswer: 'They were replacing the pipes and sealing the joints.',
+      sentence: 'How were they fixing the leak in the bathroom last night?',
+    },
+    {
+      meaning: 'O, geçen hafta sonu matematik sınavı için nasıl çalışıyordu?',
+      possibleAnswer: 'He was solving problems and reviewing formulas.',
+      sentence: 'How was he studying for the math exam last weekend?',
+    },
+    {
+      meaning: 'Geçen ay etkinliği nasıl planlıyordun?',
+      possibleAnswer:
+        'I was coordinating with vendors and sending invitations.',
+      sentence: 'How were you planning the event last month?',
+    },
+    {
+      meaning: 'O, Cumartesi günü çatı katını nasıl temizliyordu?',
+      possibleAnswer: 'She was sorting through old items and dusting.',
+      sentence: 'How was she cleaning the attic on Saturday?',
+    },
+    {
+      meaning: 'Onlar geçen kış nasıl kayak yapmayı öğreniyorlardı?',
+      possibleAnswer: 'They were taking lessons and practicing on the slopes.',
+      sentence: 'How were they learning to ski last winter?',
+    },
+    {
+      meaning: 'O, geçen yaz çiti nasıl tamir ediyordu?',
+      possibleAnswer: 'He was replacing the old wood and painting it.',
+      sentence: 'How was he repairing the fence last summer?',
+    },
+    {
+      meaning: 'Geçen hafta yeni şarkıyı nasıl pratik yapıyordun?',
+      possibleAnswer:
+        'I was singing along to the music and memorizing the lyrics.',
+      sentence: 'How were you practicing the new song last week?',
+    },
+    {
+      meaning: 'O, gezi için haritayı nasıl çalışıyordu?',
+      possibleAnswer:
+        'She was marking points of interest and planning the route.',
+      sentence: 'How was she studying the map for the trip?',
+    },
+    {
+      meaning: 'Onlar dün gece tatilleri için nasıl paket yapıyorlardı?',
+      possibleAnswer:
+        'They were organizing their clothes and checking their lists.',
+      sentence: 'How were they packing for their vacation last night?',
+    },
+    {
+      meaning: 'O, geçen hafta sonu televizyonu nasıl tamir ediyordu?',
+      possibleAnswer: 'He was replacing the broken parts and testing it.',
+      sentence: 'How was he fixing the TV last weekend?',
+    },
+    {
+      meaning: 'Geçen ay maraton için nasıl antrenman yapıyordun?',
+      possibleAnswer: 'I was running every day and following a training plan.',
+      sentence: 'How were you training for the marathon last month?',
+    },
+    {
+      meaning: 'O, dün gece kemanını nasıl pratik yapıyordu?',
+      possibleAnswer: 'She was playing scales and practicing pieces.',
+      sentence: 'How was she practicing her violin last night?',
+    },
+    {
+      meaning: 'Onlar dün mobilyaları nasıl düzenliyorlardı?',
+      possibleAnswer:
+        'They were moving pieces around and finding the best layout.',
+      sentence: 'How were they arranging the furniture yesterday?',
+    },
+    {
+      meaning: 'O, Pazar günü ayakkabılarını nasıl temizliyordu?',
+      possibleAnswer: 'He was brushing off dirt and polishing them.',
+      sentence: 'How was he cleaning his shoes on Sunday?',
+    },
+    {
+      meaning: 'Dün sabah yatağı nasıl yapıyordun?',
+      possibleAnswer:
+        'I was straightening the sheets and fluffing the pillows.',
+      sentence: 'How were you making the bed yesterday morning?',
+    },
+    {
+      meaning: 'O, dün akşam belgeleri nasıl düzenliyordu?',
+      possibleAnswer: 'She was filing them and labeling folders.',
+      sentence: 'How was she organizing the documents last evening?',
+    },
+    {
+      meaning: 'Onlar geçen hafta sonu nehirde nasıl balık tutuyorlardı?',
+      possibleAnswer: 'They were casting their lines and waiting patiently.',
+      sentence: 'How were they fishing at the river last weekend?',
+    },
+    {
+      meaning: 'O, geçen yaz nasıl araba kullanmayı öğreniyordu?',
+      possibleAnswer: 'He was taking lessons and practicing with his parents.',
+      sentence: 'How was he learning to drive last summer?',
+    },
+    {
+      meaning: 'Dün gece kız kardeşine ödevinde nasıl yardım ediyordun?',
+      possibleAnswer: 'I was explaining the problems and checking her answers.',
+      sentence: 'How were you helping your sister with her homework?',
+    },
+    {
+      meaning: 'O, dün gece tırnaklarını nasıl boyuyordu?',
+      possibleAnswer: 'She was applying the polish and letting them dry.',
+      sentence: 'How was she painting her nails last night?',
+    },
+    {
+      meaning: 'Onlar geçen hafta sürpriz partiyi nasıl planlıyorlardı?',
+      possibleAnswer:
+        'They were sending out invitations and decorating the venue.',
+      sentence: 'How were they planning the surprise party last week?',
+    },
+    {
+      meaning: 'O, parkta kuşları nasıl besliyordu?',
+      possibleAnswer: 'He was scattering seeds and watching them eat.',
+      sentence: 'How was he feeding the birds in the park?',
+    },
+    {
+      meaning: 'Dün gece coğrafya sınavı için nasıl çalışıyordun?',
+      possibleAnswer: 'I was reading the textbook and reviewing maps.',
+      sentence: 'How were you studying for the geography test last night?',
+    },
+    {
+      meaning: 'O, dün sabah yatağı nasıl yapıyordu?',
+      possibleAnswer:
+        'She was straightening the sheets and arranging the pillows.',
+      sentence: 'How was she making the bed yesterday morning?',
+    },
+    {
+      meaning: 'Onlar bütün hafta konser için nasıl pratik yapıyorlardı?',
+      possibleAnswer:
+        'They were rehearsing their songs and perfecting their performance.',
+      sentence: 'How were they practicing for the concert all week?',
+    },
+    {
+      meaning: 'O, geçen hafta sonu radyoyu nasıl tamir ediyordu?',
+      possibleAnswer: 'He was checking the wiring and replacing parts.',
+      sentence: 'How was he fixing the radio last weekend?',
+    },
+    {
+      meaning: 'Dün gece yemeği nasıl hazırlıyordun?',
+      possibleAnswer: 'I was chopping vegetables and cooking the main dish.',
+      sentence: 'How were you preparing dinner last night?',
+    },
+    {
+      meaning: 'O, geçen Cumartesi dolabını nasıl düzenliyordu?',
+      possibleAnswer: 'She was sorting clothes and arranging them by season.',
+      sentence: 'How was she organizing her closet last Saturday?',
+    },
+    {
+      meaning: 'Onlar dün basketbol becerilerini nasıl pratik yapıyorlardı?',
+      possibleAnswer: 'They were shooting hoops and running drills.',
+      sentence: 'How were they practicing their basketball skills yesterday?',
+    },
+    {
+      meaning: 'O, geçen hafta pencereleri nasıl temizliyordu?',
+      possibleAnswer: 'He was wiping them down and polishing the glass.',
+      sentence: 'How was he cleaning the windows last week?',
+    },
+    {
+      meaning: 'Geçen Cuma konuşmanı nasıl pratik yapıyordun?',
+      possibleAnswer:
+        'I was going over my notes and practicing in front of a mirror.',
+      sentence: 'How were you practicing your speech last Friday?',
+    },
+    {
+      meaning: 'O, dün gece biyoloji sınavı için nasıl çalışıyordu?',
+      possibleAnswer: 'She was reviewing her notes and reading the textbook.',
+      sentence: 'How was she studying for her biology exam last night?',
+    },
+    {
+      meaning: 'Onlar dün yazıcıyı nasıl tamir ediyorlardı?',
+      possibleAnswer:
+        'They were troubleshooting the problem and replacing the ink.',
+      sentence: 'How were they fixing the printer yesterday?',
+    },
+    {
+      meaning: 'O, geçen Pazar çalışma alanını nasıl düzenliyordu?',
+      possibleAnswer: 'He was sorting papers and arranging his supplies.',
+      sentence: 'How was he organizing his workspace last Sunday?',
+    },
+    {
+      meaning: 'Geçen ay odayı nasıl boyuyordun?',
+      possibleAnswer: 'I was choosing colors and applying the paint.',
+      sentence: 'How were you painting the room last month?',
+    },
+    {
+      meaning: 'O, geçen yaz aile buluşması için nasıl yemek pişiriyordu?',
+      possibleAnswer: 'She was preparing dishes and setting the table.',
+      sentence: 'How was she cooking for the family reunion last summer?',
+    },
+    {
+      meaning: 'Onlar dün gece oyun için nasıl repliklerini çalışıyorlardı?',
+      possibleAnswer:
+        'They were rehearsing their scenes and getting into character.',
+      sentence:
+        'How were they practicing their lines for the play last evening?',
+    },
+    {
+      meaning: 'O, geçen Cuma parti için süslemeleri nasıl yapıyordu?',
+      possibleAnswer: 'He was cutting out shapes and hanging them up.',
+      sentence: 'How was he making the decorations for the party last Friday?',
+    },
+    {
+      meaning: 'Geçen hafta bahçeyi kışa nasıl hazırlıyordun?',
+      possibleAnswer: 'I was covering plants and raking leaves.',
+      sentence: 'How were you preparing the garden for winter last week?',
+    },
+    {
+      meaning: 'O, kardeşine ödevinde nasıl yardım ediyordu?',
+      possibleAnswer: 'She was explaining the problems and checking his work.',
+      sentence: 'How was she helping her brother with his homework?',
+    },
+    {
+      meaning: 'Onlar geçen yaz yüzme tekniklerini nasıl pratik yapıyorlardı?',
+      possibleAnswer: 'They were doing drills and improving their strokes.',
+      sentence:
+        'How were they practicing their swimming techniques last summer?',
+    },
+    {
+      meaning: 'O, geçen Cumartesi müzik koleksiyonunu nasıl düzenliyordu?',
+      possibleAnswer: 'He was sorting CDs and creating playlists.',
+      sentence: 'How was he organizing his music collection last Saturday?',
+    },
+    {
+      meaning: 'Dün gece yemeği nasıl pişiriyordun?',
+      possibleAnswer: 'I was following a recipe and trying new spices.',
+      sentence: 'How were you cooking dinner last night?',
+    },
+    {
+      meaning: 'O, geçen ay İngilizce sınavı için nasıl çalışıyordu?',
+      possibleAnswer: 'She was reviewing vocabulary and practicing grammar.',
+      sentence: 'How was she studying for her English test last month?',
+    },
+    {
+      meaning: 'Onlar dün büyük toplantı için nasıl hazırlanıyorlardı?',
+      possibleAnswer:
+        'They were reviewing documents and rehearsing presentations.',
+      sentence: 'How were they preparing for the big meeting yesterday?',
+    },
+    {
+      meaning: 'O, geçen yaz çiti nasıl boyuyordu?',
+      possibleAnswer:
+        'He was sanding it down and applying a fresh coat of paint.',
+      sentence: 'How was he painting the fence last summer?',
+    },
+    {
+      meaning: 'Geçen hafta yeni dans rutinini nasıl pratik yapıyordun?',
+      possibleAnswer: 'I was going over the steps and perfecting the moves.',
+      sentence: 'How were you practicing the new dance routine last week?',
+    },
+    {
+      meaning: 'O, geçen dönem nasıl yemek yapmayı öğreniyordu?',
+      possibleAnswer: 'She was taking classes and practicing at home.',
+      sentence: 'How was she learning to cook last semester?',
+    },
+    {
+      meaning: 'Onlar dün gece kırık sandalyeyi nasıl tamir ediyorlardı?',
+      possibleAnswer: 'They were gluing the pieces and clamping them together.',
+      sentence: 'How were they fixing the broken chair last night?',
+    },
+    {
+      meaning: 'O, geçen yıl bahçeyi ilkbahara nasıl hazırlıyordu?',
+      possibleAnswer: 'He was planting seeds and setting up irrigation.',
+      sentence: 'How was he preparing the garden for spring last year?',
+    },
+    {
+      meaning: 'Geçen hafta sonu atölyeyi nasıl düzenliyordun?',
+      possibleAnswer: 'I was arranging tools and cleaning the space.',
+      sentence: 'How were you organizing the workshop last weekend?',
+    },
+    {
+      meaning: 'O, geçen dönem final sınavı için nasıl çalışıyordu?',
+      possibleAnswer: 'She was reviewing notes and doing practice tests.',
+      sentence: 'How was she studying for the final exam last semester?',
+    },
+    {
+      meaning: 'Onlar geçen Pazar pikniği nasıl planlıyorlardı?',
+      possibleAnswer: 'They were packing food and choosing a location.',
+      sentence: 'How were they planning the picnic last Sunday?',
+    },
+    {
+      meaning: 'O, dün golf vuruşunu nasıl pratik yapıyordu?',
+      possibleAnswer:
+        'He was going to the driving range and working on his form.',
+      sentence: 'How was he practicing his golf swing yesterday?',
+    },
+    {
+      meaning: 'Geçen hafta sonu oturma odasını nasıl boyuyordun?',
+      possibleAnswer: 'I was taping the edges and applying the paint evenly.',
+      sentence: 'How were you painting the living room last weekend?',
+    },
+    {
+      meaning: 'O, geçen yıl Şükran Günü için hindiyi nasıl pişiriyordu?',
+      possibleAnswer: 'She was seasoning it and roasting it in the oven.',
+      sentence: 'How was she cooking the turkey for Thanksgiving last year?',
+    },
+    {
+      meaning:
+        'Onlar geçen Cuma yetenek gösterisi için nasıl hazırlanıyorlardı?',
+      possibleAnswer:
+        'They were practicing their acts and perfecting their performance.',
+      sentence: 'How were they preparing for the talent show last Friday?',
+    },
+    {
+      meaning: 'O, dün gece piyanoyu nasıl pratik yapıyordu?',
+      possibleAnswer: 'He was playing scales and working on a new piece.',
+      sentence: 'How was he practicing the piano last night?',
+    },
+    {
+      meaning: 'Geçen Salı dosyaları nasıl düzenliyordun?',
+      possibleAnswer: 'I was labeling them and putting them in order.',
+      sentence: 'How were you organizing the files last Tuesday?',
+    },
+    {
+      meaning: 'O, geçen ay kimya sınavı için nasıl çalışıyordu?',
+      possibleAnswer: 'She was reviewing notes and doing practice problems.',
+      sentence: 'How was she studying for her chemistry test last month?',
+    },
+    {
+      meaning: 'Onlar geçen hafta sonu sahili nasıl temizliyorlardı?',
+      possibleAnswer: 'They were picking up trash and collecting debris.',
+      sentence: 'How were they cleaning the beach last weekend?',
+    },
+    {
+      meaning: 'O, dün öğleden sonra bisikleti nasıl tamir ediyordu?',
+      possibleAnswer: 'He was adjusting the brakes and lubricating the chain.',
+      sentence: 'How was he fixing the bike yesterday afternoon?',
+    },
+    {
+      meaning: 'Dün gece münazara için nasıl pratik yapıyordun?',
+      possibleAnswer: 'I was researching topics and rehearsing arguments.',
+      sentence: 'How were you practicing for the debate last night?',
+    },
+    {
+      meaning: 'O, proje için notlarını nasıl düzenliyordu?',
+      possibleAnswer: 'She was sorting them by topic and creating an outline.',
+      sentence: 'How was she organizi sng her notes for the project?',
+    },
+    {
+      meaning: 'Onlar geçen hafta düğün için salonu nasıl süslüyorlardı?',
+      possibleAnswer: 'They were hanging decorations and setting up tables.',
+      sentence: 'How were they decorating the hall for the wedding last week?',
+    },
+    {
+      meaning: 'O, geçen yaz nasıl gitar çalmayı öğreniyordu?',
+      possibleAnswer: 'He was taking lessons and practicing chords.',
+      sentence: 'How was he learning to play the guitar last summer?',
+    },
+    {
+      meaning: 'Dün çizim becerilerini nasıl pratik yapıyordun?',
+      possibleAnswer:
+        'I was sketching in my notebook and experimenting with shading.',
+      sentence: 'How were you practicing your drawing skills yesterday?',
+    },
+    {
+      meaning: 'O, geçen ay annesine bahçede nasıl yardım ediyordu?',
+      possibleAnswer: 'She was weeding the beds and planting flowers.',
+      sentence: 'How was she helping her mother in the garden last month?',
+    },
+    {
+      meaning: 'Onlar geçen yıl yolculuğu nasıl planlıyorlardı?',
+      possibleAnswer: 'They were mapping the route and booking accommodations.',
+      sentence: 'How were they planning the road trip last year?',
+    },
+    {
+      meaning: 'O, geçen hafta sunum için slaytları nasıl hazırlıyordu?',
+      possibleAnswer: 'He was designing them and practicing his speech.',
+      sentence:
+        'How was he preparing the slides for the presentation last week?',
+    },
+    {
+      meaning:
+        'Dün gece İngilizce konuşma becerilerini nasıl pratik yapıyordun?',
+      possibleAnswer: 'I was talking with a friend and practicing dialogues.',
+      sentence:
+        'How were you practicing your English conversation skills last night?',
+    },
+    {
+      meaning: 'O, geçen Cumartesi akvaryumu nasıl temizliyordu?',
+      possibleAnswer: 'She was changing the water and scrubbing the glass.',
+      sentence: 'How was she cleaning the aquarium last Saturday?',
+    },
+    {
+      meaning: 'Onlar geçen yaz tekneyi nasıl tamir ediyorlardı?',
+      possibleAnswer: 'They were patching the hull and repainting it.',
+      sentence: 'How were they repairing the boat last summer?',
+    },
+    {
+      meaning: 'O, geçen yıl etkinliği nasıl düzenliyordu?',
+      possibleAnswer:
+        'He was coordinating with vendors and managing the schedule.',
+      sentence: 'How was he organizing the event last year?',
+    },
+    {
+      meaning: 'Geçen dönem nasıl dikiş dikmeyi öğreniyordun?',
+      possibleAnswer: 'I was taking classes and practicing with fabric scraps.',
+      sentence: 'How were you learning to sew last semester?',
+    },
+    {
+      meaning:
+        'O, geçen ay mezuniyet töreni için konuşmasını nasıl pratik yapıyordu?',
+      possibleAnswer:
+        'She was rehearsing in front of the mirror and timing herself.',
+      sentence:
+        'How was she practicing her speech for the graduation ceremony last month?',
+    },
+  ],
+};
