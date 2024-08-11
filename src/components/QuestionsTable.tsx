@@ -153,7 +153,8 @@ const QuestionsTable = ({
             symbol !== 'Where' &&
             symbol !== 'When' &&
             symbol !== 'Why' &&
-            symbol !== 'How')
+            symbol !== 'How' &&
+            symbol !== 'Who')
         }
         onPress={() => handleBoxPress(symbol)}>
         <Blink duration={600}>
@@ -192,7 +193,8 @@ const QuestionsTable = ({
             symbol !== 'Where' &&
             symbol !== 'When' &&
             symbol !== 'Why' &&
-            symbol !== 'How')
+            symbol !== 'How' &&
+            symbol !== 'Who')
         }
         onPress={() => handleBoxPress(symbol)}>
         <Text

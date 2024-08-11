@@ -1,4 +1,3 @@
-import {QuestionsSubCategory} from './data';
 export const TensesTranslationSentences = {
   'A1-G': [
     {
@@ -28011,6 +28010,4579 @@ export const QueestionsTranslationSentencesHow = {
         'She was rehearsing in front of the mirror and timing herself.',
       sentence:
         'How was she practicing her speech for the graduation ceremony last month?',
+    },
+  ],
+};
+
+export const QueestionsTranslationSentencesWho = {
+  'A1-G': [
+    {
+      meaning: 'Hafta sonları kimi arar?',
+      possibleAnswer: 'He calls his mother.',
+      sentence: 'Who does he call on weekends?',
+    },
+    {
+      meaning: 'Okuldan sonra kiminle buluşurlar?',
+      possibleAnswer: 'They meet their friends.',
+      sentence: 'Who do they meet after school?',
+    },
+    {
+      meaning: 'Ofiste kiminle konuşur?',
+      possibleAnswer: 'She talks to her boss.',
+      sentence: 'Who does she talk to at the office?',
+    },
+    {
+      meaning: 'Kime ödevlerinde yardım edersin?',
+      possibleAnswer: 'I help my little brother.',
+      sentence: 'Who do you help with homework?',
+    },
+    {
+      meaning: 'Spor salonunda kimi görür?',
+      possibleAnswer: 'He sees his trainer.',
+      sentence: 'Who does he see at the gym?',
+    },
+    {
+      meaning: 'Partiye kimi davet ederler?',
+      possibleAnswer: 'They invite their classmates.',
+      sentence: 'Who do they invite to the party?',
+    },
+    {
+      meaning: 'Her gün kime e-posta gönderir?',
+      possibleAnswer: 'She emails her clients.',
+      sentence: 'Who does she email every day?',
+    },
+    {
+      meaning: 'Sabahları kimi selamlarsın?',
+      possibleAnswer: 'I greet my neighbors.',
+      sentence: 'Who do you greet in the morning?',
+    },
+    {
+      meaning: 'Projede kiminle çalışır?',
+      possibleAnswer: 'He works with his colleague.',
+      sentence: 'Who does he work with on the project?',
+    },
+    {
+      meaning: 'Kiminle futbol oynarlar?',
+      possibleAnswer: 'They play soccer with their friends.',
+      sentence: 'Who do they play soccer with?',
+    },
+    {
+      meaning: 'Sınıfta kimin yanında oturur?',
+      possibleAnswer: 'She sits next to her best friend.',
+      sentence: 'Who does she sit next to in class?',
+    },
+    {
+      meaning: 'Sık sık kimi düşünürsün?',
+      possibleAnswer: 'I think about my family.',
+      sentence: 'Who do you think about often?',
+    },
+    {
+      meaning: 'Öğle yemeğini kiminle paylaşır?',
+      possibleAnswer: 'He shares his lunch with his friend.',
+      sentence: 'Who does he share his lunch with?',
+    },
+    {
+      meaning: 'Toplantılarda kimi dinlerler?',
+      possibleAnswer: 'They listen to their manager.',
+      sentence: 'Who do they listen to during meetings?',
+    },
+    {
+      meaning: 'Kime hediye alır?',
+      possibleAnswer: 'She buys gifts for her family.',
+      sentence: 'Who does she buy gifts for?',
+    },
+    {
+      meaning: 'Akşamları kime mesaj atarsın?',
+      possibleAnswer: 'I text my best friend.',
+      sentence: 'Who do you text in the evening?',
+    },
+    {
+      meaning: 'Okula kiminle yürür?',
+      possibleAnswer: 'He walks to school with his sister.',
+      sentence: 'Who does he walk to school with?',
+    },
+    {
+      meaning: 'Hastanede kimi ziyaret ederler?',
+      possibleAnswer: 'They visit their grandmother.',
+      sentence: 'Who do they visit in the hospital?',
+    },
+    {
+      meaning: 'Kütüphanede kiminle çalışır?',
+      possibleAnswer: 'She studies with her classmates.',
+      sentence: 'Who does she study with at the library?',
+    },
+    {
+      meaning: 'Üzgün olduğunda kimi ararsın?',
+      possibleAnswer: 'I call my best friend.',
+      sentence: "Who do you call when you're sad?",
+    },
+    {
+      meaning: 'Piyanoda kiminle pratik yapar?',
+      possibleAnswer: 'He practices piano with his teacher.',
+      sentence: 'Who does he practice piano with?',
+    },
+    {
+      meaning: 'Öğle yemeğinde kime katılırlar?',
+      possibleAnswer: 'They join their colleagues for lunch.',
+      sentence: 'Who do they join for lunch?',
+    },
+    {
+      meaning: 'Sosyal medyada kimi takip eder?',
+      possibleAnswer: 'She follows her favorite singer.',
+      sentence: 'Who does she follow on social media?',
+    },
+    {
+      meaning: 'Filmleri kiminle tartışırsın?',
+      possibleAnswer: 'I discuss movies with my friend.',
+      sentence: 'Who do you discuss movies with?',
+    },
+    {
+      meaning: 'Satranç oynamak için kimi bulur?',
+      possibleAnswer: 'He plays chess with his uncle.',
+      sentence: 'Who does he play chess with?',
+    },
+    {
+      meaning: 'Maçtan sonra kime teşekkür ederler?',
+      possibleAnswer: 'They thank their coach.',
+      sentence: 'Who do they thank after the game?',
+    },
+    {
+      meaning: 'Toplantıları kime hatırlatır?',
+      possibleAnswer: 'She reminds her colleagues.',
+      sentence: 'Who does she remind about meetings?',
+    },
+    {
+      meaning: 'Bazen kiminle tartışırsın?',
+      possibleAnswer: 'I argue with my brother sometimes.',
+      sentence: 'Who do you argue with sometimes?',
+    },
+    {
+      meaning: 'Evi kiminle temizler?',
+      possibleAnswer: 'He cleans the house with his sister.',
+      sentence: 'Who does he clean the house with?',
+    },
+    {
+      meaning: 'Toplumda kime saygı duyarlar?',
+      possibleAnswer: 'They respect the elders.',
+      sentence: 'Who do they respect in the community?',
+    },
+    {
+      meaning: 'Şakalara kiminle güler?',
+      possibleAnswer: 'She laughs with her friends.',
+      sentence: 'Who does she laugh with at jokes?',
+    },
+    {
+      meaning: 'Sırlarını kiminle paylaşırsın?',
+      possibleAnswer: 'I share my secrets with my best friend.',
+      sentence: 'Who do you share your secrets with?',
+    },
+    {
+      meaning: 'Sporlarda kime karşı yarışır?',
+      possibleAnswer: 'He competes against his classmates.',
+      sentence: 'Who does he compete against in sports?',
+    },
+    {
+      meaning: 'Etkinlikte kime destek olurlar?',
+      possibleAnswer: 'They support the local team.',
+      sentence: 'Who do they support at the event?',
+    },
+    {
+      meaning: 'İş yerinde kimi hayranlıkla izler?',
+      possibleAnswer: 'She admires her manager.',
+      sentence: 'Who does she admire at work?',
+    },
+    {
+      meaning: 'Kime mektup yazarsın?',
+      possibleAnswer: 'I write letters to my pen pal.',
+      sentence: 'Who do you write letters to?',
+    },
+    {
+      meaning: 'Tatillerde kimi ziyaret eder?',
+      possibleAnswer: 'He visits his parents.',
+      sentence: 'Who does he visit on holidays?',
+    },
+    {
+      meaning: 'Kime danışırlar?',
+      possibleAnswer: 'They ask their mentor for advice.',
+      sentence: 'Who do they ask for advice?',
+    },
+    {
+      meaning: 'Koroda kiminle şarkı söyler?',
+      possibleAnswer: 'She sings with the choir.',
+      sentence: 'Who does she sing with in the choir?',
+    },
+    {
+      meaning: 'Otobüs durağında kimi beklersin?',
+      possibleAnswer: 'I wait for my friend at the bus stop.',
+      sentence: 'Who do you wait for at the bus stop?',
+    },
+    {
+      meaning: 'Yardım için kime güvenir?',
+      possibleAnswer: 'He relies on his best friend for help.',
+      sentence: 'Who does he rely on for help?',
+    },
+    {
+      meaning: 'Projede kime katılırlar?',
+      possibleAnswer: 'They join their colleagues in the project.',
+      sentence: 'Who do they join in the project?',
+    },
+    {
+      meaning: 'Çalışmaya kimin teşvik eder?',
+      possibleAnswer: 'She encourages her students to study.',
+      sentence: 'Who does she encourage to study?',
+    },
+    {
+      meaning: 'Uzakta olduklarında kimi özlersin?',
+      possibleAnswer: "I miss my family when they're away.",
+      sentence: "Who do you miss when they're away?",
+    },
+    {
+      meaning: 'Akşam yemeğini kimin için hazırlar?',
+      possibleAnswer: 'He cooks dinner for his family.',
+      sentence: 'Who does he cook dinner for?',
+    },
+    {
+      meaning: 'Kulübe katılmaları için kimi davet ederler?',
+      possibleAnswer: 'They invite new members to join the club.',
+      sentence: 'Who do they invite to join the club?',
+    },
+    {
+      meaning: 'Maçlarda kimi destekler?',
+      possibleAnswer: 'She cheers for her favorite team.',
+      sentence: 'Who does she cheer for at games?',
+    },
+    {
+      meaning: 'Kime hayranlık duyarsın?',
+      possibleAnswer: 'I look up to my teacher.',
+      sentence: 'Who do you look up to?',
+    },
+    {
+      meaning: 'Başarılarını kime tebrik eder?',
+      possibleAnswer: 'He congratulates his colleagues on achievements.',
+      sentence: 'Who does he congratulate on achievements?',
+    },
+    {
+      meaning: 'Kimi mentor olarak görürler?',
+      possibleAnswer: 'They consider their teacher as a mentor.',
+      sentence: 'Who do they consider as a mentor?',
+    },
+    {
+      meaning: 'Kime hediye alır?',
+      possibleAnswer: 'She buys gifts for her friends.',
+      sentence: 'Who does she buy gifts for?',
+    },
+    {
+      meaning: 'Akşamları kime mesaj atarsın?',
+      possibleAnswer: 'I text my best friend.',
+      sentence: 'Who do you text in the evening?',
+    },
+    {
+      meaning: 'Okula kiminle yürür?',
+      possibleAnswer: 'He walks to school with his neighbor.',
+      sentence: 'Who does he walk to school with?',
+    },
+    {
+      meaning: 'Hastanede kimi ziyaret ederler?',
+      possibleAnswer: 'They visit their uncle in the hospital.',
+      sentence: 'Who do they visit in the hospital?',
+    },
+    {
+      meaning: 'Kütüphanede kiminle çalışır?',
+      possibleAnswer: 'She studies with her classmate at the library.',
+      sentence: 'Who does she study with at the library?',
+    },
+    {
+      meaning: 'Üzgün olduğunda kimi ararsın?',
+      possibleAnswer: "I call my sister when I'm sad.",
+      sentence: "Who do you call when you're sad?",
+    },
+    {
+      meaning: 'Piyanoda kiminle pratik yapar?',
+      possibleAnswer: 'He practices piano with his teacher.',
+      sentence: 'Who does he practice piano with?',
+    },
+    {
+      meaning: 'Öğle yemeğinde kime katılırlar?',
+      possibleAnswer: 'They join their colleagues for lunch.',
+      sentence: 'Who do they join for lunch?',
+    },
+    {
+      meaning: 'Sosyal medyada kimi takip eder?',
+      possibleAnswer: 'She follows her favorite actor on social media.',
+      sentence: 'Who does she follow on social media?',
+    },
+    {
+      meaning: 'Filmleri kiminle tartışırsın?',
+      possibleAnswer: 'I discuss movies with my brother.',
+      sentence: 'Who do you discuss movies with?',
+    },
+    {
+      meaning: 'Satranç oynamak için kimi bulur?',
+      possibleAnswer: 'He plays chess with his grandfather.',
+      sentence: 'Who does he play chess with?',
+    },
+    {
+      meaning: 'Maçtan sonra kime teşekkür ederler?',
+      possibleAnswer: 'They thank their coach after the game.',
+      sentence: 'Who do they thank after the game?',
+    },
+    {
+      meaning: 'Toplantıları kime hatırlatır?',
+      possibleAnswer: 'She reminds her colleagues about meetings.',
+      sentence: 'Who does she remind about meetings?',
+    },
+    {
+      meaning: 'Bazen kiminle tartışırsın?',
+      possibleAnswer: 'I argue with my roommate sometimes.',
+      sentence: 'Who do you argue with sometimes?',
+    },
+    {
+      meaning: 'Evi kiminle temizler?',
+      possibleAnswer: 'He cleans the house with his mother.',
+      sentence: 'Who does he clean the house with?',
+    },
+    {
+      meaning: 'Toplumda kime saygı duyarlar?',
+      possibleAnswer: 'They respect the elders in the community.',
+      sentence: 'Who do they respect in the community?',
+    },
+    {
+      meaning: 'Şakalara kiminle güler?',
+      possibleAnswer: 'She laughs with her friends at jokes.',
+      sentence: 'Who does she laugh with at jokes?',
+    },
+    {
+      meaning: 'Sırlarını kiminle paylaşırsın?',
+      possibleAnswer: 'I share my secrets with my cousin.',
+      sentence: 'Who do you share your secrets with?',
+    },
+    {
+      meaning: 'Sporlarda kime karşı yarışır?',
+      possibleAnswer: 'He competes against his teammates in sports.',
+      sentence: 'Who does he compete against in sports?',
+    },
+    {
+      meaning: 'Etkinlikte kime destek olurlar?',
+      possibleAnswer: 'They support the local team at the event.',
+      sentence: 'Who do they support at the event?',
+    },
+    {
+      meaning: 'İş yerinde kimi hayranlıkla izler?',
+      possibleAnswer: 'She admires her boss at work.',
+      sentence: 'Who does she admire at work?',
+    },
+    {
+      meaning: 'Kime mektup yazarsın?',
+      possibleAnswer: 'I write letters to my grandparents.',
+      sentence: 'Who do you write letters to?',
+    },
+    {
+      meaning: 'Tatillerde kimi ziyaret eder?',
+      possibleAnswer: 'He visits his relatives on holidays.',
+      sentence: 'Who does he visit on holidays?',
+    },
+    {
+      meaning: 'Kime danışırlar?',
+      possibleAnswer: 'They ask their teacher for advice.',
+      sentence: 'Who do they ask for advice?',
+    },
+    {
+      meaning: 'Koroda kiminle şarkı söyler?',
+      possibleAnswer: 'She sings with her choir at the church.',
+      sentence: 'Who does she sing with in the choir?',
+    },
+    {
+      meaning: 'Konserde ana performans sergileyecek kim olacak?',
+      possibleAnswer: 'The main performer is going to be Megan.',
+      sentence: 'Who is going to be the main performer at the concert?',
+    },
+    {
+      meaning: 'Gelecek konuşmacı kim olacak?',
+      possibleAnswer: 'The next speaker is going to be Kevin.',
+      sentence: 'Who is going to be the next speaker?',
+    },
+    {
+      meaning: 'Testi ilk bitiren kim olacak?',
+      possibleAnswer: 'The first to finish the test is going to be Jake.',
+      sentence: 'Who is going to be the first one to finish the test?',
+    },
+    {
+      meaning: 'Yeni müdür kim olacak?',
+      possibleAnswer: 'The new manager is going to be Mr. Davis.',
+      sentence: 'Who is going to be the new manager?',
+    },
+    {
+      meaning: 'Konuk öğretim görevlisi kim olacak?',
+      possibleAnswer: 'The guest lecturer is going to be Dr. Brown.',
+      sentence: 'Who is going to be the guest lecturer?',
+    },
+    {
+      meaning: 'Keşif lideri kim olacak?',
+      possibleAnswer: 'The expedition leader is going to be Mr. Williams.',
+      sentence: 'Who is going to be the leader of the expedition?',
+    },
+    {
+      meaning: 'Yeni baş şef kim olacak?',
+      possibleAnswer: 'The new head chef is going to be Ms. Lee.',
+      sentence: 'Who is going to be the new head chef?',
+    },
+    {
+      meaning: 'En iyi arkadaşın kim olacak?',
+      possibleAnswer: 'My best friend is going to be Sam.',
+      sentence: 'Who is going to be your best friend?',
+    },
+    {
+      meaning: 'Konferanstaki sunucu kim olacak?',
+      possibleAnswer: 'The presenter is going to be Anna.',
+      sentence: 'Who is going to be the presenter at the conference?',
+    },
+    {
+      meaning: 'En değerli oyuncu kim olacak?',
+      possibleAnswer: 'The most valuable player is going to be Tom.',
+      sentence: 'Who is going to be the most valuable player?',
+    },
+  ],
+  'A1-W': [
+    {
+      meaning: 'Yeni projenin yöneticisi kim olacak?',
+      possibleAnswer: 'The manager is going to be John.',
+      sentence: 'Who is going to be the manager of the new project?',
+    },
+    {
+      meaning: 'Sunumdan kim sorumlu olacak?',
+      possibleAnswer: 'The responsible person is going to be Sarah.',
+      sentence: 'Who is going to be responsible for the presentation?',
+    },
+    {
+      meaning: 'Sınıfın en iyi öğrencisi kim olacak?',
+      possibleAnswer: 'The best student is going to be Emily.',
+      sentence: 'Who is going to be the best student in the class?',
+    },
+    {
+      meaning: 'Etkinlikten kim sorumlu olacak?',
+      possibleAnswer: 'The person in charge is going to be Michael.',
+      sentence: 'Who is going to be in charge of the event?',
+    },
+    {
+      meaning: 'Gelecek başkan kim olacak?',
+      possibleAnswer: 'The next president is going to be Lisa.',
+      sentence: 'Who is going to be the next president?',
+    },
+    {
+      meaning: 'Grubun solisti kim olacak?',
+      possibleAnswer: 'The lead singer is going to be Alex.',
+      sentence: 'Who is going to be the lead singer of the band?',
+    },
+    {
+      meaning: 'Konuk konuşmacı kim olacak?',
+      possibleAnswer: 'The guest speaker is going to be Dr. Brown.',
+      sentence: 'Who is going to be the guest speaker?',
+    },
+    {
+      meaning: 'Takımın koçu kim olacak?',
+      possibleAnswer: 'The coach is going to be Mr. Williams.',
+      sentence: 'Who is going to be the coach of the team?',
+    },
+    {
+      meaning: 'Oyunun baş karakteri kim olacak?',
+      possibleAnswer: 'The main character is going to be Jane.',
+      sentence: 'Who is going to be the main character in the play?',
+    },
+    {
+      meaning: 'Yeni CEO kim olacak?',
+      possibleAnswer: 'The new CEO is going to be Mr. Thompson.',
+      sentence: 'Who is going to be the new CEO?',
+    },
+    {
+      meaning: 'Dans partnerin kim olacak?',
+      possibleAnswer: 'My partner is going to be Anna.',
+      sentence: 'Who is going to be your partner for the dance?',
+    },
+    {
+      meaning: 'Komitenin başkanı kim olacak?',
+      possibleAnswer: 'The head of the committee is going to be Mrs. Green.',
+      sentence: 'Who is going to be the head of the committee?',
+    },
+    {
+      meaning: 'Yarışmanın kazananı kim olacak?',
+      possibleAnswer: 'The winner is going to be David.',
+      sentence: 'Who is going to be the winner of the competition?',
+    },
+    {
+      meaning: 'İlk sunum yapacak kim olacak?',
+      possibleAnswer: 'The first presenter is going to be Megan.',
+      sentence: 'Who is going to be the first to present?',
+    },
+    {
+      meaning: 'Geminin kaptanı kim olacak?',
+      possibleAnswer: 'The captain is going to be Mr. Clark.',
+      sentence: 'Who is going to be the captain of the ship?',
+    },
+    {
+      meaning: 'Ana konuşmacı kim olacak?',
+      possibleAnswer: 'The keynote speaker is going to be Professor Lee.',
+      sentence: 'Who is going to be the keynote speaker?',
+    },
+    {
+      meaning: 'Filmin başrol oyuncusu kim olacak?',
+      possibleAnswer: 'The main actor is going to be Tom.',
+      sentence: 'Who is going to be the main actor in the movie?',
+    },
+    {
+      meaning: 'Yeni komşun kim olacak?',
+      possibleAnswer: 'My new neighbor is going to be Rachel.',
+      sentence: 'Who is going to be your new neighbor?',
+    },
+    {
+      meaning: 'Kulübün başkanı kim olacak?',
+      possibleAnswer: 'The president of the club is going to be Kevin.',
+      sentence: 'Who is going to be the president of the club?',
+    },
+    {
+      meaning: 'Gösterinin sunucusu kim olacak?',
+      possibleAnswer: 'The host is going to be Maria.',
+      sentence: 'Who is going to be the host of the show?',
+    },
+    {
+      meaning: 'Gelecek Nobel ödülü sahibi kim olacak?',
+      possibleAnswer: 'The next Nobel laureate is going to be Dr. Kim.',
+      sentence: 'Who is going to be the next Nobel laureate?',
+    },
+    {
+      meaning: 'Yarışta ilk kim olacak?',
+      possibleAnswer: 'The first in the race is going to be Jake.',
+      sentence: 'Who is going to be the first in the race?',
+    },
+    {
+      meaning: 'Derginin editörü kim olacak?',
+      possibleAnswer: 'The editor is going to be Alice.',
+      sentence: 'Who is going to be the editor of the magazine?',
+    },
+    {
+      meaning: 'Danışmanın kim olacak?',
+      possibleAnswer: 'My mentor is going to be Mr. Davis.',
+      sentence: 'Who is going to be your mentor?',
+    },
+    {
+      meaning: 'Programın yönetmeni kim olacak?',
+      possibleAnswer: 'The director is going to be Mr. Johnson.',
+      sentence: 'Who is going to be the director of the program?',
+    },
+    {
+      meaning: 'Yarışmanın hakemi kim olacak?',
+      possibleAnswer: 'The judge is going to be Mrs. Anderson.',
+      sentence: 'Who is going to be the judge for the contest?',
+    },
+    {
+      meaning: 'İlk kim varacak?',
+      possibleAnswer: 'The first to arrive is going to be Paul.',
+      sentence: 'Who is going to be the first to arrive?',
+    },
+    {
+      meaning: 'Yeni takım lideri kim olacak?',
+      possibleAnswer: 'The new team leader is going to be Sam.',
+      sentence: 'Who is going to be the new team leader?',
+    },
+    {
+      meaning: 'Rehberin kim olacak?',
+      possibleAnswer: 'My guide is going to be Ms. Robinson.',
+      sentence: 'Who is going to be your guide?',
+    },
+    {
+      meaning: 'Oda arkadaşın kim olacak?',
+      possibleAnswer: 'My roommate is going to be Jake.',
+      sentence: 'Who is going to be your roommate?',
+    },
+    {
+      meaning: 'Yeni CEO kim olacak?',
+      possibleAnswer: 'The next CEO is going to be Mr. Thompson.',
+      sentence: 'Who is going to be the next CEO?',
+    },
+    {
+      meaning: 'En iyi oyuncu kim olacak?',
+      possibleAnswer: 'The best player is going to be Leo.',
+      sentence: 'Who is going to be the best player?',
+    },
+    {
+      meaning: 'Gelecek başbakan kim olacak?',
+      possibleAnswer: 'The next prime minister is going to be Mr. Johnson.',
+      sentence: 'Who is going to be the next prime minister?',
+    },
+    {
+      meaning: 'İlk konuşmacı kim olacak?',
+      possibleAnswer: 'The first speaker is going to be Sarah.',
+      sentence: 'Who is going to be the first speaker?',
+    },
+    {
+      meaning: 'Asistanın kim olacak?',
+      possibleAnswer: 'My assistant is going to be Anna.',
+      sentence: 'Who is going to be your assistant?',
+    },
+    {
+      meaning: 'Yeni yönetmen kim olacak?',
+      possibleAnswer: 'The new director is going to be Mrs. Green.',
+      sentence: 'Who is going to be the new director?',
+    },
+    {
+      meaning: 'Yeni meslektaşın kim olacak?',
+      possibleAnswer: 'My new colleague is going to be Emily.',
+      sentence: 'Who is going to be your new colleague?',
+    },
+    {
+      meaning: 'Yarışmada hakem kim olacak?',
+      possibleAnswer: 'The judge is going to be Mr. Clark.',
+      sentence: 'Who is going to be the judge in the competition?',
+    },
+    {
+      meaning: 'Takım kaptanı kim olacak?',
+      possibleAnswer: 'The team captain is going to be Michael.',
+      sentence: 'Who is going to be the team captain?',
+    },
+    {
+      meaning: 'Ana konuşmacı kim olacak?',
+      possibleAnswer: 'The keynote speaker is going to be Dr. Lee.',
+      sentence: 'Who is going to be the keynote speaker?',
+    },
+    {
+      meaning: 'Seyahat arkadaşın kim olacak?',
+      possibleAnswer: 'My travel companion is going to be Rachel.',
+      sentence: 'Who is going to be your travel companion?',
+    },
+    {
+      meaning: 'Ödülün kazananı kim olacak?',
+      possibleAnswer: 'The award winner is going to be David.',
+      sentence: 'Who is going to be the winner of the award?',
+    },
+    {
+      meaning: 'Gelecek şampiyon kim olacak?',
+      possibleAnswer: 'The next champion is going to be Alex.',
+      sentence: 'Who is going to be the next champion?',
+    },
+    {
+      meaning: 'Danışmanın kim olacak?',
+      possibleAnswer: 'My advisor is going to be Mr. Davis.',
+      sentence: 'Who is going to be your advisor?',
+    },
+    {
+      meaning: 'Onur konuğu kim olacak?',
+      possibleAnswer: 'The guest of honor is going to be Mrs. Anderson.',
+      sentence: 'Who is going to be the guest of honor?',
+    },
+    {
+      meaning: 'Baş dansçı kim olacak?',
+      possibleAnswer: 'The lead dancer is going to be Jane.',
+      sentence: 'Who is going to be the lead dancer?',
+    },
+    {
+      meaning: 'Baş şef kim olacak?',
+      possibleAnswer: 'The head chef is going to be Mr. Williams.',
+      sentence: 'Who is going to be the head chef?',
+    },
+    {
+      meaning: 'Baş editör kim olacak?',
+      possibleAnswer: 'The editor-in-chief is going to be Alice.',
+      sentence: 'Who is going to be the editor-in-chief?',
+    },
+    {
+      meaning: 'Ana sunucu kim olacak?',
+      possibleAnswer: 'The main presenter is going to be Megan.',
+      sentence: 'Who is going to be the main presenter?',
+    },
+    {
+      meaning: 'Projede partnerin kim olacak?',
+      possibleAnswer: 'My project partner is going to be Sam.',
+      sentence: 'Who is going to be your partner in the project?',
+    },
+    {
+      meaning: 'Gelecek yıldız kim olacak?',
+      possibleAnswer: 'The next star is going to be Tom.',
+      sentence: 'Who is going to be the next star?',
+    },
+    {
+      meaning: 'Şirketin yeni başkanı kim olacak?',
+      possibleAnswer: 'The new president is going to be Mr. Johnson.',
+      sentence: 'Who is going to be the new president of the company?',
+    },
+    {
+      meaning: 'En golcü kim olacak?',
+      possibleAnswer: 'The top scorer is going to be Jake.',
+      sentence: 'Who is going to be the top scorer?',
+    },
+    {
+      meaning: 'Gezinin rehberi kim olacak?',
+      possibleAnswer: 'My guide is going to be Ms. Robinson.',
+      sentence: 'Who is going to be your guide for the trip?',
+    },
+    {
+      meaning: 'Yeni sunucu kim olacak?',
+      possibleAnswer: 'The new anchor is going to be Maria.',
+      sentence: 'Who is going to be the new anchor?',
+    },
+    {
+      meaning: 'Festivalin yöneticisi kim olacak?',
+      possibleAnswer: 'The festival director is going to be Mr. Thompson.',
+      sentence: 'Who is going to be the director of the festival?',
+    },
+    {
+      meaning: 'Yeni mağazanın müdürü kim olacak?',
+      possibleAnswer: 'The store manager is going to be Mr. Williams.',
+      sentence: 'Who is going to be the manager of the new store?',
+    },
+    {
+      meaning: 'Yeni ev sahibi kim olacak?',
+      possibleAnswer: 'The new host is going to be Kevin.',
+      sentence: 'Who is going to be the new host?',
+    },
+    {
+      meaning: 'Baş mimar kim olacak?',
+      possibleAnswer: 'The chief architect is going to be Ms. Lee.',
+      sentence: 'Who is going to be the chief architect?',
+    },
+    {
+      meaning: 'Gelecek yıl komşun kim olacak?',
+      possibleAnswer: 'My neighbor is going to be Mr. Brown.',
+      sentence: 'Who is going to be your neighbor next year?',
+    },
+    {
+      meaning: 'Takımın en iyi oyuncusu kim olacak?',
+      possibleAnswer: 'The best player is going to be Alex.',
+      sentence: 'Who is going to be the best player on the team?',
+    },
+    {
+      meaning: 'Törende onur konuğu kim olacak?',
+      possibleAnswer: 'The guest of honor is going to be Dr. Kim.',
+      sentence: 'Who is going to be the guest of honor at the ceremony?',
+    },
+    {
+      meaning: 'Departman başkanı kim olacak?',
+      possibleAnswer: 'The head of the department is going to be Mrs. Green.',
+      sentence: 'Who is going to be the head of the department?',
+    },
+    {
+      meaning: 'Yeni müdür kim olacak?',
+      possibleAnswer: 'The new principal is going to be Mr. Johnson.',
+      sentence: 'Who is going to be the new principal?',
+    },
+    {
+      meaning: 'Sınıfın en iyi öğrencisi kim olacak?',
+      possibleAnswer: 'The top student is going to be Emily.',
+      sentence: 'Who is going to be the top student in the class?',
+    },
+    {
+      meaning: 'Etkinlikte ana konuşmacı kim olacak?',
+      possibleAnswer: 'The main speaker is going to be Dr. Lee.',
+      sentence: 'Who is going to be the main speaker at the event?',
+    },
+    {
+      meaning: 'Gösterideki gelecek yarışmacı kim olacak?',
+      possibleAnswer: 'The next contestant is going to be Jake.',
+      sentence: 'Who is going to be the next contestant on the show?',
+    },
+    {
+      meaning: 'Ayın yeni çalışanı kim olacak?',
+      possibleAnswer: 'The new employee of the month is going to be Sarah.',
+      sentence: 'Who is going to be the new employee of the month?',
+    },
+    {
+      meaning: 'Sezonun koçu kim olacak?',
+      possibleAnswer: 'My coach is going to be Mr. Thompson.',
+      sentence: 'Who is going to be your coach for the season?',
+    },
+    {
+      meaning: 'Maratonun kazananı kim olacak?',
+      possibleAnswer: 'The marathon winner is going to be David.',
+      sentence: 'Who is going to be the winner of the marathon?',
+    },
+    {
+      meaning: 'Baş editör kim olacak?',
+      possibleAnswer: 'The chief editor is going to be Alice.',
+      sentence: 'Who is going to be the chief editor?',
+    },
+    {
+      meaning: 'Filmin başrol oyuncusu kim olacak?',
+      possibleAnswer: 'The main actress is going to be Jane.',
+      sentence: 'Who is going to be the main actress in the movie?',
+    },
+    {
+      meaning: 'Yeni arkadaşın kim olacak?',
+      possibleAnswer: 'My new friend is going to be Rachel.',
+      sentence: 'Who is going to be your new friend?',
+    },
+    {
+      meaning: 'Partinin ev sahibi kim olacak?',
+      possibleAnswer: 'The party host is going to be Maria.',
+      sentence: 'Who is going to be the host of the party?',
+    },
+    {
+      meaning: 'Ligin gelecek şampiyonu kim olacak?',
+      possibleAnswer: 'The next champion is going to be Michael.',
+      sentence: 'Who is going to be the next champion of the league?',
+    },
+    {
+      meaning: 'Komitenin başkanı kim olacak?',
+      possibleAnswer: 'The head of the committee is going to be Mrs. Anderson.',
+      sentence: 'Who is going to be the head of the committee?',
+    },
+    {
+      meaning: 'Baş gitarist kim olacak?',
+      possibleAnswer: 'The lead guitarist is going to be Tom.',
+      sentence: 'Who is going to be the lead guitarist?',
+    },
+    {
+      meaning: 'Tartışmanın moderatörü kim olacak?',
+      possibleAnswer: 'The moderator is going to be Mr. Clark.',
+      sentence: 'Who is going to be the moderator of the debate?',
+    },
+    {
+      meaning: 'İlk kim varacak?',
+      possibleAnswer: 'The first person to arrive is going to be Paul.',
+      sentence: 'Who is going to be the first person to arrive?',
+    },
+  ],
+  'A2-G': [
+    {
+      meaning: 'Kimi arıyor?',
+      possibleAnswer: 'He is calling his friend.',
+      sentence: 'Who is he calling?',
+    },
+    {
+      meaning: 'Bugün kiminle buluşuyorlar?',
+      possibleAnswer: 'They are meeting their cousins.',
+      sentence: 'Who are they meeting today?',
+    },
+    {
+      meaning: 'Partide kiminle konuşuyor?',
+      possibleAnswer: 'She is talking to her colleague.',
+      sentence: 'Who is she talking to at the party?',
+    },
+    {
+      meaning: 'Ödevlerinde kime yardım ediyorsun?',
+      possibleAnswer: 'I am helping my little sister.',
+      sentence: 'Who are you helping with their homework?',
+    },
+    {
+      meaning: 'Alışveriş merkezinde kimi görüyor?',
+      possibleAnswer: 'He is seeing his teacher.',
+      sentence: 'Who is he seeing at the mall?',
+    },
+    {
+      meaning: 'Düğüne kimi davet ediyorlar?',
+      possibleAnswer: 'They are inviting their neighbors.',
+      sentence: 'Who are they inviting to the wedding?',
+    },
+    {
+      meaning: 'Şu anda kime e-posta gönderiyor?',
+      possibleAnswer: 'She is emailing her boss.',
+      sentence: 'Who is she emailing right now?',
+    },
+    {
+      meaning: 'Bu sabah kimi selamlıyorsun?',
+      possibleAnswer: 'I am greeting my neighbor.',
+      sentence: 'Who are you greeting this morning?',
+    },
+    {
+      meaning: 'Projede kiminle çalışıyor?',
+      possibleAnswer: 'He is working with his classmate.',
+      sentence: 'Who is he working with on the project?',
+    },
+    {
+      meaning: 'Kiminle futbol oynuyorlar?',
+      possibleAnswer: 'They are playing soccer with their cousins.',
+      sentence: 'Who are they playing soccer with?',
+    },
+    {
+      meaning: 'Konserde kimin yanında oturuyor?',
+      possibleAnswer: 'She is sitting next to her friend.',
+      sentence: 'Who is she sitting next to at the concert?',
+    },
+    {
+      meaning: 'Şu anda kimi düşünüyorsun?',
+      possibleAnswer: 'I am thinking about my mother.',
+      sentence: 'Who are you thinking about now?',
+    },
+    {
+      meaning: 'Öğle yemeğini kiminle paylaşıyor?',
+      possibleAnswer: 'He is sharing his lunch with his friend.',
+      sentence: 'Who is he sharing his lunch with?',
+    },
+    {
+      meaning: 'Seminer sırasında kimi dinliyorlar?',
+      possibleAnswer: 'They are listening to the speaker.',
+      sentence: 'Who are they listening to during the seminar?',
+    },
+    {
+      meaning: "Bu Noel'de kime hediye alıyor?",
+      possibleAnswer: 'She is buying gifts for her family.',
+      sentence: 'Who is she buying gifts for this Christmas?',
+    },
+    {
+      meaning: 'Bu gece kime mesaj atıyorsun?',
+      possibleAnswer: 'I am texting my brother.',
+      sentence: 'Who are you texting tonight?',
+    },
+    {
+      meaning: 'Bugün okula kiminle yürüyor?',
+      possibleAnswer: 'He is walking to school with his sister.',
+      sentence: 'Who is he walking to school with today?',
+    },
+    {
+      meaning: 'Bu ay hastanede kimi ziyaret ediyorlar?',
+      possibleAnswer: 'They are visiting their uncle.',
+      sentence: 'Who are they visiting in the hospital this month?',
+    },
+    {
+      meaning: 'Sınav için kiminle çalışıyor?',
+      possibleAnswer: 'She is studying with her best friend.',
+      sentence: 'Who is she studying with for the exam?',
+    },
+    {
+      meaning: 'Üzgün olduğunda kimi arıyorsun?',
+      possibleAnswer: 'I am calling my best friend.',
+      sentence: 'Who are you calling when you are sad?',
+    },
+    {
+      meaning: 'Bu hafta piyanoda kiminle pratik yapıyor?',
+      possibleAnswer: 'He is practicing piano with his teacher.',
+      sentence: 'Who is he practicing piano with this week?',
+    },
+    {
+      meaning: 'Bugün öğle yemeğinde kime katılıyorlar?',
+      possibleAnswer: 'They are joining their friends for lunch.',
+      sentence: 'Who are they joining for lunch today?',
+    },
+    {
+      meaning: "Instagram'da kimi takip ediyor?",
+      possibleAnswer: 'She is following her favorite singer.',
+      sentence: 'Who is she following on Instagram?',
+    },
+    {
+      meaning: 'Bu hafta sonu kiminle filmleri tartışıyorsun?',
+      possibleAnswer: 'I am discussing movies with my cousin.',
+      sentence: 'Who are you discussing movies with this weekend?',
+    },
+    {
+      meaning: 'Pazar günü kiminle satranç oynuyor?',
+      possibleAnswer: 'He is playing chess with his neighbor.',
+      sentence: 'Who is he playing chess with on Sunday?',
+    },
+    {
+      meaning: 'Etkinlikten sonra kime teşekkür ediyorlar?',
+      possibleAnswer: 'They are thanking their coach.',
+      sentence: 'Who are they thanking after the event?',
+    },
+    {
+      meaning: 'Toplantıyı kime hatırlatıyor?',
+      possibleAnswer: 'She is reminding her colleagues.',
+      sentence: 'Who is she reminding about the meeting?',
+    },
+    {
+      meaning: 'Bu hafta kiminle tartışıyorsun?',
+      possibleAnswer: 'I am arguing with my friend.',
+      sentence: 'Who are you arguing with this week?',
+    },
+    {
+      meaning: 'Bu Cumartesi evi kiminle temizliyor?',
+      possibleAnswer: 'He is cleaning the house with his mother.',
+      sentence: 'Who is he cleaning the house with this Saturday?',
+    },
+    {
+      meaning: 'Aralık ayında kimi ziyaret ediyorsun?',
+      possibleAnswer: 'I am visiting my cousins.',
+      sentence: 'Who are you visiting in December?',
+    },
+    {
+      meaning: 'Doğum gününde kimi arıyor?',
+      possibleAnswer: 'He is calling his girlfriend.',
+      sentence: 'Who is he calling on his birthday?',
+    },
+    {
+      meaning: 'Tatillerde kiminle buluşuyorlar?',
+      possibleAnswer: 'They are meeting their colleagues.',
+      sentence: 'Who are they meeting during the holidays?',
+    },
+    {
+      meaning: 'Konferansta kiminle konuşuyor?',
+      possibleAnswer: 'She is talking to the speaker.',
+      sentence: 'Who is she talking to at the conference?',
+    },
+    {
+      meaning: 'Projelerinde kime yardım ediyorsun?',
+      possibleAnswer: 'I am helping my classmate.',
+      sentence: 'Who are you helping with their project?',
+    },
+    {
+      meaning: 'Plajda kimi görüyor?',
+      possibleAnswer: 'He is seeing his family.',
+      sentence: 'Who is he seeing at the beach?',
+    },
+    {
+      meaning: 'Buluşmaya kimi davet ediyorlar?',
+      possibleAnswer: 'They are inviting their friends.',
+      sentence: 'Who are they inviting to the reunion?',
+    },
+    {
+      meaning: 'Yarın kime e-posta gönderiyor?',
+      possibleAnswer: 'She is emailing her client.',
+      sentence: 'Who is she emailing tomorrow?',
+    },
+    {
+      meaning: 'Düğünde kimi selamlıyorsun?',
+      possibleAnswer: 'I am greeting my relatives.',
+      sentence: 'Who are you greeting at the wedding?',
+    },
+    {
+      meaning: 'Yeni görevde kiminle çalışıyor?',
+      possibleAnswer: 'He is working with his teammate.',
+      sentence: 'Who is he working with on the new task?',
+    },
+    {
+      meaning: 'Kiminle voleybol oynuyorlar?',
+      possibleAnswer: 'They are playing volleyball with their coach.',
+      sentence: 'Who are they playing volleyball with?',
+    },
+    {
+      meaning: 'Filmde kimin yanında oturuyor?',
+      possibleAnswer: 'She is sitting next to her boyfriend.',
+      sentence: 'Who is she sitting next to at the movie?',
+    },
+    {
+      meaning: 'Gelecek hafta kimi düşünüyorsun?',
+      possibleAnswer: 'I am thinking about my teacher.',
+      sentence: 'Who are you thinking about next week?',
+    },
+    {
+      meaning: 'Tatlısını kiminle paylaşıyor?',
+      possibleAnswer: 'He is sharing his dessert with his sister.',
+      sentence: 'Who is he sharing his dessert with?',
+    },
+    {
+      meaning: 'Ders sırasında kimi dinliyorlar?',
+      possibleAnswer: 'They are listening to the professor.',
+      sentence: 'Who are they listening to during the lecture?',
+    },
+    {
+      meaning: 'Kime kitap alıyor?',
+      possibleAnswer: 'She is buying a book for her brother.',
+      sentence: 'Who is she buying a book for?',
+    },
+    {
+      meaning: 'Yılbaşı gecesi kime mesaj atıyorsun?',
+      possibleAnswer: 'I am texting my best friend.',
+      sentence: "Who are you texting on New Year's Eve?",
+    },
+    {
+      meaning: 'Akşam kiminle yürüyor?',
+      possibleAnswer: 'He is walking with his dog.',
+      sentence: 'Who is he walking with in the evening?',
+    },
+    {
+      meaning: 'Bakımevinde kimi ziyaret ediyorlar?',
+      possibleAnswer: 'They are visiting their grandmother.',
+      sentence: 'Who are they visiting at the care home?',
+    },
+    {
+      meaning: 'Matematiği kiminle çalışıyor?',
+      possibleAnswer: 'She is studying math with her tutor.',
+      sentence: 'Who is she studying math with?',
+    },
+    {
+      meaning: 'Yardıma ihtiyacın olduğunda kimi arıyorsun?',
+      possibleAnswer: 'I am calling my neighbor.',
+      sentence: 'Who are you calling when you need help?',
+    },
+    {
+      meaning: 'Yüzme pratiği için kiminle çalışıyor?',
+      possibleAnswer: 'He is practicing swimming with his coach.',
+      sentence: 'Who is he practicing swimming with?',
+    },
+    {
+      meaning: 'Hafta sonu gezisine kime katılıyorlar?',
+      possibleAnswer: 'They are joining their family for a weekend trip.',
+      sentence: 'Who are they joining for a weekend trip?',
+    },
+    {
+      meaning: 'Sosyal medyada kimi takip ediyor?',
+      possibleAnswer: 'She is following her friend.',
+      sentence: 'Who is she following on social media?',
+    },
+    {
+      meaning: 'Projeyi kiminle tartışıyorsun?',
+      possibleAnswer: 'I am discussing the project with my boss.',
+      sentence: 'Who are you discussing the project with?',
+    },
+    {
+      meaning: 'Kiminle badminton oynuyor?',
+      possibleAnswer: 'He is playing badminton with his uncle.',
+      sentence: 'Who is he playing badminton with?',
+    },
+    {
+      meaning: 'Destek için kime teşekkür ediyorlar?',
+      possibleAnswer: 'They are thanking their parents.',
+      sentence: 'Who are they thanking for the support?',
+    },
+    {
+      meaning: 'Sınavı kime hatırlatıyor?',
+      possibleAnswer: 'She is reminding her friend.',
+      sentence: 'Who is she reminding about the exam?',
+    },
+    {
+      meaning: 'Planlar hakkında kiminle tartışıyorsun?',
+      possibleAnswer: 'I am arguing with my partner.',
+      sentence: 'Who are you arguing with about the plans?',
+    },
+    {
+      meaning: 'Arabayı kiminle temizliyor?',
+      possibleAnswer: 'He is cleaning the car with his brother.',
+      sentence: 'Who is he cleaning the car with?',
+    },
+    {
+      meaning: 'Konserde kimi görüyorsun?',
+      possibleAnswer: 'I am seeing my friends.',
+      sentence: 'Who are you seeing at the concert?',
+    },
+    {
+      meaning: 'Tavsiye için kimi arıyor?',
+      possibleAnswer: 'He is calling his mentor.',
+      sentence: 'Who is he calling for advice?',
+    },
+    {
+      meaning: 'Partide kiminle buluşuyorlar?',
+      possibleAnswer: 'They are meeting their classmates.',
+      sentence: 'Who are they meeting at the party?',
+    },
+    {
+      meaning: 'Görüntülü aramada kiminle konuşuyor?',
+      possibleAnswer: 'She is talking to her parents.',
+      sentence: 'Who is she talking to on the video call?',
+    },
+    {
+      meaning: 'Sınava hazırlanmaya kime yardım ediyorsun?',
+      possibleAnswer: 'I am helping my sibling.',
+      sentence: 'Who are you helping prepare for the exam?',
+    },
+    {
+      meaning: 'Süpermarkette kimi görüyor?',
+      possibleAnswer: 'He is seeing his neighbor.',
+      sentence: 'Who is he seeing at the supermarket?',
+    },
+    {
+      meaning: 'Öğle yemeğine kimi davet ediyorlar?',
+      possibleAnswer: 'They are inviting their colleagues.',
+      sentence: 'Who are they inviting for lunch?',
+    },
+    {
+      meaning: 'Belgeleri kime e-posta gönderiyor?',
+      possibleAnswer: 'She is emailing the documents to her boss.',
+      sentence: 'Who is she emailing the documents to?',
+    },
+    {
+      meaning: 'Spor salonunda kimi selamlıyorsun?',
+      possibleAnswer: 'I am greeting my trainer.',
+      sentence: 'Who are you greeting at the gym?',
+    },
+    {
+      meaning: 'Sunumda kiminle çalışıyor?',
+      possibleAnswer: 'He is working with his friend.',
+      sentence: 'Who is he working with on the presentation?',
+    },
+    {
+      meaning: 'Kiminle masa oyunları oynuyorlar?',
+      possibleAnswer: 'They are playing board games with their family.',
+      sentence: 'Who are they playing board games with?',
+    },
+    {
+      meaning: 'Yemekte kimin yanında oturuyor?',
+      possibleAnswer: 'She is sitting next to her partner.',
+      sentence: 'Who is she sitting next to at the dinner?',
+    },
+    {
+      meaning: 'Gezi sırasında kimi düşünüyorsun?',
+      possibleAnswer: 'I am thinking about my family.',
+      sentence: 'Who are you thinking about during the trip?',
+    },
+    {
+      meaning: 'Odasını kiminle paylaşıyor?',
+      possibleAnswer: 'He is sharing his room with his brother.',
+      sentence: 'Who is he sharing his room with?',
+    },
+    {
+      meaning: 'Röportaj sırasında kimi dinliyorlar?',
+      possibleAnswer: 'They are listening to the guest speaker.',
+      sentence: 'Who are they listening to during the interview?',
+    },
+    {
+      meaning: 'Kime bilet alıyor?',
+      possibleAnswer: 'She is buying a ticket for her friend.',
+      sentence: 'Who is she buying a ticket for?',
+    },
+    {
+      meaning: 'Toplantıdan sonra kime mesaj atıyorsun?',
+      possibleAnswer: 'I am texting my partner.',
+      sentence: 'Who are you texting after the meeting?',
+    },
+    {
+      meaning: 'Parkta kiminle yürüyor?',
+      possibleAnswer: 'He is walking with his friend.',
+      sentence: 'Who is he walking with in the park?',
+    },
+    {
+      meaning: 'Öğleden sonra kimi ziyaret ediyorlar?',
+      possibleAnswer: 'They are visiting their aunt.',
+      sentence: 'Who are they visiting in the afternoon?',
+    },
+    {
+      meaning: 'Kimya çalışmaya kiminle çalışıyor?',
+      possibleAnswer: 'She is studying chemistry with her classmate.',
+      sentence: 'Who is she studying chemistry with?',
+    },
+    {
+      meaning: 'Başın belada olduğunda kimi arayacaksın?',
+      possibleAnswer: 'I am going to call my best friend.',
+      sentence: 'Who are you going to call when you are in trouble?',
+    },
+    {
+      meaning: 'Gitar pratiği yapmak için kiminle çalışacak?',
+      possibleAnswer: 'He is going to practice guitar with his teacher.',
+      sentence: 'Who is he going to practice guitar with?',
+    },
+    {
+      meaning: 'Atölye için kime katılacaklar?',
+      possibleAnswer: 'They are going to join their team for the workshop.',
+      sentence: 'Who are they going to join for the workshop?',
+    },
+    {
+      meaning: "LinkedIn'de kimi takip edecek?",
+      possibleAnswer: 'She is going to follow her colleague.',
+      sentence: 'Who is she going to follow on LinkedIn?',
+    },
+    {
+      meaning: 'Seyahat planlarını kiminle tartışacaksın?',
+      possibleAnswer: 'I am going to discuss travel plans with my friend.',
+      sentence: 'Who are you going to discuss travel plans with?',
+    },
+    {
+      meaning: 'Kiminle golf oynayacak?',
+      possibleAnswer: 'He is going to play golf with his boss.',
+      sentence: 'Who is he going to play golf with?',
+    },
+    {
+      meaning: 'Davet için kime teşekkür edecekler?',
+      possibleAnswer:
+        'They are going to thank their friend for the invitation.',
+      sentence: 'Who are they going to thank for the invitation?',
+    },
+    {
+      meaning: 'Görevi kime hatırlatacak?',
+      possibleAnswer: 'She is going to remind her coworker.',
+      sentence: 'Who is she going to remind about the task?',
+    },
+    {
+      meaning: 'Bütçe hakkında kiminle tartışacaksın?',
+      possibleAnswer: 'I am going to argue with my partner.',
+      sentence: 'Who are you going to argue with about the budget?',
+    },
+    {
+      meaning: 'Bahçeyi kiminle temizleyecek?',
+      possibleAnswer: 'He is going to clean the garden with his father.',
+      sentence: 'Who is he going to clean the garden with?',
+    },
+  ],
+  'A2-W': [
+    {
+      meaning: 'Yarın kimi arayacak?',
+      possibleAnswer: 'He is going to call his friend.',
+      sentence: 'Who is he going to call tomorrow?',
+    },
+    {
+      meaning: 'Gelecek hafta kiminle buluşacaklar?',
+      possibleAnswer: 'They are going to meet their cousins.',
+      sentence: 'Who are they going to meet next week?',
+    },
+    {
+      meaning: 'Partide kiminle konuşacak?',
+      possibleAnswer: 'She is going to talk to her colleague.',
+      sentence: 'Who is she going to talk to at the party?',
+    },
+    {
+      meaning: 'Ödevlerinde kime yardım edeceksin?',
+      possibleAnswer: 'I am going to help my little sister.',
+      sentence: 'Who are you going to help with their homework?',
+    },
+    {
+      meaning: 'Alışveriş merkezinde kimi görecek?',
+      possibleAnswer: 'He is going to see his teacher.',
+      sentence: 'Who is he going to see at the mall?',
+    },
+    {
+      meaning: 'Düğüne kimi davet edecekler?',
+      possibleAnswer: 'They are going to invite their neighbors.',
+      sentence: 'Who are they going to invite to the wedding?',
+    },
+    {
+      meaning: 'Gelecek hafta kime e-posta gönderecek?',
+      possibleAnswer: 'She is going to email her boss.',
+      sentence: 'Who is she going to email next week?',
+    },
+    {
+      meaning: 'Sabahları kimi selamlayacaksın?',
+      possibleAnswer: 'I am going to greet my neighbor.',
+      sentence: 'Who are you going to greet in the morning?',
+    },
+    {
+      meaning: 'Projede kiminle çalışacak?',
+      possibleAnswer: 'He is going to work with his classmate.',
+      sentence: 'Who is he going to work with on the project?',
+    },
+    {
+      meaning: 'Kiminle futbol oynayacaklar?',
+      possibleAnswer: 'They are going to play soccer with their cousins.',
+      sentence: 'Who are they going to play soccer with?',
+    },
+    {
+      meaning: 'Konserde kimin yanında oturacak?',
+      possibleAnswer: 'She is going to sit next to her friend.',
+      sentence: 'Who is she going to sit next to at the concert?',
+    },
+    {
+      meaning: 'Yarın kimi düşüneceksin?',
+      possibleAnswer: 'I am going to think about my mother.',
+      sentence: 'Who are you going to think about tomorrow?',
+    },
+    {
+      meaning: 'Öğle yemeğini kiminle paylaşacak?',
+      possibleAnswer: 'He is going to share his lunch with his friend.',
+      sentence: 'Who is he going to share his lunch with?',
+    },
+    {
+      meaning: 'Seminer sırasında kimi dinleyecekler?',
+      possibleAnswer: 'They are going to listen to the speaker.',
+      sentence: 'Who are they going to listen to during the seminar?',
+    },
+    {
+      meaning: "Gelecek Noel'de kime hediye alacak?",
+      possibleAnswer: 'She is going to buy gifts for her family.',
+      sentence: 'Who is she going to buy gifts for next Christmas?',
+    },
+    {
+      meaning: 'Bu gece kime mesaj atacak?',
+      possibleAnswer: 'I am going to text my brother.',
+      sentence: 'Who are you going to text tonight?',
+    },
+    {
+      meaning: 'Yarın okula kiminle yürüyecek?',
+      possibleAnswer: 'He is going to walk to school with his sister.',
+      sentence: 'Who is he going to walk to school with tomorrow?',
+    },
+    {
+      meaning: 'Gelecek ay hastanede kimi ziyaret edecekler?',
+      possibleAnswer: 'They are going to visit their uncle.',
+      sentence: 'Who are they going to visit in the hospital next month?',
+    },
+    {
+      meaning: 'Sınav için kiminle çalışacak?',
+      possibleAnswer: 'She is going to study with her best friend.',
+      sentence: 'Who is she going to study with for the exam?',
+    },
+    {
+      meaning: 'Üzgün olduğunda kimi arayacaksın?',
+      possibleAnswer: 'I am going to call my best friend.',
+      sentence: 'Who are you going to call when you are sad?',
+    },
+    {
+      meaning: 'Gelecek hafta piyanoda kiminle pratik yapacak?',
+      possibleAnswer: 'He is going to practice piano with his teacher.',
+      sentence: 'Who is he going to practice piano with next week?',
+    },
+    {
+      meaning: 'Yarın öğle yemeğinde kime katılacaklar?',
+      possibleAnswer: 'They are going to join their friends for lunch.',
+      sentence: 'Who are they going to join for lunch tomorrow?',
+    },
+    {
+      meaning: "Instagram'da kimi takip edecek?",
+      possibleAnswer: 'She is going to follow her favorite singer.',
+      sentence: 'Who is she going to follow on Instagram?',
+    },
+    {
+      meaning: 'Gelecek hafta sonu kiminle filmleri tartışacaksın?',
+      possibleAnswer: 'I am going to discuss movies with my cousin.',
+      sentence: 'Who are you going to discuss movies with next weekend?',
+    },
+    {
+      meaning: 'Pazar günü kiminle satranç oynayacak?',
+      possibleAnswer: 'He is going to play chess with his neighbor.',
+      sentence: 'Who is he going to play chess with on Sunday?',
+    },
+    {
+      meaning: 'Etkinlikten sonra kime teşekkür edecekler?',
+      possibleAnswer: 'They are going to thank their coach.',
+      sentence: 'Who are they going to thank after the event?',
+    },
+    {
+      meaning: 'Toplantıyı kime hatırlatacak?',
+      possibleAnswer: 'She is going to remind her colleagues.',
+      sentence: 'Who is she going to remind about the meeting?',
+    },
+    {
+      meaning: 'Gelecek hafta kiminle tartışacaksın?',
+      possibleAnswer: 'I am going to argue with my friend.',
+      sentence: 'Who are you going to argue with next week?',
+    },
+    {
+      meaning: 'Gelecek Cumartesi evi kiminle temizleyecek?',
+      possibleAnswer: 'He is going to clean the house with his mother.',
+      sentence: 'Who is he going to clean the house with next Saturday?',
+    },
+    {
+      meaning: 'Aralık ayında kimi ziyaret edeceksin?',
+      possibleAnswer: 'I am going to visit my cousins.',
+      sentence: 'Who are you going to visit in December?',
+    },
+    {
+      meaning: 'Doğum gününde kimi arayacak?',
+      possibleAnswer: 'He is going to call his girlfriend.',
+      sentence: 'Who is he going to call on his birthday?',
+    },
+    {
+      meaning: 'Tatillerde kiminle buluşacaklar?',
+      possibleAnswer: 'They are going to meet their colleagues.',
+      sentence: 'Who are they going to meet during the holidays?',
+    },
+    {
+      meaning: 'Konferansta kiminle konuşacak?',
+      possibleAnswer: 'She is going to talk to the speaker.',
+      sentence: 'Who is she going to talk to at the conference?',
+    },
+    {
+      meaning: 'Projelerinde kime yardım edeceksin?',
+      possibleAnswer: 'I am going to help my classmate.',
+      sentence: 'Who are you going to help with their project?',
+    },
+    {
+      meaning: 'Plajda kimi görecek?',
+      possibleAnswer: 'He is going to see his family.',
+      sentence: 'Who is he going to see at the beach?',
+    },
+    {
+      meaning: 'Buluşmaya kimi davet edecekler?',
+      possibleAnswer: 'They are going to invite their friends.',
+      sentence: 'Who are they going to invite to the reunion?',
+    },
+    {
+      meaning: 'Yarın kime e-posta gönderecek?',
+      possibleAnswer: 'She is going to email her client.',
+      sentence: 'Who is she going to email tomorrow?',
+    },
+    {
+      meaning: 'Düğünde kimi selamlayacaksın?',
+      possibleAnswer: 'I am going to greet my relatives.',
+      sentence: 'Who are you going to greet at the wedding?',
+    },
+    {
+      meaning: 'Yeni görevde kiminle çalışacak?',
+      possibleAnswer: 'He is going to work with his teammate.',
+      sentence: 'Who is he going to work with on the new task?',
+    },
+    {
+      meaning: 'Kiminle voleybol oynayacaklar?',
+      possibleAnswer: 'They are going to play volleyball with their coach.',
+      sentence: 'Who are they going to play volleyball with?',
+    },
+    {
+      meaning: 'Filmde kimin yanında oturacak?',
+      possibleAnswer: 'She is going to sit next to her boyfriend.',
+      sentence: 'Who is she going to sit next to at the movie?',
+    },
+    {
+      meaning: 'Gelecek hafta kimi düşüneceksin?',
+      possibleAnswer: 'I am going to think about my teacher.',
+      sentence: 'Who are you going to think about next week?',
+    },
+    {
+      meaning: 'Tatlısını kiminle paylaşacak?',
+      possibleAnswer: 'He is going to share his dessert with his sister.',
+      sentence: 'Who is he going to share his dessert with?',
+    },
+    {
+      meaning: 'Ders sırasında kimi dinleyecekler?',
+      possibleAnswer: 'They are going to listen to the professor.',
+      sentence: 'Who are they going to listen to during the lecture?',
+    },
+    {
+      meaning: 'Kime kitap alacak?',
+      possibleAnswer: 'She is going to buy a book for her brother.',
+      sentence: 'Who is she going to buy a book for?',
+    },
+    {
+      meaning: 'Yılbaşı gecesi kime mesaj atıyorsun?',
+      possibleAnswer: 'I am going to text my best friend.',
+      sentence: "Who are you going to text on New Year's Eve?",
+    },
+    {
+      meaning: 'Akşam kiminle yürüyecek?',
+      possibleAnswer: 'He is going to walk with his dog.',
+      sentence: 'Who is he going to walk with in the evening?',
+    },
+    {
+      meaning: 'Bakımevinde kimi ziyaret edecekler?',
+      possibleAnswer: 'They are going to visit their grandmother.',
+      sentence: 'Who are they going to visit at the care home?',
+    },
+    {
+      meaning: 'Matematiği kiminle çalışacak?',
+      possibleAnswer: 'She is going to study math with her tutor.',
+      sentence: 'Who is she going to study math with?',
+    },
+    {
+      meaning: 'Yardıma ihtiyacın olduğunda kimi arayacaksın?',
+      possibleAnswer: 'I am going to call my neighbor.',
+      sentence: 'Who are you going to call when you need help?',
+    },
+    {
+      meaning: 'Yüzme pratiği için kiminle çalışacak?',
+      possibleAnswer: 'He is going to practice swimming with his coach.',
+      sentence: 'Who is he going to practice swimming with?',
+    },
+    {
+      meaning: 'Hafta sonu gezisine kime katılacaklar?',
+      possibleAnswer: 'They are going to join their family for a weekend trip.',
+      sentence: 'Who are they going to join for a weekend trip?',
+    },
+    {
+      meaning: 'Sosyal medyada kimi takip edecek?',
+      possibleAnswer: 'She is going to follow her friend.',
+      sentence: 'Who is she going to follow on social media?',
+    },
+    {
+      meaning: 'Projeyi kiminle tartışacaksın?',
+      possibleAnswer: 'I am going to discuss the project with my boss.',
+      sentence: 'Who are you going to discuss the project with?',
+    },
+    {
+      meaning: 'Kiminle badminton oynayacak?',
+      possibleAnswer: 'He is going to play badminton with his uncle.',
+      sentence: 'Who is he going to play badminton with?',
+    },
+    {
+      meaning: 'Destek için kime teşekkür edecekler?',
+      possibleAnswer: 'They are going to thank their parents.',
+      sentence: 'Who are they going to thank for the support?',
+    },
+    {
+      meaning: 'Sınavı kime hatırlatacak?',
+      possibleAnswer: 'She is going to remind her friend.',
+      sentence: 'Who is she going to remind about the exam?',
+    },
+    {
+      meaning: 'Planlar hakkında kiminle tartışacaksın?',
+      possibleAnswer: 'I am going to argue with my partner.',
+      sentence: 'Who are you going to argue with about the plans?',
+    },
+    {
+      meaning: 'Arabayı kiminle temizleyecek?',
+      possibleAnswer: 'He is going to clean the car with his brother.',
+      sentence: 'Who is he going to clean the car with?',
+    },
+    {
+      meaning: 'Konserde kimi göreceksin?',
+      possibleAnswer: 'I am going to see my friends.',
+      sentence: 'Who are you going to see at the concert?',
+    },
+    {
+      meaning: 'Tavsiye için kimi arayacak?',
+      possibleAnswer: 'He is going to call his mentor.',
+      sentence: 'Who is he going to call for advice?',
+    },
+    {
+      meaning: 'Partide kiminle buluşacaklar?',
+      possibleAnswer: 'They are going to meet their classmates.',
+      sentence: 'Who are they going to meet at the party?',
+    },
+    {
+      meaning: 'Görüntülü aramada kiminle konuşacak?',
+      possibleAnswer: 'She is going to talk to her parents.',
+      sentence: 'Who is she going to talk to on the video call?',
+    },
+    {
+      meaning: 'Sınava hazırlanmaya kime yardım edeceksin?',
+      possibleAnswer: 'I am going to help my sibling.',
+      sentence: 'Who are you going to help prepare for the exam?',
+    },
+    {
+      meaning: 'Süpermarkette kimi görecek?',
+      possibleAnswer: 'He is going to see his neighbor.',
+      sentence: 'Who is he going to see at the supermarket?',
+    },
+    {
+      meaning: 'Öğle yemeğine kimi davet edecekler?',
+      possibleAnswer: 'They are going to invite their colleagues.',
+      sentence: 'Who are they going to invite for lunch?',
+    },
+    {
+      meaning: 'Belgeleri kime e-posta gönderecek?',
+      possibleAnswer: 'She is going to email the documents to her boss.',
+      sentence: 'Who is she going to email the documents to?',
+    },
+    {
+      meaning: 'Spor salonunda kimi selamlayacaksın?',
+      possibleAnswer: 'I am going to greet my trainer.',
+      sentence: 'Who are you going to greet at the gym?',
+    },
+    {
+      meaning: 'Sunumda kiminle çalışacak?',
+      possibleAnswer: 'He is going to work with his friend.',
+      sentence: 'Who is he going to work with on the presentation?',
+    },
+    {
+      meaning: 'Kiminle masa oyunları oynayacaklar?',
+      possibleAnswer: 'They are going to play board games with their family.',
+      sentence: 'Who are they going to play board games with?',
+    },
+    {
+      meaning: 'Yemekte kimin yanında oturacak?',
+      possibleAnswer: 'She is going to sit next to her partner.',
+      sentence: 'Who is she going to sit next to at the dinner?',
+    },
+    {
+      meaning: 'Gezi sırasında kimi düşüneceksin?',
+      possibleAnswer: 'I am going to think about my family.',
+      sentence: 'Who are you going to think about during the trip?',
+    },
+    {
+      meaning: 'Odasını kiminle paylaşacak?',
+      possibleAnswer: 'He is going to share his room with his brother.',
+      sentence: 'Who is he going to share his room with?',
+    },
+    {
+      meaning: 'Röportaj sırasında kimi dinleyecekler?',
+      possibleAnswer: 'They are going to listen to the guest speaker.',
+      sentence: 'Who are they going to listen to during the interview?',
+    },
+    {
+      meaning: 'Kime bilet alacak?',
+      possibleAnswer: 'She is going to buy a ticket for her friend.',
+      sentence: 'Who is she going to buy a ticket for?',
+    },
+    {
+      meaning: 'Toplantıdan sonra kime mesaj atıyorsun?',
+      possibleAnswer: 'I am going to text my partner.',
+      sentence: 'Who are you going to text after the meeting?',
+    },
+    {
+      meaning: 'Parkta kiminle yürüyecek?',
+      possibleAnswer: 'He is going to walk with his friend.',
+      sentence: 'Who is he going to walk with in the park?',
+    },
+    {
+      meaning: 'Öğleden sonra kimi ziyaret edecekler?',
+      possibleAnswer: 'They are going to visit their aunt.',
+      sentence: 'Who are they going to visit in the afternoon?',
+    },
+    {
+      meaning: 'Kimya çalışmaya kiminle çalışacak?',
+      possibleAnswer: 'She is going to study chemistry with her classmate.',
+      sentence: 'Who is she going to study chemistry with?',
+    },
+    {
+      meaning: 'Başın belada olduğunda kimi arayacaksın?',
+      possibleAnswer: 'I will call my best friend.',
+      sentence: 'Who will you call when you are in trouble?',
+    },
+    {
+      meaning: 'Gitar pratiği yapmak için kiminle çalışacak?',
+      possibleAnswer: 'He will practice guitar with his teacher.',
+      sentence: 'Who will he practice guitar with?',
+    },
+    {
+      meaning: 'Atölye için kime katılacaklar?',
+      possibleAnswer: 'They will join their team for the workshop.',
+      sentence: 'Who will they join for the workshop?',
+    },
+    {
+      meaning: "LinkedIn'de kimi takip edecek?",
+      possibleAnswer: 'She will follow her colleague.',
+      sentence: 'Who will she follow on LinkedIn?',
+    },
+    {
+      meaning: 'Seyahat planlarını kiminle tartışacaksın?',
+      possibleAnswer: 'I will discuss travel plans with my friend.',
+      sentence: 'Who will you discuss travel plans with?',
+    },
+    {
+      meaning: 'Kiminle golf oynayacak?',
+      possibleAnswer: 'He will play golf with his boss.',
+      sentence: 'Who will he play golf with?',
+    },
+    {
+      meaning: 'Davet için kime teşekkür edecekler?',
+      possibleAnswer: 'They will thank their friend for the invitation.',
+      sentence: 'Who will they thank for the invitation?',
+    },
+    {
+      meaning: 'Görevi kime hatırlatacak?',
+      possibleAnswer: 'She will remind her coworker.',
+      sentence: 'Who will she remind about the task?',
+    },
+    {
+      meaning: 'Bütçe hakkında kiminle tartışacaksın?',
+      possibleAnswer: 'I will argue with my partner.',
+      sentence: 'Who will you argue with about the budget?',
+    },
+    {
+      meaning: 'Bahçeyi kiminle temizleyecek?',
+      possibleAnswer: 'He will clean the garden with his father.',
+      sentence: 'Who will he clean the garden with?',
+    },
+  ],
+  A3: [
+    {
+      meaning: 'Bugün kimi aradı?',
+      possibleAnswer: 'He has called his friend.',
+      sentence: 'Who has he called today?',
+    },
+    {
+      meaning: 'Bu hafta kiminle buluştular?',
+      possibleAnswer: 'They have met their cousins.',
+      sentence: 'Who have they met this week?',
+    },
+    {
+      meaning: 'Partide kiminle konuştu?',
+      possibleAnswer: 'She has talked to her colleague.',
+      sentence: 'Who has she talked to at the party?',
+    },
+    {
+      meaning: 'Ödevlerinde kime yardım ettin?',
+      possibleAnswer: 'I have helped my little sister.',
+      sentence: 'Who have you helped with their homework?',
+    },
+    {
+      meaning: 'Alışveriş merkezinde kimi gördü?',
+      possibleAnswer: 'He has seen his teacher.',
+      sentence: 'Who has he seen at the mall?',
+    },
+    {
+      meaning: 'Düğüne kimi davet ettiler?',
+      possibleAnswer: 'They have invited their neighbors.',
+      sentence: 'Who have they invited to the wedding?',
+    },
+    {
+      meaning: 'Bu hafta kime e-posta gönderdi?',
+      possibleAnswer: 'She has emailed her boss.',
+      sentence: 'Who has she emailed this week?',
+    },
+    {
+      meaning: 'Bu sabah kimi selamladın?',
+      possibleAnswer: 'I have greeted my neighbor.',
+      sentence: 'Who have you greeted this morning?',
+    },
+    {
+      meaning: 'Projede kiminle çalıştı?',
+      possibleAnswer: 'He has worked with his classmate.',
+      sentence: 'Who has he worked with on the project?',
+    },
+    {
+      meaning: 'Kiminle futbol oynadılar?',
+      possibleAnswer: 'They have played soccer with their cousins.',
+      sentence: 'Who have they played soccer with?',
+    },
+    {
+      meaning: 'Konserde kimin yanında oturdu?',
+      possibleAnswer: 'She has sat next to her friend.',
+      sentence: 'Who has she sat next to at the concert?',
+    },
+    {
+      meaning: 'Bugün kimi düşündün?',
+      possibleAnswer: 'I have thought about my mother.',
+      sentence: 'Who have you thought about today?',
+    },
+    {
+      meaning: 'Öğle yemeğini kiminle paylaştı?',
+      possibleAnswer: 'He has shared his lunch with his friend.',
+      sentence: 'Who has he shared his lunch with?',
+    },
+    {
+      meaning: 'Seminer sırasında kimi dinlediler?',
+      possibleAnswer: 'They have listened to the speaker.',
+      sentence: 'Who have they listened to during the seminar?',
+    },
+    {
+      meaning: "Bu Noel'de kime hediye aldı?",
+      possibleAnswer: 'She has bought gifts for her family.',
+      sentence: 'Who has she bought gifts for this Christmas?',
+    },
+    {
+      meaning: 'Bu gece kime mesaj attın?',
+      possibleAnswer: 'I have texted my brother.',
+      sentence: 'Who have you texted tonight?',
+    },
+    {
+      meaning: 'Bu hafta okula kiminle yürüdü?',
+      possibleAnswer: 'He has walked to school with his sister.',
+      sentence: 'Who has he walked to school with this week?',
+    },
+    {
+      meaning: 'Bu ay hastanede kimi ziyaret ettiler?',
+      possibleAnswer: 'They have visited their uncle.',
+      sentence: 'Who have they visited in the hospital this month?',
+    },
+    {
+      meaning: 'Sınav için kiminle çalıştı?',
+      possibleAnswer: 'She has studied with her best friend.',
+      sentence: 'Who has she studied with for the exam?',
+    },
+    {
+      meaning: 'Üzgün olduğunda kimi aradın?',
+      possibleAnswer: 'I have called my best friend.',
+      sentence: 'Who have you called when you were sad?',
+    },
+    {
+      meaning: 'Bu hafta piyanoda kiminle pratik yaptı?',
+      possibleAnswer: 'He has practiced piano with his teacher.',
+      sentence: 'Who has he practiced piano with this week?',
+    },
+    {
+      meaning: 'Bugün öğle yemeğinde kime katıldılar?',
+      possibleAnswer: 'They have joined their friends for lunch.',
+      sentence: 'Who have they joined for lunch today?',
+    },
+    {
+      meaning: "Instagram'da kimi takip etti?",
+      possibleAnswer: 'She has followed her favorite singer.',
+      sentence: 'Who has she followed on Instagram?',
+    },
+    {
+      meaning: 'Bu hafta sonu kiminle filmleri tartıştın?',
+      possibleAnswer: 'I have discussed movies with my cousin.',
+      sentence: 'Who have you discussed movies with this weekend?',
+    },
+    {
+      meaning: 'Pazar günü kiminle satranç oynadı?',
+      possibleAnswer: 'He has played chess with his neighbor.',
+      sentence: 'Who has he played chess with on Sunday?',
+    },
+    {
+      meaning: 'Etkinlikten sonra kime teşekkür ettiler?',
+      possibleAnswer: 'They have thanked their coach.',
+      sentence: 'Who have they thanked after the event?',
+    },
+    {
+      meaning: 'Toplantıyı kime hatırlattı?',
+      possibleAnswer: 'She has reminded her colleagues.',
+      sentence: 'Who has she reminded about the meeting?',
+    },
+    {
+      meaning: 'Bu hafta kiminle tartıştın?',
+      possibleAnswer: 'I have argued with my friend.',
+      sentence: 'Who have you argued with this week?',
+    },
+    {
+      meaning: 'Bu Cumartesi evi kiminle temizledi?',
+      possibleAnswer: 'He has cleaned the house with his mother.',
+      sentence: 'Who has he cleaned the house with this Saturday?',
+    },
+    {
+      meaning: 'Aralık ayında kimi ziyaret ettin?',
+      possibleAnswer: 'I have visited my cousins.',
+      sentence: 'Who have you visited in December?',
+    },
+    {
+      meaning: 'Doğum gününde kimi aradı?',
+      possibleAnswer: 'He has called his girlfriend.',
+      sentence: 'Who has he called on his birthday?',
+    },
+    {
+      meaning: 'Tatillerde kiminle buluştular?',
+      possibleAnswer: 'They have met their colleagues.',
+      sentence: 'Who have they met during the holidays?',
+    },
+    {
+      meaning: 'Konferansta kiminle konuştu?',
+      possibleAnswer: 'She has talked to the speaker.',
+      sentence: 'Who has she talked to at the conference?',
+    },
+    {
+      meaning: 'Projelerinde kime yardım ettin?',
+      possibleAnswer: 'I have helped my classmate.',
+      sentence: 'Who have you helped with their project?',
+    },
+    {
+      meaning: 'Plajda kimi gördü?',
+      possibleAnswer: 'He has seen his family.',
+      sentence: 'Who has he seen at the beach?',
+    },
+    {
+      meaning: 'Buluşmaya kimi davet ettiler?',
+      possibleAnswer: 'They have invited their friends.',
+      sentence: 'Who have they invited to the reunion?',
+    },
+    {
+      meaning: 'Dün kime e-posta gönderdi?',
+      possibleAnswer: 'She has emailed her client.',
+      sentence: 'Who has she emailed yesterday?',
+    },
+    {
+      meaning: 'Düğünde kimi selamladın?',
+      possibleAnswer: 'I have greeted my relatives.',
+      sentence: 'Who have you greeted at the wedding?',
+    },
+    {
+      meaning: 'Yeni görevde kiminle çalıştı?',
+      possibleAnswer: 'He has worked with his teammate.',
+      sentence: 'Who has he worked with on the new task?',
+    },
+    {
+      meaning: 'Kiminle voleybol oynadılar?',
+      possibleAnswer: 'They have played volleyball with their coach.',
+      sentence: 'Who have they played volleyball with?',
+    },
+    {
+      meaning: 'Filmde kimin yanında oturdu?',
+      possibleAnswer: 'She has sat next to her boyfriend.',
+      sentence: 'Who has she sat next to at the movie?',
+    },
+    {
+      meaning: 'Geçen hafta kimi düşündün?',
+      possibleAnswer: 'I have thought about my teacher.',
+      sentence: 'Who have you thought about last week?',
+    },
+    {
+      meaning: 'Tatlısını kiminle paylaştı?',
+      possibleAnswer: 'He has shared his dessert with his sister.',
+      sentence: 'Who has he shared his dessert with?',
+    },
+    {
+      meaning: 'Ders sırasında kimi dinlediler?',
+      possibleAnswer: 'They have listened to the professor.',
+      sentence: 'Who have they listened to during the lecture?',
+    },
+    {
+      meaning: 'Kime kitap aldı?',
+      possibleAnswer: 'She has bought a book for her brother.',
+      sentence: 'Who has she bought a book for?',
+    },
+    {
+      meaning: 'Yılbaşı gecesi kime mesaj attın?',
+      possibleAnswer: 'I have texted my best friend.',
+      sentence: "Who have you texted on New Year's Eve?",
+    },
+    {
+      meaning: 'Akşam kiminle yürüdü?',
+      possibleAnswer: 'He has walked with his dog.',
+      sentence: 'Who has he walked with in the evening?',
+    },
+    {
+      meaning: 'Bakımevinde kimi ziyaret ettiler?',
+      possibleAnswer: 'They have visited their grandmother.',
+      sentence: 'Who have they visited at the care home?',
+    },
+    {
+      meaning: 'Matematiği kiminle çalıştı?',
+      possibleAnswer: 'She has studied math with her tutor.',
+      sentence: 'Who has she studied math with?',
+    },
+    {
+      meaning: 'Yardıma ihtiyacın olduğunda kimi aradın?',
+      possibleAnswer: 'I have called my neighbor.',
+      sentence: 'Who have you called when you needed help?',
+    },
+    {
+      meaning: 'Yüzme pratiği için kiminle çalıştı?',
+      possibleAnswer: 'He has practiced swimming with his coach.',
+      sentence: 'Who has he practiced swimming with?',
+    },
+    {
+      meaning: 'Hafta sonu gezisine kime katıldılar?',
+      possibleAnswer: 'They have joined their family for a weekend trip.',
+      sentence: 'Who have they joined for a weekend trip?',
+    },
+    {
+      meaning: 'Sosyal medyada kimi takip etti?',
+      possibleAnswer: 'She has followed her friend.',
+      sentence: 'Who has she followed on social media?',
+    },
+    {
+      meaning: 'Projeyi kiminle tartıştın?',
+      possibleAnswer: 'I have discussed the project with my boss.',
+      sentence: 'Who have you discussed the project with?',
+    },
+    {
+      meaning: 'Kiminle badminton oynadı?',
+      possibleAnswer: 'He has played badminton with his uncle.',
+      sentence: 'Who has he played badminton with?',
+    },
+    {
+      meaning: 'Destek için kime teşekkür ettiler?',
+      possibleAnswer: 'They have thanked their parents.',
+      sentence: 'Who have they thanked for the support?',
+    },
+    {
+      meaning: 'Sınavı kime hatırlattı?',
+      possibleAnswer: 'She has reminded her friend.',
+      sentence: 'Who has she reminded about the exam?',
+    },
+    {
+      meaning: 'Planlar hakkında kiminle tartıştın?',
+      possibleAnswer: 'I have argued with my partner.',
+      sentence: 'Who have you argued with about the plans?',
+    },
+    {
+      meaning: 'Arabayı kiminle temizledi?',
+      possibleAnswer: 'He has cleaned the car with his brother.',
+      sentence: 'Who has he cleaned the car with?',
+    },
+    {
+      meaning: 'Konserde kimi gördün?',
+      possibleAnswer: 'I have seen my friends.',
+      sentence: 'Who have you seen at the concert?',
+    },
+    {
+      meaning: 'Tavsiye için kimi aradı?',
+      possibleAnswer: 'He has called his mentor.',
+      sentence: 'Who has he called for advice?',
+    },
+    {
+      meaning: 'Partide kiminle buluştular?',
+      possibleAnswer: 'They have met their classmates.',
+      sentence: 'Who have they met at the party?',
+    },
+    {
+      meaning: 'Görüntülü aramada kiminle konuştu?',
+      possibleAnswer: 'She has talked to her parents.',
+      sentence: 'Who has she talked to on the video call?',
+    },
+    {
+      meaning: 'Sınava hazırlanmaya kime yardım ettin?',
+      possibleAnswer: 'I have helped my sibling.',
+      sentence: 'Who have you helped prepare for the exam?',
+    },
+    {
+      meaning: 'Süpermarkette kimi gördü?',
+      possibleAnswer: 'He has seen his neighbor.',
+      sentence: 'Who has he seen at the supermarket?',
+    },
+    {
+      meaning: 'Öğle yemeğine kimi davet ettiler?',
+      possibleAnswer: 'They have invited their colleagues.',
+      sentence: 'Who have they invited for lunch?',
+    },
+    {
+      meaning: 'Belgeleri kime e-posta gönderdi?',
+      possibleAnswer: 'She has emailed the documents to her boss.',
+      sentence: 'Who has she emailed the documents to?',
+    },
+    {
+      meaning: 'Spor salonunda kimi selamladın?',
+      possibleAnswer: 'I have greeted my trainer.',
+      sentence: 'Who have you greeted at the gym?',
+    },
+    {
+      meaning: 'Sunumda kiminle çalıştı?',
+      possibleAnswer: 'He has worked with his friend.',
+      sentence: 'Who has he worked with on the presentation?',
+    },
+    {
+      meaning: 'Kiminle masa oyunları oynadılar?',
+      possibleAnswer: 'They have played board games with their family.',
+      sentence: 'Who have they played board games with?',
+    },
+    {
+      meaning: 'Yemekte kimin yanında oturdu?',
+      possibleAnswer: 'She has sat next to her partner.',
+      sentence: 'Who has she sat next to at the dinner?',
+    },
+    {
+      meaning: 'Gezi sırasında kimi düşündün?',
+      possibleAnswer: 'I have thought about my family.',
+      sentence: 'Who have you thought about during the trip?',
+    },
+    {
+      meaning: 'Odasını kiminle paylaştı?',
+      possibleAnswer: 'He has shared his room with his brother.',
+      sentence: 'Who has he shared his room with?',
+    },
+    {
+      meaning: 'Röportaj sırasında kimi dinlediler?',
+      possibleAnswer: 'They have listened to the guest speaker.',
+      sentence: 'Who have they listened to during the interview?',
+    },
+    {
+      meaning: 'Kime bilet aldı?',
+      possibleAnswer: 'She has bought a ticket for her friend.',
+      sentence: 'Who has she bought a ticket for?',
+    },
+    {
+      meaning: 'Toplantıdan sonra kime mesaj attın?',
+      possibleAnswer: 'I have texted my partner.',
+      sentence: 'Who have you texted after the meeting?',
+    },
+    {
+      meaning: 'Parkta kiminle yürüdü?',
+      possibleAnswer: 'He has walked with his friend.',
+      sentence: 'Who has he walked with in the park?',
+    },
+    {
+      meaning: 'Öğleden sonra kimi ziyaret ettiler?',
+      possibleAnswer: 'They have visited their aunt.',
+      sentence: 'Who have they visited in the afternoon?',
+    },
+    {
+      meaning: 'Kimya çalışmaya kiminle çalıştı?',
+      possibleAnswer: 'She has studied chemistry with her classmate.',
+      sentence: 'Who has she studied chemistry with?',
+    },
+    {
+      meaning: 'Başın belada olduğunda kimi arayacaksın?',
+      possibleAnswer: 'I will be calling my best friend.',
+      sentence: 'Who will you be calling when you are in trouble?',
+    },
+    {
+      meaning: 'Gitar pratiği yapmak için kiminle çalışacak?',
+      possibleAnswer: 'He will be practicing guitar with his teacher.',
+      sentence: 'Who will he be practicing guitar with?',
+    },
+    {
+      meaning: 'Atölye için kime katılacaklar?',
+      possibleAnswer: 'They will be joining their team for the workshop.',
+      sentence: 'Who will they be joining for the workshop?',
+    },
+    {
+      meaning: "LinkedIn'de kimi takip edecek?",
+      possibleAnswer: 'She will be following her colleague.',
+      sentence: 'Who will she be following on LinkedIn?',
+    },
+    {
+      meaning: 'Seyahat planlarını kiminle tartışacaksın?',
+      possibleAnswer: 'I will be discussing travel plans with my friend.',
+      sentence: 'Who will you be discussing travel plans with?',
+    },
+    {
+      meaning: 'Kiminle golf oynayacak?',
+      possibleAnswer: 'He will be playing golf with his boss.',
+      sentence: 'Who will he be playing golf with?',
+    },
+    {
+      meaning: 'Davet için kime teşekkür edecekler?',
+      possibleAnswer: 'They will be thanking their friend for the invitation.',
+      sentence: 'Who will they be thanking for the invitation?',
+    },
+    {
+      meaning: 'Görevi kime hatırlatacak?',
+      possibleAnswer: 'She will be reminding her coworker.',
+      sentence: 'Who will she be reminding about the task?',
+    },
+    {
+      meaning: 'Bütçe hakkında kiminle tartışacaksın?',
+      possibleAnswer: 'I will be arguing with my partner.',
+      sentence: 'Who will you be arguing with about the budget?',
+    },
+    {
+      meaning: 'Bahçeyi kiminle temizleyecek?',
+      possibleAnswer: 'He will be cleaning the garden with his father.',
+      sentence: 'Who will he be cleaning the garden with?',
+    },
+  ],
+  B1: [
+    {
+      meaning: 'Öğretmenin kimdi?',
+      possibleAnswer: 'My teacher was Mr. Smith.',
+      sentence: 'Who was your teacher?',
+    },
+    {
+      meaning: 'Onlar kimdi?',
+      possibleAnswer: 'They were my friends.',
+      sentence: 'Who were they?',
+    },
+    {
+      meaning: 'Türkiye Cumhurbaşkanı kimdi?',
+      possibleAnswer: 'The president was Recep Tayyip Erdoğan.',
+      sentence: 'Who was the president of Turkey?',
+    },
+    {
+      meaning: 'En iyi arkadaşın kimdi?',
+      possibleAnswer: 'My best friend was Ahmet.',
+      sentence: 'Who was your best friend?',
+    },
+    {
+      meaning: 'Futbol takımının kaptanı kimdi?',
+      possibleAnswer: 'The captain was John.',
+      sentence: 'Who was the captain of the football team?',
+    },
+    {
+      meaning: 'Bu kitabın yazarı kimdi?',
+      possibleAnswer: 'The author was Orhan Pamuk.',
+      sentence: 'Who was the author of this book?',
+    },
+    {
+      meaning: 'Annen kimdi?',
+      possibleAnswer: 'My mother was Ayşe.',
+      sentence: 'Who was your mother?',
+    },
+    {
+      meaning: 'Komşuların kimdi?',
+      possibleAnswer: 'They were my neighbors.',
+      sentence: 'Who were your neighbors?',
+    },
+    {
+      meaning: 'En sevdiğin şarkıcı kimdi?',
+      possibleAnswer: 'My favorite singer was Tarkan.',
+      sentence: 'Who was your favorite singer?',
+    },
+    {
+      meaning: 'Bu filmin yönetmeni kimdi?',
+      possibleAnswer: 'The director was Steven Spielberg.',
+      sentence: 'Who was the director of this movie?',
+    },
+    {
+      meaning: 'Bu sınıftaki öğrenciler kimdi?',
+      possibleAnswer: 'They were the students in this class.',
+      sentence: 'Who were the students in this class?',
+    },
+    {
+      meaning: 'Müdür kimdi?',
+      possibleAnswer: 'The manager was Mr. Johnson.',
+      sentence: 'Who was the manager?',
+    },
+    {
+      meaning: 'Bunun sorumlusu kimdi?',
+      possibleAnswer: 'The responsible person was Ali.',
+      sentence: 'Who was responsible for this?',
+    },
+    {
+      meaning: 'Bu restoranın şefi kimdi?',
+      possibleAnswer: 'The chef was Gordon Ramsay.',
+      sentence: 'Who was the chef in this restaurant?',
+    },
+    {
+      meaning: 'Kardeşin kimdi?',
+      possibleAnswer: 'My brother was Mehmet.',
+      sentence: 'Who was your brother?',
+    },
+    {
+      meaning: 'Ailenin üyeleri kimdi?',
+      possibleAnswer: 'They were the members of my family.',
+      sentence: 'Who were the members of your family?',
+    },
+    {
+      meaning: 'İngilizce öğretmenin kimdi?',
+      possibleAnswer: 'My English teacher was Mrs. Brown.',
+      sentence: 'Who was your English teacher?',
+    },
+    {
+      meaning: 'Kazanan kimdi?',
+      possibleAnswer: 'The winner was Sarah.',
+      sentence: 'Who was the winner?',
+    },
+    {
+      meaning: 'Takımdaki oyuncular kimdi?',
+      possibleAnswer: 'They were the players in the team.',
+      sentence: 'Who were the players in the team?',
+    },
+    {
+      meaning: 'Bu tablonun sanatçısı kimdi?',
+      possibleAnswer: 'The artist was Van Gogh.',
+      sentence: 'Who was the artist of this painting?',
+    },
+    {
+      meaning: 'Kız kardeşin kimdi?',
+      possibleAnswer: 'My sister was Fatma.',
+      sentence: 'Who was your sister?',
+    },
+    {
+      meaning: 'Arkadaşların kimdi?',
+      possibleAnswer: 'They were my friends.',
+      sentence: 'Who were your friends?',
+    },
+    {
+      meaning: 'Doktorun kimdi?',
+      possibleAnswer: 'My doctor was Dr. Smith.',
+      sentence: 'Who was your doctor?',
+    },
+    {
+      meaning: 'Şehrinin belediye başkanı kimdi?',
+      possibleAnswer: 'The mayor was Mr. Johnson.',
+      sentence: 'Who was the mayor of your city?',
+    },
+    {
+      meaning: 'Okulun müdürü kimdi?',
+      possibleAnswer: 'The principal was Mr. Thompson.',
+      sentence: 'Who was the principal of the school?',
+    },
+    {
+      meaning: 'Filmin oyuncuları kimdi?',
+      possibleAnswer: 'They were the actors in the film.',
+      sentence: 'Who were the actors in the film?',
+    },
+    {
+      meaning: 'Hemşire kimdi?',
+      possibleAnswer: 'The nurse was Mary.',
+      sentence: 'Who was the nurse?',
+    },
+    {
+      meaning: 'Sınıftaki en iyi öğrenci kimdi?',
+      possibleAnswer: 'The best student was Ali.',
+      sentence: 'Who was the best student in the class?',
+    },
+    {
+      meaning: 'Gönüllüler kimdi?',
+      possibleAnswer: 'They were the volunteers.',
+      sentence: 'Who were the volunteers?',
+    },
+    {
+      meaning: 'Bu şirketin kurucusu kimdi?',
+      possibleAnswer: 'The founder was Steve Jobs.',
+      sentence: 'Who was the founder of this company?',
+    },
+    {
+      meaning: 'Büyükbaban kimdi?',
+      possibleAnswer: 'My grandfather was Ahmet.',
+      sentence: 'Who was your grandfather?',
+    },
+    {
+      meaning: 'İşçiler kimdi?',
+      possibleAnswer: 'They were the workers.',
+      sentence: 'Who were the workers?',
+    },
+    {
+      meaning: 'Lider kimdi?',
+      possibleAnswer: 'The leader was Mr. Smith.',
+      sentence: 'Who was the leader?',
+    },
+    {
+      meaning: 'Yarışmanın kazananları kimdi?',
+      possibleAnswer: 'The winners were John and Sarah.',
+      sentence: 'Who were the winners of the competition?',
+    },
+    {
+      meaning: 'Grubun gitaristi kimdi?',
+      possibleAnswer: 'The guitarist was Jim.',
+      sentence: 'Who was the guitarist in the band?',
+    },
+    {
+      meaning: 'Konuşmacı kimdi?',
+      possibleAnswer: 'The speaker was Dr. Brown.',
+      sentence: 'Who was the speaker?',
+    },
+    {
+      meaning: 'Sınıf arkadaşların kimdi?',
+      possibleAnswer: 'They were my classmates.',
+      sentence: 'Who were your classmates?',
+    },
+    {
+      meaning: 'Bu elbisenin tasarımcısı kimdi?',
+      possibleAnswer: 'The designer was Coco Chanel.',
+      sentence: 'Who was the designer of this dress?',
+    },
+    {
+      meaning: 'Hikayenin kahramanı kimdi?',
+      possibleAnswer: 'The hero was Superman.',
+      sentence: 'Who was the hero in the story?',
+    },
+    {
+      meaning: 'Ziyaretçi kimdi?',
+      possibleAnswer: 'The visitor was Mr. White.',
+      sentence: 'Who was the visitor?',
+    },
+    {
+      meaning: 'Kuzenlerin kimdi?',
+      possibleAnswer: 'They were my cousins.',
+      sentence: 'Who were your cousins?',
+    },
+    {
+      meaning: 'Baban kimdi?',
+      possibleAnswer: 'My father was Mehmet.',
+      sentence: 'Who was your father?',
+    },
+    {
+      meaning: 'Misafirler kimdi?',
+      possibleAnswer: 'They were the guests.',
+      sentence: 'Who were the guests?',
+    },
+    {
+      meaning: 'Rehber kimdi?',
+      possibleAnswer: 'The guide was Mr. Green.',
+      sentence: 'Who was the guide?',
+    },
+    {
+      meaning: 'Yazar kimdi?',
+      possibleAnswer: 'The author was J.K. Rowling.',
+      sentence: 'Who was the author?',
+    },
+    {
+      meaning: 'Komşun kimdi?',
+      possibleAnswer: 'My neighbor was Ali.',
+      sentence: 'Who was your neighbor?',
+    },
+    {
+      meaning: 'Hakimler kimdi?',
+      possibleAnswer: 'They were the judges.',
+      sentence: 'Who were the judges?',
+    },
+    {
+      meaning: 'Şampiyon kimdi?',
+      possibleAnswer: 'The champion was John.',
+      sentence: 'Who was the champion?',
+    },
+    {
+      meaning: 'Grubun lideri kimdi?',
+      possibleAnswer: 'The leader was Mr. Brown.',
+      sentence: 'Who was the leader of the group?',
+    },
+    {
+      meaning: 'Dansçılar kimdi?',
+      possibleAnswer: 'They were the dancers.',
+      sentence: 'Who were the dancers?',
+    },
+    {
+      meaning: 'Şair kimdi?',
+      possibleAnswer: 'The poet was Rumi.',
+      sentence: 'Who was the poet?',
+    },
+    {
+      meaning: 'Öğretmenler kimdi?',
+      possibleAnswer: 'They were the teachers.',
+      sentence: 'Who were the teachers?',
+    },
+    {
+      meaning: 'Bilim adamı kimdi?',
+      possibleAnswer: 'The scientist was Einstein.',
+      sentence: 'Who was the scientist?',
+    },
+    {
+      meaning: 'Teyzen kimdi?',
+      possibleAnswer: 'My aunt was Ayşe.',
+      sentence: 'Who was your aunt?',
+    },
+    {
+      meaning: 'Katılımcılar kimdi?',
+      possibleAnswer: 'They were the participants.',
+      sentence: 'Who were the participants?',
+    },
+    {
+      meaning: 'Sürücü kimdi?',
+      possibleAnswer: 'The driver was Mr. Black.',
+      sentence: 'Who was the driver?',
+    },
+    {
+      meaning: 'Seyirciler kimdi?',
+      possibleAnswer: 'They were the spectators.',
+      sentence: 'Who were the spectators?',
+    },
+    {
+      meaning: 'Müdür kimdi?',
+      possibleAnswer: 'The principal was Mr. White.',
+      sentence: 'Who was the principal?',
+    },
+    {
+      meaning: 'Atletler kimdi?',
+      possibleAnswer: 'They were the athletes.',
+      sentence: 'Who were the athletes?',
+    },
+    {
+      meaning: 'Ana karakter kimdi?',
+      possibleAnswer: 'The main character was Harry Potter.',
+      sentence: 'Who was the main character?',
+    },
+    {
+      meaning: 'İş arkadaşların kimdi?',
+      possibleAnswer: 'They were my colleagues.',
+      sentence: 'Who were your colleagues?',
+    },
+    {
+      meaning: 'Amcan kimdi?',
+      possibleAnswer: 'My uncle was Ahmet.',
+      sentence: 'Who was your uncle?',
+    },
+    {
+      meaning: 'Oyuncular kimdi?',
+      possibleAnswer: 'They were the players.',
+      sentence: 'Who were the players?',
+    },
+    {
+      meaning: 'Hemşire kimdi?',
+      possibleAnswer: 'The nurse was Jane.',
+      sentence: 'Who was the nurse?',
+    },
+    {
+      meaning: 'Oyuncular kimdi?',
+      possibleAnswer: 'They were the actors.',
+      sentence: 'Who were the actors?',
+    },
+    {
+      meaning: 'Kuzenin kimdi?',
+      possibleAnswer: 'My cousin was Fatma.',
+      sentence: 'Who was your cousin?',
+    },
+    {
+      meaning: 'Müzisyenler kimdi?',
+      possibleAnswer: 'They were the musicians.',
+      sentence: 'Who were the musicians?',
+    },
+    {
+      meaning: 'Sunucu kimdi?',
+      possibleAnswer: 'The host was Mr. Black.',
+      sentence: 'Who was the host?',
+    },
+    {
+      meaning: 'Mühendisler kimdi?',
+      possibleAnswer: 'They were the engineers.',
+      sentence: 'Who were the engineers?',
+    },
+    {
+      meaning: 'Şarkıcı kimdi?',
+      possibleAnswer: 'The singer was Adele.',
+      sentence: 'Who was the singer?',
+    },
+    {
+      meaning: 'Şairler kimdi?',
+      possibleAnswer: 'They were the poets.',
+      sentence: 'Who were the poets?',
+    },
+    {
+      meaning: 'Şef kimdi?',
+      possibleAnswer: 'The chef was Jamie Oliver.',
+      sentence: 'Who was the chef?',
+    },
+    {
+      meaning: 'Öğrenciler kimdi?',
+      possibleAnswer: 'They were the students.',
+      sentence: 'Who were the students?',
+    },
+    {
+      meaning: 'Koç kimdi?',
+      possibleAnswer: 'The coach was Mr. Green.',
+      sentence: 'Who was the coach?',
+    },
+    {
+      meaning: 'Liderler kimdi?',
+      possibleAnswer: 'They were the leaders.',
+      sentence: 'Who were the leaders?',
+    },
+    {
+      meaning: 'Hemşire kimdi?',
+      possibleAnswer: 'The nurse was Kate.',
+      sentence: 'Who was the nurse?',
+    },
+    {
+      meaning: 'Çocuklar kimdi?',
+      possibleAnswer: 'They were the children.',
+      sentence: 'Who were the children?',
+    },
+    {
+      meaning: 'Yazar kimdi?',
+      possibleAnswer: 'The author was Agatha Christie.',
+      sentence: 'Who was the author?',
+    },
+    {
+      meaning: 'Öğretmenler kimdi?',
+      possibleAnswer: 'They were the teachers.',
+      sentence: 'Who were the teachers?',
+    },
+  ],
+  B2: [
+    {
+      meaning: 'Dün kimi aradı?',
+      possibleAnswer: 'He called his friend.',
+      sentence: 'Who did he call yesterday?',
+    },
+    {
+      meaning: 'Dün gece kiminle buluştular?',
+      possibleAnswer: 'They met their cousins.',
+      sentence: 'Who did they meet last night?',
+    },
+    {
+      meaning: 'Partide kiminle konuştu?',
+      possibleAnswer: 'She talked to her colleague.',
+      sentence: 'Who did she talk to at the party?',
+    },
+    {
+      meaning: 'Ödevlerinde kime yardım ettin?',
+      possibleAnswer: 'I helped my little sister.',
+      sentence: 'Who did you help with their homework?',
+    },
+    {
+      meaning: 'Alışveriş merkezinde kimi gördü?',
+      possibleAnswer: 'He saw his teacher.',
+      sentence: 'Who did he see at the mall?',
+    },
+    {
+      meaning: 'Düğüne kimi davet ettiler?',
+      possibleAnswer: 'They invited their neighbors.',
+      sentence: 'Who did they invite to the wedding?',
+    },
+    {
+      meaning: 'Geçen hafta kime e-posta gönderdi?',
+      possibleAnswer: 'She emailed her boss.',
+      sentence: 'Who did she email last week?',
+    },
+    {
+      meaning: 'Bu sabah kimi selamladın?',
+      possibleAnswer: 'I greeted my neighbor.',
+      sentence: 'Who did you greet this morning?',
+    },
+    {
+      meaning: 'Projede kiminle çalıştı?',
+      possibleAnswer: 'He worked with his classmate.',
+      sentence: 'Who did he work with on the project?',
+    },
+    {
+      meaning: 'Kiminle futbol oynadılar?',
+      possibleAnswer: 'They played soccer with their cousins.',
+      sentence: 'Who did they play soccer with?',
+    },
+    {
+      meaning: 'Konserde kimin yanında oturdu?',
+      possibleAnswer: 'She sat next to her friend.',
+      sentence: 'Who did she sit next to at the concert?',
+    },
+    {
+      meaning: 'Dün kimi düşündün?',
+      possibleAnswer: 'I thought about my mother.',
+      sentence: 'Who did you think about yesterday?',
+    },
+    {
+      meaning: 'Öğle yemeğini kiminle paylaştı?',
+      possibleAnswer: 'He shared his lunch with his friend.',
+      sentence: 'Who did he share his lunch with?',
+    },
+    {
+      meaning: 'Seminer sırasında kimi dinlediler?',
+      possibleAnswer: 'They listened to the speaker.',
+      sentence: 'Who did they listen to during the seminar?',
+    },
+    {
+      meaning: "Geçen Noel'de kime hediye aldı?",
+      possibleAnswer: 'She bought gifts for her family.',
+      sentence: 'Who did she buy gifts for last Christmas?',
+    },
+    {
+      meaning: 'Dün gece kime mesaj attın?',
+      possibleAnswer: 'I texted my brother.',
+      sentence: 'Who did you text last night?',
+    },
+    {
+      meaning: 'Dün okula kiminle yürüdü?',
+      possibleAnswer: 'He walked to school with his sister.',
+      sentence: 'Who did he walk to school with yesterday?',
+    },
+    {
+      meaning: 'Geçen ay hastanede kimi ziyaret ettiler?',
+      possibleAnswer: 'They visited their uncle.',
+      sentence: 'Who did they visit in the hospital last month?',
+    },
+    {
+      meaning: 'Sınav için kiminle çalıştı?',
+      possibleAnswer: 'She studied with her best friend.',
+      sentence: 'Who did she study with for the exam?',
+    },
+    {
+      meaning: 'Üzgün olduğunda kimi aradın?',
+      possibleAnswer: 'I called my best friend.',
+      sentence: 'Who did you call when you were sad?',
+    },
+    {
+      meaning: 'Geçen hafta piyanoda kiminle pratik yaptı?',
+      possibleAnswer: 'He practiced piano with his teacher.',
+      sentence: 'Who did he practice piano with last week?',
+    },
+    {
+      meaning: 'Dün öğle yemeğinde kime katıldılar?',
+      possibleAnswer: 'They joined their friends for lunch.',
+      sentence: 'Who did they join for lunch yesterday?',
+    },
+    {
+      meaning: "Instagram'da kimi takip etti?",
+      possibleAnswer: 'She followed her favorite singer.',
+      sentence: 'Who did she follow on Instagram?',
+    },
+    {
+      meaning: 'Geçen hafta sonu kiminle filmleri tartıştın?',
+      possibleAnswer: 'I discussed movies with my cousin.',
+      sentence: 'Who did you discuss movies with last weekend?',
+    },
+    {
+      meaning: 'Pazar günü kiminle satranç oynadı?',
+      possibleAnswer: 'He played chess with his neighbor.',
+      sentence: 'Who did he play chess with on Sunday?',
+    },
+    {
+      meaning: 'Etkinlikten sonra kime teşekkür ettiler?',
+      possibleAnswer: 'They thanked their coach.',
+      sentence: 'Who did they thank after the event?',
+    },
+    {
+      meaning: 'Toplantıyı kime hatırlattı?',
+      possibleAnswer: 'She reminded her colleagues.',
+      sentence: 'Who did she remind about the meeting?',
+    },
+    {
+      meaning: 'Geçen hafta kiminle tartıştın?',
+      possibleAnswer: 'I argued with my friend.',
+      sentence: 'Who did you argue with last week?',
+    },
+    {
+      meaning: 'Geçen Cumartesi evi kiminle temizledi?',
+      possibleAnswer: 'He cleaned the house with his mother.',
+      sentence: 'Who did he clean the house with last Saturday?',
+    },
+    {
+      meaning: 'Toplantıda kiminle konuştun?',
+      possibleAnswer: 'I talked to my manager.',
+      sentence: 'Who did you talk to at the meeting?',
+    },
+    {
+      meaning: 'Parkta kimi gördü?',
+      possibleAnswer: 'He saw his neighbor.',
+      sentence: 'Who did he see at the park?',
+    },
+    {
+      meaning: 'Geçen hafta sonu kimi ziyaret ettiler?',
+      possibleAnswer: 'They visited their grandparents.',
+      sentence: 'Who did they visit last weekend?',
+    },
+    {
+      meaning: 'Dün gece kimi aradı?',
+      possibleAnswer: 'She called her sister.',
+      sentence: 'Who did she call last night?',
+    },
+    {
+      meaning: 'Projelerinde kime yardım ettin?',
+      possibleAnswer: 'I helped my friend.',
+      sentence: 'Who did you help with their project?',
+    },
+    {
+      meaning: 'Konferansta kiminle buluştu?',
+      possibleAnswer: 'He met his colleague.',
+      sentence: 'Who did he meet at the conference?',
+    },
+    {
+      meaning: 'Akşam yemeğine kimi davet ettiler?',
+      possibleAnswer: 'They invited their boss.',
+      sentence: 'Who did they invite to dinner?',
+    },
+    {
+      meaning: 'Dün kime e-posta gönderdi?',
+      possibleAnswer: 'She emailed her professor.',
+      sentence: 'Who did she email yesterday?',
+    },
+    {
+      meaning: 'Partide kimi selamladın?',
+      possibleAnswer: 'I greeted my friend.',
+      sentence: 'Who did you greet at the party?',
+    },
+    {
+      meaning: 'Geçen ay kiminle çalıştı?',
+      possibleAnswer: 'He worked with his partner.',
+      sentence: 'Who did he work with last month?',
+    },
+    {
+      meaning: 'Kiminle basketbol oynadılar?',
+      possibleAnswer: 'They played basketball with their team.',
+      sentence: 'Who did they play basketball with?',
+    },
+    {
+      meaning: 'Otobüste kimin yanında oturdu?',
+      possibleAnswer: 'She sat next to a stranger.',
+      sentence: 'Who did she sit next to on the bus?',
+    },
+    {
+      meaning: 'Dün gece kimi düşündün?',
+      possibleAnswer: 'I thought about my teacher.',
+      sentence: 'Who did you think about last night?',
+    },
+    {
+      meaning: 'Kitabını kiminle paylaştı?',
+      possibleAnswer: 'He shared his book with his friend.',
+      sentence: 'Who did he share his book with?',
+    },
+    {
+      meaning: 'Konserde kimi dinlediler?',
+      possibleAnswer: 'They listened to the band.',
+      sentence: 'Who did they listen to at the concert?',
+    },
+    {
+      meaning: 'Kime hediye aldı?',
+      possibleAnswer: 'She bought a present for her mother.',
+      sentence: 'Who did she buy a present for?',
+    },
+    {
+      meaning: 'Bu sabah kime mesaj attın?',
+      possibleAnswer: 'I texted my colleague.',
+      sentence: 'Who did you text this morning?',
+    },
+    {
+      meaning: 'Dün kiminle eve yürüdü?',
+      possibleAnswer: 'He walked home with his friend.',
+      sentence: 'Who did he walk home with yesterday?',
+    },
+    {
+      meaning: 'Tatil sırasında kimi ziyaret ettiler?',
+      possibleAnswer: 'They visited their aunt.',
+      sentence: 'Who did they visit during the holidays?',
+    },
+    {
+      meaning: 'Test için kiminle çalıştı?',
+      possibleAnswer: 'She studied with her classmate.',
+      sentence: 'Who did she study with for the test?',
+    },
+    {
+      meaning: 'Mutlu olduğunda kimi aradın?',
+      possibleAnswer: 'I called my friend.',
+      sentence: 'Who did you call when you were happy?',
+    },
+    {
+      meaning: 'Kiminle futbol pratik yaptı?',
+      possibleAnswer: 'He practiced football with his coach.',
+      sentence: 'Who did he practice football with?',
+    },
+    {
+      meaning: 'Geziye kime katıldılar?',
+      possibleAnswer: 'They joined their family for a trip.',
+      sentence: 'Who did they join for a trip?',
+    },
+    {
+      meaning: "Twitter'da kimi takip etti?",
+      possibleAnswer: 'She followed a politician on Twitter.',
+      sentence: 'Who did she follow on Twitter?',
+    },
+    {
+      meaning: 'Siyaseti kiminle tartıştın?',
+      possibleAnswer: 'I discussed politics with my neighbor.',
+      sentence: 'Who did you discuss politics with?',
+    },
+    {
+      meaning: 'Kiminle kart oynadı?',
+      possibleAnswer: 'He played cards with his brother.',
+      sentence: 'Who did he play cards with?',
+    },
+    {
+      meaning: 'Akşam yemeğinden sonra kime teşekkür ettiler?',
+      possibleAnswer: 'They thanked their host.',
+      sentence: 'Who did they thank after the dinner?',
+    },
+    {
+      meaning: 'Randevuyu kime hatırlattı?',
+      possibleAnswer: 'She reminded her assistant.',
+      sentence: 'Who did she remind about the appointment?',
+    },
+    {
+      meaning: 'Bu sabah kiminle tartıştın?',
+      possibleAnswer: 'I argued with my sibling.',
+      sentence: 'Who did you argue with this morning?',
+    },
+    {
+      meaning: 'Geçen Pazar garajı kiminle temizledi?',
+      possibleAnswer: 'He cleaned the garage with his father.',
+      sentence: 'Who did he clean the garage with last Sunday?',
+    },
+    {
+      meaning: 'Sinemada kimi gördün?',
+      possibleAnswer: 'I saw my teacher.',
+      sentence: 'Who did you see at the cinema?',
+    },
+    {
+      meaning: 'Yardım için kimi aradı?',
+      possibleAnswer: 'He called his brother.',
+      sentence: 'Who did he call for help?',
+    },
+    {
+      meaning: 'Şehirde kiminle buluştular?',
+      possibleAnswer: 'They met their friends.',
+      sentence: 'Who did they meet in the city?',
+    },
+    {
+      meaning: 'Telefonda kiminle konuştu?',
+      possibleAnswer: 'She talked to her cousin.',
+      sentence: 'Who did she talk to on the phone?',
+    },
+    {
+      meaning: 'Taşınmaya kime yardım ettin?',
+      possibleAnswer: 'I helped my neighbor.',
+      sentence: 'Who did you help move?',
+    },
+    {
+      meaning: 'Havaalanında kimi gördü?',
+      possibleAnswer: 'He saw his colleague.',
+      sentence: 'Who did he see at the airport?',
+    },
+    {
+      meaning: 'Kahveye kimi davet ettiler?',
+      possibleAnswer: 'They invited their classmate.',
+      sentence: 'Who did they invite for coffee?',
+    },
+    {
+      meaning: 'Raporu kime e-posta gönderdi?',
+      possibleAnswer: 'She emailed the report to her manager.',
+      sentence: 'Who did she email the report to?',
+    },
+    {
+      meaning: 'Ofiste kimi selamladın?',
+      possibleAnswer: 'I greeted my boss.',
+      sentence: 'Who did you greet at the office?',
+    },
+    {
+      meaning: 'Ödevde kiminle çalıştı?',
+      possibleAnswer: 'He worked with his partner.',
+      sentence: 'Who did he work with on the assignment?',
+    },
+    {
+      meaning: 'Kiminle tenis oynadılar?',
+      possibleAnswer: 'They played tennis with their coach.',
+      sentence: 'Who did they play tennis with?',
+    },
+    {
+      meaning: 'Trende kimin yanında oturdu?',
+      possibleAnswer: 'She sat next to a traveler.',
+      sentence: 'Who did she sit next to on the train?',
+    },
+    {
+      meaning: 'Geçen hafta kimi düşündün?',
+      possibleAnswer: 'I thought about my friend.',
+      sentence: 'Who did you think about last week?',
+    },
+    {
+      meaning: 'Şemsiyesini kiminle paylaştı?',
+      possibleAnswer: 'He shared his umbrella with a stranger.',
+      sentence: 'Who did he share his umbrella with?',
+    },
+    {
+      meaning: "Podcast'te kimi dinlediler?",
+      possibleAnswer: 'They listened to the host.',
+      sentence: 'Who did they listen to on the podcast?',
+    },
+    {
+      meaning: 'Kime çiçek aldı?',
+      possibleAnswer: 'She bought flowers for her mother.',
+      sentence: 'Who did she buy flowers for?',
+    },
+    {
+      meaning: 'Toplantıda kime mesaj attın?',
+      possibleAnswer: 'I texted my colleague.',
+      sentence: 'Who did you text during the meeting?',
+    },
+    {
+      meaning: 'Parkta kiminle yürüdü?',
+      possibleAnswer: 'He walked in the park with his dog.',
+      sentence: 'Who did he walk in the park with?',
+    },
+    {
+      meaning: 'Hafta sonu kimi ziyaret ettiler?',
+      possibleAnswer: 'They visited their grandparents.',
+      sentence: 'Who did they visit over the weekend?',
+    },
+    {
+      meaning: 'Tarihi kiminle çalıştı?',
+      possibleAnswer: 'She studied history with her tutor.',
+      sentence: 'Who did she study history with?',
+    },
+  ],
+  B3: [
+    {
+      meaning: 'Dün kimi arıyordu?',
+      possibleAnswer: 'He was calling his friend.',
+      sentence: 'Who was he calling yesterday?',
+    },
+    {
+      meaning: 'Dün gece kiminle buluşuyorlardı?',
+      possibleAnswer: 'They were meeting their cousins.',
+      sentence: 'Who were they meeting last night?',
+    },
+    {
+      meaning: 'Partide kiminle konuşuyordu?',
+      possibleAnswer: 'She was talking to her colleague.',
+      sentence: 'Who was she talking to at the party?',
+    },
+    {
+      meaning: 'Ödevlerinde kime yardım ediyordun?',
+      possibleAnswer: 'I was helping my little sister.',
+      sentence: 'Who were you helping with their homework?',
+    },
+    {
+      meaning: 'Alışveriş merkezinde kimi görüyordu?',
+      possibleAnswer: 'He was seeing his teacher.',
+      sentence: 'Who was he seeing at the mall?',
+    },
+    {
+      meaning: 'Düğüne kimi davet ediyorlardı?',
+      possibleAnswer: 'They were inviting their neighbors.',
+      sentence: 'Who were they inviting to the wedding?',
+    },
+    {
+      meaning: 'Geçen hafta kime e-posta gönderiyordu?',
+      possibleAnswer: 'She was emailing her boss.',
+      sentence: 'Who was she emailing last week?',
+    },
+    {
+      meaning: 'Bu sabah kimi selamlıyordun?',
+      possibleAnswer: 'I was greeting my neighbor.',
+      sentence: 'Who were you greeting this morning?',
+    },
+    {
+      meaning: 'Projede kiminle çalışıyordu?',
+      possibleAnswer: 'He was working with his classmate.',
+      sentence: 'Who was he working with on the project?',
+    },
+    {
+      meaning: 'Kiminle futbol oynuyorlardı?',
+      possibleAnswer: 'They were playing soccer with their cousins.',
+      sentence: 'Who were they playing soccer with?',
+    },
+    {
+      meaning: 'Konserde kimin yanında oturuyordu?',
+      possibleAnswer: 'She was sitting next to her friend.',
+      sentence: 'Who was she sitting next to at the concert?',
+    },
+    {
+      meaning: 'Dün kimi düşünüyordun?',
+      possibleAnswer: 'I was thinking about my mother.',
+      sentence: 'Who were you thinking about yesterday?',
+    },
+    {
+      meaning: 'Öğle yemeğini kiminle paylaşıyordu?',
+      possibleAnswer: 'He was sharing his lunch with his friend.',
+      sentence: 'Who was he sharing his lunch with?',
+    },
+    {
+      meaning: 'Seminer sırasında kimi dinliyorlardı?',
+      possibleAnswer: 'They were listening to the speaker.',
+      sentence: 'Who were they listening to during the seminar?',
+    },
+    {
+      meaning: "Geçen Noel'de kime hediye alıyordu?",
+      possibleAnswer: 'She was buying gifts for her family.',
+      sentence: 'Who was she buying gifts for last Christmas?',
+    },
+    {
+      meaning: 'Dün gece kime mesaj atıyordun?',
+      possibleAnswer: 'I was texting my brother.',
+      sentence: 'Who were you texting last night?',
+    },
+    {
+      meaning: 'Dün okula kiminle yürüyordu?',
+      possibleAnswer: 'He was walking to school with his sister.',
+      sentence: 'Who was he walking to school with yesterday?',
+    },
+    {
+      meaning: 'Geçen ay hastanede kimi ziyaret ediyorlardı?',
+      possibleAnswer: 'They were visiting their uncle.',
+      sentence: 'Who were they visiting in the hospital last month?',
+    },
+    {
+      meaning: 'Sınav için kiminle çalışıyordu?',
+      possibleAnswer: 'She was studying with her best friend.',
+      sentence: 'Who was she studying with for the exam?',
+    },
+    {
+      meaning: 'Üzgün olduğunda kimi arıyordun?',
+      possibleAnswer: 'I was calling my best friend.',
+      sentence: 'Who were you calling when you were sad?',
+    },
+    {
+      meaning: 'Geçen hafta piyanoda kiminle pratik yapıyordu?',
+      possibleAnswer: 'He was practicing piano with his teacher.',
+      sentence: 'Who was he practicing piano with last week?',
+    },
+    {
+      meaning: 'Dün öğle yemeğinde kime katılıyorlardı?',
+      possibleAnswer: 'They were joining their friends for lunch.',
+      sentence: 'Who were they joining for lunch yesterday?',
+    },
+    {
+      meaning: "Instagram'da kimi takip ediyordu?",
+      possibleAnswer: 'She was following her favorite singer.',
+      sentence: 'Who was she following on Instagram?',
+    },
+    {
+      meaning: 'Geçen hafta sonu kiminle filmleri tartışıyordun?',
+      possibleAnswer: 'I was discussing movies with my cousin.',
+      sentence: 'Who were you discussing movies with last weekend?',
+    },
+    {
+      meaning: 'Pazar günü kiminle satranç oynuyordu?',
+      possibleAnswer: 'He was playing chess with his neighbor.',
+      sentence: 'Who was he playing chess with on Sunday?',
+    },
+    {
+      meaning: 'Etkinlikten sonra kime teşekkür ediyorlardı?',
+      possibleAnswer: 'They were thanking their coach.',
+      sentence: 'Who were they thanking after the event?',
+    },
+    {
+      meaning: 'Toplantıyı kime hatırlatıyordu?',
+      possibleAnswer: 'She was reminding her colleagues.',
+      sentence: 'Who was she reminding about the meeting?',
+    },
+    {
+      meaning: 'Geçen hafta kiminle tartışıyordun?',
+      possibleAnswer: 'I was arguing with my friend.',
+      sentence: 'Who were you arguing with last week?',
+    },
+    {
+      meaning: 'Geçen Cumartesi evi kiminle temizliyordu?',
+      possibleAnswer: 'He was cleaning the house with his mother.',
+      sentence: 'Who was he cleaning the house with last Saturday?',
+    },
+    {
+      meaning: 'Aralık ayında kimi ziyaret ediyordun?',
+      possibleAnswer: 'I was visiting my cousins.',
+      sentence: 'Who were you visiting in December?',
+    },
+    {
+      meaning: 'Doğum gününde kimi arıyordu?',
+      possibleAnswer: 'He was calling his girlfriend.',
+      sentence: 'Who was he calling on his birthday?',
+    },
+    {
+      meaning: 'Tatillerde kiminle buluşuyorlardı?',
+      possibleAnswer: 'They were meeting their colleagues.',
+      sentence: 'Who were they meeting during the holidays?',
+    },
+    {
+      meaning: 'Konferansta kiminle konuşuyordu?',
+      possibleAnswer: 'She was talking to the speaker.',
+      sentence: 'Who was she talking to at the conference?',
+    },
+    {
+      meaning: 'Projelerinde kime yardım ediyordun?',
+      possibleAnswer: 'I was helping my classmate.',
+      sentence: 'Who were you helping with their project?',
+    },
+    {
+      meaning: 'Plajda kimi görüyordu?',
+      possibleAnswer: 'He was seeing his family.',
+      sentence: 'Who was he seeing at the beach?',
+    },
+    {
+      meaning: 'Buluşmaya kimi davet ediyorlardı?',
+      possibleAnswer: 'They were inviting their friends.',
+      sentence: 'Who were they inviting to the reunion?',
+    },
+    {
+      meaning: 'Dün kime e-posta gönderiyordu?',
+      possibleAnswer: 'She was emailing her client.',
+      sentence: 'Who was she emailing yesterday?',
+    },
+    {
+      meaning: 'Düğünde kimi selamlıyordun?',
+      possibleAnswer: 'I was greeting my relatives.',
+      sentence: 'Who were you greeting at the wedding?',
+    },
+    {
+      meaning: 'Yeni görevde kiminle çalışıyordu?',
+      possibleAnswer: 'He was working with his teammate.',
+      sentence: 'Who was he working with on the new task?',
+    },
+    {
+      meaning: 'Kiminle voleybol oynuyorlardı?',
+      possibleAnswer: 'They were playing volleyball with their coach.',
+      sentence: 'Who were they playing volleyball with?',
+    },
+    {
+      meaning: 'Filmde kimin yanında oturuyordu?',
+      possibleAnswer: 'She was sitting next to her boyfriend.',
+      sentence: 'Who was she sitting next to at the movie?',
+    },
+    {
+      meaning: 'Geçen hafta kimi düşünüyordun?',
+      possibleAnswer: 'I was thinking about my teacher.',
+      sentence: 'Who were you thinking about last week?',
+    },
+    {
+      meaning: 'Tatlısını kiminle paylaşıyordu?',
+      possibleAnswer: 'He was sharing his dessert with his sister.',
+      sentence: 'Who was he sharing his dessert with?',
+    },
+    {
+      meaning: 'Ders sırasında kimi dinliyorlardı?',
+      possibleAnswer: 'They were listening to the professor.',
+      sentence: 'Who were they listening to during the lecture?',
+    },
+    {
+      meaning: 'Kime kitap alıyordu?',
+      possibleAnswer: 'She was buying a book for her brother.',
+      sentence: 'Who was she buying a book for?',
+    },
+    {
+      meaning: 'Yılbaşı gecesi kime mesaj atıyordun?',
+      possibleAnswer: 'I was texting my best friend.',
+      sentence: "Who were you texting on New Year's Eve?",
+    },
+    {
+      meaning: 'Akşam kiminle yürüyordu?',
+      possibleAnswer: 'He was walking with his dog.',
+      sentence: 'Who was he walking with in the evening?',
+    },
+    {
+      meaning: 'Bakımevinde kimi ziyaret ediyorlardı?',
+      possibleAnswer: 'They were visiting their grandmother.',
+      sentence: 'Who were they visiting at the care home?',
+    },
+    {
+      meaning: 'Matematiği kiminle çalışıyordu?',
+      possibleAnswer: 'She was studying math with her tutor.',
+      sentence: 'Who was she studying math with?',
+    },
+    {
+      meaning: 'Yardıma ihtiyacın olduğunda kimi arıyordun?',
+      possibleAnswer: 'I was calling my neighbor.',
+      sentence: 'Who were you calling when you needed help?',
+    },
+    {
+      meaning: 'Yüzme pratiği için kiminle çalışıyordu?',
+      possibleAnswer: 'He was practicing swimming with his coach.',
+      sentence: 'Who was he practicing swimming with?',
+    },
+    {
+      meaning: 'Hafta sonu gezisine kime katılıyorlardı?',
+      possibleAnswer: 'They were joining their family for a weekend trip.',
+      sentence: 'Who were they joining for a weekend trip?',
+    },
+    {
+      meaning: 'Sosyal medyada kimi takip ediyordu?',
+      possibleAnswer: 'She was following her friend.',
+      sentence: 'Who was she following on social media?',
+    },
+    {
+      meaning: 'Projeyi kiminle tartışıyordun?',
+      possibleAnswer: 'I was discussing the project with my boss.',
+      sentence: 'Who were you discussing the project with?',
+    },
+    {
+      meaning: 'Kiminle badminton oynuyordu?',
+      possibleAnswer: 'He was playing badminton with his uncle.',
+      sentence: 'Who was he playing badminton with?',
+    },
+    {
+      meaning: 'Destek için kime teşekkür ediyorlardı?',
+      possibleAnswer: 'They were thanking their parents.',
+      sentence: 'Who were they thanking for the support?',
+    },
+    {
+      meaning: 'Sınavı kime hatırlatıyordu?',
+      possibleAnswer: 'She was reminding her friend.',
+      sentence: 'Who was she reminding about the exam?',
+    },
+    {
+      meaning: 'Planlar hakkında kiminle tartışıyordun?',
+      possibleAnswer: 'I was arguing with my partner.',
+      sentence: 'Who were you arguing with about the plans?',
+    },
+    {
+      meaning: 'Arabayı kiminle temizliyordu?',
+      possibleAnswer: 'He was cleaning the car with his brother.',
+      sentence: 'Who was he cleaning the car with?',
+    },
+    {
+      meaning: 'Konserde kimi görüyordun?',
+      possibleAnswer: 'I was seeing my friends.',
+      sentence: 'Who were you seeing at the concert?',
+    },
+    {
+      meaning: 'Tavsiye için kimi arıyordu?',
+      possibleAnswer: 'He was calling his mentor.',
+      sentence: 'Who was he calling for advice?',
+    },
+    {
+      meaning: 'Partide kiminle buluşuyorlardı?',
+      possibleAnswer: 'They were meeting their classmates.',
+      sentence: 'Who were they meeting at the party?',
+    },
+    {
+      meaning: 'Görüntülü aramada kiminle konuşuyordu?',
+      possibleAnswer: 'She was talking to her parents.',
+      sentence: 'Who was she talking to on the video call?',
+    },
+    {
+      meaning: 'Sınava hazırlanmaya kime yardım ediyordun?',
+      possibleAnswer: 'I was helping my sibling.',
+      sentence: 'Who were you helping prepare for the exam?',
+    },
+    {
+      meaning: 'Süpermarkette kimi görüyordu?',
+      possibleAnswer: 'He was seeing his neighbor.',
+      sentence: 'Who was he seeing at the supermarket?',
+    },
+    {
+      meaning: 'Öğle yemeğine kimi davet ediyorlardı?',
+      possibleAnswer: 'They were inviting their colleagues.',
+      sentence: 'Who were they inviting for lunch?',
+    },
+    {
+      meaning: 'Belgeleri kime e-posta gönderiyordu?',
+      possibleAnswer: 'She was emailing the documents to her boss.',
+      sentence: 'Who was she emailing the documents to?',
+    },
+    {
+      meaning: 'Spor salonunda kimi selamlıyordun?',
+      possibleAnswer: 'I was greeting my trainer.',
+      sentence: 'Who were you greeting at the gym?',
+    },
+    {
+      meaning: 'Sunumda kiminle çalışıyordu?',
+      possibleAnswer: 'He was working with his friend.',
+      sentence: 'Who was he working with on the presentation?',
+    },
+    {
+      meaning: 'Kiminle masa oyunları oynuyorlardı?',
+      possibleAnswer: 'They were playing board games with their family.',
+      sentence: 'Who were they playing board games with?',
+    },
+    {
+      meaning: 'Yemekte kimin yanında oturuyordu?',
+      possibleAnswer: 'She was sitting next to her partner.',
+      sentence: 'Who was she sitting next to at the dinner?',
+    },
+    {
+      meaning: 'Gezi sırasında kimi düşünüyordun?',
+      possibleAnswer: 'I was thinking about my family.',
+      sentence: 'Who were you thinking about during the trip?',
+    },
+    {
+      meaning: 'Odasını kiminle paylaşıyordu?',
+      possibleAnswer: 'He was sharing his room with his brother.',
+      sentence: 'Who was he sharing his room with?',
+    },
+    {
+      meaning: 'Röportaj sırasında kimi dinliyorlardı?',
+      possibleAnswer: 'They were listening to the guest speaker.',
+      sentence: 'Who were they listening to during the interview?',
+    },
+    {
+      meaning: 'Kime bilet alıyordu?',
+      possibleAnswer: 'She was buying a ticket for her friend.',
+      sentence: 'Who was she buying a ticket for?',
+    },
+    {
+      meaning: 'Toplantıdan sonra kime mesaj atıyordun?',
+      possibleAnswer: 'I was texting my partner.',
+      sentence: 'Who were you texting after the meeting?',
+    },
+    {
+      meaning: 'Parkta kiminle yürüyordu?',
+      possibleAnswer: 'He was walking with his friend.',
+      sentence: 'Who was he walking with in the park?',
+    },
+    {
+      meaning: 'Öğleden sonra kimi ziyaret ediyorlardı?',
+      possibleAnswer: 'They were visiting their aunt.',
+      sentence: 'Who were they visiting in the afternoon?',
+    },
+    {
+      meaning: 'Kimya çalışmaya kiminle çalışıyordu?',
+      possibleAnswer: 'She was studying chemistry with her classmate.',
+      sentence: 'Who was she studying chemistry with?',
+    },
+    {
+      meaning: 'Başın belada olduğunda kimi arıyorsun?',
+      possibleAnswer: 'I am calling my best friend.',
+      sentence: 'Who are you calling when you are in trouble?',
+    },
+    {
+      meaning: 'Gitar pratiği yapmak için kiminle çalışıyor?',
+      possibleAnswer: 'He is practicing guitar with his teacher.',
+      sentence: 'Who is he practicing guitar with?',
+    },
+    {
+      meaning: 'Atölye için kime katılıyorlar?',
+      possibleAnswer: 'They are joining their team for the workshop.',
+      sentence: 'Who are they joining for the workshop?',
+    },
+    {
+      meaning: "LinkedIn'de kimi takip ediyor?",
+      possibleAnswer: 'She is following her colleague.',
+      sentence: 'Who is she following on LinkedIn?',
+    },
+    {
+      meaning: 'Seyahat planlarını kiminle tartışıyorsun?',
+      possibleAnswer: 'I am discussing travel plans with my friend.',
+      sentence: 'Who are you discussing travel plans with?',
+    },
+    {
+      meaning: 'Kiminle golf oynuyor?',
+      possibleAnswer: 'He is playing golf with his boss.',
+      sentence: 'Who is he playing golf with?',
+    },
+    {
+      meaning: 'Davet için kime teşekkür ediyorlar?',
+      possibleAnswer: 'They are thanking their friend for the invitation.',
+      sentence: 'Who are they thanking for the invitation?',
+    },
+    {
+      meaning: 'Görevi kime hatırlatıyor?',
+      possibleAnswer: 'She is reminding her coworker.',
+      sentence: 'Who is she reminding about the task?',
+    },
+    {
+      meaning: 'Bütçe hakkında kiminle tartışıyorsun?',
+      possibleAnswer: 'I am arguing with my partner.',
+      sentence: 'Who are you arguing with about the budget?',
+    },
+    {
+      meaning: 'Bahçeyi kiminle temizliyor?',
+      possibleAnswer: 'He is cleaning the garden with his father.',
+      sentence: 'Who is he cleaning the garden with?',
+    },
+  ],
+  C1: [
+    {
+      meaning: 'Gelecekte onlar kim olacak?',
+      possibleAnswer: 'They will be my friends.',
+      sentence: 'Who will they be in the future?',
+    },
+    {
+      meaning: 'Seçimlerden sonra Türkiye Cumhurbaşkanı kim olacak?',
+      possibleAnswer: 'The president will be Recep Tayyip Erdoğan.',
+      sentence: 'Who will the president of Turkey be after the elections?',
+    },
+    {
+      meaning: 'Lisede en iyi arkadaşın kim olacak?',
+      possibleAnswer: 'My best friend will be Ahmet.',
+      sentence: 'Who will your best friend be in high school?',
+    },
+    {
+      meaning: 'Gelecek sezon futbol takımının kaptanı kim olacak?',
+      possibleAnswer: 'The captain will be John.',
+      sentence: 'Who will the captain of the football team be next season?',
+    },
+    {
+      meaning: 'Bu kitap yayımlandığında yazarı kim olacak?',
+      possibleAnswer: 'The author will be Orhan Pamuk.',
+      sentence: 'Who will the author of this book be when it is published?',
+    },
+    {
+      meaning: 'Oyunda annen kim olacak?',
+      possibleAnswer: 'My mother will be Ayşe.',
+      sentence: 'Who will your mother be in the play?',
+    },
+    {
+      meaning: 'Taşındığında yeni komşuların kim olacak?',
+      possibleAnswer: 'They will be my neighbors.',
+      sentence: 'Who will your new neighbors be when you move?',
+    },
+    {
+      meaning: 'Konserden sonra en sevdiğin şarkıcı kim olacak?',
+      possibleAnswer: 'My favorite singer will be Tarkan.',
+      sentence: 'Who will your favorite singer be after the concert?',
+    },
+    {
+      meaning: 'Bu film yayınlandığında yönetmeni kim olacak?',
+      possibleAnswer: 'The director will be Steven Spielberg.',
+      sentence: 'Who will the director of this movie be when it releases?',
+    },
+    {
+      meaning: 'Gelecek dönem bu sınıftaki öğrenciler kim olacak?',
+      possibleAnswer: 'They will be the students in this class.',
+      sentence: 'Who will the students in this class be next semester?',
+    },
+    {
+      meaning: 'Terfiden sonra yeni müdür kim olacak?',
+      possibleAnswer: 'The manager will be Mr. Johnson.',
+      sentence: 'Who will the new manager be after the promotion?',
+    },
+    {
+      meaning: 'Gelecek ay bu projeden kim sorumlu olacak?',
+      possibleAnswer: 'The responsible person will be Ali.',
+      sentence: 'Who will be responsible for this project next month?',
+    },
+    {
+      meaning: 'Yenilemeden sonra bu restorandaki şef kim olacak?',
+      possibleAnswer: 'The chef will be Gordon Ramsay.',
+      sentence: 'Who will the chef in this restaurant be after the renovation?',
+    },
+    {
+      meaning: 'Aile ağacında kardeşin kim olacak?',
+      possibleAnswer: 'My brother will be Mehmet.',
+      sentence: 'Who will your brother be in the family tree?',
+    },
+    {
+      meaning: 'Aile toplantısında ailenin üyeleri kim olacak?',
+      possibleAnswer: 'They will be the members of my family.',
+      sentence: 'Who will the members of your family be at the reunion?',
+    },
+    {
+      meaning: 'Gelecek dönem İngilizce öğretmenin kim olacak?',
+      possibleAnswer: 'My English teacher will be Mrs. Brown.',
+      sentence: 'Who will your English teacher be next term?',
+    },
+    {
+      meaning: 'Yaklaşan yarışmada kazanan kim olacak?',
+      possibleAnswer: 'The winner will be Sarah.',
+      sentence: 'Who will the winner be in the upcoming competition?',
+    },
+    {
+      meaning: 'Seçmelerden sonra takımda oyuncular kim olacak?',
+      possibleAnswer: 'They will be the players in the team.',
+      sentence: 'Who will the players in the team be after the draft?',
+    },
+    {
+      meaning: 'Bu tablo sergilendiğinde sanatçısı kim olacak?',
+      possibleAnswer: 'The artist will be Van Gogh.',
+      sentence: 'Who will the artist of this painting be once it is displayed?',
+    },
+    {
+      meaning: 'Aile fotoğrafında kız kardeşin kim olacak?',
+      possibleAnswer: 'My sister will be Fatma.',
+      sentence: 'Who will your sister be in the family photo?',
+    },
+    {
+      meaning: 'Yeni okulda arkadaşların kim olacak?',
+      possibleAnswer: 'They will be my friends.',
+      sentence: 'Who will your friends be at the new school?',
+    },
+    {
+      meaning: 'Transferden sonra doktorun kim olacak?',
+      possibleAnswer: 'My doctor will be Dr. Smith.',
+      sentence: 'Who will your doctor be after the transfer?',
+    },
+    {
+      meaning: 'Gelecek dönemde şehrinin belediye başkanı kim olacak?',
+      possibleAnswer: 'The mayor will be Mr. Johnson.',
+      sentence: 'Who will the mayor of your city be in the next term?',
+    },
+    {
+      meaning: 'Gelecek yıl okulun müdürü kim olacak?',
+      possibleAnswer: 'The principal will be Mr. Thompson.',
+      sentence: 'Who will the principal of the school be next year?',
+    },
+    {
+      meaning: 'Film kadrosunda oyuncular kim olacak?',
+      possibleAnswer: 'They will be the actors in the film.',
+      sentence: 'Who will the actors in the film be when it is cast?',
+    },
+    {
+      meaning: 'Yeni hastane kanadında hemşire kim olacak?',
+      possibleAnswer: 'The nurse will be Mary.',
+      sentence: 'Who will the nurse be in the new hospital wing?',
+    },
+    {
+      meaning: 'Yıl sonunda sınıftaki en iyi öğrenci kim olacak?',
+      possibleAnswer: 'The best student will be Ali.',
+      sentence:
+        'Who will the best student in the class be by the end of the year?',
+    },
+    {
+      meaning: 'Gelecek hafta etkinlikte gönüllüler kim olacak?',
+      possibleAnswer: 'They will be the volunteers.',
+      sentence: 'Who will the volunteers be for the event next week?',
+    },
+    {
+      meaning: 'Şirket kurulduğunda kurucusu kim olacak?',
+      possibleAnswer: 'The founder will be Steve Jobs.',
+      sentence: 'Who will the founder of this company be when it launches?',
+    },
+    {
+      meaning: 'Aile geçmişinde büyükbaban kim olacak?',
+      possibleAnswer: 'My grandfather will be Ahmet.',
+      sentence: 'Who will your grandfather be in the family history?',
+    },
+    {
+      meaning: 'Yeni fabrikada işçiler kim olacak?',
+      possibleAnswer: 'They will be the workers.',
+      sentence: 'Who will the workers be in the new factory?',
+    },
+    {
+      meaning: 'Yeni organizasyonda lider kim olacak?',
+      possibleAnswer: 'The leader will be Mr. Smith.',
+      sentence: 'Who will the leader be in the new organization?',
+    },
+    {
+      meaning: 'Ödül töreninde yarışmanın kazananları kim olacak?',
+      possibleAnswer: 'The winners will be John and Sarah.',
+      sentence:
+        'Who will the winners of the competition be at the awards ceremony?',
+    },
+    {
+      meaning: 'Sonraki turda grupta gitarist kim olacak?',
+      possibleAnswer: 'The guitarist will be Jim.',
+      sentence: 'Who will the guitarist in the band be for the next tour?',
+    },
+    {
+      meaning: 'Gelecek ay konferansta konuşmacı kim olacak?',
+      possibleAnswer: 'The speaker will be Dr. Brown.',
+      sentence: 'Who will the speaker be at the conference next month?',
+    },
+    {
+      meaning: 'Yeni okul yılındaki sınıf arkadaşların kim olacak?',
+      possibleAnswer: 'They will be my classmates.',
+      sentence: 'Who will your classmates be in the new school year?',
+    },
+    {
+      meaning: 'Moda gösterisinde bu elbisenin tasarımcısı kim olacak?',
+      possibleAnswer: 'The designer will be Coco Chanel.',
+      sentence: 'Who will the designer of this dress be at the fashion show?',
+    },
+    {
+      meaning: 'Kitabın sonunda hikayenin kahramanı kim olacak?',
+      possibleAnswer: 'The hero will be Superman.',
+      sentence: 'Who will the hero in the story be by the end of the book?',
+    },
+    {
+      meaning: 'Gelecek hafta sonu etkinlikte ziyaretçi kim olacak?',
+      possibleAnswer: 'The visitor will be Mr. White.',
+      sentence: 'Who will the visitor be at the event next weekend?',
+    },
+    {
+      meaning: 'Aile toplantısında kuzenlerin kim olacak?',
+      possibleAnswer: 'They will be my cousins.',
+      sentence: 'Who will your cousins be at the family gathering?',
+    },
+    {
+      meaning: 'Oto biyografide baban kim olacak?',
+      possibleAnswer: 'My father will be Mehmet.',
+      sentence: 'Who will your father be in the autobiography?',
+    },
+    {
+      meaning: 'Gelecek ay partide misafirler kim olacak?',
+      possibleAnswer: 'They will be the guests.',
+      sentence: 'Who will the guests be at the party next month?',
+    },
+    {
+      meaning: 'Müze turu için rehber kim olacak?',
+      possibleAnswer: 'The guide will be Mr. Green.',
+      sentence: 'Who will the guide be for the museum tour?',
+    },
+    {
+      meaning: 'Kitap kapağında yazar kim olacak?',
+      possibleAnswer: 'The author will be J.K. Rowling.',
+      sentence: 'Who will the author be on the book cover?',
+    },
+    {
+      meaning: 'Yeni ev inşa edildiğinde komşun kim olacak?',
+      possibleAnswer: 'My neighbor will be Ali.',
+      sentence: 'Who will your neighbor be when the new house is built?',
+    },
+    {
+      meaning: 'Yetenek yarışmasında hakimler kim olacak?',
+      possibleAnswer: 'They will be the judges.',
+      sentence: 'Who will the judges be in the talent show?',
+    },
+    {
+      meaning: 'Yaklaşan maçta şampiyon kim olacak?',
+      possibleAnswer: 'The champion will be John.',
+      sentence: 'Who will the champion be in the upcoming match?',
+    },
+    {
+      meaning: 'Seçimden sonra grubun lideri kim olacak?',
+      possibleAnswer: 'The leader will be Mr. Brown.',
+      sentence: 'Who will the leader of the group be after the election?',
+    },
+    {
+      meaning: 'Gelecek hafta performansta dansçılar kim olacak?',
+      possibleAnswer: 'They will be the dancers.',
+      sentence: 'Who will the dancers be at the performance next week?',
+    },
+    {
+      meaning: 'Edebiyat festivalinde şair kim olacak?',
+      possibleAnswer: 'The poet will be Rumi.',
+      sentence: 'Who will the poet be at the literary festival?',
+    },
+    {
+      meaning: 'Gelecek akademik yılda öğretmenler kim olacak?',
+      possibleAnswer: 'They will be the teachers.',
+      sentence: 'Who will the teachers be in the next academic year?',
+    },
+    {
+      meaning: 'Yeni araştırma projesi için bilim adamı kim olacak?',
+      possibleAnswer: 'The scientist will be Einstein.',
+      sentence: 'Who will the scientist be for the new research project?',
+    },
+    {
+      meaning: 'Bilim adamı kimdi?',
+      possibleAnswer: 'The scientist was Marie Curie.',
+      sentence: 'Who was the scientist?',
+    },
+  ],
+  C2: [
+    {
+      meaning: 'Yarın kimi arayacak?',
+      possibleAnswer: 'He will call his friend.',
+      sentence: 'Who will he call tomorrow?',
+    },
+    {
+      meaning: 'Gelecek hafta kiminle buluşacaklar?',
+      possibleAnswer: 'They will meet their cousins.',
+      sentence: 'Who will they meet next week?',
+    },
+    {
+      meaning: 'Partide kiminle konuşacak?',
+      possibleAnswer: 'She will talk to her colleague.',
+      sentence: 'Who will she talk to at the party?',
+    },
+    {
+      meaning: 'Ödevlerinde kime yardım edeceksin?',
+      possibleAnswer: 'I will help my little sister.',
+      sentence: 'Who will you help with their homework?',
+    },
+    {
+      meaning: 'Alışveriş merkezinde kimi görecek?',
+      possibleAnswer: 'He will see his teacher.',
+      sentence: 'Who will he see at the mall?',
+    },
+    {
+      meaning: 'Düğüne kimi davet edecekler?',
+      possibleAnswer: 'They will invite their neighbors.',
+      sentence: 'Who will they invite to the wedding?',
+    },
+    {
+      meaning: 'Gelecek hafta kime e-posta gönderecek?',
+      possibleAnswer: 'She will email her boss.',
+      sentence: 'Who will she email next week?',
+    },
+    {
+      meaning: 'Sabahları kimi selamlayacaksın?',
+      possibleAnswer: 'I will greet my neighbor.',
+      sentence: 'Who will you greet in the morning?',
+    },
+    {
+      meaning: 'Projede kiminle çalışacak?',
+      possibleAnswer: 'He will work with his classmate.',
+      sentence: 'Who will he work with on the project?',
+    },
+    {
+      meaning: 'Kiminle futbol oynayacaklar?',
+      possibleAnswer: 'They will play soccer with their cousins.',
+      sentence: 'Who will they play soccer with?',
+    },
+    {
+      meaning: 'Konserde kimin yanında oturacak?',
+      possibleAnswer: 'She will sit next to her friend.',
+      sentence: 'Who will she sit next to at the concert?',
+    },
+    {
+      meaning: 'Yarın kimi düşüneceksin?',
+      possibleAnswer: 'I will think about my mother.',
+      sentence: 'Who will you think about tomorrow?',
+    },
+    {
+      meaning: 'Öğle yemeğini kiminle paylaşacak?',
+      possibleAnswer: 'He will share his lunch with his friend.',
+      sentence: 'Who will he share his lunch with?',
+    },
+    {
+      meaning: 'Seminer sırasında kimi dinleyecekler?',
+      possibleAnswer: 'They will listen to the speaker.',
+      sentence: 'Who will they listen to during the seminar?',
+    },
+    {
+      meaning: "Gelecek Noel'de kime hediye alacak?",
+      possibleAnswer: 'She will buy gifts for her family.',
+      sentence: 'Who will she buy gifts for next Christmas?',
+    },
+    {
+      meaning: 'Bu gece kime mesaj atacak?',
+      possibleAnswer: 'I will text my brother.',
+      sentence: 'Who will you text tonight?',
+    },
+    {
+      meaning: 'Yarın okula kiminle yürüyecek?',
+      possibleAnswer: 'He will walk to school with his sister.',
+      sentence: 'Who will he walk to school with tomorrow?',
+    },
+    {
+      meaning: 'Gelecek ay hastanede kimi ziyaret edecekler?',
+      possibleAnswer: 'They will visit their uncle.',
+      sentence: 'Who will they visit in the hospital next month?',
+    },
+    {
+      meaning: 'Sınav için kiminle çalışacak?',
+      possibleAnswer: 'She will study with her best friend.',
+      sentence: 'Who will she study with for the exam?',
+    },
+    {
+      meaning: 'Üzgün olduğunda kimi arayacaksın?',
+      possibleAnswer: 'I will call my best friend.',
+      sentence: 'Who will you call when you are sad?',
+    },
+    {
+      meaning: 'Gelecek hafta piyanoda kiminle pratik yapacak?',
+      possibleAnswer: 'He will practice piano with his teacher.',
+      sentence: 'Who will he practice piano with next week?',
+    },
+    {
+      meaning: 'Yarın öğle yemeğinde kime katılacaklar?',
+      possibleAnswer: 'They will join their friends for lunch.',
+      sentence: 'Who will they join for lunch tomorrow?',
+    },
+    {
+      meaning: "Instagram'da kimi takip edecek?",
+      possibleAnswer: 'She will follow her favorite singer.',
+      sentence: 'Who will she follow on Instagram?',
+    },
+    {
+      meaning: 'Gelecek hafta sonu kiminle filmleri tartışacaksın?',
+      possibleAnswer: 'I will discuss movies with my cousin.',
+      sentence: 'Who will you discuss movies with next weekend?',
+    },
+    {
+      meaning: 'Pazar günü kiminle satranç oynayacak?',
+      possibleAnswer: 'He will play chess with his neighbor.',
+      sentence: 'Who will he play chess with on Sunday?',
+    },
+    {
+      meaning: 'Etkinlikten sonra kime teşekkür edecekler?',
+      possibleAnswer: 'They will thank their coach.',
+      sentence: 'Who will they thank after the event?',
+    },
+    {
+      meaning: 'Toplantıyı kime hatırlatacak?',
+      possibleAnswer: 'She will remind her colleagues.',
+      sentence: 'Who will she remind about the meeting?',
+    },
+    {
+      meaning: 'Gelecek hafta kiminle tartışacaksın?',
+      possibleAnswer: 'I will argue with my friend.',
+      sentence: 'Who will you argue with next week?',
+    },
+    {
+      meaning: 'Gelecek Cumartesi evi kiminle temizleyecek?',
+      possibleAnswer: 'He will clean the house with his mother.',
+      sentence: 'Who will he clean the house with next Saturday?',
+    },
+    {
+      meaning: 'Aralık ayında kimi ziyaret edeceksin?',
+      possibleAnswer: 'I will visit my cousins.',
+      sentence: 'Who will you visit in December?',
+    },
+    {
+      meaning: 'Doğum gününde kimi arayacak?',
+      possibleAnswer: 'He will call his girlfriend.',
+      sentence: 'Who will he call on his birthday?',
+    },
+    {
+      meaning: 'Tatillerde kiminle buluşacaklar?',
+      possibleAnswer: 'They will meet their colleagues.',
+      sentence: 'Who will they meet during the holidays?',
+    },
+    {
+      meaning: 'Konferansta kiminle konuşacak?',
+      possibleAnswer: 'She will talk to the speaker.',
+      sentence: 'Who will she talk to at the conference?',
+    },
+    {
+      meaning: 'Projelerinde kime yardım edeceksin?',
+      possibleAnswer: 'I will help my classmate.',
+      sentence: 'Who will you help with their project?',
+    },
+    {
+      meaning: 'Plajda kimi görecek?',
+      possibleAnswer: 'He will see his family.',
+      sentence: 'Who will he see at the beach?',
+    },
+    {
+      meaning: 'Buluşmaya kimi davet edecekler?',
+      possibleAnswer: 'They will invite their friends.',
+      sentence: 'Who will they invite to the reunion?',
+    },
+    {
+      meaning: 'Yarın kime e-posta gönderecek?',
+      possibleAnswer: 'She will email her client.',
+      sentence: 'Who will she email tomorrow?',
+    },
+    {
+      meaning: 'Düğünde kimi selamlayacaksın?',
+      possibleAnswer: 'I will greet my relatives.',
+      sentence: 'Who will you greet at the wedding?',
+    },
+    {
+      meaning: 'Yeni görevde kiminle çalışacak?',
+      possibleAnswer: 'He will work with his teammate.',
+      sentence: 'Who will he work with on the new task?',
+    },
+    {
+      meaning: 'Kiminle voleybol oynayacaklar?',
+      possibleAnswer: 'They will play volleyball with their coach.',
+      sentence: 'Who will they play volleyball with?',
+    },
+    {
+      meaning: 'Filmde kimin yanında oturacak?',
+      possibleAnswer: 'She will sit next to her boyfriend.',
+      sentence: 'Who will she sit next to at the movie?',
+    },
+    {
+      meaning: 'Gelecek hafta kimi düşüneceksin?',
+      possibleAnswer: 'I will think about my teacher.',
+      sentence: 'Who will you think about next week?',
+    },
+    {
+      meaning: 'Tatlısını kiminle paylaşacak?',
+      possibleAnswer: 'He will share his dessert with his sister.',
+      sentence: 'Who will he share his dessert with?',
+    },
+    {
+      meaning: 'Ders sırasında kimi dinleyecekler?',
+      possibleAnswer: 'They will listen to the professor.',
+      sentence: 'Who will they listen to during the lecture?',
+    },
+    {
+      meaning: 'Kime kitap alacak?',
+      possibleAnswer: 'She will buy a book for her brother.',
+      sentence: 'Who will she buy a book for?',
+    },
+    {
+      meaning: 'Yılbaşı gecesi kime mesaj atacak?',
+      possibleAnswer: 'I will text my best friend.',
+      sentence: "Who will you text on New Year's Eve?",
+    },
+    {
+      meaning: 'Akşam kiminle yürüyecek?',
+      possibleAnswer: 'He will walk with his dog.',
+      sentence: 'Who will he walk with in the evening?',
+    },
+    {
+      meaning: 'Bakımevinde kimi ziyaret edecekler?',
+      possibleAnswer: 'They will visit their grandmother.',
+      sentence: 'Who will they visit at the care home?',
+    },
+    {
+      meaning: 'Matematiği kiminle çalışacak?',
+      possibleAnswer: 'She will study math with her tutor.',
+      sentence: 'Who will she study math with?',
+    },
+    {
+      meaning: 'Yardıma ihtiyacın olduğunda kimi arayacaksın?',
+      possibleAnswer: 'I will call my neighbor.',
+      sentence: 'Who will you call when you need help?',
+    },
+    {
+      meaning: 'Yüzme pratiği için kiminle çalışacak?',
+      possibleAnswer: 'He will practice swimming with his coach.',
+      sentence: 'Who will he practice swimming with?',
+    },
+    {
+      meaning: 'Hafta sonu gezisine kime katılacaklar?',
+      possibleAnswer: 'They will join their family for a weekend trip.',
+      sentence: 'Who will they join for a weekend trip?',
+    },
+    {
+      meaning: 'Sosyal medyada kimi takip edecek?',
+      possibleAnswer: 'She will follow her friend.',
+      sentence: 'Who will she follow on social media?',
+    },
+    {
+      meaning: 'Projeyi kiminle tartışacaksın?',
+      possibleAnswer: 'I will discuss the project with my boss.',
+      sentence: 'Who will you discuss the project with?',
+    },
+    {
+      meaning: 'Kiminle badminton oynayacak?',
+      possibleAnswer: 'He will play badminton with his uncle.',
+      sentence: 'Who will he play badminton with?',
+    },
+    {
+      meaning: 'Destek için kime teşekkür edecekler?',
+      possibleAnswer: 'They will thank their parents.',
+      sentence: 'Who will they thank for the support?',
+    },
+    {
+      meaning: 'Sınavı kime hatırlatacak?',
+      possibleAnswer: 'She will remind her friend.',
+      sentence: 'Who will she remind about the exam?',
+    },
+    {
+      meaning: 'Planlar hakkında kiminle tartışacaksın?',
+      possibleAnswer: 'I will argue with my partner.',
+      sentence: 'Who will you argue with about the plans?',
+    },
+    {
+      meaning: 'Arabayı kiminle temizleyecek?',
+      possibleAnswer: 'He will clean the car with his brother.',
+      sentence: 'Who will he clean the car with?',
+    },
+    {
+      meaning: 'Konserde kimi göreceksin?',
+      possibleAnswer: 'I will see my friends.',
+      sentence: 'Who will you see at the concert?',
+    },
+    {
+      meaning: 'Tavsiye için kimi arayacak?',
+      possibleAnswer: 'He will call his mentor.',
+      sentence: 'Who will he call for advice?',
+    },
+    {
+      meaning: 'Partide kiminle buluşacaklar?',
+      possibleAnswer: 'They will meet their classmates.',
+      sentence: 'Who will they meet at the party?',
+    },
+    {
+      meaning: 'Görüntülü aramada kiminle konuşacak?',
+      possibleAnswer: 'She will talk to her parents.',
+      sentence: 'Who will she talk to on the video call?',
+    },
+    {
+      meaning: 'Sınava hazırlanmaya kime yardım edeceksin?',
+      possibleAnswer: 'I will help my sibling.',
+      sentence: 'Who will you help prepare for the exam?',
+    },
+    {
+      meaning: 'Süpermarkette kimi görecek?',
+      possibleAnswer: 'He will see his neighbor.',
+      sentence: 'Who will he see at the supermarket?',
+    },
+    {
+      meaning: 'Öğle yemeğine kimi davet edecekler?',
+      possibleAnswer: 'They will invite their colleagues.',
+      sentence: 'Who will they invite for lunch?',
+    },
+    {
+      meaning: 'Belgeleri kime e-posta gönderecek?',
+      possibleAnswer: 'She will email the documents to her boss.',
+      sentence: 'Who will she email the documents to?',
+    },
+    {
+      meaning: 'Spor salonunda kimi selamlayacaksın?',
+      possibleAnswer: 'I will greet my trainer.',
+      sentence: 'Who will you greet at the gym?',
+    },
+    {
+      meaning: 'Sunumda kiminle çalışacak?',
+      possibleAnswer: 'He will work with his friend.',
+      sentence: 'Who will he work with on the presentation?',
+    },
+    {
+      meaning: 'Kiminle masa oyunları oynayacaklar?',
+      possibleAnswer: 'They will play board games with their family.',
+      sentence: 'Who will they play board games with?',
+    },
+    {
+      meaning: 'Yemekte kimin yanında oturacak?',
+      possibleAnswer: 'She will sit next to her partner.',
+      sentence: 'Who will she sit next to at the dinner?',
+    },
+    {
+      meaning: 'Gezi sırasında kimi düşüneceksin?',
+      possibleAnswer: 'I will think about my family.',
+      sentence: 'Who will you think about during the trip?',
+    },
+    {
+      meaning: 'Odasını kiminle paylaşacak?',
+      possibleAnswer: 'He will share his room with his brother.',
+      sentence: 'Who will he share his room with?',
+    },
+    {
+      meaning: 'Röportaj sırasında kimi dinleyecekler?',
+      possibleAnswer: 'They will listen to the guest speaker.',
+      sentence: 'Who will they listen to during the interview?',
+    },
+    {
+      meaning: 'Kime bilet alacak?',
+      possibleAnswer: 'She will buy a ticket for her friend.',
+      sentence: 'Who will she buy a ticket for?',
+    },
+    {
+      meaning: 'Toplantıdan sonra kime mesaj atacak?',
+      possibleAnswer: 'I will text my partner.',
+      sentence: 'Who will you text after the meeting?',
+    },
+    {
+      meaning: 'Parkta kiminle yürüyecek?',
+      possibleAnswer: 'He will walk with his friend.',
+      sentence: 'Who will he walk with in the park?',
+    },
+    {
+      meaning: 'Öğleden sonra kimi ziyaret edecekler?',
+      possibleAnswer: 'They will visit their aunt.',
+      sentence: 'Who will they visit in the afternoon?',
+    },
+    {
+      meaning: 'Kimya çalışmaya kiminle çalışacak?',
+      possibleAnswer: 'She will study chemistry with her classmate.',
+      sentence: 'Who will she study chemistry with?',
+    },
+    {
+      meaning: 'Tavsiye gerektiğinde kimi aradın?',
+      possibleAnswer: 'I called my mentor.',
+      sentence: 'Who did you call when you needed advice?',
+    },
+    {
+      meaning: 'Yoga yapmak için kiminle pratik yaptı?',
+      possibleAnswer: 'He practiced yoga with his friend.',
+      sentence: 'Who did he practice yoga with?',
+    },
+    {
+      meaning: 'Kutlamaya kime katıldılar?',
+      possibleAnswer: 'They joined their neighbors for a celebration.',
+      sentence: 'Who did they join for a celebration?',
+    },
+    {
+      meaning: "Facebook'ta kimi takip etti?",
+      possibleAnswer: 'She followed her friend on Facebook.',
+      sentence: 'Who did she follow on Facebook?',
+    },
+    {
+      meaning: 'Haberleri kiminle tartıştın?',
+      possibleAnswer: 'I discussed the news with my father.',
+      sentence: 'Who did you discuss the news with?',
+    },
+    {
+      meaning: 'Kiminle video oyunları oynadı?',
+      possibleAnswer: 'He played video games with his brother.',
+      sentence: 'Who did he play video games with?',
+    },
+    {
+      meaning: 'Yolculuk için kime teşekkür ettiler?',
+      possibleAnswer: 'They thanked their friend for the ride.',
+      sentence: 'Who did they thank for the ride?',
+    },
+    {
+      meaning: 'Son teslim tarihini kime hatırlattı?',
+      possibleAnswer: 'She reminded her team about the deadline.',
+      sentence: 'Who did she remind about the deadline?',
+    },
+    {
+      meaning: 'Öğle yemeğinde kiminle tartıştın?',
+      possibleAnswer: 'I argued with my coworker.',
+      sentence: 'Who did you argue with at lunch?',
+    },
+    {
+      meaning: 'Pencereleri kiminle temizledi?',
+      possibleAnswer: 'He cleaned the windows with his sister.',
+      sentence: 'Who did he clean the windows with?',
+    },
+  ],
+  C3: [
+    {
+      meaning: 'Yarın kimi arayacak?',
+      possibleAnswer: 'He will be calling his friend.',
+      sentence: 'Who will he be calling tomorrow?',
+    },
+    {
+      meaning: 'Gelecek hafta kiminle buluşacaklar?',
+      possibleAnswer: 'They will be meeting their cousins.',
+      sentence: 'Who will they be meeting next week?',
+    },
+    {
+      meaning: 'Partide kiminle konuşacak?',
+      possibleAnswer: 'She will be talking to her colleague.',
+      sentence: 'Who will she be talking to at the party?',
+    },
+    {
+      meaning: 'Ödevlerinde kime yardım edeceksin?',
+      possibleAnswer: 'I will be helping my little sister.',
+      sentence: 'Who will you be helping with their homework?',
+    },
+    {
+      meaning: 'Alışveriş merkezinde kimi görecek?',
+      possibleAnswer: 'He will be seeing his teacher.',
+      sentence: 'Who will he be seeing at the mall?',
+    },
+    {
+      meaning: 'Düğüne kimi davet edecekler?',
+      possibleAnswer: 'They will be inviting their neighbors.',
+      sentence: 'Who will they be inviting to the wedding?',
+    },
+    {
+      meaning: 'Gelecek hafta kime e-posta gönderecek?',
+      possibleAnswer: 'She will be emailing her boss.',
+      sentence: 'Who will she be emailing next week?',
+    },
+    {
+      meaning: 'Sabahları kimi selamlayacaksın?',
+      possibleAnswer: 'I will be greeting my neighbor.',
+      sentence: 'Who will you be greeting in the morning?',
+    },
+    {
+      meaning: 'Projede kiminle çalışacak?',
+      possibleAnswer: 'He will be working with his classmate.',
+      sentence: 'Who will he be working with on the project?',
+    },
+    {
+      meaning: 'Kiminle futbol oynayacaklar?',
+      possibleAnswer: 'They will be playing soccer with their cousins.',
+      sentence: 'Who will they be playing soccer with?',
+    },
+    {
+      meaning: 'Konserde kimin yanında oturacak?',
+      possibleAnswer: 'She will be sitting next to her friend.',
+      sentence: 'Who will she be sitting next to at the concert?',
+    },
+    {
+      meaning: 'Yarın kimi düşüneceksin?',
+      possibleAnswer: 'I will be thinking about my mother.',
+      sentence: 'Who will you be thinking about tomorrow?',
+    },
+    {
+      meaning: 'Öğle yemeğini kiminle paylaşacak?',
+      possibleAnswer: 'He will be sharing his lunch with his friend.',
+      sentence: 'Who will he be sharing his lunch with?',
+    },
+    {
+      meaning: 'Seminer sırasında kimi dinleyecekler?',
+      possibleAnswer: 'They will be listening to the speaker.',
+      sentence: 'Who will they be listening to during the seminar?',
+    },
+    {
+      meaning: "Gelecek Noel'de kime hediye alacak?",
+      possibleAnswer: 'She will be buying gifts for her family.',
+      sentence: 'Who will she be buying gifts for next Christmas?',
+    },
+    {
+      meaning: 'Bu gece kime mesaj atacak?',
+      possibleAnswer: 'I will be texting my brother.',
+      sentence: 'Who will you be texting tonight?',
+    },
+    {
+      meaning: 'Yarın okula kiminle yürüyecek?',
+      possibleAnswer: 'He will be walking to school with his sister.',
+      sentence: 'Who will he be walking to school with tomorrow?',
+    },
+    {
+      meaning: 'Gelecek ay hastanede kimi ziyaret edecekler?',
+      possibleAnswer: 'They will be visiting their uncle.',
+      sentence: 'Who will they be visiting in the hospital next month?',
+    },
+    {
+      meaning: 'Sınav için kiminle çalışacak?',
+      possibleAnswer: 'She will be studying with her best friend.',
+      sentence: 'Who will she be studying with for the exam?',
+    },
+    {
+      meaning: 'Üzgün olduğunda kimi arayacaksın?',
+      possibleAnswer: 'I will be calling my best friend.',
+      sentence: 'Who will you be calling when you are sad?',
+    },
+    {
+      meaning: 'Gelecek hafta piyanoda kiminle pratik yapacak?',
+      possibleAnswer: 'He will be practicing piano with his teacher.',
+      sentence: 'Who will he be practicing piano with next week?',
+    },
+    {
+      meaning: 'Yarın öğle yemeğinde kime katılacaklar?',
+      possibleAnswer: 'They will be joining their friends for lunch.',
+      sentence: 'Who will they be joining for lunch tomorrow?',
+    },
+    {
+      meaning: "Instagram'da kimi takip edecek?",
+      possibleAnswer: 'She will be following her favorite singer.',
+      sentence: 'Who will she be following on Instagram?',
+    },
+    {
+      meaning: 'Gelecek hafta sonu kiminle filmleri tartışacaksın?',
+      possibleAnswer: 'I will be discussing movies with my cousin.',
+      sentence: 'Who will you be discussing movies with next weekend?',
+    },
+    {
+      meaning: 'Pazar günü kiminle satranç oynayacak?',
+      possibleAnswer: 'He will be playing chess with his neighbor.',
+      sentence: 'Who will he be playing chess with on Sunday?',
+    },
+    {
+      meaning: 'Etkinlikten sonra kime teşekkür edecekler?',
+      possibleAnswer: 'They will be thanking their coach.',
+      sentence: 'Who will they be thanking after the event?',
+    },
+    {
+      meaning: 'Toplantıyı kime hatırlatacak?',
+      possibleAnswer: 'She will be reminding her colleagues.',
+      sentence: 'Who will she be reminding about the meeting?',
+    },
+    {
+      meaning: 'Gelecek hafta kiminle tartışacaksın?',
+      possibleAnswer: 'I will be arguing with my friend.',
+      sentence: 'Who will you be arguing with next week?',
+    },
+    {
+      meaning: 'Gelecek Cumartesi evi kiminle temizleyecek?',
+      possibleAnswer: 'He will be cleaning the house with his mother.',
+      sentence: 'Who will he be cleaning the house with next Saturday?',
+    },
+    {
+      meaning: 'Aralık ayında kimi ziyaret edeceksin?',
+      possibleAnswer: 'I will be visiting my cousins.',
+      sentence: 'Who will you be visiting in December?',
+    },
+    {
+      meaning: 'Doğum gününde kimi arayacak?',
+      possibleAnswer: 'He will be calling his girlfriend.',
+      sentence: 'Who will he be calling on his birthday?',
+    },
+    {
+      meaning: 'Tatillerde kiminle buluşacaklar?',
+      possibleAnswer: 'They will be meeting their colleagues.',
+      sentence: 'Who will they be meeting during the holidays?',
+    },
+    {
+      meaning: 'Konferansta kiminle konuşacak?',
+      possibleAnswer: 'She will be talking to the speaker.',
+      sentence: 'Who will she be talking to at the conference?',
+    },
+    {
+      meaning: 'Projelerinde kime yardım edeceksin?',
+      possibleAnswer: 'I will be helping my classmate.',
+      sentence: 'Who will you be helping with their project?',
+    },
+    {
+      meaning: 'Plajda kimi görecek?',
+      possibleAnswer: 'He will be seeing his family.',
+      sentence: 'Who will he be seeing at the beach?',
+    },
+    {
+      meaning: 'Buluşmaya kimi davet edecekler?',
+      possibleAnswer: 'They will be inviting their friends.',
+      sentence: 'Who will they be inviting to the reunion?',
+    },
+    {
+      meaning: 'Yarın kime e-posta gönderecek?',
+      possibleAnswer: 'She will be emailing her client.',
+      sentence: 'Who will she be emailing tomorrow?',
+    },
+    {
+      meaning: 'Düğünde kimi selamlayacaksın?',
+      possibleAnswer: 'I will be greeting my relatives.',
+      sentence: 'Who will you be greeting at the wedding?',
+    },
+    {
+      meaning: 'Yeni görevde kiminle çalışacak?',
+      possibleAnswer: 'He will be working with his teammate.',
+      sentence: 'Who will he be working with on the new task?',
+    },
+    {
+      meaning: 'Kiminle voleybol oynayacaklar?',
+      possibleAnswer: 'They will be playing volleyball with their coach.',
+      sentence: 'Who will they be playing volleyball with?',
+    },
+    {
+      meaning: 'Filmde kimin yanında oturacak?',
+      possibleAnswer: 'She will be sitting next to her boyfriend.',
+      sentence: 'Who will she be sitting next to at the movie?',
+    },
+    {
+      meaning: 'Gelecek hafta kimi düşüneceksin?',
+      possibleAnswer: 'I will be thinking about my teacher.',
+      sentence: 'Who will you be thinking about next week?',
+    },
+    {
+      meaning: 'Tatlısını kiminle paylaşacak?',
+      possibleAnswer: 'He will be sharing his dessert with his sister.',
+      sentence: 'Who will he be sharing his dessert with?',
+    },
+    {
+      meaning: 'Ders sırasında kimi dinleyecekler?',
+      possibleAnswer: 'They will be listening to the professor.',
+      sentence: 'Who will they be listening to during the lecture?',
+    },
+    {
+      meaning: 'Kime kitap alacak?',
+      possibleAnswer: 'She will be buying a book for her brother.',
+      sentence: 'Who will she be buying a book for?',
+    },
+    {
+      meaning: 'Yılbaşı gecesi kime mesaj atacak?',
+      possibleAnswer: 'I will be texting my best friend.',
+      sentence: "Who will you be texting on New Year's Eve?",
+    },
+    {
+      meaning: 'Akşam kiminle yürüyecek?',
+      possibleAnswer: 'He will be walking with his dog.',
+      sentence: 'Who will he be walking with in the evening?',
+    },
+    {
+      meaning: 'Bakımevinde kimi ziyaret edecekler?',
+      possibleAnswer: 'They will be visiting their grandmother.',
+      sentence: 'Who will they be visiting at the care home?',
+    },
+    {
+      meaning: 'Matematiği kiminle çalışacak?',
+      possibleAnswer: 'She will be studying math with her tutor.',
+      sentence: 'Who will she be studying math with?',
+    },
+    {
+      meaning: 'Yardıma ihtiyacın olduğunda kimi arayacaksın?',
+      possibleAnswer: 'I will be calling my neighbor.',
+      sentence: 'Who will you be calling when you need help?',
+    },
+    {
+      meaning: 'Yüzme pratiği için kiminle çalışacak?',
+      possibleAnswer: 'He will be practicing swimming with his coach.',
+      sentence: 'Who will he be practicing swimming with?',
+    },
+    {
+      meaning: 'Hafta sonu gezisine kime katılacaklar?',
+      possibleAnswer: 'They will be joining their family for a weekend trip.',
+      sentence: 'Who will they be joining for a weekend trip?',
+    },
+    {
+      meaning: 'Sosyal medyada kimi takip edecek?',
+      possibleAnswer: 'She will be following her friend.',
+      sentence: 'Who will she be following on social media?',
+    },
+    {
+      meaning: 'Projeyi kiminle tartışacaksın?',
+      possibleAnswer: 'I will be discussing the project with my boss.',
+      sentence: 'Who will you be discussing the project with?',
+    },
+    {
+      meaning: 'Kiminle badminton oynayacak?',
+      possibleAnswer: 'He will be playing badminton with his uncle.',
+      sentence: 'Who will he be playing badminton with?',
+    },
+    {
+      meaning: 'Destek için kime teşekkür edecekler?',
+      possibleAnswer: 'They will be thanking their parents.',
+      sentence: 'Who will they be thanking for the support?',
+    },
+    {
+      meaning: 'Sınavı kime hatırlatacak?',
+      possibleAnswer: 'She will be reminding her friend.',
+      sentence: 'Who will she be reminding about the exam?',
+    },
+    {
+      meaning: 'Planlar hakkında kiminle tartışacaksın?',
+      possibleAnswer: 'I will be arguing with my partner.',
+      sentence: 'Who will you be arguing with about the plans?',
+    },
+    {
+      meaning: 'Arabayı kiminle temizleyecek?',
+      possibleAnswer: 'He will be cleaning the car with his brother.',
+      sentence: 'Who will he be cleaning the car with?',
+    },
+    {
+      meaning: 'Konserde kimi göreceksin?',
+      possibleAnswer: 'I will be seeing my friends.',
+      sentence: 'Who will you be seeing at the concert?',
+    },
+    {
+      meaning: 'Tavsiye için kimi arayacak?',
+      possibleAnswer: 'He will be calling his mentor.',
+      sentence: 'Who will he be calling for advice?',
+    },
+    {
+      meaning: 'Partide kiminle buluşacaklar?',
+      possibleAnswer: 'They will be meeting their classmates.',
+      sentence: 'Who will they be meeting at the party?',
+    },
+    {
+      meaning: 'Görüntülü aramada kiminle konuşacak?',
+      possibleAnswer: 'She will be talking to her parents.',
+      sentence: 'Who will she be talking to on the video call?',
+    },
+    {
+      meaning: 'Sınava hazırlanmaya kime yardım edeceksin?',
+      possibleAnswer: 'I will be helping my sibling.',
+      sentence: 'Who will you be helping prepare for the exam?',
+    },
+    {
+      meaning: 'Süpermarkette kimi görecek?',
+      possibleAnswer: 'He will be seeing his neighbor.',
+      sentence: 'Who will he be seeing at the supermarket?',
+    },
+    {
+      meaning: 'Öğle yemeğine kimi davet edecekler?',
+      possibleAnswer: 'They will be inviting their colleagues.',
+      sentence: 'Who will they be inviting for lunch?',
+    },
+    {
+      meaning: 'Belgeleri kime e-posta gönderecek?',
+      possibleAnswer: 'She will be emailing the documents to her boss.',
+      sentence: 'Who will she be emailing the documents to?',
+    },
+    {
+      meaning: 'Spor salonunda kimi selamlayacaksın?',
+      possibleAnswer: 'I will be greeting my trainer.',
+      sentence: 'Who will you be greeting at the gym?',
+    },
+    {
+      meaning: 'Sunumda kiminle çalışacak?',
+      possibleAnswer: 'He will be working with his friend.',
+      sentence: 'Who will he be working with on the presentation?',
+    },
+    {
+      meaning: 'Kiminle masa oyunları oynayacaklar?',
+      possibleAnswer: 'They will be playing board games with their family.',
+      sentence: 'Who will they be playing board games with?',
+    },
+    {
+      meaning: 'Yemekte kimin yanında oturacak?',
+      possibleAnswer: 'She will be sitting next to her partner.',
+      sentence: 'Who will she be sitting next to at the dinner?',
+    },
+    {
+      meaning: 'Gezi sırasında kimi düşüneceksin?',
+      possibleAnswer: 'I will be thinking about my family.',
+      sentence: 'Who will you be thinking about during the trip?',
+    },
+    {
+      meaning: 'Odasını kiminle paylaşacak?',
+      possibleAnswer: 'He will be sharing his room with his brother.',
+      sentence: 'Who will he be sharing his room with?',
+    },
+    {
+      meaning: 'Röportaj sırasında kimi dinleyecekler?',
+      possibleAnswer: 'They will be listening to the guest speaker.',
+      sentence: 'Who will they be listening to during the interview?',
+    },
+    {
+      meaning: 'Kime bilet alacak?',
+      possibleAnswer: 'She will be buying a ticket for her friend.',
+      sentence: 'Who will she be buying a ticket for?',
+    },
+    {
+      meaning: 'Toplantıdan sonra kime mesaj atıyorsun?',
+      possibleAnswer: 'I will be texting my partner.',
+      sentence: 'Who will you be texting after the meeting?',
+    },
+    {
+      meaning: 'Parkta kiminle yürüyecek?',
+      possibleAnswer: 'He will be walking with his friend.',
+      sentence: 'Who will he be walking with in the park?',
+    },
+    {
+      meaning: 'Öğleden sonra kimi ziyaret edecekler?',
+      possibleAnswer: 'They will be visiting their aunt.',
+      sentence: 'Who will they be visiting in the afternoon?',
+    },
+    {
+      meaning: 'Kimya çalışmaya kiminle çalışacak?',
+      possibleAnswer: 'She will be studying chemistry with her classmate.',
+      sentence: 'Who will she be studying chemistry with?',
+    },
+    {
+      meaning: 'Başın belada olduğunda kimi arıyordun?',
+      possibleAnswer: 'I was calling my best friend.',
+      sentence: 'Who were you calling when you were in trouble?',
+    },
+    {
+      meaning: 'Gitar pratiği yapmak için kiminle çalışıyordu?',
+      possibleAnswer: 'He was practicing guitar with his teacher.',
+      sentence: 'Who was he practicing guitar with?',
+    },
+    {
+      meaning: 'Atölye için kime katılıyorlardı?',
+      possibleAnswer: 'They were joining their team for the workshop.',
+      sentence: 'Who were they joining for the workshop?',
+    },
+    {
+      meaning: "LinkedIn'de kimi takip ediyordu?",
+      possibleAnswer: 'She was following her colleague.',
+      sentence: 'Who was she following on LinkedIn?',
+    },
+    {
+      meaning: 'Seyahat planlarını kiminle tartışıyordun?',
+      possibleAnswer: 'I was discussing travel plans with my friend.',
+      sentence: 'Who were you discussing travel plans with?',
+    },
+    {
+      meaning: 'Kiminle golf oynuyordu?',
+      possibleAnswer: 'He was playing golf with his boss.',
+      sentence: 'Who was he playing golf with?',
+    },
+    {
+      meaning: 'Davet için kime teşekkür ediyorlardı?',
+      possibleAnswer: 'They were thanking their friend for the invitation.',
+      sentence: 'Who were they thanking for the invitation?',
+    },
+    {
+      meaning: 'Görevi kime hatırlatıyordu?',
+      possibleAnswer: 'She was reminding her coworker.',
+      sentence: 'Who was she reminding about the task?',
+    },
+    {
+      meaning: 'Bütçe hakkında kiminle tartışıyordun?',
+      possibleAnswer: 'I was arguing with my partner.',
+      sentence: 'Who were you arguing with about the budget?',
+    },
+    {
+      meaning: 'Bahçeyi kiminle temizliyordu?',
+      possibleAnswer: 'He was cleaning the garden with his father.',
+      sentence: 'Who was he cleaning the garden with?',
     },
   ],
 };
