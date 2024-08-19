@@ -19,17 +19,9 @@ import Icon from '../themes/Icon';
 import Voice from '@react-native-voice/voice';
 import CheckBox from 'react-native-check-box';
 import {Bar} from 'react-native-progress';
-import {checkAbbrevation} from '../utils/abbreviation';
 import {Route, useRoute} from '@react-navigation/native';
-import {
-  QuestionsTranslationSentencesWhat,
-  QuestionsTranslationSentencesWhere,
-  QuestionsTranslationSentencesWhen,
-  QuestionsTranslationSentencesWhy,
-  QueestionsTranslationSentencesHow,
-  QueestionsTranslationSentencesWho,
-} from '../utils/translation';
-import QuestionsTable from '../components/QuestionsTable';
+import {RcNcTranslationSentences} from '../utils/translation';
+import Blink from '../components/Blink';
 
 export interface Translation {
   id: number;
@@ -41,17 +33,14 @@ export interface Translation {
 }
 type TranslationRoute = Route<'Translation', {title: string; item?: any}>;
 
-const QuestionsTranslation: React.FC = () => {
+const RcNcTranslation: React.FC = () => {
   const route = useRoute<TranslationRoute>();
-  const title = route.params.title;
-  // const cellSelectedSymbols = route.params.item?.selectedSymbols || [];
-  const symbols = route.params.item.symbols || [];
 
   const [totalQuestions, setTotalQuestions] = useState<number>(0);
   const [correctAnswers, setCorrectAnswers] = useState<number>(0);
   const [wrongAnswers, setWrongAnswers] = useState<number>(0);
   const [isAnswerVisible, setIsAnswerVisible] = useState(true);
-  const [selectedCells, setSelectedCells] = useState<string[]>(['B1']);
+  const [selectedCells, setSelectedCells] = useState<string[]>(['RC', 'NC']);
   const [selectedCell, setSelectedCell] = useState<string>('');
   const [sentence, setSentence] = useState<string>(
     'Henüz bir soru yok, hücrelerden seçim yapıp sor tuşuna basmalısın!',
@@ -67,9 +56,6 @@ const QuestionsTranslation: React.FC = () => {
   const [questionIndex, setQuestionIndex] = useState<number>(0);
   const [remainingQuestionCount, setRemainingQuestionCount] =
     useState<number>(0);
-  const [selectedSymbols, setSelectedSymbols] = useState<string[]>(['What']);
-  const [selectedSymbol, setSelectedSymbol] = useState<string>('');
-  const [possibleAnswer, setPossibleAnswer] = useState<string>('');
 
   const bottomSheetRef = useRef<BottomSheet>(null);
 
@@ -193,43 +179,6 @@ const QuestionsTranslation: React.FC = () => {
         <Icon name="Sound" color="#56A500" width={20} height={20} />
         <Text style={styles.correctAnswerText}>{answer}</Text>
       </TouchableOpacity>
-      {possibleAnswer && (
-        // <View style={styles.answerHeader}>
-        //   <Text style={styles.possibleAnswerText}>
-        //     Olası Cevap: {possibleAnswer}
-        //   </Text>
-        // </View>
-        <View
-          style={{
-            flexDirection: 'column',
-            alignItems: 'flex-start',
-            gap: 2,
-          }}>
-          <Text
-            style={[
-              styles.possibleAnswerText,
-              {
-                fontSize: 14,
-                fontWeight: 'bold',
-                color: '#1c9aa8',
-              },
-            ]}>
-            Olası Cevap:{' '}
-          </Text>
-          <TouchableOpacity
-            onPress={() => handleVoice(possibleAnswer)}
-            style={{
-              flexDirection: 'row',
-              alignItems: 'center',
-              justifyContent: 'center',
-              // flex: 1,
-              gap: 6,
-            }}>
-            <Icon name="Sound" color="#1c9aa8" width={20} height={20} />
-            <Text style={styles.possibleAnswerText}>{possibleAnswer}</Text>
-          </TouchableOpacity>
-        </View>
-      )}
       <TouchableOpacity
         onPress={() => continueButton()}
         style={[styles.answerButton, styles.correctButton]}>
@@ -250,46 +199,12 @@ const QuestionsTranslation: React.FC = () => {
           {textInputValue.join(' ')}
         </Text>
       </View>
-
       <TouchableOpacity
         onPress={() => handleVoice(answer)}
         style={styles.answerButtonHeader}>
         <Icon name="Sound" color="#56A500" width={20} height={20} />
         <Text style={styles.correctAnswerText}>{answer}</Text>
       </TouchableOpacity>
-      {possibleAnswer && (
-        <View
-          style={{
-            flexDirection: 'column',
-            alignItems: 'flex-start',
-            gap: 2,
-          }}>
-          <Text
-            style={[
-              styles.possibleAnswerText,
-              {
-                fontSize: 14,
-                fontWeight: 'bold',
-                color: '#1c9aa8',
-              },
-            ]}>
-            Olası Cevap:{' '}
-          </Text>
-          <TouchableOpacity
-            onPress={() => handleVoice(possibleAnswer)}
-            style={{
-              flexDirection: 'row',
-              alignItems: 'center',
-              justifyContent: 'center',
-              // flex: 1,
-              gap: 6,
-            }}>
-            <Icon name="Sound" color="#1c9aa8" width={20} height={20} />
-            <Text style={styles.possibleAnswerText}>{possibleAnswer}</Text>
-          </TouchableOpacity>
-        </View>
-      )}
-
       <TouchableOpacity
         onPress={() => continueButton()}
         style={[styles.incorrectButton, styles.answerButton]}>
@@ -306,58 +221,25 @@ const QuestionsTranslation: React.FC = () => {
     return array;
   };
 
+  type SymbolKeys = 'RC' | 'NC';
   const generateQuestion = () => {
     const randomIndexForSymbols = Math.floor(
-      Math.random() * selectedSymbols.length,
+      Math.random() * selectedCells.length,
     );
 
-    const newSelectedSymbol = selectedSymbols[randomIndexForSymbols];
-    setSelectedSymbol(newSelectedSymbol);
+    const newSelectedSymbol = selectedCells[
+      randomIndexForSymbols
+    ] as SymbolKeys;
+    setSelectedCell(newSelectedSymbol);
 
-    console.log('newSelectedSymbol', newSelectedSymbol);
-    let newTranslationSentences: any;
-    switch (newSelectedSymbol) {
-      case 'What':
-        newTranslationSentences = QuestionsTranslationSentencesWhat;
-        break;
-      case 'Where':
-        newTranslationSentences = QuestionsTranslationSentencesWhere;
-        break;
-      case 'When':
-        newTranslationSentences = QuestionsTranslationSentencesWhen;
-        break;
-      case 'Why':
-        newTranslationSentences = QuestionsTranslationSentencesWhy;
-        break;
-      case 'How':
-        newTranslationSentences = QueestionsTranslationSentencesHow;
-        break;
-      case 'Who':
-        newTranslationSentences = QueestionsTranslationSentencesWho;
-        break;
-    }
-
+    let newTranslationSentences = RcNcTranslationSentences[newSelectedSymbol];
     setTranslationSentences(newTranslationSentences);
 
-    const randomIndex = Math.floor(Math.random() * selectedCells.length);
-    const newSelectedCell = selectedCells[randomIndex];
-    setSelectedCell(newSelectedCell);
-
-    const newSelectedCellSentences = newTranslationSentences[newSelectedCell];
-
-    if (newSelectedCellSentences === undefined) {
-      // setSelectedCells([]);
-      setSelectedCells((prevCells: string[]) =>
-        prevCells.filter(cell => cell !== newSelectedCell),
-      );
-      setSelectedCell('');
-      setSelectedSymbol('');
-      setSentence(
-        'Henüz bir soru yok, hücrelerden seçim yapıp sor tuşuna basmalısın!',
-      );
-      Alert.alert(
-        `${newSelectedSymbol} için çeviri cümlesi bulunamadı!`,
-        'Lütfen başka bir hücre seçiniz.',
+    if (!newTranslationSentences) {
+      setSentence('Çeviri cümlesi bulunamadı, hücre seçimi yapmalısın!');
+      return Alert.alert(
+        `Çeviri cümlesi bulunamadı!`,
+        'Lütfen hücre seçiniz.',
         [
           {
             text: 'OK',
@@ -368,21 +250,19 @@ const QuestionsTranslation: React.FC = () => {
           },
         ],
       );
-      setIsAnswerVisible(true);
-      return;
     }
 
     const randomIndexSentences = Math.floor(
-      Math.random() * newSelectedCellSentences.length,
+      Math.random() * newTranslationSentences.length,
     );
 
-    const newSelectedSentence = newSelectedCellSentences[randomIndexSentences];
+    const newSelectedSentence = newTranslationSentences[randomIndexSentences];
 
-    setSentence(newSelectedSentence.meaning);
+    setSentence(newSelectedSentence.tr);
 
-    setAnswer(newSelectedSentence.sentence);
+    setAnswer(newSelectedSentence.ing);
 
-    const meaning = newSelectedSentence.sentence.split(' ');
+    const meaning = newSelectedSentence.ing.split(' ');
 
     const mixSentence = shuffleArray([...meaning]);
 
@@ -390,13 +270,7 @@ const QuestionsTranslation: React.FC = () => {
 
     setQuestionIndex(randomIndexSentences);
 
-    console.log('newSelectedSentence', newSelectedSentence);
-
-    setPossibleAnswer(newSelectedSentence.possibleAnswer);
-
-    selectedCells.map(cell => {
-      setRemainingQuestionCount(newTranslationSentences[cell]?.length);
-    });
+    setRemainingQuestionCount(newTranslationSentences.length);
   };
 
   const checkAnswer = () => {
@@ -404,35 +278,18 @@ const QuestionsTranslation: React.FC = () => {
       return;
     }
 
-    setSelectedSymbol('');
-
-    const {normalizedInput, normalizedAnswer, normalizedInputWithContractions} =
-      checkAbbrevation({
-        input: textInputValue,
-        answer,
-        selectedCell,
-      });
-
-    if (
-      normalizedAnswer
-        .trim()
-        .replace('.', '')
-        .replace('?', '')
-        .toLowerCase() ===
-      normalizedInputWithContractions
-        .trim()
-        .replace('.', '')
-        .replace('?', '')
-        .toLowerCase()
-    ) {
+    if (textInputValue.join(' ') === answer) {
       setSnapPoints(['32%']);
       bottomSheetRef.current?.expand();
       handleVoice(answer);
       setIsAnswerTrue(true);
       setCorrectAnswers(correctAnswers + 1);
 
-      translationSentences[selectedCell].splice(questionIndex, 1);
+      const translationSentences =
+        RcNcTranslationSentences[selectedCell as SymbolKeys];
+      translationSentences.splice(questionIndex, 1);
       setTranslationSentences(translationSentences);
+      setRemainingQuestionCount(translationSentences.length);
     } else {
       setSnapPoints(['38%']);
       bottomSheetRef.current?.expand();
@@ -440,22 +297,15 @@ const QuestionsTranslation: React.FC = () => {
       setIsAnswerTrue(false);
       setWrongAnswers(wrongAnswers + 1);
     }
+
     setSelectedCell('');
   };
 
   const handleAskButton = () => {
-    // setTranslationSentences(QuestionsTranslationSentencesWhere);
-
     if (selectedCells.length === 0) {
       setIsAnswerVisible(true);
       return Alert.alert('Lütfen bir hücre seçiniz');
     }
-
-    if (title === 'Questions' && selectedSymbols.length === 0) {
-      setIsAnswerVisible(true);
-      return Alert.alert('Lütfen bir sembol seçiniz');
-    }
-
     isAnswerVisible && generateQuestion();
     isAnswerVisible && setTotalQuestions(totalQuestions + 1);
     !isAnswerVisible && setSelectedCell('');
@@ -481,17 +331,107 @@ const QuestionsTranslation: React.FC = () => {
             </View>
           </View>
         </View>
-        <QuestionsTable
-          selectedCells={selectedCells}
-          setSelectedCells={setSelectedCells}
-          selectedCell={selectedCell}
-          isSymbolActive={symbols.length > 0}
-          selectedSymbols={selectedSymbols}
-          setSelectedSymbols={setSelectedSymbols}
-          selectedSymbol={selectedSymbol}
-          symbols={symbols}
-          mainCategory={title}
-        />
+        <View
+          style={{
+            flexDirection: 'row',
+            gap: 10,
+
+            paddingHorizontal: 16,
+          }}>
+          <TouchableOpacity
+            activeOpacity={0.7}
+            onPress={() => {
+              setSelectedCells(prev => {
+                if (prev.includes('RC')) {
+                  return prev.filter(item => item !== 'RC');
+                }
+                return [...prev, 'RC'];
+              });
+            }}
+            style={[
+              styles.choiceCard,
+              {
+                borderColor: selectedCells.includes('RC') ? '#2CC2DB' : '#fff',
+              },
+              !selectedCells.includes('RC') && styles.shadow,
+            ]}>
+            <Text style={{fontSize: 16, fontWeight: 'bold', color: 'black'}}>
+              Relative Clause
+            </Text>
+            {selectedCells.includes('RC') && selectedCell === 'RC' ? (
+              <Blink
+                duration={500}
+                style={{
+                  position: 'absolute',
+                  right: -10,
+                  top: -10,
+                }}>
+                <View style={[styles.tickIconContainer]}>
+                  <Icon name="Tick" color="#fff" width={24} height={24} />
+                </View>
+              </Blink>
+            ) : selectedCells.includes('RC') ? (
+              <View
+                style={[
+                  styles.tickIconContainer,
+                  {
+                    position: 'absolute',
+                    right: -10,
+                    top: -10,
+                  },
+                ]}>
+                <Icon name="Tick" color="#fff" width={24} height={24} />
+              </View>
+            ) : null}
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            activeOpacity={0.7}
+            onPress={() => {
+              setSelectedCells(prev => {
+                if (prev.includes('NC')) {
+                  return prev.filter(item => item !== 'NC');
+                }
+                return [...prev, 'NC'];
+              });
+            }}
+            style={[
+              styles.choiceCard,
+              {
+                borderColor: selectedCells.includes('NC') ? '#2CC2DB' : '#fff',
+              },
+              !selectedCells.includes('NC') && styles.shadow,
+            ]}>
+            <Text style={{fontSize: 16, fontWeight: 'bold', color: 'black'}}>
+              Noun Clause
+            </Text>
+            {selectedCells.includes('NC') && selectedCell === 'NC' ? (
+              <Blink
+                duration={500}
+                style={{
+                  position: 'absolute',
+                  right: -10,
+                  top: -10,
+                }}>
+                <View style={[styles.tickIconContainer]}>
+                  <Icon name="Tick" color="#fff" width={24} height={24} />
+                </View>
+              </Blink>
+            ) : selectedCells.includes('NC') ? (
+              <View
+                style={[
+                  styles.tickIconContainer,
+                  {
+                    position: 'absolute',
+                    right: -10,
+                    top: -10,
+                  },
+                ]}>
+                <Icon name="Tick" color="#fff" width={24} height={24} />
+              </View>
+            ) : null}
+          </TouchableOpacity>
+        </View>
         <View style={styles.askButtonContainer}>
           <TouchableOpacity
             style={styles.askButton}
@@ -612,6 +552,7 @@ const QuestionsTranslation: React.FC = () => {
                 Kalan Soru: {remainingQuestionCount}
               </Text>
             </View>
+
             <View
               style={{
                 flex: 1,
@@ -661,7 +602,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   scrollView: {
-    paddingHorizontal: 16,
+    // paddingHorizontal: 16,
   },
   bottomSheetContainer: {
     flex: 1,
@@ -675,13 +616,13 @@ const styles = StyleSheet.create({
     gap: 8,
     marginBottom: 28,
     marginTop: 16,
+    paddingHorizontal: 16,
   },
   statisticHeader: {
     flex: 1,
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    // backgroundColor: '#FFCB77',
     backgroundColor: '#f8f8f8',
     borderColor: '#FFCB77',
     borderWidth: 2,
@@ -743,6 +684,7 @@ const styles = StyleSheet.create({
   askButtonContainer: {
     flex: 1,
     marginTop: 16,
+    paddingHorizontal: 16,
   },
   askButton: {
     justifyContent: 'center',
@@ -866,6 +808,40 @@ const styles = StyleSheet.create({
     color: '#282828',
     fontWeight: 'bold',
   },
+  choiceCard: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    borderWidth: 2,
+    padding: 8,
+    borderRadius: 8,
+    height: 80,
+  },
+  shadow: {
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+    elevation: 3,
+  },
+  tickIconContainer: {
+    backgroundColor: '#2CC2DB',
+    borderRadius: 12,
+    borderColor: '#2CC2DB',
+    borderWidth: 2,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
 });
 
-export default QuestionsTranslation;
+export default RcNcTranslation;

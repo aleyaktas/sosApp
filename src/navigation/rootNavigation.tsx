@@ -21,6 +21,7 @@ import MultipleChoice from '../screens/MultipleChoice';
 import Vocabulary from '../screens/Vocabulary';
 import UnitChoices from '../screens/UnitChoices';
 import ThereIsAreSosTable from '../screens/ThereIsAreSosTable';
+import RcNcTranslation from '../screens/RcNcTranslation';
 
 const Stack = createStackNavigator();
 
@@ -196,6 +197,15 @@ const RootNavigation = () => {
       <Stack.Screen
         name="ThereIsAreSosTable"
         component={ThereIsAreSosTable}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="RcNcTranslation"
+        component={RcNcTranslation}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,

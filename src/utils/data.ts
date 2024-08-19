@@ -157,34 +157,34 @@ export const Categories: ICategory[] = [
   },
   {
     id: 22,
-    title: 'RC (Relative Clause)',
-    mainCategory: 'RelativeClause',
-    description: 'Sıfat cümleciklerinin kullanımı ve yapısı.',
-    image: require('../assets/icons/relative_clause.png'),
+    title: 'RC - NC',
+    mainCategory: 'RelativeAndNounClause',
+    description: 'İsim ve sıfat cümleciklerinin kullanımı.',
+    image: require('../assets/icons/rc_nc.png'),
   },
+  // {
+  //   id: 23,
+  //   title: 'NC (Noun Clause)',
+  //   mainCategory: 'NounClause',
+  //   description: 'İsim cümleciklerinin kullanımı ve yapısı.',
+  //   image: require('../assets/icons/noun_clause.png'),
+  // },
   {
     id: 23,
-    title: 'NC (Noun Clause)',
-    mainCategory: 'NounClause',
-    description: 'İsim cümleciklerinin kullanımı ve yapısı.',
-    image: require('../assets/icons/noun_clause.png'),
-  },
-  {
-    id: 24,
     title: 'Bağlaçlar-1G',
     mainCategory: 'Conjunctions1G',
     description: '1G Bağlaçların kullanımı ve çeşitleri.',
     image: require('../assets/icons/conj_1.png'),
   },
   {
-    id: 25,
+    id: 24,
     title: 'Bağlaçlar-2G',
     mainCategory: 'Conjunctions2G',
     description: '2G Bağlaçların kullanımı ve çeşitleri.',
     image: require('../assets/icons/conj_2.png'),
   },
   {
-    id: 26,
+    id: 25,
     title: 'Bağlaçlar-3G',
     mainCategory: 'Conjunctions3G',
     description: '3G Bağlaçların kullanımı ve çeşitleri.',
@@ -297,6 +297,19 @@ export const ThereIsThereAreSubCategory: ISubCategory[] = [
     image: require('../assets/icons/application.png'),
     symbols: ['+', '-', '?'],
     selectedSymbols: ['+', '-', '?'],
+  },
+];
+
+export const RelativeAndNounClauseSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Çeviri Çalışması',
+    mainCategory: 'RelativeAndNounClause',
+    description: 'Çeviri çalışmaları',
+    symbols: ['Who', 'Which', 'That', 'Whose', 'Whom'],
+    selectedSymbols: ['Who'],
+    page: 'RcNcTranslation',
+    image: require('../assets/icons/translation.png'),
   },
 ];
 

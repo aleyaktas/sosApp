@@ -32586,3 +32586,1407 @@ export const QueestionsTranslationSentencesWho = {
     },
   ],
 };
+
+export const RcNcTranslationSentences = {
+  NC: [
+    {
+      ing: 'I believe that you can do it.',
+      tr: 'Ben bunu sizin yapabileceğinize inanıyorum.',
+    },
+    {
+      ing: "I don't know where she lives.",
+      tr: 'Ben onun nerede yaşadığını bilmiyorum.',
+    },
+    {
+      ing: "He didn't tell me what he was doing.",
+      tr: 'O bana ne yaptığını söylemedi.',
+    },
+    {
+      ing: 'I remember when we used to play together.',
+      tr: 'Ben bizim birlikte oynadığımız zamanları hatırlıyorum.',
+    },
+    {
+      ing: "She doesn't understand why he is angry.",
+      tr: 'O onun neden kızdığını anlamıyor.',
+    },
+    {
+      ing: "I can't decide what to eat for dinner.",
+      tr: 'Ben akşam yemeğinde ne yiyeceğime karar veremiyorum.',
+    },
+    {
+      ing: "I'm not sure if it's going to rain today.",
+      tr: 'Ben bugün yağmur yağıp yağmayacağından emin değilim.',
+    },
+    {
+      ing: 'I wonder how she does it.',
+      tr: 'Ben onun bunu nasıl yaptığını merak ediyorum.',
+    },
+    {
+      ing: "I can't remember where I put my keys.",
+      tr: 'Ben anahtarlarımı nereye koyduğumu hatırlamıyorum.',
+    },
+    {ing: 'Do you know who he is?', tr: 'Sen onun kim olduğunu biliyor musun?'},
+    {
+      ing: 'He asked if I could help him.',
+      tr: 'O ona yardım edip edemeyeceğimi sordu.',
+    },
+    {
+      ing: "It's important that you finish your homework.",
+      tr: 'Sizin ödevinizi bitirmeniz önemlidir.',
+    },
+    {
+      ing: "I don't know whether she will come to the party.",
+      tr: 'Ben onun partiye gelip gelmeyeceğini bilmiyorum.',
+    },
+    {
+      ing: 'I think what you said is correct.',
+      tr: 'Ben sizin söylediklerinizin doğru olduğunu düşünüyorum.',
+    },
+    {
+      ing: 'I hope that she will feel better soon.',
+      tr: 'Ben onun yakın zamanda daha iyi hissedeceğini umarım.',
+    },
+    {
+      ing: "She can't remember when she last saw him.",
+      tr: 'O onu en son ne zaman gördüğünü hatırlamıyor.',
+    },
+    {
+      ing: "I don't understand why he is so upset.",
+      tr: 'Ben onun neden bu kadar üzgün olduğunu anlamıyorum.',
+    },
+    {
+      ing: "I'm not sure what time the train leaves.",
+      tr: 'Ben trenin saat kaçta kalktığından emin değilim.',
+    },
+    {
+      ing: 'I wonder where she bought that dress.',
+      tr: 'Onun bu elbiseyi nereden aldığını merak ediyorum.',
+    },
+    {
+      ing: 'He asked if I wanted to go to the movies.',
+      tr: 'O sinemaya gitmek isteyip istemediğimi sordu.',
+    },
+    {
+      ing: "I don't know how to solve this math problem.",
+      tr: 'Ben bu matematik problemini nasıl çözeceğimi bilmiyorum.',
+    },
+    {
+      ing: 'She asked me what I was reading.',
+      tr: 'O bana benim ne okuduğumu sordu.',
+    },
+    {
+      ing: "It's unclear whether he will join us for dinner.",
+      tr: 'Onun akşam yemeğinde bize katılıp katılmayacağı belli değil.',
+    },
+    {
+      ing: "I can't decide who to invite to my birthday party.",
+      tr: 'Ben doğum günü partime kimi davet edeceğime karar veremiyorum.',
+    },
+    {
+      ing: 'I think that learning English is fun.',
+      tr: 'Ben İngilizce öğrenmenin eğlenceli olduğunu düşünüyorum.',
+    },
+    {
+      ing: 'I believe that you can pass the exam.',
+      tr: 'Ben sizin sınavı geçebileceğinize inanıyorum.',
+    },
+    {
+      ing: 'She knows what she wants to be when she grows up.',
+      tr: 'O büyüdüğünde ne olmak istediğini biliyor.',
+    },
+    {
+      ing: "He can't remember where he put his keys.",
+      tr: 'O kendi anahtarlarını nereye koyduğunu hatırlayamıyor.',
+    },
+    {
+      ing: "I don't understand why she is so upset.",
+      tr: 'Ben onun neden bu kadar üzgün olduğunu anlamıyorum.',
+    },
+    {
+      ing: "I think that it's going to rain today.",
+      tr: 'Ben bugün yağmur yağacağını sanmıyorum.',
+    },
+    {
+      ing: 'She asked if I could help her with her homework.',
+      tr: 'O bana ödevinde ona yardım edip edemeyeceğimi sordu.',
+    },
+    {
+      ing: "They don't know when the bus is supposed to arrive.",
+      tr: 'Onlar otobüsün ne zaman gelmesi gerektiğini bilmiyorlar.',
+    },
+    {
+      ing: 'I wonder what my mom is cooking for dinner.',
+      tr: 'Ben annemin akşam yemeği için ne pişirdiğini merak ediyorum.',
+    },
+    {
+      ing: 'He said that he likes to swim in the lake.',
+      tr: 'O gölde yüzmeyi sevdiğini söyledi.',
+    },
+    {
+      ing: 'She forgot what she was supposed to buy at the store.',
+      tr: 'O mağazada ne alması gerektiğini unuttu.',
+    },
+    {
+      ing: 'I remember that we used to play in that park.',
+      tr: 'Ben o parkta oynadığımızı hatırlıyorum.',
+    },
+    {
+      ing: "I don't care what others think about me.",
+      tr: 'Ben başkalarının benim hakkımda ne düşündüğü umursamam.',
+    },
+    {
+      ing: 'I hope that we can go to the beach this weekend.',
+      tr: 'Ben bu hafta sonu plaja gidebileceğimizi umuyorum.',
+    },
+    {
+      ing: "He doesn't know where his glasses are.",
+      tr: 'O gözlüğünün nerede olduğunu bilmiyor.',
+    },
+    {
+      ing: 'She thinks that cats are better than dogs.',
+      tr: 'O kedilerin köpeklerden daha iyi olduğunu düşünüyor.',
+    },
+    {
+      ing: "I can't imagine what it would be like to live in a big city.",
+      tr: 'Ben büyük bir şehirde yaşamanın nasıl bir şey olacağını hayal edemiyorum.',
+    },
+    {
+      ing: "He can't decide which shirt to wear for the party.",
+      tr: 'O partide hangi gömleği giyeceğine karar veremiyor.',
+    },
+    {
+      ing: "I don't know why the bus hasn't arrived yet.",
+      tr: 'Ben otobüsün neden henüz gelmediğini bilmiyorum.',
+    },
+    {
+      ing: "She's sure that her team will win the match.",
+      tr: 'O maçı onun takımının kazanacağından emindir.',
+    },
+    {
+      ing: "We don't know when our parents will come home.",
+      tr: 'Biz anne babamızın ne zaman eve geleceğini bilmiyoruz.',
+    },
+    {
+      ing: 'I wonder if it will snow this winter.',
+      tr: 'Ben bu kış kar yağıp yapmayacağını merak ediyorum.',
+    },
+    {
+      ing: "She can't remember where she left her phone.",
+      tr: 'O telefonunu nereye bıraktığını hatırlayamıyor.',
+    },
+    {
+      ing: 'I believe that everyone should be treated equally.',
+      tr: 'Ben herkese eşit davranılması gerektiğine inanıyorum.',
+    },
+    {
+      ing: "He doesn't understand why he has to go to bed early.",
+      tr: 'O neden onun erken yatması gerektiğini anlamıyor.',
+    },
+    {
+      ing: "I can't decide what to eat for dinner.",
+      tr: 'Ben akşam yemeğinde ne yiyeceğime karar veremiyorum.',
+    },
+    {
+      ing: 'I believe that you can do well in the exam.',
+      tr: 'Ben sınavda sizin başarılı olabileceğinize inanıyorum.',
+    },
+    {
+      ing: "She doesn't know if she passed the test.",
+      tr: 'O testi geçip geçmediğini bilmiyor.',
+    },
+    {
+      ing: 'He was sad that his team lost the game.',
+      tr: 'O takımının maçı kaybetmesine üzüldü.',
+    },
+    {
+      ing: "I don't remember what I had for breakfast.",
+      tr: 'Ben kahvaltıda ne yediğimi hatırlamıyorum.',
+    },
+    {
+      ing: "She couldn't decide what dress to wear.",
+      tr: 'O hangi elbiseyi giyeceğine karar veremiyordu.',
+    },
+    {
+      ing: 'I am not sure where I left my keys.',
+      tr: 'Ben anahtarlarımı nerede bıraktığımdan emin değilim.',
+    },
+    {
+      ing: "I can't imagine how they feel.",
+      tr: 'Ben onların nasıl hissettiklerini hayal edemiyorum.',
+    },
+    {
+      ing: "I don't understand why he is always late.",
+      tr: 'Ben onun neden her zaman geç kaldığını anlamıyorum.',
+    },
+    {
+      ing: 'It is not clear when the concert starts.',
+      tr: 'Konserin ne zaman başlayacağı belli değil.',
+    },
+    {
+      ing: "We hope that it doesn't rain tomorrow.",
+      tr: 'Biz yarın yağmur yağmamasını umuyoruz.',
+    },
+    {
+      ing: 'She thinks that she will get the job.',
+      tr: 'O işi alacağını düşünüyor.',
+    },
+    {
+      ing: "It's a mystery how he finished the task so quickly.",
+      tr: 'Onun görevi nasıl bu kadar çabuk bitirdiği bir gizemdir.',
+    },
+    {
+      ing: "He doesn't know where she went.",
+      tr: 'O, kızın nereye gittiğini bilmiyor.',
+    },
+    {
+      ing: 'I am curious what she will say.',
+      tr: 'Ben onun ne diyeceğini merak ediyorum.',
+    },
+    {
+      ing: "I didn't hear what you said.",
+      tr: 'Ben senin ne dediğini duymadım.',
+    },
+    {
+      ing: "It's important that we leave early.",
+      tr: 'Bizim erken ayrılmamız önemlidir.',
+    },
+    {
+      ing: 'I wonder how he got there.',
+      tr: 'Ben onun oraya nasıl geldiğini merak ediyorum.',
+    },
+    {
+      ing: 'Do you know if she will be at the party?',
+      tr: 'Onun partide olup olmayacağını biliyor musunuz?',
+    },
+    {
+      ing: "I can't remember where I parked my car.",
+      tr: 'Ben arabamı nereye park ettiğimi hatırlamıyorum.',
+    },
+    {
+      ing: 'He was surprised that she remembered his birthday.',
+      tr: 'O, kızın doğum gününü hatırlamasına şaşırdı.',
+    },
+    {
+      ing: "I can't decide what to have for dinner.",
+      tr: 'Ben akşam yemeğinde ne yiyeceğime karar veremiyorum.',
+    },
+    {
+      ing: "We didn't realize that the store was closed.",
+      tr: 'Biz mağazanın kapalı olduğunu fark etmedik.',
+    },
+    {
+      ing: "I don't understand why she is upset.",
+      tr: 'Ben onun neden üzgün olduğunu anlamıyorum.',
+    },
+    {
+      ing: "I can't believe that it's Friday.",
+      tr: 'Ben Cuma olduğuna inanamıyorum.',
+    },
+    {
+      ing: "She can't remember where she put her glasses.",
+      tr: 'O onun gözlüğünü nereye koyduğunu hatırlamıyor.',
+    },
+    {
+      ing: 'I believe that you are a good person.',
+      tr: 'Ben senin iyi bir insan olduğuna inanıyorum.',
+    },
+    {
+      ing: "She doesn't know if it will rain tomorrow.",
+      tr: 'O yarın yağmur yağıp yağmayacağını bilmiyor.',
+    },
+    {
+      ing: 'He said that he was tired.',
+      tr: 'O kendisinin yorgun olduğunu söyledi.',
+    },
+    {
+      ing: "I didn't understand what she said.",
+      tr: 'Ben onun ne dediğini anlamadım.',
+    },
+    {
+      ing: 'My mother told me that honesty is the best policy.',
+      tr: 'Annem bana dürüstlüğün en iyi prensip olduğunu söyledi.',
+    },
+    {
+      ing: "It's important that you do your homework.",
+      tr: 'Sizin ev ödevinizi yapmanız önemlidir.',
+    },
+    {
+      ing: "I don't know where she lives.",
+      tr: 'Ben onun nerede yaşadığını bilmiyorum.',
+    },
+    {
+      ing: 'She was surprised that I remembered her birthday.',
+      tr: 'Ben onun doğum gününü hatırladığım için o şaşırdı.',
+    },
+    {
+      ing: 'They asked if I wanted to join them.',
+      tr: 'Onlar bana onlara katılmak isteyip istemediğimi sordular.',
+    },
+    {
+      ing: "I didn't realize that you were feeling sick.",
+      tr: 'Ben sizin kendinizi hasta hissettiğinizi fark etmedim.',
+    },
+    {
+      ing: 'He explained why he was late.',
+      tr: 'O neden geç kaldığını açıkladı.',
+    },
+    {
+      ing: 'My sister knows what I like to eat.',
+      tr: 'Kız kardeşim benim ne yemeyi sevdiğimi bilir.',
+    },
+    {
+      ing: 'I wonder if she will come to the party.',
+      tr: 'Onun partiye gelip gelmeyeceğini merak ediyorum.',
+    },
+    {
+      ing: "I don't remember when I lost my keys.",
+      tr: 'Ben anahtarlarımı ne zaman kaybettiğimi hatırlamıyorum.',
+    },
+    {
+      ing: 'He asked whether I had seen his book.',
+      tr: 'O kitabını görüp görmediğimi bana sordu.',
+    },
+    {
+      ing: "I'm not sure that we are in the right place.",
+      tr: 'Ben doğru yerde olduğumuzdan emin değilim.',
+    },
+    {
+      ing: 'My dad thinks that I should get a part-time job.',
+      tr: 'Benim babam benim yarı zamanlı bir iş bulmam gerektiğini düşünüyor.',
+    },
+    {
+      ing: "They didn't understand what the teacher said.",
+      tr: 'Onlar öğretmenin ne dediğini anlamadılar.',
+    },
+    {
+      ing: 'I forgot that today is her birthday.',
+      tr: 'Ben bugün onun doğum günü olduğunu unuttum.',
+    },
+    {
+      ing: "We don't know who will be at the meeting.",
+      tr: 'Biz toplantıda kimin olacağını bilmiyoruz.',
+    },
+    {
+      ing: "She can't decide whether to stay or leave.",
+      tr: 'O kalmaya ya da ayrılmaya karar veremiyor.',
+    },
+    {
+      ing: 'I like what you have done with the place.',
+      tr: 'Ben sizin bu yerde yaptıklarınızı beğeniyorum.',
+    },
+    {
+      ing: "It's obvious that he doesn't want to be here.",
+      tr: 'Onun burada olmak istemediği açıktır.',
+    },
+    {
+      ing: "I can't believe that we won the game.",
+      tr: 'Ben maçı kazandığımıza inanamıyorum.',
+    },
+    {
+      ing: 'She remembered where she left her purse.',
+      tr: 'O, kendi çantasını nerede bıraktığını hatırladı.',
+    },
+    {
+      ing: "She doesn't understand why he is upset. ",
+      tr: 'O, onun neden üzgün olduğunu anlamıyor.',
+    },
+    {
+      ing: "I can't remember if I locked the door. ",
+      tr: 'Ben kapıyı kilitleyip kilitlemediğimi hatırlamıyorum.',
+    },
+    {
+      ing: 'They believe that honesty is the best policy. ',
+      tr: 'Onlar dürüstlüğün en iyi davranış biçimi olduğuna inanırlar.',
+    },
+    {
+      ing: "I don't know where she put my book. ",
+      tr: 'Ben onun benim kitabımı nereye koyduğunu bilmiyorum.',
+    },
+    {
+      ing: 'He said that he will be late tonight. ',
+      tr: 'O bu gece geç kalacağını söyledi.',
+    },
+    {
+      ing: "We don't know if the game is cancelled. ",
+      tr: 'Biz maçın iptal edilip edilmediğini bilmiyoruz.',
+    },
+    {
+      ing: 'I am not sure whether I will go to the concert. ',
+      tr: 'Ben konsere gidip gitmeyeceğimden emin değilim.',
+    },
+    {
+      ing: 'She asked if I could help her with her homework. ',
+      tr: 'O bana ödevinde ona yardım edip edemeyeceğimi sordu.',
+    },
+    {
+      ing: 'They think that it will rain tomorrow. ',
+      tr: 'Onlar yarın yağmur yağacağını düşünüyorlar.',
+    },
+    {
+      ing: "I can't remember when the meeting is. ",
+      tr: 'Ben toplantının ne zaman olduğunu hatırlamıyorum.',
+    },
+    {
+      ing: "I don't understand what he wants. ",
+      tr: 'Ben onun ne istediğini anlamıyorum.',
+    },
+    {
+      ing: 'I wonder whether she will call me back. ',
+      tr: 'Ben, o beni geri arayacak mı diye merak ediyorum.',
+    },
+    {
+      ing: 'I think that it is going to rain today. ',
+      tr: 'Ben bugün yağmur yağacağını düşünüyorum.',
+    },
+    {
+      ing: "She doesn't know if she passed the test. ",
+      tr: 'O testi geçip geçmediğini bilmiyor.',
+    },
+    {
+      ing: 'I wonder whether they will come to the party. ',
+      tr: 'Ben onların partiye gelip gelmeyeceklerini merak ediyorum.',
+    },
+    {
+      ing: "He didn't say that he was leaving. ",
+      tr: 'O onun ayrılacağını söylemedi.',
+    },
+    {
+      ing: "They didn't realize that the store was closed. ",
+      tr: 'Onlar mağazanın kapalı olduğunu fark etmediler.',
+    },
+    {
+      ing: "I didn't understand what she was trying to say. ",
+      tr: 'Ben onun ne söylemeye çalıştığını anlamadım.',
+    },
+    {
+      ing: 'My parents think that I should study more. ',
+      tr: 'Ailem benim daha çok çalışmam gerektiğini düşünüyor.',
+    },
+    {
+      ing: 'She was surprised that I remembered her birthday. ',
+      tr: 'O benim onun doğum gününü hatırladığıma şaşırdı.',
+    },
+    {
+      ing: "I can't decide if I want to go to the concert. ",
+      tr: 'Ben konsere gitmek isteyip istemediğime karar veremiyorum.',
+    },
+    {
+      ing: "We didn't know that the game had been cancelled. ",
+      tr: 'Biz maçın iptal edildiğini bilmiyorduk.',
+    },
+    {
+      ing: "It's obvious that he likes her. ",
+      tr: 'Onun, ondan hoşlandığı açıktır.',
+    },
+    {
+      ing: "He doesn't know whether he should take the job. ",
+      tr: 'O işi kabul edip etmemesi gerektiğini bilmiyor.',
+    },
+    {
+      ing: "She doesn't remember if she locked the door.",
+      tr: 'O kapıyı kilitleyip kilitlemediğini hatırlamıyor.',
+    },
+    {
+      ing: "I can't decide what to eat for dinner.",
+      tr: 'Ben akşam yemeğinde ne yiyeceğime karar veremiyorum.',
+    },
+    {
+      ing: "I don't know where she bought that dress.",
+      tr: 'Ben onun elbiseyi nereden aldığını bilmiyorum.',
+    },
+    {
+      ing: "It's important that we finish the project on time.",
+      tr: 'Bizim projeyi zamanında bitirmemiz önemlidir.',
+    },
+    {
+      ing: 'She said that she would call me back.',
+      tr: 'O beni geri arayacağını söyledi.',
+    },
+    {
+      ing: 'I wonder if it will snow tomorrow.',
+      tr: 'Ben yarın kar yağacak mı diye merak ediyorum.',
+    },
+    {
+      ing: "I'm not sure whether they are coming to the party.",
+      tr: 'Ben onların partiye gelip gelmeyeceklerinden emin değilim.',
+    },
+    {
+      ing: 'I heard that they are moving to another city.',
+      tr: 'Ben onların başka bir şehre taşınacaklarını duydum.',
+    },
+    {
+      ing: "We don't know what time the bus leaves.",
+      tr: 'Biz otobüsün saat kaçta kalktığını bilmiyoruz.',
+    },
+    {
+      ing: 'I think that you should apologize.',
+      tr: 'Ben özür dilemeniz gerektiğini düşünüyorum.',
+    },
+    {
+      ing: 'She asked if I could help her with her homework.',
+      tr: 'O ev ödevinde ona yardım edip edemeyeceğimi sordu.',
+    },
+    {
+      ing: "I don't remember what I wanted to say.",
+      tr: 'Ben ne söylemek istediğimi hatırlamıyorum.',
+    },
+    {
+      ing: "He doesn't know that we have planned a surprise party for him.",
+      tr: 'O kendisine sürpriz bir parti planladığımızı bilmiyor.',
+    },
+    {
+      ing: 'He said that he was too tired to continue.',
+      tr: 'O devam edemeyecek kadar yorgun olduğunu söyledi.',
+    },
+    {
+      ing: "My sister can't decide if she wants to move abroad.",
+      tr: 'Kız kardeşim yurt dışına taşınmak isteyip istemediğine karar veremiyor.',
+    },
+    {
+      ing: "I don't know what she meant by that.",
+      tr: 'Ben onun bununla ne demek istediğini bilmiyorum.',
+    },
+    {
+      ing: "She can't believe that we finished all the work on time.",
+      tr: 'O bizim tüm işi zamanında bitirdiğimize inanamıyor.',
+    },
+    {
+      ing: "My friend doesn't know if he can come to the party.",
+      tr: 'Benim arkadaşım partiye gelip gelemeyeceğini bilmiyor.',
+    },
+    {
+      ing: 'We forgot that the shop closes early on Sundays.',
+      tr: 'Biz pazar günleri dükkânın erken kapandığını unuttuk.',
+    },
+    {
+      ing: "He isn't sure if it's going to rain tomorrow.",
+      tr: 'O yarın yağmur yağıp yağmayacağından emin değil.',
+    },
+    {
+      ing: "They didn't realize that the time was so late.",
+      tr: 'Onlar zamanın bu kadar geç olduğunun farkına varmadılar.',
+    },
+    {
+      ing: 'I wonder if she will come to my birthday party.',
+      tr: 'Ben onun doğum günü partime gelip gelmeyeceğini merak ediyorum.',
+    },
+    {
+      ing: "She doesn't understand why he doesn't call her.",
+      tr: 'O, onun kendisini neden aramadığını anlamıyor.',
+    },
+    {
+      ing: 'It seems that they are not coming to the meeting.',
+      tr: 'Görünüşe göre onlar toplantıya gelmiyorlar.',
+    },
+    {
+      ing: "I don't know if I should accept his offer.",
+      tr: 'Ben onun teklifini kabul etmeli miyim bilmiyorum.',
+    },
+    {
+      ing: "I think that it's going to rain today.",
+      tr: 'Ben bugün yağmur yağacağını düşünüyorum.',
+    },
+    {
+      ing: "I'm not sure if she will be able to come to the party.",
+      tr: 'Ben onun partiye gelip gelmeyeceğinden emin değilim.',
+    },
+    {
+      ing: "I don't remember where I put my keys.",
+      tr: 'Ben anahtarlarımı nereye koyduğumu hatırlamıyorum.',
+    },
+    {
+      ing: "I don't know whether he likes me.",
+      tr: 'Ben onun benden hoşlanıp hoşlanmadığını bilmiyorum.',
+    },
+    {
+      ing: 'He said that he will be late today.',
+      tr: 'O bugün geç kalacağını söyledi.',
+    },
+    {
+      ing: "She couldn't believe that she won the lottery.",
+      tr: 'O piyangoyu kazandığına inanamadı.',
+    },
+    {
+      ing: 'I forgot what she told me yesterday.',
+      tr: 'Ben onun bana dün ne söylediğini unuttum.',
+    },
+    {
+      ing: 'I wonder if he will recognize me after all these years.',
+      tr: 'Ben bunca yıldan sonra o beni tanıyacak mı diye merak ediyorum.',
+    },
+    {
+      ing: "I don't understand why he is acting that way.",
+      tr: 'Ben onun neden bu şekilde davrandığını anlamıyorum.',
+    },
+    {
+      ing: 'She is afraid that she might fail the test.',
+      tr: 'O sınavda başarısız olabileceğinden korkuyor.',
+    },
+    {
+      ing: "They didn't know whether to stay or leave.",
+      tr: 'Onlar kalacaklar mı yoksa ayrılacaklar mı bilmiyorlardı.',
+    },
+    {
+      ing: "I wasn't sure if they were coming to the party.",
+      tr: 'Ben onların partiye gelip gelmeyeceklerinden emin değildim.',
+    },
+    {
+      ing: "He doesn't know whether he should take the job.",
+      tr: 'O, işi kabul etmesi gerekip gerekmediğini bilmiyor.',
+    },
+    {
+      ing: 'My parents think that I should study more.',
+      tr: 'Benim ailem benim daha çok çalışmam gerektiğini düşünüyor.',
+    },
+    {
+      ing: "I can't decide if I want to go to the concert.",
+      tr: 'Ben konsere gitmek isteyip istemediğime karar veremiyorum.',
+    },
+    {
+      ing: "She doesn't know if she passed the test.",
+      tr: 'O testi geçip geçmediğini bilmiyor.',
+    },
+    {
+      ing: "They didn't realize that the store was closed.",
+      tr: 'Onlar mağazanın kapalı olduğunun farkında değillerdi.',
+    },
+    {
+      ing: "I didn't understand what she was trying to say.",
+      tr: 'Ben onun ne söylemeye çalıştığını anlamadım.',
+    },
+    {
+      ing: "I think it's going to rain today.",
+      tr: 'Ben bugün yağmur yağacağını düşünüyorum.',
+    },
+    {
+      ing: "He didn't say that he was leaving.",
+      tr: 'O ayrılacağını söylemedi.',
+    },
+    {
+      ing: 'I wonder whether they will come to the party.',
+      tr: 'Ben onların partiye gelip gelmeyeceklerini merak ediyorum.',
+    },
+    {
+      ing: "We didn't know that the game had been cancelled.",
+      tr: 'Biz oyunun iptal edildiğini bilmiyorduk.',
+    },
+    {
+      ing: 'She was surprised that I remembered her birthday.',
+      tr: 'Benim onun doğum gününü hatırlamama o şaşırdı.',
+    },
+    {
+      ing: "It's obvious that he likes her.",
+      tr: 'Onun, ondan hoşlandığı açıktır.',
+    },
+  ],
+  RC: [
+    {
+      ing: 'The teacher, who loves to read, has a large collection of books.',
+      tr: 'Okumayı seven öğretmenin geniş bir kitap koleksiyonu vardır.',
+    },
+    {
+      ing: 'I visited the park where we used to play as children.',
+      tr: 'Ben çocukken oynadığımız parkı ziyaret ettim.',
+    },
+    {
+      ing: "The woman who lives next door is my mother's best friend.",
+      tr: 'Yan evde yaşayan kadın annemin en iyi arkadaşıdır.',
+    },
+    {
+      ing: 'My brother, who is a dentist, just opened his own clinic.',
+      tr: 'Diş hekimi olan ağabeyim yeni kendi kliniğini açtı.',
+    },
+    {
+      ing: 'I love the dress that you wore to the party.',
+      tr: 'Ben senin partide giydiğin elbiseyi severim.',
+    },
+    {
+      ing: 'This is the restaurant where we had our first date.',
+      tr: 'Bu ilk randevumuzun olduğu restorandır.',
+    },
+    {
+      ing: 'The book that I borrowed from the library was really interesting.',
+      tr: 'Benim kütüphaneden ödünç aldığım kitap gerçekten ilginçtir.',
+    },
+    {
+      ing: 'The man who sold me this phone was very friendly.',
+      tr: 'Bana bu telefonu satan adam çok arkadaş canlısıydı.',
+    },
+    {
+      ing: "I didn't see the car that hit the streetlight.",
+      tr: 'Ben sokak lambasına çarpan arabayı görmedim.',
+    },
+    {
+      ing: 'The cat that lives in our yard has three kittens.',
+      tr: 'Bizim bahçemizde yaşayan kedinin üç yavrusu vardır.',
+    },
+    {
+      ing: 'My best friend, who moved away last year, is visiting next month.',
+      tr: 'Benim geçen yıl taşınan en iyi arkadaşım gelecek ay ziyarete gelecek.',
+    },
+    {
+      ing: 'The tree that was struck by lightning is now dying.',
+      tr: 'Yıldırım tarafından çarpılan ağaç şimdi ölüyor.',
+    },
+    {
+      ing: 'The film that we watched last night was really scary.',
+      tr: 'Bizim dün gece izlediğimiz film gerçekten çok korkutucuydu.',
+    },
+    {
+      ing: 'The cake that my sister baked was delicious.',
+      tr: 'Benim kız kardeşimin yaptığı pasta çok lezzetliydi.',
+    },
+    {
+      ing: 'My grandfather, who is 90 years old, still drives his car.',
+      tr: '90 yaşındaki dedem hâlâ arabasını kullanıyor.F',
+    },
+    {
+      ing: 'The dog that my neighbor adopted is very energetic.',
+      tr: 'Benim komşumun sahiplendiği köpek çok enerjiktir.',
+    },
+    {
+      ing: 'The shoes that I bought yesterday are already torn. ',
+      tr: 'Benim dün aldığım ayakkabılar zaten yırtıktır.',
+    },
+    {
+      ing: 'I remember the house where I grew up.',
+      tr: 'Ben benim büyüdüğüm evi hatırlıyorum.',
+    },
+    {
+      ing: 'The pen that you gave me for my birthday is my favorite.',
+      tr: 'Doğum günümde senin bana verdiğin kalem benim favorimdir.',
+    },
+    {
+      ing: 'The girl who sits next to me in class is very smart.',
+      tr: 'Sınıfta benim yanımda oturan kız çok zekidir.',
+    },
+    {
+      ing: 'I love the song that was playing in the café this morning.',
+      tr: 'Ben bu sabah kafede çalan şarkıyı seviyorum.',
+    },
+    {
+      ing: 'The hotel where we stayed during our holiday was really luxurious.',
+      tr: 'Bizim tatilimiz boyunca kaldığımız otel gerçekten çok lükstü.',
+    },
+    {
+      ing: 'My cousin, who lives in Spain, is coming to visit us.',
+      tr: "Benim İspanya'da yaşayan kuzenim bizi ziyarete geliyor.",
+    },
+    {
+      ing: 'The computer that I use for work is very fast.',
+      tr: 'Benim iş için kullandığım bilgisayar çok hızlıdır.',
+    },
+    {
+      ing: "I don't like the food that they serve in that restaurant.",
+      tr: 'Onların o restoranda servis ettikleri yemekleri sevmiyorum.',
+    },
+    {
+      ing: 'This is the dog that I found in the park.',
+      tr: 'Bu benim parkta bulduğum köpektir.',
+    },
+    {
+      ing: "We're reading a book that our teacher recommended us.",
+      tr: 'Biz öğretmenimizin bize tavsiye ettiği bir kitabı okuyoruz.',
+    },
+    {
+      ing: 'The man who lives next door is a doctor.',
+      tr: 'Yan tarafta oturan adam bir doktordur.',
+    },
+    {
+      ing: 'I have a friend who loves to play football.',
+      tr: 'Ben futbol oynamayı seven bir arkadaşa sahibim.',
+    },
+    {
+      ing: "That's the restaurant where we had dinner last week.",
+      tr: 'Geçen hafta bizim akşam yemeği yediğimiz restoran burasıdır.',
+    },
+    {
+      ing: 'My sister, who is only 5 years old, can play the piano very well.',
+      tr: 'Benim henüz 5 yaşında olan kız kardeşim çok iyi piyano çalabiliyor.',
+    },
+    {
+      ing: 'The cake that you baked for my birthday was delicious.',
+      tr: 'Doğum günüm için senin yaptığın pasta çok lezzetliydi.',
+    },
+    {
+      ing: 'The woman who teaches us math is really good.',
+      tr: 'Bize matematik öğreten kadın gerçekten çok iyidir.',
+    },
+    {
+      ing: 'This is the library where I study every day.',
+      tr: 'Burası benim her gün çalıştığım kütüphanedir.',
+    },
+    {
+      ing: 'I like the pizza that you make at home.',
+      tr: 'Ben sizin evde yaptığınız pizzayı seviyorum.',
+    },
+    {
+      ing: 'The cat, which belongs to my aunt, is very cute.',
+      tr: 'Benim teyzeme ait olan kedi çok tatlıdır.',
+    },
+    {
+      ing: "The chair that you're sitting on is antique.",
+      tr: 'Sizin üzerinde oturduğunuz sandalye antikadır.',
+    },
+    {
+      ing: 'The boy who won the race is my cousin.',
+      tr: 'Yarışı kazanan çocuk benim kuzenimdir.',
+    },
+    {
+      ing: "We're going to the park where we used to play when we were kids.",
+      tr: 'Biz bizim çocukluğumuzda oynamaya alışkın olduğumuz parka gidiyoruz.',
+    },
+    {
+      ing: 'The pen, which I bought yesterday, is already out of ink.',
+      tr: 'Benim dün aldığım kalemin mürekkebi bitti.',
+    },
+    {
+      ing: 'The movie that we watched last night was very interesting.',
+      tr: 'Bizim dün gece izlediğimiz film çok ilginçti.',
+    },
+    {
+      ing: "I'll never forget the day when we first met.",
+      tr: 'Ben bizim ilk tanıştığımız günü asla unutmayacağım.',
+    },
+    {
+      ing: 'The girl who moved in next door is my age.',
+      tr: 'Yan eve taşınan kız benim yaşımdadır.',
+    },
+    {
+      ing: 'The music that you were playing yesterday was soothing.',
+      tr: 'Sizin dün çaldığınız müzik rahatlatıcıydı.',
+    },
+    {
+      ing: 'The place where we spent our holiday last year is worth visiting.',
+      tr: 'Bizim geçen yıl tatilimizi geçirdiğimiz yer görülmeye değer.',
+    },
+    {
+      ing: 'The dress, which you wore to the party, looked stunning on you.',
+      tr: 'Sizin partide giydiğiniz elbise sizin üzerinizde çok etkileyici görünüyordu.',
+    },
+    {
+      ing: 'The book that you lent me is a great book.',
+      tr: 'Sizin bana ödünç verdiğiniz kitap harika bir kitaptır.',
+    },
+    {
+      ing: 'The man who helped me with my luggage at the airport was very kind.',
+      tr: 'Benim havaalanında bagajımı taşımama yardım eden adam çok nazikti.',
+    },
+    {
+      ing: 'This is the shop where I buy my groceries.',
+      tr: 'Burası benim yiyeceklerimi satın aldığım dükkandır.',
+    },
+    {
+      ing: 'The house that I grew up in is just down the street.',
+      tr: 'Benim büyüdüğüm ev sokağın hemen aşağısındadır.',
+    },
+    {
+      ing: 'The dog, which is brown, loves to play in the park.',
+      tr: 'Kahverengi olan köpek parkta oynamayı çok seviyor.',
+    },
+    {
+      ing: 'My brother, who works in a restaurant, makes delicious pizza.',
+      tr: 'Benim restoranda çalışan erkek kardeşim lezzetli pizza yapar.',
+    },
+    {
+      ing: "The book that I'm reading is about space exploration.",
+      tr: 'Benim okuduğum kitap uzay araştırmalarıyla ilgilidir.',
+    },
+    {
+      ing: 'She likes films that have a happy ending.',
+      tr: 'O mutlu sonla biten filmleri sever.',
+    },
+    {
+      ing: 'I have a friend who can speak five languages.',
+      tr: 'Ben beş dil konuşabilen bir arkadaşa sahibim.',
+    },
+    {
+      ing: 'We visited a museum that exhibits ancient artifacts.',
+      tr: 'Biz antik eserlerin sergilendiği bir müzeyi ziyaret ettik.',
+    },
+    {
+      ing: 'The girl who is wearing a red dress is my sister.',
+      tr: 'Kırmızı bir elbise giyen kız benim kız kardeşimdir.',
+    },
+    {
+      ing: 'The pizza, which was very hot, burned my mouth.',
+      tr: 'Çok sıcak olan pizza benim ağzımı yaktı.',
+    },
+    {
+      ing: 'I want to visit countries that have beautiful beaches.',
+      tr: 'Ben güzel plajları olan ülkeleri ziyaret etmek istiyorum.',
+    },
+    {
+      ing: 'The man who lives next door is a doctor.',
+      tr: 'Yan tarafta oturan adam bir doktordur.',
+    },
+    {
+      ing: 'I enjoy songs that make me dance.',
+      tr: 'Ben beni dans ettiren şarkılardan hoşlanırım.',
+    },
+    {
+      ing: 'The computer, which I bought last year, works perfectly.',
+      tr: 'Benim geçen yıl satın aldığım bilgisayar mükemmel çalışır.',
+    },
+    {
+      ing: 'I prefer restaurants that serve healthy food.',
+      tr: 'Ben sağlıklı yemek sunan restoranları tercih ederim.',
+    },
+    {
+      ing: 'The park, which is located in the city center, is always crowded.',
+      tr: 'Şehir merkezinde bulunan park her zaman kalabalıktır.',
+    },
+    {
+      ing: 'My mom, who is an excellent cook, made a delicious dinner.',
+      tr: 'Mükemmel bir aşçı olan annem lezzetli bir akşam yemeği hazırladı.',
+    },
+    {
+      ing: 'The school where I study is very old.',
+      tr: 'Benim okuduğum okul çok eskidir.',
+    },
+    {
+      ing: 'He is a person who always helps others.',
+      tr: 'O her zaman başkalarına yardım eden bir kişidir.',
+    },
+    {
+      ing: 'The cat that lives in our neighborhood is very friendly.',
+      tr: 'Bizim mahallemizde yaşayan kedi çok arkadaş canlısıdır.',
+    },
+    {
+      ing: 'The shoes, which are too big for me, were a gift.',
+      tr: 'Bana büyük gelen ayakkabılar bana hediyeydi.',
+    },
+    {
+      ing: 'The teacher who taught me English was very kind.',
+      tr: 'Bana İngilizce öğreten öğretmen çok nazikti.',
+    },
+    {
+      ing: 'I miss the friends that I made in high school.',
+      tr: 'Ben benim lisede edindiğim arkadaşları özlüyorum.',
+    },
+    {
+      ing: 'The movie that we watched last night was interesting.',
+      tr: 'Bizim dün gece izlediğimiz film ilginçti.',
+    },
+    {
+      ing: 'She is reading a book that I recommended.',
+      tr: 'O benim tavsiye ettiğim bir kitabı okuyor.',
+    },
+    {
+      ing: 'I like to drink coffee that is strong and black.',
+      tr: 'Ben sert ve siyah kahve içmeyi severim.',
+    },
+    {
+      ing: 'My dad, who loves to travel, is planning a vacation.',
+      tr: 'Benim seyahat etmeyi seven babam bir tatil planlıyor.',
+    },
+    {
+      ing: 'The boy who lives next door is my best friend.',
+      tr: 'Yan tarafta yaşayan çocuk benim en iyi arkadaşımdır.',
+    },
+    {
+      ing: 'This is the book that I was talking about.',
+      tr: 'Benim bahsettiğim kitap budur.',
+    },
+    {
+      ing: 'My sister, who is a teacher, works in a nearby school.',
+      tr: 'Benim öğretmen olan kız kardeşim yakındaki bir okulda çalışıyor.',
+    },
+    {
+      ing: 'I remember the day when we first met.',
+      tr: 'Ben ilk tanıştığımız günü hatırlıyorum.',
+    },
+    {
+      ing: 'The movie, which I saw last night, was amazing.',
+      tr: 'Benim dün gece izlediğim film muhteşemdi.',
+    },
+    {
+      ing: 'The lady who lives upstairs is very kind.',
+      tr: 'Üst katta oturan kadın çok naziktir.',
+    },
+    {
+      ing: 'My dad, who is a chef, cooks delicious meals.',
+      tr: 'Benim aşçı olan babam lezzetli yemekler pişirir.',
+    },
+    {
+      ing: 'The park where we used to play is under renovation.',
+      tr: 'Bizim eskiden oynadığımız park yenileniyor.',
+    },
+    {
+      ing: 'The cat that sits on the porch is very friendly.',
+      tr: 'Verandada oturan kedi çok arkadaş canlısıdır.',
+    },
+    {
+      ing: 'The dress, which I bought yesterday, is perfect for the party.',
+      tr: 'Benim dün aldığım elbise parti için mükemmeldir.',
+    },
+    {
+      ing: "I don't like the book that you gave me.",
+      tr: 'Ben senin bana verdiğin kitabı beğenmedim.',
+    },
+    {
+      ing: 'This is the city where I was born.',
+      tr: 'Burası benim doğduğum şehirdir.',
+    },
+    {
+      ing: 'The man who sells ice cream on the corner is very nice.',
+      tr: 'Köşede dondurma satan adam çok iyidir.',
+    },
+    {
+      ing: 'She is the friend who always helps me with my homework.',
+      tr: 'O benim ödevlerimde bana her zaman yardım eden arkadaşımdır.',
+    },
+    {
+      ing: 'The girl, who is wearing a blue dress, is my cousin.',
+      tr: 'Mavi elbise giyen kız benim kuzenimdir.',
+    },
+    {
+      ing: 'My mom, who is a nurse, works at the hospital downtown.',
+      tr: 'Beni hemşire olan annem şehir merkezindeki hastanede çalışır.',
+    },
+    {
+      ing: 'The shop where I bought my bike is just around the corner.',
+      tr: 'Benim bisikletimi satın aldığım mağaza hemen köşededir.',
+    },
+    {
+      ing: 'The boy who broke the window is in trouble.',
+      tr: 'Camı kıran çocuğun başı derttedir.',
+    },
+    {
+      ing: 'The dog, which is a Golden Retriever, loves to play fetch.',
+      tr: 'Golden Retriever cinsi köpek, getir-getir oynamayı çok sever.',
+    },
+    {
+      ing: 'My grandfather, who was a sailor, had many exciting stories.',
+      tr: 'Benim denizci olan büyükbabamın birçok heyecan verici hikayesi vardı.',
+    },
+    {
+      ing: 'The restaurant where we ate last night has great food.',
+      tr: 'Bizim dün gece yemek yediğimiz restoranın yemekleri harikadır.',
+    },
+    {
+      ing: 'The car, which my brother bought, is very fast.',
+      tr: 'Benim erkek kardeşimin aldığı araba çok hızlıdır.',
+    },
+    {
+      ing: 'The woman who works at the bakery makes the best bread.',
+      tr: 'Fırında çalışan kadın en iyi ekmeği yapar.',
+    },
+    {
+      ing: 'The park, which is near my house, is always full of children.',
+      tr: 'Evimin yakınındaki park her zaman çocuklarla doludur.',
+    },
+    {
+      ing: 'The teacher who taught me English is very kind.',
+      tr: 'Bana İngilizce öğreten öğretmen çok naziktir.',
+    },
+    {
+      ing: 'The man who owns the grocery store is very friendly. ',
+      tr: 'Bakkalın sahibi olan adam çok arkadaş canlısıdır.',
+    },
+    {
+      ing: 'The book that I borrowed from you was very interesting. ',
+      tr: 'Benim sizden ödünç aldığım kitap çok ilginçti.',
+    },
+    {
+      ing: 'The dog that chased its tail made everyone laugh. ',
+      tr: 'Kendi kuyruğunu kovalayan köpek herkesi güldürdü.',
+    },
+    {
+      ing: 'My cousin, who moved to London, loves her new job. ',
+      tr: "Benim Londra'ya taşınan kuzenim yeni işini çok seviyor.",
+    },
+    {
+      ing: 'The restaurant where we had dinner has the best desserts. ',
+      tr: 'Bizim akşam yemeği yediğimiz restoran en iyi tatlılara sahip.',
+    },
+    {
+      ing: 'The teacher, who has been teaching for 20 years, knows a lot about history. ',
+      tr: 'Yirmi yıldır öğretmenlik yapan öğretmen tarih konusunda çok şey biliyor.',
+    },
+    {
+      ing: 'The shoes that I bought last week are too tight. ',
+      tr: 'Benim geçen hafta aldığım ayakkabılar çok dar.',
+    },
+    {
+      ing: 'The park, where we play football, is being renovated. ',
+      tr: 'Bizim futbol oynadığımız park yenileniyor.',
+    },
+    {
+      ing: 'The woman who works in the post office is my aunt. ',
+      tr: 'Postanede çalışan kadın benim teyzemdir.',
+    },
+    {
+      ing: 'The film that we saw last night was scary. ',
+      tr: 'Bizim dün gece izlediğimiz film çok korkutucuydu.',
+    },
+    {
+      ing: 'The friend who helped me move is a really nice person. ',
+      tr: 'Benim taşınmama yardım eden arkadaşım gerçekten iyi bir insandır.',
+    },
+    {
+      ing: 'The boy who broke the window has apologized. ',
+      tr: 'Camı kıran çocuk özür diledi.',
+    },
+    {
+      ing: 'The dress, which I wore to the party, was very comfortable. ',
+      tr: 'Benim partide giydiğim elbise çok rahattı.',
+    },
+    {
+      ing: 'The book that I read was very interesting. ',
+      tr: 'Benim okuduğum kitap çok ilginçti.',
+    },
+    {
+      ing: 'My brother, who is a firefighter, lives in the city. ',
+      tr: 'Benim itfaiyeci olan ağabeyim şehirde yaşıyor.',
+    },
+    {
+      ing: 'The park where we used to play is being renovated. ',
+      tr: 'Bizim eskiden oynadığımız park yenileniyor.',
+    },
+    {
+      ing: 'The girl who sits in front of me in class is very smart. ',
+      tr: 'Sınıfta benim önümde oturan kız çok akıllıdır.',
+    },
+    {
+      ing: 'My dog, which loves to run, is very energetic. ',
+      tr: 'Benim koşmayı seven köpeğim çok enerjiktir.',
+    },
+    {
+      ing: 'The movie that we watched last night was scary. ',
+      tr: 'Bizim dün gece izlediğimiz film çok korkutucuydu.',
+    },
+    {
+      ing: 'The restaurant where we ate dinner was very nice. ',
+      tr: 'Bizim akşam yemeği yediğimiz restoran çok güzeldi.',
+    },
+    {
+      ing: 'The teacher who helped me with my math is very patient. ',
+      tr: 'Benim matematik derslerimde bana yardımcı olan öğretmenim çok sabırlıdır.',
+    },
+    {
+      ing: 'The shirt that I bought is too small. ',
+      tr: 'Benim aldığım gömlek çok küçüktür.',
+    },
+    {
+      ing: 'The man who sold me the car was very helpful. ',
+      tr: 'Arabayı bana satan adam çok yardım severdir.',
+    },
+    {
+      ing: 'The friend, whom I visited last week, has moved to a new city. ',
+      tr: 'Benim geçen hafta ziyaret ettiğim arkadaşım yeni bir şehre taşındı.',
+    },
+    {
+      ing: 'The woman who lives next door is a famous author. ',
+      tr: 'Yan evde yaşayan kadın ünlü bir yazardır.',
+    },
+    {
+      ing: 'The bakery where I buy my bread makes the best bagels. ',
+      tr: 'Benim ekmeğimi aldığım fırın en iyi simitleri yapıyor.',
+    },
+    {
+      ing: 'My friend, who moved to Spain, is learning Spanish.',
+      tr: "Benim İspanya'ya taşınan arkadaşım İspanyolca öğreniyor.",
+    },
+    {
+      ing: 'The cat that always sits on the fence is very cute.',
+      tr: 'Her zaman çitin üzerinde oturan kedi çok tatlıdır.',
+    },
+    {
+      ing: 'The teacher who taught us last year has retired.',
+      tr: 'Geçen yıl bize ders veren öğretmen emekli oldu.',
+    },
+    {
+      ing: 'The restaurant where we ate last night was excellent.',
+      tr: 'Bizim dün gece yemek yediğimiz restoran mükemmeldi.',
+    },
+    {
+      ing: "The man who sold me this car didn't mention any problems.",
+      tr: 'Bu arabayı bana satan adam herhangi bir sorundan bahsetmedi.',
+    },
+    {
+      ing: 'My cousin, who is a dentist, just opened her own clinic.',
+      tr: 'Benim diş hekimi olan kuzenim yeni kendi kliniğini açtı.',
+    },
+    {
+      ing: 'The book that I borrowed from you is very interesting.',
+      tr: 'Benim sizden ödünç aldığım kitap çok ilginçtir.',
+    },
+    {
+      ing: 'The girl who sits next to me in class is very friendly.',
+      tr: 'Sınıfta benim yanımda oturan kız çok arkadaş canlısıdır.',
+    },
+    {
+      ing: 'The movie that we saw last weekend was very funny.',
+      tr: 'Bizim geçen hafta sonu izlediğimiz film çok komikti.',
+    },
+    {
+      ing: 'The park where I go jogging is beautiful.',
+      tr: 'Benim koşuya gittiğim park çok güzeldir.',
+    },
+    {
+      ing: 'The teacher, who has three children, is very understanding.',
+      tr: 'Üç çocuğu olan öğretmen çok anlayışlıdır.',
+    },
+    {
+      ing: 'The dog that always barks at night belongs to my neighbor.',
+      tr: 'Geceleri sürekli havlayan köpek benim komşuma aittir.',
+    },
+    {
+      ing: 'The woman who lives next door is a famous author.',
+      tr: 'Yan tarafta yaşayan kadın ünlü bir yazardır.',
+    },
+    {
+      ing: 'The shop where I bought my bike has just closed down.',
+      tr: 'Benim bisikletimi aldığım mağaza yeni kapandı.',
+    },
+    {
+      ing: 'The boy who broke the window has apologized.',
+      tr: 'Camı kıran çocuk özür diledi.',
+    },
+    {
+      ing: 'The park, which is near my house, is usually very quiet.',
+      tr: 'Benim evimin yakınındaki park genellikle çok sessizdir.',
+    },
+    {
+      ing: 'The teacher who helped me with my homework was very kind.',
+      tr: 'Benim ödevimde bana yardımcı olan öğretmenim çok nazikti.',
+    },
+    {
+      ing: 'The dog that barks all night lives next door.',
+      tr: 'Bütün gece havlayan köpek yandaki evde yaşıyor.',
+    },
+    {
+      ing: 'The girl who sits behind me in class is very clever.',
+      tr: 'Sınıfta arkamda oturan kız çok zekidir.',
+    },
+    {
+      ing: 'The city where I was born is far away.',
+      tr: 'Benim doğduğum şehir çok uzaktadır.',
+    },
+    {
+      ing: 'The person who found my wallet returned it to me.',
+      tr: 'Benim cüzdanımı bulan kişi onu bana iade etti.',
+    },
+    {
+      ing: 'The house that I grew up in has been painted blue.',
+      tr: 'Benim içinde büyüdüğüm ev maviye boyandı.',
+    },
+    {
+      ing: 'The friend I visited last week lives in another town.',
+      tr: 'Benim geçen hafta ziyaret ettiğim arkadaşım başka bir şehirde yaşıyor.',
+    },
+    {
+      ing: 'The man who sold me the car was very kind.',
+      tr: 'Arabayı bana satan adam çok nazikti.',
+    },
+    {
+      ing: 'The book that I borrowed from the library is very interesting.',
+      tr: 'Benim kütüphaneden ödünç aldığım kitap çok ilginçtir.',
+    },
+    {
+      ing: 'The woman who sold me these earrings owns the jewelry store downtown.',
+      tr: 'Bana bu küpeleri satan kadın şehir merkezindeki kuyumcu dükkanının sahibidir.',
+    },
+    {
+      ing: 'The car that I bought last year is very reliable.',
+      tr: 'Geçen sene aldığım araba çok güvenilirdir.',
+    },
+    {
+      ing: 'The restaurant where we had dinner was really good.',
+      tr: 'Bizim akşam yemeği yediğimiz restoran gerçekten çok iyiydi.',
+    },
+    {
+      ing: 'My sister, who is a lawyer, lives in New York.',
+      tr: "Benim avukat olan kız kardeşim New York'ta yaşar.",
+    },
+    {
+      ing: 'The teacher who taught me English is from Australia.',
+      tr: 'Bana İngilizce öğreten öğretmen Avustralyalıdır.',
+    },
+    {
+      ing: 'The house where I grew up was torn down.',
+      tr: 'Benim büyüdüğüm ev yıkıldı.',
+    },
+    {
+      ing: 'The man who repaired my computer did a great job.',
+      tr: 'Benim bilgisayarımı tamir eden adam harika bir iş çıkardı.',
+    },
+    {
+      ing: 'The dog that I saw at the park was very cute.',
+      tr: 'Benim parkta gördüğüm köpek çok tatlıydı.',
+    },
+    {
+      ing: 'The city where I was born is very beautiful.',
+      tr: 'Benim doğduğum şehir çok güzeldir.',
+    },
+    {
+      ing: 'The girl who sits behind me in class is really good at math.',
+      tr: 'Sınıfta benim arkamda oturan kız matematikte gerçekten çok iyidir.',
+    },
+    {
+      ing: 'My friend, who is a chef, cooks delicious meals.',
+      tr: 'Benim aşçı olan arkadaşım lezzetli yemekler pişirir.',
+    },
+    {
+      ing: 'The book that I borrowed from the library is very interesting.',
+      tr: 'Benim kütüphaneden ödünç aldığım kitap çok ilginç.',
+    },
+    {
+      ing: 'The bakery where I get my bread makes everything from scratch.',
+      tr: 'Benim ekmeğimi aldığım fırın her şeyi sıfırdan yapıyor.',
+    },
+    {
+      ing: 'The woman who lives next door is a famous author.',
+      tr: 'Yan tarafta yaşayan kadın ünlü bir yazardır.',
+    },
+    {
+      ing: 'The movie that we watched last night was scary.',
+      tr: 'Bizim dün gece izlediğimiz film çok korkutucuydu.',
+    },
+    {
+      ing: 'The girl who sits in front of me in class is very smart.',
+      tr: 'Sınıfta benim önümde oturan kız çok akıllıdır.',
+    },
+    {
+      ing: 'The bakery where I buy my bread makes the best bagels.',
+      tr: 'Benim ekmeğimi aldığım fırın en iyi simitleri yapar.',
+    },
+    {
+      ing: 'The park where we used to play is being renovated.',
+      tr: 'Bizim eskiden oynadığımız park yenileniyor.',
+    },
+    {
+      ing: 'The friend whom I visited last week has moved to a new city.',
+      tr: 'Benim geçen hafta ziyaret ettiğim arkadaşım yeni bir şehre taşındı.',
+    },
+    {
+      ing: 'The teacher who helped me with my math is very patient.',
+      tr: 'Benim matematik derslerimde bana yardımcı olan öğretmenim çok sabırlıdır.',
+    },
+    {
+      ing: 'The book that I read was very interesting.',
+      tr: 'Benim okuduğum kitap çok ilginçti.',
+    },
+    {
+      ing: 'The shirt that I bought is too small.',
+      tr: 'Benim aldığım gömlek çok küçük.',
+    },
+    {
+      ing: 'The restaurant where we ate dinner was very nice.',
+      tr: 'Bizim akşam yemeği yediğimiz restoran çok güzeldi.',
+    },
+    {
+      ing: 'My brother, who is a firefighter, lives in the city.',
+      tr: 'Benim itfaiyeci olan ağabeyim şehirde yaşıyor.',
+    },
+    {
+      ing: 'The man who sold me the car was very helpful.',
+      tr: 'Arabayı bana satan adam çok yardımseverdi.',
+    },
+    {
+      ing: 'My dog, which loves to run, is very energetic.',
+      tr: 'Benim koşmayı seven köpeğim çok enerjiktir.',
+    },
+  ],
+};

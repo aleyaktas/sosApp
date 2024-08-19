@@ -6,6 +6,7 @@ interface BlinkProps {
   repeat_count?: number;
   style?: StyleProp<ViewStyle>;
   children?: any;
+  isAnimated?: boolean;
 }
 
 const Blink: React.FC<BlinkProps> = ({
@@ -13,6 +14,7 @@ const Blink: React.FC<BlinkProps> = ({
   repeat_count,
   style,
   children,
+  isAnimated = true,
 }) => {
   const fadeAnimation = useRef(new Animated.Value(0)).current;
 
@@ -46,7 +48,13 @@ const Blink: React.FC<BlinkProps> = ({
 
   return (
     <View style={style}>
-      <Animated.View style={{opacity: fadeAnimation}}>{children}</Animated.View>
+      {isAnimated ? (
+        <Animated.View style={{opacity: fadeAnimation}}>
+          {children}
+        </Animated.View>
+      ) : (
+        children
+      )}
     </View>
   );
 };

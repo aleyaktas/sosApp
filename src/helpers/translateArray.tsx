@@ -39,3 +39,31 @@ export function translateArray(data: any) {
   }
   return translatedData;
 }
+
+type OutputObject = {
+  RC: {ing: string; tr: string}[];
+  NC: {ing: string; tr: string}[];
+};
+
+type InputArray = {
+  RC_ing?: string;
+  RC_tr?: string;
+  NC_ing?: string;
+  NC_tr?: string;
+}[];
+
+export const translateRcNc = (inputArray: InputArray): OutputObject => {
+  const output: OutputObject = {RC: [], NC: []};
+
+  inputArray.forEach(item => {
+    if (item.RC_ing && item.RC_tr) {
+      output.RC.push({ing: item.RC_ing, tr: item.RC_tr});
+    }
+
+    if (item.NC_ing && item.NC_tr) {
+      output.NC.push({ing: item.NC_ing, tr: item.NC_tr});
+    }
+  });
+
+  return output;
+};
