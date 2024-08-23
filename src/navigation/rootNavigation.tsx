@@ -7,7 +7,7 @@ import {TouchableOpacity} from 'react-native';
 import {ModalContext} from '../contexts/ModalContext';
 import SubCategory from '../screens/SubCategory';
 import {Text} from 'react-native';
-import Translation from '../screens/Translation';
+import Translation from '../screens/Translation/TensesTranslation';
 import Units from '../screens/Units';
 import FourSkills from '../screens/FourSkills';
 import Videos from '../screens/Videos';
@@ -15,13 +15,13 @@ import Notes from '../screens/Notes';
 import NoteDetails from '../screens/NoteDetails';
 import VideoDetails from '../screens/VideoDetails';
 import Listening from '../screens/Listening';
-import QuestionsTranslation from '../screens/QuestionsTranslation';
+import QuestionsTranslation from '../screens/Translation/QuestionsTranslation';
 import Tests from '../screens/Tests';
 import MultipleChoice from '../screens/MultipleChoice';
 import Vocabulary from '../screens/Vocabulary';
 import UnitChoices from '../screens/UnitChoices';
 import ThereIsAreSosTable from '../screens/ThereIsAreSosTable';
-import RcNcTranslation from '../screens/RcNcTranslation';
+import RcNcTranslation from '../screens/Translation/RcNcTranslation';
 
 const Stack = createStackNavigator();
 

@@ -8,7 +8,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import CheckBox from 'react-native-check-box';
-import Icon from '../themes/Icon';
+import Icon from '../../../themes/Icon';
 
 const AnswerInputComponent = ({
   isVoiceActive,

@@ -27,7 +27,7 @@ const QuestionComponent = ({
       </TouchableOpacity>
       <View style={styles.questionContainer}>
         <Image
-          source={require('../assets/icons/translate_robot.png')}
+          source={require('../../../assets/icons/translate_robot.png')}
           style={styles.image}
         />
         <View style={styles.bubble}>

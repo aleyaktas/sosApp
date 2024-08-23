@@ -12,26 +12,16 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import Table from '../../components/Table';
 import DraggableFlatList from 'react-native-draggable-flatlist';
-import {handleVoice} from '../helpers/voiceCenter';
+import {handleVoice} from '../../helpers/voiceCenter';
 import BottomSheet, {BottomSheetView} from '@gorhom/bottom-sheet';
-import Icon from '../themes/Icon';
+import Icon from '../../themes/Icon';
 import Voice from '@react-native-voice/voice';
 import CheckBox from 'react-native-check-box';
 import {Bar} from 'react-native-progress';
-import {checkAbbrevation} from '../utils/abbreviation';
+import {checkAbbrevation} from '../../utils/abbreviation';
 import {Route, useRoute} from '@react-navigation/native';
-import {
-  QuestionsTranslationSentencesWhat,
-  QuestionsTranslationSentencesWhere,
-  QuestionsTranslationSentencesWhen,
-  QuestionsTranslationSentencesWhy,
-  QueestionsTranslationSentencesHow,
-  QueestionsTranslationSentencesWho,
-} from '../utils/translation';
-import QuestionsTable from '../components/QuestionsTable';
-import {questionsTranslateArray} from '../helpers/translateArray';
-import {test} from '../utils/data';
 
 export interface Translation {
   id: number;
@@ -43,11 +33,15 @@ export interface Translation {
 }
 type TranslationRoute = Route<'Translation', {title: string; item?: any}>;
 
-const QuestionsTranslation: React.FC = () => {
+const Translation: React.FC = () => {
   const route = useRoute<TranslationRoute>();
   const title = route.params.title;
-  // const cellSelectedSymbols = route.params.item?.selectedSymbols || [];
+  const cellSelectedSymbols = route.params.item?.selectedSymbols || [];
   const symbols = route.params.item.symbols || [];
+  console.log('symbols', symbols);
+  const translationSentences = require(`../../utils/translation`)[
+    `${title}TranslationSentences`
+  ];
 
   const [totalQuestions, setTotalQuestions] = useState<number>(0);
   const [correctAnswers, setCorrectAnswers] = useState<number>(0);
@@ -65,13 +59,14 @@ const QuestionsTranslation: React.FC = () => {
   const [isAnswerTrue, setIsAnswerTrue] = useState(false);
   const [isVoiceActive, setIsVoiceActive] = useState(false);
   const [snapPoints, setSnapPoints] = useState(['30%']);
-  const [translationSentences, setTranslationSentences] = useState<any>({});
+  const [newTranslationSentences, setNewTranslationSentences] =
+    useState<any>(translationSentences);
   const [questionIndex, setQuestionIndex] = useState<number>(0);
   const [remainingQuestionCount, setRemainingQuestionCount] =
     useState<number>(0);
-  const [selectedSymbols, setSelectedSymbols] = useState<string[]>(['What']);
+  const [selectedSymbols, setSelectedSymbols] =
+    useState<string[]>(cellSelectedSymbols);
   const [selectedSymbol, setSelectedSymbol] = useState<string>('');
-  const [possibleAnswer, setPossibleAnswer] = useState<string>('');
 
   const bottomSheetRef = useRef<BottomSheet>(null);
 
@@ -195,43 +190,6 @@ const QuestionsTranslation: React.FC = () => {
         <Icon name="Sound" color="#56A500" width={20} height={20} />
         <Text style={styles.correctAnswerText}>{answer}</Text>
       </TouchableOpacity>
-      {possibleAnswer && (
-        // <View style={styles.answerHeader}>
-        //   <Text style={styles.possibleAnswerText}>
-        //     Olası Cevap: {possibleAnswer}
-        //   </Text>
-        // </View>
-        <View
-          style={{
-            flexDirection: 'column',
-            alignItems: 'flex-start',
-            gap: 2,
-          }}>
-          <Text
-            style={[
-              styles.possibleAnswerText,
-              {
-                fontSize: 14,
-                fontWeight: 'bold',
-                color: '#1c9aa8',
-              },
-            ]}>
-            Olası Cevap:{' '}
-          </Text>
-          <TouchableOpacity
-            onPress={() => handleVoice(possibleAnswer)}
-            style={{
-              flexDirection: 'row',
-              alignItems: 'center',
-              justifyContent: 'center',
-              // flex: 1,
-              gap: 6,
-            }}>
-            <Icon name="Sound" color="#1c9aa8" width={20} height={20} />
-            <Text style={styles.possibleAnswerText}>{possibleAnswer}</Text>
-          </TouchableOpacity>
-        </View>
-      )}
       <TouchableOpacity
         onPress={() => continueButton()}
         style={[styles.answerButton, styles.correctButton]}>
@@ -252,46 +210,12 @@ const QuestionsTranslation: React.FC = () => {
           {textInputValue.join(' ')}
         </Text>
       </View>
-
       <TouchableOpacity
         onPress={() => handleVoice(answer)}
         style={styles.answerButtonHeader}>
         <Icon name="Sound" color="#56A500" width={20} height={20} />
         <Text style={styles.correctAnswerText}>{answer}</Text>
       </TouchableOpacity>
-      {possibleAnswer && (
-        <View
-          style={{
-            flexDirection: 'column',
-            alignItems: 'flex-start',
-            gap: 2,
-          }}>
-          <Text
-            style={[
-              styles.possibleAnswerText,
-              {
-                fontSize: 14,
-                fontWeight: 'bold',
-                color: '#1c9aa8',
-              },
-            ]}>
-            Olası Cevap:{' '}
-          </Text>
-          <TouchableOpacity
-            onPress={() => handleVoice(possibleAnswer)}
-            style={{
-              flexDirection: 'row',
-              alignItems: 'center',
-              justifyContent: 'center',
-              // flex: 1,
-              gap: 6,
-            }}>
-            <Icon name="Sound" color="#1c9aa8" width={20} height={20} />
-            <Text style={styles.possibleAnswerText}>{possibleAnswer}</Text>
-          </TouchableOpacity>
-        </View>
-      )}
-
       <TouchableOpacity
         onPress={() => continueButton()}
         style={[styles.incorrectButton, styles.answerButton]}>
@@ -309,96 +233,31 @@ const QuestionsTranslation: React.FC = () => {
   };
 
   const generateQuestion = () => {
-    const randomIndexForSymbols = Math.floor(
-      Math.random() * selectedSymbols.length,
-    );
-
-    const newSelectedSymbol = selectedSymbols[randomIndexForSymbols];
-    setSelectedSymbol(newSelectedSymbol);
-
-    console.log('newSelectedSymbol', newSelectedSymbol);
-    let newTranslationSentences: any;
-    switch (newSelectedSymbol) {
-      case 'What':
-        newTranslationSentences = QuestionsTranslationSentencesWhat;
-        break;
-      case 'Where':
-        newTranslationSentences = QuestionsTranslationSentencesWhere;
-        break;
-      case 'When':
-        newTranslationSentences = QuestionsTranslationSentencesWhen;
-        break;
-      case 'Why':
-        newTranslationSentences = QuestionsTranslationSentencesWhy;
-        break;
-      case 'How':
-        newTranslationSentences = QueestionsTranslationSentencesHow;
-        break;
-      case 'Who':
-        newTranslationSentences = QueestionsTranslationSentencesWho;
-        break;
-    }
-
-    setTranslationSentences(newTranslationSentences);
+    let selectedCellsCount = 0;
+    selectedCells.map(cell => {
+      selectedCellsCount += newTranslationSentences[cell].length;
+    });
+    setRemainingQuestionCount(selectedCellsCount);
 
     const randomIndex = Math.floor(Math.random() * selectedCells.length);
-    const newSelectedCell = selectedCells[randomIndex];
-    setSelectedCell(newSelectedCell);
+    const selectedCell = selectedCells[randomIndex];
+    setSelectedCell(selectedCell);
 
-    const newSelectedCellSentences = newTranslationSentences[newSelectedCell];
-
-    if (newSelectedCellSentences === undefined) {
-      // setSelectedCells([]);
-      setSelectedCells((prevCells: string[]) =>
-        prevCells.filter(cell => cell !== newSelectedCell),
-      );
-      setSelectedCell('');
-      setSelectedSymbol('');
-      setSentence(
-        'Henüz bir soru yok, hücrelerden seçim yapıp sor tuşuna basmalısın!',
-      );
-      Alert.alert(
-        `${newSelectedSymbol} için çeviri cümlesi bulunamadı!`,
-        'Lütfen başka bir hücre seçiniz.',
-        [
-          {
-            text: 'OK',
-            onPress: () => {
-              setIsAnswerVisible(true);
-              return;
-            },
-          },
-        ],
-      );
-      setIsAnswerVisible(true);
-      return;
-    }
+    const selectedCellSentences = newTranslationSentences[selectedCell];
 
     const randomIndexSentences = Math.floor(
-      Math.random() * newSelectedCellSentences.length,
+      Math.random() * selectedCellSentences.length,
     );
-
-    const newSelectedSentence = newSelectedCellSentences[randomIndexSentences];
-
-    setSentence(newSelectedSentence.meaning);
-
-    setAnswer(newSelectedSentence.sentence);
-
-    const meaning = newSelectedSentence.sentence.split(' ');
-
+    const selectedSentence = selectedCellSentences[randomIndexSentences];
+    console.log('selectedSentence', selectedSentence);
+    console.log('meaning', selectedSentence.meaning.split(' '));
+    console.log('sentence', selectedSentence.sentence);
+    setSentence(selectedSentence.meaning);
+    setAnswer(selectedSentence.sentence);
+    const meaning = selectedSentence.sentence.split(' ');
     const mixSentence = shuffleArray([...meaning]);
-
     setMeaning(mixSentence);
-
     setQuestionIndex(randomIndexSentences);
-
-    console.log('newSelectedSentence', newSelectedSentence);
-
-    setPossibleAnswer(newSelectedSentence.possibleAnswer);
-
-    selectedCells.map(cell => {
-      setRemainingQuestionCount(newTranslationSentences[cell]?.length);
-    });
   };
 
   const checkAnswer = () => {
@@ -434,10 +293,15 @@ const QuestionsTranslation: React.FC = () => {
       handleVoice(answer);
       setIsAnswerTrue(true);
       setCorrectAnswers(correctAnswers + 1);
-
-      translationSentences[selectedCell].splice(questionIndex, 1);
-      setTranslationSentences(translationSentences);
+      newTranslationSentences[selectedCell].splice(questionIndex, 1);
+      setNewTranslationSentences(newTranslationSentences);
     } else {
+      console.log('normalizedInput', normalizedInput);
+      console.log('normalizedAnswer', normalizedAnswer);
+      console.log(
+        'normalizedInputWithContractions',
+        normalizedInputWithContractions,
+      );
       setSnapPoints(['38%']);
       bottomSheetRef.current?.expand();
       handleVoice(answer);
@@ -448,8 +312,6 @@ const QuestionsTranslation: React.FC = () => {
   };
 
   const handleAskButton = () => {
-    // setTranslationSentences(QuestionsTranslationSentencesWhere);
-
     if (selectedCells.length === 0) {
       setIsAnswerVisible(true);
       return Alert.alert('Lütfen bir hücre seçiniz');
@@ -485,7 +347,7 @@ const QuestionsTranslation: React.FC = () => {
             </View>
           </View>
         </View>
-        <QuestionsTable
+        <Table
           selectedCells={selectedCells}
           setSelectedCells={setSelectedCells}
           selectedCell={selectedCell}
@@ -520,7 +382,7 @@ const QuestionsTranslation: React.FC = () => {
           </TouchableOpacity>
           <View style={styles.container}>
             <Image
-              source={require('../assets/icons/translate_robot.png')}
+              source={require('../../assets/icons/translate_robot.png')}
               style={styles.image}
             />
             <View style={styles.bubble}>
@@ -616,6 +478,7 @@ const QuestionsTranslation: React.FC = () => {
                 Kalan Soru: {remainingQuestionCount}
               </Text>
             </View>
+
             <View
               style={{
                 flex: 1,
@@ -685,7 +548,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    // backgroundColor: '#FFCB77',
     backgroundColor: '#f8f8f8',
     borderColor: '#FFCB77',
     borderWidth: 2,
@@ -802,17 +664,12 @@ const styles = StyleSheet.create({
   answerContainer: {
     flex: 1,
     padding: 20,
-    gap: 6,
+    gap: 12,
   },
   incorrectAnswerText: {
     fontSize: 18,
     fontWeight: 'bold',
     color: '#DE3F41',
-  },
-  possibleAnswerText: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: '#1c9aa8',
   },
   answerText: {
     fontSize: 20,
@@ -872,4 +729,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default QuestionsTranslation;
+export default Translation;

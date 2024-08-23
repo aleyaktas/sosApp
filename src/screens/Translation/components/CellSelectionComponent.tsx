@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, TouchableOpacity, Text, StyleSheet} from 'react-native';
-import Icon from '../themes/Icon';
-import Blink from '../components/Blink';
+import Icon from '../../../themes/Icon';
+import Blink from '../../../components/Blink';
 
 const CellSelectionComponent = ({
   selectedCells,

@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import BottomSheet, {BottomSheetView} from '@gorhom/bottom-sheet';
-import Icon from '../themes/Icon';
-import {handleVoice} from '../helpers/voiceCenter';
+import Icon from '../../../themes/Icon';
+import {handleVoice} from '../../../helpers/voiceCenter';
 
 const BottomSheetComponent = ({
   bottomSheetRef,

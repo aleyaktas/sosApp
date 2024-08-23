@@ -9,13 +9,13 @@ import {
   Text,
 } from 'react-native';
 import Voice from '@react-native-voice/voice';
-import {handleVoice} from '../helpers/voiceCenter';
-import {RcNcTranslationSentences} from '../utils/translation';
-import ChartComponent from '../components/ChartComponent';
-import CellSelectionComponent from '../components/CellSelectionComponent';
-import QuestionComponent from '../components/QuestionComponent';
-import AnswerInputComponent from '../components/AnswerInputComponent';
-import BottomSheetComponent from '../components/BottomSheetComponent';
+import {handleVoice} from '../../helpers/voiceCenter';
+import {RcNcTranslationSentences} from '../../utils/translation';
+import ChartComponent from './components/ChartComponent';
+import CellSelectionComponent from './components/CellSelectionComponent';
+import QuestionComponent from './components/QuestionComponent';
+import AnswerInputComponent from './components/AnswerInputComponent';
+import BottomSheetComponent from './components/BottomSheetComponent';
 import DraggableFlatList from 'react-native-draggable-flatlist';
 import BottomSheet from '@gorhom/bottom-sheet/lib/typescript/components/bottomSheet/BottomSheet';
 
