@@ -33,8 +33,16 @@ export const checkAbbrevation = ({
   answer: string;
   selectedCell: string;
 }) => {
-  let normalizedInput = input.join(' ').toLowerCase().replace(/[?.,]/g, '');
-  let normalizedAnswer = answer.toLowerCase().replace(/[?.,]/g, '');
+  let normalizedInput = input
+    .join(' ')
+    .toLowerCase()
+    .replace(/[?.,]/g, '')
+    .replace(/’/g, "'");
+
+  let normalizedAnswer = answer
+    .toLowerCase()
+    .replace(/[?.,]/g, '')
+    .replace(/’/g, "'");
   let normalizedInputWithContractions = replaceContractions(normalizedInput);
 
   //they're not => they are not, we're not => we are not, you're not => you are not, she's not => she is not, it's not => it is not, i'm not => i am not, he's not => he is not,

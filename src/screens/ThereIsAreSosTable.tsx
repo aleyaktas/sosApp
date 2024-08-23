@@ -281,8 +281,13 @@ const ThereIsAreSosTable = () => {
       .split(' ')
       .join(' ')
       .toLowerCase()
-      .replace(/[?.,]/g, '');
-    let normalizedAnswer = answer.toLowerCase().replace(/[?.,]/g, '');
+      .replace(/[?.,]/g, '')
+      .replace(/’/g, "'");
+
+    let normalizedAnswer = answer
+      .toLowerCase()
+      .replace(/[?.,]/g, '')
+      .replace(/’/g, "'");
     let normalizedInputWithContractions = replaceContractions(normalizedInput);
 
     //isn't => is not, aren't => are not, won't => will not, there's => there is, there're => there are, there'll => there will
@@ -314,6 +319,8 @@ const ThereIsAreSosTable = () => {
           : match;
       },
     );
+
+    //isn’t => is not, aren't => are not, won't => will not, there's => there is, there're => there are, there'll => there will
 
     console.log('normalizedAnswer', normalizedAnswer);
     console.log(

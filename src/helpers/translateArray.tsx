@@ -67,3 +67,41 @@ export const translateRcNc = (inputArray: InputArray): OutputObject => {
 
   return output;
 };
+
+type TranslationEntry = {
+  'Passive ing'?: string;
+  'Passive TR'?: string;
+  'active ing'?: string;
+  'active tr'?: string;
+};
+
+type TranslatedResult = {
+  Passive: Array<{ing: string; tr: string}>;
+  Active: Array<{ing: string; tr: string}>;
+};
+
+export const translateActivePassive = (
+  input: TranslationEntry[],
+): TranslatedResult => {
+  const result: TranslatedResult = {
+    Passive: [],
+    Active: [],
+  };
+
+  input.forEach(item => {
+    if (item['Passive ing'] && item['Passive TR']) {
+      result.Passive.push({
+        ing: item['Passive ing'],
+        tr: item['Passive TR'],
+      });
+    }
+    if (item['active ing'] && item['active tr']) {
+      result.Active.push({
+        ing: item['active ing'],
+        tr: item['active tr'],
+      });
+    }
+  });
+
+  return result;
+};

@@ -278,11 +278,13 @@ const Translation: React.FC = () => {
         .trim()
         .replace('.', '')
         .replace('?', '')
+        .replace(/’/g, "'")
         .toLowerCase() ===
       normalizedInputWithContractions
         .trim()
         .replace('.', '')
         .replace('?', '')
+        .replace(/’/g, "'")
         .toLowerCase()
     ) {
       setSnapPoints(['32%']);
@@ -293,6 +295,12 @@ const Translation: React.FC = () => {
       newTranslationSentences[selectedCell].splice(questionIndex, 1);
       setNewTranslationSentences(newTranslationSentences);
     } else {
+      console.log('normalizedInput', normalizedInput);
+      console.log('normalizedAnswer', normalizedAnswer);
+      console.log(
+        'normalizedInputWithContractions',
+        normalizedInputWithContractions,
+      );
       setSnapPoints(['38%']);
       bottomSheetRef.current?.expand();
       handleVoice(answer);
