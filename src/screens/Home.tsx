@@ -21,7 +21,8 @@ const Home = () => {
               item.title !== 'Sorular' &&
               item.title !== 'There is / There are' &&
               item.title !== 'RC - NC' &&
-              item.title !== 'Passive'
+              item.title !== 'Passive' &&
+              item.title !== 'Bağlaçlar-1G'
             }
             onPress={() =>
               navigation.navigate('SubCategory', {
@@ -37,7 +38,8 @@ const Home = () => {
                   item.title === 'Sorular' ||
                   item.title === 'There is / There are' ||
                   item.title === 'RC - NC' ||
-                  item.title === 'Passive'
+                  item.title === 'Passive' ||
+                  item.title === 'Bağlaçlar-1G'
                     ? 'white'
                     : '#f5f5f5',
               },
@@ -53,7 +55,8 @@ const Home = () => {
                       item.title === 'Sorular' ||
                       item.title === 'There is / There are' ||
                       item.title === 'RC - NC' ||
-                      item.title === 'Passive'
+                      item.title === 'Passive' ||
+                      item.title === 'Bağlaçlar-1G'
                         ? 'black'
                         : 'darkgray',
                   },

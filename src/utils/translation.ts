@@ -36141,3 +36141,1989 @@ export const ActivePassiveTransationSentences = {
     },
   ],
 };
+
+export const Conjuction1GTranslationSentences = {
+  Amaç: [
+    {
+      ing: 'I study hard so that I can get good grades.',
+      tr: 'İyi notlar alayım diye sıkı çalışıyorum.',
+    },
+    {
+      ing: 'He saves money so that he can buy a new bicycle.',
+      tr: 'Yeni bir bisiklet alsın diye para biriktiriyor.',
+    },
+    {
+      ing: 'She practices every day so that she can become a better dancer.',
+      tr: 'Daha iyi bir dansçı olsun diye her gün pratik yapıyor.',
+    },
+    {
+      ing: 'They wake up early in order that they can catch the bus on time.',
+      tr: 'Otobüsü zamanında yakalasınlar diye erken kalkıyorlar.',
+    },
+    {
+      ing: 'We wear helmets so that we can protect our heads while cycling.',
+      tr: 'Bisiklet sürerken başımızı koruyalım diye kask takıyoruz.',
+    },
+    {
+      ing: 'He exercises regularly so that he can stay fit and healthy.',
+      tr: 'Formda ve sağlıklı kalsın diye düzenli olarak egzersiz yapıyor.',
+    },
+    {
+      ing: 'She takes notes in class so that she can remember the important information.',
+      tr: 'Önemli bilgileri hatırlasın diye sınıfta not alıyor.',
+    },
+    {
+      ing: 'They eat a balanced diet so that they can have a strong immune system.',
+      tr: 'Güçlü bir bağışıklık sistemine sahip olsunlar diye dengeli besleniyorlar.',
+    },
+    {
+      ing: "I set reminders on my phone in order that I don't forget important appointments.",
+      tr: 'Önemli randevuları unutmayayım diye telefonuma hatırlatmalar kuruyorum.',
+    },
+    {
+      ing: 'He drinks plenty of water so that he can stay hydrated.',
+      tr: 'Susuz kalmasın diye bol su içiyor.',
+    },
+    {
+      ing: 'She practices playing the piano every day so that she can improve her skills.',
+      tr: 'Becerilerini geliştirsin diye her gün piyano çalıyor.',
+    },
+    {
+      ing: 'They wear sunscreen in order that they can protect their skin from the sun.',
+      tr: 'Güneşten korunmak için güneş kremi sürsünler diye.',
+    },
+    {
+      ing: 'We clean our teeth twice a day so that we can have good oral hygiene.',
+      tr: 'İyi bir ağız hijyenine sahip olalım diye dişlerimizi günde iki kez fırçalıyoruz.',
+    },
+    {
+      ing: "He studies the map carefully so that he doesn't get lost.",
+      tr: 'Kaybolmasın diye haritayı dikkatlice inceliyor.',
+    },
+    {
+      ing: "She wears warm clothes in order that she doesn't catch a cold.",
+      tr: 'Üşütmesin diye sıcak giysiler giyiyor.',
+    },
+    {
+      ing: 'They save money so that they can go on a vacation.',
+      tr: 'Tatile çıkabilsinler diye para biriktiriyorlar.',
+    },
+    {
+      ing: 'I organize my schedule so that I can manage my time effectively.',
+      tr: 'Zamanımı verimli yöneteyim diye programımı düzenliyorum.',
+    },
+    {
+      ing: 'He buys fresh fruits and vegetables in order that he can have a healthy diet.',
+      tr: 'Sağlıklı beslensin diye taze meyve ve sebze alıyor.',
+    },
+    {
+      ing: 'She practices speaking English every day so that she can become fluent.',
+      tr: 'Akıcı konuşsun diye her gün İngilizce pratiği yapıyor.',
+    },
+    {
+      ing: 'They exercise regularly in order that they can stay physically active.',
+      tr: 'Fiziksel olarak aktif kalsınlar diye düzenli olarak egzersiz yapıyorlar.',
+    },
+    {
+      ing: 'I turn off the lights when I leave a room so that I can save energy.',
+      tr: 'Enerji tasarrufu yapayım diye bir odadan çıkarken ışıkları kapatıyorum.',
+    },
+    {
+      ing: 'He writes a to-do list so that he can remember his tasks.',
+      tr: 'Görevlerini hatırlasın diye yapılacaklar listesi yazıyor.',
+    },
+    {
+      ing: 'She wears glasses in order that she can see clearly.',
+      tr: 'Net görsün diye gözlük takıyor.',
+    },
+    {
+      ing: 'They study together so that they can help each other learn.',
+      tr: 'Birbirlerine yardımcı olsunlar diye birlikte çalışıyorlar.',
+    },
+    {
+      ing: 'I set my alarm clock so that I can wake up on time.',
+      tr: 'Zamanında uyanayım diye alarm kuruyorum.',
+    },
+    {
+      ing: 'I study hard so that I can get good grades.',
+      tr: 'İyi notlar alayım diye sıkı çalışıyorum.',
+    },
+    {
+      ing: 'I wake up early in order that I can catch the bus.',
+      tr: 'Otobüsü yakalayayım diye erken kalkıyorum.',
+    },
+    {
+      ing: 'I wear a helmet so that I can protect my head.',
+      tr: 'Başımı koruyayım diye kask takıyorum.',
+    },
+    {
+      ing: 'I save money so that I can buy a new bike.',
+      tr: 'Yeni bir bisiklet alayım diye para biriktiriyorum.',
+    },
+    {
+      ing: 'I write a to-do list in order that I can stay organized.',
+      tr: 'Düzenli olayım diye yapılacaklar listesi yazıyorum.',
+    },
+    {
+      ing: 'I eat healthy food so that I can stay fit.',
+      tr: 'Formda kalayım diye sağlıklı yiyecekler yiyorum.',
+    },
+    {
+      ing: 'I practice playing the guitar so that I can improve my skills.',
+      tr: 'Becerilerimi geliştireyim diye gitar çalmayı pratik yapıyorum.',
+    },
+    {
+      ing: 'I listen carefully in order that I can understand the instructions.',
+      tr: 'Talimatları anlayayım diye dikkatle dinliyorum.',
+    },
+    {
+      ing: 'I clean my room so that it looks neat and tidy.',
+      tr: 'Düzenli ve temiz görünsün diye odamı temizliyorum.',
+    },
+    {
+      ing: 'I wear sunscreen in order that I can avoid sunburn.',
+      tr: 'Güneş yanığından kaçınayım diye güneş kremi sürüyorum.',
+    },
+    {
+      ing: 'I exercise regularly so that I can stay in shape.',
+      tr: 'Formda kalayım diye düzenli egzersiz yapıyorum.',
+    },
+    {
+      ing: 'I set an alarm clock so that I wake up on time.',
+      tr: 'Zamanında uyanayım diye alarm kuruyorum.',
+    },
+    {
+      ing: 'I pack my lunch in order that I can save money.',
+      tr: 'Para biriktireyim diye öğle yemeğimi hazırlıyorum.',
+    },
+    {
+      ing: 'I drink water so that I can stay hydrated.',
+      tr: 'Susuz kalmayayım diye su içiyorum.',
+    },
+    {
+      ing: 'I finish my homework early in order that I can relax later.',
+      tr: 'Sonra rahatlayayım diye ödevimi erken bitiriyorum.',
+    },
+    {
+      ing: 'I take a break so that I can recharge my energy.',
+      tr: 'Enerjimi toplayayım diye ara veriyorum.',
+    },
+    {
+      ing: 'I follow the recipe carefully in order that I can bake a delicious cake.',
+      tr: 'Lezzetli bir kek yapayım diye tarifi dikkatlice takip ediyorum.',
+    },
+    {
+      ing: 'I take notes so that I can remember important information.',
+      tr: 'Önemli bilgileri hatırlayayım diye not alıyorum.',
+    },
+    {
+      ing: 'I wear comfortable shoes in order that I can walk long distances.',
+      tr: 'Uzun mesafeler yürüyeyim diye rahat ayakkabılar giyiyorum.',
+    },
+    {
+      ing: 'I ask questions so that I can clarify my doubts.',
+      tr: 'Şüphelerimi giderim diye soru soruyorum.',
+    },
+    {
+      ing: 'I check the weather forecast so that I can dress accordingly.',
+      tr: 'Uygun giyineyim diye hava durumunu kontrol ediyorum.',
+    },
+    {
+      ing: 'I practice good manners in order that I can show respect to others.',
+      tr: 'Başkalarına saygı göstereyim diye iyi davranışlar sergiliyorum.',
+    },
+    {
+      ing: 'I pack an umbrella so that I am prepared for rain.',
+      tr: 'Yağmura hazırlıklı olayım diye şemsiye alıyorum.',
+    },
+    {
+      ing: 'I listen to music while studying so that I can focus better.',
+      tr: 'Daha iyi odaklanayım diye ders çalışırken müzik dinliyorum.',
+    },
+    {
+      ing: 'I turn off the lights in order that I can save electricity.',
+      tr: 'Elektrik tasarrufu yapayım diye ışıkları kapatıyorum.',
+    },
+  ],
+  Koşul: [
+    {ing: 'If it rains, take an umbrella.', tr: 'Yağmur yağarsa şemsiye alın.'},
+    {
+      ing: 'Unless you eat, you will be hungry.',
+      tr: 'Yemek yemediğiniz sürece aç kalırsınız.',
+    },
+    {
+      ing: 'In case of fire, leave the building.',
+      tr: 'Yangın durumunda binayı terk edin.',
+    },
+    {
+      ing: "Even if it's hot, wear a hat.",
+      tr: 'Hava sıcak olsa bile şapka takın.',
+    },
+    {ing: "If you're tired, take a nap.", tr: 'Yorgunsanız biraz kestirin.'},
+    {
+      ing: 'Unless you brush, your teeth will hurt.',
+      tr: 'Dişlerinizi fırçalamadığınız sürece dişleriniz ağrır.',
+    },
+    {
+      ing: 'In case of emergency, call for help.',
+      tr: 'Acil durumlarda yardım çağırın.',
+    },
+    {
+      ing: "Even if it's dark, I can see.",
+      tr: 'Karanlık olsa bile görebiliyorum.',
+    },
+    {ing: "If you're thirsty, drink water.", tr: 'Susadıysanız su için.'},
+    {
+      ing: "Unless you study, you won't learn.",
+      tr: 'Çalışmadığınız sürece öğrenemezsiniz.',
+    },
+    {
+      ing: 'In case you forget, I will remind you.',
+      tr: 'Unutursan hatırlatacağım.',
+    },
+    {
+      ing: "Even if it's cold, wear a jacket.",
+      tr: 'Hava soğuk olsa bile ceket giyin.',
+    },
+    {ing: "If you're late, hurry up.", tr: 'Geç kaldıysanız acele edin.'},
+    {
+      ing: "Unless you listen, you won't understand.",
+      tr: 'Dinlemediğiniz sürece anlayamazsınız.',
+    },
+    {
+      ing: "In case you're lost, ask for directions.",
+      tr: 'Kaybolmanız durumunda yol tarifi isteyin.',
+    },
+    {
+      ing: "Even if it's noisy, I can sleep.",
+      tr: 'Gürültülü olsa bile uyuyabilirim.',
+    },
+    {
+      ing: "If you're sad, talk to a friend.",
+      tr: 'Eğer üzgünseniz bir arkadaşınızla konuşun.',
+    },
+    {
+      ing: 'Unless you share, nobody will play with you.',
+      tr: 'Paylaşmadığınız sürece kimse sizinle oynamaz.',
+    },
+    {ing: 'In case of danger, run away.', tr: 'Tehlike anında kaçın.'},
+    {
+      ing: "Even if it's small, it can be important.",
+      tr: 'Küçük de olsa önemli olabilir.',
+    },
+    {ing: "If you're happy, smile.", tr: 'Mutluysanız gülümseyin.'},
+    {
+      ing: "Unless you try, you won't succeed.",
+      tr: 'Denemediğiniz sürece başaramazsınız.',
+    },
+    {
+      ing: 'In case of rain, stay inside.',
+      tr: 'Yağmur durumunda içeride kalın.',
+    },
+    {
+      ing: "Even if it's late, I will wait for you.",
+      tr: 'Geç de olsa seni bekleyeceğim.',
+    },
+    {
+      ing: "If you're cold, wear a coat.",
+      tr: 'Eğer üşüyorsanız bir palto giyin.',
+    },
+    {
+      ing: 'If it rains, I will bring my umbrella.',
+      tr: 'Yağmur yağarsa şemsiyemi getireceğim.',
+    },
+    {
+      ing: "Unless you study, you won't pass the test.",
+      tr: 'Çalışmadığınız sürece testi geçemezsiniz.',
+    },
+    {
+      ing: 'In case of an accident, call an ambulance.',
+      tr: 'Kaza durumunda ambulans çağırın.',
+    },
+    {
+      ing: "Even if it's hot, I still enjoy going outside.",
+      tr: 'Hava sıcak olsa bile dışarı çıkmaktan keyif alıyorum.',
+    },
+    {ing: "If you're hungry, eat something.", tr: 'Açsanız bir şeyler yiyin.'},
+    {
+      ing: "Unless you practice, you won't improve.",
+      tr: 'Pratik yapmazsanız gelişmezsiniz.',
+    },
+    {
+      ing: 'In case you forget, write it down.',
+      tr: 'Unutma ihtimalinize karşı onu not edin.',
+    },
+    {
+      ing: "Even if it's dark, I can find my way.",
+      tr: 'Karanlık olsa bile yolumu bulabilirim.',
+    },
+    {ing: "If you're tired, take a break.", tr: 'Yorgunsanız ara verin.'},
+    {
+      ing: "Unless you listen carefully, you'll miss the instructions.",
+      tr: 'Dikkatlice dinlemediğiniz sürece talimatları kaçıracaksınız.',
+    },
+    {
+      ing: 'In case of a power outage, use a flashlight.',
+      tr: 'Elektrik kesintisi durumunda el feneri kullanın.',
+    },
+    {
+      ing: "Even if it's cold, I won't wear a coat.",
+      tr: 'Hava soğuk olsa bile palto giymeyeceğim.',
+    },
+    {ing: "If you're scared, hold my hand.", tr: 'Eğer korkuyorsan elimi tut.'},
+    {
+      ing: "Unless you ask for help, you'll struggle alone.",
+      tr: 'Yardım istemediğiniz sürece tek başınıza mücadele edeceksiniz.',
+    },
+    {
+      ing: 'In case you need money, I can lend you some.',
+      tr: 'Paraya ihtiyacın olursa sana biraz borç verebilirim.',
+    },
+    {
+      ing: "Even if it's noisy, I can concentrate.",
+      tr: 'Gürültülü olsa bile konsantre olabiliyorum.',
+    },
+    {
+      ing: "If you're lost, ask for directions.",
+      tr: 'Eğer kaybolursanız yol tarifi isteyin.',
+    },
+    {
+      ing: "Unless you save money, you won't be able to buy it.",
+      tr: 'Para biriktirmediğiniz sürece onu satın alamazsınız.',
+    },
+    {
+      ing: 'In case of a fire, exit the building immediately.',
+      tr: 'Yangın durumunda derhal binayı terk edin.',
+    },
+    {
+      ing: "Even if it's late, I will wait for you.",
+      tr: 'Geç de olsa seni bekleyeceğim.',
+    },
+    {
+      ing: "If you're bored, find something fun to do.",
+      tr: 'Eğer sıkıldıysanız yapacak eğlenceli bir şeyler bulun.',
+    },
+    {
+      ing: "Unless you apologize, I won't forgive you.",
+      tr: 'Özür dilemediğin sürece seni affetmeyeceğim.',
+    },
+    {
+      ing: 'In case you feel sick, take medicine.',
+      tr: 'Kendinizi hasta hissederseniz ilaç alın.',
+    },
+    {
+      ing: "Even if it's crowded, we can find a seat.",
+      tr: 'Kalabalık olsa bile yer bulabiliriz.',
+    },
+    {
+      ing: "If you're happy, share your smile.",
+      tr: 'Mutluysanız gülümsemenizi paylaşın.',
+    },
+    {
+      ing: 'If it rains, I will bring my umbrella.',
+      tr: 'Yağmur yağarsa şemsiyemi getireceğim.',
+    },
+    {
+      ing: "Unless you study, you won't pass the exam.",
+      tr: 'Çalışmadığınız sürece sınavı geçemezsiniz.',
+    },
+    {
+      ing: 'In case of an accident, call an ambulance.',
+      tr: 'Kaza durumunda ambulans çağırın.',
+    },
+    {
+      ing: "Even if it's hot, I enjoy drinking hot tea.",
+      tr: 'Hava sıcak olsa bile sıcak çay içmekten hoşlanırım.',
+    },
+    {
+      ing: "If you're hungry, eat some fruit.",
+      tr: 'Açsanız biraz meyve yiyin.',
+    },
+    {
+      ing: "Unless you practice, you won't improve.",
+      tr: 'Pratik yapmazsanız gelişmezsiniz.',
+    },
+    {
+      ing: 'In case you forget, write it down.',
+      tr: 'Unutma ihtimaline karşı onu not edin.',
+    },
+    {
+      ing: "Even if it's dark, I can find my way home.",
+      tr: 'Karanlık olsa bile evimin yolunu bulabilirim.',
+    },
+    {
+      ing: "If you're tired, take a short nap.",
+      tr: 'Yorgunsanız kısa bir şekerleme yapın.',
+    },
+    {
+      ing: "Unless you ask, you won't know the answer.",
+      tr: 'Sormadığın sürece cevabı bilemezsin.',
+    },
+    {
+      ing: 'In case of a power outage, use a flashlight.',
+      tr: 'Elektrik kesintisi durumunda el feneri kullanın.',
+    },
+    {
+      ing: "Even if it's cold, I will go for a walk.",
+      tr: 'Hava soğuk olsa bile yürüyüşe çıkacağım.',
+    },
+    {
+      ing: "If you're late, you might miss the bus.",
+      tr: 'Geç kalırsanız otobüsü kaçırabilirsiniz.',
+    },
+    {
+      ing: 'Unless you exercise regularly, you may gain weight.',
+      tr: 'Düzenli egzersiz yapmadığınız sürece kilo alabilirsiniz.',
+    },
+    {
+      ing: "In case you need help, don't hesitate to ask.",
+      tr: 'Yardıma ihtiyacınız olursa sormaktan çekinmeyin.',
+    },
+    {
+      ing: "Even if it's noisy, I can focus on my work.",
+      tr: 'Gürültülü de olsa işime odaklanabiliyorum.',
+    },
+    {
+      ing: "If you're sad, talk to someone you trust.",
+      tr: 'Eğer üzgünseniz güvendiğiniz biriyle konuşun.',
+    },
+    {
+      ing: "Unless you save money, you won't be able to afford it.",
+      tr: 'Para biriktirmediğiniz sürece bunu karşılayamazsınız.',
+    },
+    {
+      ing: 'In case of an emergency, follow the evacuation plan.',
+      tr: 'Acil bir durumda tahliye planını takip edin.',
+    },
+    {
+      ing: "Even if it's small, it can still be significant.",
+      tr: 'Küçük de olsa önemli olabilir.',
+    },
+    {
+      ing: "If you're happy, share your joy with others.",
+      tr: 'Mutluysanız sevincinizi başkalarıyla paylaşın.',
+    },
+    {
+      ing: "Unless you take risks, you won't achieve your goals.",
+      tr: 'Risk almazsanız hedeflerinize ulaşamazsınız.',
+    },
+    {
+      ing: "In case you're lost, use a map or GPS.",
+      tr: 'Kaybolmanız durumunda harita veya GPS kullanın.',
+    },
+    {
+      ing: "Even if it's late, I will wait for you patiently.",
+      tr: 'Geç de olsa seni sabırla bekleyeceğim.',
+    },
+    {
+      ing: "If you're cold, put on a warm sweater.",
+      tr: 'Eğer üşüyorsanız sıcak tutan bir kazak giyin.',
+    },
+    {
+      ing: 'If it rains, we will stay indoors.',
+      tr: 'Yağmur yağarsa içeride kalacağız.',
+    },
+    {
+      ing: "Unless you finish your homework, you can't play outside.",
+      tr: 'Ödevinizi bitirmediğiniz sürece dışarıda oynayamazsınız.',
+    },
+    {
+      ing: 'In case of fire, use the emergency exit.',
+      tr: 'Yangın durumunda acil çıkış kapısını kullanın.',
+    },
+    {
+      ing: "Even if it's cold, I still enjoy going for a walk.",
+      tr: 'Hava soğuk olsa bile yürüyüşe çıkmaktan keyif alırım.',
+    },
+    {
+      ing: "If you don't eat vegetables, you won't grow strong.",
+      tr: 'Sebze yemezseniz güçlenemezsiniz.',
+    },
+    {
+      ing: 'Unless you brush your teeth, you will get cavities.',
+      tr: 'Dişlerinizi fırçalamadığınız sürece çürükler oluşur.',
+    },
+    {
+      ing: 'In case of an emergency, dial 911.',
+      tr: "Acil bir durumda 911'i arayın.",
+    },
+    {
+      ing: "Even if it's late, I will wait for you.",
+      tr: 'Geç de olsa seni bekleyeceğim.',
+    },
+    {
+      ing: 'If you study hard, you will get good grades.',
+      tr: 'Çok çalışırsanız iyi notlar alırsınız.',
+    },
+    {
+      ing: "Unless you wear a seatbelt, it's dangerous to drive.",
+      tr: 'Emniyet kemerinizi takmadığınız sürece araç kullanmak tehlikelidir.',
+    },
+    {
+      ing: 'In case you forget, I will remind you.',
+      tr: 'Unutursan hatırlatacağım.',
+    },
+    {
+      ing: "Even if it's hot, I will wear a hat to protect my head.",
+      tr: 'Hava sıcak olsa bile başımı korumak için şapka takacağım.',
+    },
+    {
+      ing: "If you don't exercise, you may become unfit.",
+      tr: 'Egzersiz yapmazsanız formunuzu kaybedebilirsiniz.',
+    },
+    {
+      ing: 'Unless you ask for help, you might struggle.',
+      tr: 'Yardım istemediğiniz sürece zorlanabilirsiniz.',
+    },
+    {
+      ing: "In case you need me, I'm just a phone call away.",
+      tr: 'Bana ihtiyacınız olursa bir telefon kadar yakınım.',
+    },
+    {
+      ing: "Even if it's noisy, I can still concentrate on my work.",
+      tr: 'Gürültülü olsa bile yine de işime konsantre olabiliyorum.',
+    },
+    {
+      ing: 'If you save money, you can buy the toy you want.',
+      tr: 'Paradan tasarruf ederseniz istediğiniz oyuncağı satın alabilirsiniz.',
+    },
+    {
+      ing: 'Unless you turn off the lights, we will waste electricity.',
+      tr: 'Işıkları kapatmazsanız elektriği israf etmiş oluruz.',
+    },
+    {
+      ing: 'In case you get lost, ask for directions.',
+      tr: 'Kaybolmanız durumunda yol tarifi isteyin.',
+    },
+    {
+      ing: "Even if it's dark, I'm not afraid of the night.",
+      tr: 'Karanlık olsa bile geceden korkmuyorum.',
+    },
+    {
+      ing: "If you don't share, others may feel left out.",
+      tr: 'Paylaşmazsanız başkaları kendilerini dışlanmış hissedebilir.',
+    },
+    {
+      ing: "Unless you apologize, it's difficult to rebuild trust.",
+      tr: 'Özür dilemediğiniz sürece güveni yeniden inşa etmek zordur.',
+    },
+    {
+      ing: 'In case of a power outage, use a flashlight.',
+      tr: 'Elektrik kesintisi durumunda el feneri kullanın.',
+    },
+    {
+      ing: "Even if it's crowded, we can still find a seat.",
+      tr: 'Kalabalık olsa bile yine de yer bulabiliriz.',
+    },
+    {
+      ing: "If you're kind to others, they will be kind to you.",
+      tr: 'Eğer başkalarına karşı nazik olursanız, onlar da size karşı nazik olurlar.',
+    },
+  ],
+  Neden: [
+    {
+      ing: 'I brought an umbrella because it was raining.',
+      tr: 'Yağmur yağdığından dolayı bir şemsiye getirdim.',
+    },
+    {
+      ing: 'As it was hot outside, I drank a cold glass of water.',
+      tr: 'Dışarısı sıcak olduğundan dolayı soğuk bir bardak su içtim.',
+    },
+    {
+      ing: 'Since I was tired, I went to bed early.',
+      tr: 'Yorgun olduğumdan dolayı erken yattım.',
+    },
+    {
+      ing: 'I wore a jacket because it was cold.',
+      tr: 'Hava soğuk olduğundan dolayı ceket giydim.',
+    },
+    {
+      ing: 'As I studied hard, I got good grades.',
+      tr: 'Sıkı çalıştığımdan dolayı iyi notlar aldım.',
+    },
+    {
+      ing: 'Since it was late, I missed the last bus.',
+      tr: 'Geç olduğundan dolayı son otobüsü kaçırdım.',
+    },
+    {
+      ing: 'I felt hungry because I skipped breakfast.',
+      tr: 'Kahvaltıyı atladığımdan dolayı acıktım.',
+    },
+    {
+      ing: 'As the traffic was heavy, I arrived late.',
+      tr: 'Trafik yoğun olduğundan dolayı geç geldim.',
+    },
+    {
+      ing: 'Since it was my birthday, I received many gifts.',
+      tr: 'Doğum günüm olduğundan dolayı birçok hediye aldım.',
+    },
+    {
+      ing: 'I brought my camera because I wanted to take pictures.',
+      tr: 'Fotoğraf çekmek istediğimden dolayı kameramı getirdim.',
+    },
+    {
+      ing: 'As I practiced every day, I improved my skills.',
+      tr: 'Her gün pratik yaptığım için becerilerimi geliştirdim.',
+    },
+    {
+      ing: 'Since I forgot my umbrella, I got wet in the rain.',
+      tr: 'Şemsiyemi unuttuğumdan dolayı yağmurda ıslandım.',
+    },
+    {
+      ing: 'I wore sunglasses as it was sunny outside.',
+      tr: 'Dışarısı güneşli olduğundan dolayı güneş gözlüğü taktım.',
+    },
+    {
+      ing: 'Because I worked hard, I completed the project on time.',
+      tr: 'Sıkı çalıştığımdan dolayı projeyi zamanında tamamladım.',
+    },
+    {
+      ing: 'As it was a holiday, I visited my family.',
+      tr: 'Tatil olduğundan dolayı ailemi ziyaret ettim.',
+    },
+    {
+      ing: "Since I didn't have enough money, I couldn't buy the toy.",
+      tr: 'Yeterli param olmadığından dolayı oyuncağı alamadım.',
+    },
+    {
+      ing: 'I felt happy because I met my best friend.',
+      tr: 'En iyi arkadaşımla buluştuğumdan dolayı mutlu oldum.',
+    },
+    {
+      ing: "As it was noisy, I couldn't concentrate on my work.",
+      tr: 'Gürültü olduğundan dolayı işime odaklanamadım.',
+    },
+    {
+      ing: 'Since it was a long journey, I packed some snacks.',
+      tr: 'Uzun bir yolculuk olduğundan dolayı bazı atıştırmalıklar aldım.',
+    },
+    {
+      ing: 'I wore sunscreen because it was a sunny day.',
+      tr: 'Güneşli bir gün olduğundan dolayı güneş kremi sürdüm.',
+    },
+    {
+      ing: 'As I ate too much, I felt full.',
+      tr: 'Çok yediğimden dolayı tok hissettim.',
+    },
+    {
+      ing: 'Since I missed the bus, I had to walk to school.',
+      tr: 'Otobüsü kaçırdığımdan dolayı okula yürümek zorunda kaldım.',
+    },
+    {
+      ing: 'I brought an extra sweater because it was cold outside.',
+      tr: 'Dışarısı soğuk olduğundan dolayı ekstra bir kazak getirdim.',
+    },
+    {
+      ing: 'As I practiced playing the piano, I became better.',
+      tr: 'Piyano çalmayı pratiği yaptığım için daha iyi oldum.',
+    },
+    {
+      ing: 'Since it was a special occasion, I wore my best clothes.',
+      tr: 'Özel bir gün olduğundan dolayı en iyi kıyafetlerimi giydim.',
+    },
+    {
+      ing: 'I am happy because I passed my exam.',
+      tr: 'Sınavı geçtiğimden dolayı mutluyum.',
+    },
+    {
+      ing: "As it's raining, we need to bring an umbrella.",
+      tr: 'Yağmur yağdığından dolayı şemsiye getirmemiz gerekiyor.',
+    },
+    {
+      ing: 'Since I studied hard, I got a good grade.',
+      tr: 'Sıkı çalıştığımdan dolayı iyi bir not aldım.',
+    },
+    {
+      ing: "I can't go outside because it's too cold.",
+      tr: 'Dışarısı çok soğuk olduğundan dolayı dışarı çıkamam.',
+    },
+    {
+      ing: 'As I ate too much, I feel full now.',
+      tr: 'Çok yediğimden dolayı şimdi tok hissediyorum.',
+    },
+    {
+      ing: "Since it's late, we should go to bed.",
+      tr: 'Geç olduğundan dolayı yatmalıyız.',
+    },
+    {
+      ing: "I'm tired because I didn't sleep well.",
+      tr: 'İyi uyumadığımdan dolayı yorgunum.',
+    },
+    {
+      ing: 'As I practiced every day, I improved my skills.',
+      tr: 'Her gün pratik yaptığım için becerilerimi geliştirdim.',
+    },
+    {
+      ing: "Since I forgot my keys, I couldn't enter the house.",
+      tr: 'Anahtarlarımı unuttuğumdan dolayı eve giremedim.',
+    },
+    {
+      ing: "I'm wearing a jacket because it's chilly outside.",
+      tr: 'Dışarısı serin olduğundan dolayı ceket giyiyorum.',
+    },
+    {
+      ing: 'As I listened carefully, I understood the instructions.',
+      tr: 'Dikkatli dinlediğimden dolayı talimatları anladım.',
+    },
+    {
+      ing: 'Since I finished my work early, I can relax now.',
+      tr: 'İşimi erken bitirdiğimden dolayı şimdi dinlenebilirim.',
+    },
+    {
+      ing: "I'm excited because I'm going on vacation.",
+      tr: 'Tatile gideceğimden dolayı heyecanlıyım.',
+    },
+    {
+      ing: "As I didn't eat breakfast, I'm hungry now.",
+      tr: 'Kahvaltı yapmadığımdan dolayı şimdi açım.',
+    },
+    {
+      ing: "Since it's a holiday, we don't have to go to school.",
+      tr: 'Tatil olduğundan dolayı okula gitmemize gerek yok.',
+    },
+    {
+      ing: "I can't go to the party because I have other plans.",
+      tr: 'Başka planlarım olduğundan dolayı partiye gidemem.',
+    },
+    {
+      ing: "As I wore sunscreen, I didn't get sunburned.",
+      tr: 'Güneş kremi sürdüğümden dolayı güneş yanığı olmadım.',
+    },
+    {
+      ing: 'Since I saved my money, I could buy a new toy.',
+      tr: 'Paramı biriktirdiğimden dolayı yeni bir oyuncak alabildim.',
+    },
+    {
+      ing: "I'm happy because I received a gift from my friend.",
+      tr: 'Arkadaşımdan hediye aldığım için mutluyum.',
+    },
+    {
+      ing: 'As I played sports, I became stronger.',
+      tr: 'Spor yaptığım için daha güçlü oldum.',
+    },
+    {
+      ing: "Since it's hot outside, let's go to the beach.",
+      tr: 'Dışarısı sıcak olduğundan dolayı plaja gidelim.',
+    },
+    {
+      ing: "I'm late because the bus didn't arrive on time.",
+      tr: 'Otobüs zamanında gelmediğinden dolayı geç kaldım.',
+    },
+    {
+      ing: 'As I studied every day, I passed the test.',
+      tr: 'Her gün çalıştığımdan dolayı sınavı geçtim.',
+    },
+    {
+      ing: "Since I didn't eat vegetables, I feel unhealthy.",
+      tr: 'Sebze yemedimden dolayı sağlıksız hissediyorum.',
+    },
+    {
+      ing: "I'm thirsty because I forgot to bring water.",
+      tr: 'Su getirmeyi unuttuğumdan dolayı susadım.',
+    },
+    {
+      ing: "I brought an umbrella because it's going to rain.",
+      tr: 'Yağmur yağacağından dolayı bir şemsiye getirdim.',
+    },
+    {
+      ing: "As it's getting late, I need to go home.",
+      tr: 'Geç olduğundan dolayı eve gitmem gerekiyor.',
+    },
+    {
+      ing: 'Since I studied hard, I passed the test.',
+      tr: 'Sıkı çalıştığımdan dolayı sınavı geçtim.',
+    },
+    {
+      ing: "I'm happy because I received a gift.",
+      tr: 'Hediye aldığım için mutluyum.',
+    },
+    {
+      ing: 'As I was hungry, I ate a sandwich.',
+      tr: 'Aç olduğumdan dolayı bir sandviç yedim.',
+    },
+    {
+      ing: "Since it's hot outside, let's go to the beach.",
+      tr: 'Dışarısı sıcak olduğundan dolayı plaja gidelim.',
+    },
+    {
+      ing: 'I wore a coat because it was cold.',
+      tr: 'Hava soğuk olduğundan dolayı ceket giydim.',
+    },
+    {
+      ing: "As I didn't have breakfast, I'm hungry now.",
+      tr: 'Kahvaltı yapmadığımdan dolayı şimdi açım.',
+    },
+    {
+      ing: "Since it's a holiday, we can relax.",
+      tr: 'Tatil olduğundan dolayı dinlenebiliriz.',
+    },
+    {
+      ing: 'I smiled because I saw something funny.',
+      tr: 'Komik bir şey gördüğümden dolayı gülümsedim.',
+    },
+    {
+      ing: 'As the bus was late, I arrived at school late too.',
+      tr: 'Otobüs geç geldiği için okula da geç vardım.',
+    },
+    {
+      ing: "Since it's my birthday, I received many presents.",
+      tr: 'Doğum günüm olduğundan dolayı birçok hediye aldım.',
+    },
+    {
+      ing: "I'm tired because I didn't get enough sleep.",
+      tr: 'Yeterince uyumadığımdan dolayı yorgunum.',
+    },
+    {
+      ing: 'As I finished my chores, I can play now.',
+      tr: 'İşlerimi bitirdiğimden dolayı şimdi oynayabilirim.',
+    },
+    {
+      ing: "Since it's raining, we should stay indoors.",
+      tr: 'Yağmur yağdığından dolayı içeride kalmalıyız.',
+    },
+    {
+      ing: "I'm excited because I'm going on a trip.",
+      tr: 'Geziye çıkacağım için heyecanlıyım.',
+    },
+    {
+      ing: 'As I saved money, I can buy a new toy.',
+      tr: 'Para biriktirdiğimden dolayı yeni bir oyuncak alabilirim.',
+    },
+    {
+      ing: "Since it's a special occasion, we're celebrating.",
+      tr: 'Özel bir gün olduğundan dolayı kutluyoruz.',
+    },
+    {
+      ing: "I'm thirsty because I haven't had water all day.",
+      tr: 'Bütün gün su içmediğimden dolayı susadım.',
+    },
+    {
+      ing: 'As the movie started, we found our seats.',
+      tr: 'Film başladığında, yerlerimizi bulduk.',
+    },
+    {
+      ing: "Since it's a sunny day, let's go for a picnic.",
+      tr: 'Güneşli bir gün olduğundan dolayı pikniğe gidelim.',
+    },
+    {
+      ing: 'I laughed because the joke was funny.',
+      tr: 'Şaka komik olduğundan dolayı güldüm.',
+    },
+    {
+      ing: 'As I missed the bus, I had to walk to work.',
+      tr: 'Otobüsü kaçırdığımdan dolayı işe yürümek zorunda kaldım.',
+    },
+    {
+      ing: "Since it's a holiday, we don't have to go to school.",
+      tr: 'Tatil olduğundan dolayı okula gitmemize gerek yok.',
+    },
+    {
+      ing: "I'm sad because I lost my favorite toy.",
+      tr: 'En sevdiğim oyuncağı kaybettiğimden dolayı üzgünüm.',
+    },
+    {
+      ing: "I wear a jacket because it's cold outside.",
+      tr: 'Dışarısı soğuk olduğundan dolayı ceket giyiyorum.',
+    },
+    {
+      ing: 'I brought an umbrella since it might rain.',
+      tr: 'Yağmur yağabileceğinden dolayı şemsiye getirdim.',
+    },
+    {
+      ing: 'I eat vegetables because they are healthy.',
+      tr: 'Sebzeler sağlıklı olduğundan dolayı yiyorum.',
+    },
+    {
+      ing: 'I study hard as I want to pass the exam.',
+      tr: 'Sınavı geçmek istediğimden dolayı sıkı çalışıyorum.',
+    },
+    {
+      ing: 'I am happy since I received a gift.',
+      tr: 'Hediye aldığım için mutluyum.',
+    },
+    {
+      ing: 'I take medicine because I am sick.',
+      tr: 'Hasta olduğumdan dolayı ilaç alıyorum.',
+    },
+    {
+      ing: 'I drink water as it keeps me hydrated.',
+      tr: 'Beni su tuttuğundan dolayı su içiyorum.',
+    },
+    {
+      ing: 'I wear sunglasses because the sun is bright.',
+      tr: 'Güneş parlak olduğundan dolayı güneş gözlüğü takıyorum.',
+    },
+    {
+      ing: 'I brush my teeth since I want to have a clean mouth.',
+      tr: 'Ağzımı temiz tutmak istediğimden dolayı dişlerimi fırçalıyorum.',
+    },
+    {
+      ing: 'I wear a helmet because it protects my head.',
+      tr: 'Başımı koruduğundan dolayı kask takıyorum.',
+    },
+    {
+      ing: 'I am tired because I stayed up late last night.',
+      tr: 'Geç yattığımdan dolayı yorgunum.',
+    },
+    {
+      ing: 'I listen to music as it helps me relax.',
+      tr: 'Beni rahatlattığından dolayı müzik dinliyorum.',
+    },
+    {
+      ing: 'I take notes since it helps me remember important information.',
+      tr: 'Önemli bilgileri hatırlamama yardımcı olduğundan dolayı not alıyorum.',
+    },
+    {
+      ing: "I exercise because it's good for my health.",
+      tr: 'Sağlığım için iyi olduğundan dolayı egzersiz yapıyorum.',
+    },
+    {
+      ing: 'I smile because I am happy.',
+      tr: 'Mutlu olduğumdan dolayı gülümsüyorum.',
+    },
+    {
+      ing: 'I put on sunscreen as it prevents sunburn.',
+      tr: 'Güneş yanığını önlediğinden dolayı güneş kremi sürüyorum.',
+    },
+    {
+      ing: 'I wash my hands because I want to keep them clean.',
+      tr: 'Ellerin temiz kalmasını istediğimden dolayı ellerimi yıkıyorum.',
+    },
+    {
+      ing: 'I eat breakfast since it gives me energy.',
+      tr: 'Bana enerji verdiğinden dolayı kahvaltı yapıyorum.',
+    },
+    {
+      ing: 'I wear a seatbelt because it keeps me safe in the car.',
+      tr: 'Arabada beni güvende tuttuğundan dolayı emniyet kemeri takıyorum.',
+    },
+    {
+      ing: 'I study every day because I want to learn new things.',
+      tr: 'Yeni şeyler öğrenmek istediğimden dolayı her gün çalışıyorum.',
+    },
+    {
+      ing: "I feel hungry as I haven't eaten for hours.",
+      tr: 'Saatlerdir yemek yemedimden dolayı aç hissediyorum.',
+    },
+    {
+      ing: 'I wear glasses because I have trouble seeing.',
+      tr: 'Görme sorunum olduğundan dolayı gözlük takıyorum.',
+    },
+    {
+      ing: 'I take a break as I need to rest.',
+      tr: 'Dinlenmem gerektiğinden dolayı ara veriyorum.',
+    },
+    {
+      ing: 'I go to bed early since I want to feel refreshed in the morning.',
+      tr: 'Sabah dinç hissetmek istediğimden dolayı erken yatıyorum.',
+    },
+    {
+      ing: 'I laugh because something is funny.',
+      tr: 'Bir şey komik olduğundan dolayı gülüyorum.',
+    },
+  ],
+  Zaman: [
+    {
+      ing: 'When the sun sets, the sky turns into a beautiful array of colors.',
+      tr: 'Güneş battığında gökyüzü güzel bir renk cümbüşüne bürünür.',
+    },
+    {
+      ing: 'After the rain stopped, a rainbow appeared in the sky.',
+      tr: 'Yağmur durduktan sonra gökyüzünde bir gökkuşağı belirdi.',
+    },
+    {
+      ing: 'Before I go to bed, I like to read a few pages of my favorite book.',
+      tr: 'Yatmadan önce en sevdiğim kitabın birkaç sayfasını okumayı severim.',
+    },
+    {
+      ing: 'By the time she arrived at the party, most of the guests had already left.',
+      tr: 'Partiye vardığında misafirlerin çoğu çoktan ayrılmıştı.',
+    },
+    {
+      ing: 'As soon as the alarm clock rang, he jumped out of bed.',
+      tr: 'Çalar saat çalar çalmaz yataktan fırladı.',
+    },
+    {
+      ing: 'Until the last piece of the puzzle is found, the mystery remains unsolved.',
+      tr: 'Bulmacanın son parçası bulunana kadar gizem çözülmeden kalır.',
+    },
+    {
+      ing: 'When the music started playing, everyone began to dance.',
+      tr: 'Müzik çalmaya başlayınca herkes dans etmeye başladı.',
+    },
+    {
+      ing: 'After the storm passed, the city began the process of cleaning up the debris.',
+      tr: 'Fırtına geçtikten sonra belediye enkaz temizleme çalışmalarına başladı.',
+    },
+    {
+      ing: "Before you leave the house, don't forget to turn off the lights.",
+      tr: 'Evden çıkmadan önce ışıkları kapatmayı unutmayın.',
+    },
+    {
+      ing: 'By the time they reached the mountaintop, they were exhausted but satisfied.',
+      tr: 'Dağın zirvesine vardıklarında bitkin ama tatmin olmuşlardı.',
+    },
+    {
+      ing: 'As soon as the doorbell rang, the dog started barking loudly.',
+      tr: 'Kapı zili çalar çalmaz köpek yüksek sesle havlamaya başladı.',
+    },
+    {
+      ing: 'When the baby started crying, her mother immediately picked her up.',
+      tr: 'Bebek ağlamaya başlayınca annesi onu hemen kucağına aldı.',
+    },
+    {
+      ing: 'After the long journey, they finally reached their destination.',
+      tr: 'Uzun yolculuğun ardından nihayet hedeflerine ulaştılar.',
+    },
+    {
+      ing: 'Before the meeting begins, make sure you have all the necessary documents.',
+      tr: 'Toplantı başlamadan önce gerekli tüm belgelerin elinizde olduğundan emin olun.',
+    },
+    {
+      ing: 'Until the cake is fully baked, avoid opening the oven door.',
+      tr: 'Kek tamamen pişene kadar fırının kapağını açmayın.',
+    },
+    {
+      ing: 'When the fire alarm sounded, everyone evacuated the building.',
+      tr: 'Yangın alarmı çalınca herkes binayı boşalttı.',
+    },
+    {
+      ing: 'As soon as the movie ended, the audience applauded enthusiastically.',
+      tr: 'Film biter bitmez seyirciler coşkuyla alkışladı.',
+    },
+    {
+      ing: 'After the exam was over, the students breathed a sigh of relief.',
+      tr: 'Sınav bittikten sonra öğrenciler rahat bir nefes aldı.',
+    },
+    {
+      ing: 'Before you make a decision, consider all the possible outcomes.',
+      tr: 'Bir karar vermeden önce olası tüm sonuçları göz önünde bulundurun.',
+    },
+    {
+      ing: 'By the time they arrived at the theater, the show had already started.',
+      tr: 'Tiyatroya vardıklarında gösteri çoktan başlamıştı.',
+    },
+    {
+      ing: 'As soon as the sun rose, the birds began to sing their morning songs.',
+      tr: 'Güneş doğar doğmaz kuşlar sabah şarkılarını söylemeye başladı.',
+    },
+    {
+      ing: "When she saw the result, she couldn't believe her eyes.",
+      tr: 'Sonucu görünce gözlerine inanamadı.',
+    },
+    {
+      ing: 'After the train departed, the platform became deserted.',
+      tr: 'Tren hareket ettikten sonra peron bomboş kaldı.',
+    },
+    {
+      ing: 'Before you cross the street, make sure to look both ways for oncoming traffic.',
+      tr: 'Caddeyi geçmeden önce karşıdan gelen trafiği görmek için her iki yöne de baktığınızdan emin olun.',
+    },
+    {
+      ing: 'Until the deadline passes, we must work diligently to complete the project.',
+      tr: 'Son teslim tarihi geçene kadar projeyi tamamlamak için özenle çalışmalıyız.',
+    },
+    {
+      ing: 'When the sun sets, it becomes dark outside.',
+      tr: 'Güneş battığında dışarısı karanlık olur.',
+    },
+    {
+      ing: 'While I eat dinner, I like to listen to music.',
+      tr: 'Akşam yemeği yerken müzik dinlemeyi severim.',
+    },
+    {
+      ing: "As soon as the alarm rings, it's time to wake up.",
+      tr: 'Alarm çalar çalmaz uyanma zamanı gelmiştir.',
+    },
+    {
+      ing: 'After school, I go to the park to play with my friends.',
+      tr: 'Okuldan sonra arkadaşlarımla oynamak için parka giderim.',
+    },
+    {
+      ing: 'Before going to bed, I brush my teeth.',
+      tr: 'Yatmadan önce dişlerimi fırçalarım.',
+    },
+    {
+      ing: 'Until the rain stops, we will stay indoors.',
+      tr: 'Yağmur duruncaya kadar kapalı alanda kalacağız.',
+    },
+    {
+      ing: 'Whenever I see a rainbow, it makes me smile.',
+      tr: 'Ne zaman gökkuşağı görsem bu beni gülümsetir.',
+    },
+    {
+      ing: 'By the time I finish my homework, it will be late.',
+      tr: 'Ödevimi bitirdiğimde geç olmuş olacak.',
+    },
+    {
+      ing: 'When the phone rings, please answer it.',
+      tr: 'Telefon çaldığında lütfen cevap verin.',
+    },
+    {
+      ing: 'While it snows, children build snowmen in the park.',
+      tr: 'Kar yağarken çocuklar parkta kardan adam yapar.',
+    },
+    {
+      ing: 'As soon as I arrive home, I take off my shoes.',
+      tr: 'Eve varır varmaz ayakkabılarımı çıkarırım.',
+    },
+    {
+      ing: 'After the movie ends, we can go grab a bite to eat.',
+      tr: 'Film bittikten sonra bir şeyler atıştırmaya gidebiliriz.',
+    },
+    {
+      ing: 'Before going on a trip, pack your suitcase.',
+      tr: 'Seyahate çıkmadan önce valizinizi hazırlayın.',
+    },
+    {
+      ing: 'Until the store opens, we have to wait outside.',
+      tr: 'Mağaza açılana kadar dışarıda beklemek zorundayız.',
+    },
+    {
+      ing: 'Whenever I see a dog, I feel happy.',
+      tr: 'Ne zaman bir köpek görsem mutlu olurum.',
+    },
+    {
+      ing: 'By the time I wake up, the sun is already shining.',
+      tr: 'Uyandığımda güneş çoktan parlıyor.',
+    },
+    {
+      ing: "When it's hot, I like to swim in the pool.",
+      tr: 'Hava sıcak olduğunda havuzda yüzmeyi severim.',
+    },
+    {
+      ing: 'While waiting for the bus, I read a book.',
+      tr: 'Otobüs beklerken kitap okudum.',
+    },
+    {
+      ing: 'As soon as the door opens, I enter the classroom.',
+      tr: 'Kapı açılır açılmaz sınıfa giriyorum.',
+    },
+    {
+      ing: 'After finishing my chores, I can play video games.',
+      tr: 'Ev işlerimi bitirdikten sonra video oyunları oynayabilirim.',
+    },
+    {
+      ing: 'Before cooking, wash your hands with soap.',
+      tr: 'Pişirmeden önce ellerinizi sabunla yıkayın.',
+    },
+    {
+      ing: 'Until the movie starts, we can get some popcorn.',
+      tr: 'Film başlayana kadar biraz patlamış mısır alabiliriz.',
+    },
+    {
+      ing: 'Whenever I hear a funny joke, I laugh out loud.',
+      tr: 'Ne zaman komik bir şaka duysam yüksek sesle gülerim.',
+    },
+    {
+      ing: 'By the time I reach the park, my friends will be there.',
+      tr: 'Parka ulaştığımda arkadaşlarım orada olacak.',
+    },
+    {
+      ing: "When it's cold, I wear a warm coat.",
+      tr: 'Hava soğuk olduğunda sıcak tutan bir palto giyerim.',
+    },
+    {
+      ing: "When it's raining, I bring an umbrella with me.",
+      tr: 'Yağmur yağdığında yanımda şemsiye getiririm.',
+    },
+    {
+      ing: 'While I study, I like to listen to classical music.',
+      tr: 'Ders çalışırken klasik müzik dinlemeyi severim.',
+    },
+    {
+      ing: 'As soon as the bell rings, we line up for recess.',
+      tr: 'Zil çalar çalmaz teneffüs için sıraya gireriz.',
+    },
+    {
+      ing: 'After dinner, I like to watch my favorite TV show.',
+      tr: 'Akşam yemeğinden sonra en sevdiğim televizyon programını izlemeyi severim.',
+    },
+    {
+      ing: 'Before going to sleep, I read a bedtime story.',
+      tr: 'Uyumadan önce bir hikaye okurum.',
+    },
+    {
+      ing: 'Until the bus arrives, we wait at the bus stop.',
+      tr: 'Otobüs gelene kadar otobüs durağında bekliyoruz.',
+    },
+    {
+      ing: 'Whenever I see a butterfly, I feel a sense of wonder.',
+      tr: 'Ne zaman bir kelebek görsem merak duygusu hissederim.',
+    },
+    {
+      ing: 'By the time we get to the cinema, the movie will have started.',
+      tr: 'Sinemaya vardığımızda film başlamış olacak.',
+    },
+    {
+      ing: "I bring an umbrella with me when it's raining.",
+      tr: 'Yağmur yağdığında yanımda şemsiye getiririm.',
+    },
+    {
+      ing: 'I like to listen to classical music while I study.',
+      tr: 'Ders çalışırken klasik müzik dinlemeyi severim.',
+    },
+    {
+      ing: 'We line up for recess as soon as the bell rings.',
+      tr: 'Zil çalar çalmaz teneffüs için sıraya giriyoruz.',
+    },
+    {
+      ing: 'I like to watch my favorite TV show after dinner.',
+      tr: 'Akşam yemeğinden sonra en sevdiğim televizyon programını izlemeyi severim.',
+    },
+    {
+      ing: 'I read a bedtime story before going to sleep.',
+      tr: 'Uyumadan önce bir hikaye okurum.',
+    },
+    {
+      ing: 'We wait at the bus stop until the bus arrives.',
+      tr: 'Otobüs gelene kadar otobüs durağında bekliyoruz.',
+    },
+    {
+      ing: 'I feel a sense of wonder whenever I see a butterfly.',
+      tr: 'Ne zaman bir kelebek görsem merak duygusu hissederim.',
+    },
+    {
+      ing: 'The movie will have started by the time we get to the cinema.',
+      tr: 'Sinemaya geldiğimizde film başlamış olacak.',
+    },
+    {
+      ing: 'When the sun sets, it gets darker outside.',
+      tr: 'Güneş battığında dışarısı daha da kararır.',
+    },
+    {
+      ing: 'While my mom cooks dinner, I set the table.',
+      tr: 'Annem akşam yemeğini hazırlarken ben masayı hazırlarım.',
+    },
+    {
+      ing: 'As soon as I finish my homework, I can play video games.',
+      tr: 'Ödevimi bitirir bitirmez video oyunları oynayabilirim.',
+    },
+    {
+      ing: 'After school, I go to the park with my friends.',
+      tr: 'Okuldan sonra arkadaşlarımla parka giderim.',
+    },
+    {
+      ing: 'Before going to school, I eat breakfast.',
+      tr: 'Okula gitmeden önce kahvaltı yaparım.',
+    },
+    {
+      ing: 'Until the store closes, we can shop for groceries.',
+      tr: 'Mağaza kapanana kadar market alışverişi yapabiliriz.',
+    },
+    {
+      ing: 'Whenever I hear a loud noise, I get startled.',
+      tr: 'Ne zaman yüksek bir ses duysam irkilirim.',
+    },
+    {
+      ing: 'By the time the party starts, I will have finished decorating.',
+      tr: 'Parti başladığında dekorasyonu bitirmiş olacağım.',
+    },
+    {
+      ing: 'I get startled when I hear a loud noise.',
+      tr: 'Yüksek bir ses duyduğumda irkiliyorum.',
+    },
+    {
+      ing: "When the bell rings, it's time for recess.",
+      tr: 'Zil çaldığında teneffüs zamanı gelmiştir.',
+    },
+    {
+      ing: 'While I study, I like to listen to classical music.',
+      tr: 'Ders çalışırken klasik müzik dinlemeyi severim.',
+    },
+    {
+      ing: 'As soon as the rain stops, we can go outside to play.',
+      tr: 'Yağmur durur durmaz oynamak için dışarı çıkabiliriz.',
+    },
+    {
+      ing: 'After school, I go home and do my homework.',
+      tr: 'Okuldan sonra eve gider ve ödevimi yaparım.',
+    },
+    {
+      ing: 'Before going to bed, I always brush my teeth.',
+      tr: 'Yatmadan önce daima dişlerimi fırçalarım.',
+    },
+    {
+      ing: "Until the bus arrives, let's wait at the bus stop.",
+      tr: 'Otobüs gelene kadar otobüs durağında bekleyelim.',
+    },
+    {
+      ing: 'Whenever I see a shooting star, I make a wish.',
+      tr: 'Ne zaman kayan bir yıldız görsem bir dilek tutarım.',
+    },
+    {
+      ing: 'By the time the movie ends, it will be late at night.',
+      tr: 'Film bittiğinde gece geç vakit olacaktır.',
+    },
+    {
+      ing: 'When the phone rings, please answer it for me.',
+      tr: 'Telefon çaldığında lütfen benim için cevap verin.',
+    },
+    {
+      ing: "While it's snowing, we can build a snowman in the backyard.",
+      tr: 'Kar yağarken arka bahçede kardan adam yapabiliriz.',
+    },
+    {
+      ing: 'As soon as I finish eating, I will help you clean the dishes.',
+      tr: 'Yemeğimi bitirir bitirmez bulaşıkları temizlemene yardım edeceğim.',
+    },
+    {
+      ing: "After the party ends, we'll need to clean up the mess.",
+      tr: 'Parti bittikten sonra ortalığı temizlememiz gerekecek.',
+    },
+    {
+      ing: 'Before going on a trip, pack your suitcase with all the essentials.',
+      tr: 'Seyahate çıkmadan önce çantanıza tüm gerekli eşyaları koyun.',
+    },
+    {
+      ing: 'Until the store opens, we can window-shop.',
+      tr: 'Mağaza açılana kadar vitrinlere bakabiliriz.',
+    },
+    {
+      ing: 'Whenever I hear a funny joke, I burst into laughter.',
+      tr: 'Ne zaman komik bir şaka duysam kahkahalara boğulurum.',
+    },
+    {
+      ing: "By the time the sun sets, it's time to go home.",
+      tr: 'Güneş battığında eve gitme zamanı gelmiştir.',
+    },
+    {
+      ing: "When it's hot outside, I enjoy eating ice cream.",
+      tr: 'Dışarısı sıcak olduğunda dondurma yemekten hoşlanırım.',
+    },
+    {
+      ing: 'While waiting for the train, I like to read a book.',
+      tr: 'Treni beklerken kitap okumayı severim.',
+    },
+    {
+      ing: "As soon as the alarm clock rings, it's time to wake up.",
+      tr: 'Çalar saat çalar çalmaz uyanma zamanı gelmiştir.',
+    },
+    {
+      ing: 'After finishing my homework, I reward myself with some TV time.',
+      tr: 'Ödevimi bitirdikten sonra kendimi biraz televizyon zamanıyla ödüllendiririm.',
+    },
+    {
+      ing: 'Before cooking, wash your hands thoroughly with soap.',
+      tr: 'Pişirmeden önce ellerinizi sabunla iyice yıkayın.',
+    },
+    {
+      ing: "Until the rain stops, let's stay indoors and play board games.",
+      tr: 'Yağmur duruncaya kadar evde kalalım ve masa oyunları oynayalım.',
+    },
+    {
+      ing: 'Whenever I see a rainbow, it brings joy to my heart.',
+      tr: 'Ne zaman gökkuşağı görsem kalbime neşe gelir.',
+    },
+    {
+      ing: 'By the time the concert starts, we should find our seats.',
+      tr: 'Konser başladığında yerlerimizi bulmalıyız.',
+    },
+    {
+      ing: "When it's cold, remember to wear a warm coat and hat.",
+      tr: 'Hava soğuk olduğunda sıcak tutan bir palto ve şapka giymeyi unutmayın.',
+    },
+    {
+      ing: 'When it rains, I stay indoors.',
+      tr: 'Yağmur yağdığında içeride kalıyorum.',
+    },
+    {
+      ing: 'I stay indoors when it rains.',
+      tr: 'Yağmur yağdığında içeride kalıyorum.',
+    },
+    {
+      ing: 'While I read a book, my sister watches TV.',
+      tr: 'Ben kitap okurken kız kardeşim televizyon izliyor.',
+    },
+    {
+      ing: 'My sister watches TV while I read a book.',
+      tr: 'Ben kitap okurken kız kardeşim televizyon izliyor.',
+    },
+    {
+      ing: 'As soon as the bell rings, class starts.',
+      tr: 'Zil çalar çalmaz ders başlar.',
+    },
+    {
+      ing: 'Class starts as soon as the bell rings.',
+      tr: 'Zil çalar çalmaz ders başlar.',
+    },
+    {
+      ing: 'After I finish my homework, I can play outside.',
+      tr: 'Ödevimi bitirdikten sonra dışarıda oynayabilirim.',
+    },
+    {
+      ing: 'I can play outside after I finish my homework.',
+      tr: 'Ödevimi bitirdikten sonra dışarıda oynayabilirim.',
+    },
+    {
+      ing: 'Before the movie starts, we need to buy tickets.',
+      tr: 'Film başlamadan önce bilet almamız gerekiyor.',
+    },
+    {
+      ing: 'We need to buy tickets before the movie starts.',
+      tr: 'Film başlamadan önce bilet almamız gerekiyor.',
+    },
+    {
+      ing: 'Until I finish my chores, I cannot go out.',
+      tr: 'Ev işlerimi bitirmeden dışarı çıkamam.',
+    },
+    {
+      ing: 'I cannot go out until I finish my chores.',
+      tr: 'Ev işlerimi bitirmeden dışarı çıkamam.',
+    },
+    {
+      ing: 'Whenever I see a butterfly, I feel happy.',
+      tr: 'Ne zaman bir kelebek görsem kendimi mutlu hissederim.',
+    },
+    {
+      ing: 'I feel happy whenever I see a butterfly.',
+      tr: 'Ne zaman bir kelebek görsem kendimi mutlu hissederim.',
+    },
+    {
+      ing: 'By the time I wake up, the sun is already shining.',
+      tr: 'Uyandığımda güneş çoktan parlıyor.',
+    },
+    {
+      ing: 'The sun is already shining by the time I wake up.',
+      tr: 'Uyandığımda güneş zaten parlıyor.',
+    },
+    {
+      ing: 'When the phone rings, answer it.',
+      tr: 'Telefon çaldığında cevap verin.',
+    },
+    {
+      ing: 'Answer the phone when it rings.',
+      tr: 'Telefon çaldığında cevap verin.',
+    },
+    {
+      ing: 'While I eat breakfast, I listen to the radio.',
+      tr: 'Kahvaltımı yaparken radyo dinlerim.',
+    },
+    {
+      ing: 'I listen to the radio while I eat breakfast.',
+      tr: 'Kahvaltı yaparken radyo dinlerim.',
+    },
+    {
+      ing: 'As soon as the bus arrives, we can leave.',
+      tr: 'Otobüs gelir gelmez yola çıkabiliriz.',
+    },
+    {
+      ing: 'We can leave as soon as the bus arrives.',
+      tr: 'Otobüs gelir gelmez yola çıkabiliriz.',
+    },
+    {
+      ing: 'After I finish my dinner, I brush my teeth.',
+      tr: 'Akşam yemeğimi bitirdikten sonra dişlerimi fırçalarım.',
+    },
+    {
+      ing: 'I brush my teeth after I finish my dinner.',
+      tr: 'Akşam yemeğimi bitirdikten sonra dişlerimi fırçalarım.',
+    },
+    {
+      ing: 'Before we go to the park, we pack a picnic.',
+      tr: 'Parka gitmeden önce yiyecek bir şeyler hazırlarız.',
+    },
+    {
+      ing: "When it's hot outside, I like to eat ice cream.",
+      tr: 'Dışarısı sıcak olduğunda dondurma yemeyi severim.',
+    },
+    {
+      ing: 'While I study, I listen to soft music in the background.',
+      tr: 'Ders çalışırken arka planda hafif müzik dinlerim.',
+    },
+    {
+      ing: 'As soon as the bell rings, we can go out for recess.',
+      tr: 'Zil çalar çalmaz teneffüse çıkabiliriz.',
+    },
+    {
+      ing: 'After school, I always walk home with my friends.',
+      tr: 'Okuldan sonra her zaman arkadaşlarımla birlikte eve yürüyerek giderim.',
+    },
+    {
+      ing: 'Before going to bed, I like to read a bedtime story.',
+      tr: 'Yatmadan önce yatmadan önce bir hikaye okumayı severim.',
+    },
+    {
+      ing: 'Until the rain stops, we will stay indoors.',
+      tr: 'Yağmur duruncaya kadar kapalı alanda kalacağız.',
+    },
+    {
+      ing: 'Whenever I see a rainbow, I feel happy.',
+      tr: 'Ne zaman gökkuşağı görsem mutlu olurum.',
+    },
+    {
+      ing: 'By the time I finish my dinner, it will be late.',
+      tr: 'Akşam yemeğimi bitirdiğimde geç olmuş olacak.',
+    },
+    {
+      ing: 'I like to eat vegetables when I have dinner.',
+      tr: 'Akşam yemeğinde sebze yemeyi severim.',
+    },
+    {
+      ing: 'I listen to my favorite songs while I do my homework.',
+      tr: 'Ödevimi yaparken en sevdiğim şarkıları dinlerim.',
+    },
+    {
+      ing: 'We can go to the park as soon as the sun comes out.',
+      tr: 'Güneş doğar doğmaz parka gidebiliriz.',
+    },
+    {
+      ing: 'I always feel hungry after I finish my swimming class.',
+      tr: 'Yüzme dersimi bitirdikten sonra kendimi daima aç hissederim.',
+    },
+    {
+      ing: 'Before going to the party, I need to buy a gift.',
+      tr: 'Partiye gitmeden önce bir hediye almam gerekiyor.',
+    },
+    {
+      ing: 'We have to wait until the bus arrives before we can leave.',
+      tr: 'Ayrılmak için otobüsün gelmesini beklemek zorundayız.',
+    },
+    {
+      ing: 'Whenever I see a dog, I want to pet it.',
+      tr: 'Ne zaman bir köpek görsem onu sevmek isterim.',
+    },
+    {
+      ing: 'By the time I wake up, the sun is already shining.',
+      tr: 'Uyandığımda güneş çoktan parlıyor.',
+    },
+    {
+      ing: "When it's raining, I like to stay inside and watch movies.",
+      tr: 'Yağmur yağdığında içeride kalıp film izlemeyi severim.',
+    },
+    {
+      ing: 'While waiting for the train, I read a book.',
+      tr: 'Treni beklerken kitap okudum.',
+    },
+    {
+      ing: 'As soon as the teacher enters the classroom, we stand up.',
+      tr: 'Öğretmen sınıfa girer girmez ayağa kalkarız.',
+    },
+    {
+      ing: 'I can play video games after finishing my homework.',
+      tr: 'Ödevimi bitirdikten sonra video oyunları oynayabilirim.',
+    },
+    {
+      ing: 'Before going to the beach, apply sunscreen on your skin.',
+      tr: 'Plaja gitmeden önce cildinize güneş kremi sürün.',
+    },
+    {
+      ing: 'We will stay at the park until it gets dark.',
+      tr: 'Hava kararıncaya kadar parkta kalacağız.',
+    },
+    {
+      ing: "Whenever I hear a funny joke, I can't help but laugh.",
+      tr: 'Ne zaman komik bir şaka duysam gülmekten kendimi alamıyorum.',
+    },
+    {
+      ing: 'By the time I reach the store, it will be closed.',
+      tr: 'Mağazaya ulaştığımda kapanmış olacak.',
+    },
+    {
+      ing: "When it's cold outside, wear a warm coat.",
+      tr: 'Dışarısı soğuk olduğunda sıcak tutan bir palto giyin.',
+    },
+  ],
+  Zıtlık: [
+    {
+      ing: "Although it's raining, I will still go for a walk.",
+      tr: 'Yağmur yağmasına rağmen yine de yürüyüşe çıkacağım.',
+    },
+    {
+      ing: "I enjoy going to the beach, though I don't know how to swim.",
+      tr: 'Yüzmeyi bilmememe rağmen plaja gitmekten hoşlanırım.',
+    },
+    {
+      ing: "Even though it's late, I will finish my homework.",
+      tr: 'Geç de olsa ödevimi bitireceğim.',
+    },
+    {
+      ing: "While I don't like broccoli, I will eat it to be healthy.",
+      tr: 'Brokoliyi sevmesem de sağlıklı olmak için yiyeceğim.',
+    },
+    {
+      ing: "Although I'm tired, I will stay up to watch my favorite TV show.",
+      tr: 'Yorgun olmama rağmen en sevdiğim TV programını izlemek için uyanık kalacağım.',
+    },
+    {
+      ing: "I don't like spiders, though they play an important role in the ecosystem.",
+      tr: 'Ekosistemde önemli bir rol oynamalarına rağmen örümcekleri sevmiyorum.',
+    },
+    {
+      ing: "Even though it's crowded, I will still go to the party.",
+      tr: 'Kalabalık olmasına rağmen yine de partiye gideceğim.',
+    },
+    {
+      ing: 'While I prefer tea, I will have coffee with you.',
+      tr: 'Çayı tercih etsem de sizinle kahve içerim.',
+    },
+    {
+      ing: "Although it's cold outside, I will go out and play.",
+      tr: 'Dışarısı soğuk olmasına rağmen dışarı çıkıp oynayacağım.',
+    },
+    {
+      ing: 'Though I am busy, I will help you with your project.',
+      tr: 'Meşgul olmama rağmen projenizde size yardımcı olacağım.',
+    },
+    {
+      ing: "Even though I'm scared of heights, I will try bungee jumping.",
+      tr: 'Yükseklik korkum olmasına rağmen bungee jumping yapmayı deneyeceğim.',
+    },
+    {
+      ing: "While I don't understand the math problem, I will ask the teacher for help.",
+      tr: 'Matematik problemini anlamadığım halde öğretmenden yardım isteyeceğim.',
+    },
+    {
+      ing: "Although it's expensive, I will buy the new smartphone.",
+      tr: 'Pahalı olmasına rağmen yeni akıllı telefonu satın alacağım.',
+    },
+    {
+      ing: "Though it's dark, I will go for a run in the evening.",
+      tr: 'Hava karanlık olmasına rağmen akşam koşuya çıkacağım.',
+    },
+    {
+      ing: "Even though it's raining, I will have a picnic indoors.",
+      tr: 'Yağmur yağmasına rağmen kapalı alanda piknik yapacağım.',
+    },
+    {
+      ing: "While I'm not a fan of horror movies, I will watch this one with you.",
+      tr: 'Korku filmlerini pek sevmesem de bunu seninle izleyeceğim.',
+    },
+    {
+      ing: "Although I'm afraid of public speaking, I will give a presentation.",
+      tr: 'Topluluk önünde konuşmaktan korkmama rağmen sunum yapacağım.',
+    },
+    {
+      ing: 'Though the traffic is heavy, I will still make it to the meeting.',
+      tr: 'Trafik yoğun olmasına rağmen yine de toplantıya yetişeceğim.',
+    },
+    {
+      ing: "Even though I'm not hungry, I will have a small snack.",
+      tr: 'Aç olmasam da küçük bir atıştırmalık yiyeceğim.',
+    },
+    {
+      ing: "While I don't like spicy food, I will try a bite of the curry.",
+      tr: 'Baharatlı yiyecekleri sevmesem de köriden bir parça deneyeceğim.',
+    },
+    {
+      ing: "Although it's a long journey, I will travel by train.",
+      tr: 'Uzun bir yolculuk olmasına rağmen trenle seyahat edeceğim.',
+    },
+    {
+      ing: "Though it's noisy, I will study in the library.",
+      tr: 'Gürültülü olmasına rağmen kütüphanede çalışacağım.',
+    },
+    {
+      ing: "Even though I'm not a morning person, I will wake up early for the event.",
+      tr: 'Sabah insanı olmasam da etkinlik için erken kalkacağım.',
+    },
+    {
+      ing: "While I'm not a big fan of exercise, I will go for a jog today.",
+      tr: 'Egzersiz yapmayı pek sevmesem de bugün koşuya çıkacağım.',
+    },
+    {
+      ing: "Although it's challenging, I will learn to play the guitar.",
+      tr: 'Zor da olsa gitar çalmayı öğreneceğim.',
+    },
+    {
+      ing: "Although it's raining, I will go for a walk.",
+      tr: 'Yağmur yağmasına rağmen yürüyüşe çıkacağım.',
+    },
+    {
+      ing: "Though it's late, I will finish my homework.",
+      tr: 'Geç de olsa ödevimi bitireceğim.',
+    },
+    {
+      ing: "Even though it's cold, I won't wear a jacket.",
+      tr: 'Hava soğuk olmasına rağmen ceket giymeyeceğim.',
+    },
+    {
+      ing: "While I understand it's difficult, I will still try.",
+      tr: 'Zor olduğunu anlasam da yine de deneyeceğim.',
+    },
+    {
+      ing: 'Although I am tired, I will keep working.',
+      tr: 'Yorgun olmama rağmen çalışmaya devam edeceğim.',
+    },
+    {
+      ing: "Though it's noisy, I can still focus on my work.",
+      tr: 'Gürültülü olmasına rağmen yine de işime odaklanabiliyorum.',
+    },
+    {
+      ing: "Even though it's hot, I won't turn on the air conditioning.",
+      tr: 'Hava sıcak olmasına rağmen klimayı açmayacağım.',
+    },
+    {
+      ing: "While it's expensive, I still want to buy it.",
+      tr: 'Pahalı olmasına rağmen yine de satın almak isterim.',
+    },
+    {
+      ing: "Although it's dark, I'm not afraid of the night.",
+      tr: 'Karanlık olmasına rağmen geceden korkmuyorum.',
+    },
+    {
+      ing: 'Though I am busy, I will make time for you.',
+      tr: 'Meşgul olmama rağmen sana zaman ayıracağım.',
+    },
+    {
+      ing: "Even though it's crowded, I enjoy going to concerts.",
+      tr: 'Kalabalık olmasına rağmen konserlere gitmekten hoşlanırım.',
+    },
+    {
+      ing: "While it's challenging, I will give it my best shot.",
+      tr: 'Her ne kadar zorlayıcı olsa da elimden gelenin en iyisini yapacağım.',
+    },
+    {
+      ing: "Although it's far, I will walk to the park.",
+      tr: 'Uzak olmasına rağmen parka yürüyeceğim.',
+    },
+    {
+      ing: "Though it's difficult, I won't give up.",
+      tr: 'Zor olsa da pes etmeyeceğim.',
+    },
+    {
+      ing: "Even though it's raining, I will still go to the beach.",
+      tr: 'Yağmur yağmasına rağmen yine de plaja gideceğim.',
+    },
+    {
+      ing: "While it's tempting, I won't eat another piece of cake.",
+      tr: 'Her ne kadar cazip gelse de bir dilim pasta daha yemeyeceğim.',
+    },
+    {
+      ing: "Although it's noisy, I can still hear the music.",
+      tr: 'Gürültülü olmasına rağmen müziği hâlâ duyabiliyorum.',
+    },
+    {
+      ing: "Though it's small, it can still be meaningful.",
+      tr: 'Küçük olmasına rağmen yine de anlamlı olabilir.',
+    },
+    {
+      ing: "Even though it's late, I will wait for you.",
+      tr: 'Geç de olsa seni bekleyeceğim.',
+    },
+    {
+      ing: "While it's hard, I will keep practicing.",
+      tr: 'Zor olsa da pratik yapmaya devam edeceğim.',
+    },
+    {
+      ing: "Although it's expensive, I will save money to buy it.",
+      tr: 'Pahalı olmasına rağmen onu satın almak için para biriktireceğim.',
+    },
+    {
+      ing: "Though it's challenging, I enjoy solving puzzles.",
+      tr: 'Zorlayıcı olmasına rağmen bulmaca çözmekten hoşlanırım.',
+    },
+    {
+      ing: "Even though it's crowded, I will find a place to sit.",
+      tr: 'Kalabalık da olsa oturacak yer bulacağım.',
+    },
+    {
+      ing: "While it's risky, I will take a chance.",
+      tr: 'Riskli olsa da şansımı deneyeceğim.',
+    },
+    {
+      ing: "Although it's hot outside, I won't turn on the fan.",
+      tr: 'Dışarısı sıcak olmasına rağmen fanı açmayacağım.',
+    },
+    {
+      ing: "Although it's raining, I will still go for a walk.",
+      tr: 'Yağmur yağmasına rağmen yine de yürüyüşe çıkacağım.',
+    },
+    {
+      ing: "Though it's late, I will finish my work.",
+      tr: 'Geç de olsa işimi bitireceğim.',
+    },
+    {
+      ing: 'Even though I am tired, I will stay up to watch the movie.',
+      tr: 'Yorgun olmama rağmen filmi izlemek için uyanık kalacağım.',
+    },
+    {
+      ing: "While it's cold outside, I still enjoy going to the park.",
+      tr: 'Dışarısı soğuk olmasına rağmen parka gitmekten hala keyif alıyorum.',
+    },
+    {
+      ing: "Although I don't like vegetables, I will eat them to stay healthy.",
+      tr: 'Sebzeleri sevmememe rağmen sağlıklı kalmak için onları yiyeceğim.',
+    },
+    {
+      ing: "Though it's noisy, I can concentrate on my studies.",
+      tr: 'Gürültülü olmasına rağmen çalışmalarıma konsantre olabiliyorum.',
+    },
+    {
+      ing: "Even though it's expensive, I will buy that dress.",
+      tr: 'Pahalı da olsa o elbiseyi alacağım.',
+    },
+    {
+      ing: "While it's dark, I can still find my way home.",
+      tr: 'Hava karanlık olmasına rağmen hâlâ evimin yolunu bulabilirim.',
+    },
+    {
+      ing: 'Although I am scared of heights, I will go on the roller coaster.',
+      tr: 'Yükseklik korkuma rağmen hız trenine bineceğim.',
+    },
+    {
+      ing: "Though I don't understand the language, I will try to communicate.",
+      tr: 'Dili anlamasam da iletişim kurmaya çalışacağım.',
+    },
+    {
+      ing: "Even though it's crowded, I will find a place to sit.",
+      tr: 'Kalabalık olmasına rağmen oturacak yer bulacağım.',
+    },
+    {
+      ing: "While it's raining, I will still go outside and play.",
+      tr: 'Yağmur yağarken yine de dışarı çıkıp oynayacağım.',
+    },
+    {
+      ing: 'Although I am busy, I will make time for my friends.',
+      tr: 'Meşgul olmama rağmen arkadaşlarıma zaman ayıracağım.',
+    },
+    {
+      ing: "Though it's challenging, I will try my best.",
+      tr: 'Zorlayıcı olsa da elimden gelenin en iyisini yapacağım.',
+    },
+    {
+      ing: "Even though it's hot, I will wear a jacket because it's part of my outfit.",
+      tr: 'Hava sıcak olmasına rağmen kıyafetimin bir parçası olduğu için ceket giyeceğim.',
+    },
+    {
+      ing: "While it's stormy, I will still go fishing.",
+      tr: 'Hava fırtınalı olsa da yine de balık tutmaya gideceğim.',
+    },
+    {
+      ing: 'Although I am afraid of spiders, I will try to catch one in a jar.',
+      tr: 'Örümceklerden korkmama rağmen kavanozda bir tane yakalamaya çalışacağım.',
+    },
+    {
+      ing: "Though I don't like spicy food, I will try a small bite.",
+      tr: 'Baharatlı yiyecekleri sevmememe rağmen küçük bir lokma deneyeceğim.',
+    },
+    {
+      ing: "Even though it's far, I will walk to save money.",
+      tr: 'Uzak olsa da para biriktirmek için yürüyeceğim.',
+    },
+    {
+      ing: "While it's snowing, I will build a snowman.",
+      tr: 'Kar yağarken kardan adam yapacağım.',
+    },
+    {
+      ing: 'Although I am tired, I will continue running in the race.',
+      tr: 'Yorgun olmama rağmen yarışta koşmaya devam edeceğim.',
+    },
+    {
+      ing: "Though it's late, I will still call my friend to wish them happy birthday.",
+      tr: 'Geç olmasına rağmen yine de arkadaşımı arayıp doğum gününü kutlayacağım.',
+    },
+    {
+      ing: "Even though it's a long wait, I will stand in line for the concert tickets.",
+      tr: 'Uzun bir bekleyiş olsa da konser biletleri için sıraya gireceğim.',
+    },
+    {
+      ing: "While it's windy, I will still fly a kite in the park.",
+      tr: 'Rüzgârlı olsa da parkta uçurtma uçuracağım.',
+    },
+    {
+      ing: 'Although I am nervous, I will give a presentation in front of the class.',
+      tr: 'Her ne kadar gergin olsam da sınıfın önünde sunum yapacağım.',
+    },
+    {
+      ing: "Although it's raining, I will still go for a walk.",
+      tr: 'Yağmur yağmasına rağmen yine de yürüyüşe çıkacağım.',
+    },
+    {
+      ing: "Though it's late, I can't fall asleep.",
+      tr: 'Geç olmasına rağmen uyuyamıyorum.',
+    },
+    {
+      ing: "Even though it's cold outside, I prefer wearing a T-shirt.",
+      tr: 'Dışarısı soğuk olmasına rağmen tişört giymeyi tercih ederim.',
+    },
+    {
+      ing: 'While she is younger, she is taller than me.',
+      tr: 'Yaşı küçük olmasına rağmen benden uzundur.',
+    },
+    {
+      ing: 'Although I am tired, I will finish my homework.',
+      tr: 'Yorgun olmama rağmen ödevimi bitireceğim.',
+    },
+    {
+      ing: "Though I don't like vegetables, I eat them for my health.",
+      tr: 'Sebzeleri sevmememe rağmen sağlığım için yerim.',
+    },
+    {
+      ing: "Even though it's noisy, I can concentrate on my work.",
+      tr: 'Gürültülü olmasına rağmen işime konsantre olabiliyorum.',
+    },
+    {
+      ing: "While it's expensive, I will buy the dress because I like it.",
+      tr: 'Pahalı olmasına rağmen elbiseyi beğendiğim için satın alacağım.',
+    },
+    {
+      ing: 'Although the movie was long, I enjoyed watching it.',
+      tr: 'Film uzun olmasına rağmen izlerken keyif aldım.',
+    },
+    {
+      ing: 'Though I am scared of heights, I want to try bungee jumping.',
+      tr: "Yükseklik korkum olmasına rağmen bungee jumping'i denemek isterim.",
+    },
+    {
+      ing: "Even though it's hot, I won't turn on the air conditioner.",
+      tr: 'Hava sıcak olmasına rağmen klimayı açmayacağım.',
+    },
+    {
+      ing: "While it's difficult, I will keep practicing until I get it right.",
+      tr: 'Zor olsa da doğru sonuca ulaşana kadar pratik yapmaya devam edeceğim.',
+    },
+    {
+      ing: 'Although I am busy, I will help you with your project.',
+      tr: 'Meşgul olmama rağmen projenizde size yardımcı olacağım.',
+    },
+    {
+      ing: 'Though the traffic is heavy, I will reach the destination on time.',
+      tr: 'Trafik yoğun olsa da gideceğim yere zamanında varacağım.',
+    },
+    {
+      ing: "Even though it's crowded, I will find a seat on the train.",
+      tr: 'Kalabalık olmasına rağmen trende yer bulacağım.',
+    },
+    {
+      ing: 'While he is older, he is not as experienced as I am.',
+      tr: 'Yaşı büyük olmasına rağmen benim kadar tecrübeli değil.',
+    },
+    {
+      ing: "Although it's challenging, I won't give up.",
+      tr: 'Zor olsa da pes etmeyeceğim.',
+    },
+    {
+      ing: "Though it's far, I will walk instead of taking a bus.",
+      tr: 'Uzak olmasına rağmen otobüse binmek yerine yürüyeceğim.',
+    },
+    {
+      ing: "Even though it's late, I will make dinner for us.",
+      tr: 'Geç de olsa bize akşam yemeği yapacağım.',
+    },
+    {
+      ing: 'While she is shy, she can be very outgoing with her close friends.',
+      tr: 'Utangaç olmasına rağmen yakın arkadaşlarına karşı çok dışa dönük olabilir.',
+    },
+    {
+      ing: 'Although the food is spicy, I enjoy eating it.',
+      tr: 'Yemek baharatlı olmasına rağmen yemekten keyif alırım.',
+    },
+    {
+      ing: "Though it's raining, we will still have a picnic.",
+      tr: 'Yağmur yağmasına rağmen yine de piknik yapacağız.',
+    },
+    {
+      ing: 'Even though I am tired, I will go to the gym for a workout.',
+      tr: 'Yorgun olmama rağmen spor yapmak için spor salonuna gideceğim.',
+    },
+    {
+      ing: "While it's cold, I won't wear a heavy coat.",
+      tr: 'Hava soğuk olmasına rağmen kalın bir palto giymeyeceğim.',
+    },
+    {
+      ing: "Although it's a long journey, I will travel by train.",
+      tr: 'Uzun bir yolculuk olmasına rağmen trenle seyahat edeceğim.',
+    },
+  ],
+};

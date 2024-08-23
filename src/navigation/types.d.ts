@@ -10,6 +10,7 @@ export type StackNavigatorList = {
   QuestionsTranslation: {title: string; item?: any};
   RcNcTranslation: {title: string; item?: any};
   PassiveTranslation: {title: string; item?: any};
+  Conjunctions1GTranslation: {title: string; item?: any};
   SubCategory: {title: string; item?: any};
   FourSkills: {title?: string; item?: any};
   Units: {title: string; item?: any};

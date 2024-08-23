@@ -105,3 +105,28 @@ export const translateActivePassive = (
 
   return result;
 };
+
+export const translateConjuctions = (data: any) => {
+  return data.reduce((acc: any, item: any) => {
+    Object.keys(item).forEach(key => {
+      const [category, lang] = key.split('_');
+
+      if (!acc[category]) {
+        acc[category] = [];
+      }
+
+      let lastObj =
+        acc[category].length > 0
+          ? acc[category][acc[category].length - 1]
+          : null;
+
+      if (!lastObj || lastObj[lang]) {
+        lastObj = {ing: '', tr: ''};
+        acc[category].push(lastObj);
+      }
+
+      lastObj[lang] = item[key];
+    });
+    return acc;
+  }, {});
+};

@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, TouchableOpacity, Text, StyleSheet} from 'react-native';
+import {FlatList, TouchableOpacity, Text, StyleSheet, View} from 'react-native';
 import Icon from '../../../themes/Icon';
 import Blink from '../../../components/Blink';
 
@@ -18,60 +18,75 @@ const CellSelectionComponent = ({
     });
   };
 
-  const renderCell = (cell: any, title: any) => (
+  const calculateNumColumns = () => {
+    if (cells.length <= 4) {
+      return cells.length;
+    } else {
+      return 4; // 4 columns for up to 5 items
+    }
+  };
+
+  const renderCell = ({item}: any) => (
     <TouchableOpacity
-      activeOpacity={0.7}
-      onPress={() => toggleCell(cell)}
+      onPress={() => toggleCell(item.value)}
       style={[
         styles.choiceCard,
         {
-          borderColor: selectedCells.includes(cell) ? '#2CC2DB' : '#fff',
+          borderColor: selectedCells.includes(item.value) ? '#2CC2DB' : '#fff',
+          width: cells.length > 4 ? '22%' : cells.length === 2 ? '46%' : '100%',
+          height: 60,
         },
-        !selectedCells.includes(cell) && styles.shadow,
+        !selectedCells.includes(item.value) && styles.shadow,
       ]}>
-      <Text style={styles.cellText}>{title}</Text>
-      {selectedCells.includes(cell) && selectedCell === cell ? (
+      <Text style={styles.cellText}>{item.label}</Text>
+      {selectedCells.includes(item.value) && selectedCell === item.value ? (
         <Blink duration={500} style={styles.tickIconPosition}>
-          <View style={styles.tickIconContainer}>
-            <Icon name="Tick" color="#fff" width={24} height={24} />
+          <View style={[styles.tickIconContainer]}>
+            <Icon name="Tick" width={20} height={20} color="#fff" />
           </View>
         </Blink>
-      ) : selectedCells.includes(cell) ? (
+      ) : selectedCells.includes(item.value) ? (
         <View style={[styles.tickIconContainer, styles.tickIconPosition]}>
-          <Icon name="Tick" color="#fff" width={24} height={24} />
+          <Icon name="Tick" width={20} height={20} color="#fff" />
         </View>
       ) : null}
     </TouchableOpacity>
   );
 
   return (
-    <View style={styles.container}>
-      {/* {renderCell('RC', 'Relative Clause')}
-      {renderCell('NC', 'Noun Clause')} */}
-      {cells.map((cell: any) => renderCell(cell.value, cell.label))}
-    </View>
+    <FlatList
+      data={cells}
+      renderItem={renderCell}
+      keyExtractor={item => item.value.toString()}
+      numColumns={calculateNumColumns()}
+      columnWrapperStyle={styles.row}
+      contentContainerStyle={styles.container}
+    />
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: 'row',
-    gap: 10,
     paddingHorizontal: 16,
-    marginTop: 16,
+    width: '100%',
+    paddingTop: 8,
+  },
+  row: {
+    justifyContent: 'space-between',
+    flexWrap: 'wrap', // Wrap the cells into the next line
   },
   choiceCard: {
-    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#fff',
     borderWidth: 2,
     padding: 8,
     borderRadius: 8,
-    height: 80,
+    marginBottom: 6,
+    margin: 4, // Margin around the cells to give them space
   },
   cellText: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: 'bold',
     color: 'black',
   },
@@ -87,7 +102,7 @@ const styles = StyleSheet.create({
   },
   tickIconContainer: {
     backgroundColor: '#2CC2DB',
-    borderRadius: 12,
+    borderRadius: 10,
     borderColor: '#2CC2DB',
     borderWidth: 2,
     shadowColor: '#000',
@@ -98,6 +113,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 5,
+    padding: 2, // Adjust padding for the icon
   },
   tickIconPosition: {
     position: 'absolute',

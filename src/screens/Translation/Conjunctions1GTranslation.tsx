@@ -10,7 +10,6 @@ import {
 } from 'react-native';
 import Voice from '@react-native-voice/voice';
 import {handleVoice} from '../../helpers/voiceCenter';
-import {RcNcTranslationSentences} from '../../utils/translation';
 import ChartComponent from './components/ChartComponent';
 import CellSelectionComponent from './components/CellSelectionComponent';
 import QuestionComponent from './components/QuestionComponent';
@@ -18,15 +17,20 @@ import AnswerInputComponent from './components/AnswerInputComponent';
 import BottomSheetComponent from './components/BottomSheetComponent';
 import DraggableFlatList from 'react-native-draggable-flatlist';
 import BottomSheet from '@gorhom/bottom-sheet/lib/typescript/components/bottomSheet/BottomSheet';
-import {translateConjuctions} from '../../helpers/translateArray';
-import {test} from '../../utils/data';
+import {Conjuction1GTranslationSentences} from '../../utils/translation';
 
-const RcNcTranslation = () => {
+const Conjunctions1GTranslation = () => {
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
   const [isAnswerVisible, setIsAnswerVisible] = useState(true);
-  const [selectedCells, setSelectedCells] = useState(['RC', 'NC']);
+  const [selectedCells, setSelectedCells] = useState([
+    'Amaç',
+    'Koşul',
+    'Neden',
+    'Zaman',
+    'Zıtlık',
+  ]);
   const [selectedCell, setSelectedCell] = useState('');
   const [sentence, setSentence] = useState(
     'Henüz bir soru yok, hücrelerden seçim yapıp sor tuşuna basmalısın!',
@@ -98,10 +102,6 @@ const RcNcTranslation = () => {
     );
   };
 
-  useEffect(() => {
-    console.log(translateConjuctions(test));
-  }, []);
-
   const continueButton = () => {
     setSentence('Yeni soru için sor butonuna basınız!');
     setTextInputValue([]);
@@ -110,7 +110,7 @@ const RcNcTranslation = () => {
     handleAskButton();
     bottomSheetRef.current?.close();
   };
-  type SymbolKeys = 'RC' | 'NC';
+  type SymbolKeys = 'Amaç' | 'Koşul' | 'Neden' | 'Zaman' | 'Zıtlık';
 
   const generateQuestion = () => {
     const randomIndexForSymbols = Math.floor(
@@ -121,7 +121,8 @@ const RcNcTranslation = () => {
     ] as SymbolKeys;
     setSelectedCell(newSelectedSymbol);
 
-    let newTranslationSentences = RcNcTranslationSentences[newSelectedSymbol];
+    let newTranslationSentences =
+      Conjuction1GTranslationSentences[newSelectedSymbol];
 
     if (!newTranslationSentences) {
       setSentence('Çeviri cümlesi bulunamadı, hücre seçimi yapmalısın!');
@@ -169,7 +170,7 @@ const RcNcTranslation = () => {
       setCorrectAnswers(correctAnswers + 1);
 
       const translationSentences =
-        RcNcTranslationSentences[selectedCell as SymbolKeys];
+        Conjuction1GTranslationSentences[selectedCell as SymbolKeys];
       translationSentences.splice(questionIndex, 1);
       setRemainingQuestionCount(translationSentences.length);
     } else {
@@ -221,12 +222,24 @@ const RcNcTranslation = () => {
             selectedCell={selectedCell}
             cells={[
               {
-                value: 'RC',
-                label: 'Relative Clause',
+                value: 'Amaç',
+                label: 'Amaç',
               },
               {
-                value: 'NC',
-                label: 'Noun Clause',
+                value: 'Koşul',
+                label: 'Koşul',
+              },
+              {
+                value: 'Neden',
+                label: 'Neden',
+              },
+              {
+                value: 'Zaman',
+                label: 'Zaman',
+              },
+              {
+                value: 'Zıtlık',
+                label: 'Zıtlık',
               },
             ]}
           />
@@ -314,4 +327,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default RcNcTranslation;
+export default Conjunctions1GTranslation;
