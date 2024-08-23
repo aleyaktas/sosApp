@@ -22,7 +22,7 @@ const CellSelectionComponent = ({
     if (cells.length <= 4) {
       return cells.length;
     } else {
-      return 4; // 4 columns for up to 5 items
+      return 4;
     }
   };
 
@@ -33,8 +33,17 @@ const CellSelectionComponent = ({
         styles.choiceCard,
         {
           borderColor: selectedCells.includes(item.value) ? '#2CC2DB' : '#fff',
-          width: cells.length > 4 ? '22%' : cells.length === 2 ? '46%' : '100%',
-          height: 60,
+          width:
+            cells.length > 4
+              ? '22%'
+              : cells.length === 2
+              ? '46%'
+              : cells.length === 3
+              ? '30%'
+              : cells.length === 4
+              ? '22%'
+              : '100%',
+          height: 70,
         },
         !selectedCells.includes(item.value) && styles.shadow,
       ]}>
@@ -82,8 +91,6 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     padding: 8,
     borderRadius: 8,
-    marginBottom: 6,
-    margin: 4, // Margin around the cells to give them space
   },
   cellText: {
     fontSize: 14,

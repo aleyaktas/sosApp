@@ -38127,3 +38127,2387 @@ export const Conjuction1GTranslationSentences = {
     },
   ],
 };
+
+export const Conjuction2GTranslationSentences = {
+  AynıFikriSürdürme: [
+    {
+      ing: 'I love to read books. In addition, I also enjoy writing my own stories.',
+      tr: 'Ben kitap okumayı severim. Ayrıca ben kendi hikayelerimi yazmaktan da keyif alıyorum.',
+    },
+    {
+      ing: 'She likes to play tennis. Moreover, she is really good at it.',
+      tr: 'O tenis oynamayı seviyor. Üstelik o bu konuda gerçekten çok iyi.',
+    },
+    {
+      ing: 'He loves to eat fruits. Besides, they are healthy for him.',
+      tr: 'O meyve yemeyi çok seviyor. Üstelik onlar onun için sağlıklılar.',
+    },
+    {
+      ing: 'I like to paint. In addition, I also enjoy drawing with pencils.',
+      tr: 'Ben resim yapmayı severim. Ayrıca ben kara kalemle çizim yapmaktan da keyif alıyorum.',
+    },
+    {
+      ing: 'She plays the piano very well. Moreover, she can also play the violin.',
+      tr: 'O çok iyi piyano çalıyor. Üstelik o keman da çalabiliyor.',
+    },
+    {
+      ing: 'He likes to watch football. Besides, he also plays in a local team.',
+      tr: 'O futbol izlemeyi seviyor. Ayrıca o yerel bir takımda da oynuyor.',
+    },
+    {
+      ing: 'I enjoy cooking. In addition, I love to bake desserts.',
+      tr: 'Ben yemek yapmaktan keyif alıyorum. Ayrıca ben tatlı yapmayı da seviyorum.',
+    },
+    {
+      ing: 'She likes to go hiking. Moreover, she also enjoys camping in the woods.',
+      tr: 'O yürüyüşe çıkmayı seviyor. Ayrıca o ormanda kamp yapmaktan da hoşlanıyor.',
+    },
+    {
+      ing: "He likes to ride his bike. Besides, it's good exercise.",
+      tr: 'O bisikletine binmeyi seviyor. Üstelik o iyi bir egzersizdir.',
+    },
+    {
+      ing: 'I love listening to music. In addition, I also play the guitar.',
+      tr: 'Ben müzik dinlemeyi seviyorum. Bunun dışında ben gitar da çalıyorum.',
+    },
+    {
+      ing: 'She enjoys watching movies. Moreover, she has a large collection of DVDs.',
+      tr: 'O film izlemekten hoşlanıyor. Üstelik onun geniş bir DVD koleksiyonu var.',
+    },
+    {
+      ing: 'He loves to play video games. Besides, they help him relax.',
+      tr: 'O video oyunları oynamayı seviyor. Üstelik onlar onun rahatlamasına da yardımcı oluyorlar.',
+    },
+    {
+      ing: "I enjoy gardening. In addition, it's a good way to spend time outdoors.",
+      tr: 'Ben bahçecilikten hoşlanırım. Ayrıca bu açık havada vakit geçirmenin iyi bir yoludur.',
+    },
+    {
+      ing: 'She loves animals. Moreover, she volunteers at a local animal shelter.',
+      tr: 'O hayvanları seviyor. Ayrıca o yerel bir hayvan barınağında gönüllü olarak çalışıyor.',
+    },
+    {
+      ing: "He enjoys swimming. Besides, it's a great way to stay fit.",
+      tr: 'O yüzmekten hoşlanıyor. Üstelik o formda kalmanın harika bir yoludur.',
+    },
+    {
+      ing: 'I love traveling. In addition, I enjoy learning about new cultures.',
+      tr: 'Ben seyahat etmeyi seviyorum. Ayrıca ben yeni kültürleri öğrenmekten de keyif alıyorum.',
+    },
+    {
+      ing: 'She loves fashion. Moreover, she designs her own clothes.',
+      tr: 'O modayı seviyor. Üstelik o kendi kıyafetlerini de tasarlıyor.',
+    },
+    {
+      ing: 'He loves reading about history. Besides, he also enjoys visiting museums.',
+      tr: 'O tarih okumayı seviyor. Ayrıca o müzeleri gezmekten de hoşlanıyor.',
+    },
+    {
+      ing: 'I like to write poems. In addition, I also enjoy reading poetry.',
+      tr: 'Ben şiir yazmayı severim. Ayrıca ben şiir okumaktan da keyif alıyorum.',
+    },
+    {
+      ing: 'She loves to sing. Moreover, she also plays the piano.',
+      tr: 'O şarkı söylemeyi seviyor. Üstelik o piyano da çalıyor.',
+    },
+    {
+      ing: 'He enjoys running. Besides, it helps him clear his mind.',
+      tr: 'O koşmaktan hoşlanıyor. Ayrıca o, onun zihnini temizlemesine yardımcı olur.',
+    },
+    {
+      ing: 'I love to take photos. In addition, I also enjoy editing them.',
+      tr: 'Ben fotoğraf çekmeyi seviyorum. Ayrıca ben bunları düzenlemekten de keyif alıyorum.',
+    },
+    {
+      ing: 'She loves dancing. Moreover, she takes dance classes every week.',
+      tr: 'O dans etmeyi seviyor. Ayrıca o her hafta dans dersleri alıyor.',
+    },
+    {
+      ing: 'He loves to eat pasta. Besides, he can cook a great spaghetti dish.',
+      tr: 'O makarna yemeyi çok seviyor. Ayrıca o harika bir spagetti yemeği de pişirebilir.',
+    },
+    {
+      ing: 'I enjoy painting. In addition, I like to visit art galleries.',
+      tr: 'Ben resim yapmaktan keyif alıyorum. Ayrıca ben sanat galerilerini ziyaret etmeyi seviyorum.',
+    },
+    {
+      ing: 'The job is challenging. Furthermore, it is very rewarding.',
+      tr: 'İş zorlayıcı. Ayrıca, çok tatmin edici.',
+    },
+    {
+      ing: 'The concert was amazing. Furthermore, the tickets were affordable.',
+      tr: 'Konser harikaydı. Ayrıca, biletler uygun fiyatlıydı.',
+    },
+    {
+      ing: 'He is very talented. Furthermore, he works very hard.',
+      tr: 'Çok yetenekli. Ayrıca, çok çalışkan.',
+    },
+    {
+      ing: 'The team is strong. Moreover, they are very cooperative.',
+      tr: 'Takım güçlü. Ayrıca, çok işbirlikçiler.',
+    },
+    {
+      ing: 'The store sells clothes. In addition, it has accessories.',
+      tr: 'Mağaza kıyafet satıyor. Ayrıca, aksesuarlar da var.',
+    },
+    {
+      ing: 'He has a good job. Moreover, he loves what he does.',
+      tr: 'İyi bir işi var. Ayrıca, yaptığı işi seviyor.',
+    },
+    {
+      ing: 'The car is fast. In addition, it is very safe.',
+      tr: 'Araba hızlı. Ayrıca, çok güvenli.',
+    },
+    {
+      ing: 'The garden has flowers. In addition, there are many trees.',
+      tr: 'Bahçede çiçekler var. Ayrıca, birçok ağaç var.',
+    },
+    {
+      ing: 'The project was successful. Moreover, it was completed on time.',
+      tr: 'Proje başarılıydı. Ayrıca, zamanında tamamlandı.',
+    },
+    {
+      ing: 'The garden is large. Besides, it is well-maintained.',
+      tr: 'Bahçe büyük. Ayrıca, iyi bakılmış.',
+    },
+    {
+      ing: 'The course is easy. In addition, it is very interesting.',
+      tr: 'Kurs kolay. Ayrıca, çok ilginç.',
+    },
+    {
+      ing: 'The concert was great; thus, we enjoyed it a lot.',
+      tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
+    },
+    {
+      ing: 'He is a talented artist. Moreover, he teaches art classes.',
+      tr: 'Yetenekli bir sanatçı. Ayrıca, sanat dersleri veriyor.',
+    },
+    {
+      ing: 'She is an excellent chef. Furthermore, she has her own restaurant.',
+      tr: 'Harika bir şef. Ayrıca, kendi restoranı var.',
+    },
+    {
+      ing: 'The book was informative. Moreover, it was entertaining.',
+      tr: 'Kitap bilgilendiriciydi. Ayrıca, eğlenceliydi.',
+    },
+    {
+      ing: 'The food was delicious. Moreover, it was beautifully presented.',
+      tr: 'Yemek lezzetliydi. Ayrıca, güzel sunulmuştu.',
+    },
+    {
+      ing: 'The course is advanced. Furthermore, it is very engaging.',
+      tr: 'Kurs ileri seviyede. Ayrıca, çok sürükleyici.',
+    },
+    {
+      ing: 'The cake was tasty. In addition, it looked beautiful.',
+      tr: 'Kek lezzetliydi. Ayrıca, güzel görünüyordu.',
+    },
+    {
+      ing: 'The movie was good. Besides, the actors were great.',
+      tr: 'Film iyiydi. Ayrıca, oyuncular harikaydı.',
+    },
+    {
+      ing: 'He is a great leader. Moreover, he is very humble.',
+      tr: 'Harika bir lider. Ayrıca, çok mütevazı.',
+    },
+    {
+      ing: 'The park is beautiful. In addition, it is very clean.',
+      tr: 'Park güzel. Ayrıca, çok temiz.',
+    },
+    {
+      ing: 'She enjoys cooking. Besides, she loves baking.',
+      tr: 'Yemek yapmayı seviyor. Ayrıca, hamur işlerini de seviyor.',
+    },
+    {
+      ing: 'She is very creative. Moreover, she is very hardworking.',
+      tr: 'Çok yaratıcı. Ayrıca, çok çalışkan.',
+    },
+    {
+      ing: 'She is a good singer. In addition, she plays the piano well.',
+      tr: 'İyi bir şarkıcı. Ayrıca, piyano da iyi çalıyor.',
+    },
+    {
+      ing: 'The class is fun. In addition, it is very educational.',
+      tr: 'Ders eğlenceli. Ayrıca, çok eğitici.',
+    },
+    {
+      ing: 'The food was organic. Furthermore, it was very tasty.',
+      tr: 'Yemek organikti. Ayrıca, çok lezzetliydi.',
+    },
+    {
+      ing: 'He is very athletic. Furthermore, he is very disciplined.',
+      tr: 'Çok atletik. Ayrıca, çok disiplinli.',
+    },
+    {
+      ing: 'The house is old. Besides, it needs a lot of repairs.',
+      tr: 'Ev eski. Ayrıca, birçok tamir gerekiyor.',
+    },
+    {
+      ing: 'She speaks Spanish. Besides, she knows Italian.',
+      tr: 'İspanyolca konuşuyor. Ayrıca, İtalyanca biliyor.',
+    },
+    {
+      ing: 'She studies a lot. Besides, she works part-time.',
+      tr: 'Çok çalışıyor. Ayrıca, yarı zamanlı çalışıyor.',
+    },
+    {
+      ing: 'The team played well. Besides, they showed great sportsmanship.',
+      tr: 'Takım iyi oynadı. Ayrıca, harika sportmenlik gösterdiler.',
+    },
+    {
+      ing: 'The course is affordable. Moreover, it is very comprehensive.',
+      tr: 'Kurs uygun fiyatlı. Ayrıca, çok kapsamlı.',
+    },
+    {
+      ing: 'The book was a bestseller. Furthermore, it won several awards.',
+      tr: 'Kitap çok satan bir kitaptı. Ayrıca, birkaç ödül kazandı.',
+    },
+    {
+      ing: 'The meal was delicious. In addition, the service was excellent.',
+      tr: 'Yemek lezzetliydi. Ayrıca, hizmet mükemmeldi.',
+    },
+    {
+      ing: 'He is very experienced. Furthermore, he is very reliable.',
+      tr: 'Çok deneyimli. Ayrıca, çok güvenilir.',
+    },
+    {
+      ing: 'The house is spacious. Furthermore, it has a beautiful garden.',
+      tr: 'Ev geniş. Ayrıca, güzel bir bahçesi var.',
+    },
+    {
+      ing: 'The shop is new. Besides, it has many discounts.',
+      tr: 'Mağaza yeni. Ayrıca, birçok indirim var.',
+    },
+    {
+      ing: 'The library is quiet. Besides, it has many books.',
+      tr: 'Kütüphane sessiz. Ayrıca, birçok kitabı var.',
+    },
+    {
+      ing: 'The city is beautiful. Furthermore, it is very historical.',
+      tr: 'Şehir güzel. Ayrıca, çok tarihi.',
+    },
+    {
+      ing: 'The project was innovative. Furthermore, it was well-received.',
+      tr: 'Proje yenilikçiydi. Ayrıca, iyi karşılandı.',
+    },
+    {
+      ing: 'The park is spacious. Moreover, it is very peaceful.',
+      tr: 'Park geniş. Ayrıca, çok huzurlu.',
+    },
+    {
+      ing: 'She loves painting. Besides, she is good at drawing.',
+      tr: 'Resim yapmayı seviyor. Ayrıca, çizimde de iyi.',
+    },
+    {
+      ing: 'The store was out of stock; therefore, I ordered online.',
+      tr: 'Mağazada stok yoktu; bu yüzden çevrimiçi sipariş verdim.',
+    },
+    {
+      ing: 'He enjoys hiking. Besides, he likes camping.',
+      tr: 'Doğa yürüyüşlerini seviyor. Ayrıca, kamp yapmayı da seviyor.',
+    },
+    {
+      ing: 'The car is new. Furthermore, it is very economical.',
+      tr: 'Araba yeni. Ayrıca, çok ekonomik.',
+    },
+    {
+      ing: 'She is a skilled musician. Moreover, she can compose music.',
+      tr: 'Yetenekli bir müzisyen. Ayrıca, müzik bestelebilir.',
+    },
+    {
+      ing: 'The weather is perfect. Besides, the beach is not crowded.',
+      tr: 'Hava mükemmel. Ayrıca, plaj kalabalık değil.',
+    },
+    {
+      ing: 'The lesson was easy. Moreover, it was fun to learn.',
+      tr: 'Ders kolaydı. Ayrıca, öğrenmesi eğlenceliydi.',
+    },
+    {
+      ing: 'She is very artistic. Besides, she teaches art classes.',
+      tr: 'Çok sanatsal. Ayrıca, sanat dersleri veriyor.',
+    },
+    {
+      ing: 'He speaks English. In addition, he knows French.',
+      tr: 'İngilizce konuşuyor. Ayrıca, Fransızca biliyor.',
+    },
+    {
+      ing: 'The city is clean. Moreover, it is very safe.',
+      tr: 'Şehir temiz. Ayrıca, çok güvenli.',
+    },
+    {
+      ing: 'The garden is beautiful. Furthermore, it is well-maintained.',
+      tr: 'Bahçe güzel. Ayrıca, iyi bakılmış.',
+    },
+    {
+      ing: 'The beach is clean. Furthermore, it is not crowded.',
+      tr: 'Plaj temiz. Ayrıca, kalabalık değil.',
+    },
+    {
+      ing: 'The event was well-organized. Moreover, it was very enjoyable.',
+      tr: 'Etkinlik iyi organize edilmişti. Ayrıca, çok keyifliydi.',
+    },
+    {
+      ing: 'She is very intelligent. Besides, she is very creative.',
+      tr: 'Çok zeki. Ayrıca, çok yaratıcı.',
+    },
+    {
+      ing: 'The park is clean. Furthermore, it is very safe.',
+      tr: 'Park temiz. Ayrıca, çok güvenli.',
+    },
+    {
+      ing: 'He plays soccer. In addition, he likes basketball.',
+      tr: 'Futbol oynuyor. Ayrıca, basketbolu da seviyor.',
+    },
+    {
+      ing: 'The food was spicy; though, it was tasty.',
+      tr: 'Yemek acıydı; fakat lezzetliydi.',
+    },
+    {
+      ing: 'He is a good cook. In addition, he can bake well.',
+      tr: 'İyi bir aşçı. Ayrıca, iyi pasta yapabiliyor.',
+    },
+    {
+      ing: 'The book is short. Besides, it is very engaging.',
+      tr: 'Kitap kısa. Ayrıca, çok sürükleyici.',
+    },
+    {
+      ing: 'He runs fast. Besides, he has good stamina.',
+      tr: 'Hızlı koşar. Ayrıca, iyi bir dayanıklılığa sahiptir.',
+    },
+    {
+      ing: 'The weather is nice. Furthermore, it is not too humid.',
+      tr: 'Hava güzel. Ayrıca, çok nemli değil.',
+    },
+    {
+      ing: 'He has a dog. In addition, she has two cats.',
+      tr: 'Köpeği var. Ayrıca, iki kedisi var.',
+    },
+    {
+      ing: 'The car is efficient. Moreover, it is environmentally friendly.',
+      tr: 'Araba verimli. Ayrıca, çevre dostu.',
+    },
+    {
+      ing: 'The trip was enjoyable. Moreover, it was very relaxing.',
+      tr: 'Gezi keyifliydi. Ayrıca, çok rahatlatıcıydı.',
+    },
+    {
+      ing: 'She speaks several languages. Moreover, she teaches them.',
+      tr: 'Birkaç dil konuşuyor. Ayrıca, onları öğretiyor.',
+    },
+    {
+      ing: 'The city is big. Besides, it is very modern.',
+      tr: 'Şehir büyük. Ayrıca, çok modern.',
+    },
+    {
+      ing: 'The class is fun. Besides, it is very educational.',
+      tr: 'Ders eğlenceli. Ayrıca, çok eğitici.',
+    },
+    {
+      ing: 'The movie was funny. Besides, it had a good storyline.',
+      tr: 'Film komikti. Ayrıca, iyi bir hikayesi vardı.',
+    },
+    {
+      ing: 'The museum is free. Besides, it is very interesting.',
+      tr: 'Müze ücretsiz. Ayrıca, çok ilginç.',
+    },
+    {
+      ing: 'The concert was great; thus, we enjoyed it a lot.',
+      tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
+    },
+    {
+      ing: 'The job is challenging. Furthermore, it is very rewarding.',
+      tr: 'İş zorlayıcı. Ayrıca, çok tatmin edici.',
+    },
+    {
+      ing: 'The concert was amazing. Furthermore, the tickets were affordable.',
+      tr: 'Konser harikaydı. Ayrıca, biletler uygun fiyatlıydı.',
+    },
+    {
+      ing: 'He is very talented. Furthermore, he works very hard.',
+      tr: 'Çok yetenekli. Ayrıca, çok çalışkan.',
+    },
+    {
+      ing: 'The team is strong. Moreover, they are very cooperative.',
+      tr: 'Takım güçlü. Ayrıca, çok işbirlikçiler.',
+    },
+    {
+      ing: 'The store sells clothes. In addition, it has accessories.',
+      tr: 'Mağaza kıyafet satıyor. Ayrıca, aksesuarlar da var.',
+    },
+    {
+      ing: 'He has a good job. Moreover, he loves what he does.',
+      tr: 'İyi bir işi var. Ayrıca, yaptığı işi seviyor.',
+    },
+    {
+      ing: 'The car is fast. In addition, it is very safe.',
+      tr: 'Araba hızlı. Ayrıca, çok güvenli.',
+    },
+    {
+      ing: 'The garden has flowers. In addition, there are many trees.',
+      tr: 'Bahçede çiçekler var. Ayrıca, birçok ağaç var.',
+    },
+    {
+      ing: 'The project was successful. Moreover, it was completed on time.',
+      tr: 'Proje başarılıydı. Ayrıca, zamanında tamamlandı.',
+    },
+    {
+      ing: 'The garden is large. Besides, it is well-maintained.',
+      tr: 'Bahçe büyük. Ayrıca, iyi bakılmış.',
+    },
+    {
+      ing: 'The course is easy. In addition, it is very interesting.',
+      tr: 'Kurs kolay. Ayrıca, çok ilginç.',
+    },
+    {
+      ing: 'The concert was great; thus, we enjoyed it a lot.',
+      tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
+    },
+    {
+      ing: 'He is a talented artist. Moreover, he teaches art classes.',
+      tr: 'Yetenekli bir sanatçı. Ayrıca, sanat dersleri veriyor.',
+    },
+    {
+      ing: 'She is an excellent chef. Furthermore, she has her own restaurant.',
+      tr: 'Harika bir şef. Ayrıca, kendi restoranı var.',
+    },
+    {
+      ing: 'The book was informative. Moreover, it was entertaining.',
+      tr: 'Kitap bilgilendiriciydi. Ayrıca, eğlenceliydi.',
+    },
+    {
+      ing: 'The food was delicious. Moreover, it was beautifully presented.',
+      tr: 'Yemek lezzetliydi. Ayrıca, güzel sunulmuştu.',
+    },
+    {
+      ing: 'The course is advanced. Furthermore, it is very engaging.',
+      tr: 'Kurs ileri seviyede. Ayrıca, çok sürükleyici.',
+    },
+    {
+      ing: 'The cake was tasty. In addition, it looked beautiful.',
+      tr: 'Kek lezzetliydi. Ayrıca, güzel görünüyordu.',
+    },
+    {
+      ing: 'The movie was good. Besides, the actors were great.',
+      tr: 'Film iyiydi. Ayrıca, oyuncular harikaydı.',
+    },
+    {
+      ing: 'He is a great leader. Moreover, he is very humble.',
+      tr: 'Harika bir lider. Ayrıca, çok mütevazı.',
+    },
+    {
+      ing: 'The park is beautiful. In addition, it is very clean.',
+      tr: 'Park güzel. Ayrıca, çok temiz.',
+    },
+    {
+      ing: 'She enjoys cooking. Besides, she loves baking.',
+      tr: 'Yemek yapmayı seviyor. Ayrıca, hamur işlerini de seviyor.',
+    },
+    {
+      ing: 'She is very creative. Moreover, she is very hardworking.',
+      tr: 'Çok yaratıcı. Ayrıca, çok çalışkan.',
+    },
+  ],
+  Diğer: [
+    {
+      ing: 'I like to eat healthy food. For example, I eat a lot of fruits and vegetables.',
+      tr: 'Sağlıklı yemek yemeyi severim. Mesela çok fazla meyve ve sebze yerim.',
+    },
+    {
+      ing: "I prefer to take the bus instead of the subway because it's less crowded.",
+      tr: 'Metro yerine otobüse binmeyi tercih ediyorum çünkü daha az kalabalık.',
+    },
+    {
+      ing: 'She likes to read books. For instance, she reads a book every week.',
+      tr: 'Kitap okumayı seviyor. Mesela her hafta bir kitap okuyor.',
+    },
+    {
+      ing: "He loves to cook. That's why he decided to become a chef.",
+      tr: 'Yemek yapmayı seviyor. Bu yüzden şef olmaya karar verdi.',
+    },
+    {
+      ing: "I don't like to go out when it's raining. Instead, I prefer to stay at home and read a book.",
+      tr: 'Yağmur yağarken dışarı çıkmayı sevmiyorum. Bunun yerine evde kalıp kitap okumayı tercih ediyorum.',
+    },
+    {
+      ing: "I didn't understand the math problem. That's why I asked the teacher for help.",
+      tr: 'Matematik problemini anlamadım. Bu yüzden öğretmenden yardım istedim.',
+    },
+    {
+      ing: 'She loves to travel. For example, she visited three countries last year.',
+      tr: 'Seyahat etmeyi seviyor. Mesela geçen yıl üç ülkeyi ziyaret etti.',
+    },
+    {
+      ing: "I forgot my umbrella at home. That's why I got wet in the rain.",
+      tr: 'Şemsiyemi evde unuttum. Bu yüzden yağmurda ıslandım.',
+    },
+    {
+      ing: 'He is a great soccer player. In fact, he won a trophy last year.',
+      tr: 'O harika bir futbolcu. Aslında geçen sene bir kupa kazandı.',
+    },
+    {
+      ing: "I don't like to watch movies. Instead, I prefer to read books.",
+      tr: 'Film izlemeyi sevmiyorum. Bunun yerine kitap okumayı tercih ediyorum.',
+    },
+    {
+      ing: "She likes to help others. That's why she volunteers at the community center.",
+      tr: 'Başkalarına yardım etmeyi sever. Bu yüzden toplum merkezinde gönüllü olarak çalışıyor.',
+    },
+    {
+      ing: 'I love to play sports. For instance, I play basketball every weekend.',
+      tr: 'Spor yapmayı seviyorum. Mesela her hafta sonu basketbol oynuyorum.',
+    },
+    {
+      ing: "He didn't want to eat at home. Instead, he went to a restaurant.",
+      tr: 'Evde yemek yemek istemiyordu. Bunun yerine bir restorana gitti.',
+    },
+    {
+      ing: "I like to learn new things. That's why I read a lot.",
+      tr: 'Yeni şeyler öğrenmeyi severim. Bu yüzden çok okuyorum.',
+    },
+    {
+      ing: 'She loves to dance. In fact, she takes dance classes every week.',
+      tr: 'Dans etmeyi seviyor. Aslında her hafta dans dersleri alıyor.',
+    },
+    {
+      ing: "I don't like coffee. Instead, I prefer to drink tea.",
+      tr: 'Kahve sevmiyorum. Bunun yerine çay içmeyi tercih ediyorum.',
+    },
+    {
+      ing: 'He loves to draw. For example, he drew a beautiful picture yesterday.',
+      tr: 'Çizim yapmayı seviyor. Mesela dün çok güzel bir resim çizdi.',
+    },
+    {
+      ing: "I didn't want to walk to the store. That's why I took the bus.",
+      tr: 'Mağazaya yürümek istemedim. Bu yüzden otobüse bindim.',
+    },
+    {
+      ing: 'She loves to swim. In fact, she swims every morning.',
+      tr: 'Yüzmeyi seviyor. Aslında her sabah yüzüyor.',
+    },
+    {
+      ing: "I don't like to eat junk food. Instead, I prefer to eat homemade food.",
+      tr: 'Abur cubur yemeyi sevmiyorum. Bunun yerine ev yapımı yemek yemeyi tercih ediyorum.',
+    },
+    {
+      ing: "He loves animals. That's why he has three pets.",
+      tr: 'Hayvanları seviyor. Bu yüzden üç evcil hayvanı var.',
+    },
+    {
+      ing: 'I like to listen to music. For instance, I listen to classical music every day.',
+      tr: 'Müzik dinlemeyi severim. Mesela her gün klasik müzik dinliyorum.',
+    },
+    {
+      ing: "She didn't want to study at home. Instead, she went to the library.",
+      tr: 'Evde ders çalışmak istemiyordu. Bunun yerine kütüphaneye gitti.',
+    },
+    {
+      ing: "I love to paint. That's why I joined an art class.",
+      tr: 'Resim yapmayı seviyorum. Bu yüzden bir sanat dersine katıldım.',
+    },
+    {
+      ing: 'He loves nature. In fact, he goes hiking every month.',
+      tr: 'Doğayı seviyor. Aslında her ay yürüyüşe çıkıyor.',
+    },
+    {
+      ing: 'I like to eat healthy food. For example, I eat a lot of fruits and vegetables.',
+      tr: 'Sağlıklı yemek yemeyi severim. Mesela çok fazla meyve ve sebze yerim.',
+    },
+    {
+      ing: "I prefer to take the bus but instead I take the subway because it's less crowded.",
+      tr: 'Otobüse binmeyi tercih ediyorum ama bunun yerine metroya biniyorum çünkü daha az kalabalık.',
+    },
+    {
+      ing: 'She likes to read books. For instance, she reads a book every week.',
+      tr: 'Kitap okumayı seviyor. Mesela her hafta bir kitap okuyor.',
+    },
+    {
+      ing: "He loves to cook. That's why he decided to become a chef.",
+      tr: 'Yemek yapmayı seviyor. Bu yüzden şef olmaya karar verdi.',
+    },
+    {
+      ing: "I don't like to go out when it's raining. Instead, I prefer to stay at home and read a book.",
+      tr: 'Yağmur yağarken dışarı çıkmayı sevmiyorum. Bunun yerine evde kalıp kitap okumayı tercih ediyorum.',
+    },
+    {
+      ing: "I didn't understand the math problem. That's why I asked the teacher for help.",
+      tr: 'Matematik problemini anlamadım. Bu yüzden öğretmenden yardım istedim.',
+    },
+    {
+      ing: 'She loves to travel. For example, she visited three countries last year.',
+      tr: 'Seyahat etmeyi seviyor. Mesela geçen yıl üç ülkeyi ziyaret etti.',
+    },
+    {
+      ing: "I forgot my umbrella at home. That's why I got wet in the rain.",
+      tr: 'Şemsiyemi evde unuttum. Bu yüzden yağmurda ıslandım.',
+    },
+    {
+      ing: 'He is a great soccer player. In fact, he won a trophy last year.',
+      tr: 'O harika bir futbolcu. Aslında geçen sene bir kupa kazandı.',
+    },
+    {
+      ing: "I don't like to watch movies. Instead, I prefer to read books.",
+      tr: 'Film izlemeyi sevmiyorum. Bunun yerine kitap okumayı tercih ediyorum.',
+    },
+    {
+      ing: "She likes to help others. That's why she volunteers at the community center.",
+      tr: 'Başkalarına yardım etmeyi sever. Bu yüzden toplum merkezinde gönüllü olarak çalışıyor.',
+    },
+    {
+      ing: 'I love to play sports. For instance, I play basketball every weekend.',
+      tr: 'Spor yapmayı seviyorum. Mesela her hafta sonu basketbol oynuyorum.',
+    },
+    {
+      ing: "He didn't want to eat at home. Instead, he went to a restaurant.",
+      tr: 'Evde yemek yemek istemiyordu. Bunun yerine bir restorana gitti.',
+    },
+    {
+      ing: "I like to learn new things. That's why I read a lot.",
+      tr: 'Yeni şeyler öğrenmeyi severim. Bu yüzden çok okuyorum.',
+    },
+    {
+      ing: 'She loves to dance. In fact, she takes dance classes every week.',
+      tr: 'Dans etmeyi seviyor. Aslında her hafta dans dersleri alıyor.',
+    },
+    {
+      ing: "I don't like coffee. Instead, I prefer to drink tea.",
+      tr: 'Kahve sevmiyorum. Bunun yerine çay içmeyi tercih ediyorum.',
+    },
+    {
+      ing: 'He loves to draw. For example, he drew a beautiful picture yesterday.',
+      tr: 'Çizim yapmayı seviyor. Mesela dün çok güzel bir resim çizdi.',
+    },
+    {
+      ing: "I didn't want to walk to the store. That's why I took the bus.",
+      tr: 'Mağazaya yürümek istemedim. Bu yüzden otobüse bindim.',
+    },
+    {
+      ing: 'She loves to swim. In fact, she swims every morning.',
+      tr: 'Yüzmeyi seviyor. Aslında her sabah yüzüyor.',
+    },
+    {
+      ing: "I don't like to eat junk food. Instead, I prefer to eat homemade food.",
+      tr: 'Abur cubur yemeyi sevmiyorum. Bunun yerine ev yapımı yemek yemeyi tercih ediyorum.',
+    },
+    {
+      ing: "He loves animals. That's why he has three pets.",
+      tr: 'Hayvanları seviyor. Bu yüzden üç evcil hayvanı var.',
+    },
+    {
+      ing: 'I like to listen to music. For instance, I listen to classical music every day.',
+      tr: 'Müzik dinlemeyi severim. Mesela her gün klasik müzik dinliyorum.',
+    },
+    {
+      ing: "She didn't want to study at home. Instead, she went to the library.",
+      tr: 'Evde ders çalışmak istemiyordu. Bunun yerine kütüphaneye gitti.',
+    },
+    {
+      ing: "I love to paint. That's why I joined an art class.",
+      tr: 'Resim yapmayı seviyorum. Bu yüzden bir sanat dersine katıldım.',
+    },
+    {
+      ing: 'He loves nature. In fact, he goes hiking every month.',
+      tr: 'Doğayı seviyor. Aslında her ay yürüyüşe çıkıyor.',
+    },
+    {
+      ing: 'I like to eat fruits. For example, I eat an apple every day.',
+      tr: 'Meyve yemeyi severim. Mesela her gün bir elma yerim.',
+    },
+    {
+      ing: "He loves to read. That's why he has so many books.",
+      tr: 'Okumayı seviyor. Bu yüzden bu kadar çok kitabı var.',
+    },
+    {
+      ing: "I didn't want to watch TV. Instead, I decided to read a book.",
+      tr: 'Televizyon izlemek istemedim. Bunun yerine kitap okumaya karar verdim.',
+    },
+    {
+      ing: 'She likes to learn languages. For instance, she is learning Spanish and French.',
+      tr: 'Dil öğrenmeyi seviyor. Mesela İspanyolca ve Fransızca öğreniyor.',
+    },
+    {
+      ing: "I was tired. That's why I decided to go to bed early.",
+      tr: 'Yorulmuştum. Bu yüzden erken yatmaya karar verdim.',
+    },
+    {
+      ing: "He doesn't like to eat out. Instead, he prefers homemade meals.",
+      tr: 'Dışarıda yemek yemeyi sevmiyor. Bunun yerine ev yapımı yemekleri tercih ediyor.',
+    },
+    {
+      ing: 'I love animals. In fact, I have two cats and a dog.',
+      tr: 'Hayvanları severim. Aslında iki kedim ve bir köpeğim var.',
+    },
+    {
+      ing: "She enjoys gardening. That's why her garden is so beautiful.",
+      tr: 'Bahçecilikten hoşlanıyor. Bu yüzden bahçesi çok güzel.',
+    },
+    {
+      ing: "I didn't want to take the bus. Instead, I decided to walk.",
+      tr: 'Otobüse binmek istemedim. Bunun yerine yürümeye karar verdim.',
+    },
+    {
+      ing: 'He loves playing sports. For example, he plays football every Sunday.',
+      tr: 'Spor yapmayı çok seviyor. Mesela her pazar futbol oynuyor.',
+    },
+    {
+      ing: "I didn't like the movie. That's why I left the theater early.",
+      tr: 'Filmi beğenmedim. Bu yüzden sinemadan erken çıktım.',
+    },
+    {
+      ing: 'She likes to travel. In fact, she visited five countries last year.',
+      tr: 'O gezmeyi sever. Aslında geçen yıl beş ülkeyi ziyaret etti.',
+    },
+    {
+      ing: "I don't like cold weather. That's why I moved to a warmer city.",
+      tr: 'Soğuk havayı sevmiyorum. Bu yüzden daha sıcak bir şehre taşındım.',
+    },
+    {
+      ing: 'He likes to write. For instance, he writes a poem every day.',
+      tr: 'Yazmayı seviyor. Mesela her gün bir şiir yazıyor.',
+    },
+    {
+      ing: "I didn't want to cook. Instead, I ordered pizza.",
+      tr: 'Yemek pişirmek istemedim. Bunun yerine pizza sipariş ettim.',
+    },
+    {
+      ing: "She enjoys painting. That's why she attends an art class every week.",
+      tr: 'Resim yapmaktan hoşlanıyor. Bu yüzden her hafta resim dersine katılıyor.',
+    },
+    {
+      ing: 'I love nature. In fact, I go hiking every month.',
+      tr: 'Doğayı seviyorum. Aslında her ay yürüyüşe çıkıyorum.',
+    },
+    {
+      ing: "He doesn't like coffee. Instead, he drinks tea every morning.",
+      tr: 'Kahveyi sevmiyor. Bunun yerine her sabah çay içer.',
+    },
+    {
+      ing: "I love to bake. For example, I baked a cake for my friend's birthday.",
+      tr: 'Pişirmeyi seviyorum. Mesela arkadaşımın doğum günü için pasta yaptım.',
+    },
+    {
+      ing: "She didn't want to watch a movie. That's why she read a book instead.",
+      tr: 'Film izlemek istemedi. Bu yüzden onun yerine kitap okudu.',
+    },
+    {
+      ing: 'I love the beach. In fact, I go there every summer.',
+      tr: 'Sahile bayılıyorum. Aslında her yaz oraya giderim.',
+    },
+    {
+      ing: 'He likes music. For instance, he plays the guitar and the piano.',
+      tr: 'Müzikten hoşlanıyor. Mesela gitar ve piyano çalıyor.',
+    },
+    {
+      ing: "I didn't want to go shopping. Instead, I decided to stay at home and relax.",
+      tr: 'Alışverişe gitmek istemedim. Bunun yerine evde kalıp dinlenmeye karar verdim.',
+    },
+    {
+      ing: "She enjoys running. That's why she runs in the park every morning.",
+      tr: 'Koşmaktan hoşlanıyor. Bu yüzden her sabah parkta koşuyor.',
+    },
+    {
+      ing: 'I love photography. For example, I take photos of nature during my walks.',
+      tr: 'Fotoğrafçılığı seviyorum. Mesela yürüyüşlerimde doğa fotoğrafları çekiyorum.',
+    },
+    {
+      ing: "He doesn't like to drive. Instead, he rides his bike to work.",
+      tr: 'Araba sürmeyi sevmiyor. Bunun yerine işe bisikletle gidiyor.',
+    },
+    {
+      ing: 'I love ice cream. In fact, I eat a scoop every day.',
+      tr: 'Dondurmayı severim. Aslında her gün bir kaşık yiyorum.',
+    },
+    {
+      ing: "She likes drawing. That's why she always carries a sketchbook.",
+      tr: 'Çizim yapmayı seviyor. Bu yüzden her zaman bir eskiz defteri taşıyor.',
+    },
+    {
+      ing: "I didn't want to eat cake. Instead, I ate some fruit.",
+      tr: 'Pasta yemek istemiyordum. Bunun yerine biraz meyve yedim.',
+    },
+    {
+      ing: 'He loves the mountains. For example, he goes hiking every weekend.',
+      tr: 'Dağları seviyor. Mesela her hafta sonu yürüyüşe çıkıyor.',
+    },
+    {
+      ing: "I love to read. That's why I always have a book with me.",
+      tr: 'Okumayı çok severim. Bu yüzden her zaman yanımda bir kitap var.',
+    },
+    {
+      ing: "She doesn't like loud music. Instead, she prefers soft and soothing music.",
+      tr: 'Yüksek sesli müzikten hoşlanmaz. Bunun yerine yumuşak ve dinlendirici müziği tercih ediyor.',
+    },
+    {
+      ing: 'I enjoy swimming. In fact, I go to the swimming pool every week.',
+      tr: 'Yüzmekten zevk alırım. Aslında her hafta yüzme havuzuna gidiyorum.',
+    },
+    {
+      ing: "He likes animals. That's why he volunteers at the animal shelter.",
+      tr: 'O hayvanları sever. Bu yüzden hayvan barınağında gönüllü olarak çalışıyor.',
+    },
+    {
+      ing: "I didn't want to go out. Instead, I decided to stay in and watch a movie.",
+      tr: 'Dışarı çıkmak istemedim. Bunun yerine evde kalıp film izlemeye karar verdim.',
+    },
+    {
+      ing: "She enjoys yoga. That's why she attends a yoga class every day.",
+      tr: 'Yogadan hoşlanıyor. Bu yüzden her gün yoga dersine katılıyor.',
+    },
+    {
+      ing: 'I love flowers. For example, I have a beautiful garden at home.',
+      tr: 'Çiçekleri severim. Mesela evimde çok güzel bir bahçem var.',
+    },
+    {
+      ing: "He doesn't like soda. Instead, he drinks water or juice.",
+      tr: 'Asitli içecekler sevmiyor. Bunun yerine su veya meyve suyu içer.',
+    },
+    {
+      ing: 'I love dancing. In fact, I take dance lessons twice a week.',
+      tr: 'Dans etmeyi severim. Aslında haftada iki kez dans dersi alıyorum.',
+    },
+    {
+      ing: "She enjoys cycling. That's why she goes for a bike ride every day.",
+      tr: 'Bisiklete binmekten hoşlanıyor. Bu yüzden her gün bisiklete binmeye gidiyor.',
+    },
+    {
+      ing: "I didn't want to watch TV. Instead, I listened to music.",
+      tr: 'Televizyon izlemek istemedim. Onun yerine müzik dinledim.',
+    },
+    {
+      ing: 'He enjoys cooking. For example, he made a delicious pasta dish last night.',
+      tr: 'Yemek yapmaktan hoşlanıyor. Mesela dün akşam lezzetli bir makarna yemeği yaptı.',
+    },
+    {
+      ing: 'I love to travel. In fact, I am planning a trip to Europe next year.',
+      tr: "Seyahat etmeyi seviyorum. Aslında gelecek yıl Avrupa'ya bir gezi planlıyorum.",
+    },
+    {
+      ing: "She doesn't like the cold. That's why she moved to a warmer place.",
+      tr: 'Soğuğu sevmiyor. Bu yüzden daha sıcak bir yere taşındı.',
+    },
+    {
+      ing: 'I enjoy painting. For instance, I painted a beautiful landscape yesterday.',
+      tr: 'Resim yapmaktan keyif alıyorum. Mesela dün güzel bir manzara çizdim.',
+    },
+    {
+      ing: "He likes to play video games. That's why he has a big collection.",
+      tr: 'Video oyunları oynamayı seviyor. Bu yüzden büyük bir koleksiyonu var.',
+    },
+    {
+      ing: "I didn't want to eat at home. Instead, I went to a restaurant.",
+      tr: 'Evde yemek yemek istemedim. Bunun yerine bir restorana gittim.',
+    },
+    {
+      ing: 'She enjoys learning languages. In fact, she is fluent in three languages.',
+      tr: 'Dil öğrenmekten hoşlanıyor. Aslında üç dili akıcı bir şekilde konuşabiliyor.',
+    },
+    {
+      ing: "I love playing the guitar. That's why I practice every day.",
+      tr: 'Gitar çalmayı seviyorum. Bu yüzden her gün pratik yapıyorum.',
+    },
+    {
+      ing: 'He enjoys watching movies. For instance, he watches a new movie every weekend.',
+      tr: 'Film izlemekten hoşlanıyor. Mesela her hafta sonu yeni bir film izliyor.',
+    },
+  ],
+  Neden: [
+    {
+      ing: 'I was tired, so I decided to go to bed early.',
+      tr: 'Yorgundum, bu yüzden erken yatmaya karar verdim.',
+    },
+    {
+      ing: 'He likes soccer; therefore, he joined the school team.',
+      tr: 'Futbolu seviyor; bu nedenle, okul takımına katıldı.',
+    },
+    {
+      ing: "It was raining, so I couldn't go for a walk.",
+      tr: 'Yağmur yağıyordu, bu yüzden yürüyüşe çıkamadım.',
+    },
+    {
+      ing: "She didn't study; thus, she couldn't answer the questions in the test.",
+      tr: 'Ders çalışmadı; bu yüzden sınavdaki soruları cevaplayamadı.',
+    },
+    {
+      ing: 'I forgot my lunch, so I had to buy it.',
+      tr: 'Öğle yemeğimi unuttum, bu yüzden satın almak zorunda kaldım.',
+    },
+    {
+      ing: "The store didn't have the book he wanted; therefore, he ordered it online.",
+      tr: 'Mağazada istediği kitap yoktu; bu nedenle, onu çevrimiçi sipariş etti.',
+    },
+    {
+      ing: 'I love music, so I decided to learn the guitar.',
+      tr: 'Müziği seviyorum, bu yüzden gitar öğrenmeye karar verdim.',
+    },
+    {
+      ing: 'It was her birthday; thus, we threw her a surprise party.',
+      tr: 'Doğum günüydü; bu yüzden ona sürpriz bir parti verdik.',
+    },
+    {
+      ing: "He didn't have an umbrella, so he got wet in the rain.",
+      tr: 'Şemsiyesi yoktu, bu yüzden yağmurda ıslandı.',
+    },
+    {
+      ing: 'She wanted to get fit, therefore she started going to the gym.',
+      tr: 'Fit olmak istiyordu, bu nedenle spor salonuna gitmeye başladı.',
+    },
+    {
+      ing: 'I was feeling hot, so I turned on the air conditioner.',
+      tr: 'Sıcak hissediyordum, bu yüzden klimayı açtım.',
+    },
+    {
+      ing: 'He was thirsty; thus, he drank a glass of water.',
+      tr: 'Susamıştı; bu yüzden bir bardak su içti.',
+    },
+    {
+      ing: 'The movie was boring, so I stopped watching it.',
+      tr: 'Film sıkıcıydı, bu yüzden izlemeyi bıraktım.',
+    },
+    {
+      ing: 'She loves animals; therefore, she adopted a stray dog.',
+      tr: 'Hayvanları seviyor; bu nedenle sokak köpeğini sahiplendi.',
+    },
+    {
+      ing: "I forgot my wallet, so I couldn't buy the groceries.",
+      tr: 'Cüzdanımı unuttum, bu yüzden market alışverişi yapamadım.',
+    },
+    {
+      ing: "He didn't have the time; thus, he couldn't help me.",
+      tr: 'Zamanı yoktu; bu yüzden bana yardım edemedi.',
+    },
+    {
+      ing: 'The library was closed, so I went to the park instead.',
+      tr: 'Kütüphane kapalıydı, bu yüzden parkta dolaştım.',
+    },
+    {
+      ing: 'She was feeling sick, therefore she went to the doctor.',
+      tr: 'Hastalandı, bu nedenle doktora gitti.',
+    },
+    {
+      ing: 'I wanted to surprise my friend, so I baked a cake for him.',
+      tr: 'Arkadaşımı şaşırtmak istedim, bu yüzden ona bir kek yaptım.',
+    },
+    {
+      ing: 'He was feeling cold, thus he wore a warm jacket.',
+      tr: 'Üşüyordu, bu yüzden kalın bir ceket giydi.',
+    },
+    {
+      ing: 'The match was cancelled, so we decided to watch a movie.',
+      tr: 'Maç iptal edildi, bu yüzden film izlemeye karar verdik.',
+    },
+    {
+      ing: "She didn't like the dress; therefore, she didn't buy it.",
+      tr: 'Elbiseyi beğenmedi; bu nedenle satın almadı.',
+    },
+    {
+      ing: 'I love gardening, so I planted some flowers.',
+      tr: 'Bahçeciliği seviyorum, bu yüzden çiçekler diktim.',
+    },
+    {
+      ing: 'He was feeling bored, thus he started reading a book.',
+      tr: 'Sıkılıyordu, bu yüzden kitap okumaya başladı.',
+    },
+    {
+      ing: 'The bus was late, so I took a taxi.',
+      tr: 'Otobüs geç geldi, bu yüzden taksiye bindim.',
+    },
+    {
+      ing: 'The roads were icy; hence, it was not safe to drive.',
+      tr: 'Yollar buzlu olduğundan, araba sürmek güvenli değildi.',
+    },
+    {
+      ing: 'She studied very hard for her exams, hence her excellent grades.',
+      tr: 'Sınavları için çok çalıştı, bu nedenle mükemmel notlar aldı.',
+    },
+    {
+      ing: "He didn't bring his umbrella, hence he got wet in the rain.",
+      tr: 'Şemsiyesini getirmedi, bu nedenle yağmurda ıslandı.',
+    },
+    {
+      ing: 'The storm knocked out the power; hence, we spent the evening in the dark.',
+      tr: 'Fırtına elektriği kesti; bu yüzden akşamı karanlıkta geçirdik.',
+    },
+    {
+      ing: "The concert was sold out; hence I couldn't buy a ticket.",
+      tr: 'Konser biletleri tükendi; bu yüzden bilet alamadım.',
+    },
+    {
+      ing: 'He was feeling unwell, hence he decided to stay home.',
+      tr: 'Kendini iyi hissetmiyordu, bu nedenle evde kalmaya karar verdi.',
+    },
+    {
+      ing: "She didn't study for the test; hence, she didn't do well.",
+      tr: 'Sınav için çalışmadı; bu yüzden iyi yapmadı.',
+    },
+    {
+      ing: "I didn't get enough sleep last night; hence I'm feeling tired today.",
+      tr: 'Dün gece yeterince uyuyamadım; bu yüzden bugün yorgun hissediyorum.',
+    },
+    {
+      ing: "He didn't eat breakfast; hence he was very hungry by lunchtime.",
+      tr: 'Kahvaltı yapmadı; bu nedenle öğleye kadar çok acıktı.',
+    },
+    {
+      ing: 'She forgot to set her alarm; hence, she was late for work.',
+      tr: 'Alarmını kurmayı unuttu; bu yüzden işe geç kaldı.',
+    },
+    {
+      ing: 'I was feeling cold, so I put on a sweater.',
+      tr: 'Üşüyordum, bu yüzden bir kazak giydim.',
+    },
+    {
+      ing: 'The book was interesting, therefore I finished it in one day.',
+      tr: 'Kitap ilginçti, bu nedenle bir günde bitirdim.',
+    },
+    {
+      ing: 'She forgot her lunch, so she bought a sandwich at school.',
+      tr: 'Öğle yemeğini unuttu, bu yüzden okulda bir sandviç aldı.',
+    },
+    {
+      ing: 'He was tired; thus, he went to bed early.',
+      tr: 'Yorgundu; bu yüzden erken yattı.',
+    },
+    {
+      ing: 'It started raining, so I opened my umbrella.',
+      tr: 'Yağmur yağmaya başladı, bu yüzden şemsiyemi açtım.',
+    },
+    {
+      ing: "The store was closed; therefore, I couldn't buy the milk.",
+      tr: 'Mağaza kapalıydı; bu nedenle süt alamadım.',
+    },
+    {
+      ing: 'She was hungry, so she ate an apple.',
+      tr: 'Açtı, bu yüzden bir elma yedi.',
+    },
+    {
+      ing: "I didn't understand the question, thus I asked the teacher to explain it.",
+      tr: 'Soruyu anlamadım, bu yüzden öğretmene sordum.',
+    },
+    {
+      ing: 'The movie was scary, so I closed my eyes.',
+      tr: 'Film korkutucuydu, bu yüzden gözlerimi kapattım.',
+    },
+    {
+      ing: "He didn't study; therefore, he failed the test.",
+      tr: 'Ders çalışmadı; bu nedenle sınavda başarısız oldu.',
+    },
+    {
+      ing: 'My friend was feeling sad, so I tried to cheer her up.',
+      tr: 'Arkadaşım üzgündü, bu yüzden onu neşelendirmeye çalıştım.',
+    },
+    {
+      ing: 'It was a sunny day, thus we decided to go for a picnic.',
+      tr: 'Güneşli bir gündü, bu yüzden pikniğe gitmeye karar verdik.',
+    },
+    {
+      ing: 'I was late, so I ran to the bus stop.',
+      tr: 'Geç kaldım, bu yüzden otobüs durağına koştum.',
+    },
+    {
+      ing: "She didn't have a map, therefore she got lost.",
+      tr: 'Haritası yoktu, bu nedenle kayboldu.',
+    },
+    {
+      ing: 'The park was too far, so we decided to take a bus.',
+      tr: 'Park çok uzaktaydı, bu yüzden otobüsle gitmeye karar verdik.',
+    },
+    {
+      ing: "It was my friend's birthday; thus, I baked a cake for him.",
+      tr: 'Arkadaşımın doğum günüydü; bu yüzden ona bir kek yaptım.',
+    },
+    {
+      ing: "She didn't know the way, so she asked for directions.",
+      tr: 'Yolu bilmiyordu, bu yüzden yol tarifini sordu.',
+    },
+    {
+      ing: 'I was thirsty; therefore, I drank some water.',
+      tr: 'Susamıştım; bu nedenle biraz su içtim.',
+    },
+    {
+      ing: 'He forgot his jacket, so he felt cold.',
+      tr: 'Ceketini unuttu, bu yüzden üşüdü.',
+    },
+    {
+      ing: 'It was a holiday; thus, the school was closed.',
+      tr: 'Tatildi; bu yüzden okul kapalıydı.',
+    },
+    {
+      ing: 'She loves playing the piano, so she practices every day.',
+      tr: 'Piyano çalmayı seviyor, bu yüzden her gün pratik yapıyor.',
+    },
+    {
+      ing: 'I wanted to see the movie; therefore, I bought a ticket.',
+      tr: 'Filmi görmek istiyordum; bu nedenle bilet aldım.',
+    },
+    {
+      ing: 'He loves animals, so he got a pet dog.',
+      tr: 'Hayvanları seviyor, bu yüzden bir köpek aldı.',
+    },
+    {
+      ing: "I didn't feel like cooking, so I ordered a pizza.",
+      tr: 'Yemek yapmak istemiyordum, bu yüzden pizza sipariş ettim.',
+    },
+    {
+      ing: 'It was hot outside; therefore, I wore a hat.',
+      tr: 'Dışarısı sıcaktı; bu yüzden bir şapka giydim.',
+    },
+    {
+      ing: 'I was feeling cold, so I put on a sweater.',
+      tr: 'Üşüyordum, bu yüzden bir kazak giydim.',
+    },
+    {
+      ing: 'The book was interesting, therefore I finished it in one day.',
+      tr: 'Kitap ilginçti, bu nedenle bir günde bitirdim.',
+    },
+    {
+      ing: 'She forgot her lunch, so she bought a sandwich at school.',
+      tr: 'Öğle yemeğini unuttu, bu yüzden okulda bir sandviç aldı.',
+    },
+    {
+      ing: 'He was tired; thus, he went to bed early.',
+      tr: 'Yorgundu; bu yüzden erken yattı.',
+    },
+    {
+      ing: 'It started raining, so I opened my umbrella.',
+      tr: 'Yağmur yağmaya başladı, bu yüzden şemsiyemi açtım.',
+    },
+    {
+      ing: "The store was closed; therefore, I couldn't buy the milk.",
+      tr: 'Mağaza kapalıydı; bu nedenle süt alamadım.',
+    },
+    {
+      ing: 'She was hungry, so she ate an apple.',
+      tr: 'Açtı, bu yüzden bir elma yedi.',
+    },
+    {
+      ing: "I didn't understand the question, thus I asked the teacher to explain it.",
+      tr: 'Soruyu anlamadım, bu yüzden öğretmene sordum.',
+    },
+    {
+      ing: 'The movie was scary, so I closed my eyes.',
+      tr: 'Film korkutucuydu, bu yüzden gözlerimi kapattım.',
+    },
+    {
+      ing: 'He didn’t study; therefore, he failed the test.',
+      tr: 'Ders çalışmadı; bu nedenle sınavda başarısız oldu.',
+    },
+    {
+      ing: 'My friend was feeling sad, so I tried to cheer her up.',
+      tr: 'Arkadaşım üzgündü, bu yüzden onu neşelendirmeye çalıştım.',
+    },
+    {
+      ing: 'It was a sunny day, thus we decided to go for a picnic.',
+      tr: 'Güneşli bir gündü, bu yüzden pikniğe gitmeye karar verdik.',
+    },
+    {
+      ing: 'I was late, so I ran to the bus stop.',
+      tr: 'Geç kaldım, bu yüzden otobüs durağına koştum.',
+    },
+    {
+      ing: "She didn't have a map, therefore she got lost.",
+      tr: 'Haritası yoktu, bu nedenle kayboldu.',
+    },
+    {
+      ing: 'The park was too far, so we decided to take a bus.',
+      tr: 'Park çok uzaktaydı, bu yüzden otobüsle gitmeye karar verdik.',
+    },
+    {
+      ing: 'He found a job; hence, he was happy.',
+      tr: 'Bir iş buldu; bu nedenle, mutluydu.',
+    },
+    {
+      ing: "The internet was down; therefore, I couldn't finish my work.",
+      tr: 'İnternet kesikti; bu yüzden işimi bitiremedim.',
+    },
+    {
+      ing: 'The sky was clear; so, we saw many stars.',
+      tr: 'Gökyüzü açıktı; bu yüzden birçok yıldız gördük.',
+    },
+    {
+      ing: "He didn't understand the homework; therefore, he asked for help.",
+      tr: 'Ödevi anlamadı; bu yüzden yardım istedi.',
+    },
+    {
+      ing: 'The movie was boring; therefore, I stopped watching it.',
+      tr: 'Film sıkıcıydı; bu yüzden izlemeyi bıraktım.',
+    },
+    {
+      ing: 'The concert was great; thus, we enjoyed it a lot.',
+      tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
+    },
+    {
+      ing: 'It was hot; so, we went swimming.',
+      tr: 'Hava sıcaktı; bu yüzden yüzmeye gittik.',
+    },
+    {
+      ing: "She was allergic; therefore, she didn't eat the cake.",
+      tr: 'Alerjisi vardı; bu yüzden keki yemedi.',
+    },
+    {
+      ing: 'He woke up late; thus, he missed the bus.',
+      tr: 'Geç uyandı; bu yüzden otobüsü kaçırdı.',
+    },
+    {
+      ing: "The food was spicy; hence, she didn't eat much.",
+      tr: 'Yemek baharatlıydı; bu yüzden fazla yemedi.',
+    },
+    {
+      ing: 'The task was easy; thus, I finished it quickly.',
+      tr: 'Görev kolaydı; bu yüzden hızlıca bitirdim.',
+    },
+    {
+      ing: 'The phone rang; hence, she answered it.',
+      tr: 'Telefon çaldı; bu nedenle cevapladı.',
+    },
+    {
+      ing: "The class was full; therefore, she couldn't join.",
+      tr: 'Sınıf doluydu; bu yüzden katılamadı.',
+    },
+    {
+      ing: 'It was a holiday; hence, the office was closed.',
+      tr: 'Tatildi; bu nedenle ofis kapalıydı.',
+    },
+    {
+      ing: "She forgot her book; therefore, she couldn't study.",
+      tr: 'Kitabını unuttu; bu yüzden çalışamadı.',
+    },
+    {
+      ing: "The book was boring; hence, I didn't finish it.",
+      tr: 'Kitap sıkıcıydı; bu nedenle bitirmedim.',
+    },
+    {
+      ing: "He didn't know the answer; hence, he skipped the question.",
+      tr: 'Cevabı bilmiyordu; bu nedenle soruyu atladı.',
+    },
+    {
+      ing: 'The soup was hot; thus, I waited for it to cool down.',
+      tr: 'Çorba sıcaktı; bu yüzden soğumasını bekledim.',
+    },
+    {
+      ing: 'She was hungry; thus, she made a sandwich.',
+      tr: 'Açtı; bu yüzden bir sandviç yaptı.',
+    },
+    {
+      ing: 'The road was icy; hence, driving was dangerous.',
+      tr: 'Yol buzlu olduğundan, araba sürmek tehlikeliydi.',
+    },
+    {
+      ing: 'The sky was clear; hence, we saw many stars.',
+      tr: 'Gökyüzü açıktı; bu nedenle birçok yıldız gördük.',
+    },
+    {
+      ing: "He didn't practice; therefore, he didn't win.",
+      tr: 'Pratik yapmadı; bu yüzden kazanmadı.',
+    },
+    {
+      ing: 'The park was closed; therefore, we went home.',
+      tr: 'Park kapalıydı; bu yüzden eve gittik.',
+    },
+    {
+      ing: 'The soup was cold; so, she heated it up.',
+      tr: 'Çorba soğuktu; bu yüzden ısıttı.',
+    },
+    {
+      ing: 'The task was difficult; hence, he needed help.',
+      tr: 'Görev zordu; bu nedenle yardıma ihtiyacı vardı.',
+    },
+    {
+      ing: 'The book was interesting; thus, I read it quickly.',
+      tr: 'Kitap ilginçti; bu yüzden hızlıca okudum.',
+    },
+    {
+      ing: 'The power went out; therefore, we used candles.',
+      tr: 'Elektrik kesildi; bu yüzden mum kullandık.',
+    },
+    {
+      ing: "The light was dim; so, I couldn't see clearly.",
+      tr: 'Işık loştu; bu yüzden net göremedim.',
+    },
+    {
+      ing: 'He studied a lot; hence, he got a good grade.',
+      tr: 'Çok çalıştı; bu nedenle iyi not aldı.',
+    },
+    {
+      ing: 'The test was easy; so, I finished quickly.',
+      tr: 'Test kolaydı; bu yüzden hızlıca bitirdim.',
+    },
+    {
+      ing: 'The weather was cold; hence, he wore a jacket.',
+      tr: 'Hava soğuktu; bu nedenle ceket giydi.',
+    },
+    {
+      ing: "The phone battery died; therefore, I couldn't contact him.",
+      tr: 'Telefonun şarjı bitti; bu yüzden onunla iletişim kuramadım.',
+    },
+    {
+      ing: "It was too hot; therefore, we didn't go outside.",
+      tr: 'Hava çok sıcaktı; bu yüzden dışarı çıkmadık.',
+    },
+    {
+      ing: 'The meeting was important; thus, everyone attended.',
+      tr: 'Toplantı önemliydi; bu yüzden herkes katıldı.',
+    },
+    {
+      ing: "She lost her wallet; thus, she couldn't buy anything.",
+      tr: 'Cüzdanını kaybetti; bu yüzden hiçbir şey alamadı.',
+    },
+    {
+      ing: 'She was tired; so, she took a nap.',
+      tr: 'Yorgundu; bu yüzden biraz kestirdi.',
+    },
+    {
+      ing: 'The light was dim; hence, reading was hard.',
+      tr: 'Işık loştu; bu nedenle okumak zordu.',
+    },
+    {
+      ing: 'He was sick; therefore, he went to the doctor.',
+      tr: 'Hastaydı; bu yüzden doktora gitti.',
+    },
+    {
+      ing: 'The coffee was strong; thus, he added some milk.',
+      tr: 'Kahve sertti; bu yüzden biraz süt ekledi.',
+    },
+    {
+      ing: 'The show was canceled; therefore, we watched a movie.',
+      tr: 'Gösteri iptal edildi; bu yüzden film izledik.',
+    },
+    {
+      ing: "She didn't sleep well; hence, she was tired.",
+      tr: 'İyi uyuyamadı; bu nedenle yorgundu.',
+    },
+    {
+      ing: "He was busy; therefore, he didn't attend the meeting.",
+      tr: 'Meşguldü; bu yüzden toplantıya katılmadı.',
+    },
+    {
+      ing: 'The light was dim; hence, reading was hard.',
+      tr: 'Işık loştu; bu nedenle okumak zordu.',
+    },
+    {
+      ing: "The movie was boring; therefore, I didn't finish it.",
+      tr: 'Film sıkıcıydı; bu yüzden bitirmedim.',
+    },
+    {
+      ing: 'He missed breakfast; hence, he was hungry.',
+      tr: 'Kahvaltıyı kaçırdı; bu nedenle acıktı.',
+    },
+    {
+      ing: 'The cake was delicious; thus, everyone had a piece.',
+      tr: 'Kek lezzetliydi; bu yüzden herkes bir dilim aldı.',
+    },
+    {
+      ing: 'The weather was nice; thus, we went for a walk.',
+      tr: 'Hava güzeldi; bu yüzden yürüyüşe çıktık.',
+    },
+    {
+      ing: 'He felt sick; thus, he went to the nurse.',
+      tr: 'Hastalandı; bu yüzden hemşireye gitti.',
+    },
+    {
+      ing: "The food was too salty; so, they didn't eat much.",
+      tr: 'Yemek çok tuzluydu; bu yüzden onlar fazla yemediler.',
+    },
+    {
+      ing: 'It started to snow; thus, the roads were slippery.',
+      tr: 'Kar yağmaya başladı; bu yüzden yollar kaygandı.',
+    },
+    {
+      ing: 'The weather was bad; therefore, the event was postponed.',
+      tr: 'Hava kötüydü; bu yüzden etkinlik ertelendi.',
+    },
+    {
+      ing: "The shop was closed; hence, I couldn't buy milk.",
+      tr: 'Dükkan kapalıydı; bu nedenle süt alamadım.',
+    },
+    {
+      ing: "He didn't hear the alarm; therefore, he was late.",
+      tr: 'Alarmı duymadı; bu yüzden geç kaldı.',
+    },
+    {
+      ing: 'The beach was crowded; hence, we left early.',
+      tr: 'Plaj kalabalıktı; bu nedenle erken ayrıldık.',
+    },
+    {
+      ing: 'The car broke down; therefore, we took a taxi.',
+      tr: 'Araba bozuldu; bu yüzden taksiye bindik.',
+    },
+    {
+      ing: 'The show was funny; so, we laughed a lot.',
+      tr: 'Gösteri komikti; bu yüzden çok güldük.',
+    },
+    {
+      ing: 'The weather was nice; so, we went for a walk.',
+      tr: 'Hava güzeldi; bu yüzden yürüyüşe çıktık.',
+    },
+    {
+      ing: 'He was thirsty; thus, he drank some water.',
+      tr: 'Susamıştı; bu yüzden biraz su içti.',
+    },
+    {
+      ing: "She didn't like the food; therefore, she didn't eat it.",
+      tr: 'Yemeyi beğenmedi; bu yüzden yemedı.',
+    },
+    {
+      ing: 'He saved money; thus, he could buy a new bike.',
+      tr: 'Para biriktirdi; bu yüzden yeni bir bisiklet alabilir.',
+    },
+    {
+      ing: "He didn't understand the rules; hence, he lost the game.",
+      tr: 'Kuralları anlamadı; bu nedenle oyunu kaybetti.',
+    },
+    {
+      ing: 'The store was out of stock; therefore, I ordered online.',
+      tr: 'Mağazada stok yoktu; bu yüzden çevrimiçi sipariş verdim.',
+    },
+    {
+      ing: "He didn't practice; hence, he didn't win.",
+      tr: 'Pratik yapmadı; bu nedenle kazanmadı.',
+    },
+    {
+      ing: 'She forgot to call; therefore, they were worried.',
+      tr: 'Aramayı unuttu; bu yüzden endişelendiler.',
+    },
+    {
+      ing: 'The game was postponed; hence, we went home early.',
+      tr: 'Oyun ertelendi; bu nedenle erken eve gittik.',
+    },
+    {
+      ing: 'It was raining; hence, we used umbrellas.',
+      tr: 'Yağmur yağıyordu; bu nedenle şemsiye kullandık.',
+    },
+    {
+      ing: 'The street was crowded; so, we walked slowly.',
+      tr: 'Sokak kalabalıktı; bu yüzden yavaş yürüdük.',
+    },
+    {
+      ing: 'She studied hard; thus, she passed the exam.',
+      tr: 'Çok çalıştı; bu yüzden sınavı geçti.',
+    },
+    {
+      ing: 'She was tired; thus, she went to bed early.',
+      tr: 'Yorgundu; bu yüzden erken yattı.',
+    },
+    {
+      ing: 'The movie was funny; thus, we laughed a lot.',
+      tr: 'Film komikti; bu yüzden çok güldük.',
+    },
+    {
+      ing: 'He was tired; therefore, he took a nap.',
+      tr: 'Yorgundu; bu yüzden biraz kestirdi.',
+    },
+    {
+      ing: 'The park was beautiful; so, we took photos.',
+      tr: 'Park güzeldi; bu yüzden fotoğraf çektik.',
+    },
+    {
+      ing: "He had no money; therefore, he didn't buy lunch.",
+      tr: 'Parası yoktu; bu yüzden öğle yemeği almadı.',
+    },
+    {
+      ing: 'The library was quiet; hence, I could study well.',
+      tr: 'Kütüphane sessizdi; bu nedenle iyi çalışabildim.',
+    },
+    {
+      ing: 'The store was busy; so, we waited in line.',
+      tr: 'Mağaza yoğundu; bu yüzden sırada bekledik.',
+    },
+    {
+      ing: 'The noise was loud; thus, I closed the window.',
+      tr: 'Gürültü yüksekti; bu yüzden pencereyi kapattım.',
+    },
+    {
+      ing: 'She was nervous; thus, she made a mistake.',
+      tr: 'Gergindi; bu yüzden hata yaptı.',
+    },
+    {
+      ing: 'It was late; hence, they took a taxi.',
+      tr: 'Geç olmuştu; bu nedenle taksiye bindiler.',
+    },
+    {
+      ing: "The concert was sold out; hence, I couldn't buy a ticket.",
+      tr: 'Konserin biletleri tükenmişti; bu nedenle bilet alamadım.',
+    },
+    {
+      ing: 'The roads were icy; hence, it was not safe to drive.',
+      tr: 'Yollar buzlu olduğundan, araba sürmek güvenli değildi.',
+    },
+    {
+      ing: 'The show was funny; so, we laughed a lot.',
+      tr: 'Gösteri komikti; bu yüzden çok güldük.',
+    },
+    {
+      ing: 'The dog was barking; so, I closed the window.',
+      tr: 'Köpek havlıyordu; bu yüzden pencereyi kapattım.',
+    },
+    {
+      ing: 'She was hungry; so, she ate an apple.',
+      tr: 'Açtı; bu yüzden bir elma yedi.',
+    },
+    {
+      ing: 'He forgot his book; so, he borrowed mine.',
+      tr: 'Kitabını unuttu; bu yüzden benimkini ödünç aldı.',
+    },
+    {
+      ing: 'He worked late; thus, he was tired the next day.',
+      tr: 'Geç çalıştı; bu yüzden ertesi gün yorgundu.',
+    },
+    {
+      ing: 'The meeting was important; hence, everyone attended.',
+      tr: 'Toplantı önemliydi; bu nedenle herkes katıldı.',
+    },
+    {
+      ing: "He didn't know the answer; so, he asked the teacher.",
+      tr: 'Cevabı bilmiyordu; bu yüzden öğretmene sordu.',
+    },
+    {
+      ing: 'The car was dirty; so, he washed it.',
+      tr: 'Araba kirliydi; bu yüzden yıkadı.',
+    },
+    {
+      ing: 'The sky was clear; so, we saw many stars.',
+      tr: 'Gökyüzü açıktı; bu yüzden birçok yıldız gördük.',
+    },
+    {
+      ing: 'She felt sick; so, she went to the nurse.',
+      tr: 'Hastalandı; bu yüzden hemşireye gitti.',
+    },
+    {
+      ing: 'The store was out of stock; hence, I ordered online.',
+      tr: 'Mağazada stok yoktu; bu nedenle çevrimiçi sipariş verdim.',
+    },
+    {
+      ing: 'He was thirsty; so, he drank some water.',
+      tr: 'Susamıştı; bu yüzden biraz su içti.',
+    },
+    {
+      ing: 'The weather was bad; hence, the event was postponed.',
+      tr: 'Hava kötüydü; bu nedenle etkinlik ertelendi.',
+    },
+    {
+      ing: 'She was happy; thus, she smiled all day.',
+      tr: 'Mutluydu; bu yüzden tüm gün gülümsedi.',
+    },
+    {
+      ing: "She didn't sleep well; thus, she was tired.",
+      tr: 'İyi uyuyamadı; bu yüzden yorgundu.',
+    },
+    {
+      ing: 'The weather was nice; hence, we went for a walk.',
+      tr: 'Hava güzeldi; bu nedenle yürüyüşe çıktık.',
+    },
+    {
+      ing: 'The task was difficult; thus, he needed help.',
+      tr: 'Görev zordu; bu yüzden yardıma ihtiyacı vardı.',
+    },
+    {
+      ing: "He was busy; hence, he didn't attend the meeting.",
+      tr: 'Meşguldü; bu nedenle toplantıya katılmadı.',
+    },
+    {
+      ing: 'She forgot her keys; so, she called her friend.',
+      tr: 'Anahtarlarını unuttu; bu yüzden arkadaşını aradı.',
+    },
+    {
+      ing: 'The show was canceled; hence, we watched a movie.',
+      tr: 'Gösteri iptal edildi; bu nedenle film izledik.',
+    },
+  ],
+  Zıtlık: [
+    {
+      ing: 'I wanted to go to the park, but it was raining.',
+      tr: 'Parka gitmek istedim ama yağmur yağıyordu.',
+    },
+    {
+      ing: 'He loves to play soccer, however, his ball got punctured.',
+      tr: 'Futbol oynamayı çok seviyor ama topu delinmiş.',
+    },
+    {
+      ing: 'She loves to read, but she left her book at school.',
+      tr: 'Okumayı seviyor ama kitabını okulda unutmuş.',
+    },
+    {
+      ing: 'I enjoy swimming, but the pool was closed today.',
+      tr: 'Yüzmeyi severim ama havuz bugün kapalıydı.',
+    },
+    {
+      ing: 'He wanted to go on a trip, but he had to work.',
+      tr: 'Bir geziye çıkmak istiyordu ama çalışması gerekiyordu.',
+    },
+    {
+      ing: 'I wanted to eat pizza; however, the pizza shop was closed.',
+      tr: 'Pizza yemek istiyordum ama pizzacı kapalıydı.',
+    },
+    {
+      ing: 'She loves to dance, but she hurt her foot.',
+      tr: 'Dans etmeyi seviyor ama ayağını incitti.',
+    },
+    {
+      ing: 'He wanted to watch a movie, but the cinema was too crowded.',
+      tr: 'Film izlemek istiyordu ama sinema çok kalabalıktı.',
+    },
+    {
+      ing: "I love to play video games, but my console wasn't working.",
+      tr: 'Video oyunları oynamayı seviyorum ama konsolum çalışmıyordu.',
+    },
+    {
+      ing: 'She wanted to bake a cake, however, there was no flour at home.',
+      tr: 'Pasta yapmak istedi ancak evde un yoktu.',
+    },
+    {
+      ing: 'He likes to play guitar, but he broke a string.',
+      tr: 'Gitar çalmayı seviyor ama telini kırdı.',
+    },
+    {
+      ing: 'I love to paint, but I ran out of blue paint.',
+      tr: 'Resim yapmayı seviyorum ama mavi boyam bitti.',
+    },
+    {
+      ing: 'She loves animals, but she is allergic to cats.',
+      tr: 'Hayvanları çok seviyor ama kedilere alerjisi var.',
+    },
+    {
+      ing: 'He wanted to go for a walk, however, it was too hot outside.',
+      tr: 'Yürüyüşe çıkmak istiyordu ama dışarısı çok sıcaktı.',
+    },
+    {
+      ing: "I love to travel, but I didn't have enough money.",
+      tr: 'Seyahat etmeyi seviyorum ama yeterli param yoktu.',
+    },
+    {
+      ing: "She loves to garden, but she doesn't have a yard.",
+      tr: 'Bahçeyle uğraşmayı seviyor ama bahçesi yok.',
+    },
+    {
+      ing: "He wanted to eat ice cream, but he didn't have any.",
+      tr: 'Dondurma yemek istiyordu ama hiç dondurma yoktu.',
+    },
+    {
+      ing: "I love to write, but I couldn't find my notebook.",
+      tr: 'Yazmayı seviyorum ama defterimi bulamadım.',
+    },
+    {
+      ing: 'She wanted to go shopping; however, she forgot her wallet.',
+      tr: 'Alışverişe gitmek istedi ancak cüzdanını unuttu.',
+    },
+    {
+      ing: 'He loves to cook, but the gas was turned off.',
+      tr: 'Yemek yapmayı seviyor ama gaz kapalıydı.',
+    },
+    {
+      ing: 'I love to read, but it was too dark.',
+      tr: 'Okumayı seviyorum ama hava çok karanlıktı.',
+    },
+    {
+      ing: "She wanted to learn to play piano; however, she didn't have one.",
+      tr: 'Piyano çalmayı öğrenmek istiyordu ama piyanosu yoktu.',
+    },
+    {
+      ing: 'He loves to go to the beach, but he forgot his towel.',
+      tr: 'Plaja gitmeyi çok seviyor ama havlusunu unuttu.',
+    },
+    {
+      ing: 'I wanted to play basketball, but the court was busy.',
+      tr: 'Basketbol oynamak istiyordum ama saha çok kalabalıktı.',
+    },
+    {
+      ing: "She loves to knit; however, she didn't have any wool.",
+      tr: 'Örgü örmeyi seviyor ama yünü yoktu.',
+    },
+    {
+      ing: 'He wanted to eat out, but the restaurants were all closed.',
+      tr: 'Dışarıda yemek yemek istiyordu ama restoranların hepsi kapalıydı.',
+    },
+    {
+      ing: "I love to go camping, but I couldn't find my tent.",
+      tr: 'Kamp yapmayı çok seviyorum ama çadırımı bulamadım.',
+    },
+    {
+      ing: 'She wanted to drink tea, however, there was no tea at home.',
+      tr: 'Çay içmek istiyordu ama evde çay yoktu.',
+    },
+    {
+      ing: "He likes to play chess, but he couldn't find his set.",
+      tr: 'Satranç oynamayı seviyor ama setini bulamadı.',
+    },
+    {
+      ing: 'I love to go cycling, but my bicycle was broken.',
+      tr: 'Bisiklete binmeyi seviyorum ama bisikletim bozuldu.',
+    },
+    {
+      ing: "She wanted to play the violin; however, she didn't have one.",
+      tr: 'Keman çalmak istiyordu ama kemanı yoktu.',
+    },
+    {
+      ing: 'He loves to fish, but he forgot his fishing rod.',
+      tr: 'Balık tutmayı çok seviyor ama oltasını unutmuş.',
+    },
+    {
+      ing: 'I wanted to listen to music, but my headphones were broken.',
+      tr: 'Müzik dinlemek istedim ama kulaklığım bozuldu.',
+    },
+    {
+      ing: 'She loves to sing, but her throat was sore.',
+      tr: 'Şarkı söylemeyi seviyor ama boğazı ağrıyordu.',
+    },
+    {
+      ing: 'He wanted to bake bread; however, the oven was not working.',
+      tr: 'Ekmek pişirmek istedi ancak fırın çalışmıyordu.',
+    },
+    {
+      ing: "I love to draw, but I couldn't find my sketchbook.",
+      tr: 'Çizim yapmayı seviyorum ama eskiz defterimi bulamadım.',
+    },
+    {
+      ing: "She wanted to write a letter, but she didn't have any stamps.",
+      tr: 'Bir mektup yazmak istiyordu ama pulu yoktu.',
+    },
+    {
+      ing: 'He loves photography, but his camera was broken.',
+      tr: 'Fotoğraf çekmeyi seviyor ama kamerası bozuk.',
+    },
+    {
+      ing: 'I wanted to eat fruit, but the store was out of apples.',
+      tr: 'Meyve yemek istedim ama mağazada elma kalmamıştı.',
+    },
+    {
+      ing: 'She loves to run; however, her shoes were worn out.',
+      tr: 'Koşmayı çok seviyor ancak ayakkabıları eskimiş.',
+    },
+    {
+      ing: 'He wanted to learn to swim, but the swimming class was full.',
+      tr: 'Yüzmeyi öğrenmek istiyordu ama yüzme sınıfı doluydu.',
+    },
+    {
+      ing: 'I love to take photographs, but I forgot my camera.',
+      tr: 'Fotoğraf çekmeyi seviyorum ama fotoğraf makinemi unuttum.',
+    },
+    {
+      ing: 'She wanted to play a board game; however, the game was missing pieces.',
+      tr: 'Oyunu oynamak istedi ancak oyunun parçaları eksikti.',
+    },
+    {
+      ing: 'He loves to play the drums, but his drumsticks were broken.',
+      tr: 'Davul çalmayı çok seviyor ama bagetleri kırılmış.',
+    },
+    {
+      ing: "I wanted to watch a TV show, but my TV wasn't working.",
+      tr: 'Bir TV programı izlemek istedim ama televizyonum çalışmıyordu.',
+    },
+    {
+      ing: 'She loves to play soccer, but she lost her ball.',
+      tr: 'Futbol oynamayı seviyor ama topunu kaybetti.',
+    },
+    {
+      ing: 'He wanted to go skating, however, his skates were too small.',
+      tr: 'Paten kaymak istiyordu ancak patenleri çok küçüktü.',
+    },
+    {
+      ing: 'I love to do puzzles, but I lost a piece.',
+      tr: 'Yapboz yapmayı seviyorum ama bir parçasını kaybettim.',
+    },
+    {
+      ing: 'She wanted to go jogging, but her jogging shoes were torn.',
+      tr: 'Koşuya gitmek istiyordu ama koşu ayakkabıları yırtılmıştı.',
+    },
+    {
+      ing: 'He loves to go hiking; however, his backpack was ripped.',
+      tr: 'Yürüyüşe çıkmayı çok seviyor ancak sırt çantası yırtılmış.',
+    },
+    {
+      ing: 'I wanted to go bird watching, but I forgot my binoculars.',
+      tr: 'Kuş gözlemciliğine gitmek istedim ama dürbünümü unuttum.',
+    },
+    {
+      ing: 'She loves to play the flute, but her flute was damaged.',
+      tr: 'Flüt çalmayı çok seviyor ama flütü hasar görmüş.',
+    },
+    {
+      ing: 'He wanted to drink coffee, but there was none left.',
+      tr: 'Kahve içmek istedi ama kahve kalmamıştı.',
+    },
+    {
+      ing: 'I love to go to concerts, but the tickets were sold out.',
+      tr: 'Konserlere gitmeyi çok seviyorum ama biletler tükendi.',
+    },
+    {
+      ing: 'She wanted to play badminton; however, her racket was broken.',
+      tr: 'Badminton oynamak istedi ancak raketi kırıldı.',
+    },
+    {
+      ing: 'He loves to watch basketball games, but his TV had no signal.',
+      tr: 'Basketbol maçlarını izlemeyi seviyor ama televizyonunda sinyal yoktu.',
+    },
+    {
+      ing: 'I wanted to read a book, but the library was closed.',
+      tr: 'Kitap okumak istiyordum ama kütüphane kapalıydı.',
+    },
+    {
+      ing: 'She loves to make jewelry, but she ran out of beads.',
+      tr: 'Takı yapmayı çok seviyor ama boncukları kalmadı.',
+    },
+    {
+      ing: 'He wanted to cook dinner; however, there was no gas.',
+      tr: 'Akşam yemeği pişirmek istedi ancak gaz yoktu.',
+    },
+    {
+      ing: "I love to go boating, but I didn't have a life jacket.",
+      tr: 'Kayıkla gezmeyi seviyorum ama can yeleğim yoktu.',
+    },
+    {
+      ing: 'She wanted to eat strawberries, but the store was out of them.',
+      tr: 'Çilek yemek istiyordu ama mağazada çilek yoktu.',
+    },
+    {
+      ing: 'He loves to do magic tricks, but he lost his magic wand.',
+      tr: 'Sihir numaraları yapmayı seviyor ama sihirli asasını kaybetti.',
+    },
+    {
+      ing: 'I wanted to make a call, but my phone was dead.',
+      tr: 'Aramak istedim ama telefonum çalışmıyordu.',
+    },
+    {
+      ing: 'She loves to go rollerblading; however, her rollerblades were too small.',
+      tr: 'Paten kaymayı çok seviyor ancak patenleri çok küçüktü.',
+    },
+    {
+      ing: 'He wanted to go to a concert, but it was cancelled.',
+      tr: 'Konsere gitmek istiyordu ama iptal oldu.',
+    },
+    {
+      ing: 'I love to make pottery, but my clay was dried up.',
+      tr: 'Çömlek yapmayı seviyorum ama kilim kurumuştu.',
+    },
+    {
+      ing: 'She wanted to make a salad, but she had no lettuce.',
+      tr: 'Salata yapmak istedi ama marulu yoktu.',
+    },
+    {
+      ing: "He loves to play video games; however, his controller wasn't working.",
+      tr: 'Video oyunları oynamayı seviyor ancak kumandası çalışmıyordu.',
+    },
+    {
+      ing: 'I wanted to paint a picture, but I had no paintbrush.',
+      tr: 'Resim yapmak istiyordum ama fırçam yoktu.',
+    },
+    {
+      ing: 'She loves to do yoga, but she forgot her yoga mat.',
+      tr: 'Yoga yapmayı seviyor ama yoga matını unuttu.',
+    },
+    {
+      ing: 'He wanted to play baseball, but he lost his baseball bat.',
+      tr: 'Beyzbol oynamak istiyordu ama beyzbol sopasını kaybetti.',
+    },
+    {
+      ing: 'I love to play table tennis, but the net was missing.',
+      tr: 'Masa tenisi oynamayı seviyorum ama file eksikti.',
+    },
+    {
+      ing: 'She wanted to go to the museum, however, it was closed.',
+      tr: 'Müzeye gitmek istedi ama kapalıydı.',
+    },
+    {
+      ing: 'He loves to go rock climbing, but his equipment was damaged.',
+      tr: 'Kaya tırmanışına gitmeyi çok seviyor ama ekipmanı hasar görmüş.',
+    },
+    {
+      ing: 'I wanted to make a sandwich, but there was no bread.',
+      tr: 'Sandviç yapmak istedim ama ekmek yoktu.',
+    },
+    {
+      ing: "The cake looked good; though, it didn't taste great.",
+      tr: 'Kek güzel görünüyordu; fakat, tadı güzel değildi.',
+    },
+    {
+      ing: 'The task was simple, but he made a mistake.',
+      tr: 'Görev basitti, ama bir hata yaptı.',
+    },
+    {
+      ing: 'The car is old; though, it runs smoothly.',
+      tr: 'Araba eski; fakat, sorunsuz çalışıyor.',
+    },
+    {
+      ing: "He likes pizza, but he didn't eat it.",
+      tr: 'Pizzayı seviyor, ama yemedi.',
+    },
+    {
+      ing: "He studied hard; however, he didn't pass the exam.",
+      tr: 'Çok çalıştı; ancak sınavı geçemedi.',
+    },
+    {
+      ing: 'The weather was hot, but we had a great time.',
+      tr: 'Hava sıcaktı, ama çok eğlendik.',
+    },
+    {
+      ing: 'The food was delicious, but it was very spicy.',
+      tr: 'Yemek lezzetliydi, ama çok acıydı.',
+    },
+    {
+      ing: 'The car is old, but it works well.',
+      tr: 'Araba eski, ama iyi çalışıyor.',
+    },
+    {
+      ing: 'He is young; though, he is very mature.',
+      tr: 'Genç; fakat, çok olgun.',
+    },
+    {
+      ing: 'It was raining; however, we went out for a walk.',
+      tr: 'Yağmur yağıyordu; ancak, yürüyüşe çıktık.',
+    },
+    {
+      ing: 'She is smart, but she makes silly mistakes.',
+      tr: 'Zeki, ama saçma hatalar yapıyor.',
+    },
+    {
+      ing: 'She felt tired, but she went to the gym.',
+      tr: 'Yorgun hissetti, ama spor salonuna gitti.',
+    },
+    {ing: 'He is young, but he is very wise.', tr: 'Genç, ama çok bilge.'},
+    {
+      ing: 'It was a long trip; though, we enjoyed it.',
+      tr: 'Uzun bir yolculuktu; fakat, keyif aldık.',
+    },
+    {
+      ing: 'The food was spicy; though, it was tasty.',
+      tr: 'Yemek acıydı; fakat, lezzetliydi.',
+    },
+    {
+      ing: 'The show was canceled; however, we watched a movie.',
+      tr: 'Gösteri iptal edildi; ancak, film izledik.',
+    },
+    {
+      ing: 'The weather was bad; though, we had fun.',
+      tr: 'Hava kötüydü; fakat, eğlendik.',
+    },
+    {
+      ing: 'The road was blocked; though, we found a way.',
+      tr: 'Yol kapalıydı; fakat, bir yol bulduk.',
+    },
+    {
+      ing: "He didn't know the answer; however, he tried his best.",
+      tr: 'Cevabı bilmiyordu; ancak, elinden geleni yaptı.',
+    },
+    {
+      ing: 'The journey was long, but it was enjoyable.',
+      tr: 'Yolculuk uzundu, ama keyifliydi.',
+    },
+    {
+      ing: "He studied hard; though, he didn't pass the test.",
+      tr: 'Çok çalıştı; fakat sınavı geçemedi.',
+    },
+    {
+      ing: "She didn't sleep much, but she was energetic.",
+      tr: 'Fazla uyumadı, ama enerjikti.',
+    },
+    {
+      ing: "He was hungry, but he didn't eat anything.",
+      tr: 'Açtı, ama hiçbir şey yemeği.',
+    },
+    {
+      ing: "She loves coffee, but she didn't drink any.",
+      tr: 'Kahveyi seviyor, ama hiç içmedi.',
+    },
+    {
+      ing: 'The task was hard; however, he completed it on time.',
+      tr: 'Görev zordu; ancak, zamanında tamamladı.',
+    },
+    {
+      ing: 'He worked late; thus, he was tired the next day.',
+      tr: 'Geç çalıştı; bu yüzden ertesi gün yorgundu.',
+    },
+    {
+      ing: 'It was late, but he continued to work.',
+      tr: 'Geç olmuştu, ama çalışmaya devam etti.',
+    },
+    {
+      ing: 'The weather was nice; thus, we went for a walk.',
+      tr: 'Hava güzeldi; bu yüzden yürüyüşe çıktık.',
+    },
+    {
+      ing: 'She felt sick; however, she went to work.',
+      tr: 'Hastaydı; ancak, işe gitti.',
+    },
+    {
+      ing: 'She is smart; though, she makes mistakes sometimes.',
+      tr: 'Zeki; fakat, bazen hatalar yapıyor.',
+    },
+    {
+      ing: 'The sky was clear; so, we saw many stars.',
+      tr: 'Gökyüzü açıktı; bu yüzden birçok yıldız gördük.',
+    },
+    {
+      ing: 'It was a nice day, but it was very windy.',
+      tr: 'Güzel bir gündü, ama çok rüzgarlıydı.',
+    },
+    {
+      ing: 'She studied hard; thus, she passed the exam.',
+      tr: 'Çok çalıştı; bu yüzden sınavı geçti.',
+    },
+    {
+      ing: "He didn't know the answer; but, he guessed.",
+      tr: 'Cevabı bilmiyordu; ama tahmin etti.',
+    },
+    {
+      ing: "The cake looked delicious; however, it didn't taste good.",
+      tr: 'Kek lezzetli görünüyordu; ancak, tadı iyi değildi.',
+    },
+    {
+      ing: 'The car is old; however, it runs well.',
+      tr: 'Araba eski; ancak, iyi çalışıyor.',
+    },
+    {
+      ing: 'It was raining; though, we decided to go out.',
+      tr: 'Yağmur yağıyordu; fakat dışarı çıkmaya karar verdik.',
+    },
+    {
+      ing: 'The task was difficult; though, he completed it.',
+      tr: 'Görev zordu; fakat tamamladı.',
+    },
+    {
+      ing: 'He was tired; therefore, he took a nap.',
+      tr: 'Yorgundu; bu yüzden biraz kestirdi.',
+    },
+    {
+      ing: 'The movie was interesting; however, the ending was disappointing.',
+      tr: 'Film ilginçti; ancak sonu hayal kırıklığıydı.',
+    },
+    {
+      ing: "She was happy; though, she didn't show it.",
+      tr: 'Mutluydu; fakat göstermedi.',
+    },
+    {
+      ing: 'The show was funny; so, we laughed a lot.',
+      tr: 'Gösteri komikti; bu yüzden çok güldük.',
+    },
+    {
+      ing: 'She felt sick; though, she went to school.',
+      tr: 'Hastaydı; fakat okula gitti.',
+    },
+    {
+      ing: "He didn't know the answer; though, he tried his best.",
+      tr: 'Cevabı bilmiyordu; fakat elinden geleni yaptı.',
+    },
+    {
+      ing: 'The house is small; though, it is very comfortable.',
+      tr: 'Ev küçük; fakat çok rahat.',
+    },
+    {
+      ing: 'The book is interesting, but it is very long.',
+      tr: 'Kitap ilginç, ama çok uzun.',
+    },
+    {
+      ing: 'She was nervous; however, she gave a great speech.',
+      tr: 'Gergindi; ancak harika bir konuşma yaptı.',
+    },
+    {
+      ing: 'The cake was delicious; thus, everyone had a piece.',
+      tr: 'Kek lezzetliydi; bu yüzden herkes bir parça aldı.',
+    },
+    {
+      ing: 'The food was spicy; however, it was delicious.',
+      tr: 'Yemek acıydı; ancak lezzetliydi.',
+    },
+    {
+      ing: "She loves sweets; though, she didn't eat the cake.",
+      tr: 'Tatlıları sever; fakat keki yemedi.',
+    },
+    {
+      ing: 'The concert was great; thus, we enjoyed it a lot.',
+      tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
+    },
+    {
+      ing: 'The house is small; however, it is very cozy.',
+      tr: 'Ev küçük; ancak çok rahat.',
+    },
+    {
+      ing: 'It was a sunny day; however, it was very cold.',
+      tr: 'Güneşli bir gündü; ancak çok soğuktu.',
+    },
+    {
+      ing: "She loves chocolate; however, she didn't eat the cake.",
+      tr: 'Çikolatayı sever; ancak keki yemedi.',
+    },
+    {
+      ing: 'He was late; however, he completed the project.',
+      tr: 'Geç kaldı; ancak projeyi tamamladı.',
+    },
+    {
+      ing: 'The weather was bad; however, we enjoyed the trip.',
+      tr: 'Hava kötüydü; ancak geziden keyif aldık.',
+    },
+    {
+      ing: 'The car is old, but it works well.',
+      tr: 'Araba eski, ama iyi çalışıyor.',
+    },
+    {
+      ing: 'It was a long journey; however, we had fun.',
+      tr: 'Uzun bir yolculuktu; ancak eğlendik.',
+    },
+    {
+      ing: 'The movie was good, but the ending was sad.',
+      tr: 'Film iyiydi, ama sonu üzücüydü.',
+    },
+    {
+      ing: 'The sky was clear; however, it was very cold.',
+      tr: 'Gökyüzü açıktı; ancak çok soğuktu.',
+    },
+    {
+      ing: 'The weather was cold; hence, he wore a jacket.',
+      tr: 'Hava soğuktu; bu nedenle ceket giydi.',
+    },
+    {
+      ing: 'The house is big, but it is very old.',
+      tr: 'Ev büyük, ama çok eski.',
+    },
+    {
+      ing: 'The task was easy; thus, I finished it quickly.',
+      tr: 'Görev kolaydı; bu yüzden hızlıca bitirdim.',
+    },
+    {
+      ing: 'The weather was nice; so, we went for a walk.',
+      tr: 'Hava güzeldi; bu yüzden yürüyüşe çıktık.',
+    },
+    {
+      ing: 'The book is long; however, it is very engaging.',
+      tr: 'Kitap uzun; ancak çok sürükleyici.',
+    },
+    {
+      ing: "He likes pizza; however, he didn't eat it.",
+      tr: 'Pizzayı sever; ancak yemedi.',
+    },
+    {
+      ing: 'It was raining; but, we went out for a walk.',
+      tr: 'Yağmur yağıyordu; ama yürüyüşe çıktık.',
+    },
+    {
+      ing: 'The weather was bad; hence, the event was postponed.',
+      tr: 'Hava kötüydü; bu nedenle etkinlik ertelendi.',
+    },
+    {
+      ing: 'The task was difficult; however, he completed it on time.',
+      tr: 'Görev zordu; ancak zamanında tamamladı.',
+    },
+    {
+      ing: 'He is strong; but, he gets tired easily.',
+      tr: 'Güçlü; ama çabuk yoruluyor.',
+    },
+    {
+      ing: 'She was tired; though, she finished her homework.',
+      tr: 'Yorgundu; fakat ödevini bitirdi.',
+    },
+    {
+      ing: "The concert was sold out; hence, I couldn't buy a ticket.",
+      tr: 'Konserin biletleri tükendi; bu nedenle bilet alamadım.',
+    },
+    {
+      ing: 'He was late; however, he completed the project.',
+      tr: 'Geç kaldı; ancak projeyi tamamladı.',
+    },
+    {
+      ing: "The test was easy; but, he didn't do well.",
+      tr: 'Test kolaydı; ama iyi yapamadı.',
+    },
+    {
+      ing: 'The movie was interesting; however, the ending was disappointing.',
+      tr: 'Film ilginçti; ancak sonu hayal kırıklığıydı.',
+    },
+    {
+      ing: "I like ice cream, but it's too cold to eat it today.",
+      tr: 'Dondurmayı severim ama bugün yemek için çok soğuk.',
+    },
+    {
+      ing: 'He wanted to play football; however, his shoes were torn.',
+      tr: 'Futbol oynamak istiyordu ancak ayakkabıları yırtılmıştı.',
+    },
+    {
+      ing: 'The book was long, but I finished it in two days.',
+      tr: 'Kitap biraz uzun olmasına rağmen iki günde bitirdim.',
+    },
+    {
+      ing: "She enjoys cooking; however, she doesn't like washing dishes.",
+      tr: 'Yemek yapmayı seviyor ama bulaşık yıkamayı sevmiyor.',
+    },
+    {
+      ing: 'I love swimming, but the pool is too far from my house.',
+      tr: 'Yüzmeyi seviyorum ama havuz evime çok uzak.',
+    },
+    {
+      ing: 'He likes reading; however, he forgot his glasses at home.',
+      tr: 'Okumayı seviyor ancak gözlüğünü evde unutmuş.',
+    },
+    {
+      ing: 'I wanted to go to the park, but it started raining.',
+      tr: 'Parka gitmek istedim ama yağmur başladı.',
+    },
+    {
+      ing: 'She likes to paint, but she ran out of paint.',
+      tr: 'Resim yapmayı seviyor ama boyası bitti.',
+    },
+    {
+      ing: 'The movie was interesting, but I was too tired to finish it.',
+      tr: 'Film ilginçti ama bitiremeyecek kadar yorgundum.',
+    },
+    {
+      ing: 'He enjoys biking; however, his bike was stolen.',
+      tr: 'Bisiklete binmeyi seviyor ancak bisikleti çalındı.',
+    },
+    {
+      ing: "I like to play chess, but I don't have anyone to play with.",
+      tr: 'Satranç oynamayı seviyorum ama oynayacak kimsem yok.',
+    },
+    {
+      ing: "She wanted to bake a cake; however, she didn't have any eggs.",
+      tr: 'Pasta yapmak istiyordu ama yumurtası yoktu.',
+    },
+    {
+      ing: 'I enjoy playing video games, but my console is broken.',
+      tr: 'Video oyunları oynamayı seviyorum ama konsolum bozuk.',
+    },
+    {
+      ing: 'He wanted to go fishing, but he forgot his fishing rod.',
+      tr: 'Balığa çıkmak istedi ama oltasını unuttu.',
+    },
+    {
+      ing: 'I love to draw, but I lost my sketchbook.',
+      tr: 'Çizim yapmayı seviyorum ama eskiz defterimi kaybettim.',
+    },
+    {
+      ing: 'She likes to dance; however, her leg was hurting today.',
+      tr: 'Dans etmeyi seviyor ama bugün bacağı ağrıyordu.',
+    },
+    {
+      ing: 'The puzzle was difficult, but I managed to solve it.',
+      tr: 'Bulmaca zordu ama çözmeyi başardım.',
+    },
+    {
+      ing: "He enjoys gardening; however, he doesn't have a garden.",
+      tr: 'Bahçeyle uğraşmayı seviyor ancak bahçesi yok.',
+    },
+    {
+      ing: 'I wanted to make a call, but my phone was dead.',
+      tr: 'Aramak istedim ama telefonum çalışmıyordu.',
+    },
+    {
+      ing: 'She wanted to run, but she was too tired.',
+      tr: 'Koşmak istiyordu ama çok yorgundu.',
+    },
+    {
+      ing: 'I love playing soccer, but I twisted my ankle.',
+      tr: 'Futbol oynamayı seviyorum ama bileğimi burktum.',
+    },
+    {
+      ing: 'He likes watching movies; however, his TV was not working.',
+      tr: 'Film izlemeyi seviyor ancak televizyonu çalışmıyordu.',
+    },
+    {
+      ing: "I like to eat fruit, but the store didn't have any left.",
+      tr: 'Meyve yemeyi severim ama mağazada hiç kalmamıştı.',
+    },
+    {
+      ing: "She wanted to learn French, but she didn't have a teacher.",
+      tr: 'Fransızca öğrenmek istiyordu ama öğretmeni yoktu.',
+    },
+    {
+      ing: "I love to travel, but I don't have enough time.",
+      tr: 'Seyahat etmeyi seviyorum ama yeterli zamanım yok.',
+    },
+    {
+      ing: "I love to read, but I didn't have a new book to start.",
+      tr: 'Okumayı seviyorum ama başlayacak yeni bir kitabım yoktu.',
+    },
+    {
+      ing: "She loves plants; however, she doesn't have much space in her apartment.",
+      tr: 'Bitkileri seviyor ancak evinde fazla yer yok.',
+    },
+    {
+      ing: 'I wanted to have a picnic, but it was too windy.',
+      tr: 'Piknik yapmak istiyordum ama hava çok rüzgarlıydı.',
+    },
+    {
+      ing: 'He likes to go hiking, but his shoes were worn out.',
+      tr: 'Yürüyüşe çıkmayı seviyor ama ayakkabıları yıpranmış.',
+    },
+    {
+      ing: 'I love painting; however, I ran out of canvas.',
+      tr: 'Resim yapmayı çok seviyorum ama tuvalim bitti.',
+    },
+    {
+      ing: 'She wanted to take a nap, but the noise outside was too loud.',
+      tr: 'Biraz kestirmek istedi ama dışarıdaki gürültü çok yüksekti.',
+    },
+    {
+      ing: 'I wanted to go to the beach, but it was too crowded.',
+      tr: 'Denize gitmek istiyordum ama çok kalabalıktı.',
+    },
+    {
+      ing: 'He loves ice cream; however, the ice cream shop was closed.',
+      tr: 'Dondurmayı çok seviyor ama dondurmacı kapalı.',
+    },
+    {
+      ing: 'I like to play the piano, but my neighbor was sleeping.',
+      tr: 'Piyano çalmayı severim ama komşum uyuyordu.',
+    },
+    {
+      ing: 'She enjoys photography, but her camera was broken.',
+      tr: 'Fotoğraf çekmeyi seviyor ama kamerası bozuktu.',
+    },
+    {
+      ing: 'I wanted to see the sunset, but it was too cloudy.',
+      tr: 'Gün batımını görmek istedim ama hava çok bulutluydu.',
+    },
+    {
+      ing: 'He wanted to go for a swim, but the water was too cold.',
+      tr: 'Yüzmek istiyordu ama su çok soğuktu.',
+    },
+    {
+      ing: 'I like going for a walk, but it was too late.',
+      tr: 'Yürüyüşe çıkmayı seviyorum ama artık çok geçti.',
+    },
+    {
+      ing: "She wanted to eat pasta; however, she didn't have any sauce.",
+      tr: 'Makarna yemek istiyordu ama sosu yoktu.',
+    },
+    {
+      ing: 'I love to cook, but the kitchen was being cleaned.',
+      tr: 'Yemek yapmayı seviyorum ama mutfak temizleniyordu.',
+    },
+    {
+      ing: 'He enjoys stargazing, but the city lights were too bright.',
+      tr: 'Yıldızları izlemeyi seviyor ama şehrin ışıkları çok parlaktı.',
+    },
+    {
+      ing: 'I wanted to buy a new shirt, but the shop was already closed.',
+      tr: 'Yeni bir gömlek almak istedim ama dükkân zaten kapalıydı.',
+    },
+    {
+      ing: "She wanted to catch butterflies, but she didn't have a net.",
+      tr: 'Kelebek yakalamak istiyordu ama ağı yoktu.',
+    },
+    {
+      ing: "I love gardening, but I didn't have any seeds.",
+      tr: 'Bahçeyle uğraşmayı seviyorum ama tohumum yoktu.',
+    },
+    {
+      ing: "He wanted to watch a movie, but his DVD player wasn't working.",
+      tr: 'Film izlemek istiyordu ama DVD oynatıcısı çalışmıyordu.',
+    },
+    {
+      ing: 'I love to knit, but I ran out of wool.',
+      tr: 'Örgü örmeyi seviyorum ama yünüm bitti.',
+    },
+    {
+      ing: "She wanted to write a letter, but she didn't have any paper.",
+      tr: 'Mektup yazmak istiyordu ama kâğıdı yoktu.',
+    },
+    {
+      ing: 'I wanted to bake cookies, but the oven was not working.',
+      tr: 'Kurabiye pişirmek istedim ama fırın çalışmıyordu.',
+    },
+    {
+      ing: 'He enjoys jogging, but it was raining outside.',
+      tr: 'Koşmayı seviyor ama dışarıda yağmur yağıyordu.',
+    },
+    {
+      ing: 'I love bird watching, but there were no birds in the park today.',
+      tr: 'Kuş izlemeyi severim ama bugün parkta hiç kuş yoktu.',
+    },
+  ],
+};
