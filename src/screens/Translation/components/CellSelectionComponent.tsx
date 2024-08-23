@@ -7,6 +7,7 @@ const CellSelectionComponent = ({
   selectedCells,
   setSelectedCells,
   selectedCell,
+  cells,
 }: any) => {
   const toggleCell = (cell: any) => {
     setSelectedCells((prev: any) => {
@@ -45,8 +46,9 @@ const CellSelectionComponent = ({
 
   return (
     <View style={styles.container}>
-      {renderCell('RC', 'Relative Clause')}
-      {renderCell('NC', 'Noun Clause')}
+      {/* {renderCell('RC', 'Relative Clause')}
+      {renderCell('NC', 'Noun Clause')} */}
+      {cells.map((cell: any) => renderCell(cell.value, cell.label))}
     </View>
   );
 };

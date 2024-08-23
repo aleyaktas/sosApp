@@ -22,6 +22,7 @@ import Vocabulary from '../screens/Vocabulary';
 import UnitChoices from '../screens/UnitChoices';
 import ThereIsAreSosTable from '../screens/ThereIsAreSosTable';
 import RcNcTranslation from '../screens/Translation/RcNcTranslation';
+import ActivePassiveTranslation from '../screens/Translation/PassiveTranslation';
 
 const Stack = createStackNavigator();
 
@@ -206,6 +207,15 @@ const RootNavigation = () => {
       <Stack.Screen
         name="RcNcTranslation"
         component={RcNcTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="PassiveTranslation"
+        component={ActivePassiveTranslation}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,

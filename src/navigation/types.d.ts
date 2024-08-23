@@ -8,6 +8,8 @@ export type StackNavigatorList = {
   Sos: {title: string; item?: any};
   Translation: {title: string; item?: any};
   QuestionsTranslation: {title: string; item?: any};
+  RcNcTranslation: {title: string; item?: any};
+  PassiveTranslation: {title: string; item?: any};
   SubCategory: {title: string; item?: any};
   FourSkills: {title?: string; item?: any};
   Units: {title: string; item?: any};
