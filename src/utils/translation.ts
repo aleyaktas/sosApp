@@ -40511,3 +40511,1712 @@ export const Conjuction2GTranslationSentences = {
     },
   ],
 };
+
+export const Conjunctions3GTranslationSentences = {
+  AynıFikriSürdürme: [
+    {
+      ing: "In addition to mathematics, she's also good at science.",
+      tr: 'Matematiğin yanı sıra fen bilimlerinde de iyidir.',
+    },
+    {
+      ing: 'Besides cooking, my mother also loves gardening.',
+      tr: 'Annem yemek pişirmenin yanı sıra bahçe işlerini de seviyor.',
+    },
+    {
+      ing: 'She loves reading as well as painting.',
+      tr: 'Resim yapmanın yanı sıra okumayı da seviyor.',
+    },
+    {
+      ing: 'Apart from being a teacher, he is also a writer.',
+      tr: 'Öğretmen olmasının yanı sıra aynı zamanda bir yazardır.',
+    },
+    {
+      ing: 'In addition to cats, I also have a dog.',
+      tr: 'Kedilerin yanı sıra bir de köpeğim var.',
+    },
+    {
+      ing: 'Besides playing the piano, she also sings beautifully.',
+      tr: 'Piyano çalmasının yanı sıra çok güzel şarkı da söylüyor.',
+    },
+    {
+      ing: 'He can play guitar as well as the violin.',
+      tr: 'Kemanın yanı sıra gitar da çalabiliyor.',
+    },
+    {
+      ing: 'Apart from her job, she also volunteers at an animal shelter.',
+      tr: 'İşinin yanı sıra bir hayvan barınağında da gönüllü olarak çalışıyor.',
+    },
+    {
+      ing: 'In addition to his job, he also takes care of his elderly mother.',
+      tr: 'İşinin yanı sıra yaşlı annesine de bakıyor.',
+    },
+    {
+      ing: 'Besides reading, I also like to go hiking.',
+      tr: 'Okumanın yanı sıra yürüyüşe çıkmayı da seviyorum.',
+    },
+    {
+      ing: 'She likes to watch movies as well as plays.',
+      tr: 'Tiyatronun yanı sıra film izlemeyi de seviyor.',
+    },
+    {
+      ing: 'Apart from cooking, he also enjoys baking.',
+      tr: 'Yemek yapmanın yanı sıra yemek pişirmeyi de seviyor.',
+    },
+    {
+      ing: 'In addition to Spanish, he speaks three other languages.',
+      tr: 'İspanyolcanın yanı sıra üç dil daha konuşuyor.',
+    },
+    {
+      ing: 'Besides being a writer, she also paints.',
+      tr: 'Yazarlığın yanı sıra resim de yapıyor.',
+    },
+    {
+      ing: 'He loves playing football as well as swimming.',
+      tr: 'Yüzmenin yanı sıra futbol oynamayı da seviyor.',
+    },
+    {
+      ing: 'Apart from being an excellent teacher, she is also a great listener.',
+      tr: 'Mükemmel bir öğretmen olmasının yanı sıra, aynı zamanda harika bir dinleyicidir.',
+    },
+    {
+      ing: 'In addition to dogs, we also have a pet rabbit.',
+      tr: 'Köpeklerin yanı sıra evcil bir tavşanımız da var.',
+    },
+    {
+      ing: 'Besides being a talented artist, he is also a skilled musician.',
+      tr: 'Yetenekli bir sanatçı olmasının yanı sıra aynı zamanda yetenekli bir müzisyendir.',
+    },
+    {
+      ing: 'She plays tennis as well as badminton.',
+      tr: 'Badmintonun yanı sıra tenis de oynuyor.',
+    },
+    {
+      ing: 'Apart from playing chess, he also enjoys solving puzzles.',
+      tr: 'Satranç oynamanın yanı sıra bulmaca çözmekten de hoşlanıyor.',
+    },
+    {
+      ing: 'In addition to English, she also teaches Spanish.',
+      tr: 'İngilizcenin yanı sıra İspanyolca da öğretiyor.',
+    },
+    {
+      ing: 'Besides her family, she also has many close friends.',
+      tr: 'Ailesinin yanı sıra pek çok yakın arkadaşı da var.',
+    },
+    {
+      ing: 'He enjoys camping as well as fishing.',
+      tr: 'Balık tutmanın yanı sıra kamp yapmaktan da hoşlanıyor.',
+    },
+    {
+      ing: 'Apart from studying, he also works part-time.',
+      tr: 'Okumanın yanı sıra yarı zamanlı da çalışıyor.',
+    },
+    {
+      ing: 'In addition to the main course, there will be two side dishes.',
+      tr: 'Ana yemeğin yanı sıra iki meze de olacak.',
+    },
+    {
+      ing: 'Besides her, everyone else was late.',
+      tr: 'Onun dışında herkes geç kalmıştı.',
+    },
+    {
+      ing: 'She likes coffee as well as tea.',
+      tr: 'Çay kadar kahveyi de seviyor.',
+    },
+    {
+      ing: 'Apart from his house, he also owns an apartment.',
+      tr: 'Evinin yanı sıra bir de dairesi bulunmaktadır.',
+    },
+    {
+      ing: 'In addition to her full-time job, she also does freelance work.',
+      tr: 'Tam zamanlı işinin yanı sıra serbest işler de yapmaktadır.',
+    },
+    {
+      ing: 'Besides reading, he also enjoys writing.',
+      tr: 'Okumanın yanı sıra yazmayı da seviyor.',
+    },
+    {
+      ing: 'She knows French as well as Italian.',
+      tr: 'İtalyancanın yanı sıra Fransızca da biliyor.',
+    },
+    {
+      ing: 'Apart from mathematics, he is also good at physics.',
+      tr: 'Matematiğin yanı sıra fizikte de iyidir.',
+    },
+    {
+      ing: 'In addition to the tickets, we also need to book a hotel.',
+      tr: 'Biletlerin yanı sıra otel rezervasyonu da yapmamız gerekiyor.',
+    },
+    {
+      ing: 'Besides pizza, they also serve pasta.',
+      tr: 'Pizzanın yanı sıra makarna da servis ediyorlar.',
+    },
+    {
+      ing: 'He likes hiking as well as mountain climbing.',
+      tr: 'Dağa tırmanmanın yanı sıra yürüyüş yapmayı da seviyor.',
+    },
+    {
+      ing: 'Apart from his parents, everyone attended the party.',
+      tr: 'Partiye anne ve babası dışında herkes katıldı.',
+    },
+    {
+      ing: 'In addition to being a chef, he also writes cookbooks.',
+      tr: 'Şef olmasının yanı sıra yemek kitapları da yazıyor.',
+    },
+    {
+      ing: 'Besides that, she also said that she would help us.',
+      tr: 'Bunun yanı sıra bize yardımcı olacağını da söyledi.',
+    },
+    {
+      ing: 'She plays the piano as well as the guitar.',
+      tr: 'Gitarın yanı sıra piyano da çalıyor.',
+    },
+    {
+      ing: 'Apart from him, everyone liked the movie.',
+      tr: 'Onun dışında herkes filmi beğendi.',
+    },
+    {
+      ing: 'In addition to his regular studies, he also takes music lessons.',
+      tr: 'Düzenli çalışmalarının yanı sıra müzik dersleri de alıyor.',
+    },
+    {
+      ing: 'Besides eating healthy, she also exercises regularly.',
+      tr: 'Sağlıklı beslenmenin yanı sıra düzenli olarak egzersiz de yapıyor.',
+    },
+    {
+      ing: 'He loves playing basketball as well as football.',
+      tr: 'Futbolun yanı sıra basketbol oynamayı da seviyor.',
+    },
+    {
+      ing: 'Apart from the salad, she also ordered soup.',
+      tr: 'Salatanın yanı sıra çorba da sipariş etti.',
+    },
+    {
+      ing: 'In addition to cleaning the house, she also washed the car.',
+      tr: 'Ev temizliğinin yanı sıra arabayı da yıkadı.',
+    },
+    {
+      ing: 'Besides playing games, he also likes to read books.',
+      tr: 'Oyun oynamanın yanı sıra kitap okumayı da seviyor.',
+    },
+    {
+      ing: 'She enjoys playing tennis as well as jogging.',
+      tr: 'Koşu yapmanın yanı sıra tenis oynamayı da seviyor.',
+    },
+    {
+      ing: 'Apart from this, everything else is fine.',
+      tr: 'Bunun dışında her şey yolunda.',
+    },
+    {
+      ing: 'In addition to the cake, I also made cookies.',
+      tr: 'Pastanın yanı sıra kurabiye de yaptım.',
+    },
+    {
+      ing: 'Besides painting, she also loves sculpting.',
+      tr: 'Resim yapmanın yanı sıra heykel yapmayı da çok seviyor.',
+    },
+    {
+      ing: 'He enjoys listening to music as well as playing instruments.',
+      tr: 'Enstrüman çalmanın yanı sıra müzik dinlemekten de hoşlanıyor.',
+    },
+    {
+      ing: 'Apart from the main meal, there were also desserts.',
+      tr: 'Ana yemeğin dışında tatlılar da vardı.',
+    },
+    {
+      ing: 'In addition to my job, I also have to take care of my family.',
+      tr: 'İşimin yanı sıra aileme de bakmak zorundayım.',
+    },
+    {
+      ing: 'Besides studying, he also plays sports.',
+      tr: 'Okumanın yanı sıra spor da yapıyor.',
+    },
+    {
+      ing: 'She enjoys traveling as well as photography.',
+      tr: 'Fotoğraf çekmenin yanı sıra seyahat etmekten de hoşlanıyor.',
+    },
+    {
+      ing: 'Apart from being a doctor, he is also a good writer.',
+      tr: 'Doktor olmasının yanı sıra iyi bir yazardır.',
+    },
+    {
+      ing: 'In addition to being a great cook, she is also an excellent baker.',
+      tr: 'Harika bir aşçı olmasının yanı sıra, aynı zamanda mükemmel bir fırıncıdır.',
+    },
+    {
+      ing: 'Besides being a good singer, he also plays guitar.',
+      tr: 'İyi bir şarkıcı olmasının yanı sıra gitar da çalıyor.',
+    },
+    {
+      ing: 'She enjoys reading novels as well as short stories.',
+      tr: 'Kısa öykülerin yanı sıra roman okumayı da seviyor.',
+    },
+    {
+      ing: 'Apart from his work, he also spends time volunteering.',
+      tr: 'İşinin yanı sıra gönüllü olarak da vakit geçiriyor.',
+    },
+    {
+      ing: 'In addition to this, she also needs to buy groceries.',
+      tr: 'Bunun yanı sıra yiyecek de alması gerekiyor.',
+    },
+    {
+      ing: 'Besides swimming, she also enjoys surfing.',
+      tr: 'Yüzmenin yanı sıra sörf yapmaktan da hoşlanıyor.',
+    },
+    {
+      ing: 'He likes playing board games as well as video games.',
+      tr: 'Video oyunlarının yanı sıra masa oyunları oynamayı da seviyor.',
+    },
+    {
+      ing: 'Apart from this mistake, the rest of his work is good.',
+      tr: 'Bu hatası dışında çalışmalarının geri kalanı iyi.',
+    },
+    {
+      ing: 'In addition to summer, I also like spring.',
+      tr: 'Yazın yanı sıra ilk baharı da severim.',
+    },
+    {
+      ing: 'Besides going to the cinema, we also had dinner.',
+      tr: 'Sinemaya gitmenin yanı sıra akşam yemeği de yedik.',
+    },
+    {
+      ing: 'She enjoys running as well as yoga.',
+      tr: 'Yoganın yanı sıra koşmayı da seviyor.',
+    },
+    {
+      ing: 'Apart from her, everyone else agreed.',
+      tr: 'Onun dışında herkes aynı fikirdeydi.',
+    },
+    {
+      ing: 'In addition to speaking English, he also speaks German.',
+      tr: 'İngilizce konuşmasının yanı sıra Almanca da konuşmaktadır.',
+    },
+    {
+      ing: 'Besides being good at tennis, he also excels at cricket.',
+      tr: 'Teniste iyi olmasının yanı sıra krikette de çok başarılı.',
+    },
+    {
+      ing: 'She likes ice cream as well as cake.',
+      tr: 'Dondurmanın yanı sıra pastayı da seviyor.',
+    },
+    {
+      ing: 'Apart from this dress, she also bought a skirt.',
+      tr: 'Bu elbisenin dışında bir de etek satın aldı.',
+    },
+    {
+      ing: 'In addition to being a lawyer, he is also a musician.',
+      tr: 'Avukat olmasının yanı sıra aynı zamanda müzisyendir.',
+    },
+    {
+      ing: 'Besides us, there were also other people at the park.',
+      tr: 'Parkta bizden başka insanlar da vardı.',
+    },
+    {
+      ing: 'He enjoys gardening as well as photography.',
+      tr: 'Bahçecilikle uğraşmanın yanı sıra fotoğrafçılıktan da hoşlanıyor.',
+    },
+  ],
+  Neden: [
+    {
+      ing: 'I stayed home because of the rain.',
+      tr: 'Yağmurdan dolayı evde kaldım.',
+    },
+    {
+      ing: 'Due to the traffic, he arrived late.',
+      tr: 'Trafikten dolayı geç kaldı.',
+    },
+    {
+      ing: 'Owing to her hard work, she passed her exams.',
+      tr: 'Çok çalışmasından dolayı sınavlarını geçti.',
+    },
+    {
+      ing: 'As a result of the snow, schools were closed.',
+      tr: 'Karın sonucunda okullar kapandı.',
+    },
+    {
+      ing: 'Thanks to my teacher, I understand the lesson now.',
+      tr: 'Öğretmenim sayesinde şimdi dersi anlıyorum.',
+    },
+    {
+      ing: 'Because of the hot weather, we went swimming.',
+      tr: 'Sıcak havadan dolayı yüzmeye gittik.',
+    },
+    {
+      ing: "Due to his allergies, he couldn't adopt a cat.",
+      tr: 'Alerjilerinden dolayı bir kedi sahiplenemedi.',
+    },
+    {
+      ing: 'Owing to the power cut, we ate dinner in the dark.',
+      tr: 'Elektrik kesintisinden dolayı yemeği karanlıkta yedik.',
+    },
+    {
+      ing: 'As a result of waking up late, I missed my bus.',
+      tr: 'Geç uyanmamın sonucunda otobüsü kaçırdım.',
+    },
+    {
+      ing: 'Thanks to my friend, I had a great birthday party.',
+      tr: 'Arkadaşım sayesinde harika bir doğum günü partisi yaptım.',
+    },
+    {
+      ing: "I couldn't see the show because of my busy schedule.",
+      tr: 'Yoğun programımdan dolayı gösteriyi izleyemedim.',
+    },
+    {
+      ing: 'Due to the sale, the mall was crowded.',
+      tr: 'İndirimden dolayı alışveriş merkezi kalabalıktı.',
+    },
+    {
+      ing: 'Owing to the broken elevator, we took the stairs.',
+      tr: 'Bozuk asansörden dolayı merdivenleri kullandık.',
+    },
+    {
+      ing: "As a result of not studying, he didn't pass the test.",
+      tr: 'Ders çalışmamanın sonucunda sınavı geçemedi.',
+    },
+    {
+      ing: 'Thanks to my brother, I fixed my computer.',
+      tr: 'Kardeşim sayesinde bilgisayarımı tamir ettim.',
+    },
+    {
+      ing: 'Because of the flood, the roads were blocked.',
+      tr: 'Selden dolayı yollar kapalıydı.',
+    },
+    {
+      ing: 'Due to his love for animals, he became a vet.',
+      tr: 'Hayvan sevgisinden dolayı veteriner oldu.',
+    },
+    {
+      ing: 'Owing to the music, everyone started dancing.',
+      tr: 'Müzikten dolayı herkes dans etmeye başladı.',
+    },
+    {
+      ing: 'As a result of the match, he became the champion.',
+      tr: 'Maçın sonucunda şampiyon oldu.',
+    },
+    {
+      ing: 'Thanks to my parents, I am attending university.',
+      tr: 'Ailem sayesinde üniversiteye gidiyorum.',
+    },
+    {
+      ing: "Because of the broken oven, we couldn't bake the cake.",
+      tr: 'Bozuk fırından dolayı keki pişiremedik.',
+    },
+    {
+      ing: 'Due to the cold weather, we lit a fire.',
+      tr: 'Soğuk havadan dolayı ateş yaktık.',
+    },
+    {
+      ing: 'Owing to the heavy rain, we postponed the picnic.',
+      tr: 'Yoğun yağmurdan dolayı pikniği erteledik.',
+    },
+    {
+      ing: 'As a result of forgetting his umbrella, he got wet.',
+      tr: 'Şemsiyesini unutmasının sonucunda ıslandı.',
+    },
+    {
+      ing: 'Thanks to my coach, I improved my skills.',
+      tr: 'Antrenörüm sayesinde yeteneklerimi geliştirdim.',
+    },
+    {
+      ing: 'Due to the sunny weather, we had a picnic.',
+      tr: 'Güneşli havadan dolayı piknik yaptık.',
+    },
+    {
+      ing: 'Owing to her kindness, everyone loves her.',
+      tr: 'Nazikliğinden dolayı herkes onu seviyor.',
+    },
+    {
+      ing: 'As a result of missing the train, I was late.',
+      tr: 'Treni kaçırmamın sonucunda geç kaldım.',
+    },
+    {
+      ing: 'Thanks to the map, we found the place easily.',
+      tr: 'Harita sayesinde yeri kolayca bulduk.',
+    },
+    {
+      ing: "I couldn't play football because of my injury.",
+      tr: 'Sakatlığımdan dolayı futbol oynayamadım.',
+    },
+    {
+      ing: 'Due to her talent, she won the competition.',
+      tr: 'Yeteneğinden dolayı yarışmayı kazandı.',
+    },
+    {
+      ing: "Owing to the long queue, we didn't enter the museum.",
+      tr: 'Uzun kuyruktan dolayı müzeye girmedik.',
+    },
+    {
+      ing: 'As a result of forgetting his keys, he was locked out.',
+      tr: 'Anahtarlarını unutmasının sonucunda dışarıda kaldı.',
+    },
+    {
+      ing: 'Thanks to the alarm, I woke up on time.',
+      tr: 'Alarm sayesinde zamanında uyandım.',
+    },
+    {
+      ing: 'Because of the wind, our hats flew off.',
+      tr: 'Rüzgardan dolayı şapkalarımız uçtu.',
+    },
+    {
+      ing: 'Due to the holiday, the stores were closed.',
+      tr: 'Tatilden dolayı mağazalar kapalıydı.',
+    },
+    {
+      ing: 'Owing to her hard work, she got a promotion.',
+      tr: 'Çok çalışmasından dolayı terfi aldı.',
+    },
+    {
+      ing: 'As a result of running fast, he won the race.',
+      tr: 'Hızlı koşmasının sonucunda yarışı kazandı.',
+    },
+    {
+      ing: 'Thanks to the medicine, I feel much better.',
+      tr: 'İlaç sayesinde çok daha iyi hissediyorum.',
+    },
+    {
+      ing: 'I felt happy because of the surprise party.',
+      tr: 'Sürpriz partiden dolayı mutlu hissettim.',
+    },
+    {
+      ing: 'Due to the loud noise, I woke up.',
+      tr: 'Yüksek sesten dolayı uyandım.',
+    },
+    {
+      ing: 'Owing to the long walk, we felt tired.',
+      tr: 'Uzun yürüyüşten dolayı yorgun hissettik.',
+    },
+    {
+      ing: 'As a result of skipping breakfast, I was hungry.',
+      tr: 'Kahvaltıyı atlamamın sonucunda aç kaldım.',
+    },
+    {
+      ing: 'Thanks to my dog, I go for walks regularly.',
+      tr: 'Köpeğim sayesinde düzenli olarak yürüyüşe çıkıyorum.',
+    },
+    {
+      ing: 'Because of the power cut, we had to use candles.',
+      tr: 'Elektrik kesintisinden dolayı mum kullanmak zorunda kaldık.',
+    },
+    {
+      ing: 'Due to her cooking skills, she won the contest.',
+      tr: 'Yemek yapma becerilerinden dolayı yarışmayı kazandı.',
+    },
+    {
+      ing: "Owing to his fear of heights, he didn't climb the mountain.",
+      tr: 'Yükseklik korkusundan dolayı dağa tırmanmadı.',
+    },
+    {
+      ing: 'As a result of studying hard, she passed her exams.',
+      tr: 'Çok çalışmasının sonucunda sınavlarını geçti.',
+    },
+    {
+      ing: 'Thanks to my teacher, I improved my grades.',
+      tr: 'Öğretmenim sayesinde notlarımı yükselttim.',
+    },
+    {
+      ing: "I couldn't go fishing because of the storm.",
+      tr: 'Fırtınadan dolayı balık tutmaya gidemedim.',
+    },
+    {
+      ing: 'Due to the full moon, the night was bright.',
+      tr: 'Dolunaydan dolayı gece parlaktı.',
+    },
+    {
+      ing: 'Owing to the good music, everyone was dancing.',
+      tr: 'Güzel müzikten dolayı herkes dans ediyordu.',
+    },
+    {
+      ing: 'As a result of losing my job, I started my own business.',
+      tr: 'İşimi kaybetmemin sonucunda kendi işimi kurdum.',
+    },
+    {
+      ing: "Thanks to my friend, I didn't miss the movie.",
+      tr: 'Arkadaşım sayesinde filmi kaçırmadım.',
+    },
+    {
+      ing: 'Because of the hot sun, we stayed in the shade.',
+      tr: 'Sıcak güneşten dolayı gölgede kaldık.',
+    },
+    {
+      ing: 'Due to my dedication, I finished the project on time.',
+      tr: 'Özverimden dolayı projeyi zamanında bitirdim.',
+    },
+    {
+      ing: 'Owing to his joke, everyone started laughing.',
+      tr: 'Şakasından dolayı herkes gülmeye başladı.',
+    },
+    {
+      ing: 'As a result of oversleeping, I missed my flight.',
+      tr: 'Fazla uyumanın sonucunda uçağımı kaçırdım.',
+    },
+    {
+      ing: 'Thanks to my sister, my party was a success.',
+      tr: 'Kardeşim sayesinde partim başarılı geçti.',
+    },
+    {
+      ing: 'Because of my hobby, I met many interesting people.',
+      tr: 'Hobimden dolayı birçok ilginç insanla tanıştım.',
+    },
+    {
+      ing: 'Due to the fun games, everyone enjoyed the party.',
+      tr: 'Eğlenceli oyunlardan dolayı herkes partiden keyif aldı.',
+    },
+    {
+      ing: 'Owing to her honesty, everyone trusts her.',
+      tr: 'Dürüstlüğünden dolayı herkes ona güveniyor.',
+    },
+    {
+      ing: 'As a result of practicing every day, I improved my piano skills.',
+      tr: 'Her gün pratik yapmamın sonucunda piyano becerilerimi geliştirdim.',
+    },
+    {
+      ing: 'Thanks to my coach, I won the match.',
+      tr: 'Antrenörüm sayesinde maçı kazandım.',
+    },
+    {
+      ing: 'Because of the new restaurant, the street was busy.',
+      tr: 'Yeni restorandan dolayı sokak kalabalıktı.',
+    },
+    {
+      ing: 'Due to the rainy weather, we stayed indoors.',
+      tr: 'Yağmurlu havadan dolayı içeride kaldık.',
+    },
+    {
+      ing: 'Owing to her creativity, she made a beautiful painting.',
+      tr: 'Yaratıcılığından dolayı güzel bir tablo yaptı.',
+    },
+    {
+      ing: 'As a result of the broken alarm, he was late for work.',
+      tr: 'Bozuk alarmın sonucunda işe geç kaldı.',
+    },
+    {
+      ing: 'Thanks to my hard work, I got a promotion.',
+      tr: 'Sıkı çalışmam sayesinde terfi aldım.',
+    },
+    {
+      ing: 'I wore a jacket because of the cold weather.',
+      tr: 'Soğuk havadan dolayı ceket giydim.',
+    },
+    {
+      ing: 'Due to her courage, she saved the day.',
+      tr: 'Cesaretinden dolayı günü kurtardı.',
+    },
+    {
+      ing: "Owing to the movie, we didn't notice the time.",
+      tr: 'Filmden dolayı zamanı fark etmedik.',
+    },
+    {
+      ing: 'As a result of my carelessness, I lost my phone.',
+      tr: 'Dikkatsizliğimin sonucunda telefonumu kaybettim.',
+    },
+    {
+      ing: 'Thanks to the gift, I felt special on my birthday.',
+      tr: 'Hediye sayesinde doğum günümde özel hissettim.',
+    },
+    {
+      ing: 'Due to the full moon, the night was bright.',
+      tr: 'Dolunaydan dolayı gece parlaktı.',
+    },
+    {
+      ing: 'As a result of the rain, the game was canceled.',
+      tr: 'Yağmurun sonucunda oyun iptal edildi.',
+    },
+    {
+      ing: 'Due to the flu, many students were absent.',
+      tr: 'Gripten dolayı birçok öğrenci yoktu.',
+    },
+    {
+      ing: 'Thanks to the alarm, I woke up on time.',
+      tr: 'Alarm sayesinde zamanında uyandım.',
+    },
+    {
+      ing: 'Owing to the long queue, we left the store.',
+      tr: 'Uzun kuyruktan dolayı mağazadan ayrıldık.',
+    },
+    {
+      ing: 'Due to the full moon, the night was bright.',
+      tr: 'Dolunaydan dolayı gece parlaktı.',
+    },
+    {
+      ing: 'Thanks to her smile, she makes friends easily.',
+      tr: 'Gülüşü sayesinde kolayca arkadaş ediniyor.',
+    },
+    {
+      ing: "Due to the high prices, we didn't buy anything.",
+      tr: 'Yüksek fiyatlardan dolayı hiçbir şey almadık.',
+    },
+    {
+      ing: 'Because of his efforts, the team won.',
+      tr: 'Çabalarından dolayı takım kazandı.',
+    },
+    {
+      ing: 'Due to his talent, he won the competition.',
+      tr: 'Yeteneğinden dolayı yarışmayı kazandı.',
+    },
+    {
+      ing: 'Thanks to her advice, I made the right decision.',
+      tr: 'Tavsiyesi sayesinde doğru kararı verdim.',
+    },
+    {
+      ing: 'Owing to her kindness, everyone loves her.',
+      tr: 'Nazikliğinden dolayı herkes onu seviyor.',
+    },
+    {
+      ing: 'As a result of his mistake, the project failed.',
+      tr: 'Hatasının sonucunda proje başarısız oldu.',
+    },
+    {
+      ing: 'Because of the storm, the power went out.',
+      tr: 'Fırtınadan dolayı elektrik kesildi.',
+    },
+    {
+      ing: 'Owing to the cold, they wore warm clothes.',
+      tr: 'Soğuktan dolayı kalın kıyafetler giydiler.',
+    },
+    {
+      ing: 'Due to his hard work, he got a promotion.',
+      tr: 'Sıkı çalışmasından dolayı terfi aldı.',
+    },
+    {
+      ing: 'Because of the new rules, we had to change our plans.',
+      tr: 'Yeni kurallardan dolayı planlarımızı değiştirmek zorunda kaldık.',
+    },
+    {
+      ing: 'Thanks to my friends, my birthday was special.',
+      tr: 'Arkadaşlarım sayesinde doğum günüm özel oldu.',
+    },
+    {
+      ing: 'As a result of the good weather, we had a picnic.',
+      tr: 'Güzel havanın sonucunda piknik yaptık.',
+    },
+    {
+      ing: 'Due to the traffic, he was late for work.',
+      tr: 'Trafikten dolayı işe geç kaldı.',
+    },
+    {
+      ing: 'Owing to her honesty, everyone trusts her.',
+      tr: 'Dürüstlüğünden dolayı herkes ona güveniyor.',
+    },
+    {
+      ing: 'Thanks to the teacher, I understand math better now.',
+      tr: 'Öğretmen sayesinde matematiği şimdi daha iyi anlıyorum.',
+    },
+    {
+      ing: "Due to the noise, I couldn't sleep.",
+      tr: 'Gürültüden dolayı uyuyamadım.',
+    },
+    {
+      ing: 'As a result of her kindness, she has many friends.',
+      tr: 'Nazikliğinin sonucunda birçok arkadaşı var.',
+    },
+    {
+      ing: 'Owing to the flood, many houses were damaged.',
+      tr: 'Selden dolayı birçok ev zarar gördü.',
+    },
+    {
+      ing: 'As a result of the traffic, we arrived late.',
+      tr: 'Trafiğin sonucunda geç vardık.',
+    },
+    {
+      ing: 'Due to the accident, the road was closed.',
+      tr: 'Kazadan dolayı yol kapalıydı.',
+    },
+    {
+      ing: 'Because of the hot sun, we wore hats.',
+      tr: 'Sıcak güneşten dolayı şapka taktık.',
+    },
+    {
+      ing: 'Thanks to his joke, everyone laughed.',
+      tr: 'Şakası sayesinde herkes güldü.',
+    },
+    {
+      ing: 'As a result of his hard work, he succeeded.',
+      tr: 'Sıkı çalışmasının sonucunda başarılı oldu.',
+    },
+    {
+      ing: "Because of the party, I didn't sleep well.",
+      tr: 'Partiden dolayı iyi uyuyamadım.',
+    },
+    {
+      ing: 'Thanks to the good weather, we had a great day.',
+      tr: 'Güzel hava sayesinde harika bir gün geçirdik.',
+    },
+    {
+      ing: 'Owing to the heavy traffic, we missed our flight.',
+      tr: 'Yoğun trafikten dolayı uçağımızı kaçırdık.',
+    },
+    {
+      ing: 'Due to the power cut, we had to use candles.',
+      tr: 'Elektrik kesintisinden dolayı mum kullanmak zorunda kaldık.',
+    },
+    {
+      ing: 'Thanks to the bus driver, we arrived safely.',
+      tr: 'Otobüs şoförü sayesinde güvenle vardık.',
+    },
+    {
+      ing: 'Because of the rain, the match was postponed.',
+      tr: 'Yağmurdan dolayı maç ertelendi.',
+    },
+    {
+      ing: 'Owing to his quick thinking, the problem was solved.',
+      tr: 'Hızlı düşünmesinden dolayı sorun çözüldü.',
+    },
+    {
+      ing: 'As a result of the storm, the power was out.',
+      tr: 'Fırtınanın sonucunda elektrik kesildi.',
+    },
+    {
+      ing: 'Thanks to my dog, I walk every day.',
+      tr: 'Köpeğim sayesinde her gün yürüyorum.',
+    },
+    {
+      ing: 'As a result of the delay, we missed the train.',
+      tr: 'Gecikmenin sonucunda treni kaçırdık.',
+    },
+    {
+      ing: 'Owing to the good music, everyone was dancing.',
+      tr: 'Güzel müzikten dolayı herkes dans ediyordu.',
+    },
+    {
+      ing: 'Due to the sale, the store was crowded.',
+      tr: 'İndirimden dolayı mağaza kalabalıktı.',
+    },
+    {
+      ing: "Because of the noise, I couldn't concentrate.",
+      tr: 'Gürültüden dolayı konsantre olamadım.',
+    },
+    {
+      ing: 'As a result of the full moon, the night was bright.',
+      tr: 'Dolunayın sonucunda gece parlaktı.',
+    },
+    {
+      ing: 'Thanks to my parents, I have a good education.',
+      tr: 'Ailem sayesinde iyi bir eğitim aldım.',
+    },
+    {
+      ing: "Due to the snow, we couldn't drive.",
+      tr: 'Kardan dolayı araba süremedik.',
+    },
+    {
+      ing: 'Owing to the festival, the streets were decorated.',
+      tr: 'Festivalden dolayı sokaklar süslendi.',
+    },
+    {
+      ing: 'Because of the music, the party was fun.',
+      tr: 'Müzikten dolayı parti eğlenceliydi.',
+    },
+    {
+      ing: 'Thanks to the guide, we learned a lot about the city.',
+      tr: 'Rehber sayesinde şehir hakkında çok şey öğrendik.',
+    },
+    {
+      ing: 'Because of the cold, we stayed inside.',
+      tr: 'Soğuktan dolayı içeride kaldık.',
+    },
+    {
+      ing: 'Due to the holiday, the stores were closed.',
+      tr: 'Tatilden dolayı mağazalar kapalıydı.',
+    },
+    {
+      ing: 'Thanks to his help, I finished the project on time.',
+      tr: 'Yardımı sayesinde projeyi zamanında bitirdim.',
+    },
+    {
+      ing: 'Because of the traffic, we were late.',
+      tr: 'Trafikten dolayı geç kaldık.',
+    },
+    {
+      ing: 'Due to the rainy weather, we stayed indoors.',
+      tr: 'Yağmurlu havadan dolayı içeride kaldık.',
+    },
+    {
+      ing: 'Thanks to the doctor, I feel better.',
+      tr: 'Doktor sayesinde daha iyi hissediyorum.',
+    },
+    {
+      ing: 'Because of her smile, everyone likes her.',
+      tr: 'Gülüşünden dolayı herkes onu seviyor.',
+    },
+    {
+      ing: 'Due to the broken machine, the factory stopped production.',
+      tr: 'Bozuk makineden dolayı fabrika üretimi durdurdu.',
+    },
+    {
+      ing: 'Owing to her talent, she became famous.',
+      tr: 'Yeteneğinden dolayı ünlü oldu.',
+    },
+    {
+      ing: "As a result of the noise, I couldn't sleep.",
+      tr: 'Gürültünün sonucunda uyuyamadım.',
+    },
+    {
+      ing: 'Owing to the long walk, we felt tired.',
+      tr: 'Uzun yürüyüşten dolayı yorgun hissettik.',
+    },
+    {
+      ing: 'As a result of his illness, he stayed home.',
+      tr: 'Hastalığının sonucunda evde kaldı.',
+    },
+    {
+      ing: 'Due to his kindness, everyone liked him.',
+      tr: 'Nazikliğinden dolayı herkes onu sevdi.',
+    },
+    {
+      ing: 'As a result of the heavy rain, the event was postponed.',
+      tr: 'Yoğun yağmurun sonucunda etkinlik ertelendi.',
+    },
+    {
+      ing: 'Owing to her hard work, she got a promotion.',
+      tr: 'Çok çalışmasından dolayı terfi aldı.',
+    },
+    {
+      ing: 'Thanks to the internet, we can easily find information.',
+      tr: 'İnternet sayesinde kolayca bilgi bulabiliyoruz.',
+    },
+    {
+      ing: 'As a result of her efforts, she got a promotion.',
+      tr: 'Çabalarının sonucunda terfi aldı.',
+    },
+    {
+      ing: 'Thanks to my coach, I won the match.',
+      tr: 'Antrenörüm sayesinde maçı kazandım.',
+    },
+    {
+      ing: 'Owing to the sunny weather, we had a picnic.',
+      tr: 'Güneşli havadan dolayı piknik yaptık.',
+    },
+    {
+      ing: 'Because of the hot sun, we stayed in the shade.',
+      tr: 'Sıcak güneşten dolayı gölgede kaldık.',
+    },
+    {
+      ing: 'Due to the storm, the flight was delayed.',
+      tr: 'Fırtınadan dolayı uçuş ertelendi.',
+    },
+    {
+      ing: 'Owing to the snow, the roads were slippery.',
+      tr: 'Kardan dolayı yollar kaygandı.',
+    },
+    {
+      ing: 'As a result of practicing every day, I improved my piano skills.',
+      tr: 'Her gün pratik yapmamın sonucunda piyano becerilerimi geliştirdim.',
+    },
+    {
+      ing: 'Because of the new restaurant, the street was busy.',
+      tr: 'Yeni restorandan dolayı sokak kalabalıktı.',
+    },
+    {
+      ing: 'Due to the heat, we went to the beach.',
+      tr: 'Sıcaktan dolayı plaja gittik.',
+    },
+    {
+      ing: "Thanks to the map, we didn't get lost.",
+      tr: 'Harita sayesinde kaybolmadık.',
+    },
+    {
+      ing: 'Owing to the heavy rain, the streets were flooded.',
+      tr: 'Yoğun yağmurdan dolayı sokaklar su bastı.',
+    },
+    {
+      ing: 'As a result of the flood, the roads were closed.',
+      tr: 'Selin sonucunda yollar kapandı.',
+    },
+    {
+      ing: "Because of the fog, we couldn't see the road.",
+      tr: 'Sisten dolayı yolu göremedik.',
+    },
+    {
+      ing: 'Thanks to the book, I learned a lot.',
+      tr: 'Kitap sayesinde çok şey öğrendim.',
+    },
+    {
+      ing: 'Owing to his joke, everyone started laughing.',
+      tr: 'Şakasından dolayı herkes gülmeye başladı.',
+    },
+    {
+      ing: 'Due to the fun games, everyone enjoyed the party.',
+      tr: 'Eğlenceli oyunlardan dolayı herkes partiden keyif aldı.',
+    },
+    {
+      ing: 'Thanks to the translator, we understood the speech.',
+      tr: 'Çevirmen sayesinde konuşmayı anladık.',
+    },
+    {
+      ing: 'As a result of the exercise, I feel healthier.',
+      tr: 'Egzersizin sonucunda daha sağlıklı hissediyorum.',
+    },
+    {
+      ing: 'Because of my hobby, I met many interesting people.',
+      tr: 'Hobimden dolayı birçok ilginç insanla tanıştım.',
+    },
+    {
+      ing: 'Due to the cold weather, we lit a fire.',
+      tr: 'Soğuk havadan dolayı ateş yaktık.',
+    },
+    {
+      ing: 'Owing to the broken heater, the house was cold.',
+      tr: 'Bozuk ısıtıcıdan dolayı ev soğuktu.',
+    },
+    {
+      ing: 'As a result of the accident, he was injured.',
+      tr: 'Kazanın sonucunda yaralandı.',
+    },
+    {
+      ing: 'Because of his illness, he stayed in bed.',
+      tr: 'Hastalığından dolayı yatakta kaldı.',
+    },
+    {
+      ing: "Thanks to my friend, I didn't miss the movie.",
+      tr: 'Arkadaşım sayesinde filmi kaçırmadım.',
+    },
+    {
+      ing: 'As a result of his quick thinking, the problem was solved.',
+      tr: 'Hızlı düşünmesinin sonucunda sorun çözüldü.',
+    },
+    {
+      ing: 'Owing to the support from his family, he succeeded.',
+      tr: 'Ailesinin desteğinden dolayı başarılı oldu.',
+    },
+    {
+      ing: 'Due to the windy weather, the flight was bumpy.',
+      tr: 'Rüzgarlı havadan dolayı uçuş sarsıntılı geçti.',
+    },
+    {
+      ing: 'Because of the flood, the roads were closed.',
+      tr: 'Selden dolayı yollar kapalıydı.',
+    },
+    {
+      ing: 'As a result of losing my job, I started my own business.',
+      tr: 'İşimi kaybetmemin sonucunda kendi işimi kurdum.',
+    },
+    {
+      ing: 'Due to her cooking skills, she won the contest.',
+      tr: 'Yemek yapma becerilerinden dolayı yarışmayı kazandı.',
+    },
+    {
+      ing: 'Thanks to the phone call, I remembered the meeting.',
+      tr: 'Telefon görüşmesi sayesinde toplantıyı hatırladım.',
+    },
+    {
+      ing: 'Because of the construction, the road was noisy.',
+      tr: 'İnşaattan dolayı yol gürültülüydü.',
+    },
+    {
+      ing: 'Owing to the power outage, the class was canceled.',
+      tr: 'Elektrik kesintisinden dolayı ders iptal oldu.',
+    },
+    {
+      ing: 'As a result of studying hard, she passed her exams.',
+      tr: 'Çok çalışmasının sonucunda sınavlarını geçti.',
+    },
+    {
+      ing: 'Because of the rain, we took an umbrella.',
+      tr: 'Yağmurdan dolayı şemsiye aldık.',
+    },
+    {
+      ing: 'As a result of the broken alarm, he was late for work.',
+      tr: 'Bozuk alarmın sonucunda işe geç kaldı.',
+    },
+  ],
+  Zıtlık: [
+    {
+      ing: 'In spite of the rain, we had a picnic.',
+      tr: 'Yağmura rağmen piknik yaptık.',
+    },
+    {
+      ing: 'Despite the traffic, he arrived on time.',
+      tr: 'Trafiğe rağmen zamanında geldi.',
+    },
+    {
+      ing: 'Contrary to my expectation, the movie was quite interesting.',
+      tr: 'Beklentimin aksine film oldukça ilgi çekiciydi.',
+    },
+    {
+      ing: 'Unlike his brother, he loves playing basketball.',
+      tr: 'Kardeşinin aksine basketbol oynamayı seviyor.',
+    },
+    {
+      ing: 'In spite of the cold, she went out to play.',
+      tr: 'Soğuğa rağmen oynamak için dışarı çıktı.',
+    },
+    {
+      ing: 'Despite his fear, he climbed to the top of the mountain.',
+      tr: 'Korkusuna rağmen dağın tepesine tırmandı.',
+    },
+    {
+      ing: 'Contrary to her usual routine, she decided to take a walk.',
+      tr: 'Her zamanki rutininin aksine yürüyüşe çıkmaya karar verdi.',
+    },
+    {
+      ing: "Unlike me, my sister doesn't like chocolate.",
+      tr: 'Benim aksime kız kardeşim çikolatayı sevmiyor.',
+    },
+    {
+      ing: 'In spite of his busy schedule, he finds time to read.',
+      tr: 'Yoğun programına rağmen okumaya vakit buluyor.',
+    },
+    {
+      ing: 'Despite being tired, she finished her homework.',
+      tr: 'Yorgun olmasına rağmen ödevini bitirdi.',
+    },
+    {
+      ing: 'Contrary to what I thought, the test was easy.',
+      tr: 'Düşündüğümün aksine sınav kolaydı.',
+    },
+    {
+      ing: 'Unlike her, I prefer tea over coffee.',
+      tr: 'Onun aksine ben çayı kahveye tercih ederim.',
+    },
+    {
+      ing: 'In spite of his fear of dogs, he adopted a puppy.',
+      tr: 'Köpek korkusuna rağmen bir köpek yavrusu sahiplendi.',
+    },
+    {
+      ing: 'Despite the distance, he walked to school.',
+      tr: 'Mesafeye rağmen okula yürüyerek gitti.',
+    },
+    {
+      ing: 'Contrary to his claim, the book was boring.',
+      tr: 'İddiasının aksine kitap sıkıcıydı.',
+    },
+    {
+      ing: 'Unlike my cat, my dog loves to play in the water.',
+      tr: 'Kedimin aksine köpeğim suyla oynamayı seviyor.',
+    },
+    {
+      ing: 'In spite of the warnings, they went swimming.',
+      tr: 'Uyarılara rağmen yüzmeye gittiler.',
+    },
+    {
+      ing: 'Despite his lack of practice, he played the piano well.',
+      tr: 'Çalışmamasına rağmen piyanoyu iyi çalıyordu.',
+    },
+    {
+      ing: "Contrary to the weather forecast, it didn't rain today.",
+      tr: 'Hava tahmininin aksine bugün yağmur yağmadı.',
+    },
+    {
+      ing: 'Unlike his friends, he enjoys studying.',
+      tr: 'Arkadaşlarının aksine ders çalışmayı seviyor.',
+    },
+    {
+      ing: 'In spite of not feeling well, she went to school.',
+      tr: 'İyi hissetmemesine rağmen okula gitti.',
+    },
+    {
+      ing: 'Despite losing her glasses, she finished the book.',
+      tr: 'Gözlüğünü kaybetmesine rağmen kitabı bitirdi.',
+    },
+    {
+      ing: 'Contrary to my advice, she bought the expensive dress.',
+      tr: 'Tavsiyemin aksine pahalı elbiseyi satın aldı.',
+    },
+    {
+      ing: "Unlike her best friend, she doesn't like reading.",
+      tr: 'En yakın arkadaşının aksine okumayı sevmiyor.',
+    },
+    {
+      ing: 'In spite of the heat, he went jogging.',
+      tr: 'Sıcağa rağmen koşuya çıktı.',
+    },
+    {
+      ing: 'Despite the noise, she fell asleep quickly.',
+      tr: 'Gürültüye rağmen hızla uykuya daldı.',
+    },
+    {
+      ing: 'Contrary to popular belief, bats are not blind.',
+      tr: 'Yaygın inanışın aksine yarasalar kör değildir.',
+    },
+    {
+      ing: 'Unlike the others, my favorite season is winter.',
+      tr: 'Diğerlerinden farklı olarak en sevdiğim mevsim kıştır.',
+    },
+    {
+      ing: 'In spite of the heavy luggage, he refused help.',
+      tr: 'Ağı valizlere rağmen yardımı reddetti.',
+    },
+    {
+      ing: 'Despite his age, he still enjoys playing video games.',
+      tr: 'Yaşına rağmen hala video oyunları oynamaktan hoşlanıyor.',
+    },
+    {
+      ing: 'Contrary to his usual behavior, he arrived early today.',
+      tr: 'Her zamanki davranışının aksine bugün erken geldi.',
+    },
+    {
+      ing: 'Unlike his previous job, he enjoys this one.',
+      tr: 'Önceki işinin aksine bu işten keyif alıyor.',
+    },
+    {
+      ing: 'In spite of the high price, she bought the dress.',
+      tr: 'Pahalı olmasına rağmen elbiseyi satın aldı.',
+    },
+    {
+      ing: 'Despite being new to the city, he found his way home.',
+      tr: 'Şehre yeni gelmesine rağmen evinin yolunu buldu.',
+    },
+    {
+      ing: 'Contrary to her initial fear, she enjoyed the rollercoaster ride.',
+      tr: 'Başlangıçtaki korkusunun aksine, hız trenine binmekten keyif alıyordu.',
+    },
+    {
+      ing: 'Unlike his parents, he prefers the countryside to the city.',
+      tr: 'Anne ve babasının aksine kırsal bölgeyi şehre tercih ediyor.',
+    },
+    {
+      ing: 'In spite of the strong wind, we went sailing.',
+      tr: 'Şİddetli fırtınaya rağmen denize açıldık.',
+    },
+    {
+      ing: "Despite forgetting his map, he didn't get lost.",
+      tr: 'Haritasını unutmasına rağmen kaybolmadı.',
+    },
+    {
+      ing: 'Contrary to her plans, she stayed at home.',
+      tr: 'Planlarının aksine evde kaldı.',
+    },
+    {
+      ing: 'Unlike her sister, she is good at sports.',
+      tr: 'Kız kardeşinin aksine sporda iyidir.',
+    },
+    {
+      ing: 'In spite of the early hour, the city was bustling.',
+      tr: 'Erken olmasına rağmen şehir oldukça hareketliydi.',
+    },
+    {
+      ing: 'Despite the broken tire, he won the bicycle race.',
+      tr: 'Lastiği patlamasına rağmen bisiklet yarışını kazandı.',
+    },
+    {
+      ing: 'Contrary to his predictions, the game ended in a draw.',
+      tr: 'Tahminlerinin aksine maç beraberlikle sonuçlandı.',
+    },
+    {
+      ing: 'Unlike my old car, my new one is very reliable.',
+      tr: 'Eski arabamın aksine yeni arabam çok güvenilir.',
+    },
+    {
+      ing: 'In spite of the language barrier, they became friends.',
+      tr: 'Dil engeline rağmen arkadaş oldular.',
+    },
+    {
+      ing: "Despite the failure, he didn't give up.",
+      tr: 'Başarısızlığa rağmen pes etmedi.',
+    },
+    {
+      ing: 'Contrary to expectations, he decided to quit his job.',
+      tr: 'Beklentilerin aksine işinden ayrılmaya karar verdi.',
+    },
+    {
+      ing: 'Unlike the others, I chose to stay.',
+      tr: 'Ben diğerlerinin aksine kalmayı tercih ettim.',
+    },
+    {
+      ing: 'In spite of not having a coat, he walked in the snow.',
+      tr: 'Kabanı olmamasına rağmen karda yürüdü.',
+    },
+    {
+      ing: 'Despite the power outage, we enjoyed the evening.',
+      tr: 'Elektrik kesintisine rağmen gecenin tadını çıkardık.',
+    },
+    {
+      ing: 'Contrary to what he said, she arrived on time.',
+      tr: 'Söylediğinin aksine zamanında geldi.',
+    },
+    {
+      ing: 'Unlike dogs, cats are independent animals.',
+      tr: 'Köpeklerin aksine kediler bağımsız hayvanlardır.',
+    },
+    {
+      ing: 'In spite of the difficulty, they completed the task.',
+      tr: 'Zorluğa rağmen görevi tamamladılar.',
+    },
+    {
+      ing: 'Despite her fear, she stood up and gave the speech.',
+      tr: 'Korkusuna rağmen ayağa kalktı ve konuşmayı yaptı.',
+    },
+    {
+      ing: 'Contrary to what she thought, he was not angry.',
+      tr: 'Düşündüğünün aksine kızgın değildi.',
+    },
+    {
+      ing: "Unlike his classmates, he doesn't like playing football.",
+      tr: 'Sınıf arkadaşlarının aksine futbol oynamayı sevmiyor.',
+    },
+    {
+      ing: 'In spite of the late hour, the restaurant was open.',
+      tr: 'Geç olmasına rağmen restoran açıktı.',
+    },
+    {
+      ing: 'Despite his excitement, he slept early.',
+      tr: 'Heyecanına rağmen erkenden uyudu.',
+    },
+    {
+      ing: 'Contrary to her order, she received a red dress.',
+      tr: 'Siparişinin aksine kırmızı bir elbise aldı.',
+    },
+    {
+      ing: 'Unlike the rest of her family, she likes spicy food.',
+      tr: 'Ailesinin geri kalanından farklı olarak baharatlı yiyecekleri seviyor.',
+    },
+    {
+      ing: 'In spite of the setback, they continued their journey.',
+      tr: 'Aksiliğe rağmen yolculuklarına devam ettiler.',
+    },
+    {
+      ing: 'Despite the pain, he continued to run.',
+      tr: 'Acıya rağmen koşmaya devam etti.',
+    },
+    {
+      ing: 'Contrary to his instructions, the cake was burnt.',
+      tr: 'Talimatına aykırı olarak pasta yandı.',
+    },
+    {
+      ing: 'Unlike my friend, I enjoy painting.',
+      tr: 'Arkadaşımın aksine ben resim yapmaktan hoşlanıyorum.',
+    },
+    {
+      ing: 'In spite of the steep hill, they kept climbing.',
+      tr: 'Dik yokuşa rağmen tırmanmaya devam ettiler.',
+    },
+    {
+      ing: "Despite the cold, he didn't wear a jacket.",
+      tr: 'Soğuğa rağmen ceket giymemişti.',
+    },
+    {
+      ing: 'Contrary to my belief, she knew how to swim.',
+      tr: 'İnandığımın aksine yüzmeyi biliyordu.',
+    },
+    {
+      ing: "Unlike my brother, I don't like video games.",
+      tr: 'Kardeşimin aksine ben video oyunlarını sevmiyorum.',
+    },
+    {
+      ing: 'In spite of her age, she runs every day.',
+      tr: 'Yaşına rağmen her gün koşuyor.',
+    },
+    {
+      ing: 'Despite the problem, they arrived on time.',
+      tr: 'Soruna rağmen zamanında geldiler.',
+    },
+    {
+      ing: 'Contrary to her fear, the dog was friendly.',
+      tr: 'Korkusunun aksine köpek arkadaş canlısıydı.',
+    },
+    {
+      ing: 'Unlike him, I enjoy hiking.',
+      tr: 'Onun aksine ben yürüyüş yapmaktan hoşlanıyorum.',
+    },
+    {
+      ing: 'In spite of the long line, they waited for the ride.',
+      tr: 'Uzun kuyruğa rağmen geziyi beklediler.',
+    },
+    {
+      ing: "Despite the dark clouds, it didn't rain.",
+      tr: 'Kara bulutlara rağmen yağmur yağmadı.',
+    },
+    {
+      ing: 'Contrary to his personality, he was very quiet today.',
+      tr: 'Kişiliğinin aksine bugün çok sessizdi.',
+    },
+    {
+      ing: 'Despite the delay, the event was successful.',
+      tr: 'Gecikmeye rağmen etkinlik başarılı oldu.',
+    },
+    {
+      ing: "Contrary to the weather forecast, it didn't rain.",
+      tr: 'Hava tahmininin aksine yağmur yağmadı.',
+    },
+    {
+      ing: 'Unlike other cities, this one is very clean.',
+      tr: 'Diğer şehirlerin aksine, bu şehir çok temizdir.',
+    },
+    {
+      ing: 'In spite of her injuries, she danced.',
+      tr: 'Yaralarına rağmen dans etti.',
+    },
+    {
+      ing: 'Despite the traffic, we arrived on time.',
+      tr: 'Trafiğe rağmen zamanında vardık.',
+    },
+    {
+      ing: 'In spite of her busy schedule, she helped me.',
+      tr: 'Yoğun programına rağmen bana yardım etti.',
+    },
+    {
+      ing: 'Contrary to her hopes, the project failed.',
+      tr: 'Umutlarının aksine, proje başarısız oldu.',
+    },
+    {
+      ing: 'Despite the noise, I managed to sleep.',
+      tr: 'Gürültüye rağmen uyumayı başardım.',
+    },
+    {
+      ing: 'Contrary to common belief, cats can be trained.',
+      tr: 'Yaygın inanışın aksine, kediler eğitilebilir.',
+    },
+    {
+      ing: 'Despite the cold, they enjoyed the picnic.',
+      tr: 'Soğuğa rağmen piknikten keyif aldılar.',
+    },
+    {
+      ing: 'In spite of the obstacles, they succeeded.',
+      tr: 'Engellere rağmen başarılı oldular.',
+    },
+    {
+      ing: 'Unlike his friends, he prefers to stay home.',
+      tr: 'Arkadaşlarının aksine, evde kalmayı tercih eder.',
+    },
+    {
+      ing: "Contrary to his promise, he didn't show up.",
+      tr: 'Sözüne rağmen gelmedi.',
+    },
+    {
+      ing: "Despite his efforts, he didn't pass the exam.",
+      tr: 'Çabalarına rağmen sınavı geçemedi.',
+    },
+    {
+      ing: 'Unlike summer, winter is very cold.',
+      tr: 'Yazın aksine, kış çok soğuktur.',
+    },
+    {
+      ing: 'In spite of being tired, she cleaned the house.',
+      tr: 'Yorgun olmasına rağmen evi temizledi.',
+    },
+    {
+      ing: 'Despite the bad weather, the festival was held.',
+      tr: 'Kötü havaya rağmen festival yapıldı.',
+    },
+    {
+      ing: 'Unlike the previous year, this year was successful.',
+      tr: 'Geçen yılın aksine, bu yıl başarılı geçti.',
+    },
+    {
+      ing: 'In spite of the loss, they celebrated.',
+      tr: 'Mağlubiyete rağmen kutladılar.',
+    },
+    {
+      ing: 'Contrary to her previous behavior, she was calm.',
+      tr: 'Önceki davranışlarının aksine, sakindi.',
+    },
+    {
+      ing: 'Despite the high prices, they bought the car.',
+      tr: 'Maliyete rağmen arabayı aldılar.',
+    },
+    {
+      ing: 'Contrary to his habits, he woke up early.',
+      tr: 'Alışkanlıklarının aksine, erken uyandı.',
+    },
+    {
+      ing: 'Despite her age, she runs every day.',
+      tr: 'Yaşına rağmen her gün koşar.',
+    },
+    {
+      ing: 'Unlike traditional methods, this approach is innovative.',
+      tr: 'Geleneksel yöntemlerin aksine, bu yaklaşım yenilikçidir.',
+    },
+    {
+      ing: 'In spite of the pain, he kept running.',
+      tr: 'Acıya rağmen koşmaya devam etti.',
+    },
+    {
+      ing: 'Contrary to the rumors, they are still together.',
+      tr: 'Dedikoduların aksine, hala birlikteler.',
+    },
+    {
+      ing: 'Despite the difficulties, they completed the project.',
+      tr: 'Zorluklara rağmen projeyi tamamladılar.',
+    },
+    {
+      ing: "Unlike her friends, she doesn't like parties.",
+      tr: 'Arkadaşlarının aksine, partileri sevmez.',
+    },
+    {
+      ing: 'In spite of her illness, she attended the meeting.',
+      tr: 'Hastalığına rağmen toplantıya katıldı.',
+    },
+    {
+      ing: 'Despite his injury, he finished the race.',
+      tr: 'Sakatlığına rağmen yarışı bitirdi.',
+    },
+    {
+      ing: 'Contrary to what was said, the event was successful.',
+      tr: 'Söylenenlerin aksine, etkinlik başarılı oldu.',
+    },
+    {
+      ing: 'Despite the rain, we went for a walk.',
+      tr: 'Yağmura rağmen yürüyüşe çıktık.',
+    },
+    {
+      ing: 'Unlike most people, he enjoys the rain.',
+      tr: 'Çoğu insanın aksine, yağmurdan keyif alır.',
+    },
+    {
+      ing: 'In spite of the risks, they invested.',
+      tr: 'Risklere rağmen yatırım yaptılar.',
+    },
+    {
+      ing: 'Contrary to popular belief, spiders are beneficial.',
+      tr: 'Yaygın inanışın aksine, örümcekler faydalıdır.',
+    },
+    {
+      ing: 'Despite the pain, he continued to play.',
+      tr: 'Acıya rağmen oynamaya devam etti.',
+    },
+    {
+      ing: 'In spite of her fear, she went on the ride.',
+      tr: 'Korkusuna rağmen eğlence aracına bindi.',
+    },
+    {
+      ing: 'Unlike her usual behavior, she was very quiet.',
+      tr: 'Olağan davranışının aksine, çok sessizdi.',
+    },
+    {
+      ing: 'Despite her fear, she spoke in public.',
+      tr: 'Korkusuna rağmen topluluk önünde konuştu.',
+    },
+    {
+      ing: 'Contrary to his plans, he had to cancel the trip.',
+      tr: 'Planlarının aksine, gezisini iptal etmek zorunda kaldı.',
+    },
+    {
+      ing: 'Unlike the previous model, this one is faster.',
+      tr: 'Önceki modelin aksine, bu daha hızlıdır.',
+    },
+    {
+      ing: 'In spite of the delay, we were happy.',
+      tr: 'Gecikmeye rağmen mutluyduk.',
+    },
+    {
+      ing: 'Contrary to popular opinion, he is very kind.',
+      tr: 'Yaygın görüşün aksine, o çok kibar.',
+    },
+    {
+      ing: 'In spite of the warnings, they continued.',
+      tr: 'Uyarılara rağmen devam ettiler.',
+    },
+    {
+      ing: 'Unlike other students, she always finishes early.',
+      tr: 'Diğer öğrencilerin aksine, o her zaman erken bitirir.',
+    },
+    {
+      ing: 'Contrary to popular belief, bats are not blind.',
+      tr: 'Yaygın inanışın aksine, yarasalar kör değildir.',
+    },
+    {
+      ing: 'Despite the cold, she wore a light jacket.',
+      tr: 'Soğuğa rağmen ince bir ceket giydi.',
+    },
+    {
+      ing: 'Contrary to expectations, they won the game.',
+      tr: 'Beklentilerin aksine, oyunu kazandılar.',
+    },
+    {
+      ing: 'In spite of the confusion, we found the exit.',
+      tr: 'Karışıklığa rağmen çıkışı bulduk.',
+    },
+    {
+      ing: 'Unlike his personality, his work is very creative.',
+      tr: 'Kişiliğinin aksine, çalışmaları çok yaratıcıdır.',
+    },
+    {
+      ing: 'Despite the confusion, we found our way.',
+      tr: 'Karışıklığa rağmen yolumuzu bulduk.',
+    },
+    {
+      ing: 'Contrary to the instructions, he assembled it wrong.',
+      tr: 'Talimatların aksine, yanlış monte etti.',
+    },
+    {
+      ing: 'In spite of the noise, I could concentrate.',
+      tr: 'Gürültüye rağmen konsantre olabildim.',
+    },
+    {
+      ing: 'Unlike his brother, he is very quiet.',
+      tr: 'Kardeşinin aksine, o çok sessizdir.',
+    },
+    {
+      ing: 'Contrary to my advice, he went out late.',
+      tr: 'Tavsiyemin aksine, geç saatte dışarı çıktı.',
+    },
+    {
+      ing: 'Despite the cost, they bought the car.',
+      tr: 'Maliyete rağmen arabayı aldılar.',
+    },
+    {
+      ing: 'Unlike the others, this solution worked.',
+      tr: 'Diğerlerinin aksine, bu çözüm işe yaradı.',
+    },
+    {
+      ing: 'In spite of the traffic, we made it on time.',
+      tr: 'Trafiğe rağmen zamanında vardık.',
+    },
+    {
+      ing: 'Contrary to what I expected, the test was easy.',
+      tr: 'Beklentimin aksine, test kolaydı.',
+    },
+    {
+      ing: 'Despite being tired, she finished her homework.',
+      tr: 'Yorgun olmasına rağmen ödevini bitirdi.',
+    },
+    {
+      ing: 'Unlike his reputation, he is very humble.',
+      tr: 'Ününün aksine, o çok mütevazı.',
+    },
+    {
+      ing: 'In spite of the challenges, they persevered.',
+      tr: 'Zorluklara rağmen sabrettiler.',
+    },
+    {
+      ing: 'Contrary to appearances, he is very strong.',
+      tr: 'Görünüşünün aksine, o çok güçlü.',
+    },
+    {
+      ing: 'Despite his fear of heights, he climbed the mountain.',
+      tr: 'Yükseklik korkusuna rağmen dağa tırmandı.',
+    },
+    {
+      ing: 'Unlike their culture, ours is more relaxed.',
+      tr: 'Kültürlerinin aksine, bizimkisi daha rahattır.',
+    },
+    {
+      ing: 'In spite of the cold, we had a good time.',
+      tr: 'Soğuğa rağmen iyi vakit geçirdik.',
+    },
+    {
+      ing: 'Contrary to my fears, the surgery went well.',
+      tr: 'Korkularımın aksine, ameliyat iyi geçti.',
+    },
+    {
+      ing: "Despite being hungry, he didn't eat.",
+      tr: 'Aç olmasına rağmen yemek yemedi.',
+    },
+    {
+      ing: 'Contrary to my expectations, I enjoyed the movie.',
+      tr: 'Beklentilerimin aksine, filmden keyif aldım.',
+    },
+    {
+      ing: 'In spite of the warnings, he went out in the storm.',
+      tr: 'Uyarılara rağmen fırtınada dışarı çıktı.',
+    },
+    {
+      ing: 'Despite the loss, the team remained positive.',
+      tr: 'Mağlubiyete rağmen takım pozitif kaldı.',
+    },
+    {
+      ing: 'Contrary to her fears, the flight was smooth.',
+      tr: 'Korkularının aksine, uçuş sorunsuz geçti.',
+    },
+    {
+      ing: 'Despite the cold, she wore a light jacket.',
+      tr: 'Soğuğa rağmen ince bir ceket giydi.',
+    },
+    {
+      ing: 'Contrary to his habits, he woke up early.',
+      tr: 'Alışkanlıklarının aksine, erken uyandı.',
+    },
+    {
+      ing: 'Despite the distance, they stayed in touch.',
+      tr: 'Mesafeye rağmen iletişimde kaldılar.',
+    },
+    {
+      ing: 'In spite of the opposition, he continued.',
+      tr: 'Muhalefete rağmen devam etti.',
+    },
+    {
+      ing: 'Despite the cold, she wore a light jacket.',
+      tr: 'Soğuğa rağmen ince bir ceket giydi.',
+    },
+    {
+      ing: 'Contrary to my wishes, he left early.',
+      tr: 'İsteklerimin aksine, erken ayrıldı.',
+    },
+    {
+      ing: 'Unlike his father, he became a doctor.',
+      tr: 'Babasının aksine, o doktor oldu.',
+    },
+    {
+      ing: 'Despite her fear, she spoke in public.',
+      tr: 'Korkusuna rağmen topluluk önünde konuştu.',
+    },
+    {
+      ing: 'In spite of the confusion, we found the exit.',
+      tr: 'Karışıklığa rağmen çıkışı bulduk.',
+    },
+    {
+      ing: 'Contrary to the plan, we finished early.',
+      tr: 'Planın aksine, erken bitirdik.',
+    },
+    {
+      ing: 'In spite of the distance, they visited us.',
+      tr: 'Mesafeye rağmen bizi ziyaret ettiler.',
+    },
+    {
+      ing: 'Contrary to my advice, he went out late.',
+      tr: 'Tavsiyemin aksine, geç saatte dışarı çıktı.',
+    },
+    {
+      ing: 'In spite of her fear, she went on the ride.',
+      tr: 'Korkusuna rağmen eğlence aracına bindi.',
+    },
+    {
+      ing: 'Contrary to the rules, he parked illegally.',
+      tr: 'Kuralların aksine, yasa dışı park etti.',
+    },
+    {
+      ing: 'Despite his reputation, he is very humble.',
+      tr: 'Ününe rağmen çok mütevazı.',
+    },
+    {
+      ing: 'Unlike her expectations, the movie was great.',
+      tr: 'Beklentilerinin aksine, film harikaydı.',
+    },
+    {
+      ing: 'Contrary to the instructions, he assembled it wrong.',
+      tr: 'Talimatların aksine, yanlış monte etti.',
+    },
+    {
+      ing: 'In spite of the risks, they invested.',
+      tr: 'Risklere rağmen yatırım yaptılar.',
+    },
+    {
+      ing: 'Despite being tired, she finished her homework.',
+      tr: 'Yorgun olmasına rağmen ödevini bitirdi.',
+    },
+    {
+      ing: 'Unlike his colleagues, he works very efficiently.',
+      tr: 'Meslektaşlarının aksine, çok verimli çalışır.',
+    },
+    {
+      ing: 'In spite of the pain, he kept running.',
+      tr: 'Acıya rağmen koşmaya devam etti.',
+    },
+    {
+      ing: 'Contrary to appearances, he is very strong.',
+      tr: 'Görünüşünün aksine, o çok güçlü.',
+    },
+    {
+      ing: 'Unlike the old one, this phone has a better camera.',
+      tr: 'Eski telefonun aksine, bu telefonun daha iyi kamerası var.',
+    },
+    {
+      ing: 'Contrary to the rules, he parked illegally.',
+      tr: 'Kuralların aksine, yasa dışı park etti.',
+    },
+    {
+      ing: 'In spite of the challenges, they persevered.',
+      tr: 'Zorluklara rağmen sabrettiler.',
+    },
+    {
+      ing: 'Unlike the old one, this phone has a better camera.',
+      tr: 'Eski telefonun aksine, bu telefonun daha iyi kamerası var.',
+    },
+    {
+      ing: 'Contrary to his habits, he woke up early.',
+      tr: 'Alışkanlıklarının aksine, erken uyandı.',
+    },
+    {
+      ing: 'Contrary to the instructions, he assembled it wrong.',
+      tr: 'Talimatların aksine, yanlış monte etti.',
+    },
+  ],
+};

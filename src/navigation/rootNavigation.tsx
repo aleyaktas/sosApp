@@ -26,6 +26,7 @@ import ActivePassiveTranslation from '../screens/Translation/PassiveTranslation'
 import Conjuction1GTranslation from '../screens/Translation/Conjunctions1GTranslation';
 import Conjunctions1GTranslation from '../screens/Translation/Conjunctions1GTranslation';
 import Conjunctions2GTranslation from '../screens/Translation/Conjunctions2GTranslation';
+import Conjunctions3GTranslation from '../screens/Translation/Conjunctions3GTranslation';
 
 const Stack = createStackNavigator();
 
@@ -237,6 +238,15 @@ const RootNavigation = () => {
       <Stack.Screen
         name="Conjunctions2GTranslation"
         component={Conjunctions2GTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="Conjunctions3GTranslation"
+        component={Conjunctions3GTranslation}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,

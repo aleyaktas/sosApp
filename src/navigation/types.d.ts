@@ -12,6 +12,7 @@ export type StackNavigatorList = {
   PassiveTranslation: {title: string; item?: any};
   Conjunctions1GTranslation: {title: string; item?: any};
   Conjunctions2GTranslation: {title: string; item?: any};
+  Conjunctions3GTranslation: {title: string; item?: any};
   SubCategory: {title: string; item?: any};
   FourSkills: {title?: string; item?: any};
   Units: {title: string; item?: any};

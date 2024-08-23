@@ -337,6 +337,17 @@ export const Conjunctions2GSubCategory: ISubCategory[] = [
     image: require('../assets/icons/translation.png'),
   },
 ];
+
+export const Conjunctions3GSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Çeviri Çalışması',
+    mainCategory: 'Conjunctions3G',
+    description: 'Çeviri çalışmaları',
+    page: 'Conjunctions3GTranslation',
+    image: require('../assets/icons/translation.png'),
+  },
+];
 export interface IUnit {
   id: number;
   title: string;
@@ -7184,7 +7195,347 @@ export const TensesVocabulary = [
       {word: 'development', mean: 'gelişme, ilerleme, gelişim'},
       {word: 'organize', mean: 'organize etmek, düzenlemek, hazırlamak'},
       {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        raştırma'},
+        word: 'promote',
+        mean: 'desteklemek, terfi etmek, teşvik etmek, tanıtımını yapmak',
+      },
+      {word: 'writer', mean: 'yazar'},
+      {word: 'excerpt', mean: 'alıntı, özel baskı'},
+      {word: 'audience', mean: 'seyirci, izleyici'},
+      {word: 'host', mean: 'ev sahibi, ev sahipliği yapmak, barındırmak'},
+      {word: 'eager', mean: 'hevesli, istekli'},
+      {word: 'listener', mean: 'dinleyici'},
+      {word: 'encourage', mean: 'cesaretlendirmek, teşvik etmek'},
+      {word: 'value', mean: 'değer'},
+      {word: 'support', mean: 'destek, desteklemek, savunmak'},
+      {word: 'key', mean: 'anahtar'},
+      {word: 'distant', mean: 'uzak, mesafeli'},
+      {word: 'time', mean: 'zaman'},
+      {word: 'emotion', mean: 'duygu, his'},
+      {word: 'individual', mean: 'bireysel, birey'},
+      {word: 'enrich', mean: 'zenginleştirmek'},
+      {word: 'certain', mean: 'belirli, kesin'},
+      {word: 'newspaper', mean: 'gazete'},
+      {
+        word: 'culinary',
+        mean: 'aşçılık, mutfak ile ilgili, yemekte kullanılan',
+      },
+      {word: 'mention', mean: 'bahsetmek, değinmek'},
+      {word: 'fan', mean: 'taraftar, fanatik'},
+      {word: 'society', mean: 'toplum, topluluk'},
+      {word: 'creative', mean: 'yaratıcı, üretken, yetenekli'},
+      {word: 'concert', mean: 'konser'},
+      {word: 'dance', mean: 'dans etmek, dans'},
+      {word: 'competition', mean: 'yarışma, rekabet'},
+      {word: 'video', mean: 'video'},
+      {word: 'game', mean: 'oyun, oyun oynamak'},
+      {word: 'class', mean: 'sınıf, ders'},
+      {word: 'exhibition', mean: 'sergi'},
+      {word: 'food', mean: 'yiyecek'},
+      {word: 'film', mean: 'film, film çekmek'},
+      {word: 'physical', mean: 'bedensel, bedeni, somut, fiziksel'},
+      {word: 'fitness', mean: 'uygunluk, formda olma, zinde olma'},
+      {word: 'increase', mean: 'artmak, artırmak, artış'},
+      {word: 'gardening', mean: 'bahçıvanlık, bahçecilik'},
+      {word: 'compete', mean: 'yarışmak, rekabet etmek'},
+      {word: 'celebrity', mean: 'ünlü kişi'},
+      {word: 'view', mean: 'manzara, görüş, dünya görüşü, olarak görmek'},
+      {word: 'outdated', mean: 'çağdışı, zaman aşımına uğramış'},
+      {word: 'minor', mean: 'önemsiz, az önemi olan, küçük'},
+      {word: 'hobby', mean: 'hobi'},
+      {word: 'unnecessary', mean: 'gereksiz'},
+      {word: 'expense', mean: 'masraf, paha, harcama'},
+      {word: 'speak', mean: 'konuşmak'},
+      {word: 'last', mean: 'geçen, son, sürmek, devam etmek'},
+      {word: 'rich', mean: 'zengin'},
+      {word: 'daisy', mean: 'papatya'},
+      {word: 'party', mean: 'parti'},
+      {word: 'money', mean: 'para'},
+      {word: 'sadness', mean: 'keder, hüzün'},
+      {word: 'follow', mean: 'takip etmek, izlemek, uymak'},
+      {word: 'insert', mean: 'sokmak, yerleştirmek, eklemek'},
+      {word: 'name', mean: 'isim, ad, adlandırmak'},
+      {word: 'try', mean: 'çalışmak, denemek'},
+      {word: 'even', mean: 'hatta, bile'},
+      {word: 'short', mean: 'kısa'},
+      {word: 'busy', mean: 'yoğun, meşgul, işlek'},
+      {word: 'room', mean: 'oda'},
+      {word: 'outside', mean: 'dışarı, dışarıda, dışarısı'},
+      {word: 'garden', mean: 'bahçe'},
+      {word: 'park', mean: 'park, parketmek'},
+      {word: 'nice', mean: 'hoş, güzel'},
+      {word: 'boy', mean: 'erkek çocuk'},
+      {word: 'wizard', mean: 'sihirbaz, dahi'},
+      {
+        word: 'attend',
+        mean: 'katılmak, devam etmek (okula, derse), dikkat etmek',
+      },
+      {word: 'witchcraft', mean: 'cadı işleri, büyücülük'},
+      {word: 'wizardry', mean: 'sihirbazlık'},
+      {word: 'ability', mean: 'yetenek'},
+      {word: 'secret', mean: 'sır, giz, gizli'},
+      {word: 'rush', mean: 'acele, telaş, hızlı, acele içinde'},
+      {word: 'including', mean: 'içeren, kapsayan'},
+      {word: 'encounter', mean: 'karşılaşmak, rastlama, karşılaşma'},
+      {word: 'dark', mean: 'karanlık, koyu'},
+      {word: 'creature', mean: 'yaratık'},
+      {word: 'humor', mean: 'mizah, güldürü'},
+      {word: 'heartwarming', mean: 'iç acıcı, yürekleri ısıtan'},
+      {word: 'moment', mean: 'an, kuvvet, cevher, önem'},
+      {word: 'wizarding', mean: 'sihirbaz'},
+      {word: 'light', mean: 'yakmak, ışık, hafif'},
+      {word: 'curious', mean: 'meraklı, merak uyandıran'},
+      {word: 'next', mean: 'sonraki, önümüzdeki'},
+      {word: 'chapter', mean: 'bölüm'},
+      {word: 'first', mean: 'ilk, birinci'},
+      {word: 'communicate', mean: 'iletişime geçmek, iletişim kurmak'},
+      {word: 'second', mean: 'ikinci, saniye'},
+      {word: 'inspire', mean: 'ilham vermek, esin vermek, ilham kaynağı olmak'},
+      {word: 'creativity', mean: 'yaratıcılık'},
+      {word: 'perspective', mean: 'perspektif, bakış açısı'},
+      {word: 'third', mean: 'üçüncü'},
+      {word: 'concentration', mean: 'konsantrasyon, yoğunlaşma'},
+      {
+        word: 'need',
+        mean: 'ihtiyacı olmak, ihtiyaç duymak, gerekmek, ihtiyaç, gereksinim',
+      },
+      {word: 'pay', mean: 'ödemek'},
+      {word: 'attention', mean: 'dikkat'},
+      {word: 'additionally', mean: 'ek olarak, ilaveten'},
+      {word: 'reduce', mean: 'azaltmak, azalmak'},
+      {word: 'relaxation', mean: 'rahatlama'},
+      {word: 'bedtime', mean: 'uyku vakti'},
+      {word: 'broaden', mean: 'genişletmek'},
+      {word: 'understanding', mean: 'anlayışlı'},
+      {word: 'expose', mean: 'maruz bırakmak'},
+      {word: 'finally', mean: 'sonunda, nihayetinde, eventually'},
+      {word: 'memory', mean: 'anı, hatıra, hafıza'},
+      {word: 'keep', mean: 'tutmak, sürdürmek, muhafaza etmek'},
+      {word: 'sharp', mean: 'keskin'},
+      {word: 'active', mean: 'aktif, faal, etkin'},
+      {word: 'strengthen', mean: 'güçlendirmek'},
+      {word: 'follow', mean: 'takip etmek, izlemek, uymak'},
+      {word: 'shepherd', mean: 'çoban, kılavuz'},
+      {
+        word: 'fulfill',
+        mean: 'yerine getirmek, ifa etmek, yapmak, gerçekleştirmek',
+      },
+      {word: 'come', mean: 'gelmek'},
+      {word: 'across', mean: 'karşısında, karşısına doğru, her tarafında'},
+      {word: 'valuable', mean: 'değerli, kıymetli'},
+      {word: 'following', mean: 'takip eden, aşağıdak, sonraki'},
+      {word: 'believe', mean: 'inanmak, güvenmek'},
+      {word: 'never', mean: 'asla, hiçbir zaman'},
+      {word: 'give', mean: 'vermek'},
+      {word: 'realize', mean: 'fark etmek, gerçekleştirmek'},
+      {word: 'purpose', mean: 'amaç, maksat, gaye, amaçlamak'},
+      {word: 'importance', mean: 'önem'},
+      {word: 'inner', mean: 'iç'},
+      {word: 'voice', mean: 'ses'},
+      {word: 'trust', mean: 'güvenmek, güven'},
+      {
+        word: 'mean',
+        mean: 'anlamına gelmek, kastetmek, somurtkan, cimri, ortalama',
+      },
+      {word: 'timeless', mean: 'zamansız, zamandan bağımsız'},
+      {word: 'continue', mean: 'devam etmek'},
+      {word: 'detail', mean: 'ayrıntı, detay'},
+      {word: 'comfortable', mean: 'rahat, huzurlu, ferah'},
+      {word: 'armchair', mean: 'koltuk'},
+      {word: 'plenty', mean: 'bolluk, bereket'},
+      {word: 'natural', mean: 'doğal'},
+      {word: 'window', mean: 'pencere'},
+      {word: 'create', mean: 'yaratmak, oluşturmak'},
+      {word: 'warm', mean: 'sıcak, ılık'},
+      {word: 'invite', mean: 'davet etmek'},
+      {word: 'small', mean: 'küçük'},
+      {word: 'table', mean: 'masa'},
+      {word: 'put', mean: 'koymak, yerleştirmek'},
+      {word: 'cup', mean: 'fincan'},
+      {word: 'tea', mean: 'çay'},
+      {word: 'coffee', mean: 'kahve'},
+      {word: 'quiet', mean: 'sessiz'},
+      {word: 'environment', mean: 'çevre'},
+      {word: 'minimal', mean: 'asgari, minimal, en küçük'},
+      {
+        word: 'distraction',
+        mean: 'dikkatin dağılması, dikkati dağıtan şey, oyalanma',
+      },
+      {word: 'fully', mean: 'tam olarak, tamamen'},
+      {word: 'ill', mean: 'hasta'},
+      {word: 'play', mean: 'oynamak, müzik aleti çalmak, oyun'},
+      {word: 'soft', mean: 'yumuşak'},
+      {word: 'instrumental', mean: 'enstrümental, alete ait, yararlı, etkili'},
+      {word: 'background', mean: 'arka plan'},
+      {word: 'spot', mean: 'nokta, leke, benek, konumunu belirlemek'},
+      {word: 'peaceful', mean: 'huzurlu, barışçıl'},
+      {word: 'space', mean: 'uzay, yer, boşluk'},
+      {word: 'arise', mean: 'ortaya çıkmak, meydana gelmek'},
+    ],
+  },
+  {
+    unitNumber: 18,
+    words: [
+      {word: 'Word', mean: 'söz, laf, sözcük, kelime'},
+      {word: 'use', mean: 'kullanmak, kullanım'},
+      {word: 'technology', mean: 'teknoloji'},
+      {word: 'smartphone', mean: 'akıllı telefon'},
+      {word: 'make', mean: 'yapmak'},
+      {word: 'many', mean: 'birçok'},
+      {word: 'like', mean: 'gibi, sevmek, hoşlanmak'},
+      {word: 'book', mean: 'kitap, yer ayırtmak, rezerve etmek'},
+      {word: 'smart', mean: 'akıllı, zeki , şık'},
+      {word: 'gadget', mean: 'alet, cihaz, aygıt'},
+      {word: 'message', mean: 'ileti, mesaj'},
+      {word: 'game', mean: 'oyun, oyun oynamak'},
+      {word: 'help', mean: 'yardım etmek, yardım'},
+      {word: 'internet', mean: 'internet'},
+      {word: 'person', mean: 'kişi, şahıs, birey'},
+      {word: 'ereader', mean: 'elektronik okuyucu'},
+      {word: 'correct', mean: 'doğru, düzeltmek'},
+      {word: 'answer', mean: 'cevap vermek, cevap'},
+      {word: 'read', mean: 'okumak'},
+      {word: 'also', mean: 'ayrıca, aynı zamanda da'},
+      {word: 'learn', mean: 'öğrenmek'},
+      {word: 'work', mean: 'çalışmak, iş, eser'},
+      {word: 'tablet', mean: 'tablet, levha, kalıp, parça'},
+      {word: 'time', mean: 'zaman'},
+      {word: 'track', mean: 'iz, yol'},
+      {word: 'friend', mean: 'arkadaş'},
+      {word: 'video', mean: 'video'},
+      {word: 'new', mean: 'yeni'},
+      {word: 'stay', mean: 'kalmak'},
+      {word: 'computer', mean: 'bilgisayar'},
+      {word: 'easy', mean: 'kolay, basit'},
+      {
+        word: 'call',
+        mean: 'adlandırmak, çağırmak, isimlendirmek, aramak, arama, çağrı',
+      },
+      {word: 'day', mean: 'gün'},
+      {word: 'app', mean: 'uygulama'},
+      {word: 'thing', mean: 'şey'},
+      {word: 'even', mean: 'hatta, bile'},
+      {word: 'favorite', mean: 'favori, gözde, en çok beğenilen'},
+      {word: 'every', mean: 'her'},
+      {word: 'watch', mean: 'kol saati, izlemek, kol saati'},
+      {word: 'tell', mean: 'anlatmak, söylemek'},
+      {word: 'check', mean: 'kontrol etmek, kontrol'},
+      {word: 'play', mean: 'oynamak, müzik aleti çalmak, oyun'},
+      {word: 'music', mean: 'müzik'},
+      {word: 'connect', mean: 'bağlamak, bağlanmak'},
+      {word: 'important', mean: 'önemli'},
+      {word: 'school', mean: 'okul'},
+      {word: 'small', mean: 'küçük'},
+      {word: 'step', mean: 'adım, basamak, adım atmak, basmak'},
+      {word: 'life', mean: 'yaşam, hayat'},
+      {word: 'fun', mean: 'eğlenceli, neşeli, eğlence, neşe'},
+      {word: 'useful', mean: 'faydalı'},
+      {word: 'send', mean: 'göndermek'},
+      {word: 'world', mean: 'dünya'},
+      {word: 'information', mean: 'bilgi'},
+      {word: 'task', mean: 'görev'},
+      {word: 'good', mean: 'iyi'},
+      {word: 'entertainment', mean: 'eğlence'},
+      {word: 'show', mean: 'göstermek, gösteri'},
+      {word: 'console', mean: 'teselli etmek, avutmak'},
+      {word: 'connect', mean: 'bağlamak, bağlanmak'},
+      {word: 'device', mean: 'araç, aygıt, cihaz'},
+      {word: 'hundred', mean: 'yüz, 100'},
+      {word: 'often', mean: 'sık sık, çoğu kez'},
+      {word: 'daily', mean: 'günlük, günübirlik'},
+      {word: 'keep', mean: 'tutmak, sürdürmek, muhafaza etmek'},
+      {word: 'take', mean: 'almak, götürmek'},
+      {word: 'family', mean: 'aile'},
+      {word: 'student', mean: 'öğrenci'},
+      {word: 'future', mean: 'gelecek'},
+      {word: 'way', mean: 'yol'},
+      {word: 'write', mean: 'yazmak'},
+      {word: 'presentation', mean: 'sunum, tanıtım, sahneleme'},
+      {word: 'anywhere', mean: 'hiçbir yer, herhangi bir yer'},
+      {word: 'movie', mean: 'sinema, film'},
+      {word: 'wear', mean: 'giyinmek, takmak, aşınmak'},
+      {word: 'healthy', mean: 'sağlıklı'},
+      {word: 'organized', mean: 'organize, örgütlü, düzenlenmiş'},
+      {word: 'eye', mean: 'göz'},
+      {word: 'hold', mean: 'tutmak , yapmak, organize etmek'},
+      {word: 'meal', mean: 'yemek, öğün'},
+      {word: 'home', mean: 'yuva, ev, sığınak'},
+      {word: 'picture', mean: 'resim, canlandırmak'},
+      {word: 'direction', mean: 'yön, yönlendirme'},
+      {word: 'laptop', mean: 'laptop'},
+      {word: 'portable', mean: 'portatif, seyyar, taşınabilir'},
+      {word: 'email', mean: 'email, eposta, email göndermek'},
+      {word: 'fitness', mean: 'uygunluk, formda olma, zinde olma'},
+      {word: 'screen', mean: 'ekran, göstermek'},
+      {word: 'control', mean: 'kontrol, kontrol etmek'},
+      {word: 'heating', mean: 'ısıtma'},
+      {word: 'change', mean: 'değişim, değişmek, değiştirmek, bozuk para'},
+      {word: 'color', mean: 'renk, boya'},
+      {
+        word: 'need',
+        mean: 'ihtiyacı olmak, ihtiyaç duymak, gerekmek, ihtiyaç, gereksinim',
+      },
+      {word: 'buy', mean: 'satın almak'},
+      {word: 'milk', mean: 'sağmak, süt'},
+      {word: 'other', mean: 'diğer'},
+      {word: 'interested', mean: 'ilgili olmak'},
+      {word: 'throughout', mean: 'tamamen, baştan başa, her tarafinda'},
+      {word: 'social', mean: 'sosyal, arkadaş canlısı'},
+      {word: 'medium', mean: 'orta'},
+      {word: 'education', mean: 'eğitim, öğrenim'},
+      {word: 'experience', mean: 'tecrübe etmek, yaşamak, tecrübe, deneyim'},
+      {word: 'virtual', mean: 'sanal'},
+      {word: 'explore', mean: 'araştırmak, keşfetmek'},
+      {word: 'everywhere', mean: 'her yer'},
+      {word: 'different', mean: 'farklı'},
+      {word: 'almost', mean: 'neredeyse, hemen hemen'},
+      {word: 'everyone', mean: 'herkes'},
+      {word: 'document', mean: 'belge, doküman, belgelemek'},
+      {word: 'create', mean: 'yaratmak, oluşturmak'},
+      {word: 'carry', mean: 'taşımak'},
+      {word: 'digital', mean: 'dijital'},
+      {word: 'child', mean: 'çocuk'},
+      {word: 'adult', mean: 'yetişkin'},
+      {word: 'heart', mean: 'kalp'},
+      {word: 'rate', mean: 'oran'},
+      {word: 'popular', mean: 'ünlü, popüler'},
+      {word: 'special', mean: 'özel'},
+      {word: 'long', mean: 'uzun, özlemek, istek duymak'},
+      {word: 'one', mean: 'bir, tek, biri'},
+      {word: 'better', mean: 'daha iyi'},
+      {word: 'come', mean: 'gelmek'},
+      {word: 'year', mean: 'yıl'},
+      {word: 'exciting', mean: 'heyecan verici, heyecanlı'},
+      {word: 'question', mean: 'soru, sormak, sorgulamak'},
+      {word: 'feature', mean: 'özellik'},
+      {word: 'main', mean: 'ana, asıl'},
+      {word: 'look', mean: 'görünmek, görünüş'},
+      {word: 'wherever', mean: 'herhangi bir yer, her nerede'},
+      {word: 'go', mean: 'gitmek'},
+      {word: 'bright', mean: 'parlak'},
+      {word: 'sunlight', mean: 'güneş ışığı'},
+      {word: 'listen', mean: 'dinlemek'},
+      {word: 'cook', mean: 'yemek pişirmek, aşçı'},
+      {word: 'health', mean: 'sağlık'},
+      {word: 'light', mean: 'yakmak, ışık, hafif'},
+      {word: 'language', mean: 'dil, lisan'},
+      {word: 'research', mean: 'araştırma'},
+      {word: 'topic', mean: 'konu'},
+      {word: 'photo', mean: 'fotoğraf, resim, fotoğraflamak'},
+      {word: 'find', mean: 'bulmak'},
+      {word: 'touch', mean: 'dokunmak'},
+      {word: 'see', mean: 'görmek'},
+      {word: 'text', mean: 'metin'},
+      {word: 'overall', mean: 'tüm, etraflı, bir uçtan bir uca'},
+      {word: 'access', mean: 'erişim, erişme, erişmek'},
+      {word: 'easily', mean: 'kolaylıkla'},
+      {word: 'educational', mean: 'eğitimsel, eğitim ile ilgili'},
+      {word: 'lesson', mean: 'ders'},
+      {word: 'much', mean: 'fazla, çok'},
+      {word: 'helpful', mean: 'yardımsever, faydalı'},
+      {word: 'think', mean: 'düşünmek'},
+      {word: 'healthcare', mean: 'sağlık bakımı, sağlık hizmeti'},
+      {word: 'type', mean: 'tür, çeşit, kind, sort'},
+      {word: 'search', mean: 'aramak, araştırmak, araştırma'},
       {word: 'quickly', mean: 'hızlıca, çabucak'},
       {word: 'drawing', mean: 'çizme, çizim'},
       {word: 'pen', mean: 'dolma kalem, yazmak, kağıda dökmek'},
@@ -10853,1852 +11204,5 @@ export const TensesVocabulary = [
         mean: 'anlamına gelmek, kastetmek, somurtkan, cimri, ortalama',
       },
     ],
-  },
-];
-export const test = [
-  {
-    neden_ing: 'I was tired, so I decided to go to bed early.',
-    neden_tr: 'Yorgundum, bu yüzden erken yatmaya karar verdim.',
-    zıtlık_ing: 'I wanted to go to the park, but it was raining.',
-    zıtlık_tr: 'Parka gitmek istedim ama yağmur yağıyordu.',
-    aynıFikriSürdürme_ing:
-      'I love to read books. In addition, I also enjoy writing my own stories.',
-    aynıFikriSürdürme_tr:
-      'Ben kitap okumayı severim. Ayrıca ben kendi hikayelerimi yazmaktan da keyif alıyorum.',
-    diğer_ing:
-      'I like to eat healthy food. For example, I eat a lot of fruits and vegetables.',
-    diğer_tr:
-      'Sağlıklı yemek yemeyi severim. Mesela çok fazla meyve ve sebze yerim.',
-  },
-  {
-    neden_ing: 'He likes soccer; therefore, he joined the school team.',
-    neden_tr: 'Futbolu seviyor; bu nedenle, okul takımına katıldı.',
-    zıtlık_ing: 'He loves to play soccer, however, his ball got punctured.',
-    zıtlık_tr: 'Futbol oynamayı çok seviyor ama topu delinmiş.',
-    aynıFikriSürdürme_ing:
-      'She likes to play tennis. Moreover, she is really good at it.',
-    aynıFikriSürdürme_tr:
-      'O tenis oynamayı seviyor. Üstelik o bu konuda gerçekten çok iyi.',
-    diğer_ing:
-      "I prefer to take the bus instead of the subway because it's less crowded.",
-    diğer_tr:
-      'Metro yerine otobüse binmeyi tercih ediyorum çünkü daha az kalabalık.',
-  },
-  {
-    neden_ing: "It was raining, so I couldn't go for a walk.",
-    neden_tr: 'Yağmur yağıyordu, bu yüzden yürüyüşe çıkamadım.',
-    zıtlık_ing: 'She loves to read, but she left her book at school.',
-    zıtlık_tr: 'Okumayı seviyor ama kitabını okulda unutmuş.',
-    aynıFikriSürdürme_ing:
-      'He loves to eat fruits. Besides, they are healthy for him.',
-    aynıFikriSürdürme_tr:
-      'O meyve yemeyi çok seviyor. Üstelik onlar onun için sağlıklılar.',
-    diğer_ing:
-      'She likes to read books. For instance, she reads a book every week.',
-    diğer_tr: 'Kitap okumayı seviyor. Mesela her hafta bir kitap okuyor.',
-  },
-  {
-    neden_ing:
-      "She didn't study; thus, she couldn't answer the questions in the test.",
-    neden_tr: 'Ders çalışmadı; bu yüzden sınavdaki soruları cevaplayamadı.',
-    zıtlık_ing: 'I enjoy swimming, but the pool was closed today.',
-    zıtlık_tr: 'Yüzmeyi severim ama havuz bugün kapalıydı.',
-    aynıFikriSürdürme_ing:
-      'I like to paint. In addition, I also enjoy drawing with pencils.',
-    aynıFikriSürdürme_tr:
-      'Ben resim yapmayı severim. Ayrıca ben kara kalemle çizim yapmaktan da keyif alıyorum.',
-    diğer_ing: "He loves to cook. That's why he decided to become a chef.",
-    diğer_tr: 'Yemek yapmayı seviyor. Bu yüzden şef olmaya karar verdi.',
-  },
-  {
-    neden_ing: 'I forgot my lunch, so I had to buy it.',
-    neden_tr: 'Öğle yemeğimi unuttum, bu yüzden satın almak zorunda kaldım.',
-    zıtlık_ing: 'He wanted to go on a trip, but he had to work.',
-    zıtlık_tr: 'Bir geziye çıkmak istiyordu ama çalışması gerekiyordu.',
-    aynıFikriSürdürme_ing:
-      'She plays the piano very well. Moreover, she can also play the violin.',
-    aynıFikriSürdürme_tr:
-      'O çok iyi piyano çalıyor. Üstelik o keman da çalabiliyor.',
-    diğer_ing:
-      "I don't like to go out when it's raining. Instead, I prefer to stay at home and read a book.",
-    diğer_tr:
-      'Yağmur yağarken dışarı çıkmayı sevmiyorum. Bunun yerine evde kalıp kitap okumayı tercih ediyorum.',
-  },
-  {
-    neden_ing:
-      "The store didn't have the book he wanted; therefore, he ordered it online.",
-    neden_tr:
-      'Mağazada istediği kitap yoktu; bu nedenle, onu çevrimiçi sipariş etti.',
-    zıtlık_ing: 'I wanted to eat pizza; however, the pizza shop was closed.',
-    zıtlık_tr: 'Pizza yemek istiyordum ama pizzacı kapalıydı.',
-    aynıFikriSürdürme_ing:
-      'He likes to watch football. Besides, he also plays in a local team.',
-    aynıFikriSürdürme_tr:
-      'O futbol izlemeyi seviyor. Ayrıca o yerel bir takımda da oynuyor.',
-    diğer_ing:
-      "I didn't understand the math problem. That's why I asked the teacher for help.",
-    diğer_tr:
-      'Matematik problemini anlamadım. Bu yüzden öğretmenden yardım istedim.',
-  },
-  {
-    neden_ing: 'I love music, so I decided to learn the guitar.',
-    neden_tr: 'Müziği seviyorum, bu yüzden gitar öğrenmeye karar verdim.',
-    zıtlık_ing: 'She loves to dance, but she hurt her foot.',
-    zıtlık_tr: 'Dans etmeyi seviyor ama ayağını incitti.',
-    aynıFikriSürdürme_ing:
-      'I enjoy cooking. In addition, I love to bake desserts.',
-    aynıFikriSürdürme_tr:
-      'Ben yemek yapmaktan keyif alıyorum. Ayrıca ben tatlı yapmayı da seviyorum.',
-    diğer_ing:
-      'She loves to travel. For example, she visited three countries last year.',
-    diğer_tr:
-      'Seyahat etmeyi seviyor. Mesela geçen yıl üç ülkeyi ziyaret etti.',
-  },
-  {
-    neden_ing: 'It was her birthday; thus, we threw her a surprise party.',
-    neden_tr: 'Doğum günüydü; bu yüzden ona sürpriz bir parti verdik.',
-    zıtlık_ing: 'He wanted to watch a movie, but the cinema was too crowded.',
-    zıtlık_tr: 'Film izlemek istiyordu ama sinema çok kalabalıktı.',
-    aynıFikriSürdürme_ing:
-      'She likes to go hiking. Moreover, she also enjoys camping in the woods.',
-    aynıFikriSürdürme_tr:
-      'O yürüyüşe çıkmayı seviyor. Ayrıca o ormanda kamp yapmaktan da hoşlanıyor.',
-    diğer_ing:
-      "I forgot my umbrella at home. That's why I got wet in the rain.",
-    diğer_tr: 'Şemsiyemi evde unuttum. Bu yüzden yağmurda ıslandım.',
-  },
-  {
-    neden_ing: "He didn't have an umbrella, so he got wet in the rain.",
-    neden_tr: 'Şemsiyesi yoktu, bu yüzden yağmurda ıslandı.',
-    zıtlık_ing: "I love to play video games, but my console wasn't working.",
-    zıtlık_tr: 'Video oyunları oynamayı seviyorum ama konsolum çalışmıyordu.',
-    aynıFikriSürdürme_ing:
-      "He likes to ride his bike. Besides, it's good exercise.",
-    aynıFikriSürdürme_tr:
-      'O bisikletine binmeyi seviyor. Üstelik o iyi bir egzersizdir.',
-    diğer_ing:
-      'He is a great soccer player. In fact, he won a trophy last year.',
-    diğer_tr: 'O harika bir futbolcu. Aslında geçen sene bir kupa kazandı.',
-  },
-  {
-    neden_ing: 'She wanted to get fit, therefore she started going to the gym.',
-    neden_tr: 'Fit olmak istiyordu, bu nedenle spor salonuna gitmeye başladı.',
-    zıtlık_ing:
-      'She wanted to bake a cake, however, there was no flour at home.',
-    zıtlık_tr: 'Pasta yapmak istedi ancak evde un yoktu.',
-    aynıFikriSürdürme_ing:
-      'I love listening to music. In addition, I also play the guitar.',
-    aynıFikriSürdürme_tr:
-      'Ben müzik dinlemeyi seviyorum. Bunun dışında ben gitar da çalıyorum.',
-    diğer_ing: "I don't like to watch movies. Instead, I prefer to read books.",
-    diğer_tr:
-      'Film izlemeyi sevmiyorum. Bunun yerine kitap okumayı tercih ediyorum.',
-  },
-  {
-    neden_ing: 'I was feeling hot, so I turned on the air conditioner.',
-    neden_tr: 'Sıcak hissediyordum, bu yüzden klimayı açtım.',
-    zıtlık_ing: 'He likes to play guitar, but he broke a string.',
-    zıtlık_tr: 'Gitar çalmayı seviyor ama telini kırdı.',
-    aynıFikriSürdürme_ing:
-      'She enjoys watching movies. Moreover, she has a large collection of DVDs.',
-    aynıFikriSürdürme_tr:
-      'O film izlemekten hoşlanıyor. Üstelik onun geniş bir DVD koleksiyonu var.',
-    diğer_ing:
-      "She likes to help others. That's why she volunteers at the community center.",
-    diğer_tr:
-      'Başkalarına yardım etmeyi sever. Bu yüzden toplum merkezinde gönüllü olarak çalışıyor.',
-  },
-  {
-    neden_ing: 'He was thirsty; thus, he drank a glass of water.',
-    neden_tr: 'Susamıştı; bu yüzden bir bardak su içti.',
-    zıtlık_ing: 'I love to paint, but I ran out of blue paint.',
-    zıtlık_tr: 'Resim yapmayı seviyorum ama mavi boyam bitti.',
-    aynıFikriSürdürme_ing:
-      'He loves to play video games. Besides, they help him relax.',
-    aynıFikriSürdürme_tr:
-      'O video oyunları oynamayı seviyor. Üstelik onlar onun rahatlamasına da yardımcı oluyorlar.',
-    diğer_ing:
-      'I love to play sports. For instance, I play basketball every weekend.',
-    diğer_tr:
-      'Spor yapmayı seviyorum. Mesela her hafta sonu basketbol oynuyorum.',
-  },
-  {
-    neden_ing: 'The movie was boring, so I stopped watching it.',
-    neden_tr: 'Film sıkıcıydı, bu yüzden izlemeyi bıraktım.',
-    zıtlık_ing: 'She loves animals, but she is allergic to cats.',
-    zıtlık_tr: 'Hayvanları çok seviyor ama kedilere alerjisi var.',
-    aynıFikriSürdürme_ing:
-      "I enjoy gardening. In addition, it's a good way to spend time outdoors.",
-    aynıFikriSürdürme_tr:
-      'Ben bahçecilikten hoşlanırım. Ayrıca bu açık havada vakit geçirmenin iyi bir yoludur.',
-    diğer_ing:
-      "He didn't want to eat at home. Instead, he went to a restaurant.",
-    diğer_tr: 'Evde yemek yemek istemiyordu. Bunun yerine bir restorana gitti.',
-  },
-  {
-    neden_ing: 'She loves animals; therefore, she adopted a stray dog.',
-    neden_tr: 'Hayvanları seviyor; bu nedenle sokak köpeğini sahiplendi.',
-    zıtlık_ing: 'He wanted to go for a walk, however, it was too hot outside.',
-    zıtlık_tr: 'Yürüyüşe çıkmak istiyordu ama dışarısı çok sıcaktı.',
-    aynıFikriSürdürme_ing:
-      'She loves animals. Moreover, she volunteers at a local animal shelter.',
-    aynıFikriSürdürme_tr:
-      'O hayvanları seviyor. Ayrıca o yerel bir hayvan barınağında gönüllü olarak çalışıyor.',
-    diğer_ing: "I like to learn new things. That's why I read a lot.",
-    diğer_tr: 'Yeni şeyler öğrenmeyi severim. Bu yüzden çok okuyorum.',
-  },
-  {
-    neden_ing: "I forgot my wallet, so I couldn't buy the groceries.",
-    neden_tr: 'Cüzdanımı unuttum, bu yüzden market alışverişi yapamadım.',
-    zıtlık_ing: "I love to travel, but I didn't have enough money.",
-    zıtlık_tr: 'Seyahat etmeyi seviyorum ama yeterli param yoktu.',
-    aynıFikriSürdürme_ing:
-      "He enjoys swimming. Besides, it's a great way to stay fit.",
-    aynıFikriSürdürme_tr:
-      'O yüzmekten hoşlanıyor. Üstelik o formda kalmanın harika bir yoludur.',
-    diğer_ing:
-      'She loves to dance. In fact, she takes dance classes every week.',
-    diğer_tr: 'Dans etmeyi seviyor. Aslında her hafta dans dersleri alıyor.',
-  },
-  {
-    neden_ing: "He didn't have the time; thus, he couldn't help me.",
-    neden_tr: 'Zamanı yoktu; bu yüzden bana yardım edemedi.',
-    zıtlık_ing: "She loves to garden, but she doesn't have a yard.",
-    zıtlık_tr: 'Bahçeyle uğraşmayı seviyor ama bahçesi yok.',
-    aynıFikriSürdürme_ing:
-      'I love traveling. In addition, I enjoy learning about new cultures.',
-    aynıFikriSürdürme_tr:
-      'Ben seyahat etmeyi seviyorum. Ayrıca ben yeni kültürleri öğrenmekten de keyif alıyorum.',
-    diğer_ing: "I don't like coffee. Instead, I prefer to drink tea.",
-    diğer_tr: 'Kahve sevmiyorum. Bunun yerine çay içmeyi tercih ediyorum.',
-  },
-  {
-    neden_ing: 'The library was closed, so I went to the park instead.',
-    neden_tr: 'Kütüphane kapalıydı, bu yüzden parkta dolaştım.',
-    zıtlık_ing: "He wanted to eat ice cream, but he didn't have any.",
-    zıtlık_tr: 'Dondurma yemek istiyordu ama hiç dondurma yoktu.',
-    aynıFikriSürdürme_ing:
-      'She loves fashion. Moreover, she designs her own clothes.',
-    aynıFikriSürdürme_tr:
-      'O modayı seviyor. Üstelik o kendi kıyafetlerini de tasarlıyor.',
-    diğer_ing:
-      'He loves to draw. For example, he drew a beautiful picture yesterday.',
-    diğer_tr: 'Çizim yapmayı seviyor. Mesela dün çok güzel bir resim çizdi.',
-  },
-  {
-    neden_ing: 'She was feeling sick, therefore she went to the doctor.',
-    neden_tr: 'Hastalandı, bu nedenle doktora gitti.',
-    zıtlık_ing: "I love to write, but I couldn't find my notebook.",
-    zıtlık_tr: 'Yazmayı seviyorum ama defterimi bulamadım.',
-    aynıFikriSürdürme_ing:
-      'He loves reading about history. Besides, he also enjoys visiting museums.',
-    aynıFikriSürdürme_tr:
-      'O tarih okumayı seviyor. Ayrıca o müzeleri gezmekten de hoşlanıyor.',
-    diğer_ing: "I didn't want to walk to the store. That's why I took the bus.",
-    diğer_tr: 'Mağazaya yürümek istemedim. Bu yüzden otobüse bindim.',
-  },
-  {
-    neden_ing: 'I wanted to surprise my friend, so I baked a cake for him.',
-    neden_tr: 'Arkadaşımı şaşırtmak istedim, bu yüzden ona bir kek yaptım.',
-    zıtlık_ing: 'She wanted to go shopping; however, she forgot her wallet.',
-    zıtlık_tr: 'Alışverişe gitmek istedi ancak cüzdanını unuttu.',
-    aynıFikriSürdürme_ing:
-      'I like to write poems. In addition, I also enjoy reading poetry.',
-    aynıFikriSürdürme_tr:
-      'Ben şiir yazmayı severim. Ayrıca ben şiir okumaktan da keyif alıyorum.',
-    diğer_ing: 'She loves to swim. In fact, she swims every morning.',
-    diğer_tr: 'Yüzmeyi seviyor. Aslında her sabah yüzüyor.',
-  },
-  {
-    neden_ing: 'He was feeling cold, thus he wore a warm jacket.',
-    neden_tr: 'Üşüyordu, bu yüzden kalın bir ceket giydi.',
-    zıtlık_ing: 'He loves to cook, but the gas was turned off.',
-    zıtlık_tr: 'Yemek yapmayı seviyor ama gaz kapalıydı.',
-    aynıFikriSürdürme_ing:
-      'She loves to sing. Moreover, she also plays the piano.',
-    aynıFikriSürdürme_tr:
-      'O şarkı söylemeyi seviyor. Üstelik o piyano da çalıyor.',
-    diğer_ing:
-      "I don't like to eat junk food. Instead, I prefer to eat homemade food.",
-    diğer_tr:
-      'Abur cubur yemeyi sevmiyorum. Bunun yerine ev yapımı yemek yemeyi tercih ediyorum.',
-  },
-  {
-    neden_ing: 'The match was cancelled, so we decided to watch a movie.',
-    neden_tr: 'Maç iptal edildi, bu yüzden film izlemeye karar verdik.',
-    zıtlık_ing: 'I love to read, but it was too dark.',
-    zıtlık_tr: 'Okumayı seviyorum ama hava çok karanlıktı.',
-    aynıFikriSürdürme_ing:
-      'He enjoys running. Besides, it helps him clear his mind.',
-    aynıFikriSürdürme_tr:
-      'O koşmaktan hoşlanıyor. Ayrıca o, onun zihnini temizlemesine yardımcı olur.',
-    diğer_ing: "He loves animals. That's why he has three pets.",
-    diğer_tr: 'Hayvanları seviyor. Bu yüzden üç evcil hayvanı var.',
-  },
-  {
-    neden_ing: "She didn't like the dress; therefore, she didn't buy it.",
-    neden_tr: 'Elbiseyi beğenmedi; bu nedenle satın almadı.',
-    zıtlık_ing:
-      "She wanted to learn to play piano; however, she didn't have one.",
-    zıtlık_tr: 'Piyano çalmayı öğrenmek istiyordu ama piyanosu yoktu.',
-    aynıFikriSürdürme_ing:
-      'I love to take photos. In addition, I also enjoy editing them.',
-    aynıFikriSürdürme_tr:
-      'Ben fotoğraf çekmeyi seviyorum. Ayrıca ben bunları düzenlemekten de keyif alıyorum.',
-    diğer_ing:
-      'I like to listen to music. For instance, I listen to classical music every day.',
-    diğer_tr:
-      'Müzik dinlemeyi severim. Mesela her gün klasik müzik dinliyorum.',
-  },
-  {
-    neden_ing: 'I love gardening, so I planted some flowers.',
-    neden_tr: 'Bahçeciliği seviyorum, bu yüzden çiçekler diktim.',
-    zıtlık_ing: 'He loves to go to the beach, but he forgot his towel.',
-    zıtlık_tr: 'Plaja gitmeyi çok seviyor ama havlusunu unuttu.',
-    aynıFikriSürdürme_ing:
-      'She loves dancing. Moreover, she takes dance classes every week.',
-    aynıFikriSürdürme_tr:
-      'O dans etmeyi seviyor. Ayrıca o her hafta dans dersleri alıyor.',
-    diğer_ing:
-      "She didn't want to study at home. Instead, she went to the library.",
-    diğer_tr: 'Evde ders çalışmak istemiyordu. Bunun yerine kütüphaneye gitti.',
-  },
-  {
-    neden_ing: 'He was feeling bored, thus he started reading a book.',
-    neden_tr: 'Sıkılıyordu, bu yüzden kitap okumaya başladı.',
-    zıtlık_ing: 'I wanted to play basketball, but the court was busy.',
-    zıtlık_tr: 'Basketbol oynamak istiyordum ama saha çok kalabalıktı.',
-    aynıFikriSürdürme_ing:
-      'He loves to eat pasta. Besides, he can cook a great spaghetti dish.',
-    aynıFikriSürdürme_tr:
-      'O makarna yemeyi çok seviyor. Ayrıca o harika bir spagetti yemeği de pişirebilir.',
-    diğer_ing: "I love to paint. That's why I joined an art class.",
-    diğer_tr: 'Resim yapmayı seviyorum. Bu yüzden bir sanat dersine katıldım.',
-  },
-  {
-    neden_ing: 'The bus was late, so I took a taxi.',
-    neden_tr: 'Otobüs geç geldi, bu yüzden taksiye bindim.',
-    zıtlık_ing: "She loves to knit; however, she didn't have any wool.",
-    zıtlık_tr: 'Örgü örmeyi seviyor ama yünü yoktu.',
-    aynıFikriSürdürme_ing:
-      'I enjoy painting. In addition, I like to visit art galleries.',
-    aynıFikriSürdürme_tr:
-      'Ben resim yapmaktan keyif alıyorum. Ayrıca ben sanat galerilerini ziyaret etmeyi seviyorum.',
-    diğer_ing: 'He loves nature. In fact, he goes hiking every month.',
-    diğer_tr: 'Doğayı seviyor. Aslında her ay yürüyüşe çıkıyor.',
-  },
-  {
-    neden_ing: 'The roads were icy; hence, it was not safe to drive.',
-    neden_tr: 'Yollar buzlu olduğundan, araba sürmek güvenli değildi.',
-    zıtlık_ing: 'He wanted to eat out, but the restaurants were all closed.',
-    zıtlık_tr:
-      'Dışarıda yemek yemek istiyordu ama restoranların hepsi kapalıydı.',
-    aynıFikriSürdürme_ing:
-      'The job is challenging. Furthermore, it is very rewarding.',
-    aynıFikriSürdürme_tr: 'İş zorlayıcı. Ayrıca, çok tatmin edici.',
-    diğer_ing:
-      'I like to eat healthy food. For example, I eat a lot of fruits and vegetables.',
-    diğer_tr:
-      'Sağlıklı yemek yemeyi severim. Mesela çok fazla meyve ve sebze yerim.',
-  },
-  {
-    neden_ing:
-      'She studied very hard for her exams, hence her excellent grades.',
-    neden_tr: 'Sınavları için çok çalıştı, bu nedenle mükemmel notlar aldı.',
-    zıtlık_ing: "I love to go camping, but I couldn't find my tent.",
-    zıtlık_tr: 'Kamp yapmayı çok seviyorum ama çadırımı bulamadım.',
-    aynıFikriSürdürme_ing:
-      'The concert was amazing. Furthermore, the tickets were affordable.',
-    aynıFikriSürdürme_tr:
-      'Konser harikaydı. Ayrıca, biletler uygun fiyatlıydı.',
-    diğer_ing:
-      "I prefer to take the bus but instead I take the subway because it's less crowded.",
-    diğer_tr:
-      'Otobüse binmeyi tercih ediyorum ama bunun yerine metroya biniyorum çünkü daha az kalabalık.',
-  },
-  {
-    neden_ing: "He didn't bring his umbrella, hence he got wet in the rain.",
-    neden_tr: 'Şemsiyesini getirmedi, bu nedenle yağmurda ıslandı.',
-    zıtlık_ing: 'She wanted to drink tea, however, there was no tea at home.',
-    zıtlık_tr: 'Çay içmek istiyordu ama evde çay yoktu.',
-    aynıFikriSürdürme_ing:
-      'He is very talented. Furthermore, he works very hard.',
-    aynıFikriSürdürme_tr: 'Çok yetenekli. Ayrıca, çok çalışkan.',
-    diğer_ing:
-      'She likes to read books. For instance, she reads a book every week.',
-    diğer_tr: 'Kitap okumayı seviyor. Mesela her hafta bir kitap okuyor.',
-  },
-  {
-    neden_ing:
-      'The storm knocked out the power; hence, we spent the evening in the dark.',
-    neden_tr: 'Fırtına elektriği kesti; bu yüzden akşamı karanlıkta geçirdik.',
-    zıtlık_ing: "He likes to play chess, but he couldn't find his set.",
-    zıtlık_tr: 'Satranç oynamayı seviyor ama setini bulamadı.',
-    aynıFikriSürdürme_ing:
-      'The team is strong. Moreover, they are very cooperative.',
-    aynıFikriSürdürme_tr: 'Takım güçlü. Ayrıca, çok işbirlikçiler.',
-    diğer_ing: "He loves to cook. That's why he decided to become a chef.",
-    diğer_tr: 'Yemek yapmayı seviyor. Bu yüzden şef olmaya karar verdi.',
-  },
-  {
-    neden_ing: "The concert was sold out; hence I couldn't buy a ticket.",
-    neden_tr: 'Konser biletleri tükendi; bu yüzden bilet alamadım.',
-    zıtlık_ing: 'I love to go cycling, but my bicycle was broken.',
-    zıtlık_tr: 'Bisiklete binmeyi seviyorum ama bisikletim bozuldu.',
-    aynıFikriSürdürme_ing:
-      'The store sells clothes. In addition, it has accessories.',
-    aynıFikriSürdürme_tr: 'Mağaza kıyafet satıyor. Ayrıca, aksesuarlar da var.',
-    diğer_ing:
-      "I don't like to go out when it's raining. Instead, I prefer to stay at home and read a book.",
-    diğer_tr:
-      'Yağmur yağarken dışarı çıkmayı sevmiyorum. Bunun yerine evde kalıp kitap okumayı tercih ediyorum.',
-  },
-  {
-    neden_ing: 'He was feeling unwell, hence he decided to stay home.',
-    neden_tr: 'Kendini iyi hissetmiyordu, bu nedenle evde kalmaya karar verdi.',
-    zıtlık_ing: "She wanted to play the violin; however, she didn't have one.",
-    zıtlık_tr: 'Keman çalmak istiyordu ama kemanı yoktu.',
-    aynıFikriSürdürme_ing:
-      'He has a good job. Moreover, he loves what he does.',
-    aynıFikriSürdürme_tr: 'İyi bir işi var. Ayrıca, yaptığı işi seviyor.',
-    diğer_ing:
-      "I didn't understand the math problem. That's why I asked the teacher for help.",
-    diğer_tr:
-      'Matematik problemini anlamadım. Bu yüzden öğretmenden yardım istedim.',
-  },
-  {
-    neden_ing: "She didn't study for the test; hence, she didn't do well.",
-    neden_tr: 'Sınav için çalışmadı; bu yüzden iyi yapmadı.',
-    zıtlık_ing: 'He loves to fish, but he forgot his fishing rod.',
-    zıtlık_tr: 'Balık tutmayı çok seviyor ama oltasını unutmuş.',
-    aynıFikriSürdürme_ing: 'The car is fast. In addition, it is very safe.',
-    aynıFikriSürdürme_tr: 'Araba hızlı. Ayrıca, çok güvenli.',
-    diğer_ing:
-      'She loves to travel. For example, she visited three countries last year.',
-    diğer_tr:
-      'Seyahat etmeyi seviyor. Mesela geçen yıl üç ülkeyi ziyaret etti.',
-  },
-  {
-    neden_ing:
-      "I didn't get enough sleep last night; hence I'm feeling tired today.",
-    neden_tr:
-      'Dün gece yeterince uyuyamadım; bu yüzden bugün yorgun hissediyorum.',
-    zıtlık_ing: 'I wanted to listen to music, but my headphones were broken.',
-    zıtlık_tr: 'Müzik dinlemek istedim ama kulaklığım bozuldu.',
-    aynıFikriSürdürme_ing:
-      'The garden has flowers. In addition, there are many trees.',
-    aynıFikriSürdürme_tr: 'Bahçede çiçekler var. Ayrıca, birçok ağaç var.',
-    diğer_ing:
-      "I forgot my umbrella at home. That's why I got wet in the rain.",
-    diğer_tr: 'Şemsiyemi evde unuttum. Bu yüzden yağmurda ıslandım.',
-  },
-  {
-    neden_ing:
-      "He didn't eat breakfast; hence he was very hungry by lunchtime.",
-    neden_tr: 'Kahvaltı yapmadı; bu nedenle öğleye kadar çok acıktı.',
-    zıtlık_ing: 'She loves to sing, but her throat was sore.',
-    zıtlık_tr: 'Şarkı söylemeyi seviyor ama boğazı ağrıyordu.',
-    aynıFikriSürdürme_ing:
-      'The project was successful. Moreover, it was completed on time.',
-    aynıFikriSürdürme_tr: 'Proje başarılıydı. Ayrıca, zamanında tamamlandı.',
-    diğer_ing:
-      'He is a great soccer player. In fact, he won a trophy last year.',
-    diğer_tr: 'O harika bir futbolcu. Aslında geçen sene bir kupa kazandı.',
-  },
-  {
-    neden_ing: 'She forgot to set her alarm; hence, she was late for work.',
-    neden_tr: 'Alarmını kurmayı unuttu; bu yüzden işe geç kaldı.',
-    zıtlık_ing: 'He wanted to bake bread; however, the oven was not working.',
-    zıtlık_tr: 'Ekmek pişirmek istedi ancak fırın çalışmıyordu.',
-    aynıFikriSürdürme_ing:
-      'The garden is large. Besides, it is well-maintained.',
-    aynıFikriSürdürme_tr: 'Bahçe büyük. Ayrıca, iyi bakılmış.',
-    diğer_ing: "I don't like to watch movies. Instead, I prefer to read books.",
-    diğer_tr:
-      'Film izlemeyi sevmiyorum. Bunun yerine kitap okumayı tercih ediyorum.',
-  },
-  {
-    neden_ing: 'I was feeling cold, so I put on a sweater.',
-    neden_tr: 'Üşüyordum, bu yüzden bir kazak giydim.',
-    zıtlık_ing: "I love to draw, but I couldn't find my sketchbook.",
-    zıtlık_tr: 'Çizim yapmayı seviyorum ama eskiz defterimi bulamadım.',
-    aynıFikriSürdürme_ing:
-      'The course is easy. In addition, it is very interesting.',
-    aynıFikriSürdürme_tr: 'Kurs kolay. Ayrıca, çok ilginç.',
-    diğer_ing:
-      "She likes to help others. That's why she volunteers at the community center.",
-    diğer_tr:
-      'Başkalarına yardım etmeyi sever. Bu yüzden toplum merkezinde gönüllü olarak çalışıyor.',
-  },
-  {
-    neden_ing: 'The book was interesting, therefore I finished it in one day.',
-    neden_tr: 'Kitap ilginçti, bu nedenle bir günde bitirdim.',
-    zıtlık_ing: "She wanted to write a letter, but she didn't have any stamps.",
-    zıtlık_tr: 'Bir mektup yazmak istiyordu ama pulu yoktu.',
-    aynıFikriSürdürme_ing: 'The concert was great; thus, we enjoyed it a lot.',
-    aynıFikriSürdürme_tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
-    diğer_ing:
-      'I love to play sports. For instance, I play basketball every weekend.',
-    diğer_tr:
-      'Spor yapmayı seviyorum. Mesela her hafta sonu basketbol oynuyorum.',
-  },
-  {
-    neden_ing: 'She forgot her lunch, so she bought a sandwich at school.',
-    neden_tr: 'Öğle yemeğini unuttu, bu yüzden okulda bir sandviç aldı.',
-    zıtlık_ing: 'He loves photography, but his camera was broken.',
-    zıtlık_tr: 'Fotoğraf çekmeyi seviyor ama kamerası bozuk.',
-    aynıFikriSürdürme_ing:
-      'He is a talented artist. Moreover, he teaches art classes.',
-    aynıFikriSürdürme_tr:
-      'Yetenekli bir sanatçı. Ayrıca, sanat dersleri veriyor.',
-    diğer_ing:
-      "He didn't want to eat at home. Instead, he went to a restaurant.",
-    diğer_tr: 'Evde yemek yemek istemiyordu. Bunun yerine bir restorana gitti.',
-  },
-  {
-    neden_ing: 'He was tired; thus, he went to bed early.',
-    neden_tr: 'Yorgundu; bu yüzden erken yattı.',
-    zıtlık_ing: 'I wanted to eat fruit, but the store was out of apples.',
-    zıtlık_tr: 'Meyve yemek istedim ama mağazada elma kalmamıştı.',
-    aynıFikriSürdürme_ing:
-      'She is an excellent chef. Furthermore, she has her own restaurant.',
-    aynıFikriSürdürme_tr: 'Harika bir şef. Ayrıca, kendi restoranı var.',
-    diğer_ing: "I like to learn new things. That's why I read a lot.",
-    diğer_tr: 'Yeni şeyler öğrenmeyi severim. Bu yüzden çok okuyorum.',
-  },
-  {
-    neden_ing: 'It started raining, so I opened my umbrella.',
-    neden_tr: 'Yağmur yağmaya başladı, bu yüzden şemsiyemi açtım.',
-    zıtlık_ing: 'She loves to run; however, her shoes were worn out.',
-    zıtlık_tr: 'Koşmayı çok seviyor ancak ayakkabıları eskimiş.',
-    aynıFikriSürdürme_ing:
-      'The book was informative. Moreover, it was entertaining.',
-    aynıFikriSürdürme_tr: 'Kitap bilgilendiriciydi. Ayrıca, eğlenceliydi.',
-    diğer_ing:
-      'She loves to dance. In fact, she takes dance classes every week.',
-    diğer_tr: 'Dans etmeyi seviyor. Aslında her hafta dans dersleri alıyor.',
-  },
-  {
-    neden_ing: "The store was closed; therefore, I couldn't buy the milk.",
-    neden_tr: 'Mağaza kapalıydı; bu nedenle süt alamadım.',
-    zıtlık_ing: 'He wanted to learn to swim, but the swimming class was full.',
-    zıtlık_tr: 'Yüzmeyi öğrenmek istiyordu ama yüzme sınıfı doluydu.',
-    aynıFikriSürdürme_ing:
-      'The food was delicious. Moreover, it was beautifully presented.',
-    aynıFikriSürdürme_tr: 'Yemek lezzetliydi. Ayrıca, güzel sunulmuştu.',
-    diğer_ing: "I don't like coffee. Instead, I prefer to drink tea.",
-    diğer_tr: 'Kahve sevmiyorum. Bunun yerine çay içmeyi tercih ediyorum.',
-  },
-  {
-    neden_ing: 'She was hungry, so she ate an apple.',
-    neden_tr: 'Açtı, bu yüzden bir elma yedi.',
-    zıtlık_ing: 'I love to take photographs, but I forgot my camera.',
-    zıtlık_tr: 'Fotoğraf çekmeyi seviyorum ama fotoğraf makinemi unuttum.',
-    aynıFikriSürdürme_ing:
-      'The course is advanced. Furthermore, it is very engaging.',
-    aynıFikriSürdürme_tr: 'Kurs ileri seviyede. Ayrıca, çok sürükleyici.',
-    diğer_ing:
-      'He loves to draw. For example, he drew a beautiful picture yesterday.',
-    diğer_tr: 'Çizim yapmayı seviyor. Mesela dün çok güzel bir resim çizdi.',
-  },
-  {
-    neden_ing:
-      "I didn't understand the question, thus I asked the teacher to explain it.",
-    neden_tr: 'Soruyu anlamadım, bu yüzden öğretmene sordum.',
-    zıtlık_ing:
-      'She wanted to play a board game; however, the game was missing pieces.',
-    zıtlık_tr: 'Oyunu oynamak istedi ancak oyunun parçaları eksikti.',
-    aynıFikriSürdürme_ing:
-      'The cake was tasty. In addition, it looked beautiful.',
-    aynıFikriSürdürme_tr: 'Kek lezzetliydi. Ayrıca, güzel görünüyordu.',
-    diğer_ing: "I didn't want to walk to the store. That's why I took the bus.",
-    diğer_tr: 'Mağazaya yürümek istemedim. Bu yüzden otobüse bindim.',
-  },
-  {
-    neden_ing: 'The movie was scary, so I closed my eyes.',
-    neden_tr: 'Film korkutucuydu, bu yüzden gözlerimi kapattım.',
-    zıtlık_ing: 'He loves to play the drums, but his drumsticks were broken.',
-    zıtlık_tr: 'Davul çalmayı çok seviyor ama bagetleri kırılmış.',
-    aynıFikriSürdürme_ing:
-      'The movie was good. Besides, the actors were great.',
-    aynıFikriSürdürme_tr: 'Film iyiydi. Ayrıca, oyuncular harikaydı.',
-    diğer_ing: 'She loves to swim. In fact, she swims every morning.',
-    diğer_tr: 'Yüzmeyi seviyor. Aslında her sabah yüzüyor.',
-  },
-  {
-    neden_ing: "He didn't study; therefore, he failed the test.",
-    neden_tr: 'Ders çalışmadı; bu nedenle sınavda başarısız oldu.',
-    zıtlık_ing: "I wanted to watch a TV show, but my TV wasn't working.",
-    zıtlık_tr: 'Bir TV programı izlemek istedim ama televizyonum çalışmıyordu.',
-    aynıFikriSürdürme_ing: 'He is a great leader. Moreover, he is very humble.',
-    aynıFikriSürdürme_tr: 'Harika bir lider. Ayrıca, çok mütevazı.',
-    diğer_ing:
-      "I don't like to eat junk food. Instead, I prefer to eat homemade food.",
-    diğer_tr:
-      'Abur cubur yemeyi sevmiyorum. Bunun yerine ev yapımı yemek yemeyi tercih ediyorum.',
-  },
-  {
-    neden_ing: 'My friend was feeling sad, so I tried to cheer her up.',
-    neden_tr: 'Arkadaşım üzgündü, bu yüzden onu neşelendirmeye çalıştım.',
-    zıtlık_ing: 'She loves to play soccer, but she lost her ball.',
-    zıtlık_tr: 'Futbol oynamayı seviyor ama topunu kaybetti.',
-    aynıFikriSürdürme_ing:
-      'The park is beautiful. In addition, it is very clean.',
-    aynıFikriSürdürme_tr: 'Park güzel. Ayrıca, çok temiz.',
-    diğer_ing: "He loves animals. That's why he has three pets.",
-    diğer_tr: 'Hayvanları seviyor. Bu yüzden üç evcil hayvanı var.',
-  },
-  {
-    neden_ing: 'It was a sunny day, thus we decided to go for a picnic.',
-    neden_tr: 'Güneşli bir gündü, bu yüzden pikniğe gitmeye karar verdik.',
-    zıtlık_ing: 'He wanted to go skating, however, his skates were too small.',
-    zıtlık_tr: 'Paten kaymak istiyordu ancak patenleri çok küçüktü.',
-    aynıFikriSürdürme_ing: 'She enjoys cooking. Besides, she loves baking.',
-    aynıFikriSürdürme_tr:
-      'Yemek yapmayı seviyor. Ayrıca, hamur işlerini de seviyor.',
-    diğer_ing:
-      'I like to listen to music. For instance, I listen to classical music every day.',
-    diğer_tr:
-      'Müzik dinlemeyi severim. Mesela her gün klasik müzik dinliyorum.',
-  },
-  {
-    neden_ing: 'I was late, so I ran to the bus stop.',
-    neden_tr: 'Geç kaldım, bu yüzden otobüs durağına koştum.',
-    zıtlık_ing: 'I love to do puzzles, but I lost a piece.',
-    zıtlık_tr: 'Yapboz yapmayı seviyorum ama bir parçasını kaybettim.',
-    aynıFikriSürdürme_ing:
-      'She is very creative. Moreover, she is very hardworking.',
-    aynıFikriSürdürme_tr: 'Çok yaratıcı. Ayrıca, çok çalışkan.',
-    diğer_ing:
-      "She didn't want to study at home. Instead, she went to the library.",
-    diğer_tr: 'Evde ders çalışmak istemiyordu. Bunun yerine kütüphaneye gitti.',
-  },
-  {
-    neden_ing: "She didn't have a map, therefore she got lost.",
-    neden_tr: 'Haritası yoktu, bu nedenle kayboldu.',
-    zıtlık_ing: 'She wanted to go jogging, but her jogging shoes were torn.',
-    zıtlık_tr: 'Koşuya gitmek istiyordu ama koşu ayakkabıları yırtılmıştı.',
-    aynıFikriSürdürme_ing:
-      'She is a good singer. In addition, she plays the piano well.',
-    aynıFikriSürdürme_tr: 'İyi bir şarkıcı. Ayrıca, piyano da iyi çalıyor.',
-    diğer_ing: "I love to paint. That's why I joined an art class.",
-    diğer_tr: 'Resim yapmayı seviyorum. Bu yüzden bir sanat dersine katıldım.',
-  },
-  {
-    neden_ing: 'The park was too far, so we decided to take a bus.',
-    neden_tr: 'Park çok uzaktaydı, bu yüzden otobüsle gitmeye karar verdik.',
-    zıtlık_ing: 'He loves to go hiking; however, his backpack was ripped.',
-    zıtlık_tr: 'Yürüyüşe çıkmayı çok seviyor ancak sırt çantası yırtılmış.',
-    aynıFikriSürdürme_ing:
-      'The class is fun. In addition, it is very educational.',
-    aynıFikriSürdürme_tr: 'Ders eğlenceli. Ayrıca, çok eğitici.',
-    diğer_ing: 'He loves nature. In fact, he goes hiking every month.',
-    diğer_tr: 'Doğayı seviyor. Aslında her ay yürüyüşe çıkıyor.',
-  },
-  {
-    neden_ing: "It was my friend's birthday; thus, I baked a cake for him.",
-    neden_tr: 'Arkadaşımın doğum günüydü; bu yüzden ona bir kek yaptım.',
-    zıtlık_ing: 'I wanted to go bird watching, but I forgot my binoculars.',
-    zıtlık_tr: 'Kuş gözlemciliğine gitmek istedim ama dürbünümü unuttum.',
-    aynıFikriSürdürme_ing:
-      'The food was organic. Furthermore, it was very tasty.',
-    aynıFikriSürdürme_tr: 'Yemek organikti. Ayrıca, çok lezzetliydi.',
-    diğer_ing: 'I like to eat fruits. For example, I eat an apple every day.',
-    diğer_tr: 'Meyve yemeyi severim. Mesela her gün bir elma yerim.',
-  },
-  {
-    neden_ing: "She didn't know the way, so she asked for directions.",
-    neden_tr: 'Yolu bilmiyordu, bu yüzden yol tarifini sordu.',
-    zıtlık_ing: 'She loves to play the flute, but her flute was damaged.',
-    zıtlık_tr: 'Flüt çalmayı çok seviyor ama flütü hasar görmüş.',
-    aynıFikriSürdürme_ing:
-      'He is very athletic. Furthermore, he is very disciplined.',
-    aynıFikriSürdürme_tr: 'Çok atletik. Ayrıca, çok disiplinli.',
-    diğer_ing: "He loves to read. That's why he has so many books.",
-    diğer_tr: 'Okumayı seviyor. Bu yüzden bu kadar çok kitabı var.',
-  },
-  {
-    neden_ing: 'I was thirsty; therefore, I drank some water.',
-    neden_tr: 'Susamıştım; bu nedenle biraz su içtim.',
-    zıtlık_ing: 'He wanted to drink coffee, but there was none left.',
-    zıtlık_tr: 'Kahve içmek istedi ama kahve kalmamıştı.',
-    aynıFikriSürdürme_ing:
-      'The house is old. Besides, it needs a lot of repairs.',
-    aynıFikriSürdürme_tr: 'Ev eski. Ayrıca, birçok tamir gerekiyor.',
-    diğer_ing: "I didn't want to watch TV. Instead, I decided to read a book.",
-    diğer_tr:
-      'Televizyon izlemek istemedim. Bunun yerine kitap okumaya karar verdim.',
-  },
-  {
-    neden_ing: 'He forgot his jacket, so he felt cold.',
-    neden_tr: 'Ceketini unuttu, bu yüzden üşüdü.',
-    zıtlık_ing: 'I love to go to concerts, but the tickets were sold out.',
-    zıtlık_tr: 'Konserlere gitmeyi çok seviyorum ama biletler tükendi.',
-    aynıFikriSürdürme_ing: 'She speaks Spanish. Besides, she knows Italian.',
-    aynıFikriSürdürme_tr: 'İspanyolca konuşuyor. Ayrıca, İtalyanca biliyor.',
-    diğer_ing:
-      'She likes to learn languages. For instance, she is learning Spanish and French.',
-    diğer_tr:
-      'Dil öğrenmeyi seviyor. Mesela İspanyolca ve Fransızca öğreniyor.',
-  },
-  {
-    neden_ing: 'It was a holiday; thus, the school was closed.',
-    neden_tr: 'Tatildi; bu yüzden okul kapalıydı.',
-    zıtlık_ing: 'She wanted to play badminton; however, her racket was broken.',
-    zıtlık_tr: 'Badminton oynamak istedi ancak raketi kırıldı.',
-    aynıFikriSürdürme_ing: 'She studies a lot. Besides, she works part-time.',
-    aynıFikriSürdürme_tr: 'Çok çalışıyor. Ayrıca, yarı zamanlı çalışıyor.',
-    diğer_ing: "I was tired. That's why I decided to go to bed early.",
-    diğer_tr: 'Yorulmuştum. Bu yüzden erken yatmaya karar verdim.',
-  },
-  {
-    neden_ing: 'She loves playing the piano, so she practices every day.',
-    neden_tr: 'Piyano çalmayı seviyor, bu yüzden her gün pratik yapıyor.',
-    zıtlık_ing: 'He loves to watch basketball games, but his TV had no signal.',
-    zıtlık_tr:
-      'Basketbol maçlarını izlemeyi seviyor ama televizyonunda sinyal yoktu.',
-    aynıFikriSürdürme_ing:
-      'The team played well. Besides, they showed great sportsmanship.',
-    aynıFikriSürdürme_tr:
-      'Takım iyi oynadı. Ayrıca, harika sportmenlik gösterdiler.',
-    diğer_ing:
-      "He doesn't like to eat out. Instead, he prefers homemade meals.",
-    diğer_tr:
-      'Dışarıda yemek yemeyi sevmiyor. Bunun yerine ev yapımı yemekleri tercih ediyor.',
-  },
-  {
-    neden_ing: 'I wanted to see the movie; therefore, I bought a ticket.',
-    neden_tr: 'Filmi görmek istiyordum; bu nedenle bilet aldım.',
-    zıtlık_ing: 'I wanted to read a book, but the library was closed.',
-    zıtlık_tr: 'Kitap okumak istiyordum ama kütüphane kapalıydı.',
-    aynıFikriSürdürme_ing:
-      'The course is affordable. Moreover, it is very comprehensive.',
-    aynıFikriSürdürme_tr: 'Kurs uygun fiyatlı. Ayrıca, çok kapsamlı.',
-    diğer_ing: 'I love animals. In fact, I have two cats and a dog.',
-    diğer_tr: 'Hayvanları severim. Aslında iki kedim ve bir köpeğim var.',
-  },
-  {
-    neden_ing: 'He loves animals, so he got a pet dog.',
-    neden_tr: 'Hayvanları seviyor, bu yüzden bir köpek aldı.',
-    zıtlık_ing: 'She loves to make jewelry, but she ran out of beads.',
-    zıtlık_tr: 'Takı yapmayı çok seviyor ama boncukları kalmadı.',
-    aynıFikriSürdürme_ing:
-      'The book was a bestseller. Furthermore, it won several awards.',
-    aynıFikriSürdürme_tr:
-      'Kitap çok satan bir kitaptı. Ayrıca, birkaç ödül kazandı.',
-    diğer_ing: "She enjoys gardening. That's why her garden is so beautiful.",
-    diğer_tr: 'Bahçecilikten hoşlanıyor. Bu yüzden bahçesi çok güzel.',
-  },
-  {
-    neden_ing: "I didn't feel like cooking, so I ordered a pizza.",
-    neden_tr: 'Yemek yapmak istemiyordum, bu yüzden pizza sipariş ettim.',
-    zıtlık_ing: 'He wanted to cook dinner; however, there was no gas.',
-    zıtlık_tr: 'Akşam yemeği pişirmek istedi ancak gaz yoktu.',
-    aynıFikriSürdürme_ing:
-      'The meal was delicious. In addition, the service was excellent.',
-    aynıFikriSürdürme_tr: 'Yemek lezzetliydi. Ayrıca, hizmet mükemmeldi.',
-    diğer_ing: "I didn't want to take the bus. Instead, I decided to walk.",
-    diğer_tr: 'Otobüse binmek istemedim. Bunun yerine yürümeye karar verdim.',
-  },
-  {
-    neden_ing: 'It was hot outside; therefore, I wore a hat.',
-    neden_tr: 'Dışarısı sıcaktı; bu yüzden bir şapka giydim.',
-    zıtlık_ing: "I love to go boating, but I didn't have a life jacket.",
-    zıtlık_tr: 'Kayıkla gezmeyi seviyorum ama can yeleğim yoktu.',
-    aynıFikriSürdürme_ing:
-      'He is very experienced. Furthermore, he is very reliable.',
-    aynıFikriSürdürme_tr: 'Çok deneyimli. Ayrıca, çok güvenilir.',
-    diğer_ing:
-      'He loves playing sports. For example, he plays football every Sunday.',
-    diğer_tr: 'Spor yapmayı çok seviyor. Mesela her pazar futbol oynuyor.',
-  },
-  {
-    neden_ing: 'I was feeling cold, so I put on a sweater.',
-    neden_tr: 'Üşüyordum, bu yüzden bir kazak giydim.',
-    zıtlık_ing:
-      'She wanted to eat strawberries, but the store was out of them.',
-    zıtlık_tr: 'Çilek yemek istiyordu ama mağazada çilek yoktu.',
-    aynıFikriSürdürme_ing:
-      'The house is spacious. Furthermore, it has a beautiful garden.',
-    aynıFikriSürdürme_tr: 'Ev geniş. Ayrıca, güzel bir bahçesi var.',
-    diğer_ing: "I didn't like the movie. That's why I left the theater early.",
-    diğer_tr: 'Filmi beğenmedim. Bu yüzden sinemadan erken çıktım.',
-  },
-  {
-    neden_ing: 'The book was interesting, therefore I finished it in one day.',
-    neden_tr: 'Kitap ilginçti, bu nedenle bir günde bitirdim.',
-    zıtlık_ing: 'He loves to do magic tricks, but he lost his magic wand.',
-    zıtlık_tr: 'Sihir numaraları yapmayı seviyor ama sihirli asasını kaybetti.',
-    aynıFikriSürdürme_ing: 'The shop is new. Besides, it has many discounts.',
-    aynıFikriSürdürme_tr: 'Mağaza yeni. Ayrıca, birçok indirim var.',
-    diğer_ing:
-      'She likes to travel. In fact, she visited five countries last year.',
-    diğer_tr: 'O gezmeyi sever. Aslında geçen yıl beş ülkeyi ziyaret etti.',
-  },
-  {
-    neden_ing: 'She forgot her lunch, so she bought a sandwich at school.',
-    neden_tr: 'Öğle yemeğini unuttu, bu yüzden okulda bir sandviç aldı.',
-    zıtlık_ing: 'I wanted to make a call, but my phone was dead.',
-    zıtlık_tr: 'Aramak istedim ama telefonum çalışmıyordu.',
-    aynıFikriSürdürme_ing: 'The library is quiet. Besides, it has many books.',
-    aynıFikriSürdürme_tr: 'Kütüphane sessiz. Ayrıca, birçok kitabı var.',
-    diğer_ing:
-      "I don't like cold weather. That's why I moved to a warmer city.",
-    diğer_tr:
-      'Soğuk havayı sevmiyorum. Bu yüzden daha sıcak bir şehre taşındım.',
-  },
-  {
-    neden_ing: 'He was tired; thus, he went to bed early.',
-    neden_tr: 'Yorgundu; bu yüzden erken yattı.',
-    zıtlık_ing:
-      'She loves to go rollerblading; however, her rollerblades were too small.',
-    zıtlık_tr: 'Paten kaymayı çok seviyor ancak patenleri çok küçüktü.',
-    aynıFikriSürdürme_ing:
-      'The city is beautiful. Furthermore, it is very historical.',
-    aynıFikriSürdürme_tr: 'Şehir güzel. Ayrıca, çok tarihi.',
-    diğer_ing: 'He likes to write. For instance, he writes a poem every day.',
-    diğer_tr: 'Yazmayı seviyor. Mesela her gün bir şiir yazıyor.',
-  },
-  {
-    neden_ing: 'It started raining, so I opened my umbrella.',
-    neden_tr: 'Yağmur yağmaya başladı, bu yüzden şemsiyemi açtım.',
-    zıtlık_ing: 'He wanted to go to a concert, but it was cancelled.',
-    zıtlık_tr: 'Konsere gitmek istiyordu ama iptal oldu.',
-    aynıFikriSürdürme_ing:
-      'The project was innovative. Furthermore, it was well-received.',
-    aynıFikriSürdürme_tr: 'Proje yenilikçiydi. Ayrıca, iyi karşılandı.',
-    diğer_ing: "I didn't want to cook. Instead, I ordered pizza.",
-    diğer_tr: 'Yemek pişirmek istemedim. Bunun yerine pizza sipariş ettim.',
-  },
-  {
-    neden_ing: "The store was closed; therefore, I couldn't buy the milk.",
-    neden_tr: 'Mağaza kapalıydı; bu nedenle süt alamadım.',
-    zıtlık_ing: 'I love to make pottery, but my clay was dried up.',
-    zıtlık_tr: 'Çömlek yapmayı seviyorum ama kilim kurumuştu.',
-    aynıFikriSürdürme_ing:
-      'The park is spacious. Moreover, it is very peaceful.',
-    aynıFikriSürdürme_tr: 'Park geniş. Ayrıca, çok huzurlu.',
-    diğer_ing:
-      "She enjoys painting. That's why she attends an art class every week.",
-    diğer_tr:
-      'Resim yapmaktan hoşlanıyor. Bu yüzden her hafta resim dersine katılıyor.',
-  },
-  {
-    neden_ing: 'She was hungry, so she ate an apple.',
-    neden_tr: 'Açtı, bu yüzden bir elma yedi.',
-    zıtlık_ing: 'She wanted to make a salad, but she had no lettuce.',
-    zıtlık_tr: 'Salata yapmak istedi ama marulu yoktu.',
-    aynıFikriSürdürme_ing:
-      'She loves painting. Besides, she is good at drawing.',
-    aynıFikriSürdürme_tr: 'Resim yapmayı seviyor. Ayrıca, çizimde de iyi.',
-    diğer_ing: 'I love nature. In fact, I go hiking every month.',
-    diğer_tr: 'Doğayı seviyorum. Aslında her ay yürüyüşe çıkıyorum.',
-  },
-  {
-    neden_ing:
-      "I didn't understand the question, thus I asked the teacher to explain it.",
-    neden_tr: 'Soruyu anlamadım, bu yüzden öğretmene sordum.',
-    zıtlık_ing:
-      "He loves to play video games; however, his controller wasn't working.",
-    zıtlık_tr: 'Video oyunları oynamayı seviyor ancak kumandası çalışmıyordu.',
-    aynıFikriSürdürme_ing:
-      'The store was out of stock; therefore, I ordered online.',
-    aynıFikriSürdürme_tr:
-      'Mağazada stok yoktu; bu yüzden çevrimiçi sipariş verdim.',
-    diğer_ing: "He doesn't like coffee. Instead, he drinks tea every morning.",
-    diğer_tr: 'Kahveyi sevmiyor. Bunun yerine her sabah çay içer.',
-  },
-  {
-    neden_ing: 'The movie was scary, so I closed my eyes.',
-    neden_tr: 'Film korkutucuydu, bu yüzden gözlerimi kapattım.',
-    zıtlık_ing: 'I wanted to paint a picture, but I had no paintbrush.',
-    zıtlık_tr: 'Resim yapmak istiyordum ama fırçam yoktu.',
-    aynıFikriSürdürme_ing: 'He enjoys hiking. Besides, he likes camping.',
-    aynıFikriSürdürme_tr:
-      'Doğa yürüyüşlerini seviyor. Ayrıca, kamp yapmayı da seviyor.',
-    diğer_ing:
-      "I love to bake. For example, I baked a cake for my friend's birthday.",
-    diğer_tr:
-      'Pişirmeyi seviyorum. Mesela arkadaşımın doğum günü için pasta yaptım.',
-  },
-  {
-    neden_ing: 'He didn’t study; therefore, he failed the test.',
-    neden_tr: 'Ders çalışmadı; bu nedenle sınavda başarısız oldu.',
-    zıtlık_ing: 'She loves to do yoga, but she forgot her yoga mat.',
-    zıtlık_tr: 'Yoga yapmayı seviyor ama yoga matını unuttu.',
-    aynıFikriSürdürme_ing:
-      'The car is new. Furthermore, it is very economical.',
-    aynıFikriSürdürme_tr: 'Araba yeni. Ayrıca, çok ekonomik.',
-    diğer_ing:
-      "She didn't want to watch a movie. That's why she read a book instead.",
-    diğer_tr: 'Film izlemek istemedi. Bu yüzden onun yerine kitap okudu.',
-  },
-  {
-    neden_ing: 'My friend was feeling sad, so I tried to cheer her up.',
-    neden_tr: 'Arkadaşım üzgündü, bu yüzden onu neşelendirmeye çalıştım.',
-    zıtlık_ing: 'He wanted to play baseball, but he lost his baseball bat.',
-    zıtlık_tr: 'Beyzbol oynamak istiyordu ama beyzbol sopasını kaybetti.',
-    aynıFikriSürdürme_ing:
-      'She is a skilled musician. Moreover, she can compose music.',
-    aynıFikriSürdürme_tr: 'Yetenekli bir müzisyen. Ayrıca, müzik bestelebilir.',
-    diğer_ing: 'I love the beach. In fact, I go there every summer.',
-    diğer_tr: 'Sahile bayılıyorum. Aslında her yaz oraya giderim.',
-  },
-  {
-    neden_ing: 'It was a sunny day, thus we decided to go for a picnic.',
-    neden_tr: 'Güneşli bir gündü, bu yüzden pikniğe gitmeye karar verdik.',
-    zıtlık_ing: 'I love to play table tennis, but the net was missing.',
-    zıtlık_tr: 'Masa tenisi oynamayı seviyorum ama file eksikti.',
-    aynıFikriSürdürme_ing:
-      'The weather is perfect. Besides, the beach is not crowded.',
-    aynıFikriSürdürme_tr: 'Hava mükemmel. Ayrıca, plaj kalabalık değil.',
-    diğer_ing:
-      'He likes music. For instance, he plays the guitar and the piano.',
-    diğer_tr: 'Müzikten hoşlanıyor. Mesela gitar ve piyano çalıyor.',
-  },
-  {
-    neden_ing: 'I was late, so I ran to the bus stop.',
-    neden_tr: 'Geç kaldım, bu yüzden otobüs durağına koştum.',
-    zıtlık_ing: 'She wanted to go to the museum, however, it was closed.',
-    zıtlık_tr: 'Müzeye gitmek istedi ama kapalıydı.',
-    aynıFikriSürdürme_ing:
-      'The lesson was easy. Moreover, it was fun to learn.',
-    aynıFikriSürdürme_tr: 'Ders kolaydı. Ayrıca, öğrenmesi eğlenceliydi.',
-    diğer_ing:
-      "I didn't want to go shopping. Instead, I decided to stay at home and relax.",
-    diğer_tr:
-      'Alışverişe gitmek istemedim. Bunun yerine evde kalıp dinlenmeye karar verdim.',
-  },
-  {
-    neden_ing: "She didn't have a map, therefore she got lost.",
-    neden_tr: 'Haritası yoktu, bu nedenle kayboldu.',
-    zıtlık_ing: 'He loves to go rock climbing, but his equipment was damaged.',
-    zıtlık_tr:
-      'Kaya tırmanışına gitmeyi çok seviyor ama ekipmanı hasar görmüş.',
-    aynıFikriSürdürme_ing:
-      'She is very artistic. Besides, she teaches art classes.',
-    aynıFikriSürdürme_tr: 'Çok sanatsal. Ayrıca, sanat dersleri veriyor.',
-    diğer_ing:
-      "She enjoys running. That's why she runs in the park every morning.",
-    diğer_tr: 'Koşmaktan hoşlanıyor. Bu yüzden her sabah parkta koşuyor.',
-  },
-  {
-    neden_ing: 'The park was too far, so we decided to take a bus.',
-    neden_tr: 'Park çok uzaktaydı, bu yüzden otobüsle gitmeye karar verdik.',
-    zıtlık_ing: 'I wanted to make a sandwich, but there was no bread.',
-    zıtlık_tr: 'Sandviç yapmak istedim ama ekmek yoktu.',
-    aynıFikriSürdürme_ing: 'He speaks English. In addition, he knows French.',
-    aynıFikriSürdürme_tr: 'İngilizce konuşuyor. Ayrıca, Fransızca biliyor.',
-    diğer_ing:
-      'I love photography. For example, I take photos of nature during my walks.',
-    diğer_tr:
-      'Fotoğrafçılığı seviyorum. Mesela yürüyüşlerimde doğa fotoğrafları çekiyorum.',
-  },
-  {
-    neden_ing: 'He found a job; hence, he was happy.',
-    neden_tr: 'Bir iş buldu; bu nedenle, mutluydu.',
-    zıtlık_ing: "The cake looked good; though, it didn't taste great.",
-    zıtlık_tr: 'Kek güzel görünüyordu; fakat, tadı güzel değildi.',
-    aynıFikriSürdürme_ing: 'The city is clean. Moreover, it is very safe.',
-    aynıFikriSürdürme_tr: 'Şehir temiz. Ayrıca, çok güvenli.',
-    diğer_ing: "He doesn't like to drive. Instead, he rides his bike to work.",
-    diğer_tr: 'Araba sürmeyi sevmiyor. Bunun yerine işe bisikletle gidiyor.',
-  },
-  {
-    neden_ing: "The internet was down; therefore, I couldn't finish my work.",
-    neden_tr: 'İnternet kesikti; bu yüzden işimi bitiremedim.',
-    zıtlık_ing: 'The task was simple, but he made a mistake.',
-    zıtlık_tr: 'Görev basitti, ama bir hata yaptı.',
-    aynıFikriSürdürme_ing:
-      'The garden is beautiful. Furthermore, it is well-maintained.',
-    aynıFikriSürdürme_tr: 'Bahçe güzel. Ayrıca, iyi bakılmış.',
-    diğer_ing: 'I love ice cream. In fact, I eat a scoop every day.',
-    diğer_tr: 'Dondurmayı severim. Aslında her gün bir kaşık yiyorum.',
-  },
-  {
-    neden_ing: 'The sky was clear; so, we saw many stars.',
-    neden_tr: 'Gökyüzü açıktı; bu yüzden birçok yıldız gördük.',
-    zıtlık_ing: 'The car is old; though, it runs smoothly.',
-    zıtlık_tr: 'Araba eski; fakat, sorunsuz çalışıyor.',
-    aynıFikriSürdürme_ing:
-      'The beach is clean. Furthermore, it is not crowded.',
-    aynıFikriSürdürme_tr: 'Plaj temiz. Ayrıca, kalabalık değil.',
-    diğer_ing: "She likes drawing. That's why she always carries a sketchbook.",
-    diğer_tr:
-      'Çizim yapmayı seviyor. Bu yüzden her zaman bir eskiz defteri taşıyor.',
-  },
-  {
-    neden_ing:
-      "He didn't understand the homework; therefore, he asked for help.",
-    neden_tr: 'Ödevi anlamadı; bu yüzden yardım istedi.',
-    zıtlık_ing: "He likes pizza, but he didn't eat it.",
-    zıtlık_tr: 'Pizzayı seviyor, ama yemedi.',
-    aynıFikriSürdürme_ing:
-      'The event was well-organized. Moreover, it was very enjoyable.',
-    aynıFikriSürdürme_tr:
-      'Etkinlik iyi organize edilmişti. Ayrıca, çok keyifliydi.',
-    diğer_ing: "I didn't want to eat cake. Instead, I ate some fruit.",
-    diğer_tr: 'Pasta yemek istemiyordum. Bunun yerine biraz meyve yedim.',
-  },
-  {
-    neden_ing: 'The movie was boring; therefore, I stopped watching it.',
-    neden_tr: 'Film sıkıcıydı; bu yüzden izlemeyi bıraktım.',
-    zıtlık_ing: "He studied hard; however, he didn't pass the exam.",
-    zıtlık_tr: 'Çok çalıştı; ancak sınavı geçemedi.',
-    aynıFikriSürdürme_ing:
-      'She is very intelligent. Besides, she is very creative.',
-    aynıFikriSürdürme_tr: 'Çok zeki. Ayrıca, çok yaratıcı.',
-    diğer_ing:
-      'He loves the mountains. For example, he goes hiking every weekend.',
-    diğer_tr: 'Dağları seviyor. Mesela her hafta sonu yürüyüşe çıkıyor.',
-  },
-  {
-    neden_ing: 'The concert was great; thus, we enjoyed it a lot.',
-    neden_tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
-    zıtlık_ing: 'The weather was hot, but we had a great time.',
-    zıtlık_tr: 'Hava sıcaktı, ama çok eğlendik.',
-    aynıFikriSürdürme_ing: 'The park is clean. Furthermore, it is very safe.',
-    aynıFikriSürdürme_tr: 'Park temiz. Ayrıca, çok güvenli.',
-    diğer_ing: "I love to read. That's why I always have a book with me.",
-    diğer_tr: 'Okumayı çok severim. Bu yüzden her zaman yanımda bir kitap var.',
-  },
-  {
-    neden_ing: 'It was hot; so, we went swimming.',
-    neden_tr: 'Hava sıcaktı; bu yüzden yüzmeye gittik.',
-    zıtlık_ing: 'The food was delicious, but it was very spicy.',
-    zıtlık_tr: 'Yemek lezzetliydi, ama çok acıydı.',
-    aynıFikriSürdürme_ing: 'He plays soccer. In addition, he likes basketball.',
-    aynıFikriSürdürme_tr: 'Futbol oynuyor. Ayrıca, basketbolu da seviyor.',
-    diğer_ing:
-      "She doesn't like loud music. Instead, she prefers soft and soothing music.",
-    diğer_tr:
-      'Yüksek sesli müzikten hoşlanmaz. Bunun yerine yumuşak ve dinlendirici müziği tercih ediyor.',
-  },
-  {
-    neden_ing: "She was allergic; therefore, she didn't eat the cake.",
-    neden_tr: 'Alerjisi vardı; bu yüzden keki yemedi.',
-    zıtlık_ing: 'The car is old, but it works well.',
-    zıtlık_tr: 'Araba eski, ama iyi çalışıyor.',
-    aynıFikriSürdürme_ing: 'The food was spicy; though, it was tasty.',
-    aynıFikriSürdürme_tr: 'Yemek acıydı; fakat lezzetliydi.',
-    diğer_ing:
-      'I enjoy swimming. In fact, I go to the swimming pool every week.',
-    diğer_tr:
-      'Yüzmekten zevk alırım. Aslında her hafta yüzme havuzuna gidiyorum.',
-  },
-  {
-    neden_ing: 'He woke up late; thus, he missed the bus.',
-    neden_tr: 'Geç uyandı; bu yüzden otobüsü kaçırdı.',
-    zıtlık_ing: 'He is young; though, he is very mature.',
-    zıtlık_tr: 'Genç; fakat, çok olgun.',
-    aynıFikriSürdürme_ing: 'He is a good cook. In addition, he can bake well.',
-    aynıFikriSürdürme_tr: 'İyi bir aşçı. Ayrıca, iyi pasta yapabiliyor.',
-    diğer_ing:
-      "He likes animals. That's why he volunteers at the animal shelter.",
-    diğer_tr:
-      'O hayvanları sever. Bu yüzden hayvan barınağında gönüllü olarak çalışıyor.',
-  },
-  {
-    neden_ing: "The food was spicy; hence, she didn't eat much.",
-    neden_tr: 'Yemek baharatlıydı; bu yüzden fazla yemedi.',
-    zıtlık_ing: 'It was raining; however, we went out for a walk.',
-    zıtlık_tr: 'Yağmur yağıyordu; ancak, yürüyüşe çıktık.',
-    aynıFikriSürdürme_ing: 'The book is short. Besides, it is very engaging.',
-    aynıFikriSürdürme_tr: 'Kitap kısa. Ayrıca, çok sürükleyici.',
-    diğer_ing:
-      "I didn't want to go out. Instead, I decided to stay in and watch a movie.",
-    diğer_tr:
-      'Dışarı çıkmak istemedim. Bunun yerine evde kalıp film izlemeye karar verdim.',
-  },
-  {
-    neden_ing: 'The task was easy; thus, I finished it quickly.',
-    neden_tr: 'Görev kolaydı; bu yüzden hızlıca bitirdim.',
-    zıtlık_ing: 'She is smart, but she makes silly mistakes.',
-    zıtlık_tr: 'Zeki, ama saçma hatalar yapıyor.',
-    aynıFikriSürdürme_ing: 'He runs fast. Besides, he has good stamina.',
-    aynıFikriSürdürme_tr:
-      'Hızlı koşar. Ayrıca, iyi bir dayanıklılığa sahiptir.',
-    diğer_ing:
-      "She enjoys yoga. That's why she attends a yoga class every day.",
-    diğer_tr: 'Yogadan hoşlanıyor. Bu yüzden her gün yoga dersine katılıyor.',
-  },
-  {
-    neden_ing: 'The phone rang; hence, she answered it.',
-    neden_tr: 'Telefon çaldı; bu nedenle cevapladı.',
-    zıtlık_ing: 'She felt tired, but she went to the gym.',
-    zıtlık_tr: 'Yorgun hissetti, ama spor salonuna gitti.',
-    aynıFikriSürdürme_ing:
-      'The weather is nice. Furthermore, it is not too humid.',
-    aynıFikriSürdürme_tr: 'Hava güzel. Ayrıca, çok nemli değil.',
-    diğer_ing:
-      'I love flowers. For example, I have a beautiful garden at home.',
-    diğer_tr: 'Çiçekleri severim. Mesela evimde çok güzel bir bahçem var.',
-  },
-  {
-    neden_ing: "The class was full; therefore, she couldn't join.",
-    neden_tr: 'Sınıf doluydu; bu yüzden katılamadı.',
-    zıtlık_ing: 'He is young, but he is very wise.',
-    zıtlık_tr: 'Genç, ama çok bilge.',
-    aynıFikriSürdürme_ing: 'He has a dog. In addition, she has two cats.',
-    aynıFikriSürdürme_tr: 'Köpeği var. Ayrıca, iki kedisi var.',
-    diğer_ing: "He doesn't like soda. Instead, he drinks water or juice.",
-    diğer_tr:
-      'Asitli içecekler sevmiyor. Bunun yerine su veya meyve suyu içer.',
-  },
-  {
-    neden_ing: 'It was a holiday; hence, the office was closed.',
-    neden_tr: 'Tatildi; bu nedenle ofis kapalıydı.',
-    zıtlık_ing: 'It was a long trip; though, we enjoyed it.',
-    zıtlık_tr: 'Uzun bir yolculuktu; fakat, keyif aldık.',
-    aynıFikriSürdürme_ing:
-      'The car is efficient. Moreover, it is environmentally friendly.',
-    aynıFikriSürdürme_tr: 'Araba verimli. Ayrıca, çevre dostu.',
-    diğer_ing: 'I love dancing. In fact, I take dance lessons twice a week.',
-    diğer_tr:
-      'Dans etmeyi severim. Aslında haftada iki kez dans dersi alıyorum.',
-  },
-  {
-    neden_ing: "She forgot her book; therefore, she couldn't study.",
-    neden_tr: 'Kitabını unuttu; bu yüzden çalışamadı.',
-    zıtlık_ing: 'The food was spicy; though, it was tasty.',
-    zıtlık_tr: 'Yemek acıydı; fakat, lezzetliydi.',
-    aynıFikriSürdürme_ing:
-      'The trip was enjoyable. Moreover, it was very relaxing.',
-    aynıFikriSürdürme_tr: 'Gezi keyifliydi. Ayrıca, çok rahatlatıcıydı.',
-    diğer_ing:
-      "She enjoys cycling. That's why she goes for a bike ride every day.",
-    diğer_tr:
-      'Bisiklete binmekten hoşlanıyor. Bu yüzden her gün bisiklete binmeye gidiyor.',
-  },
-  {
-    neden_ing: "The book was boring; hence, I didn't finish it.",
-    neden_tr: 'Kitap sıkıcıydı; bu nedenle bitirmedim.',
-    zıtlık_ing: 'The show was canceled; however, we watched a movie.',
-    zıtlık_tr: 'Gösteri iptal edildi; ancak, film izledik.',
-    aynıFikriSürdürme_ing:
-      'She speaks several languages. Moreover, she teaches them.',
-    aynıFikriSürdürme_tr: 'Birkaç dil konuşuyor. Ayrıca, onları öğretiyor.',
-    diğer_ing: "I didn't want to watch TV. Instead, I listened to music.",
-    diğer_tr: 'Televizyon izlemek istemedim. Onun yerine müzik dinledim.',
-  },
-  {
-    neden_ing: "He didn't know the answer; hence, he skipped the question.",
-    neden_tr: 'Cevabı bilmiyordu; bu nedenle soruyu atladı.',
-    zıtlık_ing: 'The weather was bad; though, we had fun.',
-    zıtlık_tr: 'Hava kötüydü; fakat, eğlendik.',
-    aynıFikriSürdürme_ing: 'The city is big. Besides, it is very modern.',
-    aynıFikriSürdürme_tr: 'Şehir büyük. Ayrıca, çok modern.',
-    diğer_ing:
-      'He enjoys cooking. For example, he made a delicious pasta dish last night.',
-    diğer_tr:
-      'Yemek yapmaktan hoşlanıyor. Mesela dün akşam lezzetli bir makarna yemeği yaptı.',
-  },
-  {
-    neden_ing: 'The soup was hot; thus, I waited for it to cool down.',
-    neden_tr: 'Çorba sıcaktı; bu yüzden soğumasını bekledim.',
-    zıtlık_ing: 'The road was blocked; though, we found a way.',
-    zıtlık_tr: 'Yol kapalıydı; fakat, bir yol bulduk.',
-    aynıFikriSürdürme_ing: 'The class is fun. Besides, it is very educational.',
-    aynıFikriSürdürme_tr: 'Ders eğlenceli. Ayrıca, çok eğitici.',
-    diğer_ing:
-      'I love to travel. In fact, I am planning a trip to Europe next year.',
-    diğer_tr:
-      "Seyahat etmeyi seviyorum. Aslında gelecek yıl Avrupa'ya bir gezi planlıyorum.",
-  },
-  {
-    neden_ing: 'She was hungry; thus, she made a sandwich.',
-    neden_tr: 'Açtı; bu yüzden bir sandviç yaptı.',
-    zıtlık_ing: "He didn't know the answer; however, he tried his best.",
-    zıtlık_tr: 'Cevabı bilmiyordu; ancak, elinden geleni yaptı.',
-    aynıFikriSürdürme_ing:
-      'The movie was funny. Besides, it had a good storyline.',
-    aynıFikriSürdürme_tr: 'Film komikti. Ayrıca, iyi bir hikayesi vardı.',
-    diğer_ing:
-      "She doesn't like the cold. That's why she moved to a warmer place.",
-    diğer_tr: 'Soğuğu sevmiyor. Bu yüzden daha sıcak bir yere taşındı.',
-  },
-  {
-    neden_ing: 'The road was icy; hence, driving was dangerous.',
-    neden_tr: 'Yol buzlu olduğundan, araba sürmek tehlikeliydi.',
-    zıtlık_ing: 'The journey was long, but it was enjoyable.',
-    zıtlık_tr: 'Yolculuk uzundu, ama keyifliydi.',
-    aynıFikriSürdürme_ing:
-      'The museum is free. Besides, it is very interesting.',
-    aynıFikriSürdürme_tr: 'Müze ücretsiz. Ayrıca, çok ilginç.',
-    diğer_ing:
-      'I enjoy painting. For instance, I painted a beautiful landscape yesterday.',
-    diğer_tr:
-      'Resim yapmaktan keyif alıyorum. Mesela dün güzel bir manzara çizdim.',
-  },
-  {
-    neden_ing: 'The sky was clear; hence, we saw many stars.',
-    neden_tr: 'Gökyüzü açıktı; bu nedenle birçok yıldız gördük.',
-    zıtlık_ing: "He studied hard; though, he didn't pass the test.",
-    zıtlık_tr: 'Çok çalıştı; fakat sınavı geçemedi.',
-    aynıFikriSürdürme_ing: 'The concert was great; thus, we enjoyed it a lot.',
-    aynıFikriSürdürme_tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
-    diğer_ing:
-      "He likes to play video games. That's why he has a big collection.",
-    diğer_tr:
-      'Video oyunları oynamayı seviyor. Bu yüzden büyük bir koleksiyonu var.',
-  },
-  {
-    neden_ing: "He didn't practice; therefore, he didn't win.",
-    neden_tr: 'Pratik yapmadı; bu yüzden kazanmadı.',
-    zıtlık_ing: "She didn't sleep much, but she was energetic.",
-    zıtlık_tr: 'Fazla uyumadı, ama enerjikti.',
-    aynıFikriSürdürme_ing:
-      'The job is challenging. Furthermore, it is very rewarding.',
-    aynıFikriSürdürme_tr: 'İş zorlayıcı. Ayrıca, çok tatmin edici.',
-    diğer_ing: "I didn't want to eat at home. Instead, I went to a restaurant.",
-    diğer_tr: 'Evde yemek yemek istemedim. Bunun yerine bir restorana gittim.',
-  },
-  {
-    neden_ing: 'The park was closed; therefore, we went home.',
-    neden_tr: 'Park kapalıydı; bu yüzden eve gittik.',
-    zıtlık_ing: "He was hungry, but he didn't eat anything.",
-    zıtlık_tr: 'Açtı, ama hiçbir şey yemeği.',
-    aynıFikriSürdürme_ing:
-      'The concert was amazing. Furthermore, the tickets were affordable.',
-    aynıFikriSürdürme_tr:
-      'Konser harikaydı. Ayrıca, biletler uygun fiyatlıydı.',
-    diğer_ing:
-      'She enjoys learning languages. In fact, she is fluent in three languages.',
-    diğer_tr:
-      'Dil öğrenmekten hoşlanıyor. Aslında üç dili akıcı bir şekilde konuşabiliyor.',
-  },
-  {
-    neden_ing: 'The soup was cold; so, she heated it up.',
-    neden_tr: 'Çorba soğuktu; bu yüzden ısıttı.',
-    zıtlık_ing: "She loves coffee, but she didn't drink any.",
-    zıtlık_tr: 'Kahveyi seviyor, ama hiç içmedi.',
-    aynıFikriSürdürme_ing:
-      'He is very talented. Furthermore, he works very hard.',
-    aynıFikriSürdürme_tr: 'Çok yetenekli. Ayrıca, çok çalışkan.',
-    diğer_ing: "I love playing the guitar. That's why I practice every day.",
-    diğer_tr: 'Gitar çalmayı seviyorum. Bu yüzden her gün pratik yapıyorum.',
-  },
-  {
-    neden_ing: 'The task was difficult; hence, he needed help.',
-    neden_tr: 'Görev zordu; bu nedenle yardıma ihtiyacı vardı.',
-    zıtlık_ing: 'The task was hard; however, he completed it on time.',
-    zıtlık_tr: 'Görev zordu; ancak, zamanında tamamladı.',
-    aynıFikriSürdürme_ing:
-      'The team is strong. Moreover, they are very cooperative.',
-    aynıFikriSürdürme_tr: 'Takım güçlü. Ayrıca, çok işbirlikçiler.',
-    diğer_ing:
-      'He enjoys watching movies. For instance, he watches a new movie every weekend.',
-    diğer_tr:
-      'Film izlemekten hoşlanıyor. Mesela her hafta sonu yeni bir film izliyor.',
-  },
-  {
-    neden_ing: 'The book was interesting; thus, I read it quickly.',
-    neden_tr: 'Kitap ilginçti; bu yüzden hızlıca okudum.',
-    zıtlık_ing: 'He worked late; thus, he was tired the next day.',
-    zıtlık_tr: 'Geç çalıştı; bu yüzden ertesi gün yorgundu.',
-    aynıFikriSürdürme_ing:
-      'The store sells clothes. In addition, it has accessories.',
-    aynıFikriSürdürme_tr: 'Mağaza kıyafet satıyor. Ayrıca, aksesuarlar da var.',
-  },
-  {
-    neden_ing: 'The power went out; therefore, we used candles.',
-    neden_tr: 'Elektrik kesildi; bu yüzden mum kullandık.',
-    zıtlık_ing: 'It was late, but he continued to work.',
-    zıtlık_tr: 'Geç olmuştu, ama çalışmaya devam etti.',
-    aynıFikriSürdürme_ing:
-      'He has a good job. Moreover, he loves what he does.',
-    aynıFikriSürdürme_tr: 'İyi bir işi var. Ayrıca, yaptığı işi seviyor.',
-  },
-  {
-    neden_ing: "The light was dim; so, I couldn't see clearly.",
-    neden_tr: 'Işık loştu; bu yüzden net göremedim.',
-    zıtlık_ing: 'The weather was nice; thus, we went for a walk.',
-    zıtlık_tr: 'Hava güzeldi; bu yüzden yürüyüşe çıktık.',
-    aynıFikriSürdürme_ing: 'The car is fast. In addition, it is very safe.',
-    aynıFikriSürdürme_tr: 'Araba hızlı. Ayrıca, çok güvenli.',
-  },
-  {
-    neden_ing: 'He studied a lot; hence, he got a good grade.',
-    neden_tr: 'Çok çalıştı; bu nedenle iyi not aldı.',
-    zıtlık_ing: 'She felt sick; however, she went to work.',
-    zıtlık_tr: 'Hastaydı; ancak, işe gitti.',
-    aynıFikriSürdürme_ing:
-      'The garden has flowers. In addition, there are many trees.',
-    aynıFikriSürdürme_tr: 'Bahçede çiçekler var. Ayrıca, birçok ağaç var.',
-  },
-  {
-    neden_ing: 'The test was easy; so, I finished quickly.',
-    neden_tr: 'Test kolaydı; bu yüzden hızlıca bitirdim.',
-    zıtlık_ing: 'She is smart; though, she makes mistakes sometimes.',
-    zıtlık_tr: 'Zeki; fakat, bazen hatalar yapıyor.',
-    aynıFikriSürdürme_ing:
-      'The project was successful. Moreover, it was completed on time.',
-    aynıFikriSürdürme_tr: 'Proje başarılıydı. Ayrıca, zamanında tamamlandı.',
-  },
-  {
-    neden_ing: 'The weather was cold; hence, he wore a jacket.',
-    neden_tr: 'Hava soğuktu; bu nedenle ceket giydi.',
-    zıtlık_ing: 'The sky was clear; so, we saw many stars.',
-    zıtlık_tr: 'Gökyüzü açıktı; bu yüzden birçok yıldız gördük.',
-    aynıFikriSürdürme_ing:
-      'The garden is large. Besides, it is well-maintained.',
-    aynıFikriSürdürme_tr: 'Bahçe büyük. Ayrıca, iyi bakılmış.',
-  },
-  {
-    neden_ing: "The phone battery died; therefore, I couldn't contact him.",
-    neden_tr: 'Telefonun şarjı bitti; bu yüzden onunla iletişim kuramadım.',
-    zıtlık_ing: 'It was a nice day, but it was very windy.',
-    zıtlık_tr: 'Güzel bir gündü, ama çok rüzgarlıydı.',
-    aynıFikriSürdürme_ing:
-      'The course is easy. In addition, it is very interesting.',
-    aynıFikriSürdürme_tr: 'Kurs kolay. Ayrıca, çok ilginç.',
-  },
-  {
-    neden_ing: "It was too hot; therefore, we didn't go outside.",
-    neden_tr: 'Hava çok sıcaktı; bu yüzden dışarı çıkmadık.',
-    zıtlık_ing: 'She studied hard; thus, she passed the exam.',
-    zıtlık_tr: 'Çok çalıştı; bu yüzden sınavı geçti.',
-    aynıFikriSürdürme_ing: 'The concert was great; thus, we enjoyed it a lot.',
-    aynıFikriSürdürme_tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
-  },
-  {
-    neden_ing: 'The meeting was important; thus, everyone attended.',
-    neden_tr: 'Toplantı önemliydi; bu yüzden herkes katıldı.',
-    zıtlık_ing: "He didn't know the answer; but, he guessed.",
-    zıtlık_tr: 'Cevabı bilmiyordu; ama tahmin etti.',
-    aynıFikriSürdürme_ing:
-      'He is a talented artist. Moreover, he teaches art classes.',
-    aynıFikriSürdürme_tr:
-      'Yetenekli bir sanatçı. Ayrıca, sanat dersleri veriyor.',
-  },
-  {
-    neden_ing: "She lost her wallet; thus, she couldn't buy anything.",
-    neden_tr: 'Cüzdanını kaybetti; bu yüzden hiçbir şey alamadı.',
-    zıtlık_ing: "The cake looked delicious; however, it didn't taste good.",
-    zıtlık_tr: 'Kek lezzetli görünüyordu; ancak, tadı iyi değildi.',
-    aynıFikriSürdürme_ing:
-      'She is an excellent chef. Furthermore, she has her own restaurant.',
-    aynıFikriSürdürme_tr: 'Harika bir şef. Ayrıca, kendi restoranı var.',
-  },
-  {
-    neden_ing: 'She was tired; so, she took a nap.',
-    neden_tr: 'Yorgundu; bu yüzden biraz kestirdi.',
-    zıtlık_ing: 'The car is old; however, it runs well.',
-    zıtlık_tr: 'Araba eski; ancak, iyi çalışıyor.',
-    aynıFikriSürdürme_ing:
-      'The book was informative. Moreover, it was entertaining.',
-    aynıFikriSürdürme_tr: 'Kitap bilgilendiriciydi. Ayrıca, eğlenceliydi.',
-  },
-  {
-    neden_ing: 'The light was dim; hence, reading was hard.',
-    neden_tr: 'Işık loştu; bu nedenle okumak zordu.',
-    zıtlık_ing: 'It was raining; though, we decided to go out.',
-    zıtlık_tr: 'Yağmur yağıyordu; fakat dışarı çıkmaya karar verdik.',
-    aynıFikriSürdürme_ing:
-      'The food was delicious. Moreover, it was beautifully presented.',
-    aynıFikriSürdürme_tr: 'Yemek lezzetliydi. Ayrıca, güzel sunulmuştu.',
-  },
-  {
-    neden_ing: 'He was sick; therefore, he went to the doctor.',
-    neden_tr: 'Hastaydı; bu yüzden doktora gitti.',
-    zıtlık_ing: 'The task was difficult; though, he completed it.',
-    zıtlık_tr: 'Görev zordu; fakat tamamladı.',
-    aynıFikriSürdürme_ing:
-      'The course is advanced. Furthermore, it is very engaging.',
-    aynıFikriSürdürme_tr: 'Kurs ileri seviyede. Ayrıca, çok sürükleyici.',
-  },
-  {
-    neden_ing: 'The coffee was strong; thus, he added some milk.',
-    neden_tr: 'Kahve sertti; bu yüzden biraz süt ekledi.',
-    zıtlık_ing: 'He was tired; therefore, he took a nap.',
-    zıtlık_tr: 'Yorgundu; bu yüzden biraz kestirdi.',
-    aynıFikriSürdürme_ing:
-      'The cake was tasty. In addition, it looked beautiful.',
-    aynıFikriSürdürme_tr: 'Kek lezzetliydi. Ayrıca, güzel görünüyordu.',
-  },
-  {
-    neden_ing: 'The show was canceled; therefore, we watched a movie.',
-    neden_tr: 'Gösteri iptal edildi; bu yüzden film izledik.',
-    zıtlık_ing:
-      'The movie was interesting; however, the ending was disappointing.',
-    zıtlık_tr: 'Film ilginçti; ancak sonu hayal kırıklığıydı.',
-    aynıFikriSürdürme_ing:
-      'The movie was good. Besides, the actors were great.',
-    aynıFikriSürdürme_tr: 'Film iyiydi. Ayrıca, oyuncular harikaydı.',
-  },
-  {
-    neden_ing: "She didn't sleep well; hence, she was tired.",
-    neden_tr: 'İyi uyuyamadı; bu nedenle yorgundu.',
-    zıtlık_ing: "She was happy; though, she didn't show it.",
-    zıtlık_tr: 'Mutluydu; fakat göstermedi.',
-    aynıFikriSürdürme_ing: 'He is a great leader. Moreover, he is very humble.',
-    aynıFikriSürdürme_tr: 'Harika bir lider. Ayrıca, çok mütevazı.',
-  },
-  {
-    neden_ing: "He was busy; therefore, he didn't attend the meeting.",
-    neden_tr: 'Meşguldü; bu yüzden toplantıya katılmadı.',
-    zıtlık_ing: 'The show was funny; so, we laughed a lot.',
-    zıtlık_tr: 'Gösteri komikti; bu yüzden çok güldük.',
-    aynıFikriSürdürme_ing:
-      'The park is beautiful. In addition, it is very clean.',
-    aynıFikriSürdürme_tr: 'Park güzel. Ayrıca, çok temiz.',
-  },
-  {
-    neden_ing: 'The light was dim; hence, reading was hard.',
-    neden_tr: 'Işık loştu; bu nedenle okumak zordu.',
-    zıtlık_ing: 'She felt sick; though, she went to school.',
-    zıtlık_tr: 'Hastaydı; fakat okula gitti.',
-    aynıFikriSürdürme_ing: 'She enjoys cooking. Besides, she loves baking.',
-    aynıFikriSürdürme_tr:
-      'Yemek yapmayı seviyor. Ayrıca, hamur işlerini de seviyor.',
-  },
-  {
-    neden_ing: "The movie was boring; therefore, I didn't finish it.",
-    neden_tr: 'Film sıkıcıydı; bu yüzden bitirmedim.',
-    zıtlık_ing: "He didn't know the answer; though, he tried his best.",
-    zıtlık_tr: 'Cevabı bilmiyordu; fakat elinden geleni yaptı.',
-    aynıFikriSürdürme_ing:
-      'She is very creative. Moreover, she is very hardworking.',
-    aynıFikriSürdürme_tr: 'Çok yaratıcı. Ayrıca, çok çalışkan.',
-  },
-  {
-    neden_ing: 'He missed breakfast; hence, he was hungry.',
-    neden_tr: 'Kahvaltıyı kaçırdı; bu nedenle acıktı.',
-    zıtlık_ing: 'The house is small; though, it is very comfortable.',
-    zıtlık_tr: 'Ev küçük; fakat çok rahat.',
-  },
-  {
-    neden_ing: 'The cake was delicious; thus, everyone had a piece.',
-    neden_tr: 'Kek lezzetliydi; bu yüzden herkes bir dilim aldı.',
-    zıtlık_ing: 'The book is interesting, but it is very long.',
-    zıtlık_tr: 'Kitap ilginç, ama çok uzun.',
-  },
-  {
-    neden_ing: 'The weather was nice; thus, we went for a walk.',
-    neden_tr: 'Hava güzeldi; bu yüzden yürüyüşe çıktık.',
-    zıtlık_ing: 'She was nervous; however, she gave a great speech.',
-    zıtlık_tr: 'Gergindi; ancak harika bir konuşma yaptı.',
-  },
-  {
-    neden_ing: 'He felt sick; thus, he went to the nurse.',
-    neden_tr: 'Hastalandı; bu yüzden hemşireye gitti.',
-    zıtlık_ing: 'The cake was delicious; thus, everyone had a piece.',
-    zıtlık_tr: 'Kek lezzetliydi; bu yüzden herkes bir parça aldı.',
-  },
-  {
-    neden_ing: "The food was too salty; so, they didn't eat much.",
-    neden_tr: 'Yemek çok tuzluydu; bu yüzden onlar fazla yemediler.',
-    zıtlık_ing: 'The food was spicy; however, it was delicious.',
-    zıtlık_tr: 'Yemek acıydı; ancak lezzetliydi.',
-  },
-  {
-    neden_ing: 'It started to snow; thus, the roads were slippery.',
-    neden_tr: 'Kar yağmaya başladı; bu yüzden yollar kaygandı.',
-    zıtlık_ing: "She loves sweets; though, she didn't eat the cake.",
-    zıtlık_tr: 'Tatlıları sever; fakat keki yemedi.',
-  },
-  {
-    neden_ing: 'The weather was bad; therefore, the event was postponed.',
-    neden_tr: 'Hava kötüydü; bu yüzden etkinlik ertelendi.',
-    zıtlık_ing: 'The concert was great; thus, we enjoyed it a lot.',
-    zıtlık_tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
-  },
-  {
-    neden_ing: "The shop was closed; hence, I couldn't buy milk.",
-    neden_tr: 'Dükkan kapalıydı; bu nedenle süt alamadım.',
-    zıtlık_ing: 'The house is small; however, it is very cozy.',
-    zıtlık_tr: 'Ev küçük; ancak çok rahat.',
-  },
-  {
-    neden_ing: "He didn't hear the alarm; therefore, he was late.",
-    neden_tr: 'Alarmı duymadı; bu yüzden geç kaldı.',
-    zıtlık_ing: 'It was a sunny day; however, it was very cold.',
-    zıtlık_tr: 'Güneşli bir gündü; ancak çok soğuktu.',
-  },
-  {
-    neden_ing: 'The beach was crowded; hence, we left early.',
-    neden_tr: 'Plaj kalabalıktı; bu nedenle erken ayrıldık.',
-    zıtlık_ing: "She loves chocolate; however, she didn't eat the cake.",
-    zıtlık_tr: 'Çikolatayı sever; ancak keki yemedi.',
-  },
-  {
-    neden_ing: 'The car broke down; therefore, we took a taxi.',
-    neden_tr: 'Araba bozuldu; bu yüzden taksiye bindik.',
-    zıtlık_ing: 'He was late; however, he completed the project.',
-    zıtlık_tr: 'Geç kaldı; ancak projeyi tamamladı.',
-  },
-  {
-    neden_ing: 'The show was funny; so, we laughed a lot.',
-    neden_tr: 'Gösteri komikti; bu yüzden çok güldük.',
-    zıtlık_ing: 'The weather was bad; however, we enjoyed the trip.',
-    zıtlık_tr: 'Hava kötüydü; ancak geziden keyif aldık.',
-  },
-  {
-    neden_ing: 'The weather was nice; so, we went for a walk.',
-    neden_tr: 'Hava güzeldi; bu yüzden yürüyüşe çıktık.',
-    zıtlık_ing: 'The car is old, but it works well.',
-    zıtlık_tr: 'Araba eski, ama iyi çalışıyor.',
-  },
-  {
-    neden_ing: 'He was thirsty; thus, he drank some water.',
-    neden_tr: 'Susamıştı; bu yüzden biraz su içti.',
-    zıtlık_ing: 'It was a long journey; however, we had fun.',
-    zıtlık_tr: 'Uzun bir yolculuktu; ancak eğlendik.',
-  },
-  {
-    neden_ing: "She didn't like the food; therefore, she didn't eat it.",
-    neden_tr: 'Yemeyi beğenmedi; bu yüzden yemedı.',
-    zıtlık_ing: 'The movie was good, but the ending was sad.',
-    zıtlık_tr: 'Film iyiydi, ama sonu üzücüydü.',
-  },
-  {
-    neden_ing: 'He saved money; thus, he could buy a new bike.',
-    neden_tr: 'Para biriktirdi; bu yüzden yeni bir bisiklet alabilir.',
-    zıtlık_ing: 'The sky was clear; however, it was very cold.',
-    zıtlık_tr: 'Gökyüzü açıktı; ancak çok soğuktu.',
-  },
-  {
-    neden_ing: "He didn't understand the rules; hence, he lost the game.",
-    neden_tr: 'Kuralları anlamadı; bu nedenle oyunu kaybetti.',
-    zıtlık_ing: 'The weather was cold; hence, he wore a jacket.',
-    zıtlık_tr: 'Hava soğuktu; bu nedenle ceket giydi.',
-  },
-  {
-    neden_ing: 'The store was out of stock; therefore, I ordered online.',
-    neden_tr: 'Mağazada stok yoktu; bu yüzden çevrimiçi sipariş verdim.',
-    zıtlık_ing: 'The house is big, but it is very old.',
-    zıtlık_tr: 'Ev büyük, ama çok eski.',
-  },
-  {
-    neden_ing: "He didn't practice; hence, he didn't win.",
-    neden_tr: 'Pratik yapmadı; bu nedenle kazanmadı.',
-    zıtlık_ing: 'The task was easy; thus, I finished it quickly.',
-    zıtlık_tr: 'Görev kolaydı; bu yüzden hızlıca bitirdim.',
-  },
-  {
-    neden_ing: 'She forgot to call; therefore, they were worried.',
-    neden_tr: 'Aramayı unuttu; bu yüzden endişelendiler.',
-    zıtlık_ing: 'The weather was nice; so, we went for a walk.',
-    zıtlık_tr: 'Hava güzeldi; bu yüzden yürüyüşe çıktık.',
-  },
-  {
-    neden_ing: 'The game was postponed; hence, we went home early.',
-    neden_tr: 'Oyun ertelendi; bu nedenle erken eve gittik.',
-    zıtlık_ing: 'The book is long; however, it is very engaging.',
-    zıtlık_tr: 'Kitap uzun; ancak çok sürükleyici.',
-  },
-  {
-    neden_ing: 'It was raining; hence, we used umbrellas.',
-    neden_tr: 'Yağmur yağıyordu; bu nedenle şemsiye kullandık.',
-    zıtlık_ing: "He likes pizza; however, he didn't eat it.",
-    zıtlık_tr: 'Pizzayı sever; ancak yemedi.',
-  },
-  {
-    neden_ing: 'The street was crowded; so, we walked slowly.',
-    neden_tr: 'Sokak kalabalıktı; bu yüzden yavaş yürüdük.',
-    zıtlık_ing: 'It was raining; but, we went out for a walk.',
-    zıtlık_tr: 'Yağmur yağıyordu; ama yürüyüşe çıktık.',
-  },
-  {
-    neden_ing: 'She studied hard; thus, she passed the exam.',
-    neden_tr: 'Çok çalıştı; bu yüzden sınavı geçti.',
-    zıtlık_ing: 'The weather was bad; hence, the event was postponed.',
-    zıtlık_tr: 'Hava kötüydü; bu nedenle etkinlik ertelendi.',
-  },
-  {
-    neden_ing: 'She was tired; thus, she went to bed early.',
-    neden_tr: 'Yorgundu; bu yüzden erken yattı.',
-    zıtlık_ing: 'The task was difficult; however, he completed it on time.',
-    zıtlık_tr: 'Görev zordu; ancak zamanında tamamladı.',
-  },
-  {
-    neden_ing: 'The movie was funny; thus, we laughed a lot.',
-    neden_tr: 'Film komikti; bu yüzden çok güldük.',
-    zıtlık_ing: 'He is strong; but, he gets tired easily.',
-    zıtlık_tr: 'Güçlü; ama çabuk yoruluyor.',
-  },
-  {
-    neden_ing: 'He was tired; therefore, he took a nap.',
-    neden_tr: 'Yorgundu; bu yüzden biraz kestirdi.',
-    zıtlık_ing: 'She was tired; though, she finished her homework.',
-    zıtlık_tr: 'Yorgundu; fakat ödevini bitirdi.',
-  },
-  {
-    neden_ing: 'The park was beautiful; so, we took photos.',
-    neden_tr: 'Park güzeldi; bu yüzden fotoğraf çektik.',
-    zıtlık_ing: "The concert was sold out; hence, I couldn't buy a ticket.",
-    zıtlık_tr: 'Konserin biletleri tükendi; bu nedenle bilet alamadım.',
-  },
-  {
-    neden_ing: "He had no money; therefore, he didn't buy lunch.",
-    neden_tr: 'Parası yoktu; bu yüzden öğle yemeği almadı.',
-    zıtlık_ing: 'He was late; however, he completed the project.',
-    zıtlık_tr: 'Geç kaldı; ancak projeyi tamamladı.',
-  },
-  {
-    neden_ing: 'The library was quiet; hence, I could study well.',
-    neden_tr: 'Kütüphane sessizdi; bu nedenle iyi çalışabildim.',
-    zıtlık_ing: "The test was easy; but, he didn't do well.",
-    zıtlık_tr: 'Test kolaydı; ama iyi yapamadı.',
-  },
-  {
-    neden_ing: 'The store was busy; so, we waited in line.',
-    neden_tr: 'Mağaza yoğundu; bu yüzden sırada bekledik.',
-    zıtlık_ing:
-      'The movie was interesting; however, the ending was disappointing.',
-    zıtlık_tr: 'Film ilginçti; ancak sonu hayal kırıklığıydı.',
-  },
-  {
-    neden_ing: 'The noise was loud; thus, I closed the window.',
-    neden_tr: 'Gürültü yüksekti; bu yüzden pencereyi kapattım.',
-    zıtlık_ing: "I like ice cream, but it's too cold to eat it today.",
-    zıtlık_tr: 'Dondurmayı severim ama bugün yemek için çok soğuk.',
-  },
-  {
-    neden_ing: 'She was nervous; thus, she made a mistake.',
-    neden_tr: 'Gergindi; bu yüzden hata yaptı.',
-    zıtlık_ing: 'He wanted to play football; however, his shoes were torn.',
-    zıtlık_tr: 'Futbol oynamak istiyordu ancak ayakkabıları yırtılmıştı.',
-  },
-  {
-    neden_ing: 'It was late; hence, they took a taxi.',
-    neden_tr: 'Geç olmuştu; bu nedenle taksiye bindiler.',
-    zıtlık_ing: 'The book was long, but I finished it in two days.',
-    zıtlık_tr: 'Kitap biraz uzun olmasına rağmen iki günde bitirdim.',
-  },
-  {
-    neden_ing: "The concert was sold out; hence, I couldn't buy a ticket.",
-    neden_tr: 'Konserin biletleri tükenmişti; bu nedenle bilet alamadım.',
-    zıtlık_ing: "She enjoys cooking; however, she doesn't like washing dishes.",
-    zıtlık_tr: 'Yemek yapmayı seviyor ama bulaşık yıkamayı sevmiyor.',
-  },
-  {
-    neden_ing: 'The roads were icy; hence, it was not safe to drive.',
-    neden_tr: 'Yollar buzlu olduğundan, araba sürmek güvenli değildi.',
-    zıtlık_ing: 'I love swimming, but the pool is too far from my house.',
-    zıtlık_tr: 'Yüzmeyi seviyorum ama havuz evime çok uzak.',
-  },
-  {
-    neden_ing: 'The show was funny; so, we laughed a lot.',
-    neden_tr: 'Gösteri komikti; bu yüzden çok güldük.',
-    zıtlık_ing: 'He likes reading; however, he forgot his glasses at home.',
-    zıtlık_tr: 'Okumayı seviyor ancak gözlüğünü evde unutmuş.',
-  },
-  {
-    neden_ing: 'The dog was barking; so, I closed the window.',
-    neden_tr: 'Köpek havlıyordu; bu yüzden pencereyi kapattım.',
-    zıtlık_ing: 'I wanted to go to the park, but it started raining.',
-    zıtlık_tr: 'Parka gitmek istedim ama yağmur başladı.',
-  },
-  {
-    neden_ing: 'She was hungry; so, she ate an apple.',
-    neden_tr: 'Açtı; bu yüzden bir elma yedi.',
-    zıtlık_ing: 'She likes to paint, but she ran out of paint.',
-    zıtlık_tr: 'Resim yapmayı seviyor ama boyası bitti.',
-  },
-  {
-    neden_ing: 'He forgot his book; so, he borrowed mine.',
-    neden_tr: 'Kitabını unuttu; bu yüzden benimkini ödünç aldı.',
-    zıtlık_ing: 'The movie was interesting, but I was too tired to finish it.',
-    zıtlık_tr: 'Film ilginçti ama bitiremeyecek kadar yorgundum.',
-  },
-  {
-    neden_ing: 'He worked late; thus, he was tired the next day.',
-    neden_tr: 'Geç çalıştı; bu yüzden ertesi gün yorgundu.',
-    zıtlık_ing: 'He enjoys biking; however, his bike was stolen.',
-    zıtlık_tr: 'Bisiklete binmeyi seviyor ancak bisikleti çalındı.',
-  },
-  {
-    neden_ing: 'The meeting was important; hence, everyone attended.',
-    neden_tr: 'Toplantı önemliydi; bu nedenle herkes katıldı.',
-    zıtlık_ing: "I like to play chess, but I don't have anyone to play with.",
-    zıtlık_tr: 'Satranç oynamayı seviyorum ama oynayacak kimsem yok.',
-  },
-  {
-    neden_ing: "He didn't know the answer; so, he asked the teacher.",
-    neden_tr: 'Cevabı bilmiyordu; bu yüzden öğretmene sordu.',
-    zıtlık_ing: "She wanted to bake a cake; however, she didn't have any eggs.",
-    zıtlık_tr: 'Pasta yapmak istiyordu ama yumurtası yoktu.',
-  },
-  {
-    neden_ing: 'The car was dirty; so, he washed it.',
-    neden_tr: 'Araba kirliydi; bu yüzden yıkadı.',
-    zıtlık_ing: 'I enjoy playing video games, but my console is broken.',
-    zıtlık_tr: 'Video oyunları oynamayı seviyorum ama konsolum bozuk.',
-  },
-  {
-    neden_ing: 'The sky was clear; so, we saw many stars.',
-    neden_tr: 'Gökyüzü açıktı; bu yüzden birçok yıldız gördük.',
-    zıtlık_ing: 'He wanted to go fishing, but he forgot his fishing rod.',
-    zıtlık_tr: 'Balığa çıkmak istedi ama oltasını unuttu.',
-  },
-  {
-    neden_ing: 'She felt sick; so, she went to the nurse.',
-    neden_tr: 'Hastalandı; bu yüzden hemşireye gitti.',
-    zıtlık_ing: 'I love to draw, but I lost my sketchbook.',
-    zıtlık_tr: 'Çizim yapmayı seviyorum ama eskiz defterimi kaybettim.',
-  },
-  {
-    neden_ing: 'The store was out of stock; hence, I ordered online.',
-    neden_tr: 'Mağazada stok yoktu; bu nedenle çevrimiçi sipariş verdim.',
-    zıtlık_ing: 'She likes to dance; however, her leg was hurting today.',
-    zıtlık_tr: 'Dans etmeyi seviyor ama bugün bacağı ağrıyordu.',
-  },
-  {
-    neden_ing: 'He was thirsty; so, he drank some water.',
-    neden_tr: 'Susamıştı; bu yüzden biraz su içti.',
-    zıtlık_ing: 'The puzzle was difficult, but I managed to solve it.',
-    zıtlık_tr: 'Bulmaca zordu ama çözmeyi başardım.',
-  },
-  {
-    neden_ing: 'The weather was bad; hence, the event was postponed.',
-    neden_tr: 'Hava kötüydü; bu nedenle etkinlik ertelendi.',
-    zıtlık_ing: "He enjoys gardening; however, he doesn't have a garden.",
-    zıtlık_tr: 'Bahçeyle uğraşmayı seviyor ancak bahçesi yok.',
-  },
-  {
-    neden_ing: 'She was happy; thus, she smiled all day.',
-    neden_tr: 'Mutluydu; bu yüzden tüm gün gülümsedi.',
-    zıtlık_ing: 'I wanted to make a call, but my phone was dead.',
-    zıtlık_tr: 'Aramak istedim ama telefonum çalışmıyordu.',
-  },
-  {
-    neden_ing: "She didn't sleep well; thus, she was tired.",
-    neden_tr: 'İyi uyuyamadı; bu yüzden yorgundu.',
-    zıtlık_ing: 'She wanted to run, but she was too tired.',
-    zıtlık_tr: 'Koşmak istiyordu ama çok yorgundu.',
-  },
-  {
-    neden_ing: 'The weather was nice; hence, we went for a walk.',
-    neden_tr: 'Hava güzeldi; bu nedenle yürüyüşe çıktık.',
-    zıtlık_ing: 'I love playing soccer, but I twisted my ankle.',
-    zıtlık_tr: 'Futbol oynamayı seviyorum ama bileğimi burktum.',
-  },
-  {
-    neden_ing: 'The task was difficult; thus, he needed help.',
-    neden_tr: 'Görev zordu; bu yüzden yardıma ihtiyacı vardı.',
-    zıtlık_ing: 'He likes watching movies; however, his TV was not working.',
-    zıtlık_tr: 'Film izlemeyi seviyor ancak televizyonu çalışmıyordu.',
-  },
-  {
-    neden_ing: "He was busy; hence, he didn't attend the meeting.",
-    neden_tr: 'Meşguldü; bu nedenle toplantıya katılmadı.',
-    zıtlık_ing: "I like to eat fruit, but the store didn't have any left.",
-    zıtlık_tr: 'Meyve yemeyi severim ama mağazada hiç kalmamıştı.',
-  },
-  {
-    neden_ing: 'She forgot her keys; so, she called her friend.',
-    neden_tr: 'Anahtarlarını unuttu; bu yüzden arkadaşını aradı.',
-    zıtlık_ing: "She wanted to learn French, but she didn't have a teacher.",
-    zıtlık_tr: 'Fransızca öğrenmek istiyordu ama öğretmeni yoktu.',
-  },
-  {
-    neden_ing: 'The show was canceled; hence, we watched a movie.',
-    neden_tr: 'Gösteri iptal edildi; bu nedenle film izledik.',
-    zıtlık_ing: "I love to travel, but I don't have enough time.",
-    zıtlık_tr: 'Seyahat etmeyi seviyorum ama yeterli zamanım yok.',
-  },
-  {
-    zıtlık_ing: "I love to read, but I didn't have a new book to start.",
-    zıtlık_tr: 'Okumayı seviyorum ama başlayacak yeni bir kitabım yoktu.',
-  },
-  {
-    zıtlık_ing:
-      "She loves plants; however, she doesn't have much space in her apartment.",
-    zıtlık_tr: 'Bitkileri seviyor ancak evinde fazla yer yok.',
-  },
-  {
-    zıtlık_ing: 'I wanted to have a picnic, but it was too windy.',
-    zıtlık_tr: 'Piknik yapmak istiyordum ama hava çok rüzgarlıydı.',
-  },
-  {
-    zıtlık_ing: 'He likes to go hiking, but his shoes were worn out.',
-    zıtlık_tr: 'Yürüyüşe çıkmayı seviyor ama ayakkabıları yıpranmış.',
-  },
-  {
-    zıtlık_ing: 'I love painting; however, I ran out of canvas.',
-    zıtlık_tr: 'Resim yapmayı çok seviyorum ama tuvalim bitti.',
-  },
-  {
-    zıtlık_ing: 'She wanted to take a nap, but the noise outside was too loud.',
-    zıtlık_tr: 'Biraz kestirmek istedi ama dışarıdaki gürültü çok yüksekti.',
-  },
-  {
-    zıtlık_ing: 'I wanted to go to the beach, but it was too crowded.',
-    zıtlık_tr: 'Denize gitmek istiyordum ama çok kalabalıktı.',
-  },
-  {
-    zıtlık_ing: 'He loves ice cream; however, the ice cream shop was closed.',
-    zıtlık_tr: 'Dondurmayı çok seviyor ama dondurmacı kapalı.',
-  },
-  {
-    zıtlık_ing: 'I like to play the piano, but my neighbor was sleeping.',
-    zıtlık_tr: 'Piyano çalmayı severim ama komşum uyuyordu.',
-  },
-  {
-    zıtlık_ing: 'She enjoys photography, but her camera was broken.',
-    zıtlık_tr: 'Fotoğraf çekmeyi seviyor ama kamerası bozuktu.',
-  },
-  {
-    zıtlık_ing: 'I wanted to see the sunset, but it was too cloudy.',
-    zıtlık_tr: 'Gün batımını görmek istedim ama hava çok bulutluydu.',
-  },
-  {
-    zıtlık_ing: 'He wanted to go for a swim, but the water was too cold.',
-    zıtlık_tr: 'Yüzmek istiyordu ama su çok soğuktu.',
-  },
-  {
-    zıtlık_ing: 'I like going for a walk, but it was too late.',
-    zıtlık_tr: 'Yürüyüşe çıkmayı seviyorum ama artık çok geçti.',
-  },
-  {
-    zıtlık_ing: "She wanted to eat pasta; however, she didn't have any sauce.",
-    zıtlık_tr: 'Makarna yemek istiyordu ama sosu yoktu.',
-  },
-  {
-    zıtlık_ing: 'I love to cook, but the kitchen was being cleaned.',
-    zıtlık_tr: 'Yemek yapmayı seviyorum ama mutfak temizleniyordu.',
-  },
-  {
-    zıtlık_ing: 'He enjoys stargazing, but the city lights were too bright.',
-    zıtlık_tr: 'Yıldızları izlemeyi seviyor ama şehrin ışıkları çok parlaktı.',
-  },
-  {
-    zıtlık_ing: 'I wanted to buy a new shirt, but the shop was already closed.',
-    zıtlık_tr: 'Yeni bir gömlek almak istedim ama dükkân zaten kapalıydı.',
-  },
-  {
-    zıtlık_ing: "She wanted to catch butterflies, but she didn't have a net.",
-    zıtlık_tr: 'Kelebek yakalamak istiyordu ama ağı yoktu.',
-  },
-  {
-    zıtlık_ing: "I love gardening, but I didn't have any seeds.",
-    zıtlık_tr: 'Bahçeyle uğraşmayı seviyorum ama tohumum yoktu.',
-  },
-  {
-    zıtlık_ing:
-      "He wanted to watch a movie, but his DVD player wasn't working.",
-    zıtlık_tr: 'Film izlemek istiyordu ama DVD oynatıcısı çalışmıyordu.',
-  },
-  {
-    zıtlık_ing: 'I love to knit, but I ran out of wool.',
-    zıtlık_tr: 'Örgü örmeyi seviyorum ama yünüm bitti.',
-  },
-  {
-    zıtlık_ing: "She wanted to write a letter, but she didn't have any paper.",
-    zıtlık_tr: 'Mektup yazmak istiyordu ama kâğıdı yoktu.',
-  },
-  {
-    zıtlık_ing: 'I wanted to bake cookies, but the oven was not working.',
-    zıtlık_tr: 'Kurabiye pişirmek istedim ama fırın çalışmıyordu.',
-  },
-  {
-    zıtlık_ing: 'He enjoys jogging, but it was raining outside.',
-    zıtlık_tr: 'Koşmayı seviyor ama dışarıda yağmur yağıyordu.',
-  },
-  {
-    zıtlık_ing:
-      'I love bird watching, but there were no birds in the park today.',
-    zıtlık_tr: 'Kuş izlemeyi severim ama bugün parkta hiç kuş yoktu.',
   },
 ];

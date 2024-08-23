@@ -23,7 +23,8 @@ const Home = () => {
               item.title !== 'RC - NC' &&
               item.title !== 'Passive' &&
               item.title !== 'Bağlaçlar-1G' &&
-              item.title !== 'Bağlaçlar-2G'
+              item.title !== 'Bağlaçlar-2G' &&
+              item.title !== 'Bağlaçlar-3G'
             }
             onPress={() =>
               navigation.navigate('SubCategory', {
@@ -41,7 +42,8 @@ const Home = () => {
                   item.title === 'RC - NC' ||
                   item.title === 'Passive' ||
                   item.title === 'Bağlaçlar-1G' ||
-                  item.title === 'Bağlaçlar-2G'
+                  item.title === 'Bağlaçlar-2G' ||
+                  item.title === 'Bağlaçlar-3G'
                     ? 'white'
                     : '#f5f5f5',
               },
@@ -59,7 +61,8 @@ const Home = () => {
                       item.title === 'RC - NC' ||
                       item.title === 'Passive' ||
                       item.title === 'Bağlaçlar-1G' ||
-                      item.title === 'Bağlaçlar-2G'
+                      item.title === 'Bağlaçlar-2G' ||
+                      item.title === 'Bağlaçlar-3G'
                         ? 'black'
                         : 'darkgray',
                   },
