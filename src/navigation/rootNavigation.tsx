@@ -27,6 +27,8 @@ import Conjunctions1GTranslation from '../screens/Translation/Conjunctions1GTran
 import Conjunctions2GTranslation from '../screens/Translation/Conjunctions2GTranslation';
 import Conjunctions3GTranslation from '../screens/Translation/Conjunctions3GTranslation';
 import ComparativesSuperlativesTranslation from '../screens/Translation/ComparativesSuperlatives';
+import ToTranslation from '../screens/Translation/FlowerToTranslation';
+import FlowerToTranslation from '../screens/Translation/FlowerToTranslation';
 
 const Stack = createStackNavigator();
 
@@ -256,6 +258,15 @@ const RootNavigation = () => {
       <Stack.Screen
         name="ComparativesSuperlativesTranslation"
         component={ComparativesSuperlativesTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="FlowerToTranslation"
+        component={FlowerToTranslation}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,

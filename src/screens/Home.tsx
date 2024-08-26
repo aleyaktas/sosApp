@@ -25,7 +25,8 @@ const Home = () => {
               item.title !== 'Bağlaçlar-1G' &&
               item.title !== 'Bağlaçlar-2G' &&
               item.title !== 'Bağlaçlar-3G' &&
-              item.title !== 'Comparative & Superlatives'
+              item.title !== 'Comparative & Superlatives' &&
+              item.title !== 'Çiçek "To"'
             }
             onPress={() =>
               navigation.navigate('SubCategory', {
@@ -45,7 +46,8 @@ const Home = () => {
                   item.title === 'Bağlaçlar-1G' ||
                   item.title === 'Bağlaçlar-2G' ||
                   item.title === 'Bağlaçlar-3G' ||
-                  item.title === 'Comparative & Superlatives'
+                  item.title === 'Comparative & Superlatives' ||
+                  item.title === 'Çiçek "To"'
                     ? 'white'
                     : '#f5f5f5',
               },
@@ -65,7 +67,8 @@ const Home = () => {
                       item.title === 'Bağlaçlar-1G' ||
                       item.title === 'Bağlaçlar-2G' ||
                       item.title === 'Bağlaçlar-3G' ||
-                      item.title === 'Comparative & Superlatives'
+                      item.title === 'Comparative & Superlatives' ||
+                      item.title === 'Çiçek "To"'
                         ? 'black'
                         : 'darkgray',
                   },

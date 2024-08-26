@@ -360,6 +360,17 @@ export const ComparativesSuperlativesSubCategory: ISubCategory[] = [
   },
 ];
 
+export const FlowerToSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Çeviri Çalışması',
+    mainCategory: 'FlowerTo',
+    description: 'Çeviri çalışmaları',
+    page: 'FlowerToTranslation',
+    image: require('../assets/icons/translation.png'),
+  },
+];
+
 export interface IUnit {
   id: number;
   title: string;

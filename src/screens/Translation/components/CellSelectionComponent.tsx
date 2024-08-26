@@ -21,6 +21,8 @@ const CellSelectionComponent = ({
   const calculateNumColumns = () => {
     if (cells.length <= 4) {
       return cells.length;
+    } else if (cells.length === 1) {
+      return 1;
     } else {
       return 4;
     }
@@ -68,7 +70,7 @@ const CellSelectionComponent = ({
       renderItem={renderCell}
       keyExtractor={item => item.value.toString()}
       numColumns={calculateNumColumns()}
-      columnWrapperStyle={styles.row}
+      columnWrapperStyle={cells.length > 1 && styles.row}
       contentContainerStyle={styles.container}
     />
   );

@@ -1,3 +1,4 @@
+import {ToTranslation} from './../utils/translation';
 import {BottomTabNavigationProp} from '@react-navigation/bottom-tabs';
 import {StackNavigationProp} from '@react-navigation/stack';
 
@@ -26,6 +27,7 @@ export type StackNavigatorList = {
   MultipleChoice: undefined;
   Vocabulary: {title?: string; item?: any};
   ComparativesSuperlativesTranslation: {title: string; item?: any};
+  FlowerToTranslation: {title: string; item?: ToTranslation};
 };
 
 export type BottomNavigatorList = {

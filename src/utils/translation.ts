@@ -44210,3 +44210,1208 @@ export const ComparativesSuperlativesTranslationSentences = {
     },
   ],
 };
+
+export const FlowerToTranslationSentences = {
+  FlowerTo: [
+    {
+      ing: 'I study English to improve my language skills.',
+      tr: 'Ben dil becerilerimi geliştirmek için İngilizce çalışıyorum.',
+    },
+    {
+      ing: 'She exercises to stay healthy.',
+      tr: 'O sağlıklı kalmak için egzersiz yapar.',
+    },
+    {
+      ing: 'They save money to buy a new car.',
+      tr: 'Onlar yeni bir araba almak için para biriktiriyorlar.',
+    },
+    {
+      ing: 'He practices singing to become a better singer.',
+      tr: 'O daha iyi bir şarkıcı olmak için şarkı söyleme çalışmaları yapar.',
+    },
+    {
+      ing: 'We wake up early to catch the bus.',
+      tr: 'Biz otobüse yetişmek için erken kalkıyoruz.',
+    },
+    {
+      ing: 'The company hires workers to increase productivity.',
+      tr: 'Şirket verimliliği artırmak için işçi çalıştırıyor.',
+    },
+    {
+      ing: 'Sarah reads books to learn new things.',
+      tr: 'Sarah yeni şeyler öğrenmek için kitap okuyor.',
+    },
+    {
+      ing: 'They go to the gym to get fit.',
+      tr: 'Onlar formda kalmak için spor salonuna gidiyorlar.',
+    },
+    {
+      ing: 'He takes photos to capture memories.',
+      tr: 'O anıları ölümsüzleştirmek için fotoğraf çekiyor.',
+    },
+    {
+      ing: 'We travel to see new places.',
+      tr: 'Biz yeni yerler görmek için seyahat ederiz.',
+    },
+    {
+      ing: 'The students study hard to pass their exams.',
+      tr: 'Öğrenciler sınavlarını geçmek için çok çalışırlar.',
+    },
+    {
+      ing: 'She volunteers at a hospital to help others.',
+      tr: 'O başkalarına yardım etmek için bir hastanede gönüllü olarak çalışıyor.',
+    },
+    {
+      ing: 'They plant flowers to make their garden beautiful.',
+      tr: 'Onlar bahçelerini güzelleştirmek için çiçek ekerler.',
+    },
+    {
+      ing: 'He studies math to improve his problem-solving skills.',
+      tr: 'O problem çözme becerilerini geliştirmek için matematik çalışır.',
+    },
+    {
+      ing: 'We eat fruits and vegetables to stay healthy.',
+      tr: 'Biz sağlıklı kalmak için meyve ve sebze yeriz.',
+    },
+    {
+      ing: 'The company invests in technology to improve efficiency.',
+      tr: 'O şirket verimliliği artırmak için teknolojiye yatırım yapıyor.',
+    },
+    {
+      ing: 'She practices yoga to relax and reduce stress.',
+      tr: 'O rahatlamak ve stresi azaltmak için yoga yapıyor.',
+    },
+    {
+      ing: 'They learn to cook to prepare delicious meals.',
+      tr: 'Onlar lezzetli yemekler hazırlamak için yemek yapmayı öğrenirler.',
+    },
+    {
+      ing: 'He attends language classes to learn Spanish.',
+      tr: 'O İspanyolca öğrenmek için dil kurslarına gidiyor.',
+    },
+    {
+      ing: 'We paint pictures to express our creativity.',
+      tr: 'Biz yaratıcılığımızı ifade etmek için resimler boyuyoruz.',
+    },
+    {
+      ing: 'The team trains regularly to become better athletes.',
+      tr: 'Takım daha iyi sporcular olabilmek için düzenli olarak antrenman yapar.',
+    },
+    {
+      ing: 'She takes dance lessons to have fun and stay active.',
+      tr: 'O eğlenmek ve aktif kalmak için dans dersleri alıyor.',
+    },
+    {
+      ing: 'They save money to go on vacation.',
+      tr: 'Onlar tatile gitmek için para biriktirirler.',
+    },
+    {
+      ing: 'He wakes up early to start his day.',
+      tr: 'O güne başlamak için erken kalkar.',
+    },
+    {
+      ing: 'We practice speaking English to become fluent.',
+      tr: 'Biz akıcı olabilmek için İngilizce konuşma pratiği yaparız.',
+    },
+    {
+      ing: 'I study to learn.',
+      tr: 'Öğrenmek için çalışırım.',
+    },
+    {
+      ing: 'She exercises to be healthy.',
+      tr: 'Sağlıklı olmak için egzersiz yapar.',
+    },
+    {
+      ing: 'They save money to buy things.',
+      tr: 'Bir şeyler satın almak için para biriktirirler.',
+    },
+    {
+      ing: 'He practices to improve.',
+      tr: 'Kendini geliştirmek için pratik yapar.',
+    },
+    {
+      ing: 'We wake up early to start the day.',
+      tr: 'Güne başlamak için erken kalkarız.',
+    },
+    {
+      ing: 'The company hires to find workers.',
+      tr: 'Şirket işçi bulmak için işe alım yapıyor.',
+    },
+    {
+      ing: 'Sarah reads books to gain knowledge.',
+      tr: 'Sarah bilgi edinmek için kitap okur.',
+    },
+    {
+      ing: 'They go to the gym to get fit.',
+      tr: 'Formda kalmak için spor salonuna gidiyorlar.',
+    },
+    {
+      ing: 'He takes cooking classes to cook better.',
+      tr: 'Daha iyi yemek pişirmek için yemek pişirme dersleri alıyor.',
+    },
+    {
+      ing: 'We travel to see new places.',
+      tr: 'Yeni yerler görmek için seyahat ederiz.',
+    },
+    {
+      ing: 'The students work hard to get good grades.',
+      tr: 'Öğrenciler iyi notlar almak için çok çalışırlar.',
+    },
+    {
+      ing: 'She volunteers to help others.',
+      tr: 'Başkalarına yardım etmeye gönüllü olur.',
+    },
+    {
+      ing: 'They plant trees to make the environment better.',
+      tr: 'Çevreyi daha iyi hale getirmek için ağaç dikerler.',
+    },
+    {
+      ing: 'He studies abroad to experience new cultures.',
+      tr: 'Yeni kültürleri deneyimlemek için yurt dışında eğitim görüyor.',
+    },
+    {
+      ing: 'We eat healthy food to stay strong.',
+      tr: 'Güçlü kalmak için sağlıklı yiyecekler yeriz.',
+    },
+    {
+      ing: 'The company invests in research to find new ideas.',
+      tr: 'Şirket yeni fikirler bulmak için araştırmaya yatırım yapar.',
+    },
+    {
+      ing: 'She practices meditation to relax.',
+      tr: 'Rahatlamak için meditasyon yapıyor.',
+    },
+    {
+      ing: 'They learn a new language to communicate with others.',
+      tr: 'Başkalarıyla iletişim kurmak için yeni bir dil öğrenirler.',
+    },
+    {
+      ing: 'He attends workshops to learn new skills.',
+      tr: 'Yeni beceriler öğrenmek için atölyelere katılır.',
+    },
+    {
+      ing: 'We use our creativity to make things.',
+      tr: 'Bir şeyler yapmak için yaratıcılığımızı kullanırız.',
+    },
+    {
+      ing: 'The team trains hard to win.',
+      tr: 'Takım kazanmak için çok çalışır.',
+    },
+    {
+      ing: 'She takes dance lessons to dance well.',
+      tr: 'İyi dans edebilmek için dans dersleri alıyor.',
+    },
+    {
+      ing: 'They save money to go on trips.',
+      tr: 'Gezilere çıkmak için para biriktirirler.',
+    },
+    {
+      ing: 'He wakes up early to be on time.',
+      tr: 'Zamanında yetişebilmek için erken kalkar.',
+    },
+    {
+      ing: 'We practice public speaking to become better speakers.',
+      tr: 'Daha iyi konuşmacı olabilmek için topluluk önünde konuşma pratiği yaparız.',
+    },
+    {
+      ing: 'I study to learn English.',
+      tr: 'İngilizce öğrenmek için çalışıyorum.',
+    },
+    {
+      ing: 'She runs to stay healthy.',
+      tr: 'Sağlıklı kalmak için koşar.',
+    },
+    {
+      ing: 'They save money to buy a car.',
+      tr: 'Araba almak için para biriktiriyorlar.',
+    },
+    {
+      ing: 'He practices to get better at playing guitar.',
+      tr: 'Gitar çalmayı geliştirmek için pratik yapıyor.',
+    },
+    {
+      ing: 'We wake up early to catch the bus.',
+      tr: 'Otobüse yetişmek için erken kalkıyoruz.',
+    },
+    {
+      ing: 'The company hires new employees to grow the business.',
+      tr: 'Şirket, işi büyütmek için yeni çalışanlar işe alıyor.',
+    },
+    {
+      ing: 'Sarah reads books to improve her English.',
+      tr: 'Sarah İngilizcesini geliştirmek için kitap okuyor.',
+    },
+    {
+      ing: 'They go to the gym to get fit.',
+      tr: 'Formda kalmak için spor salonuna gidiyorlar.',
+    },
+    {
+      ing: 'He takes cooking classes to learn how to cook.',
+      tr: 'Yemek yapmayı öğrenmek için yemek pişirme dersleri alıyor.',
+    },
+    {
+      ing: 'We travel to see new places.',
+      tr: 'Yeni yerler görmek için seyahat ederiz.',
+    },
+    {
+      ing: 'The students work hard to pass the exam.',
+      tr: 'Öğrenciler sınavı geçmek için çok çalışırlar.',
+    },
+    {
+      ing: 'She volunteers at a charity to help people.',
+      tr: 'İnsanlara yardım etmek için bir hayır kurumunda gönüllü olarak çalışıyor.',
+    },
+    {
+      ing: 'They plant trees to help the environment.',
+      tr: 'Çevreye yardımcı olmak için ağaç dikerler.',
+    },
+    {
+      ing: 'He studies abroad to experience different cultures.',
+      tr: 'Farklı kültürleri deneyimlemek için yurt dışında eğitim görüyor.',
+    },
+    {
+      ing: 'We eat vegetables to be healthy.',
+      tr: 'Sağlıklı olmak için sebze yeriz.',
+    },
+    {
+      ing: 'The company invests in research to develop new products.',
+      tr: 'Şirket yeni ürünler geliştirmek için araştırmaya yatırım yapar.',
+    },
+    {
+      ing: 'She practices yoga to relax.',
+      tr: 'Rahatlamak için yoga yapıyor.',
+    },
+    {
+      ing: 'They learn English to communicate with foreigners.',
+      tr: 'Yabancılarla iletişim kurmak için İngilizce öğreniyorlar.',
+    },
+    {
+      ing: 'He attends workshops to learn new skills.',
+      tr: 'Yeni beceriler öğrenmek için atölyelere katılır.',
+    },
+    {
+      ing: 'We use our imagination to create art.',
+      tr: 'Sanat yaratmak için hayal gücümüzü kullanırız.',
+    },
+    {
+      ing: 'The team trains to win the game.',
+      tr: 'Takım maçı kazanmak için antrenman yapar.',
+    },
+    {
+      ing: 'She takes dance lessons to have fun.',
+      tr: 'Eğlenmek için dans dersleri alıyor.',
+    },
+    {
+      ing: 'They save money to go on vacation.',
+      tr: 'Tatile gitmek için para biriktirirler.',
+    },
+    {
+      ing: 'He wakes up early to start the day.',
+      tr: 'Güne başlamak için erken kalkar.',
+    },
+    {
+      ing: 'We practice speaking to improve our English.',
+      tr: 'İngilizcemizi geliştirmek için konuşma pratiği yaparız.',
+    },
+    {
+      ing: 'I study to learn English.',
+      tr: 'İngilizce öğrenmek için çalışıyorum.',
+    },
+    {
+      ing: 'She exercises to stay healthy.',
+      tr: 'Sağlıklı kalmak için egzersiz yapar.',
+    },
+    {
+      ing: 'They save money to buy a house.',
+      tr: 'Ev almak için para biriktiriyorlar.',
+    },
+    {
+      ing: 'He practices singing to improve his voice.',
+      tr: 'Sesini geliştirmek için şarkı söyleme çalışmaları yapıyor.',
+    },
+    {
+      ing: 'We wake up early to catch the bus.',
+      tr: 'Otobüse yetişmek için erken kalkıyoruz.',
+    },
+    {
+      ing: 'The company hires workers to complete projects.',
+      tr: 'Şirket, projeleri tamamlamak için işçi alıyor.',
+    },
+    {
+      ing: 'Sarah reads books to improve her reading skills.',
+      tr: 'Sarah okuma becerilerini geliştirmek için kitap okuyor.',
+    },
+    {
+      ing: 'They go to the park to have fun.',
+      tr: 'Eğlenmek için parka giderler.',
+    },
+    {
+      ing: 'He takes lessons to learn how to swim.',
+      tr: 'Yüzmeyi öğrenmek için ders alıyor.',
+    },
+    {
+      ing: 'We travel to see new places.',
+      tr: 'Yeni yerler görmek için seyahat ederiz.',
+    },
+    {
+      ing: 'The students work hard to pass their exams.',
+      tr: 'Öğrenciler sınavlarını geçmek için çok çalışırlar.',
+    },
+    {
+      ing: 'She volunteers at the hospital to help people.',
+      tr: 'Hastanede insanlara yardım etmek için gönüllü olarak çalışıyor.',
+    },
+    {
+      ing: 'They plant flowers to make the garden beautiful.',
+      tr: 'Bahçeyi güzelleştirmek için çiçek dikerler.',
+    },
+    {
+      ing: 'He studies math to understand numbers better.',
+      tr: 'Sayıları daha iyi anlayabilmek için matematik çalışır.',
+    },
+    {
+      ing: 'We eat fruits and vegetables to be healthy.',
+      tr: 'Sağlıklı olmak için meyve ve sebze yeriz.',
+    },
+    {
+      ing: 'The company invests money to grow the business.',
+      tr: 'Şirket, işi büyütmek için para yatırıyor.',
+    },
+    {
+      ing: 'She practices yoga to relax.',
+      tr: 'Rahatlamak için yoga yapıyor.',
+    },
+    {
+      ing: 'They learn English to communicate with others.',
+      tr: 'Başkalarıyla iletişim kurmak için İngilizce öğrenirler.',
+    },
+    {
+      ing: 'He attends classes to improve his computer skills.',
+      tr: 'Bilgisayar becerilerini geliştirmek için derslere katılıyor.',
+    },
+    {
+      ing: 'We draw pictures to express ourselves.',
+      tr: 'Kendimizi ifade etmek için resimler çizeriz.',
+    },
+    {
+      ing: 'The team trains every day to win games.',
+      tr: 'Takım her gün maç kazanmak için antrenman yapar.',
+    },
+    {
+      ing: 'She takes piano lessons to play music.',
+      tr: 'Müzik çalmak için piyano dersleri alıyor.',
+    },
+    {
+      ing: 'They save money to go on vacation.',
+      tr: 'Tatile gitmek için para biriktirirler.',
+    },
+    {
+      ing: 'He wakes up early to catch the train.',
+      tr: 'Trene yetişmek için erken kalkar.',
+    },
+    {
+      ing: 'We practice speaking to become fluent in English.',
+      tr: 'İngilizceyi akıcı bir şekilde konuşabilmek için konuşma pratiği yaparız.',
+    },
+    {
+      ing: 'He is saving money to buy a car.',
+      tr: 'O, araba almak için para biriktiriyor.',
+    },
+    {
+      ing: 'She studied hard to pass the exam.',
+      tr: 'O, sınavı geçmek için çok çalıştı.',
+    },
+    {
+      ing: 'They will work extra hours to earn more money.',
+      tr: 'Onlar, daha fazla para kazanmak için fazla mesai yapacaklar.',
+    },
+    {
+      ing: 'He exercises daily to stay healthy.',
+      tr: 'O, sağlıklı kalmak için her gün egzersiz yapıyor.',
+    },
+    {
+      ing: 'She is learning Spanish to travel to Spain.',
+      tr: "O, İspanya'ya seyahat etmek için İspanyolca öğreniyor.",
+    },
+    {
+      ing: 'They cleaned the house to welcome guests.',
+      tr: 'Onlar, misafirleri ağırlamak için evi temizlediler.',
+    },
+    {
+      ing: 'I will cook dinner to make my family happy.',
+      tr: 'Ben, ailemi mutlu etmek için akşam yemeği pişireceğim.',
+    },
+    {
+      ing: 'She practices yoga to relax.',
+      tr: 'O, rahatlamak için yoga yapıyor.',
+    },
+    {
+      ing: 'They are taking a break to refresh their minds.',
+      tr: 'Onlar, zihinlerini tazelemek için ara veriyorlar.',
+    },
+    {
+      ing: 'He studied late to finish his homework.',
+      tr: 'O, ödevini bitirmek için geç çalıştı.',
+    },
+    {
+      ing: 'She will visit the museum to see the new exhibition.',
+      tr: 'O, yeni sergiyi görmek için müzeyi ziyaret edecek.',
+    },
+    {
+      ing: 'They are going to the park to have a picnic.',
+      tr: 'Onlar, piknik yapmak için parka gidiyorlar.',
+    },
+    {
+      ing: 'I bought a book to improve my English.',
+      tr: 'Ben, İngilizcemi geliştirmek için bir kitap aldım.',
+    },
+    {
+      ing: 'He wakes up early to catch the bus.',
+      tr: 'O, otobüsü yakalamak için erken kalkıyor.',
+    },
+    {
+      ing: 'She is attending a workshop to learn new skills.',
+      tr: 'O, yeni beceriler öğrenmek için bir atölyeye katılıyor.',
+    },
+    {
+      ing: 'They travel often to explore new places.',
+      tr: 'Onlar, yeni yerler keşfetmek için sık sık seyahat ediyorlar.',
+    },
+    {
+      ing: 'He will practice piano to play better.',
+      tr: 'O, daha iyi çalmak için piyano çalışacak.',
+    },
+    {
+      ing: 'She saved money to buy a new dress.',
+      tr: 'O, yeni bir elbise almak için para biriktirdi.',
+    },
+    {
+      ing: 'They are jogging to stay fit.',
+      tr: 'Onlar, formda kalmak için koşu yapıyorlar.',
+    },
+    {
+      ing: 'I am reading a novel to improve my vocabulary.',
+      tr: 'Ben, kelime dağarcığımı geliştirmek için bir roman okuyorum.',
+    },
+    {
+      ing: 'He went to the library to study.',
+      tr: 'O, ders çalışmak için kütüphaneye gitti.',
+    },
+    {
+      ing: 'She will paint her room to make it look nice.',
+      tr: 'O, odasını güzelleştirmek için boyayacak.',
+    },
+    {
+      ing: 'They are watching a documentary to learn about history.',
+      tr: 'Onlar, tarih hakkında bilgi edinmek için belgesel izliyorlar.',
+    },
+    {
+      ing: 'He eats vegetables to be healthy.',
+      tr: 'O, sağlıklı olmak için sebze yiyor.',
+    },
+    {
+      ing: 'She took a course to get a promotion.',
+      tr: 'O, terfi almak için bir kurs aldı.',
+    },
+    {
+      ing: 'They are visiting their grandparents to spend time with them.',
+      tr: 'Onlar, büyükanneleriyle vakit geçirmek için onları ziyaret ediyorlar.',
+    },
+    {
+      ing: 'I am practicing speaking to become fluent in English.',
+      tr: 'Ben, İngilizcede akıcı konuşmak için pratik yapıyorum.',
+    },
+    {
+      ing: 'He will join a club to make new friends.',
+      tr: 'O, yeni arkadaşlar edinmek için bir kulübe katılacak.',
+    },
+    {
+      ing: 'She exercises to lose weight.',
+      tr: 'O, kilo vermek için egzersiz yapıyor.',
+    },
+    {
+      ing: 'They studied hard to get good grades.',
+      tr: 'Onlar, iyi notlar almak için çok çalıştılar.',
+    },
+    {
+      ing: 'He is learning to cook to surprise his family.',
+      tr: 'O, ailesine sürpriz yapmak için yemek yapmayı öğreniyor.',
+    },
+    {
+      ing: 'She is saving to travel to Europe.',
+      tr: "O, Avrupa'ya seyahat etmek için para biriktiriyor.",
+    },
+    {
+      ing: 'They practice every day to win the championship.',
+      tr: 'Onlar, şampiyonluğu kazanmak için her gün pratik yapıyorlar.',
+    },
+    {
+      ing: 'He went to the market to buy groceries.',
+      tr: 'O, markete gitti ve yiyecek aldı.',
+    },
+    {
+      ing: 'She took notes to remember the lecture.',
+      tr: 'O, dersi hatırlamak için not aldı.',
+    },
+    {
+      ing: 'They are planting trees to protect the environment.',
+      tr: 'Onlar, çevreyi korumak için ağaç dikiyorlar.',
+    },
+    {
+      ing: 'I joined a gym to stay active.',
+      tr: 'Ben, aktif kalmak için bir spor salonuna katıldım.',
+    },
+    {
+      ing: 'He read books to gain knowledge.',
+      tr: 'O, bilgi edinmek için kitap okurdu.',
+    },
+    {
+      ing: 'She will meditate to reduce stress.',
+      tr: 'O, stresi azaltmak için meditasyon yapacak.',
+    },
+    {
+      ing: 'They are baking a cake to celebrate her birthday.',
+      tr: 'Onlar, doğum gününü kutlamak için kek pişiriyorlar.',
+    },
+    {
+      ing: 'He took a nap to feel refreshed.',
+      tr: 'O, dinç hissetmek için kısa bir uyku aldı.',
+    },
+    {
+      ing: 'She is learning guitar to play her favorite songs.',
+      tr: 'O, en sevdiği şarkıları çalmak için gitar öğreniyor.',
+    },
+    {
+      ing: 'They volunteered to help the community.',
+      tr: 'Onlar, topluma yardım etmek için gönüllü oldular.',
+    },
+    {
+      ing: 'I am writing a diary to express my thoughts.',
+      tr: 'Ben, düşüncelerimi ifade etmek için bir günlük yazıyorum.',
+    },
+    {
+      ing: 'He went for a walk to clear his mind.',
+      tr: 'O, zihnini boşaltmak için yürüyüşe çıktı.',
+    },
+    {
+      ing: 'She is practicing dance to perform on stage.',
+      tr: 'O, sahnede performans sergilemek için dans pratiği yapıyor.',
+    },
+    {
+      ing: 'They took a vacation to relax and unwind.',
+      tr: 'Onlar, rahatlamak ve gevşemek için tatile çıktılar.',
+    },
+    {
+      ing: 'He will attend a seminar to learn about technology.',
+      tr: 'O, teknoloji hakkında bilgi edinmek için bir seminere katılacak.',
+    },
+    {
+      ing: 'She saved her allowance to buy a gift for her friend.',
+      tr: 'O, arkadaşına hediye almak için harçlığını biriktirdi.',
+    },
+    {
+      ing: 'They are drinking water to stay hydrated.',
+      tr: 'Onlar, su kaybını önlemek için su içiyorlar.',
+    },
+    {
+      ing: 'I am practicing my pronunciation to speak clearly.',
+      tr: 'Ben, net konuşmak için telaffuz pratiği yapıyorum.',
+    },
+    {
+      ing: 'He will build a website to share his ideas.',
+      tr: 'O, fikirlerini paylaşmak için bir web sitesi kuracak.',
+    },
+    {
+      ing: 'She took pictures to remember the trip.',
+      tr: 'O, geziyi hatırlamak için fotoğraf çekti.',
+    },
+    {
+      ing: 'They are playing chess to improve their thinking skills.',
+      tr: 'Onlar, düşünme becerilerini geliştirmek için satranç oynuyorlar.',
+    },
+    {
+      ing: 'He ate a healthy breakfast to start the day well.',
+      tr: 'O, günü iyi başlatmak için sağlıklı kahvaltı yaptı.',
+    },
+    {
+      ing: 'She is learning French to study in France.',
+      tr: "O, Fransa'da eğitim görmek için Fransızca öğreniyor.",
+    },
+    {
+      ing: 'They went to the zoo to see the animals.',
+      tr: 'Onlar, hayvanları görmek için hayvanat bahçesine gittiler.',
+    },
+    {
+      ing: 'I will attend a music concert to enjoy live music.',
+      tr: 'Ben, canlı müzik dinlemek için bir müzik konserine katılacağım.',
+    },
+    {
+      ing: 'He is jogging every morning to stay fit.',
+      tr: 'O, formda kalmak için her sabah koşuyor.',
+    },
+    {
+      ing: 'She bought flowers to decorate her room.',
+      tr: 'O, odasını süslemek için çiçekler aldı.',
+    },
+    {
+      ing: 'They are practicing writing to improve their essays.',
+      tr: 'Onlar, denemelerini geliştirmek için yazma pratiği yapıyorlar.',
+    },
+    {
+      ing: 'He will join a debate club to improve his speaking skills.',
+      tr: 'O, konuşma becerilerini geliştirmek için bir münazara kulübüne katılacak.',
+    },
+    {
+      ing: 'She is learning to swim to enjoy the beach.',
+      tr: 'O, plajın tadını çıkarmak için yüzmeyi öğreniyor.',
+    },
+    {
+      ing: 'They cleaned the garden to have a party.',
+      tr: 'Onlar, parti yapmak için bahçeyi temizlediler.',
+    },
+    {
+      ing: 'I am taking vitamins to boost my immune system.',
+      tr: 'Ben, bağışıklık sistemimi güçlendirmek için vitamin alıyorum.',
+    },
+    {
+      ing: 'He went to bed early to get enough sleep.',
+      tr: 'O, yeterince uyumak için erken yattı.',
+    },
+    {
+      ing: 'She is studying chemistry to become a scientist.',
+      tr: 'O, bilim insanı olmak için kimya çalışıyor.',
+    },
+    {
+      ing: 'They are watching tutorials to learn how to cook.',
+      tr: 'Onlar, yemek yapmayı öğrenmek için videolar izliyorlar.',
+    },
+    {
+      ing: 'He took the bus to get to work on time.',
+      tr: 'O, işe zamanında gitmek için otobüse bindi.',
+    },
+    {
+      ing: 'She is learning coding to develop apps.',
+      tr: 'O, uygulama geliştirmek için kodlama öğreniyor.',
+    },
+    {
+      ing: 'They are practicing soccer to win the match.',
+      tr: 'Onlar, maçı kazanmak için futbol pratiği yapıyorlar.',
+    },
+    {
+      ing: 'I am reading newspapers to stay informed.',
+      tr: 'Ben, güncel kalmak için gazete okuyorum.',
+    },
+    {
+      ing: 'He is learning to drive to get his license.',
+      tr: 'O, ehliyet almak için araba kullanmayı öğreniyor.',
+    },
+    {
+      ing: 'She took a job to gain experience.',
+      tr: 'O, deneyim kazanmak için bir iş aldı.',
+    },
+    {
+      ing: 'They are attending a conference to network.',
+      tr: 'Onlar, ağ kurmak için bir konferansa katılıyorlar.',
+    },
+    {
+      ing: 'He will eat healthy food to lose weight.',
+      tr: 'O, kilo vermek için sağlıklı yiyecekler yiyecek.',
+    },
+    {
+      ing: 'She is practicing her speech to deliver it well.',
+      tr: 'O, konuşmasını iyi yapmak için pratik yapıyor.',
+    },
+    {
+      ing: 'They took part in a marathon to raise money for charity.',
+      tr: 'Onlar, hayırseverlik için bir maratona katıldılar.',
+    },
+    {
+      ing: 'I am writing stories to become an author.',
+      tr: 'Ben, yazar olmak için hikayeler yazıyorum.',
+    },
+    {
+      ing: 'He went to the dentist to check his teeth.',
+      tr: 'O, dişlerini kontrol ettirmek için dişçiye gitti.',
+    },
+    {
+      ing: 'She is learning painting to create art.',
+      tr: 'O, sanat yapmak için resim öğreniyor.',
+    },
+    {
+      ing: 'They are taking piano lessons to play music.',
+      tr: 'Onlar, müzik çalmak için piyano dersleri alıyorlar.',
+    },
+    {
+      ing: 'He will wake up early to watch the sunrise.',
+      tr: 'O, gün doğumunu izlemek için erken kalkacak.',
+    },
+    {
+      ing: 'She saved her money to buy a laptop.',
+      tr: 'O, bir dizüstü bilgisayar almak için para biriktirdi.',
+    },
+    {
+      ing: 'They are exercising to stay healthy.',
+      tr: 'Onlar, sağlıklı kalmak için egzersiz yapıyorlar.',
+    },
+    {
+      ing: 'I am learning to sew to make my own clothes.',
+      tr: 'Ben, kendi kıyafetlerimi yapmak için dikiş öğreniyorum.',
+    },
+    {
+      ing: 'He is working overtime to finish the project.',
+      tr: 'O, projeyi bitirmek için fazla mesai yapıyor.',
+    },
+    {
+      ing: 'She took a vacation to relax.',
+      tr: 'O, rahatlamak için tatile çıktı.',
+    },
+    {
+      ing: 'They are learning about culture to understand people better.',
+      tr: 'Onlar, insanları daha iyi anlamak için kültür hakkında bilgi ediniyorlar.',
+    },
+    {
+      ing: 'He went to the beach to swim.',
+      tr: 'O, yüzmek için plaja gitti.',
+    },
+    {
+      ing: 'She is studying history to understand the past.',
+      tr: 'O, geçmişi anlamak için tarih çalışıyor.',
+    },
+    {
+      ing: 'They are taking a class to learn photography.',
+      tr: 'Onlar, fotoğrafçılık öğrenmek için bir ders alıyorlar.',
+    },
+    {
+      ing: 'I am practicing piano to play at the concert.',
+      tr: 'Ben, konserde çalmak için piyano pratiği yapıyorum.',
+    },
+    {
+      ing: 'He saved money to buy a new phone.',
+      tr: 'O, yeni bir telefon almak için para biriktirdi.',
+    },
+    {
+      ing: 'She is learning to bake to make cakes.',
+      tr: 'O, kek yapmak için fırında çalışmayı öğreniyor.',
+    },
+    {
+      ing: 'They are reading books to improve their knowledge.',
+      tr: 'Onlar, bilgi edinmek için kitap okuyorlar.',
+    },
+    {
+      ing: 'He will practice football to join the team.',
+      tr: 'O, takıma katılmak için futbol pratiği yapacak.',
+    },
+    {
+      ing: 'She is watching movies to learn English.',
+      tr: 'O, İngilizce öğrenmek için film izliyor.',
+    },
+    {
+      ing: 'They joined a club to meet new people.',
+      tr: 'Onlar, yeni insanlarla tanışmak için bir kulübe katıldılar.',
+    },
+    {
+      ing: 'I am studying law to become a lawyer.',
+      tr: 'Ben, avukat olmak için hukuk çalışıyorum.',
+    },
+    {
+      ing: 'He is taking cooking classes to become a chef.',
+      tr: 'O, şef olmak için yemek yapma dersleri alıyor.',
+    },
+    {
+      ing: 'She traveled to Italy to study art.',
+      tr: "O, sanat öğrenmek için İtalya'ya seyahat etti.",
+    },
+    {
+      ing: 'They are playing games to improve teamwork.',
+      tr: 'Onlar, takım çalışmasını geliştirmek için oyunlar oynuyorlar.',
+    },
+    {
+      ing: 'He is writing a blog to share his experiences.',
+      tr: 'O, deneyimlerini paylaşmak için bir blog yazıyor.',
+    },
+    {
+      ing: 'She took a job to support her family.',
+      tr: 'O, ailesini desteklemek için bir iş aldı.',
+    },
+    {
+      ing: 'They are practicing yoga to relax.',
+      tr: 'Onlar, rahatlamak için yoga yapıyorlar.',
+    },
+    {
+      ing: 'I am saving money to travel.',
+      tr: 'Ben, seyahat etmek için para biriktiriyorum.',
+    },
+    {
+      ing: 'He is studying literature to become a writer.',
+      tr: 'O, yazar olmak için edebiyat çalışıyor.',
+    },
+    {
+      ing: 'She will learn coding to create websites.',
+      tr: 'O, web sitesi oluşturmak için kodlama öğrenecek.',
+    },
+    {
+      ing: 'They are learning about nutrition to eat healthily.',
+      tr: 'Onlar, sağlıklı beslenmek için beslenme hakkında bilgi ediniyorlar.',
+    },
+    {
+      ing: 'He went to the park to play basketball.',
+      tr: 'O, basketbol oynamak için parka gitti.',
+    },
+    {
+      ing: 'She is studying math to improve her grades.',
+      tr: 'O, notlarını yükseltmek için matematik çalışıyor.',
+    },
+    {
+      ing: 'They are practicing singing to join the choir.',
+      tr: 'Onlar, koro katılmak için şarkı söylüyorlar.',
+    },
+    {
+      ing: 'I am reading articles to stay updated.',
+      tr: 'Ben, güncel kalmak için makaleler okuyorum.',
+    },
+    {
+      ing: 'He is taking driving lessons to get his license.',
+      tr: 'O, ehliyet almak için sürüş dersleri alıyor.',
+    },
+    {
+      ing: 'She volunteered to help others.',
+      tr: 'O, başkalarına yardım etmek için gönüllü oldu.',
+    },
+    {
+      ing: 'They are attending workshops to gain new skills.',
+      tr: 'Onlar, yeni beceriler kazanmak için atölyelere katılıyorlar.',
+    },
+    {
+      ing: 'He is eating fruits to stay healthy.',
+      tr: 'O, sağlıklı kalmak için meyve yiyor.',
+    },
+    {
+      ing: 'She is practicing her dance routine to perform well.',
+      tr: 'O, dans performansını sergilemek için dans rutinini çalışıyor.',
+    },
+    {
+      ing: 'They participated in the charity event to support the cause.',
+      tr: 'Onlar, hayırseverliği desteklemek için etkinliğe katıldılar.',
+    },
+    {
+      ing: 'I am writing essays to improve my writing skills.',
+      tr: 'Ben, yazma becerilerimi geliştirmek için deneme yazıyorum.',
+    },
+    {
+      ing: 'He went to the gym to build muscle.',
+      tr: 'O, kas yapmak için spor salonuna gitti.',
+    },
+    {
+      ing: 'She is learning piano to play her favorite songs.',
+      tr: 'O, en sevdiği şarkıları çalmak için piyano öğreniyor.',
+    },
+    {
+      ing: 'They are practicing English to communicate better.',
+      tr: 'Onlar, daha iyi iletişim kurmak için İngilizce pratik yapıyorlar.',
+    },
+    {
+      ing: 'He took a loan to start a business.',
+      tr: 'O, iş kurmak için kredi aldı.',
+    },
+    {
+      ing: 'She is reading novels to enhance her creativity.',
+      tr: 'O, yaratıcılığını artırmak için romanlar okuyor.',
+    },
+    {
+      ing: 'They are studying geography to understand the world.',
+      tr: 'Onlar, dünyayı anlamak için coğrafya çalışıyorlar.',
+    },
+    {
+      ing: 'I am learning digital marketing to grow my business.',
+      tr: 'Ben, işimi büyütmek için dijital pazarlama öğreniyorum.',
+    },
+    {
+      ing: 'He is practicing meditation to find inner peace.',
+      tr: 'O, iç huzuru bulmak için meditasyon yapıyor.',
+    },
+    {
+      ing: 'She traveled to Japan to learn about the culture.',
+      tr: "O, kültür hakkında bilgi edinmek için Japonya'ya seyahat etti.",
+    },
+    {
+      ing: 'They are learning to play chess to improve their strategy skills.',
+      tr: 'Onlar, strateji becerilerini geliştirmek için satranç oynamayı öğreniyorlar.',
+    },
+    {
+      ing: 'He is taking a first aid course to be prepared for emergencies.',
+      tr: 'O, acil durumlar için ilk yardım kursu alıyor.',
+    },
+    {
+      ing: 'She saved money to buy a bicycle.',
+      tr: 'O, bisiklet almak için para biriktirdi.',
+    },
+    {
+      ing: 'They are practicing their lines to perform in the play.',
+      tr: 'Onlar, oyunda performans sergilemek için repliklerini çalışıyorlar.',
+    },
+    {
+      ing: 'I am learning to knit to make scarves.',
+      tr: 'Ben, atkı yapmak için örgü örmeyi öğreniyorum.',
+    },
+    {
+      ing: 'He went to the mountains to hike.',
+      tr: 'O, dağ yürüyüşü yapmak için dağlara gitti.',
+    },
+    {
+      ing: 'She is studying economics to understand the market.',
+      tr: 'O, pazarı anlamak için ekonomi çalışıyor.',
+    },
+    {
+      ing: 'They are taking art classes to learn to paint.',
+      tr: 'Onlar, resim yapmayı öğrenmek için sanat dersleri alıyorlar.',
+    },
+    {
+      ing: 'He is reading books to gain knowledge.',
+      tr: 'O, bilgi edinmek için kitap okuyor.',
+    },
+    {
+      ing: 'She took a gap year to travel the world.',
+      tr: 'O, dünyayı gezmek için bir yıl ara verdi.',
+    },
+    {
+      ing: 'They are learning to speak French to visit France.',
+      tr: "Onlar, Fransa'yı ziyaret etmek için Fransızca öğreniyorlar.",
+    },
+    {
+      ing: 'I am practicing writing to publish a book.',
+      tr: 'Ben, kitap yayınlamak için yazma pratiği yapıyorum.',
+    },
+    {
+      ing: 'He is saving money to buy a house.',
+      tr: 'O, ev almak için para biriktiriyor.',
+    },
+    {
+      ing: 'She is taking a photography class to capture beautiful moments.',
+      tr: 'O, güzel anları yakalamak için fotoğrafçılık dersine katılıyor.',
+    },
+    {
+      ing: 'They are studying biology to become doctors.',
+      tr: 'Onlar, doktor olmak için biyoloji çalışıyorlar.',
+    },
+    {
+      ing: 'He will travel to Germany to learn German.',
+      tr: "O, Almanca öğrenmek için Almanya'ya seyahat edecek.",
+    },
+    {
+      ing: 'She is learning to code to develop software.',
+      tr: 'O, yazılım geliştirmek için kodlama öğreniyor.',
+    },
+    {
+      ing: 'They are practicing gymnastics to compete.',
+      tr: 'Onlar, yarışmak için jimnastik çalışıyorlar.',
+    },
+    {
+      ing: 'I am reading history books to understand past events.',
+      tr: 'Ben, geçmiş olayları anlamak için tarih kitapları okuyorum.',
+    },
+    {
+      ing: 'He is taking singing lessons to improve his voice.',
+      tr: 'O, sesini geliştirmek için şarkı dersleri alıyor.',
+    },
+    {
+      ing: 'She went to the farm to learn about agriculture.',
+      tr: 'O, tarım hakkında bilgi edinmek için çiftliğe gitti.',
+    },
+    {
+      ing: 'They are learning to cook to prepare healthy meals.',
+      tr: 'Onlar, sağlıklı yemekler hazırlamak için yemek yapmayı öğreniyorlar.',
+    },
+    {
+      ing: 'He is studying physics to become a scientist.',
+      tr: 'O, bilim insanı olmak için fizik çalışıyor.',
+    },
+    {
+      ing: 'She will save money to go on vacation.',
+      tr: 'O, tatile gitmek için para biriktirecek.',
+    },
+    {
+      ing: 'They are taking swimming lessons to learn to swim.',
+      tr: 'Onlar, yüzmeyi öğrenmek için yüzme dersleri alıyorlar.',
+    },
+    {
+      ing: 'I am practicing guitar to play in a band.',
+      tr: 'Ben, grupta çalmak için gitar pratiği yapıyorum.',
+    },
+    {
+      ing: 'He is learning public speaking to give better presentations.',
+      tr: 'O, daha iyi sunumlar yapmak için topluluk önünde konuşmayı öğreniyor.',
+    },
+    {
+      ing: 'She took an internship to gain experience.',
+      tr: 'O, deneyim kazanmak için staj yaptı.',
+    },
+    {
+      ing: 'They are studying computer science to develop games.',
+      tr: 'Onlar, oyun geliştirmek için bilgisayar bilimi çalışıyorlar.',
+    },
+    {
+      ing: 'He is writing letters to stay in touch with friends.',
+      tr: 'O, arkadaşlarıyla iletişimde kalmak için mektup yazıyor.',
+    },
+    {
+      ing: 'She traveled to the UK to improve her English.',
+      tr: "O, İngilizcesini geliştirmek için İngiltere'ye seyahat etti.",
+    },
+    {
+      ing: 'They are practicing running to participate in a marathon.',
+      tr: 'Onlar, maratona katılmak için koşu pratiği yapıyorlar.',
+    },
+    {
+      ing: 'He is learning to draw to become an artist.',
+      tr: 'O, sanatçı olmak için çizim yapmayı öğreniyor.',
+    },
+    {
+      ing: 'She saved money to buy a camera.',
+      tr: 'O, fotoğraf makinesi almak için para biriktirdi.',
+    },
+    {
+      ing: 'They are practicing acting to perform in a play.',
+      tr: 'Onlar, oyunda performans sergilemek için oyunculuk pratiği yapıyorlar.',
+    },
+    {
+      ing: 'I am learning to play the violin to join an orchestra.',
+      tr: 'Ben, orkestraya katılmak için keman çalmayı öğreniyorum.',
+    },
+    {
+      ing: 'He went to the countryside to relax.',
+      tr: 'O, dinlenmek için kırsal alana gitti.',
+    },
+    {
+      ing: 'She is studying business to start her own company.',
+      tr: 'O, kendi şirketini kurmak için iş çalışıyor.',
+    },
+    {
+      ing: 'They are taking dance classes to perform at the festival.',
+      tr: 'Onlar, festivalde dans etmek için dans dersleri alıyorlar.',
+    },
+    {
+      ing: 'He is reading newspapers to stay informed.',
+      tr: 'O, güncel kalmak için gazete okuyor.',
+    },
+    {
+      ing: 'She took a course to learn how to bake.',
+      tr: 'O, kek yapmayı öğrenmek için bir kurs aldı.',
+    },
+    {
+      ing: 'They are practicing piano to play at the concert.',
+      tr: 'Onlar, konserde çalmak için piyano pratiği yapıyorlar.',
+    },
+    {
+      ing: 'I am learning marketing to promote my products.',
+      tr: 'Ben, ürünlerimi tanıtmak için pazarlama öğreniyorum.',
+    },
+    {
+      ing: 'He is practicing chess to improve his game.',
+      tr: 'O, oyununu geliştirmek için satranç pratiği yapıyor.',
+    },
+    {
+      ing: 'She traveled to Brazil to learn about the culture.',
+      tr: "O, kültür hakkında bilgi edinmek için Brezilya'ya seyahat etti.",
+    },
+    {
+      ing: 'They are learning first aid to help in emergencies.',
+      tr: 'Onlar, acil durumlar için ilk yardım öğreniyorlar.',
+    },
+    {
+      ing: 'He is studying chemistry to become a chemist.',
+      tr: 'O, kimyager olmak için kimya çalışıyor.',
+    },
+    {
+      ing: 'She saved money to buy a pet.',
+      tr: 'O, evcil hayvan almak için para biriktirdi.',
+    },
+    {
+      ing: 'They are practicing speaking to improve their communication skills.',
+      tr: 'Onlar, iletişim becerilerini geliştirmek için konuşma pratiği yapıyorlar.',
+    },
+    {
+      ing: 'I am learning to code to create a website.',
+      tr: 'Ben, web sitesi oluşturmak için kodlama öğreniyorum.',
+    },
+    {
+      ing: 'He went to the library to find resources for his project.',
+      tr: 'O, projesi için kaynak bulmak için kütüphaneye gitti.',
+    },
+    {
+      ing: 'She is studying medicine to become a doctor.',
+      tr: 'O, doktor olmak için tıp çalışıyor.',
+    },
+    {
+      ing: 'They are taking yoga classes to stay fit.',
+      tr: 'Onlar, formda kalmak için yoga dersleri alıyorlar.',
+    },
+    {
+      ing: 'He is reading magazines to keep up with trends.',
+      tr: 'O, trendleri takip etmek için dergileri okuyor.',
+    },
+    {
+      ing: 'She took a part-time job to save money for college.',
+      tr: 'O, üniversite için para biriktirmek için yarı zamanlı bir iş aldı.',
+    },
+    {
+      ing: 'They are practicing basketball to join the team.',
+      tr: 'Onlar, takıma katılmak için basketbol pratiği yapıyorlar.',
+    },
+    {
+      ing: 'I am learning to bake to make desserts.',
+      tr: 'Ben, tatlı yapmak için fırıncılık öğreniyorum.',
+    },
+    {
+      ing: 'He is studying architecture to design buildings.',
+      tr: 'O, bina tasarlamak için mimarlık çalışıyor.',
+    },
+    {
+      ing: 'She traveled to Australia to see the wildlife.',
+      tr: "O, vahşi yaşamı görmek için Avustralya'ya seyahat etti.",
+    },
+    {
+      ing: 'They are learning to play instruments to start a band.',
+      tr: 'Onlar, bir grup kurmak için enstrüman çalmayı öğreniyorlar.',
+    },
+    {
+      ing: 'He is practicing photography to take better pictures.',
+      tr: 'O, daha iyi fotoğraf çekmek için fotoğrafçılık pratiği yapıyor.',
+    },
+    {
+      ing: 'She saved money to buy a new phone.',
+      tr: 'O, yeni telefon almak için para biriktirdi.',
+    },
+    {
+      ing: 'They are practicing coding to build apps.',
+      tr: 'Onlar, uygulama geliştirmek için kodlama pratiği yapıyorlar.',
+    },
+    {
+      ing: 'I am learning to write to become an author.',
+      tr: 'Ben, yazar olmak için yazma öğreniyorum.',
+    },
+    {
+      ing: 'He went to the market to buy fresh produce.',
+      tr: 'O, taze ürünler almak için markete gitti.',
+    },
+    {
+      ing: 'She is studying psychology to understand human behavior.',
+      tr: 'O, insan davranışını anlamak için psikoloji çalışıyor.',
+    },
+    {
+      ing: 'They are taking art classes to express their creativity.',
+      tr: 'Onlar, yaratıcılıklarını ifade etmek için sanat dersleri alıyorlar.',
+    },
+    {
+      ing: 'He is reading scientific journals to stay updated.',
+      tr: 'O, güncel kalmak için bilimsel dergileri okuyor.',
+    },
+    {
+      ing: 'She took a sewing class to make clothes.',
+      tr: 'O, kıyafet yapmak için dikiş kursu aldı.',
+    },
+    {
+      ing: 'They are practicing soccer to play in the tournament.',
+      tr: 'Onlar, turnuvada oynamak için futbol pratiği yapıyorlar.',
+    },
+  ],
+};
