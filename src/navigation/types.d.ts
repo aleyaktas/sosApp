@@ -28,6 +28,7 @@ export type StackNavigatorList = {
   Vocabulary: {title?: string; item?: any};
   ComparativesSuperlativesTranslation: {title: string; item?: any};
   FlowerToTranslation: {title: string; item?: ToTranslation};
+  ImpersonalItTranslation: {title: string; item?: any};
 };
 
 export type BottomNavigatorList = {

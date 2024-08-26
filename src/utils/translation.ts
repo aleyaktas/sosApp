@@ -45415,3 +45415,408 @@ export const FlowerToTranslationSentences = {
     },
   ],
 };
+
+export const ImpersonalItTranslationSentences = {
+  ImpersonalIt: [
+    {
+      ing: "It's important to brush your teeth twice a day.",
+      tr: 'Dişlerinizi günde iki kez fırçalamak önemlidir.',
+    },
+    {
+      ing: "It seems like it's going to rain today.",
+      tr: 'Bugün yağmur yağacak gibi görünüyor.',
+    },
+    {
+      ing: "It's quite hot outside today.",
+      tr: 'Bugün dışarısı oldukça sıcak.',
+    },
+    {
+      ing: "It's difficult to understand her because she talks very fast.",
+      tr: 'Çok hızlı konuştuğu için onu anlamak zordur.',
+    },
+    {
+      ing: "It's easy to get lost in a big city like New York.",
+      tr: 'New York gibi büyük bir şehirde kaybolmak kolaydır.',
+    },
+    {
+      ing: 'It was surprising to see him at the party.',
+      tr: 'Onu partide görmek şaşırtıcıydı.',
+    },
+    {
+      ing: "It's not safe to walk alone at night in this neighborhood.",
+      tr: 'Bu mahallede geceleri yalnız yürümek güvenli değil.',
+    },
+    {
+      ing: "It's necessary to study hard if you want to pass the exam.",
+      tr: 'Sınavı geçmek istiyorsanız çok çalışmanız gerekir.',
+    },
+    {
+      ing: "It's common to greet people with a handshake in many cultures.",
+      tr: 'Birçok kültürde insanları el sıkışarak selamlamak yaygındır.',
+    },
+    {
+      ing: "It's better to ask for directions than to get lost.",
+      tr: 'Kaybolmaktansa yön sormak daha iyidir.',
+    },
+    {
+      ing: "It's hard to believe that she is only 15 years old.",
+      tr: 'Onun sadece 15 yaşında olduğuna inanmak zor.',
+    },
+    {
+      ing: "It's a good idea to check the weather before you go out.",
+      tr: 'Dışarı çıkmadan önce hava durumunu kontrol etmek iyi bir fikirdir.',
+    },
+    {
+      ing: "It's not possible to see the stars during the daytime.",
+      tr: 'Gündüz yıldızları görmek mümkün değildir.',
+    },
+    {
+      ing: 'It was amazing to watch the sunset from the beach.',
+      tr: 'Sahilden gün batımını izlemek muhteşemdi.',
+    },
+    {
+      ing: "It's typical for people to eat dinner late in Spain.",
+      tr: "İspanya'da insanların akşam yemeğini geç yemesi tipik bir durumdur.",
+    },
+    {
+      ing: "It's not polite to interrupt people when they are speaking.",
+      tr: 'İnsanların konuşurken sözünü kesmek kibarlık değildir.',
+    },
+    {
+      ing: "It's interesting to learn about different cultures.",
+      tr: 'Farklı kültürleri öğrenmek ilginçtir.',
+    },
+    {
+      ing: "It's likely that they will win the game.",
+      tr: 'Oyunu kazanmaları muhtemeldir.',
+    },
+    {
+      ing: "It's fun to go to the amusement park with friends.",
+      tr: 'Arkadaşlarla lunaparka gitmek eğlencelidir.',
+    },
+    {
+      ing: "It's customary to tip waitstaff in the United States.",
+      tr: "Amerika Birleşik Devletleri'nde garsonlara bahşiş vermek bir gelenektir.",
+    },
+    {
+      ing: "It's convenient to live close to work.",
+      tr: 'İşe yakın yaşamak kolaydır.',
+    },
+    {
+      ing: "It's unfortunate that the concert was cancelled due to the rain.",
+      tr: 'Konserin yağmur nedeniyle iptal edilmesi talihsiz bir durumdur.',
+    },
+    {
+      ing: "It's nice to receive a letter in the mail.",
+      tr: 'Postayla bir mektup almak güzel.',
+    },
+    {
+      ing: "It's best to arrive early to get good seats at the cinema.",
+      tr: 'Sinemada iyi koltuklar almak için erken gelmek en iyisidir.',
+    },
+    {
+      ing: "It's exciting to travel to new places.",
+      tr: 'Yeni yerlere seyahat etmek heyecan vericidir.',
+    },
+    {
+      ing: "It's important to eat breakfast every day.",
+      tr: 'Her gün kahvaltı yapmak önemlidir.',
+    },
+    {
+      ing: "It's not easy to wake up early in the morning.",
+      tr: 'Sabah erken kalkmak kolay değil.',
+    },
+    {
+      ing: "It seems like it's going to rain today.",
+      tr: 'Bugün yağmur yağacak gibi görünüyor.',
+    },
+    {
+      ing: "It's a good idea to study for the test.",
+      tr: 'Sınava çalışmak iyi bir fikirdir.',
+    },
+    {
+      ing: "It's very hot in the summer in Spain.",
+      tr: "İspanya'da yaz ayları çok sıcaktır.",
+    },
+    {
+      ing: 'It takes about an hour to get to the city.',
+      tr: 'Şehre ulaşmak yaklaşık bir saat sürüyor.',
+    },
+    {
+      ing: "It's difficult to learn a new language.",
+      tr: 'Yeni bir dil öğrenmek zordur.',
+    },
+    {
+      ing: 'It feels great to be home after a long trip.',
+      tr: 'Uzun bir yolculuktan sonra evde olmak harika bir duygu.',
+    },
+    {
+      ing: "It's hard to find a good job these days.",
+      tr: 'Bu günlerde iyi bir iş bulmak zor.',
+    },
+    {
+      ing: "It's too cold to go swimming today.",
+      tr: 'Bugün yüzmeye gitmek için hava çok soğuk.',
+    },
+    {
+      ing: "It sounds like there's a party next door.",
+      tr: 'Yan tarafta bir parti varmış gibi görünüyor.',
+    },
+    {
+      ing: "It's not safe to walk alone at night in this area.",
+      tr: 'Geceleri bu bölgede yalnız yürümek güvenli değildir.',
+    },
+    {
+      ing: "It seems that we're out of milk.",
+      tr: 'Sütümüz bitmiş gibi görünüyor.',
+    },
+    {
+      ing: "It's crucial to drink a lot of water when it's hot.",
+      tr: 'Sıcak havalarda bol su içmek çok önemlidir.',
+    },
+    {
+      ing: "It's nice to meet you.",
+      tr: 'Tanıştığımıza memnun oldum.',
+    },
+    {
+      ing: "It looks like you've done this before.",
+      tr: 'Görünüşe göre bunu daha önce yapmışsınız.',
+    },
+    {
+      ing: "It's fun to play soccer with friends.",
+      tr: 'Arkadaşlarla futbol oynamak eğlencelidir.',
+    },
+    {
+      ing: "It's not fair that she gets to leave early.",
+      tr: 'Erken ayrılması adil değil.',
+    },
+    {
+      ing: 'It smells like something is burning.',
+      tr: 'Bir şey yanıyormuş gibi kokuyor.',
+    },
+    {
+      ing: "It's interesting to learn about different cultures.",
+      tr: 'Farklı kültürler hakkında bilgi edinmek ilginçtir.',
+    },
+    {
+      ing: "It's late, we should get going.",
+      tr: 'Geç oldu, yola çıkmalıyız.',
+    },
+    {
+      ing: "It's necessary to bring a jacket because it could get cold.",
+      tr: 'Hava soğuyabileceği için ceket getirmek zorunludur.',
+    },
+    {
+      ing: "It doesn't make sense to argue about this.",
+      tr: 'Bu konuda tartışmanın bir anlamı yok.',
+    },
+    {
+      ing: "It's not right to take things that don't belong to you.",
+      tr: 'Kendinize ait olmayan şeyleri almak doğru değildir.',
+    },
+    {
+      ing: "It feels like I've been waiting forever.",
+      tr: 'Sanki sonsuza kadar bekliyormuşum gibi geliyor.',
+    },
+    {
+      ing: "It's very important to eat a balanced diet for maintaining good health.",
+      tr: 'Sağlığı korumak için dengeli beslenmek çok önemlidir.',
+    },
+    {
+      ing: "It's difficult to concentrate when there is too much noise.",
+      tr: 'Çok fazla gürültü olduğunda konsantre olmak zordur.',
+    },
+    {
+      ing: "It seems like it's going to rain today.",
+      tr: 'Bugün yağmur yağacak gibi görünüyor.',
+    },
+    {
+      ing: "It's impossible to finish the project without any help.",
+      tr: 'Projeyi yardım almadan bitirmek imkansızdır.',
+    },
+    {
+      ing: "It's nice to see everyone getting along so well.",
+      tr: 'Herkesin bu kadar iyi anlaştığını görmek güzel.',
+    },
+    {
+      ing: "It's necessary to turn off the lights when you leave the room.",
+      tr: 'Odadan çıkarken ışıkları kapatmak gerekmektedir.',
+    },
+    {
+      ing: "It's interesting to learn about different cultures.",
+      tr: 'Farklı kültürleri öğrenmek ilginçtir.',
+    },
+    {
+      ing: "It's hot in the summer in Texas.",
+      tr: "Teksas'ta yaz ayları sıcaktır.",
+    },
+    {
+      ing: "It's cold in the winter in Canada.",
+      tr: "Kanada'da kışlar soğuktur.",
+    },
+    {
+      ing: "It's common to eat rice in Asian countries.",
+      tr: 'Asya ülkelerinde pirinç yemek yaygındır.',
+    },
+    {
+      ing: "It's considered rude to interrupt someone while they're talking.",
+      tr: 'Birisi konuşurken sözünü kesmek kabalık sayılır.',
+    },
+    {
+      ing: "It's dangerous to drive without wearing a seatbelt.",
+      tr: 'Emniyet kemeri takmadan araç kullanmak tehlikelidir.',
+    },
+    {
+      ing: "It's quite dark outside even though it's only 6pm.",
+      tr: 'Saat henüz 18.00 olmasına rağmen dışarısı oldukça karanlık.',
+    },
+    {
+      ing: "It's usually quiet in the library.",
+      tr: 'Kütüphane genellikle sessizdir.',
+    },
+    {
+      ing: "It's easy to forget things when you're busy.",
+      tr: 'Meşgul olduğunuzda işleri unutmak kolaydır.',
+    },
+    {
+      ing: "It's hard to wake up early in the morning.",
+      tr: 'Sabah erken kalkmak zordur.',
+    },
+    {
+      ing: 'It takes about two hours to drive to the city.',
+      tr: 'Şehre arabayla ulaşmak yaklaşık iki saat sürer.',
+    },
+    {
+      ing: "It's great to have friends who support you.",
+      tr: 'Sizi destekleyen arkadaşlarınızın olması harika.',
+    },
+    {
+      ing: "It's not normal for him to be late.",
+      tr: 'Geç kalması normal değildir.',
+    },
+    {
+      ing: "It's exciting to go on a holiday.",
+      tr: 'Tatile çıkmak heyecan vericidir.',
+    },
+    {
+      ing: "It's fun to play games with friends.",
+      tr: 'Arkadaşlarla oyun oynamak eğlencelidir.',
+    },
+    {
+      ing: "It's better to be safe than sorry.",
+      tr: 'Üzgün olmaktansa güvende olmak daha iyidir.',
+    },
+    {
+      ing: "It's rare to find a four-leaf clover.",
+      tr: 'Dört yapraklı yonca bulmak nadirdir.',
+    },
+    {
+      ing: "It's not always easy to tell the truth.",
+      tr: 'Gerçeği söylemek her zaman kolay değildir.',
+    },
+    {
+      ing: "It's crucial to drink water and stay hydrated.",
+      tr: 'Su içmek ve susuz kalmamak çok önemlidir.',
+    },
+    {
+      ing: "It's essential to wear a seatbelt in a moving car.",
+      tr: 'Hareket halindeki bir arabada emniyet kemeri takmak şarttır.',
+    },
+    {
+      ing: "It's raining cats and dogs outside.",
+      tr: 'Bardaktan boşanırcasına yağmur yağıyor.',
+    },
+    {
+      ing: "It's impossible to finish this project in one day.",
+      tr: 'Bu projeyi bir günde bitirmek imkansızdır.',
+    },
+    {
+      ing: "It's really hot in the desert during the day.",
+      tr: 'Çölde gündüzleri hava gerçekten çok sıcaktır.',
+    },
+    {
+      ing: "It's difficult to learn a new language without practice.",
+      tr: 'Yeni bir dili pratik yapmadan öğrenmek zordur.',
+    },
+    {
+      ing: "It's easy to get lost in a big city.",
+      tr: 'Büyük bir şehirde kaybolmak kolaydır.',
+    },
+    {
+      ing: "It's nice to meet new people and make friends.",
+      tr: 'Yeni insanlarla tanışmak ve arkadaş edinmek güzel.',
+    },
+    {
+      ing: "It's important to study hard to pass your exams.",
+      tr: 'Sınavlarınızı geçmek için çok çalışmanız önemlidir.',
+    },
+    {
+      ing: "It's very cold in winter in Siberia.",
+      tr: "Sibirya'da kışın hava çok soğuktur.",
+    },
+    {
+      ing: "It's too late to go to the movies.",
+      tr: 'Sinemaya gitmek için çok geç.',
+    },
+    {
+      ing: "It's great to watch the sunset by the beach.",
+      tr: 'Sahil kenarında gün batımını izlemek harika.',
+    },
+    {
+      ing: "It's wonderful to spend time with family during the holidays.",
+      tr: 'Tatillerde aileyle vakit geçirmek harikadır.',
+    },
+    {
+      ing: "It's fun to play games with friends.",
+      tr: 'Arkadaşlarla oyun oynamak eğlencelidir.',
+    },
+    {
+      ing: "It's boring to wait in long lines.",
+      tr: 'Uzun kuyruklarda beklemek sıkıcıdır.',
+    },
+    {
+      ing: "It's necessary to drink water every day.",
+      tr: 'Her gün su içmek gereklidir.',
+    },
+    {
+      ing: "It's healthy to eat fruits and vegetables.",
+      tr: 'Meyve ve sebze yemek sağlıklıdır.',
+    },
+    {
+      ing: "It's exciting to travel to new places.",
+      tr: 'Yeni yerlere seyahat etmek heyecan vericidir.',
+    },
+    {
+      ing: "It's common to greet each other with a handshake.",
+      tr: 'Birbirinizi el sıkışarak selamlamak yaygındır.',
+    },
+    {
+      ing: "It's not easy to wake up early in the morning.",
+      tr: 'Sabah erken kalkmak kolay değil.',
+    },
+    {
+      ing: "It's dangerous to drive without a license.",
+      tr: 'Ehliyetsiz araç kullanmak tehlikelidir.',
+    },
+    {
+      ing: "It's good to have hobbies to enjoy your free time.",
+      tr: 'Boş zamanlarınızı değerlendirecek hobilerinizin olması iyidir.',
+    },
+    {
+      ing: "It's better to ask for help when you don't understand something.",
+      tr: 'Bir şeyi anlamadığınızda yardım istemek daha iyidir.',
+    },
+    {
+      ing: "It's customary to tip waitstaff in many countries.",
+      tr: 'Birçok ülkede garsonlara bahşiş vermek bir gelenektir.',
+    },
+    {
+      ing: "It's risky to invest all your money in one place.",
+      tr: 'Tüm paranızı tek bir yere yatırmak risklidir.',
+    },
+    {
+      ing: "It's always nice to help others in need.",
+      tr: 'İhtiyacı olan başkalarına yardım etmek her zaman güzeldir.',
+    },
+  ],
+};

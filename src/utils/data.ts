@@ -371,6 +371,17 @@ export const FlowerToSubCategory: ISubCategory[] = [
   },
 ];
 
+export const ImpersonalItSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Çeviri Çalışması',
+    mainCategory: 'ImpersonalIt',
+    description: 'Çeviri çalışmaları',
+    page: 'ImpersonalItTranslation',
+    image: require('../assets/icons/translation.png'),
+  },
+];
+
 export interface IUnit {
   id: number;
   title: string;

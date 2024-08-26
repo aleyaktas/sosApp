@@ -29,6 +29,7 @@ import Conjunctions3GTranslation from '../screens/Translation/Conjunctions3GTran
 import ComparativesSuperlativesTranslation from '../screens/Translation/ComparativesSuperlatives';
 import ToTranslation from '../screens/Translation/FlowerToTranslation';
 import FlowerToTranslation from '../screens/Translation/FlowerToTranslation';
+import ImpersonalItTranslation from '../screens/Translation/ImpersonalIt';
 
 const Stack = createStackNavigator();
 
@@ -267,6 +268,15 @@ const RootNavigation = () => {
       <Stack.Screen
         name="FlowerToTranslation"
         component={FlowerToTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="ImpersonalItTranslation"
+        component={ImpersonalItTranslation}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,
