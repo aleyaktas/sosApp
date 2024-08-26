@@ -25,6 +25,7 @@ export type StackNavigatorList = {
   Tests: {title: string; item?: any};
   MultipleChoice: undefined;
   Vocabulary: {title?: string; item?: any};
+  ComparativesSuperlativesTranslation: {title: string; item?: any};
 };
 
 export type BottomNavigatorList = {

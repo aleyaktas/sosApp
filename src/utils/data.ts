@@ -66,7 +66,7 @@ export const Categories: ICategory[] = [
   {
     id: 9,
     title: 'Comparative & Superlatives',
-    mainCategory: 'Comparatives',
+    mainCategory: 'ComparativesSuperlatives',
     description: 'Karşılaştırmalı ve üstünlük derecesi.',
     image: require('../assets/icons/comparatives.png'),
   },
@@ -348,6 +348,18 @@ export const Conjunctions3GSubCategory: ISubCategory[] = [
     image: require('../assets/icons/translation.png'),
   },
 ];
+
+export const ComparativesSuperlativesSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Çeviri Çalışması',
+    mainCategory: 'ComparativesSuperlatives',
+    description: 'Çeviri çalışmaları',
+    page: 'ComparativesSuperlativesTranslation',
+    image: require('../assets/icons/translation.png'),
+  },
+];
+
 export interface IUnit {
   id: number;
   title: string;

@@ -42220,3 +42220,1993 @@ export const Conjunctions3GTranslationSentences = {
     },
   ],
 };
+
+export const ComparativesSuperlativesTranslationSentences = {
+  Comparatives: [
+    {
+      ing: 'This apple is bigger than that one.',
+      tr: 'Bu elma olandan daha büyüktür.',
+    },
+    {
+      ing: 'My car is faster than his car.',
+      tr: 'Benim arabam onun arabasından daha hızlıdır.',
+    },
+    {
+      ing: 'The red dress is more expensive than the blue one.',
+      tr: 'Kırmızı elbise maviden daha pahalıdır.',
+    },
+    {
+      ing: 'She is taller than her brother.',
+      tr: 'O, erkek kardeşinden daha uzundur.',
+    },
+    {
+      ing: 'This book is more interesting than the other one.',
+      tr: 'Bu kitap diğerinden daha ilginçtir.',
+    },
+    {
+      ing: 'Our house is smaller than theirs.',
+      tr: 'Bizim evimiz onlarınkinden daha küçüktür.',
+    },
+    {
+      ing: 'This cake is sweeter than the pie.',
+      tr: 'Bu kek pastadan daha tatlıdır.',
+    },
+    {
+      ing: 'My bag is lighter than yours.',
+      tr: 'Benim çantam seninkinden daha hafiftir.',
+    },
+    {
+      ing: 'The movie was better than the book.',
+      tr: 'Film kitaptan daha iyiydi.',
+    },
+    {
+      ing: 'His dog is friendlier than mine.',
+      tr: 'Onun köpeği benimkinden daha dost canlısıdır.',
+    },
+    {ing: 'Today is colder than yesterday.', tr: 'Bugün dünden daha soğuktur.'},
+    {
+      ing: 'Her hair is longer than mine.',
+      tr: 'Onun saçı benimkinden daha uzundur.',
+    },
+    {
+      ing: 'This street is busier than the next one.',
+      tr: 'Bu sokak sonrakinden daha yoğundur.',
+    },
+    {
+      ing: 'The new phone is more advanced than the old one.',
+      tr: 'Yeni telefon eskisinden daha gelişmiştir.',
+    },
+    {
+      ing: 'His handwriting is neater than hers.',
+      tr: 'Onun el yazısı onunkinden daha düzgündür.',
+    },
+    {
+      ing: 'My job is easier than yours.',
+      tr: 'Benim işim seninkinden daha kolaydır.',
+    },
+    {
+      ing: 'This coffee is stronger than tea.',
+      tr: 'Bu kahve çaydan daha güçlüdür.',
+    },
+    {
+      ing: 'His room is messier than mine.',
+      tr: 'Onun odası benimkinden daha dağınıktır.',
+    },
+    {
+      ing: 'Her voice is softer than his.',
+      tr: 'Onun sesi onunkinden daha yumuşaktır.',
+    },
+    {
+      ing: 'This puzzle is harder than the last one.',
+      tr: 'Bu bulmaca sonuncusundan daha zordur.',
+    },
+    {
+      ing: 'My shoes are more comfortable than yours.',
+      tr: 'Benim ayakkabılarım seninkilerden daha rahattır.',
+    },
+    {
+      ing: 'This road is narrower than the main street.',
+      tr: 'Bu yol ana caddeden daha dardır.',
+    },
+    {
+      ing: 'His jokes are funnier than hers.',
+      tr: 'Onun şakaları onunkilerden daha komiktir.',
+    },
+    {
+      ing: 'The new building is taller than the old one.',
+      tr: 'Yeni bina eskisinden daha uzundur.',
+    },
+    {
+      ing: 'Her smile is brighter than the sun.',
+      tr: 'Onun gülümsemesi güneşten daha parlaktır.',
+    },
+    {
+      ing: 'This sandwich is tastier than that one.',
+      tr: 'Bu sandviç olandan daha lezzetlidir.',
+    },
+    {
+      ing: 'The blue car is cheaper than the red one.',
+      tr: 'Mavi araba kırmızı olandan daha ucuzdur.',
+    },
+    {
+      ing: 'My bike is older than yours.',
+      tr: 'Benim bisikletim seninkinden daha eskidir.',
+    },
+    {
+      ing: 'This mountain is higher than that hill.',
+      tr: 'Bu dağ tepeye göre daha yüksektir.',
+    },
+    {
+      ing: 'His idea is better than mine.',
+      tr: 'Onun fikri benimkinden daha iyidir.',
+    },
+    {
+      ing: 'The river is wider than the stream.',
+      tr: 'Nehir dereden daha geniştir.',
+    },
+    {
+      ing: 'My sister is younger than me.',
+      tr: 'Kız kardeşim benden daha gençtir.',
+    },
+    {
+      ing: 'This plant is greener than the other one.',
+      tr: 'Bu bitki diğerinden daha yeşildir.',
+    },
+    {
+      ing: 'Her eyes are prettier than stars.',
+      tr: 'Onun gözleri yıldızlardan daha güzeldir.',
+    },
+    {ing: 'The sun is hotter than the moon.', tr: 'Güneş aydan daha sıcaktır.'},
+    {
+      ing: 'My dog is lazier than his.',
+      tr: 'Benim köpeğim onunkinden daha tembeldir.',
+    },
+    {
+      ing: 'The grass is softer than the pavement.',
+      tr: 'Çimen kaldırımdan daha yumuşaktır.',
+    },
+    {
+      ing: 'This shirt is cleaner than that one.',
+      tr: 'Bu gömlek olandan daha temizdir.',
+    },
+    {
+      ing: 'Her drawing is more detailed than mine.',
+      tr: 'Onun çizimi benimkinden daha detaylıdır.',
+    },
+    {
+      ing: 'This task is more difficult than I thought.',
+      tr: 'Bu görev düşündüğümden daha zordur.',
+    },
+    {
+      ing: 'His advice is more helpful than hers.',
+      tr: 'Onun tavsiyesi onunkinden daha faydalıdır.',
+    },
+    {
+      ing: 'The lesson was shorter than expected.',
+      tr: 'Ders beklenenden daha kısaydı.',
+    },
+    {
+      ing: 'My lunch is healthier than junk food.',
+      tr: 'Benim öğle yemeğim fast fooddan daha sağlıklıdır.',
+    },
+    {
+      ing: 'Her dress is more colorful than mine.',
+      tr: 'Onun elbisesi benimkinden daha renklidir.',
+    },
+    {
+      ing: 'This exam is easier than the previous one.',
+      tr: 'Bu sınav öncekinden daha kolaydır.',
+    },
+    {
+      ing: 'His house is quieter than the city.',
+      tr: 'Onun evi şehirden daha sessizdir.',
+    },
+    {ing: 'The cat is cuter than the dog.', tr: 'Kedi köpekten daha tatlıdır.'},
+    {
+      ing: 'This path is safer than that one.',
+      tr: 'Bu yol olandan daha güvenlidir.',
+    },
+    {
+      ing: 'Her story is more believable than his.',
+      tr: 'Onun hikayesi onunkinden daha inandırıcıdır.',
+    },
+    {
+      ing: 'The sky is clearer than yesterday.',
+      tr: 'Gökyüzü dünden daha açıktır.',
+    },
+    {
+      ing: 'His explanation is clearer than the book.',
+      tr: 'Onun açıklaması kitaptan daha açıktır.',
+    },
+    {
+      ing: 'My idea is more creative than yours.',
+      tr: 'Benim fikrim seninkinden daha yaratıcıdır.',
+    },
+    {
+      ing: 'This song is catchier than the last one.',
+      tr: 'Bu şarkı sonuncusundan daha akılda kalıcıdır.',
+    },
+    {
+      ing: 'Her cooking is better than mine.',
+      tr: 'Onun yemek yapışı benimkinden daha iyidir.',
+    },
+    {
+      ing: 'The car is faster than the bicycle.',
+      tr: 'Araba bisikletten daha hızlıdır.',
+    },
+    {
+      ing: 'This chair is more comfortable than the stool.',
+      tr: 'Bu sandalye tabureden daha rahattır.',
+    },
+    {
+      ing: 'The park is closer than the mall.',
+      tr: 'Park alışveriş merkezinden daha yakındır.',
+    },
+    {
+      ing: 'His grades are higher than hers.',
+      tr: 'Onun notları onunkilerden daha yüksektir.',
+    },
+    {
+      ing: 'My coffee is hotter than yours.',
+      tr: 'Benim kahvem seninkinden daha sıcaktır.',
+    },
+    {
+      ing: 'This lake is deeper than the pool.',
+      tr: 'Bu göl havuzdan daha derindir.',
+    },
+    {
+      ing: 'Her shoes are more stylish than mine.',
+      tr: 'Onun ayakkabıları benimkilerden daha şıktır.',
+    },
+    {
+      ing: 'The road is longer than it seems.',
+      tr: 'Yol göründüğünden daha uzundur.',
+    },
+    {
+      ing: 'His schedule is busier than mine.',
+      tr: 'Onun programı benimkinden daha yoğundur.',
+    },
+    {
+      ing: 'My pillow is softer than his.',
+      tr: 'Benim yastığım onunkinden daha yumuşaktır.',
+    },
+    {
+      ing: 'This city is larger than our town.',
+      tr: 'Bu şehir bizim kasabamızdan daha büyüktür.',
+    },
+    {
+      ing: 'Her garden is prettier than his.',
+      tr: 'Onun bahçesi onunkinden daha güzeldir.',
+    },
+    {
+      ing: 'The phone is newer than my laptop.',
+      tr: 'Telefon benim dizüstü bilgisayarımdan daha yenidir.',
+    },
+    {
+      ing: 'My brother is funnier than me.',
+      tr: 'Erkek kardeşim benden daha komiktir.',
+    },
+    {
+      ing: 'This route is shorter than the other one.',
+      tr: 'Bu rota olandan daha kısadır.',
+    },
+    {
+      ing: 'The exam was harder than I expected.',
+      tr: 'Sınav beklediğimden daha zordu.',
+    },
+    {
+      ing: 'Her cat is fluffier than mine.',
+      tr: 'Onun kedisi benimkinden daha kabarıktır.',
+    },
+    {
+      ing: 'My sandwich is bigger than yours.',
+      tr: 'Benim sandviçim seninkinden daha büyüktür.',
+    },
+    {
+      ing: 'This lamp is brighter than that one.',
+      tr: 'Bu lamba olandan daha parlaktır.',
+    },
+    {
+      ing: 'His project is more ambitious than hers.',
+      tr: 'Onun projesi benimkinden daha iddialıdır.',
+    },
+    {
+      ing: 'The sky is bluer than the ocean.',
+      tr: 'Gökyüzü okyanustan daha mavidir.',
+    },
+    {
+      ing: 'My friend is kinder than yours.',
+      tr: 'Benim arkadaşım seninkinden daha kibar.',
+    },
+    {
+      ing: 'This book is thicker than the magazine.',
+      tr: 'Bu kitap dergiden daha kalındır.',
+    },
+    {
+      ing: 'The beach is cleaner than the park.',
+      tr: 'Plaj parktan daha temizdir.',
+    },
+    {
+      ing: 'Her painting is more vibrant than his.',
+      tr: 'Onun resmi benimkinden daha canlıdır.',
+    },
+    {
+      ing: 'The problem is simpler than it looks.',
+      tr: 'Sorun göründüğünden daha basittir.',
+    },
+    {
+      ing: 'My bed is comfier than the couch.',
+      tr: 'Benim yatağım kanepeden daha rahattır.',
+    },
+    {
+      ing: 'This street is quieter than the last one.',
+      tr: 'Bu sokak sonuncusundan daha sessizdir.',
+    },
+    {
+      ing: 'Her hair is shinier than mine.',
+      tr: 'Onun saçı benimkinden daha parlaktır.',
+    },
+    {
+      ing: 'The movie is scarier than the book.',
+      tr: 'Film kitaptan daha korkutucudur.',
+    },
+    {
+      ing: 'My soup is saltier than hers.',
+      tr: 'Benim çorbam onunkinden daha tuzludur.',
+    },
+    {
+      ing: 'This game is more fun than studying.',
+      tr: 'Bu oyun ders çalışmaktan daha eğlencelidir.',
+    },
+    {
+      ing: 'His bike is faster than mine.',
+      tr: 'Onun bisikleti benimkinden daha hızlıdır.',
+    },
+    {
+      ing: 'The chocolate is sweeter than candy.',
+      tr: 'Çikolata şekerden daha tatlıdır.',
+    },
+    {
+      ing: 'Her bag is more fashionable than mine.',
+      tr: 'Onun çantası benimkinden daha modadır.',
+    },
+    {
+      ing: 'This puzzle is more challenging than the last.',
+      tr: 'Bu bulmaca sonuncusundan daha zordur.',
+    },
+    {
+      ing: 'My dog is braver than yours.',
+      tr: 'Benim köpeğim seninkinden daha cesurdur.',
+    },
+    {
+      ing: 'The sun is brighter than the lamp.',
+      tr: 'Güneş lambadan daha parlaktır.',
+    },
+    {
+      ing: 'Her voice is louder than mine.',
+      tr: 'Onun sesi benimkinden daha yüksek.',
+    },
+    {
+      ing: 'The lesson was more interesting than expected.',
+      tr: 'Ders beklenenden daha ilginçti.',
+    },
+    {
+      ing: 'My pen is smoother than hers.',
+      tr: 'Benim kalemim onunkinden daha pürüzsüzdür.',
+    },
+    {
+      ing: 'This river is clearer than the lake.',
+      tr: 'Bu nehir gölden daha temizdir.',
+    },
+    {
+      ing: 'Her story is more captivating than his.',
+      tr: 'Onun hikayesi onunkinden daha çekicidir.',
+    },
+    {
+      ing: 'The winter is colder than autumn.',
+      tr: 'Kış sonbahardan daha soğuktur.',
+    },
+    {
+      ing: 'My cake is fluffier than yours.',
+      tr: 'Benim kekim seninkinden daha kabarıktır.',
+    },
+    {
+      ing: 'This forest is denser than the park.',
+      tr: 'Bu orman parktan daha yoğundur.',
+    },
+    {
+      ing: 'His laptop is lighter than mine.',
+      tr: 'Onun dizüstü bilgisayarı benimkinden daha hafiftir.',
+    },
+    {
+      ing: 'The cheese is tastier than the bread.',
+      tr: 'Peynir ekmekten daha lezzetlidir.',
+    },
+    {
+      ing: 'Her handwriting is more elegant than mine.',
+      tr: 'Onun el yazısı benimkinden daha zariftir.',
+    },
+    {
+      ing: 'The mountain is steeper than the hill.',
+      tr: 'Dağ tepeye göre daha dik.',
+    },
+    {
+      ing: 'My idea is more practical than his.',
+      tr: 'Benim fikrim onunkinden daha pratiktir.',
+    },
+    {
+      ing: 'This drink is colder than the other one.',
+      tr: 'Bu içecek diğerinden daha soğuktur.',
+    },
+    {
+      ing: 'Her pet is quieter than mine.',
+      tr: 'Onun evcil hayvanı benimkinden daha sessiz.',
+    },
+    {
+      ing: 'The lesson is more engaging than the last.',
+      tr: 'Ders sonuncusundan daha ilgi çekici.',
+    },
+    {
+      ing: 'My scarf is warmer than his.',
+      tr: 'Benim atkım onunkinden daha sıcaktır.',
+    },
+    {
+      ing: 'This plant is healthier than the other.',
+      tr: 'Bu bitki diğerinden daha sağlıklıdır.',
+    },
+    {
+      ing: 'Her shoes are more comfortable than mine.',
+      tr: 'Onun ayakkabıları benimkilerden daha rahattır.',
+    },
+    {
+      ing: 'The bridge is longer than the tunnel.',
+      tr: 'Köprü tünelden daha uzundur.',
+    },
+    {
+      ing: 'My phone is faster than his.',
+      tr: 'Benim telefonum onunkinden daha hızlıdır.',
+    },
+    {
+      ing: 'This song is sadder than the previous one.',
+      tr: 'Bu şarkı öncekinden daha üzücüdür.',
+    },
+    {
+      ing: 'Her dress is prettier than mine.',
+      tr: 'Onun elbisesi benimkinden daha güzeldir.',
+    },
+    {
+      ing: 'The lake is calmer than the river.',
+      tr: 'Göl nehirden daha sakindir.',
+    },
+    {
+      ing: 'My coat is thicker than yours.',
+      tr: 'Benim kabanım seninkinden daha kalındır.',
+    },
+    {
+      ing: 'This task is more urgent than the last.',
+      tr: 'Bu görev sonuncusundan daha acildir.',
+    },
+    {
+      ing: 'Her hair is curlier than mine.',
+      tr: 'Onun saçı benimkinden daha kıvırcıktır.',
+    },
+    {
+      ing: 'The soup is hotter than expected.',
+      tr: 'Çorba beklenenden daha sıcaktır.',
+    },
+    {
+      ing: 'My shoes are more durable than yours.',
+      tr: 'Benim ayakkabılarım seninkilerden daha dayanıklıdır.',
+    },
+    {
+      ing: 'This bridge is taller than the tree.',
+      tr: 'Köprü ağaçtan daha uzundur.',
+    },
+    {
+      ing: 'His pet is more playful than hers.',
+      tr: 'Onun evcil hayvanı onunkinden daha oyuncudur.',
+    },
+    {
+      ing: 'The winter is harsher than autumn.',
+      tr: 'Kış sonbahardan daha serttir.',
+    },
+    {
+      ing: 'My drink is colder than yours.',
+      tr: 'Benim içeceğim seninkinden daha soğuktur.',
+    },
+    {
+      ing: 'This plan is better than the previous one.',
+      tr: 'Bu plan öncekinden daha iyidir.',
+    },
+    {
+      ing: 'Her bag is heavier than mine.',
+      tr: 'Onun çantası benimkinden daha ağırdır.',
+    },
+    {
+      ing: 'The book is more educational than the movie.',
+      tr: 'Kitap filmden daha eğiticidir.',
+    },
+    {
+      ing: 'My scarf is softer than yours.',
+      tr: 'Benim atkım seninkinden daha yumuşaktır.',
+    },
+    {
+      ing: 'This garden is more beautiful than the other one.',
+      tr: 'Bu bahçe diğerinden daha güzeldir.',
+    },
+    {
+      ing: 'Her painting is more abstract than his.',
+      tr: 'Onun resmi onunkinden daha soyuttur.',
+    },
+    {
+      ing: 'The road is bumpier than expected.',
+      tr: 'Yol beklenenden daha engebelidir.',
+    },
+    {
+      ing: 'My idea is more innovative than his.',
+      tr: 'Benim fikrim onunkinden daha yenilikçidir.',
+    },
+    {
+      ing: 'This puzzle is more intricate than the last.',
+      tr: 'Bu bulmaca sonuncusundan daha karmaşıktır.',
+    },
+    {
+      ing: 'Her room is cleaner than mine.',
+      tr: 'Onun odası benimkinden daha temizdir.',
+    },
+    {
+      ing: 'The test is easier than the homework.',
+      tr: 'Test ödevden daha kolaydır.',
+    },
+    {
+      ing: 'My coffee is sweeter than yours.',
+      tr: 'Benim kahvem seninkinden daha tatlıdır.',
+    },
+    {
+      ing: 'This beach is quieter than the other one.',
+      tr: 'Bu plaj diğerinden daha sessizdir.',
+    },
+    {
+      ing: 'Her dog is more obedient than mine.',
+      tr: 'Onun köpeği benimkinden daha itaatkardır.',
+    },
+    {
+      ing: 'The lesson was more enjoyable than I thought.',
+      tr: 'Ders düşündüğümden daha keyifliydi.',
+    },
+    {
+      ing: 'My dress is more elegant than hers.',
+      tr: 'Benim elbisem onunkinden daha zariftir.',
+    },
+    {
+      ing: 'This plant is taller than the other one.',
+      tr: 'Bu bitki diğerinden daha uzundur.',
+    },
+    {
+      ing: 'Her voice is more melodic than his.',
+      tr: 'Onun sesi onunkinden daha melodiktir.',
+    },
+    {
+      ing: 'The car is more spacious than the bus.',
+      tr: 'Araba otobüsten daha geniştir.',
+    },
+    {
+      ing: 'My pillow is firmer than yours.',
+      tr: 'Benim yastığım seninkinden daha serttir.',
+    },
+    {
+      ing: 'This solution is simpler than the last.',
+      tr: 'Bu çözüm sonuncusundan daha basittir.',
+    },
+    {
+      ing: 'Her advice is wiser than his.',
+      tr: 'Onun tavsiyesi onunkinden daha akıllıcadır.',
+    },
+    {
+      ing: 'The river is more dangerous than the lake.',
+      tr: 'Nehir gölden daha tehlikelidir.',
+    },
+    {
+      ing: 'My shoes are more stylish than his.',
+      tr: 'Benim ayakkabılarım onunkilerden daha şıktır.',
+    },
+    {
+      ing: 'This plan is more feasible than the previous one.',
+      tr: 'Bu plan öncekinden daha uygulanabilirdir.',
+    },
+    {
+      ing: 'Her idea is more creative than mine.',
+      tr: 'Onun fikri benimkinden daha yaratıcıdır.',
+    },
+    {
+      ing: 'The soup is more flavorful than expected.',
+      tr: 'Çorba beklenenden daha lezzetlidir.',
+    },
+    {
+      ing: 'My phone is more reliable than yours.',
+      tr: 'Benim telefonum seninkinden daha güvenilirdir.',
+    },
+    {
+      ing: 'This movie is more dramatic than the last.',
+      tr: 'Bu film sonuncusundan daha dramatiktir.',
+    },
+    {
+      ing: 'Her hair is more manageable than mine.',
+      tr: 'Onun saçı benimkinden daha yönetilebilirdir.',
+    },
+    {
+      ing: 'The road is less crowded than before.',
+      tr: 'Yol öncekinden daha az kalabalıktır.',
+    },
+    {
+      ing: 'My bed is more comfortable than his.',
+      tr: 'Benim yatağım onunkinden daha rahattır.',
+    },
+    {
+      ing: 'This task is more rewarding than it seems.',
+      tr: 'Bu görev göründüğünden daha ödüllendiricidir.',
+    },
+    {
+      ing: 'Her drawing is more realistic than his.',
+      tr: 'Onun çizimi onunkinden daha gerçektir.',
+    },
+    {
+      ing: 'The sky is more overcast than yesterday.',
+      tr: 'Gökyüzü dünden daha kapalıdır.',
+    },
+    {
+      ing: 'My pen is more functional than hers.',
+      tr: 'Benim kalemim onunkinden daha fonksiyoneldir.',
+    },
+    {
+      ing: 'This river is more polluted than the lake.',
+      tr: 'Bu nehir gölden daha kirlidir.',
+    },
+    {
+      ing: 'Her story is more engaging than his.',
+      tr: 'Onun hikayesi onunkinden daha ilgi çekicidir.',
+    },
+    {
+      ing: 'The winter is more severe than autumn.',
+      tr: 'Kış sonbahardan daha şiddetlidir.',
+    },
+    {
+      ing: 'My cake is more moist than yours.',
+      tr: 'Benim kekim seninkinden daha nemlidir.',
+    },
+    {
+      ing: 'This forest is more enchanting than the park.',
+      tr: 'Bu orman parktan daha büyüleyicidir.',
+    },
+    {
+      ing: 'His laptop is more powerful than mine.',
+      tr: 'Onun dizüstü bilgisayarı benimkinden daha güçlüdür.',
+    },
+    {
+      ing: 'The cheese is more aromatic than the bread.',
+      tr: 'Peynir ekmekten daha aromatiktir.',
+    },
+    {
+      ing: 'Her handwriting is more legible than mine.',
+      tr: 'Onun el yazısı benimkinden daha okunaklıdır.',
+    },
+    {
+      ing: 'The mountain is more picturesque than the hill.',
+      tr: 'Dağ tepeye göre daha güzel manzaralıdır.',
+    },
+    {
+      ing: 'My idea is more efficient than his.',
+      tr: 'Benim fikrim onunkinden daha verimlidir.',
+    },
+    {
+      ing: 'This drink is more refreshing than the other one.',
+      tr: 'Bu içecek diğerinden daha ferahlatıcıdır.',
+    },
+    {
+      ing: 'Her pet is more sociable than mine.',
+      tr: 'Onun evcil hayvanı benimkinden daha sosyaldir.',
+    },
+    {
+      ing: 'The lesson is more interactive than the last.',
+      tr: 'Ders sonuncusundan daha etkileşimlidir.',
+    },
+    {
+      ing: 'My scarf is more stylish than his.',
+      tr: 'Benim atkım onunkinden daha şıktır.',
+    },
+    {
+      ing: 'This plant is more vibrant than the other.',
+      tr: 'Bu bitki diğerinden daha canlıdır.',
+    },
+    {
+      ing: 'Her shoes are more durable than mine.',
+      tr: 'Onun ayakkabıları benimkilerden daha dayanıklıdır.',
+    },
+    {
+      ing: 'The bridge is more scenic than the tunnel.',
+      tr: 'Köprü tünelden daha manzaralıdır.',
+    },
+    {
+      ing: 'My phone is more versatile than his.',
+      tr: 'Benim telefonum onunkinden daha çok yönlüdür.',
+    },
+    {
+      ing: 'This song is more uplifting than the previous one.',
+      tr: 'Bu şarkı öncekinden daha coşkuludur.',
+    },
+    {
+      ing: 'Her dress is more flattering than mine.',
+      tr: 'Onun elbisesi benimkinden daha güzeldir.',
+    },
+    {
+      ing: 'The lake is more serene than the river.',
+      tr: 'Göl nehirden daha sakin.',
+    },
+    {
+      ing: 'My coat is more insulating than yours.',
+      tr: 'Benim kabanım seninkinden daha yalıtkandır.',
+    },
+    {
+      ing: 'This task is more critical than the last.',
+      tr: 'Bu görev sonuncusundan daha kritiktir.',
+    },
+    {
+      ing: 'Her hair is more lustrous than mine.',
+      tr: 'Onun saçı benimkinden daha parlaktır.',
+    },
+    {
+      ing: 'The soup is more comforting than expected.',
+      tr: 'Çorba beklenenden daha rahattır.',
+    },
+    {
+      ing: 'My shoes are more supportive than yours.',
+      tr: 'Benim ayakkabılarım seninkilerden daha destekleyicidir.',
+    },
+    {
+      ing: 'This bridge is more impressive than the tree.',
+      tr: 'Bu köprü ağaçtan daha etkileyicidir.',
+    },
+    {
+      ing: 'His pet is more affectionate than hers.',
+      tr: 'Onun evcil hayvanı onunkinden daha sevecendir.',
+    },
+    {
+      ing: 'The winter is more unpredictable than autumn.',
+      tr: 'Kış sonbahardan daha öngörülemezdir.',
+    },
+    {
+      ing: 'My drink is more invigorating than yours.',
+      tr: 'Benim içeceğim seninkinden daha canlandırıcıdır.',
+    },
+    {
+      ing: 'This plan is more strategic than the previous one.',
+      tr: 'Bu plan öncekinden daha stratejiktir.',
+    },
+    {
+      ing: 'Her bag is more practical than mine.',
+      tr: 'Onun çantası benimkinden daha pratiktir.',
+    },
+    {
+      ing: 'The book is more inspiring than the movie.',
+      tr: 'Kitap filmden daha ilham vericidir.',
+    },
+    {
+      ing: 'My scarf is more eye-catching than yours.',
+      tr: 'Benim atkım seninkinden daha dikkat çekicidir.',
+    },
+    {
+      ing: 'This garden is more tranquil than the other one.',
+      tr: 'Bu bahçe diğerinden daha huzurludur.',
+    },
+    {
+      ing: 'Her painting is more dynamic than his.',
+      tr: 'Onun resmi onunkinden daha dinamiktir.',
+    },
+    {
+      ing: 'The road is more treacherous than expected.',
+      tr: 'Yol beklenenden daha tehlikelidir.',
+    },
+    {
+      ing: 'Her bike is newer than mine.',
+      tr: 'Onun bisikleti benimkinden daha yenidir.',
+    },
+    {
+      ing: 'This cake is softer than the cookie.',
+      tr: 'Bu kek kurabiyeden daha yumuşaktır.',
+    },
+    {
+      ing: 'The mountain is steeper than the hill.',
+      tr: 'Dağ tepeye göre daha diktir.',
+    },
+    {
+      ing: 'His job is more stressful than hers.',
+      tr: 'Onun işi onunkinden daha streslidir.',
+    },
+    {
+      ing: 'My bag is heavier than his.',
+      tr: 'Benim çantam onunkinden daha ağırdır.',
+    },
+    {
+      ing: 'The new student is more confident than the others.',
+      tr: 'Yeni öğrenci diğerlerinden daha kendine güvenlidir.',
+    },
+    {
+      ing: 'This story is sadder than the last one.',
+      tr: 'Bu hikaye sonuncusundan daha üzücüdür.',
+    },
+    {
+      ing: 'Her handwriting is messier than mine.',
+      tr: 'Onun el yazısı benimkinden daha dağınıktır.',
+    },
+    {
+      ing: 'My cat is lazier than yours.',
+      tr: 'Benim kedim seninkinden daha tembeldir.',
+    },
+    {
+      ing: 'The road is bumpier than before.',
+      tr: 'Yol öncekinden daha engebelidir.',
+    },
+    {
+      ing: 'His jokes are sillier than mine.',
+      tr: 'Onun şakaları benimkilerden daha saçmadır.',
+    },
+    {
+      ing: 'The ocean is deeper than the lake.',
+      tr: 'Okyanus gölden daha derindir.',
+    },
+    {
+      ing: 'My dog is friendlier than his.',
+      tr: 'Benim köpeğim onunkinden daha dost canlısıdır.',
+    },
+    {
+      ing: 'This puzzle is easier than the previous one.',
+      tr: 'Bu bulmaca sonuncusundan daha kolaydır.',
+    },
+    {
+      ing: 'Her house is cozier than mine.',
+      tr: 'Onun evi benimkinden daha rahat.',
+    },
+    {
+      ing: 'My sister is shorter than me.',
+      tr: 'Kız kardeşim benden daha kısadır.',
+    },
+    {
+      ing: 'This flower is prettier than the other one.',
+      tr: 'Bu çiçek diğerinden daha güzeldir.',
+    },
+    {
+      ing: 'His computer is slower than mine.',
+      tr: 'Onun bilgisayarı benimkinden daha yavaştır.',
+    },
+    {
+      ing: "My mom's cooking is better than any restaurant.",
+      tr: 'Annemin yemekleri herhangi bir restorandan daha iyidir.',
+    },
+    {
+      ing: 'The beach is warmer than the mountains.',
+      tr: 'Plaj dağlardan daha sıcaktır.',
+    },
+    {
+      ing: 'This drink is colder than the other one.',
+      tr: 'Bu içecek diğerinden daha soğuktur.',
+    },
+    {
+      ing: 'Her car is more reliable than his.',
+      tr: 'Onun arabası benimkinden daha güvenilirdir.',
+    },
+    {
+      ing: 'My idea is more original than yours.',
+      tr: 'Benim fikrim seninkinden daha orijinaldir.',
+    },
+    {
+      ing: 'This movie is more exciting than the book.',
+      tr: 'Bu film kitaptan daha heyecan vericidir.',
+    },
+    {
+      ing: 'Her room is more colorful than mine.',
+      tr: 'Onun odası benimkinden daha renklidir.',
+    },
+    {
+      ing: 'My phone is newer than hers.',
+      tr: 'Benim telefonum onunkinden daha yenidir.',
+    },
+    {
+      ing: 'This test is harder than the last one.',
+      tr: 'Bu test sonuncusundan daha zordur.',
+    },
+    {
+      ing: 'His advice is more practical than hers.',
+      tr: 'Onun tavsiyesi onunkinden daha pratiktir.',
+    },
+    {
+      ing: 'The park is more crowded than usual.',
+      tr: 'Park her zamankinden daha kalabalıktır.',
+    },
+    {
+      ing: 'My shoes are cleaner than yours.',
+      tr: 'Benim ayakkabılarım seninkilerden daha temizdir.',
+    },
+    {
+      ing: 'This ice cream is creamier than the last one.',
+      tr: 'Bu dondurma sonuncusundan daha kremalıdır.',
+    },
+    {
+      ing: 'Her smile is brighter than his.',
+      tr: 'Onun gülümsemesi benimkinden daha parlaktır.',
+    },
+    {
+      ing: 'The river is more polluted than the lake.',
+      tr: 'Nehir gölden daha kirlidir.',
+    },
+    {
+      ing: 'My city is bigger than his town.',
+      tr: 'Benim şehrim onun kasabasından daha büyüktür.',
+    },
+    {
+      ing: 'This sandwich is healthier than the burger.',
+      tr: 'Bu sandviç burgerden daha sağlıklıdır.',
+    },
+    {
+      ing: 'His story is more interesting than hers.',
+      tr: 'Onun hikayesi benimkinden daha ilginçtir.',
+    },
+    {
+      ing: 'My watch is more expensive than yours.',
+      tr: 'Benim saatim seninkinden daha pahalıdır.',
+    },
+    {
+      ing: 'The lesson was longer than I expected.',
+      tr: 'Ders beklediğimden daha uzundu.',
+    },
+    {
+      ing: 'This book is more educational than the magazine.',
+      tr: 'Bu kitap dergiden daha eğiticidir.',
+    },
+    {
+      ing: 'Her drawing is more detailed than mine.',
+      tr: 'Onun çizimi benimkinden daha detaylıdır.',
+    },
+    {
+      ing: 'My coat is warmer than hers.',
+      tr: 'Benim kabanım onunkinden daha sıcaktır.',
+    },
+    {
+      ing: 'The new building is more modern than the old one.',
+      tr: 'Yeni bina eskisinden daha moderndir.',
+    },
+    {
+      ing: 'This road is more dangerous than it looks.',
+      tr: 'Bu yol göründüğünden daha tehlikelidir.',
+    },
+    {
+      ing: 'His dog is more obedient than mine.',
+      tr: 'Onun köpeği benimkinden daha itaatkardır.',
+    },
+    {
+      ing: 'My coffee is stronger than hers.',
+      tr: 'Benim kahvem onunkinden daha güçlüdür.',
+    },
+    {
+      ing: 'The movie was scarier than the book.',
+      tr: 'Film kitaptan daha korkutucuydu.',
+    },
+    {
+      ing: 'Her cooking is more delicious than mine.',
+      tr: 'Onun yemek yapışı benimkinden daha lezzetlidir.',
+    },
+    {
+      ing: 'This chair is more comfortable than the bench.',
+      tr: 'Bu sandalye banktan daha rahattır.',
+    },
+    {
+      ing: 'His house is more spacious than ours.',
+      tr: 'Onun evi bizimkinden daha geniştir.',
+    },
+    {
+      ing: 'My bike is faster than his.',
+      tr: 'Benim bisikletim onunkinden daha hızlıdır.',
+    },
+    {
+      ing: 'This soup is saltier than I like.',
+      tr: 'Bu çorba benim sevdiğimden daha tuzludur.',
+    },
+    {
+      ing: 'Her handwriting is clearer than mine.',
+      tr: 'Onun el yazısı benimkinden daha net.',
+    },
+    {
+      ing: 'The park is more peaceful than the beach.',
+      tr: 'Park plajdan daha huzurludur.',
+    },
+    {
+      ing: 'My car is more fuel-efficient than yours.',
+      tr: 'Benim arabam seninkinden daha yakıt verimlidir.',
+    },
+    {
+      ing: 'This shirt is more stylish than that one.',
+      tr: 'Bu gömlek olandan daha şıktır.',
+    },
+    {
+      ing: 'His grades are better than mine.',
+      tr: 'Onun notları benimkilerden daha iyidir.',
+    },
+    {
+      ing: 'The summer is hotter than the spring.',
+      tr: 'Yaz ilkbahardan daha sıcaktır.',
+    },
+    {
+      ing: 'My computer is more powerful than hers.',
+      tr: 'Benim bilgisayarım onunkinden daha güçlüdür.',
+    },
+    {
+      ing: 'This test is simpler than the last one.',
+      tr: 'Bu test sonuncusundan daha basittir.',
+    },
+    {
+      ing: 'Her voice is more soothing than his.',
+      tr: 'Onun sesi onunkinden daha yatıştırıcıdır.',
+    },
+    {
+      ing: 'The river is narrower than the stream.',
+      tr: 'Nehir akıntıdan daha dardır.',
+    },
+    {
+      ing: 'My plan is more feasible than yours.',
+      tr: 'Benim planım seninkinden daha uygulanabilirdir.',
+    },
+    {
+      ing: 'This road is longer than the highway.',
+      tr: 'Bu yol otoyoldan daha uzundur.',
+    },
+    {
+      ing: 'His story is more believable than hers.',
+      tr: 'Onun hikayesi onunkinden daha inandırıcıdır.',
+    },
+    {
+      ing: 'My phone is more user-friendly than yours.',
+      tr: 'Benim telefonum seninkinden daha kullanıcı dostudur.',
+    },
+    {
+      ing: 'This path is more scenic than the other one.',
+      tr: 'Bu yol diğerinden daha manzaralıdır.',
+    },
+    {
+      ing: 'Her project is more ambitious than mine.',
+      tr: 'Onun projesi benimkinden daha iddialıdır.',
+    },
+    {
+      ing: 'The winter is colder than the fall.',
+      tr: 'Kış sonbahardan daha soğuktur.',
+    },
+    {
+      ing: 'My idea is more creative than his.',
+      tr: 'Benim fikrim onunkinden daha yaratıcıdır.',
+    },
+    {
+      ing: 'This drink is tastier than the other one.',
+      tr: 'Bu içecek diğerinden daha lezzetlidir.',
+    },
+    {
+      ing: 'Her dog is more playful than mine.',
+      tr: 'Onun köpeği benimkinden daha oyuncudur.',
+    },
+    {
+      ing: 'The book is thicker than the magazine.',
+      tr: 'Kitap dergiden daha kalındır.',
+    },
+    {
+      ing: 'My scarf is softer than his.',
+      tr: 'Benim atkım onunkinden daha yumuşaktır.',
+    },
+    {
+      ing: 'This flower is more vibrant than the other one.',
+      tr: 'Bu çiçek diğerinden daha canlıdır.',
+    },
+    {
+      ing: 'His explanation is more concise than hers.',
+      tr: 'Onun açıklaması onunkinden daha kısadır.',
+    },
+    {
+      ing: 'My shoes are more comfortable than his.',
+      tr: 'Benim ayakkabılarım onunkilerden daha rahattır.',
+    },
+    {
+      ing: 'This tree is taller than the house.',
+      tr: 'Bu ağaç evden daha uzundur.',
+    },
+    {
+      ing: 'Her hair is curlier than mine.',
+      tr: 'Onun saçı benimkinden daha kıvırcıktır.',
+    },
+    {
+      ing: 'The game was more exciting than the movie.',
+      tr: 'Oyun filmden daha heyecan vericiydi.',
+    },
+    {
+      ing: 'My pen is smoother than yours.',
+      tr: 'Benim kalemim onunkinden daha pürüzsüzdür.',
+    },
+    {
+      ing: 'This drink is sweeter than the last one.',
+      tr: 'Bu içecek sonuncusundan daha tatlıdır.',
+    },
+    {
+      ing: 'Her cat is more independent than mine.',
+      tr: 'Onun kedisi benimkinden daha bağımsızdır.',
+    },
+    {
+      ing: 'The sky is clearer than yesterday.',
+      tr: 'Gökyüzü dünden daha açıktır.',
+    },
+    {
+      ing: 'My idea is more innovative than his.',
+      tr: 'Benim fikrim onunkinden daha yenilikçidir.',
+    },
+    {
+      ing: 'This book is more engaging than the other one.',
+      tr: 'Bu kitap diğerinden daha ilgi çekicidir.',
+    },
+    {
+      ing: 'Her dress is more elegant than mine.',
+      tr: 'Onun elbisesi benimkinden daha zariftir.',
+    },
+    {
+      ing: 'The mountain is higher than the hill.',
+      tr: 'Dağ tepeye göre daha yüksektir.',
+    },
+    {
+      ing: 'My car is more spacious than yours.',
+      tr: 'Benim arabam seninkinden daha geniştir.',
+    },
+    {
+      ing: 'This puzzle is more challenging than the last.',
+      tr: 'Bu bulmaca sonuncusundan daha zordur.',
+    },
+    {
+      ing: 'Her advice is more valuable than his.',
+      tr: 'Onun tavsiyesi onunkinden daha değerlidir.',
+    },
+    {
+      ing: 'The river is wider than the stream.',
+      tr: 'Nehir akıntıdan daha geniştir.',
+    },
+    {
+      ing: 'My plan is more effective than yours.',
+      tr: 'Benim planım seninkinden daha etkilidir.',
+    },
+    {
+      ing: 'This test is easier than the previous one.',
+      tr: 'Bu test sonuncusundan daha kolaydır.',
+    },
+    {
+      ing: 'Her room is neater than mine.',
+      tr: 'Onun odası benimkinden daha düzenlidir.',
+    },
+    {
+      ing: 'The movie was more entertaining than the book.',
+      tr: 'Film kitaptan daha eğlendiriciydi.',
+    },
+    {
+      ing: 'My bike is more reliable than his.',
+      tr: 'Benim bisikletim onunkinden daha güvenilirdir.',
+    },
+    {
+      ing: 'This sandwich is more filling than the salad.',
+      tr: 'Bu sandviç salatadan daha doyurucudur.',
+    },
+    {
+      ing: 'Her story is more emotional than his.',
+      tr: 'Onun hikayesi onunkinden daha duygusaldır.',
+    },
+    {
+      ing: 'The ocean is more vast than the sea.',
+      tr: 'Okyanus denizden daha geniştir.',
+    },
+    {
+      ing: 'My cat is more affectionate than yours.',
+      tr: 'Benim kedim seninkinden daha sevecendir.',
+    },
+  ],
+  Superlatives: [
+    {
+      ing: 'This is the biggest apple I have ever seen.',
+      tr: 'Bu, şimdiye kadar gördüğüm en büyük elma.',
+    },
+    {
+      ing: 'She is the tallest girl in the entire class.',
+      tr: 'O, sınıftaki en uzun kız.',
+    },
+    {
+      ing: 'He is the smartest student in the whole school.',
+      tr: 'O, okulun en zeki öğrencisi.',
+    },
+    {
+      ing: 'This is the most beautiful flower in the garden.',
+      tr: 'Bu, bahçedeki en güzel çiçek.',
+    },
+    {
+      ing: 'That was the best movie I have ever watched.',
+      tr: 'Bu, şimdiye kadar izlediğim en iyi film.',
+    },
+    {
+      ing: 'This is the hottest day of the entire year.',
+      tr: 'Bu, yılın en sıcak günü.',
+    },
+    {
+      ing: 'He is the fastest runner on the team.',
+      tr: 'O, takımın en hızlı koşucusu.',
+    },
+    {
+      ing: 'This is the most expensive dress in the store.',
+      tr: 'Bu, mağazadaki en pahalı elbise.',
+    },
+    {
+      ing: 'It is the coldest night of the winter season.',
+      tr: 'Bu, kış mevsiminin en soğuk gecesi.',
+    },
+    {
+      ing: 'She is the happiest person I have ever met.',
+      tr: 'O, şimdiye kadar tanıdığım en mutlu kişi.',
+    },
+    {
+      ing: 'This is the easiest question on the test.',
+      tr: 'Bu, sınavdaki en kolay soru.',
+    },
+    {
+      ing: 'He is the funniest comedian in the country.',
+      tr: 'O, ülkenin en komik komedyeni.',
+    },
+    {
+      ing: 'This is the longest road in the city.',
+      tr: 'Bu, şehirdeki en uzun yol.',
+    },
+    {
+      ing: 'She is the youngest child in her family.',
+      tr: 'O, ailesinin en genç çocuğu.',
+    },
+    {
+      ing: 'It is the oldest building in the neighborhood.',
+      tr: 'Bu, mahalledeki en eski bina.',
+    },
+    {
+      ing: 'This is the cleanest room in the house.',
+      tr: 'Bu, evdeki en temiz oda.',
+    },
+    {
+      ing: 'He is the richest man in the world.',
+      tr: 'O, dünyanın en zengin adamı.',
+    },
+    {
+      ing: 'This is the tallest building in the town.',
+      tr: 'Bu, kasabadaki en yüksek bina.',
+    },
+    {
+      ing: 'She is the kindest teacher at the school.',
+      tr: 'O, okulun en kibar öğretmeni.',
+    },
+    {
+      ing: 'This is the shortest story in the book.',
+      tr: 'Bu, kitaptaki en kısa hikaye.',
+    },
+    {
+      ing: 'He is the bravest soldier in the army.',
+      tr: 'O, ordudaki en cesur asker.',
+    },
+    {
+      ing: 'This is the brightest star in the sky.',
+      tr: 'Bu, gökyüzündeki en parlak yıldız.',
+    },
+    {
+      ing: 'She is the prettiest girl in the class.',
+      tr: 'O, sınıftaki en güzel kız.',
+    },
+    {
+      ing: 'It is the rainiest season of the year.',
+      tr: 'Bu, yılın en yağışlı mevsimi.',
+    },
+    {
+      ing: 'This is the driest desert on the planet.',
+      tr: 'Bu, gezegendeki en kuru çöl.',
+    },
+    {
+      ing: 'He is the strongest man in the competition.',
+      tr: 'O, yarışmadaki en güçlü adam.',
+    },
+    {
+      ing: 'This is the loudest noise I have ever heard.',
+      tr: 'Bu, şimdiye kadar duyduğum en yüksek ses.',
+    },
+    {
+      ing: 'She is the quietest student in the library.',
+      tr: 'O, kütüphanedeki en sessiz öğrenci.',
+    },
+    {
+      ing: 'It is the darkest night of the month.',
+      tr: 'Bu, ayın en karanlık gecesi.',
+    },
+    {
+      ing: 'This is the sweetest candy in the shop.',
+      tr: 'Bu, dükkandaki en tatlı şeker.',
+    },
+    {
+      ing: 'He is the angriest person I know.',
+      tr: 'O, tanıdığım en sinirli kişi.',
+    },
+    {
+      ing: 'This is the hardest test of the semester.',
+      tr: 'Bu, dönemin en zor sınavı.',
+    },
+    {
+      ing: 'She is the softest singer in the choir.',
+      tr: 'O, korodaki en yumuşak sesli şarkıcı.',
+    },
+    {
+      ing: 'It is the windiest day of the year.',
+      tr: 'Bu, yılın en rüzgarlı günü.',
+    },
+    {
+      ing: 'This is the scariest movie I have ever seen.',
+      tr: 'Bu, şimdiye kadar izlediğim en korkutucu film.',
+    },
+    {
+      ing: 'He is the biggest fan of the band.',
+      tr: 'O, grubun en büyük hayranı.',
+    },
+    {
+      ing: 'This is the most colorful painting in the gallery.',
+      tr: 'Bu, galerideki en renkli tablo.',
+    },
+    {
+      ing: 'She is the most famous actor in Hollywood.',
+      tr: "O, Hollywood'daki en ünlü aktör.",
+    },
+    {
+      ing: 'It is the deepest lake in the region.',
+      tr: 'Bu, bölgedeki en derin göl.',
+    },
+    {
+      ing: 'This is the highest mountain in the country.',
+      tr: 'Bu, ülkedeki en yüksek dağ.',
+    },
+    {
+      ing: 'He is the most careful driver on the road.',
+      tr: 'O, yoldaki en dikkatli sürücü.',
+    },
+    {
+      ing: 'This is the brightest light in the room.',
+      tr: 'Bu, odadaki en parlak ışık.',
+    },
+    {
+      ing: 'She is the most talented dancer in the show.',
+      tr: 'O, gösterideki en yetenekli dansçı.',
+    },
+    {
+      ing: 'It is the most dangerous road in the city.',
+      tr: 'Bu, şehirdeki en tehlikeli yol.',
+    },
+    {
+      ing: 'This is the most peaceful place I have visited.',
+      tr: 'Bu, ziyaret ettiğim en huzurlu yer.',
+    },
+    {
+      ing: 'He is the most creative artist in the class.',
+      tr: 'O, sınıftaki en yaratıcı sanatçı.',
+    },
+    {
+      ing: 'This is the most delicious cake I have ever tasted.',
+      tr: 'Bu, şimdiye kadar tattığım en lezzetli kek.',
+    },
+    {
+      ing: 'She is the most hardworking student in the class.',
+      tr: 'O, sınıftaki en çalışkan öğrenci.',
+    },
+    {
+      ing: 'It is the most exciting game of the season.',
+      tr: 'Bu, sezonun en heyecan verici oyunu.',
+    },
+    {
+      ing: 'This is the most boring book I have ever read.',
+      tr: 'Bu, şimdiye kadar okuduğum en sıkıcı kitap.',
+    },
+    {
+      ing: 'He is the most generous person I know.',
+      tr: 'O, tanıdığım en cömert kişi.',
+    },
+    {
+      ing: 'This is the most comfortable chair in the office.',
+      tr: 'Bu, ofisteki en rahat sandalye.',
+    },
+    {
+      ing: 'She is the most popular singer in the country.',
+      tr: 'O, ülkenin en popüler şarkıcısı.',
+    },
+    {
+      ing: 'It is the most polluted city in the world.',
+      tr: 'Bu, dünyanın en kirli şehri.',
+    },
+    {
+      ing: 'This is the most relaxing song I have ever heard.',
+      tr: 'Bu, şimdiye kadar duyduğum en rahatlatıcı şarkı.',
+    },
+    {
+      ing: 'He is the most supportive friend anyone could have.',
+      tr: 'O, herkesin sahip olabileceği en destekleyici arkadaş.',
+    },
+    {
+      ing: 'This is the most difficult puzzle I have ever solved.',
+      tr: 'Bu, şimdiye kadar çözdüğüm en zor bulmaca.',
+    },
+    {
+      ing: 'She is the most loving mother in the world.',
+      tr: 'O, dünyanın en sevgi dolu annesi.',
+    },
+    {
+      ing: 'It is the most important rule to follow.',
+      tr: 'Bu, takip edilmesi gereken en önemli kural.',
+    },
+    {
+      ing: 'This is the most attractive garden in the neighborhood.',
+      tr: 'Bu, mahalledeki en çekici bahçe.',
+    },
+    {
+      ing: 'He is the most dedicated employee in the company.',
+      tr: 'O, şirketteki en özverili çalışan.',
+    },
+    {
+      ing: 'This is the most unique gift I have received.',
+      tr: 'Bu, aldığım en eşsiz hediye.',
+    },
+    {
+      ing: 'She is the most inspiring leader in the community.',
+      tr: 'O, topluluktaki en ilham verici lider.',
+    },
+    {
+      ing: 'It is the most memorable trip I have ever taken.',
+      tr: 'Bu, şimdiye kadar yaptığım en unutulmaz gezi.',
+    },
+    {
+      ing: 'This is the most useful tool in the workshop.',
+      tr: 'Bu, atölyedeki en kullanışlı araç.',
+    },
+    {
+      ing: 'He is the most reliable partner in the business.',
+      tr: 'O, işteki en güvenilir ortak.',
+    },
+    {
+      ing: 'This is the most challenging project we have worked on.',
+      tr: 'Bu, üzerinde çalıştığımız en zorlu proje.',
+    },
+    {
+      ing: 'She is the most beautiful model on the runway.',
+      tr: 'O, podyumdaki en güzel model.',
+    },
+    {
+      ing: 'It is the most refreshing drink on a hot day.',
+      tr: 'Bu, sıcak bir günde en ferahlatıcı içecek.',
+    },
+    {
+      ing: 'This is the most expensive car in the showroom.',
+      tr: 'Bu, showroomdaki en pahalı araba.',
+    },
+    {
+      ing: 'He is the most active member of the club.',
+      tr: 'O, kulübün en aktif üyesi.',
+    },
+    {
+      ing: 'This is the most famous landmark in the city.',
+      tr: 'Bu, şehirdeki en ünlü simge.',
+    },
+    {
+      ing: 'She is the most influential writer of our time.',
+      tr: 'O, zamanımızın en etkili yazarı.',
+    },
+    {
+      ing: 'It is the most enjoyable activity for the kids.',
+      tr: 'Bu, çocuklar için en keyifli etkinlik.',
+    },
+    {
+      ing: 'This is the most luxurious hotel in the city.',
+      tr: 'Bu, şehirdeki en lüks otel.',
+    },
+    {
+      ing: 'He is the most knowledgeable professor at the university.',
+      tr: 'O, üniversitedeki en bilgili profesör.',
+    },
+    {
+      ing: 'This is the most historical site in the region.',
+      tr: 'Bu, bölgedeki en tarihi yer.',
+    },
+    {
+      ing: 'She is the most elegant lady at the event.',
+      tr: 'O, etkinlikteki en zarif bayan.',
+    },
+    {
+      ing: 'It is the most fantastic idea I have ever heard.',
+      tr: 'Bu, şimdiye kadar duyduğum en fantastik fikir.',
+    },
+    {
+      ing: 'This is the most affordable price you can find.',
+      tr: 'Bu, bulabileceğiniz en uygun fiyat.',
+    },
+    {
+      ing: 'He is the most humble person I have ever met.',
+      tr: 'O, şimdiye kadar tanıdığım en mütevazı kişi.',
+    },
+    {
+      ing: 'This is the most anticipated event of the year.',
+      tr: 'Bu, yılın en beklenen etkinliği.',
+    },
+    {
+      ing: 'She is the most fashionable designer in the industry.',
+      tr: 'O, sektördeki en modaya uygun tasarımcı.',
+    },
+    {
+      ing: 'It is the most frightening experience I have had.',
+      tr: 'Bu, yaşadığım en korkutucu deneyim.',
+    },
+    {
+      ing: 'This is the most successful team in the league.',
+      tr: 'Bu, ligdeki en başarılı takım.',
+    },
+    {
+      ing: 'He is the most adventurous traveler I know.',
+      tr: 'O, tanıdığım en maceraperest gezgin.',
+    },
+    {
+      ing: 'This is the most powerful computer in the market.',
+      tr: 'Bu, piyasadaki en güçlü bilgisayar.',
+    },
+    {
+      ing: 'She is the most caring nurse in the hospital.',
+      tr: 'O, hastanedeki en şefkatli hemşire.',
+    },
+    {
+      ing: 'It is the most entertaining show on television.',
+      tr: 'Bu, televizyondaki en eğlenceli program.',
+    },
+    {
+      ing: 'This is the most reliable source of information.',
+      tr: 'Bu, en güvenilir bilgi kaynağı.',
+    },
+    {
+      ing: 'He is the most respectful student in the class.',
+      tr: 'O, sınıftaki en saygılı öğrenci.',
+    },
+    {
+      ing: 'This is the most spacious room in the house.',
+      tr: 'Bu, evdeki en geniş oda.',
+    },
+    {
+      ing: 'She is the most talented musician in the orchestra.',
+      tr: 'O, orkestradaki en yetenekli müzisyen.',
+    },
+    {
+      ing: 'It is the most challenging race in the competition.',
+      tr: 'Bu, yarışmadaki en zorlu yarış.',
+    },
+    {
+      ing: 'This is the most peaceful moment of my day.',
+      tr: 'Bu, günümün en huzurlu anı.',
+    },
+    {
+      ing: 'He is the most talkative person in the group.',
+      tr: 'O, gruptaki en konuşkan kişi.',
+    },
+    {
+      ing: 'This is the most colorful festival in the city.',
+      tr: 'Bu, şehirdeki en renkli festival.',
+    },
+    {
+      ing: 'She is the most intelligent scientist in the lab.',
+      tr: 'O, laboratuvardaki en zeki bilim insanı.',
+    },
+    {
+      ing: 'It is the most delicate fabric in the store.',
+      tr: 'Bu, mağazadaki en hassas kumaş.',
+    },
+    {
+      ing: 'This is the most breathtaking view I have ever seen.',
+      tr: 'Bu, şimdiye kadar gördüğüm en nefes kesici manzara.',
+    },
+    {
+      ing: 'This is the brightest sun we have ever seen.',
+      tr: 'Bu, şimdiye kadar gördüğümüz en parlak güneş.',
+    },
+    {
+      ing: 'She is the most patient person in our office.',
+      tr: 'O, ofisimizdeki en sabırlı kişidir.',
+    },
+    {
+      ing: 'He is the most reliable mechanic in town.',
+      tr: 'O, kasabadaki en güvenilir tamircidir.',
+    },
+    {
+      ing: 'This is the most beautiful sunset I have ever watched.',
+      tr: 'Bu, şimdiye kadar izlediğim en güzel gün batımı.',
+    },
+    {
+      ing: 'That was the most thrilling ride at the amusement park.',
+      tr: 'Bu, lunaparkta yaşadığım en heyecan verici yolculuktu.',
+    },
+    {
+      ing: 'This is the oldest tree in the forest.',
+      tr: 'Bu, ormandaki en yaşlı ağaçtır.',
+    },
+    {
+      ing: 'He is the most skilled surgeon in the hospital.',
+      tr: 'O, hastanedeki en yetenekli cerrahtır.',
+    },
+    {
+      ing: 'This is the tastiest meal I have ever eaten.',
+      tr: 'Bu, şimdiye kadar yediğim en lezzetli yemektir.',
+    },
+    {
+      ing: 'It is the foggiest morning of the year.',
+      tr: 'Bu, yılın en sisli sabahıdır.',
+    },
+    {
+      ing: 'She is the most knowledgeable librarian.',
+      tr: 'O, en bilgili kütüphanecidir.',
+    },
+    {
+      ing: 'This is the most crowded market in the city.',
+      tr: 'Bu, şehirdeki en kalabalık pazardır.',
+    },
+    {
+      ing: 'He is the most experienced pilot in the airline.',
+      tr: 'O, havayolundaki en deneyimli pilottur.',
+    },
+    {
+      ing: 'This is the most serene beach I have visited.',
+      tr: 'Bu, ziyaret ettiğim en huzurlu plajdır.',
+    },
+    {
+      ing: 'She is the most innovative engineer at the company.',
+      tr: 'O, şirketteki en yenilikçi mühendistir.',
+    },
+    {
+      ing: 'It is the longest flight I have ever taken.',
+      tr: 'Bu, şimdiye kadar yaptığım en uzun uçuş.',
+    },
+    {
+      ing: 'This is the most exciting match of the tournament.',
+      tr: 'Bu, turnuvanın en heyecan verici maçıdır.',
+    },
+    {
+      ing: 'He is the most charming host I have met.',
+      tr: 'O, tanıştığım en çekici ev sahibidir.',
+    },
+    {
+      ing: 'This is the most elegant restaurant in the area.',
+      tr: 'Bu, bölgedeki en zarif restorandır.',
+    },
+    {
+      ing: 'She is the most enthusiastic volunteer.',
+      tr: 'O, en hevesli gönüllüdür.',
+    },
+    {
+      ing: 'It is the most expensive perfume in the store.',
+      tr: 'Bu, mağazadaki en pahalı parfümdür.',
+    },
+    {
+      ing: 'This is the fastest car I have ever driven.',
+      tr: 'Bu, şimdiye kadar sürdüğüm en hızlı arabadır.',
+    },
+    {
+      ing: 'He is the most influential politician in the country.',
+      tr: 'O, ülkedeki en etkili politikacıdır.',
+    },
+    {
+      ing: 'This is the safest neighborhood in the city.',
+      tr: 'Bu, şehirdeki en güvenli mahalledir.',
+    },
+    {
+      ing: 'She is the most artistic person in our group.',
+      tr: 'O, grubumuzdaki en sanatsal kişidir.',
+    },
+    {
+      ing: 'It is the rainiest day of the month.',
+      tr: 'Bu, ayın en yağmurlu günüdür.',
+    },
+    {
+      ing: 'This is the most detailed map of the region.',
+      tr: 'Bu, bölgenin en detaylı haritasıdır.',
+    },
+    {
+      ing: 'He is the most inspiring teacher in the school.',
+      tr: 'O, okulun en ilham verici öğretmenidir.',
+    },
+    {
+      ing: 'This is the most thrilling book I have read.',
+      tr: 'Bu, okuduğum en heyecan verici kitaptır.',
+    },
+    {
+      ing: 'She is the most dedicated nurse in the hospital.',
+      tr: 'O, hastanedeki en özverili hemşiredir.',
+    },
+    {
+      ing: 'It is the hottest drink on the menu.',
+      tr: 'Bu, menüdeki en sıcak içecektir.',
+    },
+    {
+      ing: 'This is the most complicated recipe I have tried.',
+      tr: 'Bu, denediğim en karmaşık tariftir.',
+    },
+    {
+      ing: 'He is the most fearless explorer I know.',
+      tr: 'O, tanıdığım en korkusuz kaşiftir.',
+    },
+    {
+      ing: 'This is the most entertaining movie I have watched.',
+      tr: 'Bu, şimdiye kadar izlediğim en eğlenceli film.',
+    },
+    {
+      ing: 'She is the most diligent student in her class.',
+      tr: 'O, sınıfındaki en çalışkan öğrencidir.',
+    },
+    {
+      ing: 'It is the most scenic route to the mountains.',
+      tr: 'Bu, dağlara giden en manzaralı yoldur.',
+    },
+    {
+      ing: 'This is the most nutritious breakfast you can have.',
+      tr: 'Bu, yapabileceğiniz en besleyici kahvaltıdır.',
+    },
+    {
+      ing: 'He is the most respected elder in the village.',
+      tr: 'O, köyün en saygın yaşlısıdır.',
+    },
+    {
+      ing: 'This is the most secure system we have used.',
+      tr: 'Bu, kullandığımız en güvenli sistemdir.',
+    },
+    {
+      ing: 'She is the most efficient secretary in the office.',
+      tr: 'O, ofisteki en verimli sekreterdir.',
+    },
+    {
+      ing: 'It is the most crowded street in the city.',
+      tr: 'Bu, şehirdeki en kalabalık caddedir.',
+    },
+    {
+      ing: 'This is the most vibrant community I have lived in.',
+      tr: 'Bu, yaşadığım en canlı topluluktur.',
+    },
+    {
+      ing: 'He is the most talented writer in the workshop.',
+      tr: 'O, atölyedeki en yetenekli yazardır.',
+    },
+    {
+      ing: 'This is the most powerful storm we have faced.',
+      tr: 'Bu, karşılaştığımız en güçlü fırtınadır.',
+    },
+    {
+      ing: 'She is the most dependable friend.',
+      tr: 'O, en güvenilir arkadaştır.',
+    },
+    {
+      ing: 'It is the longest bridge I have crossed.',
+      tr: 'Bu, şimdiye kadar geçtiğim en uzun köprüdür.',
+    },
+    {
+      ing: 'This is the most colorful garden in the neighborhood.',
+      tr: 'Bu, mahalledeki en renkli bahçedir.',
+    },
+    {
+      ing: 'He is the most serious athlete in the team.',
+      tr: 'O, takımın en ciddi sporcusudur.',
+    },
+    {
+      ing: 'This is the most romantic place I have visited.',
+      tr: 'Bu, ziyaret ettiğim en romantik yerdir.',
+    },
+    {
+      ing: 'She is the most active member of the club.',
+      tr: 'O, kulübün en aktif üyesidir.',
+    },
+    {
+      ing: 'It is the tallest tower in the city.',
+      tr: 'Bu, şehirdeki en yüksek kuledir.',
+    },
+    {
+      ing: 'This is the most festive celebration of the year.',
+      tr: 'Bu, yılın en şenlikli kutlamasıdır.',
+    },
+    {
+      ing: 'He is the most intelligent person in the company.',
+      tr: 'O, şirketin en zeki kişisidir.',
+    },
+    {
+      ing: 'This is the most successful project we have completed.',
+      tr: 'Bu, tamamladığımız en başarılı projedir.',
+    },
+    {
+      ing: 'She is the most cheerful person in the group.',
+      tr: 'O, grubun en neşeli kişisidir.',
+    },
+    {
+      ing: 'It is the most luxurious cruise I have been on.',
+      tr: 'Bu, bindiğim en lüks gemidir.',
+    },
+    {
+      ing: 'This is the most effective medicine for the illness.',
+      tr: 'Bu, hastalık için en etkili ilaçtır.',
+    },
+    {
+      ing: 'He is the most attentive waiter in the restaurant.',
+      tr: 'O, restorandaki en dikkatli garsondur.',
+    },
+    {
+      ing: 'This is the most peaceful neighborhood in the city.',
+      tr: 'Bu, şehirdeki en huzurlu mahalledir.',
+    },
+    {
+      ing: 'She is the most graceful dancer in the ballet.',
+      tr: 'O, baledeki en zarif dansçıdır.',
+    },
+    {
+      ing: 'It is the most delicious dessert on the menu.',
+      tr: 'Bu, menüdeki en lezzetli tatlıdır.',
+    },
+    {
+      ing: 'This is the most informative book I have read.',
+      tr: 'Bu, okuduğum en bilgilendirici kitaptır.',
+    },
+    {
+      ing: 'He is the most powerful leader in the region.',
+      tr: 'O, bölgedeki en güçlü liderdir.',
+    },
+    {
+      ing: 'This is the most adventurous hike we have taken.',
+      tr: 'Bu, yaptığımız en maceralı yürüyüştür.',
+    },
+    {
+      ing: 'She is the most compassionate doctor in the clinic.',
+      tr: 'O, klinikteki en şefkatli doktordur.',
+    },
+    {
+      ing: 'It is the fastest internet connection available.',
+      tr: 'Bu, mevcut en hızlı internet bağlantısıdır.',
+    },
+    {
+      ing: 'This is the most fashionable boutique in the area.',
+      tr: 'Bu, bölgedeki en moda butikdir.',
+    },
+    {
+      ing: 'He is the most creative chef in the kitchen.',
+      tr: 'O, mutfaktaki en yaratıcı aşçıdır.',
+    },
+    {
+      ing: 'This is the most valuable painting in the gallery.',
+      tr: 'Bu, galerideki en değerli tablodur.',
+    },
+    {
+      ing: 'She is the most skillful musician in the band.',
+      tr: 'O, grubun en yetenekli müzisyenidir.',
+    },
+    {
+      ing: 'It is the longest movie I have ever watched.',
+      tr: 'Bu, şimdiye kadar izlediğim en uzun filmdir.',
+    },
+    {
+      ing: 'This is the most affordable apartment in the building.',
+      tr: 'Bu, binadaki en uygun fiyatlı dairedir.',
+    },
+    {
+      ing: 'He is the most meticulous planner I know.',
+      tr: 'O, tanıdığım en titiz planlayıcıdır.',
+    },
+    {
+      ing: 'This is the most breathtaking landscape I have seen.',
+      tr: 'Bu, şimdiye kadar gördüğüm en nefes kesici manzaradır.',
+    },
+    {
+      ing: 'She is the most courageous firefighter.',
+      tr: 'O, en cesur itfaiyecidir.',
+    },
+    {
+      ing: 'It is the most popular destination for tourists.',
+      tr: 'Bu, turistler için en popüler destinasyondur.',
+    },
+    {
+      ing: 'This is the most intense workout routine.',
+      tr: 'Bu, en yoğun egzersiz rutinidir.',
+    },
+    {
+      ing: 'He is the most humble athlete in the sport.',
+      tr: 'O, spordaki en alçakgönüllü atlettir.',
+    },
+    {
+      ing: 'This is the most convenient time for the meeting.',
+      tr: 'Bu, toplantı için en uygun zamandır.',
+    },
+    {
+      ing: 'She is the most energetic child in the playground.',
+      tr: 'O, oyun alanındaki en enerjik çocuktur.',
+    },
+    {
+      ing: 'It is the most scenic drive along the coast.',
+      tr: 'Bu, kıyı boyunca en manzaralı sürüştür.',
+    },
+    {
+      ing: 'This is the most detailed report I have written.',
+      tr: 'Bu, yazdığım en detaylı rapordur.',
+    },
+    {
+      ing: 'He is the most reliable teammate in the game.',
+      tr: 'O, oyundaki en güvenilir takım arkadaşıdır.',
+    },
+    {
+      ing: 'This is the most comfortable bed I have slept in.',
+      tr: 'Bu, şimdiye kadar yattığım en rahat yataktır.',
+    },
+    {
+      ing: 'She is the most efficient worker in the factory.',
+      tr: 'O, fabrikadaki en verimli işçidir.',
+    },
+    {
+      ing: 'It is the most thrilling adventure I have experienced.',
+      tr: 'Bu, yaşadığım en heyecan verici maceradır.',
+    },
+    {
+      ing: 'This is the most peaceful moment of my day.',
+      tr: 'Bu, günümün en huzurlu anıdır.',
+    },
+    {
+      ing: 'He is the most enthusiastic participant in the event.',
+      tr: 'O, etkinlikteki en hevesli katılımcıdır.',
+    },
+    {
+      ing: 'This is the most spacious car in the showroom.',
+      tr: 'Bu, showroomdaki en geniş arabadır.',
+    },
+    {
+      ing: 'She is the most patient tutor I have learned from.',
+      tr: 'O, ders aldığım en sabırlı öğretmendir.',
+    },
+    {
+      ing: 'It is the most delicious pizza in the restaurant.',
+      tr: 'Bu, restorandaki en lezzetli pizzadır.',
+    },
+    {
+      ing: 'This is the most important decision of my life.',
+      tr: 'Bu, hayatımın en önemli kararıdır.',
+    },
+    {
+      ing: 'He is the most thoughtful gift-giver.',
+      tr: 'O, en düşünceli hediye verendir.',
+    },
+    {
+      ing: 'This is the most scenic view from the top.',
+      tr: 'Bu, tepedeki en manzaralı görünümdür.',
+    },
+    {
+      ing: 'She is the most organized person in the office.',
+      tr: 'O, ofisteki en organize kişidir.',
+    },
+    {
+      ing: 'It is the most enlightening lecture I have attended.',
+      tr: 'Bu, katıldığım en aydınlatıcı derstir.',
+    },
+    {
+      ing: 'This is the most exciting festival in the city.',
+      tr: 'Bu, şehirdeki en heyecan verici festivaldir.',
+    },
+    {
+      ing: 'He is the most experienced guide on the tour.',
+      tr: 'O, turdaki en deneyimli rehberdir.',
+    },
+    {
+      ing: 'This is the most relaxing vacation spot.',
+      tr: 'Bu, en rahatlatıcı tatil yeridir.',
+    },
+    {
+      ing: 'She is the most attentive nurse in the hospital.',
+      tr: 'O, hastanedeki en dikkatli hemşiredir.',
+    },
+    {
+      ing: 'It is the most supportive community I have been part of.',
+      tr: 'Bu, parçası olduğum en destekleyici topluluktur.',
+    },
+  ],
+};
