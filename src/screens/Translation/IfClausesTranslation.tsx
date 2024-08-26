@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import Voice from '@react-native-voice/voice';
 import {handleVoice} from '../../helpers/voiceCenter';
-import {RcNcTranslationSentences} from '../../utils/translation';
+import {IfClausesTranslationSentences} from '../../utils/translation';
 import ChartComponent from './components/ChartComponent';
 import CellSelectionComponent from './components/CellSelectionComponent';
 import QuestionComponent from './components/QuestionComponent';
@@ -21,12 +21,16 @@ import BottomSheet from '@gorhom/bottom-sheet/lib/typescript/components/bottomSh
 import {translateConjuctions} from '../../helpers/translateArray';
 import {test} from '../../utils/data';
 
-const RcNcTranslation = () => {
+const IfClausesTranslation = () => {
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
   const [isAnswerVisible, setIsAnswerVisible] = useState(true);
-  const [selectedCells, setSelectedCells] = useState(['RC', 'NC']);
+  const [selectedCells, setSelectedCells] = useState([
+    'Type1',
+    'Type2',
+    'Type3',
+  ]);
   const [selectedCell, setSelectedCell] = useState('');
   const [sentence, setSentence] = useState(
     'Henüz bir soru yok, hücrelerden seçim yapıp sor tuşuna basmalısın!',
@@ -110,7 +114,7 @@ const RcNcTranslation = () => {
     handleAskButton();
     bottomSheetRef.current?.close();
   };
-  type SymbolKeys = 'RC' | 'NC';
+  type SymbolKeys = 'Type1' | 'Type2' | 'Type3';
 
   const generateQuestion = () => {
     const randomIndexForSymbols = Math.floor(
@@ -121,7 +125,8 @@ const RcNcTranslation = () => {
     ] as SymbolKeys;
     setSelectedCell(newSelectedSymbol);
 
-    let newTranslationSentences = RcNcTranslationSentences[newSelectedSymbol];
+    let newTranslationSentences =
+      IfClausesTranslationSentences[newSelectedSymbol];
 
     if (!newTranslationSentences) {
       setSentence('Çeviri cümlesi bulunamadı, hücre seçimi yapmalısın!');
@@ -169,7 +174,7 @@ const RcNcTranslation = () => {
       setCorrectAnswers(correctAnswers + 1);
 
       const translationSentences =
-        RcNcTranslationSentences[selectedCell as SymbolKeys];
+        IfClausesTranslationSentences[selectedCell as SymbolKeys];
       translationSentences.splice(questionIndex, 1);
       setRemainingQuestionCount(translationSentences.length);
     } else {
@@ -221,12 +226,16 @@ const RcNcTranslation = () => {
             selectedCell={selectedCell}
             cells={[
               {
-                value: 'RC',
-                label: 'Relative Clause',
+                value: 'Type1',
+                label: 'Type 1',
               },
               {
-                value: 'NC',
-                label: 'Noun Clause',
+                value: 'Type2',
+                label: 'Type 2',
+              },
+              {
+                value: 'Type3',
+                label: 'Type 3',
               },
             ]}
           />
@@ -314,4 +323,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default RcNcTranslation;
+export default IfClausesTranslation;

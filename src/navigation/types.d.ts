@@ -29,6 +29,7 @@ export type StackNavigatorList = {
   ComparativesSuperlativesTranslation: {title: string; item?: any};
   FlowerToTranslation: {title: string; item?: ToTranslation};
   ImpersonalItTranslation: {title: string; item?: any};
+  IfClausesTranslation: {title: string; item?: any};
 };
 
 export type BottomNavigatorList = {

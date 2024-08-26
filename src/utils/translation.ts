@@ -45820,3 +45820,2312 @@ export const ImpersonalItTranslationSentences = {
     },
   ],
 };
+
+export const IfClausesTranslationSentences = {
+  Type1: [
+    {
+      ing: 'If it rains, I will bring an umbrella.',
+      tr: 'Eğer yağmur yağarsa, ben şemsiye getireceğim.',
+    },
+    {
+      ing: "If I'm late, please start the meeting without me.",
+      tr: 'Eğer ben geç kalırsam siz lütfen toplantıya bensiz başlayın.',
+    },
+    {
+      ing: 'If you study hard, you will pass the exam.',
+      tr: 'Eğer siz çok çalışırsanız siz sınavı geçersiniz.',
+    },
+    {
+      ing: 'If you eat too much, you will feel sick.',
+      tr: 'Eğer siz çok fazla yerseniz siz kendinizi hasta hissedersiniz.',
+    },
+    {
+      ing: "If he calls, tell him I'm not available.",
+      tr: 'Eğer o ararsa siz ona benim müsait olmadığımı söyleyin.',
+    },
+    {
+      ing: 'If she likes the movie, she will watch it again.',
+      tr: 'O eğer filmi beğenirse o tekrar izleyecektir.',
+    },
+    {
+      ing: 'If they invite us, we will attend the party.',
+      tr: 'Eğer onlar bizi davet ederlerse biz partiye katılırız.',
+    },
+    {
+      ing: 'If the bus arrives on time, we will catch it.',
+      tr: 'Eğer otobüs zamanında gelirse biz yetişeceğiz.',
+    },
+    {
+      ing: 'If I see him, I will say hello.',
+      tr: 'Eğer ben onu görürsem ben merhaba diyeceğim.',
+    },
+    {
+      ing: "If you don't hurry, you will miss the train.",
+      tr: 'Eğer siz acele etmezseniz siz treni kaçıracaksınız.',
+    },
+    {
+      ing: 'If the weather is good, we will go for a picnic.',
+      tr: 'Eğer hava güzel olursa biz pikniğe gideceğiz.',
+    },
+    {
+      ing: 'If you need help, I will assist you.',
+      tr: 'Eğer sizin yardıma ihtiyacınız olursa ben size yardımcı olacağım.',
+    },
+    {
+      ing: 'If the food is delicious, I will order it again.',
+      tr: 'Eğer yemek lezzetliyse ben tekrar sipariş vereceğim.',
+    },
+    {
+      ing: 'If he studies regularly, he will improve his grades.',
+      tr: 'Eğer o düzenli çalışırsa onun notları onun yükselir.',
+    },
+    {
+      ing: "If she doesn't feel well, she will stay home.",
+      tr: 'Eğer o kendini iyi hissetmiyorsa o evde kalacak.',
+    },
+    {
+      ing: 'If you save money, you can buy a new car.',
+      tr: 'Eğer siz tasarruf ederseniz siz yeni bir araba satın alabilirsiniz.',
+    },
+    {
+      ing: 'If the store is open, I will buy some groceries.',
+      tr: 'Eğer mağaza açıksa ben biraz yiyecek alacağım.',
+    },
+    {
+      ing: 'If they offer me the job, I will accept it.',
+      tr: 'Eğer onlar bana ana iş teklif ederlerse ben kabul ederim.',
+    },
+    {
+      ing: 'If the flight is delayed, we will have to wait.',
+      tr: 'Eğer uçuş ertelenirse biz beklemek zorunda kalacağız.',
+    },
+    {
+      ing: 'If it snows, we will build a snowman.',
+      tr: 'Eğer kar yağarsa biz kardan adam yapacağız.',
+    },
+    {
+      ing: 'If I have time, I will visit my grandparents.',
+      tr: 'Eğer zamanım olursa ben büyükannem ve büyükbabamı ziyaret edeceğim.',
+    },
+    {
+      ing: "If you don't pay attention, you will make mistakes.",
+      tr: 'Eğer siz dikkat etmezseniz siz hata yaparsınız.',
+    },
+    {
+      ing: 'If she cooks dinner, I will wash the dishes.',
+      tr: 'Eğer akşam yemeğini o pişirirse ben bulaşıkları yıkayacağım.',
+    },
+    {
+      ing: 'If they win the game, they will celebrate.',
+      tr: 'Eğer onlar oyunu kazanırlarsa onlar kutlama yapacaklardır.',
+    },
+    {
+      ing: 'If I find the book, I will lend it to you.',
+      tr: 'Eğer ben kitabı bulursam ben sana ödünç vereceğim.',
+    },
+    {
+      ing: 'If you practice regularly, you will become better.',
+      tr: 'Eğer siz düzenli olarak pratik yaparsanız siz daha iyi olursunuz.',
+    },
+    {
+      ing: 'If the price is reasonable, I will buy it.',
+      tr: 'Eğer fiyatı makul olursa ben satın alacağım.',
+    },
+    {
+      ing: "If it's hot, I will go swimming.",
+      tr: 'Eğer hava sıcaksa ben yüzmeye gideceğim.',
+    },
+    {
+      ing: 'If he finishes his work early, he will go home.',
+      tr: 'Eğer o işini erken bitirirse o evine gider.',
+    },
+    {
+      ing: 'If she gets good grades, her parents will be proud.',
+      tr: 'Eğer o iyi notlar alırsa ailesi onunla gurur duyacaktır.',
+    },
+    {
+      ing: 'If you forget your keys, you will be locked out.',
+      tr: 'Eğer siz anahtarlarınızı unutursanız siz dışarıda kalırsınız.',
+    },
+    {
+      ing: 'If they offer discounts, more people will buy the product.',
+      tr: 'Eğer onlar indirim yaparlarsa ürünü daha fazla kişi satın alır.',
+    },
+    {
+      ing: "If it's cold outside, wear a warm coat.",
+      tr: 'Eğer dışarısı soğuksa sen sıcak tutan bir palto giyin.',
+    },
+    {
+      ing: 'If I miss the bus, I will take a taxi.',
+      tr: 'Eğer ben otobüsü kaçırırsam ben taksiye bineceğim.',
+    },
+    {
+      ing: 'If you follow the recipe, the cake will turn out delicious.',
+      tr: 'Eğer siz tarifi uygularsanız pasta lezzetli olur.',
+    },
+    {
+      ing: 'If she calls me, I will answer the phone.',
+      tr: 'Eğer o beni ararsa ben telefona cevap vereceğim.',
+    },
+    {
+      ing: 'If they arrive late, the movie will have already started.',
+      tr: 'Eğer onlar geç gelirlerse film çoktan başlamış olacaktır.',
+    },
+    {
+      ing: "If I don't feel well, I will see a doctor.",
+      tr: 'Eğer kendimi iyi hissetmezsem ben doktora gideceğim.',
+    },
+    {
+      ing: 'If you exercise regularly, you will stay healthy.',
+      tr: 'Eğer siz düzenli egzersiz yaparsanız siz sağlıklı kalırsınız.',
+    },
+    {
+      ing: 'If the package arrives today, I will sign for it.',
+      tr: 'Eğer paket bugün ulaşırsa ben imzalayacağım.',
+    },
+    {
+      ing: 'If the concert is canceled, we will get a refund.',
+      tr: 'Eğer konser iptal edilirse biz ücret iadesi alacağız.',
+    },
+    {
+      ing: 'If he studies hard, he will pass the test.',
+      tr: 'Eğer o çok çalışırsa o sınavı geçer.',
+    },
+    {
+      ing: 'If she stays up late, she will be tired tomorrow.',
+      tr: 'Eğer o geç saatlere kadar uyanık kalırsa o yarın yorgun olacaktır.',
+    },
+    {
+      ing: 'If they invite me, I will go to the party.',
+      tr: 'Eğer onlar beni davet ederlerse ben partiye giderim.',
+    },
+    {
+      ing: "If it's sunny, we will go to the beach.",
+      tr: 'Eğer hava güneşliyse biz sahile gideceğiz.',
+    },
+    {
+      ing: 'If I have enough money, I will buy new shoes.',
+      tr: 'Eğer benim yeterli param varsa ben yeni ayakkabı alacağım.',
+    },
+    {
+      ing: "If you don't eat breakfast, you will feel hungry.",
+      tr: 'Eğer siz kahvaltı yapmazsanız siz aç hissedersiniz.',
+    },
+    {
+      ing: 'If she wins the competition, she will be happy.',
+      tr: 'O eğer yarışmayı kazanırsa o mutlu olacaktır.',
+    },
+    {
+      ing: 'If they open a new branch, they will hire more employees.',
+      tr: 'Eğer onlar yeni bir şube açarlarsa onlar daha fazla çalışanı işe alacaklar.',
+    },
+    {
+      ing: 'If it rains tomorrow, we will stay indoors.',
+      tr: 'Eğer yarın yağmur yağarsa biz içeride kalacağız.',
+    },
+    {
+      ing: "If I'm not busy, I will help you.",
+      tr: 'Eğer ben meşgul değilsem ben sana yardım edeceğim.',
+    },
+    {
+      ing: 'If you listen carefully, you will understand.',
+      tr: 'Eğer siz dikkatlice dinlerseniz siz anlayacaksınız.',
+    },
+    {
+      ing: 'If she calls me back, I will tell her the news.',
+      tr: 'Eğer o beni geri ararsa, ben ona haberi anlatacağım.',
+    },
+    {
+      ing: "If they don't arrive soon, we will start without them.",
+      tr: 'Eğer onlar yakında gelmezlerse biz onlarsız başlayacağız.',
+    },
+    {
+      ing: 'If I forget my password, I will reset it.',
+      tr: 'Eğer ben şifremi unutursam ben sıfırlarım.',
+    },
+    {
+      ing: "If you don't study, you will fail the test.",
+      tr: 'Eğer siz çalışmazsanız siz sınavda başarısız olursunuz.',
+    },
+    {
+      ing: 'If the restaurant is full, we will find another place to eat.',
+      tr: 'Eğer restoran doluysa biz yemek yiyecek başka bir yer buluruz.',
+    },
+    {
+      ing: 'If he meets the requirements, he will get the job.',
+      tr: 'O eğer gereksinimleri karşılıyorsa işi alır.',
+    },
+    {
+      ing: 'If she buys the dress, she will wear it to the party.',
+      tr: 'O eğer elbiseyi satın alırsa o partide giyecektir.',
+    },
+    {
+      ing: 'If they win the competition, they will receive a trophy.',
+      tr: 'Eğer onlar yarışmayı kazanırlarsa onlar bir kupa alacaklar.',
+    },
+    {
+      ing: "If it's windy, I will fly a kite.",
+      tr: 'Eğer hava rüzgarlıysa ben uçurtma uçuracağım.',
+    },
+    {
+      ing: "If I'm hungry, I will grab a snack.",
+      tr: 'Eğer ben acıkırsam ben bir şeyler atıştırırım.',
+    },
+    {
+      ing: 'If you work hard, you will achieve your goals.',
+      tr: 'Eğer siz çok çalışırsanız siz hedeflerinize ulaşırsınız.',
+    },
+    {
+      ing: 'If the movie starts late, we will miss the bus.',
+      tr: 'Eğer film geç başlarsa biz otobüsü kaçıracağız.',
+    },
+    {
+      ing: 'If she finishes her homework early, she will have free time.',
+      tr: 'Eğer o ödevini erken bitirirse onun boş zamanı olur.',
+    },
+    {
+      ing: 'If they offer free samples, we will try them.',
+      tr: 'Eğer onlar ücretsiz numune sunarlarsa biz onları deneyeceğiz.',
+    },
+    {
+      ing: 'If I find the answer, I will let you know.',
+      tr: 'Eğer ben cevabı bulursam ben size haber vereceğim.',
+    },
+    {
+      ing: "If you don't study, you will not pass the exam.",
+      tr: 'Eğer siz çalışmazsanız siz sınavı geçemezsiniz.',
+    },
+    {
+      ing: 'If the traffic is heavy, we will be late.',
+      tr: 'Eğer trafik yoğunsa biz geç kalacağız.',
+    },
+    {
+      ing: 'If it snows heavily, schools will close.',
+      tr: 'Eğer yoğun kar yağarsa okullar kapanır.',
+    },
+    {
+      ing: 'If I have the ingredients, I will bake a cake.',
+      tr: 'Eğer ben malzemelere sahip olursam ben kek yapacağım.',
+    },
+    {
+      ing: "If you don't take care, you will get hurt.",
+      tr: 'Eğer siz dikkat etmezseniz siz incinirsiniz.',
+    },
+    {
+      ing: 'If she learns to play the guitar, she will join a band.',
+      tr: 'Eğer o gitar çalmayı öğrenirse o bir gruba katılacaktır.',
+    },
+    {
+      ing: "If they don't arrive on time, the concert will start without them.",
+      tr: 'Eğer onlar zamanında gelmezlerse konser onlarsız başlayacaktır.',
+    },
+    {
+      ing: 'If I have spare time, I will read a book.',
+      tr: 'Eğer benim boş zamanım olursa ben kitap okuyacağım.',
+    },
+    {
+      ing: "If you drink coffee before bed, you won't sleep well.",
+      tr: 'Eğer siz yatmadan önce kahve içerseniz siz iyi uyuyamazsınız.',
+    },
+    {
+      ing: "If the price is too high, I won't buy it.",
+      tr: 'Eğer fiyatı çok yüksekse ben onu satın almam.',
+    },
+    {
+      ing: "If it's hot outside, I will go for a swim.",
+      tr: 'Eğer dışarısı sıcaksa ben yüzmeye gideceğim.',
+    },
+    {
+      ing: 'If he finishes his work late, he will have to stay.',
+      tr: 'Eğer o işini geç bitirirse kalmak zorunda kalır.',
+    },
+    {
+      ing: 'If she studies hard, she will get good grades.',
+      tr: 'Eğer o çok çalışırsa o iyi notlar alır.',
+    },
+    {
+      ing: 'If they offer discounts, more people will shop there.',
+      tr: 'Eğer onlar indirim yaparlarsa daha çok kişi oradan alışveriş yapar.',
+    },
+    {
+      ing: "If it's cold, wear a jacket.",
+      tr: 'Eğer hava soğuksa sen bir ceket giyin.',
+    },
+    {
+      ing: 'If I miss the train, I will take the next one.',
+      tr: 'Eğer ben treni kaçırırsam ben bir sonraki trene bineceğim.',
+    },
+    {
+      ing: "If you don't follow the rules, you will be punished.",
+      tr: 'Eğer siz kurallara uymazsanız siz cezalandırılırsınız.',
+    },
+    {
+      ing: 'If she arrives early, she will have time to prepare.',
+      tr: 'Eğer o erken gelirse hazırlanmak için onun zamanı olacaktır.',
+    },
+    {
+      ing: 'If they cancel the event, we will be disappointed.',
+      tr: 'Eğer onlar etkinliği iptal ederlerse biz hayal kırıklığına uğrarız.',
+    },
+    {
+      ing: "If I don't feel well, I will rest at home.",
+      tr: 'Eğer ben kendimi iyi hissetmiyorsam ben evde dinlenirim.',
+    },
+    {
+      ing: 'If you exercise regularly, you will feel energized.',
+      tr: 'Eğer siz düzenli egzersiz yaparsanız siz kendinizi enerjik hissedersiniz.',
+    },
+    {
+      ing: 'If the mail arrives, I will check for letters.',
+      tr: 'Eğer posta gelirse ben mektupları kontrol edeceğim.',
+    },
+    {
+      ing: 'If the meeting is postponed, we will reschedule.',
+      tr: 'Eğer toplantı ertelenirse biz yeniden planlayacağız.',
+    },
+    {
+      ing: 'If he studies more, he will improve his English.',
+      tr: 'Eğer o daha fazla çalışırsa o İngilizcesini geliştirir.',
+    },
+    {
+      ing: 'If she stays up late, she will be tired in the morning.',
+      tr: 'Eğer o geç saatlere kadar uyanık kalırsa o sabahları yorgun olur.',
+    },
+    {
+      ing: 'If they invite us, we will go to the party.',
+      tr: 'Eğer onlar bizi davet ederlerse biz partiye gideriz.',
+    },
+    {
+      ing: "If it's sunny, we will have a picnic in the park.",
+      tr: 'Eğer hava güneşliyse biz parkta piknik yapacağız.',
+    },
+    {
+      ing: 'If I have enough money, I will buy a new phone.',
+      tr: 'Eğer benim yeterli param olursa ben yeni bir telefon alacağım.',
+    },
+    {
+      ing: "If you don't eat breakfast, you will be hungry.",
+      tr: 'Eğer siz kahvaltı yapmazsanız siz aç kalırsınız.',
+    },
+    {
+      ing: 'If she wins the race, she will receive a medal.',
+      tr: 'Eğer o yarışı kazanırsa o madalya alacaktır.',
+    },
+    {
+      ing: 'If they open a new store, they will hire new employees.',
+      tr: 'Eğer yeni bir mağaza açarlarsa onlar yeni çalışanları işe alacaklar.',
+    },
+    {
+      ing: 'If it rains, we won’t go to the picnic.',
+      tr: 'Eğer yağmur yağarsa biz pikniğe gitmeyeceğiz.',
+    },
+    {
+      ing: 'If I have time, I will visit my family.',
+      tr: 'Eğer benim zamanım olursa ben ailemi ziyaret edeceğim.',
+    },
+    {
+      ing: 'I will bring an umbrella if it rains.',
+      tr: 'Eğer yağmur yağarsa, ben şemsiye getireceğim.',
+    },
+    {
+      ing: "Please start the meeting without me if I'm late.",
+      tr: 'Eğer ben geç kalırsam siz lütfen toplantıya bensiz başlayın.',
+    },
+    {
+      ing: 'You will pass the exam if you study hard.',
+      tr: 'Eğer siz çok çalışırsanız siz sınavı geçersiniz.',
+    },
+    {
+      ing: 'You will feel sick if you eat too much.',
+      tr: 'Eğer siz çok fazla yerseniz siz kendinizi hasta hissedersiniz.',
+    },
+    {
+      ing: "Tell him I'm not available if he calls.",
+      tr: 'Eğer o ararsa siz ona benim müsait olmadığımı söyleyin.',
+    },
+    {
+      ing: 'She will watch the movie again if she likes it.',
+      tr: 'O eğer filmi beğenirse o tekrar izleyecektir.',
+    },
+    {
+      ing: 'We will attend the party if they invite us.',
+      tr: 'Eğer onlar bizi davet ederlerse biz partiye katılırız.',
+    },
+    {
+      ing: 'We will catch the bus if it arrives on time.',
+      tr: 'Eğer otobüs zamanında gelirse biz yetişeceğiz.',
+    },
+    {
+      ing: 'I will say hello if I see him.',
+      tr: 'Eğer ben onu görürsem ben merhaba diyeceğim.',
+    },
+    {
+      ing: "You will miss the train if you don't hurry.",
+      tr: 'Eğer siz acele etmezseniz siz treni kaçıracaksınız.',
+    },
+    {
+      ing: 'We will go for a picnic if the weather is good.',
+      tr: 'Eğer hava güzel olursa biz pikniğe gideceğiz.',
+    },
+    {
+      ing: 'I will assist you if you need help.',
+      tr: 'Eğer sizin yardıma ihtiyacınız olursa ben size yardımcı olacağım.',
+    },
+    {
+      ing: 'I will order it again if the food is delicious.',
+      tr: 'Eğer yemek lezzetliyse ben tekrar sipariş vereceğim.',
+    },
+    {
+      ing: 'He will improve his grades if he studies regularly.',
+      tr: 'Eğer o düzenli çalışırsa onun notları onun yükselir.',
+    },
+    {
+      ing: "She will stay home if she doesn't feel well.",
+      tr: 'Eğer o kendini iyi hissetmiyorsa o evde kalacak.',
+    },
+    {
+      ing: 'You can buy a new car if you save money.',
+      tr: 'Eğer siz tasarruf ederseniz siz yeni bir araba satın alabilirsiniz.',
+    },
+    {
+      ing: 'I will buy some groceries if the store is open.',
+      tr: 'Eğer mağaza açıksa ben biraz yiyecek alacağım.',
+    },
+    {
+      ing: 'I will accept it if they offer me the job.',
+      tr: 'Eğer onlar bana ana iş teklif ederlerse ben kabul ederim.',
+    },
+    {
+      ing: 'We will have to wait if the flight is delayed.',
+      tr: 'Eğer uçuş ertelenirse biz beklemek zorunda kalacağız.',
+    },
+    {
+      ing: 'We will build a snowman if it snows.',
+      tr: 'Eğer kar yağarsa biz kardan adam yapacağız.',
+    },
+    {
+      ing: 'I will visit my grandparents if I have time.',
+      tr: 'Eğer zamanım olursa ben büyükannem ve büyükbabamı ziyaret edeceğim.',
+    },
+    {
+      ing: "You will make mistakes if you don't pay attention.",
+      tr: 'Eğer siz dikkat etmezseniz siz hata yaparsınız.',
+    },
+    {
+      ing: 'I will wash the dishes if she cooks dinner.',
+      tr: 'Eğer akşam yemeğini o pişirirse ben bulaşıkları yıkayacağım.',
+    },
+    {
+      ing: 'They will celebrate if they win the game.',
+      tr: 'Eğer onlar oyunu kazanırlarsa onlar kutlama yapacaklardır.',
+    },
+    {
+      ing: 'I will lend it to you if I find the book.',
+      tr: 'Eğer ben kitabı bulursam ben sana ödünç vereceğim.',
+    },
+    {
+      ing: "If you don't water the plants, they will die.",
+      tr: 'Eğer siz bitkileri sulamazsanız onlar ölürler.',
+    },
+    {
+      ing: 'She will be surprised if you throw her a party.',
+      tr: 'Eğer siz ona parti verirseniz o şaşıracaktır.',
+    },
+    {
+      ing: 'If I finish work early, I will go to the cinema.',
+      tr: 'Eğer ben işimi erken bitirirsem ben sinemaya gideceğim.',
+    },
+    {
+      ing: 'We will buy a new car if we save enough money.',
+      tr: 'Eğer biz yeterli para biriktirirsek biz yeni bir araba alacağız.',
+    },
+    {
+      ing: "You'll get a stomachache if you eat too much candy.",
+      tr: 'Eğer siz çok fazla şeker yerseniz sizin karnınız ağrır.',
+    },
+    {
+      ing: "If the weather is bad, we'll have to cancel the picnic.",
+      tr: 'Eğer hava kötüyse biz pikniği iptal etmek zorunda kalacağız.',
+    },
+    {
+      ing: 'I will call you if I get home late.',
+      tr: 'Eğer ben eve geç dönersem ben seni arayacağım.',
+    },
+    {
+      ing: "If it's hot, we can go swimming.",
+      tr: 'Eğer hava sıcaksa biz yüzmeye gidebiliriz.',
+    },
+    {
+      ing: 'They will visit their grandparents if they have time.',
+      tr: 'Eğer onların zamanları varsa onlar büyükanne ve büyükbabalarını ziyaret edecekler.',
+    },
+    {
+      ing: "She'll be upset if we don't attend her concert.",
+      tr: 'Eğer biz onun konserine katılmazsak o üzülür.',
+    },
+    {
+      ing: "If it's cold, I'll wear a coat.",
+      tr: 'Eğer hava soğuksa ben palto giyeceğim.',
+    },
+    {
+      ing: "If they win the lottery, they'll buy a house.",
+      tr: 'Eğer onlar piyangoyu kazanırlarsa onlar bir ev satın alacaklar.',
+    },
+    {
+      ing: "You will miss your flight if you don't leave now.",
+      tr: 'Eğer siz şimdi ayrılmazsanız siz uçuşunuzu kaçıracaksınız.',
+    },
+    {
+      ing: "We'll be late if we don't hurry.",
+      tr: 'Eğer biz acele etmezsek biz geç kalacağız.',
+    },
+    {
+      ing: 'If she studies, she will do well on the test.',
+      tr: 'Eğer o çalışırsa o sınavda başarılı olur.',
+    },
+    {
+      ing: "You'll feel better if you rest.",
+      tr: 'Eğer siz dinlenirseniz siz kendinizi daha iyi hissedeceksiniz.',
+    },
+    {
+      ing: 'If the dress fits, I will buy it.',
+      tr: 'Eğer elbise bana uyarsa ben onu satın alacağım.',
+    },
+    {
+      ing: 'If he forgets his keys, he will be locked out.',
+      tr: 'Eğer o anahtarını unutursa o dışarıda kilitli kalır.',
+    },
+    {
+      ing: "She will be angry if you don't tell her the truth.",
+      tr: 'Eğer ona gerçeği söylemezseniz o kızacaktır.',
+    },
+    {
+      ing: 'If it snows, we will make a snowman.',
+      tr: 'Eğer kar yağarsa biz kardan adam yapacağız.',
+    },
+    {
+      ing: "If you don't feed the dog, he'll be hungry.",
+      tr: 'Eğer siz köpeği beslemezseniz o aç kalır.',
+    },
+    {
+      ing: 'If they invite us, we will go to the party.',
+      tr: 'Eğer onlar bizi davet ederlerse biz partiye gideriz.',
+    },
+    {
+      ing: 'If you practice piano regularly, you will get better.',
+      tr: 'Eğer siz düzenli olarak piyano çalışırsanız siz daha iyi olursunuz.',
+    },
+    {
+      ing: "They'll go shopping if they need anything.",
+      tr: 'Eğer onların bir şeye ihtiyaçları olursa onlar alışverişe giderler.',
+    },
+    {
+      ing: "If the sun is out, we'll have a barbecue.",
+      tr: 'Eğer güneş varsa biz mangal yapacağız.',
+    },
+    {
+      ing: 'If you finish your work, we can go to the movies.',
+      tr: 'Eğer sen işini bitirirsen biz sinemaya gidebiliriz.',
+    },
+    {
+      ing: 'We will go for a walk if it stops raining.',
+      tr: 'Eğer yağmur durursa biz yürüyüşe çıkacağız.',
+    },
+    {
+      ing: "You'll understand the concept if you pay attention in class.",
+      tr: 'Eğer siz derste dikkat ederseniz siz kavramı anlayacaksınız.',
+    },
+    {
+      ing: 'If I get a raise, I will buy a new car.',
+      tr: 'Eğer ben zam alırsam ben yeni bir araba alacağım.',
+    },
+    {
+      ing: "She will be disappointed if you don't show up at the party.",
+      tr: 'Eğer siz partiye gelmezseniz o hayal kırıklığına uğrayacaktır.',
+    },
+    {
+      ing: 'They will bake a cake if they have enough ingredients.',
+      tr: 'Eğer yeterli malzeme varsa onlar pasta yapacaklar.',
+    },
+    {
+      ing: 'If we leave now, we can catch the early train.',
+      tr: 'Eğer biz şimdi yola çıkarsak biz erken trene yetişebiliriz.',
+    },
+    {
+      ing: "I'll call you if I arrive early.",
+      tr: 'Eğer ben erken gelirsem ben seni arayacağım.',
+    },
+    {
+      ing: "If you don't water the plants, they will die.",
+      tr: 'Eğer siz bitkileri sulamazsanız onlar ölürler.',
+    },
+    {
+      ing: "He will not be able to finish his project if he doesn't concentrate.",
+      tr: 'Eğer o konsantre olmazsa o projesini bitiremeyecektir.',
+    },
+    {
+      ing: "You'll feel better if you drink plenty of water.",
+      tr: 'Eğer siz bol su içerseniz siz kendinizi daha iyi hissedersiniz.',
+    },
+    {
+      ing: 'They will win the game if they score another goal.',
+      tr: 'Eğer onlar bir gol daha atarlarsa onlar maçı kazanırlar.',
+    },
+    {
+      ing: "If you don't brush your teeth, you will get cavities.",
+      tr: 'Eğer siz dişlerinizi fırçalamazsanız çürükler oluşur.',
+    },
+    {
+      ing: "We can have a picnic if it's sunny tomorrow.",
+      tr: 'Eğer yarın hava güneşliyse biz piknik yapabiliriz.',
+    },
+    {
+      ing: 'If he eats too much, he will feel sick.',
+      tr: 'Eğer o çok yerse o hastalanır.',
+    },
+    {
+      ing: "She will miss her flight if she doesn't leave soon.",
+      tr: 'Eğer o yakında ayrılmazsa o uçağını kaçıracak.',
+    },
+    {
+      ing: "If we don't hurry, we will miss the start of the movie.",
+      tr: 'Eğer biz acele etmezsek biz filmin başlangıcını kaçıracağız.',
+    },
+    {
+      ing: 'He will understand if you explain it to him.',
+      tr: 'Eğer siz ona açıklarsanız o anlayacaktır.',
+    },
+    {
+      ing: "You'll get a good grade if you do your homework.",
+      tr: 'Eğer siz ödevinizi yaparsanız siz iyi bir not alırsınız.',
+    },
+    {
+      ing: 'If she practices, she will get better at playing the piano.',
+      tr: 'Eğer o çalışırsa piyano çalmada o daha iyi hale gelecektir.',
+    },
+    {
+      ing: "We'll catch the bus if we run.",
+      tr: 'Eğer biz koşarsak biz otobüsü yakalarız.',
+    },
+    {
+      ing: 'You will enjoy the book if you read it.',
+      tr: 'Eğer siz kitabı okursanız siz keyif alırsınız.',
+    },
+    {
+      ing: "If it's cold, I will wear my jacket.",
+      tr: 'Eğer hava soğuksa ben ceketimi giyeceğim.',
+    },
+    {
+      ing: "If they don't leave early, they will be stuck in traffic.",
+      tr: 'Eğer onlar erken ayrılmazlarsa onlar trafiğe takılıp kalırlar.',
+    },
+    {
+      ing: "She will make a sandwich if she's hungry.",
+      tr: 'Eğer o açsa o sandviç yapacaktır.',
+    },
+    {
+      ing: 'If you practice every day, you will become a good pianist.',
+      tr: 'Eğer siz her gün pratik yaparsanız siz iyi bir piyanist olursunuz.',
+    },
+    {
+      ing: "You'll find the restaurant if you turn right at the traffic light.",
+      tr: 'Eğer siz trafik ışıklarından sağa dönerseniz siz restoranı bulacaksınız.',
+    },
+    {
+      ing: 'If I finish work early, I will come to your house.',
+      tr: 'Eğer ben işimi erken bitirirsem ben sizin evinize geleceğim.',
+    },
+    {
+      ing: 'She will be really surprised if you throw her a surprise party.',
+      tr: 'Eğer siz ona sürpriz bir parti verirseniz o gerçekten şaşıracaktır.',
+    },
+    {
+      ing: "If we don't leave now, we will be late for the movie.",
+      tr: 'Eğer şimdi ayrılmazsak filme geç kalacağız.',
+    },
+    {
+      ing: 'If you eat too much candy, you will get a stomach ache.',
+      tr: 'Eğer siz çok fazla şeker yerseniz sizin karnınız ağrır.',
+    },
+    {
+      ing: "He'll buy a new car if he gets the promotion.",
+      tr: 'Eğer o terfi alırsa o yeni bir araba alacaktır.',
+    },
+    {
+      ing: "If the sun is shining, we'll have a picnic in the park.",
+      tr: 'Eğer Güneş parlıyorsa biz parkta piknik yapacağız.',
+    },
+    {
+      ing: 'I will cook dinner if you wash the dishes.',
+      tr: 'Eğer sen bulaşıkları yıkarsan ben akşam yemeğini pişireceğim.',
+    },
+    {
+      ing: 'They will win the game if they keep playing well.',
+      tr: 'Eğer onlar iyi oynamaya devam ederlerse onlar maçı kazanacaklar.',
+    },
+    {
+      ing: "If it's hot tomorrow, we'll go swimming.",
+      tr: 'Eğer hava yarın hava sıcak olursa biz yüzmeye gideceğiz.',
+    },
+    {
+      ing: 'You will get good grades if you study regularly.',
+      tr: 'Eğer siz düzenli çalışırsanız siz iyi notlar alırsınız.',
+    },
+    {
+      ing: "If it's cold, he will wear his new coat.",
+      tr: 'Eğer hava soğuksa o yeni paltosunu giyer.',
+    },
+    {
+      ing: "We'll go to the museum if it rains.",
+      tr: 'Eğer yağmur yağarsa biz müzeye gideceğiz.',
+    },
+    {
+      ing: "They will arrive late if they don't leave soon.",
+      tr: 'Eğer onlar hemen gitmezlerse onlar geç varacaklar.',
+    },
+    {
+      ing: "If you don't water the plants, they will die.",
+      tr: 'Eğer siz bitkileri sulamazsanız onlar ölürler.',
+    },
+    {
+      ing: 'He will understand if you explain it to him.',
+      tr: 'Eğer siz onu ona açıklarsanız o anlayacaktır.',
+    },
+    {
+      ing: "I'll call you if I have time.",
+      tr: 'Eğer zamanım olursa ben seni arayacağım.',
+    },
+    {
+      ing: "If they bring their dog, we'll take ours too.",
+      tr: 'Eğer onlar köpeklerini getirirlerse, biz de bizimkini alırız.',
+    },
+    {
+      ing: "You'll be tired in the morning if you stay up late.",
+      tr: 'Eğer siz geç saatlere kadar uyanık kalırsanız siz sabahları yorgun olursunuz.',
+    },
+    {
+      ing: 'She will be excited if she gets the concert tickets.',
+      tr: 'Eğer o konser biletlerini alırsa o heyecanlanacaktır.',
+    },
+    {
+      ing: "If I don't see you, I'll be disappointed.",
+      tr: 'Eğer ben seni görmezsem ben hayal kırıklığına uğrayacağım.',
+    },
+    {
+      ing: "They'll enjoy the party if they know a lot of people there.",
+      tr: 'Eğer onlar orada çok sayıda insan tanıyorlarsa onlar partiden keyif alırlar.',
+    },
+    {
+      ing: "We'll finish the project early if we work together.",
+      tr: 'Eğer biz birlikte çalışırsak biz projeyi erken bitiririz.',
+    },
+    {
+      ing: "If you don't try, you will never know if you could have succeeded.",
+      tr: 'Eğer siz denemezseniz, siz başarılı olup olamayacağınızı asla bilemezsiniz.',
+    },
+    {
+      ing: "If you don't wear a coat, you'll be cold.",
+      tr: 'Eğer siz palto giymezseniz siz üşüyeceksiniz.',
+    },
+    {
+      ing: "If we finish work early, we'll go to the cinema.",
+      tr: 'Eğer biz işimizi erken bitirirsek biz sinemaya gideceğiz.',
+    },
+    {
+      ing: "You'll find the book interesting if you like history.",
+      tr: 'Eğer siz tarihi seviyorsanız siz kitabı ilginç bulacaksınız.',
+    },
+    {
+      ing: "If it's sunny tomorrow, we'll have a picnic.",
+      tr: 'Eğer yarın hava güneşliyse biz piknik yapacağız.',
+    },
+    {
+      ing: "She'll be upset if you don't call her.",
+      tr: 'Eğer siz onu aramazsanız o üzülecektir.',
+    },
+    {
+      ing: "If they work hard, they'll finish the project on time.",
+      tr: 'Eğer onlar çok çalışırlarsa onlar projeyi zamanında bitirecekler.',
+    },
+    {
+      ing: "You'll catch the train if you leave now.",
+      tr: 'Eğer sen şimdi yola çıkarsan sen trene yetişeceksin.',
+    },
+    {
+      ing: "If you help me with the dishes, I'll help you with your homework.",
+      tr: 'Eğer sen bana bulaşıklarda yardım edersen, ben de sana ödevlerinde yardım edeceğim.',
+    },
+    {
+      ing: "If he studies regularly, he'll pass the course.",
+      tr: 'eğer o düzenli çalışırsa o dersi geçer.',
+    },
+    {
+      ing: 'She will win the race if she keeps training.',
+      tr: 'Eğer o antrenmanlara devam ederse o yarışı kazanacaktır.',
+    },
+    {
+      ing: "We'll bake cookies if we have enough flour.",
+      tr: 'Eğer bizim yeterli unumuz varsa biz kurabiye pişireceğiz.',
+    },
+    {
+      ing: 'If you save your money, you can buy a new bicycle.',
+      tr: 'Eğer siz sizin paranızı biriktirirseniz siz yeni bir bisiklet satın alabilirsiniz.',
+    },
+    {
+      ing: "They'll be surprised if we throw them a party.",
+      tr: 'Eğer biz onlara parti verirsek onlar şaşıracaklar.',
+    },
+    {
+      ing: "If she sleeps early, she'll wake up refreshed.",
+      tr: 'Eğer o erken uyursa o dinlenmiş olarak uyanır.',
+    },
+    {
+      ing: "He'll get better grades if he pays attention in class.",
+      tr: 'Eğer o derse dikkat ederse o daha iyi notlar alır.',
+    },
+    {
+      ing: "If we book the tickets now, we'll get good seats.",
+      tr: 'Eğer biz biletleri şimdi ayırtırsak biz iyi koltuklar buluruz.',
+    },
+    {
+      ing: "You'll learn the language faster if you practice every day.",
+      tr: 'Eğer siz her gün pratik yaparsanız siz dili daha hızlı öğreneceksiniz.',
+    },
+    {
+      ing: "If you don't water the plants, they'll die.",
+      tr: 'Eğer siz bitkileri sulamazsanız bitkiler ölürler.',
+    },
+    {
+      ing: "If it's too hot, we'll go swimming.",
+      tr: 'Eğer hava çok sıcaksa biz yüzmeye gideceğiz.',
+    },
+    {
+      ing: "If you tell him the truth, he'll understand.",
+      tr: 'Eğer sen ona gerçeği söylersen o anlayacaktır.',
+    },
+    {
+      ing: "They'll miss their flight if they don't hurry.",
+      tr: 'Eğer onlar acele etmezlerse onlar uçuşlarını kaçıracaklar.',
+    },
+    {
+      ing: "If he eats too much candy, he'll get a stomachache.",
+      tr: 'Eğer o çok fazla şeker yerse onun karnı ağrır.',
+    },
+    {
+      ing: "We'll reach the mountain top if we keep hiking.",
+      tr: 'Eğer biz yürüyüşe devam edersek biz dağın zirvesine ulaşacağız.',
+    },
+    {
+      ing: "If she studies, she'll do well on her test.",
+      tr: 'Eğer o çalışırsa o sınavında başarılı olur.',
+    },
+    {
+      ing: "You'll see the stars if you look up at the sky.",
+      tr: 'Eğer siz gökyüzüne bakarsanız yıldızları göreceksiniz.',
+    },
+    {
+      ing: 'If it rains, I will bring a raincoat.',
+      tr: 'Yağmur yağarsa yağmurluk getireceğim.',
+    },
+    {
+      ing: 'If you study hard, you will pass the exam.',
+      tr: 'Çok çalışırsanız sınavı geçersiniz.',
+    },
+    {
+      ing: "If he calls, tell him I'm not available.",
+      tr: 'Eğer ararsa ona müsait olmadığımı söyleyin.',
+    },
+    {
+      ing: 'If they invite us, we will attend the party.',
+      tr: 'Bizi davet ederlerse partiye katılırız.',
+    },
+    {
+      ing: "If you don't hurry, you will miss the train.",
+      tr: 'Acele etmezseniz treni kaçıracaksınız.',
+    },
+    {
+      ing: 'If the weather is nice, we will have a picnic.',
+      tr: 'Hava güzel olursa piknik yapacağız.',
+    },
+    {
+      ing: 'If he works hard, he will achieve his goals.',
+      tr: 'Çok çalışırsa hedeflerine ulaşır.',
+    },
+    {
+      ing: 'If they offer me a promotion, I will accept it.',
+      tr: 'Bana terfi teklif ederlerse kabul edeceğim.',
+    },
+    {
+      ing: 'If you practice regularly, you will improve your skills.',
+      tr: 'Düzenli olarak pratik yaparsanız becerilerinizi geliştirirsiniz.',
+    },
+    {
+      ing: 'If we go early, we will get good seats.',
+      tr: 'Erken gidersek iyi koltuklar alırız.',
+    },
+    {
+      ing: "If you don't take care, you will get hurt.",
+      tr: 'Eğer dikkat etmezseniz incinirsiniz.',
+    },
+    {
+      ing: 'If they arrive late, the movie will have already started.',
+      tr: 'Geç gelirlerse film çoktan başlamış olacaktır.',
+    },
+    {
+      ing: 'If we work together, we can achieve our goal. ',
+      tr: 'Birlikte çalışırsak hedefimize ulaşabiliriz.',
+    },
+    {
+      ing: "You'll succeed if you believe in yourself. ",
+      tr: 'Kendinize inanırsanız başaracaksınız.',
+    },
+    {
+      ing: "They'll have a party if they win the championship. ",
+      tr: 'Şampiyonayı kazanırlarsa parti verecekler.',
+    },
+    {
+      ing: "If you don't practice regularly, you won't improve. ",
+      tr: 'Düzenli pratik yapmazsanız gelişmezsiniz.',
+    },
+    {
+      ing: "If we don't take care of the environment, we'll face serious consequences. ",
+      tr: 'Çevreye dikkat etmezsek ciddi sonuçlarla karşı karşıya kalırız.',
+    },
+    {
+      ing: "We'll go shopping if we find a good sale. ",
+      tr: 'İyi bir indirim bulursak alışverişe gideriz.',
+    },
+    {
+      ing: "If you study hard, you'll succeed. ",
+      tr: 'Çok çalışırsanız başarılı olursunuz.',
+    },
+    {
+      ing: "She'll be happy if she receives a surprise gift. ",
+      tr: 'Sürpriz bir hediye alırsa mutlu olur.',
+    },
+    {
+      ing: "We'll have a great time if the weather is nice. ",
+      tr: 'Hava güzelse harika vakit geçireceğiz.',
+    },
+    {
+      ing: "If they arrive late, they'll miss the beginning of the show. ",
+      tr: 'Geç gelirlerse gösterinin başlangıcını kaçıracaklar.',
+    },
+    {
+      ing: "If we don't leave now, we'll be late for the appointment. ",
+      tr: 'Şimdi ayrılmazsak randevuya geç kalacağız.',
+    },
+    {
+      ing: "You'll understand the concept if you ask questions. ",
+      tr: 'Soru sorarsanız kavramı anlayacaksınız.',
+    },
+    {
+      ing: "If we don't take action now, the opportunity will slip away. ",
+      tr: 'Harekete geçmezsek fırsat kaçıp gidecek.',
+    },
+    {
+      ing: "She'll pass the exam if she studies consistently. ",
+      tr: 'Sürekli çalışırsa sınavı geçecektir.',
+    },
+    {
+      ing: "We'll go for a walk if the weather improves. ",
+      tr: 'Hava düzelirse yürüyüşe çıkacağız.',
+    },
+    {
+      ing: "If you don't take care of your health, you'll regret it later. ",
+      tr: 'Sağlığınıza dikkat etmezseniz sonradan pişman olursunuz.',
+    },
+    {
+      ing: "If we don't leave now, we'll be late for the appointment.",
+      tr: 'Eğer şimdi ayrılmazsak randevuya geç kalacağız. ',
+    },
+    {
+      ing: "If you study hard, you'll succeed.",
+      tr: 'Çok çalışırsanız başarılı olursunuz. ',
+    },
+    {
+      ing: "We'll go shopping if we find a good sale.",
+      tr: 'İyi bir indirim bulursak alışverişe gideriz. ',
+    },
+    {
+      ing: "If you don't practice regularly, you won't improve.",
+      tr: 'Düzenli pratik yapmazsanız gelişmezsiniz. ',
+    },
+    {
+      ing: "She'll pass the exam if she studies consistently.",
+      tr: 'Düzenli çalışırsa sınavı geçecektir. ',
+    },
+    {
+      ing: 'If we work together, we can achieve our goal.',
+      tr: 'Birlikte çalışırsak hedefimize ulaşabiliriz. ',
+    },
+    {
+      ing: "We'll have a great time if the weather is nice.",
+      tr: 'Hava güzelse harika vakit geçireceğiz. ',
+    },
+    {
+      ing: "If you don't take care of your health, you'll regret it later.",
+      tr: 'Sağlığınıza dikkat etmezseniz sonradan pişman olursunuz. ',
+    },
+    {
+      ing: "You'll understand the concept if you ask questions.",
+      tr: 'Soru sorarsanız kavramı anlayacaksınız. ',
+    },
+    {
+      ing: "They'll have a party if they win the championship.",
+      tr: 'Şampiyonayı kazanırlarsa parti verecekler. ',
+    },
+    {
+      ing: "If we don't take action now, the opportunity will slip away.",
+      tr: 'Şimdi harekete geçmezsek fırsat kaçıp gidecek. ',
+    },
+    {
+      ing: 'If you study hard, you will go to a good university.',
+      tr: 'Çok çalışırsanız iyi bir üniversiteye gidersiniz. ',
+    },
+    {
+      ing: "We'll go for a walk if the weather improves.",
+      tr: 'Hava güzelleşirse yürüyüşe çıkacağız. ',
+    },
+    {
+      ing: 'If we work together, we can achieve our goal.',
+      tr: 'Birlikte çalışırsak hedefimize ulaşabiliriz. ',
+    },
+    {
+      ing: "They'll have a party if they win the championship.",
+      tr: 'Şampiyonayı kazanırlarsa parti verecekler. ',
+    },
+  ],
+  Type2: [
+    {
+      ing: 'I would buy a new car if I had more money.',
+      tr: 'Daha fazla param olsaydı yeni bir araba alırdım.',
+    },
+    {
+      ing: 'I would play basketball if I were taller.',
+      tr: 'Daha uzun boylu olsaydım basketbol oynardım.',
+    },
+    {
+      ing: 'You would get better grades if you studied harder.',
+      tr: 'Daha çok çalışsaydın daha iyi notlar alırdın.',
+    },
+    {
+      ing: 'She would travel the world if she had more time.',
+      tr: 'Daha fazla zamanı olsaydı dünyayı gezerdi.',
+    },
+    {
+      ing: 'They would quit their jobs if they won the lottery.',
+      tr: 'Piyangoyu kazansalardı işlerinden ayrılırlardı.',
+    },
+    {
+      ing: 'We would stay indoors if it rained tomorrow.',
+      tr: 'Yarın yağmur yağsaydı içeride kalırdık.',
+    },
+    {
+      ing: 'He would raise his hand if he knew the answer.',
+      tr: 'Cevabı bilseydi elini kaldırırdı.',
+    },
+    {
+      ing: 'She would drive to work if she had a car.',
+      tr: 'Arabası olsaydı işe arabayla giderdi.',
+    },
+    {
+      ing: 'We would visit each other more often if we lived closer.',
+      tr: 'Daha yakın yaşasaydık birbirimizi daha sık ziyaret ederdik.',
+    },
+    {
+      ing: 'You would communicate with ease if you spoke Spanish.',
+      tr: 'İspanyolca konuşsaydın kolayca iletişim kurardın.',
+    },
+    {
+      ing: 'We would build a snowman if it snowed.',
+      tr: 'Kar yağsaydı kardan adam yapardık.',
+    },
+    {
+      ing: 'He would take more photos if he had a smartphone.',
+      tr: 'Akıllı telefonu olsaydı daha çok fotoğraf çekerdi.',
+    },
+    {
+      ing: 'She would be ecstatic if she won the competition.',
+      tr: 'Yarışmayı kazansaydı çok mutlu olurdu.',
+    },
+    {
+      ing: 'They would start a hobby if they had more free time.',
+      tr: 'Daha fazla boş zamanları olsaydı bir hobi edinirlerdi.',
+    },
+    {
+      ing: 'I would grant your wishes if I had a magic wand.',
+      tr: 'Sihirli değneğim olsaydı dileklerini gerçekleştirirdim.',
+    },
+    {
+      ing: 'What would you do if you had a million dollars?',
+      tr: 'Bir milyon doların olsaydı ne yapardın?',
+    },
+    {
+      ing: 'She would fly like a bird if she had wings.',
+      tr: 'Kanatları olsaydı bir kuş gibi uçardı.',
+    },
+    {
+      ing: 'They would avoid mistakes if they listened to advice.',
+      tr: 'Tavsiyeleri dinleselerdi hatalardan kaçınırlardı.',
+    },
+    {
+      ing: 'I would wear a jacket if it were colder.',
+      tr: 'Hava daha soğuk olsaydı ceket giyerdim.',
+    },
+    {
+      ing: 'I would travel the world if I had more vacation days.',
+      tr: 'Daha fazla tatil günüm olsaydı dünyayı gezerdim.',
+    },
+    {
+      ing: 'Would you go back in time if you had the opportunity?',
+      tr: 'Fırsatın olsaydı geçmişe gider miydin?',
+    },
+    {
+      ing: 'She would pass the test if she studied more.',
+      tr: 'Daha çok çalışsaydı sınavı geçerdi.',
+    },
+    {
+      ing: 'We would have a great time if they were here.',
+      tr: 'Onlar burada olsaydı çok iyi vakit geçirirdik.',
+    },
+    {
+      ing: 'I would be invisible if I had a superpower.',
+      tr: 'Süper gücüm olsaydı görünmez olurdum.',
+    },
+    {
+      ing: 'Where would you go if you had a time machine?',
+      tr: 'Zaman makineniz olsaydı nereye giderdiniz?',
+    },
+    {
+      ing: 'If you worked harder, you might get a promotion.',
+      tr: 'Daha çok çalışsaydın, belki terfi alabilirdin.',
+    },
+    {
+      ing: 'If we had a map, we could find the way.',
+      tr: 'Haritamız olsaydı yolu bulabilirdik.',
+    },
+    {
+      ing: 'He could buy a car if he saved more money.',
+      tr: 'Daha fazla para biriktirirse araba alabilirdi.',
+    },
+    {
+      ing: 'If it were sunny, we would go to the beach.',
+      tr: 'Güneşli olsaydı plaja giderdik.',
+    },
+    {
+      ing: 'If I knew her address, I would send her a letter.',
+      tr: 'Adresini bilseydim ona mektup gönderirdim.',
+    },
+    {
+      ing: 'They could win the game if they practiced more.',
+      tr: 'Daha çok çalışsalardı oyunu kazanabilirlerdi.',
+    },
+    {
+      ing: 'If you saw a ghost, what would you do?',
+      tr: 'Bir hayalet görseydin ne yapardın?',
+    },
+    {
+      ing: 'If I were taller, I could reach the top shelf.',
+      tr: 'Daha uzun boylu olsaydım, en üst rafa ulaşabilirdim.',
+    },
+    {
+      ing: "If she didn't spend so much, she wouldn't be in debt.",
+      tr: 'Bu kadar çok harcamasaydı, borçlu olmazdı.',
+    },
+    {
+      ing: 'They would be happier if they lived closer to their family.',
+      tr: 'Ailelerine daha yakın yaşasalardı daha mutlu olurlardı.',
+    },
+    {
+      ing: 'If I had a bike, I would cycle to work.',
+      tr: 'Bisikletim olsaydı işe bisikletle giderdim.',
+    },
+    {
+      ing: 'You could travel the world if you won the lottery.',
+      tr: 'Piyangoyu kazansaydın dünyayı gezebilirdin.',
+    },
+    {
+      ing: "If I were you, I wouldn't worry about it.",
+      tr: 'Ben senin yerinde olsaydım, bu konuda endişelenmezdim.',
+    },
+    {
+      ing: 'If they offered me the job, I might take it.',
+      tr: 'Bana iş teklif etselerdi, belki kabul ederdim.',
+    },
+    {
+      ing: 'If he knew the truth, he would be shocked.',
+      tr: 'Gerçeği bilseydi, şok olurdu.',
+    },
+    {
+      ing: "You wouldn't be tired now if you had gone to bed earlier.",
+      tr: 'Daha erken yatmış olsaydın şimdi yorgun olmazdın.',
+    },
+    {
+      ing: 'If we left now, we could catch the early train.',
+      tr: 'Şimdi çıksaydık, erken trene yetişebilirdik.',
+    },
+    {
+      ing: "If it wasn't so cold, we could have a picnic.",
+      tr: 'Bu kadar soğuk olmasaydı, piknik yapabilirdik.',
+    },
+    {
+      ing: 'If I could fly, I would travel the world.',
+      tr: 'Uçabilseydim, dünyayı gezerdim.',
+    },
+    {
+      ing: 'You could pass the exam if you studied harder.',
+      tr: 'Daha çok çalışsaydın sınavı geçebilirdin.',
+    },
+    {
+      ing: 'If I had more time, I would learn another language.',
+      tr: 'Daha fazla zamanım olsaydı, başka bir dil öğrenirdim.',
+    },
+    {
+      ing: 'If she practiced more, she could become a great pianist.',
+      tr: 'Daha çok pratik yapsaydı, harika bir piyanist olabilirdi.',
+    },
+    {
+      ing: 'I would buy that dress if it were cheaper.',
+      tr: 'O elbise daha ucuz olsaydı onu alırdım.',
+    },
+    {
+      ing: 'If he read more books, he might be more knowledgeable.',
+      tr: 'Daha çok kitap okusaydı, belki daha bilgili olurdu.',
+    },
+    {
+      ing: 'If it were not so late, we would watch another movie.',
+      tr: 'Bu kadar geç olmasaydı, başka bir film izlerdik.',
+    },
+    {
+      ing: 'If I were you, I would study more for the exam.',
+      tr: 'Ben senin yerinde olsaydım, sınav için daha çok çalışırdım.',
+    },
+    {
+      ing: 'If we had a garden, we would grow our own vegetables.',
+      tr: 'Bahçemiz olsaydı, kendi sebzelerimizi yetiştirirdik.',
+    },
+    {
+      ing: 'You would understand the problem if you paid more attention.',
+      tr: 'Daha dikkatli olsaydın, sorunu anlardın.',
+    },
+    {
+      ing: 'If it were sunny, we would go to the beach.',
+      tr: 'Güneşli olsaydı, plaja giderdik.',
+    },
+    {
+      ing: 'He would be happier if he found a job.',
+      tr: 'Bir iş bulsaydı daha mutlu olurdu.',
+    },
+    {
+      ing: 'If they practiced more, they would be better musicians.',
+      tr: 'Daha çok pratik yapsalardı, daha iyi müzisyenler olurlardı.',
+    },
+    {
+      ing: 'We would travel around the world if we had more money.',
+      tr: 'Daha fazla paramız olsaydı dünyayı dolaşırdık.',
+    },
+    {
+      ing: 'If I knew how to cook, I would make dinner.',
+      tr: 'Yemek yapmayı bilseydim, akşam yemeği hazırlardım.',
+    },
+    {
+      ing: 'She would pass the test if she studied.',
+      tr: 'Çalışsaydı sınavı geçerdi.',
+    },
+    {
+      ing: 'If I had a car, I would drive to work.',
+      tr: 'Arabam olsaydı, işe arabayla giderdim.',
+    },
+    {
+      ing: 'They would win the game if they scored another goal.',
+      tr: 'Bir gol daha atsalardı maçı kazanırlardı.',
+    },
+    {
+      ing: "If you weren't so shy, you would make more friends.",
+      tr: 'Bu kadar utangaç olmasaydın, daha çok arkadaş edinirdin.',
+    },
+    {
+      ing: 'We would buy a new house if we could afford it.',
+      tr: 'Karşılayabilseydik yeni bir ev alırdık.',
+    },
+    {
+      ing: 'If she were taller, she would play basketball.',
+      tr: 'Daha uzun boylu olsaydı, basketbol oynardı.',
+    },
+    {
+      ing: 'I would call you if I had your number.',
+      tr: 'Numaranı bilseydim seni arardım.',
+    },
+    {
+      ing: 'You would be on time if you woke up earlier.',
+      tr: 'Daha erken kalksaydın zamanında yetişirdin.',
+    },
+    {
+      ing: 'If he took the medicine, he would feel better.',
+      tr: 'İlacı alsaydı kendini daha iyi hissederdi.',
+    },
+    {
+      ing: 'If we knew the way, we would be there by now.',
+      tr: 'Yolu bilseydik, şimdiye orada olurduk.',
+    },
+    {
+      ing: 'She would be a great leader if she were more confident.',
+      tr: 'Daha özgüvenli olsaydı, harika bir lider olurdu.',
+    },
+    {
+      ing: 'If I were a bird, I would fly all day.',
+      tr: 'Bir kuş olsaydım, bütün gün uçardım.',
+    },
+    {
+      ing: 'You would pass the driving test if you practiced more.',
+      tr: 'Daha çok pratik yapsaydın, ehliyet sınavını geçerdin.',
+    },
+    {
+      ing: 'If it rained tomorrow, we would stay indoors.',
+      tr: 'Yarın yağmur yağsaydı, içeride kalırdık.',
+    },
+    {
+      ing: 'If I had a map, I would find the way.',
+      tr: 'Haritam olsaydı, yolu bulurdum.',
+    },
+    {
+      ing: 'We would visit Paris if we had the time.',
+      tr: "Zamanımız olsaydı Paris'i ziyaret ederdik.",
+    },
+    {
+      ing: 'If you had told me, I would have helped you.',
+      tr: 'Bana söylemiş olsaydın, sana yardım ederdim.',
+    },
+    {
+      ing: 'If I won the lottery, I would buy a house.',
+      tr: 'Piyangoyu kazansaydım, bir ev alırdım.',
+    },
+    {
+      ing: 'If you worked harder, you could get a promotion.',
+      tr: 'Daha çok çalışsaydın, terfi alabilirdin.',
+    },
+    {
+      ing: 'He would be happier if he found a job.',
+      tr: 'Bir iş bulsaydı daha mutlu olurdu.',
+    },
+    {
+      ing: 'If we left now, we would arrive on time.',
+      tr: 'Şimdi çıksaydık, zamanında varırdık.',
+    },
+    {
+      ing: 'If you asked her, she would help you.',
+      tr: 'Ona sorsaydın, sana yardım ederdi.',
+    },
+    {
+      ing: 'She would pass the test if she studied.',
+      tr: 'Çalışsaydı sınavı geçerdi.',
+    },
+    {
+      ing: 'If I were you, I would take the opportunity.',
+      tr: 'Ben senin yerinde olsaydım, bu fırsatı değerlendirirdim.',
+    },
+    {
+      ing: "They would have more time if they didn't watch so much TV.",
+      tr: 'Bu kadar çok televizyon izlemeselerdi, daha fazla zamanları olurdu.',
+    },
+    {
+      ing: 'We would travel the world if we had more money.',
+      tr: 'Daha fazla paramız olsaydı dünyayı gezerdik.',
+    },
+    {
+      ing: "I would go to the party if I didn't have to work tomorrow.",
+      tr: 'Yarın çalışmak zorunda olmasaydım, partiye giderdim.',
+    },
+    {
+      ing: 'If he ate less, he would lose weight.',
+      tr: 'Daha az yeseydi, kilo verirdi.',
+    },
+    {
+      ing: 'She would learn faster if she paid more attention.',
+      tr: 'Daha dikkatli olsaydı, daha hızlı öğrenirdi.',
+    },
+    {
+      ing: 'If you exercised more, you would feel better.',
+      tr: 'Daha çok egzersiz yapsaydın, kendini daha iyi hissederdin.',
+    },
+    {
+      ing: 'They would understand if you explained it to them.',
+      tr: 'Onlara açıklasaydın, anlarlardı.',
+    },
+    {
+      ing: 'If we planted more trees, our town would be more beautiful.',
+      tr: 'Daha fazla ağaç diksek, şehrimiz daha güzel olurdu.',
+    },
+    {
+      ing: 'He would write a book if he had more time.',
+      tr: 'Daha fazla zamanı olsaydı, bir kitap yazardı.',
+    },
+    {
+      ing: 'If she played the lottery, she might win.',
+      tr: 'Piyango oynasaydı, belki kazanırdı.',
+    },
+    {
+      ing: 'If I knew how to cook, I would make dinner.',
+      tr: 'Yemek yapmayı bilseydim, akşam yemeği hazırlardım.',
+    },
+    {
+      ing: 'They would enjoy the movie if they liked science fiction.',
+      tr: 'Bilim kurguyu sevselerdi, filmi beğenirlerdi.',
+    },
+    {
+      ing: 'If it were warmer, we could go swimming.',
+      tr: 'Hava daha sıcak olsaydı, yüzmeye gidebilirdik.',
+    },
+    {
+      ing: 'If I lived closer, I would visit more often.',
+      tr: 'Daha yakında yaşasaydım, daha sık ziyaret ederdim.',
+    },
+    {
+      ing: 'You would improve your English if you practiced more.',
+      tr: 'Daha çok pratik yapsan, İngilizceni geliştirebilirdin.',
+    },
+    {
+      ing: 'She would be famous if she were a movie star.',
+      tr: 'Bir film yıldızı olsaydı, ünlü olurdu.',
+    },
+    {
+      ing: 'If they ran every day, they would be healthier.',
+      tr: 'Her gün koşsalardı, daha sağlıklı olurlardı.',
+    },
+    {
+      ing: 'I would read more if I had more free time.',
+      tr: 'Daha fazla boş zamanım olsaydı, daha çok kitap okurdum.',
+    },
+    {
+      ing: 'If I had a car, I would drive to work.',
+      tr: 'Arabam olsaydı, işe arabayla giderdim.',
+    },
+    {
+      ing: 'If you studied more, you would pass your exams.',
+      tr: 'Daha çok çalışsaydın, sınavlarını geçerdin.',
+    },
+    {
+      ing: 'If we lived closer, we would see each other more often.',
+      tr: 'Daha yakın yaşasaydık, birbirimizi daha sık görürdük.',
+    },
+    {
+      ing: 'You would understand if you paid attention.',
+      tr: 'Dikkat etseydin, anlardın.',
+    },
+    {
+      ing: 'If it rained, we would stay indoors.',
+      tr: 'Yağmur yağsaydı, içeride kalırdık.',
+    },
+    {
+      ing: 'She would be happier if she had a pet.',
+      tr: 'Bir evcil hayvanı olsaydı daha mutlu olurdu.',
+    },
+    {
+      ing: 'If they played better, they would win the match.',
+      tr: 'Daha iyi oynasalardı, maçı kazanırlardı.',
+    },
+    {
+      ing: 'We would visit Paris if we had enough money.',
+      tr: "Yeterli paramız olsaydı Paris'i ziyaret ederdik.",
+    },
+    {
+      ing: 'If I knew the answer, I would tell you.',
+      tr: 'Cevabı bilseydim, sana söylerdim.',
+    },
+    {
+      ing: 'You would love this book if you read it.',
+      tr: 'Bu kitabı okusaydın, çok beğenirdin.',
+    },
+    {
+      ing: 'If I were taller, I would play basketball.',
+      tr: 'Daha uzun boylu olsaydım, basketbol oynardım.',
+    },
+    {
+      ing: 'If it were sunny, we would go for a swim.',
+      tr: 'Güneşli olsaydı, yüzmeye giderdik.',
+    },
+    {
+      ing: 'They would pass the test if they studied harder.',
+      tr: 'Daha çok çalışsalardı, sınavı geçerlerdi.',
+    },
+    {
+      ing: 'If you saw the movie, you would understand the reference.',
+      tr: 'Filmi izleseydin, referansı anlardın.',
+    },
+    {
+      ing: 'He would get the job if he had more experience.',
+      tr: 'Daha fazla deneyimi olsaydı, işi alırdı.',
+    },
+    {
+      ing: 'If I had a garden, I would plant flowers.',
+      tr: 'Bahçem olsaydı, çiçek ekerdim.',
+    },
+    {
+      ing: 'She would become a singer if she could.',
+      tr: 'İmkanı olsaydı, şarkıcı olurdu.',
+    },
+    {
+      ing: "If you weren't so shy, you would make more friends.",
+      tr: 'Bu kadar utangaç olmasaydın, daha çok arkadaş edinirdin.',
+    },
+    {
+      ing: 'We would buy a new TV if we could afford it.',
+      tr: 'Karşılayabilseydik, yeni bir televizyon alırdık.',
+    },
+    {
+      ing: 'If it were not so late, we would watch another episode.',
+      tr: 'Bu kadar geç olmasaydı, bir bölüm daha izlerdik.',
+    },
+    {
+      ing: "If they didn't live so far away, we would visit them more often.",
+      tr: 'Bu kadar uzakta yaşamasalardı, onları daha sık ziyaret ederdik.',
+    },
+    {
+      ing: 'You would know the way if you had a map.',
+      tr: 'Haritan olsaydı, yolu bilirdin.',
+    },
+    {
+      ing: 'He would score higher if he practiced more.',
+      tr: 'Daha çok pratik yapsaydı, daha yüksek puan alırdı.',
+    },
+    {
+      ing: 'If I were in charge, I would change many things.',
+      tr: 'Ben sorumlu olsaydım, birçok şeyi değiştirirdim.',
+    },
+    {
+      ing: 'They would enjoy the party if they went.',
+      tr: 'Partiye gitselerdi, eğlenirlerdi.',
+    },
+    {
+      ing: 'If I had more time, I would go for a walk.',
+      tr: 'Daha fazla zamanım olsaydı, yürüyüşe çıkardım.',
+    },
+    {
+      ing: 'If I were taller, I would reach the top shelf.',
+      tr: 'Daha uzun boylu olsaydım, en üst rafa ulaşabilirdim.',
+    },
+    {
+      ing: 'If she had enough money, she would buy a new car.',
+      tr: 'Yeterli parası olsaydı, yeni bir araba alırdı.',
+    },
+    {
+      ing: 'If I won the lottery, I would travel the world.',
+      tr: 'Piyangoyu kazansaydım, dünyayı gezerdim.',
+    },
+    {
+      ing: 'If she had a magic power, she would teleport.',
+      tr: 'Sihirli bir gücü olsaydı, ışınlanırdı.',
+    },
+    {
+      ing: 'If I had more experience, I would get a better job.',
+      tr: 'Daha fazla deneyimim olsaydı, daha iyi bir iş bulurdum.',
+    },
+    {
+      ing: 'If she could fly, she would explore the skies.',
+      tr: 'Uçabilseydi, gökleri keşfederdi.',
+    },
+    {
+      ing: 'If it snowed, we would build a snowman.',
+      tr: 'Kar yağsaydı, kardan adam yapardık.',
+    },
+    {
+      ing: 'If I had a time machine, I would visit the past.',
+      tr: 'Zaman makinesi olsaydı, geçmişi ziyaret ederdim.',
+    },
+    {
+      ing: 'If she won the lottery, she would buy a mansion.',
+      tr: 'Piyangoyu kazansaydı, bir malikane alırdı.',
+    },
+    {
+      ing: 'If I had a million dollars, I would start a business.',
+      tr: 'Bir milyon dolarım olsaydı, bir iş kurardım.',
+    },
+    {
+      ing: 'If she had more time, she would read more books.',
+      tr: 'Daha fazla zamanı olsaydı, daha çok kitap okurdu.',
+    },
+    {
+      ing: 'If I were a superhero, I would save the world.',
+      tr: 'Bir süper kahraman olsaydım, dünyayı kurtarırdım.',
+    },
+    {
+      ing: 'If you were here, you would offer your help. ',
+      tr: 'Burada olsaydın, yardım teklif ederdin.',
+    },
+    {
+      ing: 'If she were to win the lottery, what would she do? ',
+      tr: 'Piyangoyu kazansaydı, ne yapardı?',
+    },
+    {
+      ing: 'If I had more experience, I would be better at this. ',
+      tr: 'Daha fazla deneyimim olsaydı, bunda daha iyi olurdum.',
+    },
+    {
+      ing: 'If I had more money, I would travel the world. ',
+      tr: 'Daha fazla param olsaydı, dünyayı gezerdim.',
+    },
+    {
+      ing: 'If I were a famous actor, I would star in blockbuster movies. ',
+      tr: 'Ünlü bir aktör olsaydım, gişe rekorları kıran filmlerde oynardım.',
+    },
+    {
+      ing: 'If she knew the answer, she would share it with us. ',
+      tr: 'Cevabı bilseydi, bizimle paylaşırdı.',
+    },
+    {
+      ing: 'If I were a bird, I would soar through the sky. ',
+      tr: 'Bir kuş olsaydım, gökyüzünde süzülürdüm.',
+    },
+    {
+      ing: 'If we had more time, we would explore new hobbies. ',
+      tr: 'Daha fazla zamanımız olsaydı, yeni hobiler keşfederdik.',
+    },
+    {
+      ing: 'If they put in more effort, they would see better results. ',
+      tr: 'Daha fazla çaba gösterselerdi, daha iyi sonuçlar görürlerdi.',
+    },
+    {
+      ing: 'If she were here, she would offer her help.',
+      tr: 'Burada olsaydı, yardım teklif ederdi.',
+    },
+    {
+      ing: 'If I had more experience, I would be better at this.',
+      tr: 'Daha fazla deneyimim olsaydı, bunda daha iyi olurdum.',
+    },
+    {
+      ing: 'If I had more money, I would travel the world.',
+      tr: 'Daha fazla param olsaydı, dünyayı gezerdim.',
+    },
+    {
+      ing: 'If I were a famous actor, I would star in blockbuster movies.',
+      tr: 'Ünlü bir aktör olsaydım, gişe rekorları kıran filmlerde oynardım.',
+    },
+    {
+      ing: 'If you were to win the lottery, what would you do?',
+      tr: 'Piyangoyu kazansaydın, ne yapardın?',
+    },
+    {
+      ing: 'If they put in more effort, they would see better results.',
+      tr: 'Daha fazla çaba gösterselerdi, daha iyi sonuçlar görürlerdi.',
+    },
+    {
+      ing: 'If I had more free time, I would pursue my hobbies.',
+      tr: 'Daha fazla boş zamanım olsaydı, hobilerimle ilgilenirdim.',
+    },
+    {
+      ing: 'If she knew the answer, she would share it with us.',
+      tr: 'Cevabı bilseydi, bizimle paylaşırdı.',
+    },
+    {
+      ing: 'If she were here, she would offer her help.',
+      tr: 'Burada olsaydı, yardım teklif ederdi.',
+    },
+    {
+      ing: 'If I had more experience, I would be better at this.',
+      tr: 'Daha fazla deneyimim olsaydı, bunda daha iyi olurdum.',
+    },
+  ],
+  Type3: [
+    {
+      ing: 'If I had studied harder, I would have passed the exam.',
+      tr: 'Daha çok çalışsaydım sınavı geçebilirdim.',
+    },
+    {
+      ing: 'If they had arrived on time, they would have seen the show.',
+      tr: 'Zamanında gelselerdi gösteriyi izleyeceklerdi.',
+    },
+    {
+      ing: "If it hadn't rained, we would have gone to the park.",
+      tr: 'Yağmur yağmasaydı parka giderdik.',
+    },
+    {
+      ing: 'If you had asked for help, I would have assisted you.',
+      tr: 'Yardım isteseydin sana yardım ederdim.',
+    },
+    {
+      ing: 'If she had known the answer, she would have told us.',
+      tr: 'Cevabı bilseydi bize söylerdi.',
+    },
+    {
+      ing: 'If we had taken the earlier train, we would have caught the flight.',
+      tr: 'Daha önceki trene binseydik uçağa yetişebilirdik.',
+    },
+    {
+      ing: "If you hadn't eaten so much, you wouldn't have felt sick.",
+      tr: 'Bu kadar çok yemeseydin hasta olmazdın.',
+    },
+    {
+      ing: "If they had listened to the instructions, they wouldn't have gotten lost.",
+      tr: 'Talimatları dinleselerdi kaybolmazlardı.',
+    },
+    {
+      ing: 'If I had known you were coming, I would have baked a cake.',
+      tr: 'Geleceğinizi bilseydim pasta yapardım.',
+    },
+    {
+      ing: 'If he had studied more, he would have passed the driving test.',
+      tr: 'Daha fazla çalışsaydı direksiyon sınavını geçebilirdi.',
+    },
+    {
+      ing: "If we had left earlier, we wouldn't have missed the bus.",
+      tr: 'Daha erken yola çıksaydık otobüsü kaçırmazdık.',
+    },
+    {
+      ing: "If she had taken my advice, she wouldn't have made that mistake.",
+      tr: 'Tavsiyemi dinlemiş olsaydı bu hatayı yapmazdı.',
+    },
+    {
+      ing: 'If you had called me, I would have picked you up from the airport.',
+      tr: 'Eğer beni aramış olsaydınız, sizi havaalanından alırdım.',
+    },
+    {
+      ing: 'If they had bought the tickets in advance, they would have saved money.',
+      tr: 'Biletleri önceden alsalardı para biriktirmiş olacaklardı.',
+    },
+    {
+      ing: 'If I had seen you, I would have waved hello.',
+      tr: 'Seni görseydim el sallardım.',
+    },
+    {
+      ing: "If we had brought an umbrella, we wouldn't have gotten wet.",
+      tr: 'Şemsiye getirseydik ıslanmazdık.',
+    },
+    {
+      ing: 'If you had waited for me, we could have gone together.',
+      tr: 'Beni bekleseydin birlikte gidebilirdik.',
+    },
+    {
+      ing: "If she had remembered her keys, she wouldn't have been locked out.",
+      tr: 'Anahtarlarını unjutmasaydı dışarıda kilitli kalmazdı.',
+    },
+    {
+      ing: "If they had turned off the stove, there wouldn't have been a fire.",
+      tr: 'Ocağı kapatsalardı yangın olmazdı.',
+    },
+    {
+      ing: 'If I had won the lottery, I would have bought a big house.',
+      tr: 'Piyangoyu kazansaydım büyük bir ev satın alırdım.',
+    },
+    {
+      ing: 'If we had studied more, we would have passed the test.',
+      tr: 'Daha fazla çalışsaydık testi geçebilirdik.',
+    },
+    {
+      ing: 'If you had called earlier, we would have made reservations.',
+      tr: 'Daha önce aramış olsaydınız rezervasyon yaptırırdık.',
+    },
+    {
+      ing: "If she had finished her work on time, she wouldn't have stayed late.",
+      tr: 'Eğer işini zamanında bitirmiş olsaydı geç saatlere kadar kalmazdı.',
+    },
+    {
+      ing: 'If they had booked the hotel in advance, they would have gotten a better rate.',
+      tr: 'Oteli önceden rezerve etselerdi daha iyi bir fiyat elde edebilirlerdi.',
+    },
+    {
+      ing: 'If I had seen the movie, I would have understood the references.',
+      tr: 'Filmi izlemiş olsaydım referansları anlardım.',
+    },
+    {
+      ing: "If I had known about the traffic, I wouldn't have been late.",
+      tr: 'Trafiği bilseydim geç kalmazdım.',
+    },
+    {
+      ing: 'If they had studied harder, they would have passed the test.',
+      tr: 'Daha çok çalışsalardı testi geçebilirlerdi.',
+    },
+    {
+      ing: "If it hadn't been so cold, we would have gone for a swim.",
+      tr: 'Hava bu kadar soğuk olmasaydı yüzmeye giderdik.',
+    },
+    {
+      ing: "If you had listened to my advice, you wouldn't have made that mistake.",
+      tr: 'Tavsiyemi dinlemiş olsaydın bu hatayı yapmazdın.',
+    },
+    {
+      ing: 'If she had seen the accident, she would have called for help.',
+      tr: 'Kazayı görseydi yardım çağırırdı.',
+    },
+    {
+      ing: 'If we had saved money, we would have been able to go on vacation.',
+      tr: 'Para biriktirmiş olsaydık tatile gidebilecektik.',
+    },
+    {
+      ing: 'If you had practiced more, you would have played better in the concert.',
+      tr: 'Daha fazla pratik yapsaydın konserde daha iyi çalardın.',
+    },
+    {
+      ing: "If they had taken the train, they wouldn't have been stuck in traffic.",
+      tr: 'Trene binmiş olsalardı trafiğe sıkışmayacaklardı.',
+    },
+    {
+      ing: "If I had known you were allergic, I wouldn't have brought nuts.",
+      tr: 'Alerjiniz olduğunu bilseydim fındık getirmezdim.',
+    },
+    {
+      ing: 'If he had bought the tickets earlier, he would have gotten better seats.',
+      tr: 'Biletleri daha önce almış olsaydı daha iyi koltuklara sahip olurdu.',
+    },
+    {
+      ing: 'If we had arrived earlier, we would have found parking easily.',
+      tr: 'Daha erken gelseydik rahatlıkla park yeri bulabilirdik.',
+    },
+    {
+      ing: "If she had followed the recipe, the cake wouldn't have burned.",
+      tr: 'Tarife uysaydı kek yanmazdı.',
+    },
+    {
+      ing: 'If you had invited us, we would have come to the party.',
+      tr: 'Bizi davet etseydiniz partiye gelirdik.',
+    },
+    {
+      ing: 'If they had studied more, they would have understood the lesson.',
+      tr: 'Daha fazla çalışsalardı dersi anlarlardı.',
+    },
+    {
+      ing: "If I had seen the sign, I wouldn't have taken the wrong turn.",
+      tr: 'Eğer tabelayı görseydim yanlış yola sapmazdım.',
+    },
+    {
+      ing: 'If we had booked in advance, we would have gotten a discount.',
+      tr: 'Eğer önceden rezervasyon yapsaydık indirim alabilirdik.',
+    },
+    {
+      ing: "If you had asked for directions, you wouldn't have gotten lost.",
+      tr: 'Yol tarifi sorsaydın kaybolmazdın.',
+    },
+    {
+      ing: "If she had brought her umbrella, she wouldn't have gotten wet.",
+      tr: 'Şemsiyesini getirmiş olsaydı ıslanmazdı.',
+    },
+    {
+      ing: "If they had turned off the lights, they wouldn't have wasted electricity.",
+      tr: 'Işıkları kapatsalardı elektriği israf etmezlerdi.',
+    },
+    {
+      ing: 'If I had known it was your birthday, I would have bought a gift.',
+      tr: 'Doğum gününüz olduğunu bilseydim bir hediye alırdım.',
+    },
+    {
+      ing: 'If we had taken the earlier flight, we would have arrived on time.',
+      tr: 'Eğer daha erken uçağa binseydik zamanında varabilirdik.',
+    },
+    {
+      ing: "If you had read the instructions, you wouldn't have assembled it incorrectly.",
+      tr: 'Talimatları okumuş olsaydınız yanlış montaj yapmazdınız.',
+    },
+    {
+      ing: 'If she had called earlier, I would have saved her a seat.',
+      tr: 'Daha önce aramış olsaydı ona yer ayırırdım.',
+    },
+    {
+      ing: 'If they had prepared well, they would have won the game.',
+      tr: 'İyi hazırlansalardı maçı kazanırlardı.',
+    },
+    {
+      ing: 'If I had studied more, I would have scored higher on the test.',
+      tr: 'Daha fazla çalışsaydım sınavda daha yüksek puan alırdım.',
+    },
+    {
+      ing: 'If I had studied, I would have passed the test.',
+      tr: 'Eğer çalışsaydım, sınavı geçerdim.',
+    },
+    {
+      ing: "If she had woken up earlier, she wouldn't have missed the bus.",
+      tr: 'Eğer daha erken uyansaydı, otobüsü kaçırmazdı.',
+    },
+    {
+      ing: 'If we had bought tickets, we could have gone to the concert.',
+      tr: 'Eğer bilet alsaydık, konsere gidebilirdik.',
+    },
+    {
+      ing: "If it hadn't rained, we would have had a picnic.",
+      tr: 'Eğer yağmur yağmasaydı, piknik yapardık.',
+    },
+    {
+      ing: "If he had eaten breakfast, he wouldn't have felt hungry.",
+      tr: 'Eğer kahvaltı yapsaydı, aç hissetmezdi.',
+    },
+    {
+      ing: 'If you had called me, I would have helped you.',
+      tr: 'Eğer beni arasaydın, sana yardım ederdim.',
+    },
+    {
+      ing: 'If they had practiced more, they would have won the game.',
+      tr: 'Eğer daha çok pratik yapsalardı, oyunu kazanırlardı.',
+    },
+    {
+      ing: 'If I had known, I would have told you.',
+      tr: 'Eğer bilseydim, sana söylerdim.',
+    },
+    {
+      ing: "If she had worn a coat, she wouldn't have caught a cold.",
+      tr: 'Eğer mont giyseydi, üşütmezdi.',
+    },
+    {
+      ing: 'If we had left earlier, we would have arrived on time.',
+      tr: 'Eğer daha erken çıksaydık, zamanında varırdık.',
+    },
+    {
+      ing: 'If he had saved money, he could have bought a new phone.',
+      tr: 'Eğer para biriktiseydi, yeni bir telefon alabilirdi.',
+    },
+    {
+      ing: "If you had asked for directions, we wouldn't have got lost.",
+      tr: 'Eğer yol sorsaydın, kaybolmazdık.',
+    },
+    {
+      ing: 'If I had brought my camera, I would have taken photos.',
+      tr: 'Eğer kameramı getirseydim, fotoğraf çekerdim.',
+    },
+    {
+      ing: "If she had turned off the lights, the bill wouldn't have been so high.",
+      tr: 'Eğer ışıkları kapatsaydı, fatura bu kadar yüksek olmazdı.',
+    },
+    {
+      ing: "If we had watered the plants, they wouldn't have died.",
+      tr: 'Eğer bitkileri sulasaydık, ölmezlerdi.',
+    },
+    {
+      ing: "If he had locked the door, the thief wouldn't have entered.",
+      tr: 'Eğer kapıyı kilitleseydik, hırsız içeri girmezdi.',
+    },
+    {
+      ing: "If you had told the truth, I wouldn't have been angry.",
+      tr: 'Eğer doğruyu söyleseydin, kızmazdım.',
+    },
+    {
+      ing: "If I had worn sunscreen, I wouldn't have got sunburned.",
+      tr: 'Eğer güneş kremi sürseydin, güneş yanığı olmazdım.',
+    },
+    {
+      ing: "If she had set an alarm, she wouldn't have overslept.",
+      tr: 'Eğer alarm kursaydı, geç kalmazdı.',
+    },
+    {
+      ing: 'If we had checked the weather, we would have brought umbrellas.',
+      tr: 'Eğer hava durumunu kontrol etseydik, şemsiye getirirdik.',
+    },
+    {
+      ing: "If he had listened to his parents, he wouldn't have made that mistake.",
+      tr: 'Eğer anne babasını dinleseydi, o hatayı yapmazdı.',
+    },
+    {
+      ing: 'If you had read the instructions, you would have understood.',
+      tr: 'Eğer talimatları okusaydın, anlardın.',
+    },
+    {
+      ing: 'If I had remembered my password, I could have logged in.',
+      tr: 'Eğer şifremi hatırlasaydım, giriş yapabilirdim.',
+    },
+    {
+      ing: 'If she had cleaned her room, her mom would have been happy.',
+      tr: 'Eğer odasını temizleseydi, annesi mutlu olurdu.',
+    },
+    {
+      ing: 'If we had bought ingredients, we could have cooked dinner.',
+      tr: 'Eğer malzeme alsaydık, akşam yemeği pişirebilirdik.',
+    },
+    {
+      ing: 'If he had trained harder, he would have won the race.',
+      tr: 'Eğer daha sıkı antrenman yapsaydı, yarışı kazanırdı.',
+    },
+    {
+      ing: "If you had taken a taxi, you wouldn't have been late.",
+      tr: 'Eğer taksi tutsaydın, geç kalmazdın.',
+    },
+    {
+      ing: 'If I had brought my glasses, I would have seen better.',
+      tr: 'Eğer gözlüğümü getirseydim, daha iyi görürdüm.',
+    },
+    {
+      ing: "If she had closed the windows, the rain wouldn't have come in.",
+      tr: 'Eğer pencereleri kapatsaydı, yağmur içeri girmezdi.',
+    },
+    {
+      ing: "If we had followed the map, we wouldn't have got lost.",
+      tr: 'Eğer haritayı takip etseydik, kaybolmazdık.',
+    },
+    {
+      ing: "If he had worn a helmet, he wouldn't have hurt his head.",
+      tr: 'Eğer kask taksaydı, kafasını incitmezdi.',
+    },
+    {
+      ing: 'If you had turned off the TV, you would have heard me.',
+      tr: 'Eğer televizyonu kapatsaydın, beni duyardın.',
+    },
+    {
+      ing: 'If I had known your number, I would have called you.',
+      tr: 'Eğer numaranı bilseydim, seni arardım.',
+    },
+    {
+      ing: 'If she had learned English, she could have got the job.',
+      tr: 'Eğer İngilizce öğrenseydi, işi alabilirdi.',
+    },
+    {
+      ing: 'If we had fixed the car, we could have driven to the beach.',
+      tr: 'Eğer arabayı tamir etseydik, plaja gidebilirdik.',
+    },
+    {
+      ing: 'If he had remembered his lines, the play would have been better.',
+      tr: 'Eğer repliklerini hatırlasaydı, oyun daha iyi olurdu.',
+    },
+    {
+      ing: "If you had written it down, you wouldn't have forgotten.",
+      tr: 'Eğer yazsaydın, unutmazdın.',
+    },
+    {
+      ing: 'If I had brought my wallet, I could have bought lunch.',
+      tr: 'Eğer cüzdanımı getirseydim, öğle yemeği alabilirdim.',
+    },
+    {
+      ing: 'If she had sent the email, they would have received the information.',
+      tr: 'Eğer e-postayı gönderseydi, bilgiyi alırlardı.',
+    },
+    {
+      ing: 'If we had booked earlier, we would have got cheaper tickets.',
+      tr: 'Eğer daha erken rezervasyon yapsaydık, daha ucuz bilet alırdık.',
+    },
+    {
+      ing: 'If he had apologized, she would have forgiven him.',
+      tr: 'Eğer özür dileseydi, onu affederdi.',
+    },
+    {
+      ing: "If you had tied your shoelaces, you wouldn't have tripped.",
+      tr: 'Eğer ayakkabı bağcıklarını bağlasaydın, takılıp düşmezdin.',
+    },
+    {
+      ing: 'If I had charged my phone, I could have called for help.',
+      tr: 'Eğer telefonumu şarj etseydim, yardım için arayabilirdim.',
+    },
+    {
+      ing: "If she had locked her bike, it wouldn't have been stolen.",
+      tr: 'Eğer bisikletini kilitleseydik, çalınmazdı.',
+    },
+    {
+      ing: "If we had turned off the tap, the sink wouldn't have overflowed.",
+      tr: 'Eğer musluğu kapatsaydık, lavabo taşmazdı.',
+    },
+    {
+      ing: 'If he had shared the cake, everyone would have been happy.',
+      tr: 'Eğer pastayı paylaşsaydı, herkes mutlu olurdu.',
+    },
+    {
+      ing: "If you had dressed warmly, you wouldn't have felt cold.",
+      tr: 'Eğer sıcak giyinseydin, üşümezdin.',
+    },
+    {
+      ing: 'If I had known the answer, I would have raised my hand.',
+      tr: 'Eğer cevabı bilseydim, elimi kaldırırdım.',
+    },
+    {
+      ing: "If she had fed the dog, it wouldn't have barked all night.",
+      tr: 'Eğer köpeği besleseydi, bütün gece havlamazdı.',
+    },
+    {
+      ing: 'If we had planted seeds, we would have had flowers now.',
+      tr: 'Eğer tohum ekseydik, şimdi çiçeklerimiz olurdu.',
+    },
+    {
+      ing: 'If I had known the answer, I would have told you.',
+      tr: 'Cevabı bilseydim, sana söylerdim.',
+    },
+    {
+      ing: 'If she had studied, she would have passed the exam.',
+      tr: 'Çalışsaydı, sınavı geçerdi.',
+    },
+    {
+      ing: 'If it had rained, we would have stayed indoors.',
+      tr: 'Yağmur yağsaydı, içeride kalırdık.',
+    },
+    {
+      ing: "If he had gone to bed earlier, he wouldn't have been tired.",
+      tr: 'Daha erken yatsaydı, yorgun olmazdı.',
+    },
+    {
+      ing: 'If they had left earlier, they would have caught the bus.',
+      tr: 'Daha erken çıksalardı, otobüsü yakalarlardı.',
+    },
+    {
+      ing: 'If I had seen you, I would have said hello.',
+      tr: 'Seni görseydim, merhaba derdim.',
+    },
+    {
+      ing: 'If we had had more money, we would have bought a new car.',
+      tr: 'Daha fazla paramız olsaydı, yeni bir araba alırdık.',
+    },
+    {
+      ing: "If you had listened to me, you wouldn't have made a mistake.",
+      tr: 'Beni dinleseydin, hata yapmazdın.',
+    },
+    {
+      ing: 'If she had called, I would have answered.',
+      tr: 'Arasaydı, cevap verirdim.',
+    },
+    {
+      ing: "If I had eaten breakfast, I wouldn't have been hungry.",
+      tr: 'Kahvaltı yapsaydım, aç olmazdım.',
+    },
+    {
+      ing: 'If he had taken the medicine, he would have felt better.',
+      tr: 'İlacı alsaydı, daha iyi hissederdi.',
+    },
+    {
+      ing: 'If they had practiced, they would have won the game.',
+      tr: 'Pratik yapsalardı, oyunu kazanırlardı.',
+    },
+    {
+      ing: 'If I had known it was your birthday, I would have bought you a gift.',
+      tr: 'Doğum günün olduğunu bilseydim, sana hediye alırdım.',
+    },
+    {
+      ing: "If she had worn a coat, she wouldn't have been cold.",
+      tr: 'Palto giyseydi, üşümezdi.',
+    },
+    {
+      ing: "If we had known the way, we wouldn't have gotten lost.",
+      tr: 'Yolu bilseydik, kaybolmazdık.',
+    },
+    {
+      ing: 'If you had done your homework, you would have understood the lesson.',
+      tr: 'Ödevini yapsaydın, dersi anlardın.',
+    },
+    {
+      ing: "If I had brought an umbrella, I wouldn't have gotten wet.",
+      tr: 'Şemsiye getirseydim, ıslanmazdım.',
+    },
+    {
+      ing: "If he had been careful, he wouldn't have broken the vase.",
+      tr: 'Dikkatli olsaydı, vazoyu kırmazdı.',
+    },
+    {
+      ing: 'If they had come to the party, they would have had fun.',
+      tr: 'Partiye gelselerdi, eğlenirlerdi.',
+    },
+    {
+      ing: 'If I had saved more money, I could have gone on vacation.',
+      tr: 'Daha fazla para biriktirseydim, tatile gidebilirdim.',
+    },
+    {
+      ing: 'If you had studied more, you could have gotten a better grade.',
+      tr: 'Daha çok çalışsaydın, daha iyi bir not alabilirdin.',
+    },
+    {
+      ing: 'If she had gone to the doctor, she would have been healthy.',
+      tr: 'Doktora gitseydi, sağlıklı olurdu.',
+    },
+    {
+      ing: "If we had taken a map, we wouldn't have been lost.",
+      tr: 'Bir harita alsaydık, kaybolmazdık.',
+    },
+    {
+      ing: 'If I had made a reservation, we would have had a table.',
+      tr: 'Rezervasyon yapsaydım, masamız olurdu.',
+    },
+    {
+      ing: "If he had asked for help, he wouldn't have failed the test.",
+      tr: 'Yardım isteseydi, sınavda başarısız olmazdı.',
+    },
+    {
+      ing: 'If they had paid attention, they would have learned it.',
+      tr: 'Dikkat etselerdi, öğrenirlerdi.',
+    },
+    {
+      ing: "If I had set an alarm, I wouldn't have been late.",
+      tr: 'Alarm kursaydım, geç kalmazdım.',
+    },
+    {
+      ing: 'If you had cooked dinner, we would have eaten earlier.',
+      tr: 'Akşam yemeğini pişirseydin, daha erken yerdik.',
+    },
+    {
+      ing: 'If she had read the book, she would have enjoyed it.',
+      tr: 'Kitabı okusaydı, zevk alırdı.',
+    },
+    {
+      ing: 'If we had visited the museum, we would have seen the exhibition.',
+      tr: 'Müzeyi ziyaret etseydik, sergiyi görürdük.',
+    },
+    {
+      ing: 'If I had known you were coming, I would have baked a cake.',
+      tr: 'Geleceğini bilseydim, bir kek yapardım.',
+    },
+    {
+      ing: "If he had watered the plants, they wouldn't have died.",
+      tr: 'Bitkileri sulasaydı, ölmezlerdi.',
+    },
+    {
+      ing: 'If they had played together, they would have become friends.',
+      tr: 'Birlikte oynasaydılar, arkadaş olurlardı.',
+    },
+    {
+      ing: 'If I had booked the tickets, we would have gone to the concert.',
+      tr: 'Biletleri ayırtsaydım, konsere giderdik.',
+    },
+    {
+      ing: "If you had worn sunscreen, you wouldn't have gotten sunburned.",
+      tr: 'Güneş kremi sürseydin, güneş yanığı olmazdın.',
+    },
+    {
+      ing: "If she had checked the schedule, she wouldn't have missed the train.",
+      tr: 'Programı kontrol etseydi, treni kaçırmazdı.',
+    },
+    {
+      ing: 'If we had cleaned the house, it would have looked nice.',
+      tr: 'Evi temizleseydik, güzel görünürdü.',
+    },
+    {
+      ing: "If I had called a taxi, I wouldn't have missed the flight.",
+      tr: 'Taksi çağırsaydım, uçağı kaçırmazdım.',
+    },
+    {
+      ing: 'If he had taken the shortcut, he would have arrived earlier.',
+      tr: 'Kestirmeden gitseydi, daha erken varırdı.',
+    },
+    {
+      ing: 'If they had bought the tickets, they could have watched the movie.',
+      tr: 'Biletleri alsalardı, filmi izleyebilirlerdi.',
+    },
+    {
+      ing: 'If I had taken my camera, I would have taken pictures.',
+      tr: 'Kameramı alsaydım, fotoğraf çekerdim.',
+    },
+    {
+      ing: 'If you had told me, I would have helped you.',
+      tr: 'Bana söyleseydin, sana yardım ederdim.',
+    },
+    {
+      ing: 'If she had written a letter, I would have received it.',
+      tr: 'Bir mektup yazsaydı, alırdım.',
+    },
+    {
+      ing: 'If we had invited them, they would have come.',
+      tr: 'Onları davet etseydik, gelirlerdi.',
+    },
+    {
+      ing: 'If I had studied French, I could have spoken to them.',
+      tr: 'Fransızca çalışsaydım, onlarla konuşabilirdim.',
+    },
+    {
+      ing: 'If he had fixed the bike, he would have ridden it.',
+      tr: 'Bisikleti tamir etseydi, binerdi.',
+    },
+    {
+      ing: 'If they had played better, they would have won the match.',
+      tr: 'Daha iyi oynasalardı, maçı kazanırlardı.',
+    },
+    {
+      ing: 'If I had practiced the piano, I would have played well.',
+      tr: 'Piyano pratiği yapsaydım, iyi çalardım.',
+    },
+    {
+      ing: "If you had seen the sign, you wouldn't have gotten lost.",
+      tr: 'İşareti görseydin, kaybolmazdın.',
+    },
+    {
+      ing: 'If she had worked harder, she would have succeeded.',
+      tr: 'Daha çok çalışsaydı, başarılı olurdu.',
+    },
+  ],
+};

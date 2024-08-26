@@ -86,6 +86,13 @@ export const Categories: ICategory[] = [
     image: require('../assets/icons/excited.png'),
   },
   {
+    id: 122,
+    title: 'If Clauses',
+    mainCategory: 'IfClauses',
+    description: 'Koşul cümleleri ve kullanımı.',
+    image: require('../assets/images/IfClauses.png'),
+  },
+  {
     id: 12,
     title: 'Emirler',
     mainCategory: 'Imperatives',
@@ -378,6 +385,17 @@ export const ImpersonalItSubCategory: ISubCategory[] = [
     mainCategory: 'ImpersonalIt',
     description: 'Çeviri çalışmaları',
     page: 'ImpersonalItTranslation',
+    image: require('../assets/icons/translation.png'),
+  },
+];
+
+export const IfClausesSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Çeviri Çalışması',
+    mainCategory: 'IfClauses',
+    description: 'Çeviri çalışmaları',
+    page: 'IfClausesTranslation',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -11240,3 +11258,5 @@ export const TensesVocabulary = [
     ],
   },
 ];
+
+export const test = [];
