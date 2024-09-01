@@ -30,6 +30,7 @@ export type StackNavigatorList = {
   FlowerToTranslation: {title: string; item?: ToTranslation};
   ImpersonalItTranslation: {title: string; item?: any};
   IfClausesTranslation: {title: string; item?: any};
+  PrepositionsTranslation: {title: string; item?: any};
 };
 
 export type BottomNavigatorList = {

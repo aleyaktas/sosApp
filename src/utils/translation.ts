@@ -48129,3 +48129,2224 @@ export const IfClausesTranslationSentences = {
     },
   ],
 };
+
+export const PrepositionsTranslationSentences = {
+  AdjectivePreposition: [
+    {ing: 'She is afraid of the dark.', tr: 'O, karanlıktan korkuyor.'},
+    {ing: 'He is good at sports.', tr: 'O, sporda iyi.'},
+    {
+      ing: 'They are interested in music.',
+      tr: 'Onlar, müzikle ilgileniyorlar.',
+    },
+    {
+      ing: 'She is proud of her achievements.',
+      tr: 'O, başarılarıyla gurur duyuyor.',
+    },
+    {
+      ing: 'He is worried about his exams.',
+      tr: 'O, sınavları hakkında endişeleniyor.',
+    },
+    {
+      ing: 'She is excited about her birthday.',
+      tr: 'O, doğum günü için heyecanlı.',
+    },
+    {ing: 'He is famous for his inventions.', tr: 'O, buluşlarıyla ünlü.'},
+    {ing: 'She is tired of waiting.', tr: 'O, beklemekten bıktı.'},
+    {ing: 'He is responsible for the project.', tr: 'O, projeden sorumlu.'},
+    {ing: 'She is happy with her new house.', tr: 'O, yeni evinden mutlu.'},
+    {ing: 'He is afraid of spiders.', tr: 'O, örümceklerden korkuyor.'},
+    {ing: 'She is bored with the movie.', tr: 'O, filmden sıkıldı.'},
+    {
+      ing: 'He is capable of solving the problem.',
+      tr: 'O, sorunu çözebilecek yetenekte.',
+    },
+    {ing: 'She is married to a lawyer.', tr: 'O, bir avukatla evli.'},
+    {ing: 'He is full of energy.', tr: 'O, enerji dolu.'},
+    {
+      ing: 'She is pleased with her performance.',
+      tr: 'O, performansından memnun.',
+    },
+    {ing: 'He is jealous of his brother.', tr: 'O, kardeşini kıskanıyor.'},
+    {ing: 'She is good at cooking.', tr: 'O, yemek yapmada iyi.'},
+    {ing: 'He is known for his kindness.', tr: 'O, nezaketiyle tanınıyor.'},
+    {
+      ing: 'She is worried about her health.',
+      tr: 'O, sağlığı hakkında endişeleniyor.',
+    },
+    {ing: 'He is afraid of heights.', tr: 'O, yükseklik korkusu var.'},
+    {ing: 'She is interested in art.', tr: 'O, sanata ilgi duyuyor.'},
+    {ing: 'He is proud of his son.', tr: 'O, oğluyla gurur duyuyor.'},
+    {ing: 'She is tired of working.', tr: 'O, çalışmaktan bıktı.'},
+    {ing: 'He is responsible for the mess.', tr: 'O, dağınıklıktan sorumlu.'},
+    {ing: 'She is happy with her job.', tr: 'O, işinden mutlu.'},
+    {
+      ing: 'He is worried about the future.',
+      tr: 'O, geleceği hakkında endişeleniyor.',
+    },
+    {ing: 'She is excited about the trip.', tr: 'O, gezi için heyecanlı.'},
+    {ing: 'He is famous for his paintings.', tr: 'O, tablolarıyla ünlü.'},
+    {ing: 'She is tired of cleaning.', tr: 'O, temizlikten bıktı.'},
+    {
+      ing: 'He is capable of doing the job.',
+      tr: 'O, işi yapabilecek yetenekte.',
+    },
+    {ing: 'She is married to an engineer.', tr: 'O, bir mühendisle evli.'},
+    {ing: 'He is full of ideas.', tr: 'O, fikirlerle dolu.'},
+    {ing: 'She is pleased with the results.', tr: 'O, sonuçlardan memnun.'},
+    {ing: 'He is jealous of his friend.', tr: 'O, arkadaşını kıskanıyor.'},
+    {ing: 'She is good at playing the piano.', tr: 'O, piyano çalmada iyi.'},
+    {ing: 'He is known for his punctuality.', tr: 'O, dakikliğiyle tanınıyor.'},
+    {
+      ing: 'She is worried about the weather.',
+      tr: 'O, hava durumu hakkında endişeleniyor.',
+    },
+    {ing: 'He is afraid of snakes.', tr: 'O, yılanlardan korkuyor.'},
+    {ing: 'She is interested in history.', tr: 'O, tarihe ilgi duyuyor.'},
+    {ing: 'He is proud of his daughter.', tr: 'O, kızıyla gurur duyuyor.'},
+    {ing: 'He is responsible for the event.', tr: 'O, etkinlikten sorumlu.'},
+    {ing: 'She is happy with her life.', tr: 'O, hayatından mutlu.'},
+    {
+      ing: 'He is worried about the economy.',
+      tr: 'O, ekonomi hakkında endişeleniyor.',
+    },
+    {ing: 'She is excited about the concert.', tr: 'O, konser için heyecanlı.'},
+    {ing: 'He is famous for his books.', tr: 'O, kitaplarıyla ünlü.'},
+    {ing: 'She is tired of the noise.', tr: 'O, gürültüden bıktı.'},
+    {
+      ing: 'He is capable of handling the situation.',
+      tr: 'O, durumu yönetebilecek yetenekte.',
+    },
+    {ing: 'She is married to a doctor.', tr: 'O, bir doktorla evli.'},
+    {ing: 'He is full of joy.', tr: 'O, neşe dolu.'},
+    {ing: 'She is pleased with her grades.', tr: 'O, notlarından memnun.'},
+    {ing: 'He is jealous of his cousin.', tr: 'O, kuzenini kıskanıyor.'},
+    {ing: 'She is good at dancing.', tr: 'O, dans etmede iyi.'},
+    {ing: 'He is known for his honesty.', tr: 'O, dürüstlüğüyle tanınıyor.'},
+    {
+      ing: 'She is worried about the deadline.',
+      tr: 'O, son tarih hakkında endişeleniyor.',
+    },
+    {ing: 'He is afraid of water.', tr: 'O, sudan korkuyor.'},
+    {ing: 'She is interested in science.', tr: 'O, bilime ilgi duyuyor.'},
+    {
+      ing: 'He is proud of his achievements.',
+      tr: 'O, başarılarıyla gurur duyuyor.',
+    },
+    {ing: 'She is tired of studying.', tr: 'O, ders çalışmaktan bıktı.'},
+    {ing: 'He is responsible for the team.', tr: 'O, takımdan sorumlu.'},
+    {ing: 'She is happy with her friends.', tr: 'O, arkadaşlarıyla mutlu.'},
+    {
+      ing: 'He is worried about the test.',
+      tr: 'O, sınav hakkında endişeleniyor.',
+    },
+    {ing: 'She is excited about the party.', tr: 'O, parti için heyecanlı.'},
+    {ing: 'He is famous for his music.', tr: 'O, müziğiyle ünlü.'},
+    {ing: 'She is tired of the routine.', tr: 'O, rutininden bıktı.'},
+    {
+      ing: 'He is capable of leading the team.',
+      tr: 'O, takımı yönetebilecek yetenekte.',
+    },
+    {ing: 'She is married to a teacher.', tr: 'O, bir öğretmenle evli.'},
+    {ing: 'He is full of enthusiasm.', tr: 'O, coşku dolu.'},
+    {ing: 'She is pleased with her progress.', tr: 'O, ilerlemesinden memnun.'},
+    {ing: 'He is jealous of his sister.', tr: 'O, kardeşini kıskanıyor.'},
+    {ing: 'She is good at singing.', tr: 'O, şarkı söylemede iyi.'},
+    {ing: 'He is known for his intelligence.', tr: 'O, zekasıyla tanınıyor.'},
+    {
+      ing: 'She is worried about the project.',
+      tr: 'O, proje hakkında endişeleniyor.',
+    },
+    {ing: 'He is afraid of flying.', tr: 'O, uçmaktan korkuyor.'},
+    {ing: 'She is interested in geography.', tr: 'O, coğrafyaya ilgi duyuyor.'},
+    {
+      ing: 'He is proud of his friends.',
+      tr: 'O, arkadaşlarıyla gurur duyuyor.',
+    },
+    {ing: 'She is tired of running.', tr: 'O, koşmaktan bıktı.'},
+    {ing: 'He is responsible for the meeting.', tr: 'O, toplantıdan sorumlu.'},
+    {ing: 'She is happy with her new car.', tr: 'O, yeni arabasından mutlu.'},
+    {
+      ing: 'He is worried about the presentation.',
+      tr: 'O, sunum hakkında endişeleniyor.',
+    },
+    {
+      ing: 'She is excited about her new job.',
+      tr: 'O, yeni işi için heyecanlı.',
+    },
+    {ing: 'He is famous for his discoveries.', tr: 'O, keşifleriyle ünlü.'},
+    {ing: 'She is tired of complaining.', tr: 'O, şikayet etmekten bıktı.'},
+    {
+      ing: 'He is capable of managing the team.',
+      tr: 'O, takımı yönetebilecek yetenekte.',
+    },
+    {ing: 'She is married to a scientist.', tr: 'O, bir bilim insanıyla evli.'},
+    {ing: 'He is full of determination.', tr: 'O, kararlılıkla dolu.'},
+    {
+      ing: 'She is pleased with her new shoes.',
+      tr: 'O, yeni ayakkabılarından memnun.',
+    },
+    {
+      ing: 'He is jealous of his classmate.',
+      tr: 'O, sınıf arkadaşını kıskanıyor.',
+    },
+    {ing: 'She is good at writing.', tr: 'O, yazmada iyi.'},
+    {
+      ing: 'He is known for his creativity.',
+      tr: 'O, yaratıcılığıyla tanınıyor.',
+    },
+    {
+      ing: 'She is worried about the budget.',
+      tr: 'O, bütçe hakkında endişeleniyor.',
+    },
+    {ing: 'He is afraid of the sea.', tr: 'O, denizden korkuyor.'},
+    {
+      ing: 'She is interested in mathematics.',
+      tr: 'O, matematiğe ilgi duyuyor.',
+    },
+    {ing: 'He is proud of his work.', tr: 'O, işiyle gurur duyuyor.'},
+    {ing: 'She is tired of shopping.', tr: 'O, alışverişten bıktı.'},
+    {ing: 'He is responsible for the schedule.', tr: 'O, programdan sorumlu.'},
+    {ing: 'She is happy with her family.', tr: 'O, ailesiyle mutlu.'},
+    {
+      ing: 'He is worried about his grades.',
+      tr: 'O, notları hakkında endişeleniyor.',
+    },
+    {ing: 'She is excited about her new home.', tr: 'O, yeni evinden mutlu.'},
+    {ing: 'He is famous for his speeches.', tr: 'O, konuşmalarıyla ünlü.'},
+    {ing: 'She is tired of the traffic.', tr: 'O, trafikten bıktı.'},
+    {
+      ing: 'He is capable of fixing the car.',
+      tr: 'O, arabayı tamir edebilecek yetenekte.',
+    },
+    {ing: 'She is married to a banker.', tr: 'O, bir bankacıyla evli.'},
+    {ing: 'He is full of hope.', tr: 'O, umut dolu.'},
+    {
+      ing: 'She is pleased with her hairstyle.',
+      tr: 'O, saç modelinden memnun.',
+    },
+    {ing: 'He is jealous of his neighbor.', tr: 'O, komşusunu kıskanıyor.'},
+    {ing: 'She is good at photography.', tr: 'O, fotoğrafçılıkta iyi.'},
+    {
+      ing: 'He is known for his diligence.',
+      tr: 'O, çalışkanlığıyla tanınıyor.',
+    },
+    {
+      ing: 'She is worried about the exam.',
+      tr: 'O, sınav hakkında endişeleniyor.',
+    },
+    {ing: 'He is afraid of thunder.', tr: 'O, gök gürültüsünden korkuyor.'},
+    {ing: 'She is interested in literature.', tr: 'O, edebiyata ilgi duyuyor.'},
+    {ing: 'He is proud of his team.', tr: 'O, takımıyla gurur duyuyor.'},
+    {ing: 'She is tired of arguing.', tr: 'O, tartışmaktan bıktı.'},
+    {ing: 'He is responsible for the plan.', tr: 'O, plandan sorumlu.'},
+    {ing: 'She is happy with her results.', tr: 'O, sonuçlarından mutlu.'},
+    {
+      ing: 'He is worried about the interview.',
+      tr: 'O, mülakat hakkında endişeleniyor.',
+    },
+    {
+      ing: 'She is excited about her new dress.',
+      tr: 'O, yeni elbisesi için heyecanlı.',
+    },
+    {ing: 'He is famous for his designs.', tr: 'O, tasarımlarıyla ünlü.'},
+    {ing: 'She is tired of the chaos.', tr: 'O, kaostan bıktı.'},
+    {
+      ing: 'He is capable of driving a truck.',
+      tr: 'O, kamyon sürebilecek yetenekte.',
+    },
+    {ing: 'She is married to an artist.', tr: 'O, bir sanatçıyla evli.'},
+    {ing: 'He is full of life.', tr: 'O, yaşam dolu.'},
+    {ing: 'She is pleased with her meal.', tr: 'O, yemeğinden memnun.'},
+    {
+      ing: 'He is jealous of his teammate.',
+      tr: 'O, takım arkadaşını kıskanıyor.',
+    },
+    {ing: 'She is good at drawing.', tr: 'O, çizimde iyi.'},
+    {ing: 'He is known for his generosity.', tr: 'O, cömertliğiyle tanınıyor.'},
+    {ing: 'He is afraid of dogs.', tr: 'O, köpeklerden korkuyor.'},
+    {ing: 'She is interested in biology.', tr: 'O, biyolojiye ilgi duyuyor.'},
+    {ing: 'She is tired of cooking.', tr: 'O, yemek yapmaktan bıktı.'},
+    {ing: 'She is happy with her progress.', tr: 'O, ilerlemesinden mutlu.'},
+    {
+      ing: 'He is worried about the situation.',
+      tr: 'O, durum hakkında endişeleniyor.',
+    },
+    {
+      ing: 'She is excited about her vacation.',
+      tr: 'O, tatili için heyecanlı.',
+    },
+    {ing: 'He is famous for his artwork.', tr: 'O, sanat eserleriyle ünlü.'},
+    {ing: 'She is tired of the cold.', tr: 'O, soğuktan bıktı.'},
+    {
+      ing: 'He is capable of speaking three languages.',
+      tr: 'O, üç dil konuşabilecek yetenekte.',
+    },
+    {ing: 'She is married to a musician.', tr: 'O, bir müzisyenle evli.'},
+    {ing: 'He is full of potential.', tr: 'O, potansiyelle dolu.'},
+    {
+      ing: 'She is pleased with her purchase.',
+      tr: 'O, satın alımından memnun.',
+    },
+    {ing: 'She is good at solving puzzles.', tr: 'O, bulmacaları çözmede iyi.'},
+    {ing: 'He is known for his accuracy.', tr: 'O, doğruluğuyla tanınıyor.'},
+    {ing: 'He is afraid of losing.', tr: 'O, kaybetmekten korkuyor.'},
+    {ing: 'She is interested in chemistry.', tr: 'O, kimyaya ilgi duyuyor.'},
+    {ing: 'He is proud of his children.', tr: 'O, çocuklarıyla gurur duyuyor.'},
+    {
+      ing: 'He is responsible for the operation.',
+      tr: 'O, operasyondan sorumlu.',
+    },
+    {ing: 'She is happy with her relationship.', tr: 'O, ilişkisiyle mutlu.'},
+    {
+      ing: 'He is worried about the weather.',
+      tr: 'O, hava durumu hakkında endişeleniyor.',
+    },
+    {ing: 'She is excited about the show.', tr: 'O, gösteri için heyecanlı.'},
+    {ing: 'He is famous for his theories.', tr: 'O, teorileriyle ünlü.'},
+    {
+      ing: 'He is capable of designing buildings.',
+      tr: 'O, binaları tasarlayabilecek yetenekte.',
+    },
+    {ing: 'She is married to a pilot.', tr: 'O, bir pilotla evli.'},
+    {ing: 'He is full of ambition.', tr: 'O, hırs dolu.'},
+    {ing: 'She is pleased with her outfit.', tr: 'O, kıyafetinden memnun.'},
+    {ing: 'He is jealous of his colleague.', tr: 'O, meslektaşını kıskanıyor.'},
+    {ing: 'She is good at teaching.', tr: 'O, öğretmede iyi.'},
+    {ing: 'He is known for his wisdom.', tr: 'O, bilgeliğiyle tanınıyor.'},
+    {
+      ing: 'She is worried about her future.',
+      tr: 'O, geleceği hakkında endişeli.',
+    },
+    {ing: 'He is afraid of being alone.', tr: 'O, yalnız kalmaktan korkuyor.'},
+    {ing: 'She is interested in physics.', tr: 'O, fiziğe ilgi duyuyor.'},
+    {ing: 'He is proud of his heritage.', tr: 'O, mirasıyla gurur duyuyor.'},
+    {ing: 'She is tired of gossiping.', tr: 'O, dedikodudan bıktı.'},
+    {ing: 'He is responsible for the budget.', tr: 'O, bütçeden sorumlu.'},
+    {ing: 'She is happy with her career.', tr: 'O, kariyerinden mutlu.'},
+    {
+      ing: 'He is worried about his health.',
+      tr: 'O, sağlığı hakkında endişeli.',
+    },
+    {
+      ing: 'She is excited about her birthday party.',
+      tr: 'O, doğum günü partisi için heyecanlı.',
+    },
+    {ing: 'She is tired of her job.', tr: 'O, işinden bıktı.'},
+    {
+      ing: 'He is capable of winning the race.',
+      tr: 'O, yarışı kazanabilecek yetenekte.',
+    },
+    {ing: 'She is married to an architect.', tr: 'O, bir mimarla evli.'},
+    {ing: 'He is full of charm.', tr: 'O, çekicilik dolu.'},
+    {ing: 'She is good at swimming.', tr: 'O, yüzmede iyi.'},
+    {ing: 'He is known for his politeness.', tr: 'O, kibarlığıyla tanınıyor.'},
+    {
+      ing: 'She is worried about the environment.',
+      tr: 'O, çevre hakkında endişeli.',
+    },
+    {ing: 'He is afraid of failure.', tr: 'O, başarısızlıktan korkuyor.'},
+    {ing: 'She is interested in medicine.', tr: 'O, tıbba ilgi duyuyor.'},
+    {
+      ing: 'He is proud of his accomplishments.',
+      tr: 'O, başarılarıyla gurur duyuyor.',
+    },
+    {ing: 'He is responsible for the party.', tr: 'O, partiden sorumlu.'},
+    {ing: 'She is happy with her pet.', tr: 'O, evcil hayvanıyla mutlu.'},
+    {
+      ing: 'He is worried about the results.',
+      tr: 'O, sonuçlar hakkında endişeli.',
+    },
+    {ing: 'She is excited about the movie.', tr: 'O, film için heyecanlı.'},
+    {ing: 'He is famous for his songs.', tr: 'O, şarkılarıyla ünlü.'},
+    {ing: 'She is tired of the arguments.', tr: 'O, tartışmalardan bıktı.'},
+    {
+      ing: 'He is capable of creating apps.',
+      tr: 'O, uygulama yapabilecek yetenekte.',
+    },
+    {ing: 'She is married to a chef.', tr: 'O, bir aşçıyla evli.'},
+    {ing: 'He is full of gratitude.', tr: 'O, minnettarlık dolu.'},
+    {ing: 'She is good at organizing.', tr: 'O, organizasyonda iyi.'},
+    {ing: 'He is known for his loyalty.', tr: 'O, sadakatiyle tanınıyor.'},
+    {
+      ing: 'She is worried about the upcoming exam.',
+      tr: 'O, yaklaşan sınav hakkında endişeli.',
+    },
+    {ing: 'She is afraid of failure.', tr: 'O, başarısızlıktan korkuyor.'},
+    {
+      ing: 'They are interested in technology.',
+      tr: 'Onlar, teknolojiye ilgi duyuyorlar.',
+    },
+    {ing: 'She is worried about her job.', tr: 'O, işi hakkında endişeli.'},
+    {ing: 'He is excited about his vacation.', tr: 'O, tatili için heyecanlı.'},
+    {ing: 'She is famous for her recipes.', tr: 'O, tarifleriyle ünlü.'},
+    {ing: 'He is tired of complaining.', tr: 'O, şikayet etmekten bıktı.'},
+    {ing: 'She is responsible for the garden.', tr: 'O, bahçeden sorumlu.'},
+    {ing: 'He is happy with his promotion.', tr: 'O, terfiinden mutlu.'},
+    {ing: 'She is jealous of her friend.', tr: 'O, arkadaşını kıskanıyor.'},
+    {ing: 'He is good at chess.', tr: 'O, satrançta iyi.'},
+    {ing: 'She is known for her humor.', tr: 'O, espri anlayışıyla tanınıyor.'},
+    {
+      ing: 'They are worried about pollution.',
+      tr: 'Onlar, kirlilik hakkında endişeliler.',
+    },
+    {ing: 'He is afraid of commitment.', tr: 'O, bağlanmaktan korkuyor.'},
+    {
+      ing: 'She is interested in art history.',
+      tr: 'O, sanat tarihiyle ilgileniyor.',
+    },
+    {
+      ing: 'He is proud of his parents.',
+      tr: 'O, ebeveynleriyle gurur duyuyor.',
+    },
+    {ing: 'He is responsible for the repair.', tr: 'O, tamirden sorumlu.'},
+    {ing: 'He is excited about the game.', tr: 'O, oyun için heyecanlı.'},
+    {ing: 'She is famous for her smile.', tr: 'O, gülüşüyle ünlü.'},
+    {
+      ing: 'He is worried about the project.',
+      tr: 'O, proje hakkında endişeli.',
+    },
+    {ing: 'She is jealous of her sister.', tr: 'O, kardeşini kıskanıyor.'},
+    {ing: 'He is good at problem-solving.', tr: 'O, problem çözmede iyi.'},
+    {ing: 'She is known for her patience.', tr: 'O, sabrıyla tanınıyor.'},
+    {
+      ing: 'They are interested in sports.',
+      tr: 'Onlar, spora ilgi duyuyorlar.',
+    },
+    {ing: 'She is happy with her haircut.', tr: 'O, saç modelinden memnun.'},
+    {
+      ing: 'He is excited about his new job.',
+      tr: 'O, yeni işi için heyecanlı.',
+    },
+    {ing: 'She is famous for her voice.', tr: 'O, sesiyle ünlü.'},
+    {ing: 'He is worried about the trip.', tr: 'O, gezi hakkında endişeli.'},
+    {ing: 'She is jealous of her cousin.', tr: 'O, kuzenini kıskanıyor.'},
+    {ing: 'He is good at languages.', tr: 'O, dillere iyi.'},
+    {ing: 'She is known for her strength.', tr: 'O, gücüyle tanınıyor.'},
+    {
+      ing: 'They are interested in volunteering.',
+      tr: 'Onlar, gönüllülüğe ilgi duyuyorlar.',
+    },
+    {ing: 'He is afraid of rejection.', tr: 'O, reddedilmekten korkuyor.'},
+    {ing: 'She is tired of her routine.', tr: 'O, rutininden bıktı.'},
+    {ing: 'He is responsible for the guests.', tr: 'O, misafirlerden sorumlu.'},
+    {ing: 'She is happy with her children.', tr: 'O, çocuklarıyla mutlu.'},
+    {
+      ing: 'He is excited about the new car.',
+      tr: 'O, yeni araba için heyecanlı.',
+    },
+    {
+      ing: 'She is famous for her fashion sense.',
+      tr: 'O, moda anlayışıyla ünlü.',
+    },
+    {
+      ing: 'He is worried about his performance.',
+      tr: 'O, performansı hakkında endişeli.',
+    },
+    {
+      ing: 'She is jealous of her classmate.',
+      tr: 'O, sınıf arkadaşını kıskanıyor.',
+    },
+    {ing: 'He is good at negotiating.', tr: 'O, müzakere konusunda iyi.'},
+    {ing: 'She is known for her beauty.', tr: 'O, güzelliğiyle tanınıyor.'},
+    {
+      ing: 'They are interested in gardening.',
+      tr: 'Onlar, bahçeciliğe ilgi duyuyorlar.',
+    },
+    {ing: 'He is responsible for the cleanup.', tr: 'O, temizlikten sorumlu.'},
+    {ing: 'She is happy with her house.', tr: 'O, evinden mutlu.'},
+    {ing: 'He is excited about the event.', tr: 'O, etkinlik için heyecanlı.'},
+    {ing: 'She is famous for her kindness.', tr: 'O, kibarlığıyla ünlü.'},
+    {
+      ing: 'He is worried about his family.',
+      tr: 'O, ailesi hakkında endişeli.',
+    },
+    {ing: 'She is jealous of her neighbor.', tr: 'O, komşusunu kıskanıyor.'},
+    {ing: 'He is good at building things.', tr: 'O, inşaatta iyi.'},
+    {
+      ing: 'She is known for her creativity.',
+      tr: 'O, yaratıcılığıyla tanınıyor.',
+    },
+    {
+      ing: 'They are interested in cooking.',
+      tr: 'Onlar, yemek yapmaya ilgi duyuyorlar.',
+    },
+    {ing: 'He is afraid of change.', tr: 'O, değişiklikten korkuyor.'},
+    {
+      ing: 'He is excited about the weekend.',
+      tr: 'O, hafta sonu için heyecanlı.',
+    },
+    {ing: 'She is famous for her dancing.', tr: 'O, dans etmesiyle ünlü.'},
+    {
+      ing: 'He is worried about the deadline.',
+      tr: 'O, son tarih hakkında endişeli.',
+    },
+    {
+      ing: 'She is jealous of her colleague.',
+      tr: 'O, meslektaşını kıskanıyor.',
+    },
+    {ing: 'He is good at photography.', tr: 'O, fotoğrafçılıkta iyi.'},
+    {ing: 'She is known for her intelligence.', tr: 'O, zekasıyla tanınıyor.'},
+    {
+      ing: 'They are interested in hiking.',
+      tr: 'Onlar, doğa yürüyüşüne ilgi duyuyorlar.',
+    },
+    {ing: 'He is excited about the concert.', tr: 'O, konser için heyecanlı.'},
+    {ing: 'She is famous for her paintings.', tr: 'O, tablolarıyla ünlü.'},
+    {
+      ing: 'She is jealous of her coworker.',
+      tr: 'O, iş arkadaşını kıskanıyor.',
+    },
+    {ing: 'He is good at writing.', tr: 'O, yazmada iyi.'},
+    {
+      ing: 'She is known for her diligence.',
+      tr: 'O, çalışkanlığıyla tanınıyor.',
+    },
+    {
+      ing: 'They are interested in travel.',
+      tr: 'Onlar, seyahate ilgi duyuyorlar.',
+    },
+    {
+      ing: 'She is happy with her new apartment.',
+      tr: 'O, yeni dairesiyle mutlu.',
+    },
+    {
+      ing: 'He is excited about the festival.',
+      tr: 'O, festival için heyecanlı.',
+    },
+    {ing: 'She is famous for her generosity.', tr: 'O, cömertliğiyle ünlü.'},
+    {ing: 'She is jealous of her friends.', tr: 'O, arkadaşlarını kıskanıyor.'},
+    {ing: 'He is good at singing.', tr: 'O, şarkı söylemede iyi.'},
+    {ing: 'She is known for her leadership.', tr: 'O, liderliğiyle tanınıyor.'},
+    {
+      ing: 'They are interested in movies.',
+      tr: 'Onlar, filmlere ilgi duyuyorlar.',
+    },
+    {
+      ing: 'He is responsible for the decorations.',
+      tr: 'O, süslemelerden sorumlu.',
+    },
+    {ing: 'He is excited about the holidays.', tr: 'O, tatil için heyecanlı.'},
+    {
+      ing: 'She is famous for her storytelling.',
+      tr: 'O, hikaye anlatımıyla ünlü.',
+    },
+    {
+      ing: 'He is worried about the competition.',
+      tr: 'O, rekabet hakkında endişeli.',
+    },
+    {
+      ing: 'She is jealous of her roommate.',
+      tr: 'O, oda arkadaşını kıskanıyor.',
+    },
+    {
+      ing: 'He is good at public speaking.',
+      tr: 'O, topluluk önünde konuşmada iyi.',
+    },
+    {
+      ing: 'She is known for her quick thinking.',
+      tr: 'O, hızlı düşünmesiyle tanınıyor.',
+    },
+    {
+      ing: 'They are interested in animals.',
+      tr: 'Onlar, hayvanlara ilgi duyuyorlar.',
+    },
+    {ing: 'She is happy with her grades.', tr: 'O, notlarından mutlu.'},
+    {
+      ing: 'He is excited about the new house.',
+      tr: 'O, yeni ev için heyecanlı.',
+    },
+    {ing: 'She is famous for her cooking.', tr: 'O, yemek yapmada ünlü.'},
+    {ing: 'She is known for her kindness.', tr: 'O, kibarlığıyla tanınıyor.'},
+    {
+      ing: 'They are interested in photography.',
+      tr: 'Onlar, fotoğrafçılığa ilgi duyuyorlar.',
+    },
+    {ing: 'He is afraid of darkness.', tr: 'O, karanlıktan korkuyor.'},
+    {ing: 'She is tired of the same routine.', tr: 'O, aynı rutinden bıktı.'},
+    {ing: 'He is responsible for the training.', tr: 'O, eğitimden sorumlu.'},
+    {ing: 'She is happy with her decision.', tr: 'O, kararından mutlu.'},
+    {ing: 'He is excited about the trip.', tr: 'O, gezi için heyecanlı.'},
+    {ing: 'She is famous for her cakes.', tr: 'O, kekleriyle ünlü.'},
+    {ing: 'He is good at drawing.', tr: 'O, çizimde iyi.'},
+    {
+      ing: 'She is known for her reliability.',
+      tr: 'O, güvenilirliğiyle tanınıyor.',
+    },
+    {
+      ing: 'They are interested in literature.',
+      tr: 'Onlar, edebiyata ilgi duyuyorlar.',
+    },
+    {ing: 'He is afraid of the unknown.', tr: 'O, bilinmeyenden korkuyor.'},
+    {ing: 'She is tired of the heat.', tr: 'O, sıcaktan bıktı.'},
+    {
+      ing: 'He is responsible for the presentation.',
+      tr: 'O, sunumdan sorumlu.',
+    },
+    {
+      ing: 'She is happy with her new shoes.',
+      tr: 'O, yeni ayakkabılarından memnun.',
+    },
+    {ing: 'He is excited about the party.', tr: 'O, parti için heyecanlı.'},
+    {ing: 'She is famous for her designs.', tr: 'O, tasarımlarıyla ünlü.'},
+    {ing: 'He is worried about his job.', tr: 'O, işi hakkında endişeli.'},
+    {
+      ing: 'She is known for her generosity.',
+      tr: 'O, cömertliğiyle tanınıyor.',
+    },
+    {
+      ing: 'They are interested in science.',
+      tr: 'Onlar, bilime ilgi duyuyorlar.',
+    },
+    {ing: 'She is happy with her new job.', tr: 'O, yeni işinden mutlu.'},
+    {ing: 'He is excited about his promotion.', tr: 'O, terfi için heyecanlı.'},
+    {ing: 'He is good at fixing things.', tr: 'O, şeyleri tamir etmede iyi.'},
+    {
+      ing: 'They are interested in history.',
+      tr: 'Onlar, tarihe ilgi duyuyorlar.',
+    },
+    {ing: 'He is responsible for the report.', tr: 'O, rapordan sorumlu.'},
+    {
+      ing: 'She is famous for her dance moves.',
+      tr: 'O, dans hareketleriyle ünlü.',
+    },
+    {ing: 'He is good at mathematics.', tr: 'O, matematikte iyi.'},
+    {
+      ing: 'She is known for her punctuality.',
+      tr: 'O, dakikliğiyle tanınıyor.',
+    },
+    {
+      ing: 'He is responsible for the finances.',
+      tr: 'O, mali işlerden sorumlu.',
+    },
+    {ing: 'He is excited about the vacation.', tr: 'O, tatil için heyecanlı.'},
+    {ing: 'She is famous for her acting.', tr: 'O, oyunculuğuyla ünlü.'},
+    {
+      ing: 'He is worried about his future.',
+      tr: 'O, geleceği hakkında endişeli.',
+    },
+    {ing: 'She is jealous of her brother.', tr: 'O, kardeşini kıskanıyor.'},
+    {
+      ing: 'He is good at computer programming.',
+      tr: 'O, bilgisayar programlamada iyi.',
+    },
+    {
+      ing: 'They are interested in painting.',
+      tr: 'Onlar, resim yapmaya ilgi duyuyorlar.',
+    },
+    {ing: 'He is afraid of germs.', tr: 'O, mikroplardan korkuyor.'},
+    {
+      ing: 'He is responsible for the logistics.',
+      tr: 'O, lojistikten sorumlu.',
+    },
+    {ing: 'She is happy with her purchase.', tr: 'O, satın alımından mutlu.'},
+    {ing: 'He is excited about his project.', tr: 'O, projesi için heyecanlı.'},
+    {ing: 'She is famous for her crafts.', tr: 'O, el işlerinde ünlü.'},
+    {ing: 'He is worried about the exam.', tr: 'O, sınav hakkında endişeli.'},
+    {ing: 'He is good at gardening.', tr: 'O, bahçecilikte iyi.'},
+    {
+      ing: 'They are interested in architecture.',
+      tr: 'Onlar, mimarlığa ilgi duyuyorlar.',
+    },
+    {ing: 'He is afraid of the dentist.', tr: 'O, dişçiden korkuyor.'},
+    {ing: 'She is tired of the rain.', tr: 'O, yağmurdan bıktı.'},
+    {
+      ing: 'He is responsible for the advertisement.',
+      tr: 'O, reklamlardan sorumlu.',
+    },
+    {
+      ing: 'She is happy with her new phone.',
+      tr: 'O, yeni telefonundan mutlu.',
+    },
+    {
+      ing: 'He is excited about the reunion.',
+      tr: 'O, yeniden buluşma için heyecanlı.',
+    },
+    {ing: 'She is famous for her poems.', tr: 'O, şiirleriyle ünlü.'},
+    {
+      ing: 'He is worried about his investment.',
+      tr: 'O, yatırımı hakkında endişeli.',
+    },
+    {
+      ing: 'He is good at making decisions.',
+      tr: 'O, karar verme konusunda iyi.',
+    },
+    {
+      ing: 'They are interested in engineering.',
+      tr: 'Onlar, mühendisliğe ilgi duyuyorlar.',
+    },
+    {ing: 'He is afraid of loud noises.', tr: 'O, yüksek seslerden korkuyor.'},
+    {ing: 'She is tired of being alone.', tr: 'O, yalnız kalmaktan bıktı.'},
+    {ing: 'He is responsible for the cleaning.', tr: 'O, temizlikten sorumlu.'},
+    {ing: 'She is happy with her garden.', tr: 'O, bahçesinden mutlu.'},
+    {
+      ing: 'He is excited about his birthday.',
+      tr: 'O, doğum günü için heyecanlı.',
+    },
+    {
+      ing: 'She is famous for her hospitality.',
+      tr: 'O, misafirperverliğiyle ünlü.',
+    },
+    {
+      ing: 'He is worried about his parents.',
+      tr: 'O, ebeveynleri hakkında endişeli.',
+    },
+    {ing: 'He is good at managing people.', tr: 'O, insanları yönetmede iyi.'},
+  ],
+  Place: [
+    {ing: 'She lives in a small flat.', tr: 'O küçük bir dairede yaşar.'},
+    {
+      ing: 'They had a picnic in the park last weekend.',
+      tr: 'Onlar geçen hafta sonu parkta piknik yaptılar.',
+    },
+    {
+      ing: 'He was waiting at the bus stop for 20 minutes.',
+      tr: 'O 20 dakikadır otobüs durağında bekliyordu.',
+    },
+    {
+      ing: 'The concert is in the stadium tonight.',
+      tr: 'Konser bu akşam stadyumdadır.',
+    },
+    {
+      ing: 'She arrived at the airport early in the morning.',
+      tr: 'O sabah erkenden havaalanına geldi.',
+    },
+    {
+      ing: 'The bookstore is across the street from the library.',
+      tr: 'Kitapçı, kütüphanenin karşısındadır.',
+    },
+    {
+      ing: 'He walked through the park to get to the office.',
+      tr: 'O ofise gitmek için parkın içinden geçti.',
+    },
+    {
+      ing: 'The concert hall is on the corner of the block.',
+      tr: 'Konser salonu bloğun köşesindedir.',
+    },
+    {
+      ing: 'He is studying at the university in the library.',
+      tr: 'Üniversitenin kütüphanesinde okuyor.',
+    },
+    {
+      ing: 'They traveled to Europe by plane.',
+      tr: "Onlar uçakla Avrupa'ya gittiler.",
+    },
+    {
+      ing: 'The hotel is on the left side of the road.',
+      tr: 'Otel yolun sol tarafındadır.',
+    },
+    {
+      ing: 'The movie theater is on the second floor of the mall.',
+      tr: 'Sinema salonu alışveriş merkezinin ikinci katındadır.',
+    },
+    {
+      ing: 'She went for a walk along the beach at sunset.',
+      tr: 'O gün batımında sahilde yürüyüşe çıktı.',
+    },
+    {
+      ing: 'They met at the coffee shop on the corner of the street.',
+      tr: 'Onlar sokağın köşesindeki kahvehanede buluştular.',
+    },
+    {
+      ing: "We'll meet at the restaurant near the train station.",
+      tr: 'Biz ren istasyonunun yakınındaki restoranda buluşacağız.',
+    },
+    {
+      ing: 'The dog is lying beside the couch.',
+      tr: 'Köpek kanepenin yanında yatıyor.',
+    },
+    {
+      ing: 'The event is at the center downtown.',
+      tr: 'Etkinlik şehir merkezindedir.',
+    },
+    {
+      ing: 'He went to the park to play basketball with his friends.',
+      tr: 'O arkadaşlarıyla basketbol oynamak için parka gitti.',
+    },
+    {
+      ing: 'She walked across the bridge to get to the other side.',
+      tr: 'O köprünün diğer tarafına geçmek için yürüdü.',
+    },
+    {
+      ing: 'They went to the theater by taxi.',
+      tr: 'Onlar taksiyle tiyatroya gittiler.',
+    },
+    {
+      ing: 'The office is in the building on the right.',
+      tr: 'Ofis sağdaki binadadır.',
+    },
+    {
+      ing: 'She lives in a house near the school.',
+      tr: 'O, okula yakın bir evde yaşıyor.',
+    },
+    {
+      ing: "We'll meet at the plaza in front of the museum.",
+      tr: 'Biz müzenin önündeki meydanda buluşacağız.',
+    },
+    {
+      ing: 'The ball is rolling towards the wall.',
+      tr: 'Top duvara doğru yuvarlanıyor.',
+    },
+    {
+      ing: 'The statue is in the middle of the square.',
+      tr: 'Heykel meydanın tam ortasındadır.',
+    },
+    {ing: 'The book is on the table.', tr: 'Kitap masanın üstünde.'},
+    {
+      ing: "She's standing in front of the door.",
+      tr: 'O kapının önünde duruyor.',
+    },
+    {ing: 'The cat is under the bed.', tr: 'Kedi yatağın altında.'},
+    {ing: "He's sitting next to me.", tr: 'O yanımda oturuyor.'},
+    {
+      ing: 'The restaurant is across the park.',
+      tr: 'Restoran parkın karşısında.',
+    },
+    {
+      ing: "We'll have dinner at the restaurant.",
+      tr: 'Restoranda akşam yemeği yiyeceğiz.',
+    },
+    {
+      ing: 'The car is parked behind the building.',
+      tr: 'Araba binanın arkasında park edilmiş.',
+    },
+    {
+      ing: 'The bird is flying above the tree.',
+      tr: 'Kuş ağacın üstünde uçuyor.',
+    },
+    {
+      ing: 'The dog is lying beside the couch.',
+      tr: 'Köpek kanepenin yanında yatıyor.',
+    },
+    {
+      ing: 'The airplane is flying over the ocean.',
+      tr: 'Uçak okyanusun üzerinde uçuyor.',
+    },
+    {ing: 'The shoes are on the shelf.', tr: 'Ayakkabılar rafın üstünde.'},
+    {ing: "She's walking through the park.", tr: 'O parkın içinde yürüyor.'},
+    {
+      ing: 'The hotel is next to the airport.',
+      tr: 'Otel havaalanının yanında.',
+    },
+    {ing: 'The keys are in the drawer.', tr: 'Anahtarlar çekmecede.'},
+    {ing: 'The painting is on the wall.', tr: 'Resim duvarda.'},
+    {ing: 'The pencil is in the box.', tr: 'Kalem kutunun içinde.'},
+    {ing: 'The vase is on top of the table.', tr: 'Vazo masanın üstünde.'},
+    {ing: 'The flowers are in the vase.', tr: 'Çiçekler vazoda.'},
+    {ing: 'The airplane is landing on the runway.', tr: 'Uçak pistte iniyor.'},
+    {
+      ing: 'The dog is running towards the park.',
+      tr: 'Köpek parka doğru koşuyor.',
+    },
+    {
+      ing: 'The train is passing through the tunnel.',
+      tr: 'Tren tünelin içinden geçiyor.',
+    },
+    {
+      ing: 'She lives on Main Street in a red brick house.',
+      tr: "O Ana Cadde'de kırmızı tuğlalı bir evde yaşıyor.",
+    },
+    {
+      ing: 'The store is at the end of the street.',
+      tr: 'Mağaza sokağın sonunda.',
+    },
+    {ing: 'The box is under the table.', tr: 'Kutu masanın altında.'},
+    {ing: 'The lamp is on the bedside table.', tr: 'Lamba komodinin üstünde.'},
+    {ing: 'I am sitting on the couch.', tr: 'Ben kanepede oturuyorum.'},
+    {ing: 'The book is on the table.', tr: 'Kitap masanın üstünde.'},
+    {
+      ing: 'She is standing in front of the building.',
+      tr: 'O, binanın önünde duruyor.',
+    },
+    {ing: 'They are walking along the beach.', tr: 'Onlar sahilde yürüyorlar.'},
+    {
+      ing: 'The cat is hiding under the bed.',
+      tr: 'Kedi yatağın altında saklanıyor.',
+    },
+    {
+      ing: 'The car is parked in the garage.',
+      tr: 'Araba garajda park edilmiş.',
+    },
+    {ing: 'He is sitting at the desk.', tr: 'O, masada oturuyor.'},
+    {
+      ing: 'The picture is hanging above the couch.',
+      tr: 'Resim kanepenin üstünde asılı.',
+    },
+    {
+      ing: 'They went to the park to have a picnic.',
+      tr: 'Onlar piknik yapmak için parka gittiler.',
+    },
+    {ing: 'The dog is running around the yard.', tr: 'Köpek bahçede koşuyor.'},
+    {
+      ing: 'The restaurant is next to the movie theater.',
+      tr: 'Restoran sinemanın yanında.',
+    },
+    {ing: 'She is inside the house.', tr: 'O, evin içinde.'},
+    {
+      ing: 'They are climbing up the stairs.',
+      tr: 'Onlar merdivenleri çıkıyorlar.',
+    },
+    {ing: 'The picture is on the wall..', tr: 'Resim duvarda.'},
+    {
+      ing: 'He is sitting between his two friends.',
+      tr: 'O, iki arkadaşının arasında oturuyor.',
+    },
+    {
+      ing: 'She is waiting by the bus stop.',
+      tr: 'O, otobüs durağında bekliyor.',
+    },
+    {
+      ing: 'He is sitting on the chair in the classroom.',
+      tr: 'O, sınıfta sandalyede oturuyor.',
+    },
+    {
+      ing: 'The restaurant is across the street from the hotel.',
+      tr: 'Restoran otelin karşısında.',
+    },
+    {
+      ing: 'They are walking through the park.',
+      tr: 'Onlar parkın içinden yürüyorlar.',
+    },
+    {
+      ing: 'She lives at the end of the street.',
+      tr: 'O, sokağın sonunda yaşıyor.',
+    },
+    {
+      ing: 'They are walking around the neighborhood.',
+      tr: 'Onlar mahallenin etrafında yürüyorlar.',
+    },
+    {
+      ing: 'The house is on the left side of the street.',
+      tr: 'Ev sokağın sol tarafında.',
+    },
+    {ing: 'The cat is jumping off the couch.', tr: 'Kedi kanepeden atlıyor.'},
+    {
+      ing: 'The store is between the bank and the library.',
+      tr: 'Mağaza banka ve kütüphanenin arasında.',
+    },
+    {
+      ing: 'They are walking up the hill.',
+      tr: 'Onlar tepeden yukarı yürüyorlar.',
+    },
+    {ing: 'The book is on the shelf.', tr: 'Kitap rafta.'},
+    {ing: 'The dog is under the table.', tr: 'Köpek masanın altında.'},
+    {
+      ing: 'The cat is sitting on the windowsill.',
+      tr: 'Kedi pencere kenarında oturuyor.',
+    },
+    {
+      ing: 'The phone is next to the computer.',
+      tr: 'Telefon bilgisayarın yanında.',
+    },
+    {ing: 'The picture is hanging on the wall.', tr: 'Resim duvarda asılı.'},
+    {ing: 'The lamp is above the desk.', tr: 'Lamba masanın üstünde.'},
+    {ing: 'The TV is in front of the couch.', tr: 'TV kanepenin önünde.'},
+    {
+      ing: 'The chair is beside the bookshelf.',
+      tr: 'Sandalye kitaplığın yanında.',
+    },
+    {ing: 'The rug is on the floor.', tr: 'Halı zeminde.'},
+    {ing: 'The shoes are in the closet.', tr: 'Ayakkabılar dolapta.'},
+    {ing: 'The mirror is above the sink.', tr: 'Ayna lavabonun üstünde.'},
+    {
+      ing: 'The painting is leaning against the wall.',
+      tr: 'Resim duvara yaslanmış.',
+    },
+    {ing: 'The umbrella is in the box.', tr: 'Şemsiye kutunun içinde.'},
+    {
+      ing: 'The trash can is next to the desk.',
+      tr: 'Çöp kutusu masanın yanında.',
+    },
+    {ing: 'The fridge is in the kitchen..', tr: 'Buzdolabı mutfakta.'},
+    {ing: 'The blanket is on the bed.', tr: 'Battaniye yatakta.'},
+    {
+      ing: 'The microwave is above the stove.',
+      tr: 'Mikrodalga fırın ocağın üstünde.',
+    },
+    {
+      ing: 'The photo frame is on the dresser.',
+      tr: 'Fotoğraf çerçevesi şifonyerin üstünde.',
+    },
+    {
+      ing: 'The carpet is under the coffee table.',
+      tr: 'Halı sehpanın altında.',
+    },
+    {ing: 'The chair is in front of the desk.', tr: 'Sandalye masanın önünde.'},
+    {
+      ing: 'The restaurant is located opposite the post office.',
+      tr: 'Restoran postanenin karşısında bulunuyor.',
+    },
+    {
+      ing: 'The glasses are on the coffe table.',
+      tr: 'Gözlükler kahve masasının üstünde.',
+    },
+    {
+      ing: 'They ran towards the finish line.',
+      tr: 'Onlar finiş çizgisine doğru koştular.',
+    },
+    {
+      ing: 'The bus goes through the tunnel.',
+      tr: 'Otobüs tünelin içinden geçiyor.',
+    },
+    {ing: 'She jumped into the pool.', tr: 'O, havuzun içine atladı.'},
+    {
+      ing: "She's standing on top of the the building.",
+      tr: 'O, binanın tepesinde duruyor.',
+    },
+    {
+      ing: 'The car is parked beside the garden.',
+      tr: 'Araba bahçenin yanında park edilmiş.',
+    },
+    {
+      ing: 'The store is located near the mall.',
+      tr: 'Mağaza alışveriş merkezinin yakınında bulunuyor.',
+    },
+    {
+      ing: 'He climbed up the ladder to the roof.',
+      tr: 'O, çatıya merdivenle tırmandı.',
+    },
+    {
+      ing: "She's sitting between her two friends.",
+      tr: 'O, iki arkadaşının arasında oturuyor.',
+    },
+    {ing: 'The ball is in the box.', tr: 'Top kutunun içinde.'},
+    {
+      ing: 'The statue is behind the building.',
+      tr: 'Heykel binanın arkasında.',
+    },
+    {
+      ing: 'The bus stop is across the street.',
+      tr: 'Otobüs durağı caddenin karşısında.',
+    },
+    {ing: 'The cat jumped onto the chair.', tr: 'Kedi sandalyeye atladı.'},
+    {ing: 'The path leads to the lake.', tr: 'Yol göle doğru gidiyor.'},
+    {ing: 'The car drove through the tunnel.', tr: 'Araba tünelden geçti.'},
+    {
+      ing: 'The store is on the corner of Main Street.',
+      tr: "Mağaza Ana Cadde'nin köşesinde.",
+    },
+    {ing: 'The key is in the lock.', tr: 'Anahtar kilitte.'},
+    {ing: 'The dog ran in the park.', tr: 'Köpek parkta koştu.'},
+    {ing: 'The cat climbed up the tree.', tr: 'Kedi ağaca tırmandı.'},
+    {ing: 'The candy is in the jar.', tr: 'Şeker kavanozun içinde.'},
+    {
+      ing: 'The airplane flew over the ocean.',
+      tr: 'Uçak okyanusun üzerinde uçtu.',
+    },
+    {ing: 'The party is at the club.', tr: 'Parti kulüpte.'},
+    {ing: 'The birdhouse is attached to the tree.', tr: 'Kuş evi ağaca bağlı.'},
+    {
+      ing: 'The cat jumped onto the table and knocked over a vase.',
+      tr: 'Kedi masanın üstüne atladı ve bir vazo devirdi.',
+    },
+    {
+      ing: 'The house is in the middle of the street.',
+      tr: 'Ev sokağın ortasında.',
+    },
+    {
+      ing: 'The school is on the other side of town.',
+      tr: 'Okul kasabanın diğer tarafında.',
+    },
+    {ing: 'The cookies are on the tray.', tr: 'Kurabiyeler tepsinin üstünde.'},
+    {ing: 'The cat is on the roof.', tr: 'Kedi çatının üstünde.'},
+    {
+      ing: 'The church is across the square.',
+      tr: 'Kilise meydanın karşısında.',
+    },
+    {ing: 'I am in the kitchen.', tr: 'Mutfaktayım.'},
+    {ing: 'The bird flew over the house.', tr: 'Kuş evin üzerinden uçtu.'},
+    {
+      ing: 'The picture is hanging above the bed.',
+      tr: 'Resim yatağın üstünde asılı.',
+    },
+    {
+      ing: 'The book is between the two bookends.',
+      tr: 'Kitap iki kitap arasındadır.',
+    },
+    {
+      ing: 'The train is traveling across the country.',
+      tr: 'Tren ülkenin dört bir yanına seyahat ediyor.',
+    },
+    {
+      ing: 'The book was hidden among the other books on the shelf.',
+      tr: 'Kitap rafın diğer kitapları arasında saklanmıştı.',
+    },
+    {
+      ing: 'The cat is sitting beside the vase.',
+      tr: 'Kedi vazonun yanında oturuyor.',
+    },
+    {
+      ing: 'The spider is crawling on the wall.',
+      tr: 'Örümcek duvarda sürünüyor.',
+    },
+    {
+      ing: 'The sun is shining through the window.',
+      tr: 'Güneş pencereden parlıyor.',
+    },
+    {ing: 'The mouse is inside the hole.', tr: 'Fare deliğin içinde.'},
+    {ing: 'The pizza is on the plate.', tr: 'Pizza tabakta.'},
+    {
+      ing: 'The bike is leaning against the fence.',
+      tr: 'Bisiklet çitin yanında duruyor.',
+    },
+    {
+      ing: 'The fish is swimming in the tank.',
+      tr: 'Balık tankın içinde yüzüyor.',
+    },
+    {ing: 'The hat is on the shelf.', tr: 'Şapka rafta.'},
+    {
+      ing: 'She is driving the car towards the bridge.',
+      tr: 'O, köprünün üzerine arabayı sürüyor.',
+    },
+    {ing: 'The toy is under the bed.', tr: 'Oyuncak yatağın altında.'},
+    {ing: 'The man is walking down the street.', tr: 'Adam caddede yürüyor.'},
+    {ing: 'The bird is sitting on the branch.', tr: 'Kuş dalda oturuyor.'},
+    {
+      ing: 'The car is parked in the garage.',
+      tr: 'Araba garajda park edilmiş.',
+    },
+    {
+      ing: 'My mittens are in the washing machine.',
+      tr: 'Eldivenlerim çamaşır makinesinde.',
+    },
+    {
+      ing: 'The puppy was playing happily among the other dogs at the park.',
+      tr: 'Yavru köpek parkta diğer köpeklerle mutlu oynuyordu.',
+    },
+    {
+      ing: 'The spider is hiding in the box.',
+      tr: 'Örümcek kutunun içinde saklanıyor.',
+    },
+    {ing: 'The bag is on the chair.', tr: 'Çanta sandalyenin üstünde.'},
+    {ing: 'The river flows through the valley.', tr: 'Nehir vadiden akıyor.'},
+    {
+      ing: 'The coffee mug was next to the laptop on the desk.',
+      tr: 'Kahve kupası masada dizüstü bilgisayarın yanında duruyordu.',
+    },
+  ],
+  Time: [
+    {
+      ing: 'I will meet you at the park at 3:00 p.m.',
+      tr: "Saat 3:00'te parkta seninle buluşacağım.",
+    },
+    {ing: 'She arrived in the morning.', tr: 'O sabah geldi.'},
+    {
+      ing: 'The train departs from the station in 15 minutes.',
+      tr: 'Tren 15 dakika içinde istasyondan kalkıyor.',
+    },
+    {
+      ing: 'The party starts at 7:00 in the evening.',
+      tr: "Parti akşam 7:00'de başlıyor.",
+    },
+    {ing: 'The concert lasted for three hours.', tr: 'Konser üç saat sürdü.'},
+    {
+      ing: 'The store opens at 9:00 a.m. on weekdays.',
+      tr: "Mağaza hafta içi saat 9:00'da açılıyor.",
+    },
+    {
+      ing: "We'll go for a walk during the sunset.",
+      tr: 'Gün batımı sırasında yürüyüşe çıkacağız.',
+    },
+    {
+      ing: 'The restaurant closes at midnight.',
+      tr: 'Restoran gece yarısında kapanıyor.',
+    },
+    {
+      ing: 'We usually have dinner around 7:00 p.m.',
+      tr: 'Genellikle saat 7:00 civarında akşam yemeği yeriz.',
+    },
+    {
+      ing: 'The festival is held annually in August.',
+      tr: 'Festival her yıl Ağustos ayında düzenlenir.',
+    },
+    {
+      ing: 'They went camping during the summer vacation.',
+      tr: 'Yaz tatili sırasında kamp yapmaya gittiler.',
+    },
+    {
+      ing: 'The movie starts in 20 minutes.',
+      tr: 'Film 20 dakika içinde başlıyor.',
+    },
+    {
+      ing: "We'll have a barbecue at / on the weekend.",
+      tr: 'Hafta sonunda barbekü yapacağız.',
+    },
+    {
+      ing: 'The museum is closed on Mondays.',
+      tr: 'Müze Pazartesi günleri kapalıdır.',
+    },
+    {
+      ing: "We'll be back in a few hours.",
+      tr: 'Birkaç saat içinde geri döneceğiz.',
+    },
+    {
+      ing: 'The train arrives at the platform in 5 minutes.',
+      tr: 'Tren 5 dakika içinde perona geliyor.',
+    },
+    {
+      ing: "We'll have lunch around noon.",
+      tr: 'Öğlen civarında öğle yemeği yiyeceğiz.',
+    },
+    {
+      ing: 'The bus departs from the terminal at 6:00 a.m.',
+      tr: "Otobüs sabah 6:00'da terminalden kalkıyor.",
+    },
+    {
+      ing: 'The store is open until 9:00 p.m.',
+      tr: "Mağaza akşam 9:00'a kadar açıktır.",
+    },
+    {
+      ing: "We'll have a meeting in the afternoon.",
+      tr: 'Öğleden sonra bir toplantı yapacağız.',
+    },
+    {
+      ing: 'They are leaving for their vacation in two days.',
+      tr: 'İki gün içinde tatil için ayrılıyorlar.',
+    },
+    {
+      ing: "I'll see you in a couple of weeks.",
+      tr: 'Birkaç hafta içinde görüşürüz.',
+    },
+    {ing: "He'll be back on Sunday.", tr: 'Pazar günü geri dönecek.'},
+    {
+      ing: 'She went for a walk along the beach at sunset.',
+      tr: 'Gün batımında sahil boyunca yürüyüşe çıktı.',
+    },
+    {
+      ing: "He'll be here by the start of the meeting.",
+      tr: 'Toplantının başlangıcına kadar o burada olacak.',
+    },
+    {
+      ing: "I'll meet you in the park at 3 PM.",
+      tr: "Seni saat 3'te parkta buluşacağım.",
+    },
+    {ing: 'We went to the beach on Sunday.', tr: 'Pazar günü sahile gittik.'},
+    {ing: 'The concert starts at 7 PM.', tr: "Konser saat 7'de başlıyor."},
+    {
+      ing: 'The party was held during the weekend.',
+      tr: 'Parti hafta sonu sırasında yapıldı.',
+    },
+    {
+      ing: 'They went to Europe for two weeks.',
+      tr: "İki haftalığına Avrupa'ya gittiler.",
+    },
+    {ing: 'He left at midnight.', tr: 'Gece yarısında ayrıldı.'},
+    {ing: 'The game is on Friday night.', tr: 'Oyun Cuma gecesi.'},
+    {
+      ing: 'The store is closed on Sundays.',
+      tr: 'Mağaza Pazar günleri kapalı.',
+    },
+    {
+      ing: 'The festival takes place in the summer.',
+      tr: 'Festival yazın düzenlenir.',
+    },
+    {
+      ing: 'We went to the zoo in the afternoon.',
+      tr: 'Öğleden sonra hayvanat bahçesine gittik.',
+    },
+    {
+      ing: 'They usually have dinner in the evening.',
+      tr: 'Genellikle akşam yemeğini akşam yiyorlar.',
+    },
+    {
+      ing: "He'll be here in a couple of hours.",
+      tr: 'Birkaç saat içinde burada olacak.',
+    },
+    {ing: 'The meeting is in two days.', tr: 'Toplantı iki gün içinde.'},
+    {ing: 'The conference is in March.', tr: 'Konferans Mart ayında.'},
+    {ing: 'The concert ends at midnight.', tr: 'Konser gece yarısı bitiyor.'},
+    {ing: "She'll be back in a moment.", tr: 'Birazdan geri gelecek.'},
+    {
+      ing: 'They went on vacation for two weeks.',
+      tr: 'İki hafta tatil yaptılar.',
+    },
+    {
+      ing: 'We usually have lunch at noon.',
+      tr: 'Genellikle öğlen yemeğini öğlen yiyoruz.',
+    },
+    {
+      ing: 'The event is on Saturday afternoon.',
+      tr: 'Etkinlik Cumartesi öğleden sonra.',
+    },
+    {ing: 'The store opens at 9 AM.', tr: "Mağaza sabah 9'da açılıyor."},
+    {ing: 'The festival lasts for three days.', tr: 'Festival üç gün sürer.'},
+    {ing: 'We went to the museum in the morning.', tr: 'Sabah müzeye gittik.'},
+    {
+      ing: "She'll be back by the beginning of next week.",
+      tr: 'Gelecek haftanın başında geri dönecek.',
+    },
+    {
+      ing: 'They usually have breakfast around 7 AM.',
+      tr: 'Genellikle sabah 7 civarında kahvaltı yaparlar.',
+    },
+    {
+      ing: 'She went jogging early in the morning.',
+      tr: 'Sabah erken saatlerde koşuya çıktı.',
+    },
+    {
+      ing: "I woke up at 6 o'clock this morning.",
+      tr: "Bu sabah saat 6'da uyandım.",
+    },
+    {ing: 'We should meet at 2 pm.', tr: "Saat 2'de buluşmalıyız."},
+    {
+      ing: 'She arrived in London on Monday.',
+      tr: "O, Pazartesi günü Londra'ya geldi.",
+    },
+    {
+      ing: 'They are coming back from vacation next week.',
+      tr: 'Onlar, gelecek hafta tatilden dönüyorlar.',
+    },
+    {
+      ing: "I'll see you in ten minutes.",
+      tr: 'On dakika içinde seni göreceğim.',
+    },
+    {
+      ing: 'He started working for the company in 2010.',
+      tr: 'O, 2010 yılında şirkette çalışmaya başladı.',
+    },
+    {
+      ing: 'We are going to the beach in July.',
+      tr: 'Temmuz ayında plaja gidiyoruz.',
+    },
+    {ing: 'She was born in 1995.', tr: 'O, 1995 yılında doğdu.'},
+    {
+      ing: 'The train will arrive at midnight.',
+      tr: 'Tren gece yarısında varacak.',
+    },
+    {
+      ing: 'They will leave for the conference in two days.',
+      tr: 'Onlar, iki gün içinde konferans için ayrılacaklar.',
+    },
+    {
+      ing: "I'll see you in a couple of hours.",
+      tr: 'Birkaç saat içinde seni göreceğim.',
+    },
+    {
+      ing: 'She had finished her homework by 10 pm.',
+      tr: "O, ödevini saat 10'a kadar bitirmişti.",
+    },
+    {ing: 'We will meet on Saturday.', tr: 'Cumartesi günü buluşacağız.'},
+    {
+      ing: 'The party is at my place at 7 pm.',
+      tr: "Parti saat 7'de benim evimde.",
+    },
+    {
+      ing: 'He has been working here since 2015.',
+      tr: "O, 2015'ten beri burada çalışıyor.",
+    },
+    {
+      ing: 'We will have a meeting on Friday.',
+      tr: 'Cuma günü bir toplantı yapacağız.',
+    },
+    {
+      ing: 'The train leaves in 20 minutes.',
+      tr: 'Tren 20 dakika içinde kalkıyor.',
+    },
+    {
+      ing: "We'll meet again in a year.",
+      tr: 'Bir yıl sonra tekrar buluşacağız.',
+    },
+    {
+      ing: 'The conference starts on Monday.',
+      tr: 'Konferans Pazartesi günü başlıyor.',
+    },
+    {
+      ing: 'He worked for the company for five years.',
+      tr: 'O, beş yıl boyunca şirkette çalıştı.',
+    },
+    {
+      ing: "She'll be back by dinner time.",
+      tr: 'O, akşam yemeğine kadar geri dönecek.',
+    },
+    {
+      ing: 'He usually goes to bed around 11 pm.',
+      tr: 'O, genellikle saat 11 civarında yatar.',
+    },
+    {
+      ing: 'She finished the book in a day.',
+      tr: 'O, kitabı bir günde bitirdi.',
+    },
+    {ing: 'He was lost for two weeks.', tr: 'O, iki hafta boyunca kayboldu.'},
+    {
+      ing: "I'll finish this task in an hour.",
+      tr: 'Bu görevi bir saat içinde bitireceğim.',
+    },
+    {ing: 'I have an appointment at 2 PM.', tr: "Saat 2'de bir randevum var."},
+    {ing: 'She woke up at dawn.', tr: 'O, şafakta uyandı.'},
+    {ing: 'I will meet you at noon.', tr: 'Öğle vakti buluşacağız.'},
+    {ing: 'He was born in 1995.', tr: 'O, 1995 yılında doğdu.'},
+    {
+      ing: 'We will be on vacation during July.',
+      tr: 'Temmuz ayında tatilde olacağız.',
+    },
+    {
+      ing: 'They arrived on time for the presentation.',
+      tr: 'Onlar, sunum için zamanında geldiler.',
+    },
+    {
+      ing: 'The train departs in ten minutes.',
+      tr: 'Tren on dakika içinde kalkıyor.',
+    },
+    {
+      ing: 'The event is happening on Saturday.',
+      tr: 'Etkinlik Cumartesi günü gerçekleşiyor.',
+    },
+    {
+      ing: 'He finished his project within the deadline.',
+      tr: 'O, projesini süre içinde bitirdi.',
+    },
+    {ing: 'She has been working for 5 years.', tr: 'O, beş yıldır çalışıyor.'},
+    {
+      ing: 'The party lasted until midnight.',
+      tr: 'Parti gece yarısına kadar sürdü.',
+    },
+    {ing: 'We will be back by 5 PM.', tr: "Saat 5'e kadar geri döneceğiz."},
+    {
+      ing: 'We will celebrate our anniversary on May 10th.',
+      tr: "Yıldönümümüzü 10 Mayıs'ta kutlayacağız.",
+    },
+    {
+      ing: 'The concert ended around 11 PM.',
+      tr: 'Konser saat 11 civarında bitti.',
+    },
+    {
+      ing: 'I will see you in a couple of hours.',
+      tr: 'Birkaç saat içinde seni göreceğim.',
+    },
+    {ing: 'The lecture lasted for two hours.', tr: 'Ders iki saat sürdü.'},
+    {
+      ing: 'They started the meeting at 10:30 AM.',
+      tr: "Onlar, toplantıyı saat 10:30'da başlattılar.",
+    },
+    {ing: 'The store is open until 10 PM.', tr: "Mağaza saat 10'a kadar açık."},
+    {
+      ing: 'The book was published in 2005.',
+      tr: 'Kitap 2005 yılında yayınlandı.',
+    },
+    {
+      ing: 'We will have a break for lunch at noon.',
+      tr: 'Öğle yemeği için öğle vakti ara vereceğiz.',
+    },
+    {
+      ing: 'They will arrive by the end of the week.',
+      tr: 'Haftanın sonuna kadar gelecekler.',
+    },
+    {
+      ing: 'I will finish this task by tomorrow.',
+      tr: 'Bu görevi yarına kadar bitireceğim.',
+    },
+    {
+      ing: 'She completed the project within a month.',
+      tr: 'O, projeyi bir ay içinde tamamladı.',
+    },
+    {
+      ing: 'The exhibition will run from June to August.',
+      tr: "Sergi Haziran'dan Ağustos'a kadar sürecek.",
+    },
+    {
+      ing: 'The event will take place in September.',
+      tr: 'Etkinlik Eylül ayında gerçekleşecek.',
+    },
+    {ing: 'I woke up at 6:00 a.m.', tr: "Saat 6:00'da uyandım."},
+    {
+      ing: 'She arrived on time for the meeting.',
+      tr: 'O, toplantı için zamanında geldi.',
+    },
+    {
+      ing: 'They are coming over for dinner at 7:00 p.m.',
+      tr: "Onlar, akşam yemeği için saat 7:00'de geliyorlar.",
+    },
+    {
+      ing: 'We have to finish the project by next week.',
+      tr: 'Projeyi gelecek haftaya kadar bitirmeliyiz.',
+    },
+    {
+      ing: 'He has been working since 9:00 a.m.',
+      tr: "O, saat 9:00'dan beri çalışıyor.",
+    },
+    {
+      ing: 'I will see you in a few hours.',
+      tr: 'Birkaç saat içinde seni göreceğim.',
+    },
+    {
+      ing: 'They went on vacation during the summer.',
+      tr: 'Onlar, yaz tatilinde tatile gittiler.',
+    },
+    {
+      ing: 'The party lasted until midnight.',
+      tr: 'Parti gece yarısına kadar sürdü.',
+    },
+    {
+      ing: 'I have been studying for two hours.',
+      tr: 'İki saattir ders çalışıyorum.',
+    },
+    {ing: 'We met in the morning.', tr: 'Sabah buluştuk.'},
+    {
+      ing: 'They are planning to travel in October.',
+      tr: 'Onlar, Ekim ayında seyahat etmeyi planlıyorlar.',
+    },
+    {ing: 'The flight departs at 6:00 a.m.', tr: "Uçuş saat 6:00'da kalkıyor."},
+    {
+      ing: 'She graduated from college in 2010.',
+      tr: 'O, 2010 yılında üniversiteden mezun oldu.',
+    },
+    {
+      ing: 'He will retire in five years.',
+      tr: 'O, beş yıl içinde emekli olacak.',
+    },
+    {ing: 'They will stay for a week.', tr: 'Bir hafta kalacaklar.'},
+    {
+      ing: 'He has been living in New York since 2015.',
+      tr: "O, 2015'ten beri New York'ta yaşıyor.",
+    },
+    {
+      ing: 'We should finish by the end of the day.',
+      tr: 'Günü bitimine kadar bitirmeliyiz.',
+    },
+    {
+      ing: 'The concert ended around 11:00 p.m.',
+      tr: 'Konser saat 11:00 civarında bitti.',
+    },
+    {
+      ing: 'They celebrated Christmas on December 25th.',
+      tr: "Onlar, 25 Aralık'ta Noel'i kutladılar.",
+    },
+    {
+      ing: 'He will be back in a few minutes.',
+      tr: 'O, birkaç dakika içinde geri dönecek.',
+    },
+    {ing: 'She has been waiting for an hour.', tr: 'O, bir saattir bekliyor.'},
+    {
+      ing: 'The cat has been sleeping for two hours.',
+      tr: 'Kedi iki saattir uyuyor.',
+    },
+    {
+      ing: 'I usually take a break at noon.',
+      tr: 'Genellikle öğlen ara veririm.',
+    },
+    {ing: 'He has been running for an hour.', tr: 'O, bir saattir koşuyor.'},
+    {
+      ing: 'They will be back by tomorrow.',
+      tr: 'Onlar, yarına kadar geri dönecekler.',
+    },
+    {
+      ing: 'My flight departs in two hours.',
+      tr: 'Uçuşum iki saat içinde kalkacak.',
+    },
+    {
+      ing: "We're meeting on Friday at noon.",
+      tr: 'Cuma günü öğle vakti buluşuyoruz.',
+    },
+    {
+      ing: 'She finished her homework before dinner.',
+      tr: 'O, ödevini akşam yemeğinden önce bitirdi.',
+    },
+    {
+      ing: 'They arrived after the movie.',
+      tr: 'Onlar, filmden sonra geldiler.',
+    },
+    {ing: "We'll be finished by 10 p.m.", tr: "Saat 10:00'da bitireceğiz."},
+    {
+      ing: 'I always go to bed at 11 p.m.',
+      tr: "Her zaman saat 11:00'de yatarım.",
+    },
+    {
+      ing: 'The party starts at 7 p.m. sharp.',
+      tr: "Parti tam olarak saat 7:00'de başlıyor.",
+    },
+    {
+      ing: "I'll see you in a few minutes.",
+      tr: 'Birkaç dakika içinde seni göreceğim.',
+    },
+    {ing: 'The train arrives at midnight.', tr: 'Tren gece yarısında varıyor.'},
+    {
+      ing: "They're going to the beach on Sunday.",
+      tr: 'Onlar, Pazar günü plaja gidiyorlar.',
+    },
+    {ing: 'The play begins at 7:30 p.m.', tr: "Oyun saat 7:30'da başlıyor."},
+    {ing: "I'm leaving in five minutes.", tr: 'Beş dakika içinde ayrılıyorum.'},
+    {
+      ing: 'She had finished her work by 5 p.m.',
+      tr: "O, işini saat 5:00'e kadar bitirmişti.",
+    },
+    {
+      ing: "He's arriving at 3 p.m. tomorrow.",
+      tr: "O, yarın saat 3:00'te varıyor.",
+    },
+    {ing: "I'll call you in an hour.", tr: 'Bir saat içinde seni arayacağım.'},
+    {
+      ing: 'I have been learning French for two years.',
+      tr: 'İki yıldır Fransızca öğreniyorum.',
+    },
+    {
+      ing: 'They went to bed at midnight.',
+      tr: 'Onlar, gece yarısında yatağa gittiler.',
+    },
+    {
+      ing: 'The show starts at 8 p.m. sharp.',
+      tr: "Gösteri tam olarak saat 8:00'de başlıyor.",
+    },
+    {ing: "We're leaving in ten minutes.", tr: 'On dakika içinde ayrılıyoruz.'},
+    {
+      ing: 'We have been friends since high school.',
+      tr: 'Liseden beri arkadaşız.',
+    },
+    {
+      ing: 'She finished the project in two days.',
+      tr: 'O, projeyi iki günde bitirdi.',
+    },
+    {
+      ing: 'He arrived in Paris last week.',
+      tr: "O, geçen hafta Paris'e geldi.",
+    },
+    {
+      ing: 'I usually wake up around 7 a.m.',
+      tr: 'Genellikle saat 7:00 civarında uyanırım.',
+    },
+    {ing: 'The bus leaves at 3:30 p.m.', tr: "Otobüs saat 3:30'da kalkıyor."},
+    {
+      ing: "They'll be back by 7 p.m.",
+      tr: "Saat 7:00'ye kadar geri dönecekler.",
+    },
+  ],
+  VerbPreposition: [
+    {ing: 'She is looking at the painting.', tr: 'O, tabloya bakıyor.'},
+    {ing: 'He is waiting for the bus.', tr: 'O, otobüsü bekliyor.'},
+    {ing: 'They are listening to music.', tr: 'Onlar, müzik dinliyorlar.'},
+    {ing: 'She is talking about her day.', tr: 'O, gününden bahsediyor.'},
+    {ing: 'He is laughing at the joke.', tr: 'O, şakaya gülüyor.'},
+    {
+      ing: 'They are thinking about the future.',
+      tr: 'Onlar, gelecek hakkında düşünüyorlar.',
+    },
+    {
+      ing: 'She is apologizing for the delay.',
+      tr: 'O, gecikme için özür diliyor.',
+    },
+    {ing: 'He is asking for directions.', tr: 'O, yol tarifi soruyor.'},
+    {ing: 'She is preparing for the exam.', tr: 'O, sınava hazırlanıyor.'},
+    {
+      ing: 'He is dreaming about the vacation.',
+      tr: 'O, tatili hakkında hayal kuruyor.',
+    },
+    {
+      ing: 'They are arguing about the game.',
+      tr: 'Onlar, oyun hakkında tartışıyorlar.',
+    },
+    {ing: 'She is caring for her mother.', tr: 'O, annesine bakıyor.'},
+    {ing: 'He is paying for the meal.', tr: 'O, yemeğin parasını ödüyor.'},
+    {ing: 'They are searching for the answer.', tr: 'Onlar, cevabı arıyorlar.'},
+    {ing: 'She is running from the rain.', tr: 'O, yağmurdan kaçıyor.'},
+    {ing: 'He is talking to his friend.', tr: 'O, arkadaşıyla konuşuyor.'},
+    {
+      ing: 'She is complaining about the noise.',
+      tr: 'O, gürültüden şikayet ediyor.',
+    },
+    {ing: 'He is thinking of a solution.', tr: 'O, bir çözüm düşünüyor.'},
+    {ing: 'They are planning for the trip.', tr: 'Onlar, geziyi planlıyorlar.'},
+    {ing: 'She is hoping for good weather.', tr: 'O, iyi hava umuyor.'},
+    {ing: 'He is responsible for the project.', tr: 'O, projeden sorumlu.'},
+    {ing: 'She is interested in art.', tr: 'O, sanata ilgi duyuyor.'},
+    {
+      ing: 'They are participating in the event.',
+      tr: 'Onlar, etkinliğe katılıyorlar.',
+    },
+    {ing: 'He is known for his generosity.', tr: 'O, cömertliğiyle tanınıyor.'},
+    {ing: 'She is famous for her cooking.', tr: 'O, yemek yapmasıyla ünlü.'},
+    {
+      ing: 'They are involved in the community.',
+      tr: 'Onlar, toplumla ilgileniyorlar.',
+    },
+    {
+      ing: 'He is working on his project.',
+      tr: 'O, projesi üzerinde çalışıyor.',
+    },
+    {
+      ing: 'She is worried about her health.',
+      tr: 'O, sağlığı hakkında endişeleniyor.',
+    },
+    {
+      ing: 'They are excited about the party.',
+      tr: 'Onlar, parti için heyecanlılar.',
+    },
+    {ing: 'He is busy with his work.', tr: 'O, işiyle meşgul.'},
+    {ing: 'She is satisfied with the results.', tr: 'O, sonuçlardan memnun.'},
+    {
+      ing: 'They are engaged in a conversation.',
+      tr: 'Onlar, bir sohbetle meşgul.',
+    },
+    {ing: 'He is responsible for the mess.', tr: 'O, dağınıklıktan sorumlu.'},
+    {ing: 'She is happy with her new job.', tr: 'O, yeni işiyle mutlu.'},
+    {
+      ing: 'They are worried about the deadline.',
+      tr: 'Onlar, son tarih hakkında endişeli.',
+    },
+    {ing: 'He is focused on his studies.', tr: 'O, derslerine odaklanmış.'},
+    {ing: 'She is afraid of the dark.', tr: 'O, karanlıktan korkuyor.'},
+    {
+      ing: 'They are bored with the routine.',
+      tr: 'Onlar, rutinlerinden sıkılmışlar.',
+    },
+    {ing: 'He is addicted to coffee.', tr: 'O, kahveye bağımlı.'},
+    {ing: 'She is allergic to peanuts.', tr: 'O, fıstığa alerjisi var.'},
+    {
+      ing: 'They are famous for their hospitality.',
+      tr: 'Onlar, misafirperverlikleriyle ünlü.',
+    },
+    {
+      ing: 'He is proud of his achievements.',
+      tr: 'O, başarılarıyla gurur duyuyor.',
+    },
+    {ing: 'She is tired of waiting.', tr: 'O, beklemekten bıktı.'},
+    {
+      ing: 'They are interested in learning.',
+      tr: 'Onlar, öğrenmeye ilgi duyuyorlar.',
+    },
+    {ing: 'He is involved in a project.', tr: 'O, bir projeyle ilgileniyor.'},
+    {
+      ing: 'She is capable of doing the job.',
+      tr: 'O, işi yapabilecek yetenekte.',
+    },
+    {
+      ing: 'They are jealous of their friends.',
+      tr: 'Onlar, arkadaşlarını kıskanıyorlar.',
+    },
+    {
+      ing: 'He is known for his punctuality.',
+      tr: 'O, dakik olmasıyla tanınıyor.',
+    },
+    {ing: 'She is keen on sports.', tr: 'O, spora meraklı.'},
+    {
+      ing: 'They are worried about the future.',
+      tr: 'Onlar, gelecek hakkında endişeliler.',
+    },
+    {ing: 'He is happy about the news.', tr: 'O, haberlerden mutlu.'},
+    {ing: 'She is good at mathematics.', tr: 'O, matematikte iyi.'},
+    {
+      ing: 'They are afraid of spiders.',
+      tr: 'Onlar, örümceklerden korkuyorlar.',
+    },
+    {
+      ing: 'He is confident about his skills.',
+      tr: 'O, yeteneklerine güveniyor.',
+    },
+    {ing: 'She is passionate about music.', tr: 'O, müziğe tutkuyla bağlı.'},
+    {ing: 'They are famous for their cakes.', tr: 'Onlar, kekleriyle ünlü.'},
+    {ing: 'He is serious about his career.', tr: 'O, kariyerinde ciddi.'},
+    {ing: 'She is dependent on her parents.', tr: 'O, ailesine bağımlı.'},
+    {
+      ing: 'They are engaged in research.',
+      tr: 'Onlar, araştırmaya katılıyorlar.',
+    },
+    {ing: 'He is fond of animals.', tr: 'O, hayvanları seviyor.'},
+    {ing: 'She is enthusiastic about the trip.', tr: 'O, gezi için hevesli.'},
+    {
+      ing: 'They are proud of their heritage.',
+      tr: 'Onlar, miraslarıyla gurur duyuyorlar.',
+    },
+    {
+      ing: 'He is interested in technology.',
+      tr: 'O, teknolojiye ilgi duyuyor.',
+    },
+    {ing: 'She is keen on photography.', tr: 'O, fotoğrafçılığa meraklı.'},
+    {
+      ing: 'They are concerned about the environment.',
+      tr: 'Onlar, çevre hakkında endişeliler.',
+    },
+    {ing: 'He is excited about the concert.', tr: 'O, konser için heyecanlı.'},
+    {
+      ing: 'She is optimistic about the future.',
+      tr: 'O, gelecekle ilgili iyimser.',
+    },
+    {
+      ing: 'They are known for their kindness.',
+      tr: 'Onlar, kibarlıklarıyla tanınıyorlar.',
+    },
+    {ing: 'He is proficient in languages.', tr: 'O, dillere hakim.'},
+    {ing: 'She is enthusiastic about the project.', tr: 'O, projeye hevesli.'},
+    {
+      ing: 'They are excited about the competition.',
+      tr: 'Onlar, yarışma için heyecanlılar.',
+    },
+    {
+      ing: 'He is skilled at negotiation.',
+      tr: 'O, müzakere konusunda yetenekli.',
+    },
+    {ing: 'She is enthusiastic about the idea.', tr: 'O, fikre hevesli.'},
+    {
+      ing: 'They are dedicated to their work.',
+      tr: 'Onlar, işlerine adanmışlar.',
+    },
+    {
+      ing: 'He is proficient in computer programming.',
+      tr: 'O, bilgisayar programlama konusunda yetenekli.',
+    },
+    {
+      ing: 'She is interested in traveling.',
+      tr: 'O, seyahat etmeye ilgi duyuyor.',
+    },
+    {
+      ing: 'They are involved in social work.',
+      tr: 'Onlar, sosyal çalışmalara katılıyorlar.',
+    },
+    {ing: 'He is focused on his career.', tr: 'O, kariyerine odaklanmış.'},
+    {
+      ing: 'She is passionate about teaching.',
+      tr: 'O, öğretmeye tutkuyla bağlı.',
+    },
+    {ing: 'They are curious about science.', tr: 'Onlar, bilime meraklılar.'},
+    {ing: 'He is dependent on his medication.', tr: 'O, ilaçlarına bağımlı.'},
+    {
+      ing: 'She is enthusiastic about volunteering.',
+      tr: 'O, gönüllülüğe hevesli.',
+    },
+    {
+      ing: 'They are proud of their accomplishments.',
+      tr: 'Onlar, başarılarıyla gurur duyuyorlar.',
+    },
+    {
+      ing: 'He is confident in his abilities.',
+      tr: 'O, yeteneklerine güveniyor.',
+    },
+    {ing: 'She is addicted to social media.', tr: 'O, sosyal medyaya bağımlı.'},
+    {
+      ing: 'They are concerned about the changes.',
+      tr: 'Onlar, değişiklikler hakkında endişeliler.',
+    },
+    {
+      ing: 'He is skilled at playing the guitar.',
+      tr: 'O, gitar çalmakta yetenekli.',
+    },
+    {
+      ing: 'She is good at organizing events.',
+      tr: 'O, etkinlikleri düzenlemede iyi.',
+    },
+    {
+      ing: 'They are famous for their generosity.',
+      tr: 'Onlar, cömertlikleriyle ünlü.',
+    },
+    {
+      ing: 'He is interested in photography.',
+      tr: 'O, fotoğrafçılığa ilgi duyuyor.',
+    },
+    {
+      ing: 'She is curious about different cultures.',
+      tr: 'O, farklı kültürlere meraklı.',
+    },
+    {
+      ing: 'They are busy with their projects.',
+      tr: 'Onlar, projeleriyle meşgul.',
+    },
+    {ing: 'He is afraid of flying.', tr: 'O, uçmaktan korkuyor.'},
+    {ing: 'She is passionate about writing.', tr: 'O, yazmaya tutkuyla bağlı.'},
+    {
+      ing: 'They are dedicated to helping others.',
+      tr: 'Onlar, başkalarına yardım etmeye adanmışlar.',
+    },
+    {ing: 'He is known for his bravery.', tr: 'O, cesaretiyle tanınıyor.'},
+    {
+      ing: 'She is interested in learning new languages.',
+      tr: 'O, yeni diller öğrenmeye ilgi duyuyor.',
+    },
+    {
+      ing: 'They are skilled at problem-solving.',
+      tr: 'Onlar, sorun çözmede yetenekli.',
+    },
+    {ing: 'He is enthusiastic about sports.', tr: 'O, spora hevesli.'},
+    {ing: 'She is happy with her life.', tr: 'O, hayatıyla mutlu.'},
+    {
+      ing: 'They are worried about the economy.',
+      tr: 'Onlar, ekonomi hakkında endişeliler.',
+    },
+    {ing: 'He is good at solving puzzles.', tr: 'O, bulmacaları çözmede iyi.'},
+    {
+      ing: 'She is proficient in graphic design.',
+      tr: 'O, grafik tasarım konusunda yetenekli.',
+    },
+    {
+      ing: 'They are known for their honesty.',
+      tr: 'Onlar, dürüstlükleriyle tanınıyorlar.',
+    },
+    {ing: 'He is keen on hiking.', tr: 'O, doğa yürüyüşlerine meraklı.'},
+    {ing: 'She is dedicated to her family.', tr: 'O, ailesine adanmış.'},
+    {
+      ing: 'They are curious about new technologies.',
+      tr: 'Onlar, yeni teknolojilere meraklılar.',
+    },
+    {ing: 'He is confident in his decision.', tr: 'O, kararına güveniyor.'},
+    {ing: 'She is addicted to chocolate.', tr: 'O, çikolataya bağımlı.'},
+    {
+      ing: 'They are interested in environmental issues.',
+      tr: 'Onlar, çevresel konulara ilgi duyuyorlar.',
+    },
+    {
+      ing: 'He is known for his creativity.',
+      tr: 'O, yaratıcılığıyla tanınıyor.',
+    },
+    {
+      ing: 'She is proficient in public speaking.',
+      tr: 'O, topluluk önünde konuşmada yetenekli.',
+    },
+    {
+      ing: 'They are enthusiastic about the project.',
+      tr: 'Onlar, projeye hevesli.',
+    },
+    {ing: 'He is skilled at painting.', tr: 'O, resim yapmada yetenekli.'},
+    {
+      ing: 'She is interested in ancient history.',
+      tr: 'O, antik tarihe ilgi duyuyor.',
+    },
+    {
+      ing: 'They are involved in charity work.',
+      tr: 'Onlar, hayır işlerine katılıyorlar.',
+    },
+    {ing: 'He is good at making friends.', tr: 'O, arkadaş edinmede iyi.'},
+    {
+      ing: 'She is confident about her future.',
+      tr: 'O, geleceği hakkında kendine güveniyor.',
+    },
+    {
+      ing: 'They are known for their diligence.',
+      tr: 'Onlar, çalışkanlıklarıyla tanınıyorlar.',
+    },
+    {
+      ing: 'He is keen on learning new things.',
+      tr: 'O, yeni şeyler öğrenmeye meraklı.',
+    },
+    {ing: 'She is happy about the promotion.', tr: 'O, terfi hakkında mutlu.'},
+    {
+      ing: 'They are enthusiastic about gardening.',
+      tr: 'Onlar, bahçeciliğe hevesli.',
+    },
+    {
+      ing: 'He is passionate about animal rights.',
+      tr: 'O, hayvan haklarına tutkuyla bağlı.',
+    },
+    {ing: 'She is dedicated to her studies.', tr: 'O, derslerine adanmış.'},
+    {
+      ing: 'They are concerned about climate change.',
+      tr: 'Onlar, iklim değişikliği hakkında endişeliler.',
+    },
+    {
+      ing: 'He is proficient in playing the piano.',
+      tr: 'O, piyano çalmada yetenekli.',
+    },
+    {
+      ing: 'She is curious about space exploration.',
+      tr: 'O, uzay keşfine meraklı.',
+    },
+    {ing: 'They are busy with their business.', tr: 'Onlar, işleriyle meşgul.'},
+    {ing: 'He is interested in politics.', tr: 'O, politikaya ilgi duyuyor.'},
+    {
+      ing: 'She is enthusiastic about her new job.',
+      tr: 'O, yeni işine hevesli.',
+    },
+    {
+      ing: 'They are famous for their culinary skills.',
+      tr: 'Onlar, yemek pişirme yetenekleriyle ünlü.',
+    },
+    {
+      ing: 'He is skilled at fixing things.',
+      tr: 'O, şeyleri tamir etmede yetenekli.',
+    },
+    {ing: 'She is known for her patience.', tr: 'O, sabrıyla tanınıyor.'},
+    {
+      ing: 'They are dedicated to their cause.',
+      tr: 'Onlar, davalarına adanmışlar.',
+    },
+    {
+      ing: 'He is proficient in software development.',
+      tr: 'O, yazılım geliştirmede yetenekli.',
+    },
+    {
+      ing: 'She is interested in fashion design.',
+      tr: 'O, moda tasarımına ilgi duyuyor.',
+    },
+    {
+      ing: 'They are curious about ancient civilizations.',
+      tr: 'Onlar, antik medeniyetlere meraklılar.',
+    },
+    {ing: 'He is confident in his knowledge.', tr: 'O, bilgisine güveniyor.'},
+    {ing: 'She is addicted to shopping.', tr: 'O, alışverişe bağımlı.'},
+    {
+      ing: 'They are enthusiastic about fitness.',
+      tr: 'Onlar, fitness hakkında hevesli.',
+    },
+    {ing: 'He is good at managing time.', tr: 'O, zaman yönetiminde iyi.'},
+    {
+      ing: 'She is passionate about human rights.',
+      tr: 'O, insan haklarına tutkuyla bağlı.',
+    },
+    {
+      ing: 'They are involved in community service.',
+      tr: 'Onlar, topluluk hizmetine katılıyorlar.',
+    },
+    {ing: 'He is known for his intelligence.', tr: 'O, zekasıyla tanınıyor.'},
+    {ing: 'She is proficient in swimming.', tr: 'O, yüzmede yetenekli.'},
+    {
+      ing: 'They are curious about new inventions.',
+      tr: 'Onlar, yeni icatlara meraklılar.',
+    },
+    {
+      ing: 'He is confident in his leadership.',
+      tr: 'O, liderliğine güveniyor.',
+    },
+    {ing: 'She is dedicated to her work.', tr: 'O, işine adanmış.'},
+    {
+      ing: 'They are concerned about health issues.',
+      tr: 'Onlar, sağlık sorunları hakkında endişeliler.',
+    },
+    {
+      ing: 'He is proficient in playing chess.',
+      tr: 'O, satranç oynamada yetenekli.',
+    },
+    {
+      ing: 'She is interested in marine biology.',
+      tr: 'O, deniz biyolojisine ilgi duyuyor.',
+    },
+    {
+      ing: 'They are busy with their preparations.',
+      tr: 'Onlar, hazırlıklarla meşgul.',
+    },
+    {ing: 'He is keen on studying law.', tr: 'O, hukuk okumaya meraklı.'},
+    {
+      ing: 'She is enthusiastic about cooking.',
+      tr: 'O, yemek yapmaya hevesli.',
+    },
+    {
+      ing: 'They are known for their friendliness.',
+      tr: 'Onlar, dostluklarıyla tanınıyorlar.',
+    },
+    {
+      ing: 'He is skilled at playing the violin.',
+      tr: 'O, keman çalmada yetenekli.',
+    },
+    {
+      ing: 'She is interested in psychology.',
+      tr: 'O, psikolojiye ilgi duyuyor.',
+    },
+    {
+      ing: 'They are famous for their storytelling.',
+      tr: 'Onlar, hikaye anlatımıyla ünlü.',
+    },
+    {
+      ing: 'He is good at multitasking.',
+      tr: 'O, aynı anda birden fazla işi yapmada iyi.',
+    },
+    {
+      ing: 'She is confident about her abilities.',
+      tr: 'O, yeteneklerine güveniyor.',
+    },
+    {
+      ing: 'They are dedicated to improving society.',
+      tr: 'Onlar, toplumu geliştirmeye adanmışlar.',
+    },
+    {
+      ing: 'She is passionate about fitness.',
+      tr: 'O, fitnessa tutkuyla bağlı.',
+    },
+    {
+      ing: 'They are involved in cultural activities.',
+      tr: 'Onlar, kültürel aktivitelere katılıyorlar.',
+    },
+    {ing: 'He is proficient in writing.', tr: 'O, yazmada yetenekli.'},
+    {ing: 'She is curious about nature.', tr: 'O, doğaya meraklı.'},
+    {
+      ing: 'They are enthusiastic about learning.',
+      tr: 'Onlar, öğrenmeye hevesli.',
+    },
+    {ing: 'He is confident in his speech.', tr: 'O, konuşmasına güveniyor.'},
+    {ing: 'She is dedicated to her community.', tr: 'O, topluluğuna adanmış.'},
+    {
+      ing: 'They are concerned about global warming.',
+      tr: 'Onlar, küresel ısınma hakkında endişeliler.',
+    },
+    {
+      ing: 'He is proficient in martial arts.',
+      tr: 'O, dövüş sanatlarında yetenekli.',
+    },
+    {
+      ing: 'She is interested in graphic design.',
+      tr: 'O, grafik tasarıma ilgi duyuyor.',
+    },
+    {
+      ing: 'They are busy with their daily tasks.',
+      tr: 'Onlar, günlük işleriyle meşgul.',
+    },
+    {
+      ing: 'He is keen on traveling the world.',
+      tr: 'O, dünyayı gezmeye meraklı.',
+    },
+    {ing: 'She is enthusiastic about her hobby.', tr: 'O, hobisine hevesli.'},
+    {
+      ing: 'They are known for their integrity.',
+      tr: 'Onlar, dürüstlükleriyle tanınıyorlar.',
+    },
+    {ing: 'He is skilled at carpentry.', tr: 'O, marangozlukta yetenekli.'},
+    {
+      ing: 'She is interested in learning about other cultures.',
+      tr: 'O, diğer kültürleri öğrenmeye ilgi duyuyor.',
+    },
+    {
+      ing: 'They are famous for their baking.',
+      tr: 'Onlar, pişirme yetenekleriyle ünlü.',
+    },
+    {ing: 'He is good at drawing.', tr: 'O, çizim yapmada iyi.'},
+    {ing: 'She is confident in her choices.', tr: 'O, seçimlerine güveniyor.'},
+    {
+      ing: 'They are dedicated to their mission.',
+      tr: 'Onlar, görevlerine adanmışlar.',
+    },
+    {ing: 'He is known for his humor.', tr: 'O, espri anlayışıyla tanınıyor.'},
+    {ing: 'She is passionate about dance.', tr: 'O, dansa tutkuyla bağlı.'},
+    {
+      ing: 'They are involved in fundraising.',
+      tr: 'Onlar, bağış toplama işlerine katılıyorlar.',
+    },
+    {
+      ing: 'He is proficient in foreign languages.',
+      tr: 'O, yabancı dillerde yetenekli.',
+    },
+    {ing: 'She is curious about philosophy.', tr: 'O, felsefeye meraklı.'},
+    {
+      ing: 'They are enthusiastic about their work.',
+      tr: 'Onlar, işlerine hevesli.',
+    },
+    {ing: 'She is dedicated to her job.', tr: 'O, işine adanmış.'},
+    {
+      ing: 'They are concerned about social issues.',
+      tr: 'Onlar, sosyal sorunlar hakkında endişeliler.',
+    },
+    {
+      ing: 'He is proficient in photography.',
+      tr: 'O, fotoğrafçılıkta yetenekli.',
+    },
+    {ing: 'She is interested in literature.', tr: 'O, edebiyata ilgi duyuyor.'},
+    {
+      ing: 'They are busy with their schedules.',
+      tr: 'Onlar, programlarıyla meşgul.',
+    },
+    {ing: 'He is keen on staying fit.', tr: 'O, formda kalmaya meraklı.'},
+    {
+      ing: 'She is enthusiastic about her future.',
+      tr: 'O, geleceği hakkında hevesli.',
+    },
+    {
+      ing: 'They are known for their dedication.',
+      tr: 'Onlar, bağlılıklarıyla tanınıyorlar.',
+    },
+    {
+      ing: 'He is skilled at repairing cars.',
+      tr: 'O, arabaları tamir etmede yetenekli.',
+    },
+    {
+      ing: 'She is interested in art history.',
+      tr: 'O, sanat tarihine ilgi duyuyor.',
+    },
+    {
+      ing: 'They are famous for their research.',
+      tr: 'Onlar, araştırmalarıyla ünlü.',
+    },
+    {ing: 'She is looking at the stars.', tr: 'O, tabloya bakıyor.'},
+    {
+      ing: 'They are listening to the teacher.',
+      tr: 'Onlar, öğretmeni dinliyorlar.',
+    },
+    {
+      ing: 'She is talking about her vacation.',
+      tr: 'O, tatilinden bahsediyor.',
+    },
+    {ing: 'He is laughing at the comedian.', tr: 'O, komedyene gülüyor.'},
+    {
+      ing: 'They are thinking about the plan.',
+      tr: 'Onlar, plan hakkında düşünüyorlar.',
+    },
+    {
+      ing: 'She is apologizing for the mistake.',
+      tr: 'O, hata için özür diliyor.',
+    },
+    {ing: 'He is asking for help.', tr: 'O, yardım istiyor.'},
+    {
+      ing: 'She is preparing for the presentation.',
+      tr: 'O, sunum için hazırlanıyor.',
+    },
+    {
+      ing: 'He is dreaming about his future.',
+      tr: 'O, geleceği hakkında hayal kuruyor.',
+    },
+    {
+      ing: 'They are arguing about the decision.',
+      tr: 'Onlar, karar hakkında tartışıyorlar.',
+    },
+    {ing: 'She is caring for her pet.', tr: 'O, evcil hayvanına bakıyor.'},
+    {ing: 'He is paying for the dinner.', tr: 'O, yemeğin parasını ödüyor.'},
+    {ing: 'She is running from the dog.', tr: 'O, köpekten kaçıyor.'},
+    {ing: 'He is talking to his neighbor.', tr: 'O, komşusuyla konuşuyor.'},
+    {ing: 'He is thinking of a new idea.', tr: 'O, yeni bir fikir düşünüyor.'},
+    {ing: 'She is hoping for good news.', tr: 'O, iyi haberler umuyor.'},
+    {
+      ing: 'He is responsible for the arrangements.',
+      tr: 'O, düzenlemelerden sorumlu.',
+    },
+    {ing: 'She is interested in the project.', tr: 'O, projeye ilgi duyuyor.'},
+    {
+      ing: 'They are participating in the competition.',
+      tr: 'Onlar, yarışmaya katılıyorlar.',
+    },
+    {ing: 'He is known for his honesty.', tr: 'O, dürüstlüğüyle tanınıyor.'},
+    {ing: 'She is famous for her paintings.', tr: 'O, tablolarıyla ünlü.'},
+    {ing: 'He is working on the project.', tr: 'O, proje üzerinde çalışıyor.'},
+    {
+      ing: 'She is worried about her grades.',
+      tr: 'O, notları hakkında endişeleniyor.',
+    },
+    {
+      ing: 'They are excited about the event.',
+      tr: 'Onlar, etkinlik için heyecanlılar.',
+    },
+    {ing: 'He is busy with his studies.', tr: 'O, dersleriyle meşgul.'},
+    {ing: 'He is responsible for the cleanup.', tr: 'O, temizlikten sorumlu.'},
+    {
+      ing: 'She is happy with her performance.',
+      tr: 'O, performansından mutlu.',
+    },
+    {
+      ing: 'They are worried about the budget.',
+      tr: 'Onlar, bütçe hakkında endişeliler.',
+    },
+    {ing: 'He is focused on his goals.', tr: 'O, hedeflerine odaklanmış.'},
+    {ing: 'He is addicted to caffeine.', tr: 'O, kafeine bağımlı.'},
+    {ing: 'He is proud of his son.', tr: 'O, oğluyla gurur duyuyor.'},
+    {ing: 'She is tired of the arguments.', tr: 'O, tartışmalardan bıktı.'},
+    {ing: 'He is involved in the project.', tr: 'O, projeye dahil.'},
+    {
+      ing: 'She is capable of managing the team.',
+      tr: 'O, takımı yönetebilecek yetenekte.',
+    },
+    {
+      ing: 'They are jealous of their neighbors.',
+      tr: 'Onlar, komşularını kıskanıyorlar.',
+    },
+    {ing: 'She is keen on reading.', tr: 'O, okumaya meraklı.'},
+    {ing: 'She is good at cooking.', tr: 'O, yemek yapmada iyi.'},
+    {
+      ing: 'They are famous for their cuisine.',
+      tr: 'Onlar, mutfaklarıyla ünlü.',
+    },
+    {
+      ing: 'They are proud of their culture.',
+      tr: 'Onlar, kültürleriyle gurur duyuyorlar.',
+    },
+    {
+      ing: 'He is excited about the conference.',
+      tr: 'O, konferans için heyecanlı.',
+    },
+    {
+      ing: 'He is proficient in programming.',
+      tr: 'O, programlama konusunda yetenekli.',
+    },
+    {
+      ing: 'They are proud of their achievements.',
+      tr: 'Onlar, başarılarıyla gurur duyuyorlar.',
+    },
+  ],
+};

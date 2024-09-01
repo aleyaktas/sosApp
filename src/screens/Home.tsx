@@ -28,7 +28,8 @@ const Home = () => {
               item.title !== 'Comparative & Superlatives' &&
               item.title !== 'Çiçek "To"' &&
               item.title !== 'Şahsiyetsiz "It"' &&
-              item.title !== 'If Clauses'
+              item.title !== 'If Clauses' &&
+              item.title !== 'Prepositions'
             }
             onPress={() =>
               navigation.navigate('SubCategory', {
@@ -51,7 +52,8 @@ const Home = () => {
                   item.title === 'Comparative & Superlatives' ||
                   item.title === 'Çiçek "To"' ||
                   item.title === 'Şahsiyetsiz "It"' ||
-                  item.title === 'If Clauses'
+                  item.title === 'If Clauses' ||
+                  item.title === 'Prepositions'
                     ? 'white'
                     : '#f5f5f5',
               },
@@ -74,7 +76,8 @@ const Home = () => {
                       item.title === 'Comparative & Superlatives' ||
                       item.title === 'Çiçek "To"' ||
                       item.title === 'Şahsiyetsiz "It"' ||
-                      item.title === 'If Clauses'
+                      item.title === 'If Clauses' ||
+                      item.title === 'Prepositions'
                         ? 'black'
                         : 'darkgray',
                   },
@@ -114,6 +117,7 @@ const styles = StyleSheet.create({
   categoriesContainer: {
     flexDirection: 'column',
     justifyContent: 'space-between',
+    flex: 1,
   },
   categoriesTitle: {
     fontSize: 18,

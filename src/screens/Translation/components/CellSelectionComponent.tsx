@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList, TouchableOpacity, Text, StyleSheet, View} from 'react-native';
+import {TouchableOpacity, Text, StyleSheet, View} from 'react-native';
 import Icon from '../../../themes/Icon';
 import Blink from '../../../components/Blink';
 
@@ -18,35 +18,18 @@ const CellSelectionComponent = ({
     });
   };
 
-  const calculateNumColumns = () => {
-    if (cells.length <= 4) {
-      return cells.length;
-    } else if (cells.length === 1) {
-      return 1;
-    } else {
-      return 4;
-    }
-  };
-
-  const renderCell = ({item}: any) => (
+  const renderCell = (item: any) => (
     <TouchableOpacity
       onPress={() => toggleCell(item.value)}
       style={[
         styles.choiceCard,
         {
           borderColor: selectedCells.includes(item.value) ? '#2CC2DB' : '#fff',
-          width:
-            cells.length > 4
-              ? '22%'
-              : cells.length === 2
-              ? '46%'
-              : cells.length === 3
-              ? '30%'
-              : cells.length === 4
-              ? '22%'
-              : '100%',
-          height: 70,
+          minWidth: 100,
+          minHeight: 70,
+          alignSelf: cells.length === 1 ? 'center' : 'flex-start',
         },
+
         !selectedCells.includes(item.value) && styles.shadow,
       ]}>
       <Text style={styles.cellText}>{item.label}</Text>
@@ -65,26 +48,22 @@ const CellSelectionComponent = ({
   );
 
   return (
-    <FlatList
-      data={cells}
-      renderItem={renderCell}
-      keyExtractor={item => item.value.toString()}
-      numColumns={calculateNumColumns()}
-      columnWrapperStyle={cells.length > 1 && styles.row}
-      contentContainerStyle={styles.container}
-    />
+    <View style={styles.container}>
+      {cells.map((item: any) => {
+        return renderCell(item);
+      })}
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 12,
     paddingHorizontal: 16,
-    width: '100%',
-    paddingTop: 8,
-  },
-  row: {
-    justifyContent: 'space-between',
-    flexWrap: 'wrap', // Wrap the cells into the next line
   },
   choiceCard: {
     justifyContent: 'center',
@@ -122,7 +101,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 5,
-    padding: 2, // Adjust padding for the icon
+    padding: 2,
   },
   tickIconPosition: {
     position: 'absolute',

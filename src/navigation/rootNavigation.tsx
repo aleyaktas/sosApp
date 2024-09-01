@@ -31,6 +31,7 @@ import ToTranslation from '../screens/Translation/FlowerToTranslation';
 import FlowerToTranslation from '../screens/Translation/FlowerToTranslation';
 import ImpersonalItTranslation from '../screens/Translation/ImpersonalIt';
 import IfClausesTranslation from '../screens/Translation/IfClausesTranslation';
+import PrepositionsTranslation from '../screens/Translation/PrepositionsTranslation';
 
 const Stack = createStackNavigator();
 
@@ -287,6 +288,15 @@ const RootNavigation = () => {
       <Stack.Screen
         name="IfClausesTranslation"
         component={IfClausesTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="PrepositionsTranslation"
+        component={PrepositionsTranslation}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,
