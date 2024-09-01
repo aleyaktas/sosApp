@@ -310,6 +310,81 @@ export const RelativeAndNounClauseSubCategory: ISubCategory[] = [
     page: 'RcNcTranslation',
     image: require('../assets/icons/translation.png'),
   },
+  {
+    id: 2,
+    title: 'Videolar',
+    mainCategory: 'RelativeAndNounClause',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const RelativeAndNounClauseVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Relative Clauses Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/1-ders-rc-22052023-1684784960.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: 'Noun Clauses Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/2-ders-nc-22052023-1684785175.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Relative Clauses - 2',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/2-ders-rc-25052023-1685971227.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 4,
+    title: 'Noun Clauses - 2',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/2-ders-nc-25052023-1685972718.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 5,
+    title: 'Relative Clauses - 3',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/3-ders-rc-01062023-1685973206.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 6,
+    title: 'Noun Clauses - 3',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/3-ders-nc-01062023-1685973385.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 7,
+    title: 'Relative Clauses - 4',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/4-canli-ders-rc-1685994678.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 8,
+    title: 'Noun Clauses - 4',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/4-canli-ders-nc-1685994772.mp4',
+    image: require('../assets/icons/video.png'),
+  },
 ];
 
 export const PassiveSubCategory: ISubCategory[] = [
@@ -320,6 +395,73 @@ export const PassiveSubCategory: ISubCategory[] = [
     description: 'Çeviri çalışmaları',
     page: 'PassiveTranslation',
     image: require('../assets/icons/translation.png'),
+  },
+  {
+    id: 2,
+    title: 'Videolar',
+    mainCategory: 'Passive',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const PassiveVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Passive Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/be3039358c.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: 'Canlı Ders - Passives',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/4-canli-ders-passives-1685994980.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Canlı Ders - Passives 2',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/5-canli-ders-passives2-1686253522.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 4,
+    title: 'Canlı Ders - Passives 3',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/6-canli-ders-passives3-1686599447.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 5,
+    title: 'Canlı Ders - Passives 4',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/7-canli-ders-passives-1686858397.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 6,
+    title: 'Canlı Ders - Modal Passives',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/6-canli-ders-modal-passives-1686600307.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 7,
+    title: 'Canlı Ders - Modal Passives 2',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/6-canli-ders-modal-passives-1686600307.mp4',
+    image: require('../assets/icons/video.png'),
   },
 ];
 
@@ -332,6 +474,97 @@ export const Conjunctions1GSubCategory: ISubCategory[] = [
     page: 'Conjunctions1GTranslation',
     image: require('../assets/icons/translation.png'),
   },
+  {
+    id: 2,
+    title: 'Videolar',
+    mainCategory: 'Conjunctions1G',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const Conjunctions1GVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Bağlaçlar Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/3d7781d079i.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: 'Bağlaçlar Konu Anlatımı ve 15 soru çözümü',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/214a65a20au.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Canlı Ders - 1g Zaman ve Koşul Bağlaçları Örnek Cümleler',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/8-canli-ders-1g-zaman-ve-kosul-baglaclari-1687204183.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 4,
+    title: 'Canlı Ders - 1g Zaman Bağlaçları Örnek Cümleler',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/9-canli-ders-1g-zaman-baglaclari-1687516327.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 4,
+    title: 'Canlı Ders - 1g Koşul Bağlaçları Örnek Cümleler',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/9-canli-ders-1g-kosul-baglaclari-1687516636.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 5,
+    title: 'Canlı Ders - 1g Neden Sonuç Cümleler 1',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/9-canli-ders-1g-neden-sonuc-baglaclari-1687517056.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 6,
+    title: 'Canlı Ders - 1g Neden Sonuç Cümleler 3',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/11-canli-ders-1g-neden-son-1688674593.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 7,
+    title: '1g Amaç Bağlaçları Cümleler',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/10-canli-ders-1g-amac-baglaclari-1688674783.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 8,
+    title: '1g Zıtlık Bağlaçları Cümleler 1',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/10-canli-ders-1g-zitlik-baglaclari-1687807695.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 9,
+    title: '1g Zıtlık Bağlaçları Cümleler 2',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/11-canli-ders-1g-zitlik-baglaclari-1688674590.mp4',
+    image: require('../assets/icons/video.png'),
+  },
 ];
 
 export const Conjunctions2GSubCategory: ISubCategory[] = [
@@ -343,6 +576,49 @@ export const Conjunctions2GSubCategory: ISubCategory[] = [
     page: 'Conjunctions2GTranslation',
     image: require('../assets/icons/translation.png'),
   },
+  {
+    id: 2,
+    title: 'Videolar',
+    mainCategory: 'Conjunctions2G',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const Conjunctions2GVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Bağlaçlar Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/3d7781d079i.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: 'Bağlaçlar Konu Anlatımı ve 15 soru çözümü',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/214a65a20au.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: '2g Zıtlık Bağlaçları Cümleler',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/12-canli-ders-2g-zitlik-baglaclari-1689103885.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 4,
+    title: '2g Paralellil ve Diğer Bağlaçlar',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/12-canli-ders-2g-paralellik-ve-diger-baglaclar-1689104134.mp4',
+    image: require('../assets/icons/video.png'),
+  },
 ];
 
 export const Conjunctions3GSubCategory: ISubCategory[] = [
@@ -353,6 +629,41 @@ export const Conjunctions3GSubCategory: ISubCategory[] = [
     description: 'Çeviri çalışmaları',
     page: 'Conjunctions3GTranslation',
     image: require('../assets/icons/translation.png'),
+  },
+  {
+    id: 2,
+    title: 'Videolar',
+    mainCategory: 'Conjunctions3G',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const Conjunctions3GVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Bağlaçlar Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/3d7781d079i.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: 'Bağlaçlar Konu Anlatımı ve 15 soru çözümü',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/214a65a20au.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: '3g NEden Sonuç ve Zıtlık Bağlaçları',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/12-canli-ders-3g-neden-sonuc-ve-zitlik-1689104214.mp4',
+    image: require('../assets/icons/video.png'),
   },
 ];
 
@@ -376,6 +687,25 @@ export const FlowerToSubCategory: ISubCategory[] = [
     page: 'FlowerToTranslation',
     image: require('../assets/icons/translation.png'),
   },
+  {
+    id: 2,
+    title: 'Videolar',
+    mainCategory: 'FlowerTo',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const FlowerToVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'To Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sahsiyetsiz-it-ve-cicek-to-1602178923.mp4',
+    image: require('../assets/icons/video.png'),
+  },
 ];
 
 export const ImpersonalItSubCategory: ISubCategory[] = [
@@ -398,6 +728,41 @@ export const IfClausesSubCategory: ISubCategory[] = [
     page: 'IfClausesTranslation',
     image: require('../assets/icons/translation.png'),
   },
+  {
+    id: 2,
+    title: 'Videolar',
+    mainCategory: 'IfClauses',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const IfClausesVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'If Clauses',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/31e5a4b21cm.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: 'If Clauses 1 and 2 Type',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/8-canli-ders-if-clauses-1-and-2-type-1687204667.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'If Clauses 1, 2 and 3 Type',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/10-canli-ders-if-clauses-1st-2nd-3rd-type-1688674872.mp4',
+    image: require('../assets/icons/video.png'),
+  },
 ];
 
 export const PrepositionsSubCategory: ISubCategory[] = [
@@ -408,6 +773,57 @@ export const PrepositionsSubCategory: ISubCategory[] = [
     description: 'Çeviri çalışmaları',
     page: 'PrepositionsTranslation',
     image: require('../assets/icons/translation.png'),
+  },
+  {
+    id: 2,
+    title: 'Videolar',
+    mainCategory: 'Prepositions',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const PrepositionsVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Zaman Prepleri 1',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/prepositions-konu-anlatimi-1685973794.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: 'Zaman Prepleri 2',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/zaman-prepleri-2-1686037182.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Mekan Prepleri 1',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/mekan-prepleri-1-1686298656.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 4,
+    title: 'Mekan Prepleri 2',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/mekan-prepleri-2-1686858987.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 5,
+    title: 'Hareket Bildiren Prepler',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/hareket-bildiren-prepositions-1686858598.mp4',
+    image: require('../assets/icons/video.png'),
   },
 ];
 
