@@ -1494,7 +1494,7 @@ export const fourSkills: IFourSkill[] = [
     id: 4,
     title: 'Konuşma',
     description: 'Konuşma becerisi',
-    page: 'Listening',
+    page: 'SpeakingList',
     image: require('../assets/icons/speaking.png'),
   },
   {

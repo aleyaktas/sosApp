@@ -28,9 +28,12 @@ import Play from '../assets/icons/Play.svg';
 import Pause from '../assets/icons/Pause.svg';
 import Checkbox from '../assets/icons/Checkbox.svg';
 import CheckboxFilled from '../assets/icons/CheckboxFilled.svg';
+import Bolt from '../assets/icons/Bolt.svg';
+import Send from '../assets/icons/Send.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
+  Bolt,
   Mail,
   Lock,
   Tick,
@@ -58,6 +61,7 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   Pause,
   Checkbox,
   CheckboxFilled,
+  Send,
 };
 
 interface IconProps {

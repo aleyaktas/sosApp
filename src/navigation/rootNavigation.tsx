@@ -32,6 +32,8 @@ import FlowerToTranslation from '../screens/Translation/FlowerToTranslation';
 import ImpersonalItTranslation from '../screens/Translation/ImpersonalIt';
 import IfClausesTranslation from '../screens/Translation/IfClausesTranslation';
 import PrepositionsTranslation from '../screens/Translation/PrepositionsTranslation';
+import Speaking from '../screens/Speaking';
+import SpeakingList from '../screens/SpeakingList';
 
 const Stack = createStackNavigator();
 
@@ -173,6 +175,24 @@ const RootNavigation = () => {
         component={Listening}
         options={{
           headerTitle: 'Reading',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="SpeakingList"
+        component={SpeakingList}
+        options={{
+          headerTitle: 'SpeakingList',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="Speaking"
+        component={Speaking}
+        options={{
+          headerTitle: 'Speaking',
           headerShown: true,
           headerTitleAlign: 'center',
         }}

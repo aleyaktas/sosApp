@@ -8,7 +8,7 @@ export interface SubCategory {
   title: string;
   mainCategory?: string;
   description?: string;
-  image: any;
+  image?: any;
   page: string;
   disabled?: boolean;
 }
