@@ -33,6 +33,7 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
   }, []);
 
   const handleLogin = async () => {
+    console.log(username + ' ' + password + 'aaa');
     const formData = new FormData();
     formData.append('email', username);
     formData.append('password', password);
@@ -44,8 +45,9 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
       },
       body: formData,
     });
-    console.log(res);
+    console.log('res', res);
     if (res.status === 200 || res.status === 201) {
+      console.log('Login success');
       if (rememberMe) {
         await AsyncStorage.setItem('username', username);
         await AsyncStorage.setItem('password', password);
@@ -71,6 +73,7 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
         ],
       });
     } else {
+      console.log('Login failed');
       showMessage('Kullanıcı bulunamadı, bilgilerinizi kontrol edin', 'error');
     }
   };

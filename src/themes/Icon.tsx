@@ -30,6 +30,11 @@ import Checkbox from '../assets/icons/Checkbox.svg';
 import CheckboxFilled from '../assets/icons/CheckboxFilled.svg';
 import Bolt from '../assets/icons/Bolt.svg';
 import Send from '../assets/icons/Send.svg';
+import RightArrowCircle from '../assets/icons/RightArrowCircle.svg';
+import LeftArrowCircle from '../assets/icons/LeftArrowCircle.svg';
+import RightFillArrow from '../assets/icons/RightFillArrow.svg';
+import LeftFillArrow from '../assets/icons/LeftFillArrow.svg';
+import Bubble from '../assets/icons/Bubble.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
@@ -62,6 +67,11 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   Checkbox,
   CheckboxFilled,
   Send,
+  RightArrowCircle,
+  LeftArrowCircle,
+  RightFillArrow,
+  LeftFillArrow,
+  Bubble,
 };
 
 interface IconProps {

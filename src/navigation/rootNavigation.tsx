@@ -34,6 +34,8 @@ import IfClausesTranslation from '../screens/Translation/IfClausesTranslation';
 import PrepositionsTranslation from '../screens/Translation/PrepositionsTranslation';
 import Speaking from '../screens/Speaking';
 import SpeakingList from '../screens/SpeakingList';
+import WritingList from '../screens/WritingList';
+import Writing from '../screens/Writing';
 
 const Stack = createStackNavigator();
 
@@ -193,6 +195,24 @@ const RootNavigation = () => {
         component={Speaking}
         options={{
           headerTitle: 'Speaking',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="WritingList"
+        component={WritingList}
+        options={{
+          headerTitle: 'WritingList',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="Writing"
+        component={Writing}
+        options={{
+          headerTitle: 'Writing',
           headerShown: true,
           headerTitleAlign: 'center',
         }}

@@ -5,10 +5,8 @@ import {
   SafeAreaView,
   StyleSheet,
   TextInput,
-  Button,
   ScrollView,
   TouchableOpacity,
-  Animated,
   Image,
 } from 'react-native';
 import {QuestionContext} from '../contexts/QuestionContext';
@@ -34,12 +32,11 @@ const Speaking = () => {
   const [currentQuestion, setCurrentQuestion] = useState('');
   const [userResponse, setUserResponse] = useState('');
   const [questionIndex, setQuestionIndex] = useState(0);
-
-  const [isVoiceActive, setIsVoiceActive] = useState(false); // state for voice recording
+  const [isVoiceActive, setIsVoiceActive] = useState(false);
+  const [isResponseAllowed, setIsResponseAllowed] = useState(true);
 
   const scrollViewRef = useRef<ScrollView>(null);
 
-  // Set up voice recognition
   useEffect(() => {
     Voice.onSpeechStart = onSpeechStart;
     Voice.onSpeechEnd = onSpeechEnd;
@@ -85,7 +82,6 @@ const Speaking = () => {
     }
   };
 
-  // Fetch questions and answers
   useEffect(() => {
     fetch(
       `https://phdakademi.com/api/sos/questionsSpeakingWriting?type=Speaking&uniteno=${uniteno}`,
@@ -110,7 +106,6 @@ const Speaking = () => {
       .catch(err => console.log(err));
   }, []);
 
-  // Helper function to add messages with delay (for simulating sequential answer display)
   const addMessageWithDelay = (
     messages: Array<{sender: string; text: string; type?: string}>,
     delay: number,
@@ -123,19 +118,17 @@ const Speaking = () => {
     });
   };
 
-  // Handle user's response submission
   const handleResponseSubmit = () => {
-    if (userResponse.trim() === '') return;
+    if (!isResponseAllowed || userResponse.trim() === '') return;
 
-    // Add user's response
     const newChat = [
       ...chatHistory,
       {sender: 'user', text: userResponse, type: 'response'},
     ];
     setChatHistory(newChat);
     scrollViewRef.current?.scrollToEnd({animated: true});
+    setIsResponseAllowed(false); // Disable user input after submitting response
 
-    // Add message indicating possible answers are being listed
     setTimeout(() => {
       setChatHistory(prev => [
         ...prev,
@@ -148,7 +141,6 @@ const Speaking = () => {
       scrollViewRef.current?.scrollToEnd({animated: true});
     }, 500);
 
-    // Add possible answers with delay after user response
     setTimeout(() => {
       if (questionIndex === 0) {
         const possibleAnswers = mainQuestion.answers.map(answer => ({
@@ -156,7 +148,7 @@ const Speaking = () => {
           text: answer,
           type: 'answer',
         }));
-        addMessageWithDelay(possibleAnswers, 1200); // Delay between each answer
+        addMessageWithDelay(possibleAnswers, 1200);
       } else if (
         followUpQuestions[questionIndex - 1] &&
         followUpQuestions[questionIndex - 1].options
@@ -181,7 +173,6 @@ const Speaking = () => {
         );
       }
 
-      // Prepare next question with delay
       if (questionIndex < followUpQuestions.length) {
         const nextQuestion = followUpQuestions[questionIndex].question;
         setTimeout(() => {
@@ -191,12 +182,14 @@ const Speaking = () => {
             {sender: 'system', text: nextQuestion, type: 'question'},
           ]);
           scrollViewRef.current?.scrollToEnd({animated: true});
+          setIsResponseAllowed(true); // Re-enable user input after answers are listed
         }, mainQuestion.answers.length * 1200 + 1200);
         setQuestionIndex(questionIndex + 1);
       } else {
         setCurrentQuestion('');
+        setIsResponseAllowed(true); // Re-enable user input for final question
       }
-    }, 1200); // Delay before starting to display possible answers
+    }, 1200);
 
     setUserResponse('');
   };
@@ -227,15 +220,7 @@ const Speaking = () => {
                 />
               )}
             {message.sender === 'system' && message.type === 'answer' && (
-              <Icon
-                // source={require('../assets/icons/RightArrow.svg')}
-                name="Bolt"
-                // style={{width: 60, height: 60, tintColor: 'green'}}
-                // tintColor={'green'}
-                width={25}
-                height={25}
-                color={'#FEC221'}
-              />
+              <Icon name="Bolt" width={25} height={25} color={'#FEC221'} />
             )}
 
             <TouchableOpacity
@@ -263,16 +248,7 @@ const Speaking = () => {
               </Text>
             </TouchableOpacity>
             {message.sender === 'user' && (
-              <View
-                style={{
-                  // backgroundColor: '#1DA8FD',
-                  backgroundColor: '#5E7AED',
-                  borderRadius: 20,
-                  width: 40,
-                  height: 40,
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                }}>
+              <View style={styles.userProfile}>
                 <Icon name="User" width={20} height={20} color={'white'} />
               </View>
             )}
@@ -280,10 +256,8 @@ const Speaking = () => {
         ))}
       </ScrollView>
 
-      {/* Input area */}
       {currentQuestion !== '' && (
         <View style={styles.inputContainer}>
-          {/* Text Input for manual answer */}
           <TextInput
             style={styles.input}
             placeholder="Type your answer..."
@@ -291,10 +265,15 @@ const Speaking = () => {
             onChangeText={setUserResponse}
           />
 
-          {/* Voice recognition button */}
           <TouchableOpacity
             onPress={isVoiceActive ? stopRecognizing : startRecognizing}
-            style={styles.voiceButton}>
+            disabled={!isResponseAllowed}
+            style={[
+              styles.voiceButton,
+              {
+                opacity: isResponseAllowed ? 1 : 0.7,
+              },
+            ]}>
             <Icon
               name={isVoiceActive ? 'Mic' : 'Mic'}
               width={28}
@@ -303,25 +282,16 @@ const Speaking = () => {
             />
           </TouchableOpacity>
 
-          {/* Submit button */}
-          {/* <Button title="Submit" onPress={handleResponseSubmit} />
-           */}
           <TouchableOpacity
             onPress={handleResponseSubmit}
             activeOpacity={0.7}
-            style={{
-              backgroundColor: '#5E7AED',
-              padding: 10,
-              borderRadius: 50,
-              shadowColor: '#000',
-              shadowOffset: {
-                width: 0,
-                height: 3,
+            style={[
+              styles.sendButton,
+              {
+                opacity: isResponseAllowed ? 1 : 0.7,
               },
-              shadowOpacity: 0.36,
-              shadowRadius: 6.68,
-              elevation: 5,
-            }}>
+            ]}
+            disabled={!isResponseAllowed}>
             <Icon name="Send" width={28} height={28} color={'white'} />
           </TouchableOpacity>
         </View>
@@ -338,7 +308,6 @@ const styles = StyleSheet.create({
   chatContainer: {
     flex: 1,
     padding: 10,
-    // marginVertical: 16,
   },
   chatBubble: {
     padding: 15,
@@ -356,28 +325,21 @@ const styles = StyleSheet.create({
   },
   userBubble: {
     alignSelf: 'flex-end',
-    // backgroundColor: '#1DA8FD',
     backgroundColor: '#5E7AED',
-    color: 'white',
     borderBottomRightRadius: 0,
   },
   systemBubble: {
     alignSelf: 'flex-start',
-    // backgroundColor: '#1BD299',
     backgroundColor: 'white',
   },
   questionBubble: {
     alignSelf: 'flex-start',
-    // backgroundColor: '#1BD299',
     backgroundColor: 'white',
-    color: 'white',
     borderBottomLeftRadius: 0,
   },
   answerBubble: {
     alignSelf: 'flex-start',
-    // backgroundColor: '#ffbf69',
     backgroundColor: 'white',
-    color: 'white',
   },
   chatText: {
     fontSize: 16,
@@ -387,7 +349,6 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    // padding: 16,
     paddingBottom: 16,
     paddingHorizontal: 16,
     gap: 10,
@@ -412,6 +373,27 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 50,
     backgroundColor: '#ddd',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.36,
+    shadowRadius: 6.68,
+    elevation: 5,
+  },
+  userProfile: {
+    backgroundColor: '#5E7AED',
+    borderRadius: 20,
+    width: 40,
+    height: 40,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  sendButton: {
+    backgroundColor: '#5E7AED',
+    padding: 10,
+    borderRadius: 50,
     shadowColor: '#000',
     shadowOffset: {
       width: 0,

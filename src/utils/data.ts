@@ -1501,7 +1501,7 @@ export const fourSkills: IFourSkill[] = [
     id: 5,
     title: 'Yazma',
     description: 'Yazma becerisi',
-    page: 'Listening',
+    page: 'WritingList',
     image: require('../assets/icons/writing.png'),
   },
 ];
