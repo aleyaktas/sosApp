@@ -14,7 +14,11 @@ type NotesRoute = Route<'Notes', {title: string}>;
 const Notes = () => {
   const route = useRoute<NotesRoute>();
   const title = route.params.title;
+
+  console.log(title);
   const notes = require(`../utils/data`)[`${title}Notes`];
+
+  console.log(notes);
 
   return (
     <View>
@@ -26,19 +30,5 @@ const Notes = () => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    marginTop: 25,
-  },
-  pdf: {
-    flex: 1,
-    width: Dimensions.get('window').width,
-    height: Dimensions.get('window').height,
-  },
-});
 
 export default Notes;

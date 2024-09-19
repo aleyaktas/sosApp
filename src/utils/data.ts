@@ -284,7 +284,17 @@ export const QuestionsSubCategory: ISubCategory[] = [
     description: 'Konu notları',
     page: 'Notes',
     image: require('../assets/icons/subjects.png'),
-    disabled: true,
+  },
+];
+
+export const ModalsSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Notlar',
+    mainCategory: 'Modals',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
   },
 ];
 
@@ -298,6 +308,14 @@ export const ThereIsThereAreSubCategory: ISubCategory[] = [
     image: require('../assets/icons/application.png'),
     symbols: ['+', '-', '?'],
     selectedSymbols: ['+', '-', '?'],
+  },
+  {
+    id: 2,
+    title: 'Notlar',
+    mainCategory: 'ThereIsThereAre',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
   },
 ];
 
@@ -317,6 +335,91 @@ export const RelativeAndNounClauseSubCategory: ISubCategory[] = [
     description: 'Konu videoları',
     page: 'Videos',
     image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Notlar',
+    mainCategory: 'RelativeAndNounClause',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const PronounsSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Notlar',
+    mainCategory: 'Pronouns',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const AdjectivesAdverbsSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Notlar',
+    mainCategory: 'AdjectivesAdverbs',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const ImperativesSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Notlar',
+    mainCategory: 'Imperatives',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const LetsShallSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Notlar',
+    mainCategory: 'LetsShall',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const QuantifiersSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Notlar',
+    mainCategory: 'Quantifiers',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const IndefinitePronounsSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Notlar',
+    mainCategory: 'IndefinitePronouns',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const ArticlesSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Notlar',
+    mainCategory: 'Articles',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
   },
 ];
 
@@ -404,6 +507,36 @@ export const PassiveSubCategory: ISubCategory[] = [
     page: 'Videos',
     image: require('../assets/icons/video.png'),
   },
+  {
+    id: 3,
+    title: 'Notlar',
+    mainCategory: 'Passive',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const SvsOfSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Notlar',
+    mainCategory: 'SvsOf',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const ExcitingExcitedSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Notlar',
+    mainCategory: 'ExcitingExcited',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
 ];
 
 export const PassiveVideos: IVideo[] = [
@@ -481,6 +614,14 @@ export const Conjunctions1GSubCategory: ISubCategory[] = [
     description: 'Konu videoları',
     page: 'Videos',
     image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Notlar',
+    mainCategory: 'Conjunctions1G',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
   },
 ];
 
@@ -584,6 +725,14 @@ export const Conjunctions2GSubCategory: ISubCategory[] = [
     page: 'Videos',
     image: require('../assets/icons/video.png'),
   },
+  {
+    id: 3,
+    title: 'Notlar',
+    mainCategory: 'Conjunctions2G',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
 ];
 
 export const Conjunctions2GVideos: IVideo[] = [
@@ -638,6 +787,14 @@ export const Conjunctions3GSubCategory: ISubCategory[] = [
     page: 'Videos',
     image: require('../assets/icons/video.png'),
   },
+  {
+    id: 3,
+    title: 'Notlar',
+    mainCategory: 'Conjunctions3G',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
 ];
 
 export const Conjunctions3GVideos: IVideo[] = [
@@ -676,6 +833,14 @@ export const ComparativesSuperlativesSubCategory: ISubCategory[] = [
     page: 'ComparativesSuperlativesTranslation',
     image: require('../assets/icons/translation.png'),
   },
+  {
+    id: 2,
+    title: 'Notlar',
+    mainCategory: 'ComparativesSuperlatives',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
 ];
 
 export const FlowerToSubCategory: ISubCategory[] = [
@@ -697,10 +862,21 @@ export const FlowerToSubCategory: ISubCategory[] = [
   },
 ];
 
+export const HaveHasSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Notlar',
+    mainCategory: 'HaveHas',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
 export const FlowerToVideos: IVideo[] = [
   {
     id: 1,
-    title: 'To Konu Anlatımı',
+    title: 'Çiçek To Konu Anlatımı',
     page: 'VideoDetails',
     videoUri:
       'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sahsiyetsiz-it-ve-cicek-to-1602178923.mp4',
@@ -781,6 +957,14 @@ export const PrepositionsSubCategory: ISubCategory[] = [
     description: 'Konu videoları',
     page: 'Videos',
     image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Notlar',
+    mainCategory: 'Prepositions',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
   },
 ];
 
@@ -1725,6 +1909,353 @@ export const TensesNotes: INotes[] = [
     page: 'NoteDetails',
     mainCategory: 'Tenses',
     pdfUrl: 'Tenses_12_4b_have_has_done',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const QuestionsNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Who',
+    page: 'NoteDetails',
+    mainCategory: 'Questions',
+    pdfUrl: 'Questions_1_who',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 2,
+    title: 'How',
+    page: 'NoteDetails',
+    mainCategory: 'Questions',
+    pdfUrl: 'Questions_2_how',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 3,
+    title: 'Why',
+    page: 'NoteDetails',
+    mainCategory: 'Questions',
+    pdfUrl: 'Questions_3_why',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 4,
+    title: 'When',
+    page: 'NoteDetails',
+    mainCategory: 'Questions',
+    pdfUrl: 'Questions_4_when',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 5,
+    title: 'What',
+    page: 'NoteDetails',
+    mainCategory: 'Questions',
+    pdfUrl: 'Questions_5_what',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 6,
+    title: 'Where',
+    page: 'NoteDetails',
+    mainCategory: 'Questions',
+    pdfUrl: 'Questions_6_where',
+    image: require('../assets/icons/subjects.png'),
+  },
+
+  {
+    id: 7,
+    title: 'Which',
+    page: 'NoteDetails',
+    mainCategory: 'Questions',
+    pdfUrl: 'Questions_7_which',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 8,
+    title: 'Wh Sorular Hepsi',
+    page: 'NoteDetails',
+    mainCategory: 'Questions',
+    pdfUrl: 'Questions_8_wh_sorular_hepsi',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const ModalsNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Can',
+    page: 'NoteDetails',
+    mainCategory: 'Modals',
+    pdfUrl: 'Modals_1_can',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 2,
+    title: 'Must (baba kalıbı ve popcorn kalıbı)',
+    page: 'NoteDetails',
+    mainCategory: 'Modals',
+    pdfUrl: 'Modals_2_must',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 3,
+    title: 'Should Ought To Had Better (Anne Kalıbı)',
+    page: 'NoteDetails',
+    mainCategory: 'Modals',
+    pdfUrl: 'Modals_3_should',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 4,
+    title: 'May Might Could (sallama kalıpları)',
+    page: 'NoteDetails',
+    mainCategory: 'Modals',
+    pdfUrl: 'Modals_4_may_might',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 5,
+    title: 'Could (can past ve sallama)',
+    page: 'NoteDetails',
+    mainCategory: 'Modals',
+    pdfUrl: 'Modals_5_could',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 6,
+    title: 'Have To Has To',
+    page: 'NoteDetails',
+    mainCategory: 'Modals',
+    pdfUrl: 'Modals_6_have_to_has_to',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 7,
+    title: 'Be Able To',
+    page: 'NoteDetails',
+    mainCategory: 'Modals',
+    pdfUrl: 'Modals_7_be_able_to',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 8,
+    title: 'Be Likely',
+    page: 'NoteDetails',
+    mainCategory: 'Modals',
+    pdfUrl: 'Modals_8_be_likely',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 6,
+    title: 'Hepsi',
+    page: 'NoteDetails',
+    mainCategory: 'Modals',
+    pdfUrl: 'Modals_6_hepsi',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const RelativeAndNounClauseNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Relative Clause',
+    page: 'NoteDetails',
+    mainCategory: 'RelativeAndNounClause',
+    pdfUrl: 'RelativeAndNounClause_1_relative_clause',
+    image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 2,
+    title: 'Noun Clause',
+    page: 'NoteDetails',
+    mainCategory: 'RelativeAndNounClause',
+    pdfUrl: 'RelativeAndNounClause_2_noun_clause',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const PronounsNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Pronouns',
+    page: 'NoteDetails',
+    mainCategory: 'Pronouns',
+    pdfUrl: 'Pronouns_1_pronouns',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const ThereIsThereAreNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'There Is There Are',
+    page: 'NoteDetails',
+    mainCategory: 'ThereIsThereAre',
+    pdfUrl: 'ThereIsThereAre_1_there_is_there_are',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const ExcitingExcitedNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Exciting Excited',
+    page: 'NoteDetails',
+    mainCategory: 'ExcitingExcited',
+    pdfUrl: 'ExcitingExcited',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const IndefinitePronounsNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Indefinite Pronouns',
+    page: 'NoteDetails',
+    mainCategory: 'IndefinitePronouns',
+    pdfUrl: 'IndefinitePronouns',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const ArticlesNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'A an the zero article',
+    page: 'NoteDetails',
+    mainCategory: 'Articles',
+    pdfUrl: 'Articles_1_a_an_the',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const PrepositionsNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Prepositions',
+    page: 'NoteDetails',
+    mainCategory: 'Prepositions',
+    pdfUrl: 'Prepositions_1_prepositions',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const SvsOfNotes: INotes[] = [
+  {
+    id: 1,
+    title: "'s vs of",
+    page: 'NoteDetails',
+    mainCategory: 'SvsOf',
+    pdfUrl: 'SvsOf',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const ComparativesSuperlativesNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Comparatives Superlatives',
+    page: 'NoteDetails',
+    mainCategory: 'ComparativesSuperlatives',
+    pdfUrl: 'ComparativesSuperlatives',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const HaveHasNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Have Has',
+    page: 'NoteDetails',
+    mainCategory: 'HaveHas',
+    pdfUrl: 'HaveHas',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const ImperativesNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Imperatives',
+    page: 'NoteDetails',
+    mainCategory: 'Imperatives',
+    pdfUrl: 'Imperatives',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const LetsShallNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Lets / Shall',
+    page: 'NoteDetails',
+    mainCategory: 'LetsShall',
+    pdfUrl: 'LetsShall',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const AdjectivesAdverbsNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Adjectives Adverbs',
+    page: 'NoteDetails',
+    mainCategory: 'AdjectivesAdverbs',
+    pdfUrl: 'AdjectivesAdverbs',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const QuantifiersNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Many Much Little',
+    page: 'NoteDetails',
+    mainCategory: 'Quantifiers',
+    pdfUrl: 'Quantifiers',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const PassiveNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Passive',
+    page: 'NoteDetails',
+    mainCategory: 'Passive',
+    pdfUrl: 'Passive',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const Conjunctions1GNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Conjunctions1G',
+    page: 'NoteDetails',
+    mainCategory: 'Conjunctions1G',
+    pdfUrl: 'Conjunctions',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+export const Conjunctions2GNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Conjunctions2G',
+    page: 'NoteDetails',
+    mainCategory: 'Conjunctions1G',
+    pdfUrl: 'Conjunctions',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+export const Conjunctions3GNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'Conjunctions3G',
+    page: 'NoteDetails',
+    mainCategory: 'Conjunctions1G',
+    pdfUrl: 'Conjunctions',
     image: require('../assets/icons/subjects.png'),
   },
 ];

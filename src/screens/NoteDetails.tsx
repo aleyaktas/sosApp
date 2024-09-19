@@ -19,6 +19,9 @@ const NoteDetails = () => {
   const title = route.params.title;
   const pdfName = route.params.item.pdfUrl;
 
+  console.log(title);
+  console.log(pdfName);
+
   const pdfFile = require(`../assets/pdfs/Tenses/Tenses_1_1b_am_is_are.pdf`);
 
   const source =
@@ -27,7 +30,7 @@ const NoteDetails = () => {
           uri: pdfFile,
         }
       : {
-          uri: `bundle-assets://${title}/${pdfName}.pdf`,
+          uri: `bundle-assets://pdfs/${title}/${pdfName}.pdf`,
         };
 
   return (

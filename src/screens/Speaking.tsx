@@ -14,6 +14,7 @@ import {Route, useRoute} from '@react-navigation/native';
 import Voice from '@react-native-voice/voice';
 import Icon from '../themes/Icon';
 import {handleVoice} from '../helpers/voiceCenter';
+import Tts from 'react-native-tts';
 
 type SubCategoryRoute = Route<'Speaking', {title: string; item: any}>;
 
@@ -47,6 +48,7 @@ const Speaking = () => {
 
     return () => {
       Voice.destroy().then(Voice.removeAllListeners);
+      Tts.stop();
     };
   }, []);
 
@@ -127,7 +129,7 @@ const Speaking = () => {
     ];
     setChatHistory(newChat);
     scrollViewRef.current?.scrollToEnd({animated: true});
-    setIsResponseAllowed(false); // Disable user input after submitting response
+    setIsResponseAllowed(false);
 
     setTimeout(() => {
       setChatHistory(prev => [
@@ -201,6 +203,7 @@ const Speaking = () => {
         style={styles.chatContainer}
         contentContainerStyle={{
           paddingBottom: 10,
+          paddingTop: 10,
         }}>
         {chatHistory.map((message, index) => (
           <View
@@ -212,26 +215,38 @@ const Speaking = () => {
               justifyContent:
                 message.sender === 'user' ? 'flex-end' : 'flex-start',
             }}>
-            {message.sender === 'system' &&
-              (message.type === 'question' || message.type === 'info') && (
-                <Image
-                  source={require('../assets/icons/translate_robot.png')}
-                  style={{width: 60, height: 60}}
-                />
-              )}
-            {message.sender === 'system' && message.type === 'answer' && (
+            {message.sender === 'system' && message.type === 'question' && (
+              <Image
+                source={require('../assets/icons/translate_robot.png')}
+                style={{width: 60, height: 60}}
+              />
+            )}
+            {message.sender === 'system' && message.type === 'info' && (
               <Icon name="Bolt" width={25} height={25} color={'#FEC221'} />
+            )}
+            {message.sender === 'system' && message.type === 'answer' && (
+              <Image
+                source={require('../assets/icons/translate_robot_girl.png')}
+                style={{width: 60, height: 60}}
+              />
             )}
 
             <TouchableOpacity
               activeOpacity={0.7}
               key={index}
-              onPress={() => handleVoice(message.text)}
+              onPress={() =>
+                handleVoice(
+                  message.text,
+                  message.sender === 'system' && message.type === 'answer'
+                    ? 'female'
+                    : 'male',
+                )
+              }
               style={[
                 styles.chatBubble,
                 message.sender === 'user'
                   ? styles.userBubble
-                  : message.type === 'question' || message.type === 'info'
+                  : message.type === 'question'
                   ? styles.questionBubble
                   : message.type === 'answer'
                   ? styles.answerBubble
@@ -241,7 +256,7 @@ const Speaking = () => {
                 style={[
                   styles.chatText,
                   {
-                    color: message.sender === 'user' ? 'white' : 'black',
+                    color: message.sender === 'user' ? 'black' : 'black',
                   },
                 ]}>
                 {message.text}
@@ -249,7 +264,7 @@ const Speaking = () => {
             </TouchableOpacity>
             {message.sender === 'user' && (
               <View style={styles.userProfile}>
-                <Icon name="User" width={20} height={20} color={'white'} />
+                <Icon name="User" width={20} height={20} color={'#643F24'} />
               </View>
             )}
           </View>
@@ -312,7 +327,7 @@ const styles = StyleSheet.create({
   chatBubble: {
     padding: 15,
     borderRadius: 10,
-    marginBottom: 10,
+    marginBottom: 20,
     maxWidth: '80%',
     shadowColor: '#000',
     shadowOffset: {
@@ -325,7 +340,7 @@ const styles = StyleSheet.create({
   },
   userBubble: {
     alignSelf: 'flex-end',
-    backgroundColor: '#5E7AED',
+    backgroundColor: '#FEE4A6',
     borderBottomRightRadius: 0,
   },
   systemBubble: {
@@ -334,7 +349,7 @@ const styles = StyleSheet.create({
   },
   questionBubble: {
     alignSelf: 'flex-start',
-    backgroundColor: 'white',
+    backgroundColor: '#D9EBF9',
     borderBottomLeftRadius: 0,
   },
   answerBubble: {
@@ -343,7 +358,7 @@ const styles = StyleSheet.create({
   },
   chatText: {
     fontSize: 16,
-    color: 'white',
+    color: 'black',
     padding: 4,
   },
   inputContainer: {
@@ -383,7 +398,10 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   userProfile: {
-    backgroundColor: '#5E7AED',
+    backgroundColor: '#fff',
+    borderWidth: 1,
+    borderColor: '#ddd',
+
     borderRadius: 20,
     width: 40,
     height: 40,
@@ -391,7 +409,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   sendButton: {
-    backgroundColor: '#5E7AED',
+    backgroundColor: '#F4A261',
     padding: 10,
     borderRadius: 50,
     shadowColor: '#000',

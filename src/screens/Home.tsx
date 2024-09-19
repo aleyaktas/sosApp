@@ -29,7 +29,15 @@ const Home = () => {
               item.title !== 'Çiçek "To"' &&
               item.title !== 'Şahsiyetsiz "It"' &&
               item.title !== 'If Clauses' &&
-              item.title !== 'Prepositions'
+              item.title !== 'Prepositions' &&
+              item.title !== 'Modals' &&
+              item.title !== 'Zamirler' &&
+              item.title !== 'Belgisiz Zamirler' &&
+              item.title !== 'A, An, The' &&
+              item.title !== "'s vs of" &&
+              item.title !== 'Have / Has' &&
+              item.title !== 'Exciting / Excited' &&
+              item.title !== 'Emirler'
             }
             onPress={() =>
               navigation.navigate('SubCategory', {
@@ -53,7 +61,15 @@ const Home = () => {
                   item.title === 'Çiçek "To"' ||
                   item.title === 'Şahsiyetsiz "It"' ||
                   item.title === 'If Clauses' ||
-                  item.title === 'Prepositions'
+                  item.title === 'Prepositions' ||
+                  item.title === 'Modals' ||
+                  item.title === 'Zamirler' ||
+                  item.title === 'Belgisiz Zamirler' ||
+                  item.title === 'A, An, The' ||
+                  item.title === "'s vs of" ||
+                  item.title === 'Have / Has' ||
+                  item.title === 'Exciting / Excited' ||
+                  item.title === 'Emirler'
                     ? 'white'
                     : '#f5f5f5',
               },
@@ -77,7 +93,15 @@ const Home = () => {
                       item.title === 'Çiçek "To"' ||
                       item.title === 'Şahsiyetsiz "It"' ||
                       item.title === 'If Clauses' ||
-                      item.title === 'Prepositions'
+                      item.title === 'Prepositions' ||
+                      item.title === 'Zamirler' ||
+                      item.title === 'Modals' ||
+                      item.title === 'Belgisiz Zamirler' ||
+                      item.title === 'A, An, The' ||
+                      item.title === "'s vs of" ||
+                      item.title === 'Have / Has' ||
+                      item.title === 'Exciting / Excited' ||
+                      item.title === 'Emirler'
                         ? 'black'
                         : 'darkgray',
                   },

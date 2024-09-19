@@ -16,6 +16,7 @@ import Voice from '@react-native-voice/voice';
 import CheckBox from 'react-native-check-box';
 import {handleVoice} from '../helpers/voiceCenter';
 import Carousel from 'react-native-reanimated-carousel';
+import Tts from 'react-native-tts';
 
 const {width: screenWidth} = Dimensions.get('window');
 
@@ -48,6 +49,7 @@ const Writing: React.FC = () => {
     fetchQuestionData();
     return () => {
       Voice.destroy().then(Voice.removeAllListeners);
+      Tts.stop();
     };
   }, []);
 
@@ -95,11 +97,13 @@ const Writing: React.FC = () => {
 
   const renderCarouselItem = ({item}: {item: string}) => (
     <View style={styles.carouselItem}>
-      <TouchableOpacity
-        style={styles.carouselTouchable}
-        onPress={() => handleVoice(item)}>
-        <Text style={styles.answerText}>{item}</Text>
-      </TouchableOpacity>
+      <ScrollView>
+        <TouchableOpacity
+          style={styles.carouselTouchable}
+          onPress={() => handleVoice(item)}>
+          <Text style={styles.answerText}>{item}</Text>
+        </TouchableOpacity>
+      </ScrollView>
     </View>
   );
 
@@ -195,7 +199,8 @@ const styles = StyleSheet.create({
   bubble: {
     flex: 1,
     padding: 16,
-    backgroundColor: '#F4FEFB',
+    // backgroundColor: '#F4FEFB',
+    backgroundColor: '#31B166',
     borderRadius: 8,
     marginLeft: 10,
     shadowColor: '#000',
@@ -206,8 +211,8 @@ const styles = StyleSheet.create({
   },
   sentence: {
     fontSize: 16,
-    fontWeight: 'bold',
-    color: 'black',
+    // fontWeight: 'bold',
+    color: 'white',
   },
   checkBox: {
     borderRadius: 8,
@@ -260,10 +265,17 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#31B166',
+    backgroundColor: '#E0F7FA',
+    shadowColor: '#000',
+    shadowOffset: {width: -4, height: 5},
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+    elevation: 3,
+
+    // backgroundColor: '#31B166',
     borderRadius: 8,
     padding: 20,
-    marginHorizontal: 4,
+    marginHorizontal: 10,
   },
   carouselTouchable: {
     width: '100%',
@@ -272,7 +284,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   answerText: {
-    color: '#fff',
+    // color: '#00008B',
+    color: '#282828',
     fontSize: 18,
     textAlign: 'center',
     lineHeight: 24,
