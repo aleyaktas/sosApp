@@ -21,8 +21,6 @@ import AnswerInputComponent from './components/AnswerInputComponent';
 import BottomSheetComponent from './components/BottomSheetComponent';
 import DraggableFlatList from 'react-native-draggable-flatlist';
 import BottomSheet from '@gorhom/bottom-sheet/lib/typescript/components/bottomSheet/BottomSheet';
-import {translateConjuctions} from '../../helpers/translateArray';
-import {test} from '../../utils/data';
 
 const PrepositionsTranslation = () => {
   const [totalQuestions, setTotalQuestions] = useState(0);
@@ -76,10 +74,6 @@ const PrepositionsTranslation = () => {
     console.log('onSpeechResults', e.value[0]);
     setTextInputValue(e.value[0].split(' '));
   };
-
-  useEffect(() => {
-    console.log(translateConjuctions(test));
-  }, []);
 
   const startRecognizing = async () => {
     try {

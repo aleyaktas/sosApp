@@ -912,6 +912,14 @@ export const IfClausesSubCategory: ISubCategory[] = [
     page: 'Videos',
     image: require('../assets/icons/video.png'),
   },
+  {
+    id: 3,
+    title: 'Notlar',
+    mainCategory: 'IfClauses',
+    description: 'Konu notları',
+    page: 'Notes',
+    image: require('../assets/icons/subjects.png'),
+  },
 ];
 
 export const IfClausesVideos: IVideo[] = [
@@ -2093,6 +2101,17 @@ export const ThereIsThereAreNotes: INotes[] = [
     page: 'NoteDetails',
     mainCategory: 'ThereIsThereAre',
     pdfUrl: 'ThereIsThereAre_1_there_is_there_are',
+    image: require('../assets/icons/subjects.png'),
+  },
+];
+
+export const IfClausesNotes: INotes[] = [
+  {
+    id: 1,
+    title: 'If Clauses',
+    page: 'NoteDetails',
+    mainCategory: 'IfClauses',
+    pdfUrl: 'IfClauses_1_if_clauses',
     image: require('../assets/icons/subjects.png'),
   },
 ];

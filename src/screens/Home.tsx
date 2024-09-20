@@ -7,6 +7,7 @@ import {Categories} from '../utils/data';
 
 const Home = () => {
   const navigation = useNavigation<ScreenProp>();
+
   return (
     <ScrollView
       style={{
@@ -37,7 +38,9 @@ const Home = () => {
               item.title !== "'s vs of" &&
               item.title !== 'Have / Has' &&
               item.title !== 'Exciting / Excited' &&
-              item.title !== 'Emirler'
+              item.title !== 'Emirler' &&
+              item.title !== 'Lets / Shall' &&
+              item.title !== 'Many, Much, Some, Any, A lot of'
             }
             onPress={() =>
               navigation.navigate('SubCategory', {
@@ -69,7 +72,9 @@ const Home = () => {
                   item.title === "'s vs of" ||
                   item.title === 'Have / Has' ||
                   item.title === 'Exciting / Excited' ||
-                  item.title === 'Emirler'
+                  item.title === 'Emirler' ||
+                  item.title === 'Lets / Shall' ||
+                  item.title === 'Many, Much, Some, Any, A lot of'
                     ? 'white'
                     : '#f5f5f5',
               },
@@ -101,7 +106,9 @@ const Home = () => {
                       item.title === "'s vs of" ||
                       item.title === 'Have / Has' ||
                       item.title === 'Exciting / Excited' ||
-                      item.title === 'Emirler'
+                      item.title === 'Emirler' ||
+                      item.title === 'Lets / Shall' ||
+                      item.title === 'Many, Much, Some, Any, A lot of'
                         ? 'black'
                         : 'darkgray',
                   },
