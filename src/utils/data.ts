@@ -1,4 +1,3 @@
-import {Conjuction1GTranslationSentences} from './translation';
 interface ICategory {
   id: number;
   title: string;
@@ -275,7 +274,6 @@ export const QuestionsSubCategory: ISubCategory[] = [
     description: 'Konu videoları',
     page: 'Videos',
     image: require('../assets/icons/video.png'),
-    disabled: true,
   },
   {
     id: 3,
@@ -290,6 +288,14 @@ export const QuestionsSubCategory: ISubCategory[] = [
 export const ModalsSubCategory: ISubCategory[] = [
   {
     id: 1,
+    title: 'Videolar',
+    mainCategory: 'Modals',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
     title: 'Notlar',
     mainCategory: 'Modals',
     description: 'Konu notları',
@@ -311,6 +317,14 @@ export const ThereIsThereAreSubCategory: ISubCategory[] = [
   },
   {
     id: 2,
+    title: 'Videolar',
+    mainCategory: 'ThereIsThereAre',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
     title: 'Notlar',
     mainCategory: 'ThereIsThereAre',
     description: 'Konu notları',
@@ -349,6 +363,14 @@ export const RelativeAndNounClauseSubCategory: ISubCategory[] = [
 export const PronounsSubCategory: ISubCategory[] = [
   {
     id: 1,
+    title: 'Videolar',
+    mainCategory: 'Pronouns',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
     title: 'Notlar',
     mainCategory: 'Pronouns',
     description: 'Konu notları',
@@ -371,6 +393,14 @@ export const AdjectivesAdverbsSubCategory: ISubCategory[] = [
 export const ImperativesSubCategory: ISubCategory[] = [
   {
     id: 1,
+    title: 'Videolar',
+    mainCategory: 'Imperatives',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
     title: 'Notlar',
     mainCategory: 'Imperatives',
     description: 'Konu notları',
@@ -382,6 +412,14 @@ export const ImperativesSubCategory: ISubCategory[] = [
 export const LetsShallSubCategory: ISubCategory[] = [
   {
     id: 1,
+    title: 'Videolar',
+    mainCategory: 'LetsShall',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
     title: 'Notlar',
     mainCategory: 'LetsShall',
     description: 'Konu notları',
@@ -393,6 +431,14 @@ export const LetsShallSubCategory: ISubCategory[] = [
 export const QuantifiersSubCategory: ISubCategory[] = [
   {
     id: 1,
+    title: 'Videolar',
+    mainCategory: 'Quantifiers',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
     title: 'Notlar',
     mainCategory: 'Quantifiers',
     description: 'Konu notları',
@@ -404,6 +450,14 @@ export const QuantifiersSubCategory: ISubCategory[] = [
 export const IndefinitePronounsSubCategory: ISubCategory[] = [
   {
     id: 1,
+    title: 'Videolar',
+    mainCategory: 'IndefinitePronouns',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
     title: 'Notlar',
     mainCategory: 'IndefinitePronouns',
     description: 'Konu notları',
@@ -415,6 +469,14 @@ export const IndefinitePronounsSubCategory: ISubCategory[] = [
 export const ArticlesSubCategory: ISubCategory[] = [
   {
     id: 1,
+    title: 'Videolar',
+    mainCategory: 'Articles',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
     title: 'Notlar',
     mainCategory: 'Articles',
     description: 'Konu notları',
@@ -490,6 +552,209 @@ export const RelativeAndNounClauseVideos: IVideo[] = [
   },
 ];
 
+export const QuantifiersVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Quantifiers Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/quantifiers-some-any-many-much-1726316476.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const IndefinitePronounsVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Indefinite Pronouns Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/belgisiz-zamirler-somebody-something-1726316367.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const LetsShallVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Lets - Shall Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/lets-shall-1726316168.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const ImperativesVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Emirler Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/emirler-imperatives-1726315935.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const ThereIsThereAreVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'There is - There are Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/there-is-there-are-1726315957.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const PronounsVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Zamirler Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/zamirler-1726315927.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const ArticlesVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'A, An, The, Zero Article',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/a-an-the-zero-article-1726315797.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const QuestionsVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Who',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/who-1726243737.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: 'How',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/how-1726243774.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Why',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/why-1726243780.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 4,
+    title: 'When',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/when-1726243801.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 5,
+    title: 'What',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/what-1726243981.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 6,
+    title: 'Where',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/where-1726243979.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 7,
+    title: 'Which',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/which-1726243999.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const ModalsVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Can',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/can-1726240874.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: 'Must',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/must-1726240920.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Should - Ought To - Had Better',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/should-ought-to-had-better-1726240963.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 4,
+    title: 'May - Might - Could',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/may-might-could-1726240996.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 5,
+    title: 'Could',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/could-1726241107.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 6,
+    title: 'Have To - Has To',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/have-to-has-to-1726241151.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 7,
+    title: 'Be Able To',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/be-able-to-1726241199.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 8,
+    title: 'Be Likely',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/be-likely-1726241239.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
 export const PassiveSubCategory: ISubCategory[] = [
   {
     id: 1,
@@ -531,6 +796,14 @@ export const SvsOfSubCategory: ISubCategory[] = [
 export const ExcitingExcitedSubCategory: ISubCategory[] = [
   {
     id: 1,
+    title: 'Videolar',
+    mainCategory: 'ExcitingExcited',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
     title: 'Notlar',
     mainCategory: 'ExcitingExcited',
     description: 'Konu notları',
@@ -594,6 +867,17 @@ export const PassiveVideos: IVideo[] = [
     page: 'VideoDetails',
     videoUri:
       'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/6-canli-ders-modal-passives-1686600307.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const ExcitingExcitedVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Exciting vs Excited Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/exciting-excited-ed-ve-ing-alan-sifatlar-ve-anlamlari-1726316157.mp4',
     image: require('../assets/icons/video.png'),
   },
 ];
@@ -835,6 +1119,14 @@ export const ComparativesSuperlativesSubCategory: ISubCategory[] = [
   },
   {
     id: 2,
+    title: 'Videolar',
+    mainCategory: 'ComparativesSuperlatives',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
     title: 'Notlar',
     mainCategory: 'ComparativesSuperlatives',
     description: 'Konu notları',
@@ -865,6 +1157,14 @@ export const FlowerToSubCategory: ISubCategory[] = [
 export const HaveHasSubCategory: ISubCategory[] = [
   {
     id: 1,
+    title: 'Videolar',
+    mainCategory: 'HaveHas',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
     title: 'Notlar',
     mainCategory: 'HaveHas',
     description: 'Konu notları',
@@ -884,6 +1184,28 @@ export const FlowerToVideos: IVideo[] = [
   },
 ];
 
+export const HaveHasVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Have - Has Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/have-has-fiilinin-kullanimlari-1726316261.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const ComparativesSuperlativesVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Comparatives and Superlatives',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/comparative-and-superlative-1726316130.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
 export const ImpersonalItSubCategory: ISubCategory[] = [
   {
     id: 1,
@@ -892,6 +1214,14 @@ export const ImpersonalItSubCategory: ISubCategory[] = [
     description: 'Çeviri çalışmaları',
     page: 'ImpersonalItTranslation',
     image: require('../assets/icons/translation.png'),
+  },
+  {
+    id: 2,
+    title: 'Videolar',
+    mainCategory: 'ImpersonalIt',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
   },
 ];
 
@@ -945,6 +1275,17 @@ export const IfClausesVideos: IVideo[] = [
     page: 'VideoDetails',
     videoUri:
       'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/10-canli-ders-if-clauses-1st-2nd-3rd-type-1688674872.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const ImpersonalItVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Şahsiyetsiz It Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sahsiyetsiz-it-ve-cicek-to-1602178923.mp4',
     image: require('../assets/icons/video.png'),
   },
 ];
