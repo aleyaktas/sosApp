@@ -10,7 +10,7 @@ interface Unit {
 export function translateVocArray(jsonData: UnitData[]): Unit[] {
   let units: Unit[] = [];
 
-  for (let unitNumber = 1; unitNumber <= 30; unitNumber++) {
+  for (let unitNumber = 31; unitNumber <= 110; unitNumber++) {
     let unit: Unit = {
       unitNumber: unitNumber,
       words: [],

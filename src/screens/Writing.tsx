@@ -17,6 +17,7 @@ import CheckBox from 'react-native-check-box';
 import {handleVoice} from '../helpers/voiceCenter';
 import Carousel from 'react-native-reanimated-carousel';
 import Tts from 'react-native-tts';
+import TrackPlayer from 'react-native-track-player';
 
 const {width: screenWidth} = Dimensions.get('window');
 
@@ -95,14 +96,41 @@ const Writing: React.FC = () => {
     }
   };
 
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const playTrack = async (item: any) => {
+    setIsPlaying(true);
+    handleVoice(item);
+  };
+
+  const pauseTrack = async () => {
+    setIsPlaying(false);
+    Voice.stop();
+    Tts.stop();
+  };
+
+  useEffect(() => {
+    return () => {
+      Tts.stop();
+    };
+  }, []);
+
   const renderCarouselItem = ({item}: {item: string}) => (
     <View style={styles.carouselItem}>
       <ScrollView>
         <TouchableOpacity
-          style={styles.carouselTouchable}
-          onPress={() => handleVoice(item)}>
-          <Text style={styles.answerText}>{item}</Text>
+          onPressIn={() => (isPlaying ? pauseTrack() : playTrack(item))}
+          style={styles.playerButton}>
+          <Icon
+            name={isPlaying ? 'Pause' : 'Play'}
+            width={32}
+            height={32}
+            color="green"
+          />
         </TouchableOpacity>
+        <View style={styles.carouselTouchable}>
+          <Text style={styles.answerText}>{item}</Text>
+        </View>
       </ScrollView>
     </View>
   );
@@ -295,6 +323,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     gap: 8,
+  },
+  playerButton: {
+    borderRadius: 8,
   },
 });
 

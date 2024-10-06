@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Text, View, Image, ScrollView, StyleSheet} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import {useNavigation} from '@react-navigation/native';
@@ -17,10 +17,6 @@ const Home = () => {
         {Categories.map(item => (
           <TouchableOpacity
             activeOpacity={0.7}
-            disabled={
-              item.title === 'Sıfatlar ve Zarflar' ||
-              item.title === 'Gerund & Infinitive'
-            }
             onPress={() =>
               navigation.navigate('SubCategory', {
                 title: item.mainCategory,
@@ -30,11 +26,7 @@ const Home = () => {
             style={[
               styles.categoriesButton,
               {
-                backgroundColor:
-                  item.title === 'Sıfatlar ve Zarflar' ||
-                  item.title === 'Gerund & Infinitive'
-                    ? '#f5f5f5'
-                    : 'white',
+                backgroundColor: 'white',
               },
             ]}>
             <Image source={item.image} style={{width: 60, height: 60}} />
@@ -43,11 +35,7 @@ const Home = () => {
                 style={[
                   styles.categoriesTitle,
                   {
-                    color:
-                      item.title === 'Sıfatlar ve Zarflar' ||
-                      item.title === 'Gerund & Infinitive'
-                        ? 'darkgray'
-                        : 'black',
+                    color: 'black',
                   },
                 ]}>
                 {item.title}
