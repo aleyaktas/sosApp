@@ -52177,3 +52177,3046 @@ export const PrepositionsTranslationSentences = {
     },
   ],
 };
+
+export const AAnTheTranslationSentences = {
+  AAn: [
+    {ing: 'She has a cat.', tr: 'Bir kedisi var.'},
+    {ing: 'He is an engineer.', tr: 'O bir mühendis.'},
+    {ing: 'I saw a bird in the tree.', tr: 'Ağaçta bir kuş gördüm.'},
+    {ing: 'We need an invitation.', tr: 'Bir davetiye lazım.'},
+    {ing: 'She bought a bag.', tr: 'Bir çanta aldı.'},
+    {ing: 'He found an egg.', tr: 'Bir yumurta buldu.'},
+    {ing: 'I need a pencil.', tr: 'Bir kaleme ihtiyacım var.'},
+    {ing: 'She has an idea.', tr: 'Onun bir fikri var.'},
+    {ing: 'He is a teacher.', tr: 'O bir öğretmen.'},
+    {ing: 'We saw an owl.', tr: 'Bir baykuş gördük.'},
+    {ing: 'I bought a ticket.', tr: 'Bir bilet aldım.'},
+    {ing: 'She took an apple.', tr: 'Bir elma aldı.'},
+    {ing: 'He needs a towel.', tr: 'Bir havluya ihtiyacı var.'},
+    {ing: 'We found an orange.', tr: 'Bir portakal bulduk.'},
+    {ing: 'I have a friend.', tr: 'Bir arkadaşım var.'},
+    {ing: 'He wants an umbrella.', tr: 'Bir şemsiye istiyor.'},
+    {ing: 'She read a story.', tr: 'Bir hikaye okudu.'},
+    {ing: 'I saw an island.', tr: 'Bir ada gördüm.'},
+    {ing: 'They built a bridge.', tr: 'Bir köprü inşa ettiler.'},
+    {ing: 'We have an event.', tr: 'Bir etkinliğimiz var.'},
+    {ing: 'She found a key.', tr: 'Bir anahtar buldu.'},
+    {ing: 'He has an old car.', tr: 'Onun eski bir arabası var.'},
+    {ing: 'I need an example.', tr: 'Bir örneğe ihtiyacım var.'},
+    {ing: 'We have a problem.', tr: 'Bir sorunumuz var.'},
+    {ing: 'He found an eraser.', tr: 'Bir silgi buldu.'},
+    {ing: 'She saw a tiger.', tr: 'Bir kaplan gördü.'},
+    {ing: 'I need an aspirin.', tr: 'Bir aspirine ihtiyacım var.'},
+    {ing: 'He has a bicycle.', tr: 'Bir bisikleti var.'},
+    {ing: 'She saw an elephant.', tr: 'Bir fil gördü.'},
+    {ing: 'We need a plan.', tr: 'Bir plana ihtiyacımız var.'},
+    {ing: 'He is an artist.', tr: 'O bir sanatçı.'},
+    {ing: 'I found a coin.', tr: 'Bir bozuk para buldum.'},
+    {ing: 'She took an hour to finish.', tr: 'Bitirmek bir saat sürdü.'},
+    {ing: 'He bought a watch.', tr: 'Bir saat aldı.'},
+    {ing: 'I have an invitation.', tr: 'Bir davetiyem var.'},
+    {ing: 'We have a meeting.', tr: 'Bir toplantımız var.'},
+    {ing: 'He saw an eagle.', tr: 'Bir kartal gördü.'},
+    {ing: 'She bought a lamp.', tr: 'Bir lamba aldı.'},
+    {ing: 'I saw an owl in the tree.', tr: 'Ağaçta bir baykuş gördüm.'},
+    {ing: 'They built an arch.', tr: 'Bir kemer inşa ettiler.'},
+    {ing: 'He has a camera.', tr: 'Bir kamerası var.'},
+    {ing: 'She saw an igloo.', tr: 'Bir iglo gördü.'},
+    {ing: 'We visited a museum.', tr: 'Bir müze ziyaret ettik.'},
+    {ing: 'He needs an answer.', tr: 'Bir cevaba ihtiyacı var.'},
+    {ing: 'I have an egg.', tr: 'Bir yumurtam var.'},
+    {ing: 'She took a bus.', tr: 'Bir otobüs aldı.'},
+    {ing: 'He is an uncle.', tr: 'O bir amca.'},
+    {ing: 'I want a pen.', tr: 'Bir kalem istiyorum.'},
+    {ing: 'We saw an actor.', tr: 'Bir aktör gördük.'},
+    {ing: 'She gave a gift.', tr: 'Bir hediye verdi.'},
+    {ing: 'He found an onion.', tr: 'Bir soğan buldu.'},
+    {ing: 'I met a chef.', tr: 'Bir aşçıyla tanıştım.'},
+    {ing: 'We need an upgrade.', tr: 'Bir yükseltmeye ihtiyacımız var.'},
+    {ing: 'She wants a chair.', tr: 'Bir sandalye istiyor.'},
+    {ing: 'He has an oven.', tr: 'Onun bir fırını var.'},
+    {ing: 'I read an article.', tr: 'Bir makale okudum.'},
+    {ing: 'We saw a rainbow.', tr: 'Bir gökkuşağı gördük.'},
+    {ing: 'He took an exam.', tr: 'Bir sınav aldı.'},
+    {ing: 'She found a shell.', tr: 'Bir deniz kabuğu buldu.'},
+    {ing: 'He is an architect.', tr: 'O bir mimar.'},
+    {ing: 'I saw a car.', tr: 'Bir araba gördüm.'},
+    {ing: 'She took an umbrella.', tr: 'Bir şemsiye aldı.'},
+    {ing: 'He bought a hat.', tr: 'Bir şapka aldı.'},
+    {ing: 'We have an hour.', tr: 'Bir saatimiz var.'},
+    {ing: 'I need a map.', tr: 'Bir haritaya ihtiyacım var.'},
+    {ing: 'She found an ice cream.', tr: 'Bir dondurma buldu.'},
+    {ing: 'He bought a cake.', tr: 'Bir pasta aldı.'},
+    {ing: 'We need an opportunity.', tr: 'Bir fırsata ihtiyacımız var.'},
+    {ing: 'I found a wallet.', tr: 'Bir cüzdan buldum.'},
+    {ing: 'She took an invitation.', tr: 'Bir davetiye aldı.'},
+    {ing: 'He has a job.', tr: 'Onun bir işi var.'},
+    {ing: 'I saw an iguana.', tr: 'Bir iguana gördüm.'},
+    {ing: 'She needs a book.', tr: 'Bir kitaba ihtiyacı var.'},
+    {ing: 'He found an insect.', tr: 'Bir böcek buldu.'},
+    {ing: 'I bought a camera.', tr: 'Bir kamera aldım.'},
+    {ing: 'She met an artist.', tr: 'Bir sanatçıyla tanıştı.'},
+    {ing: 'We saw a lake.', tr: 'Bir göl gördük.'},
+    {ing: 'He took an airplane.', tr: 'Bir uçak aldı.'},
+    {ing: 'I have a plant.', tr: 'Bir bitkim var.'},
+    {ing: 'She saw an accident.', tr: 'Bir kaza gördü.'},
+    {ing: 'He needs a chair.', tr: 'Bir sandalyeye ihtiyacı var.'},
+    {ing: 'I want an orange.', tr: 'Bir portakal istiyorum.'},
+    {ing: 'We met a singer.', tr: 'Bir şarkıcıyla tanıştık.'},
+    {ing: 'He has an idea.', tr: 'Onun bir fikri var.'},
+    {ing: 'She bought a dress.', tr: 'Bir elbise aldı.'},
+    {ing: 'I saw an umbrella.', tr: 'Bir şemsiye gördüm.'},
+    {ing: 'We saw a cloud.', tr: 'Bir bulut gördük.'},
+    {ing: 'He made an error.', tr: 'Bir hata yaptı.'},
+    {ing: 'She found a dog.', tr: 'Bir köpek buldu.'},
+    {ing: 'I took an ice cream.', tr: 'Bir dondurma aldım.'},
+    {ing: 'We have a cat.', tr: 'Bir kedimiz var.'},
+    {ing: 'He saw an airplane.', tr: 'Bir uçak gördü.'},
+    {ing: 'She bought a pen.', tr: 'Bir kalem aldı.'},
+    {ing: 'I saw a house.', tr: 'Bir ev gördüm.'},
+    {ing: 'He needs an eraser.', tr: 'Bir silgiye ihtiyacı var.'},
+    {ing: 'We have a question.', tr: 'Bir sorumuz var.'},
+    {ing: 'I found an arch.', tr: 'Bir kemer buldum.'},
+    {ing: 'She took a photo.', tr: 'Bir fotoğraf çekti.'},
+    {ing: 'He has a guitar.', tr: 'Onun bir gitarı var.'},
+    {ing: 'We saw an ant.', tr: 'Bir karınca gördük.'},
+  ],
+  The: [
+    {ing: 'The sun is shining today.', tr: 'Güneş bugün parlıyor.'},
+    {ing: 'I saw the moon last night.', tr: 'Dün gece ayı gördüm.'},
+    {ing: 'The sky is very clear today.', tr: 'Gökyüzü bugün çok açık.'},
+    {ing: 'Please close the door.', tr: 'Lütfen kapıyı kapat.'},
+    {ing: 'The car is parked outside.', tr: 'Araba dışarıda park edilmiş.'},
+    {ing: 'We went to the park yesterday.', tr: 'Dün parka gittik.'},
+    {ing: 'The train is late.', tr: 'Tren geç kaldı.'},
+    {
+      ing: 'I can see the mountains from here.',
+      tr: 'Buradan dağları görebiliyorum.',
+    },
+    {ing: 'The water is cold.', tr: 'Su soğuk.'},
+    {ing: 'The stars are bright tonight.', tr: 'Yıldızlar bu gece parlak.'},
+    {
+      ing: 'I bought a book, and the book is very interesting.',
+      tr: 'Bir kitap aldım ve kitap çok ilginç.',
+    },
+    {
+      ing: 'She saw a cat, and the cat was sleeping.',
+      tr: 'Bir kedi gördü ve kedi uyuyordu.',
+    },
+    {
+      ing: 'We found a key, and the key opened the door.',
+      tr: 'Bir anahtar bulduk ve anahtar kapıyı açtı.',
+    },
+    {
+      ing: 'He met a man, and the man was very nice.',
+      tr: 'Bir adamla tanıştı ve adam çok iyiydi.',
+    },
+    {
+      ing: 'They visited a museum, and the museum was amazing.',
+      tr: 'Bir müze ziyaret ettiler ve müze harikaydı.',
+    },
+    {
+      ing: 'I ate an apple, and the apple was sweet.',
+      tr: 'Bir elma yedim ve elma tatlıydı.',
+    },
+    {
+      ing: 'She bought a dress, and the dress was blue.',
+      tr: 'Bir elbise aldı ve elbise maviydi.',
+    },
+    {
+      ing: 'He found a coin, and the coin was old.',
+      tr: 'Bir bozuk para buldu ve bozuk para eskiydi.',
+    },
+    {
+      ing: 'We saw a bird, and the bird was singing.',
+      tr: 'Bir kuş gördük ve kuş şarkı söylüyordu.',
+    },
+    {
+      ing: 'I met a friend, and the friend was kind.',
+      tr: 'Bir arkadaşla tanıştım ve arkadaş nazikti.',
+    },
+    {
+      ing: 'The Earth revolves around the Sun.',
+      tr: "Dünya, Güneş'in etrafında döner.",
+    },
+    {ing: 'The North Pole is very cold.', tr: 'Kuzey Kutbu çok soğuktur.'},
+    {ing: 'The Eiffel Tower is in Paris.', tr: "Eyfel Kulesi Paris'te."},
+    {
+      ing: 'The Pacific Ocean is the largest ocean.',
+      tr: 'Pasifik Okyanusu en büyük okyanustur.',
+    },
+    {ing: 'The Internet is very useful.', tr: 'İnternet çok kullanışlıdır.'},
+    {
+      ing: 'The Statue of Liberty is in New York.',
+      tr: "Özgürlük Anıtı New York'tadır.",
+    },
+    {ing: 'The Great Wall of China is long.', tr: 'Çin Seddi uzundur.'},
+    {ing: 'The Sahara Desert is hot.', tr: 'Sahra Çölü sıcaktır.'},
+    {ing: 'The Milky Way is a galaxy.', tr: 'Samanyolu bir galaksidir.'},
+    {ing: 'The Amazon River is very long.', tr: 'Amazon Nehri çok uzundur.'},
+    {
+      ing: 'She is the best student in the class.',
+      tr: 'O sınıftaki en iyi öğrenci.',
+    },
+    {
+      ing: 'This is the largest cake I have ever seen.',
+      tr: 'Bu, şimdiye kadar gördüğüm en büyük pasta.',
+    },
+    {
+      ing: 'He is the oldest person in the village.',
+      tr: 'O köydeki en yaşlı insan.',
+    },
+    {
+      ing: 'This is the most beautiful flower in the garden.',
+      tr: 'Bu bahçedeki en güzel çiçek.',
+    },
+    {
+      ing: 'She has the fastest car in the race.',
+      tr: 'Yarıştaki en hızlı araba onda.',
+    },
+    {
+      ing: 'He is the tallest boy in the school.',
+      tr: 'Okuldaki en uzun çocuk o.',
+    },
+    {
+      ing: 'This is the smallest book I own.',
+      tr: 'Bu, sahip olduğum en küçük kitap.',
+    },
+    {
+      ing: 'He bought the cheapest ticket available.',
+      tr: 'Mevcut en ucuz bileti aldı.',
+    },
+    {
+      ing: 'She found the most interesting book in the library.',
+      tr: 'Kütüphanedeki en ilginç kitabı buldu.',
+    },
+    {
+      ing: 'This is the most delicious pizza I have tasted.',
+      tr: 'Bu, tattığım en lezzetli pizza.',
+    },
+    {ing: 'He plays the guitar very well.', tr: 'O gitarı çok iyi çalar.'},
+    {ing: 'She is learning the piano.', tr: 'O, piyano öğreniyor.'},
+    {
+      ing: 'The violin is a difficult instrument to play.',
+      tr: 'Keman çalmak zor bir enstrümandır.',
+    },
+    {
+      ing: 'He loves listening to the trumpet.',
+      tr: 'Trompet dinlemeyi çok seviyor.',
+    },
+    {
+      ing: 'She practices the flute every day.',
+      tr: 'O, her gün flüt çalışıyor.',
+    },
+    {ing: 'The drums are very loud.', tr: 'Davullar çok gürültülü.'},
+    {
+      ing: 'He plays the saxophone in a band.',
+      tr: 'Bir grupta saksafon çalıyor.',
+    },
+    {
+      ing: 'She wants to learn the clarinet.',
+      tr: 'O, klarnet öğrenmek istiyor.',
+    },
+    {
+      ing: 'The cello has a deep sound.',
+      tr: 'Viyolonsel derin bir sese sahiptir.',
+    },
+    {
+      ing: 'He enjoys playing the harmonica.',
+      tr: 'Mızıka çalmaktan hoşlanıyor.',
+    },
+    {ing: 'We went to the cinema last night.', tr: 'Dün gece sinemaya gittik.'},
+    {ing: 'The library is very quiet.', tr: 'Kütüphane çok sessiz.'},
+    {ing: 'The airport is very busy today.', tr: 'Havaalanı bugün çok yoğun.'},
+    {ing: 'I saw her at the bus stop.', tr: 'Onu otobüs durağında gördüm.'},
+    {
+      ing: 'The hospital is across the street.',
+      tr: 'Hastane caddenin karşısında.',
+    },
+    {ing: 'He works at the bank.', tr: 'Bankada çalışıyor.'},
+    {ing: 'The school is near my house.', tr: 'Okul evimin yakınında.'},
+    {
+      ing: 'The supermarket is open until 10 PM.',
+      tr: "Süpermarket saat 10'a kadar açık.",
+    },
+    {ing: 'The post office is closed today.', tr: 'Postane bugün kapalı.'},
+    {ing: 'They are going to the beach.', tr: 'Plaja gidiyorlar.'},
+    {ing: 'The Alps are beautiful in winter.', tr: 'Alpler kışın güzeldir.'},
+    {
+      ing: 'The Nile River flows through Egypt.',
+      tr: "Nil Nehri, Mısır'dan akar.",
+    },
+    {
+      ing: 'The Andes are the longest mountain range.',
+      tr: 'And Dağları en uzun dağ silsilesidir.',
+    },
+    {
+      ing: 'The Caribbean is warm all year.',
+      tr: 'Karayipler yıl boyunca sıcaktır.',
+    },
+    {ing: 'The Mediterranean Sea is salty.', tr: 'Akdeniz tuzludur.'},
+    {
+      ing: 'The Rocky Mountains are in North America.',
+      tr: "Rocky Dağları Kuzey Amerika'dadır.",
+    },
+    {
+      ing: 'The English Channel separates England and France.',
+      tr: "İngiliz Kanalı, İngiltere ve Fransa'yı ayırır.",
+    },
+    {ing: 'The Arctic is very cold.', tr: 'Arktik çok soğuktur.'},
+    {ing: 'The Atlantic Ocean is deep.', tr: 'Atlantik Okyanusu derindir.'},
+    {ing: 'The Himalayas are very tall.', tr: 'Himalayalar çok yüksektir.'},
+    {
+      ing: 'The United States is a big country.',
+      tr: 'Amerika Birleşik Devletleri büyük bir ülkedir.',
+    },
+    {
+      ing: 'The Netherlands is famous for tulips.',
+      tr: 'Hollanda laleleriyle ünlüdür.',
+    },
+    {
+      ing: 'The United Kingdom is in Europe.',
+      tr: "Birleşik Krallık Avrupa'dadır.",
+    },
+    {
+      ing: 'The Philippines has many islands.',
+      tr: 'Filipinler birçok adaya sahiptir.',
+    },
+    {
+      ing: 'The Bahamas is a beautiful place.',
+      tr: 'Bahamalar güzel bir yerdir.',
+    },
+    {
+      ing: 'The United Arab Emirates is in the Middle East.',
+      tr: "Birleşik Arap Emirlikleri Orta Doğu'dadır.",
+    },
+    {
+      ing: 'The Maldives is a tourist destination.',
+      tr: 'Maldivler bir turistik yerdir.',
+    },
+    {
+      ing: 'The Czech Republic is in Central Europe.',
+      tr: "Çek Cumhuriyeti Orta Avrupa'dadır.",
+    },
+    {
+      ing: 'The Dominican Republic is in the Caribbean.',
+      tr: "Dominik Cumhuriyeti Karayipler'dedir.",
+    },
+    {
+      ing: 'The Soviet Union no longer exists.',
+      tr: 'Sovyetler Birliği artık yoktur.',
+    },
+    {ing: 'The sun rises in the east.', tr: 'Güneş doğudan doğar.'},
+    {ing: 'The moon is bright at night.', tr: 'Ay gece parlaktır.'},
+    {ing: 'I will see you in the morning.', tr: 'Sabah görüşürüz.'},
+    {ing: 'The meeting is in the afternoon.', tr: 'Toplantı öğleden sonra.'},
+    {ing: 'We will have dinner in the evening.', tr: 'Akşam yemeği yiyeceğiz.'},
+    {ing: 'The stars are visible at night.', tr: 'Yıldızlar gece görünür.'},
+    {ing: 'He travels to the north often.', tr: 'Sık sık kuzeye seyahat eder.'},
+    {
+      ing: 'They live in the south of the country.',
+      tr: 'Ülkenin güneyinde yaşıyorlar.',
+    },
+    {ing: 'The wind is coming from the west.', tr: 'Rüzgar batıdan esiyor.'},
+    {ing: 'The rain is heavy in the east.', tr: 'Doğuda yağmur çok şiddetli.'},
+    {ing: 'The phone is ringing.', tr: 'Telefon çalıyor.'},
+    {ing: 'The dog is barking loudly.', tr: 'Köpek yüksek sesle havlıyor.'},
+    {ing: 'The kids are playing outside.', tr: 'Çocuklar dışarıda oynuyor.'},
+    {
+      ing: 'The flowers are blooming in spring.',
+      tr: 'Çiçekler baharda açıyor.',
+    },
+    {
+      ing: 'The food on the table is delicious.',
+      tr: 'Masadaki yemek lezzetli.',
+    },
+    {ing: 'The movie we watched was great.', tr: 'İzlediğimiz film harikaydı.'},
+    {ing: 'The cake she made was tasty.', tr: 'Onun yaptığı kek lezzetliydi.'},
+    {ing: 'The window is open.', tr: 'Pencere açık.'},
+    {ing: 'The chair is broken.', tr: 'Sandalye kırık.'},
+    {
+      ing: 'The pen on the desk is mine.',
+      tr: 'Masanın üzerindeki kalem benim.',
+    },
+  ],
+  All: [
+    {
+      ing: 'I saw a cat, but the cat ran away.',
+      tr: 'Bir kedi gördüm, ama kedi kaçtı.',
+    },
+    {
+      ing: 'She bought a dress, and the dress is blue.',
+      tr: 'Bir elbise aldı ve elbise mavi.',
+    },
+    {
+      ing: 'He found a wallet, and the wallet had money in it.',
+      tr: 'Bir cüzdan buldu ve cüzdanın içinde para vardı.',
+    },
+    {
+      ing: 'We visited a museum, and the museum was amazing.',
+      tr: 'Bir müzeyi ziyaret ettik ve müze harikaydı.',
+    },
+    {
+      ing: 'I saw a bird, and the bird was singing.',
+      tr: 'Bir kuş gördüm ve kuş şarkı söylüyordu.',
+    },
+    {
+      ing: 'She took an apple, and the apple was sweet.',
+      tr: 'Bir elma aldı ve elma tatlıydı.',
+    },
+    {
+      ing: 'He met a man, and the man was very kind.',
+      tr: 'Bir adamla tanıştı ve adam çok kibardı.',
+    },
+    {
+      ing: 'They saw a car, and the car was red.',
+      tr: 'Bir araba gördüler ve araba kırmızıydı.',
+    },
+    {
+      ing: 'I found an old book, and the book was dusty.',
+      tr: 'Eski bir kitap buldum ve kitap tozluydu.',
+    },
+    {
+      ing: 'We watched a movie, and the movie was boring.',
+      tr: 'Bir film izledik ve film sıkıcıydı.',
+    },
+    {
+      ing: 'She found a key, and the key opened the door.',
+      tr: 'Bir anahtar buldu ve anahtar kapıyı açtı.',
+    },
+    {
+      ing: 'I met a dog, and the dog was friendly.',
+      tr: 'Bir köpekle tanıştım ve köpek dost canlısıydı.',
+    },
+    {
+      ing: 'He bought a hat, and the hat fit perfectly.',
+      tr: 'Bir şapka aldı ve şapka mükemmel uydu.',
+    },
+    {
+      ing: 'They saw a star, and the star was shining brightly.',
+      tr: 'Bir yıldız gördüler ve yıldız parlak parlıyordu.',
+    },
+    {
+      ing: 'She took an orange, and the orange was juicy.',
+      tr: 'Bir portakal aldı ve portakal sulu çıktı.',
+    },
+    {
+      ing: 'I saw a house, and the house was beautiful.',
+      tr: 'Bir ev gördüm ve ev güzeldi.',
+    },
+    {
+      ing: 'We visited a park, and the park was crowded.',
+      tr: 'Bir parkı ziyaret ettik ve park kalabalıktı.',
+    },
+    {
+      ing: 'He bought a guitar, and the guitar sounded great.',
+      tr: 'Bir gitar aldı ve gitar harika ses çıkardı.',
+    },
+    {
+      ing: 'She found a note, and the note was from her friend.',
+      tr: 'Bir not buldu ve not arkadaşı tarafından yazılmıştı.',
+    },
+    {
+      ing: 'I met a girl, and the girl was very polite.',
+      tr: 'Bir kızla tanıştım ve kız çok nazikti.',
+    },
+    {
+      ing: 'We saw a rainbow, and the rainbow was colorful.',
+      tr: 'Bir gökkuşağı gördük ve gökkuşağı renklidir.',
+    },
+    {
+      ing: 'He found a coin, and the coin was old.',
+      tr: 'Bir bozuk para buldu ve bozuk para eskiydi.',
+    },
+    {
+      ing: 'I took an umbrella, and the umbrella broke in the wind.',
+      tr: 'Bir şemsiye aldım ve şemsiye rüzgarda kırıldı.',
+    },
+    {
+      ing: 'She saw a fox, and the fox was running.',
+      tr: 'Bir tilki gördü ve tilki koşuyordu.',
+    },
+    {
+      ing: 'He ate an ice cream, and the ice cream melted quickly.',
+      tr: 'Bir dondurma yedi ve dondurma hızla eridi.',
+    },
+    {
+      ing: 'They found a boat, and the boat was damaged.',
+      tr: 'Bir tekne buldular ve tekne hasarlıydı.',
+    },
+    {
+      ing: 'I found a pen, and the pen was out of ink.',
+      tr: 'Bir kalem buldum ve kalemin mürekkebi bitmişti.',
+    },
+    {
+      ing: 'We met a singer, and the singer was talented.',
+      tr: 'Bir şarkıcıyla tanıştık ve şarkıcı yetenekliydi.',
+    },
+    {
+      ing: 'She bought a chair, and the chair was comfortable.',
+      tr: 'Bir sandalye aldı ve sandalye rahattı.',
+    },
+    {
+      ing: 'He saw a plane, and the plane was landing.',
+      tr: 'Bir uçak gördü ve uçak iniş yapıyordu.',
+    },
+    {
+      ing: 'I bought a cake, and the cake was delicious.',
+      tr: 'Bir pasta aldım ve pasta lezzetliydi.',
+    },
+    {
+      ing: 'We found a map, and the map was old.',
+      tr: 'Bir harita bulduk ve harita eskiydi.',
+    },
+    {
+      ing: 'She took an egg, and the egg cracked.',
+      tr: 'Bir yumurta aldı ve yumurta çatladı.',
+    },
+    {
+      ing: 'He found a spider, and the spider was tiny.',
+      tr: 'Bir örümcek buldu ve örümcek küçüktü.',
+    },
+    {
+      ing: 'I found a picture, and the picture was beautiful.',
+      tr: 'Bir resim buldum ve resim güzeldi.',
+    },
+    {
+      ing: 'We saw a dolphin, and the dolphin was jumping.',
+      tr: 'Bir yunus gördük ve yunus zıplıyordu.',
+    },
+    {
+      ing: 'She picked a flower, and the flower smelled nice.',
+      tr: 'Bir çiçek topladı ve çiçek güzel kokuyordu.',
+    },
+    {
+      ing: 'He got a job, and the job was interesting.',
+      tr: 'Bir iş buldu ve iş ilginçti.',
+    },
+    {
+      ing: 'I bought a ticket, and the ticket was expensive.',
+      tr: 'Bir bilet aldım ve bilet pahalıydı.',
+    },
+    {
+      ing: 'They saw a cloud, and the cloud was dark.',
+      tr: 'Bir bulut gördüler ve bulut karanlıktı.',
+    },
+    {
+      ing: 'She found an eraser, and the eraser was small.',
+      tr: 'Bir silgi buldu ve silgi küçüktü.',
+    },
+    {
+      ing: 'He saw a lion, and the lion was sleeping.',
+      tr: 'Bir aslan gördü ve aslan uyuyordu.',
+    },
+    {
+      ing: 'We saw a train, and the train was fast.',
+      tr: 'Bir tren gördük ve tren hızlıydı.',
+    },
+    {
+      ing: 'She found a phone, and the phone was broken.',
+      tr: 'Bir telefon buldu ve telefon kırılmıştı.',
+    },
+    {
+      ing: 'I met a chef, and the chef was cooking.',
+      tr: 'Bir aşçıyla tanıştım ve aşçı yemek yapıyordu.',
+    },
+    {
+      ing: 'He bought a bike, and the bike was blue.',
+      tr: 'Bir bisiklet aldı ve bisiklet maviydi.',
+    },
+    {
+      ing: 'She saw a tree, and the tree was tall.',
+      tr: 'Bir ağaç gördü ve ağaç uzundu.',
+    },
+    {
+      ing: 'I found a stone, and the stone was smooth.',
+      tr: 'Bir taş buldum ve taş pürüzsüzdü.',
+    },
+    {
+      ing: 'We met an artist, and the artist was painting.',
+      tr: 'Bir sanatçıyla tanıştık ve sanatçı resim yapıyordu.',
+    },
+    {
+      ing: 'He picked a fruit, and the fruit was ripe.',
+      tr: 'Bir meyve topladı ve meyve olgundu.',
+    },
+    {
+      ing: 'I saw a mouse, and the mouse was small.',
+      tr: 'Bir fare gördüm ve fare küçüktü.',
+    },
+    {
+      ing: 'She took a glass, and the glass was full.',
+      tr: 'Bir bardak aldı ve bardak doluydu.',
+    },
+    {
+      ing: 'He bought a coat, and the coat was warm.',
+      tr: 'Bir palto aldı ve palto sıcaktı.',
+    },
+    {
+      ing: 'They found a candle, and the candle was lit.',
+      tr: 'Bir mum buldular ve mum yanıyordu.',
+    },
+    {
+      ing: 'I saw a deer, and the deer was running.',
+      tr: 'Bir geyik gördüm ve geyik koşuyordu.',
+    },
+    {
+      ing: 'She took a bus, and the bus was crowded.',
+      tr: 'Bir otobüs aldı ve otobüs kalabalıktı.',
+    },
+    {
+      ing: 'He found a glove, and the glove was wet.',
+      tr: 'Bir eldiven buldu ve eldiven ıslaktı.',
+    },
+    {
+      ing: 'We saw a lake, and the lake was calm.',
+      tr: 'Bir göl gördük ve göl sakindi.',
+    },
+    {
+      ing: 'She got a job, and the job was easy.',
+      tr: 'Bir iş buldu ve iş kolaydı.',
+    },
+    {
+      ing: 'I met a pilot, and the pilot was friendly.',
+      tr: 'Bir pilotla tanıştım ve pilot dost canlısıydı.',
+    },
+    {
+      ing: 'He found a cat, and the cat was hungry.',
+      tr: 'Bir kedi buldu ve kedi açtı.',
+    },
+    {
+      ing: 'I bought a camera, and the camera was expensive.',
+      tr: 'Bir kamera aldım ve kamera pahalıydı.',
+    },
+    {
+      ing: 'We saw a mountain, and the mountain was huge.',
+      tr: 'Bir dağ gördük ve dağ büyüktü.',
+    },
+    {
+      ing: 'She took a nap, and the nap was short.',
+      tr: 'Bir uyku aldı ve uyku kısaydı.',
+    },
+    {
+      ing: 'He saw a shark, and the shark was big.',
+      tr: 'Bir köpekbalığı gördü ve köpekbalığı büyüktü.',
+    },
+    {
+      ing: 'I met a doctor, and the doctor was helpful.',
+      tr: 'Bir doktorla tanıştım ve doktor yardımseverdi.',
+    },
+    {
+      ing: 'She found a ring, and the ring was shiny.',
+      tr: 'Bir yüzük buldu ve yüzük parlaktı.',
+    },
+    {
+      ing: 'He bought a vase, and the vase was broken.',
+      tr: 'Bir vazo aldı ve vazo kırılmıştı.',
+    },
+    {
+      ing: 'They saw a fish, and the fish was colorful.',
+      tr: 'Bir balık gördüler ve balık renkliydi.',
+    },
+    {
+      ing: 'I saw a squirrel, and the squirrel was quick.',
+      tr: 'Bir sincap gördüm ve sincap hızlıydı.',
+    },
+    {
+      ing: 'She picked an apple, and the apple was red.',
+      tr: 'Bir elma topladı ve elma kırmızıydı.',
+    },
+    {
+      ing: 'He found a ticket, and the ticket was torn.',
+      tr: 'Bir bilet buldu ve bilet yırtılmıştı.',
+    },
+    {
+      ing: 'We saw a river, and the river was wide.',
+      tr: 'Bir nehir gördük ve nehir genişti.',
+    },
+    {
+      ing: 'She took a sip, and the sip was refreshing.',
+      tr: 'Bir yudum aldı ve yudum ferahlatıcıydı.',
+    },
+    {
+      ing: 'He saw a whale, and the whale  was huge.',
+      tr: 'Bir balina gördü ve balina büyüktü.',
+    },
+    {
+      ing: 'I met a writer, and the writer was famous.',
+      tr: 'Bir yazarla tanıştım ve yazar ünlüydü.',
+    },
+    {
+      ing: 'She got a present, and the present was wrapped.',
+      tr: 'Bir hediye aldı ve hediye paketlenmişti.',
+    },
+    {
+      ing: 'He found a pencil, and the pencil was sharp.',
+      tr: 'Bir kalem buldu ve kalem sivriydi.',
+    },
+    {
+      ing: 'We saw a cave, and the cave was dark.',
+      tr: 'Bir mağara gördük ve mağara karanlıktı.',
+    },
+    {
+      ing: 'She took a step, and the step was careful.',
+      tr: 'Bir adım attı ve adım dikkatliydi.',
+    },
+    {
+      ing: 'He bought a lamp, and the lamp was bright.',
+      tr: 'Bir lamba aldı ve lamba parlaktı.',
+    },
+    {
+      ing: 'I found a message, and the message was clear.',
+      tr: 'Bir mesaj buldum ve mesaj açıktı.',
+    },
+    {
+      ing: 'She took a picture, and the picture was blurry.',
+      tr: 'Bir fotoğraf çekti ve fotoğraf bulanıktı.',
+    },
+    {
+      ing: 'He found a road, and the road was long.',
+      tr: 'Bir yol buldu ve yol uzundu.',
+    },
+    {
+      ing: 'We saw a bridge, and the bridge was high.',
+      tr: 'Bir köprü gördük ve köprü yüksekti.',
+    },
+    {
+      ing: 'She met a clown, and the clown was funny.',
+      tr: 'Bir palyaçoyla tanıştı ve palyaço komikti.',
+    },
+    {
+      ing: 'He bought a clock, and the clock was ticking.',
+      tr: 'Bir saat aldı ve saat tıklıyordu.',
+    },
+    {
+      ing: 'I saw a shadow, and the shadow was moving.',
+      tr: 'Bir gölge gördüm ve gölge hareket ediyordu.',
+    },
+    {
+      ing: 'She picked a dress, and the dress was red.',
+      tr: 'Bir elbise seçti ve elbise kırmızıydı.',
+    },
+    {
+      ing: 'He found a rope, and the rope was strong.',
+      tr: 'Bir ip buldu ve ip güçlüydü.',
+    },
+    {
+      ing: 'We saw a light, and the light was bright.',
+      tr: 'Bir ışık gördük ve ışık parlaktı.',
+    },
+    {
+      ing: 'She took a seat, and the seat was comfortable.',
+      tr: 'Bir koltuk aldı ve koltuk rahattı.',
+    },
+    {
+      ing: 'He bought a kite, and the kite was flying.',
+      tr: 'Bir uçurtma aldı ve uçurtma uçuyordu.',
+    },
+    {
+      ing: 'I saw a leaf, and the leaf was green.',
+      tr: 'Bir yaprak gördüm ve yaprak yeşildi.',
+    },
+    {
+      ing: 'She found a comb, and the comb was broken.',
+      tr: 'Bir tarak buldu ve tarak kırılmıştı.',
+    },
+    {
+      ing: 'He took a walk, and the walk was peaceful.',
+      tr: 'Bir yürüyüş yaptı ve yürüyüş huzurluydu.',
+    },
+    {
+      ing: 'We saw a star, and the star was twinkling.',
+      tr: 'Bir yıldız gördük ve yıldız parlıyordu.',
+    },
+    {
+      ing: 'She bought a gift, and the gift was thoughtful.',
+      tr: 'Bir hediye aldı ve hediye düşünceliydi.',
+    },
+    {
+      ing: 'I found a note, and the note was sweet.',
+      tr: 'Bir not buldum ve not tatlıydı.',
+    },
+    {
+      ing: 'He saw a frog, and the frog was jumping.',
+      tr: 'Bir kurbağa gördü ve kurbağa zıplıyordu.',
+    },
+  ],
+};
+
+export const AdjectivesAdverbsTranslationSentences = {
+  Adjectives: [
+    {ing: 'He is very happy today.', tr: 'O, bugün çok mutlu.'},
+    {
+      ing: 'The sky looks incredibly beautiful.',
+      tr: 'Gökyüzü inanılmaz derecede güzel görünüyor.',
+    },
+    {
+      ing: 'She became extremely tired after the race.',
+      tr: 'Yarıştan sonra son derece yorgun oldu.',
+    },
+    {
+      ing: 'The soup tastes quite delicious.',
+      tr: 'Çorba oldukça lezzetli tadıyor.',
+    },
+    {ing: 'He seems really angry.', tr: 'O, gerçekten kızgın görünüyor.'},
+    {ing: 'The house is absolutely huge.', tr: 'Ev kesinlikle çok büyük.'},
+    {
+      ing: 'She gets quite nervous before tests.',
+      tr: 'Testlerden önce oldukça gergin oluyor.',
+    },
+    {
+      ing: 'The flowers are amazingly colorful.',
+      tr: 'Çiçekler inanılmaz derecede renkli.',
+    },
+    {
+      ing: 'He appears very confident in his speech.',
+      tr: 'Konuşmasında çok özgüvenli görünüyor.',
+    },
+    {ing: 'The weather is terribly cold.', tr: 'Hava korkunç derecede soğuk.'},
+    {
+      ing: 'You seem completely surprised.',
+      tr: 'Tamamen şaşırmış görünüyorsun.',
+    },
+    {
+      ing: 'She looks very elegant in that dress.',
+      tr: 'O elbisede çok zarif görünüyor.',
+    },
+    {
+      ing: 'The movie became really boring halfway through.',
+      tr: 'Filmin yarısında gerçekten sıkıcı oldu.',
+    },
+    {
+      ing: 'He is always so energetic in the mornings.',
+      tr: 'Sabahları her zaman çok enerjik.',
+    },
+    {
+      ing: 'The food was incredibly tasty.',
+      tr: 'Yemek inanılmaz derecede lezzetliydi.',
+    },
+    {
+      ing: 'He got extremely angry when he heard the news.',
+      tr: 'Haberi duyduğunda son derece kızdı.',
+    },
+    {
+      ing: 'She appears quite shy around strangers.',
+      tr: 'Yabancıların yanında oldukça utangaç görünüyor.',
+    },
+    {
+      ing: 'The sky is surprisingly clear tonight.',
+      tr: 'Gökyüzü bu gece şaşırtıcı derecede açık.',
+    },
+    {
+      ing: 'He looks very tired after work.',
+      tr: 'İşten sonra çok yorgun görünüyor.',
+    },
+    {
+      ing: 'She is completely ready for the exam.',
+      tr: 'Sınav için tamamen hazır.',
+    },
+    {
+      ing: 'The lake seems very calm this morning.',
+      tr: 'Göl bu sabah çok sakin görünüyor.',
+    },
+    {
+      ing: 'He became incredibly strong after his training.',
+      tr: 'Antrenmanından sonra inanılmaz derecede güçlü oldu.',
+    },
+    {
+      ing: 'The flowers look really fresh today.',
+      tr: 'Çiçekler bugün gerçekten taze görünüyor.',
+    },
+    {
+      ing: 'She got very emotional during the movie.',
+      tr: 'Film sırasında çok duygusal oldu.',
+    },
+    {
+      ing: 'The sunset appears absolutely stunning.',
+      tr: 'Gün batımı kesinlikle büyüleyici görünüyor.',
+    },
+    {ing: 'The cat is quite playful today.', tr: 'Kedi bugün oldukça oyuncu.'},
+    {
+      ing: 'The cake seems surprisingly delicious.',
+      tr: 'Kek şaşırtıcı derecede lezzetli görünüyor.',
+    },
+    {
+      ing: 'He looks incredibly focused on his work.',
+      tr: 'İşine inanılmaz derecede odaklanmış görünüyor.',
+    },
+    {
+      ing: 'The weather became terribly hot in the afternoon.',
+      tr: 'Öğleden sonra hava korkunç derecede sıcak oldu.',
+    },
+    {
+      ing: 'She is absolutely sure about her decision.',
+      tr: 'Kararı hakkında kesinlikle emin.',
+    },
+    {ing: 'The soup tastes very spicy.', tr: 'Çorba çok acı tadıyor.'},
+    {
+      ing: 'He seems incredibly happy with his new job.',
+      tr: 'Yeni işiyle inanılmaz derecede mutlu görünüyor.',
+    },
+    {
+      ing: 'The garden appears completely green after the rain.',
+      tr: 'Yağmurdan sonra bahçe tamamen yeşil görünüyor.',
+    },
+    {
+      ing: 'She got very quiet when we started talking.',
+      tr: 'Konuşmaya başladığımızda çok sessiz oldu.',
+    },
+    {ing: 'The room is terribly messy.', tr: 'Oda korkunç derecede dağınık.'},
+    {
+      ing: 'He looks really uncomfortable in that chair.',
+      tr: 'O sandalyede gerçekten rahatsız görünüyor.',
+    },
+    {
+      ing: 'The car became extremely fast after the upgrade.',
+      tr: 'Yükseltmeden sonra araba son derece hızlı oldu.',
+    },
+    {ing: 'The painting seems quite old.', tr: 'Resim oldukça eski görünüyor.'},
+    {
+      ing: 'She is extremely talented in music.',
+      tr: 'Müzikte son derece yetenekli.',
+    },
+    {ing: 'The lake looks very deep.', tr: 'Göl çok derin görünüyor.'},
+    {
+      ing: 'He appears very calm in stressful situations.',
+      tr: 'Stresli durumlarda çok sakin görünüyor.',
+    },
+    {
+      ing: 'The flowers are surprisingly beautiful this year.',
+      tr: 'Çiçekler bu yıl şaşırtıcı derecede güzel.',
+    },
+    {
+      ing: 'She became really friendly with everyone.',
+      tr: 'Herkesle gerçekten arkadaş canlısı oldu.',
+    },
+    {
+      ing: 'The city looks incredibly busy during rush hour.',
+      tr: 'Yoğun saatlerde şehir inanılmaz derecede meşgul görünüyor.',
+    },
+    {
+      ing: 'He seems completely lost in his thoughts.',
+      tr: 'Düşüncelerinde tamamen kaybolmuş görünüyor.',
+    },
+    {
+      ing: 'The mountain appears very high from here.',
+      tr: 'Dağ buradan çok yüksek görünüyor.',
+    },
+    {
+      ing: 'She got quite upset about the news.',
+      tr: 'Haberlerden oldukça üzüldü.',
+    },
+    {
+      ing: 'The soup tastes really salty.',
+      tr: 'Çorba gerçekten tuzlu tadıyor.',
+    },
+    {
+      ing: 'He is very brave in difficult situations.',
+      tr: 'Zor durumlarda çok cesur.',
+    },
+    {
+      ing: 'The river looks very clean after the rain.',
+      tr: 'Yağmurdan sonra nehir çok temiz görünüyor.',
+    },
+    {
+      ing: 'The weather became extremely windy.',
+      tr: 'Hava son derece rüzgarlı oldu.',
+    },
+    {
+      ing: 'She is absolutely certain about her choice.',
+      tr: 'Seçimi hakkında kesinlikle emin.',
+    },
+    {
+      ing: 'The cake seems very soft and fresh.',
+      tr: 'Kek çok yumuşak ve taze görünüyor.',
+    },
+    {
+      ing: 'He got very excited about the trip.',
+      tr: 'Gezi hakkında çok heyecanlandı.',
+    },
+    {
+      ing: 'The dog appears very loyal to its owner.',
+      tr: 'Köpek sahibine çok sadık görünüyor.',
+    },
+    {
+      ing: 'The garden looks incredibly beautiful in spring.',
+      tr: 'Bahçe baharda inanılmaz derecede güzel görünüyor.',
+    },
+    {
+      ing: 'She became very quiet after the argument.',
+      tr: 'Tartışmadan sonra çok sessiz oldu.',
+    },
+    {
+      ing: 'The book seems really interesting.',
+      tr: 'Kitap gerçekten ilginç görünüyor.',
+    },
+    {
+      ing: 'He looks quite healthy after the exercise.',
+      tr: 'Egzersizden sonra oldukça sağlıklı görünüyor.',
+    },
+    {
+      ing: 'The room is completely dark without the lights.',
+      tr: 'Işıklar olmadan oda tamamen karanlık.',
+    },
+    {
+      ing: 'The sky appears really cloudy today.',
+      tr: 'Gökyüzü bugün gerçekten bulutlu görünüyor.',
+    },
+    {
+      ing: 'She got extremely nervous before the presentation.',
+      tr: 'Sunumdan önce son derece gergin oldu.',
+    },
+    {
+      ing: 'The movie is incredibly thrilling.',
+      tr: 'Film inanılmaz derecede heyecan verici.',
+    },
+    {
+      ing: 'He seems absolutely certain about his answer.',
+      tr: 'Cevabı hakkında kesinlikle emin görünüyor.',
+    },
+    {
+      ing: 'The weather became very chilly in the evening.',
+      tr: 'Akşam hava çok serin oldu.',
+    },
+    {
+      ing: 'The food looks really delicious on the table.',
+      tr: 'Yemek masada gerçekten lezzetli görünüyor.',
+    },
+    {
+      ing: 'She appears very confident in her new role.',
+      tr: 'Yeni rolünde çok özgüvenli görünüyor.',
+    },
+    {
+      ing: 'The water tastes surprisingly sweet.',
+      tr: 'Su şaşırtıcı derecede tatlı tadıyor.',
+    },
+    {ing: 'He got very lucky with the game.', tr: 'Oyunda çok şanslı oldu.'},
+    {
+      ing: 'The garden seems quite peaceful today.',
+      tr: 'Bahçe bugün oldukça huzurlu görünüyor.',
+    },
+    {
+      ing: 'She looks really proud of her achievement.',
+      tr: 'Başarısından gerçekten gururlu görünüyor.',
+    },
+    {
+      ing: 'The flowers appear completely vibrant in color.',
+      tr: 'Çiçekler tamamen canlı renkte görünüyor.',
+    },
+    {ing: 'He became very good at cooking.', tr: 'Yemek yapmada çok iyi oldu.'},
+    {
+      ing: 'The lake looks really cold in winter.',
+      tr: 'Göl kışın gerçekten soğuk görünüyor.',
+    },
+    {
+      ing: 'She seems quite unsure about her answer.',
+      tr: 'Cevabı hakkında oldukça emin değil görünüyor.',
+    },
+    {
+      ing: 'The cake tastes absolutely amazing.',
+      tr: 'Kek kesinlikle harika tadıyor.',
+    },
+    {
+      ing: 'He appears really strong after the workout.',
+      tr: 'Egzersizden sonra gerçekten güçlü görünüyor.',
+    },
+    {
+      ing: 'The sky looks very dark before the storm.',
+      tr: 'Fırtınadan önce gökyüzü çok karanlık görünüyor.',
+    },
+    {
+      ing: 'She is very determined to succeed.',
+      tr: 'Başarılı olmak için çok kararlı.',
+    },
+    {
+      ing: 'The garden became surprisingly green this year.',
+      tr: 'Bahçe bu yıl şaşırtıcı derecede yeşil oldu.',
+    },
+    {
+      ing: 'He got incredibly tired after the hike.',
+      tr: 'Yürüyüşten sonra inanılmaz derecede yorgun oldu.',
+    },
+    {
+      ing: 'The weather appears quite unpredictable.',
+      tr: 'Hava oldukça tahmin edilemez görünüyor.',
+    },
+    {
+      ing: 'The soup looks really thick.',
+      tr: 'Çorba gerçekten koyu görünüyor.',
+    },
+    {
+      ing: 'She seems very delighted with her new shoes.',
+      tr: 'Yeni ayakkabılarından çok memnun görünüyor.',
+    },
+    {
+      ing: 'The mountain appears incredibly tall.',
+      tr: 'Dağ inanılmaz derecede uzun görünüyor.',
+    },
+    {
+      ing: 'He became extremely skilled in drawing.',
+      tr: 'Çizimde son derece yetenekli oldu.',
+    },
+    {
+      ing: 'The river looks surprisingly wide today.',
+      tr: 'Nehir bugün şaşırtıcı derecede geniş görünüyor.',
+    },
+    {
+      ing: 'She got very quiet when the teacher entered.',
+      tr: 'Öğretmen girdiğinde çok sessiz oldu.',
+    },
+    {
+      ing: 'The sky seems absolutely endless.',
+      tr: 'Gökyüzü kesinlikle sonsuz görünüyor.',
+    },
+    {
+      ing: 'He is completely honest with his friends.',
+      tr: 'Arkadaşlarına karşı tamamen dürüst.',
+    },
+    {
+      ing: 'The cake looks very soft and moist.',
+      tr: 'Kek çok yumuşak ve nemli görünüyor.',
+    },
+    {
+      ing: 'She became incredibly happy after hearing the news.',
+      tr: 'Haberi duyduktan sonra inanılmaz derecede mutlu oldu.',
+    },
+    {
+      ing: 'The forest appears quite dense from here.',
+      tr: 'Orman buradan oldukça yoğun görünüyor.',
+    },
+    {
+      ing: 'The soup is really hot, be careful.',
+      tr: 'Çorba gerçekten sıcak, dikkat et.',
+    },
+    {
+      ing: 'He looks very serious about his work.',
+      tr: 'İşi konusunda çok ciddi görünüyor.',
+    },
+    {
+      ing: 'The house appears absolutely modern.',
+      tr: 'Ev kesinlikle modern görünüyor.',
+    },
+    {
+      ing: 'She got very curious about the mystery.',
+      tr: 'Gizem hakkında çok meraklandı.',
+    },
+    {
+      ing: 'The car seems incredibly fast on the highway.',
+      tr: 'Araba otoyolda inanılmaz derecede hızlı görünüyor.',
+    },
+    {
+      ing: 'He looks quite comfortable in that chair.',
+      tr: 'O sandalyede oldukça rahat görünüyor.',
+    },
+    {
+      ing: 'The weather became surprisingly warm in March.',
+      tr: 'Mart ayında hava şaşırtıcı derecede sıcak oldu.',
+    },
+    {
+      ing: 'The sky looks incredibly clear after the rain.',
+      tr: 'Yağmurdan sonra gökyüzü inanılmaz derecede açık görünüyor.',
+    },
+    {
+      ing: 'She seems very interested in the new project.',
+      tr: 'Yeni proje ile çok ilgilenmiş görünüyor.',
+    },
+    {
+      ing: 'He got extremely jealous when he saw them together.',
+      tr: 'Onları birlikte gördüğünde son derece kıskanç oldu.',
+    },
+    {
+      ing: 'The river appears quite shallow at this point.',
+      tr: 'Nehir bu noktada oldukça sığ görünüyor.',
+    },
+    {ing: 'The soup is very rich in flavor.', tr: 'Çorba çok zengin tatta.'},
+    {
+      ing: 'She looks really cheerful today.',
+      tr: 'Bugün gerçekten neşeli görünüyor.',
+    },
+    {
+      ing: 'He became absolutely furious after the argument.',
+      tr: 'Tartışmadan sonra kesinlikle öfkeli oldu.',
+    },
+    {
+      ing: 'The car seems quite old but still runs well.',
+      tr: 'Araba oldukça eski görünüyor ama hâlâ iyi çalışıyor.',
+    },
+    {
+      ing: 'The garden appears completely neat and tidy.',
+      tr: 'Bahçe tamamen düzenli ve tertipli görünüyor.',
+    },
+    {
+      ing: 'She is extremely talented in painting.',
+      tr: 'Resim yapmada son derece yetenekli.',
+    },
+    {
+      ing: 'The book became incredibly popular last year.',
+      tr: 'Kitap geçen yıl inanılmaz derecede popüler oldu.',
+    },
+    {
+      ing: 'He looks very uncomfortable in his new shoes.',
+      tr: 'Yeni ayakkabılarında çok rahatsız görünüyor.',
+    },
+    {
+      ing: 'The weather seems terribly unpredictable lately.',
+      tr: 'Son zamanlarda hava korkunç derecede tahmin edilemez görünüyor.',
+    },
+    {
+      ing: 'The flowers appear quite colorful in the sunlight.',
+      tr: 'Çiçekler güneş ışığında oldukça renkli görünüyor.',
+    },
+    {
+      ing: 'She got really anxious before the interview.',
+      tr: 'Mülakat öncesi gerçekten kaygılı oldu.',
+    },
+    {
+      ing: 'The cake tastes absolutely delicious with chocolate.',
+      tr: 'Kek çikolata ile kesinlikle lezzetli tadıyor.',
+    },
+    {
+      ing: 'He seems incredibly proud of his achievements.',
+      tr: 'Başarılarından inanılmaz derecede gururlu görünüyor.',
+    },
+    {
+      ing: 'The lake looks very peaceful in the evening.',
+      tr: 'Göl akşamları çok huzurlu görünüyor.',
+    },
+    {
+      ing: 'The city appears surprisingly quiet at night.',
+      tr: 'Şehir geceleyin şaşırtıcı derecede sessiz görünüyor.',
+    },
+    {
+      ing: 'She became quite passionate about her new hobby.',
+      tr: 'Yeni hobisi konusunda oldukça tutkulu oldu.',
+    },
+    {
+      ing: 'The sky looks really bright during the day.',
+      tr: 'Gündüz gökyüzü gerçekten parlak görünüyor.',
+    },
+    {
+      ing: 'He is extremely cautious while driving.',
+      tr: 'Araba kullanırken son derece dikkatli.',
+    },
+    {
+      ing: 'The soup seems quite bland without spices.',
+      tr: 'Çorba baharatsız oldukça tatsız görünüyor.',
+    },
+    {
+      ing: 'The weather became incredibly cold last night.',
+      tr: 'Geçen gece hava inanılmaz derecede soğuk oldu.',
+    },
+    {
+      ing: 'She looks very graceful when she dances.',
+      tr: 'Dans ederken çok zarif görünüyor.',
+    },
+    {
+      ing: 'The mountain appears incredibly high from this view.',
+      tr: 'Dağ bu açıdan inanılmaz derecede yüksek görünüyor.',
+    },
+    {
+      ing: 'He got really motivated after the meeting.',
+      tr: 'Toplantıdan sonra gerçekten motive oldu.',
+    },
+    {
+      ing: 'The food tastes surprisingly good today.',
+      tr: 'Yemek bugün şaşırtıcı derecede iyi tadıyor.',
+    },
+    {
+      ing: 'The river seems very calm in the early morning.',
+      tr: 'Nehir erken sabah saatlerinde çok sakin görünüyor.',
+    },
+    {
+      ing: 'She appears absolutely confident in her abilities.',
+      tr: 'Yeteneklerinden kesinlikle emin görünüyor.',
+    },
+    {
+      ing: 'The book became really famous among teenagers.',
+      tr: 'Kitap gençler arasında gerçekten ünlü oldu.',
+    },
+    {
+      ing: 'He looks incredibly focused on his goals.',
+      tr: 'Hedeflerine inanılmaz derecede odaklanmış görünüyor.',
+    },
+    {
+      ing: 'The garden is quite colorful in spring.',
+      tr: 'Bahçe baharda oldukça renkli.',
+    },
+    {
+      ing: 'The dog seems very loyal to its owner.',
+      tr: 'Köpek sahibine çok sadık görünüyor.',
+    },
+    {
+      ing: 'She became extremely skilled in cooking.',
+      tr: 'Yemek yapmada son derece yetenekli oldu.',
+    },
+    {
+      ing: 'The flowers look really fresh after the rain.',
+      tr: 'Çiçekler yağmurdan sonra gerçekten taze görünüyor.',
+    },
+    {
+      ing: 'He is absolutely brilliant at mathematics.',
+      tr: 'Matematikte kesinlikle parlak.',
+    },
+    {
+      ing: 'The lake seems surprisingly large from here.',
+      tr: 'Göl buradan şaşırtıcı derecede büyük görünüyor.',
+    },
+    {
+      ing: 'She appears very polite and friendly.',
+      tr: 'Çok nazik ve arkadaş canlısı görünüyor.',
+    },
+    {
+      ing: 'The cake became really soft and fluffy.',
+      tr: 'Kek gerçekten yumuşak ve kabarık oldu.',
+    },
+    {
+      ing: 'He looks quite satisfied with his progress.',
+      tr: 'Gelişimiyle oldukça memnun görünüyor.',
+    },
+    {ing: 'The mountain appears very steep.', tr: 'Dağ çok dik görünüyor.'},
+    {
+      ing: 'The car seems very fast on the highway.',
+      tr: 'Araba otoyolda çok hızlı görünüyor.',
+    },
+    {
+      ing: 'She got very confident after the training.',
+      tr: 'Eğitimden sonra çok özgüvenli oldu.',
+    },
+    {
+      ing: 'The sky looks incredibly bright this morning.',
+      tr: 'Gökyüzü bu sabah inanılmaz derecede parlak görünüyor.',
+    },
+    {ing: 'The food is really nutritious.', tr: 'Yemek gerçekten besleyici.'},
+    {
+      ing: 'He appears completely ready for the competition.',
+      tr: 'Yarışma için tamamen hazır görünüyor.',
+    },
+    {
+      ing: 'The flowers seem incredibly fragrant.',
+      tr: 'Çiçekler inanılmaz derecede güzel kokulu görünüyor.',
+    },
+    {
+      ing: 'She became quite emotional during the speech.',
+      tr: 'Konuşma sırasında oldukça duygusal oldu.',
+    },
+    {
+      ing: 'The weather looks surprisingly clear today.',
+      tr: 'Hava bugün şaşırtıcı derecede açık görünüyor.',
+    },
+    {
+      ing: 'He is extremely creative in his projects.',
+      tr: 'Projelerinde son derece yaratıcı.',
+    },
+    {
+      ing: 'The cake tastes very sweet with honey.',
+      tr: 'Kek bal ile çok tatlı tadıyor.',
+    },
+    {
+      ing: 'The river seems really deep in the middle.',
+      tr: 'Nehir ortasında gerçekten derin görünüyor.',
+    },
+    {
+      ing: 'She got incredibly curious about the mystery.',
+      tr: 'Gizem hakkında inanılmaz derecede meraklandı.',
+    },
+    {
+      ing: 'The sky looks very grey before the storm.',
+      tr: 'Fırtınadan önce gökyüzü çok gri görünüyor.',
+    },
+    {
+      ing: 'He appears really calm under pressure.',
+      tr: 'Baskı altında gerçekten sakin görünüyor.',
+    },
+    {
+      ing: 'The weather became absolutely terrible yesterday.',
+      tr: 'Dün hava kesinlikle korkunç oldu.',
+    },
+    {
+      ing: 'The car looks very shiny after washing.',
+      tr: 'Yıkandıktan sonra araba çok parlak görünüyor.',
+    },
+    {
+      ing: 'She is completely honest about her feelings.',
+      tr: 'Duyguları hakkında tamamen dürüst.',
+    },
+    {
+      ing: 'The cake seems incredibly soft and moist.',
+      tr: 'Kek inanılmaz derecede yumuşak ve nemli görünüyor.',
+    },
+    {
+      ing: 'He looks extremely serious during meetings.',
+      tr: 'Toplantılar sırasında son derece ciddi görünüyor.',
+    },
+    {
+      ing: 'The garden became really green after the rain.',
+      tr: 'Yağmurdan sonra bahçe gerçekten yeşil oldu.',
+    },
+    {
+      ing: 'The flowers appear absolutely beautiful in spring.',
+      tr: 'Çiçekler baharda kesinlikle güzel görünüyor.',
+    },
+    {
+      ing: 'She got very emotional when she saw the photo.',
+      tr: 'Fotoğrafı gördüğünde çok duygusal oldu.',
+    },
+    {
+      ing: 'The book is surprisingly informative.',
+      tr: 'Kitap şaşırtıcı derecede bilgilendirici.',
+    },
+    {
+      ing: 'The dog looks really tired after the walk.',
+      tr: 'Yürüyüşten sonra köpek gerçekten yorgun görünüyor.',
+    },
+    {
+      ing: 'He seems very reliable as a friend.',
+      tr: 'Bir arkadaş olarak çok güvenilir görünüyor.',
+    },
+    {
+      ing: 'The sky appears incredibly colorful at sunset.',
+      tr: 'Gün batımında gökyüzü inanılmaz derecede renkli görünüyor.',
+    },
+    {
+      ing: 'She became extremely focused on her studies.',
+      tr: 'Derslerine son derece odaklanmış oldu.',
+    },
+    {
+      ing: 'The soup tastes really spicy and hot.',
+      tr: 'Çorba gerçekten acı ve sıcak tadıyor.',
+    },
+    {
+      ing: 'He looks very confident in front of the crowd.',
+      tr: 'Kalabalığın önünde çok özgüvenli görünüyor.',
+    },
+    {
+      ing: 'The lake seems very large and wide.',
+      tr: 'Göl çok büyük ve geniş görünüyor.',
+    },
+    {
+      ing: 'She appears quite upset about the news.',
+      tr: 'Haberler hakkında oldukça üzgün görünüyor.',
+    },
+    {
+      ing: 'The weather became terribly rainy yesterday.',
+      tr: 'Dün hava korkunç derecede yağmurluydu.',
+    },
+    {
+      ing: 'He is absolutely brilliant at chess.',
+      tr: 'Satrançta kesinlikle çok yetenekli.',
+    },
+    {
+      ing: 'The cake looks really appetizing.',
+      tr: 'Kek gerçekten iştah açıcı görünüyor.',
+    },
+    {
+      ing: 'The flowers seem incredibly delicate.',
+      tr: 'Çiçekler inanılmaz derecede narin görünüyor.',
+    },
+    {
+      ing: 'She got very excited about the concert.',
+      tr: 'Konser hakkında çok heyecanlandı.',
+    },
+    {
+      ing: 'The sky looks incredibly dark tonight.',
+      tr: 'Gökyüzü bu gece inanılmaz derecede karanlık görünüyor.',
+    },
+    {
+      ing: 'He appears completely relaxed at the beach.',
+      tr: 'Plajda tamamen rahatlamış görünüyor.',
+    },
+    {
+      ing: 'The dog seems quite playful this morning.',
+      tr: 'Köpek bu sabah oldukça oyuncu görünüyor.',
+    },
+    {
+      ing: 'The cake became very soft in the oven.',
+      tr: 'Kek fırında çok yumuşak oldu.',
+    },
+    {
+      ing: 'She looks really satisfied with her work.',
+      tr: 'İşinden gerçekten memnun görünüyor.',
+    },
+    {
+      ing: 'The weather appears surprisingly mild today.',
+      tr: 'Hava bugün şaşırtıcı derecede yumuşak görünüyor.',
+    },
+    {
+      ing: 'He is extremely thoughtful in his actions.',
+      tr: 'Davranışlarında son derece düşünceli.',
+    },
+    {
+      ing: 'The soup seems quite hot and delicious.',
+      tr: 'Çorba oldukça sıcak ve lezzetli görünüyor.',
+    },
+    {
+      ing: 'The sky looks incredibly clear after the storm.',
+      tr: 'Fırtınadan sonra gökyüzü inanılmaz derecede açık görünüyor.',
+    },
+    {
+      ing: 'She got really upset about the argument.',
+      tr: 'Tartışma hakkında gerçekten üzüldü.',
+    },
+    {
+      ing: 'The garden became absolutely stunning in spring.',
+      tr: 'Bahar mevsiminde bahçe kesinlikle harika oldu.',
+    },
+    {
+      ing: 'The flowers appear very bright in color.',
+      tr: 'Çiçekler çok parlak renkte görünüyor.',
+    },
+    {
+      ing: 'He seems quite interested in the presentation.',
+      tr: 'Sunuma oldukça ilgi duyuyor görünüyor.',
+    },
+    {
+      ing: 'The river looks very cold in the winter.',
+      tr: 'Nehir kışın çok soğuk görünüyor.',
+    },
+    {
+      ing: 'She appears extremely happy with her new job.',
+      tr: 'Yeni işiyle son derece mutlu görünüyor.',
+    },
+    {
+      ing: 'The cake seems incredibly fluffy and light.',
+      tr: 'Kek inanılmaz derecede kabarık ve hafif görünüyor.',
+    },
+    {
+      ing: 'He is very determined to finish the project.',
+      tr: 'Projeyi bitirmek konusunda çok kararlı.',
+    },
+    {
+      ing: 'The sky looks very colorful this evening.',
+      tr: 'Bu akşam gökyüzü çok renkli görünüyor.',
+    },
+    {
+      ing: 'She became quite passionate about her new goal.',
+      tr: 'Yeni hedefi konusunda oldukça tutkulu oldu.',
+    },
+    {
+      ing: 'The lake appears very peaceful and quiet.',
+      tr: 'Göl çok huzurlu ve sessiz görünüyor.',
+    },
+    {
+      ing: 'The flowers seem surprisingly fresh after the rain.',
+      tr: 'Yağmurdan sonra çiçekler şaşırtıcı derecede taze görünüyor.',
+    },
+    {
+      ing: 'He looks absolutely thrilled with his success.',
+      tr: 'Başarısıyla kesinlikle çok mutlu görünüyor.',
+    },
+  ],
+  AdjectivesAdverbs: [
+    {
+      ing: 'She was so tired that she fell asleep immediately.',
+      tr: 'O kadar yorgundu ki hemen uyuyakaldı.',
+    },
+    {
+      ing: "It was so hot that we couldn't go outside.",
+      tr: 'Hava o kadar sıcaktı ki dışarı çıkamadık.',
+    },
+    {
+      ing: 'The movie was so boring that I left the theater.',
+      tr: 'Film o kadar sıkıcıydı ki sinemayı terk ettim.',
+    },
+    {
+      ing: 'He ran so fast that no one could catch him.',
+      tr: 'O kadar hızlı koştu ki kimse onu yakalayamadı.',
+    },
+    {
+      ing: 'The cake was so delicious that I ate two pieces.',
+      tr: 'Kek o kadar lezzetliydi ki iki dilim yedim.',
+    },
+    {
+      ing: 'She was so happy that she started dancing.',
+      tr: 'O kadar mutluydu ki dans etmeye başladı.',
+    },
+    {
+      ing: 'The dog was so hungry that it ate everything.',
+      tr: 'Köpek o kadar açtı ki her şeyi yedi.',
+    },
+    {
+      ing: "It was so dark that I couldn't see anything.",
+      tr: 'O kadar karanlıktı ki hiçbir şey göremedim.',
+    },
+    {
+      ing: 'The song was so beautiful that I listened twice.',
+      tr: 'Şarkı o kadar güzeldi ki iki kez dinledim.',
+    },
+    {
+      ing: "He was so angry that he couldn't speak.",
+      tr: 'O kadar kızgındı ki konuşamadı.',
+    },
+    {
+      ing: 'The weather was so cold that we stayed inside.',
+      tr: 'Hava o kadar soğuktu ki içeride kaldık.',
+    },
+    {
+      ing: 'She was so nervous that her hands were shaking.',
+      tr: 'O kadar gergindi ki elleri titriyordu.',
+    },
+    {
+      ing: 'The test was so difficult that many students failed.',
+      tr: 'Test o kadar zordu ki birçok öğrenci kaldı.',
+    },
+    {
+      ing: 'He was so tall that he touched the ceiling.',
+      tr: 'O kadar uzundu ki tavana dokundu.',
+    },
+    {
+      ing: "The book was so interesting that I couldn't put it down.",
+      tr: 'Kitap o kadar ilginçti ki bırakamadım.',
+    },
+    {
+      ing: 'The soup was so spicy that I needed water.',
+      tr: 'Çorba o kadar acıydı ki suya ihtiyaç duydum.',
+    },
+    {
+      ing: 'She was so kind that everyone liked her.',
+      tr: 'O kadar nazikti ki herkes onu sevdi.',
+    },
+    {
+      ing: "It was so noisy that I couldn't concentrate.",
+      tr: 'O kadar gürültülüydü ki konsantre olamadım.',
+    },
+    {
+      ing: "He was so busy that he didn't have time to eat.",
+      tr: 'O kadar meşguldü ki yemek yemeye vakti yoktu.',
+    },
+    {
+      ing: 'The painting was so detailed that it looked real.',
+      tr: 'Resim o kadar detaylıydı ki gerçek gibi görünüyordu.',
+    },
+    {
+      ing: "The child was so excited that he couldn't sit still.",
+      tr: 'Çocuk o kadar heyecanlıydı ki yerinde duramıyordu.',
+    },
+    {
+      ing: 'The car was so old that it broke down often.',
+      tr: 'Araba o kadar eskiydi ki sık sık bozuluyordu.',
+    },
+    {
+      ing: 'She was so intelligent that she solved the puzzle quickly.',
+      tr: 'O kadar zekiydi ki bulmacayı hızlıca çözdü.',
+    },
+    {
+      ing: 'The house was so big that we got lost inside.',
+      tr: 'Ev o kadar büyüktü ki içinde kaybolduk.',
+    },
+    {
+      ing: "The mountain was so high that we couldn't reach the top.",
+      tr: 'Dağ o kadar yüksekti ki zirveye ulaşamadık.',
+    },
+    {
+      ing: 'It was so rainy that the streets were flooded.',
+      tr: 'O kadar yağmurluydu ki sokaklar su altında kaldı.',
+    },
+    {
+      ing: 'The teacher was so strict that no one dared to speak.',
+      tr: 'Öğretmen o kadar katıydı ki kimse konuşmaya cesaret edemedi.',
+    },
+    {
+      ing: "The dessert was so sweet that I couldn't finish it.",
+      tr: 'Tatlı o kadar tatlıydı ki bitiremedim.',
+    },
+    {
+      ing: "He was so tired that he couldn't walk anymore.",
+      tr: 'O kadar yorgundu ki artık yürüyemedi.',
+    },
+    {
+      ing: 'The movie was so long that we took a break.',
+      tr: 'Film o kadar uzundu ki bir ara verdik.',
+    },
+    {
+      ing: 'The ocean was so calm that we saw our reflection.',
+      tr: 'Okyanus o kadar sakindi ki yansımamızı gördük.',
+    },
+    {
+      ing: 'The test was so easy that everyone passed.',
+      tr: 'Test o kadar kolaydı ki herkes geçti.',
+    },
+    {
+      ing: 'It was so late that we decided to stay at home.',
+      tr: 'O kadar geç olmuştu ki evde kalmaya karar verdik.',
+    },
+    {
+      ing: 'The cat was so small that it fit in my hand.',
+      tr: 'Kedi o kadar küçüktü ki avucuma sığdı.',
+    },
+    {
+      ing: 'The wind was so strong that it knocked down trees.',
+      tr: 'Rüzgar o kadar güçlüydü ki ağaçları devirdi.',
+    },
+    {
+      ing: 'He was so brave that he saved the child.',
+      tr: 'O kadar cesurdu ki çocuğu kurtardı.',
+    },
+    {
+      ing: 'She was so funny that everyone laughed.',
+      tr: 'O kadar komikti ki herkes güldü.',
+    },
+    {
+      ing: 'The day was so sunny that we went to the beach.',
+      tr: 'Gün o kadar güneşliydi ki sahile gittik.',
+    },
+    {
+      ing: 'The music was so loud that we had to leave.',
+      tr: 'Müzik o kadar yüksekti ki ayrılmak zorunda kaldık.',
+    },
+    {
+      ing: 'The flower was so pretty that I took a photo.',
+      tr: 'Çiçek o kadar güzeldi ki fotoğrafını çektim.',
+    },
+    {
+      ing: "The hill was so steep that we couldn't climb it.",
+      tr: 'Tepe o kadar dikti ki tırmanamadık.',
+    },
+    {
+      ing: 'The water was so clear that we saw the fish.',
+      tr: 'Su o kadar berraktı ki balıkları gördük.',
+    },
+    {
+      ing: 'She was so polite that everyone respected her.',
+      tr: 'O kadar kibardı ki herkes ona saygı duydu.',
+    },
+    {
+      ing: 'The fire was so hot that we stayed far away.',
+      tr: 'Ateş o kadar sıcaktı ki uzak durduk.',
+    },
+    {
+      ing: 'He was so strong that he lifted the heavy box easily.',
+      tr: 'O kadar güçlüydü ki ağır kutuyu kolayca kaldırdı.',
+    },
+    {
+      ing: 'The garden was so beautiful that we stayed all day.',
+      tr: 'Bahçe o kadar güzeldi ki bütün gün kaldık.',
+    },
+    {
+      ing: 'It was so cold that I wore two jackets.',
+      tr: 'O kadar soğuktu ki iki ceket giydim.',
+    },
+    {
+      ing: 'The night was so quiet that we heard the owls.',
+      tr: 'Gece o kadar sessizdi ki baykuşları duyduk.',
+    },
+    {
+      ing: 'The food was so salty that I needed a drink.',
+      tr: 'Yemek o kadar tuzluydu ki içecek bir şey istedim.',
+    },
+    {
+      ing: 'She was so talented that everyone admired her.',
+      tr: 'O kadar yetenekliydi ki herkes ona hayran kaldı.',
+    },
+    {
+      ing: 'It was such a beautiful day that we went for a walk.',
+      tr: 'O kadar güzel bir gündü ki yürüyüşe çıktık.',
+    },
+    {
+      ing: 'She has such a lovely smile that everyone noticed it.',
+      tr: 'O kadar güzel bir gülüşü var ki herkes fark etti.',
+    },
+    {
+      ing: 'He is such a good friend that he always helps me.',
+      tr: 'O kadar iyi bir arkadaş ki her zaman bana yardım eder.',
+    },
+    {
+      ing: 'The cake was such a delicious dessert that I ate three pieces.',
+      tr: 'Kek o kadar lezzetli bir tatlıydı ki üç dilim yedim.',
+    },
+    {
+      ing: 'It was such a big mistake that it caused problems.',
+      tr: 'O kadar büyük bir hataydı ki sorunlara neden oldu.',
+    },
+    {
+      ing: 'She gave such a great performance that the audience clapped for minutes.',
+      tr: 'O kadar harika bir performans sergiledi ki izleyiciler dakikalarca alkışladı.',
+    },
+    {
+      ing: 'The book was such an interesting read that I finished it in a day.',
+      tr: 'Kitap o kadar ilginçti ki bir günde bitirdim.',
+    },
+    {
+      ing: 'They had such a good time at the party that they stayed until late.',
+      tr: 'Partide o kadar iyi vakit geçirdiler ki geç saate kadar kaldılar.',
+    },
+    {
+      ing: 'He made such a loud noise that everyone turned around.',
+      tr: 'O kadar yüksek bir ses çıkardı ki herkes döndü baktı.',
+    },
+    {
+      ing: 'The car is such a fast vehicle that it reaches high speeds easily.',
+      tr: 'Araba o kadar hızlı bir araç ki kolayca yüksek hızlara ulaşıyor.',
+    },
+    {
+      ing: "It was such a cold night that we couldn't sleep.",
+      tr: 'O kadar soğuk bir geceydi ki uyuyamadık.',
+    },
+    {
+      ing: 'She has such a kind heart that she helps everyone in need.',
+      tr: 'O kadar iyi bir kalbi var ki ihtiyaç duyan herkese yardım eder.',
+    },
+    {
+      ing: "He told such a funny joke that we couldn't stop laughing.",
+      tr: 'O kadar komik bir fıkra anlattı ki gülmekten kendimizi alamadık.',
+    },
+    {
+      ing: 'The film was such a boring movie that I almost fell asleep.',
+      tr: 'Film o kadar sıkıcıydı ki neredeyse uyuyacaktım.',
+    },
+    {
+      ing: 'It was such a difficult exam that many students failed.',
+      tr: 'O kadar zor bir sınavdı ki birçok öğrenci kaldı.',
+    },
+    {
+      ing: 'She wore such a beautiful dress that everyone complimented her.',
+      tr: 'O kadar güzel bir elbise giydi ki herkes ona iltifat etti.',
+    },
+    {
+      ing: 'The storm was such a powerful one that it broke trees.',
+      tr: 'Fırtına o kadar güçlüydü ki ağaçları kırdı.',
+    },
+    {
+      ing: 'He is such a talented musician that he can play many instruments.',
+      tr: 'O kadar yetenekli bir müzisyen ki birçok enstrüman çalabiliyor.',
+    },
+    {
+      ing: 'It was such a long journey that we got tired.',
+      tr: 'O kadar uzun bir yolculuktu ki yorulduk.',
+    },
+    {
+      ing: 'They built such a tall building that it can be seen from afar.',
+      tr: 'O kadar yüksek bir bina yaptılar ki uzaktan görülebiliyor.',
+    },
+    {
+      ing: 'The soup was such a hot dish that I burned my tongue.',
+      tr: 'Çorba o kadar sıcaktı ki dilimi yaktım.',
+    },
+    {
+      ing: 'She is such a clever student that she always gets top grades.',
+      tr: 'O kadar zeki bir öğrenci ki her zaman en yüksek notları alır.',
+    },
+    {
+      ing: 'It was such a quiet place that we could hear the birds.',
+      tr: 'O kadar sessiz bir yerdi ki kuşları duyabildik.',
+    },
+    {
+      ing: "He has such a strong voice that he doesn't need a microphone.",
+      tr: 'O kadar güçlü bir sesi var ki mikrofona ihtiyacı yok.',
+    },
+    {
+      ing: 'The problem was such a complicated issue that it took days to solve.',
+      tr: 'Sorun o kadar karmaşıktı ki çözmek günler sürdü.',
+    },
+    {
+      ing: 'They were such good friends that they shared everything.',
+      tr: 'O kadar iyi arkadaşlardı ki her şeyi paylaştılar.',
+    },
+    {
+      ing: 'The event was such a big success that they decided to do it again.',
+      tr: 'Etkinlik o kadar büyük bir başarıydı ki tekrar yapmaya karar verdiler.',
+    },
+    {
+      ing: 'She had such a happy face that it made me smile too.',
+      tr: 'O kadar mutlu bir yüzü vardı ki beni de gülümsetti.',
+    },
+    {
+      ing: 'He gave such an honest answer that everyone believed him.',
+      tr: 'O kadar dürüst bir cevap verdi ki herkes ona inandı.',
+    },
+    {
+      ing: 'The mountain was such a tall peak that it touched the clouds.',
+      tr: 'Dağ o kadar yüksek bir zirveydi ki bulutlara değiyordu.',
+    },
+    {
+      ing: 'It was such a dangerous road that we drove slowly.',
+      tr: 'O kadar tehlikeli bir yoldu ki yavaş sürdük.',
+    },
+    {
+      ing: 'She painted such a beautiful picture that it won an award.',
+      tr: 'O kadar güzel bir resim yaptı ki ödül kazandı.',
+    },
+    {
+      ing: 'The story was such a sad one that I cried.',
+      tr: 'Hikaye o kadar üzücüydü ki ağladım.',
+    },
+    {
+      ing: 'He played such a good game that the team won easily.',
+      tr: 'O kadar iyi bir oyun oynadı ki takım kolayca kazandı.',
+    },
+    {
+      ing: 'It was such a strange dream that I remembered it clearly.',
+      tr: 'O kadar garip bir rüyaydı ki net bir şekilde hatırladım.',
+    },
+    {
+      ing: 'They organized such a wonderful party that everyone had fun.',
+      tr: 'O kadar harika bir parti düzenlediler ki herkes eğlendi.',
+    },
+    {
+      ing: 'She is such a creative artist that her work is admired.',
+      tr: 'O kadar yaratıcı bir sanatçı ki çalışmaları takdir ediliyor.',
+    },
+    {
+      ing: 'The weather was such a perfect day that we went to the beach.',
+      tr: 'Hava o kadar mükemmel bir gündü ki sahile gittik.',
+    },
+    {
+      ing: 'He made such a silly mistake that he laughed at himself.',
+      tr: 'O kadar aptalca bir hata yaptı ki kendine güldü.',
+    },
+    {
+      ing: "It was such a noisy room that I couldn't hear anything.",
+      tr: 'O kadar gürültülü bir odaydı ki hiçbir şey duyamadım.',
+    },
+    {
+      ing: 'She told such an amazing story that we listened carefully.',
+      tr: 'O kadar harika bir hikaye anlattı ki dikkatle dinledik.',
+    },
+    {
+      ing: 'The cat was such a cute pet that the children loved it.',
+      tr: 'Kedi o kadar sevimli bir evcil hayvandı ki çocuklar onu çok sevdi.',
+    },
+    {
+      ing: 'It was such a long walk that my feet hurt.',
+      tr: 'O kadar uzun bir yürüyüştü ki ayaklarım ağrıdı.',
+    },
+    {
+      ing: 'They played such loud music that the neighbors complained.',
+      tr: 'O kadar yüksek sesle müzik çaldılar ki komşular şikayet etti.',
+    },
+    {
+      ing: 'She has such a caring personality that everyone respects her.',
+      tr: 'O kadar şefkatli bir kişiliği var ki herkes ona saygı duyar.',
+    },
+    {
+      ing: 'The meal was such a delicious feast that we ate too much.',
+      tr: 'Yemek o kadar lezzetli bir ziyafetti ki çok fazla yedik.',
+    },
+    {
+      ing: 'He bought such a cheap car that it broke down quickly.',
+      tr: 'O kadar ucuz bir araba aldı ki hemen bozuldu.',
+    },
+    {
+      ing: 'It was such a bright day that we needed sunglasses.',
+      tr: 'O kadar parlak bir gündü ki güneş gözlüğüne ihtiyaç duyduk.',
+    },
+    {
+      ing: 'She wore such elegant clothes that everyone admired her.',
+      tr: 'O kadar zarif kıyafetler giydi ki herkes ona hayran kaldı.',
+    },
+    {
+      ing: "The movie was such an exciting thriller that I couldn't look away.",
+      tr: 'Film o kadar heyecan verici bir gerilimdi ki gözlerimi alamadım.',
+    },
+    {ing: 'The box is too heavy to lift.', tr: 'Kutu kaldırmak için çok ağır.'},
+    {ing: 'It’s too cold to go outside.', tr: 'Dışarı çıkmak için çok soğuk.'},
+    {ing: 'The road is too narrow to pass.', tr: 'Yol geçmek için çok dar.'},
+    {
+      ing: 'He is too young to drive a car.',
+      tr: 'O, araba sürmek için çok genç.',
+    },
+    {ing: 'The tea is too hot to drink.', tr: 'Çay içmek için çok sıcak.'},
+    {
+      ing: 'She is too shy to speak in public.',
+      tr: 'O, halka açık konuşmak için çok utangaç.',
+    },
+    {
+      ing: 'The problem is too difficult to solve.',
+      tr: 'Problem çözmek için çok zor.',
+    },
+    {
+      ing: 'The movie is too boring to watch.',
+      tr: 'Film izlemek için çok sıkıcı.',
+    },
+    {
+      ing: 'He is too busy to come to the party.',
+      tr: 'O, partiye gelmek için çok meşgul.',
+    },
+    {
+      ing: 'The chair is too small to sit on.',
+      tr: 'Sandalye oturmak için çok küçük.',
+    },
+    {
+      ing: 'The task is too complicated to complete.',
+      tr: 'Görev tamamlamak için çok karmaşık.',
+    },
+    {
+      ing: 'It’s too late to call her now.',
+      tr: 'Onu şimdi aramak için çok geç.',
+    },
+    {
+      ing: 'The book is too long to read in one day.',
+      tr: 'Kitap bir günde okumak için çok uzun.',
+    },
+    {
+      ing: 'He was too tired to continue working.',
+      tr: 'O, çalışmaya devam etmek için çok yorgundu.',
+    },
+    {
+      ing: 'The room is too dark to see anything.',
+      tr: 'Oda bir şey görmek için çok karanlık.',
+    },
+    {ing: 'The soup is too salty to eat.', tr: 'Çorba yemek için çok tuzlu.'},
+    {
+      ing: 'She is too weak to carry that bag.',
+      tr: 'O, o çantayı taşımak için çok zayıf.',
+    },
+    {
+      ing: 'The weather is too rainy to go hiking.',
+      tr: 'Hava yürüyüşe çıkmak için çok yağmurlu.',
+    },
+    {
+      ing: 'He was too nervous to give a speech.',
+      tr: 'O, konuşma yapmak için çok gergindi.',
+    },
+    {ing: 'The water is too deep to swim in.', tr: 'Su yüzmek için çok derin.'},
+    {
+      ing: 'The food is too spicy to eat.',
+      tr: 'Yemek yemek için çok baharatlı.',
+    },
+    {
+      ing: 'It’s too noisy to concentrate here.',
+      tr: 'Burada konsantre olmak için çok gürültülü.',
+    },
+    {
+      ing: 'The ladder is too short to reach the roof.',
+      tr: 'Merdiven çatıya ulaşmak için çok kısa.',
+    },
+    {
+      ing: 'She is too tired to walk any further.',
+      tr: 'O, daha fazla yürümek için çok yorgun.',
+    },
+    {
+      ing: 'The instructions are too confusing to understand.',
+      tr: 'Talimatlar anlamak için çok kafa karıştırıcı.',
+    },
+    {
+      ing: 'The wind is too strong to ride a bike.',
+      tr: 'Rüzgar bisiklet sürmek için çok güçlü.',
+    },
+    {
+      ing: 'The sun is too bright to look at directly.',
+      tr: 'Güneş doğrudan bakmak için çok parlak.',
+    },
+    {
+      ing: 'He is too lazy to clean his room.',
+      tr: 'O, odasını temizlemek için çok tembel.',
+    },
+    {
+      ing: 'The hill is too steep to climb easily.',
+      tr: 'Tepe kolayca tırmanmak için çok dik.',
+    },
+    {ing: 'It’s too hot to wear a jacket.', tr: 'Ceket giymek için çok sıcak.'},
+    {
+      ing: 'The price is too high to afford.',
+      tr: 'Fiyat karşılayamayacak kadar yüksek.',
+    },
+    {
+      ing: 'The car is too old to drive safely.',
+      tr: 'Araba güvenli bir şekilde sürmek için çok eski.',
+    },
+    {
+      ing: 'The music is too loud to study.',
+      tr: 'Müzik ders çalışmak için çok yüksek.',
+    },
+    {
+      ing: 'The mountain is too tall to climb without gear.',
+      tr: 'Dağ ekipman olmadan tırmanmak için çok yüksek.',
+    },
+    {
+      ing: 'The task is too simple to need help.',
+      tr: 'Görev yardım gerektirmeyecek kadar basit.',
+    },
+    {
+      ing: 'He was too sick to attend the meeting.',
+      tr: 'O, toplantıya katılmak için çok hastaydı.',
+    },
+    {
+      ing: 'The weather is too cold to swim in the lake.',
+      tr: 'Hava gölde yüzmek için çok soğuk.',
+    },
+    {
+      ing: 'The city is too far to visit in one day.',
+      tr: 'Şehir bir günde ziyaret edilecek kadar uzak.',
+    },
+    {
+      ing: 'She is too proud to ask for help.',
+      tr: 'O, yardım istemek için çok gururlu.',
+    },
+    {
+      ing: 'The fire is too dangerous to approach.',
+      tr: 'Ateş yaklaşmak için çok tehlikeli.',
+    },
+    {
+      ing: 'The journey is too long to do in one day.',
+      tr: 'Yolculuk bir günde yapılacak kadar uzun.',
+    },
+    {
+      ing: 'The door is too narrow to fit through.',
+      tr: 'Kapı geçecek kadar dar.',
+    },
+    {
+      ing: 'It’s too quiet to hear anything.',
+      tr: 'Bir şey duymak için çok sessiz.',
+    },
+    {
+      ing: 'The street is too crowded to drive fast.',
+      tr: 'Sokak hızlı sürmek için çok kalabalık.',
+    },
+    {
+      ing: 'The shoes are too tight to wear comfortably.',
+      tr: 'Ayakkabılar rahatça giymek için çok sıkı.',
+    },
+    {
+      ing: 'The tree is too tall to climb easily.',
+      tr: 'Ağaç kolayca tırmanmak için çok uzun.',
+    },
+    {
+      ing: 'The dish is too hot to touch.',
+      tr: 'Tabak dokunulacak kadar sıcak.',
+    },
+    {
+      ing: 'The weather is too stormy to go sailing.',
+      tr: 'Hava yelken açmak için çok fırtınalı.',
+    },
+    {
+      ing: 'The computer is too slow to work efficiently.',
+      tr: 'Bilgisayar verimli çalışmak için çok yavaş.',
+    },
+    {
+      ing: 'He is too sleepy to drive safely.',
+      tr: 'O, güvenli bir şekilde araba sürmek için çok uykulu.',
+    },
+    {
+      ing: 'She is strong enough to lift the box.',
+      tr: 'O, kutuyu kaldıracak kadar güçlü.',
+    },
+    {
+      ing: 'The room is big enough for all of us.',
+      tr: 'Oda hepimiz için yeterince büyük.',
+    },
+    {
+      ing: 'He studied enough to pass the exam.',
+      tr: 'O, sınavı geçmek için yeterince çalıştı.',
+    },
+    {
+      ing: 'The soup is hot enough to eat now.',
+      tr: 'Çorba şimdi yemek için yeterince sıcak.',
+    },
+    {
+      ing: 'We have enough chairs for everyone.',
+      tr: 'Herkes için yeterince sandalyemiz var.',
+    },
+    {
+      ing: 'The water is warm enough to swim in.',
+      tr: 'Su yüzmek için yeterince sıcak.',
+    },
+    {
+      ing: 'She is old enough to make her own decisions.',
+      tr: 'O, kendi kararlarını verecek kadar büyük.',
+    },
+    {
+      ing: 'The bag is light enough to carry easily.',
+      tr: 'Çanta kolayca taşınacak kadar hafif.',
+    },
+    {
+      ing: 'He has enough money to buy the car.',
+      tr: 'O, arabayı alacak kadar parası var.',
+    },
+    {
+      ing: 'The team is strong enough to win the game.',
+      tr: 'Takım oyunu kazanacak kadar güçlü.',
+    },
+    {
+      ing: 'The weather is nice enough for a walk.',
+      tr: 'Hava yürüyüş için yeterince güzel.',
+    },
+    {
+      ing: 'She is fast enough to catch the bus.',
+      tr: 'O, otobüsü yakalayacak kadar hızlı.',
+    },
+    {
+      ing: "He didn't eat enough to feel full.",
+      tr: 'O, tok hissetmek için yeterince yemedim.',
+    },
+    {
+      ing: 'The book is interesting enough to read twice.',
+      tr: 'Kitap iki kez okunacak kadar ilginç.',
+    },
+    {
+      ing: 'We are close enough to see the stage clearly.',
+      tr: 'Sahneyi net görecek kadar yakınız.',
+    },
+    {
+      ing: 'The shirt is big enough to fit him.',
+      tr: 'Gömlek ona uyacak kadar büyük.',
+    },
+    {
+      ing: 'The road is wide enough for two cars.',
+      tr: 'Yol iki araba için yeterince geniş.',
+    },
+    {
+      ing: "He wasn't careful enough to avoid the mistake.",
+      tr: 'O, hatadan kaçınacak kadar dikkatli değildi.',
+    },
+    {
+      ing: 'She has enough patience to teach children.',
+      tr: 'O, çocukları öğretecek kadar sabırlı.',
+    },
+    {
+      ing: 'The music was loud enough to hear from outside.',
+      tr: 'Müzik dışarıdan duyulacak kadar yüksek sesliydi.',
+    },
+    {
+      ing: 'The movie is good enough to watch again.',
+      tr: 'Film tekrar izlenecek kadar iyi.',
+    },
+    {
+      ing: 'He is tall enough to reach the top shelf.',
+      tr: 'O, en üst rafı ulaşacak kadar uzun.',
+    },
+    {
+      ing: 'She saved enough money for her trip.',
+      tr: 'O, gezisi için yeterince para biriktirdi.',
+    },
+    {
+      ing: 'The cake was sweet enough to enjoy.',
+      tr: 'Kek keyifle yenilecek kadar tatlıydı.',
+    },
+    {
+      ing: 'The light is bright enough to read by.',
+      tr: 'Işık okumak için yeterince parlak.',
+    },
+    {
+      ing: 'We had enough food for everyone.',
+      tr: 'Herkes için yeterince yiyeceğimiz vardı.',
+    },
+    {
+      ing: 'The car is fast enough to reach the city quickly.',
+      tr: 'Araba şehre hızlıca ulaşacak kadar hızlı.',
+    },
+    {
+      ing: "He wasn't brave enough to tell the truth.",
+      tr: 'O, gerçeği söyleyecek kadar cesur değildi.',
+    },
+    {
+      ing: 'The tree is strong enough to climb.',
+      tr: 'Ağaç tırmanmak için yeterince güçlü.',
+    },
+    {
+      ing: 'The jacket is warm enough for winter.',
+      tr: 'Ceket kış için yeterince sıcak.',
+    },
+    {
+      ing: "The soup wasn't salty enough for his taste.",
+      tr: 'Çorba onun tadı için yeterince tuzlu değildi.',
+    },
+    {
+      ing: 'She is smart enough to solve the puzzle.',
+      tr: 'O, bulmacayı çözecek kadar zeki.',
+    },
+    {
+      ing: 'We are close enough to walk to the park.',
+      tr: 'Parka yürüyecek kadar yakınız.',
+    },
+    {
+      ing: 'The book is long enough to keep you busy for days.',
+      tr: 'Kitap günlerce meşgul edecek kadar uzun.',
+    },
+    {
+      ing: 'He has enough experience to do the job well.',
+      tr: 'O, işi iyi yapmak için yeterince deneyime sahip.',
+    },
+    {
+      ing: 'The weather was cold enough for snow.',
+      tr: 'Hava kar yağacak kadar soğuktu.',
+    },
+    {
+      ing: 'The picture is clear enough to see every detail.',
+      tr: 'Resim her detayı görecek kadar net.',
+    },
+    {
+      ing: 'The coffee is hot enough to warm you up.',
+      tr: 'Kahve seni ısıtacak kadar sıcak.',
+    },
+    {
+      ing: "She didn't run fast enough to win the race.",
+      tr: 'O, yarışı kazanacak kadar hızlı koşmadı.',
+    },
+    {
+      ing: 'The dress is elegant enough for a party.',
+      tr: 'Elbise bir parti için yeterince şık.',
+    },
+    {
+      ing: 'The ladder is long enough to reach the roof.',
+      tr: 'Merdiven çatıya ulaşacak kadar uzun.',
+    },
+    {
+      ing: 'The bread is fresh enough to eat.',
+      tr: 'Ekmek yemek için yeterince taze.',
+    },
+    {
+      ing: 'He has enough strength to lift the heavy bag.',
+      tr: 'O, ağır çantayı kaldıracak kadar güçlü.',
+    },
+    {
+      ing: 'The sky is clear enough to see the stars.',
+      tr: 'Gökyüzü yıldızları görecek kadar açık.',
+    },
+    {
+      ing: "She isn't old enough to drive a car.",
+      tr: 'O, araba sürmek için yeterince büyük değil.',
+    },
+    {
+      ing: 'The river is deep enough to swim in.',
+      tr: 'Nehir yüzmek için yeterince derin.',
+    },
+    {
+      ing: 'The phone is cheap enough for my budget.',
+      tr: 'Telefon bütçem için yeterince ucuz.',
+    },
+    {
+      ing: 'The problem was easy enough to solve.',
+      tr: 'Problem çözülecek kadar kolaydı.',
+    },
+    {
+      ing: "We didn't have enough time to finish the project.",
+      tr: 'Projeyi bitirmek için yeterince zamanımız yoktu.',
+    },
+    {
+      ing: 'The coat is thick enough to keep you warm.',
+      tr: 'Ceket seni sıcak tutacak kadar kalın.',
+    },
+    {
+      ing: 'The more you practice, the better you get.',
+      tr: 'Ne kadar çok pratik yaparsan, o kadar iyi olursun.',
+    },
+    {
+      ing: 'The more I study, the more I understand.',
+      tr: 'Ne kadar çok çalışırsam, o kadar çok anlıyorum.',
+    },
+    {
+      ing: 'The more he eats, the fatter he becomes.',
+      tr: 'Ne kadar çok yerse, o kadar şişman oluyor.',
+    },
+    {
+      ing: 'The more you run, the faster you get.',
+      tr: 'Ne kadar çok koşarsan, o kadar hızlı olursun.',
+    },
+    {
+      ing: 'The more they work, the more they earn.',
+      tr: 'Ne kadar çok çalışırlarsa, o kadar çok kazanırlar.',
+    },
+    {
+      ing: 'The more she reads, the smarter she becomes.',
+      tr: 'Ne kadar çok okursa, o kadar zeki olur.',
+    },
+    {
+      ing: 'The more you help, the more they appreciate.',
+      tr: 'Ne kadar çok yardım edersen, o kadar çok takdir ederler.',
+    },
+    {
+      ing: 'The more we travel, the more we learn.',
+      tr: 'Ne kadar çok seyahat edersek, o kadar çok öğreniriz.',
+    },
+    {
+      ing: 'The more you talk, the more you reveal.',
+      tr: 'Ne kadar çok konuşursan, o kadar çok ortaya çıkarırsın.',
+    },
+    {
+      ing: 'The more he plays, the more he enjoys.',
+      tr: 'Ne kadar çok oynarsa, o kadar çok eğlenir.',
+    },
+    {
+      ing: 'The more you save, the richer you become.',
+      tr: 'Ne kadar çok biriktirirsen, o kadar zengin olursun.',
+    },
+    {
+      ing: 'The more I think, the more confused I get.',
+      tr: 'Ne kadar çok düşünürsem, o kadar çok karışırım.',
+    },
+    {
+      ing: 'The more they sing, the happier they feel.',
+      tr: 'Ne kadar çok şarkı söylerlerse, o kadar mutlu olurlar.',
+    },
+    {
+      ing: 'The more you sleep, the more energy you have.',
+      tr: 'Ne kadar çok uyursan, o kadar enerjin olur.',
+    },
+    {
+      ing: 'The more he trains, the stronger he becomes.',
+      tr: 'Ne kadar çok antrenman yaparsa, o kadar güçlü olur.',
+    },
+    {
+      ing: 'The more you listen, the wiser you become.',
+      tr: 'Ne kadar çok dinlersen, o kadar bilge olursun.',
+    },
+    {
+      ing: 'The more we talk, the closer we get.',
+      tr: 'Ne kadar çok konuşursak, o kadar yakınlaşırız.',
+    },
+    {
+      ing: 'The more you read, the more you know.',
+      tr: 'Ne kadar çok okursan, o kadar çok bilirsin.',
+    },
+    {
+      ing: 'The more she dances, the more graceful she looks.',
+      tr: 'Ne kadar çok dans ederse, o kadar zarif görünür.',
+    },
+    {
+      ing: 'The more you learn, the more confident you feel.',
+      tr: 'Ne kadar çok öğrenirsen, o kadar kendine güvenirsin.',
+    },
+    {
+      ing: 'The more he cooks, the better he gets.',
+      tr: 'Ne kadar çok yemek yaparsa, o kadar iyi olur.',
+    },
+    {
+      ing: 'The more they run, the healthier they become.',
+      tr: 'Ne kadar çok koşarlarsa, o kadar sağlıklı olurlar.',
+    },
+    {
+      ing: 'The more you laugh, the happier you are.',
+      tr: 'Ne kadar çok gülersen, o kadar mutlu olursun.',
+    },
+    {
+      ing: 'The more he speaks, the more people listen.',
+      tr: 'Ne kadar çok konuşursa, o kadar çok insan dinler.',
+    },
+    {
+      ing: 'The more you wait, the more impatient you become.',
+      tr: 'Ne kadar çok beklersen, o kadar sabırsız olursun.',
+    },
+    {
+      ing: 'The more she paints, the more creative she gets.',
+      tr: 'Ne kadar çok resim yaparsa, o kadar yaratıcı olur.',
+    },
+    {
+      ing: 'The more we play, the more we bond.',
+      tr: 'Ne kadar çok oynarsak, o kadar çok bağ kurarız.',
+    },
+    {
+      ing: 'The more you invest, the more you gain.',
+      tr: 'Ne kadar çok yatırım yaparsan, o kadar çok kazanırsın.',
+    },
+    {
+      ing: 'The more he learns, the more curious he gets.',
+      tr: 'Ne kadar çok öğrenirse, o kadar meraklı olur.',
+    },
+    {
+      ing: 'The more you eat, the more you crave.',
+      tr: 'Ne kadar çok yersen, o kadar çok istersin.',
+    },
+    {
+      ing: 'The more she smiles, the more beautiful she looks.',
+      tr: 'Ne kadar çok gülümserse, o kadar güzel görünür.',
+    },
+    {
+      ing: 'The more you exercise, the fitter you get.',
+      tr: 'Ne kadar çok egzersiz yaparsan, o kadar fit olursun.',
+    },
+    {
+      ing: 'The more we explore, the more we discover.',
+      tr: 'Ne kadar çok keşfedersek, o kadar çok buluruz.',
+    },
+    {
+      ing: 'The more he listens, the better he understands.',
+      tr: 'Ne kadar çok dinlerse, o kadar iyi anlar.',
+    },
+    {
+      ing: 'The more you clean, the tidier the house becomes.',
+      tr: 'Ne kadar çok temizlersen, ev o kadar düzenli olur.',
+    },
+    {
+      ing: 'The more she works, the more successful she gets.',
+      tr: 'Ne kadar çok çalışırsa, o kadar başarılı olur.',
+    },
+    {
+      ing: 'The more you travel, the more memories you create.',
+      tr: 'Ne kadar çok seyahat edersen, o kadar çok anı yaratırsın.',
+    },
+    {
+      ing: 'The more he gives, the more he receives.',
+      tr: 'Ne kadar çok verirse, o kadar çok alır.',
+    },
+    {
+      ing: 'The more we share, the closer we become.',
+      tr: 'Ne kadar çok paylaşırsak, o kadar yakınlaşırız.',
+    },
+    {
+      ing: 'The more you study, the higher your grades.',
+      tr: 'Ne kadar çok çalışırsan, notların o kadar yüksek olur.',
+    },
+    {
+      ing: 'The more he drives, the more experienced he becomes.',
+      tr: 'Ne kadar çok araba sürerse, o kadar deneyimli olur.',
+    },
+    {
+      ing: 'The more you care, the more they appreciate.',
+      tr: 'Ne kadar çok önem verirsen, o kadar çok takdir ederler.',
+    },
+    {
+      ing: 'The more we listen, the better we understand each other.',
+      tr: 'Ne kadar çok dinlersek, birbirimizi o kadar iyi anlarız.',
+    },
+    {
+      ing: 'The more she practices, the more she improves.',
+      tr: 'Ne kadar çok pratik yaparsa, o kadar gelişir.',
+    },
+    {
+      ing: 'The more you cook, the more delicious your food gets.',
+      tr: 'Ne kadar çok yemek yaparsan, yemeğin o kadar lezzetli olur.',
+    },
+    {
+      ing: 'The more he learns, the more he wants to know.',
+      tr: 'Ne kadar çok öğrenirse, o kadar çok bilmek ister.',
+    },
+    {
+      ing: 'The more we walk, the healthier we feel.',
+      tr: 'Ne kadar çok yürürsek, o kadar sağlıklı hissederiz.',
+    },
+    {
+      ing: 'The more you give, the happier you become.',
+      tr: 'Ne kadar çok verirsen, o kadar mutlu olursun.',
+    },
+    {
+      ing: 'The more she saves, the more secure she feels.',
+      tr: 'Ne kadar çok biriktirirse, o kadar güvende hisseder.',
+    },
+    {
+      ing: 'The more you work, the more you achieve.',
+      tr: 'Ne kadar çok çalışırsan, o kadar çok başarırsın.',
+    },
+    {ing: 'He is as tall as his brother.', tr: 'O, kardeşi kadar uzun.'},
+    {ing: 'She runs as fast as a cheetah.', tr: 'O, çita kadar hızlı koşar.'},
+    {
+      ing: 'The book is as interesting as the movie.',
+      tr: 'Kitap, film kadar ilginç.',
+    },
+    {ing: 'The soup is as hot as the tea.', tr: 'Çorba, çay kadar sıcak.'},
+    {
+      ing: 'He sings as beautifully as a bird.',
+      tr: 'O, kuş kadar güzel şarkı söyler.',
+    },
+    {ing: 'The car is as old as my bike.', tr: 'Araba, bisikletim kadar eski.'},
+    {ing: 'She is as smart as her teacher.', tr: 'O, öğretmeni kadar zeki.'},
+    {ing: 'The cake is as sweet as honey.', tr: 'Kek, bal kadar tatlı.'},
+    {
+      ing: 'The room is as cold as the outside.',
+      tr: 'Oda, dışarısı kadar soğuk.',
+    },
+    {ing: 'He swims as well as a fish.', tr: 'O, balık kadar iyi yüzer.'},
+    {
+      ing: 'The sky is as blue as the ocean.',
+      tr: 'Gökyüzü, okyanus kadar mavi.',
+    },
+    {ing: 'She is as kind as her mother.', tr: 'O, annesi kadar nazik.'},
+    {
+      ing: 'The test is as difficult as the last one.',
+      tr: 'Test, sonuncusu kadar zor.',
+    },
+    {ing: 'He is as brave as a lion.', tr: 'O, aslan kadar cesur.'},
+    {
+      ing: 'The garden is as beautiful as a painting.',
+      tr: 'Bahçe, tablo kadar güzel.',
+    },
+    {
+      ing: 'The chair is as comfortable as the sofa.',
+      tr: 'Sandalye, kanepe kadar rahat.',
+    },
+    {
+      ing: 'She dances as gracefully as a ballerina.',
+      tr: 'O, balerin kadar zarif dans eder.',
+    },
+    {
+      ing: 'The mountain is as tall as the sky.',
+      tr: 'Dağ, gökyüzü kadar yüksek.',
+    },
+    {ing: 'He is as strong as an ox.', tr: 'O, öküz kadar güçlü.'},
+    {ing: 'The cat is as quiet as a mouse.', tr: 'Kedi, fare kadar sessiz.'},
+    {
+      ing: 'The street is as busy as a market.',
+      tr: 'Sokak, pazar kadar hareketli.',
+    },
+    {ing: 'The apple is as red as a rose.', tr: 'Elma, gül kadar kırmızı.'},
+    {ing: 'He is as careful as a doctor.', tr: 'O, doktor kadar dikkatli.'},
+    {ing: 'The cake is as fluffy as a cloud.', tr: 'Kek, bulut kadar kabarık.'},
+    {ing: 'She is as quick as lightning.', tr: 'O, yıldırım kadar hızlı.'},
+    {ing: 'The lake is as clear as glass.', tr: 'Göl, cam kadar berrak.'},
+    {
+      ing: 'The dog is as loyal as a friend.',
+      tr: 'Köpek, arkadaş kadar sadık.',
+    },
+    {ing: 'He is as patient as a saint.', tr: 'O, aziz kadar sabırlı.'},
+    {ing: 'The book is as thick as a brick.', tr: 'Kitap, tuğla kadar kalın.'},
+    {ing: 'She is as gentle as a breeze.', tr: 'O, esinti kadar nazik.'},
+    {ing: 'The day is as bright as the sun.', tr: 'Gün, güneş kadar parlak.'},
+    {ing: 'He is as funny as a comedian.', tr: 'O, komedyen kadar komik.'},
+    {ing: 'The horse is as fast as the wind.', tr: 'At, rüzgar kadar hızlı.'},
+    {ing: 'The tree is as tall as a building.', tr: 'Ağaç, bina kadar uzun.'},
+    {ing: 'She is as wise as an owl.', tr: 'O, baykuş kadar bilge.'},
+    {
+      ing: 'The baby is as cute as a button.',
+      tr: 'Bebek, düğme kadar sevimli.',
+    },
+    {
+      ing: 'The bread is as fresh as the morning.',
+      tr: 'Ekmek, sabah kadar taze.',
+    },
+    {ing: 'He is as quiet as the night.', tr: 'O, gece kadar sessiz.'},
+    {ing: 'The pizza is as hot as fire.', tr: 'Pizza, ateş kadar sıcak.'},
+    {
+      ing: 'The flower is as colorful as a rainbow.',
+      tr: 'Çiçek, gökkuşağı kadar renkli.',
+    },
+    {ing: 'She is as cool as ice.', tr: 'O, buz kadar soğukkanlı.'},
+    {ing: 'The boy is as curious as a cat.', tr: 'Çocuk, kedi kadar meraklı.'},
+    {ing: 'The river is as wide as the road.', tr: 'Nehir, yol kadar geniş.'},
+    {
+      ing: 'He is as friendly as a puppy.',
+      tr: 'O, yavru köpek kadar dost canlısı.',
+    },
+    {ing: 'The day is as long as a year.', tr: 'Gün, yıl kadar uzun.'},
+    {ing: 'The bread is as soft as cotton.', tr: 'Ekmek, pamuk kadar yumuşak.'},
+    {ing: 'She is as stubborn as a mule.', tr: 'O, katır kadar inatçı.'},
+    {
+      ing: 'The sky is as clear as a crystal.',
+      tr: 'Gökyüzü, kristal kadar berrak.',
+    },
+    {ing: 'He is as tired as a worker.', tr: 'O, işçi kadar yorgun.'},
+    {ing: 'The night is as dark as coal.', tr: 'Gece, kömür kadar karanlık.'},
+  ],
+  Adverbs: [
+    {ing: 'She sings beautifully.', tr: 'O, güzel bir şekilde şarkı söylüyor.'},
+    {ing: 'He runs very fast.', tr: 'O, çok hızlı koşuyor.'},
+    {ing: 'They will arrive soon.', tr: 'Onlar yakında gelecek.'},
+    {ing: 'The dog barked loudly.', tr: 'Köpek yüksek sesle havladı.'},
+    {ing: 'She always smiles kindly.', tr: 'O, her zaman nazikçe gülümser.'},
+    {ing: 'I usually wake up early.', tr: 'Genellikle erken uyanırım.'},
+    {
+      ing: 'He sometimes forgets his keys.',
+      tr: 'O, bazen anahtarlarını unutur.',
+    },
+    {ing: 'They often go to the park.', tr: 'Onlar sık sık parka gider.'},
+    {
+      ing: 'She quickly finished her homework.',
+      tr: 'O, ödevini hızlıca bitirdi.',
+    },
+    {ing: 'He carefully drove the car.', tr: 'O, arabayı dikkatlice sürdü.'},
+    {ing: 'We rarely eat out.', tr: 'Biz nadiren dışarıda yemek yeriz.'},
+    {
+      ing: 'I never lie to my friends.',
+      tr: 'Arkadaşlarıma asla yalan söylemem.',
+    },
+    {ing: 'He speaks quite clearly.', tr: 'O, oldukça net konuşur.'},
+    {
+      ing: 'The cat quietly entered the room.',
+      tr: 'Kedi sessizce odaya girdi.',
+    },
+    {ing: 'She suddenly stopped talking.', tr: 'O, aniden konuşmayı kesti.'},
+    {ing: 'He always eats breakfast.', tr: 'O, her zaman kahvaltı yapar.'},
+    {ing: 'They rarely watch TV.', tr: 'Onlar nadiren televizyon izler.'},
+    {ing: 'We will meet tomorrow.', tr: 'Yarın buluşacağız.'},
+    {ing: 'He played the piano softly.', tr: 'O, piyanoyu yumuşakça çaldı.'},
+    {
+      ing: 'She speaks English fluently.',
+      tr: 'O, İngilizceyi akıcı bir şekilde konuşur.',
+    },
+    {ing: 'I saw her yesterday.', tr: 'Onu dün gördüm.'},
+    {ing: 'He will call you later.', tr: 'O, seni daha sonra arayacak.'},
+    {
+      ing: 'She quickly answered the question.',
+      tr: 'O, soruyu hızlıca cevapladı.',
+    },
+    {ing: 'We almost finished the project.', tr: 'Projeyi neredeyse bitirdik.'},
+    {ing: 'The kids play outside.', tr: 'Çocuklar dışarıda oynuyor.'},
+    {ing: 'He studies hard every night.', tr: 'O, her gece çok çalışır.'},
+    {ing: 'They live nearby.', tr: 'Onlar yakında yaşıyor.'},
+    {ing: 'She writes neatly.', tr: 'O, düzenli bir şekilde yazar.'},
+    {ing: 'The bird flew away.', tr: 'Kuş uzaklara uçtu.'},
+    {ing: 'He always arrives early.', tr: 'O, her zaman erken gelir.'},
+    {ing: 'She never drinks coffee.', tr: 'O, asla kahve içmez.'},
+    {
+      ing: 'We often visit our grandparents.',
+      tr: 'Biz sık sık büyükannemizi ve büyükbabamızı ziyaret ederiz.',
+    },
+    {ing: 'The sun shines brightly.', tr: 'Güneş parlak bir şekilde parlar.'},
+    {ing: 'He speaks softly to the baby.', tr: 'O, bebeğe yumuşakça konuşur.'},
+    {ing: 'She dances gracefully.', tr: 'O, zarif bir şekilde dans eder.'},
+    {ing: 'They travel frequently.', tr: 'Onlar sık sık seyahat eder.'},
+    {ing: 'He rarely makes mistakes.', tr: 'O, nadiren hata yapar.'},
+    {ing: 'We usually go to the cinema.', tr: 'Genellikle sinemaya gideriz.'},
+    {ing: 'The cat moves silently.', tr: 'Kedi sessizce hareket eder.'},
+    {ing: 'I will see you soon.', tr: 'Seni yakında göreceğim.'},
+    {
+      ing: 'She always helps her friends.',
+      tr: 'O, her zaman arkadaşlarına yardım eder.',
+    },
+    {
+      ing: 'He drives carefully on the highway.',
+      tr: 'O, otoyolda dikkatlice sürer.',
+    },
+    {
+      ing: 'They laugh loudly at jokes.',
+      tr: 'Onlar şakalara yüksek sesle güler.',
+    },
+    {ing: 'She listens patiently.', tr: 'O, sabırla dinler.'},
+    {ing: 'The dog ran away quickly.', tr: 'Köpek hızlıca kaçtı.'},
+    {ing: 'He writes very well.', tr: 'O, çok iyi yazar.'},
+    {ing: 'We will start immediately.', tr: 'Hemen başlayacağız.'},
+    {ing: 'She arrived late last night.', tr: 'Dün gece geç geldi.'},
+    {
+      ing: 'He usually reads before bed.',
+      tr: 'O, genellikle yatmadan önce okur.',
+    },
+    {ing: 'They sometimes argue.', tr: 'Onlar bazen tartışır.'},
+    {ing: 'I saw her earlier today.', tr: 'Onu bugün daha erken gördüm.'},
+    {ing: 'She easily solved the problem.', tr: 'O, problemi kolayca çözdü.'},
+    {
+      ing: 'The train leaves promptly at 6 PM.',
+      tr: "Tren tam 6'da hareket eder.",
+    },
+    {ing: 'He studies regularly.', tr: 'O, düzenli olarak çalışır.'},
+    {ing: 'She sings very loudly.', tr: 'O, çok yüksek sesle şarkı söyler.'},
+    {ing: 'We often eat together.', tr: 'Biz sık sık birlikte yemek yeriz.'},
+    {ing: 'He laughed happily.', tr: 'O, mutlu bir şekilde güldü.'},
+    {ing: 'She dances beautifully.', tr: 'O, güzel bir şekilde dans eder.'},
+    {ing: 'I hardly ever watch TV.', tr: 'Neredeyse hiç televizyon izlemem.'},
+    {ing: 'They arrived exactly at noon.', tr: 'Onlar tam öğlen geldiler.'},
+    {
+      ing: 'He rarely visits his hometown.',
+      tr: 'O, nadiren memleketini ziyaret eder.',
+    },
+    {ing: 'She spoke politely.', tr: 'O, kibarca konuştu.'},
+    {ing: 'We will travel next week.', tr: 'Gelecek hafta seyahat edeceğiz.'},
+    {ing: 'He plays soccer every Sunday.', tr: 'O, her Pazar futbol oynar.'},
+    {ing: 'The sun sets slowly.', tr: 'Güneş yavaşça batar.'},
+    {ing: 'She waits patiently.', tr: 'O, sabırla bekler.'},
+    {ing: 'They will leave soon.', tr: 'Onlar yakında gidecek.'},
+    {ing: 'He writes clearly.', tr: 'O, net bir şekilde yazar.'},
+    {
+      ing: 'She always does her best.',
+      tr: 'O, her zaman elinden geleni yapar.',
+    },
+    {
+      ing: 'We visit our friends frequently.',
+      tr: 'Biz sık sık arkadaşlarımızı ziyaret ederiz.',
+    },
+    {
+      ing: 'He speaks softly in class.',
+      tr: 'O, sınıfta yumuşak bir şekilde konuşur.',
+    },
+    {ing: 'The cat sleeps peacefully.', tr: 'Kedi huzurla uyur.'},
+    {
+      ing: 'She rarely misses a day of work.',
+      tr: 'O, nadiren iş günü kaçırır.',
+    },
+    {ing: 'He ran quickly to the store.', tr: 'O, dükkana hızlıca koştu.'},
+    {ing: 'They will come back soon.', tr: 'Onlar yakında geri dönecek.'},
+    {ing: 'She practices daily.', tr: 'O, günlük olarak pratik yapar.'},
+    {ing: 'He learns quickly.', tr: 'O, hızlıca öğrenir.'},
+    {
+      ing: 'We hardly ever eat out.',
+      tr: 'Neredeyse hiç dışarıda yemek yemeyiz.',
+    },
+    {ing: 'She answered confidently.', tr: 'O, güvenle cevap verdi.'},
+    {ing: 'He reads slowly.', tr: 'O, yavaşça okur.'},
+    {ing: 'They left quietly.', tr: 'Onlar sessizce ayrıldı.'},
+    {ing: 'The wind blows strongly.', tr: 'Rüzgar güçlü bir şekilde eser.'},
+    {ing: 'He works efficiently.', tr: 'O, verimli bir şekilde çalışır.'},
+    {ing: 'She travels frequently.', tr: 'O, sık sık seyahat eder.'},
+    {ing: 'I rarely see her nowadays.', tr: 'Onu bugünlerde nadiren görürüm.'},
+    {ing: 'We always eat breakfast.', tr: 'Biz her zaman kahvaltı yaparız.'},
+    {
+      ing: 'He speaks English fluently.',
+      tr: 'O, İngilizceyi akıcı bir şekilde konuşur.',
+    },
+    {ing: 'The dog barked suddenly.', tr: 'Köpek aniden havladı.'},
+    {ing: 'She writes beautifully.', tr: 'O, güzel bir şekilde yazar.'},
+    {ing: 'They will arrive early.', tr: 'Onlar erken gelecek.'},
+    {
+      ing: 'He often visits his family.',
+      tr: 'O, sık sık ailesini ziyaret eder.',
+    },
+    {ing: 'She almost finished her work.', tr: 'O, işini neredeyse bitirdi.'},
+    {
+      ing: 'We usually take a walk in the evening.',
+      tr: 'Genellikle akşamları yürüyüş yaparız.',
+    },
+    {ing: 'The train stopped suddenly.', tr: 'Tren aniden durdu.'},
+    {ing: 'He listens attentively.', tr: 'O, dikkatle dinler.'},
+    {ing: 'She rarely drinks tea.', tr: 'O, nadiren çay içer.'},
+    {ing: 'They play outside often.', tr: 'Onlar sık sık dışarıda oynar.'},
+    {ing: 'He studies every day.', tr: 'O, her gün çalışır.'},
+    {ing: 'She answers quickly.', tr: 'O, hızlıca cevap verir.'},
+    {ing: 'We meet weekly.', tr: 'Haftalık olarak buluşuruz.'},
+    {ing: 'He sleeps soundly at night.', tr: 'O, gece boyunca derin uyur.'},
+    {
+      ing: 'She drives carefully in the rain.',
+      tr: 'O, yağmurda dikkatlice sürer.',
+    },
+    {ing: 'We often travel by train.', tr: 'Sık sık trenle seyahat ederiz.'},
+    {ing: 'He rarely eats meat.', tr: 'O, nadiren et yer.'},
+    {
+      ing: 'She quickly ran to the bus stop.',
+      tr: 'O, hızlıca otobüs durağına koştu.',
+    },
+    {
+      ing: 'They laughed loudly at the joke.',
+      tr: 'Şakaya yüksek sesle güldüler.',
+    },
+    {
+      ing: 'The sun shines brightly in the morning.',
+      tr: 'Güneş sabahları parlak bir şekilde parlar.',
+    },
+    {ing: 'He talks very slowly.', tr: 'O, çok yavaşça konuşur.'},
+    {
+      ing: 'She always smiles warmly.',
+      tr: 'O, her zaman içten bir şekilde gülümser.',
+    },
+    {ing: 'They never arrive late.', tr: 'Onlar asla geç kalmaz.'},
+    {
+      ing: 'He speaks confidently in meetings.',
+      tr: 'O, toplantılarda kendinden emin bir şekilde konuşur.',
+    },
+    {
+      ing: 'She answered the question immediately.',
+      tr: 'O, soruyu hemen cevapladı.',
+    },
+    {ing: 'We rarely go to the beach.', tr: 'Nadiren sahile gideriz.'},
+    {
+      ing: 'He often takes long walks.',
+      tr: 'O, sık sık uzun yürüyüşler yapar.',
+    },
+    {
+      ing: 'She dances gracefully on stage.',
+      tr: 'O, sahnede zarif bir şekilde dans eder.',
+    },
+    {
+      ing: 'The children play happily in the garden.',
+      tr: 'Çocuklar bahçede mutlu bir şekilde oynar.',
+    },
+    {
+      ing: 'He listens carefully to his teacher.',
+      tr: 'O, öğretmenini dikkatlice dinler.',
+    },
+    {
+      ing: 'She works hard to succeed.',
+      tr: 'O, başarılı olmak için çok çalışır.',
+    },
+    {
+      ing: 'They live far away from the city.',
+      tr: 'Onlar şehirden çok uzakta yaşıyor.',
+    },
+    {
+      ing: 'He studies diligently for exams.',
+      tr: 'O, sınavlar için özenle çalışır.',
+    },
+    {
+      ing: 'She sings beautifully at the concert.',
+      tr: 'O, konserde güzel bir şekilde şarkı söyler.',
+    },
+    {ing: 'The wind blows gently.', tr: 'Rüzgar nazikçe eser.'},
+    {ing: 'He usually wakes up early.', tr: 'O, genellikle erken uyanır.'},
+    {ing: 'She never misses a workout.', tr: 'O, asla egzersizini kaçırmaz.'},
+    {
+      ing: 'We often visit museums.',
+      tr: 'Biz sık sık müzeleri ziyaret ederiz.',
+    },
+    {ing: 'He learns languages quickly.', tr: 'O, dilleri hızlıca öğrenir.'},
+    {
+      ing: 'She almost fell down the stairs.',
+      tr: 'O, neredeyse merdivenlerden düşecekti.',
+    },
+    {ing: 'They arrive exactly on time.', tr: 'Onlar tam zamanında gelir.'},
+    {
+      ing: 'He writes neatly in his notebook.',
+      tr: 'O, defterine düzgün bir şekilde yazar.',
+    },
+    {ing: 'She cooks deliciously.', tr: 'O, lezzetli bir şekilde yemek yapar.'},
+    {
+      ing: 'We meet regularly for coffee.',
+      tr: 'Kahve için düzenli olarak buluşuruz.',
+    },
+    {ing: 'He rarely watches movies.', tr: 'O, nadiren film izler.'},
+    {
+      ing: 'She dances gracefully at parties.',
+      tr: 'O, partilerde zarif bir şekilde dans eder.',
+    },
+    {ing: 'They always laugh together.', tr: 'Onlar her zaman birlikte güler.'},
+    {ing: 'He studies late at night.', tr: 'O, gece geç saatlerde çalışır.'},
+    {
+      ing: 'She practices piano daily.',
+      tr: 'O, günlük olarak piyano pratiği yapar.',
+    },
+    {
+      ing: 'We often travel in the summer.',
+      tr: 'Biz sık sık yaz aylarında seyahat ederiz.',
+    },
+    {ing: 'He speaks kindly to everyone.', tr: 'O, herkese nazikçe konuşur.'},
+    {
+      ing: 'She finishes her tasks quickly.',
+      tr: 'O, görevlerini hızlıca bitirir.',
+    },
+    {
+      ing: 'They listen to music frequently.',
+      tr: 'Onlar sık sık müzik dinler.',
+    },
+    {ing: 'He walks slowly in the park.', tr: 'O, parkta yavaşça yürür.'},
+    {
+      ing: 'She always dresses elegantly.',
+      tr: 'O, her zaman zarif bir şekilde giyinir.',
+    },
+    {ing: 'They arrive home early.', tr: 'Onlar eve erken gelir.'},
+    {ing: 'He drinks coffee rarely.', tr: 'O, nadiren kahve içer.'},
+    {
+      ing: 'She sings softly in the morning.',
+      tr: 'O, sabahları yumuşak bir şekilde şarkı söyler.',
+    },
+    {
+      ing: 'We visit our family frequently.',
+      tr: 'Ailemizi sık sık ziyaret ederiz.',
+    },
+    {
+      ing: 'He always tries his best.',
+      tr: 'O, her zaman elinden gelenin en iyisini yapar.',
+    },
+    {
+      ing: "She never forgets her friends' birthdays.",
+      tr: 'O, arkadaşlarının doğum günlerini asla unutmaz.',
+    },
+    {
+      ing: 'They laugh loudly at funny stories.',
+      tr: 'Onlar komik hikayelere yüksek sesle güler.',
+    },
+    {ing: 'He writes very quickly.', tr: 'O, çok hızlı bir şekilde yazar.'},
+    {ing: 'She reads books quietly.', tr: 'O, sessizce kitap okur.'},
+    {
+      ing: 'We often eat dinner together.',
+      tr: 'Sık sık birlikte akşam yemeği yeriz.',
+    },
+    {ing: 'He plays chess skillfully.', tr: 'O, ustalıkla satranç oynar.'},
+    {
+      ing: 'She always smiles brightly.',
+      tr: 'O, her zaman parlak bir şekilde gülümser.',
+    },
+    {
+      ing: 'They travel safely on long trips.',
+      tr: 'Onlar uzun yolculuklarda güvenle seyahat eder.',
+    },
+    {
+      ing: 'He studies constantly for exams.',
+      tr: 'O, sınavlar için sürekli çalışır.',
+    },
+    {
+      ing: 'She laughs joyfully with her friends.',
+      tr: 'O, arkadaşlarıyla neşeyle güler.',
+    },
+    {ing: 'We rarely go hiking.', tr: 'Nadiren doğa yürüyüşüne çıkarız.'},
+    {ing: 'He speaks very clearly.', tr: 'O, çok net bir şekilde konuşur.'},
+    {
+      ing: 'She never arrives late for meetings.',
+      tr: 'O, toplantılara asla geç kalmaz.',
+    },
+    {
+      ing: 'They listen carefully to instructions.',
+      tr: 'Onlar talimatları dikkatlice dinler.',
+    },
+    {ing: 'He dances energetically.', tr: 'O, enerjik bir şekilde dans eder.'},
+    {ing: 'She cooks quite well.', tr: 'O, oldukça iyi yemek yapar.'},
+    {
+      ing: 'We frequently visit the library.',
+      tr: 'Kütüphaneyi sık sık ziyaret ederiz.',
+    },
+    {
+      ing: 'He runs regularly in the park.',
+      tr: 'O, parkta düzenli olarak koşar.',
+    },
+    {
+      ing: 'She plays the guitar beautifully.',
+      tr: 'O, gitarı güzel bir şekilde çalar.',
+    },
+    {ing: 'They laugh often.', tr: 'Onlar sık sık güler.'},
+    {
+      ing: 'He learns new skills quickly.',
+      tr: 'O, yeni becerileri hızlıca öğrenir.',
+    },
+    {ing: 'She answers the phone politely.', tr: 'O, telefonu kibarca açar.'},
+    {
+      ing: 'We hardly ever miss a class.',
+      tr: 'Neredeyse hiç derse geç kalmayız.',
+    },
+    {
+      ing: 'He speaks softly at home.',
+      tr: 'O, evde yumuşak bir şekilde konuşur.',
+    },
+    {
+      ing: 'She dances happily at weddings.',
+      tr: 'O, düğünlerde mutlu bir şekilde dans eder.',
+    },
+    {
+      ing: 'They travel often for work.',
+      tr: 'Onlar iş için sık sık seyahat eder.',
+    },
+    {ing: 'He eats his meals slowly.', tr: 'O, yemeklerini yavaşça yer.'},
+    {ing: 'She sings songs joyfully.', tr: 'O, şarkıları neşeyle söyler.'},
+    {ing: 'We always work together.', tr: 'Her zaman birlikte çalışırız.'},
+    {
+      ing: 'He talks to his friends daily.',
+      tr: 'O, arkadaşlarıyla günlük olarak konuşur.',
+    },
+    {
+      ing: 'She never misses her morning run.',
+      tr: 'O, sabah koşusunu asla kaçırmaz.',
+    },
+    {
+      ing: 'They study quietly in the library.',
+      tr: 'Onlar kütüphanede sessizce çalışır.',
+    },
+    {
+      ing: 'He travels frequently for business.',
+      tr: 'O, iş için sık sık seyahat eder.',
+    },
+    {
+      ing: 'She writes letters neatly.',
+      tr: 'O, mektupları düzenli bir şekilde yazar.',
+    },
+    {
+      ing: 'We visit the beach occasionally.',
+      tr: 'Ara sıra plajı ziyaret ederiz.',
+    },
+    {ing: 'He drinks tea daily.', tr: 'O, günlük olarak çay içer.'},
+    {ing: 'She paints beautifully.', tr: 'O, güzel bir şekilde resim yapar.'},
+    {ing: 'They walk slowly in the park.', tr: 'Onlar parkta yavaşça yürür.'},
+    {ing: 'He often goes to the gym.', tr: 'O, sık sık spor salonuna gider.'},
+    {ing: 'She always smiles kindly.', tr: 'O, her zaman nazikçe gülümser.'},
+    {ing: 'We rarely eat fast food.', tr: 'Nadiren fast food yeriz.'},
+    {ing: 'He talks quietly to the baby.', tr: 'O, bebeğe sessizce konuşur.'},
+    {
+      ing: 'She learns new things quickly.',
+      tr: 'O, yeni şeyleri hızlıca öğrenir.',
+    },
+    {ing: 'They laugh cheerfully.', tr: 'Onlar neşeyle güler.'},
+    {ing: 'He studies hard for tests.', tr: 'O, testler için çok çalışır.'},
+    {
+      ing: 'She plays the piano wonderfully.',
+      tr: 'O, piyanoyu harika bir şekilde çalar.',
+    },
+    {
+      ing: 'We always help each other.',
+      tr: 'Biz her zaman birbirimize yardım ederiz.',
+    },
+    {
+      ing: 'He listens carefully in class.',
+      tr: 'O, sınıfta dikkatlice dinler.',
+    },
+    {ing: 'She drives safely on the road.', tr: 'O, yolda güvenle sürer.'},
+    {
+      ing: 'They often travel to new places.',
+      tr: 'Onlar sık sık yeni yerlere seyahat eder.',
+    },
+    {ing: 'He speaks gently to his dog.', tr: 'O, köpeğine nazikçe konuşur.'},
+    {ing: 'She never forgets her homework.', tr: 'O, ödevini asla unutmaz.'},
+    {
+      ing: 'We meet often to discuss ideas.',
+      tr: 'Fikirleri tartışmak için sık sık buluşuruz.',
+    },
+  ],
+};

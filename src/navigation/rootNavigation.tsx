@@ -27,6 +27,7 @@ import Conjunctions1GTranslation from '../screens/Translation/Conjunctions1GTran
 import Conjunctions2GTranslation from '../screens/Translation/Conjunctions2GTranslation';
 import Conjunctions3GTranslation from '../screens/Translation/Conjunctions3GTranslation';
 import ComparativesSuperlativesTranslation from '../screens/Translation/ComparativesSuperlatives';
+import AAnTheTranslation from '../screens/Translation/AAnTheTranslation';
 import ToTranslation from '../screens/Translation/FlowerToTranslation';
 import FlowerToTranslation from '../screens/Translation/FlowerToTranslation';
 import ImpersonalItTranslation from '../screens/Translation/ImpersonalIt';
@@ -36,6 +37,7 @@ import Speaking from '../screens/Speaking';
 import SpeakingList from '../screens/SpeakingList';
 import WritingList from '../screens/WritingList';
 import Writing from '../screens/Writing';
+import AdjectivesAdverbTranslation from '../screens/Translation/AdjectivesAdverbTranslation';
 
 const Stack = createStackNavigator();
 
@@ -337,6 +339,24 @@ const RootNavigation = () => {
       <Stack.Screen
         name="PrepositionsTranslation"
         component={PrepositionsTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="AAnTheTranslation"
+        component={AAnTheTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="AdjectivesAdverbTranslation"
+        component={AdjectivesAdverbTranslation}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,

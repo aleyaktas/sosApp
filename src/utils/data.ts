@@ -406,6 +406,22 @@ export const AdjectivesAdverbsSubCategory: ISubCategory[] = [
     page: 'Notes',
     image: require('../assets/icons/subjects.png'),
   },
+  {
+    id: 2,
+    title: 'Videolar',
+    mainCategory: 'AdjectivesAdverbs',
+    description: 'Konu videoları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Çeviri Çalışması',
+    mainCategory: 'AdjectivesAdverbs',
+    description: 'Çeviri çalışmaları',
+    page: 'AdjectivesAdverbTranslation',
+    image: require('../assets/icons/translation.png'),
+  },
 ];
 
 export const ImperativesSubCategory: ISubCategory[] = [
@@ -519,6 +535,14 @@ export const ArticlesSubCategory: ISubCategory[] = [
     description: 'Konu notları',
     page: 'Notes',
     image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 3,
+    title: 'Çeviri Çalışması',
+    mainCategory: 'Articles',
+    description: 'Çeviri çalışmaları',
+    page: 'AAnTheTranslation',
+    image: require('../assets/icons/translation.png'),
   },
 ];
 
@@ -2312,7 +2336,7 @@ export const FutureTensesUnits: IUnit[] = [
   },
 ];
 
-export const Units: IUnit[] = [
+export const PresentPerfectUnits: IUnit[] = [
   {
     id: 91,
     title: 'Ünite 91',

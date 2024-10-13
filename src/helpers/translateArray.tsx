@@ -130,3 +130,85 @@ export const translateConjuctions = (data: any) => {
     return acc;
   }, {});
 };
+
+type AAnThe = {
+  A_An_ing?: string;
+  A_An_tr?: string;
+  The_ing?: string;
+  The_tr?: string;
+  All_ing?: string;
+  All_tr?: string;
+}[];
+
+type AAnTheResult = {
+  AAn: Array<{ing: string; tr: string}>;
+  The: Array<{ing: string; tr: string}>;
+  All: Array<{ing: string; tr: string}>;
+};
+
+export const translateAAnThe = (data: AAnThe): AAnTheResult => {
+  const result: AAnTheResult = {
+    AAn: [],
+    The: [],
+    All: [],
+  };
+
+  data.forEach(item => {
+    if (item.A_An_ing && item.A_An_tr) {
+      result.AAn.push({ing: item.A_An_ing, tr: item.A_An_tr});
+    }
+    if (item.The_ing && item.The_tr) {
+      result.The.push({ing: item.The_ing, tr: item.The_tr});
+    }
+    if (item.All_ing && item.All_tr) {
+      result.All.push({ing: item.All_ing, tr: item.All_tr});
+    }
+  });
+
+  return result;
+};
+
+type AdjectivesAdverbs = {
+  Adjectives_ing?: string;
+  Adjectives_tr?: string;
+  Adverbs_ing?: string;
+  Adverbs_tr?: string;
+  AdjectivesAdverbs_ing?: string;
+  AdjectivesAdverbs_tr?: string;
+}[];
+
+type AdjectivesAdverbsResult = {
+  Adjectives: Array<{ing: string; tr: string}>;
+  Adverbs: Array<{ing: string; tr: string}>;
+  AdjectivesAdverbs: Array<{ing: string; tr: string}>;
+};
+
+export const translateAdjectivesAdverbs = (
+  data: AdjectivesAdverbs,
+): AdjectivesAdverbsResult => {
+  const result: AdjectivesAdverbsResult = {
+    Adjectives: [],
+    Adverbs: [],
+    AdjectivesAdverbs: [],
+  };
+
+  data.forEach(item => {
+    if (item.Adjectives_ing && item.Adjectives_tr) {
+      result.Adjectives.push({
+        ing: item.Adjectives_ing,
+        tr: item.Adjectives_tr,
+      });
+    }
+    if (item.Adverbs_ing && item.Adverbs_tr) {
+      result.Adverbs.push({ing: item.Adverbs_ing, tr: item.Adverbs_tr});
+    }
+    if (item.AdjectivesAdverbs_ing && item.AdjectivesAdverbs_tr) {
+      result.AdjectivesAdverbs.push({
+        ing: item.AdjectivesAdverbs_ing,
+        tr: item.AdjectivesAdverbs_tr,
+      });
+    }
+  });
+
+  return result;
+};
