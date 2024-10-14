@@ -4,13 +4,13 @@ import {TouchableOpacity} from 'react-native-gesture-handler';
 import {useNavigation} from '@react-navigation/native';
 import {ScreenProp} from '../navigation/types';
 import {Categories, test} from '../utils/data';
-import {translateExcitingExcited} from '../helpers/translateArray';
+import {translateLetsShall} from '../helpers/translateArray';
 
 const Home = () => {
   const navigation = useNavigation<ScreenProp>();
 
   useEffect(() => {
-    console.log(translateExcitingExcited(test));
+    console.log(translateLetsShall(test));
   }, []);
 
   return (

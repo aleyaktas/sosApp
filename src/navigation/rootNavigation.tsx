@@ -41,6 +41,9 @@ import AdjectivesAdverbTranslation from '../screens/Translation/AdjectivesAdverb
 import IndefinitePronounsTranslation from '../screens/Translation/IndefinitePronounsTranslation';
 import ImperativesTranslation from '../screens/Translation/ImperativesTranslation';
 import ExcitingExcitedTranslation from '../screens/Translation/ExcitingExcitedTranslation';
+import GerundInfinitiveTranslation from '../screens/Translation/GerundInfinitiveTranslation';
+import HaveHasTranslation from '../screens/Translation/HaveHasTranslation';
+import LetsShallTranslation from '../screens/Translation/LetsShallTranslation';
 
 const Stack = createStackNavigator();
 
@@ -387,6 +390,33 @@ const RootNavigation = () => {
       <Stack.Screen
         name="ExcitingExcitedTranslation"
         component={ExcitingExcitedTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="GerundInfinitiveTranslation"
+        component={GerundInfinitiveTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="HaveHasTranslation"
+        component={HaveHasTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="LetsShallTranslation"
+        component={LetsShallTranslation}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,

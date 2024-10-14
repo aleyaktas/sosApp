@@ -334,3 +334,173 @@ export const translateExcitingExcited = (
 
   return result;
 };
+
+type GerundInfiinitive = {
+  After_verb_ing?: string;
+  After_verb_tr?: string;
+  Subject_position_ing?: string;
+  Subject_position_tr?: string;
+  After_prep_ing?: string;
+  After_prep_tr?: string;
+  After_my_ing?: string;
+  After_my_tr?: string;
+  After_iverb_ing?: string;
+  After_iverb_tr?: string;
+  After_adverb_ing?: string;
+  After_adverb_tr?: string;
+  After_passive_ing?: string;
+  After_passive_tr?: string;
+  After_me_ing?: string;
+  After_me_tr?: string;
+  Too_ing?: string;
+  Too_tr?: string;
+}[];
+
+type GerundInfiinitiveResult = {
+  AfterVerb: Array<{ing: string; tr: string}>;
+  SubjectPosition: Array<{ing: string; tr: string}>;
+  AfterPrep: Array<{ing: string; tr: string}>;
+  AfterMy: Array<{ing: string; tr: string}>;
+  AfterIVerb: Array<{ing: string; tr: string}>;
+  AfterAdverb: Array<{ing: string; tr: string}>;
+  AfterPassive: Array<{ing: string; tr: string}>;
+  AfterMe: Array<{ing: string; tr: string}>;
+  Too: Array<{ing: string; tr: string}>;
+};
+
+export const translateGerundInfiinitive = (
+  data: GerundInfiinitive,
+): GerundInfiinitiveResult => {
+  const result: GerundInfiinitiveResult = {
+    AfterVerb: [],
+    SubjectPosition: [],
+    AfterPrep: [],
+    AfterMy: [],
+    AfterIVerb: [],
+    AfterAdverb: [],
+    AfterPassive: [],
+    AfterMe: [],
+    Too: [],
+  };
+
+  data.forEach(item => {
+    if (item.After_verb_ing && item.After_verb_tr) {
+      result.AfterVerb.push({
+        ing: item.After_verb_ing,
+        tr: item.After_verb_tr,
+      });
+    }
+    if (item.Subject_position_ing && item.Subject_position_tr) {
+      result.SubjectPosition.push({
+        ing: item.Subject_position_ing,
+        tr: item.Subject_position_tr,
+      });
+    }
+    if (item.After_prep_ing && item.After_prep_tr) {
+      result.AfterPrep.push({
+        ing: item.After_prep_ing,
+        tr: item.After_prep_tr,
+      });
+    }
+    if (item.After_my_ing && item.After_my_tr) {
+      result.AfterMy.push({
+        ing: item.After_my_ing,
+        tr: item.After_my_tr,
+      });
+    }
+    if (item.After_iverb_ing && item.After_iverb_tr) {
+      result.AfterIVerb.push({
+        ing: item.After_iverb_ing,
+        tr: item.After_iverb_tr,
+      });
+    }
+    if (item.After_adverb_ing && item.After_adverb_tr) {
+      result.AfterAdverb.push({
+        ing: item.After_adverb_ing,
+        tr: item.After_adverb_tr,
+      });
+    }
+    if (item.After_passive_ing && item.After_passive_tr) {
+      result.AfterPassive.push({
+        ing: item.After_passive_ing,
+        tr: item.After_passive_tr,
+      });
+    }
+    if (item.After_me_ing && item.After_me_tr) {
+      result.AfterMe.push({
+        ing: item.After_me_ing,
+        tr: item.After_me_tr,
+      });
+    }
+    if (item.Too_ing && item.Too_tr) {
+      result.Too.push({
+        ing: item.Too_ing,
+        tr: item.Too_tr,
+      });
+    }
+  });
+
+  return result;
+};
+
+type HaveHas = {
+  Have_has_ing?: string;
+  Have_has_tr?: string;
+}[];
+
+type HaveHasResult = {
+  HaveHas: Array<{ing: string; tr: string}>;
+};
+
+export const translateHaveHas = (data: HaveHas): HaveHasResult => {
+  const result: HaveHasResult = {
+    HaveHas: [],
+  };
+
+  data.forEach(item => {
+    if (item.Have_has_ing && item.Have_has_tr) {
+      result.HaveHas.push({
+        ing: item.Have_has_ing,
+        tr: item.Have_has_tr,
+      });
+    }
+  });
+
+  return result;
+};
+
+type LetsShall = {
+  Lets_ing?: string;
+  Lets_tr?: string;
+  Shall_ing?: string;
+  Shall_tr?: string;
+}[];
+
+type LetsShallResult = {
+  Lets: Array<{ing: string; tr: string}>;
+  Shall: Array<{ing: string; tr: string}>;
+};
+
+export const translateLetsShall = (data: LetsShall): LetsShallResult => {
+  const result: LetsShallResult = {
+    Lets: [],
+    Shall: [],
+  };
+
+  data.forEach(item => {
+    if (item.Lets_ing && item.Lets_tr) {
+      result.Lets.push({
+        ing: item.Lets_ing,
+        tr: item.Lets_tr,
+      });
+    }
+    if (item.Shall_ing && item.Shall_tr) {
+      result.Shall.push({
+        ing: item.Shall_ing,
+        tr: item.Shall_tr,
+      });
+    }
+  });
+
+  return result;
+};

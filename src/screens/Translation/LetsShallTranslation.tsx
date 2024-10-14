@@ -17,14 +17,17 @@ import AnswerInputComponent from './components/AnswerInputComponent';
 import BottomSheetComponent from './components/BottomSheetComponent';
 import DraggableFlatList from 'react-native-draggable-flatlist';
 import BottomSheet from '@gorhom/bottom-sheet/lib/typescript/components/bottomSheet/BottomSheet';
-import {ExcitingExcitedTranslationSentences} from '../../utils/translation';
+import {
+  HaveHasTranslationSentences,
+  LetsShallTranslationSentences,
+} from '../../utils/translation';
 
-const ExcitingExcitedTranslation = () => {
+const LetsShallTranslation = () => {
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
   const [isAnswerVisible, setIsAnswerVisible] = useState(true);
-  const [selectedCells, setSelectedCells] = useState(['Exciting', 'Excited']);
+  const [selectedCells, setSelectedCells] = useState(['Lets', 'Shall']);
   const [selectedCell, setSelectedCell] = useState('');
   const [sentence, setSentence] = useState(
     'Henüz bir soru yok, hücrelerden seçim yapıp sor tuşuna basmalısın!',
@@ -104,7 +107,7 @@ const ExcitingExcitedTranslation = () => {
     handleAskButton();
     bottomSheetRef.current?.close();
   };
-  type SymbolKeys = 'Exciting' | 'Excited';
+  type SymbolKeys = 'Lets' | 'Shall';
 
   const generateQuestion = () => {
     const randomIndexForSymbols = Math.floor(
@@ -116,7 +119,7 @@ const ExcitingExcitedTranslation = () => {
     setSelectedCell(newSelectedSymbol);
 
     let newTranslationSentences =
-      ExcitingExcitedTranslationSentences[newSelectedSymbol];
+      LetsShallTranslationSentences[newSelectedSymbol];
 
     if (!newTranslationSentences) {
       setSentence('Çeviri cümlesi bulunamadı, hücre seçimi yapmalısın!');
@@ -164,7 +167,7 @@ const ExcitingExcitedTranslation = () => {
       setCorrectAnswers(correctAnswers + 1);
 
       const translationSentences =
-        ExcitingExcitedTranslationSentences[selectedCell as SymbolKeys];
+        LetsShallTranslationSentences[selectedCell as SymbolKeys];
       translationSentences.splice(questionIndex, 1);
       setRemainingQuestionCount(translationSentences.length);
     } else {
@@ -216,12 +219,8 @@ const ExcitingExcitedTranslation = () => {
             selectedCell={selectedCell}
             cells={[
               {
-                value: 'Exciting',
-                label: 'Exciting',
-              },
-              {
-                value: 'Excited',
-                label: 'Excited',
+                value: 'HaveHas',
+                label: 'Have / Has',
               },
             ]}
           />
@@ -309,4 +308,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ExcitingExcitedTranslation;
+export default LetsShallTranslation;

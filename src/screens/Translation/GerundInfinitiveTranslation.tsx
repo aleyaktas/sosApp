@@ -17,14 +17,27 @@ import AnswerInputComponent from './components/AnswerInputComponent';
 import BottomSheetComponent from './components/BottomSheetComponent';
 import DraggableFlatList from 'react-native-draggable-flatlist';
 import BottomSheet from '@gorhom/bottom-sheet/lib/typescript/components/bottomSheet/BottomSheet';
-import {ExcitingExcitedTranslationSentences} from '../../utils/translation';
+import {
+  ExcitingExcitedTranslationSentences,
+  GerundInfinitiveTranslationSentences,
+} from '../../utils/translation';
 
-const ExcitingExcitedTranslation = () => {
+const GerundInfinitiveTranslation = () => {
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
   const [isAnswerVisible, setIsAnswerVisible] = useState(true);
-  const [selectedCells, setSelectedCells] = useState(['Exciting', 'Excited']);
+  const [selectedCells, setSelectedCells] = useState([
+    'AfterVerb',
+    'SubjectPosition',
+    'AfterPrep',
+    'AfterMy',
+    'AfterIVerb',
+    'AfterAdverb',
+    'AfterPassive',
+    'AfterMe',
+    'Too',
+  ]);
   const [selectedCell, setSelectedCell] = useState('');
   const [sentence, setSentence] = useState(
     'Henüz bir soru yok, hücrelerden seçim yapıp sor tuşuna basmalısın!',
@@ -104,7 +117,16 @@ const ExcitingExcitedTranslation = () => {
     handleAskButton();
     bottomSheetRef.current?.close();
   };
-  type SymbolKeys = 'Exciting' | 'Excited';
+  type SymbolKeys =
+    | 'AfterVerb'
+    | 'SubjectPosition'
+    | 'AfterPrep'
+    | 'AfterMy'
+    | 'AfterIVerb'
+    | 'AfterAdverb'
+    | 'AfterPassive'
+    | 'AfterMe'
+    | 'Too';
 
   const generateQuestion = () => {
     const randomIndexForSymbols = Math.floor(
@@ -116,7 +138,7 @@ const ExcitingExcitedTranslation = () => {
     setSelectedCell(newSelectedSymbol);
 
     let newTranslationSentences =
-      ExcitingExcitedTranslationSentences[newSelectedSymbol];
+      GerundInfinitiveTranslationSentences[newSelectedSymbol];
 
     if (!newTranslationSentences) {
       setSentence('Çeviri cümlesi bulunamadı, hücre seçimi yapmalısın!');
@@ -164,7 +186,7 @@ const ExcitingExcitedTranslation = () => {
       setCorrectAnswers(correctAnswers + 1);
 
       const translationSentences =
-        ExcitingExcitedTranslationSentences[selectedCell as SymbolKeys];
+        GerundInfinitiveTranslationSentences[selectedCell as SymbolKeys];
       translationSentences.splice(questionIndex, 1);
       setRemainingQuestionCount(translationSentences.length);
     } else {
@@ -216,12 +238,40 @@ const ExcitingExcitedTranslation = () => {
             selectedCell={selectedCell}
             cells={[
               {
-                value: 'Exciting',
-                label: 'Exciting',
+                value: 'AfterVerb',
+                label: 'Fiilden Sonra (Gerund)',
               },
               {
-                value: 'Excited',
-                label: 'Excited',
+                value: 'SubjectPosition',
+                label: 'Subject Position (Gerund)',
+              },
+              {
+                value: 'AfterPrep',
+                label: 'Preposition Sonrası (Gerund)',
+              },
+              {
+                value: 'AfterMy',
+                label: 'My Sonrası (Gerund)',
+              },
+              {
+                value: 'AfterIVerb',
+                label: 'Infinitive Verb Sonrası',
+              },
+              {
+                value: 'AfterAdverb',
+                label: 'Sıfat Sonrası Infinitive',
+              },
+              {
+                value: 'AfterPassive',
+                label: 'Passive Sonrası Infinitive',
+              },
+              {
+                value: 'AfterMe',
+                label: 'Me Sonrası Infinitive',
+              },
+              {
+                value: 'Too',
+                label: 'Too, Enough + Infinitive',
               },
             ]}
           />
@@ -309,4 +359,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ExcitingExcitedTranslation;
+export default GerundInfinitiveTranslation;

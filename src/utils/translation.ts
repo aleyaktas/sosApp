@@ -59902,3 +59902,5383 @@ export const ExcitingExcitedTranslationSentences = {
     },
   ],
 };
+
+export const GerundInfinitiveTranslationSentences = {
+  AfterAdverb: [
+    {ing: 'I am happy to see you.', tr: 'Seni görmekten mutluyum.'},
+    {
+      ing: 'She is excited to start school.',
+      tr: 'Okula başlamaktan heyecanlı.',
+    },
+    {ing: 'He is ready to go home.', tr: 'Eve gitmeye hazır.'},
+    {
+      ing: 'We are lucky to have good friends.',
+      tr: 'İyi arkadaşlara sahip olduğumuz için şanslıyız.',
+    },
+    {
+      ing: 'They are glad to help us.',
+      tr: 'Bize yardım ettikleri için memnunlar.',
+    },
+    {
+      ing: 'I am proud to be your friend.',
+      tr: 'Senin arkadaşın olmaktan gurur duyuyorum.',
+    },
+    {
+      ing: 'She is afraid to speak in public.',
+      tr: 'Toplum önünde konuşmaktan korkuyor.',
+    },
+    {
+      ing: 'He is eager to learn new things.',
+      tr: 'Yeni şeyler öğrenmeye istekli.',
+    },
+    {ing: 'We are pleased to meet you.', tr: 'Sizinle tanışmaktan memnunuz.'},
+    {
+      ing: 'They are surprised to see the gift.',
+      tr: 'Hediyeyi gördükleri için şaşırdılar.',
+    },
+    {ing: 'I am happy to hear the news.', tr: 'Haberi duymaktan mutluyum.'},
+    {ing: 'She is ready to go to work.', tr: 'İşe gitmeye hazır.'},
+    {ing: 'He is excited to play soccer.', tr: 'Futbol oynamaktan heyecanlı.'},
+    {
+      ing: 'We are glad to have a holiday.',
+      tr: 'Tatile sahip olduğumuz için memnunuz.',
+    },
+    {
+      ing: 'They are lucky to find the keys.',
+      tr: 'Anahtarları buldukları için şanslılar.',
+    },
+    {ing: 'I am afraid to ask a question.', tr: 'Soru sormaktan korkuyorum.'},
+    {
+      ing: 'She is proud to win the prize.',
+      tr: 'Ödülü kazandığı için gururlu.',
+    },
+    {
+      ing: 'He is eager to start the project.',
+      tr: 'Projeye başlamaya istekli.',
+    },
+    {
+      ing: 'We are surprised to hear the news.',
+      tr: 'Haberi duyduğumuz için şaşkınız.',
+    },
+    {
+      ing: 'They are pleased to join the team.',
+      tr: 'Takıma katılmaktan memnunlar.',
+    },
+    {ing: 'I am ready to leave.', tr: 'Gitmeye hazırım.'},
+    {
+      ing: 'She is happy to see her friends.',
+      tr: 'Arkadaşlarını görmekten mutlu.',
+    },
+    {
+      ing: 'He is afraid to go on the stage.',
+      tr: 'Sahneye çıkmaktan korkuyor.',
+    },
+    {
+      ing: 'We are excited to travel abroad.',
+      tr: 'Yurt dışına seyahat etmekten heyecanlıyız.',
+    },
+    {
+      ing: 'They are glad to finish their work.',
+      tr: 'İşlerini bitirdikleri için memnunlar.',
+    },
+    {
+      ing: 'I am lucky to have you as my friend.',
+      tr: 'Seni arkadaşım olarak bulduğum için şanslıyım.',
+    },
+    {
+      ing: 'She is proud to be part of the group.',
+      tr: 'Grubun bir parçası olmaktan gururlu.',
+    },
+    {
+      ing: 'He is eager to help his family.',
+      tr: 'Ailesine yardım etmeye istekli.',
+    },
+    {
+      ing: 'We are pleased to see the progress.',
+      tr: 'İlerlemi görmekten memnunuz.',
+    },
+    {
+      ing: 'They are surprised to win the game.',
+      tr: 'Oyunu kazandıkları için şaşırdılar.',
+    },
+    {
+      ing: 'I am excited to learn English.',
+      tr: 'İngilizce öğrenmekten heyecanlıyım.',
+    },
+    {ing: 'She is happy to go shopping.', tr: 'Alışverişe gitmekten mutlu.'},
+    {ing: 'He is ready to start his job.', tr: 'İşine başlamaya hazır.'},
+    {
+      ing: 'We are proud to help others.',
+      tr: 'Başkalarına yardım etmekten gururluyuz.',
+    },
+    {
+      ing: 'They are afraid to try new food.',
+      tr: 'Yeni yiyecekleri denemekten korkuyorlar.',
+    },
+    {ing: 'I am glad to hear your voice.', tr: 'Sesini duymaktan memnunum.'},
+    {ing: 'She is eager to travel the world.', tr: 'Dünyayı gezmeye istekli.'},
+    {ing: 'He is lucky to find a job.', tr: 'İş bulduğu için şanslı.'},
+    {
+      ing: 'We are surprised to see the snow.',
+      tr: 'Karı gördüğümüz için şaşırdık.',
+    },
+    {
+      ing: 'They are pleased to play with us.',
+      tr: 'Bizimle oynamaktan memnunlar.',
+    },
+    {
+      ing: 'I am happy to receive your message.',
+      tr: 'Mesajını aldığım için mutluyum.',
+    },
+    {
+      ing: 'She is afraid to lose her phone.',
+      tr: 'Telefonunu kaybetmekten korkuyor.',
+    },
+    {ing: 'He is proud to be a student.', tr: 'Öğrenci olmaktan gururlu.'},
+    {ing: 'We are ready to have dinner.', tr: 'Akşam yemeği yemeye hazırız.'},
+    {
+      ing: 'They are excited to watch the movie.',
+      tr: 'Filmi izlemekten heyecanlılar.',
+    },
+    {
+      ing: 'I am glad to meet new people.',
+      tr: 'Yeni insanlarla tanışmaktan memnunum.',
+    },
+    {
+      ing: 'She is lucky to live near the park.',
+      tr: 'Parka yakın yaşadığı için şanslı.',
+    },
+    {ing: 'He is pleased to play the guitar.', tr: 'Gitar çalmaktan memnun.'},
+    {
+      ing: 'We are surprised to find the solution.',
+      tr: 'Çözümü bulduğumuz için şaşırdık.',
+    },
+    {
+      ing: 'They are eager to visit the museum.',
+      tr: 'Müzeyi ziyaret etmeye istekli.',
+    },
+    {ing: 'I am happy to help you.', tr: 'Sana yardım etmekten mutluyum.'},
+    {
+      ing: 'She is ready to answer the question.',
+      tr: 'Soruyu cevaplamaya hazır.',
+    },
+    {
+      ing: 'He is afraid to speak in front of the class.',
+      tr: 'Sınıfın önünde konuşmaktan korkuyor.',
+    },
+    {
+      ing: 'We are proud to be on the team.',
+      tr: 'Takımda olmaktan gururluyuz.',
+    },
+    {
+      ing: 'They are excited to go camping.',
+      tr: 'Kampa gitmekten heyecanlılar.',
+    },
+    {ing: 'I am glad to be here today.', tr: 'Bugün burada olmaktan memnunum.'},
+    {ing: 'She is eager to join the club.', tr: 'Kulübe katılmaya istekli.'},
+    {
+      ing: 'He is surprised to see the sunrise.',
+      tr: 'Güneşin doğuşunu gördüğü için şaşırdı.',
+    },
+    {
+      ing: 'We are lucky to have good weather.',
+      tr: 'İyi hava bulduğumuz için şanslıyız.',
+    },
+    {
+      ing: 'They are pleased to dance with us.',
+      tr: 'Bizimle dans etmekten memnunlar.',
+    },
+    {
+      ing: 'I am happy to play my favorite game.',
+      tr: 'En sevdiğim oyunu oynamaktan mutluyum.',
+    },
+    {ing: 'She is ready to leave the house.', tr: 'Evden çıkmaya hazır.'},
+    {ing: 'He is afraid to ride a bike.', tr: 'Bisiklete binmekten korkuyor.'},
+    {
+      ing: 'We are proud to work together.',
+      tr: 'Birlikte çalışmaktan gururluyuz.',
+    },
+    {
+      ing: 'They are excited to see the parade.',
+      tr: 'Geçit törenini görmekten heyecanlılar.',
+    },
+    {
+      ing: 'I am glad to finish my homework.',
+      tr: 'Ödevimi bitirdiğim için memnunum.',
+    },
+    {ing: 'She is eager to bake a cake.', tr: 'Kek yapmaya istekli.'},
+    {
+      ing: 'He is surprised to receive a gift.',
+      tr: 'Hediye aldığı için şaşırdı.',
+    },
+    {
+      ing: 'We are lucky to find a seat.',
+      tr: 'Oturacak yer bulduğumuz için şanslıyız.',
+    },
+    {
+      ing: 'They are pleased to learn something new.',
+      tr: 'Yeni bir şey öğrenmekten memnunlar.',
+    },
+    {
+      ing: 'I am happy to listen to your story.',
+      tr: 'Hikayeni dinlemekten mutluyum.',
+    },
+    {ing: 'She is ready to make a decision.', tr: 'Karar vermeye hazır.'},
+    {
+      ing: 'He is afraid to touch the snake.',
+      tr: 'Yılana dokunmaktan korkuyor.',
+    },
+    {
+      ing: 'We are proud to call you our friend.',
+      tr: 'Seni arkadaşımız olarak görmekten gururluyuz.',
+    },
+    {
+      ing: 'They are excited to play in the tournament.',
+      tr: 'Turnuvada oynamaktan heyecanlılar.',
+    },
+    {ing: 'I am glad to win the prize.', tr: 'Ödülü kazandığım için memnunum.'},
+    {
+      ing: 'She is lucky to have a pet cat.',
+      tr: 'Evcil bir kediye sahip olduğu için şanslı.',
+    },
+    {
+      ing: 'He is eager to learn how to cook.',
+      tr: 'Yemek yapmayı öğrenmeye istekli.',
+    },
+    {
+      ing: 'We are surprised to see the rainbow.',
+      tr: 'Gökkuşağını gördüğümüz için şaşkınız.',
+    },
+    {
+      ing: 'They are pleased to sing on stage.',
+      tr: 'Sahneye çıkıp şarkı söylemekten memnunlar.',
+    },
+    {ing: 'I am happy to walk in the park.', tr: 'Parkta yürümekten mutluyum.'},
+    {
+      ing: 'She is ready to start her new job.',
+      tr: 'Yeni işine başlamaya hazır.',
+    },
+    {
+      ing: 'He is afraid to lose his wallet.',
+      tr: 'Cüzdanını kaybetmekten korkuyor.',
+    },
+    {
+      ing: 'We are proud to be part of the event.',
+      tr: 'Etkinliğin bir parçası olmaktan gururluyuz.',
+    },
+    {
+      ing: 'They are excited to see the fireworks.',
+      tr: 'Havai fişekleri görmekten heyecanlılar.',
+    },
+    {
+      ing: 'I am glad to finish my project.',
+      tr: 'Projeyi bitirdiğim için memnunum.',
+    },
+    {ing: 'She is eager to play the piano.', tr: 'Piyano çalmaya istekli.'},
+    {
+      ing: 'He is surprised to find the answer.',
+      tr: 'Cevabı bulduğu için şaşırdı.',
+    },
+    {
+      ing: 'We are lucky to have a sunny day.',
+      tr: 'Güneşli bir gün bulduğumuz için şanslıyız.',
+    },
+    {
+      ing: 'They are pleased to visit their grandparents.',
+      tr: 'Büyükbabalarını ve büyükannelerini ziyaret etmekten memnunlar.',
+    },
+    {
+      ing: 'I am happy to paint with my friends.',
+      tr: 'Arkadaşlarımla resim yapmaktan mutluyum.',
+    },
+    {ing: 'She is ready to go to bed.', tr: 'Yatmaya hazır.'},
+    {
+      ing: 'He is afraid to jump into the water.',
+      tr: 'Suya atlamaktan korkuyor.',
+    },
+    {
+      ing: 'We are proud to show our work.',
+      tr: 'İşimizi göstermekten gururluyuz.',
+    },
+    {
+      ing: 'They are excited to attend the festival.',
+      tr: 'Festivale katılmaktan heyecanlılar.',
+    },
+    {
+      ing: 'I am glad to learn a new skill.',
+      tr: 'Yeni bir beceri öğrendiğim için memnunum.',
+    },
+    {
+      ing: 'She is eager to explore the forest.',
+      tr: 'Ormanı keşfetmeye istekli.',
+    },
+    {
+      ing: 'He is surprised to meet his old friend.',
+      tr: 'Eski arkadaşını gördüğü için şaşırdı.',
+    },
+    {
+      ing: 'We are lucky to find a parking space.',
+      tr: 'Park yeri bulduğumuz için şanslıyız.',
+    },
+    {
+      ing: 'They are pleased to try the new game.',
+      tr: 'Yeni oyunu denemekten memnunlar.',
+    },
+    {
+      ing: 'I am happy to help my brother.',
+      tr: 'Kardeşime yardım etmekten mutluyum.',
+    },
+    {ing: 'She is ready to read her book.', tr: 'Kitabını okumaya hazır.'},
+    {ing: 'He is afraid to break the vase.', tr: 'Vazoyu kırmaktan korkuyor.'},
+    {ing: 'We are proud to be students.', tr: 'Öğrenci olmaktan gururluyuz.'},
+    {
+      ing: 'They are excited to travel to the mountains.',
+      tr: 'Dağlara seyahat etmekten heyecanlılar.',
+    },
+    {
+      ing: 'I am glad to join the club.',
+      tr: 'Kulübe katıldığım için memnunum.',
+    },
+    {ing: 'She is eager to play volleyball.', tr: 'Voleybol oynamaya istekli.'},
+    {
+      ing: 'He is surprised to see the stars.',
+      tr: 'Yıldızları gördüğü için şaşırdı.',
+    },
+    {
+      ing: 'We are lucky to live near the beach.',
+      tr: 'Sahile yakın yaşadığımız için şanslıyız.',
+    },
+    {
+      ing: 'They are pleased to enjoy the party.',
+      tr: 'Partiden keyif almaktan memnunlar.',
+    },
+    {ing: 'I am happy to see my family.', tr: 'Ailemi görmekten mutluyum.'},
+    {ing: 'She is ready to cook dinner.', tr: 'Akşam yemeğini yapmaya hazır.'},
+    {ing: 'He is afraid to ask for help.', tr: 'Yardım istemekten korkuyor.'},
+    {
+      ing: 'We are proud to complete the task.',
+      tr: 'Görevi tamamladığımız için gururluyuz.',
+    },
+    {
+      ing: 'They are excited to play in the playground.',
+      tr: 'Oyun alanında oynamaktan heyecanlılar.',
+    },
+    {
+      ing: 'I am glad to finish my work early.',
+      tr: 'İşimi erken bitirdiğim için memnunum.',
+    },
+    {
+      ing: 'She is eager to learn to dance.',
+      tr: 'Dans etmeyi öğrenmeye istekli.',
+    },
+    {
+      ing: 'He is surprised to see the ocean.',
+      tr: 'Okyanusu gördüğü için şaşırdı.',
+    },
+    {
+      ing: 'We are lucky to have each other.',
+      tr: 'Birbirimize sahip olduğumuz için şanslıyız.',
+    },
+    {
+      ing: 'They are pleased to eat ice cream.',
+      tr: 'Dondurma yemekten memnunlar.',
+    },
+    {
+      ing: 'I am happy to visit the museum.',
+      tr: 'Müzeyi ziyaret etmekten mutluyum.',
+    },
+    {ing: 'She is ready to start her lesson.', tr: 'Dersine başlamaya hazır.'},
+    {
+      ing: 'He is afraid to climb the tree.',
+      tr: 'Ağaca tırmanmaktan korkuyor.',
+    },
+    {
+      ing: 'We are proud to help our school.',
+      tr: 'Okulumuza yardım etmekten gururluyuz.',
+    },
+    {
+      ing: 'They are excited to go on a picnic.',
+      tr: 'Pikniğe gitmekten heyecanlılar.',
+    },
+    {
+      ing: 'I am glad to meet my new friends.',
+      tr: 'Yeni arkadaşlarımla tanıştığım için memnunum.',
+    },
+    {ing: 'She is eager to make a cake.', tr: 'Kek yapmaya istekli.'},
+    {
+      ing: 'He is surprised to find the lost book.',
+      tr: 'Kayıp kitabı bulduğu için şaşırdı.',
+    },
+    {
+      ing: 'We are lucky to have a good teacher.',
+      tr: 'İyi bir öğretmene sahip olduğumuz için şanslıyız.',
+    },
+    {
+      ing: 'They are pleased to watch the play.',
+      tr: 'Oyunu izlemekten memnunlar.',
+    },
+    {
+      ing: 'I am happy to learn about nature.',
+      tr: 'Doğa hakkında öğrenmekten mutluyum.',
+    },
+    {
+      ing: 'She is ready to dance at the party.',
+      tr: 'Partide dans etmeye hazır.',
+    },
+    {
+      ing: 'He is afraid to speak to strangers.',
+      tr: 'Yabancılarla konuşmaktan korkuyor.',
+    },
+    {
+      ing: 'We are proud to present our project.',
+      tr: 'Projemizi sunmaktan gururluyuz.',
+    },
+    {
+      ing: 'They are excited to go to the zoo.',
+      tr: 'Hayvanat bahçesine gitmekten heyecanlılar.',
+    },
+    {
+      ing: 'I am glad to stay with my cousin.',
+      tr: 'Kuzenimle kalmaktan memnunum.',
+    },
+    {ing: 'She is eager to swim in the pool.', tr: 'Havuzda yüzmeye istekli.'},
+    {
+      ing: 'He is surprised to win the contest.',
+      tr: 'Yarışmayı kazandığı için şaşırdı.',
+    },
+    {
+      ing: 'We are lucky to enjoy the weather.',
+      tr: 'Havanın tadını çıkardığımız için şanslıyız.',
+    },
+    {
+      ing: 'They are pleased to have a picnic in the park.',
+      tr: 'Parkta piknik yapmaktan memnunlar.',
+    },
+    {ing: 'I am happy to go for a walk.', tr: 'Yürüyüşe gitmekten mutluyum.'},
+    {
+      ing: 'She is ready to answer the phone.',
+      tr: 'Telefonu cevaplamaya hazır.',
+    },
+    {ing: 'He is afraid to make a mistake.', tr: 'Hata yapmaktan korkuyor.'},
+    {
+      ing: 'We are proud to represent our team.',
+      tr: 'Takımımızı temsil etmekten gururluyuz.',
+    },
+    {
+      ing: 'They are excited to see the animals.',
+      tr: 'Hayvanları görmekten heyecanlılar.',
+    },
+    {
+      ing: 'I am glad to finish my chores.',
+      tr: 'Ev işlerini bitirdiğim için memnunum.',
+    },
+    {
+      ing: 'She is eager to play in the garden.',
+      tr: 'Bahçede oynamaya istekli.',
+    },
+    {
+      ing: 'He is surprised to see the rainbow.',
+      tr: 'Gökkuşağını gördüğü için şaşırdı.',
+    },
+    {
+      ing: 'We are lucky to be together.',
+      tr: 'Birlikte olduğumuz için şanslıyız.',
+    },
+    {
+      ing: 'They are pleased to celebrate their success.',
+      tr: 'Başarılarını kutlamaktan memnunlar.',
+    },
+  ],
+  AfterIVerb: [
+    {ing: 'I want to play soccer.', tr: 'Futbol oynamak istiyorum.'},
+    {ing: 'She likes to sing songs.', tr: 'Şarkı söylemeyi seviyor.'},
+    {
+      ing: 'They decided to visit their grandparents.',
+      tr: 'Büyükbabalarını ve büyükannelerini ziyaret etmeye karar verdiler.',
+    },
+    {
+      ing: 'He plans to go to the gym tomorrow.',
+      tr: 'Yarın spor salonuna gitmeyi planlıyor.',
+    },
+    {
+      ing: 'We need to study for the test.',
+      tr: 'Test için çalışmamız gerekiyor.',
+    },
+    {ing: 'I hope to see you soon.', tr: 'Seni yakında görmeyi umuyorum.'},
+    {
+      ing: 'She loves to cook Italian food.',
+      tr: 'İtalyan yemeği yapmayı seviyor.',
+    },
+    {ing: 'They agreed to help us.', tr: 'Bize yardım etmeyi kabul ettiler.'},
+    {ing: 'He promised to call me later.', tr: 'Beni sonra aramaya söz verdi.'},
+    {ing: 'We want to learn English.', tr: 'İngilizce öğrenmek istiyoruz.'},
+    {
+      ing: 'I plan to travel next year.',
+      tr: 'Gelecek yıl seyahat etmeyi planlıyorum.',
+    },
+    {
+      ing: 'She needs to finish her homework.',
+      tr: 'Ödevini bitirmesi gerekiyor.',
+    },
+    {
+      ing: 'He decided to buy a new car.',
+      tr: 'Yeni bir araba almaya karar verdi.',
+    },
+    {ing: 'They hope to find a good job.', tr: 'İyi bir iş bulmayı umuyorlar.'},
+    {
+      ing: 'We agreed to meet at 5 p.m.',
+      tr: "Saat 5'te buluşmayı kabul ettik.",
+    },
+    {ing: 'I love to read books.', tr: 'Kitap okumayı seviyorum.'},
+    {ing: 'She wants to go shopping.', tr: 'Alışverişe gitmek istiyor.'},
+    {
+      ing: 'He promised to help us move.',
+      tr: 'Taşınmamıza yardım etmeye söz verdi.',
+    },
+    {
+      ing: 'We plan to visit the zoo.',
+      tr: 'Hayvanat bahçesini ziyaret etmeyi planlıyoruz.',
+    },
+    {ing: 'They need to clean the house.', tr: 'Evi temizlemeleri gerekiyor.'},
+    {ing: 'I hope to pass the exam.', tr: 'Sınavı geçmeyi umuyorum.'},
+    {ing: 'She loves to paint pictures.', tr: 'Resim yapmayı seviyor.'},
+    {ing: 'He agreed to take a break.', tr: 'Mola vermeyi kabul etti.'},
+    {ing: 'We want to see a movie.', tr: 'Film izlemek istiyoruz.'},
+    {
+      ing: 'They decided to move to another city.',
+      tr: 'Başka bir şehre taşınmaya karar verdiler.',
+    },
+    {
+      ing: 'I plan to start a new hobby.',
+      tr: 'Yeni bir hobiye başlamayı planlıyorum.',
+    },
+    {ing: 'She needs to call her mom.', tr: 'Annesini araması gerekiyor.'},
+    {ing: 'He hopes to become a doctor.', tr: 'Doktor olmayı umuyor.'},
+    {ing: 'We agreed to play a game.', tr: 'Oyun oynamayı kabul ettik.'},
+    {
+      ing: 'They love to watch the sunset.',
+      tr: 'Gün batımını izlemeyi seviyorlar.',
+    },
+    {
+      ing: 'I want to visit my friends.',
+      tr: 'Arkadaşlarımı ziyaret etmek istiyorum.',
+    },
+    {
+      ing: 'She decided to learn French.',
+      tr: 'Fransızca öğrenmeye karar verdi.',
+    },
+    {ing: 'He plans to work harder.', tr: 'Daha sıkı çalışmayı planlıyor.'},
+    {
+      ing: 'We need to buy groceries.',
+      tr: 'Market alışverişi yapmamız gerekiyor.',
+    },
+    {ing: 'They hope to travel soon.', tr: 'Yakında seyahat etmeyi umuyorlar.'},
+    {ing: 'I love to listen to music.', tr: 'Müzik dinlemeyi seviyorum.'},
+    {ing: 'She wants to bake a cake.', tr: 'Kek yapmayı istiyor.'},
+    {
+      ing: 'He promised to do his best.',
+      tr: 'Elinden gelenin en iyisini yapmaya söz verdi.',
+    },
+    {
+      ing: 'We plan to visit a museum.',
+      tr: 'Bir müzeyi ziyaret etmeyi planlıyoruz.',
+    },
+    {
+      ing: 'They need to make dinner.',
+      tr: 'Akşam yemeği hazırlamaları gerekiyor.',
+    },
+    {ing: 'I hope to get a good grade.', tr: 'İyi bir not almayı umuyorum.'},
+    {
+      ing: 'She loves to dance in the rain.',
+      tr: 'Yağmurda dans etmeyi seviyor.',
+    },
+    {ing: 'He agreed to go fishing.', tr: 'Balık tutmaya gitmeyi kabul etti.'},
+    {ing: 'We want to play basketball.', tr: 'Basketbol oynamak istiyoruz.'},
+    {ing: 'They decided to stay at home.', tr: 'Evde kalmaya karar verdiler.'},
+    {ing: 'I plan to take a vacation.', tr: 'Tatil yapmayı planlıyorum.'},
+    {
+      ing: 'She needs to water the plants.',
+      tr: 'Bitkileri sulaması gerekiyor.',
+    },
+    {ing: 'He hopes to win the game.', tr: 'Oyunu kazanmayı umuyor.'},
+    {ing: 'We agreed to eat pizza.', tr: 'Pizza yemeyi kabul ettik.'},
+    {ing: 'They love to ride their bikes.', tr: 'Bisiklet sürmeyi seviyorlar.'},
+    {ing: 'I want to write a story.', tr: 'Bir hikaye yazmak istiyorum.'},
+    {ing: 'She decided to go for a walk.', tr: 'Yürüyüşe gitmeye karar verdi.'},
+    {ing: 'He plans to learn to swim.', tr: 'Yüzmeyi öğrenmeyi planlıyor.'},
+    {ing: 'We need to wash the car.', tr: 'Arabayı yıkamamız gerekiyor.'},
+    {ing: 'They hope to find a solution.', tr: 'Bir çözüm bulmayı umuyorlar.'},
+    {
+      ing: 'I love to play video games.',
+      tr: 'Video oyunları oynamayı seviyorum.',
+    },
+    {ing: 'She wants to visit the beach.', tr: 'Plajı ziyaret etmek istiyor.'},
+    {
+      ing: 'He promised to clean his room.',
+      tr: 'Odasını temizlemeye söz verdi.',
+    },
+    {ing: 'We plan to go hiking.', tr: 'Doğa yürüyüşüne gitmeyi planlıyoruz.'},
+    {
+      ing: 'They need to buy new shoes.',
+      tr: 'Yeni ayakkabılar almaları gerekiyor.',
+    },
+    {
+      ing: 'I hope to meet new people.',
+      tr: 'Yeni insanlarla tanışmayı umuyorum.',
+    },
+    {
+      ing: 'She loves to sing in the shower.',
+      tr: 'Duşta şarkı söylemeyi seviyor.',
+    },
+    {ing: 'He agreed to come with us.', tr: 'Bizimle gelmeyi kabul etti.'},
+    {ing: 'We want to learn to dance.', tr: 'Dans etmeyi öğrenmek istiyoruz.'},
+    {
+      ing: 'They decided to start a business.',
+      tr: 'Bir iş kurmaya karar verdiler.',
+    },
+    {
+      ing: 'I plan to read more books.',
+      tr: 'Daha fazla kitap okumayı planlıyorum.',
+    },
+    {ing: 'She needs to visit the doctor.', tr: 'Doktora gitmesi gerekiyor.'},
+    {ing: 'He hopes to get a new job.', tr: 'Yeni bir iş bulmayı umuyor.'},
+    {ing: 'We agreed to play tennis.', tr: 'Tenis oynamayı kabul ettik.'},
+    {
+      ing: 'They love to cook together.',
+      tr: 'Birlikte yemek yapmayı seviyorlar.',
+    },
+    {
+      ing: 'I want to improve my English.',
+      tr: 'İngilizcemi geliştirmek istiyorum.',
+    },
+    {ing: 'She decided to study math.', tr: 'Matematik çalışmaya karar verdi.'},
+    {ing: 'He plans to paint the house.', tr: 'Evi boyamayı planlıyor.'},
+    {
+      ing: 'We need to organize a party.',
+      tr: 'Bir parti düzenlememiz gerekiyor.',
+    },
+    {ing: 'They hope to go on a trip.', tr: 'Bir seyahate çıkmayı umuyorlar.'},
+    {ing: 'I love to play with my cat.', tr: 'Kedimle oynamayı seviyorum.'},
+    {
+      ing: 'She wants to start a new project.',
+      tr: 'Yeni bir projeye başlamak istiyor.',
+    },
+    {ing: 'He promised to arrive on time.', tr: 'Zamanında gelmeye söz verdi.'},
+    {
+      ing: 'We plan to eat out tonight.',
+      tr: 'Bu gece dışarıda yemek yemeyi planlıyoruz.',
+    },
+    {
+      ing: 'They need to find their keys.',
+      tr: 'Anahtarlarını bulmaları gerekiyor.',
+    },
+    {ing: 'I hope to learn to draw.', tr: 'Çizim yapmayı öğrenmeyi umuyorum.'},
+    {ing: 'She loves to watch movies.', tr: 'Film izlemeyi seviyor.'},
+    {ing: 'He agreed to join the team.', tr: 'Takıma katılmayı kabul etti.'},
+    {ing: 'We want to travel by train.', tr: 'Trenle seyahat etmek istiyoruz.'},
+    {
+      ing: 'They decided to change jobs.',
+      tr: 'İş değiştirmeye karar verdiler.',
+    },
+    {ing: 'I plan to go to bed early.', tr: 'Erken yatmayı planlıyorum.'},
+    {ing: 'She needs to call her friend.', tr: 'Arkadaşını araması gerekiyor.'},
+    {
+      ing: 'He hopes to buy a new laptop.',
+      tr: 'Yeni bir dizüstü bilgisayar almayı umuyor.',
+    },
+    {ing: 'We agreed to take the bus.', tr: 'Otobüse binmeyi kabul ettik.'},
+    {ing: 'They love to play in the snow.', tr: 'Karda oynamayı seviyorlar.'},
+    {ing: 'I want to eat ice cream.', tr: 'Dondurma yemek istiyorum.'},
+    {
+      ing: 'She decided to go to the library.',
+      tr: 'Kütüphaneye gitmeye karar verdi.',
+    },
+    {
+      ing: 'He plans to visit his uncle.',
+      tr: 'Amcasını ziyaret etmeyi planlıyor.',
+    },
+    {ing: 'We need to find the address.', tr: 'Adresi bulmamız gerekiyor.'},
+    {ing: 'They hope to have a picnic.', tr: 'Piknik yapmayı umuyorlar.'},
+    {ing: 'I love to ride my bicycle.', tr: 'Bisiklet sürmeyi seviyorum.'},
+    {ing: 'She wants to write a poem.', tr: 'Bir şiir yazmak istiyor.'},
+    {ing: 'He promised to stay longer.', tr: 'Daha uzun kalmaya söz verdi.'},
+    {
+      ing: 'We plan to buy a new TV.',
+      tr: 'Yeni bir televizyon almayı planlıyoruz.',
+    },
+    {ing: 'They need to call the taxi.', tr: 'Taksi çağırmaları gerekiyor.'},
+    {
+      ing: 'I hope to visit my cousin.',
+      tr: 'Kuzenimi ziyaret etmeyi umuyorum.',
+    },
+    {
+      ing: 'She loves to read in the evening.',
+      tr: 'Akşamları okumayı seviyor.',
+    },
+    {
+      ing: 'He agreed to help his neighbor.',
+      tr: 'Komşusuna yardım etmeyi kabul etti.',
+    },
+    {
+      ing: 'We want to practice more.',
+      tr: 'Daha fazla pratik yapmak istiyoruz.',
+    },
+    {
+      ing: 'They decided to move to the countryside.',
+      tr: 'Kırsala taşınmaya karar verdiler.',
+    },
+    {
+      ing: 'I plan to save more money.',
+      tr: 'Daha fazla para biriktirmeyi planlıyorum.',
+    },
+    {
+      ing: 'She needs to finish her project.',
+      tr: 'Projesini bitirmesi gerekiyor.',
+    },
+    {
+      ing: 'He hopes to go camping this weekend.',
+      tr: 'Bu hafta sonu kampa gitmeyi umuyor.',
+    },
+    {
+      ing: 'We agreed to clean the garage.',
+      tr: 'Garajı temizlemeyi kabul ettik.',
+    },
+    {
+      ing: 'They love to dance to music.',
+      tr: 'Müzik eşliğinde dans etmeyi seviyorlar.',
+    },
+    {ing: 'I want to paint my room.', tr: 'Odamı boyamak istiyorum.'},
+    {
+      ing: 'She decided to learn how to drive.',
+      tr: 'Araba kullanmayı öğrenmeye karar verdi.',
+    },
+    {
+      ing: 'He plans to get up early tomorrow.',
+      tr: 'Yarın erken kalkmayı planlıyor.',
+    },
+    {
+      ing: 'We need to book a hotel.',
+      tr: 'Bir otel rezervasyonu yapmamız gerekiyor.',
+    },
+    {
+      ing: 'They hope to find their lost dog.',
+      tr: 'Kayıp köpeklerini bulmayı umuyorlar.',
+    },
+    {
+      ing: 'I love to cook for my family.',
+      tr: 'Ailem için yemek yapmayı seviyorum.',
+    },
+    {
+      ing: 'She wants to join a dance class.',
+      tr: 'Bir dans dersine katılmak istiyor.',
+    },
+    {
+      ing: 'He promised to be more careful.',
+      tr: 'Daha dikkatli olmaya söz verdi.',
+    },
+    {
+      ing: 'We plan to celebrate your birthday.',
+      tr: 'Doğum gününü kutlamayı planlıyoruz.',
+    },
+    {ing: 'They need to fix the door.', tr: 'Kapıyı tamir etmeleri gerekiyor.'},
+    {ing: 'I hope to finish my book.', tr: 'Kitabımı bitirmeyi umuyorum.'},
+    {ing: 'She loves to play chess.', tr: 'Satranç oynamayı seviyor.'},
+    {
+      ing: 'He agreed to take care of the dog.',
+      tr: 'Köpeğe bakmayı kabul etti.',
+    },
+    {ing: 'We want to learn how to swim.', tr: 'Yüzmeyi öğrenmek istiyoruz.'},
+    {ing: 'They decided to take a rest.', tr: 'Dinlenmeye karar verdiler.'},
+    {
+      ing: 'I plan to visit my aunt next week.',
+      tr: 'Gelecek hafta teyzemi ziyaret etmeyi planlıyorum.',
+    },
+    {
+      ing: 'She needs to study for her exam.',
+      tr: 'Sınavı için çalışması gerekiyor.',
+    },
+    {
+      ing: 'He hopes to travel to Spain.',
+      tr: "İspanya'ya seyahat etmeyi umuyor.",
+    },
+    {
+      ing: 'We agreed to share the tasks.',
+      tr: 'Görevleri paylaşmayı kabul ettik.',
+    },
+    {
+      ing: 'They love to explore new places.',
+      tr: 'Yeni yerler keşfetmeyi seviyorlar.',
+    },
+    {
+      ing: 'I want to invite my friends.',
+      tr: 'Arkadaşlarımı davet etmek istiyorum.',
+    },
+    {ing: 'She decided to walk to work.', tr: 'İşe yürümeye karar verdi.'},
+    {ing: 'He plans to buy a gift.', tr: 'Bir hediye almayı planlıyor.'},
+    {
+      ing: 'We need to contact the manager.',
+      tr: 'Müdürle iletişime geçmemiz gerekiyor.',
+    },
+    {ing: 'They hope to build a house.', tr: 'Bir ev inşa etmeyi umuyorlar.'},
+    {
+      ing: 'I love to go for a run in the morning.',
+      tr: 'Sabahları koşuya çıkmayı seviyorum.',
+    },
+    {
+      ing: 'She wants to visit the aquarium.',
+      tr: 'Akvaryumu ziyaret etmek istiyor.',
+    },
+    {ing: 'He promised to stay in touch.', tr: 'İletişimde kalmaya söz verdi.'},
+    {ing: 'We plan to have a barbecue.', tr: 'Mangal yapmayı planlıyoruz.'},
+    {
+      ing: 'They need to finish the report.',
+      tr: 'Raporu bitirmeleri gerekiyor.',
+    },
+    {
+      ing: 'I hope to see my friends soon.',
+      tr: 'Yakında arkadaşlarımı görmeyi umuyorum.',
+    },
+    {
+      ing: 'She loves to garden in her free time.',
+      tr: 'Boş zamanlarında bahçe işleri yapmayı seviyor.',
+    },
+    {
+      ing: 'He agreed to drive us to the airport.',
+      tr: 'Bizi havaalanına götürmeyi kabul etti.',
+    },
+    {
+      ing: 'We want to learn how to bake.',
+      tr: 'Fırında pişirmeyi öğrenmek istiyoruz.',
+    },
+    {
+      ing: 'They decided to meet at the café.',
+      tr: 'Kafede buluşmaya karar verdiler.',
+    },
+    {
+      ing: 'I plan to attend the concert.',
+      tr: 'Konsere katılmayı planlıyorum.',
+    },
+    {
+      ing: 'She needs to check her schedule.',
+      tr: 'Programını kontrol etmesi gerekiyor.',
+    },
+    {
+      ing: 'He hopes to see the fireworks.',
+      tr: 'Havai fişekleri görmeyi umuyor.',
+    },
+    {ing: 'We agreed to order pizza.', tr: 'Pizza sipariş etmeyi kabul ettik.'},
+    {
+      ing: 'They love to travel during holidays.',
+      tr: 'Tatillerde seyahat etmeyi seviyorlar.',
+    },
+  ],
+  AfterMe: [
+    {ing: 'I want him to help me.', tr: 'Onun bana yardım etmesini istiyorum.'},
+    {
+      ing: 'She asked them to stay quiet.',
+      tr: 'Onlardan sessiz kalmalarını istedi.',
+    },
+    {
+      ing: 'He invited us to join the party.',
+      tr: 'Bizi partiye katılmamız için davet etti.',
+    },
+    {
+      ing: 'They need her to finish the report.',
+      tr: 'Onun raporu bitirmesini istiyorlar.',
+    },
+    {
+      ing: 'We told him to clean his room.',
+      tr: 'Ondan odasını temizlemesini söyledik.',
+    },
+    {
+      ing: 'I encouraged her to try the new recipe.',
+      tr: 'Onu yeni tarifi denemeye teşvik ettim.',
+    },
+    {ing: 'She expects me to call her.', tr: 'Beni aramamı bekliyor.'},
+    {
+      ing: 'He asked them to bring more chairs.',
+      tr: 'Onlardan daha fazla sandalye getirmelerini istedi.',
+    },
+    {
+      ing: 'They want us to leave early.',
+      tr: 'Bizim erken ayrılmamızı istiyorlar.',
+    },
+    {
+      ing: 'We advised him to see a doctor.',
+      tr: 'Ona bir doktora gitmesini tavsiye ettik.',
+    },
+    {
+      ing: 'I invited her to have dinner.',
+      tr: 'Onu akşam yemeğine davet ettim.',
+    },
+    {
+      ing: 'She needs them to work harder.',
+      tr: 'Onların daha çok çalışmasını istiyor.',
+    },
+    {
+      ing: 'He told me to wait outside.',
+      tr: 'Bana dışarıda beklememi söyledi.',
+    },
+    {
+      ing: 'They asked us to explain the rules.',
+      tr: 'Bizden kuralları açıklamamızı istediler.',
+    },
+    {
+      ing: 'We encouraged him to play the piano.',
+      tr: 'Onu piyano çalmaya teşvik ettik.',
+    },
+    {
+      ing: 'I want her to visit me soon.',
+      tr: 'Onun beni yakında ziyaret etmesini istiyorum.',
+    },
+    {ing: 'She told him to be careful.', tr: 'Ona dikkatli olmasını söyledi.'},
+    {
+      ing: 'He asked us to keep the secret.',
+      tr: 'Bizden sırrı saklamamızı istedi.',
+    },
+    {
+      ing: 'They invited me to join their team.',
+      tr: 'Beni takımlarına katılmam için davet ettiler.',
+    },
+    {
+      ing: 'We need them to make a decision.',
+      tr: 'Onların bir karar vermesini istiyoruz.',
+    },
+    {
+      ing: 'I asked her to turn off the light.',
+      tr: 'Ondan ışığı kapatmasını istedim.',
+    },
+    {
+      ing: 'She wants him to read the book.',
+      tr: 'Onun kitabı okumasını istiyor.',
+    },
+    {
+      ing: 'He told us to come on time.',
+      tr: 'Bize zamanında gelmemizi söyledi.',
+    },
+    {
+      ing: 'They encouraged her to take a break.',
+      tr: 'Onu bir mola vermeye teşvik ettiler.',
+    },
+    {
+      ing: 'We asked him to move the car.',
+      tr: 'Ondan arabayı hareket ettirmesini istedik.',
+    },
+    {
+      ing: 'I want them to enjoy the day.',
+      tr: 'Onların günü keyifli geçirmesini istiyorum.',
+    },
+    {
+      ing: 'She invited us to see her show.',
+      tr: 'Bizi gösterisini izlemeye davet etti.',
+    },
+    {ing: 'He told her to stay calm.', tr: 'Ona sakin kalmasını söyledi.'},
+    {
+      ing: 'They need me to sign the document.',
+      tr: 'Benim belgeyi imzalamamı istiyorlar.',
+    },
+    {
+      ing: 'We asked him to dance with us.',
+      tr: 'Ondan bizimle dans etmesini istedik.',
+    },
+    {
+      ing: 'I want her to listen to the song.',
+      tr: 'Onun şarkıyı dinlemesini istiyorum.',
+    },
+    {
+      ing: 'She asked them to help with the bags.',
+      tr: 'Onlardan çantalara yardım etmelerini istedi.',
+    },
+    {
+      ing: 'He invited me to visit his garden.',
+      tr: 'Beni bahçesini ziyaret etmem için davet etti.',
+    },
+    {
+      ing: 'They told us to finish the task.',
+      tr: 'Bize görevi bitirmemizi söylediler.',
+    },
+    {
+      ing: 'We need her to bring the papers.',
+      tr: 'Onun kağıtları getirmesini istiyoruz.',
+    },
+    {
+      ing: 'I encouraged him to learn swimming.',
+      tr: 'Onu yüzmeyi öğrenmeye teşvik ettim.',
+    },
+    {
+      ing: 'She wants them to clean the house.',
+      tr: 'Onların evi temizlemesini istiyor.',
+    },
+    {
+      ing: 'He asked her to take the medicine.',
+      tr: 'Ondan ilacı almasını istedi.',
+    },
+    {
+      ing: 'They invited us to their wedding.',
+      tr: 'Bizi düğünlerine davet ettiler.',
+    },
+    {
+      ing: 'We told him to stop talking.',
+      tr: 'Ona konuşmayı bırakmasını söyledik.',
+    },
+    {
+      ing: 'I need her to fix my computer.',
+      tr: 'Onun bilgisayarımı tamir etmesini istiyorum.',
+    },
+    {
+      ing: 'She encouraged him to write a poem.',
+      tr: 'Onu bir şiir yazmaya teşvik etti.',
+    },
+    {
+      ing: 'He asked us to watch the baby.',
+      tr: 'Bizden bebeğe bakmamızı istedi.',
+    },
+    {
+      ing: 'They want me to choose a movie.',
+      tr: 'Benim bir film seçmemi istiyorlar.',
+    },
+    {
+      ing: 'We told her to check her email.',
+      tr: 'Ona e-postasını kontrol etmesini söyledik.',
+    },
+    {
+      ing: 'I invited him to play chess.',
+      tr: 'Onu satranç oynamaya davet ettim.',
+    },
+    {
+      ing: 'She needs them to be on time.',
+      tr: 'Onların zamanında olmasını istiyor.',
+    },
+    {
+      ing: 'He asked me to buy some bread.',
+      tr: 'Benden biraz ekmek almamı istedi.',
+    },
+    {
+      ing: 'They encouraged us to try harder.',
+      tr: 'Bizi daha çok çabalamaya teşvik ettiler.',
+    },
+    {
+      ing: 'We need him to explain the plan.',
+      tr: 'Onun planı açıklamasını istiyoruz.',
+    },
+    {
+      ing: 'I want her to paint a picture.',
+      tr: 'Onun bir resim yapmasını istiyorum.',
+    },
+    {
+      ing: 'She asked him to sing a song.',
+      tr: 'Ondan bir şarkı söylemesini istedi.',
+    },
+    {ing: 'He told us to take a seat.', tr: 'Bize oturmamızı söyledi.'},
+    {
+      ing: 'They invited her to join the club.',
+      tr: 'Onu kulübe katılmaya davet ettiler.',
+    },
+    {
+      ing: 'We need them to call us later.',
+      tr: 'Onların bizi sonra aramalarını istiyoruz.',
+    },
+    {
+      ing: 'I encouraged him to take a walk.',
+      tr: 'Onu yürüyüş yapmaya teşvik ettim.',
+    },
+    {ing: 'She wants me to make a cake.', tr: 'Benim bir kek yapmamı istiyor.'},
+    {
+      ing: 'He asked her to bring a pen.',
+      tr: 'Ondan bir kalem getirmesini istedi.',
+    },
+    {
+      ing: 'They told us to prepare dinner.',
+      tr: 'Bize akşam yemeğini hazırlamamızı söylediler.',
+    },
+    {
+      ing: 'We invited him to see the match.',
+      tr: 'Onu maçı izlemeye davet ettik.',
+    },
+    {
+      ing: 'I need her to take the dog out.',
+      tr: 'Onun köpeği dışarı çıkarmasını istiyorum.',
+    },
+    {
+      ing: 'She asked them to wash the car.',
+      tr: 'Onlardan arabayı yıkamalarını istedi.',
+    },
+    {
+      ing: 'He wants me to relax for a while.',
+      tr: 'Benim biraz dinlenmemi istiyor.',
+    },
+    {
+      ing: 'They encouraged her to go hiking.',
+      tr: 'Onu doğa yürüyüşüne gitmeye teşvik ettiler.',
+    },
+    {
+      ing: 'We asked him to play the violin.',
+      tr: 'Ondan keman çalmasını istedik.',
+    },
+    {
+      ing: 'I invited her to the gallery.',
+      tr: 'Onu galeriyi gezmeye davet ettim.',
+    },
+    {
+      ing: 'She needs him to water the plants.',
+      tr: 'Onun bitkileri sulamasını istiyor.',
+    },
+    {
+      ing: 'He told them to close the windows.',
+      tr: 'Onlara pencereleri kapatmalarını söyledi.',
+    },
+    {
+      ing: 'They want me to cook lunch.',
+      tr: 'Benim öğle yemeği yapmamı istiyorlar.',
+    },
+    {
+      ing: 'We asked her to teach us math.',
+      tr: 'Ondan bize matematik öğretmesini istedik.',
+    },
+    {
+      ing: 'I encouraged him to read more.',
+      tr: 'Onu daha fazla okumaya teşvik ettim.',
+    },
+    {
+      ing: 'She invited us to her birthday party.',
+      tr: 'Bizi doğum günü partisine davet etti.',
+    },
+    {ing: 'He asked me to wait for him.', tr: 'Benden onu beklememi istedi.'},
+    {
+      ing: 'They need her to guide them.',
+      tr: 'Onun onlara rehberlik etmesini istiyorlar.',
+    },
+    {ing: 'We told him to rest well.', tr: 'Ona iyi dinlenmesini söyledik.'},
+    {
+      ing: 'I want her to dance with me.',
+      tr: 'Onun benimle dans etmesini istiyorum.',
+    },
+    {
+      ing: 'She asked him to paint the wall.',
+      tr: 'Ondan duvarı boyamasını istedi.',
+    },
+    {ing: 'He told us to be quiet.', tr: 'Bize sessiz olmamızı söyledi.'},
+    {
+      ing: 'They invited me to join their game.',
+      tr: 'Beni oyunlarına katılmam için davet ettiler.',
+    },
+    {
+      ing: 'We need them to stay longer.',
+      tr: 'Onların daha uzun kalmasını istiyoruz.',
+    },
+    {
+      ing: 'I encouraged her to try acting.',
+      tr: 'Onu oyunculuğu denemeye teşvik ettim.',
+    },
+    {
+      ing: 'She asked me to make a call.',
+      tr: 'Benden bir telefon görüşmesi yapmamı istedi.',
+    },
+    {
+      ing: 'He wants us to smile for the photo.',
+      tr: 'Bizim fotoğraf için gülümsememizi istiyor.',
+    },
+    {
+      ing: 'They told him to lock the door.',
+      tr: 'Ona kapıyı kilitlemesini söylediler.',
+    },
+    {
+      ing: 'We asked her to start the engine.',
+      tr: 'Ondan motoru çalıştırmasını istedik.',
+    },
+    {
+      ing: 'I invited him to see my artwork.',
+      tr: 'Onu sanat eserimi görmeye davet ettim.',
+    },
+    {
+      ing: 'She needs me to help with her homework.',
+      tr: 'Benim ödevine yardım etmemi istiyor.',
+    },
+    {
+      ing: 'He asked them to follow the map.',
+      tr: 'Onlardan haritayı takip etmelerini istedi.',
+    },
+    {
+      ing: 'They encouraged us to play music.',
+      tr: 'Bizi müzik çalmaya teşvik ettiler.',
+    },
+    {
+      ing: 'We want her to lead the team.',
+      tr: 'Onun takımı yönetmesini istiyoruz.',
+    },
+    {
+      ing: 'I asked him to write a letter.',
+      tr: 'Ondan bir mektup yazmasını istedim.',
+    },
+    {
+      ing: 'She invited them to see the garden.',
+      tr: 'Onları bahçeyi görmeye davet etti.',
+    },
+    {
+      ing: 'He told us to finish our drinks.',
+      tr: 'Bize içeceklerimizi bitirmemizi söyledi.',
+    },
+    {
+      ing: 'They want me to paint the fence.',
+      tr: 'Benim çiti boyamamı istiyorlar.',
+    },
+    {
+      ing: 'We asked her to bring some snacks.',
+      tr: 'Ondan biraz atıştırmalık getirmesini istedik.',
+    },
+    {
+      ing: 'I encouraged him to practice yoga.',
+      tr: 'Onu yoga yapmaya teşvik ettim.',
+    },
+    {
+      ing: 'She needs us to listen carefully.',
+      tr: 'Bizim dikkatlice dinlememizi istiyor.',
+    },
+    {
+      ing: 'He asked me to drive slower.',
+      tr: 'Benden daha yavaş sürmemi istedi.',
+    },
+    {
+      ing: 'They told her to be patient.',
+      tr: 'Ona sabırlı olmasını söylediler.',
+    },
+    {
+      ing: 'We invited him to the music concert.',
+      tr: 'Onu müzik konserine davet ettik.',
+    },
+    {
+      ing: 'I want them to enjoy the event.',
+      tr: 'Onların etkinliğin tadını çıkarmasını istiyorum.',
+    },
+    {
+      ing: 'She asked him to lend her some money.',
+      tr: 'Ondan biraz para ödünç vermesini istedi.',
+    },
+    {
+      ing: 'He told us to keep the door closed.',
+      tr: 'Bize kapıyı kapalı tutmamızı söyledi.',
+    },
+    {
+      ing: 'They invited me to play basketball.',
+      tr: 'Beni basketbol oynamaya davet ettiler.',
+    },
+    {
+      ing: 'We need her to find the address.',
+      tr: 'Onun adresi bulmasını istiyoruz.',
+    },
+    {
+      ing: 'I encouraged him to study English.',
+      tr: 'Onu İngilizce çalışmaya teşvik ettim.',
+    },
+    {
+      ing: 'She wants us to decorate the room.',
+      tr: 'Bizim odayı süslememizi istiyor.',
+    },
+    {
+      ing: 'He asked her to feed the cat.',
+      tr: 'Ondan kediyi beslemesini istedi.',
+    },
+    {
+      ing: 'They told me to look for clues.',
+      tr: 'Bana ipuçlarını aramamı söylediler.',
+    },
+    {
+      ing: 'We invited them to our picnic.',
+      tr: 'Onları pikniğimize davet ettik.',
+    },
+    {
+      ing: 'I need him to bring the tickets.',
+      tr: 'Onun biletleri getirmesini istiyorum.',
+    },
+    {
+      ing: 'She asked me to carry her bag.',
+      tr: 'Benden çantasını taşımamı istedi.',
+    },
+    {
+      ing: 'He told her to follow the instructions.',
+      tr: 'Ona talimatları takip etmesini söyledi.',
+    },
+    {
+      ing: 'They want us to clean the yard.',
+      tr: 'Bizim bahçeyi temizlememizi istiyorlar.',
+    },
+    {
+      ing: 'We asked him to watch the movie.',
+      tr: 'Ondan filmi izlemesini istedik.',
+    },
+    {
+      ing: 'I encouraged her to play the drums.',
+      tr: 'Onu davul çalmaya teşvik ettim.',
+    },
+    {
+      ing: 'She invited them to her concert.',
+      tr: 'Onları konserine davet etti.',
+    },
+    {
+      ing: 'He asked me to hold the ladder.',
+      tr: 'Benden merdiveni tutmamı istedi.',
+    },
+    {
+      ing: 'They told her to arrive early.',
+      tr: 'Ona erken gelmesini söylediler.',
+    },
+    {
+      ing: 'We need him to check the lights.',
+      tr: 'Onun ışıkları kontrol etmesini istiyoruz.',
+    },
+    {
+      ing: 'I want her to water the garden.',
+      tr: 'Onun bahçeyi sulamasını istiyorum.',
+    },
+    {
+      ing: 'She asked him to cook dinner.',
+      tr: 'Ondan akşam yemeğini yapmasını istedi.',
+    },
+    {
+      ing: 'He told us to close the curtains.',
+      tr: 'Bize perdeleri kapatmamızı söyledi.',
+    },
+    {
+      ing: 'They invited me to their barbecue.',
+      tr: 'Beni mangal partilerine davet ettiler.',
+    },
+    {
+      ing: 'We asked her to help with the kids.',
+      tr: 'Ondan çocuklara yardım etmesini istedik.',
+    },
+    {
+      ing: 'I encouraged him to draw a picture.',
+      tr: 'Onu bir resim çizmeye teşvik ettim.',
+    },
+    {
+      ing: 'She needs them to deliver the message.',
+      tr: 'Onların mesajı iletmesini istiyor.',
+    },
+    {
+      ing: 'He asked me to wait a moment.',
+      tr: 'Benden bir an beklememi istedi.',
+    },
+    {
+      ing: 'They told us to remove our shoes.',
+      tr: 'Bize ayakkabılarımızı çıkarmamızı söylediler.',
+    },
+    {
+      ing: 'We invited her to the dinner party.',
+      tr: 'Onu akşam yemeği partisine davet ettik.',
+    },
+    {
+      ing: 'I need him to answer the phone.',
+      tr: 'Onun telefonu cevaplamasını istiyorum.',
+    },
+    {
+      ing: 'She asked us to solve the puzzle.',
+      tr: 'Bizden bulmacayı çözmemizi istedi.',
+    },
+    {
+      ing: 'He told her to relax and rest.',
+      tr: 'Ona rahatlayıp dinlenmesini söyledi.',
+    },
+    {
+      ing: 'They want me to guide the tour.',
+      tr: 'Benim turu yönlendirmemi istiyorlar.',
+    },
+    {
+      ing: 'We asked him to turn on the fan.',
+      tr: 'Ondan vantilatörü açmasını istedik.',
+    },
+    {
+      ing: 'I encouraged her to ride the bike.',
+      tr: 'Onu bisiklete binmeye teşvik ettim.',
+    },
+    {
+      ing: 'She invited us to watch the sunset.',
+      tr: 'Bizi gün batımını izlemeye davet etti.',
+    },
+    {
+      ing: 'He asked them to play outside.',
+      tr: 'Onlardan dışarıda oynamalarını istedi.',
+    },
+    {
+      ing: 'They told me to focus on my work.',
+      tr: 'Bana işime odaklanmamı söylediler.',
+    },
+    {
+      ing: 'We need her to finish the presentation.',
+      tr: 'Onun sunumu bitirmesini istiyoruz.',
+    },
+    {
+      ing: 'I want him to bring some snacks.',
+      tr: 'Onun birkaç atıştırmalık getirmesini istiyorum.',
+    },
+    {
+      ing: 'She asked them to clear the table.',
+      tr: 'Onlardan masayı temizlemelerini istedi.',
+    },
+    {ing: 'He told us to be on time.', tr: 'Bize zamanında olmamızı söyledi.'},
+    {
+      ing: 'They invited me to attend the meeting.',
+      tr: 'Beni toplantıya katılmam için davet ettiler.',
+    },
+    {
+      ing: 'We asked her to draw a map.',
+      tr: 'Ondan bir harita çizmesini istedik.',
+    },
+    {
+      ing: 'I encouraged him to practice guitar.',
+      tr: 'Onu gitar çalışmaya teşvik ettim.',
+    },
+    {
+      ing: 'She needs us to explain the details.',
+      tr: 'Bizim detayları açıklamamızı istiyor.',
+    },
+    {
+      ing: 'He asked me to lock the gate.',
+      tr: 'Benden kapıyı kilitlememi istedi.',
+    },
+    {
+      ing: 'They told her to save her progress.',
+      tr: 'Ona ilerlemesini kaydetmesini söylediler.',
+    },
+    {
+      ing: 'We invited him to the family reunion.',
+      tr: 'Onu aile toplantısına davet ettik.',
+    },
+  ],
+  AfterMy: [
+    {
+      ing: 'My favorite hobby is drawing pictures.',
+      tr: 'Benim en sevdiğim hobi resim yapmaktır.',
+    },
+    {ing: 'Her singing is beautiful.', tr: 'Onun şarkı söylemesi güzeldir.'},
+    {ing: 'His cooking is delicious.', tr: 'Onun yemek yapması lezzetlidir.'},
+    {
+      ing: 'Our walking in the park was relaxing.',
+      tr: 'Parkta yürümemiz rahatlatıcıydı.',
+    },
+    {
+      ing: 'Their dancing is very energetic.',
+      tr: 'Onların dans etmesi çok enerjik.',
+    },
+    {ing: 'My reading helps me relax.', tr: 'Benim okumam beni rahatlatır.'},
+    {
+      ing: 'Her drawing of animals is amazing.',
+      tr: 'Onun hayvan çizimi harika.',
+    },
+    {ing: 'His running is very fast.', tr: 'Onun koşması çok hızlı.'},
+    {
+      ing: 'Our singing together was fun.',
+      tr: 'Birlikte şarkı söylememiz eğlenceliydi.',
+    },
+    {ing: 'Their playing was loud.', tr: 'Onların oynaması çok sesliydi.'},
+    {
+      ing: 'My writing in English is improving.',
+      tr: 'Benim İngilizce yazmam gelişiyor.',
+    },
+    {
+      ing: 'Her painting is very colorful.',
+      tr: 'Onun resim yapması çok renkli.',
+    },
+    {
+      ing: 'His reading of the story was clear.',
+      tr: 'Onun hikayeyi okuması netti.',
+    },
+    {
+      ing: 'Our dancing at the party was exciting.',
+      tr: 'Partide dans etmemiz heyecan vericiydi.',
+    },
+    {
+      ing: 'Their cooking is always tasty.',
+      tr: 'Onların yemek yapması her zaman lezzetlidir.',
+    },
+    {
+      ing: 'My singing in the shower is loud.',
+      tr: 'Benim duşta şarkı söylemem gürültülüdür.',
+    },
+    {
+      ing: 'Her drawing of flowers is lovely.',
+      tr: 'Onun çiçek çizimi sevimli.',
+    },
+    {
+      ing: 'His playing the guitar is impressive.',
+      tr: 'Onun gitar çalması etkileyici.',
+    },
+    {ing: 'Our talking was interesting.', tr: 'Bizim konuşmamız ilginçti.'},
+    {ing: 'Their swimming is strong.', tr: 'Onların yüzmesi güçlü.'},
+    {
+      ing: 'My painting skills are getting better.',
+      tr: 'Benim resim yapma becerilerim gelişiyor.',
+    },
+    {ing: 'Her cooking is improving.', tr: 'Onun yemek yapması gelişiyor.'},
+    {ing: 'His singing voice is nice.', tr: 'Onun şarkı söyleme sesi güzel.'},
+    {
+      ing: 'Our studying together helps us learn.',
+      tr: 'Birlikte çalışmamız öğrenmemize yardımcı olur.',
+    },
+    {ing: 'Their reading is very fast.', tr: 'Onların okuması çok hızlı.'},
+    {
+      ing: 'My dancing is not very good.',
+      tr: 'Benim dans etmem çok iyi değil.',
+    },
+    {ing: 'Her writing is beautiful.', tr: 'Onun yazısı güzel.'},
+    {ing: 'His drawing of cars is great.', tr: 'Onun araba çizimi harika.'},
+    {ing: 'Our cooking was fun.', tr: 'Bizim yemek yapmamız eğlenceliydi.'},
+    {
+      ing: 'Their playing soccer is skillful.',
+      tr: 'Onların futbol oynaması yetenekli.',
+    },
+    {
+      ing: 'My running every morning is healthy.',
+      tr: 'Benim her sabah koşmam sağlıklıdır.',
+    },
+    {
+      ing: 'Her singing in the choir is lovely.',
+      tr: 'Onun koroda şarkı söylemesi sevimlidir.',
+    },
+    {ing: 'His studying hard pays off.', tr: 'Onun sıkı çalışması işe yarar.'},
+    {
+      ing: 'Our painting the walls was a good idea.',
+      tr: 'Duvarları boyamamız iyi bir fikirdi.',
+    },
+    {
+      ing: 'Their dancing at the show was amazing.',
+      tr: 'Gösteride dans etmeleri harikaydı.',
+    },
+    {ing: 'My learning is getting faster.', tr: 'Benim öğrenmem hızlanıyor.'},
+    {ing: 'Her playing the piano is great.', tr: 'Onun piyano çalması harika.'},
+    {
+      ing: 'His cooking for the family is special.',
+      tr: 'Onun aile için yemek yapması özeldir.',
+    },
+    {
+      ing: 'Our reading books together is fun.',
+      tr: 'Birlikte kitap okumamız eğlencelidir.',
+    },
+    {
+      ing: 'Their singing made everyone smile.',
+      tr: 'Onların şarkı söylemesi herkesi gülümsetti.',
+    },
+    {
+      ing: 'My painting skills are growing.',
+      tr: 'Benim resim yapma becerilerim artıyor.',
+    },
+    {
+      ing: 'Her running every morning is impressive.',
+      tr: 'Onun her sabah koşması etkileyici.',
+    },
+    {
+      ing: 'His writing stories is creative.',
+      tr: 'Onun hikaye yazması yaratıcı.',
+    },
+    {
+      ing: 'Our playing games is enjoyable.',
+      tr: 'Bizim oyun oynamamız keyiflidir.',
+    },
+    {
+      ing: 'Their cooking dinner was delicious.',
+      tr: 'Onların akşam yemeği yapması lezzetliydi.',
+    },
+    {
+      ing: 'My singing at the event was fun.',
+      tr: 'Benim etkinlikte şarkı söylemem eğlenceliydi.',
+    },
+    {
+      ing: 'Her drawing of animals is cute.',
+      tr: 'Onun hayvan çizimi sevimlidir.',
+    },
+    {
+      ing: 'His learning new skills is quick.',
+      tr: 'Onun yeni beceriler öğrenmesi hızlıdır.',
+    },
+    {
+      ing: 'Our talking with friends is fun.',
+      tr: 'Arkadaşlarla konuşmamız eğlencelidir.',
+    },
+    {
+      ing: 'Their reading together helps them study.',
+      tr: 'Onların birlikte okuması çalışmasına yardımcı olur.',
+    },
+    {
+      ing: 'My cooking for my family is enjoyable.',
+      tr: 'Ailem için yemek yapmam keyiflidir.',
+    },
+    {ing: 'Her playing soccer is strong.', tr: 'Onun futbol oynaması güçlü.'},
+    {
+      ing: 'His singing in the band is cool.',
+      tr: 'Onun grupta şarkı söylemesi havalıdır.',
+    },
+    {
+      ing: 'Our dancing in the rain was fun.',
+      tr: 'Yağmurda dans etmemiz eğlenceliydi.',
+    },
+    {
+      ing: 'Their writing a story was great.',
+      tr: 'Onların hikaye yazması harikaydı.',
+    },
+    {ing: 'My drawing of trees is nice.', tr: 'Benim ağaç çizimim güzeldir.'},
+    {
+      ing: 'Her cooking lunch was quick.',
+      tr: 'Onun öğle yemeği yapması hızlıydı.',
+    },
+    {
+      ing: 'His studying math helps him a lot.',
+      tr: 'Onun matematik çalışması ona çok yardımcı olur.',
+    },
+    {
+      ing: 'Our singing at the festival was fun.',
+      tr: 'Festivalde şarkı söylememiz eğlenceliydi.',
+    },
+    {
+      ing: 'Their painting the fence looks good.',
+      tr: 'Onların çiti boyaması iyi görünüyor.',
+    },
+    {
+      ing: 'My learning English is important.',
+      tr: 'Benim İngilizce öğrenmem önemlidir.',
+    },
+    {
+      ing: 'Her reading in the park is peaceful.',
+      tr: 'Onun parkta okuması huzurludur.',
+    },
+    {ing: 'His playing tennis is strong.', tr: 'Onun tenis oynaması güçlü.'},
+    {
+      ing: 'Our cooking class is interesting.',
+      tr: 'Bizim yemek yapma dersimiz ilginçtir.',
+    },
+    {
+      ing: 'Their singing made everyone happy.',
+      tr: 'Onların şarkı söylemesi herkesi mutlu etti.',
+    },
+    {ing: 'My dancing is improving.', tr: 'Benim dans etmem gelişiyor.'},
+    {ing: 'Her drawing skills are great.', tr: 'Onun çizim becerileri harika.'},
+    {ing: 'His cooking is tasty.', tr: 'Onun yemek yapması lezzetlidir.'},
+    {ing: 'Our playing music was joyful.', tr: 'Müzik çalmamız keyifliydi.'},
+    {
+      ing: 'Their reading in the library is quiet.',
+      tr: 'Onların kütüphanede okuması sessizdir.',
+    },
+    {
+      ing: 'My painting makes me happy.',
+      tr: 'Benim resim yapmam beni mutlu eder.',
+    },
+    {
+      ing: 'Her running every day is inspiring.',
+      tr: 'Onun her gün koşması ilham vericidir.',
+    },
+    {ing: 'His writing poems is beautiful.', tr: 'Onun şiir yazması güzeldir.'},
+    {
+      ing: 'Our singing together is loud.',
+      tr: 'Bizim birlikte şarkı söylememiz gürültülüdür.',
+    },
+    {
+      ing: 'Their cooking for the party was delicious.',
+      tr: 'Onların parti için yemek yapması lezzetliydi.',
+    },
+  ],
+  AfterPassive: [
+    {
+      ing: 'He was asked to help with the project.',
+      tr: 'Projeye yardım etmesi istendi.',
+    },
+    {
+      ing: 'She was told to clean her room.',
+      tr: 'Odasını temizlemesi söylendi.',
+    },
+    {
+      ing: 'They were invited to join the party.',
+      tr: 'Partiye katılmaları için davet edildiler.',
+    },
+    {ing: 'We were asked to leave early.', tr: 'Erken ayrılmamız istendi.'},
+    {
+      ing: 'The students were expected to finish their homework.',
+      tr: 'Öğrencilerin ödevlerini bitirmeleri bekleniyordu.',
+    },
+    {
+      ing: 'He was chosen to lead the team.',
+      tr: 'Takımı yönetmesi için seçildi.',
+    },
+    {
+      ing: 'She was instructed to write a report.',
+      tr: 'Bir rapor yazması söylendi.',
+    },
+    {
+      ing: 'They were encouraged to study more.',
+      tr: 'Daha fazla çalışmalarına teşvik edildiler.',
+    },
+    {
+      ing: 'We were asked to bring some food.',
+      tr: 'Biraz yiyecek getirmemiz istendi.',
+    },
+    {ing: 'He was told to close the door.', tr: 'Kapıyı kapatması söylendi.'},
+    {
+      ing: 'She was invited to sing at the event.',
+      tr: 'Etkinlikte şarkı söylemesi için davet edildi.',
+    },
+    {
+      ing: 'They were expected to arrive on time.',
+      tr: 'Zamanında varmaları bekleniyordu.',
+    },
+    {
+      ing: 'We were chosen to represent our class.',
+      tr: 'Sınıfımızı temsil etmemiz için seçildik.',
+    },
+    {
+      ing: 'He was encouraged to play the piano.',
+      tr: 'Piyano çalması için teşvik edildi.',
+    },
+    {
+      ing: 'She was told to wait in the lobby.',
+      tr: 'Lobide beklemesi söylendi.',
+    },
+    {
+      ing: 'They were invited to watch the movie.',
+      tr: 'Filmi izlemeleri için davet edildiler.',
+    },
+    {
+      ing: 'We were asked to help with the decorations.',
+      tr: 'Süslemelere yardım etmemiz istendi.',
+    },
+    {
+      ing: 'He was expected to fix the computer.',
+      tr: 'Bilgisayarı tamir etmesi bekleniyordu.',
+    },
+    {
+      ing: 'She was instructed to call her parents.',
+      tr: 'Ailesini araması söylendi.',
+    },
+    {
+      ing: 'They were chosen to join the game.',
+      tr: 'Oyuna katılmaları için seçildiler.',
+    },
+    {
+      ing: 'We were told to sit down quietly.',
+      tr: 'Sessizce oturmamız söylendi.',
+    },
+    {
+      ing: 'He was invited to give a speech.',
+      tr: 'Bir konuşma yapması için davet edildi.',
+    },
+    {ing: 'She was asked to draw a picture.', tr: 'Bir resim çizmesi istendi.'},
+    {
+      ing: 'They were expected to clean the yard.',
+      tr: 'Bahçeyi temizlemeleri bekleniyordu.',
+    },
+    {
+      ing: 'We were chosen to lead the project.',
+      tr: 'Projeyi yönetmemiz için seçildik.',
+    },
+    {
+      ing: 'He was encouraged to read more books.',
+      tr: 'Daha fazla kitap okuması için teşvik edildi.',
+    },
+    {ing: 'She was told to stay at home.', tr: 'Evde kalması söylendi.'},
+    {
+      ing: 'They were invited to join the team.',
+      tr: 'Takıma katılmaları için davet edildiler.',
+    },
+    {
+      ing: 'We were asked to plan the event.',
+      tr: 'Etkinliği planlamamız istendi.',
+    },
+    {
+      ing: 'He was expected to solve the puzzle.',
+      tr: 'Bulmacayı çözmesi bekleniyordu.',
+    },
+    {
+      ing: 'She was instructed to bring her book.',
+      tr: 'Kitabını getirmesi söylendi.',
+    },
+    {
+      ing: 'They were chosen to win the prize.',
+      tr: 'Ödülü kazanmaları için seçildiler.',
+    },
+    {
+      ing: 'We were told to follow the rules.',
+      tr: 'Kurallara uymamız söylendi.',
+    },
+    {ing: 'He was invited to the meeting.', tr: 'Toplantıya davet edildi.'},
+    {ing: 'She was asked to make a cake.', tr: 'Bir kek yapması istendi.'},
+    {
+      ing: 'They were expected to finish early.',
+      tr: 'Erken bitirmeleri bekleniyordu.',
+    },
+    {
+      ing: 'We were chosen to clean the classroom.',
+      tr: 'Sınıfı temizlememiz için seçildik.',
+    },
+    {
+      ing: 'He was encouraged to draw a picture.',
+      tr: 'Bir resim çizmesi için teşvik edildi.',
+    },
+    {ing: 'She was told to open the window.', tr: 'Pencereyi açması söylendi.'},
+    {
+      ing: 'They were invited to come for dinner.',
+      tr: 'Akşam yemeğine gelmeleri için davet edildiler.',
+    },
+    {
+      ing: 'We were asked to bring a dessert.',
+      tr: 'Bir tatlı getirmemiz istendi.',
+    },
+    {
+      ing: 'He was expected to write a letter.',
+      tr: 'Bir mektup yazması bekleniyordu.',
+    },
+    {
+      ing: 'She was instructed to meet her teacher.',
+      tr: 'Öğretmeniyle buluşması söylendi.',
+    },
+    {
+      ing: 'They were chosen to go on the trip.',
+      tr: 'Geziye gitmeleri için seçildiler.',
+    },
+    {
+      ing: 'We were told to pack our bags.',
+      tr: 'Çantalarımızı toplamamız söylendi.',
+    },
+    {
+      ing: 'He was invited to join the dance.',
+      tr: 'Dansa katılması için davet edildi.',
+    },
+    {ing: 'She was asked to sing a song.', tr: 'Bir şarkı söylemesi istendi.'},
+    {
+      ing: 'They were expected to clean the table.',
+      tr: 'Masayı temizlemeleri bekleniyordu.',
+    },
+    {
+      ing: 'We were chosen to be the leaders.',
+      tr: 'Lider olmamız için seçildik.',
+    },
+    {
+      ing: 'He was encouraged to practice sports.',
+      tr: 'Spor yapması için teşvik edildi.',
+    },
+    {ing: 'She was told to write her name.', tr: 'Adını yazması söylendi.'},
+    {ing: 'They were invited to the concert.', tr: 'Konsere davet edildiler.'},
+    {
+      ing: 'We were asked to clean the windows.',
+      tr: 'Pencereleri temizlememiz istendi.',
+    },
+    {ing: 'He was expected to study hard.', tr: 'Sıkı çalışması bekleniyordu.'},
+    {
+      ing: 'She was instructed to bring her ID.',
+      tr: 'Kimliğini getirmesi söylendi.',
+    },
+    {
+      ing: 'They were chosen to perform on stage.',
+      tr: 'Sahneye çıkmaları için seçildiler.',
+    },
+    {ing: 'We were told to play quietly.', tr: 'Sessizce oynamamız söylendi.'},
+    {ing: 'He was invited to the celebration.', tr: 'Kutlamaya davet edildi.'},
+    {
+      ing: 'She was asked to join the dance group.',
+      tr: 'Dans grubuna katılması istendi.',
+    },
+    {
+      ing: 'They were expected to arrive early.',
+      tr: 'Erken gelmeleri bekleniyordu.',
+    },
+    {
+      ing: 'We were chosen to sing in the choir.',
+      tr: 'Koroda şarkı söylememiz için seçildik.',
+    },
+    {
+      ing: 'He was encouraged to speak clearly.',
+      tr: 'Açıkça konuşması için teşvik edildi.',
+    },
+    {
+      ing: 'She was told to wait for her turn.',
+      tr: 'Sırasını beklemesi söylendi.',
+    },
+    {
+      ing: 'They were invited to share their ideas.',
+      tr: 'Fikirlerini paylaşmaları için davet edildiler.',
+    },
+    {
+      ing: 'We were asked to help the teacher.',
+      tr: 'Öğretmene yardım etmemiz istendi.',
+    },
+    {
+      ing: 'He was expected to answer quickly.',
+      tr: 'Hızlı cevap vermesi bekleniyordu.',
+    },
+    {
+      ing: 'She was instructed to wear a hat.',
+      tr: 'Bir şapka takması söylendi.',
+    },
+    {
+      ing: 'They were chosen to act in the play.',
+      tr: 'Oyunda rol almaları için seçildiler.',
+    },
+    {ing: 'We were told to be patient.', tr: 'Sabırlı olmamız söylendi.'},
+    {ing: 'He was invited to the party.', tr: 'Partiye davet edildi.'},
+    {
+      ing: 'She was asked to take care of the baby.',
+      tr: 'Bebeğe bakması istendi.',
+    },
+    {
+      ing: 'They were expected to complete the task.',
+      tr: 'Görevi tamamlamaları bekleniyordu.',
+    },
+    {
+      ing: 'We were chosen to present the gift.',
+      tr: 'Hediyeyi sunmamız için seçildik.',
+    },
+    {
+      ing: 'He was encouraged to join the club.',
+      tr: 'Kulübe katılması için teşvik edildi.',
+    },
+    {ing: 'She was told to lock the door.', tr: 'Kapıyı kilitlemesi söylendi.'},
+    {
+      ing: 'They were invited to visit the school.',
+      tr: 'Okulu ziyaret etmeleri için davet edildiler.',
+    },
+    {
+      ing: 'We were asked to help with the project.',
+      tr: 'Projeye yardım etmemiz istendi.',
+    },
+    {
+      ing: 'He was expected to be on time.',
+      tr: 'Zamanında olması bekleniyordu.',
+    },
+    {
+      ing: 'She was instructed to bring her homework.',
+      tr: 'Ödevini getirmesi söylendi.',
+    },
+    {
+      ing: 'They were chosen to play the main role.',
+      tr: 'Ana rolü oynamaları için seçildiler.',
+    },
+    {
+      ing: 'We were told to turn off the lights.',
+      tr: 'Işıkları kapatmamız söylendi.',
+    },
+    {ing: 'He was invited to the dinner.', tr: 'Akşam yemeğine davet edildi.'},
+    {
+      ing: 'She was asked to bring some flowers.',
+      tr: 'Biraz çiçek getirmesi istendi.',
+    },
+    {
+      ing: 'They were expected to smile for the photo.',
+      tr: 'Fotoğraf için gülümsemeleri bekleniyordu.',
+    },
+    {
+      ing: 'We were chosen to win the prize.',
+      tr: 'Ödülü kazanmamız için seçildik.',
+    },
+    {
+      ing: 'He was encouraged to draw a picture.',
+      tr: 'Bir resim çizmesi için teşvik edildi.',
+    },
+    {ing: 'She was told to stay calm.', tr: 'Sakin kalması söylendi.'},
+    {
+      ing: 'They were invited to join the choir.',
+      tr: 'Koroya katılmaları için davet edildiler.',
+    },
+    {
+      ing: 'We were asked to bake some cookies.',
+      tr: 'Birkaç kurabiye yapmamız istendi.',
+    },
+    {
+      ing: 'He was expected to finish the work.',
+      tr: 'İşi bitirmesi bekleniyordu.',
+    },
+    {
+      ing: 'She was instructed to tidy her room.',
+      tr: 'Odasını düzenlemesi söylendi.',
+    },
+    {
+      ing: 'They were chosen to be the speakers.',
+      tr: 'Konuşmacı olmaları için seçildiler.',
+    },
+    {
+      ing: 'We were told to take our seats.',
+      tr: 'Yerlerimize oturmamız söylendi.',
+    },
+    {
+      ing: 'He was invited to play in the band.',
+      tr: 'Grupta çalması için davet edildi.',
+    },
+    {ing: 'She was asked to make a drawing.', tr: 'Bir çizim yapması istendi.'},
+    {
+      ing: 'They were expected to wash the dishes.',
+      tr: 'Bulaşıkları yıkamaları bekleniyordu.',
+    },
+    {
+      ing: 'He was invited to deliver a speech.',
+      tr: 'Bir konuşma yapması için davet edildi.',
+    },
+    {
+      ing: 'She was recommended to try a new recipe.',
+      tr: 'Yeni bir tarif denemesi tavsiye edildi.',
+    },
+    {
+      ing: 'They were warned to stay away from danger.',
+      tr: 'Tehlikeden uzak durmaları konusunda uyarıldılar.',
+    },
+    {
+      ing: 'We were reminded to bring our tickets.',
+      tr: 'Biletlerimizi getirmemiz hatırlatıldı.',
+    },
+    {
+      ing: 'He was advised to rest for a few days.',
+      tr: 'Birkaç gün dinlenmesi tavsiye edildi.',
+    },
+    {
+      ing: 'She was selected to join the dance competition.',
+      tr: 'Dans yarışmasına katılması için seçildi.',
+    },
+    {
+      ing: 'They were motivated to study harder.',
+      tr: 'Daha çok çalışmaları için motive edildiler.',
+    },
+    {
+      ing: 'We were forbidden to enter the room.',
+      tr: 'Odaya girmemiz yasaklandı.',
+    },
+    {
+      ing: 'He was expected to organize the meeting.',
+      tr: 'Toplantıyı organize etmesi bekleniyordu.',
+    },
+    {
+      ing: 'She was encouraged to apply for the job.',
+      tr: 'İşe başvurması için teşvik edildi.',
+    },
+    {
+      ing: 'They were instructed to use the new software.',
+      tr: 'Yeni yazılımı kullanmaları söylendi.',
+    },
+    {
+      ing: 'We were convinced to change our plans.',
+      tr: 'Planlarımızı değiştirmemiz konusunda ikna edildik.',
+    },
+    {
+      ing: 'He was requested to lead the discussion.',
+      tr: 'Tartışmayı yönetmesi istendi.',
+    },
+    {
+      ing: 'She was assigned to prepare the report.',
+      tr: 'Raporu hazırlaması görevlendirildi.',
+    },
+    {
+      ing: 'They were ordered to clean the equipment.',
+      tr: 'Ekipmanı temizlemeleri emredildi.',
+    },
+    {
+      ing: 'We were persuaded to take part in the event.',
+      tr: 'Etkinliğe katılmamız için ikna edildik.',
+    },
+    {
+      ing: 'He was authorized to approve the documents.',
+      tr: 'Belgeleri onaylaması yetkilendirildi.',
+    },
+    {
+      ing: 'She was prompted to ask a question.',
+      tr: 'Bir soru sorması teşvik edildi.',
+    },
+    {
+      ing: 'They were required to sign the contract.',
+      tr: 'Sözleşmeyi imzalamaları gerekti.',
+    },
+    {
+      ing: 'We were instructed to follow the safety rules.',
+      tr: 'Güvenlik kurallarına uymamız söylendi.',
+    },
+    {
+      ing: 'He was obliged to wear a uniform.',
+      tr: 'Üniforma giymesi zorunlu kılındı.',
+    },
+    {
+      ing: 'She was advised to drink more water.',
+      tr: 'Daha fazla su içmesi tavsiye edildi.',
+    },
+    {
+      ing: 'They were hired to work on the project.',
+      tr: 'Proje üzerinde çalışmaları için işe alındılar.',
+    },
+    {
+      ing: 'We were asked to submit the form online.',
+      tr: 'Formu çevrimiçi göndermemiz istendi.',
+    },
+    {
+      ing: 'He was reminded to check his email.',
+      tr: 'E-postasını kontrol etmesi hatırlatıldı.',
+    },
+    {
+      ing: 'She was instructed to turn off her phone.',
+      tr: 'Telefonunu kapatması söylendi.',
+    },
+    {
+      ing: 'They were encouraged to participate in the discussion.',
+      tr: 'Tartışmaya katılmaları teşvik edildi.',
+    },
+    {
+      ing: 'We were warned to be careful on the road.',
+      tr: 'Yolda dikkatli olmamız konusunda uyarıldık.',
+    },
+    {
+      ing: 'He was appointed to lead the new project.',
+      tr: 'Yeni projeyi yönetmesi için atandı.',
+    },
+    {
+      ing: 'She was directed to park the car in the lot.',
+      tr: 'Arabayı otoparka park etmesi söylendi.',
+    },
+    {
+      ing: 'They were required to complete the task by Monday.',
+      tr: 'Görevi Pazartesiye kadar tamamlamaları gerekti.',
+    },
+    {
+      ing: 'We were invited to attend the workshop.',
+      tr: 'Çalıştaya katılmamız için davet edildik.',
+    },
+    {
+      ing: 'He was advised to improve his skills.',
+      tr: 'Becerilerini geliştirmesi tavsiye edildi.',
+    },
+    {
+      ing: 'She was asked to decorate the room.',
+      tr: 'Odayı süslemesi istendi.',
+    },
+    {
+      ing: 'They were selected to represent their school.',
+      tr: 'Okullarını temsil etmeleri için seçildiler.',
+    },
+    {
+      ing: 'We were encouraged to share our ideas.',
+      tr: 'Fikirlerimizi paylaşmamız teşvik edildi.',
+    },
+    {
+      ing: 'He was instructed to follow the instructions carefully.',
+      tr: 'Talimatları dikkatlice takip etmesi söylendi.',
+    },
+    {
+      ing: 'She was recommended to visit the doctor.',
+      tr: 'Doktoru ziyaret etmesi tavsiye edildi.',
+    },
+    {
+      ing: 'They were obliged to finish the work on time.',
+      tr: 'Çalışmayı zamanında bitirmeleri zorunlu kılındı.',
+    },
+    {
+      ing: 'We were reminded to lock the door before leaving.',
+      tr: 'Çıkmadan önce kapıyı kilitlememiz hatırlatıldı.',
+    },
+    {
+      ing: 'He was warned to stay away from the fire.',
+      tr: 'Ateşten uzak durması konusunda uyarıldı.',
+    },
+    {
+      ing: 'She was trained to use the new equipment.',
+      tr: 'Yeni ekipmanı kullanması için eğitildi.',
+    },
+    {
+      ing: 'They were invited to take part in the seminar.',
+      tr: 'Seminere katılmaları için davet edildiler.',
+    },
+    {
+      ing: 'We were instructed to clean up the area.',
+      tr: 'Alanı temizlememiz söylendi.',
+    },
+    {
+      ing: 'He was asked to lead the group discussion.',
+      tr: 'Grup tartışmasını yönetmesi istendi.',
+    },
+    {
+      ing: 'She was assigned to check the inventory.',
+      tr: 'Envanteri kontrol etmesi görevlendirildi.',
+    },
+    {
+      ing: 'They were requested to bring their own tools.',
+      tr: 'Kendi araçlarını getirmeleri istendi.',
+    },
+    {
+      ing: 'We were advised to plan ahead.',
+      tr: 'Önceden plan yapmamız tavsiye edildi.',
+    },
+    {
+      ing: 'He was expected to improve the system.',
+      tr: 'Sistemi geliştirmesi bekleniyordu.',
+    },
+    {
+      ing: 'She was recommended to read more books.',
+      tr: 'Daha fazla kitap okuması tavsiye edildi.',
+    },
+    {
+      ing: 'They were instructed to wear helmets.',
+      tr: 'Kask takmaları söylendi.',
+    },
+    {
+      ing: 'We were warned not to touch the wires.',
+      tr: 'Kablolara dokunmamamız konusunda uyarıldık.',
+    },
+    {
+      ing: 'He was hired to teach English.',
+      tr: 'İngilizce öğretmesi için işe alındı.',
+    },
+    {
+      ing: 'She was appointed to oversee the project.',
+      tr: 'Projeyi denetlemesi için atandı.',
+    },
+    {
+      ing: 'They were chosen to participate in the contest.',
+      tr: 'Yarışmaya katılmaları için seçildiler.',
+    },
+    {
+      ing: 'We were encouraged to donate to charity.',
+      tr: 'Hayır kurumuna bağış yapmamız teşvik edildi.',
+    },
+    {
+      ing: 'He was told to avoid the wet floor.',
+      tr: 'Islak zeminden kaçınması söylendi.',
+    },
+    {
+      ing: 'She was expected to lead the next meeting.',
+      tr: 'Bir sonraki toplantıyı yönetmesi bekleniyordu.',
+    },
+    {
+      ing: 'They were directed to fill out the survey.',
+      tr: 'Anketi doldurmaları söylendi.',
+    },
+    {
+      ing: 'We were asked to stay until the end.',
+      tr: 'Sonuna kadar kalmamız istendi.',
+    },
+    {
+      ing: 'He was encouraged to write a blog.',
+      tr: 'Bir blog yazması teşvik edildi.',
+    },
+    {ing: 'She was required to pay the fee.', tr: 'Ücreti ödemesi gerekti.'},
+    {
+      ing: 'They were recommended to join the club.',
+      tr: 'Kulübe katılmaları tavsiye edildi.',
+    },
+    {
+      ing: 'We were told to bring our ID cards.',
+      tr: 'Kimlik kartlarımızı getirmemiz söylendi.',
+    },
+    {
+      ing: 'He was instructed to move the boxes.',
+      tr: 'Kutuları taşıması söylendi.',
+    },
+    {
+      ing: 'She was warned to be careful with the glass.',
+      tr: 'Camla dikkatli olması konusunda uyarıldı.',
+    },
+    {
+      ing: 'They were invited to visit the gallery.',
+      tr: 'Galeriyi ziyaret etmeleri için davet edildiler.',
+    },
+    {
+      ing: 'We were reminded to check the schedule.',
+      tr: 'Programı kontrol etmemiz hatırlatıldı.',
+    },
+    {
+      ing: 'He was trained to drive the forklift.',
+      tr: 'Forklift kullanması için eğitildi.',
+    },
+    {
+      ing: 'She was advised to eat healthier food.',
+      tr: 'Daha sağlıklı yiyecekler yemesi tavsiye edildi.',
+    },
+    {
+      ing: 'They were asked to clear the table.',
+      tr: 'Masayı temizlemeleri istendi.',
+    },
+    {
+      ing: 'We were expected to be quiet during the film.',
+      tr: 'Film sırasında sessiz olmamız bekleniyordu.',
+    },
+    {
+      ing: 'He was instructed to open the window.',
+      tr: 'Pencereyi açması söylendi.',
+    },
+    {
+      ing: 'She was motivated to practice more often.',
+      tr: 'Daha sık pratik yapması için motive edildi.',
+    },
+    {
+      ing: 'They were selected to perform in the play.',
+      tr: 'Oyunda rol almaları için seçildiler.',
+    },
+    {
+      ing: 'We were reminded to save our work.',
+      tr: 'Çalışmamızı kaydetmemiz hatırlatıldı.',
+    },
+    {
+      ing: 'He was requested to give a presentation.',
+      tr: 'Bir sunum yapması istendi.',
+    },
+    {
+      ing: 'She was expected to make a decision.',
+      tr: 'Bir karar vermesi bekleniyordu.',
+    },
+    {
+      ing: 'They were directed to leave the building.',
+      tr: 'Binadan çıkmaları söylendi.',
+    },
+    {
+      ing: 'We were advised to take a break.',
+      tr: 'Bir mola vermemiz tavsiye edildi.',
+    },
+    {
+      ing: 'He was warned not to touch the artwork.',
+      tr: 'Sanat eserine dokunmaması konusunda uyarıldı.',
+    },
+    {
+      ing: 'She was trained to manage the shop.',
+      tr: 'Dükkanı yönetmesi için eğitildi.',
+    },
+    {
+      ing: 'They were asked to return the books.',
+      tr: 'Kitapları geri getirmeleri istendi.',
+    },
+    {
+      ing: 'We were reminded to turn off the lights.',
+      tr: 'Işıkları kapatmamız hatırlatıldı.',
+    },
+    {
+      ing: 'He was encouraged to take up a sport.',
+      tr: 'Bir spor yapması teşvik edildi.',
+    },
+    {
+      ing: 'She was instructed to handle the documents.',
+      tr: 'Belgeleri işlemesi söylendi.',
+    },
+    {
+      ing: 'They were invited to visit the farm.',
+      tr: 'Çiftliği ziyaret etmeleri için davet edildiler.',
+    },
+    {
+      ing: 'We were told to prepare for the test.',
+      tr: 'Teste hazırlanmamız söylendi.',
+    },
+    {
+      ing: 'He was expected to handle the situation.',
+      tr: 'Durumu yönetmesi bekleniyordu.',
+    },
+    {
+      ing: 'She was advised to take care of herself.',
+      tr: 'Kendine dikkat etmesi tavsiye edildi.',
+    },
+    {
+      ing: 'They were ordered to clean the equipment.',
+      tr: 'Ekipmanı temizlemeleri emredildi.',
+    },
+    {
+      ing: 'We were reminded to check our emails.',
+      tr: 'E-postalarımızı kontrol etmemiz hatırlatıldı.',
+    },
+    {
+      ing: 'He was trained to use the new machine.',
+      tr: 'Yeni makineyi kullanması için eğitildi.',
+    },
+    {
+      ing: 'She was asked to organize the files.',
+      tr: 'Dosyaları düzenlemesi istendi.',
+    },
+    {
+      ing: 'They were directed to enter the code.',
+      tr: 'Kodu girmeleri söylendi.',
+    },
+    {
+      ing: 'We were encouraged to recycle more.',
+      tr: 'Daha fazla geri dönüşüm yapmamız teşvik edildi.',
+    },
+    {
+      ing: 'He was warned to drive slowly.',
+      tr: 'Yavaş sürmesi konusunda uyarıldı.',
+    },
+    {
+      ing: 'She was required to follow the guidelines.',
+      tr: 'Kılavuzlara uyması gerekti.',
+    },
+    {
+      ing: 'They were instructed to pay attention.',
+      tr: 'Dikkat etmeleri söylendi.',
+    },
+    {
+      ing: 'We were invited to share our experiences.',
+      tr: 'Deneyimlerimizi paylaşmamız için davet edildik.',
+    },
+  ],
+  AfterPrep: [
+    {ing: 'She is good at drawing animals.', tr: 'Hayvanları çizmede iyidir.'},
+    {
+      ing: 'He is interested in learning English.',
+      tr: 'İngilizce öğrenmeye ilgi duyuyor.',
+    },
+    {
+      ing: 'They are afraid of swimming in the sea.',
+      tr: 'Denizde yüzmekten korkuyorlar.',
+    },
+    {
+      ing: 'We talked about going to the cinema.',
+      tr: 'Sinemaya gitmek hakkında konuştuk.',
+    },
+    {
+      ing: 'I am excited about visiting my grandparents.',
+      tr: 'Büyükbabamı ve büyükannemi ziyaret etmekten heyecanlıyım.',
+    },
+    {
+      ing: 'She is tired of cleaning the house.',
+      tr: 'Evi temizlemekten yoruldu.',
+    },
+    {
+      ing: 'He is worried about passing the exam.',
+      tr: 'Sınavı geçmek konusunda endişeli.',
+    },
+    {
+      ing: 'They are looking forward to meeting you.',
+      tr: 'Sizinle tanışmayı dört gözle bekliyorlar.',
+    },
+    {
+      ing: 'We are thinking about moving to a new city.',
+      tr: 'Yeni bir şehre taşınmayı düşünüyoruz.',
+    },
+    {
+      ing: 'I am afraid of speaking in public.',
+      tr: 'Toplum önünde konuşmaktan korkuyorum.',
+    },
+    {
+      ing: 'She is interested in cooking Italian food.',
+      tr: 'İtalyan yemeği yapmaya ilgi duyuyor.',
+    },
+    {ing: 'He apologized for being late.', tr: 'Geç kaldığı için özür diledi.'},
+    {
+      ing: 'They are proud of winning the game.',
+      tr: 'Oyunu kazandıkları için gururlular.',
+    },
+    {
+      ing: 'We talked about traveling to Europe.',
+      tr: "Avrupa'ya seyahat etmek hakkında konuştuk.",
+    },
+    {ing: 'I am tired of waiting in line.', tr: 'Sırada beklemekten yoruldum.'},
+    {
+      ing: 'She is afraid of driving at night.',
+      tr: 'Gece araba kullanmaktan korkuyor.',
+    },
+    {ing: 'He is good at playing the guitar.', tr: 'Gitar çalmada iyidir.'},
+    {
+      ing: 'They are worried about losing their keys.',
+      tr: 'Anahtarlarını kaybetmekten endişeliler.',
+    },
+    {
+      ing: 'We are looking forward to going on vacation.',
+      tr: 'Tatile çıkmayı dört gözle bekliyoruz.',
+    },
+    {
+      ing: 'I am thinking about starting a new hobby.',
+      tr: 'Yeni bir hobiye başlamayı düşünüyorum.',
+    },
+    {
+      ing: 'She is interested in painting landscapes.',
+      tr: 'Manzara resimleri yapmaya ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for breaking the vase.',
+      tr: 'Vazoyu kırdığı için özür diledi.',
+    },
+    {
+      ing: 'They are excited about attending the concert.',
+      tr: 'Konsere katılacakları için heyecanlılar.',
+    },
+    {
+      ing: 'We are tired of doing the same thing every day.',
+      tr: 'Her gün aynı şeyi yapmaktan yorulduk.',
+    },
+    {ing: 'I am afraid of making mistakes.', tr: 'Hata yapmaktan korkuyorum.'},
+    {ing: 'She is good at solving puzzles.', tr: 'Bulmacaları çözmede iyidir.'},
+    {
+      ing: 'He is worried about missing the train.',
+      tr: 'Treni kaçırmaktan endişeli.',
+    },
+    {
+      ing: 'They talked about visiting the museum.',
+      tr: 'Müzeyi ziyaret etmek hakkında konuştular.',
+    },
+    {
+      ing: 'We are looking forward to meeting our new teacher.',
+      tr: 'Yeni öğretmenimizle tanışmayı dört gözle bekliyoruz.',
+    },
+    {
+      ing: 'I am tired of hearing the same story.',
+      tr: 'Aynı hikayeyi duymaktan yoruldum.',
+    },
+    {
+      ing: 'She is interested in learning to play the piano.',
+      tr: 'Piyano çalmayı öğrenmeye ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for interrupting the meeting.',
+      tr: 'Toplantıyı böldüğü için özür diledi.',
+    },
+    {
+      ing: 'They are afraid of flying in airplanes.',
+      tr: 'Uçakla uçmaktan korkuyorlar.',
+    },
+    {
+      ing: 'We are thinking about joining the gym.',
+      tr: 'Spor salonuna katılmayı düşünüyoruz.',
+    },
+    {
+      ing: 'I am worried about forgetting my homework.',
+      tr: 'Ödevimi unutmak konusunda endişeliyim.',
+    },
+    {ing: 'She is good at baking cakes.', tr: 'Kek yapmada iyidir.'},
+    {
+      ing: 'He is excited about starting a new job.',
+      tr: 'Yeni bir işe başlayacağı için heyecanlı.',
+    },
+    {
+      ing: 'They talked about organizing a party.',
+      tr: 'Bir parti düzenlemek hakkında konuştular.',
+    },
+    {
+      ing: 'We are tired of watching the same TV shows.',
+      tr: 'Aynı TV programlarını izlemekten yorulduk.',
+    },
+    {
+      ing: 'I am looking forward to visiting Paris.',
+      tr: "Paris'i ziyaret etmeyi dört gözle bekliyorum.",
+    },
+    {
+      ing: 'She is interested in designing clothes.',
+      tr: 'Kıyafet tasarlamaya ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for making a mess.',
+      tr: 'Ortalığı dağıttığı için özür diledi.',
+    },
+    {
+      ing: 'They are afraid of trying new foods.',
+      tr: 'Yeni yiyecekleri denemekten korkuyorlar.',
+    },
+    {
+      ing: 'We are thinking about adopting a pet.',
+      tr: 'Bir evcil hayvan sahiplenmeyi düşünüyoruz.',
+    },
+    {
+      ing: 'I am worried about failing the test.',
+      tr: 'Sınavda başarısız olmaktan endişeliyim.',
+    },
+    {ing: 'She is good at telling stories.', tr: 'Hikaye anlatmada iyidir.'},
+    {
+      ing: 'He is excited about meeting his favorite actor.',
+      tr: 'Favori aktörüyle tanışacağı için heyecanlı.',
+    },
+    {
+      ing: 'They talked about going on a road trip.',
+      tr: 'Bir yolculuğa çıkmak hakkında konuştular.',
+    },
+    {
+      ing: 'We are tired of cleaning the house every weekend.',
+      tr: 'Her hafta sonu evi temizlemekten yorulduk.',
+    },
+    {
+      ing: 'I am looking forward to starting my new job.',
+      tr: 'Yeni işime başlamayı dört gözle bekliyorum.',
+    },
+    {
+      ing: 'She is interested in learning new languages.',
+      tr: 'Yeni diller öğrenmeye ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for being rude.',
+      tr: 'Kaba davrandığı için özür diledi.',
+    },
+    {
+      ing: 'They are afraid of losing their way.',
+      tr: 'Yollarını kaybetmekten korkuyorlar.',
+    },
+    {
+      ing: 'We are thinking about going camping.',
+      tr: 'Kamp yapmayı düşünüyoruz.',
+    },
+    {
+      ing: 'I am worried about catching a cold.',
+      tr: 'Soğuk algınlığı kapmaktan endişeliyim.',
+    },
+    {ing: 'She is good at making friends.', tr: 'Arkadaş edinmede iyidir.'},
+    {
+      ing: 'He is excited about visiting his cousins.',
+      tr: 'Kuzenlerini ziyaret edeceği için heyecanlı.',
+    },
+    {
+      ing: 'They talked about moving to a new house.',
+      tr: 'Yeni bir eve taşınmak hakkında konuştular.',
+    },
+    {
+      ing: 'We are tired of eating the same food.',
+      tr: 'Aynı yemeği yemekten yorulduk.',
+    },
+    {
+      ing: 'I am looking forward to seeing my family.',
+      tr: 'Ailemi görmeyi dört gözle bekliyorum.',
+    },
+    {
+      ing: 'She is interested in playing basketball.',
+      tr: 'Basketbol oynamaya ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for losing the book.',
+      tr: 'Kitabı kaybettiği için özür diledi.',
+    },
+    {
+      ing: 'They are afraid of walking alone at night.',
+      tr: 'Gece yalnız yürümekten korkuyorlar.',
+    },
+    {
+      ing: 'We are thinking about visiting Japan.',
+      tr: "Japonya'yı ziyaret etmeyi düşünüyoruz.",
+    },
+    {ing: 'I am worried about being late.', tr: 'Geç kalmaktan endişeliyim.'},
+    {ing: 'She is good at finding solutions.', tr: 'Çözümler bulmada iyidir.'},
+    {
+      ing: 'He is excited about seeing the new movie.',
+      tr: 'Yeni filmi izleyeceği için heyecanlı.',
+    },
+    {
+      ing: 'They talked about joining a sports team.',
+      tr: 'Bir spor takımına katılmak hakkında konuştular.',
+    },
+    {
+      ing: 'We are tired of hearing complaints.',
+      tr: 'Şikayetleri duymaktan yorulduk.',
+    },
+    {
+      ing: 'I am looking forward to playing in the park.',
+      tr: 'Parkta oynamayı dört gözle bekliyorum.',
+    },
+    {
+      ing: 'She is interested in watching documentaries.',
+      tr: 'Belgesel izlemeye ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for making noise.',
+      tr: 'Gürültü yaptığı için özür diledi.',
+    },
+    {
+      ing: 'They are afraid of speaking in public.',
+      tr: 'Toplum önünde konuşmaktan korkuyorlar.',
+    },
+    {
+      ing: 'We are thinking about decorating the house.',
+      tr: 'Evi dekore etmeyi düşünüyoruz.',
+    },
+    {
+      ing: 'I am worried about losing my job.',
+      tr: 'İşimi kaybetmekten endişeliyim.',
+    },
+    {ing: 'She is good at drawing cartoons.', tr: 'Karikatür çizmede iyidir.'},
+    {
+      ing: 'He is interested in learning to cook.',
+      tr: 'Yemek yapmayı öğrenmeye ilgi duyuyor.',
+    },
+    {
+      ing: 'They are afraid of going to the dentist.',
+      tr: 'Dişçiye gitmekten korkuyorlar.',
+    },
+    {
+      ing: 'We talked about playing volleyball.',
+      tr: 'Voleybol oynamak hakkında konuştuk.',
+    },
+    {
+      ing: 'I am excited about seeing my best friend.',
+      tr: 'En iyi arkadaşımı göreceğim için heyecanlıyım.',
+    },
+    {
+      ing: 'She is tired of waiting for the bus.',
+      tr: 'Otobüsü beklemekten yoruldu.',
+    },
+    {
+      ing: 'He is worried about making a mistake.',
+      tr: 'Hata yapmaktan endişeli.',
+    },
+    {
+      ing: 'They are looking forward to going to the concert.',
+      tr: 'Konsere gitmeyi dört gözle bekliyorlar.',
+    },
+    {
+      ing: 'We are thinking about buying a new car.',
+      tr: 'Yeni bir araba almayı düşünüyoruz.',
+    },
+    {
+      ing: 'I am afraid of losing my wallet.',
+      tr: 'Cüzdanımı kaybetmekten korkuyorum.',
+    },
+    {
+      ing: 'She is interested in reading mystery novels.',
+      tr: 'Gizem romanları okumaya ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for spilling the drink.',
+      tr: 'İçeceği döktüğü için özür diledi.',
+    },
+    {
+      ing: 'They are proud of helping their community.',
+      tr: 'Topluma yardım ettikleri için gururlular.',
+    },
+    {
+      ing: 'We talked about making a video.',
+      tr: 'Bir video çekmek hakkında konuştuk.',
+    },
+    {
+      ing: 'I am tired of doing the dishes.',
+      tr: 'Bulaşıkları yıkamaktan yoruldum.',
+    },
+    {
+      ing: 'She is afraid of driving in the city.',
+      tr: 'Şehirde araba kullanmaktan korkuyor.',
+    },
+    {
+      ing: 'He is good at solving math problems.',
+      tr: 'Matematik problemlerini çözmede iyidir.',
+    },
+    {
+      ing: 'They are worried about missing the bus.',
+      tr: 'Otobüsü kaçırmaktan endişeliler.',
+    },
+    {
+      ing: 'We are looking forward to meeting our new neighbors.',
+      tr: 'Yeni komşularımızla tanışmayı dört gözle bekliyoruz.',
+    },
+    {
+      ing: 'I am thinking about joining a cooking class.',
+      tr: 'Yemek kursuna katılmayı düşünüyorum.',
+    },
+    {
+      ing: 'She is interested in learning how to dance.',
+      tr: 'Dans etmeyi öğrenmeye ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for coming late.',
+      tr: 'Geç geldiği için özür diledi.',
+    },
+    {
+      ing: 'They are excited about starting their new job.',
+      tr: 'Yeni işlerine başlayacakları için heyecanlılar.',
+    },
+    {
+      ing: 'We are tired of cleaning the kitchen.',
+      tr: 'Mutfağı temizlemekten yorulduk.',
+    },
+    {
+      ing: 'I am looking forward to visiting my cousins.',
+      tr: 'Kuzenlerimi ziyaret etmeyi dört gözle bekliyorum.',
+    },
+    {
+      ing: 'She is interested in learning to swim.',
+      tr: 'Yüzmeyi öğrenmeye ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for forgetting the appointment.',
+      tr: 'Randevuyu unuttuğu için özür diledi.',
+    },
+    {
+      ing: 'They are afraid of losing their way in the city.',
+      tr: 'Şehirde yollarını kaybetmekten korkuyorlar.',
+    },
+    {
+      ing: 'We are thinking about traveling to Italy.',
+      tr: "İtalya'ya seyahat etmeyi düşünüyoruz.",
+    },
+    {
+      ing: 'I am worried about getting sick.',
+      tr: 'Hastalanmaktan endişeliyim.',
+    },
+    {ing: 'She is good at teaching kids.', tr: 'Çocuklara öğretmede iyidir.'},
+    {
+      ing: 'He is excited about visiting his grandparents.',
+      tr: 'Büyükbabası ve büyükannesi ile tanışacağı için heyecanlı.',
+    },
+    {
+      ing: 'They talked about learning new skills.',
+      tr: 'Yeni beceriler öğrenmek hakkında konuştular.',
+    },
+    {
+      ing: 'We are tired of listening to loud music.',
+      tr: 'Yüksek sesli müzik dinlemekten yorulduk.',
+    },
+    {
+      ing: 'I am looking forward to watching the football match.',
+      tr: 'Futbol maçını izlemeyi dört gözle bekliyorum.',
+    },
+    {
+      ing: 'She is interested in studying history.',
+      tr: 'Tarih okumaya ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for interrupting the conversation.',
+      tr: 'Konuşmayı böldüğü için özür diledi.',
+    },
+    {
+      ing: 'They are afraid of failing the exam.',
+      tr: 'Sınavda başarısız olmaktan korkuyorlar.',
+    },
+    {
+      ing: 'We are thinking about going hiking.',
+      tr: 'Doğa yürüyüşüne çıkmayı düşünüyoruz.',
+    },
+    {
+      ing: 'I am worried about not finding my keys.',
+      tr: 'Anahtarlarımı bulamamaktan endişeliyim.',
+    },
+    {ing: 'She is good at making jewelry.', tr: 'Takı yapmada iyidir.'},
+    {
+      ing: 'He is excited about joining the new project.',
+      tr: 'Yeni projeye katılacağı için heyecanlı.',
+    },
+    {
+      ing: 'They talked about learning to code.',
+      tr: 'Kodlama öğrenmek hakkında konuştular.',
+    },
+    {
+      ing: 'We are tired of hearing the same news.',
+      tr: 'Aynı haberleri duymaktan yorulduk.',
+    },
+    {
+      ing: 'I am looking forward to meeting my friends.',
+      tr: 'Arkadaşlarımı görmeyi dört gözle bekliyorum.',
+    },
+    {
+      ing: 'She is interested in taking photos of nature.',
+      tr: 'Doğanın fotoğraflarını çekmeye ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for making a mistake.',
+      tr: 'Hata yaptığı için özür diledi.',
+    },
+    {
+      ing: 'They are afraid of speaking in front of people.',
+      tr: 'İnsanlar önünde konuşmaktan korkuyorlar.',
+    },
+    {
+      ing: 'We are thinking about starting a new hobby.',
+      tr: 'Yeni bir hobiye başlamayı düşünüyoruz.',
+    },
+    {
+      ing: 'I am worried about losing my phone.',
+      tr: 'Telefonumu kaybetmekten endişeliyim.',
+    },
+    {
+      ing: 'She is good at organizing events.',
+      tr: 'Etkinlikleri düzenlemede iyidir.',
+    },
+    {
+      ing: 'He is excited about seeing the play.',
+      tr: 'Oyunu izleyeceği için heyecanlı.',
+    },
+    {
+      ing: 'They talked about visiting a new country.',
+      tr: 'Yeni bir ülkeyi ziyaret etmek hakkında konuştular.',
+    },
+    {
+      ing: 'We are tired of working late hours.',
+      tr: 'Geç saatlerde çalışmaktan yorulduk.',
+    },
+    {
+      ing: 'I am looking forward to seeing the fireworks.',
+      tr: 'Havai fişekleri görmeyi dört gözle bekliyorum.',
+    },
+    {
+      ing: 'She is interested in learning about space.',
+      tr: 'Uzay hakkında öğrenmeye ilgi duyuyor.',
+    },
+    {
+      ing: 'He apologized for being rude.',
+      tr: 'Kaba davrandığı için özür diledi.',
+    },
+    {ing: 'They are afraid of getting lost.', tr: 'Kaybolmaktan korkuyorlar.'},
+    {
+      ing: 'We are thinking about decorating our house.',
+      tr: 'Evimizi dekore etmeyi düşünüyoruz.',
+    },
+    {
+      ing: 'I am worried about missing my flight.',
+      tr: 'Uçağımı kaçırmaktan endişeliyim.',
+    },
+    {
+      ing: 'She is good at painting landscapes.',
+      tr: 'Manzara resmi yapmada iyidir.',
+    },
+    {
+      ing: 'He is excited about going to the beach.',
+      tr: 'Plaja gideceği için heyecanlı.',
+    },
+    {
+      ing: 'They talked about watching a new film.',
+      tr: 'Yeni bir film izlemek hakkında konuştular.',
+    },
+    {
+      ing: 'We are tired of sitting all day.',
+      tr: 'Bütün gün oturmaktan yorulduk.',
+    },
+    {
+      ing: 'I am looking forward to playing in the snow.',
+      tr: 'Karda oynamayı dört gözle bekliyorum.',
+    },
+    {
+      ing: 'She is interested in collecting stamps.',
+      tr: 'Pul toplamaya ilgi duyuyor.',
+    },
+    {ing: 'He apologized for yelling.', tr: 'Bağırdığı için özür diledi.'},
+    {
+      ing: 'They are afraid of jumping from high places.',
+      tr: 'Yüksek yerlerden atlamaktan korkuyorlar.',
+    },
+    {
+      ing: 'We are thinking about joining a dance class.',
+      tr: 'Dans dersine katılmayı düşünüyoruz.',
+    },
+    {
+      ing: 'I am worried about not finishing my work.',
+      tr: 'İşimi bitirememekten endişeliyim.',
+    },
+    {ing: 'She is good at sewing clothes.', tr: 'Kıyafet dikmede iyidir.'},
+    {
+      ing: 'He is excited about trying new food.',
+      tr: 'Yeni yemekleri deneyeceği için heyecanlı.',
+    },
+    {
+      ing: 'They talked about cleaning the garage.',
+      tr: 'Garajı temizlemek hakkında konuştular.',
+    },
+    {
+      ing: 'We are tired of watching the same TV show.',
+      tr: 'Aynı TV programını izlemekten yorulduk.',
+    },
+    {
+      ing: 'I am looking forward to traveling next summer.',
+      tr: 'Gelecek yaz seyahat etmeyi dört gözle bekliyorum.',
+    },
+  ],
+  AfterVerb: [
+    {ing: 'I enjoy reading books.', tr: 'Kitap okumaktan hoşlanırım.'},
+    {ing: 'She likes painting pictures.', tr: 'Resim yapmayı sever.'},
+    {
+      ing: 'They love dancing at parties.',
+      tr: 'Partilerde dans etmeyi severler.',
+    },
+    {ing: 'He avoids eating junk food.', tr: 'Abur cubur yemekten kaçınır.'},
+    {
+      ing: 'We practice speaking English every day.',
+      tr: 'Her gün İngilizce konuşma pratiği yaparız.',
+    },
+    {ing: 'I dislike waking up early.', tr: 'Erken uyanmaktan hoşlanmam.'},
+    {
+      ing: 'She keeps talking all the time.',
+      tr: 'Sürekli konuşmaya devam eder.',
+    },
+    {ing: 'He finished doing his homework.', tr: 'Ödevini yapmayı bitirdi.'},
+    {
+      ing: 'They started learning French.',
+      tr: 'Fransızca öğrenmeye başladılar.',
+    },
+    {
+      ing: 'We miss playing soccer with our friends.',
+      tr: 'Arkadaşlarımızla futbol oynamayı özlüyoruz.',
+    },
+    {
+      ing: 'I suggest trying the new restaurant.',
+      tr: 'Yeni restoranı denemeyi öneririm.',
+    },
+    {ing: 'She enjoys listening to music.', tr: 'Müzik dinlemekten hoşlanır.'},
+    {ing: 'He prefers walking to the park.', tr: 'Parka yürümeyi tercih eder.'},
+    {
+      ing: 'They continue watching the movie.',
+      tr: 'Filmi izlemeye devam ederler.',
+    },
+    {ing: 'We love swimming in the sea.', tr: 'Denizde yüzmeyi severiz.'},
+    {
+      ing: 'I avoid driving at night.',
+      tr: 'Gece araba kullanmaktan kaçınırım.',
+    },
+    {
+      ing: 'She started studying for the test.',
+      tr: 'Sınav için çalışmaya başladı.',
+    },
+    {
+      ing: 'He stopped smoking last year.',
+      tr: 'Geçen yıl sigara içmeyi bıraktı.',
+    },
+    {
+      ing: 'They enjoy cooking together.',
+      tr: 'Birlikte yemek yapmaktan hoşlanırlar.',
+    },
+    {ing: 'We finished cleaning the house.', tr: 'Evi temizlemeyi bitirdik.'},
+    {
+      ing: 'I suggest going to the cinema tonight.',
+      tr: 'Bu gece sinemaya gitmeyi öneririm.',
+    },
+    {
+      ing: 'She loves dancing with her friends.',
+      tr: 'Arkadaşlarıyla dans etmeyi sever.',
+    },
+    {ing: 'He dislikes doing the dishes.', tr: 'Bulaşık yıkamaktan hoşlanmaz.'},
+    {
+      ing: 'They keep practicing their songs.',
+      tr: 'Şarkılarını pratik yapmaya devam ederler.',
+    },
+    {
+      ing: 'We enjoy visiting new places.',
+      tr: 'Yeni yerler ziyaret etmekten hoşlanırız.',
+    },
+    {
+      ing: 'I prefer reading in the morning.',
+      tr: 'Sabahları kitap okumayı tercih ederim.',
+    },
+    {ing: 'She misses talking to her mom.', tr: 'Annesiyle konuşmayı özlüyor.'},
+    {ing: 'He started jogging every day.', tr: 'Her gün koşmaya başladı.'},
+    {
+      ing: 'They stopped playing video games.',
+      tr: 'Video oyunları oynamayı bıraktılar.',
+    },
+    {
+      ing: 'We love hiking in the mountains.',
+      tr: 'Dağlarda yürüyüş yapmayı severiz.',
+    },
+    {
+      ing: 'I dislike studying on weekends.',
+      tr: 'Hafta sonları ders çalışmaktan hoşlanmam.',
+    },
+    {
+      ing: 'She keeps smiling all the time.',
+      tr: 'Sürekli gülümsemeye devam eder.',
+    },
+    {
+      ing: 'He finished fixing his bike.',
+      tr: 'Bisikletini tamir etmeyi bitirdi.',
+    },
+    {
+      ing: 'They enjoy traveling by train.',
+      tr: 'Trenle seyahat etmekten hoşlanırlar.',
+    },
+    {
+      ing: 'We suggest visiting the museum.',
+      tr: 'Müzeyi ziyaret etmeyi öneririz.',
+    },
+    {ing: 'I love playing the guitar.', tr: 'Gitar çalmayı severim.'},
+    {
+      ing: 'She avoids talking to strangers.',
+      tr: 'Yabancılarla konuşmaktan kaçınır.',
+    },
+    {ing: 'He prefers eating at home.', tr: 'Evde yemek yemeyi tercih eder.'},
+    {
+      ing: 'They continue learning new things.',
+      tr: 'Yeni şeyler öğrenmeye devam ederler.',
+    },
+    {ing: 'We miss going to the beach.', tr: 'Sahile gitmeyi özlüyoruz.'},
+    {ing: 'I enjoy baking cakes.', tr: 'Kek yapmaktan hoşlanırım.'},
+    {
+      ing: 'She dislikes running in the rain.',
+      tr: 'Yağmurda koşmaktan hoşlanmaz.',
+    },
+    {
+      ing: 'He started building a model car.',
+      tr: 'Model bir araba yapmaya başladı.',
+    },
+    {
+      ing: 'They keep calling their friends.',
+      tr: 'Arkadaşlarını aramaya devam ederler.',
+    },
+    {ing: 'We love watching the sunset.', tr: 'Gün batımını izlemeyi severiz.'},
+    {
+      ing: 'I avoid eating too much sugar.',
+      tr: 'Çok fazla şeker yemekten kaçınırım.',
+    },
+    {ing: 'She finished writing her report.', tr: 'Raporunu yazmayı bitirdi.'},
+    {ing: 'He suggests taking a break.', tr: 'Bir ara vermeyi önerir.'},
+    {
+      ing: 'They enjoy singing at karaoke.',
+      tr: "Karaoke'de şarkı söylemekten hoşlanırlar.",
+    },
+    {
+      ing: 'We prefer driving in the countryside.',
+      tr: 'Kırsalda araba kullanmayı tercih ederiz.',
+    },
+    {
+      ing: 'I miss chatting with my old friends.',
+      tr: 'Eski arkadaşlarımla sohbet etmeyi özlüyorum.',
+    },
+    {ing: 'She loves riding her bicycle.', tr: 'Bisiklet sürmeyi sever.'},
+    {
+      ing: 'He dislikes waiting in long lines.',
+      tr: 'Uzun kuyruklarda beklemekten hoşlanmaz.',
+    },
+    {
+      ing: 'They continue enjoying their holiday.',
+      tr: 'Tatilin tadını çıkarmaya devam ederler.',
+    },
+    {
+      ing: 'We started preparing dinner early.',
+      tr: 'Akşam yemeğini erken hazırlamaya başladık.',
+    },
+    {
+      ing: 'I suggest trying a different recipe.',
+      tr: 'Farklı bir tarif denemeyi öneririm.',
+    },
+    {
+      ing: 'She enjoys painting landscapes.',
+      tr: 'Manzara resmi yapmaktan hoşlanır.',
+    },
+    {
+      ing: 'He avoids arguing with his friends.',
+      tr: 'Arkadaşlarıyla tartışmaktan kaçınır.',
+    },
+    {
+      ing: 'They prefer listening to rock music.',
+      tr: 'Rock müzik dinlemeyi tercih ederler.',
+    },
+    {
+      ing: 'We keep watering the plants daily.',
+      tr: 'Bitkileri her gün sulamaya devam ederiz.',
+    },
+    {
+      ing: 'I love playing chess with my dad.',
+      tr: 'Babamla satranç oynamayı severim.',
+    },
+    {
+      ing: 'She misses dancing with her friends.',
+      tr: 'Arkadaşlarıyla dans etmeyi özlüyor.',
+    },
+    {
+      ing: 'He dislikes cleaning his room.',
+      tr: 'Odasını temizlemekten hoşlanmaz.',
+    },
+    {
+      ing: 'They finished planning the trip.',
+      tr: 'Geziyi planlamayı bitirdiler.',
+    },
+    {
+      ing: 'We suggest visiting the park.',
+      tr: 'Parkı ziyaret etmeyi öneririz.',
+    },
+    {
+      ing: 'I enjoy watching cartoons.',
+      tr: 'Çizgi film izlemekten hoşlanırım.',
+    },
+    {ing: 'She started knitting a scarf.', tr: 'Bir atkı örmeye başladı.'},
+    {
+      ing: 'He avoids talking during movies.',
+      tr: 'Filmler sırasında konuşmaktan kaçınır.',
+    },
+    {
+      ing: 'They continue working on the project.',
+      tr: 'Proje üzerinde çalışmaya devam ederler.',
+    },
+    {
+      ing: 'We love eating ice cream in summer.',
+      tr: 'Yazın dondurma yemeyi severiz.',
+    },
+    {
+      ing: 'I miss listening to live music.',
+      tr: 'Canlı müzik dinlemeyi özlüyorum.',
+    },
+    {
+      ing: 'She dislikes cooking complicated dishes.',
+      tr: 'Karmaşık yemekler yapmaktan hoşlanmaz.',
+    },
+    {ing: 'He finished painting the house.', tr: 'Evi boyamayı bitirdi.'},
+    {
+      ing: 'They enjoy learning about history.',
+      tr: 'Tarih hakkında öğrenmeyi severler.',
+    },
+    {
+      ing: 'We prefer staying at home on rainy days.',
+      tr: 'Yağmurlu günlerde evde kalmayı tercih ederiz.',
+    },
+    {
+      ing: 'I enjoy singing in the shower.',
+      tr: 'Duşta şarkı söylemekten hoşlanırım.',
+    },
+    {
+      ing: 'She loves practicing yoga every morning.',
+      tr: 'Her sabah yoga yapmayı sever.',
+    },
+    {
+      ing: 'He avoids driving in heavy traffic.',
+      tr: 'Yoğun trafikte araba kullanmaktan kaçınır.',
+    },
+    {
+      ing: 'They miss playing board games together.',
+      tr: 'Birlikte masa oyunları oynamayı özlüyorlar.',
+    },
+    {
+      ing: 'We dislike eating spicy food.',
+      tr: 'Acılı yemek yemekten hoşlanmayız.',
+    },
+    {
+      ing: 'I suggest taking a walk after dinner.',
+      tr: 'Akşam yemeğinden sonra yürüyüş yapmayı öneririm.',
+    },
+    {
+      ing: 'She enjoys playing with her cat.',
+      tr: 'Kedisiyle oynamaktan hoşlanır.',
+    },
+    {ing: 'He finished setting up the tent.', tr: 'Çadırı kurmayı bitirdi.'},
+    {
+      ing: 'They prefer watching comedy movies.',
+      tr: 'Komedi filmleri izlemeyi tercih ederler.',
+    },
+    {
+      ing: 'We love exploring new places.',
+      tr: 'Yeni yerleri keşfetmeyi severiz.',
+    },
+    {
+      ing: 'I avoid talking on the phone while eating.',
+      tr: 'Yemek yerken telefonda konuşmaktan kaçınırım.',
+    },
+    {
+      ing: 'She keeps learning new recipes.',
+      tr: 'Yeni tarifler öğrenmeye devam eder.',
+    },
+    {
+      ing: 'He dislikes waiting for the bus.',
+      tr: 'Otobüsü beklemekten hoşlanmaz.',
+    },
+    {
+      ing: 'They finished organizing the party.',
+      tr: 'Partiyi organize etmeyi bitirdiler.',
+    },
+    {
+      ing: 'We enjoy spending time in the garden.',
+      tr: 'Bahçede zaman geçirmekten hoşlanırız.',
+    },
+    {
+      ing: 'I suggest trying a different route.',
+      tr: 'Farklı bir rota denemeyi öneririm.',
+    },
+    {
+      ing: 'She loves watching birds in the park.',
+      tr: 'Parkta kuşları izlemeyi sever.',
+    },
+    {
+      ing: 'He misses playing tennis with his friends.',
+      tr: 'Arkadaşlarıyla tenis oynamayı özlüyor.',
+    },
+    {
+      ing: 'They keep fixing their old car.',
+      tr: 'Eski arabalarını tamir etmeye devam ederler.',
+    },
+    {ing: 'We avoid eating fast food.', tr: 'Fast food yemekten kaçınırız.'},
+    {
+      ing: 'I enjoy taking photos of nature.',
+      tr: 'Doğanın fotoğraflarını çekmekten hoşlanırım.',
+    },
+    {ing: 'She finished writing her diary.', tr: 'Günlüğünü yazmayı bitirdi.'},
+    {
+      ing: 'He loves playing video games at night.',
+      tr: 'Gece video oyunları oynamayı sever.',
+    },
+    {
+      ing: 'They dislike working on weekends.',
+      tr: 'Hafta sonları çalışmaktan hoşlanmazlar.',
+    },
+    {
+      ing: 'We prefer reading books in the evening.',
+      tr: 'Akşamları kitap okumayı tercih ederiz.',
+    },
+    {ing: 'I miss swimming in the lake.', tr: 'Gölde yüzmeyi özlüyorum.'},
+    {ing: 'She keeps practicing the piano.', tr: 'Piyano çalmaya devam eder.'},
+    {
+      ing: 'He avoids speaking in public.',
+      tr: 'Topluluk önünde konuşmaktan kaçınır.',
+    },
+    {
+      ing: 'They enjoy baking cookies together.',
+      tr: 'Birlikte kurabiye yapmaktan hoşlanırlar.',
+    },
+    {
+      ing: 'We love taking long walks in the park.',
+      tr: 'Parkta uzun yürüyüşler yapmayı severiz.',
+    },
+    {
+      ing: 'I suggest learning a new language.',
+      tr: 'Yeni bir dil öğrenmeyi öneririm.',
+    },
+    {
+      ing: 'She started decorating her room.',
+      tr: 'Odasını dekore etmeye başladı.',
+    },
+    {
+      ing: 'He dislikes doing laundry on Sundays.',
+      tr: 'Pazar günleri çamaşır yıkamaktan hoşlanmaz.',
+    },
+    {
+      ing: 'They keep improving their skills.',
+      tr: 'Becerilerini geliştirmeye devam ederler.',
+    },
+    {
+      ing: 'We enjoy camping in the forest.',
+      tr: 'Ormanda kamp yapmaktan hoşlanırız.',
+    },
+    {
+      ing: 'I avoid using my phone before bed.',
+      tr: 'Yatmadan önce telefonumu kullanmaktan kaçınırım.',
+    },
+    {
+      ing: 'She loves painting with watercolors.',
+      tr: 'Sulu boya ile resim yapmayı sever.',
+    },
+    {
+      ing: 'He misses hiking with his dog.',
+      tr: 'Köpeğiyle yürüyüş yapmayı özlüyor.',
+    },
+    {
+      ing: 'They finished planning their vacation.',
+      tr: 'Tatillerini planlamayı bitirdiler.',
+    },
+    {
+      ing: 'We prefer cooking at home.',
+      tr: 'Evde yemek yapmayı tercih ederiz.',
+    },
+    {ing: 'I suggest watching that movie.', tr: 'O filmi izlemeyi öneririm.'},
+    {ing: 'She enjoys knitting scarves.', tr: 'Atkı örmekten hoşlanır.'},
+    {
+      ing: 'He avoids drinking coffee at night.',
+      tr: 'Gece kahve içmekten kaçınır.',
+    },
+    {
+      ing: 'They keep learning new dance moves.',
+      tr: 'Yeni dans hareketleri öğrenmeye devam ederler.',
+    },
+    {
+      ing: 'We love playing cards with friends.',
+      tr: 'Arkadaşlarla kart oyunları oynamayı severiz.',
+    },
+    {
+      ing: 'I miss fishing with my dad.',
+      tr: 'Babamla balık tutmayı özlüyorum.',
+    },
+    {
+      ing: 'She dislikes cleaning the windows.',
+      tr: 'Pencere temizlemekten hoşlanmaz.',
+    },
+    {
+      ing: 'He finished writing his essay.',
+      tr: 'Kompozisyonunu yazmayı bitirdi.',
+    },
+    {
+      ing: 'They enjoy going for a run in the morning.',
+      tr: 'Sabah koşuya gitmekten hoşlanırlar.',
+    },
+    {
+      ing: 'We prefer listening to jazz music.',
+      tr: 'Caz müzik dinlemeyi tercih ederiz.',
+    },
+    {
+      ing: 'I avoid sitting for long hours.',
+      tr: 'Uzun saatler oturmaktan kaçınırım.',
+    },
+    {
+      ing: 'She loves singing in the choir.',
+      tr: 'Koroda şarkı söylemeyi sever.',
+    },
+    {
+      ing: 'He keeps fixing things around the house.',
+      tr: 'Evdeki şeyleri tamir etmeye devam eder.',
+    },
+    {
+      ing: 'They dislike eating vegetables.',
+      tr: 'Sebze yemekten hoşlanmazlar.',
+    },
+    {
+      ing: 'We finished decorating the Christmas tree.',
+      tr: 'Noel ağacını süslemeyi bitirdik.',
+    },
+    {
+      ing: 'I enjoy watching the stars at night.',
+      tr: 'Gece yıldızları izlemekten hoşlanırım.',
+    },
+    {ing: 'She started collecting stamps.', tr: 'Pul toplamaya başladı.'},
+    {
+      ing: 'He avoids arguing with his parents.',
+      tr: 'Ailesiyle tartışmaktan kaçınır.',
+    },
+    {
+      ing: 'They love spending time with their pets.',
+      tr: 'Evcil hayvanlarıyla vakit geçirmeyi severler.',
+    },
+    {
+      ing: 'We suggest booking tickets early.',
+      tr: 'Biletleri erken ayırtmayı öneririz.',
+    },
+    {
+      ing: 'I miss visiting my grandparents.',
+      tr: 'Büyükannemi ve büyükbabamı ziyaret etmeyi özlüyorum.',
+    },
+    {ing: 'She enjoys drawing cartoons.', tr: 'Karikatür çizmekten hoşlanır.'},
+    {
+      ing: 'He dislikes ironing his clothes.',
+      tr: 'Kıyafetlerini ütülemekten hoşlanmaz.',
+    },
+    {
+      ing: 'They keep practicing their English.',
+      tr: 'İngilizce pratik yapmaya devam ederler.',
+    },
+    {
+      ing: 'We love watching football on TV.',
+      tr: 'Televizyonda futbol izlemeyi severiz.',
+    },
+    {
+      ing: 'I suggest trying that new restaurant.',
+      tr: 'O yeni restoranı denemeyi öneririm.',
+    },
+    {
+      ing: 'She avoids staying up late.',
+      tr: 'Geç saatlere kadar uyanık kalmaktan kaçınır.',
+    },
+    {
+      ing: 'He finished building a birdhouse.',
+      tr: 'Bir kuş evi yapmayı bitirdi.',
+    },
+    {
+      ing: 'They enjoy watching movies together.',
+      tr: 'Birlikte film izlemekten hoşlanırlar.',
+    },
+    {
+      ing: 'We prefer eating fresh fruit.',
+      tr: 'Taze meyve yemeyi tercih ederiz.',
+    },
+    {
+      ing: 'I love making crafts with my kids.',
+      tr: 'Çocuklarımla el işleri yapmayı severim.',
+    },
+    {
+      ing: 'She dislikes waiting for slow internet.',
+      tr: 'Yavaş interneti beklemekten hoşlanmaz.',
+    },
+    {
+      ing: 'He misses playing basketball after school.',
+      tr: 'Okuldan sonra basketbol oynamayı özlüyor.',
+    },
+    {
+      ing: 'They keep improving their singing skills.',
+      tr: 'Şarkı söyleme becerilerini geliştirmeye devam ederler.',
+    },
+    {
+      ing: 'We enjoy planting flowers in the garden.',
+      tr: 'Bahçede çiçek dikmekten hoşlanırız.',
+    },
+  ],
+  SubjectPosition: [
+    {
+      ing: 'Swimming is a great way to stay fit.',
+      tr: 'Yüzmek, formda kalmanın harika bir yoludur.',
+    },
+    {
+      ing: 'Reading helps improve your vocabulary.',
+      tr: 'Okumak, kelime dağarcığını geliştirir.',
+    },
+    {
+      ing: 'Eating healthy is important for your body.',
+      tr: 'Sağlıklı beslenmek vücut için önemlidir.',
+    },
+    {
+      ing: 'Walking every day makes you feel better.',
+      tr: 'Her gün yürümek seni daha iyi hissettirir.',
+    },
+    {
+      ing: 'Traveling is my favorite hobby.',
+      tr: 'Seyahat etmek en sevdiğim hobimdir.',
+    },
+    {
+      ing: 'Studying hard leads to good results.',
+      tr: 'Sıkı çalışmak iyi sonuçlara götürür.',
+    },
+    {
+      ing: 'Cooking for friends is fun.',
+      tr: 'Arkadaşlar için yemek pişirmek eğlencelidir.',
+    },
+    {
+      ing: 'Writing in English improves my skills.',
+      tr: 'İngilizce yazmak becerilerimi geliştirir.',
+    },
+    {ing: 'Dancing makes me happy.', tr: 'Dans etmek beni mutlu eder.'},
+    {
+      ing: 'Singing in the shower is relaxing.',
+      tr: 'Duşta şarkı söylemek rahatlatıcıdır.',
+    },
+    {
+      ing: 'Drawing helps you express yourself.',
+      tr: 'Çizim yapmak kendini ifade etmene yardımcı olur.',
+    },
+    {
+      ing: 'Playing chess keeps your mind sharp.',
+      tr: 'Satranç oynamak zihnini keskin tutar.',
+    },
+    {ing: 'Cleaning the house is necessary.', tr: 'Evi temizlemek gereklidir.'},
+    {
+      ing: 'Running in the park is good exercise.',
+      tr: 'Parkta koşmak iyi bir egzersizdir.',
+    },
+    {
+      ing: 'Painting pictures is her hobby.',
+      tr: 'Resim yapmak onun hobisidir.',
+    },
+    {ing: 'Listening to music is enjoyable.', tr: 'Müzik dinlemek keyiflidir.'},
+    {
+      ing: 'Learning a new language takes time.',
+      tr: 'Yeni bir dil öğrenmek zaman alır.',
+    },
+    {
+      ing: 'Shopping with friends is fun.',
+      tr: 'Arkadaşlarla alışveriş yapmak eğlencelidir.',
+    },
+    {
+      ing: 'Playing with pets is always fun.',
+      tr: 'Evcil hayvanlarla oynamak her zaman eğlencelidir.',
+    },
+    {
+      ing: 'Watching movies on weekends is my habit.',
+      tr: 'Hafta sonları film izlemek benim alışkanlığımdır.',
+    },
+    {
+      ing: 'Growing plants is good for the environment.',
+      tr: 'Bitki yetiştirmek çevre için iyidir.',
+    },
+    {ing: 'Eating vegetables is healthy.', tr: 'Sebze yemek sağlıklıdır.'},
+    {
+      ing: 'Singing in the choir is a joy for her.',
+      tr: 'Koroda şarkı söylemek onun için bir keyiftir.',
+    },
+    {
+      ing: 'Riding a bicycle keeps you active.',
+      tr: 'Bisiklet sürmek seni aktif tutar.',
+    },
+    {
+      ing: 'Drawing cartoons makes her smile.',
+      tr: 'Karikatür çizmek onu gülümsetir.',
+    },
+    {
+      ing: 'Exercising daily keeps you strong.',
+      tr: 'Günlük egzersiz yapmak seni güçlü tutar.',
+    },
+    {
+      ing: 'Cooking dinner is part of my routine.',
+      tr: 'Akşam yemeği pişirmek benim rutinimin bir parçasıdır.',
+    },
+    {
+      ing: 'Gardening is good for your soul.',
+      tr: 'Bahçe işleri ruhuna iyi gelir.',
+    },
+    {
+      ing: 'Reading books helps you learn.',
+      tr: 'Kitap okumak öğrenmene yardımcı olur.',
+    },
+    {
+      ing: 'Cleaning your room is important.',
+      tr: 'Odanı temizlemek önemlidir.',
+    },
+    {
+      ing: 'Playing sports keeps you fit.',
+      tr: 'Spor yapmak seni formda tutar.',
+    },
+    {
+      ing: 'Learning math is not easy.',
+      tr: 'Matematik öğrenmek kolay değildir.',
+    },
+    {
+      ing: 'Traveling around the world is exciting.',
+      tr: 'Dünyayı gezmek heyecan vericidir.',
+    },
+    {
+      ing: 'Sleeping well is good for your health.',
+      tr: 'İyi uyumak sağlığın için iyidir.',
+    },
+    {
+      ing: 'Swimming in the ocean is refreshing.',
+      tr: 'Okyanusta yüzmek ferahlatıcıdır.',
+    },
+    {
+      ing: 'Drawing animals is her talent.',
+      tr: 'Hayvanları çizmek onun yeteneğidir.',
+    },
+    {
+      ing: 'Writing stories is fun for kids.',
+      tr: 'Hikaye yazmak çocuklar için eğlencelidir.',
+    },
+    {
+      ing: 'Dancing at parties is my favorite.',
+      tr: 'Partilerde dans etmek benim favorimdir.',
+    },
+    {
+      ing: 'Running fast makes you strong.',
+      tr: 'Hızlı koşmak seni güçlü yapar.',
+    },
+    {
+      ing: 'Watching cartoons is fun for children.',
+      tr: 'Çizgi film izlemek çocuklar için eğlencelidir.',
+    },
+    {ing: 'Eating too much is not good.', tr: 'Çok fazla yemek iyi değildir.'},
+    {
+      ing: 'Reading before bed helps you sleep.',
+      tr: 'Yatmadan önce okumak uyumana yardımcı olur.',
+    },
+    {
+      ing: 'Playing the piano is her passion.',
+      tr: 'Piyano çalmak onun tutkusudur.',
+    },
+    {
+      ing: 'Walking in the rain is refreshing.',
+      tr: 'Yağmurda yürümek ferahlatıcıdır.',
+    },
+    {
+      ing: 'Singing loud makes her happy.',
+      tr: 'Yüksek sesle şarkı söylemek onu mutlu eder.',
+    },
+    {
+      ing: 'Drawing flowers is easy for her.',
+      tr: 'Çiçek çizmek onun için kolaydır.',
+    },
+    {
+      ing: 'Cooking together brings joy.',
+      tr: 'Birlikte yemek yapmak mutluluk getirir.',
+    },
+    {ing: 'Learning English is useful.', tr: 'İngilizce öğrenmek faydalıdır.'},
+    {
+      ing: 'Cleaning the garden is hard work.',
+      tr: 'Bahçeyi temizlemek zordur.',
+    },
+    {
+      ing: 'Running every morning keeps you fit.',
+      tr: 'Her sabah koşmak seni formda tutar.',
+    },
+    {
+      ing: 'Shopping online saves time.',
+      tr: 'Online alışveriş yapmak zaman kazandırır.',
+    },
+    {
+      ing: 'Watching birds is peaceful.',
+      tr: 'Kuşları izlemek huzur vericidir.',
+    },
+    {
+      ing: 'Playing games is fun for everyone.',
+      tr: 'Oyun oynamak herkes için eğlencelidir.',
+    },
+    {
+      ing: 'Reading comics makes me laugh.',
+      tr: 'Çizgi roman okumak beni güldürür.',
+    },
+    {
+      ing: 'Swimming in the pool is refreshing.',
+      tr: 'Havuzda yüzmek ferahlatıcıdır.',
+    },
+    {
+      ing: 'Drawing landscapes is her hobby.',
+      tr: 'Manzara çizmek onun hobisidir.',
+    },
+    {
+      ing: 'Exercising regularly keeps you healthy.',
+      tr: 'Düzenli egzersiz yapmak sağlıklı tutar.',
+    },
+    {
+      ing: 'Singing songs lifts my mood.',
+      tr: 'Şarkı söylemek moralimi yükseltir.',
+    },
+    {
+      ing: 'Cooking breakfast is my morning task.',
+      tr: 'Kahvaltı hazırlamak benim sabah görevimdir.',
+    },
+    {
+      ing: 'Learning new things is exciting.',
+      tr: 'Yeni şeyler öğrenmek heyecan vericidir.',
+    },
+    {
+      ing: 'Walking with friends is enjoyable.',
+      tr: 'Arkadaşlarla yürümek keyiflidir.',
+    },
+    {
+      ing: 'Writing in a diary is relaxing.',
+      tr: 'Günlüğe yazmak rahatlatıcıdır.',
+    },
+    {
+      ing: 'Eating fruits is good for health.',
+      tr: 'Meyve yemek sağlığa iyi gelir.',
+    },
+    {
+      ing: 'Playing guitar is his favorite hobby.',
+      tr: 'Gitar çalmak onun en sevdiği hobisidir.',
+    },
+    {
+      ing: 'Dancing makes her feel alive.',
+      tr: 'Dans etmek onu canlı hissettirir.',
+    },
+    {
+      ing: 'Drawing pictures is fun for kids.',
+      tr: 'Resim çizmek çocuklar için eğlencelidir.',
+    },
+    {
+      ing: 'Watching TV in the evening is relaxing.',
+      tr: 'Akşamları televizyon izlemek rahatlatıcıdır.',
+    },
+    {
+      ing: 'Reading newspapers keeps you informed.',
+      tr: 'Gazete okumak seni bilgilendirir.',
+    },
+    {
+      ing: 'Cleaning after dinner is a must.',
+      tr: 'Akşam yemeğinden sonra temizlik şarttır.',
+    },
+    {
+      ing: 'Running outside is refreshing.',
+      tr: 'Dışarıda koşmak ferahlatıcıdır.',
+    },
+    {
+      ing: 'Traveling by train is comfortable.',
+      tr: 'Trenle seyahat etmek rahattır.',
+    },
+    {
+      ing: 'Listening to nature sounds is calming.',
+      tr: 'Doğa seslerini dinlemek sakinleştiricidir.',
+    },
+    {ing: 'Writing poems is her passion.', tr: 'Şiir yazmak onun tutkusudur.'},
+    {
+      ing: 'Exercising in the morning boosts energy.',
+      tr: 'Sabah egzersizi enerji verir.',
+    },
+    {
+      ing: 'Cooking pasta is simple and quick.',
+      tr: 'Makarna yapmak basit ve hızlıdır.',
+    },
+    {
+      ing: 'Drawing faces is easy for her.',
+      tr: 'Yüz çizmek onun için kolaydır.',
+    },
+    {
+      ing: 'Playing with kids makes me happy.',
+      tr: 'Çocuklarla oynamak beni mutlu eder.',
+    },
+    {
+      ing: 'Singing softly is calming.',
+      tr: 'Yavaşça şarkı söylemek sakinleştiricidir.',
+    },
+    {
+      ing: 'Learning from mistakes helps you grow.',
+      tr: 'Hatalardan öğrenmek seni geliştirir.',
+    },
+    {
+      ing: 'Watching the sunset is beautiful.',
+      tr: 'Gün batımını izlemek güzeldir.',
+    },
+    {ing: 'Reading poetry inspires her.', tr: 'Şiir okumak onu motive eder.'},
+    {
+      ing: 'Dancing on stage is exciting.',
+      tr: 'Sahneye çıkıp dans etmek heyecan vericidir.',
+    },
+    {
+      ing: 'Cooking dinner together is fun.',
+      tr: 'Birlikte akşam yemeği yapmak eğlencelidir.',
+    },
+    {
+      ing: 'Listening to others is important.',
+      tr: 'Başkalarını dinlemek önemlidir.',
+    },
+    {
+      ing: 'Playing basketball is his favorite sport.',
+      tr: 'Basketbol oynamak onun en sevdiği spordur.',
+    },
+    {
+      ing: 'Walking in the morning feels good.',
+      tr: 'Sabah yürüyüşü yapmak iyi hissettirir.',
+    },
+    {
+      ing: 'Writing letters to friends is sweet.',
+      tr: 'Arkadaşlara mektup yazmak tatlıdır.',
+    },
+    {
+      ing: 'Painting with colors is joyful.',
+      tr: 'Renklerle boyama yapmak keyiflidir.',
+    },
+    {ing: 'Cleaning the car is tiring.', tr: 'Arabayı temizlemek yorucudur.'},
+    {
+      ing: 'Watching clouds move is peaceful.',
+      tr: 'Bulutların hareketini izlemek huzur vericidir.',
+    },
+    {
+      ing: 'Drawing with pencils is simple.',
+      tr: 'Kalemle çizim yapmak basittir.',
+    },
+    {
+      ing: 'Singing with the choir is inspiring.',
+      tr: 'Koroyla şarkı söylemek ilham vericidir.',
+    },
+    {
+      ing: 'Playing outside makes kids active.',
+      tr: 'Dışarıda oynamak çocukları aktif yapar.',
+    },
+    {
+      ing: 'Running with my dog is enjoyable.',
+      tr: 'Köpeğimle koşmak keyiflidir.',
+    },
+    {
+      ing: 'Cooking for family is a pleasure.',
+      tr: 'Aile için yemek yapmak keyif verir.',
+    },
+    {ing: 'Writing songs is her dream.', tr: 'Şarkı yazmak onun hayalidir.'},
+    {
+      ing: 'Learning from books is helpful.',
+      tr: 'Kitaplardan öğrenmek faydalıdır.',
+    },
+    {
+      ing: 'Dancing in the rain is fun.',
+      tr: 'Yağmurda dans etmek eğlencelidir.',
+    },
+    {
+      ing: 'Cleaning the yard takes time.',
+      tr: 'Bahçeyi temizlemek zaman alır.',
+    },
+    {ing: 'Reading magazines is interesting.', tr: 'Dergi okumak ilginçtir.'},
+    {
+      ing: 'Drawing animals is her favorite hobby.',
+      tr: 'Hayvanları çizmek onun en sevdiği hobisidir.',
+    },
+    {ing: 'Playing the flute is relaxing.', tr: 'Flüt çalmak rahatlatıcıdır.'},
+    {
+      ing: 'Singing at family gatherings is fun.',
+      tr: 'Aile toplantılarında şarkı söylemek eğlencelidir.',
+    },
+    {
+      ing: 'Cooking soup in winter is comforting.',
+      tr: 'Kışın çorba yapmak rahatlatıcıdır.',
+    },
+    {
+      ing: 'Listening to the radio is his habit.',
+      tr: 'Radyo dinlemek onun alışkanlığıdır.',
+    },
+    {
+      ing: 'Walking on the beach is peaceful.',
+      tr: 'Sahilde yürümek huzur vericidir.',
+    },
+    {
+      ing: 'Painting the walls is a big job.',
+      tr: 'Duvarları boyamak büyük bir iştir.',
+    },
+    {
+      ing: 'Playing with toys makes kids happy.',
+      tr: 'Oyuncaklarla oynamak çocukları mutlu eder.',
+    },
+    {
+      ing: 'Dancing all night is tiring.',
+      tr: 'Bütün gece dans etmek yorucudur.',
+    },
+    {
+      ing: 'Writing essays is part of the class.',
+      tr: 'Deneme yazmak dersin bir parçasıdır.',
+    },
+    {
+      ing: 'Running races is exciting.',
+      tr: 'Koşu yarışları yapmak heyecan vericidir.',
+    },
+    {
+      ing: 'Drawing with crayons is easy.',
+      tr: 'Pastel boyalarla çizim yapmak kolaydır.',
+    },
+    {
+      ing: 'Singing in front of people is brave.',
+      tr: 'İnsanlar önünde şarkı söylemek cesurcadır.',
+    },
+    {
+      ing: 'Cleaning the house takes effort.',
+      tr: 'Evi temizlemek çaba gerektirir.',
+    },
+    {
+      ing: 'Learning about history is fascinating.',
+      tr: 'Tarih hakkında öğrenmek büyüleyicidir.',
+    },
+    {
+      ing: 'Playing soccer with friends is fun.',
+      tr: 'Arkadaşlarla futbol oynamak eğlencelidir.',
+    },
+    {
+      ing: 'Cooking breakfast for everyone is nice.',
+      tr: 'Herkes için kahvaltı hazırlamak güzeldir.',
+    },
+    {
+      ing: 'Writing a diary helps clear your mind.',
+      tr: 'Günlük yazmak zihnini rahatlatır.',
+    },
+    {
+      ing: 'Painting landscapes is relaxing.',
+      tr: 'Manzara resmi yapmak rahatlatıcıdır.',
+    },
+    {
+      ing: 'Watching animals at the zoo is fun.',
+      tr: 'Hayvanat bahçesinde hayvanları izlemek eğlencelidir.',
+    },
+    {
+      ing: 'Drawing in art class is interesting.',
+      tr: 'Sanat dersinde çizim yapmak ilginçtir.',
+    },
+    {
+      ing: 'Singing your favorite song is joyful.',
+      tr: 'En sevdiğin şarkıyı söylemek keyiflidir.',
+    },
+    {
+      ing: 'Playing board games is fun for families.',
+      tr: 'Aileler için masa oyunları oynamak eğlencelidir.',
+    },
+    {
+      ing: 'Running in the rain feels great.',
+      tr: 'Yağmurda koşmak harika hissettirir.',
+    },
+    {
+      ing: 'Cleaning up after a party is tiring.',
+      tr: 'Partiden sonra temizlik yapmak yorucudur.',
+    },
+    {
+      ing: 'Learning new skills is useful.',
+      tr: 'Yeni beceriler öğrenmek faydalıdır.',
+    },
+    {
+      ing: 'Dancing at weddings is fun.',
+      tr: 'Düğünlerde dans etmek eğlencelidir.',
+    },
+    {
+      ing: 'Writing letters is a lost art.',
+      tr: 'Mektup yazmak kaybolmuş bir sanattır.',
+    },
+    {
+      ing: 'Playing hide and seek is exciting.',
+      tr: 'Saklambaç oynamak heyecan vericidir.',
+    },
+    {
+      ing: 'Painting with kids is messy but fun.',
+      tr: 'Çocuklarla boyama yapmak dağınık ama eğlencelidir.',
+    },
+    {
+      ing: 'Watching fireworks is exciting.',
+      tr: 'Havai fişekleri izlemek heyecan vericidir.',
+    },
+    {
+      ing: 'Drawing cartoons makes her smile.',
+      tr: 'Karikatür çizmek onu gülümsetir.',
+    },
+    {
+      ing: 'Singing along to the radio is fun.',
+      tr: 'Radyoya eşlik ederek şarkı söylemek eğlencelidir.',
+    },
+    {
+      ing: 'Cooking together strengthens bonds.',
+      tr: 'Birlikte yemek yapmak bağları güçlendirir.',
+    },
+    {
+      ing: 'Running on the treadmill is good exercise.',
+      tr: 'Koşu bandında koşmak iyi bir egzersizdir.',
+    },
+    {
+      ing: 'Listening to the rain is calming.',
+      tr: 'Yağmuru dinlemek sakinleştiricidir.',
+    },
+    {
+      ing: 'Dancing in the living room is silly but fun.',
+      tr: 'Oturma odasında dans etmek saçma ama eğlencelidir.',
+    },
+    {
+      ing: 'Writing in a journal helps me think.',
+      tr: 'Günlük tutmak düşünmeme yardımcı olur.',
+    },
+    {
+      ing: 'Playing puzzles is great for your mind.',
+      tr: 'Bulmaca oynamak zihin için harikadır.',
+    },
+    {
+      ing: 'Watching the stars at night is peaceful.',
+      tr: 'Gece yıldızları izlemek huzur vericidir.',
+    },
+    {
+      ing: 'Drawing comic strips is creative.',
+      tr: 'Çizgi romanlar çizmek yaratıcıdır.',
+    },
+    {
+      ing: 'Singing loudly lifts my spirits.',
+      tr: 'Yüksek sesle şarkı söylemek moralimi yükseltir.',
+    },
+    {
+      ing: 'Cooking new recipes is adventurous.',
+      tr: 'Yeni tarifler denemek maceraperesttir.',
+    },
+    {
+      ing: 'Learning dance moves is fun.',
+      tr: 'Dans hareketleri öğrenmek eğlencelidir.',
+    },
+    {
+      ing: 'Painting in the garden is inspiring.',
+      tr: 'Bahçede resim yapmak ilham vericidir.',
+    },
+    {
+      ing: 'Running a little every day is healthy.',
+      tr: 'Her gün biraz koşmak sağlıklıdır.',
+    },
+    {ing: 'Writing poems is emotional.', tr: 'Şiir yazmak duygusaldır.'},
+    {
+      ing: 'Playing in the snow is exciting.',
+      tr: 'Karda oynamak heyecan vericidir.',
+    },
+    {
+      ing: 'Drawing on the sidewalk is artistic.',
+      tr: 'Kaldırımda çizim yapmak sanatsaldır.',
+    },
+    {
+      ing: 'Watching movies with friends is enjoyable.',
+      tr: 'Arkadaşlarla film izlemek keyiflidir.',
+    },
+  ],
+  Too: [
+    {ing: 'The box is too heavy to lift.', tr: 'Kutu kaldırmak için çok ağır.'},
+    {
+      ing: 'She is strong enough to carry the bag.',
+      tr: 'Çantayı taşımak için yeterince güçlü.',
+    },
+    {ing: 'The soup is too hot to eat.', tr: 'Çorba yemek için çok sıcak.'},
+    {
+      ing: 'He is tall enough to reach the shelf.',
+      tr: 'Rafı ulaşmak için yeterince uzun.',
+    },
+    {
+      ing: 'The room is too noisy to study.',
+      tr: 'Oda ders çalışmak için çok gürültülü.',
+    },
+    {
+      ing: 'She is patient enough to teach kids.',
+      tr: 'Çocuklara öğretmek için yeterince sabırlı.',
+    },
+    {
+      ing: 'The car is too slow to win the race.',
+      tr: 'Araba yarışı kazanmak için çok yavaş.',
+    },
+    {
+      ing: 'He is brave enough to climb the tree.',
+      tr: 'Ağaca tırmanmak için yeterince cesur.',
+    },
+    {
+      ing: 'The cake is too sweet to finish.',
+      tr: 'Kek bitirmek için çok tatlı.',
+    },
+    {
+      ing: 'She is quick enough to solve the puzzle.',
+      tr: 'Bulmacayı çözmek için yeterince hızlı.',
+    },
+    {
+      ing: 'The music is too loud to enjoy.',
+      tr: 'Müzik keyif almak için çok yüksek.',
+    },
+    {
+      ing: 'He is smart enough to answer the question.',
+      tr: 'Soruyu cevaplamak için yeterince zeki.',
+    },
+    {ing: 'The dress is too big to wear.', tr: 'Elbise giymek için çok büyük.'},
+    {
+      ing: 'She is kind enough to help her friend.',
+      tr: 'Arkadaşına yardım etmek için yeterince kibar.',
+    },
+    {
+      ing: 'The road is too rough to drive on.',
+      tr: 'Yol sürmek için çok bozuk.',
+    },
+    {
+      ing: 'He is fast enough to catch the bus.',
+      tr: 'Otobüsü yakalamak için yeterince hızlı.',
+    },
+    {ing: 'The ice is too thin to skate on.', tr: 'Buz kaymak için çok ince.'},
+    {
+      ing: 'She is old enough to travel alone.',
+      tr: 'Tek başına seyahat etmek için yeterince büyük.',
+    },
+    {
+      ing: 'The book is too boring to read.',
+      tr: 'Kitap okumak için çok sıkıcı.',
+    },
+    {
+      ing: 'He is tall enough to play basketball.',
+      tr: 'Basketbol oynamak için yeterince uzun.',
+    },
+    {ing: 'The water is too cold to swim.', tr: 'Su yüzmek için çok soğuk.'},
+    {
+      ing: 'She is calm enough to speak in public.',
+      tr: 'Toplum önünde konuşmak için yeterince sakin.',
+    },
+    {
+      ing: 'The hill is too steep to climb.',
+      tr: 'Tepe tırmanmak için çok dik.',
+    },
+    {
+      ing: 'He is careful enough to avoid mistakes.',
+      tr: 'Hatalardan kaçınmak için yeterince dikkatli.',
+    },
+    {ing: 'The food is too spicy to eat.', tr: 'Yemek yemek için çok acı.'},
+    {
+      ing: 'She is flexible enough to do yoga.',
+      tr: 'Yoga yapmak için yeterince esnek.',
+    },
+    {
+      ing: 'The day is too short to finish work.',
+      tr: 'Gün işi bitirmek için çok kısa.',
+    },
+    {
+      ing: 'He is young enough to learn quickly.',
+      tr: 'Hızlı öğrenmek için yeterince genç.',
+    },
+    {
+      ing: 'The jacket is too small to fit.',
+      tr: 'Ceket giymek için çok küçük.',
+    },
+    {
+      ing: 'She is creative enough to paint well.',
+      tr: 'İyi resim yapmak için yeterince yaratıcı.',
+    },
+    {
+      ing: 'The movie is too scary to watch.',
+      tr: 'Film izlemek için çok korkunç.',
+    },
+    {
+      ing: 'He is polite enough to thank everyone.',
+      tr: 'Herkese teşekkür etmek için yeterince nazik.',
+    },
+    {
+      ing: 'The road is too dark to walk.',
+      tr: 'Yol yürümek için çok karanlık.',
+    },
+    {
+      ing: 'She is experienced enough to lead the team.',
+      tr: 'Takımı yönetmek için yeterince deneyimli.',
+    },
+    {
+      ing: 'The weather is too rainy to go outside.',
+      tr: 'Hava dışarı çıkmak için çok yağmurlu.',
+    },
+    {
+      ing: 'He is strong enough to move the table.',
+      tr: 'Masayı taşımak için yeterince güçlü.',
+    },
+    {
+      ing: 'The test is too difficult to pass.',
+      tr: 'Test geçmek için çok zor.',
+    },
+    {
+      ing: 'She is patient enough to teach beginners.',
+      tr: 'Yeni başlayanlara öğretmek için yeterince sabırlı.',
+    },
+    {
+      ing: 'The coffee is too bitter to drink.',
+      tr: 'Kahve içmek için çok acı.',
+    },
+    {
+      ing: 'He is fast enough to run the marathon.',
+      tr: 'Maraton koşmak için yeterince hızlı.',
+    },
+    {
+      ing: 'The ground is too wet to sit on.',
+      tr: 'Zemin oturmak için çok ıslak.',
+    },
+    {
+      ing: 'She is brave enough to try new things.',
+      tr: 'Yeni şeyler denemek için yeterince cesur.',
+    },
+    {
+      ing: 'The music is too slow to dance to.',
+      tr: 'Müzik dans etmek için çok yavaş.',
+    },
+    {
+      ing: 'He is quiet enough to listen carefully.',
+      tr: 'Dikkatlice dinlemek için yeterince sessiz.',
+    },
+    {
+      ing: 'The book is too thick to finish in a day.',
+      tr: 'Kitap bir günde bitirmek için çok kalın.',
+    },
+    {
+      ing: 'She is kind enough to share her lunch.',
+      tr: 'Öğle yemeğini paylaşmak için yeterince kibar.',
+    },
+    {
+      ing: 'The soup is too cold to enjoy.',
+      tr: 'Çorba keyif almak için çok soğuk.',
+    },
+    {
+      ing: 'He is tall enough to reach the top shelf.',
+      tr: 'Üst rafı ulaşmak için yeterince uzun.',
+    },
+    {
+      ing: 'The box is too big to carry alone.',
+      tr: 'Kutu tek başına taşımak için çok büyük.',
+    },
+    {
+      ing: 'She is smart enough to solve the math problem.',
+      tr: 'Matematik problemini çözmek için yeterince zeki.',
+    },
+    {
+      ing: 'The road is too bumpy to drive fast.',
+      tr: 'Yol hızlı sürmek için çok engebeli.',
+    },
+    {
+      ing: 'He is strong enough to open the jar.',
+      tr: 'Kavanozu açmak için yeterince güçlü.',
+    },
+    {
+      ing: 'The sky is too cloudy to see the stars.',
+      tr: 'Gökyüzü yıldızları görmek için çok bulutlu.',
+    },
+    {
+      ing: 'She is quick enough to catch the ball.',
+      tr: 'Topu yakalamak için yeterince hızlı.',
+    },
+    {
+      ing: 'The chair is too low to sit comfortably.',
+      tr: 'Sandalye rahat oturmak için çok alçak.',
+    },
+    {
+      ing: 'He is brave enough to try the roller coaster.',
+      tr: 'Hız trenini denemek için yeterince cesur.',
+    },
+    {
+      ing: 'The cake is too dry to taste good.',
+      tr: 'Kek iyi tat almak için çok kuru.',
+    },
+    {
+      ing: 'She is creative enough to design a poster.',
+      tr: 'Poster tasarlamak için yeterince yaratıcı.',
+    },
+    {
+      ing: 'The river is too deep to cross.',
+      tr: 'Nehir geçmek için çok derin.',
+    },
+    {
+      ing: 'He is careful enough to fix the clock.',
+      tr: 'Saati tamir etmek için yeterince dikkatli.',
+    },
+    {
+      ing: 'The pillow is too soft to sleep on.',
+      tr: 'Yastık uyumak için çok yumuşak.',
+    },
+    {
+      ing: 'She is patient enough to wait in line.',
+      tr: 'Sırada beklemek için yeterince sabırlı.',
+    },
+    {
+      ing: 'The park is too crowded to play in.',
+      tr: 'Park oynamak için çok kalabalık.',
+    },
+    {
+      ing: 'He is fast enough to win the race.',
+      tr: 'Yarışı kazanmak için yeterince hızlı.',
+    },
+    {
+      ing: 'The lamp is too bright to look at.',
+      tr: 'Lamba bakmak için çok parlak.',
+    },
+    {
+      ing: 'She is strong enough to lift the weights.',
+      tr: 'Ağırlıkları kaldırmak için yeterince güçlü.',
+    },
+    {
+      ing: 'The soup is too salty to enjoy.',
+      tr: 'Çorba keyif almak için çok tuzlu.',
+    },
+    {
+      ing: 'He is quiet enough to hear the birds.',
+      tr: 'Kuşları duymak için yeterince sessiz.',
+    },
+    {
+      ing: 'The movie is too funny to miss.',
+      tr: 'Film kaçırmak için çok komik.',
+    },
+    {
+      ing: 'She is creative enough to make a gift.',
+      tr: 'Hediye yapmak için yeterince yaratıcı.',
+    },
+    {
+      ing: 'The street is too busy to cross.',
+      tr: 'Sokak karşıdan karşıya geçmek için çok yoğun.',
+    },
+    {
+      ing: 'He is tall enough to play volleyball.',
+      tr: 'Voleybol oynamak için yeterince uzun.',
+    },
+    {ing: 'The tea is too hot to sip.', tr: 'Çay yudumlamak için çok sıcak.'},
+    {
+      ing: 'She is old enough to stay home alone.',
+      tr: 'Tek başına evde kalmak için yeterince büyük.',
+    },
+    {
+      ing: 'The book is too long to read in a day.',
+      tr: 'Kitap bir günde okumak için çok uzun.',
+    },
+    {
+      ing: 'He is strong enough to pull the rope.',
+      tr: 'İpi çekmek için yeterince güçlü.',
+    },
+    {
+      ing: 'The weather is too windy to fly a kite.',
+      tr: 'Hava uçurtma uçurmak için çok rüzgarlı.',
+    },
+    {
+      ing: 'She is fast enough to catch the butterfly.',
+      tr: 'Kelebeği yakalamak için yeterince hızlı.',
+    },
+    {
+      ing: 'The music is too soft to hear clearly.',
+      tr: 'Müzik net duymak için çok yumuşak.',
+    },
+    {
+      ing: 'He is brave enough to speak in class.',
+      tr: 'Sınıfta konuşmak için yeterince cesur.',
+    },
+    {
+      ing: 'The food is too bland to taste good.',
+      tr: 'Yemek iyi tat almak için çok tatsız.',
+    },
+    {
+      ing: 'She is flexible enough to touch her toes.',
+      tr: 'Ayak parmaklarına dokunmak için yeterince esnek.',
+    },
+    {
+      ing: 'The hill is too slippery to climb.',
+      tr: 'Tepe tırmanmak için çok kaygan.',
+    },
+    {
+      ing: 'He is quick enough to avoid the obstacle.',
+      tr: 'Engelden kaçınmak için yeterince hızlı.',
+    },
+    {
+      ing: 'The room is too small to fit everyone.',
+      tr: 'Oda herkesi sığdırmak için çok küçük.',
+    },
+    {
+      ing: 'She is calm enough to mediate.',
+      tr: 'Ara bulmak için yeterince sakin.',
+    },
+    {
+      ing: 'The box is too fragile to carry safely.',
+      tr: 'Kutu güvenli taşımak için çok kırılgan.',
+    },
+    {
+      ing: 'He is wise enough to give advice.',
+      tr: 'Tavsiye vermek için yeterince bilge.',
+    },
+    {
+      ing: 'The sky is too dark to see the plane.',
+      tr: 'Gökyüzü uçağı görmek için çok karanlık.',
+    },
+    {
+      ing: 'She is clever enough to solve puzzles.',
+      tr: 'Bulmacaları çözmek için yeterince akıllı.',
+    },
+    {
+      ing: 'The path is too narrow to walk side by side.',
+      tr: 'Yol yan yana yürümek için çok dar.',
+    },
+    {
+      ing: 'He is strong enough to push the cart.',
+      tr: 'Arabayı itmek için yeterince güçlü.',
+    },
+    {
+      ing: 'The water is too deep to touch the bottom.',
+      tr: 'Su dibine dokunmak için çok derin.',
+    },
+    {
+      ing: 'She is quick enough to finish her work.',
+      tr: 'İşini bitirmek için yeterince hızlı.',
+    },
+    {
+      ing: 'The plant is too dry to grow well.',
+      tr: 'Bitki iyi büyümek için çok kuru.',
+    },
+    {
+      ing: 'He is patient enough to wait for the bus.',
+      tr: 'Otobüsü beklemek için yeterince sabırlı.',
+    },
+    {
+      ing: 'The flower is too delicate to touch.',
+      tr: 'Çiçek dokunmak için çok narin.',
+    },
+    {
+      ing: 'She is strong enough to open the bottle.',
+      tr: 'Şişeyi açmak için yeterince güçlü.',
+    },
+    {
+      ing: 'The floor is too cold to walk on barefoot.',
+      tr: 'Zemin çıplak ayakla yürümek için çok soğuk.',
+    },
+    {
+      ing: 'He is wise enough to solve the problem.',
+      tr: 'Problemi çözmek için yeterince bilge.',
+    },
+  ],
+};
+
+export const HaveHasTranslationSentences = {
+  HaveHas: [
+    {ing: 'I have a dog.', tr: 'Bir köpeğim var.'},
+    {ing: 'She has a beautiful smile.', tr: 'Güzel bir gülümsemesi var.'},
+    {ing: 'They have a big house.', tr: 'Büyük bir evleri var.'},
+    {ing: 'He has two brothers.', tr: 'İki erkek kardeşi var.'},
+    {ing: 'We have a lot of homework.', tr: 'Çok ödevimiz var.'},
+    {ing: 'You have a nice car.', tr: 'Güzel bir araban var.'},
+    {ing: 'My mom has a new recipe.', tr: 'Annemin yeni bir tarifi var.'},
+    {ing: 'He has a good job.', tr: 'İyi bir işi var.'},
+    {ing: 'I have three apples.', tr: 'Üç elmam var.'},
+    {ing: 'She has a red dress.', tr: 'Kırmızı bir elbisesi var.'},
+    {ing: 'We have dinner at 7 PM.', tr: "Saat 7'de akşam yemeğimiz var."},
+    {ing: 'They have many friends.', tr: 'Birçok arkadaşları var.'},
+    {ing: 'He has a fast bike.', tr: 'Hızlı bir bisikleti var.'},
+    {ing: 'I have a cold.', tr: 'Soğuk algınlığım var.'},
+    {ing: 'She has a small garden.', tr: 'Küçük bir bahçesi var.'},
+    {ing: 'We have a test tomorrow.', tr: 'Yarın bir testimiz var.'},
+    {ing: 'You have a good idea.', tr: 'İyi bir fikrin var.'},
+    {ing: 'He has an old camera.', tr: 'Eski bir kamerası var.'},
+    {ing: 'They have a new baby.', tr: 'Yeni bir bebekleri var.'},
+    {ing: 'I have a question.', tr: 'Bir sorum var.'},
+    {ing: 'She has a meeting at 10 AM.', tr: "Saat 10'da bir toplantısı var."},
+    {ing: 'We have a cat named Fluffy.', tr: 'Fluffy adında bir kedimiz var.'},
+    {ing: 'He has a favorite book.', tr: 'Favori bir kitabı var.'},
+    {
+      ing: 'I have two tickets for the movie.',
+      tr: 'Film için iki biletim var.',
+    },
+    {ing: 'She has a talent for singing.', tr: 'Şarkı söyleme yeteneği var.'},
+    {ing: 'We have breakfast at 8 AM.', tr: "Saat 8'de kahvaltımız var."},
+    {ing: 'You have a nice voice.', tr: 'Güzel bir sesin var.'},
+    {ing: 'They have a red car.', tr: 'Kırmızı bir arabaları var.'},
+    {ing: 'He has a good memory.', tr: 'İyi bir hafızası var.'},
+    {ing: 'I have a friend in France.', tr: "Fransa'da bir arkadaşım var."},
+    {ing: 'She has a lot of energy.', tr: 'Çok enerjisi var.'},
+    {ing: 'We have a map of the city.', tr: 'Şehrin bir haritası var.'},
+    {ing: 'He has a big family.', tr: 'Büyük bir ailesi var.'},
+    {
+      ing: 'They have a house by the sea.',
+      tr: 'Denizin kenarında bir evleri var.',
+    },
+    {ing: 'I have a picture of my dog.', tr: 'Köpeğimin bir resmi var.'},
+    {
+      ing: 'She has a brother and a sister.',
+      tr: 'Bir erkek kardeşi ve bir kız kardeşi var.',
+    },
+    {ing: 'We have a good plan.', tr: 'İyi bir planımız var.'},
+    {ing: 'You have a nice apartment.', tr: 'Güzel bir dairen var.'},
+    {ing: 'He has a lot of patience.', tr: 'Çok sabrı var.'},
+    {ing: 'I have a new idea.', tr: 'Yeni bir fikrim var.'},
+    {
+      ing: 'They have a holiday every summer.',
+      tr: 'Her yaz bir tatilleri var.',
+    },
+    {ing: 'She has a blue bike.', tr: 'Mavi bir bisikleti var.'},
+    {ing: 'We have a lot of fun together.', tr: 'Birlikte çok eğleniriz.'},
+    {ing: 'He has a small car.', tr: 'Küçük bir arabası var.'},
+    {ing: 'I have a pen and paper.', tr: 'Bir kalem ve kâğıdım var.'},
+    {ing: 'She has a pet rabbit.', tr: 'Evcil bir tavşanı var.'},
+    {
+      ing: 'We have a meeting every Monday.',
+      tr: 'Her Pazartesi bir toplantımız var.',
+    },
+    {
+      ing: 'They have a garden full of flowers.',
+      tr: 'Çiçeklerle dolu bir bahçeleri var.',
+    },
+    {ing: 'He has a pair of shoes.', tr: 'Bir çift ayakkabısı var.'},
+    {ing: 'I have a red bag.', tr: 'Kırmızı bir çantam var.'},
+    {ing: 'I don’t have any money.', tr: 'Hiç param yok.'},
+    {ing: 'She doesn’t have a car.', tr: 'Arabası yok.'},
+    {ing: 'They don’t have time to play.', tr: 'Oynamak için zamanları yok.'},
+    {ing: 'He doesn’t have any brothers.', tr: 'Hiç erkek kardeşi yok.'},
+    {ing: 'We don’t have a dog.', tr: 'Bir köpeğimiz yok.'},
+    {ing: 'You don’t have a ticket.', tr: 'Biletin yok.'},
+    {
+      ing: 'My dad doesn’t have a smartphone.',
+      tr: 'Babamın akıllı telefonu yok.',
+    },
+    {ing: 'He doesn’t have a watch.', tr: 'Saati yok.'},
+    {ing: 'I don’t have a lot of homework.', tr: 'Çok ödevim yok.'},
+    {ing: 'She doesn’t have a new dress.', tr: 'Yeni bir elbisesi yok.'},
+    {ing: 'We don’t have a TV in the room.', tr: 'Odada televizyonumuz yok.'},
+    {ing: 'They don’t have a garden.', tr: 'Bahçeleri yok.'},
+    {
+      ing: 'He doesn’t have any friends in town.',
+      tr: 'Şehirde hiç arkadaşı yok.',
+    },
+    {ing: 'I don’t have a cold.', tr: 'Soğuk algınlığım yok.'},
+    {ing: 'She doesn’t have a cat.', tr: 'Kedisi yok.'},
+    {ing: 'We don’t have a car at the moment.', tr: 'Şu anda arabamız yok.'},
+    {ing: 'You don’t have the right answer.', tr: 'Doğru cevabın yok.'},
+    {ing: 'He doesn’t have a bike.', tr: 'Bisikleti yok.'},
+    {
+      ing: 'They don’t have a holiday this year.',
+      tr: 'Bu yıl bir tatilleri yok.',
+    },
+    {ing: 'I don’t have any apples left.', tr: 'Hiç elma kalmadı.'},
+    {ing: 'She doesn’t have a meeting today.', tr: 'Bugün toplantısı yok.'},
+    {
+      ing: 'We don’t have a house near the beach.',
+      tr: 'Plajın yakınında bir evimiz yok.',
+    },
+    {ing: 'He doesn’t have a passport.', tr: 'Pasaportu yok.'},
+    {ing: 'I don’t have a question to ask.', tr: 'Soracak bir sorum yok.'},
+    {ing: 'She doesn’t have a favorite book.', tr: 'Favori bir kitabı yok.'},
+    {
+      ing: 'We don’t have a lamp in the living room.',
+      tr: 'Oturma odasında lambamız yok.',
+    },
+    {ing: 'You don’t have enough water.', tr: 'Yeterince suyun yok.'},
+    {
+      ing: 'They don’t have a plan for the weekend.',
+      tr: 'Hafta sonu için bir planları yok.',
+    },
+    {
+      ing: 'He doesn’t have any family in the city.',
+      tr: 'Şehirde hiç ailesi yok.',
+    },
+    {ing: 'I don’t have a ticket to the concert.', tr: 'Konsere biletim yok.'},
+    {ing: 'She doesn’t have any hobbies.', tr: 'Hiç hobisi yok.'},
+    {ing: 'We don’t have a lot of space.', tr: 'Çok yerimiz yok.'},
+    {
+      ing: 'He doesn’t have a jacket for the cold.',
+      tr: 'Soğuk için bir ceketi yok.',
+    },
+    {ing: 'They don’t have any dogs.', tr: 'Hiç köpekleri yok.'},
+    {ing: 'I don’t have a pen.', tr: 'Kalemim yok.'},
+    {ing: 'She doesn’t have much experience.', tr: 'Fazla deneyimi yok.'},
+    {ing: 'We don’t have a good connection.', tr: 'İyi bir bağlantımız yok.'},
+    {ing: 'He doesn’t have an umbrella.', tr: 'Şemsiyesi yok.'},
+    {ing: 'You don’t have a choice.', tr: 'Bir seçeneğin yok.'},
+    {ing: 'I don’t have any pictures.', tr: 'Hiç resmim yok.'},
+    {ing: 'Do you have a pet?', tr: 'Evcil hayvanın var mı?'},
+    {ing: 'Does she have a car?', tr: 'Arabası var mı?'},
+    {ing: 'Do they have enough food?', tr: 'Yeterince yiyecekleri var mı?'},
+    {ing: 'Does he have a good job?', tr: 'İyi bir işi var mı?'},
+    {ing: 'Do we have a meeting today?', tr: 'Bugün toplantımız var mı?'},
+    {ing: 'Do you have a pencil?', tr: 'Kalemin var mı?'},
+    {ing: 'Does my friend have a dog?', tr: 'Arkadaşımın köpeği var mı?'},
+    {ing: 'Does he have a favorite movie?', tr: 'Favori bir filmi var mı?'},
+    {ing: 'Do I have a chance?', tr: 'Bir şansım var mı?'},
+    {ing: 'Does she have any friends here?', tr: 'Burada hiç arkadaşı var mı?'},
+    {
+      ing: 'Do they have a house near the park?',
+      tr: 'Parkın yakınında bir evleri var mı?',
+    },
+    {
+      ing: 'Does he have a good book to read?',
+      tr: 'Okuyacak iyi bir kitabı var mı?',
+    },
+    {ing: 'Do you have any questions?', tr: 'Hiç sorunuz var mı?'},
+    {ing: 'Does she have a bike?', tr: 'Bisikleti var mı?'},
+    {ing: 'Do we have to leave now?', tr: 'Şimdi gitmek zorunda mıyız?'},
+    {ing: 'Does he have any plans?', tr: 'Hiç planı var mı?'},
+    {ing: 'Do they have any money?', tr: 'Hiç paraları var mı?'},
+    {ing: 'Does she have a lot of homework?', tr: 'Çok ödevi var mı?'},
+    {ing: 'Do you have a cold?', tr: 'Soğuk algınlığın var mı?'},
+    {ing: 'Does he have time to talk?', tr: 'Konuşacak zamanı var mı?'},
+    {ing: 'Do they have a car?', tr: 'Arabaları var mı?'},
+    {ing: 'Does she have a jacket?', tr: 'Ceketi var mı?'},
+    {ing: 'Do we have enough chairs?', tr: 'Yeterince sandalye var mı?'},
+    {
+      ing: 'Does he have a meeting at 5 PM?',
+      tr: "Saat 5'te toplantısı var mı?",
+    },
+    {ing: 'Do you have a computer?', tr: 'Bilgisayarın var mı?'},
+    {ing: 'Does my brother have a job?', tr: 'Erkek kardeşimin işi var mı?'},
+    {ing: 'Does she have a house in the city?', tr: 'Şehirde bir evi var mı?'},
+    {ing: 'Do they have children?', tr: 'Çocukları var mı?'},
+    {ing: 'Does he have a cat?', tr: 'Kedisi var mı?'},
+    {ing: 'Do you have an idea?', tr: 'Bir fikrin var mı?'},
+    {
+      ing: 'I have breakfast at 7 AM every day.',
+      tr: "Her gün saat 7'de kahvaltı yaparım.",
+    },
+    {
+      ing: 'She has dinner with her family every night.',
+      tr: 'Her gece ailesiyle akşam yemeği yer.',
+    },
+    {
+      ing: 'They have a good time at the party.',
+      tr: 'Partide iyi vakit geçirirler.',
+    },
+    {ing: 'He has lunch at his desk.', tr: 'Masasında öğle yemeği yer.'},
+    {ing: 'We have a picnic every Sunday.', tr: 'Her Pazar piknik yaparız.'},
+    {ing: 'You have a beautiful garden.', tr: 'Güzel bir bahçen var.'},
+    {ing: 'My cat has a fluffy tail.', tr: 'Kedimin kabarık bir kuyruğu var.'},
+    {
+      ing: 'He has a cup of tea every morning.',
+      tr: 'Her sabah bir fincan çay içer.',
+    },
+    {ing: 'I have a lot of respect for her.', tr: 'Ona çok saygım var.'},
+    {ing: 'She has a secret to tell.', tr: 'Anlatacak bir sırrı var.'},
+    {
+      ing: 'We have plans for the weekend.',
+      tr: 'Hafta sonu için planlarımız var.',
+    },
+    {ing: 'They have a strong friendship.', tr: 'Güçlü bir dostlukları var.'},
+    {
+      ing: 'He has two tickets for the show.',
+      tr: 'Gösteri için iki bileti var.',
+    },
+    {
+      ing: 'I have an appointment with the doctor.',
+      tr: 'Doktorla bir randevum var.',
+    },
+    {ing: 'She has a soft voice.', tr: 'Yumuşak bir sesi var.'},
+    {
+      ing: 'We have dinner at a restaurant.',
+      tr: 'Bir restoranda akşam yemeği yeriz.',
+    },
+    {ing: 'They have a great team.', tr: 'Harika bir takımları var.'},
+    {
+      ing: 'He has the best grades in class.',
+      tr: 'Sınıftaki en iyi notlara sahip.',
+    },
+    {ing: 'I have some free time.', tr: 'Biraz boş zamanım var.'},
+    {ing: 'She has a gift for drawing.', tr: 'Resim yapma yeteneği var.'},
+    {
+      ing: 'I don’t have breakfast in the morning.',
+      tr: 'Sabah kahvaltı yapmam.',
+    },
+    {ing: 'She doesn’t have time for games.', tr: 'Oyunlar için zamanı yok.'},
+    {
+      ing: 'They don’t have enough chairs for everyone.',
+      tr: 'Herkes için yeterli sandalye yok.',
+    },
+    {ing: 'He doesn’t have any snacks.', tr: 'Hiç atıştırmalığı yok.'},
+    {ing: 'We don’t have the key to the door.', tr: 'Kapının anahtarı yok.'},
+    {ing: 'You don’t have the answer yet.', tr: 'Henüz cevabın yok.'},
+    {ing: 'My cat doesn’t have any toys.', tr: 'Kedimin hiç oyuncağı yok.'},
+    {ing: 'He doesn’t have a lot of patience.', tr: 'Çok sabrı yok.'},
+    {
+      ing: 'I don’t have a problem with this.',
+      tr: 'Bununla ilgili bir sorunum yok.',
+    },
+    {ing: 'She doesn’t have a pet dog.', tr: 'Evcil bir köpeği yok.'},
+    {ing: 'Do you have a new phone?', tr: 'Yeni bir telefonun var mı?'},
+    {ing: 'Does she have a best friend?', tr: 'En iyi arkadaşı var mı?'},
+    {
+      ing: 'Do they have a garden in their house?',
+      tr: 'Evlerinde bir bahçe var mı?',
+    },
+    {ing: 'Does he have a favorite song?', tr: 'Favori bir şarkısı var mı?'},
+    {ing: 'Do we have an extra chair?', tr: 'Fazladan bir sandalye var mı?'},
+    {ing: 'Does he have a book to read?', tr: 'Okuyacak bir kitabı var mı?'},
+    {ing: 'Do you have a hobby?', tr: 'Bir hobin var mı?'},
+    {ing: 'Does she have a pencil?', tr: 'Bir kalemi var mı?'},
+    {ing: 'Do they have a football team?', tr: 'Bir futbol takımları var mı?'},
+    {ing: 'Does he have a pen?', tr: 'Bir kalemi var mı?'},
+    {
+      ing: 'I have a lot of love for my family.',
+      tr: 'Ailem için çok sevgim var.',
+    },
+    {ing: 'She has a strong will.', tr: 'Güçlü bir iradesi var.'},
+    {ing: 'They don’t have much patience.', tr: 'Çok sabırları yok.'},
+    {ing: 'He has an idea for the project.', tr: 'Proje için bir fikri var.'},
+    {
+      ing: 'We have a meeting tomorrow morning.',
+      tr: 'Yarın sabah bir toplantımız var.',
+    },
+    {ing: 'You don’t have much time left.', tr: 'Çok fazla zamanın yok.'},
+    {
+      ing: 'Does she have the courage to do it?',
+      tr: 'Bunu yapacak cesareti var mı?',
+    },
+    {
+      ing: 'Do they have an answer for that?',
+      tr: 'Bunun için bir cevapları var mı?',
+    },
+    {
+      ing: 'He doesn’t have the strength to continue.',
+      tr: 'Devam edecek gücü yok.',
+    },
+    {
+      ing: 'I have a plan for the weekend.',
+      tr: 'Hafta sonu için bir planım var.',
+    },
+    {ing: 'She has a lot of determination.', tr: 'Çok kararlılığı var.'},
+    {ing: 'We have some good news.', tr: 'Bazı iyi haberlerimiz var.'},
+    {ing: 'He doesn’t have a plan.', tr: 'Bir planı yok.'},
+    {ing: 'Do you have a suggestion?', tr: 'Bir önerin var mı?'},
+    {ing: 'Does she have a lot of friends?', tr: 'Birçok arkadaşı var mı?'},
+    {ing: 'They don’t have a good solution.', tr: 'İyi bir çözümleri yok.'},
+    {ing: 'I have confidence in you.', tr: 'Sana güvenim var.'},
+    {ing: 'She has hope for the future.', tr: 'Gelecek için umudu var.'},
+    {ing: 'He doesn’t have the skills.', tr: 'Yeteneği yok.'},
+    {ing: 'Do they have any questions?', tr: 'Hiç soruları var mı?'},
+    {ing: 'I have a lot of dreams.', tr: 'Birçok hayalim var.'},
+    {ing: 'She has trust in her friends.', tr: 'Arkadaşlarına güveni var.'},
+    {ing: 'We don’t have a choice.', tr: 'Bir seçeneğimiz yok.'},
+    {
+      ing: 'Does he have a ticket for the event?',
+      tr: 'Etkinlik için bir bileti var mı?',
+    },
+    {ing: 'Do you have a favorite color?', tr: 'Favori bir rengin var mı?'},
+    {ing: 'He doesn’t have a license.', tr: 'Ehliyeti yok.'},
+    {
+      ing: 'She has many ideas for the party.',
+      tr: 'Parti için birçok fikri var.',
+    },
+    {ing: 'I have a busy schedule.', tr: 'Yoğun bir programım var.'},
+    {ing: 'They have a lot of energy.', tr: 'Çok enerjileri var.'},
+    {ing: 'Do we have any milk?', tr: 'Süt var mı?'},
+    {ing: 'He has a meeting today.', tr: 'Bugün bir toplantısı var.'},
+    {ing: 'She doesn’t have the book.', tr: 'Kitabı yok.'},
+    {ing: 'They have a wonderful garden.', tr: 'Harika bir bahçeleri var.'},
+    {ing: 'Do you have a phone charger?', tr: 'Telefon şarj cihazın var mı?'},
+    {ing: 'Does he have a lot of homework?', tr: 'Çok ödevi var mı?'},
+    {ing: 'She has two sisters.', tr: 'İki kız kardeşi var.'},
+    {ing: 'I have a great opportunity.', tr: 'Harika bir fırsatım var.'},
+    {ing: 'He doesn’t have the key.', tr: 'Anahtarı yok.'},
+    {ing: 'We have lunch together.', tr: 'Birlikte öğle yemeği yeriz.'},
+    {ing: 'Does she have a bicycle?', tr: 'Bisikleti var mı?'},
+    {
+      ing: 'I have lunch at 12 PM every day.',
+      tr: "Her gün saat 12'de öğle yemeği yerim.",
+    },
+    {
+      ing: 'She has a drink with her friends after work.',
+      tr: 'İşten sonra arkadaşlarıyla bir içecek alır.',
+    },
+    {
+      ing: 'They have breakfast at 7 AM every morning.',
+      tr: "Her sabah saat 7'de kahvaltı yaparlar.",
+    },
+    {
+      ing: 'He has a shower before going to bed.',
+      tr: 'Yatmadan önce duş alır.',
+    },
+    {
+      ing: 'We have dinner together on Sundays.',
+      tr: 'Pazar günleri birlikte akşam yemeği yeriz.',
+    },
+    {
+      ing: 'You have a coffee break at 10 AM.',
+      tr: "Saat 10'da bir kahve molası yaparsın.",
+    },
+    {
+      ing: 'My brother has a quick snack after school.',
+      tr: 'Erkek kardeşim okuldan sonra hızlı bir atıştırmalık yer.',
+    },
+    {
+      ing: 'She has a burger for lunch.',
+      tr: 'Öğle yemeğinde bir hamburger yer.',
+    },
+    {
+      ing: 'He has a cold drink on a hot day.',
+      tr: 'Sıcak bir günde soğuk bir içecek içer.',
+    },
+    {
+      ing: 'I have a salad for dinner.',
+      tr: 'Akşam yemeğinde bir salata yerim.',
+    },
+    {ing: 'They have a picnic in the park.', tr: 'Parkta piknik yaparlar.'},
+    {
+      ing: 'We have tea with biscuits in the afternoon.',
+      tr: 'Öğleden sonra çayla bisküvi yeriz.',
+    },
+    {
+      ing: 'He has a swim at the pool every weekend.',
+      tr: 'Her hafta sonu havuzda yüzer.',
+    },
+    {
+      ing: 'She has a chat with her mom every evening.',
+      tr: 'Her akşam annesiyle sohbet eder.',
+    },
+    {ing: 'I have a nap after lunch.', tr: 'Öğle yemeğinden sonra kestiririm.'},
+    {
+      ing: 'You have a sandwich for breakfast.',
+      tr: 'Kahvaltıda bir sandviç yersin.',
+    },
+    {
+      ing: 'They have a laugh at the funny story.',
+      tr: 'Komik hikayeye gülerler.',
+    },
+    {
+      ing: 'We have a workout at the gym.',
+      tr: 'Spor salonunda egzersiz yaparız.',
+    },
+    {
+      ing: 'She has a glass of milk before bed.',
+      tr: 'Yatmadan önce bir bardak süt içer.',
+    },
+    {
+      ing: 'He has a warm bath on cold nights.',
+      tr: 'Soğuk gecelerde sıcak bir banyo yapar.',
+    },
+    {
+      ing: 'I have a bowl of cereal in the morning.',
+      tr: 'Sabah bir kase mısır gevreği yerim.',
+    },
+    {
+      ing: 'They have a big meal at family gatherings.',
+      tr: 'Aile toplantılarında büyük bir yemek yerler.',
+    },
+    {
+      ing: 'We have a quick shower after running.',
+      tr: 'Koştuktan sonra hızlı bir duş alırız.',
+    },
+    {
+      ing: 'He has a haircut once a month.',
+      tr: 'Ayda bir kez saçını kestirir.',
+    },
+    {
+      ing: 'She has a cup of tea with lemon.',
+      tr: 'Limonlu bir bardak çay içer.',
+    },
+    {ing: 'I have a pizza on Friday nights.', tr: 'Cuma geceleri pizza yerim.'},
+    {
+      ing: 'You have a game with your friends.',
+      tr: 'Arkadaşlarınla bir oyun oynarsın.',
+    },
+    {ing: 'They have a dance at the party.', tr: 'Partide dans ederler.'},
+    {ing: 'We have a walk in the evening.', tr: 'Akşam yürüyüşe çıkarız.'},
+    {
+      ing: 'He has a meeting with his team.',
+      tr: 'Takımıyla bir toplantı yapar.',
+    },
+    {
+      ing: 'She has a smoothie for breakfast.',
+      tr: 'Kahvaltıda bir smoothie içer.',
+    },
+    {ing: 'I have a toast with butter.', tr: 'Tereyağlı bir tost yerim.'},
+    {
+      ing: 'They have a chat over coffee.',
+      tr: 'Kahve eşliğinde sohbet ederler.',
+    },
+    {
+      ing: 'We have a light dinner in the summer.',
+      tr: 'Yazın hafif bir akşam yemeği yeriz.',
+    },
+    {ing: 'He has a shave in the morning.', tr: 'Sabah tıraş olur.'},
+    {
+      ing: 'She has a playdate with her cousin.',
+      tr: 'Kuzeniyle bir oyun günü yapar.',
+    },
+    {
+      ing: 'I have a sandwich for lunch.',
+      tr: 'Öğle yemeğinde bir sandviç yerim.',
+    },
+    {
+      ing: 'You have a burger at the fast-food place.',
+      tr: 'Fast food yerinde bir hamburger yersin.',
+    },
+    {ing: 'They have a swim at the beach.', tr: 'Plajda yüzerler.'},
+    {
+      ing: 'We have a barbecue in the backyard.',
+      tr: 'Arka bahçede barbekü yaparız.',
+    },
+    {
+      ing: 'He has a cold shower after exercise.',
+      tr: 'Egzersizden sonra soğuk bir duş alır.',
+    },
+    {
+      ing: 'She has a croissant for breakfast.',
+      tr: 'Kahvaltıda bir kruvasan yer.',
+    },
+    {
+      ing: 'I have a drink with my friends on weekends.',
+      tr: 'Hafta sonları arkadaşlarımla bir içecek içerim.',
+    },
+    {
+      ing: 'You have a quick breakfast on busy days.',
+      tr: 'Yoğun günlerde hızlı bir kahvaltı yaparsın.',
+    },
+    {
+      ing: "They have a party every New Year's Eve.",
+      tr: 'Her yılbaşı gecesi bir parti yaparlar.',
+    },
+    {ing: 'We have a picnic with our family.', tr: 'Ailemizle piknik yaparız.'},
+    {
+      ing: 'He has a run in the park every morning.',
+      tr: 'Her sabah parkta koşar.',
+    },
+    {
+      ing: 'She has a long walk by the river.',
+      tr: 'Nehir kenarında uzun bir yürüyüş yapar.',
+    },
+    {
+      ing: 'I have a meeting with my boss tomorrow.',
+      tr: 'Yarın patronumla bir toplantım var.',
+    },
+    {
+      ing: 'You have a bowl of soup for lunch.',
+      tr: 'Öğle yemeğinde bir kase çorba yersin.',
+    },
+    {
+      ing: 'They have a movie night on Saturdays.',
+      tr: 'Cumartesi günleri film gecesi yaparlar.',
+    },
+    {
+      ing: 'We have a dance class once a week.',
+      tr: 'Haftada bir dans dersimiz var.',
+    },
+    {ing: 'He has a nap in the afternoon.', tr: 'Öğleden sonra kestirir.'},
+    {
+      ing: 'She has a hot chocolate in the evening.',
+      tr: 'Akşamları sıcak çikolata içer.',
+    },
+    {
+      ing: 'I have a piece of cake with tea.',
+      tr: 'Çayla birlikte bir dilim pasta yerim.',
+    },
+    {
+      ing: 'You have a quick chat with your neighbor.',
+      tr: 'Komşunla hızlı bir sohbet edersin.',
+    },
+    {
+      ing: 'They have a brunch on Sunday mornings.',
+      tr: 'Pazar sabahları geç kahvaltı yaparlar.',
+    },
+    {
+      ing: 'We have a glass of juice at breakfast.',
+      tr: 'Kahvaltıda bir bardak meyve suyu içeriz.',
+    },
+    {ing: 'He has a good laugh at the jokes.', tr: 'Şakalara iyi güler.'},
+    {ing: 'She has a salad with dinner.', tr: 'Akşam yemeğinde salata yer.'},
+    {ing: 'I have a shower before work.', tr: 'İşten önce duş alırım.'},
+    {
+      ing: 'You have a snack in the late afternoon.',
+      tr: 'Geç öğleden sonra bir atıştırmalık yersin.',
+    },
+    {
+      ing: 'They have a hot drink on cold days.',
+      tr: 'Soğuk günlerde sıcak bir içecek içerler.',
+    },
+    {
+      ing: 'We have a yoga session on Tuesdays.',
+      tr: 'Salı günleri yoga seansımız var.',
+    },
+    {ing: 'He has a pizza for dinner.', tr: 'Akşam yemeğinde pizza yer.'},
+    {
+      ing: 'She has a muffin with her coffee.',
+      tr: 'Kahvesiyle bir muffin yer.',
+    },
+    {ing: 'I have a workout in the morning.', tr: 'Sabah egzersiz yaparım.'},
+    {
+      ing: 'You have a milkshake on hot afternoons.',
+      tr: 'Sıcak öğleden sonraları bir milkshake içersin.',
+    },
+    {
+      ing: 'They have a breakfast meeting at 9 AM.',
+      tr: "Saat 9'da kahvaltı toplantısı yaparlar.",
+    },
+    {
+      ing: 'We have a beer with our friends.',
+      tr: 'Arkadaşlarımızla bira içeriz.',
+    },
+    {ing: 'He has a lemonade in the summer.', tr: 'Yazın limonata içer.'},
+    {
+      ing: 'She has a plate of pasta for lunch.',
+      tr: 'Öğle yemeğinde bir tabak makarna yer.',
+    },
+    {
+      ing: 'I have a glass of water before bed.',
+      tr: 'Yatmadan önce bir bardak su içerim.',
+    },
+    {
+      ing: 'You have a burger with fries.',
+      tr: 'Patates kızartmasıyla birlikte bir hamburger yersin.',
+    },
+    {
+      ing: 'They have a potluck dinner at work.',
+      tr: 'İşte herkesin bir şey getirdiği akşam yemeği yaparlar.',
+    },
+    {
+      ing: 'We have a toast with jam for breakfast.',
+      tr: 'Kahvaltıda reçelli bir tost yeriz.',
+    },
+    {
+      ing: 'He has a sandwich on the go.',
+      tr: 'Yolda giderken bir sandviç yer.',
+    },
+    {ing: 'She has a swim at the lake.', tr: 'Gölde yüzer.'},
+    {
+      ing: 'I have a cup of herbal tea in the evening.',
+      tr: 'Akşamları bir fincan bitki çayı içerim.',
+    },
+    {
+      ing: 'You have a light snack before bed.',
+      tr: 'Yatmadan önce hafif bir atıştırmalık yersin.',
+    },
+    {
+      ing: 'They have a dessert after dinner.',
+      tr: 'Akşam yemeğinden sonra tatlı yerler.',
+    },
+    {
+      ing: 'We have a chat at the coffee shop.',
+      tr: 'Kahve dükkânında sohbet ederiz.',
+    },
+    {
+      ing: 'He has a meeting with the manager.',
+      tr: 'Müdürle bir toplantısı var.',
+    },
+    {
+      ing: 'She has a waffle with maple syrup.',
+      tr: 'Akçaağaç şurubu ile bir waffle yer.',
+    },
+    {
+      ing: 'I have a shower after a long day.',
+      tr: 'Uzun bir günün ardından duş alırım.',
+    },
+    {ing: 'You have a drink at the bar.', tr: 'Barda bir içecek içersin.'},
+    {
+      ing: 'They have a quick nap during the day.',
+      tr: 'Gün içinde kısa bir uyku çekerler.',
+    },
+    {
+      ing: 'We have a dinner party this weekend.',
+      tr: 'Bu hafta sonu bir akşam yemeği partisi yaparız.',
+    },
+    {
+      ing: 'He has a bowl of rice for lunch.',
+      tr: 'Öğle yemeğinde bir kase pilav yer.',
+    },
+    {
+      ing: 'She has a fruit salad for breakfast.',
+      tr: 'Kahvaltıda meyve salatası yer.',
+    },
+    {
+      ing: 'I have a long walk in the park.',
+      tr: 'Parkta uzun bir yürüyüş yaparım.',
+    },
+    {
+      ing: 'You have a cookie with milk.',
+      tr: 'Sütle birlikte bir kurabiye yersin.',
+    },
+    {
+      ing: 'They have a toast to celebrate.',
+      tr: 'Kutlamak için kadeh kaldırırlar.',
+    },
+    {
+      ing: 'We have a glass of wine with dinner.',
+      tr: 'Akşam yemeğiyle birlikte bir bardak şarap içeriz.',
+    },
+    {
+      ing: 'He has a pasta dish on Wednesdays.',
+      tr: 'Çarşamba günleri makarna yer.',
+    },
+    {
+      ing: 'She has a cup of espresso in the morning.',
+      tr: 'Sabahları bir fincan espresso içer.',
+    },
+    {
+      ing: 'I have a bowl of oatmeal for breakfast.',
+      tr: 'Kahvaltıda bir kase yulaf ezmesi yerim.',
+    },
+    {
+      ing: 'You have a cold soda in the afternoon.',
+      tr: 'Öğleden sonra soğuk bir soda içersin.',
+    },
+    {
+      ing: 'They have a pizza party with friends.',
+      tr: 'Arkadaşlarıyla pizza partisi yaparlar.',
+    },
+    {
+      ing: 'We have a smoothie after the workout.',
+      tr: 'Egzersizden sonra bir smoothie içeriz.',
+    },
+  ],
+};
+
+export const LetsShallTranslationSentences = {
+  Lets: [
+    {ing: "Let's go to the park today.", tr: 'Haydi bugün parka gidelim.'},
+    {
+      ing: "Let's eat dinner at the restaurant.",
+      tr: 'Haydi restoranda akşam yemeği yiyelim.',
+    },
+    {ing: "Let's watch a movie tonight.", tr: 'Haydi bu gece film izleyelim.'},
+    {
+      ing: "Let's play football in the garden.",
+      tr: 'Haydi bahçede futbol oynayalım.',
+    },
+    {
+      ing: "Let's read this book together.",
+      tr: 'Haydi bu kitabı birlikte okuyalım.',
+    },
+    {
+      ing: "Let's cook pasta for lunch.",
+      tr: 'Haydi öğle yemeği için makarna yapalım.',
+    },
+    {
+      ing: "Let's have a picnic this weekend.",
+      tr: 'Haydi bu hafta sonu piknik yapalım.',
+    },
+    {
+      ing: "Let's clean the house tomorrow.",
+      tr: 'Haydi yarın evi temizleyelim.',
+    },
+    {
+      ing: "Let's go shopping for groceries.",
+      tr: 'Haydi market alışverişine gidelim.',
+    },
+    {
+      ing: "Let's paint the walls blue.",
+      tr: 'Haydi duvarları maviye boyayalım.',
+    },
+    {
+      ing: "Let's visit our grandparents.",
+      tr: 'Haydi büyükannemizi ve büyükbabamızı ziyaret edelim.',
+    },
+    {
+      ing: "Let's sing a song together.",
+      tr: 'Haydi birlikte bir şarkı söyleyelim.',
+    },
+    {
+      ing: "Let's go to the beach on Saturday.",
+      tr: 'Haydi Cumartesi günü sahile gidelim.',
+    },
+    {
+      ing: "Let's make a cake for the party.",
+      tr: 'Haydi parti için bir kek yapalım.',
+    },
+    {
+      ing: "Let's study English tonight.",
+      tr: 'Haydi bu gece İngilizce çalışalım.',
+    },
+    {ing: "Let's have some ice cream.", tr: 'Haydi biraz dondurma alalım.'},
+    {
+      ing: "Let's take a walk in the park.",
+      tr: 'Haydi parkta yürüyüş yapalım.',
+    },
+    {
+      ing: "Let's draw a picture of a tree.",
+      tr: 'Haydi bir ağaç resmi çizelim.',
+    },
+    {ing: "Let's play a board game.", tr: 'Haydi bir masa oyunu oynayalım.'},
+    {ing: "Let's do our homework now.", tr: 'Haydi şimdi ödevimizi yapalım.'},
+    {ing: "Let's visit the museum.", tr: 'Haydi müzeyi ziyaret edelim.'},
+    {ing: "Let's call our friends.", tr: 'Haydi arkadaşlarımızı arayalım.'},
+    {
+      ing: "Let's have lunch at that cafe.",
+      tr: 'Haydi o kafede öğle yemeği yiyelim.',
+    },
+    {ing: "Let's go on a bike ride.", tr: 'Haydi bisiklet turuna çıkalım.'},
+    {ing: "Let's bake some cookies.", tr: 'Haydi biraz kurabiye yapalım.'},
+    {
+      ing: "Let's write a letter to grandma.",
+      tr: 'Haydi büyükanneye bir mektup yazalım.',
+    },
+    {ing: "Let's watch the sunset.", tr: 'Haydi gün batımını izleyelim.'},
+    {ing: "Let's decorate the room.", tr: 'Haydi odayı süsleyelim.'},
+    {ing: "Let's listen to some music.", tr: 'Haydi biraz müzik dinleyelim.'},
+    {
+      ing: "Let's read a story before bed.",
+      tr: 'Haydi yatmadan önce bir hikaye okuyalım.',
+    },
+    {
+      ing: "Let's help mom in the kitchen.",
+      tr: 'Haydi mutfakta anneye yardım edelim.',
+    },
+    {ing: "Let's plan our trip.", tr: 'Haydi gezimizi planlayalım.'},
+    {ing: "Let's play hide and seek.", tr: 'Haydi saklambaç oynayalım.'},
+    {ing: "Let's paint a picture.", tr: 'Haydi bir resim yapalım.'},
+    {ing: "Let's go for a run.", tr: 'Haydi koşuya çıkalım.'},
+    {ing: "Let's do some exercises.", tr: 'Haydi biraz egzersiz yapalım.'},
+    {ing: "Let's plant some flowers.", tr: 'Haydi biraz çiçek dikelim.'},
+    {ing: "Let's dance to this song.", tr: 'Haydi bu şarkıya dans edelim.'},
+    {ing: "Let's write in our diaries.", tr: 'Haydi günlüklerimize yazalım.'},
+    {ing: "Let's organize the books.", tr: 'Haydi kitapları düzenleyelim.'},
+    {ing: "Let's go to the zoo.", tr: 'Haydi hayvanat bahçesine gidelim.'},
+    {ing: "Let's have a movie night.", tr: 'Haydi film gecesi yapalım.'},
+    {ing: "Let's play with the dog.", tr: 'Haydi köpekle oynayalım.'},
+    {
+      ing: "Let's set the table for dinner.",
+      tr: 'Haydi akşam yemeği için masayı hazırlayalım.',
+    },
+    {ing: "Let's play some music.", tr: 'Haydi biraz müzik çalalım.'},
+    {ing: "Let's go to the library.", tr: 'Haydi kütüphaneye gidelim.'},
+    {ing: "Let's make some lemonade.", tr: 'Haydi biraz limonata yapalım.'},
+    {ing: "Let's clean the garage.", tr: 'Haydi garajı temizleyelim.'},
+    {ing: "Let's build a sandcastle.", tr: 'Haydi bir kumdan kale yapalım.'},
+    {
+      ing: "Let's read our favorite book.",
+      tr: 'Haydi en sevdiğimiz kitabı okuyalım.',
+    },
+    {ing: "Let's play video games.", tr: 'Haydi video oyunları oynayalım.'},
+    {
+      ing: "Let's cook dinner together.",
+      tr: 'Haydi birlikte akşam yemeği yapalım.',
+    },
+    {ing: "Let's go fishing.", tr: 'Haydi balık tutmaya gidelim.'},
+    {ing: "Let's have a barbecue.", tr: 'Haydi mangal yapalım.'},
+    {ing: "Let's write a poem.", tr: 'Haydi bir şiir yazalım.'},
+    {ing: "Let's play catch.", tr: 'Haydi yakalama oyunu oynayalım.'},
+    {
+      ing: "Let's visit a new city.",
+      tr: 'Haydi yeni bir şehri ziyaret edelim.',
+    },
+    {ing: "Let's draw animals.", tr: 'Haydi hayvanlar çizelim.'},
+    {ing: "Let's take a photo.", tr: 'Haydi bir fotoğraf çekelim.'},
+    {ing: "Let's look at the stars.", tr: 'Haydi yıldızlara bakalım.'},
+    {ing: "Let's swim in the pool.", tr: 'Haydi havuzda yüzelim.'},
+    {ing: "Let's go camping.", tr: 'Haydi kampa gidelim.'},
+    {ing: "Let's make a puzzle.", tr: 'Haydi bir bulmaca yapalım.'},
+    {ing: "Let's listen to a podcast.", tr: 'Haydi bir podcast dinleyelim.'},
+    {ing: "Let's go to a concert.", tr: 'Haydi bir konsere gidelim.'},
+    {
+      ing: "Let's eat out tonight.",
+      tr: 'Haydi bu gece dışarıda yemek yiyelim.',
+    },
+    {ing: "Let's tell a story.", tr: 'Haydi bir hikaye anlatalım.'},
+    {ing: "Let's go ice skating.", tr: 'Haydi buz pateni yapmaya gidelim.'},
+    {ing: "Let's write a song.", tr: 'Haydi bir şarkı yazalım.'},
+    {ing: "Let's play in the snow.", tr: 'Haydi karda oynayalım.'},
+    {
+      ing: "Let's visit a bookstore.",
+      tr: 'Haydi bir kitabevini ziyaret edelim.',
+    },
+    {ing: "Let's bake a pie.", tr: 'Haydi bir turta yapalım.'},
+    {ing: "Let's make a snowman.", tr: 'Haydi bir kardan adam yapalım.'},
+    {ing: "Let's plan a surprise.", tr: 'Haydi bir sürpriz planlayalım.'},
+    {ing: "Let's have a game night.", tr: 'Haydi bir oyun gecesi yapalım.'},
+    {ing: "Let's try a new recipe.", tr: 'Haydi yeni bir tarif deneyelim.'},
+    {ing: "Let's draw a comic.", tr: 'Haydi bir çizgi roman yapalım.'},
+    {
+      ing: "Let's go to a theme park.",
+      tr: 'Haydi bir eğlence parkına gidelim.',
+    },
+    {ing: "Let's have fun today.", tr: 'Haydi bugün eğlenelim.'},
+    {ing: "Let's relax and read.", tr: 'Haydi dinlenip okuyalım.'},
+    {ing: "Let's play chess.", tr: 'Haydi satranç oynayalım.'},
+    {ing: "Let's cook breakfast.", tr: 'Haydi kahvaltı hazırlayalım.'},
+    {ing: "Let's go to the movies.", tr: 'Haydi sinemaya gidelim.'},
+    {ing: "Let's paint rocks.", tr: 'Haydi taşları boyayalım.'},
+    {ing: "Let's make paper airplanes.", tr: 'Haydi kağıt uçaklar yapalım.'},
+    {ing: "Let's go bird watching.", tr: 'Haydi kuş gözlemeye gidelim.'},
+    {
+      ing: "Let's sing our favorite song.",
+      tr: 'Haydi en sevdiğimiz şarkıyı söyleyelim.',
+    },
+    {ing: "Let's go for a walk.", tr: 'Haydi yürüyüşe çıkalım.'},
+    {ing: "Let's tell jokes.", tr: 'Haydi şakalar yapalım.'},
+    {ing: "Let's make art.", tr: 'Haydi sanat yapalım.'},
+    {ing: "Let's share a meal.", tr: 'Haydi bir yemek paylaşalım.'},
+    {ing: "Let's write a story.", tr: 'Haydi bir hikaye yazalım.'},
+    {ing: "Let's visit the farm.", tr: 'Haydi çiftliği ziyaret edelim.'},
+    {ing: "Let's watch cartoons.", tr: 'Haydi çizgi film izleyelim.'},
+    {ing: "Let's play the piano.", tr: 'Haydi piyano çalalım.'},
+    {ing: "Let's learn new words.", tr: 'Haydi yeni kelimeler öğrenelim.'},
+    {ing: "Let's have some fun.", tr: 'Haydi biraz eğlenelim.'},
+    {ing: "Let's dance together.", tr: 'Haydi birlikte dans edelim.'},
+    {
+      ing: "Let's make plans for tomorrow.",
+      tr: 'Haydi yarın için plan yapalım.',
+    },
+    {ing: "Let's enjoy the sunshine.", tr: 'Haydi güneşin tadını çıkaralım.'},
+  ],
+  Shall: [
+    {ing: 'Shall we go to the park now?', tr: 'Şimdi parka gidelim mi?'},
+    {
+      ing: 'Shall I make some tea for us?',
+      tr: 'Bizim için biraz çay yapayım mı?',
+    },
+    {
+      ing: 'Shall we watch a movie tonight?',
+      tr: 'Bu gece bir film izleyelim mi?',
+    },
+    {
+      ing: 'Shall I help you with your homework?',
+      tr: 'Sana ödevinde yardım edeyim mi?',
+    },
+    {ing: 'Shall we go for a walk?', tr: 'Yürüyüşe çıkalım mı?'},
+    {ing: 'Shall I close the window?', tr: 'Pencereyi kapatayım mı?'},
+    {ing: 'Shall we play a game?', tr: 'Bir oyun oynayalım mı?'},
+    {ing: 'Shall I bring you a chair?', tr: 'Sana bir sandalye getireyim mi?'},
+    {
+      ing: 'Shall we eat dinner together?',
+      tr: 'Akşam yemeğini birlikte yiyelim mi?',
+    },
+    {ing: 'Shall I call our friends?', tr: 'Arkadaşlarımızı arayayım mı?'},
+    {ing: 'Shall we go to the zoo?', tr: 'Hayvanat bahçesine gidelim mi?'},
+    {ing: 'Shall I open the door?', tr: 'Kapıyı açayım mı?'},
+    {
+      ing: 'Shall we visit our grandparents?',
+      tr: 'Büyükannemizi ve büyükbabamızı ziyaret edelim mi?',
+    },
+    {ing: 'Shall I read a story to you?', tr: 'Sana bir hikaye okuyayım mı?'},
+    {ing: 'Shall we sing a song?', tr: 'Bir şarkı söyleyelim mi?'},
+    {ing: 'Shall I bake a cake for you?', tr: 'Senin için bir kek yapayım mı?'},
+    {ing: 'Shall we take a break?', tr: 'Mola verelim mi?'},
+    {ing: 'Shall I turn on the light?', tr: 'Işığı açayım mı?'},
+    {ing: 'Shall we play outside?', tr: 'Dışarıda oynayalım mı?'},
+    {ing: 'Shall I bring some snacks?', tr: 'Biraz atıştırmalık getireyim mi?'},
+    {ing: 'Shall we have lunch now?', tr: 'Şimdi öğle yemeği yiyelim mi?'},
+    {ing: 'Shall I buy some flowers?', tr: 'Biraz çiçek alayım mı?'},
+    {ing: 'Shall we go to the movies?', tr: 'Sinemaya gidelim mi?'},
+    {ing: 'Shall I make some sandwiches?', tr: 'Biraz sandviç yapayım mı?'},
+    {ing: 'Shall we do our homework?', tr: 'Ödevimizi yapalım mı?'},
+    {ing: 'Shall I tell you a joke?', tr: 'Sana bir şaka yapayım mı?'},
+    {ing: 'Shall we dance together?', tr: 'Birlikte dans edelim mi?'},
+    {ing: 'Shall I drive you home?', tr: 'Seni eve bırakayım mı?'},
+    {ing: 'Shall we play chess?', tr: 'Satranç oynayalım mı?'},
+    {ing: 'Shall I paint the room?', tr: 'Odayı boyayayım mı?'},
+    {ing: 'Shall we plan a trip?', tr: 'Bir gezi planlayalım mı?'},
+    {ing: 'Shall I set the table?', tr: 'Masayı kurayım mı?'},
+    {ing: 'Shall we write a letter?', tr: 'Bir mektup yazalım mı?'},
+    {ing: 'Shall I show you the way?', tr: 'Sana yolu göstereyim mi?'},
+    {ing: 'Shall we cook dinner?', tr: 'Akşam yemeği yapalım mı?'},
+    {ing: 'Shall I bring some drinks?', tr: 'Biraz içecek getireyim mi?'},
+    {ing: 'Shall we play with the cat?', tr: 'Kediyle oynayalım mı?'},
+    {ing: 'Shall I read your book?', tr: 'Kitabını okuyayım mı?'},
+    {ing: 'Shall we clean the house?', tr: 'Evi temizleyelim mi?'},
+    {ing: 'Shall I start the car?', tr: 'Arabayı çalıştırayım mı?'},
+    {ing: 'Shall we write a poem?', tr: 'Bir şiir yazalım mı?'},
+    {
+      ing: 'Shall I help you pack?',
+      tr: 'Eşyalarını toplamana yardım edeyim mi?',
+    },
+    {ing: 'Shall we go fishing?', tr: 'Balık tutmaya gidelim mi?'},
+    {ing: 'Shall I give you a ride?', tr: 'Seni arabayla götüreyim mi?'},
+    {ing: 'Shall we listen to music?', tr: 'Müzik dinleyelim mi?'},
+    {ing: 'Shall I light the candles?', tr: 'Mumları yakayım mı?'},
+    {ing: 'Shall we plant some trees?', tr: 'Birkaç ağaç dikelim mi?'},
+    {ing: 'Shall I tell a story?', tr: 'Bir hikaye anlatayım mı?'},
+    {ing: 'Shall we eat outside?', tr: 'Dışarıda yemek yiyelim mi?'},
+    {ing: 'Shall I take a picture?', tr: 'Bir fotoğraf çekeyim mi?'},
+    {ing: 'Shall we go to the library?', tr: 'Kütüphaneye gidelim mi?'},
+    {ing: 'Shall I make a call?', tr: 'Bir telefon araması yapayım mı?'},
+    {ing: 'Shall we clean the garden?', tr: 'Bahçeyi temizleyelim mi?'},
+    {ing: 'Shall I sing a song?', tr: 'Bir şarkı söyleyeyim mi?'},
+    {ing: 'Shall we have some tea?', tr: 'Biraz çay içelim mi?'},
+    {ing: 'Shall I wash the car?', tr: 'Arabayı yıkayayım mı?'},
+    {ing: 'Shall we draw a picture?', tr: 'Bir resim çizelim mi?'},
+    {ing: 'Shall I prepare dinner?', tr: 'Akşam yemeğini hazırlayayım mı?'},
+    {ing: 'Shall we make a puzzle?', tr: 'Bir bulmaca yapalım mı?'},
+    {ing: 'Shall I water the plants?', tr: 'Bitkileri sulayayım mı?'},
+    {ing: 'Shall we read a book?', tr: 'Bir kitap okuyalım mı?'},
+    {ing: 'Shall I bring some food?', tr: 'Biraz yiyecek getireyim mi?'},
+    {ing: 'Shall we decorate the tree?', tr: 'Ağacı süsleyelim mi?'},
+    {ing: 'Shall I close the curtains?', tr: 'Perdeleri kapatayım mı?'},
+    {ing: 'Shall we talk later?', tr: 'Daha sonra konuşalım mı?'},
+    {ing: 'Shall I play the guitar?', tr: 'Gitar çalayım mı?'},
+    {ing: 'Shall we have a picnic?', tr: 'Piknik yapalım mı?'},
+    {ing: 'Shall I write an email?', tr: 'Bir e-posta yazayım mı?'},
+    {ing: 'Shall we take photos?', tr: 'Fotoğraf çekelim mi?'},
+    {ing: 'Shall I cut the cake?', tr: 'Pastayı keseyim mi?'},
+    {ing: 'Shall we look at the stars?', tr: 'Yıldızlara bakalım mı?'},
+    {ing: 'Shall I order pizza?', tr: 'Pizza sipariş edeyim mi?'},
+    {ing: 'Shall we share this?', tr: 'Bunu paylaşalım mı?'},
+    {ing: 'Shall I give you advice?', tr: 'Sana tavsiye vereyim mi?'},
+    {ing: 'Shall we stay here?', tr: 'Burada kalalım mı?'},
+    {ing: 'Shall I open the door?', tr: 'Kapıyı açayım mı?'},
+    {ing: 'Shall we learn together?', tr: 'Birlikte öğrenelim mi?'},
+    {ing: 'Shall I carry your bag?', tr: 'Çantanı taşıyayım mı?'},
+    {
+      ing: 'Shall we visit the zoo?',
+      tr: 'Hayvanat bahçesini ziyaret edelim mi?',
+    },
+    {ing: 'Shall I call the doctor?', tr: 'Doktoru arayayım mı?'},
+    {ing: 'Shall we try again?', tr: 'Tekrar deneyelim mi?'},
+    {ing: 'Shall I turn on the TV?', tr: 'Televizyonu açayım mı?'},
+    {ing: 'Shall we go swimming?', tr: 'Yüzmeye gidelim mi?'},
+    {ing: 'Shall I wash the dishes?', tr: 'Bulaşıkları yıkayayım mı?'},
+    {ing: 'Shall we listen quietly?', tr: 'Sessizce dinleyelim mi?'},
+    {ing: 'Shall I draw a map?', tr: 'Bir harita çizeyim mi?'},
+    {ing: 'Shall we discuss this?', tr: 'Bunu tartışalım mı?'},
+    {ing: 'Shall I arrange the chairs?', tr: 'Sandalyeleri düzenleyeyim mi?'},
+    {ing: 'Shall we eat something?', tr: 'Bir şeyler yiyelim mi?'},
+    {ing: 'Shall I hold your hand?', tr: 'Elini tutayım mı?'},
+    {ing: 'Shall we make a toast?', tr: 'Kadeh kaldıralım mı?'},
+    {ing: 'Shall I paint the door?', tr: 'Kapıyı boyayayım mı?'},
+    {ing: 'Shall we walk to school?', tr: 'Okula yürüyelim mi?'},
+    {ing: 'Shall I call a taxi?', tr: 'Taksi çağırayım mı?'},
+    {ing: 'Shall we meet tomorrow?', tr: 'Yarın buluşalım mı?'},
+    {ing: 'Shall I clean the table?', tr: 'Masayı temizleyeyim mi?'},
+    {ing: 'Shall we enjoy the day?', tr: 'Günü değerlendirelim mi?'},
+    {ing: 'Shall I fix the bike?', tr: 'Bisikleti tamir edeyim mi?'},
+    {ing: 'Shall we write notes?', tr: 'Notlar yazalım mı?'},
+    {ing: 'Shall I teach you?', tr: 'Sana öğreteyim mi?'},
+  ],
+};
