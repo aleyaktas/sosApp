@@ -38,6 +38,9 @@ import SpeakingList from '../screens/SpeakingList';
 import WritingList from '../screens/WritingList';
 import Writing from '../screens/Writing';
 import AdjectivesAdverbTranslation from '../screens/Translation/AdjectivesAdverbTranslation';
+import IndefinitePronounsTranslation from '../screens/Translation/IndefinitePronounsTranslation';
+import ImperativesTranslation from '../screens/Translation/ImperativesTranslation';
+import ExcitingExcitedTranslation from '../screens/Translation/ExcitingExcitedTranslation';
 
 const Stack = createStackNavigator();
 
@@ -357,6 +360,33 @@ const RootNavigation = () => {
       <Stack.Screen
         name="AdjectivesAdverbTranslation"
         component={AdjectivesAdverbTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="IndefinitePronounsTranslation"
+        component={IndefinitePronounsTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="ImperativesTranslation"
+        component={ImperativesTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="ExcitingExcitedTranslation"
+        component={ExcitingExcitedTranslation}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,

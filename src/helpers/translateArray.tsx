@@ -212,3 +212,125 @@ export const translateAdjectivesAdverbs = (
 
   return result;
 };
+
+type IndefinitePronouns = {
+  S_pronouns_ing?: string;
+  S_pronouns_tr?: string;
+  E_pronouns_ing?: string;
+  E_pronouns_tr?: string;
+  A_pronouns_ing?: string;
+  A_pronouns_tr?: string;
+  N_pronouns_ing?: string;
+  N_pronouns_tr?: string;
+}[];
+
+type IndefinitePronounsResult = {
+  SPronouns: Array<{ing: string; tr: string}>;
+  EPronouns: Array<{ing: string; tr: string}>;
+  APronouns: Array<{ing: string; tr: string}>;
+  NPronouns: Array<{ing: string; tr: string}>;
+};
+
+export const translateIndefinitePronouns = (
+  data: IndefinitePronouns,
+): IndefinitePronounsResult => {
+  const result: IndefinitePronounsResult = {
+    SPronouns: [],
+    EPronouns: [],
+    APronouns: [],
+    NPronouns: [],
+  };
+
+  data.forEach(item => {
+    if (item.S_pronouns_ing && item.S_pronouns_tr) {
+      result.SPronouns.push({
+        ing: item.S_pronouns_ing,
+        tr: item.S_pronouns_tr,
+      });
+    }
+    if (item.E_pronouns_ing && item.E_pronouns_tr) {
+      result.EPronouns.push({
+        ing: item.E_pronouns_ing,
+        tr: item.E_pronouns_tr,
+      });
+    }
+    if (item.A_pronouns_ing && item.A_pronouns_tr) {
+      result.APronouns.push({
+        ing: item.A_pronouns_ing,
+        tr: item.A_pronouns_tr,
+      });
+    }
+    if (item.N_pronouns_ing && item.N_pronouns_tr) {
+      result.NPronouns.push({
+        ing: item.N_pronouns_ing,
+        tr: item.N_pronouns_tr,
+      });
+    }
+  });
+
+  return result;
+};
+
+type Imperatives = {
+  Emirler_ing?: string;
+  Emirler_tr?: string;
+}[];
+
+type ImperativesResult = {
+  Imperatives: Array<{ing: string; tr: string}>;
+};
+
+export const translateImperatives = (data: Imperatives): ImperativesResult => {
+  const result: ImperativesResult = {
+    Imperatives: [],
+  };
+
+  data.forEach(item => {
+    if (item.Emirler_ing && item.Emirler_tr) {
+      result.Imperatives.push({
+        ing: item.Emirler_ing,
+        tr: item.Emirler_tr,
+      });
+    }
+  });
+
+  return result;
+};
+
+type ExcitingExcited = {
+  Exciting_ing?: string;
+  Exciting_tr?: string;
+  Excited_ing?: string;
+  Excited_tr?: string;
+}[];
+
+type ExcitingExcitedResult = {
+  Exciting: Array<{ing: string; tr: string}>;
+  Excited: Array<{ing: string; tr: string}>;
+};
+
+export const translateExcitingExcited = (
+  data: ExcitingExcited,
+): ExcitingExcitedResult => {
+  const result: ExcitingExcitedResult = {
+    Exciting: [],
+    Excited: [],
+  };
+
+  data.forEach(item => {
+    if (item.Exciting_ing && item.Exciting_tr) {
+      result.Exciting.push({
+        ing: item.Exciting_ing,
+        tr: item.Exciting_tr,
+      });
+    }
+    if (item.Excited_ing && item.Excited_tr) {
+      result.Excited.push({
+        ing: item.Excited_ing,
+        tr: item.Excited_tr,
+      });
+    }
+  });
+
+  return result;
+};

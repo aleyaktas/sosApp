@@ -441,6 +441,14 @@ export const ImperativesSubCategory: ISubCategory[] = [
     page: 'Notes',
     image: require('../assets/icons/subjects.png'),
   },
+  {
+    id: 3,
+    title: 'Çeviri Çalışması',
+    mainCategory: 'Imperatives',
+    description: 'Çeviri çalışmaları',
+    page: 'ImperativesTranslation',
+    image: require('../assets/icons/translation.png'),
+  },
 ];
 
 export const LetsShallSubCategory: ISubCategory[] = [
@@ -497,6 +505,14 @@ export const IndefinitePronounsSubCategory: ISubCategory[] = [
     description: 'Konu notları',
     page: 'Notes',
     image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 3,
+    title: 'Çeviri Çalışması',
+    mainCategory: 'IndefinitePronouns',
+    description: 'Çeviri çalışmaları',
+    page: 'IndefinitePronounsTranslation',
+    image: require('../assets/icons/translation.png'),
   },
 ];
 
@@ -897,6 +913,14 @@ export const ExcitingExcitedSubCategory: ISubCategory[] = [
     description: 'Konu notları',
     page: 'Notes',
     image: require('../assets/icons/subjects.png'),
+  },
+  {
+    id: 3,
+    title: 'Çeviri Çalışması',
+    mainCategory: 'ExcitingExcited',
+    description: 'Çeviri çalışmaları',
+    page: 'ExcitingExcitedTranslation',
+    image: require('../assets/icons/translation.png'),
   },
 ];
 
@@ -82983,5 +83007,1667 @@ export const TensesVocabulary = [
         mean: 'ilerlemek, gelişmek, ileri, gelişmiş',
       },
     ],
+  },
+];
+
+export const test = [
+  {
+    Exciting_ing: 'The movie was boring.',
+    Exciting_tr: 'Film sıkıcıydı.',
+    Excited_ing: 'I felt surprised by the news.',
+    Excited_tr: 'Haberlere şaşırmış hissettim.',
+  },
+  {
+    Exciting_ing: 'The book is interesting.',
+    Exciting_tr: 'Kitap ilginç.',
+    Excited_ing: 'She is very tired after work.',
+    Excited_tr: 'İşten sonra çok yorgun.',
+  },
+  {
+    Exciting_ing: 'The news was shocking.',
+    Exciting_tr: 'Haberler şok ediciydi.',
+    Excited_ing: 'He looked bored during the lecture.',
+    Excited_tr: 'Ders sırasında sıkılmış göründü.',
+  },
+  {
+    Exciting_ing: 'The game was exciting.',
+    Exciting_tr: 'Oyun heyecan vericiydi.',
+    Excited_ing: 'They were excited about the trip.',
+    Excited_tr: 'Gezi hakkında heyecanlıydılar.',
+  },
+  {
+    Exciting_ing: 'The puzzle is confusing.',
+    Exciting_tr: 'Bulmaca kafa karıştırıcı.',
+    Excited_ing: "We felt shocked by the movie's ending.",
+    Excited_tr: 'Filmin sonuna şok olduk.',
+  },
+  {
+    Exciting_ing: 'The noise is annoying.',
+    Exciting_tr: 'Ses sinir bozucu.',
+    Excited_ing: 'I was interested in the book.',
+    Excited_tr: 'Kitaba ilgi duydum.',
+  },
+  {
+    Exciting_ing: 'The journey was tiring.',
+    Exciting_tr: 'Yolculuk yorucuydu.',
+    Excited_ing: 'She seemed confused by the instructions.',
+    Excited_tr: 'Talimatlarla kafası karışmış göründü.',
+  },
+  {
+    Exciting_ing: 'The story is fascinating.',
+    Exciting_tr: 'Hikaye büyüleyici.',
+    Excited_ing: 'He looked frightened by the noise.',
+    Excited_tr: 'Sesten korkmuş göründü.',
+  },
+  {
+    Exciting_ing: 'The weather is depressing.',
+    Exciting_tr: 'Hava iç karartıcı.',
+    Excited_ing: 'They were disappointed with the game.',
+    Excited_tr: 'Oyundan hayal kırıklığına uğradılar.',
+  },
+  {
+    Exciting_ing: 'The match was thrilling.',
+    Exciting_tr: 'Maç heyecan vericiydi.',
+    Excited_ing: 'We felt relaxed on the beach.',
+    Excited_tr: 'Plajda rahat hissettik.',
+  },
+  {
+    Exciting_ing: 'The class was engaging.',
+    Exciting_tr: 'Ders ilgi çekiciydi.',
+    Excited_ing: 'I was amazed by the fireworks.',
+    Excited_tr: 'Havai fişeklere hayran kaldım.',
+  },
+  {
+    Exciting_ing: 'The ride was frightening.',
+    Exciting_tr: 'Yolculuk korkutucuydu.',
+    Excited_ing: 'She looked worried about the exam.',
+    Excited_tr: 'Sınav hakkında endişeli göründü.',
+  },
+  {
+    Exciting_ing: 'The lecture was boring.',
+    Exciting_tr: 'Ders sıkıcıydı.',
+    Excited_ing: 'He seemed annoyed by the traffic.',
+    Excited_tr: 'Trafikten rahatsız olmuş göründü.',
+  },
+  {
+    Exciting_ing: 'The meal was satisfying.',
+    Exciting_tr: 'Yemek tatmin ediciydi.',
+    Excited_ing: 'They were bored at the party.',
+    Excited_tr: 'Partide sıkıldılar.',
+  },
+  {
+    Exciting_ing: 'The movie is amazing.',
+    Exciting_tr: 'Film harika.',
+    Excited_ing: 'We felt scared during the storm.',
+    Excited_tr: 'Fırtına sırasında korkmuş hissettik.',
+  },
+  {
+    Exciting_ing: 'The sunset was stunning.',
+    Exciting_tr: 'Gün batımı büyüleyiciydi.',
+    Excited_ing: 'I was surprised by his visit.',
+    Excited_tr: 'Ziyaretine şaşırdım.',
+  },
+  {
+    Exciting_ing: 'The joke was amusing.',
+    Exciting_tr: 'Şaka eğlenceliydi.',
+    Excited_ing: 'She looked tired after the run.',
+    Excited_tr: 'Koşudan sonra yorgun göründü.',
+  },
+  {
+    Exciting_ing: 'The film is disappointing.',
+    Exciting_tr: 'Film hayal kırıklığı yaratıcı.',
+    Excited_ing: 'He seemed pleased with his work.',
+    Excited_tr: 'İşinden memnun göründü.',
+  },
+  {
+    Exciting_ing: 'The hike was exhausting.',
+    Exciting_tr: 'Yürüyüş yorucuydu.',
+    Excited_ing: 'They were confused about the rules.',
+    Excited_tr: 'Kurallar hakkında kafaları karıştı.',
+  },
+  {
+    Exciting_ing: 'The party was entertaining.',
+    Exciting_tr: 'Parti eğlenceliydi.',
+    Excited_ing: 'We felt amazed by the view.',
+    Excited_tr: 'Manzaraya hayran kaldık.',
+  },
+  {
+    Exciting_ing: 'The weather is relaxing.',
+    Exciting_tr: 'Hava rahatlatıcı.',
+    Excited_ing: 'I was shocked by the loud sound.',
+    Excited_tr: 'Yüksek sesten şok oldum.',
+  },
+  {
+    Exciting_ing: 'The music is calming.',
+    Exciting_tr: 'Müzik sakinleştirici.',
+    Excited_ing: 'She looked excited to see her friend.',
+    Excited_tr: 'Arkadaşını görmek için heyecanlı göründü.',
+  },
+  {
+    Exciting_ing: 'The problem is puzzling.',
+    Exciting_tr: 'Problem kafa karıştırıcı.',
+    Excited_ing: 'He seemed frustrated with the puzzle.',
+    Excited_tr: 'Bulmacadan bıkmış göründü.',
+  },
+  {
+    Exciting_ing: 'The view is amazing.',
+    Exciting_tr: 'Manzara harika.',
+    Excited_ing: 'They were relaxed after the spa day.',
+    Excited_tr: 'Spa gününden sonra rahatladılar.',
+  },
+  {
+    Exciting_ing: 'The festival was amusing.',
+    Exciting_tr: 'Festival eğlenceliydi.',
+    Excited_ing: 'We felt interested in the lesson.',
+    Excited_tr: 'Derse ilgi duyduk.',
+  },
+  {
+    Exciting_ing: 'The movie was thrilling.',
+    Exciting_tr: 'Film heyecan vericiydi.',
+    Excited_ing: 'I was pleased with my results.',
+    Excited_tr: 'Sonuçlarımdan memnundum.',
+  },
+  {
+    Exciting_ing: 'The speech was inspiring.',
+    Exciting_tr: 'Konuşma ilham vericiydi.',
+    Excited_ing: 'She looked scared of the dog.',
+    Excited_tr: 'Köpekten korkmuş göründü.',
+  },
+  {
+    Exciting_ing: 'The news was alarming.',
+    Exciting_tr: 'Haberler endişe vericiydi.',
+    Excited_ing: 'He seemed disappointed by the loss.',
+    Excited_tr: 'Kayıptan hayal kırıklığına uğramış göründü.',
+  },
+  {
+    Exciting_ing: 'The game was challenging.',
+    Exciting_tr: 'Oyun zorlayıcıydı.',
+    Excited_ing: 'They were shocked by the news.',
+    Excited_tr: 'Haberlere şok oldular.',
+  },
+  {
+    Exciting_ing: 'The book is engaging.',
+    Exciting_tr: 'Kitap ilgi çekici.',
+    Excited_ing: 'We felt bored during the meeting.',
+    Excited_tr: 'Toplantı sırasında sıkıldık.',
+  },
+  {
+    Exciting_ing: 'The noise is disturbing.',
+    Exciting_tr: 'Ses rahatsız edici.',
+    Excited_ing: 'I was amazed by her performance.',
+    Excited_tr: 'Performansına hayran kaldım.',
+  },
+  {
+    Exciting_ing: 'The party was surprising.',
+    Exciting_tr: 'Parti şaşırtıcıydı.',
+    Excited_ing: 'She looked annoyed with the noise.',
+    Excited_tr: 'Sesten rahatsız olmuş göründü.',
+  },
+  {
+    Exciting_ing: 'The situation is worrying.',
+    Exciting_tr: 'Durum endişe verici.',
+    Excited_ing: 'He seemed excited for his birthday.',
+    Excited_tr: 'Doğum günü için heyecanlı göründü.',
+  },
+  {
+    Exciting_ing: 'The song is uplifting.',
+    Exciting_tr: 'Şarkı moral verici.',
+    Excited_ing: 'They were worried about the exam.',
+    Excited_tr: 'Sınav hakkında endişeliydiler.',
+  },
+  {
+    Exciting_ing: 'The ride was terrifying.',
+    Exciting_tr: 'Yolculuk korkutucuydu.',
+    Excited_ing: 'We felt confused by the directions.',
+    Excited_tr: 'Yön tariflerinden kafamız karıştı.',
+  },
+  {
+    Exciting_ing: 'The sky is stunning.',
+    Exciting_tr: 'Gökyüzü büyüleyici.',
+    Excited_ing: 'I was pleased with the surprise.',
+    Excited_tr: 'Sürprizden memnun kaldım.',
+  },
+  {
+    Exciting_ing: 'The task is demanding.',
+    Exciting_tr: 'Görev zorlayıcı.',
+    Excited_ing: 'She looked frustrated by her mistake.',
+    Excited_tr: 'Hatasından bıkmış göründü.',
+  },
+  {
+    Exciting_ing: 'The movie is captivating.',
+    Exciting_tr: 'Film büyüleyici.',
+    Excited_ing: 'He seemed relaxed on the weekend.',
+    Excited_tr: 'Hafta sonu rahatlamış göründü.',
+  },
+  {
+    Exciting_ing: 'The show was entertaining.',
+    Exciting_tr: 'Gösteri eğlenceliydi.',
+    Excited_ing: 'They were amazed by the singer.',
+    Excited_tr: 'Şarkıcıya hayran kaldılar.',
+  },
+  {
+    Exciting_ing: 'The noise was deafening.',
+    Exciting_tr: 'Ses sağır ediciydi.',
+    Excited_ing: 'We felt tired after the long walk.',
+    Excited_tr: 'Uzun yürüyüşten sonra yorgun hissettik.',
+  },
+  {
+    Exciting_ing: 'The film was touching.',
+    Exciting_tr: 'Film dokunaklıydı.',
+    Excited_ing: 'I was bored at the library.',
+    Excited_tr: 'Kütüphanede sıkıldım.',
+  },
+  {
+    Exciting_ing: 'The book is puzzling.',
+    Exciting_tr: 'Kitap kafa karıştırıcı.',
+    Excited_ing: 'She looked surprised at the gift.',
+    Excited_tr: 'Hediyeye şaşırmış göründü.',
+  },
+  {
+    Exciting_ing: 'The journey was exhausting.',
+    Exciting_tr: 'Yolculuk yorucuydu.',
+    Excited_ing: 'He seemed scared of the dark.',
+    Excited_tr: 'Karanlıktan korkmuş göründü.',
+  },
+  {
+    Exciting_ing: 'The speech was motivating.',
+    Exciting_tr: 'Konuşma motive ediciydi.',
+    Excited_ing: 'They were pleased with the dinner.',
+    Excited_tr: 'Akşam yemeğinden memnun kaldılar.',
+  },
+  {
+    Exciting_ing: 'The sunset is breathtaking.',
+    Exciting_tr: 'Gün batımı nefes kesici.',
+    Excited_ing: 'We felt disappointed with the movie.',
+    Excited_tr: 'Filmden hayal kırıklığına uğradık.',
+  },
+  {
+    Exciting_ing: 'The project is exciting.',
+    Exciting_tr: 'Proje heyecan verici.',
+    Excited_ing: 'I was shocked by the announcement.',
+    Excited_tr: 'Duyuruya şok oldum.',
+  },
+  {
+    Exciting_ing: 'The performance was amazing.',
+    Exciting_tr: 'Performans harikaydı.',
+    Excited_ing: 'She looked interested in the story.',
+    Excited_tr: 'Hikayeye ilgi duyuyormuş gibi göründü.',
+  },
+  {
+    Exciting_ing: 'The story is thrilling.',
+    Exciting_tr: 'Hikaye heyecan verici.',
+    Excited_ing: 'He seemed amazed by the magic trick.',
+    Excited_tr: 'Sihir numarasına hayran kalmış göründü.',
+  },
+  {
+    Exciting_ing: 'The exam was confusing.',
+    Exciting_tr: 'Sınav kafa karıştırıcıydı.',
+    Excited_ing: 'They were frustrated by the delay.',
+    Excited_tr: 'Gecikmeden bıktılar.',
+  },
+  {
+    Exciting_ing: 'The music was relaxing.',
+    Exciting_tr: 'Müzik rahatlatıcıydı.',
+    Excited_ing: 'We felt excited for the concert.',
+    Excited_tr: 'Konser için heyecanlı hissettik.',
+  },
+  {
+    Exciting_ing:
+      'The movie we watched last night was really exciting; I couldn’t look away for even a minute.',
+    Exciting_tr:
+      'Dün gece izlediğimiz film gerçekten heyecan vericiydi; bir dakika bile gözümü alamadım.',
+    Excited_ing: 'I was confused by the map.',
+    Excited_tr: 'Haritaya bakınca kafam karıştı.',
+  },
+  {
+    Exciting_ing:
+      'That story in the book is very inspiring because it shows how people can overcome difficulties.',
+    Exciting_tr:
+      'Kitaptaki o hikaye çok ilham verici çünkü insanların zorlukları nasıl aşabileceğini gösteriyor.',
+    Excited_ing: 'She looked relaxed after yoga.',
+    Excited_tr: 'Yoga sonrası rahatlamış göründü.',
+  },
+  {
+    Exciting_ing:
+      'His speech during the presentation was boring, and many people in the audience started looking at their phones.',
+    Exciting_tr:
+      'Sunum sırasında yaptığı konuşma sıkıcıydı ve izleyicilerin çoğu telefonlarına bakmaya başladı.',
+    Excited_ing: 'He seemed surprised by the party.',
+    Excited_tr: 'Partiye şaşırmış göründü.',
+  },
+  {
+    Exciting_ing:
+      'This book about space is quite interesting, especially the part where it talks about black holes.',
+    Exciting_tr:
+      'Bu uzay hakkında olan kitap oldukça ilginç, özellikle kara deliklerden bahsettiği kısım.',
+    Excited_ing: 'They were tired from the trip.',
+    Excited_tr: 'Yolculuktan yorulmuşlardı.',
+  },
+  {
+    Exciting_ing:
+      'The news about the storm was shocking because no one expected it to be so powerful.',
+    Exciting_tr:
+      'Fırtına hakkındaki haber şok ediciydi çünkü kimse bu kadar güçlü olmasını beklemiyordu.',
+    Excited_ing: 'We felt annoyed by the mosquitoes.',
+    Excited_tr: 'Sivrisineklerden rahatsız olduk.',
+  },
+  {
+    Exciting_ing:
+      'The weather today is depressing, with all the rain and grey clouds making me feel sad.',
+    Exciting_tr:
+      'Bugünkü hava iç karartıcı, tüm bu yağmur ve gri bulutlar beni üzgün hissettiriyor.',
+    Excited_ing: 'I was pleased with my grade.',
+    Excited_tr: 'Notumdan memnundum.',
+  },
+  {
+    Exciting_ing:
+      'The football game was thrilling to watch; the players were so fast, and the score kept changing.',
+    Exciting_tr:
+      'Futbol maçı izlemek çok heyecan vericiydi; oyuncular çok hızlıydı ve skor sürekli değişiyordu.',
+    Excited_ing: 'She looked scared of the spider.',
+    Excited_tr: 'Örümcekten korkmuş göründü.',
+  },
+  {
+    Exciting_ing:
+      'The journey through the mountains was exhausting, but the view at the top was worth it.',
+    Exciting_tr:
+      'Dağlar arasındaki yolculuk yorucuydu ama zirvedeki manzara buna değdi.',
+    Excited_ing: 'He seemed bored in the class.',
+    Excited_tr: 'Derste sıkılmış göründü.',
+  },
+  {
+    Exciting_ing:
+      'Her performance on stage was amazing; everyone in the audience gave her a big round of applause.',
+    Exciting_tr:
+      'Sahnedeki performansı harikaydı; izleyicilerin hepsi ona büyük bir alkış verdi.',
+    Excited_ing: 'They were amazed by the dancer.',
+    Excited_tr: 'Dansçıya hayran kaldılar.',
+  },
+  {
+    Exciting_ing:
+      'The joke he told was amusing, and it made everyone at the party laugh out loud.',
+    Exciting_tr:
+      'Anlattığı şaka eğlenceliydi ve partideki herkesi kahkahalarla güldürdü.',
+    Excited_ing: 'We felt shocked by the accident.',
+    Excited_tr: 'Kazaya şok olduk.',
+  },
+  {
+    Exciting_ing:
+      'This math problem is really challenging; I’ve been working on it for an hour and still don’t have the answer.',
+    Exciting_tr:
+      'Bu matematik problemi gerçekten zorlayıcı; bir saattir üzerinde çalışıyorum ve hala cevabı bulamadım.',
+    Excited_ing: 'I was interested in the painting.',
+    Excited_tr: 'Resme ilgi duydum.',
+  },
+  {
+    Exciting_ing:
+      'The puzzle we tried to solve was confusing because there were too many similar pieces.',
+    Exciting_tr:
+      'Çözmeye çalıştığımız bulmaca kafa karıştırıcıydı çünkü çok fazla benzer parça vardı.',
+    Excited_ing: 'She looked tired after studying.',
+    Excited_tr: 'Çalıştıktan sonra yorgun göründü.',
+  },
+  {
+    Exciting_ing:
+      'That noise coming from the street is so annoying; I can’t concentrate on my homework.',
+    Exciting_tr:
+      'Sokaktan gelen o ses çok sinir bozucu; ödevime odaklanamıyorum.',
+    Excited_ing: 'He seemed confused by the question.',
+    Excited_tr: 'Soruya bakınca kafası karışmış gibi göründü.',
+  },
+  {
+    Exciting_ing:
+      'The dinner my mom made was very satisfying; I felt full and happy after eating it.',
+    Exciting_tr:
+      'Annemin yaptığı akşam yemeği çok tatmin ediciydi; yedikten sonra tok ve mutlu hissettim.',
+    Excited_ing: 'They were relaxed in the garden.',
+    Excited_tr: 'Bahçede rahatlamışlardı.',
+  },
+  {
+    Exciting_ing:
+      'The music in the background is relaxing, and it helps me feel calm while I study.',
+    Exciting_tr:
+      'Arka plandaki müzik rahatlatıcı ve çalışırken beni sakin hissettiriyor.',
+    Excited_ing: 'We felt frustrated with the task.',
+    Excited_tr: 'Görevden bıktık.',
+  },
+  {
+    Exciting_ing:
+      'The ride on the roller coaster was frightening; I closed my eyes because I was so scared.',
+    Exciting_tr:
+      'Roller coaster yolculuğu korkutucuydu; o kadar korktum ki gözlerimi kapattım.',
+    Excited_ing: 'I was pleased with my new car.',
+    Excited_tr: 'Yeni arabamdan memnun kaldım.',
+  },
+  {
+    Exciting_ing:
+      'The competition at the school was demanding, and it required a lot of practice from all the students.',
+    Exciting_tr:
+      'Okuldaki yarışma zorluydu ve tüm öğrencilerden çok fazla pratik yapmalarını gerektirdi.',
+    Excited_ing: 'She looked excited for the holiday.',
+    Excited_tr: 'Tatil için heyecanlı göründü.',
+  },
+  {
+    Exciting_ing:
+      'His ideas about how to save the environment are inspiring; they make me want to help too.',
+    Exciting_tr:
+      'Çevreyi nasıl kurtaracağımız konusundaki fikirleri ilham verici; benim de yardım etme isteğimi artırıyor.',
+    Excited_ing: 'He seemed amazed by the scenery.',
+    Excited_tr: 'Manzaraya hayran kalmış göründü.',
+  },
+  {
+    Exciting_ing:
+      'The film we watched last weekend was disappointing because the story was too simple.',
+    Exciting_tr:
+      'Geçen hafta sonu izlediğimiz film hayal kırıklığı yaratıcıydı çünkü hikaye çok basitti.',
+    Excited_ing: 'They were surprised by the visit.',
+    Excited_tr: 'Ziyarete şaşırdılar.',
+  },
+  {
+    Exciting_ing:
+      'The problem we discussed in class was puzzling; even the teacher had a hard time explaining it.',
+    Exciting_tr:
+      'Sınıfta tartıştığımız problem kafa karıştırıcıydı; öğretmen bile bunu açıklamakta zorlandı.',
+    Excited_ing: 'We felt bored during the lesson.',
+    Excited_tr: 'Ders sırasında sıkıldık.',
+  },
+  {
+    Exciting_ing:
+      'The hike up the mountain was tiring, but reaching the top gave us a great feeling of achievement.',
+    Exciting_tr:
+      'Dağa yapılan yürüyüş yorucuydu ama zirveye ulaşmak bize büyük bir başarı hissi verdi.',
+    Excited_ing: 'I was annoyed by the noise.',
+    Excited_tr: 'Sesten rahatsız oldum.',
+  },
+  {
+    Exciting_ing:
+      'This book about ancient history is fascinating; I didn’t know people used to live in such different ways.',
+    Exciting_tr:
+      'Bu antik tarih hakkında kitap büyüleyici; insanların bu kadar farklı yaşam tarzları olduğunu bilmiyordum.',
+    Excited_ing: 'She looked interested in the movie.',
+    Excited_tr: 'Filme ilgi duyuyormuş gibi göründü.',
+  },
+  {
+    Exciting_ing:
+      'The situation in the town is alarming because the river levels are rising quickly due to heavy rain.',
+    Exciting_tr:
+      'Kasabadaki durum endişe verici çünkü yoğun yağış nedeniyle nehir seviyeleri hızla yükseliyor.',
+    Excited_ing: 'He seemed shocked by the result.',
+    Excited_tr: 'Sonuçtan şok olmuş göründü.',
+  },
+  {
+    Exciting_ing:
+      'The class was very engaging; the teacher used games and activities that made learning fun.',
+    Exciting_tr:
+      'Sınıf çok ilgi çekiciydi; öğretmen, öğrenmeyi eğlenceli hale getiren oyunlar ve etkinlikler kullandı.',
+    Excited_ing: 'They were disappointed by the food.',
+    Excited_tr: 'Yemekten hayal kırıklığına uğradılar.',
+  },
+  {
+    Exciting_ing:
+      'The quiz we took today was confusing because some of the questions didn’t make sense.',
+    Exciting_tr:
+      'Bugün yaptığımız quiz kafa karıştırıcıydı çünkü bazı sorular mantıklı değildi.',
+    Excited_ing: 'We felt tired after the game.',
+    Excited_tr: 'Oyundan sonra yorgun hissettik.',
+  },
+  {
+    Exciting_ing:
+      'The math test was challenging, but I’m glad I studied a lot and managed to answer most of the questions.',
+    Exciting_tr:
+      'Matematik sınavı zorlayıcıydı, ama çok çalıştığım için çoğu soruyu cevaplayabildim.',
+    Excited_ing: 'I was scared during the thunderstorm.',
+    Excited_tr: 'Fırtına sırasında korktum.',
+  },
+  {
+    Exciting_ing:
+      'The storm outside is frightening; the wind is so strong that the trees are bending.',
+    Exciting_tr:
+      'Dışarıdaki fırtına korkutucu; rüzgar o kadar güçlü ki ağaçlar eğiliyor.',
+    Excited_ing: 'She looked pleased with her dress.',
+    Excited_tr: 'Elbisesinden memnun göründü.',
+  },
+  {
+    Exciting_ing:
+      'The sunset we saw on the beach was stunning; the sky was filled with beautiful colors like pink, orange, and purple.',
+    Exciting_tr:
+      'Sahilde gördüğümüz gün batımı büyüleyiciydi; gökyüzü pembe, turuncu ve mor gibi güzel renklerle doluydu.',
+    Excited_ing: 'He seemed relaxed in the hot tub.',
+    Excited_tr: 'Sıcak küvette rahatlamış göründü.',
+  },
+  {
+    Exciting_ing:
+      'The party at my friend’s house was entertaining; there was music, dancing, and even some funny games.',
+    Exciting_tr:
+      'Arkadaşımın evindeki parti eğlenceliydi; müzik, dans ve hatta bazı komik oyunlar vardı.',
+    Excited_ing: 'They were excited for the festival.',
+    Excited_tr: 'Festival için heyecanlıydılar.',
+  },
+  {
+    Exciting_ing:
+      'Her story about her travels was touching; it made me feel so happy for her adventures.',
+    Exciting_tr:
+      'Seyahatleri hakkındaki hikayesi dokunaklıydı; onun maceraları için çok mutlu hissettim.',
+    Excited_ing: 'We felt amazed by the sunset.',
+    Excited_tr: 'Gün batımına hayran kaldık.',
+  },
+  {
+    Exciting_ing:
+      'The fireworks at the festival were amazing; they lit up the night sky with bright colors.',
+    Exciting_tr:
+      'Festivaldeki havai fişekler harikaydı; gece gökyüzünü parlak renklerle aydınlattılar.',
+    Excited_ing: 'I was surprised by the present.',
+    Excited_tr: 'Hediyeye şaşırdım.',
+  },
+  {
+    Exciting_ing:
+      'The concert we went to last night was thrilling; the music was loud, and everyone was dancing.',
+    Exciting_tr:
+      'Dün gece gittiğimiz konser heyecan vericiydi; müzik yüksekti ve herkes dans ediyordu.',
+    Excited_ing: 'She looked confused by the puzzle.',
+    Excited_tr: 'Bulmacaya bakınca kafası karışmış gibi göründü.',
+  },
+  {
+    Exciting_ing:
+      'The festival in the city was amusing; there were clowns, magic tricks, and lots of fun games.',
+    Exciting_tr:
+      'Şehirdeki festival eğlenceliydi; palyaçolar, sihir numaraları ve birçok eğlenceli oyun vardı.',
+    Excited_ing: 'He seemed worried about the interview.',
+    Excited_tr: 'Mülakat hakkında endişeli göründü.',
+  },
+  {
+    Exciting_ing:
+      'The meeting with the new team members was confusing because nobody knew what they were supposed to do.',
+    Exciting_tr:
+      'Yeni takım üyeleriyle yapılan toplantı kafa karıştırıcıydı çünkü kimse ne yapması gerektiğini bilmiyordu.',
+    Excited_ing: 'They were tired from the hike.',
+    Excited_tr: 'Yürüyüşten yorulmuşlardı.',
+  },
+  {
+    Exciting_ing:
+      'The science lesson today was really interesting; we learned about how volcanoes erupt.',
+    Exciting_tr:
+      'Bugünkü fen dersi gerçekten ilginçti; volkanların nasıl patladığını öğrendik.',
+    Excited_ing: 'We felt frustrated with the traffic.',
+    Excited_tr: 'Trafikten bıktık.',
+  },
+  {
+    Exciting_ing:
+      'The movie about superheroes was thrilling, and it kept me on the edge of my seat until the end.',
+    Exciting_tr:
+      'Süper kahramanlar hakkındaki film heyecan vericiydi ve beni sonuna kadar koltuğumun ucunda tuttu.',
+    Excited_ing: 'I was pleased with my friend’s help.',
+    Excited_tr: 'Arkadaşımın yardımından memnun kaldım.',
+  },
+  {
+    Exciting_ing:
+      'The computer game we played last night was very engaging; I lost track of time while playing.',
+    Exciting_tr:
+      'Dün gece oynadığımız bilgisayar oyunu çok sürükleyiciydi; oynarken zamanın nasıl geçtiğini unuttum.',
+    Excited_ing: 'She looked shocked by the event.',
+    Excited_tr: 'Etkinliğe şok olmuş göründü.',
+  },
+  {
+    Exciting_ing:
+      'The ride at the amusement park was frightening, and I screamed the whole time.',
+    Exciting_tr:
+      'Eğlence parkındaki yolculuk korkutucuydu ve tüm zaman boyunca çığlık attım.',
+    Excited_ing: 'He seemed scared of the snake.',
+    Excited_tr: 'Yılandan korkmuş göründü.',
+  },
+  {
+    Exciting_ing:
+      'The speech the teacher gave was inspiring; it made me want to work harder and never give up.',
+    Exciting_tr:
+      'Öğretmenin yaptığı konuşma ilham vericiydi; daha çok çalışmak ve asla pes etmemek istememi sağladı.',
+    Excited_ing: 'They were interested in the exhibit.',
+    Excited_tr: 'Sergiye ilgi duyuyorlardı.',
+  },
+  {
+    Exciting_ing:
+      'The weather in the morning was depressing; it was raining, cold, and very windy.',
+    Exciting_tr:
+      'Sabah hava iç karartıcıydı; yağmur yağıyor, soğuk ve çok rüzgarlıydı.',
+    Excited_ing: 'We felt bored during the speech.',
+    Excited_tr: 'Konuşma sırasında sıkıldık.',
+  },
+  {
+    Exciting_ing:
+      'The homework we got from school today is challenging, and I will need a lot of time to finish it.',
+    Exciting_tr:
+      'Bugün okuldan aldığımız ödev zorlayıcı ve bitirmek için çok zamana ihtiyacım olacak.',
+    Excited_ing: 'I was amazed by the fireworks.',
+    Excited_tr: 'Havai fişeklere hayran kaldım.',
+  },
+  {
+    Exciting_ing:
+      'The book about animals in the jungle was fascinating; I didn’t know so much about tigers and lions.',
+    Exciting_tr:
+      'Ormandaki hayvanlar hakkında olan kitap büyüleyiciydi; kaplanlar ve aslanlar hakkında bu kadar çok şey bilmiyordum.',
+    Excited_ing: 'She looked annoyed at the mess.',
+    Excited_tr: 'Dağınıklığa kızmış gibi göründü.',
+  },
+  {
+    Exciting_ing:
+      'The story my grandma told me was touching; it made me feel so much love for my family.',
+    Exciting_tr:
+      'Büyükannemin anlattığı hikaye dokunaklıydı; aileme karşı çok sevgi hissetmemi sağladı.',
+    Excited_ing: 'He seemed excited for the vacation.',
+    Excited_tr: 'Tatil için heyecanlı göründü.',
+  },
+  {
+    Exciting_ing:
+      'The movie we watched in the cinema was disappointing because the ending didn’t make any sense.',
+    Exciting_tr:
+      'Sinemada izlediğimiz film hayal kırıklığı yaratıcıydı çünkü sonu hiç mantıklı değildi.',
+    Excited_ing: 'They were pleased with the hotel.',
+    Excited_tr: 'Otelden memnun kaldılar.',
+  },
+  {
+    Exciting_ing:
+      'The music playing in the restaurant was relaxing; it helped me enjoy my meal even more.',
+    Exciting_tr:
+      'Restoranda çalan müzik rahatlatıcıydı; yemeğimin tadını daha çok çıkarmama yardımcı oldu.',
+    Excited_ing: 'We felt tired from the journey.',
+    Excited_tr: 'Yolculuktan yorgun hissettik.',
+  },
+  {
+    Exciting_ing:
+      'The news on TV last night was shocking; they talked about a new discovery in space.',
+    Exciting_tr:
+      'Dün gece televizyondaki haberler şok ediciydi; uzayda yeni bir keşiften bahsettiler.',
+    Excited_ing: 'I was shocked by the loud noise.',
+    Excited_tr: 'Yüksek sesten şok oldum.',
+  },
+  {
+    Exciting_ing:
+      'The hike through the forest was tiring, but when we reached the waterfall, it was all worth it.',
+    Exciting_tr:
+      'Ormanda yapılan yürüyüş yorucuydu ama şelaleye ulaştığımızda her şeye değdi.',
+    Excited_ing: 'She looked scared of the heights.',
+    Excited_tr: 'Yükseklikten korkmuş gibi göründü.',
+  },
+  {
+    Exciting_ing:
+      'The puzzle with 1,000 pieces was confusing; it took me a whole week to put it together.',
+    Exciting_tr:
+      '1.000 parçalı bulmaca kafa karıştırıcıydı; bir hafta boyunca tüm parçaları birleştirmek sürdü.',
+    Excited_ing: 'He seemed confused by the menu.',
+    Excited_tr: 'Menüye bakınca kafası karışmış göründü.',
+  },
+  {
+    Exciting_ing:
+      'The game we played at the party was amusing; we couldn’t stop laughing at each other.',
+    Exciting_tr:
+      'Partide oynadığımız oyun eğlenceliydi; birbirimize gülmekten kendimizi alamadık.',
+    Excited_ing: 'They were amazed by the magic show.',
+    Excited_tr: 'Sihir gösterisine hayran kaldılar.',
+  },
+  {
+    Exciting_ing:
+      'The lecture at school was boring; I almost fell asleep in the middle of it.',
+    Exciting_tr: 'Okuldaki ders sıkıcıydı; ortasında neredeyse uyuyordum.',
+    Excited_ing: 'We felt relaxed in the warm sun.',
+    Excited_tr: 'Sıcak güneşte rahat hissettik.',
+  },
+  {
+    Exciting_ing:
+      'The noise from the construction outside is annoying; I can’t focus on my work.',
+    Exciting_tr: 'Dışarıdaki inşaat sesi sinir bozucu; işime odaklanamıyorum.',
+    Excited_ing:
+      'I felt surprised by the news that my best friend was coming to visit me this weekend.',
+    Excited_tr:
+      'En iyi arkadaşımın bu hafta sonu beni ziyaret edeceğini öğrendiğimde şaşırdım.',
+  },
+  {
+    Exciting_ing:
+      'The art exhibition was fascinating; each painting had so much detail and color.',
+    Exciting_tr:
+      'Sanat sergisi büyüleyiciydi; her tablo çok fazla ayrıntı ve renge sahipti.',
+    Excited_ing:
+      'She was very tired after working all day in the garden and just wanted to rest.',
+    Excited_tr:
+      'Bütün gün bahçede çalıştıktan sonra çok yorgundu ve sadece dinlenmek istedi.',
+  },
+  {
+    Exciting_ing:
+      'The roller coaster ride was thrilling; my heart was beating so fast the entire time.',
+    Exciting_tr:
+      'Roller coaster yolculuğu heyecan vericiydi; kalbim tüm süre boyunca çok hızlı atıyordu.',
+    Excited_ing:
+      'He looked bored during the lecture because he already knew all the information.',
+    Excited_tr:
+      'Dersi dinlerken sıkılmış görünüyordu çünkü tüm bilgileri zaten biliyordu.',
+  },
+  {
+    Exciting_ing:
+      'The weather outside is depressing; it’s been cloudy and rainy all week long.',
+    Exciting_tr:
+      'Dışarıdaki hava iç karartıcı; bütün hafta boyunca bulutlu ve yağmurluydu.',
+    Excited_ing:
+      'They were so excited about their vacation that they couldn’t stop talking about it.',
+    Excited_tr:
+      'Tatilleri hakkında o kadar heyecanlıydılar ki sürekli bundan bahsediyorlardı.',
+  },
+  {
+    Exciting_ing:
+      'The new video game is very engaging; I spent hours trying to beat the first level.',
+    Exciting_tr:
+      'Yeni video oyunu çok sürükleyici; ilk seviyeyi geçmek için saatler harcadım.',
+    Excited_ing:
+      "We felt shocked by the movie's ending because we didn’t expect it to be so sad.",
+    Excited_tr:
+      'Filmin sonuna şok olduk çünkü bu kadar üzücü olmasını beklemiyorduk.',
+  },
+  {
+    Exciting_ing:
+      'The conversation at dinner was confusing; everyone was talking at the same time.',
+    Exciting_tr:
+      'Akşam yemeğindeki konuşma kafa karıştırıcıydı; herkes aynı anda konuşuyordu.',
+    Excited_ing:
+      'I was really interested in the book because it was full of mystery and adventure.',
+    Excited_tr: 'Kitaba gerçekten ilgi duydum çünkü gizem ve macera doluydu.',
+  },
+  {
+    Exciting_ing:
+      'The performance by the dancers was amazing; they moved so gracefully to the music.',
+    Exciting_tr:
+      'Dansçıların performansı harikaydı; müziğe o kadar zarif bir şekilde hareket ettiler.',
+    Excited_ing:
+      'She seemed confused by the instructions, even after reading them twice.',
+    Excited_tr:
+      'Talimatları iki kez okuduktan sonra bile kafası karışmış görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The play we watched was entertaining; the actors were so funny and talented.',
+    Exciting_tr:
+      'İzlediğimiz oyun eğlenceliydi; oyuncular çok komik ve yetenekliydi.',
+    Excited_ing:
+      'He looked frightened by the loud thunderstorm outside that shook the windows.',
+    Excited_tr:
+      'Dışarıdaki camları sallayan şiddetli fırtınadan korkmuş görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The thunderstorm last night was frightening; I couldn’t sleep because of the loud noises.',
+    Exciting_tr:
+      'Dün geceki fırtına korkutucuydu; yüksek sesler yüzünden uyuyamadım.',
+    Excited_ing:
+      'They were disappointed with the football game because their team lost in the last minute.',
+    Excited_tr:
+      'Futbol maçından hayal kırıklığına uğradılar çünkü takımları son dakikada kaybetti.',
+  },
+  {
+    Exciting_ing:
+      'The long walk up the hill was tiring, but the view from the top was incredible.',
+    Exciting_tr:
+      'Tepeye yapılan uzun yürüyüş yorucuydu ama zirveden manzara inanılmazdı.',
+    Excited_ing:
+      'We felt relaxed on the beach as the gentle waves washed over our feet.',
+    Excited_tr:
+      'Hafif dalgalar ayaklarımızın üzerinde dolanırken plajda rahat hissettik.',
+  },
+  {
+    Exciting_ing:
+      'The project we are working on is challenging; we need to think of creative solutions.',
+    Exciting_tr:
+      'Üzerinde çalıştığımız proje zorlayıcı; yaratıcı çözümler düşünmemiz gerekiyor.',
+    Excited_ing:
+      'I was amazed by the fireworks at the festival; the colors were so bright and beautiful.',
+    Excited_tr:
+      'Festivaldeki havai fişeklere hayran kaldım; renkler çok parlak ve güzeldi.',
+  },
+  {
+    Exciting_ing:
+      'The carnival in town was amusing; there were clowns, games, and lots of prizes to win.',
+    Exciting_tr:
+      'Kasabadaki karnaval eğlenceliydi; palyaçolar, oyunlar ve kazanılacak birçok ödül vardı.',
+    Excited_ing:
+      "She looked worried about the upcoming exam because she didn't have much time to study.",
+    Excited_tr:
+      'Yaklaşan sınav hakkında endişeli görünüyordu çünkü çalışacak pek fazla zamanı yoktu.',
+  },
+  {
+    Exciting_ing:
+      'The scene in the movie was shocking; I never expected the story to take that turn.',
+    Exciting_tr:
+      'Filmdeki sahne şok ediciydi; hikayenin bu yönde ilerleyeceğini hiç beklemiyordum.',
+    Excited_ing:
+      'He seemed annoyed by the traffic jam that made him late for the meeting.',
+    Excited_tr:
+      'Toplantıya geç kalmasına neden olan trafik sıkışıklığından rahatsız olmuş görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The class activity today was interesting; we learned how to do a science experiment.',
+    Exciting_tr:
+      'Bugünkü sınıf etkinliği ilginçti; bir bilim deneyi yapmayı öğrendik.',
+    Excited_ing:
+      'They were bored at the party because there wasn’t much to do or talk about.',
+    Excited_tr:
+      'Partide sıkıldılar çünkü yapacak veya konuşacak pek bir şey yoktu.',
+  },
+  {
+    Exciting_ing:
+      'The puzzle in the magazine was confusing; it took me several tries to solve it.',
+    Exciting_tr:
+      'Dergideki bulmaca kafa karıştırıcıydı; çözmek için birkaç deneme yapmam gerekti.',
+    Excited_ing:
+      'We felt scared during the storm because the wind was howling and the lights went out.',
+    Excited_tr:
+      'Fırtına sırasında korkmuş hissettik çünkü rüzgar uğuldayordu ve ışıklar sönmüştü.',
+  },
+  {
+    Exciting_ing:
+      'The trip to the mountains was exhausting; we walked for miles and climbed steep paths.',
+    Exciting_tr:
+      'Dağlara yapılan gezi yorucuydu; kilometrelerce yürüdük ve dik yokuşlara tırmandık.',
+    Excited_ing:
+      "I was surprised by his visit because he hadn't told anyone he was coming.",
+    Excited_tr: 'Ziyaretine şaşırdım çünkü geleceğini kimseye söylememişti.',
+  },
+  {
+    Exciting_ing:
+      'The children’s laughter was amusing; they were so happy playing in the park.',
+    Exciting_tr:
+      'Çocukların kahkahaları eğlenceliydi; parkta oynamaktan çok mutluydular.',
+    Excited_ing:
+      'She looked tired after running five kilometers without stopping for a break.',
+    Excited_tr: 'Beş kilometre durmadan koştuktan sonra yorgun görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The ending of the book was disappointing; I expected something more exciting.',
+    Exciting_tr:
+      'Kitabın sonu hayal kırıklığı yaratıcıydı; daha heyecan verici bir şey bekliyordum.',
+    Excited_ing:
+      'He seemed pleased with his work; he showed a big smile when he finished the project.',
+    Excited_tr:
+      'İşinden memnun görünüyordu; projeyi bitirdiğinde büyük bir gülümseme gösterdi.',
+  },
+  {
+    Exciting_ing:
+      'The landscape we saw on our trip was stunning; I couldn’t believe how beautiful it was.',
+    Exciting_tr:
+      'Gezimizde gördüğümüz manzara büyüleyiciydi; ne kadar güzel olduğuna inanamadım.',
+    Excited_ing:
+      'They were confused about the rules of the game because no one explained them clearly.',
+    Excited_tr:
+      'Oyunun kuralları hakkında kafaları karıştı çünkü kimse onlara açıkça açıklamadı.',
+  },
+  {
+    Exciting_ing:
+      'The holiday with my family was amazing; we visited so many beautiful places.',
+    Exciting_tr:
+      'Ailemle olan tatil harikaydı; birçok güzel yeri ziyaret ettik.',
+    Excited_ing:
+      'We felt amazed by the view from the top of the mountain; it was breathtaking.',
+    Excited_tr: 'Dağın tepesinden manzaraya hayran kaldık; nefes kesiciydi.',
+  },
+  {
+    Exciting_ing:
+      'The teacher’s instructions were confusing; I didn’t understand what we had to do.',
+    Exciting_tr:
+      'Öğretmenin talimatları kafa karıştırıcıydı; ne yapmamız gerektiğini anlamadım.',
+    Excited_ing:
+      'I was shocked by the loud sound that came from the street outside my window.',
+    Excited_tr: 'Penceremin dışındaki sokaktan gelen yüksek sesten şok oldum.',
+  },
+  {
+    Exciting_ing:
+      'The noise from the street is annoying; I wish it was quieter so I could study.',
+    Exciting_tr:
+      'Sokaktan gelen ses sinir bozucu; keşke daha sessiz olsaydı da çalışabilseydim.',
+    Excited_ing:
+      'She looked excited to see her friend after so many years apart.',
+    Excited_tr: 'Yıllar sonra arkadaşını gördüğü için heyecanlı görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The detective story in the book was fascinating; I couldn’t stop reading until I knew who did it.',
+    Exciting_tr:
+      'Kitaptaki dedektif hikayesi büyüleyiciydi; kimin yaptığını öğrenene kadar okumayı bırakamadım.',
+    Excited_ing:
+      'He seemed frustrated with the puzzle that took him hours to solve.',
+    Excited_tr: 'Saatlerce çözmekle uğraştığı bulmacadan bıkmış görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The news about the missing cat was alarming; everyone in the neighborhood was worried.',
+    Exciting_tr:
+      'Kayıp kedi hakkındaki haber endişe vericiydi; mahalledeki herkes endişeliydi.',
+    Excited_ing:
+      'They were relaxed after the spa day; they felt refreshed and calm.',
+    Excited_tr:
+      'Spa gününden sonra rahatlamışlardı; yenilenmiş ve sakin hissediyorlardı.',
+  },
+  {
+    Exciting_ing:
+      'The competition at school was exciting; all the students were cheering for their teams.',
+    Exciting_tr:
+      'Okuldaki yarışma heyecan vericiydi; tüm öğrenciler takımları için tezahürat yapıyordu.',
+    Excited_ing:
+      'We felt interested in the lesson because the teacher made it fun and engaging.',
+    Excited_tr:
+      'Ders ilgi çekiciydi çünkü öğretmen dersi eğlenceli ve sürükleyici hale getirdi.',
+  },
+  {
+    Exciting_ing:
+      'The festival in the park was entertaining; there were music, dance, and delicious food.',
+    Exciting_tr:
+      'Parktaki festival eğlenceliydi; müzik, dans ve lezzetli yiyecekler vardı.',
+    Excited_ing:
+      'I was pleased with my results on the test; I got a much higher score than I expected.',
+    Excited_tr:
+      'Test sonuçlarımdan memnun kaldım; beklediğimden çok daha yüksek bir puan aldım.',
+  },
+  {
+    Exciting_ing:
+      'The fireworks show was thrilling; each explosion of color made the crowd cheer loudly.',
+    Exciting_tr:
+      'Havai fişek gösterisi heyecan vericiydi; her renk patlaması kalabalığın yüksek sesle tezahürat yapmasını sağladı.',
+    Excited_ing:
+      'She looked scared of the dog when it started barking loudly at her.',
+    Excited_tr:
+      'Köpek ona yüksek sesle havlamaya başladığında korkmuş görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The traffic jam this morning was frustrating; I was late to school because of it.',
+    Exciting_tr:
+      'Bu sabahki trafik sıkışıklığı sinir bozucuydu; bu yüzden okula geç kaldım.',
+    Excited_ing:
+      'He seemed disappointed by the loss of his favorite team in the championship.',
+    Excited_tr:
+      'Şampiyonada favori takımının kaybından hayal kırıklığına uğramış görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The new rules in class are confusing; I don’t know when we are supposed to turn in our homework.',
+    Exciting_tr:
+      'Sınıftaki yeni kurallar kafa karıştırıcı; ödevlerimizi ne zaman teslim etmemiz gerektiğini bilmiyorum.',
+    Excited_ing:
+      'They were shocked by the news of the sudden storm approaching the city.',
+    Excited_tr: 'Şehre yaklaşan ani fırtına haberine şok oldular.',
+  },
+  {
+    Exciting_ing:
+      'The TV show we watched last night was disappointing; the story didn’t make any sense.',
+    Exciting_tr:
+      'Dün gece izlediğimiz TV şovu hayal kırıklığı yaratıcıydı; hikaye hiç mantıklı değildi.',
+    Excited_ing:
+      'We felt bored during the meeting because it was too long and not very interesting.',
+    Excited_tr:
+      'Toplantı sırasında sıkıldık çünkü çok uzundu ve çok ilginç değildi.',
+  },
+  {
+    Exciting_ing:
+      'The dessert we had at the restaurant was amazing; it was the best chocolate cake I’ve ever tasted.',
+    Exciting_tr:
+      'Restoranda yediğimiz tatlı harikaydı; şimdiye kadar tattığım en iyi çikolatalı kekti.',
+    Excited_ing:
+      'I was amazed by her performance on stage; she sang like a professional singer.',
+    Excited_tr:
+      'Sahnedeki performansına hayran kaldım; profesyonel bir şarkıcı gibi şarkı söyledi.',
+  },
+  {
+    Exciting_ing:
+      'The museum exhibit was fascinating; I learned so much about ancient history.',
+    Exciting_tr:
+      'Müze sergisi büyüleyiciydi; antik tarih hakkında çok şey öğrendim.',
+    Excited_ing:
+      'She looked annoyed with the noise coming from the construction site next door.',
+    Excited_tr:
+      'Yan taraftaki inşaat alanından gelen sesten rahatsız olmuş görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The soccer game yesterday was thrilling; my favorite team won at the last minute.',
+    Exciting_tr:
+      'Dün oynanan futbol maçı heyecan vericiydi; favori takımım son dakikada kazandı.',
+    Excited_ing:
+      'He seemed excited for his birthday party because all his friends were coming.',
+    Excited_tr:
+      'Doğum günü partisi için heyecanlı görünüyordu çünkü tüm arkadaşları gelecekti.',
+  },
+  {
+    Exciting_ing:
+      'The rain outside is depressing; I wanted to go for a walk, but now I have to stay inside.',
+    Exciting_tr:
+      'Dışarıdaki yağmur iç karartıcı; yürüyüşe çıkmak istedim ama şimdi içeride kalmam gerekiyor.',
+    Excited_ing:
+      "They were worried about the exam results because they didn't study enough.",
+    Excited_tr:
+      'Sınav sonuçları hakkında endişeliydiler çünkü yeterince çalışmamışlardı.',
+  },
+  {
+    Exciting_ing:
+      'The magic trick he showed us was confusing; I have no idea how he did it.',
+    Exciting_tr:
+      'Bize gösterdiği sihir numarası kafa karıştırıcıydı; bunu nasıl yaptığını hiç anlamadım.',
+    Excited_ing:
+      'We felt confused by the directions because the map was hard to read.',
+    Excited_tr:
+      'Harita okunması zor olduğu için yön tariflerinden kafamız karıştı.',
+  },
+  {
+    Exciting_ing:
+      'The story the teacher told us was interesting; it was about a brave hero who saved his village.',
+    Exciting_tr:
+      'Öğretmenin bize anlattığı hikaye ilginçti; köyünü kurtaran cesur bir kahraman hakkındaydı.',
+    Excited_ing:
+      'I was pleased with the surprise birthday cake my friends made for me.',
+    Excited_tr:
+      'Arkadaşlarımın benim için yaptığı sürpriz doğum günü pastasından memnun kaldım.',
+  },
+  {
+    Exciting_ing:
+      'The parade in the city was amazing; people were dancing, singing, and celebrating.',
+    Exciting_tr:
+      'Şehirdeki geçit töreni harikaydı; insanlar dans ediyor, şarkı söylüyor ve kutlama yapıyordu.',
+    Excited_ing: 'She looked frustrated by her mistake in the final match.',
+    Excited_tr: 'Final maçındaki hatasından bıkmış görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The puzzle game is challenging; it makes me think really hard to find the solution.',
+    Exciting_tr:
+      'Bulmaca oyunu zorlayıcı; çözümü bulmak için çok derin düşünmemi sağlıyor.',
+    Excited_ing:
+      'He seemed relaxed on the weekend, enjoying his time with a good book.',
+    Excited_tr:
+      'Hafta sonu rahatlamış görünüyordu, iyi bir kitapla zaman geçiriyordu.',
+  },
+  {
+    Exciting_ing:
+      'The noise from the train station is annoying; it keeps waking me up in the morning.',
+    Exciting_tr:
+      'Tren istasyonundan gelen ses sinir bozucu; sabahları beni sürekli uyandırıyor.',
+    Excited_ing:
+      "They were amazed by the singer's voice at the concert last night.",
+    Excited_tr: 'Dün geceki konserde şarkıcının sesine hayran kaldılar.',
+  },
+  {
+    Exciting_ing:
+      'The animation movie we watched was fascinating; the characters looked so real.',
+    Exciting_tr:
+      'İzlediğimiz animasyon filmi büyüleyiciydi; karakterler çok gerçekçi görünüyordu.',
+    Excited_ing: 'We felt tired after the long walk through the forest trail.',
+    Excited_tr: 'Orman yolunda yapılan uzun yürüyüşten sonra yorgun hissettik.',
+  },
+  {
+    Exciting_ing:
+      'The science experiment we did in class was exciting; I loved watching the colors change.',
+    Exciting_tr:
+      'Sınıfta yaptığımız bilim deneyi heyecan vericiydi; renklerin değişimini izlemeyi çok sevdim.',
+    Excited_ing:
+      'I was bored at the library because I finished my book and had nothing else to read.',
+    Excited_tr:
+      'Kütüphanede sıkıldım çünkü kitabımı bitirdim ve okuyacak başka bir şeyim yoktu.',
+  },
+  {
+    Exciting_ing:
+      'The art project is challenging; I’m trying to draw a perfect circle but it’s really hard.',
+    Exciting_tr:
+      'Sanat projesi zorlayıcı; mükemmel bir daire çizmeye çalışıyorum ama gerçekten zor.',
+    Excited_ing:
+      'She looked surprised at the gift her brother gave her for her birthday.',
+    Excited_tr:
+      'Kardeşinin doğum günü için ona verdiği hediyeye şaşırmış görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The evening sky was stunning; the stars were so bright and the moon was shining.',
+    Exciting_tr:
+      'Akşam gökyüzü büyüleyiciydi; yıldızlar çok parlaktı ve ay parlıyordu.',
+    Excited_ing:
+      'He seemed scared of the dark and always kept a light on at night.',
+    Excited_tr:
+      'Karanlıktan korkmuş görünüyordu ve geceleri hep bir ışık açık bırakıyordu.',
+  },
+  {
+    Exciting_ing:
+      'The bus ride to the zoo was tiring; it took a long time, but we saw many animals.',
+    Exciting_tr:
+      'Hayvanat bahçesine yapılan otobüs yolculuğu yorucuydu; uzun sürdü ama birçok hayvan gördük.',
+    Excited_ing:
+      'They were pleased with the dinner at the new restaurant in town.',
+    Excited_tr: 'Şehirdeki yeni restorandaki akşam yemeğinden memnun kaldılar.',
+  },
+  {
+    Exciting_ing:
+      'The joke my friend told me was amusing; I laughed so much that my stomach hurt.',
+    Exciting_tr:
+      'Arkadaşımın bana anlattığı şaka eğlenceliydi; o kadar çok güldüm ki karnım ağrıdı.',
+    Excited_ing:
+      'We felt disappointed with the movie because the story was too simple.',
+    Excited_tr: 'Filmden hayal kırıklığına uğradık çünkü hikaye çok basitti.',
+  },
+  {
+    Exciting_ing:
+      'The fireworks display at the festival was thrilling; I’ve never seen anything so bright.',
+    Exciting_tr:
+      'Festivaldeki havai fişek gösterisi heyecan vericiydi; bu kadar parlak bir şey hiç görmedim.',
+    Excited_ing:
+      'I was shocked by the announcement that the school trip was canceled.',
+    Excited_tr: 'Okul gezisinin iptal edildiği duyurusuna şok oldum.',
+  },
+  {
+    Exciting_ing:
+      'The situation in the town is alarming; we need to find a way to help the people affected.',
+    Exciting_tr:
+      'Kasabadaki durum endişe verici; etkilenen insanlara yardım etmenin bir yolunu bulmalıyız.',
+    Excited_ing:
+      'She looked interested in the story the teacher was telling the class.',
+    Excited_tr:
+      'Öğretmenin sınıfa anlattığı hikayeye ilgi duyuyormuş gibi göründü.',
+  },
+  {
+    Exciting_ing:
+      'The test we took yesterday was confusing; I wasn’t sure what some of the questions meant.',
+    Exciting_tr:
+      'Dün yaptığımız test kafa karıştırıcıydı; bazı soruların ne anlama geldiğinden emin değildim.',
+    Excited_ing:
+      'He seemed amazed by the magic trick that the magician performed on stage.',
+    Excited_tr:
+      'Sihirbazın sahnede yaptığı sihir numarasına hayran kalmış gibi göründü.',
+  },
+  {
+    Exciting_ing:
+      'The movie about dinosaurs was exciting; I was on the edge of my seat the whole time.',
+    Exciting_tr:
+      'Dinozorlar hakkındaki film heyecan vericiydi; tüm süre boyunca koltuğumun ucundaydım.',
+    Excited_ing:
+      'They were frustrated by the delay in their flight to the vacation spot.',
+    Excited_tr: 'Tatil yerine uçuşlarındaki gecikmeden bıkmışlardı.',
+  },
+  {
+    Exciting_ing:
+      'The summer vacation we planned is amazing; I can’t wait to travel with my family.',
+    Exciting_tr:
+      'Planladığımız yaz tatili harika; ailemle seyahat etmeyi dört gözle bekliyorum.',
+    Excited_ing:
+      'We felt excited for the concert because our favorite band was playing live.',
+    Excited_tr:
+      'Konser için heyecanlı hissettik çünkü favori grubumuz canlı çalıyordu.',
+  },
+  {
+    Exciting_ing:
+      'The performance by the band was entertaining; everyone in the crowd was dancing to the music.',
+    Exciting_tr:
+      'Grubun performansı eğlenceliydi; kalabalıktaki herkes müziğe dans ediyordu.',
+    Excited_ing:
+      'I was confused by the map and couldn’t find the right way to the park.',
+    Excited_tr:
+      'Haritaya bakınca kafam karıştı ve parka giden doğru yolu bulamadım.',
+  },
+  {
+    Exciting_ing:
+      'The scary story she told us was frightening; I was too scared to sleep last night.',
+    Exciting_tr:
+      'Bize anlattığı korkunç hikaye korkutucuydu; dün gece uyuyamayacak kadar korktum.',
+    Excited_ing:
+      'She looked relaxed after the yoga class; her mind and body seemed calm.',
+    Excited_tr:
+      'Yoga dersinden sonra rahatlamış görünüyordu; zihni ve bedeni sakin görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The dinner my mom made was satisfying; I ate so much because it was delicious.',
+    Exciting_tr:
+      'Annemin yaptığı akşam yemeği tatmin ediciydi; çok yedim çünkü çok lezzetliydi.',
+    Excited_ing:
+      'He seemed surprised by the party his friends threw for his birthday.',
+    Excited_tr:
+      'Arkadaşlarının doğum günü için düzenlediği partiye şaşırmış görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The view from the top of the hill was stunning; I could see the entire city from there.',
+    Exciting_tr:
+      'Tepeden manzara büyüleyiciydi; oradan tüm şehri görebiliyordum.',
+    Excited_ing:
+      'They were tired from the long road trip but happy to finally arrive.',
+    Excited_tr:
+      'Uzun yolculuktan yorgunlardı ama sonunda varmış olmaktan mutluydular.',
+  },
+  {
+    Exciting_ing:
+      'The adventure game is thrilling; each level has a new surprise waiting for me.',
+    Exciting_tr:
+      'Macera oyunu heyecan verici; her seviyede beni bekleyen yeni bir sürpriz var.',
+    Excited_ing:
+      'We felt annoyed by the mosquitoes while camping in the woods.',
+    Excited_tr: 'Ormanda kamp yaparken sivrisineklerden rahatsız olduk.',
+  },
+  {
+    Exciting_ing:
+      'The conversation we had was confusing; I didn’t understand what they were talking about.',
+    Exciting_tr:
+      'Yaptığımız konuşma kafa karıştırıcıydı; ne hakkında konuştuklarını anlamadım.',
+    Excited_ing:
+      'I was pleased with my grade on the test because I studied very hard.',
+    Excited_tr: 'Testteki notumdan memnun kaldım çünkü çok çalıştım.',
+  },
+  {
+    Exciting_ing:
+      'The mystery book was fascinating; I didn’t want to put it down until I knew the ending.',
+    Exciting_tr:
+      'Gizemli kitap büyüleyiciydi; sonunu öğrenene kadar elimden bırakmak istemedim.',
+    Excited_ing:
+      'She looked scared of the spider crawling on the wall in her room.',
+    Excited_tr: 'Odasındaki duvarda dolaşan örümcekten korkmuş görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The park was amusing; there were clowns making balloon animals for the kids.',
+    Exciting_tr:
+      'Park eğlenceliydi; çocuklar için balon hayvanlar yapan palyaçolar vardı.',
+    Excited_ing: 'He seemed bored in the class and kept looking at his watch.',
+    Excited_tr: 'Derste sıkılmış görünüyordu ve sürekli saatine bakıyordu.',
+  },
+  {
+    Exciting_ing:
+      'The news report was alarming; it said that the storm would be worse than expected.',
+    Exciting_tr:
+      'Haber raporu endişe vericiydi; fırtınanın beklenenden daha kötü olacağını söyledi.',
+    Excited_ing:
+      "They were amazed by the dancer's performance at the talent show.",
+    Excited_tr: 'Yetenek gösterisinde dansçının performansına hayran kaldılar.',
+  },
+  {
+    Exciting_ing:
+      'The competition was exciting; everyone gave their best to win the first prize.',
+    Exciting_tr:
+      'Yarışma heyecan vericiydi; herkes birinci ödülü kazanmak için elinden geleni yaptı.',
+    Excited_ing:
+      'We felt shocked by the accident on the highway on our way to work.',
+    Excited_tr: 'İşe giderken otoyoldaki kazaya şok olduk.',
+  },
+  {
+    Exciting_ing:
+      'The puzzle in the newspaper was confusing; I couldn’t figure out the last word.',
+    Exciting_tr:
+      'Gazetedeki bulmaca kafa karıştırıcıydı; son kelimeyi çözemedim.',
+    Excited_ing:
+      'I was interested in the painting at the art gallery; it was full of colors.',
+    Excited_tr: 'Sanat galerisindeki tabloya ilgi duydum; renklerle doluydu.',
+  },
+  {
+    Exciting_ing:
+      'The sunset over the ocean was stunning; the colors in the sky were like a painting.',
+    Exciting_tr:
+      'Okyanus üzerindeki gün batımı büyüleyiciydi; gökyüzündeki renkler bir tablo gibiydi.',
+    Excited_ing:
+      'She looked tired after studying for her final exams all night.',
+    Excited_tr:
+      'Bütün gece final sınavlarına çalıştıktan sonra yorgun görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The exam was challenging; I studied all week but still found some questions hard.',
+    Exciting_tr:
+      'Sınav zorlayıcıydı; tüm hafta çalıştım ama yine de bazı soruları zor buldum.',
+    Excited_ing:
+      'He seemed confused by the question the teacher asked during the test.',
+    Excited_tr:
+      'Öğretmenin test sırasında sorduğu soruya bakınca kafası karışmış gibi göründü.',
+  },
+  {
+    Exciting_ing:
+      'The new rules at the game were confusing; I didn’t know when to score points.',
+    Exciting_tr:
+      'Oyundaki yeni kurallar kafa karıştırıcıydı; ne zaman puan kazanmam gerektiğini bilmiyordum.',
+    Excited_ing: 'They were relaxed in the garden, enjoying the sunny weather.',
+    Excited_tr:
+      'Bahçede rahatlamışlardı, güneşli havanın tadını çıkarıyorlardı.',
+  },
+  {
+    Exciting_ing:
+      'The music performance was amazing; they played my favorite songs beautifully.',
+    Exciting_tr:
+      'Müzik performansı harikaydı; favori şarkılarımı çok güzel çaldılar.',
+    Excited_ing:
+      'We felt frustrated with the task because it was more difficult than expected.',
+    Excited_tr: 'Görevden bıktık çünkü beklediğimizden daha zordu.',
+  },
+  {
+    Exciting_ing:
+      'The weather forecast was disappointing; I hoped for sunshine but it’s going to rain.',
+    Exciting_tr:
+      'Hava tahmini hayal kırıklığı yaratıcıydı; güneşli bir hava umuyordum ama yağmur yağacak.',
+    Excited_ing:
+      'I was pleased with my new car; it’s exactly what I was looking for.',
+    Excited_tr: 'Yeni arabamdan memnun kaldım; tam olarak aradığım gibi.',
+  },
+  {
+    Exciting_ing:
+      'The film was boring; I kept looking at my watch, waiting for it to end.',
+    Exciting_tr: 'Film sıkıcıydı; sürekli saatime bakarak bitmesini bekledim.',
+    Excited_ing:
+      'She looked excited for the holiday trip to the mountains with her family.',
+    Excited_tr:
+      'Ailesiyle birlikte dağlara tatile gitmek için heyecanlı görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The game was thrilling; we scored the winning goal in the last second.',
+    Exciting_tr: 'Oyun heyecan vericiydi; son saniyede kazandıran golü attık.',
+    Excited_ing:
+      'He seemed amazed by the scenery of the beautiful forest and river.',
+    Excited_tr: 'Güzel orman ve nehir manzarasına hayran kalmış görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The flower garden is fascinating; there are so many different colors and shapes.',
+    Exciting_tr:
+      'Çiçek bahçesi büyüleyici; çok fazla farklı renk ve şekil var.',
+    Excited_ing:
+      'They were surprised by the unexpected visit from their old friends.',
+    Excited_tr: 'Eski arkadaşlarının beklenmedik ziyaretine şaşırdılar.',
+  },
+  {
+    Exciting_ing:
+      'The traffic on the road was frustrating; we moved so slowly that we missed the movie.',
+    Exciting_tr:
+      'Yoldaki trafik sinir bozucuydu; o kadar yavaş ilerledik ki filmi kaçırdık.',
+    Excited_ing:
+      'We felt bored during the lesson because the topic was not very interesting.',
+    Excited_tr: 'Ders sırasında sıkıldık çünkü konu pek ilginç değildi.',
+  },
+  {
+    Exciting_ing:
+      'The story of the lost treasure was exciting; I imagined finding the treasure myself.',
+    Exciting_tr:
+      'Kayıp hazine hikayesi heyecan vericiydi; hazineyi kendim bulduğumu hayal ettim.',
+    Excited_ing:
+      'I was annoyed by the noise outside my window when I was trying to sleep.',
+    Excited_tr:
+      'Uyumaya çalışırken penceremin dışındaki sesten rahatsız oldum.',
+  },
+  {
+    Exciting_ing:
+      'The fireworks were thrilling; they lit up the sky in bright colors and loud bangs.',
+    Exciting_tr:
+      'Havai fişekler heyecan vericiydi; gökyüzünü parlak renkler ve yüksek patlamalarla aydınlattılar.',
+    Excited_ing:
+      'She looked interested in the movie, watching every scene closely.',
+    Excited_tr:
+      'Filme ilgi duyuyormuş gibi görünüyordu, her sahneyi dikkatle izliyordu.',
+  },
+  {
+    Exciting_ing:
+      'The detective story was confusing; I couldn’t guess who the thief was until the end.',
+    Exciting_tr:
+      'Dedektif hikayesi kafa karıştırıcıydı; hırsızın kim olduğunu sonuna kadar tahmin edemedim.',
+    Excited_ing:
+      'He seemed shocked by the result of the match; he thought his team would win.',
+    Excited_tr:
+      'Maçın sonucuna şok olmuş görünüyordu; takımı kazanacak sanıyordu.',
+  },
+  {
+    Exciting_ing:
+      'The play was entertaining; the actors made everyone laugh with their jokes.',
+    Exciting_tr: 'Oyun eğlenceliydi; oyuncular şakalarıyla herkesi güldürdü.',
+    Excited_ing:
+      'They were disappointed by the food at the restaurant; it wasn’t as good as they expected.',
+    Excited_tr:
+      'Restorandaki yemekten hayal kırıklığına uğradılar; bekledikleri kadar iyi değildi.',
+  },
+  {
+    Exciting_ing:
+      'The noise from the market is annoying; I can’t hear myself think with all the shouting.',
+    Exciting_tr:
+      'Pazardan gelen ses sinir bozucu; tüm bu bağırışlarla düşüncelerimi duyamıyorum.',
+    Excited_ing:
+      'We felt tired after the soccer game, but we were happy that we won.',
+    Excited_tr:
+      'Futbol maçından sonra yorgun hissettik, ama kazandığımız için mutluyduk.',
+  },
+  {
+    Exciting_ing:
+      'The zoo visit was amazing; I saw animals I’ve never seen before.',
+    Exciting_tr:
+      'Hayvanat bahçesi ziyareti harikaydı; daha önce hiç görmediğim hayvanlar gördüm.',
+    Excited_ing:
+      'I was scared during the thunderstorm; the lightning and thunder were very loud.',
+    Excited_tr:
+      'Fırtına sırasında korktum; şimşek ve gök gürültüsü çok yüksekti.',
+  },
+  {
+    Exciting_ing:
+      'The situation was alarming; we had to act quickly to help the injured people.',
+    Exciting_tr:
+      'Durum endişe vericiydi; yaralı insanlara yardım etmek için hızlı hareket etmeliydik.',
+    Excited_ing:
+      "She looked pleased with her dress; she couldn't stop smiling at her reflection.",
+    Excited_tr:
+      'Elbisesinden memnun görünüyordu; yansımasına bakıp gülümsemekten kendini alamıyordu.',
+  },
+  {
+    Exciting_ing:
+      'The conversation was confusing; I got lost in all the different topics they discussed.',
+    Exciting_tr:
+      'Konuşma kafa karıştırıcıydı; tartıştıkları tüm farklı konularda kayboldum.',
+    Excited_ing:
+      'He seemed relaxed in the hot tub, closing his eyes and enjoying the bubbles.',
+    Excited_tr:
+      'Sıcak küvette rahatlamış görünüyordu, gözlerini kapatıp kabarcıkların tadını çıkarıyordu.',
+  },
+  {
+    Exciting_ing:
+      'The match was thrilling; both teams played really well, and the score was very close.',
+    Exciting_tr:
+      'Maç heyecan vericiydi; her iki takım da çok iyi oynadı ve skor çok yakındı.',
+    Excited_ing:
+      'They were excited for the festival in their town; they had been waiting all year.',
+    Excited_tr:
+      'Şehirlerindeki festival için heyecanlıydılar; bütün yıl boyunca beklemişlerdi.',
+  },
+  {
+    Exciting_ing:
+      'The class was boring; I felt sleepy because the teacher spoke in a low voice.',
+    Exciting_tr:
+      'Ders sıkıcıydı; öğretmen düşük bir sesle konuştuğu için uykum geldi.',
+    Excited_ing:
+      'We felt amazed by the sunset over the ocean; the colors were simply stunning.',
+    Excited_tr:
+      'Okyanus üzerindeki gün batımına hayran kaldık; renkler gerçekten büyüleyiciydi.',
+  },
+  {
+    Exciting_ing:
+      'The weather is depressing; it’s been raining all week, and I miss the sunshine.',
+    Exciting_tr:
+      'Hava iç karartıcı; bütün hafta boyunca yağmur yağıyor ve güneşi özledim.',
+    Excited_ing:
+      'I was surprised by the present that my best friend gave me on my birthday.',
+    Excited_tr:
+      'En iyi arkadaşımın doğum günümde bana verdiği hediyeye şaşırdım.',
+  },
+  {
+    Exciting_ing:
+      'The book was fascinating; it was full of amazing facts about space and planets.',
+    Exciting_tr:
+      'Kitap büyüleyiciydi; uzay ve gezegenler hakkında inanılmaz bilgilerle doluydu.',
+    Excited_ing:
+      "She looked confused by the puzzle; she tried so hard but still couldn't solve it.",
+    Excited_tr:
+      'Bulmacaya bakınca kafası karışmış gibi görünüyordu; çok uğraştı ama yine de çözemedi.',
+  },
+  {
+    Exciting_ing:
+      'The meal was satisfying; I felt happy and full after eating my favorite dish.',
+    Exciting_tr:
+      'Yemek tatmin ediciydi; en sevdiğim yemeği yedikten sonra mutlu ve tok hissettim.',
+    Excited_ing:
+      'He seemed worried about the interview he had tomorrow with the big company.',
+    Excited_tr:
+      'Yarın büyük şirketle yapacağı mülakat hakkında endişeli görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The lesson was interesting; I learned a lot about different cultures around the world.',
+    Exciting_tr:
+      'Ders ilginçti; dünya çapında farklı kültürler hakkında çok şey öğrendim.',
+    Excited_ing:
+      'They were tired from the hike up the mountain but felt proud of reaching the top.',
+    Excited_tr:
+      'Dağa yapılan yürüyüşten yorulmuşlardı ama zirveye ulaşmanın gururunu yaşadılar.',
+  },
+  {
+    Exciting_ing:
+      'The movie was disappointing; the trailers made it look better than it actually was.',
+    Exciting_tr:
+      'Film hayal kırıklığı yaratıcıydı; fragmanlar onu olduğundan daha iyi gösteriyordu.',
+    Excited_ing:
+      'We felt frustrated with the traffic; it seemed like we would never get home.',
+    Excited_tr: 'Trafikten bıktık; eve asla varamayacakmışız gibi görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The game was challenging; I had to think really hard to solve each puzzle.',
+    Exciting_tr:
+      'Oyun zorlayıcıydı; her bulmacayı çözmek için çok düşünmem gerekti.',
+    Excited_ing:
+      'I was pleased with my friend’s help on the project; I couldn’t have done it without her.',
+    Excited_tr:
+      'Arkadaşımın projede yaptığı yardımdan memnun kaldım; onsuz yapamazdım.',
+  },
+  {
+    Exciting_ing:
+      'The song was relaxing; it made me feel calm and ready to sleep.',
+    Exciting_tr:
+      'Şarkı rahatlatıcıydı; beni sakinleştirip uykuya hazır hale getirdi.',
+    Excited_ing:
+      'She looked shocked by the event that happened at the party last night.',
+    Excited_tr: 'Dün gece partide olan olay karşısında şok olmuş görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The roller coaster was frightening; my heart was beating so fast the entire time.',
+    Exciting_tr:
+      'Roller coaster korkutucuydu; kalbim tüm süre boyunca çok hızlı atıyordu.',
+    Excited_ing:
+      'He seemed scared of the snake that was hiding under the rock.',
+    Excited_tr: 'Kayaların altında saklanan yılandan korkmuş görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The documentary was fascinating; it showed how animals live in the wild.',
+    Exciting_tr:
+      'Belgesel büyüleyiciydi; hayvanların vahşi doğada nasıl yaşadıklarını gösterdi.',
+    Excited_ing:
+      'They were interested in the exhibit at the museum; they spent hours looking at the art.',
+    Excited_tr:
+      'Müzedeki sergiye ilgi duyuyorlardı; sanat eserlerine saatlerce baktılar.',
+  },
+  {
+    Exciting_ing:
+      'The sunset was stunning; the sky was painted with pink and orange colors.',
+    Exciting_tr:
+      'Gün batımı büyüleyiciydi; gökyüzü pembe ve turuncu renklerle boyanmıştı.',
+    Excited_ing:
+      'We felt bored during the speech because it was too long and not engaging.',
+    Excited_tr:
+      'Konuşma sırasında sıkıldık çünkü çok uzundu ve ilgi çekici değildi.',
+  },
+  {
+    Exciting_ing:
+      'The sports event was thrilling; everyone was cheering loudly for their favorite team.',
+    Exciting_tr:
+      'Spor etkinliği heyecan vericiydi; herkes favori takımı için yüksek sesle tezahürat yapıyordu.',
+    Excited_ing:
+      'I was amazed by the fireworks at the festival; they lit up the entire night sky.',
+    Excited_tr:
+      'Festivaldeki havai fişeklere hayran kaldım; tüm gece gökyüzünü aydınlattılar.',
+  },
+  {
+    Exciting_ing:
+      'The noise from the street was annoying; I couldn’t focus on my homework at all.',
+    Exciting_tr:
+      'Sokaktan gelen ses sinir bozucuydu; ödevime hiç odaklanamadım.',
+    Excited_ing:
+      'She looked annoyed at the mess in the kitchen that her brother left.',
+    Excited_tr:
+      'Kardeşinin mutfakta bıraktığı dağınıklığa kızmış gibi göründü.',
+  },
+  {
+    Exciting_ing:
+      'The science experiment was confusing; I didn’t understand why the liquid changed color.',
+    Exciting_tr:
+      'Bilim deneyi kafa karıştırıcıydı; sıvının neden renk değiştirdiğini anlamadım.',
+    Excited_ing:
+      'He seemed excited for the vacation to the mountains that they planned.',
+    Excited_tr: 'Planladıkları dağ tatili için heyecanlı görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The art class was interesting; we learned how to mix colors to create new shades.',
+    Exciting_tr:
+      'Sanat dersi ilginçti; yeni tonlar oluşturmak için renkleri nasıl karıştıracağımızı öğrendik.',
+    Excited_ing:
+      'They were pleased with the hotel room; it was clean, comfortable, and had a nice view.',
+    Excited_tr:
+      'Otel odasından memnun kaldılar; temizdi, rahattı ve güzel bir manzaraya sahipti.',
+  },
+  {
+    Exciting_ing:
+      'The puzzle we did was challenging; it took us all evening to finish it.',
+    Exciting_tr:
+      'Yaptığımız bulmaca zorlayıcıydı; onu bitirmek bütün akşamımızı aldı.',
+    Excited_ing:
+      'We felt tired from the journey but were happy to finally reach our destination.',
+    Excited_tr:
+      'Yolculuktan yorgun hissettik ama sonunda varış noktamıza ulaşmaktan mutluyduk.',
+  },
+  {
+    Exciting_ing:
+      'The book we read in class was fascinating; it had a lot of unexpected twists.',
+    Exciting_tr:
+      'Sınıfta okuduğumuz kitap büyüleyiciydi; birçok beklenmedik dönemeç vardı.',
+    Excited_ing:
+      'I was shocked by the loud noise that woke me up in the middle of the night.',
+    Excited_tr: 'Gece yarısı beni uyandıran yüksek sesten şok oldum.',
+  },
+  {
+    Exciting_ing:
+      'The music at the party was entertaining; everyone was dancing and having a good time.',
+    Exciting_tr:
+      'Partideki müzik eğlenceliydi; herkes dans ediyor ve iyi vakit geçiriyordu.',
+    Excited_ing:
+      'She looked scared of the heights when we reached the top of the tall building.',
+    Excited_tr:
+      'Yüksek binanın tepesine ulaştığımızda yükseklikten korkmuş görünüyordu.',
+  },
+  {
+    Exciting_ing:
+      'The ride on the boat was relaxing; the gentle waves made me feel calm.',
+    Exciting_tr:
+      'Teknedeki yolculuk rahatlatıcıydı; hafif dalgalar beni sakinleştirdi.',
+    Excited_ing:
+      'He seemed confused by the menu in the restaurant; he didn’t know what to order.',
+    Excited_tr:
+      'Restorandaki menüye bakınca kafası karışmış gibi görünüyordu; ne sipariş vereceğini bilmiyordu.',
+  },
+  {
+    Exciting_ing:
+      'The story my friend told me was amusing; it was so funny that I couldn’t stop laughing.',
+    Exciting_tr:
+      'Arkadaşımın anlattığı hikaye eğlenceliydi; o kadar komikti ki gülmeyi bırakamadım.',
+    Excited_ing:
+      'They were amazed by the magic show they saw at the theater last week.',
+    Excited_tr:
+      'Geçen hafta tiyatroda izledikleri sihir gösterisine hayran kaldılar.',
+  },
+  {
+    Exciting_ing:
+      'The movie about the space adventure was thrilling; I wished I could be an astronaut too.',
+    Exciting_tr:
+      'Uzay macerası hakkındaki film heyecan vericiydi; ben de bir astronot olmak istedim.',
+    Excited_ing:
+      'We felt relaxed in the warm sun on the beach, listening to the sound of the waves.',
+    Excited_tr:
+      'Plajda sıcak güneşte, dalgaların sesini dinlerken rahat hissettik.',
   },
 ];

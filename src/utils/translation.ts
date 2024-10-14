@@ -55220,3 +55220,4685 @@ export const AdjectivesAdverbsTranslationSentences = {
     },
   ],
 };
+
+export const IndefinitePronounsTranslationSentences = {
+  APronouns: [
+    {ing: 'Is anybody home?', tr: 'Evde kimse var mı?'},
+    {
+      ing: 'I didn’t see anybody at the party.',
+      tr: 'Partide kimseyi görmedim.',
+    },
+    {
+      ing: 'Can anybody help me with this?',
+      tr: 'Bu konuda bana yardımcı olabilecek kimse var mı?',
+    },
+    {
+      ing: 'I don’t think anybody will mind.',
+      tr: 'Kimsenin buna aldıracağını sanmıyorum.',
+    },
+    {
+      ing: 'Has anybody called you today?',
+      tr: 'Bugün seni arayan kimse oldu mu?',
+    },
+    {
+      ing: 'I would like to invite anybody who is interested.',
+      tr: 'İlgi duyan herkesi davet etmek istiyorum.',
+    },
+    {
+      ing: 'Is there anybody who knows the answer?',
+      tr: 'Cevabı bilen kimse var mı?',
+    },
+    {
+      ing: 'I can’t find anybody to go with me.',
+      tr: 'Benimle gidecek kimse bulamıyorum.',
+    },
+    {
+      ing: 'Does anybody want to join us for lunch?',
+      tr: 'Öğle yemeğine bizimle katılmak isteyen kimse var mı?',
+    },
+    {
+      ing: 'I haven’t told anybody about my plans.',
+      tr: 'Planlarımdan kimseye bahsetmedim.',
+    },
+    {
+      ing: 'Can anybody recommend a good restaurant?',
+      tr: 'İyi bir restoran önerebilecek kimse var mı?',
+    },
+    {
+      ing: 'I hope anybody who needs help will ask.',
+      tr: 'Yardıma ihtiyacı olan kimsenin sormasını umuyorum.',
+    },
+    {
+      ing: 'I don’t know anybody in this city.',
+      tr: 'Bu şehirde tanıdığım kimse yok.',
+    },
+    {
+      ing: 'Is there anybody who can speak English?',
+      tr: 'İngilizce konuşabilen kimse var mı?',
+    },
+    {ing: 'Has anybody seen my keys?', tr: 'Anahtarlarımı gören kimse var mı?'},
+    {
+      ing: 'I can’t find anybody to talk to.',
+      tr: 'Konuşacak kimse bulamıyorum.',
+    },
+    {ing: 'Does anybody have a pen?', tr: 'Kalemi olan kimse var mı?'},
+    {
+      ing: "I don't want to disturb anybody.",
+      tr: 'Kimseyi rahatsız etmek istemiyorum.',
+    },
+    {
+      ing: 'Has anybody visited that museum?',
+      tr: 'O müzeyi ziyaret eden kimse oldu mu?',
+    },
+    {
+      ing: 'I think anybody would agree with that.',
+      tr: 'Kimsenin buna katılmayacağını düşünüyorum.',
+    },
+    {ing: 'Is anybody waiting for you?', tr: 'Seni bekleyen kimse var mı?'},
+    {
+      ing: 'I can’t trust anybody after what happened.',
+      tr: 'Olanlardan sonra kimseye güvenemem.',
+    },
+    {
+      ing: 'Does anybody know where she went?',
+      tr: 'Kimse onun nereye gittiğini biliyor mu?',
+    },
+    {
+      ing: "I haven't seen anybody in this area.",
+      tr: 'Bu bölgede kimseyi görmedim.',
+    },
+    {
+      ing: 'Is there anybody who can help us?',
+      tr: 'Bize yardım edebilecek kimse var mı?',
+    },
+    {
+      ing: 'I would talk to anybody who listens.',
+      tr: 'Dinleyen kimseyle konuşurum.',
+    },
+    {
+      ing: 'Can anybody explain this problem to me?',
+      tr: 'Bu problemi bana açıklayabilecek kimse var mı?',
+    },
+    {
+      ing: "I didn't expect anybody to show up.",
+      tr: 'Kimsenin gelmesini beklemiyordum.',
+    },
+    {
+      ing: 'Does anybody have any questions?',
+      tr: 'Kimse soru sormak ister mi?',
+    },
+    {
+      ing: "I don't think anybody would want to do that.",
+      tr: 'Kimsenin bunu yapmak istemeyeceğini düşünüyorum.',
+    },
+    {
+      ing: 'Is anybody interested in joining the club?',
+      tr: 'Kulübe katılmakla ilgilenen kimse var mı?',
+    },
+    {
+      ing: 'I’m not going to tell anybody about this.',
+      tr: 'Bu konuda kimseye bir şey söylemeyeceğim.',
+    },
+    {
+      ing: 'Has anybody finished the report?',
+      tr: 'Raporu bitiren kimse var mı?',
+    },
+    {
+      ing: 'Can anybody tell me the time?',
+      tr: 'Bana saati söyleyebilecek kimse var mı?',
+    },
+    {ing: 'I don’t see anybody I know.', tr: 'Tanıdığım kimseyi göremiyorum.'},
+    {
+      ing: 'Has anybody helped you with your homework?',
+      tr: 'Ödevinle ilgili sana yardım eden kimse oldu mu?',
+    },
+    {
+      ing: 'I hope anybody can find a solution.',
+      tr: 'Umarım herkes bir çözüm bulabilir.',
+    },
+    {
+      ing: 'I would appreciate anybody’s feedback.',
+      tr: 'Herhangi birinin geri bildirimini takdir ederim.',
+    },
+    {
+      ing: 'Is anybody willing to help us out?',
+      tr: 'Bize yardım etmeye istekli kimse var mı?',
+    },
+    {
+      ing: "I can't believe anybody would do that.",
+      tr: 'Kimsenin bunu yapabileceğine inanamıyorum.',
+    },
+    {
+      ing: 'Can anybody share their experience?',
+      tr: 'Tecrübelerini paylaşabilecek kimse var mı?',
+    },
+    {
+      ing: 'I don’t know anybody who works here.',
+      tr: 'Burada çalışan kimseyi tanımıyorum.',
+    },
+    {
+      ing: 'Is there anybody I can talk to?',
+      tr: 'Konuşabileceğim kimse var mı?',
+    },
+    {
+      ing: 'Has anybody mentioned the meeting?',
+      tr: 'Toplantıdan bahseden kimse oldu mu?',
+    },
+    {
+      ing: 'I wish anybody would notice my efforts.',
+      tr: 'Keşke biri çabalarımı fark etse.',
+    },
+    {
+      ing: 'Can anybody help me with directions?',
+      tr: 'Yolda bana yardımcı olabilecek kimse var mı?',
+    },
+    {
+      ing: "I haven't heard from anybody lately.",
+      tr: 'Son zamanlarda kimseyle iletişim kurmadım.',
+    },
+    {
+      ing: 'Is anybody else coming to the party?',
+      tr: 'Partiye başka kimse geliyor mu?',
+    },
+    {
+      ing: 'I think anybody would love this show.',
+      tr: 'Kimse bu gösteriyi sevecektir.',
+    },
+    {
+      ing: 'I would ask anybody for advice.',
+      tr: 'Tavsiye almak için kimseye danışırım.',
+    },
+    {ing: 'Anyone can join the club.', tr: 'Herkes kulübe katılabilir.'},
+    {
+      ing: 'Does anyone know how to fix this?',
+      tr: 'Bunu nasıl düzeltebileceğini bilen kimse var mı?',
+    },
+    {
+      ing: 'I haven’t told anyone about my plans.',
+      tr: 'Planlarımdan hiç kimseye bahsetmedim.',
+    },
+    {
+      ing: 'Anyone can participate in the contest.',
+      tr: 'Herkes yarışmaya katılabilir.',
+    },
+    {
+      ing: 'Has anyone seen my glasses?',
+      tr: 'Gözlüklerimi gören kimse var mı?',
+    },
+    {
+      ing: 'I would help anyone in need.',
+      tr: 'İhtiyaç duyan herkese yardım ederim.',
+    },
+    {ing: 'Does anyone have a suggestion?', tr: 'Önerisi olan kimse var mı?'},
+    {
+      ing: "I don't know anyone in this town.",
+      tr: 'Bu şehirde tanıdığım kimse yok.',
+    },
+    {
+      ing: 'Has anyone finished the project?',
+      tr: 'Projeyi bitiren kimse var mı?',
+    },
+    {
+      ing: 'Anyone can learn to play an instrument.',
+      tr: 'Herkes bir enstrüman çalmayı öğrenebilir.',
+    },
+    {
+      ing: 'I haven’t heard from anyone recently.',
+      tr: 'Son zamanlarda hiç kimseden haber almadım.',
+    },
+    {
+      ing: 'Is there anyone who can help me?',
+      tr: 'Bana yardım edebilecek kimse var mı?',
+    },
+    {
+      ing: 'Anyone who wants to participate should sign up.',
+      tr: 'Katılmak isteyen herkes kaydolmalıdır.',
+    },
+    {
+      ing: "I can't believe anyone would do that.",
+      tr: 'Kimsenin bunu yapabileceğine inanamıyorum.',
+    },
+    {ing: 'Has anyone tried this dish?', tr: 'Bu yemeği deneyen kimse var mı?'},
+    {ing: 'Anyone can apply for the job.', tr: 'Herkes bu işe başvurabilir.'},
+    {
+      ing: 'I hope anyone can find a solution.',
+      tr: 'Umarım herkes bir çözüm bulabilir.',
+    },
+    {
+      ing: 'Is anyone interested in the project?',
+      tr: 'Projeye ilgi duyan kimse var mı?',
+    },
+    {
+      ing: 'I would ask anyone for help.',
+      tr: 'Yardım almak için kimseye sorarım.',
+    },
+    {
+      ing: 'Does anyone want to join us for dinner?',
+      tr: 'Akşam yemeğine bizimle katılmak isteyen kimse var mı?',
+    },
+    {
+      ing: 'Anyone who knows the answer should raise their hand.',
+      tr: 'Cevabı bilen herkes elini kaldırmalıdır.',
+    },
+    {
+      ing: 'I believe anyone can achieve their dreams.',
+      tr: 'Herkesin hayallerini gerçekleştirebileceğine inanıyorum.',
+    },
+    {
+      ing: 'There isn’t anyone here at the moment.',
+      tr: 'Şu anda burada kimse yok.',
+    },
+    {
+      ing: 'Has anyone brought snacks for the meeting?',
+      tr: 'Toplantıya atıştırmalık getiren kimse var mı?',
+    },
+    {ing: 'Anyone can make mistakes.', tr: 'Herkes hata yapabilir.'},
+    {ing: 'I wish anyone would help me.', tr: 'Keşke birisi bana yardım etse.'},
+    {
+      ing: 'Is there anyone who can speak Spanish?',
+      tr: 'İspanyolca konuşabilen kimse var mı?',
+    },
+    {
+      ing: 'Anyone can see the beauty in nature.',
+      tr: 'Herkes doğadaki güzellikleri görebilir.',
+    },
+    {
+      ing: 'I don’t want anyone to feel left out.',
+      tr: 'Kimsenin dışarıda kalmasını istemiyorum.',
+    },
+    {
+      ing: 'Can anyone tell me the time?',
+      tr: 'Beni saate sorabilecek kimse var mı?',
+    },
+    {
+      ing: 'I think anyone would enjoy this movie.',
+      tr: 'Sanırım herkes bu filmi sevecektir.',
+    },
+    {
+      ing: 'Has anyone mentioned the plan?',
+      tr: 'Plandan bahseden kimse oldu mu?',
+    },
+    {ing: 'Anyone can attend the seminar.', tr: 'Herkes seminere katılabilir.'},
+    {
+      ing: 'I can’t imagine anyone would disagree.',
+      tr: 'Hiç kimsenin karşı çıkabileceğini hayal edemiyorum.',
+    },
+    {
+      ing: 'Is anyone else coming to the event?',
+      tr: 'Etkinliğe başka kimse geliyor mu?',
+    },
+    {
+      ing: 'Anyone who needs help can ask.',
+      tr: 'Yardıma ihtiyacı olan herkes sorabilir.',
+    },
+    {
+      ing: "I haven't seen anyone around lately.",
+      tr: 'Son zamanlarda etrafta kimse görmedim.',
+    },
+    {
+      ing: 'Anyone interested should contact me.',
+      tr: 'İlgilenenler benimle iletişime geçmelidir.',
+    },
+    {
+      ing: 'I would appreciate anyone’s feedback.',
+      tr: 'Herhangi birinin geri bildirimini takdir ederim.',
+    },
+    {
+      ing: 'I trust anyone who is honest.',
+      tr: 'Dürüst olan herkesin güvenini kazanırım.',
+    },
+    {
+      ing: 'Can anyone share their experience?',
+      tr: 'Tecrübelerini paylaşabilecek kimse var mı?',
+    },
+    {
+      ing: 'I hope anyone can help solve this problem.',
+      tr: 'Umarım herkes bu problemi çözmeye yardımcı olabilir.',
+    },
+    {
+      ing: 'Does anyone have an extra pen?',
+      tr: 'Fazla kalemi olan kimse var mı?',
+    },
+    {
+      ing: 'Anyone can learn a new language.',
+      tr: 'Herkes yeni bir dil öğrenebilir.',
+    },
+    {
+      ing: 'I would like to speak to anyone in charge.',
+      tr: 'Sorumlu olan kimseyle konuşmak istiyorum.',
+    },
+    {ing: 'Is there anyone available to meet?', tr: 'Görüşecek birisi var mı?'},
+    {
+      ing: "I don't want anyone to worry.",
+      tr: 'Kimsenin endişelenmesini istemiyorum.',
+    },
+    {
+      ing: 'Anyone can be a leader if they try.',
+      tr: 'Deneyen herkes lider olabilir.',
+    },
+    {
+      ing: 'I need anyone’s opinion on this matter.',
+      tr: 'Bu konuda herkesin görüşüne ihtiyacım var.',
+    },
+    {
+      ing: 'Does anyone know where the nearest station is?',
+      tr: 'En yakın istasyonun nerede olduğunu bilen kimse var mı?',
+    },
+    {
+      ing: 'Is there anything I can do to help?',
+      tr: 'Yardım etmek için yapabileceğim bir şey var mı?',
+    },
+    {
+      ing: 'I didn’t eat anything for breakfast.',
+      tr: 'Kahvaltıda hiçbir şey yemedim.',
+    },
+    {
+      ing: 'Can you give me anything to drink?',
+      tr: 'Bana içecek bir şey verebilir misin?',
+    },
+    {
+      ing: 'Anything is possible if you believe.',
+      tr: 'İnanırsan her şey mümkündür.',
+    },
+    {
+      ing: 'I don’t want anything from you.',
+      tr: 'Senden hiçbir şey istemiyorum.',
+    },
+    {
+      ing: 'Did you find anything interesting?',
+      tr: 'İlginç bir şey buldun mu?',
+    },
+    {
+      ing: 'I’ll do anything to make you happy.',
+      tr: 'Seni mutlu etmek için her şeyi yaparım.',
+    },
+    {
+      ing: 'There isn’t anything left in the fridge.',
+      tr: 'Buzdolabında hiçbir şey kalmadı.',
+    },
+    {
+      ing: 'Anything can happen at any time.',
+      tr: 'Herhangi bir zamanda her şey olabilir.',
+    },
+    {
+      ing: 'I need anything to help me focus.',
+      tr: 'Konsantre olmama yardımcı olacak herhangi bir şeye ihtiyacım var.',
+    },
+    {
+      ing: 'You can choose anything you like.',
+      tr: 'İstediğin herhangi bir şeyi seçebilirsin.',
+    },
+    {
+      ing: 'I can’t find anything in this mess.',
+      tr: 'Bu dağınıklıkta hiçbir şey bulamıyorum.',
+    },
+    {
+      ing: 'Did you see anything unusual?',
+      tr: 'Alışılmadık bir şey gördün mü?',
+    },
+    {
+      ing: 'I’ll take anything that is available.',
+      tr: 'Mevcut olan her şeyi alırım.',
+    },
+    {
+      ing: 'Is there anything else you need?',
+      tr: 'Başka bir şeye ihtiyacın var mı?',
+    },
+    {
+      ing: 'I believe anything is possible with hard work.',
+      tr: 'Sıkı çalışmayla her şeyin mümkün olduğuna inanıyorum.',
+    },
+    {
+      ing: 'I can’t think of anything right now.',
+      tr: 'Şu anda hiçbir şey düşünemiyorum.',
+    },
+    {
+      ing: 'Anything can change in a moment.',
+      tr: 'Bir anda her şey değişebilir.',
+    },
+    {
+      ing: 'I hope to see anything new this year.',
+      tr: 'Bu yıl yeni bir şey görmeyi umuyorum.',
+    },
+    {
+      ing: 'I didn’t say anything to anyone.',
+      tr: 'Hiç kimseye bir şey söylemedim.',
+    },
+    {
+      ing: 'There’s nothing you can do about it.',
+      tr: 'Bununla ilgili yapabileceğin hiçbir şey yok.',
+    },
+    {ing: 'I will try anything once.', tr: 'Bir kez her şeyi deneyeceğim.'},
+    {
+      ing: 'Anything you say will be considered.',
+      tr: 'Söylediklerin dikkate alınacaktır.',
+    },
+    {
+      ing: 'I’m willing to try anything for a change.',
+      tr: 'Değişiklik için her şeyi denemeye istekliyim.',
+    },
+    {ing: 'Did you bring anything to eat?', tr: 'Yiyecek bir şey getirdin mi?'},
+    {
+      ing: 'I would give anything to travel the world.',
+      tr: 'Dünyayı gezmek için her şeyi veririm.',
+    },
+    {
+      ing: 'You can do anything if you set your mind to it.',
+      tr: 'Kararlılıkla istediğin her şeyi yapabilirsin.',
+    },
+    {
+      ing: 'I didn’t hear anything during the movie.',
+      tr: 'Film sırasında hiçbir şey duymadım.',
+    },
+    {
+      ing: 'There’s nothing more important than family.',
+      tr: 'Aileden daha önemli hiçbir şey yoktur.',
+    },
+    {
+      ing: 'I wish I could find anything useful.',
+      tr: 'Faydalı bir şey bulabilmeyi dilerdim.',
+    },
+    {
+      ing: 'I can’t think of anything to say.',
+      tr: 'Söyleyecek hiçbir şey düşünemiyorum.',
+    },
+    {
+      ing: 'Anything you need, just ask.',
+      tr: 'İhtiyacın olan her şeyi, sadece sor.',
+    },
+    {
+      ing: 'I didn’t notice anything strange.',
+      tr: 'Alışılmadık bir şey fark etmedim.',
+    },
+    {
+      ing: 'I hope you find anything you’re looking for.',
+      tr: 'Aradığın her şeyi bulmanı umuyorum.',
+    },
+    {
+      ing: 'I’ll buy anything that’s on sale.',
+      tr: 'İndirimde olan her şeyi alırım.',
+    },
+    {
+      ing: 'Anything is better than nothing.',
+      tr: 'Hiçbir şeyden daha iyi her şey var.',
+    },
+    {
+      ing: 'I don’t have anything planned for the weekend.',
+      tr: 'Hafta sonu için planım yok.',
+    },
+    {
+      ing: 'Can you show me anything new?',
+      tr: 'Bana yeni bir şey gösterebilir misin?',
+    },
+    {
+      ing: 'I believe anything can be improved.',
+      tr: 'Her şeyin geliştirilebileceğine inanıyorum.',
+    },
+    {
+      ing: 'There isn’t anything wrong with your idea.',
+      tr: 'Fikrinde hiçbir yanlışlık yok.',
+    },
+    {
+      ing: 'If you need anything, let me know.',
+      tr: 'Bir şeye ihtiyacın olursa bana haber ver.',
+    },
+    {
+      ing: 'I didn’t see anything unusual in the report.',
+      tr: 'Raporda alışılmadık bir şey görmedim.',
+    },
+    {
+      ing: 'I would do anything to help you.',
+      tr: 'Sana yardım etmek için her şeyi yaparım.',
+    },
+    {
+      ing: 'Is there anything I can do for you?',
+      tr: 'Senin için yapabileceğim bir şey var mı?',
+    },
+    {
+      ing: 'Anything is possible with determination.',
+      tr: 'Azimle her şey mümkündür.',
+    },
+    {
+      ing: 'I didn’t find anything interesting in that book.',
+      tr: 'O kitapta ilginç hiçbir şey bulamadım.',
+    },
+    {
+      ing: 'I will take anything you recommend.',
+      tr: 'Tavsiye ettiğin her şeyi alırım.',
+    },
+    {
+      ing: 'You can ask anything you want.',
+      tr: 'İstediğin her şeyi sorabilirsin.',
+    },
+    {
+      ing: 'I don’t know anything about the topic.',
+      tr: 'Konu hakkında hiçbir şey bilmiyorum.',
+    },
+    {
+      ing: 'Is there anything you would like to add?',
+      tr: 'Eklemek istediğin bir şey var mı?',
+    },
+    {
+      ing: 'I can’t find my keys anywhere.',
+      tr: 'Anahtarlarımı hiçbir yerde bulamıyorum.',
+    },
+    {
+      ing: 'Is there anywhere to eat around here?',
+      tr: 'Burada yemek yiyecek bir yer var mı?',
+    },
+    {
+      ing: 'I didn’t see you anywhere yesterday.',
+      tr: 'Seni dün hiçbir yerde görmedim.',
+    },
+    {
+      ing: 'Can we go anywhere after the movie?',
+      tr: 'Filmden sonra herhangi bir yere gidebilir miyiz?',
+    },
+    {
+      ing: 'I looked everywhere but found it nowhere.',
+      tr: 'Her yeri aradım ama onu hiçbir yerde bulamadım.',
+    },
+    {ing: 'Is there anywhere I can sit?', tr: 'Oturabileceğim bir yer var mı?'},
+    {
+      ing: 'I would like to travel anywhere in the world.',
+      tr: 'Dünyanın her yerinde seyahat etmek isterim.',
+    },
+    {
+      ing: 'You can find peace anywhere in nature.',
+      tr: 'Doğada her yerde huzur bulabilirsin.',
+    },
+    {
+      ing: "I don't want to go anywhere right now.",
+      tr: 'Şu anda hiçbir yere gitmek istemiyorum.',
+    },
+    {
+      ing: 'Can we meet anywhere you like?',
+      tr: 'Buluşabileceğimiz herhangi bir yer var mı?',
+    },
+    {
+      ing: 'There is nowhere to park the car.',
+      tr: 'Arabayı park edecek hiçbir yer yok.',
+    },
+    {
+      ing: 'I can’t go anywhere without my phone.',
+      tr: 'Telefonum olmadan hiçbir yere gidemem.',
+    },
+    {
+      ing: 'You can find beauty anywhere if you look closely.',
+      tr: 'Yakından bakarsan her yerde güzellik bulabilirsin.',
+    },
+    {
+      ing: 'Is there anywhere special you want to visit?',
+      tr: 'Ziyaret etmek istediğin özel bir yer var mı?',
+    },
+    {
+      ing: 'I searched everywhere for the lost book.',
+      tr: 'Kayıp kitabı her yerde aradım.',
+    },
+    {
+      ing: 'There is nowhere else I would rather be.',
+      tr: 'Olmak istediğim başka hiçbir yer yok.',
+    },
+    {
+      ing: 'Can you find anywhere to sit?',
+      tr: 'Oturacak bir yer bulabilir misin?',
+    },
+    {
+      ing: 'I would travel anywhere for a good adventure.',
+      tr: 'İyi bir macera için her yere seyahat ederim.',
+    },
+    {
+      ing: "We couldn't find anywhere to stay.",
+      tr: 'Kalacak hiçbir yer bulamadık.',
+    },
+    {
+      ing: 'I will go anywhere you want.',
+      tr: 'Senin istediğin her yere giderim.',
+    },
+    {
+      ing: 'You can buy food anywhere in this market.',
+      tr: 'Bu pazarda her yerde yiyecek alabilirsin.',
+    },
+    {
+      ing: 'I haven’t seen you anywhere lately.',
+      tr: 'Son zamanlarda seni hiçbir yerde görmedim.',
+    },
+    {
+      ing: 'Is there anywhere I can help you?',
+      tr: 'Sana yardımcı olabileceğim bir yer var mı?',
+    },
+    {
+      ing: 'Anywhere you go, I will follow.',
+      tr: 'Gittiğin her yere, seni takip edeceğim.',
+    },
+    {
+      ing: 'I wish I could go anywhere for vacation.',
+      tr: 'Tatil için her yere gidebilmeyi dilerdim.',
+    },
+    {
+      ing: 'There is nowhere to hide in this small room.',
+      tr: 'Bu küçük odada saklanacak hiçbir yer yok.',
+    },
+    {
+      ing: 'Can we sit anywhere with a view?',
+      tr: 'Manzarası olan herhangi bir yere oturabilir miyiz?',
+    },
+    {
+      ing: 'I have never been anywhere like this before.',
+      tr: 'Daha önce böyle bir yerde bulunmadım.',
+    },
+    {
+      ing: 'You can find good coffee anywhere in this city.',
+      tr: 'Bu şehirde her yerde iyi kahve bulabilirsin.',
+    },
+    {
+      ing: 'There is nowhere better than home.',
+      tr: 'Evden daha iyi hiçbir yer yok.',
+    },
+    {
+      ing: 'I don’t want to go anywhere today.',
+      tr: 'Bugün hiçbir yere gitmek istemiyorum.',
+    },
+    {
+      ing: 'Is there anywhere you want to eat?',
+      tr: 'Yemek yemek istediğin bir yer var mı?',
+    },
+    {
+      ing: 'You can find happiness anywhere if you look for it.',
+      tr: 'Mutluluğu ararsan her yerde bulabilirsin.',
+    },
+    {
+      ing: 'There was nowhere for him to escape.',
+      tr: 'Onun kaçacak hiçbir yeri yoktu.',
+    },
+    {
+      ing: 'I can’t see anywhere to park.',
+      tr: 'Park edecek hiçbir yer göremiyorum.',
+    },
+    {
+      ing: 'Can we  go anywhere fun this weekend?',
+      tr: 'Bu hafta sonu eğlenceli bir yere gidebilir miyiz?',
+    },
+    {
+      ing: 'I want to explore anywhere new.',
+      tr: 'Yeni her yeri keşfetmek istiyorum.',
+    },
+    {
+      ing: 'There is nowhere to go in this small town.',
+      tr: 'Bu küçük şehirde gidecek hiçbir yer yok.',
+    },
+    {ing: 'I could go anywhere with you.', tr: 'Seninle her yere gidebilirim.'},
+    {
+      ing: 'Is there anywhere to relax around here?',
+      tr: 'Burada dinlenecek bir yer var mı?',
+    },
+    {
+      ing: 'You can find something interesting anywhere.',
+      tr: 'İlginç bir şey her yerde bulabilirsin.',
+    },
+    {
+      ing: 'I don’t know anyone anywhere.',
+      tr: 'Hiçbir yerde tanıdığım kimse yok.',
+    },
+    {
+      ing: 'You can take your bike anywhere you want.',
+      tr: 'Bisikletini istediğin her yere götürebilirsin.',
+    },
+    {
+      ing: 'I will go anywhere as long as you are with me.',
+      tr: 'Seninle birlikte olduğum sürece her yere giderim.',
+    },
+    {
+      ing: 'There’s nowhere to go after this.',
+      tr: 'Bunu yaptıktan sonra gidecek hiçbir yer yok.',
+    },
+    {
+      ing: 'I feel lost anywhere without my family.',
+      tr: 'Ailem olmadan her yerde kaybolmuş hissediyorum.',
+    },
+    {
+      ing: 'Is there anywhere we can sit?',
+      tr: 'Oturabileceğimiz bir yer var mı?',
+    },
+    {
+      ing: 'I want to travel anywhere I haven’t been.',
+      tr: 'Daha önce gitmediğim her yere seyahat etmek istiyorum.',
+    },
+    {
+      ing: 'You can make friends anywhere you go.',
+      tr: 'Gittiğin her yerde arkadaş edinebilirsin.',
+    },
+    {
+      ing: 'I hope to go anywhere exciting next year.',
+      tr: 'Gelecek yıl heyecan verici bir yere gitmeyi umuyorum.',
+    },
+  ],
+  EPronouns: [
+    {ing: 'Everybody is happy today.', tr: 'Bugün herkes mutlu.'},
+    {ing: 'Does everybody know the answer?', tr: 'Herkes cevabı biliyor mu?'},
+    {ing: 'Everybody wants to be loved.', tr: 'Herkes sevilmek istiyor.'},
+    {
+      ing: 'I hope everybody arrives on time.',
+      tr: 'Umarım herkes zamanında gelir.',
+    },
+    {
+      ing: 'Everybody needs a friend.',
+      tr: 'Herkesin bir arkadaşa ihtiyacı var.',
+    },
+    {ing: 'Can everybody hear me?', tr: 'Herkes beni duyabiliyor mu?'},
+    {
+      ing: 'Everybody was singing at the party.',
+      tr: 'Partide herkes şarkı söylüyordu.',
+    },
+    {
+      ing: 'Does everybody like ice cream?',
+      tr: 'Herkes dondurmayı seviyor mu?',
+    },
+    {ing: 'Everybody has their own opinion.', tr: 'Herkesin kendi fikri var.'},
+    {ing: 'Everybody deserves respect.', tr: 'Herkes saygıyı hak eder.'},
+    {ing: 'Why is everybody so quiet?', tr: 'Neden herkes bu kadar sessiz?'},
+    {ing: 'Everybody knows this song.', tr: 'Herkes bu şarkıyı biliyor.'},
+    {
+      ing: 'I invited everybody to the meeting.',
+      tr: 'Herkesi toplantıya davet ettim.',
+    },
+    {ing: 'Everybody is welcome here.', tr: 'Burada herkes hoş karşılanır.'},
+    {ing: 'Does everybody have a pen?', tr: 'Herkesin kalemi var mı?'},
+    {
+      ing: 'Everybody needs to follow the rules.',
+      tr: 'Herkes kurallara uymalı.',
+    },
+    {ing: 'Everybody loves a sunny day.', tr: 'Herkes güneşli bir günü sever.'},
+    {ing: 'Did everybody finish their work?', tr: 'Herkes işini bitirdi mi?'},
+    {
+      ing: 'Everybody has a story to tell.',
+      tr: 'Herkesin anlatacak bir hikayesi var.',
+    },
+    {ing: 'Everybody wants to be happy.', tr: 'Herkes mutlu olmak istiyor.'},
+    {ing: 'Can everybody please sit down?', tr: 'Herkes lütfen oturabilir mi?'},
+    {ing: 'Everybody laughed at the joke.', tr: 'Herkes şakaya güldü.'},
+    {ing: 'Is everybody ready to start?', tr: 'Herkes başlamaya hazır mı?'},
+    {ing: 'Everybody is looking for something.', tr: 'Herkes bir şey arıyor.'},
+    {
+      ing: 'Why did everybody leave so early?',
+      tr: 'Neden herkes bu kadar erken ayrıldı?',
+    },
+    {
+      ing: 'I hope everybody enjoys the meal.',
+      tr: 'Umarım herkes yemeği beğenir.',
+    },
+    {ing: 'Everybody should stay calm.', tr: 'Herkes sakin kalmalı.'},
+    {
+      ing: 'Does everybody have their tickets?',
+      tr: 'Herkesin biletleri var mı?',
+    },
+    {
+      ing: 'Everybody was dancing at the concert.',
+      tr: 'Konserde herkes dans ediyordu.',
+    },
+    {ing: 'I told everybody the news.', tr: 'Herkese haberi söyledim.'},
+    {
+      ing: 'Everybody loves a good story.',
+      tr: 'Herkes iyi bir hikayeyi sever.',
+    },
+    {ing: 'Can everybody see the screen?', tr: 'Herkes ekranı görebiliyor mu?'},
+    {
+      ing: 'Everybody needs a break sometimes.',
+      tr: 'Herkesin bazen bir molaya ihtiyacı var.',
+    },
+    {ing: "Why isn't everybody listening?", tr: 'Neden herkes dinlemiyor?'},
+    {
+      ing: 'Everybody smiled for the photo.',
+      tr: 'Fotoğraf için herkes gülümsedi.',
+    },
+    {
+      ing: 'Does everybody agree with the plan?',
+      tr: 'Herkes planla hemfikir mi?',
+    },
+    {
+      ing: 'Everybody helped clean up.',
+      tr: 'Herkes temizlik yapmaya yardım etti.',
+    },
+    {
+      ing: 'Everybody has their own dreams.',
+      tr: 'Herkesin kendi hayalleri var.',
+    },
+    {
+      ing: 'I want to thank everybody.',
+      tr: 'Herkese teşekkür etmek istiyorum.',
+    },
+    {ing: 'Everybody cheered for the team.', tr: 'Herkes takımı alkışladı.'},
+    {
+      ing: 'Can everybody speak English here?',
+      tr: 'Burada herkes İngilizce konuşabiliyor mu?',
+    },
+    {ing: 'Everybody knows the rules.', tr: 'Herkes kuralları biliyor.'},
+    {
+      ing: 'Why does everybody look so tired?',
+      tr: 'Neden herkes bu kadar yorgun görünüyor?',
+    },
+    {
+      ing: 'Everybody should try their best.',
+      tr: 'Herkes elinden geleni yapmalı.',
+    },
+    {ing: 'Everybody likes to have fun.', tr: 'Herkes eğlenmeyi sever.'},
+    {ing: 'Does everybody have their homework?', tr: 'Herkesin ödevi var mı?'},
+    {
+      ing: 'Everybody was surprised by the news.',
+      tr: 'Herkes haberlere şaşırdı.',
+    },
+    {
+      ing: 'I hope everybody has a great day.',
+      tr: 'Umarım herkes harika bir gün geçirir.',
+    },
+    {ing: 'Can everybody hear the music?', tr: 'Herkes müziği duyabiliyor mu?'},
+    {ing: 'Everybody clapped at the end.', tr: 'Herkes sonunda alkışladı.'},
+    {
+      ing: 'Everyone is excited for the trip.',
+      tr: 'Herkes gezi için heyecanlı.',
+    },
+    {
+      ing: 'Does everyone understand the instructions?',
+      tr: 'Herkes talimatları anlıyor mu?',
+    },
+    {
+      ing: 'Everyone needs a little help sometimes.',
+      tr: 'Herkesin bazen biraz yardıma ihtiyacı var.',
+    },
+    {
+      ing: 'I think everyone will like this movie.',
+      tr: 'Sanırım herkes bu filmi beğenecek.',
+    },
+    {ing: 'Everyone was happy at the party.', tr: 'Partide herkes mutluydu.'},
+    {ing: 'Can everyone see the board?', tr: 'Herkes tahtayı görebiliyor mu?'},
+    {
+      ing: 'Everyone has a different opinion.',
+      tr: 'Herkesin farklı bir fikri var.',
+    },
+    {
+      ing: 'Everyone deserves a second chance.',
+      tr: 'Herkes ikinci bir şansı hak eder.',
+    },
+    {
+      ing: 'Did everyone finish their lunch?',
+      tr: 'Herkes öğle yemeğini bitirdi mi?',
+    },
+    {ing: 'Everyone is invited to the event.', tr: 'Etkinliğe herkes davetli.'},
+    {
+      ing: 'I hope everyone enjoys the show.',
+      tr: 'Umarım herkes gösteriyi beğenir.',
+    },
+    {
+      ing: 'Everyone laughed at the funny story.',
+      tr: 'Herkes komik hikayeye güldü.',
+    },
+    {
+      ing: 'Everyone in the room is friendly.',
+      tr: 'Odadaki herkes arkadaş canlısı.',
+    },
+    {
+      ing: 'Can everyone hear me clearly?',
+      tr: 'Herkes beni net duyabiliyor mu?',
+    },
+    {ing: 'Everyone is waiting for the bus.', tr: 'Herkes otobüsü bekliyor.'},
+    {ing: 'Everyone likes ice cream.', tr: 'Herkes dondurmayı sever.'},
+    {
+      ing: 'I told everyone to be careful.',
+      tr: 'Herkese dikkatli olmalarını söyledim.',
+    },
+    {
+      ing: 'Everyone has their own hobbies.',
+      tr: 'Herkesin kendi hobileri var.',
+    },
+    {ing: 'Does everyone know how to swim?', tr: 'Herkes yüzmeyi biliyor mu?'},
+    {
+      ing: 'Everyone was surprised by the gift.',
+      tr: 'Herkes hediye karşısında şaşırdı.',
+    },
+    {
+      ing: 'I hope everyone is safe at home.',
+      tr: 'Umarım herkes evde güvende.',
+    },
+    {
+      ing: 'Everyone agreed with the decision.',
+      tr: 'Herkes kararla hemfikirdi.',
+    },
+    {
+      ing: 'Everyone should be kind to each other.',
+      tr: 'Herkes birbirine nazik olmalı.',
+    },
+    {
+      ing: 'Can everyone bring a snack to share?',
+      tr: 'Herkes paylaşacak bir atıştırmalık getirebilir mi?',
+    },
+    {
+      ing: 'Everyone in the class passed the test.',
+      tr: 'Sınıftaki herkes testi geçti.',
+    },
+    {ing: 'Everyone loves a sunny day.', tr: 'Herkes güneşli bir günü sever.'},
+    {ing: 'Did everyone get the message?', tr: 'Herkes mesajı aldı mı?'},
+    {ing: 'Everyone is ready for the game.', tr: 'Herkes oyun için hazır.'},
+    {
+      ing: 'Everyone smiled when they saw the puppy.',
+      tr: 'Yavru köpeği gördüklerinde herkes gülümsedi.',
+    },
+    {
+      ing: 'I invited everyone to my birthday party.',
+      tr: 'Doğum günü partime herkesi davet ettim.',
+    },
+    {
+      ing: 'Everyone was talking at the same time.',
+      tr: 'Herkes aynı anda konuşuyordu.',
+    },
+    {
+      ing: 'Everyone should listen to the instructions.',
+      tr: 'Herkes talimatları dinlemeli.',
+    },
+    {ing: 'Can everyone please sit down?', tr: 'Herkes lütfen oturabilir mi?'},
+    {
+      ing: 'Everyone brought a gift to the party.',
+      tr: 'Herkes partiye bir hediye getirdi.',
+    },
+    {ing: 'Everyone knows about the surprise.', tr: 'Herkes sürprizi biliyor.'},
+    {
+      ing: 'Everyone helped clean the house.',
+      tr: 'Herkes evi temizlemeye yardım etti.',
+    },
+    {ing: 'Does everyone understand the plan?', tr: 'Herkes planı anlıyor mu?'},
+    {
+      ing: 'Everyone cheered for the winners.',
+      tr: 'Herkes kazananları alkışladı.',
+    },
+    {
+      ing: 'Everyone was tired after the trip.',
+      tr: 'Gezi sonrası herkes yorgundu.',
+    },
+    {
+      ing: 'Everyone has a role to play.',
+      tr: 'Herkesin oynayacak bir rolü var.',
+    },
+    {
+      ing: 'I thanked everyone for their support.',
+      tr: 'Herkese destekleri için teşekkür ettim.',
+    },
+    {
+      ing: 'Everyone looked happy at the wedding.',
+      tr: 'Düğünde herkes mutlu görünüyordu.',
+    },
+    {
+      ing: 'Everyone is coming to the meeting.',
+      tr: 'Herkes toplantıya geliyor.',
+    },
+    {
+      ing: 'Everyone was singing along to the music.',
+      tr: 'Herkes müziğe eşlik ederek şarkı söylüyordu.',
+    },
+    {
+      ing: 'Does everyone have their tickets?',
+      tr: 'Herkesin biletleri var mı?',
+    },
+    {
+      ing: 'Everyone should try to be on time.',
+      tr: 'Herkes zamanında olmaya çalışmalı.',
+    },
+    {
+      ing: 'Everyone is welcome to join us.',
+      tr: 'Bize katılmak isteyen herkes hoş karşılanır.',
+    },
+    {
+      ing: 'I asked everyone to stay quiet.',
+      tr: 'Herkesten sessiz kalmalarını istedim.',
+    },
+    {
+      ing: 'Everyone enjoyed the fireworks.',
+      tr: 'Herkes havai fişeklerin tadını çıkardı.',
+    },
+    {
+      ing: 'Everyone clapped for the performer.',
+      tr: 'Herkes sanatçıyı alkışladı.',
+    },
+    {
+      ing: 'Everything is ready for the party.',
+      tr: 'Parti için her şey hazır.',
+    },
+    {
+      ing: 'She knows everything about this subject.',
+      tr: 'Bu konu hakkında her şeyi biliyor.',
+    },
+    {ing: 'Everything will be fine soon.', tr: 'Yakında her şey iyi olacak.'},
+    {ing: 'He lost everything in the fire.', tr: 'Yangında her şeyi kaybetti.'},
+    {
+      ing: 'Everything tastes better with salt.',
+      tr: 'Tuzla her şey daha lezzetli olur.',
+    },
+    {
+      ing: 'I told you everything I know.',
+      tr: 'Sana bildiğim her şeyi söyledim.',
+    },
+    {
+      ing: 'Everything was perfect at the wedding.',
+      tr: 'Düğünde her şey mükemmeldi.',
+    },
+    {
+      ing: 'He wants to control everything.',
+      tr: 'Her şeyi kontrol etmek istiyor.',
+    },
+    {
+      ing: 'Everything changed after that day.',
+      tr: 'O günden sonra her şey değişti.',
+    },
+    {ing: 'She gave everything she had.', tr: 'Sahip olduğu her şeyi verdi.'},
+    {ing: 'Everything is possible if you try.', tr: 'Denersen her şey mümkün.'},
+    {
+      ing: 'He fixed everything that was broken.',
+      tr: 'Kırılan her şeyi tamir etti.',
+    },
+    {
+      ing: 'Everything depends on your decision.',
+      tr: 'Her şey senin kararına bağlı.',
+    },
+    {
+      ing: 'I believe everything happens for a reason.',
+      tr: 'Her şeyin bir nedeni olduğuna inanıyorum.',
+    },
+    {
+      ing: 'Everything in the store is on sale.',
+      tr: 'Mağazadaki her şey indirimde.',
+    },
+    {
+      ing: 'She wants to know everything about him.',
+      tr: 'Onun hakkında her şeyi bilmek istiyor.',
+    },
+    {
+      ing: 'Everything seems different today.',
+      tr: 'Bugün her şey farklı görünüyor.',
+    },
+    {
+      ing: 'He cleaned everything in the kitchen.',
+      tr: 'Mutfaktaki her şeyi temizledi.',
+    },
+    {ing: 'Everything was quiet in the house.', tr: 'Evde her şey sessizdi.'},
+    {
+      ing: 'She packed everything in her suitcase.',
+      tr: 'Bavuluna her şeyi yerleştirdi.',
+    },
+    {
+      ing: 'Everything is under control now.',
+      tr: 'Şimdi her şey kontrol altında.',
+    },
+    {
+      ing: 'He loves everything about this city.',
+      tr: 'Bu şehir hakkında her şeyi seviyor.',
+    },
+    {
+      ing: 'Everything happens for a reason.',
+      tr: 'Her şey bir sebepten dolayı olur.',
+    },
+    {ing: 'I forgot everything I studied.', tr: 'Çalıştığım her şeyi unuttum.'},
+    {
+      ing: 'Everything is possible with hard work.',
+      tr: 'Sıkı çalışmayla her şey mümkün.',
+    },
+    {
+      ing: 'She remembered everything we talked about.',
+      tr: 'Konuştuğumuz her şeyi hatırladı.',
+    },
+    {
+      ing: 'Everything looked so beautiful in the morning.',
+      tr: 'Sabah her şey çok güzel görünüyordu.',
+    },
+    {ing: 'He sold everything he owned.', tr: 'Sahip olduğu her şeyi sattı.'},
+    {ing: 'Everything was covered in snow.', tr: 'Her şey karla kaplıydı.'},
+    {ing: 'She lost everything in the game.', tr: 'Oyunda her şeyi kaybetti.'},
+    {ing: 'Everything you see is real.', tr: 'Gördüğün her şey gerçek.'},
+    {ing: 'He ate everything on his plate.', tr: 'Tabağındaki her şeyi yedi.'},
+    {
+      ing: 'Everything feels so calm today.',
+      tr: 'Bugün her şey çok sakin hissediliyor.',
+    },
+    {ing: 'She explained everything clearly.', tr: 'Her şeyi açıkça açıkladı.'},
+    {
+      ing: 'Everything in the garden is blooming.',
+      tr: 'Bahçede her şey çiçek açıyor.',
+    },
+    {
+      ing: 'He collected everything he needed.',
+      tr: 'İhtiyacı olan her şeyi topladı.',
+    },
+    {
+      ing: 'Everything was planned perfectly.',
+      tr: 'Her şey mükemmel bir şekilde planlanmıştı.',
+    },
+    {
+      ing: 'She decorated everything for the party.',
+      tr: 'Parti için her şeyi süsledi.',
+    },
+    {ing: 'Everything went wrong yesterday.', tr: 'Dün her şey ters gitti.'},
+    {
+      ing: 'He fixed everything by himself.',
+      tr: 'Her şeyi kendi başına tamir etti.',
+    },
+    {
+      ing: 'Everything looks better with time.',
+      tr: 'Zamanla her şey daha iyi görünür.',
+    },
+    {
+      ing: 'She wants to buy everything in the store.',
+      tr: 'Mağazadaki her şeyi almak istiyor.',
+    },
+    {
+      ing: 'Everything is possible if you believe.',
+      tr: 'İnanırsan her şey mümkün.',
+    },
+    {
+      ing: 'He wants to change everything about his life.',
+      tr: 'Hayatıyla ilgili her şeyi değiştirmek istiyor.',
+    },
+    {
+      ing: 'Everything seems so quiet at night.',
+      tr: 'Gece her şey çok sessiz görünüyor.',
+    },
+    {
+      ing: 'She thanked everyone for everything.',
+      tr: 'Herkese her şey için teşekkür etti.',
+    },
+    {
+      ing: 'Everything was organized perfectly.',
+      tr: 'Her şey mükemmel bir şekilde organize edilmişti.',
+    },
+    {
+      ing: 'He lost everything he had in the storm.',
+      tr: 'Fırtınada sahip olduğu her şeyi kaybetti.',
+    },
+    {
+      ing: 'Everything is better when we’re together.',
+      tr: 'Birlikteyken her şey daha iyi.',
+    },
+    {
+      ing: 'She shared everything with her friends.',
+      tr: 'Arkadaşlarıyla her şeyi paylaştı.',
+    },
+    {
+      ing: 'There are flowers everywhere in the park.',
+      tr: 'Parkta her yerde çiçekler var.',
+    },
+    {
+      ing: 'We looked everywhere for the keys.',
+      tr: 'Anahtarları her yerde aradık.',
+    },
+    {
+      ing: 'I see his face everywhere I go.',
+      tr: 'Gittiğim her yerde onun yüzünü görüyorum.',
+    },
+    {
+      ing: 'There is love everywhere in the world.',
+      tr: 'Dünyada her yerde sevgi var.',
+    },
+    {
+      ing: 'She searched everywhere for her lost ring.',
+      tr: 'Kayıp yüzüğünü her yerde aradı.',
+    },
+    {
+      ing: 'We traveled everywhere in the city.',
+      tr: 'Şehirde her yeri gezdik.',
+    },
+    {
+      ing: 'Everywhere you look, there is beauty.',
+      tr: 'Nereye baksan güzellik var.',
+    },
+    {
+      ing: 'He left his toys everywhere in the house.',
+      tr: 'Oyuncaklarını evin her yerine bıraktı.',
+    },
+    {
+      ing: 'There is music everywhere at the festival.',
+      tr: 'Festivalde her yerde müzik var.',
+    },
+    {
+      ing: 'I feel at home everywhere I go.',
+      tr: 'Gittiğim her yerde evimde hissediyorum.',
+    },
+    {
+      ing: 'She has friends everywhere in the country.',
+      tr: 'Ülkede her yerde arkadaşları var.',
+    },
+    {ing: 'The smell of food is everywhere.', tr: 'Yemek kokusu her yerde.'},
+    {
+      ing: 'Everywhere we went, people were smiling.',
+      tr: 'Gittiğimiz her yerde insanlar gülümsüyordu.',
+    },
+    {
+      ing: 'He travels everywhere for his job.',
+      tr: 'İşi için her yere seyahat eder.',
+    },
+    {
+      ing: 'There are lights everywhere during Christmas.',
+      tr: 'Noel sırasında her yerde ışıklar var.',
+    },
+    {
+      ing: "We searched everywhere but couldn't find it.",
+      tr: 'Her yerde aradık ama bulamadık.',
+    },
+    {
+      ing: 'The kids left their shoes everywhere.',
+      tr: 'Çocuklar ayakkabılarını her yerde bıraktı.',
+    },
+    {
+      ing: 'There are beautiful views everywhere in this city.',
+      tr: 'Bu şehirde her yerde güzel manzaralar var.',
+    },
+    {
+      ing: 'I hear his name everywhere I go.',
+      tr: 'Gittiğim her yerde onun adını duyuyorum.',
+    },
+    {
+      ing: 'She put decorations everywhere in the house.',
+      tr: 'Evde her yere süslemeler koydu.',
+    },
+    {
+      ing: 'There are birds everywhere in the garden.',
+      tr: 'Bahçede her yerde kuşlar var.',
+    },
+    {
+      ing: 'We found clues everywhere in the room.',
+      tr: 'Odada her yerde ipuçları bulduk.',
+    },
+    {
+      ing: 'There is joy everywhere during the holidays.',
+      tr: 'Tatiller sırasında her yerde neşe var.',
+    },
+    {
+      ing: 'The rain left puddles everywhere.',
+      tr: 'Yağmur her yerde su birikintileri bıraktı.',
+    },
+    {
+      ing: 'He travels everywhere with his camera.',
+      tr: 'Kamerasıyla her yere seyahat eder.',
+    },
+    {
+      ing: 'Everywhere you go, people are friendly here.',
+      tr: 'Burada nereye gidersen git insanlar dost canlısı.',
+    },
+    {
+      ing: 'There is noise everywhere in the city.',
+      tr: 'Şehirde her yerde gürültü var.',
+    },
+    {
+      ing: 'The cat hides everywhere in the house.',
+      tr: 'Kedi evin her yerinde saklanır.',
+    },
+    {
+      ing: 'There is peace everywhere in nature.',
+      tr: 'Doğada her yerde huzur var.',
+    },
+    {
+      ing: 'She spread love everywhere she went.',
+      tr: 'Gittiği her yerde sevgi yaydı.',
+    },
+    {
+      ing: 'Everywhere is crowded on weekends.',
+      tr: 'Hafta sonları her yer kalabalık.',
+    },
+    {
+      ing: 'The dog left paw prints everywhere.',
+      tr: 'Köpek her yerde pati izleri bıraktı.',
+    },
+    {
+      ing: 'There is laughter everywhere at the party.',
+      tr: 'Partide her yerde kahkaha var.',
+    },
+    {
+      ing: 'He looked everywhere for his phone.',
+      tr: 'Telefonunu her yerde aradı.',
+    },
+    {
+      ing: 'The lights shine everywhere in the city at night.',
+      tr: 'Gece şehirde her yerde ışıklar parlıyor.',
+    },
+    {
+      ing: 'She travels everywhere with her family.',
+      tr: 'Ailesiyle her yere seyahat eder.',
+    },
+    {
+      ing: 'There are trees everywhere in this park.',
+      tr: 'Bu parkta her yerde ağaçlar var.',
+    },
+    {
+      ing: 'The kids were playing everywhere in the yard.',
+      tr: 'Çocuklar bahçede her yerde oynuyordu.',
+    },
+    {
+      ing: 'There are signs everywhere in the building.',
+      tr: 'Binada her yerde işaretler var.',
+    },
+    {
+      ing: 'He spread the news everywhere he went.',
+      tr: 'Gittiği her yerde haberleri yaydı.',
+    },
+    {
+      ing: 'Everywhere smells like flowers in spring.',
+      tr: 'İlkbaharda her yer çiçek kokar.',
+    },
+    {
+      ing: 'We found dirt everywhere in the garden.',
+      tr: 'Bahçede her yerde toprak bulduk.',
+    },
+    {
+      ing: 'There is sunshine everywhere today.',
+      tr: 'Bugün her yerde güneş ışığı var.',
+    },
+    {
+      ing: 'She painted colors everywhere on the wall.',
+      tr: 'Duvara her yerde renkler boyadı.',
+    },
+    {
+      ing: 'There are smiles everywhere during the celebration.',
+      tr: 'Kutlama sırasında her yerde gülücükler var.',
+    },
+    {
+      ing: 'The leaves fell everywhere in the yard.',
+      tr: 'Yapraklar bahçeye her yere döküldü.',
+    },
+    {
+      ing: 'There are memories everywhere in this house.',
+      tr: 'Bu evde her yerde anılar var.',
+    },
+    {
+      ing: 'He left his mark everywhere he went.',
+      tr: 'Gittiği her yerde izini bıraktı.',
+    },
+    {
+      ing: 'Everywhere in the room was clean and tidy.',
+      tr: 'Odanın her yeri temiz ve düzenliydi.',
+    },
+    {
+      ing: 'There is inspiration everywhere in life.',
+      tr: 'Hayatta her yerde ilham var.',
+    },
+  ],
+  NPronouns: [
+    {ing: 'Nobody is at home right now.', tr: 'Şu anda evde kimse yok.'},
+    {
+      ing: 'I called, but nobody answered.',
+      tr: 'Aradım ama kimse cevap vermedi.',
+    },
+    {
+      ing: 'Nobody knows the answer to this question.',
+      tr: 'Bu sorunun cevabını kimse bilmiyor.',
+    },
+    {
+      ing: 'There was nobody in the park today.',
+      tr: 'Bugün parkta kimse yoktu.',
+    },
+    {
+      ing: 'Nobody wants to be late for the meeting.',
+      tr: 'Kimse toplantıya geç kalmak istemiyor.',
+    },
+    {ing: 'I saw nobody in the street.', tr: 'Sokakta kimseyi görmedim.'},
+    {ing: 'Nobody believes his story.', tr: 'Kimse onun hikayesine inanmıyor.'},
+    {ing: 'Nobody likes to be criticized.', tr: 'Kimse eleştirilmeyi sevmez.'},
+    {
+      ing: 'I invited everyone, but nobody showed up.',
+      tr: 'Herkesi davet ettim ama kimse gelmedi.',
+    },
+    {ing: 'Nobody can solve this problem.', tr: 'Bu problemi kimse çözemez.'},
+    {
+      ing: 'Nobody expected such a big surprise.',
+      tr: 'Kimse böyle büyük bir sürpriz beklemiyordu.',
+    },
+    {ing: 'Nobody has seen my keys.', tr: 'Kimse anahtarlarımı görmedi.'},
+    {ing: 'Nobody is perfect.', tr: 'Kimse mükemmel değildir.'},
+    {ing: 'I talked to nobody yesterday.', tr: 'Dün kimseyle konuşmadım.'},
+    {
+      ing: 'Nobody wants to miss the concert.',
+      tr: 'Kimse konseri kaçırmak istemiyor.',
+    },
+    {
+      ing: 'Nobody is allowed to enter without a ticket.',
+      tr: 'Bileti olmadan içeri girmek yasaktır.',
+    },
+    {
+      ing: 'Nobody mentioned your name during the meeting.',
+      tr: 'Toplantıda senin adından kimse bahsetmedi.',
+    },
+    {
+      ing: 'I feel like nobody understands me.',
+      tr: 'Hiç kimsenin beni anlamadığını hissediyorum.',
+    },
+    {ing: 'Nobody could find the solution.', tr: 'Kimse çözümü bulamadı.'},
+    {
+      ing: 'Nobody should be left out.',
+      tr: 'Hiç kimse dışarıda bırakılmamalı.',
+    },
+    {
+      ing: 'I wanted to ask for help, but nobody was there.',
+      tr: 'Yardım istemek istedim ama orada kimse yoktu.',
+    },
+    {
+      ing: 'Nobody likes to wait in long lines.',
+      tr: 'Kimse uzun kuyruklarda beklemeyi sevmez.',
+    },
+    {
+      ing: 'I saw nobody I knew at the party.',
+      tr: 'Partide tanıdığım kimseyi görmedim.',
+    },
+    {
+      ing: 'Nobody knows what will happen next.',
+      tr: 'Kimse sonraki ne olacağını bilmiyor.',
+    },
+    {
+      ing: 'Nobody is interested in that topic.',
+      tr: 'O konuya kimse ilgi duymuyor.',
+    },
+    {
+      ing: 'Nobody told me about the change in plans.',
+      tr: 'Planlardaki değişiklik hakkında bana kimse bilgi vermedi.',
+    },
+    {ing: 'Nobody laughed at the joke.', tr: 'Şakaya kimse gülmedi.'},
+    {ing: 'Nobody likes to be left alone.', tr: 'Kimse yalnız kalmayı sevmez.'},
+    {ing: 'I found nobody at the café.', tr: 'Kafede kimseyi bulamadım.'},
+    {
+      ing: 'Nobody remembers the details of the event.',
+      tr: 'Etkinliğin ayrıntılarını kimse hatırlamıyor.',
+    },
+    {
+      ing: 'Nobody can argue with that fact.',
+      tr: 'Bu gerçekle kimse tartışamaz.',
+    },
+    {
+      ing: 'I think nobody wants to go there.',
+      tr: 'Sanırım oraya gitmek istemeyen kimse yok.',
+    },
+    {
+      ing: 'Nobody in the group knew the answer.',
+      tr: 'Grubun içinde kimse cevabı bilmiyordu.',
+    },
+    {
+      ing: 'Nobody has ever done this before.',
+      tr: 'Bunu daha önce kimse yapmadı.',
+    },
+    {
+      ing: 'Nobody can resist chocolate.',
+      tr: 'Kimse çikolataya karşı koyamaz.',
+    },
+    {
+      ing: 'I would help, but nobody asked me.',
+      tr: 'Yardım etmek isterdim ama kimse benden istemedi.',
+    },
+    {ing: 'Nobody is going to believe you.', tr: 'Kimse sana inanmayacak.'},
+    {
+      ing: 'I looked everywhere, but found nobody.',
+      tr: 'Her yerde baktım ama kimseyi bulamadım.',
+    },
+    {
+      ing: 'Nobody should have to deal with that alone.',
+      tr: 'Hiç kimse bununla yalnız başa çıkmak zorunda kalmamalı.',
+    },
+    {
+      ing: 'I think nobody cares about the result.',
+      tr: 'Sanırım kimse sonuca umursamıyor.',
+    },
+    {
+      ing: 'Nobody planned for the unexpected rain.',
+      tr: 'Beklenmeyen yağmur için kimse plan yapmamıştı.',
+    },
+    {
+      ing: 'I wanted to share my thoughts, but nobody listened.',
+      tr: 'Düşüncelerimi paylaşmak istedim ama kimse dinlemedi.',
+    },
+    {
+      ing: 'Nobody wanted to play in the rain.',
+      tr: 'Kimse yağmurda oynamak istemedi.',
+    },
+    {
+      ing: 'Nobody could answer that question correctly.',
+      tr: 'O soruya doğru cevap veren kimse olmadı.',
+    },
+    {
+      ing: 'I searched for the book, but nobody had seen it.',
+      tr: 'Kitabı aradım ama kimse onu görmemiş.',
+    },
+    {
+      ing: 'Nobody expected such a big change.',
+      tr: 'Böyle büyük bir değişikliği kimse beklemiyordu.',
+    },
+    {
+      ing: 'I wanted to talk, but nobody was interested.',
+      tr: 'Konuşmak istedim ama kimse ilgilenmedi.',
+    },
+    {
+      ing: 'Nobody understands the challenges he faces.',
+      tr: 'Kimse onun karşılaştığı zorlukları anlamıyor.',
+    },
+    {
+      ing: 'I feel like nobody supports me.',
+      tr: 'Kendimi destekleyen kimse yokmuş gibi hissediyorum.',
+    },
+    {
+      ing: 'Nobody else knows about this secret.',
+      tr: 'Bu sırrı başka kimse bilmiyor.',
+    },
+    {
+      ing: 'No one was at the party last night.',
+      tr: 'Dün gece partide hiç kimse yoktu.',
+    },
+    {
+      ing: 'I called, but no one answered.',
+      tr: 'Aradım ama hiç kimse cevap vermedi.',
+    },
+    {ing: 'No one knows the truth.', tr: 'Hiç kimse gerçeği bilmiyor.'},
+    {ing: 'There is no one in the house.', tr: 'Evde hiç kimse yok.'},
+    {
+      ing: 'No one expected such a big surprise.',
+      tr: 'Hiç kimse böyle büyük bir sürpriz beklemiyordu.',
+    },
+    {ing: 'I saw no one in the street.', tr: 'Sokakta hiç kimseyi görmedim.'},
+    {ing: 'No one wants to be alone.', tr: 'Hiç kimse yalnız olmak istemiyor.'},
+    {
+      ing: 'I believe no one can do it better.',
+      tr: 'Hiç kimsenin bunu daha iyi yapabileceğine inanmıyorum.',
+    },
+    {ing: 'No one likes to be ignored.', tr: 'Hiç kimse yok sayılmayı sevmez.'},
+    {ing: 'I talked to no one yesterday.', tr: 'Dün kimseyle konuşmadım.'},
+    {
+      ing: 'No one came to help me.',
+      tr: 'Hiç kimse bana yardım etmeye gelmedi.',
+    },
+    {
+      ing: 'I hope no one is hurt in the accident.',
+      tr: 'Kazada kimse yaralanmamıştır umarım.',
+    },
+    {ing: 'No one is perfect.', tr: 'Hiç kimse mükemmel değildir.'},
+    {
+      ing: 'I want to tell no one about my plans.',
+      tr: 'Planlarımdan kimseye bahsetmek istemiyorum.',
+    },
+    {
+      ing: 'No one has the right to judge you.',
+      tr: 'Hiç kimsenin seni yargılma hakkı yok.',
+    },
+    {
+      ing: 'I saw no one I recognized at the event.',
+      tr: 'Etkinlikte tanıdığım hiç kimseyi görmedim.',
+    },
+    {ing: 'No one should feel alone.', tr: 'Hiç kimse yalnız hissetmemeli.'},
+    {
+      ing: 'I believe no one can stop us now.',
+      tr: 'Hiç kimsenin bizi şimdi durdurabileceğine inanmıyorum.',
+    },
+    {
+      ing: 'No one is interested in that topic.',
+      tr: 'O konuya hiç kimse ilgi duymuyor.',
+    },
+    {
+      ing: 'I talked to no one about my feelings.',
+      tr: 'Duygularım hakkında hiç kimseyle konuşmadım.',
+    },
+    {
+      ing: 'No one remembers the details.',
+      tr: 'Hiç kimse ayrıntıları hatırlamıyor.',
+    },
+    {
+      ing: 'No one is allowed to enter without a ticket.',
+      tr: 'Bileti olmayan hiç kimsenin girmesine izin verilmiyor.',
+    },
+    {
+      ing: 'I feel like no one understands me.',
+      tr: 'Hiç kimsenin beni anlamadığını hissediyorum.',
+    },
+    {
+      ing: 'No one can answer that question.',
+      tr: 'O soruya cevap verebilecek hiç kimse yok.',
+    },
+    {ing: 'I found no one at the café.', tr: 'Kafede hiç kimseyi bulamadım.'},
+    {
+      ing: 'No one told me about the meeting.',
+      tr: 'Toplantıdan hiç kimse bahsetmedi.',
+    },
+    {
+      ing: 'No one wants to miss the concert.',
+      tr: 'Hiç kimse konseri kaçırmak istemiyor.',
+    },
+    {
+      ing: 'I think no one cares about the result.',
+      tr: 'Sanırım hiç kimse sonuca umursamıyor.',
+    },
+    {
+      ing: 'No one can resist a good dessert.',
+      tr: 'Kimse iyi bir tatlıya karşı koyamaz.',
+    },
+    {
+      ing: 'I feel like no one is on my side.',
+      tr: 'Hiç kimsenin yanımda olmadığını hissediyorum.',
+    },
+    {
+      ing: 'No one has ever done this before.',
+      tr: 'Bunu daha önce hiç kimse yapmadı.',
+    },
+    {
+      ing: "I don't think no one is listening.",
+      tr: 'Kimsenin dinlemediğini düşünmüyorum.',
+    },
+    {ing: 'No one is waiting for us.', tr: 'Hiç kimse bizi beklemiyor.'},
+    {
+      ing: 'I wish no one would judge me.',
+      tr: 'Keşke hiç kimse beni yargılamasa.',
+    },
+    {
+      ing: 'No one likes to be criticized.',
+      tr: 'Hiç kimse eleştirilmeyi sevmez.',
+    },
+    {ing: 'I saw no one in the garden.', tr: 'Bahçede hiç kimseyi görmedim.'},
+    {
+      ing: 'No one in the class knows the answer.',
+      tr: 'Sınıftaki hiç kimse cevabı bilmiyor.',
+    },
+    {
+      ing: 'I told no one about the surprise.',
+      tr: 'Sürprizden hiç kimseye bahsetmedim.',
+    },
+    {
+      ing: 'No one wants to be left out.',
+      tr: 'Hiç kimse dışarıda bırakılmak istemiyor.',
+    },
+    {ing: 'No one should feel ashamed.', tr: 'Hiç kimse utanç duymamalı.'},
+    {
+      ing: 'No one is perfect; we all make mistakes.',
+      tr: 'Hiç kimse mükemmel değildir; hepimiz hata yaparız.',
+    },
+    {
+      ing: 'I believe no one should be alone.',
+      tr: 'Hiç kimsenin yalnız olmaması gerektiğine inanıyorum.',
+    },
+    {
+      ing: 'No one is more important than family.',
+      tr: 'Aileden daha önemli kimse yoktur.',
+    },
+    {
+      ing: 'I searched for no one; I needed time alone.',
+      tr: 'Hiç kimseyi aramadım; yalnızlığa ihtiyacım vardı.',
+    },
+    {ing: 'No one can change the past.', tr: 'Hiç kimse geçmişi değiştiremez.'},
+    {
+      ing: 'No one else knows about my secret.',
+      tr: 'Sırrım hakkında başka kimse bilmiyor.',
+    },
+    {
+      ing: 'No one paid attention to his speech.',
+      tr: 'Kimse onun konuşmasına dikkat etmedi.',
+    },
+    {
+      ing: 'I wanted to tell no one about my plans.',
+      tr: 'Planlarımdan kimseye bahsetmek istemedim.',
+    },
+    {
+      ing: 'No one is responsible for your happiness.',
+      tr: 'Mutluluğundan hiç kimse sorumlu değildir.',
+    },
+    {
+      ing: 'No one could believe what happened.',
+      tr: 'Hiç kimse olanlara inanamadı.',
+    },
+    {
+      ing: 'There is nothing in the fridge.',
+      tr: 'Buzdolabında hiç bir şey yok.',
+    },
+    {ing: 'I have nothing to say.', tr: 'Söyleyecek hiçbir şeyim yok.'},
+    {ing: 'Nothing is impossible if you try.', tr: 'Denersen imkansız yoktur.'},
+    {
+      ing: 'She knows nothing about the topic.',
+      tr: 'O, konu hakkında hiçbir şey bilmiyor.',
+    },
+    {ing: 'Nothing can stop us now.', tr: 'Bizi şimdi hiçbir şey durduramaz.'},
+    {
+      ing: 'I found nothing interesting in the book.',
+      tr: 'Kitapta ilginç bir şey bulamadım.',
+    },
+    {
+      ing: 'Nothing seems to work today.',
+      tr: 'Bugün hiçbir şey işe yaramıyor gibi görünüyor.',
+    },
+    {
+      ing: 'There was nothing wrong with my answer.',
+      tr: 'Cevabımda hiçbir yanlışlık yoktu.',
+    },
+    {
+      ing: 'Nothing can compare to your love.',
+      tr: 'Senin sevginle kıyaslanacak hiçbir şey yok.',
+    },
+    {
+      ing: 'I expect nothing less than perfection.',
+      tr: 'Mükemmellikten daha azını beklemiyorum.',
+    },
+    {ing: 'Nothing was on the table.', tr: 'Masada hiçbir şey yoktu.'},
+    {
+      ing: 'She felt like nothing mattered.',
+      tr: 'Hiçbir şeyin önemli olmadığını hissetti.',
+    },
+    {
+      ing: 'Nothing is more important than family.',
+      tr: 'Aileden daha önemli hiçbir şey yoktur.',
+    },
+    {ing: 'I did nothing wrong.', tr: 'Yanlış bir şey yapmadım.'},
+    {
+      ing: 'Nothing is better than a good book.',
+      tr: 'İyi bir kitaptan daha iyi hiçbir şey yoktur.',
+    },
+    {
+      ing: 'They have nothing to worry about.',
+      tr: 'Endişelenecek hiçbir şeyleri yok.',
+    },
+    {
+      ing: 'Nothing can change the past.',
+      tr: 'Geçmişi değiştirecek hiçbir şey yok.',
+    },
+    {ing: 'There’s nothing left to eat.', tr: 'Yiyecek hiçbir şey kalmadı.'},
+    {
+      ing: 'He knows nothing about the plan.',
+      tr: 'O, plan hakkında hiçbir şey bilmiyor.',
+    },
+    {
+      ing: 'Nothing makes me happier than this.',
+      tr: 'Beni bundan daha mutlu eden hiçbir şey yok.',
+    },
+    {
+      ing: 'I found nothing valuable in the drawer.',
+      tr: 'Çekmecede değerli hiçbir şey bulamadım.',
+    },
+    {ing: 'Nothing beats a sunny day.', tr: 'Güneşli bir günü geçmek yoktur.'},
+    {
+      ing: 'Nothing can be done about it now.',
+      tr: 'Artık bununla ilgili hiçbir şey yapılamaz.',
+    },
+    {
+      ing: 'She has nothing to prove to anyone.',
+      tr: 'Kimseye kanıtlayacak hiçbir şeyi yok.',
+    },
+    {
+      ing: 'Nothing compares to the beauty of nature.',
+      tr: 'Doğanın güzelliğiyle kıyaslanacak hiçbir şey yok.',
+    },
+    {
+      ing: 'I want nothing more than to be happy.',
+      tr: 'Sadece mutlu olmak istiyorum.',
+    },
+    {
+      ing: 'Nothing is more rewarding than helping others.',
+      tr: 'Başkalarına yardım etmekten daha ödüllendirici hiçbir şey yok.',
+    },
+    {
+      ing: 'I know nothing about his past.',
+      tr: 'Onun geçmişi hakkında hiçbir şey bilmiyorum.',
+    },
+    {
+      ing: 'Nothing feels better than a warm hug.',
+      tr: 'Sıcak bir sarılmadan daha iyi hiçbir şey yok.',
+    },
+    {
+      ing: 'Nothing is as important as your health.',
+      tr: 'Sağlığın kadar önemli hiçbir şey yoktur.',
+    },
+    {ing: 'She does nothing all day.', tr: 'Bütün gün hiçbir şey yapmıyor.'},
+    {
+      ing: 'Nothing unusual happened yesterday.',
+      tr: 'Dün olağanüstü hiçbir şey olmadı.',
+    },
+    {ing: 'I want nothing from you.', tr: 'Senden hiçbir şey istemiyorum.'},
+    {
+      ing: 'Nothing can replace hard work.',
+      tr: 'Sıkı çalışmanın yerini alacak hiçbir şey yoktur.',
+    },
+    {
+      ing: 'There’s nothing more beautiful than a sunset.',
+      tr: 'Gün batımından daha güzel hiçbir şey yoktur.',
+    },
+    {
+      ing: 'I discovered nothing new in the museum.',
+      tr: 'Müze gezisinde yeni hiçbir şey keşfetmedim.',
+    },
+    {
+      ing: 'Nothing can be taken for granted.',
+      tr: 'Hiçbir şeyin garanti altına alınamayacağı yok.',
+    },
+    {
+      ing: 'He said nothing about the issue.',
+      tr: 'O, mesele hakkında hiçbir şey söylemedi.',
+    },
+    {
+      ing: "There is nothing like a good night's sleep.",
+      tr: 'İyi bir uykudan daha iyi hiçbir şey yok.',
+    },
+    {
+      ing: 'Nothing is going according to plan.',
+      tr: 'Hiçbir şey plana göre gitmiyor.',
+    },
+    {
+      ing: 'I have nothing to wear for the party.',
+      tr: 'Partide giyecek hiçbir şeyim yok.',
+    },
+    {
+      ing: 'Nothing is worth losing your health over.',
+      tr: 'Sağlığını kaybetmeye değecek hiçbir şey yok.',
+    },
+    {ing: 'There was nothing in the bag.', tr: 'Çantada hiçbir şey yoktu.'},
+    {
+      ing: 'Nothing can stop me from achieving my goals.',
+      tr: 'Hedeflerime ulaşmamı durduracak hiçbir şey yok.',
+    },
+    {ing: 'I found nothing but trouble.', tr: 'Sadece belalar buldum.'},
+    {
+      ing: 'Nothing good happens after midnight.',
+      tr: 'Gece yarısından sonra iyi bir şey olmaz.',
+    },
+    {ing: 'She left nothing behind.', tr: 'Arkasında hiçbir şey bırakmadı.'},
+    {
+      ing: 'Nothing is as relaxing as a bath.',
+      tr: 'Banyo yapmak kadar rahatlatıcı hiçbir şey yoktur.',
+    },
+    {ing: 'I hope nothing goes wrong.', tr: 'Umarım hiçbir şey ters gitmez.'},
+    {ing: 'Nothing is set in stone.', tr: 'Hiçbir şey kesin değil.'},
+    {
+      ing: 'I can find my keys nowhere.',
+      tr: 'Anahtarlarımı hiçbir yerde bulamıyorum.',
+    },
+    {
+      ing: 'There is nowhere to park the car.',
+      tr: 'Arabayı park edecek hiçbir yer yok.',
+    },
+    {
+      ing: 'She looked for her phone but found it nowhere.',
+      tr: 'Telefonunu aradı ama hiçbir yerde bulamadı.',
+    },
+    {
+      ing: 'He went nowhere last weekend.',
+      tr: 'Geçen hafta sonu hiç yere gitmedi.',
+    },
+    {
+      ing: 'Nowhere is safe during the storm.',
+      tr: 'Fırtına sırasında hiçbir yer güvenli değil.',
+    },
+    {
+      ing: 'I want to go nowhere but home.',
+      tr: 'Eve gitmekten başka hiçbir yere gitmek istemiyorum.',
+    },
+    {
+      ing: 'There’s nowhere to sit in this café.',
+      tr: 'Bu kafede oturacak hiçbir yer yok.',
+    },
+    {
+      ing: 'I looked everywhere, but I found it nowhere.',
+      tr: 'Her yeri aradım ama hiçbir yerde bulamadım.',
+    },
+    {
+      ing: 'Nowhere feels as comfortable as home.',
+      tr: 'Ev kadar rahat hissettiren hiçbir yer yok.',
+    },
+    {
+      ing: 'He felt like he was going nowhere.',
+      tr: 'Hiçbir yere gittiğini hissetti.',
+    },
+    {
+      ing: 'There is nowhere to hide in this place.',
+      tr: 'Bu yerde saklanacak hiçbir yer yok.',
+    },
+    {
+      ing: 'I found nowhere to stay during the trip.',
+      tr: 'Seyahat sırasında kalacak hiçbir yer bulamadım.',
+    },
+    {
+      ing: 'Nowhere else can you find such beauty.',
+      tr: 'Başka hiçbir yerde böyle bir güzellik bulamazsın.',
+    },
+    {
+      ing: 'She feels like she is going nowhere in life.',
+      tr: 'Hayatta hiçbir yere gittiğini hissediyor.',
+    },
+    {
+      ing: 'I want to travel to nowhere special.',
+      tr: 'Özel bir yere seyahat etmek istemiyorum.',
+    },
+    {
+      ing: 'There’s nowhere for the kids to play.',
+      tr: 'Çocukların oynayacağı hiçbir yer yok.',
+    },
+    {
+      ing: 'Nowhere is as peaceful as the countryside.',
+      tr: 'Kırsal alan kadar huzurlu hiçbir yer yok.',
+    },
+    {
+      ing: 'He searched for answers but found them nowhere.',
+      tr: 'Cevaplar aradı ama hiçbir yerde bulamadı.',
+    },
+    {
+      ing: 'Nowhere can you find such delicious food.',
+      tr: 'Böyle lezzetli yiyecekler bulabileceğin hiçbir yer yok.',
+    },
+    {
+      ing: 'There is nowhere to go on a rainy day.',
+      tr: 'Yağmurlu bir günde gidecek hiçbir yer yok.',
+    },
+    {
+      ing: 'I feel like I’m getting nowhere with this project.',
+      tr: 'Bu projede hiçbir yere varamadığımı hissediyorum.',
+    },
+    {
+      ing: 'Nowhere is open this late at night.',
+      tr: 'Bu kadar geç saatte açık olan hiçbir yer yok.',
+    },
+    {
+      ing: 'He ended up going nowhere after graduation.',
+      tr: 'Mezuniyetten sonra hiçbir yere varamadı.',
+    },
+    {
+      ing: 'Nowhere feels as good as being with friends.',
+      tr: 'Arkadaşlarla olmak kadar iyi hissettiren hiçbir yer yok.',
+    },
+    {
+      ing: 'She looked everywhere but found nowhere to sit.',
+      tr: 'Her yeri aradı ama oturacak hiçbir yer bulamadı.',
+    },
+    {
+      ing: 'There is nowhere to find peace in the city.',
+      tr: 'Şehirde huzur bulacak hiçbir yer yok.',
+    },
+    {ing: 'Nowhere is perfect.', tr: 'Hiçbir yer mükemmel değil.'},
+    {
+      ing: 'They went nowhere on their vacation.',
+      tr: 'Tatillerinde hiçbir yere gitmediler.',
+    },
+    {
+      ing: 'I searched for the book but found it nowhere.',
+      tr: 'Kitabı aradım ama hiçbir yerde bulamadım.',
+    },
+    {
+      ing: 'Nowhere do I feel more relaxed than at home.',
+      tr: 'Evde olduğumdan daha rahat hissettiğim hiçbir yer yok.',
+    },
+    {
+      ing: 'I want to go nowhere today.',
+      tr: 'Bugün hiçbir yere gitmek istemiyorum.',
+    },
+    {
+      ing: 'There’s nowhere to escape from reality.',
+      tr: 'Gerçeklikten kaçacak hiçbir yer yok.',
+    },
+    {
+      ing: 'Nowhere is better than this spot.',
+      tr: 'Bu yerden daha iyi hiçbir yer yok.',
+    },
+    {
+      ing: 'He felt like he was going nowhere in his career.',
+      tr: 'Kariyerinde hiçbir yere varamadığını hissetti.',
+    },
+    {
+      ing: 'Nowhere else have I seen such talent.',
+      tr: 'Böyle bir yeteneği başka hiçbir yerde görmedim.',
+    },
+    {
+      ing: 'There is nowhere to grab a coffee nearby.',
+      tr: 'Yakınlarda bir kahve alacak hiçbir yer yok.',
+    },
+    {
+      ing: 'Nowhere can you find a better view.',
+      tr: 'Daha iyi bir manzarayı bulabileceğin hiçbir yer yok.',
+    },
+    {
+      ing: 'She went nowhere special for the holidays.',
+      tr: 'Tatillerde özel bir yere gitmedi.',
+    },
+    {
+      ing: 'I searched for information but found it nowhere.',
+      tr: 'Bilgi aradım ama hiçbir yerde bulamadım.',
+    },
+    {
+      ing: 'Nowhere is too far for a good friend.',
+      tr: 'İyi bir arkadaş için hiçbir yer çok uzakta değil.',
+    },
+    {
+      ing: 'He felt lost and nowhere to go.',
+      tr: 'Kaybolmuş hissetti ve gidecek yeri yoktu.',
+    },
+    {
+      ing: 'Nowhere do they understand me like you do.',
+      tr: 'Beni senin gibi anlayan hiçbir yer yok.',
+    },
+    {
+      ing: 'There is nowhere I would rather be.',
+      tr: 'Olmak istediğim başka hiçbir yer yok.',
+    },
+    {
+      ing: 'She is nowhere near ready for the exam.',
+      tr: 'Sınava hazırlık açısından hiç hazır değil.',
+    },
+    {
+      ing: 'Nowhere is as challenging as this task.',
+      tr: 'Bu görev kadar zorlayan hiçbir yer yok.',
+    },
+    {
+      ing: 'I feel like I’m going nowhere in life.',
+      tr: 'Hayatta hiçbir yere varamadığımı hissediyorum.',
+    },
+    {
+      ing: 'Nowhere do I find peace like I do in nature.',
+      tr: 'Doğada bulduğum huzuru başka hiçbir yerde bulamam.',
+    },
+    {
+      ing: 'There’s nowhere left to explore.',
+      tr: 'Keşfedilecek hiçbir yer kalmadı.',
+    },
+    {
+      ing: 'Nowhere can be more beautiful than this place.',
+      tr: 'Bu yerden daha güzel hiçbir yer olamaz.',
+    },
+    {
+      ing: 'He searched everywhere but found nowhere to park.',
+      tr: 'Her yeri aradı ama park edecek hiçbir yer bulamadı.',
+    },
+  ],
+  SPronouns: [
+    {ing: 'Somebody is knocking on the door.', tr: 'Birisi kapıyı çalıyor.'},
+    {ing: 'I saw somebody in the garden.', tr: 'Bahçede birini gördüm.'},
+    {
+      ing: 'Can somebody help me, please?',
+      tr: 'Birisi bana yardım edebilir mi, lütfen?',
+    },
+    {
+      ing: 'Somebody took my book from the table.',
+      tr: 'Birisi masadan kitabımı aldı.',
+    },
+    {
+      ing: 'She said somebody called her last night.',
+      tr: 'O, birinin onu dün gece aradığını söyledi.',
+    },
+    {
+      ing: 'Somebody needs to fix the computer.',
+      tr: 'Birisi bilgisayarı tamir etmeli.',
+    },
+    {
+      ing: 'I heard somebody singing outside.',
+      tr: 'Dışarıda birinin şarkı söylediğini duydum.',
+    },
+    {
+      ing: 'Somebody left their bag on the bus.',
+      tr: 'Birisi çantalarını otobüste bıraktı.',
+    },
+    {ing: 'Is there somebody in the kitchen?', tr: 'Mutfakta birisi var mı?'},
+    {
+      ing: 'Somebody should talk to the manager.',
+      tr: 'Birisi müdürle konuşmalı.',
+    },
+    {
+      ing: 'I think somebody is watching us.',
+      tr: 'Sanırım birisi bizi izliyor.',
+    },
+    {
+      ing: 'Somebody has to clean this mess.',
+      tr: 'Birisi bu dağınıklığı temizlemeli.',
+    },
+    {
+      ing: 'Can somebody pass me the salt?',
+      tr: 'Birisi bana tuzu uzatabilir mi?',
+    },
+    {
+      ing: 'Somebody broke the window last night.',
+      tr: 'Dün gece birisi camı kırdı.',
+    },
+    {
+      ing: 'I need somebody to listen to me.',
+      tr: 'Bana kulak verecek birine ihtiyacım var.',
+    },
+    {ing: 'Somebody stole my bike.', tr: 'Birisi bisikletimi çaldı.'},
+    {
+      ing: 'I hope somebody can find my lost keys.',
+      tr: 'Umarım birisi kaybolan anahtarlarımı bulabilir.',
+    },
+    {
+      ing: 'Somebody must have seen the accident.',
+      tr: 'Kazayı mutlaka birisi görmüş olmalı.',
+    },
+    {
+      ing: 'Can somebody tell me the time?',
+      tr: 'Bana saati söyleyebilir mi birisi?',
+    },
+    {ing: 'Somebody parked in my spot.', tr: 'Birisi benim yerime park etmiş.'},
+    {
+      ing: 'I wish somebody would help me.',
+      tr: 'Keşke birisi bana yardım etse.',
+    },
+    {ing: 'Somebody left the door open.', tr: 'Birisi kapıyı açık bıraktı.'},
+    {
+      ing: 'There’s somebody waiting for you outside.',
+      tr: 'Dışarıda seni bekleyen birisi var.',
+    },
+    {
+      ing: 'Somebody told me about the news.',
+      tr: 'Birisi bana haberi söyledi.',
+    },
+    {
+      ing: 'I heard somebody laughing loudly.',
+      tr: 'Birinin yüksek sesle güldüğünü duydum.',
+    },
+    {ing: 'Somebody needs to call the police.', tr: 'Birisi polisi aramalı.'},
+    {
+      ing: 'Somebody was standing at the window.',
+      tr: 'Birisi pencerenin önünde duruyordu.',
+    },
+    {
+      ing: 'Somebody is sitting in my chair.',
+      tr: 'Birisi benim sandalyeme oturuyor.',
+    },
+    {
+      ing: 'Can somebody give me directions?',
+      tr: 'Birisi bana yol tarif edebilir mi?',
+    },
+    {ing: 'Somebody dropped their wallet.', tr: 'Birisi cüzdanını düşürdü.'},
+    {
+      ing: 'I think somebody lives in that house.',
+      tr: 'Sanırım o evde birisi yaşıyor.',
+    },
+    {
+      ing: 'Somebody waved at me from the car.',
+      tr: 'Arabadan bana el sallayan birisi vardı.',
+    },
+    {ing: 'Somebody needs to lock the door.', tr: 'Birisi kapıyı kilitlemeli.'},
+    {
+      ing: 'Is there somebody who can speak English?',
+      tr: 'İngilizce konuşabilen birisi var mı?',
+    },
+    {
+      ing: 'Somebody called my name in the crowd.',
+      tr: 'Kalabalıkta birisi adımı seslendi.',
+    },
+    {
+      ing: 'Somebody should turn off the lights.',
+      tr: 'Birisi ışıkları kapatmalı.',
+    },
+    {ing: 'I saw somebody running away.', tr: 'Birinin kaçtığını gördüm.'},
+    {ing: 'Somebody forgot their umbrella.', tr: 'Birisi şemsiyesini unuttu.'},
+    {
+      ing: 'Somebody wrote this note for me.',
+      tr: 'Bu notu benim için yazan birisi vardı.',
+    },
+    {ing: 'Somebody is at the door.', tr: 'Kapıda birisi var.'},
+    {ing: 'Can somebody open the window?', tr: 'Birisi pencereyi açabilir mi?'},
+    {ing: 'Somebody left the stove on.', tr: 'Birisi ocağı açık bıraktı.'},
+    {
+      ing: 'I believe somebody knows the answer.',
+      tr: 'Cevabı bilen birisi olduğuna inanıyorum.',
+    },
+    {ing: 'Somebody is calling you.', tr: 'Birisi seni arıyor.'},
+    {
+      ing: 'Somebody knocked on the door twice.',
+      tr: 'Kapıya iki kez vuran birisi vardı.',
+    },
+    {
+      ing: 'Somebody has to take responsibility.',
+      tr: 'Birisi sorumluluk almalı.',
+    },
+    {
+      ing: 'I need somebody to talk to.',
+      tr: 'Konuşacak birisine ihtiyacım var.',
+    },
+    {
+      ing: 'Somebody was following me yesterday.',
+      tr: 'Dün beni takip eden birisi vardı.',
+    },
+    {
+      ing: 'Somebody made this cake for you.',
+      tr: 'Bu keki senin için yapan birisi vardı.',
+    },
+    {
+      ing: 'Is there somebody here with us?',
+      tr: 'Burada bizimle birlikte birisi var mı?',
+    },
+    {
+      ing: 'Someone is waiting for you outside.',
+      tr: 'Dışarıda seni bekleyen biri var.',
+    },
+    {
+      ing: 'I think someone stole my wallet.',
+      tr: 'Sanırım biri cüzdanımı çaldı.',
+    },
+    {
+      ing: 'Can someone help me with this?',
+      tr: 'Biri bana bununla yardım edebilir mi?',
+    },
+    {
+      ing: 'Someone called me late at night.',
+      tr: 'Gece geç saatlerde biri beni aradı.',
+    },
+    {ing: 'There is someone at the door.', tr: 'Kapıda biri var.'},
+    {
+      ing: 'I saw someone standing in the dark.',
+      tr: 'Karanlıkta duran birini gördüm.',
+    },
+    {
+      ing: 'Someone needs to fix this issue.',
+      tr: 'Birinin bu sorunu çözmesi gerekiyor.',
+    },
+    {
+      ing: 'Someone left their book in the library.',
+      tr: 'Birisi kitabını kütüphanede bıraktı.',
+    },
+    {
+      ing: 'Is there someone who knows the answer?',
+      tr: 'Cevabı bilen biri var mı?',
+    },
+    {
+      ing: 'Someone told me a secret yesterday.',
+      tr: 'Dün bana bir sır anlatan biri vardı.',
+    },
+    {ing: 'Someone dropped their keys.', tr: 'Birisi anahtarlarını düşürdü.'},
+    {ing: 'I need someone to talk to.', tr: 'Konuşacak birine ihtiyacım var.'},
+    {
+      ing: 'Someone was looking for you earlier.',
+      tr: 'Daha önce seni arayan biri vardı.',
+    },
+    {
+      ing: 'Someone is playing music too loudly.',
+      tr: 'Biri müziği çok yüksek sesle çalıyor.',
+    },
+    {
+      ing: 'Can someone show me the way?',
+      tr: 'Bana yolu gösterebilir mi biri?',
+    },
+    {
+      ing: 'I hope someone finds my lost ring.',
+      tr: 'Umarım biri kaybolan yüzüğümü bulur.',
+    },
+    {
+      ing: 'Someone should clean this mess.',
+      tr: 'Biri bu dağınıklığı temizlemeli.',
+    },
+    {
+      ing: 'Someone has been here before us.',
+      tr: 'Birisi bizden önce burada bulunmuş.',
+    },
+    {
+      ing: 'I believe someone is lying.',
+      tr: 'Birinin yalan söylediğine inanıyorum.',
+    },
+    {ing: 'Is there someone in the kitchen?', tr: 'Mutfakta biri var mı?'},
+    {
+      ing: 'Someone must have seen the accident.',
+      tr: 'Kazayı mutlaka biri görmüş olmalı.',
+    },
+    {
+      ing: 'Can someone open the window, please?',
+      tr: 'Lütfen pencereyi açabilir mi biri?',
+    },
+    {
+      ing: 'Someone left their bag on the bus.',
+      tr: 'Birisi çantasını otobüste bıraktı.',
+    },
+    {ing: 'Someone is at the back door.', tr: 'Arka kapıda biri var.'},
+    {
+      ing: 'Someone knocked on the door this morning.',
+      tr: 'Bu sabah kapıya vuran biri vardı.',
+    },
+    {ing: 'I heard someone laughing.', tr: 'Birinin güldüğünü duydum.'},
+    {
+      ing: 'Someone forgot to turn off the lights.',
+      tr: 'Biri ışıkları kapatmayı unuttu.',
+    },
+    {ing: 'Can someone call a doctor?', tr: 'Birisi doktor çağırabilir mi?'},
+    {
+      ing: 'Someone is looking through the window.',
+      tr: 'Biri pencereden bakıyor.',
+    },
+    {
+      ing: 'I think someone needs help.',
+      tr: 'Sanırım birinin yardıma ihtiyacı var.',
+    },
+    {ing: 'Someone is talking on the phone.', tr: 'Biri telefonda konuşuyor.'},
+    {
+      ing: 'Someone left their shoes outside.',
+      tr: 'Birisi ayakkabılarını dışarıda bıraktı.',
+    },
+    {ing: 'I saw someone waving at me.', tr: 'Bana el sallayan birini gördüm.'},
+    {ing: 'Someone is sitting in my chair.', tr: 'Sandalyeme oturan biri var.'},
+    {
+      ing: 'Can someone explain this to me?',
+      tr: 'Biri bana bunu açıklayabilir mi?',
+    },
+    {
+      ing: 'Someone brought flowers to the party.',
+      tr: 'Partiye çiçek getiren biri vardı.',
+    },
+    {
+      ing: 'I think someone is following us.',
+      tr: 'Sanırım biri bizi takip ediyor.',
+    },
+    {
+      ing: 'Someone made a mistake on the form.',
+      tr: 'Formda hata yapan biri vardı.',
+    },
+    {ing: 'Is someone there?', tr: 'Orada biri var mı?'},
+    {ing: 'Someone borrowed my pen.', tr: 'Biri kalemimi ödünç aldı.'},
+    {ing: 'Someone should call the police.', tr: 'Biri polisi aramalı.'},
+    {
+      ing: 'I need someone to guide me.',
+      tr: 'Bana rehberlik edecek birine ihtiyacım var.',
+    },
+    {ing: 'Someone is walking in the garden.', tr: 'Bahçede yürüyen biri var.'},
+    {
+      ing: 'Someone took the last piece of cake.',
+      tr: 'Biri pastanın son dilimini aldı.',
+    },
+    {
+      ing: 'Someone is playing the piano beautifully.',
+      tr: 'Biri piyanoyu güzel bir şekilde çalıyor.',
+    },
+    {
+      ing: 'I wish someone would answer my question.',
+      tr: 'Keşke biri soruma cevap verse.',
+    },
+    {ing: 'Someone is in trouble.', tr: 'Birisi zor durumda.'},
+    {
+      ing: 'Can someone turn off the TV?',
+      tr: 'Birisi televizyonu kapatabilir mi?',
+    },
+    {
+      ing: 'Someone forgot to lock the door.',
+      tr: 'Biri kapıyı kilitlemeyi unuttu.',
+    },
+    {
+      ing: 'Someone left me a note on my desk.',
+      tr: 'Masama bir not bırakan biri vardı.',
+    },
+    {ing: 'I heard something outside.', tr: 'Dışarıda bir şey duydum.'},
+    {ing: 'There is something in my eye.', tr: 'Gözümde bir şey var.'},
+    {
+      ing: 'Can you give me something to drink?',
+      tr: 'Bana içecek bir şey verebilir misin?',
+    },
+    {
+      ing: 'She found something interesting in the book.',
+      tr: 'Kitapta ilginç bir şey buldu.',
+    },
+    {ing: 'Something is wrong with the car.', tr: 'Arabada bir şeyler yanlış.'},
+    {
+      ing: 'He needs something to write with.',
+      tr: 'Yazacak bir şeye ihtiyacı var.',
+    },
+    {
+      ing: 'I think something fell from the shelf.',
+      tr: 'Sanırım raftan bir şey düştü.',
+    },
+    {
+      ing: 'Can you tell me something about your job?',
+      tr: 'Bana işin hakkında bir şeyler anlatabilir misin?',
+    },
+    {
+      ing: 'There’s something strange in the air.',
+      tr: 'Havada garip bir şey var.',
+    },
+    {
+      ing: 'I want to eat something sweet.',
+      tr: 'Tatlı bir şey yemek istiyorum.',
+    },
+    {
+      ing: 'Something made a noise in the kitchen.',
+      tr: 'Mutfakta bir şey gürültü yaptı.',
+    },
+    {
+      ing: 'She said something funny during the meeting.',
+      tr: 'Toplantı sırasında komik bir şey söyledi.',
+    },
+    {ing: 'I bought something for you.', tr: 'Senin için bir şey aldım.'},
+    {
+      ing: 'Something smells delicious in the oven.',
+      tr: 'Fırında lezzetli kokan bir şey var.',
+    },
+    {ing: 'He has something in his pocket.', tr: 'Cebinde bir şey var.'},
+    {
+      ing: 'I need something to help me relax.',
+      tr: 'Beni rahatlatacak bir şeye ihtiyacım var.',
+    },
+    {ing: 'She wrote something on the paper.', tr: 'Kağıda bir şey yazdı.'},
+    {
+      ing: 'There’s something moving in the bushes.',
+      tr: 'Çalılarda hareket eden bir şey var.',
+    },
+    {ing: 'He is hiding something from us.', tr: 'Bizden bir şey saklıyor.'},
+    {
+      ing: 'I hope you have something to tell me.',
+      tr: 'Bana söyleyecek bir şeyin olduğunu umuyorum.',
+    },
+    {ing: 'Something is burning on the stove.', tr: 'Ocakta bir şey yanıyor.'},
+    {
+      ing: 'She whispered something in his ear.',
+      tr: 'Onun kulağına bir şey fısıldadı.',
+    },
+    {
+      ing: 'He discovered something new in the lab.',
+      tr: 'Laboratuvarda yeni bir şey keşfetti.',
+    },
+    {
+      ing: 'There’s something wrong with the computer.',
+      tr: 'Bilgisayarda bir sorun var.',
+    },
+    {
+      ing: 'I felt something touch my leg.',
+      tr: 'Bacağıma dokunan bir şey hissettim.',
+    },
+    {
+      ing: 'He always has something interesting to say.',
+      tr: 'Her zaman söyleyecek ilginç bir şeyi var.',
+    },
+    {
+      ing: 'Can you find something for me to read?',
+      tr: 'Bana okumak için bir şey bulabilir misin?',
+    },
+    {
+      ing: 'There’s something special about this place.',
+      tr: 'Bu yer hakkında özel bir şey var.',
+    },
+    {
+      ing: 'I saw something shiny on the ground.',
+      tr: 'Yerde parlak bir şey gördüm.',
+    },
+    {
+      ing: 'She needs something to wear for the party.',
+      tr: 'Parti için giyecek bir şeye ihtiyacı var.',
+    },
+    {
+      ing: 'Something is ticking in the room.',
+      tr: 'Odada tıklayan bir şey var.',
+    },
+    {ing: 'He said something rude to her.', tr: 'Ona kaba bir şey söyledi.'},
+    {
+      ing: 'I lost something important today.',
+      tr: 'Bugün önemli bir şey kaybettim.',
+    },
+    {
+      ing: 'She wants something different for dinner.',
+      tr: 'Akşam yemeği için farklı bir şey istiyor.',
+    },
+    {
+      ing: 'There’s something stuck under the table.',
+      tr: 'Masanın altında sıkışmış bir şey var.',
+    },
+    {
+      ing: 'Can you make something for me to eat?',
+      tr: 'Bana yemek için bir şey yapabilir misin?',
+    },
+    {
+      ing: 'He brought something to the meeting.',
+      tr: 'Toplantıya bir şey getirdi.',
+    },
+    {
+      ing: 'Something is vibrating in my bag.',
+      tr: 'Çantamda titreşen bir şey var.',
+    },
+    {
+      ing: 'She’s looking for something to read.',
+      tr: 'Okuyacak bir şey arıyor.',
+    },
+    {
+      ing: 'There’s something glowing in the dark.',
+      tr: 'Karanlıkta parlayan bir şey var.',
+    },
+    {
+      ing: 'I heard something unusual on the radio.',
+      tr: 'Radyoda alışılmadık bir şey duydum.',
+    },
+    {ing: 'He put something on my desk.', tr: 'Masama bir şey koydu.'},
+    {
+      ing: 'She found something under the bed.',
+      tr: 'Yatağın altında bir şey buldu.',
+    },
+    {
+      ing: 'Something is making a weird noise outside.',
+      tr: 'Dışarıda garip bir ses çıkaran bir şey var.',
+    },
+    {ing: 'He asked for something to drink.', tr: 'İçmek için bir şey istedi.'},
+    {
+      ing: 'There’s something hidden in the box.',
+      tr: 'Kutuda saklı bir şey var.',
+    },
+    {ing: 'She added something to the soup.', tr: 'Çorbaya bir şey ekledi.'},
+    {
+      ing: 'I bought something new for the house.',
+      tr: 'Ev için yeni bir şey aldım.',
+    },
+    {
+      ing: 'He always forgets something important.',
+      tr: 'Her zaman önemli bir şeyi unutur.',
+    },
+    {ing: 'Something fell off the table.', tr: 'Masadan bir şey düştü.'},
+    {
+      ing: 'I left my keys somewhere in the house.',
+      tr: 'Anahtarlarımı evde bir yerde bıraktım.',
+    },
+    {
+      ing: 'Can we go somewhere quiet to talk?',
+      tr: 'Konuşmak için sessiz bir yere gidebilir miyiz?',
+    },
+    {
+      ing: 'He is hiding somewhere in the garden.',
+      tr: 'Bahçede bir yerde saklanıyor.',
+    },
+    {
+      ing: 'There’s a park somewhere near here.',
+      tr: 'Buraya yakın bir yerde bir park var.',
+    },
+    {
+      ing: 'I heard that restaurant is somewhere downtown.',
+      tr: 'O restoranın şehir merkezinde bir yerde olduğunu duydum.',
+    },
+    {
+      ing: 'She wants to travel somewhere warm for vacation.',
+      tr: 'Tatil için sıcak bir yere gitmek istiyor.',
+    },
+    {
+      ing: 'I think I saw you somewhere before.',
+      tr: 'Sanırım seni daha önce bir yerde gördüm.',
+    },
+    {
+      ing: 'He lost his phone somewhere in the car.',
+      tr: 'Telefonunu arabada bir yerde kaybetti.',
+    },
+    {
+      ing: 'There must be somewhere we can sit.',
+      tr: 'Oturabileceğimiz bir yer olmalı.',
+    },
+    {
+      ing: 'I left my bag somewhere at the office.',
+      tr: 'Çantamı ofiste bir yerde bıraktım.',
+    },
+    {
+      ing: 'We should meet somewhere in the middle.',
+      tr: 'Ortada bir yerde buluşmalıyız.',
+    },
+    {
+      ing: 'The keys are somewhere on the table.',
+      tr: 'Anahtarlar masada bir yerde.',
+    },
+    {
+      ing: 'She parked her car somewhere nearby.',
+      tr: 'Arabasını yakında bir yerde park etti.',
+    },
+    {
+      ing: 'He lives somewhere far from here.',
+      tr: 'Buradan uzak bir yerde yaşıyor.',
+    },
+    {
+      ing: 'I need to find somewhere to rest.',
+      tr: 'Dinlenecek bir yer bulmam lazım.',
+    },
+    {
+      ing: 'Let’s eat somewhere nice tonight.',
+      tr: 'Bu gece güzel bir yerde yemek yiyelim.',
+    },
+    {
+      ing: 'There is a café somewhere on this street.',
+      tr: 'Bu caddede bir yerde bir kafe var.',
+    },
+    {
+      ing: 'She dropped her pen somewhere in the room.',
+      tr: 'Kalemini odada bir yerde düşürdü.',
+    },
+    {
+      ing: 'He hid the gift somewhere in the house.',
+      tr: 'Hediyeyi evde bir yerde sakladı.',
+    },
+    {
+      ing: 'I know we met somewhere before.',
+      tr: 'Daha önce bir yerde tanıştığımızı biliyorum.',
+    },
+    {
+      ing: 'There’s a shop somewhere around here.',
+      tr: 'Bu civarda bir yerde bir dükkan var.',
+    },
+    {
+      ing: 'I want to go somewhere peaceful.',
+      tr: 'Huzurlu bir yere gitmek istiyorum.',
+    },
+    {
+      ing: 'She lost her bracelet somewhere in the park.',
+      tr: 'Bileziğini parkta bir yerde kaybetti.',
+    },
+    {
+      ing: 'The documents are somewhere in my bag.',
+      tr: 'Belgeler çantamda bir yerde.',
+    },
+    {
+      ing: 'He mentioned somewhere interesting to visit.',
+      tr: 'Ziyaret edilecek ilginç bir yerden bahsetti.',
+    },
+    {ing: 'Let’s sit somewhere in the sun.', tr: 'Güneşte bir yerde oturalım.'},
+    {
+      ing: 'I think my book is somewhere in the car.',
+      tr: 'Kitabım arabanın bir yerinde sanırım.',
+    },
+    {
+      ing: 'There’s a library somewhere close by.',
+      tr: 'Yakında bir yerde bir kütüphane var.',
+    },
+    {
+      ing: 'She went somewhere without telling us.',
+      tr: 'Bize söylemeden bir yere gitti.',
+    },
+    {
+      ing: 'I heard music coming from somewhere.',
+      tr: 'Bir yerden müzik sesi duydum.',
+    },
+    {ing: 'He’s looking for somewhere to stay.', tr: 'Kalacak bir yer arıyor.'},
+    {
+      ing: 'The dog ran somewhere in the garden.',
+      tr: 'Köpek bahçede bir yere koştu.',
+    },
+    {
+      ing: 'There’s a bridge somewhere on this road.',
+      tr: 'Bu yolda bir yerde bir köprü var.',
+    },
+    {
+      ing: 'She left her coat somewhere in the office.',
+      tr: 'Ceketini ofiste bir yerde bıraktı.',
+    },
+    {
+      ing: 'We need to find somewhere to eat.',
+      tr: 'Yemek yiyecek bir yer bulmamız lazım.',
+    },
+    {
+      ing: 'He’s hiding somewhere we can’t see.',
+      tr: 'Göremediğimiz bir yerde saklanıyor.',
+    },
+    {
+      ing: 'Let’s meet somewhere at the mall.',
+      tr: 'Alışveriş merkezinde bir yerde buluşalım.',
+    },
+    {
+      ing: 'There’s somewhere special I want to show you.',
+      tr: 'Sana göstermek istediğim özel bir yer var.',
+    },
+    {
+      ing: 'She put the letter somewhere safe.',
+      tr: 'Mektubu güvenli bir yere koydu.',
+    },
+    {
+      ing: 'He travels somewhere different every year.',
+      tr: 'Her yıl farklı bir yere seyahat eder.',
+    },
+    {
+      ing: 'I found the photo somewhere in the attic.',
+      tr: 'Fotoğrafı çatı katında bir yerde buldum.',
+    },
+    {ing: 'Let’s go somewhere with a view.', tr: 'Manzaralı bir yere gidelim.'},
+    {
+      ing: 'The cat hid somewhere in the house.',
+      tr: 'Kedi evde bir yerde saklandı.',
+    },
+    {
+      ing: 'He left his shoes somewhere outside.',
+      tr: 'Ayakkabılarını dışarıda bir yerde bıraktı.',
+    },
+    {
+      ing: 'I parked my bike somewhere near the shop.',
+      tr: 'Bisikletimi dükkanın yakınında bir yere park ettim.',
+    },
+    {
+      ing: 'She lost her ring somewhere in the sand.',
+      tr: 'Yüzüğünü kumda bir yerde kaybetti.',
+    },
+    {
+      ing: 'There’s somewhere quiet we can study.',
+      tr: 'Ders çalışabileceğimiz sessiz bir yer var.',
+    },
+    {
+      ing: 'He moved somewhere far away last year.',
+      tr: 'Geçen yıl uzak bir yere taşındı.',
+    },
+    {
+      ing: 'I need to find somewhere cool to relax.',
+      tr: 'Rahatlayacak serin bir yer bulmam lazım.',
+    },
+    {
+      ing: 'Let’s look for somewhere to sit down.',
+      tr: 'Oturacak bir yer arayalım.',
+    },
+  ],
+};
+
+export const ImperativesTranslationSentences = {
+  Imperatives: [
+    {ing: 'Open the door, please.', tr: 'Lütfen kapıyı aç.'},
+    {ing: 'Close the window.', tr: 'Pencereyi kapat.'},
+    {ing: 'Don’t touch that!', tr: 'Ona dokunma!'},
+    {ing: 'Please sit down.', tr: 'Lütfen otur.'},
+    {ing: 'Stand up straight.', tr: 'Düz dur.'},
+    {ing: 'Don’t be late.', tr: 'Geç kalma.'},
+    {ing: 'Turn off the light, please.', tr: 'Lütfen ışığı kapat.'},
+    {ing: 'Listen carefully.', tr: 'Dikkatlice dinle.'},
+    {ing: 'Don’t run in the hall.', tr: 'Koridorda koşma.'},
+    {ing: 'Please wash your hands.', tr: 'Lütfen ellerini yıka.'},
+    {ing: 'Be quiet!', tr: 'Sessiz ol!'},
+    {ing: 'Don’t eat too fast.', tr: 'Çok hızlı yeme.'},
+    {ing: 'Write your name on the paper.', tr: 'Adını kağıda yaz.'},
+    {ing: 'Don’t talk during the movie.', tr: 'Film sırasında konuşma.'},
+    {ing: 'Please help your friend.', tr: 'Lütfen arkadaşına yardım et.'},
+    {ing: 'Don’t forget your homework.', tr: 'Ödevini unutma.'},
+    {ing: 'Look at the board.', tr: 'Tahtaya bak.'},
+    {ing: 'Take a deep breath.', tr: 'Derin bir nefes al.'},
+    {ing: 'Please smile for the photo.', tr: 'Lütfen fotoğraf için gülümse.'},
+    {ing: 'Don’t shout, please.', tr: 'Lütfen bağırma.'},
+    {ing: 'Read the instructions first.', tr: 'Önce talimatları oku.'},
+    {ing: 'Don’t touch the stove.', tr: 'Ocağa dokunma.'},
+    {ing: 'Please open your books.', tr: 'Lütfen kitaplarınızı açın.'},
+    {ing: 'Don’t leave your bag here.', tr: 'Çantanı burada bırakma.'},
+    {ing: 'Turn right at the corner.', tr: 'Köşeden sağa dön.'},
+    {ing: 'Please tell me the answer.', tr: 'Lütfen bana cevabı söyle.'},
+    {ing: 'Don’t eat that; it’s hot.', tr: 'Onu yeme; sıcak.'},
+    {ing: 'Write your address here.', tr: 'Adresini buraya yaz.'},
+    {ing: 'Please wait for your turn.', tr: 'Lütfen sıranı bekle.'},
+    {ing: 'Don’t jump on the bed.', tr: 'Yatağın üstünde zıplama.'},
+    {ing: 'Close your eyes.', tr: 'Gözlerini kapat.'},
+    {ing: 'Keep your room clean.', tr: 'Odanı temiz tut.'},
+    {ing: 'Don’t go outside now.', tr: 'Şimdi dışarı çıkma.'},
+    {ing: 'Please speak more slowly.', tr: 'Lütfen daha yavaş konuş.'},
+    {ing: 'Watch the road carefully.', tr: 'Yolu dikkatlice izle.'},
+    {ing: 'Don’t play with fire.', tr: 'Ateşle oynama.'},
+    {ing: 'Take your medicine, please.', tr: 'Lütfen ilacını al.'},
+    {ing: 'Don’t forget to call me.', tr: 'Beni aramayı unutma.'},
+    {ing: 'Turn the page.', tr: 'Sayfayı çevir.'},
+    {ing: 'Please pass me the salt.', tr: 'Lütfen tuzu uzat.'},
+    {ing: 'Don’t draw on the wall.', tr: 'Duvara çizme.'},
+    {ing: 'Clean your desk.', tr: 'Masanı temizle.'},
+    {ing: 'Please take a seat.', tr: 'Lütfen otur.'},
+    {ing: 'Don’t push the button.', tr: 'Düğmeye basma.'},
+    {ing: 'Speak clearly.', tr: 'Net konuş.'},
+    {ing: 'Don’t be rude.', tr: 'Kaba olma.'},
+    {ing: 'Finish your work, please.', tr: 'Lütfen işini bitir.'},
+    {ing: 'Don’t drink too much soda.', tr: 'Çok fazla soda içme.'},
+    {ing: 'Please sit quietly.', tr: 'Lütfen sessizce otur.'},
+    {ing: 'Don’t break the rules.', tr: 'Kuralları çiğneme.'},
+    {ing: 'Put on your coat.', tr: 'Montunu giy.'},
+    {ing: 'Don’t leave the door open.', tr: 'Kapıyı açık bırakma.'},
+    {ing: 'Please close the gate.', tr: 'Lütfen kapıyı kapat.'},
+    {ing: 'Take your shoes off.', tr: 'Ayakkabılarını çıkar.'},
+    {ing: 'Don’t lie to me.', tr: 'Bana yalan söyleme.'},
+    {ing: 'Eat your vegetables.', tr: 'Sebzelerini ye.'},
+    {ing: 'Don’t stay up too late.', tr: 'Çok geç saatlere kadar kalma.'},
+    {ing: 'Please listen to me.', tr: 'Lütfen beni dinle.'},
+    {ing: 'Follow the instructions.', tr: 'Talimatları takip et.'},
+    {ing: 'Don’t forget to smile.', tr: 'Gülümsemeyi unutma.'},
+    {ing: 'Please check your answers.', tr: 'Lütfen cevaplarını kontrol et.'},
+    {ing: 'Don’t open the window.', tr: 'Pencereyi açma.'},
+    {ing: 'Wash your face.', tr: 'Yüzünü yıka.'},
+    {ing: 'Don’t speak so loudly.', tr: 'Çok yüksek sesle konuşma.'},
+    {ing: 'Please bring me a pen.', tr: 'Lütfen bana bir kalem getir.'},
+    {ing: 'Stay in your seat.', tr: 'Koltuğunda kal.'},
+    {ing: 'Don’t look at your phone.', tr: 'Telefonuna bakma.'},
+    {ing: 'Read the text again.', tr: 'Metni tekrar oku.'},
+    {ing: 'Please be on time.', tr: 'Lütfen zamanında ol.'},
+    {ing: 'Don’t lose your keys.', tr: 'Anahtarlarını kaybetme.'},
+    {ing: 'Drink some water.', tr: 'Biraz su iç.'},
+    {ing: 'Don’t talk to strangers.', tr: 'Yabancılarla konuşma.'},
+    {ing: 'Please write neatly.', tr: 'Lütfen düzgün yaz.'},
+    {ing: 'Finish your homework.', tr: 'Ödevini bitir.'},
+    {ing: 'Don’t run near the pool.', tr: 'Havuzun yakınında koşma.'},
+    {ing: 'Please take a picture.', tr: 'Lütfen bir fotoğraf çek.'},
+    {ing: 'Don’t skip breakfast.', tr: 'Kahvaltıyı atlama.'},
+    {ing: 'Help me with this.', tr: 'Bana bununla yardım et.'},
+    {ing: 'Don’t forget to lock the door.', tr: 'Kapıyı kilitlemeyi unutma.'},
+    {ing: 'Please save your work.', tr: 'Lütfen işini kaydet.'},
+    {ing: 'Clean the table.', tr: 'Masayı temizle.'},
+    {ing: 'Don’t use my computer.', tr: 'Bilgisayarımı kullanma.'},
+    {ing: 'Please sit with us.', tr: 'Lütfen bizimle otur.'},
+    {ing: 'Don’t park here.', tr: 'Buraya park etme.'},
+    {ing: 'Call me later.', tr: 'Beni sonra ara.'},
+    {ing: 'Don’t touch the glass.', tr: 'Bardağa dokunma.'},
+    {ing: 'Please do your best.', tr: 'Lütfen elinden gelenin en iyisini yap.'},
+    {ing: 'Don’t go alone.', tr: 'Yalnız gitme.'},
+    {ing: 'Pack your bag.', tr: 'Çantanı hazırla.'},
+    {ing: 'Don’t listen to them.', tr: 'Onları dinleme.'},
+    {ing: 'Wait for me, please.', tr: 'Lütfen beni bekle.'},
+    {ing: 'Don’t forget your umbrella.', tr: 'Şemsiyeni unutma.'},
+    {ing: 'Keep your voice down.', tr: 'Sesini alçalt.'},
+    {ing: 'Please tell the truth.', tr: 'Lütfen gerçeği söyle.'},
+    {ing: 'Don’t close the window.', tr: 'Pencereyi kapatma.'},
+    {ing: 'Stop the car.', tr: 'Arabayı durdur.'},
+    {ing: 'Don’t lie to your friend.', tr: 'Arkadaşına yalan söyleme.'},
+    {ing: 'Please read the next page.', tr: 'Lütfen bir sonraki sayfayı oku.'},
+    {ing: 'Don’t forget to bring a pen.', tr: 'Kalem getirmeyi unutma.'},
+    {ing: 'Lock the door, please.', tr: 'Lütfen kapıyı kilitle.'},
+    {ing: 'Don’t leave your seat.', tr: 'Koltuğundan kalkma.'},
+    {ing: 'Please share your toys.', tr: 'Lütfen oyuncaklarını paylaş.'},
+    {ing: 'Don’t eat in the living room.', tr: 'Oturma odasında yeme.'},
+    {ing: 'Write a letter to your mom.', tr: 'Annen için bir mektup yaz.'},
+    {ing: 'Don’t wear those shoes.', tr: 'O ayakkabıları giyme.'},
+    {ing: 'Please don’t make noise.', tr: 'Lütfen gürültü yapma.'},
+    {ing: 'Check the weather.', tr: 'Havayı kontrol et.'},
+    {ing: 'Don’t take my things.', tr: 'Eşyalarımı alma.'},
+    {ing: 'Please hold the door.', tr: 'Lütfen kapıyı tut.'},
+    {ing: 'Don’t forget your phone.', tr: 'Telefonunu unutma.'},
+    {ing: 'Speak English, please.', tr: 'Lütfen İngilizce konuş.'},
+    {ing: 'Don’t play in the street.', tr: 'Sokakta oynama.'},
+    {ing: 'Help your sister.', tr: 'Kız kardeşine yardım et.'},
+    {ing: 'Don’t close the book.', tr: 'Kitabı kapatma.'},
+    {ing: 'Please open the window.', tr: 'Lütfen pencereyi aç.'},
+    {ing: 'Don’t sit on the floor.', tr: 'Yere oturma.'},
+    {ing: 'Say hello to your teacher.', tr: 'Öğretmenine merhaba de.'},
+    {ing: 'Don’t touch the cat.', tr: 'Kediye dokunma.'},
+    {ing: 'Turn on the lights, please.', tr: 'Lütfen ışıkları aç.'},
+    {ing: 'Don’t leave the tap running.', tr: 'Musluğu açık bırakma.'},
+    {ing: 'Answer the question.', tr: 'Soruyu cevapla.'},
+    {ing: 'Don’t talk during class.', tr: 'Derste konuşma.'},
+    {ing: 'Please take your seat.', tr: 'Lütfen otur yerine.'},
+    {ing: 'Don’t waste time.', tr: 'Zamanını boşa harcama.'},
+    {ing: 'Look at this picture.', tr: 'Bu resme bak.'},
+    {ing: 'Don’t tell lies.', tr: 'Yalan söyleme.'},
+    {ing: 'Please feed the dog.', tr: 'Lütfen köpeği besle.'},
+    {ing: 'Don’t walk on the grass.', tr: 'Çimlerin üzerinde yürüme.'},
+    {ing: 'Raise your hand.', tr: 'Elini kaldır.'},
+    {ing: 'Don’t use that phone.', tr: 'O telefonu kullanma.'},
+    {ing: 'Close your book.', tr: 'Kitabını kapat.'},
+    {ing: 'Don’t forget to eat lunch.', tr: 'Öğle yemeği yemeyi unutma.'},
+    {ing: 'Write in your notebook.', tr: 'Defterine yaz.'},
+    {ing: 'Please be careful.', tr: 'Lütfen dikkatli ol.'},
+    {ing: 'Don’t stay up late.', tr: 'Geç saatlere kadar uyanık kalma.'},
+    {ing: 'Put the dishes away.', tr: 'Tabakları yerine koy.'},
+    {ing: 'Don’t talk with your mouth full.', tr: 'Ağzın doluyken konuşma.'},
+    {ing: 'Please clean your shoes.', tr: 'Lütfen ayakkabılarını temizle.'},
+    {ing: 'Take your umbrella.', tr: 'Şemsiyeni al.'},
+    {ing: 'Don’t sit on my chair.', tr: 'Benim sandalyeme oturma.'},
+    {ing: 'Speak louder, please.', tr: 'Lütfen daha yüksek sesle konuş.'},
+    {ing: 'Don’t take that road.', tr: 'O yoldan gitme.'},
+    {ing: 'Wear your jacket.', tr: 'Ceketini giy.'},
+    {ing: 'Don’t move the chair.', tr: 'Sandalyeyi oynatma.'},
+    {ing: 'Please say goodbye.', tr: 'Lütfen hoşça kal de.'},
+    {ing: 'Don’t open the box.', tr: 'Kutuyu açma.'},
+    {ing: 'Listen to the music.', tr: 'Müziği dinle.'},
+    {ing: 'Don’t tell anyone.', tr: 'Kimseye söyleme.'},
+    {ing: 'Please answer the phone.', tr: 'Lütfen telefonu aç.'},
+    {ing: 'Don’t talk to him.', tr: 'Onunla konuşma.'},
+    {ing: 'Show me your drawing.', tr: 'Bana çizimini göster.'},
+    {ing: 'Don’t forget to wash your hands.', tr: 'Ellerini yıkamayı unutma.'},
+    {ing: 'Please wait a moment.', tr: 'Lütfen bir dakika bekle.'},
+    {ing: 'Don’t turn left here.', tr: 'Buradan sola dönme.'},
+    {ing: 'Help me carry this bag.', tr: 'Bu çantayı taşımama yardım et.'},
+    {ing: 'Don’t leave yet.', tr: 'Henüz gitme.'},
+    {ing: 'Please put the toys away.', tr: 'Lütfen oyuncakları yerine koy.'},
+    {ing: 'Don’t skip your homework.', tr: 'Ödevini atlama.'},
+    {ing: 'Go to bed early.', tr: 'Erken yat.'},
+    {ing: 'Don’t forget to smile.', tr: 'Gülümsemeyi unutma.'},
+    {ing: 'Wait for the bus.', tr: 'Otobüsü bekle.'},
+    {ing: 'Don’t speak too fast.', tr: 'Çok hızlı konuşma.'},
+    {ing: 'Please wash the dishes.', tr: 'Lütfen bulaşıkları yıka.'},
+    {ing: 'Don’t run in the house.', tr: 'Evde koşma.'},
+    {ing: 'Make your bed.', tr: 'Yatağını yap.'},
+    {ing: 'Don’t forget your keys.', tr: 'Anahtarlarını unutma.'},
+    {ing: 'Please hold my hand.', tr: 'Lütfen elimi tut.'},
+    {ing: 'Don’t touch the plant.', tr: 'Bitkiye dokunma.'},
+    {ing: 'Write your name here.', tr: 'Adını buraya yaz.'},
+    {ing: 'Don’t make a mess.', tr: 'Dağınıklık yapma.'},
+    {ing: 'Please come with me.', tr: 'Lütfen benimle gel.'},
+    {ing: 'Don’t be afraid.', tr: 'Korkma.'},
+    {ing: 'Look at the stars.', tr: 'Yıldızlara bak.'},
+    {ing: 'Don’t leave the light on.', tr: 'Işığı açık bırakma.'},
+    {ing: 'Please wash the car.', tr: 'Lütfen arabayı yıka.'},
+    {ing: 'Don’t sit on the steps.', tr: 'Basamaklara oturma.'},
+    {ing: 'Play with your brother.', tr: 'Kardeşinle oyna.'},
+    {ing: 'Don’t stand too close.', tr: 'Çok yakın durma.'},
+    {ing: 'Please close the door.', tr: 'Lütfen kapıyı kapat.'},
+    {ing: 'Don’t put your feet on the table.', tr: 'Ayaklarını masaya koyma.'},
+    {ing: 'Bring me the book.', tr: 'Bana kitabı getir.'},
+    {ing: 'Don’t go near the water.', tr: 'Suyun yanına gitme.'},
+    {ing: 'Please finish your dinner.', tr: 'Lütfen akşam yemeğini bitir.'},
+    {ing: 'Don’t talk loudly.', tr: 'Yüksek sesle konuşma.'},
+    {ing: 'Watch the movie.', tr: 'Filmi izle.'},
+    {ing: 'Don’t forget to thank them.', tr: 'Onlara teşekkür etmeyi unutma.'},
+    {ing: 'Please clean your room.', tr: 'Lütfen odanı temizle.'},
+    {ing: 'Don’t touch the painting.', tr: 'Resme dokunma.'},
+    {ing: 'Take a break.', tr: 'Mola ver.'},
+    {ing: 'Don’t eat too much candy.', tr: 'Çok fazla şeker yeme.'},
+    {ing: 'Please call your dad.', tr: 'Lütfen babanı ara.'},
+    {ing: 'Don’t walk too fast.', tr: 'Çok hızlı yürüme.'},
+    {ing: 'Read the book aloud.', tr: 'Kitabı yüksek sesle oku.'},
+    {ing: 'Don’t interrupt me.', tr: 'Beni bölme.'},
+    {ing: 'Please set the table.', tr: 'Lütfen masayı kur.'},
+    {ing: 'Don’t move my chair.', tr: 'Sandalyemi oynatma.'},
+    {ing: 'Close the window.', tr: 'Pencereyi kapat.'},
+    {ing: 'Don’t leave your things here.', tr: 'Eşyalarını burada bırakma.'},
+    {ing: 'Please finish your work.', tr: 'Lütfen işini bitir.'},
+    {ing: 'Don’t look back.', tr: 'Arkana bakma.'},
+    {
+      ing: 'Please turn off the lights when you leave the room to save energy.',
+      tr: 'Lütfen odayı terk ederken enerji tasarrufu için ışıkları kapat.',
+    },
+    {
+      ing: 'Don’t forget to brush your teeth before going to bed every night.',
+      tr: 'Her gece yatmadan önce dişlerini fırçalamayı unutma.',
+    },
+    {
+      ing: 'Please finish your homework before watching TV in the evening.',
+      tr: 'Lütfen akşam televizyon izlemeye başlamadan önce ödevini bitir.',
+    },
+    {
+      ing: 'Don’t talk to strangers when you’re walking home from school.',
+      tr: 'Okuldan eve yürürken yabancılarla konuşma.',
+    },
+    {
+      ing: 'Be careful when you cross the street; always look both ways.',
+      tr: 'Karşıdan karşıya geçerken dikkatli ol; her iki tarafa da bak.',
+    },
+    {
+      ing: 'Please remember to lock the front door when you leave the house.',
+      tr: 'Lütfen evden çıkarken ön kapıyı kilitlemeyi unutma.',
+    },
+    {
+      ing: 'Don’t play with sharp objects; you might hurt yourself.',
+      tr: 'Keskin nesnelerle oynama; kendine zarar verebilirsin.',
+    },
+    {
+      ing: 'Make sure you drink enough water during the day to stay hydrated.',
+      tr: 'Gün boyunca susuz kalmamak için yeterince su içtiğinden emin ol.',
+    },
+    {
+      ing: 'Please clean your room before your friends come over to play.',
+      tr: 'Lütfen arkadaşların oynamaya gelmeden önce odanı temizle.',
+    },
+    {
+      ing: 'Don’t stay up too late playing video games on a school night.',
+      tr: 'Okul gecelerinde video oyunları oynarken çok geç saatlere kadar kalma.',
+    },
+    {
+      ing: 'Remember to bring your umbrella in case it rains later today.',
+      tr: 'Bugün ilerleyen saatlerde yağmur yağarsa diye şemsiyeni getirmeyi unutma.',
+    },
+    {
+      ing: 'Please be patient and wait for your turn in line at the store.',
+      tr: 'Lütfen mağazada sıranı beklerken sabırlı ol.',
+    },
+    {
+      ing: 'Don’t touch the hot stove; you will burn your fingers.',
+      tr: 'Sıcak ocağa dokunma; parmaklarını yakarsın.',
+    },
+    {
+      ing: 'Always wash your hands before you eat to stay healthy.',
+      tr: 'Sağlıklı kalmak için yemek yemeden önce her zaman ellerini yıka.',
+    },
+    {
+      ing: 'Please keep your voice down when we are in the library.',
+      tr: 'Lütfen kütüphanedeyken sesini alçalt.',
+    },
+    {
+      ing: 'Don’t throw your trash on the ground; use a trash bin instead.',
+      tr: 'Çöpünü yere atma; bunun yerine çöp kutusunu kullan.',
+    },
+    {
+      ing: 'Close the window if it gets too cold in the room, please.',
+      tr: 'Oda çok soğuk olursa pencereyi kapat, lütfen.',
+    },
+    {
+      ing: 'Don’t play loud music late at night; your neighbors might be sleeping.',
+      tr: 'Gece geç saatlerde yüksek sesle müzik çalma; komşuların uyuyor olabilir.',
+    },
+    {
+      ing: 'Please read the instructions carefully before starting the test.',
+      tr: 'Lütfen testi başlatmadan önce talimatları dikkatlice oku.',
+    },
+    {
+      ing: 'Don’t leave your toys all over the floor; someone could trip and fall.',
+      tr: 'Oyuncaklarını yerde bırakma; biri takılıp düşebilir.',
+    },
+    {
+      ing: 'Make sure you finish your dinner before you have dessert.',
+      tr: 'Tatlı yemeden önce akşam yemeğini bitirdiğinden emin ol.',
+    },
+    {
+      ing: 'Please turn down the volume on the TV; it’s too loud right now.',
+      tr: 'Lütfen televizyonun sesini kıs; şu anda çok yüksek.',
+    },
+    {
+      ing: 'Don’t talk when your teacher is speaking in class; listen carefully.',
+      tr: 'Sınıfta öğretmen konuşurken konuşma; dikkatlice dinle.',
+    },
+    {
+      ing: 'Please remember to take your jacket; it’s cold outside today.',
+      tr: 'Lütfen ceketini almayı unutma; bugün dışarısı soğuk.',
+    },
+    {
+      ing: 'Don’t spend too much time on your phone when you should be studying.',
+      tr: 'Çalışman gereken zamanlarda telefonunla çok fazla vakit geçirme.',
+    },
+    {
+      ing: 'Always tell the truth, even when it’s hard to do.',
+      tr: 'Her zaman gerçeği söyle, yapmak zor olsa bile.',
+    },
+    {
+      ing: 'Please help your brother with his homework if he needs it.',
+      tr: 'Lütfen kardeşine ödevinde yardıma ihtiyacı varsa yardım et.',
+    },
+    {
+      ing: 'Don’t put your dirty shoes on the couch; it will get dirty.',
+      tr: 'Kirli ayakkabılarını kanepeye koyma; kirlenir.',
+    },
+    {
+      ing: 'Be sure to look at the schedule before you leave for the bus stop.',
+      tr: 'Otobüs durağına gitmeden önce zaman çizelgesine baktığından emin ol.',
+    },
+    {
+      ing: 'Please close the door quietly if everyone else is sleeping.',
+      tr: 'Herkes uyuyorsa lütfen kapıyı sessizce kapat.',
+    },
+    {
+      ing: 'Don’t eat too much junk food; it’s not good for your health.',
+      tr: 'Çok fazla abur cubur yeme; sağlığın için iyi değil.',
+    },
+    {
+      ing: 'Remember to turn off the water while brushing your teeth.',
+      tr: 'Dişlerini fırçalarken suyu kapatmayı unutma.',
+    },
+    {
+      ing: 'Please hold your little sister’s hand when you cross the street.',
+      tr: 'Lütfen küçük kız kardeşinin elini tutarken karşıdan karşıya geç.',
+    },
+    {
+      ing: 'Don’t leave your homework until the last minute; start early.',
+      tr: 'Ödevini son dakikaya bırakma; erken başla.',
+    },
+    {
+      ing: 'Be kind to your friends; they will always be there for you.',
+      tr: 'Arkadaşlarına karşı nazik ol; onlar her zaman senin yanında olacaklar.',
+    },
+    {
+      ing: 'Please take a deep breath if you’re feeling stressed or worried.',
+      tr: 'Lütfen stresli veya endişeli hissediyorsan derin bir nefes al.',
+    },
+    {
+      ing: 'Don’t forget to water the plants in the garden every day.',
+      tr: 'Bahçedeki bitkileri her gün sulamayı unutma.',
+    },
+    {
+      ing: 'Close your book when you are done with your reading assignment.',
+      tr: 'Okuma görevin bittiğinde kitabını kapat.',
+    },
+    {
+      ing: 'Please take off your shoes when you come into the house.',
+      tr: 'Lütfen eve girerken ayakkabılarını çıkar.',
+    },
+    {
+      ing: 'Don’t shout at your friend; it’s better to talk calmly.',
+      tr: 'Arkadaşına bağırma; sakin konuşmak daha iyi.',
+    },
+    {
+      ing: 'Be sure to charge your phone before you leave for the trip.',
+      tr: 'Geziye çıkmadan önce telefonunu şarj ettiğinden emin ol.',
+    },
+    {
+      ing: 'Please be honest when you make a mistake; everyone makes mistakes.',
+      tr: 'Lütfen bir hata yaptığında dürüst ol; herkes hata yapar.',
+    },
+    {
+      ing: 'Don’t forget to pack your lunch for school in the morning.',
+      tr: 'Sabah okula giderken öğle yemeğini hazırlamayı unutma.',
+    },
+    {
+      ing: 'Make sure to check your backpack for everything you need.',
+      tr: 'İhtiyacın olan her şey için sırt çantanı kontrol ettiğinden emin ol.',
+    },
+    {
+      ing: 'Please turn off your mobile phone during the movie.',
+      tr: 'Lütfen film sırasında cep telefonunu kapat.',
+    },
+    {
+      ing: 'Don’t run on the wet floor; you could easily slip and fall.',
+      tr: 'Islak zeminde koşma; kolayca kayabilir ve düşebilirsin.',
+    },
+    {
+      ing: 'Always say ""please"" and ""thank you"" to show good manners.',
+      tr: 'İyi davranışları göstermek için her zaman ""lütfen"" ve ""teşekkür ederim"" de.',
+    },
+    {
+      ing: 'Please sit quietly during the meeting so everyone can hear.',
+      tr: 'Lütfen herkesin duyabilmesi için toplantı sırasında sessizce otur.',
+    },
+    {
+      ing: 'Don’t leave the refrigerator door open; it wastes energy.',
+      tr: 'Buzdolabının kapağını açık bırakma; enerji israfı yapar.',
+    },
+    {
+      ing: 'Wash your hands with soap and water before every meal.',
+      tr: 'Her öğünden önce ellerini sabun ve suyla yıka.',
+    },
+    {
+      ing: 'Please keep your phone on silent mode when you are in class.',
+      tr: 'Lütfen sınıfta telefonunu sessiz moda al.',
+    },
+    {
+      ing: 'Don’t play with your food at the dinner table.',
+      tr: 'Akşam yemeği masasında yemeğinle oynama.',
+    },
+    {
+      ing: 'Be polite to everyone, even if they are not polite to you.',
+      tr: 'Sana nazik olmasalar bile herkese karşı nazik ol.',
+    },
+    {
+      ing: 'Please hang up your coat when you come inside.',
+      tr: 'Lütfen içeri girerken ceketini as.',
+    },
+    {
+      ing: 'Don’t eat too much candy; it’s bad for your teeth.',
+      tr: 'Çok fazla şeker yeme; dişlerin için kötü.',
+    },
+    {
+      ing: 'Always put your trash in the bin; don’t litter.',
+      tr: 'Çöpünü her zaman kutuya at; çöp atma.',
+    },
+    {
+      ing: 'Please finish your project before the deadline.',
+      tr: 'Lütfen projenizi son tarihten önce bitir.',
+    },
+    {
+      ing: 'Don’t leave your shoes in the hallway; put them in the closet.',
+      tr: 'Ayakkabılarını koridorda bırakma; dolaba koy.',
+    },
+    {
+      ing: 'Keep your room tidy; don’t leave clothes on the floor.',
+      tr: 'Odanı düzenli tut; kıyafetlerini yerde bırakma.',
+    },
+    {
+      ing: 'Please do your best on your school assignments.',
+      tr: 'Lütfen okul görevlerinde elinden gelenin en iyisini yap.',
+    },
+    {
+      ing: 'Don’t forget to say ""goodbye"" when you leave the house.',
+      tr: 'Evden çıkarken ""hoşça kal"" demeyi unutma.',
+    },
+    {
+      ing: 'Be careful when you carry hot food to the table.',
+      tr: 'Masaya sıcak yiyecek taşırken dikkatli ol.',
+    },
+    {
+      ing: 'Please check your pockets for your keys before you leave.',
+      tr: 'Lütfen çıkmadan önce anahtarlarını ceplerinde kontrol et.',
+    },
+    {
+      ing: 'Don’t touch anything in the kitchen when it’s very hot.',
+      tr: 'Mutfakta çok sıcak olduğunda hiçbir şeye dokunma.',
+    },
+    {
+      ing: 'Always listen to your parents when they give you advice.',
+      tr: 'Sana tavsiye verdiklerinde her zaman ebeveynlerini dinle.',
+    },
+    {
+      ing: 'Please help me clean the living room before our guests arrive.',
+      tr: 'Lütfen misafirlerimiz gelmeden önce oturma odasını temizlememe yardım et.',
+    },
+    {
+      ing: 'Don’t forget to set your alarm clock for the morning.',
+      tr: 'Sabah için alarm saatini ayarlamayı unutma.',
+    },
+    {
+      ing: 'Close all the windows if it starts to rain, please.',
+      tr: 'Yağmur yağmaya başlarsa lütfen tüm pencereleri kapat.',
+    },
+    {
+      ing: 'Make sure to do your homework as soon as you get home.',
+      tr: 'Eve gelir gelmez ödevini yaptığından emin ol.',
+    },
+    {
+      ing: 'Please be careful when you use scissors; they are sharp.',
+      tr: 'Lütfen makas kullanırken dikkatli ol; onlar keskin.',
+    },
+    {
+      ing: 'Don’t spill the juice on the carpet; be careful.',
+      tr: 'Halıya meyve suyu dökme; dikkatli ol.',
+    },
+    {
+      ing: 'Keep the door closed to keep the bugs out of the house.',
+      tr: 'Böcekleri evden uzak tutmak için kapıyı kapalı tut.',
+    },
+    {
+      ing: 'Please eat your vegetables first before you have dessert.',
+      tr: 'Lütfen tatlı yemeden önce sebzelerini ye.',
+    },
+    {
+      ing: 'Don’t forget to write your name on your homework paper.',
+      tr: 'Ödev kağıdına adını yazmayı unutma.',
+    },
+    {
+      ing: 'Remember to bring your gym clothes for practice tomorrow.',
+      tr: 'Yarınki antrenman için spor kıyafetlerini getirmeyi unutma.',
+    },
+    {
+      ing: 'Please fold your clothes neatly and put them in the drawer.',
+      tr: 'Lütfen kıyafetlerini düzgünce katla ve çekmeceye koy.',
+    },
+    {
+      ing: 'Don’t leave your bike outside in the rain; it will rust.',
+      tr: 'Bisikletini yağmurda dışarıda bırakma; paslanır.',
+    },
+    {
+      ing: 'Always tie your shoelaces properly before you run.',
+      tr: 'Koşmadan önce ayakkabı bağcıklarını düzgünce bağla.',
+    },
+    {
+      ing: 'Please help your grandmother carry the groceries inside.',
+      tr: 'Lütfen büyükannenin market poşetlerini içeri taşımasına yardım et.',
+    },
+    {
+      ing: 'Don’t play near the stove; it’s dangerous and very hot.',
+      tr: 'Ocağın yanında oynama; tehlikeli ve çok sıcak.',
+    },
+    {
+      ing: 'Be sure to do your best in your exams; study hard.',
+      tr: 'Sınavlarında elinden gelenin en iyisini yaptığından emin ol; çok çalış.',
+    },
+    {
+      ing: 'Please turn off the TV when you finish watching your show.',
+      tr: 'Lütfen programını izlemeyi bitirdiğinde televizyonu kapat.',
+    },
+    {
+      ing: 'Don’t talk back to your parents; be respectful.',
+      tr: 'Ebeveynlerine karşılık verme; saygılı ol.',
+    },
+    {
+      ing: 'Always keep your backpack organized and clean for school.',
+      tr: 'Okul için sırt çantanı her zaman düzenli ve temiz tut.',
+    },
+    {
+      ing: 'Please feed the cat when you see its bowl is empty.',
+      tr: 'Lütfen kasesi boşsa kediyi besle.',
+    },
+    {
+      ing: 'Don’t run in the house; you could break something.',
+      tr: 'Evde koşma; bir şeyi kırabilirsin.',
+    },
+    {
+      ing: 'Always put your shoes in the shoe rack when you come home.',
+      tr: 'Eve geldiğinde ayakkabılarını ayakkabılığa koy.',
+    },
+    {
+      ing: 'Please wait for your friend if they are walking slowly.',
+      tr: 'Lütfen arkadaşın yavaş yürüyorsa onu bekle.',
+    },
+    {
+      ing: 'Don’t forget to turn off the lights when you go to bed.',
+      tr: 'Yatmaya giderken ışıkları kapatmayı unutma.',
+    },
+    {
+      ing: 'Be sure to eat breakfast every morning before school.',
+      tr: 'Okuldan önce her sabah kahvaltı ettiğinden emin ol.',
+    },
+    {
+      ing: 'Please clean up your toys after you finish playing with them.',
+      tr: 'Lütfen oynadıktan sonra oyuncaklarını topla.',
+    },
+    {
+      ing: 'Don’t play outside if it’s raining heavily; stay dry.',
+      tr: 'Çok yağmur yağıyorsa dışarıda oynama; kuru kal.',
+    },
+    {
+      ing: 'Always cover your mouth when you sneeze or cough.',
+      tr: 'Hapşırırken veya öksürürken her zaman ağzını kapat.',
+    },
+    {
+      ing: 'Please help your sister with her school project.',
+      tr: 'Lütfen kız kardeşine okul projesinde yardım et.',
+    },
+    {
+      ing: 'Don’t leave your school bag on the floor; someone might trip.',
+      tr: 'Okul çantanı yere bırakma; biri takılabilir.',
+    },
+    {
+      ing: 'Wash your hands as soon as you come home from outside.',
+      tr: 'Dışarıdan eve gelir gelmez ellerini yıka.',
+    },
+    {
+      ing: 'Please take your books back to the library when you’re done.',
+      tr: 'Lütfen kitaplarını bitirdiğinde kütüphaneye geri götür.',
+    },
+    {
+      ing: 'Don’t play too close to the road; it’s not safe.',
+      tr: 'Yolun çok yakınında oynama; güvenli değil.',
+    },
+    {
+      ing: 'Be sure to call your parents if you’re going to be late.',
+      tr: 'Geç kalacaksan ebeveynlerini aradığından emin ol.',
+    },
+    {
+      ing: 'Please put away your dishes after you finish eating.',
+      tr: 'Lütfen yemeğini bitirdikten sonra bulaşıkları kaldır.',
+    },
+  ],
+};
+
+export const ExcitingExcitedTranslationSentences = {
+  Excited: [
+    {ing: 'I felt surprised by the news.', tr: 'Haberlere şaşırmış hissettim.'},
+    {ing: 'She is very tired after work.', tr: 'İşten sonra çok yorgun.'},
+    {
+      ing: 'He looked bored during the lecture.',
+      tr: 'Ders sırasında sıkılmış göründü.',
+    },
+    {
+      ing: 'They were excited about the trip.',
+      tr: 'Gezi hakkında heyecanlıydılar.',
+    },
+    {
+      ing: "We felt shocked by the movie's ending.",
+      tr: 'Filmin sonuna şok olduk.',
+    },
+    {ing: 'I was interested in the book.', tr: 'Kitaba ilgi duydum.'},
+    {
+      ing: 'She seemed confused by the instructions.',
+      tr: 'Talimatlarla kafası karışmış göründü.',
+    },
+    {ing: 'He looked frightened by the noise.', tr: 'Sesten korkmuş göründü.'},
+    {
+      ing: 'They were disappointed with the game.',
+      tr: 'Oyundan hayal kırıklığına uğradılar.',
+    },
+    {ing: 'We felt relaxed on the beach.', tr: 'Plajda rahat hissettik.'},
+    {
+      ing: 'I was amazed by the fireworks.',
+      tr: 'Havai fişeklere hayran kaldım.',
+    },
+    {
+      ing: 'She looked worried about the exam.',
+      tr: 'Sınav hakkında endişeli göründü.',
+    },
+    {
+      ing: 'He seemed annoyed by the traffic.',
+      tr: 'Trafikten rahatsız olmuş göründü.',
+    },
+    {ing: 'They were bored at the party.', tr: 'Partide sıkıldılar.'},
+    {
+      ing: 'We felt scared during the storm.',
+      tr: 'Fırtına sırasında korkmuş hissettik.',
+    },
+    {ing: 'I was surprised by his visit.', tr: 'Ziyaretine şaşırdım.'},
+    {
+      ing: 'She looked tired after the run.',
+      tr: 'Koşudan sonra yorgun göründü.',
+    },
+    {ing: 'He seemed pleased with his work.', tr: 'İşinden memnun göründü.'},
+    {
+      ing: 'They were confused about the rules.',
+      tr: 'Kurallar hakkında kafaları karıştı.',
+    },
+    {ing: 'We felt amazed by the view.', tr: 'Manzaraya hayran kaldık.'},
+    {ing: 'I was shocked by the loud sound.', tr: 'Yüksek sesten şok oldum.'},
+    {
+      ing: 'She looked excited to see her friend.',
+      tr: 'Arkadaşını görmek için heyecanlı göründü.',
+    },
+    {
+      ing: 'He seemed frustrated with the puzzle.',
+      tr: 'Bulmacadan bıkmış göründü.',
+    },
+    {
+      ing: 'They were relaxed after the spa day.',
+      tr: 'Spa gününden sonra rahatladılar.',
+    },
+    {ing: 'We felt interested in the lesson.', tr: 'Derse ilgi duyduk.'},
+    {ing: 'I was pleased with my results.', tr: 'Sonuçlarımdan memnundum.'},
+    {ing: 'She looked scared of the dog.', tr: 'Köpekten korkmuş göründü.'},
+    {
+      ing: 'He seemed disappointed by the loss.',
+      tr: 'Kayıptan hayal kırıklığına uğramış göründü.',
+    },
+    {ing: 'They were shocked by the news.', tr: 'Haberlere şok oldular.'},
+    {
+      ing: 'We felt bored during the meeting.',
+      tr: 'Toplantı sırasında sıkıldık.',
+    },
+    {
+      ing: 'I was amazed by her performance.',
+      tr: 'Performansına hayran kaldım.',
+    },
+    {
+      ing: 'She looked annoyed with the noise.',
+      tr: 'Sesten rahatsız olmuş göründü.',
+    },
+    {
+      ing: 'He seemed excited for his birthday.',
+      tr: 'Doğum günü için heyecanlı göründü.',
+    },
+    {
+      ing: 'They were worried about the exam.',
+      tr: 'Sınav hakkında endişeliydiler.',
+    },
+    {
+      ing: 'We felt confused by the directions.',
+      tr: 'Yön tariflerinden kafamız karıştı.',
+    },
+    {ing: 'I was pleased with the surprise.', tr: 'Sürprizden memnun kaldım.'},
+    {
+      ing: 'She looked frustrated by her mistake.',
+      tr: 'Hatasından bıkmış göründü.',
+    },
+    {
+      ing: 'He seemed relaxed on the weekend.',
+      tr: 'Hafta sonu rahatlamış göründü.',
+    },
+    {ing: 'They were amazed by the singer.', tr: 'Şarkıcıya hayran kaldılar.'},
+    {
+      ing: 'We felt tired after the long walk.',
+      tr: 'Uzun yürüyüşten sonra yorgun hissettik.',
+    },
+    {ing: 'I was bored at the library.', tr: 'Kütüphanede sıkıldım.'},
+    {
+      ing: 'She looked surprised at the gift.',
+      tr: 'Hediyeye şaşırmış göründü.',
+    },
+    {ing: 'He seemed scared of the dark.', tr: 'Karanlıktan korkmuş göründü.'},
+    {
+      ing: 'They were pleased with the dinner.',
+      tr: 'Akşam yemeğinden memnun kaldılar.',
+    },
+    {
+      ing: 'We felt disappointed with the movie.',
+      tr: 'Filmden hayal kırıklığına uğradık.',
+    },
+    {ing: 'I was shocked by the announcement.', tr: 'Duyuruya şok oldum.'},
+    {
+      ing: 'She looked interested in the story.',
+      tr: 'Hikayeye ilgi duyuyormuş gibi göründü.',
+    },
+    {
+      ing: 'He seemed amazed by the magic trick.',
+      tr: 'Sihir numarasına hayran kalmış göründü.',
+    },
+    {ing: 'They were frustrated by the delay.', tr: 'Gecikmeden bıktılar.'},
+    {
+      ing: 'We felt excited for the concert.',
+      tr: 'Konser için heyecanlı hissettik.',
+    },
+    {ing: 'I was confused by the map.', tr: 'Haritaya bakınca kafam karıştı.'},
+    {
+      ing: 'She looked relaxed after yoga.',
+      tr: 'Yoga sonrası rahatlamış göründü.',
+    },
+    {ing: 'He seemed surprised by the party.', tr: 'Partiye şaşırmış göründü.'},
+    {ing: 'They were tired from the trip.', tr: 'Yolculuktan yorulmuşlardı.'},
+    {
+      ing: 'We felt annoyed by the mosquitoes.',
+      tr: 'Sivrisineklerden rahatsız olduk.',
+    },
+    {ing: 'I was pleased with my grade.', tr: 'Notumdan memnundum.'},
+    {
+      ing: 'She looked scared of the spider.',
+      tr: 'Örümcekten korkmuş göründü.',
+    },
+    {ing: 'He seemed bored in the class.', tr: 'Derste sıkılmış göründü.'},
+    {ing: 'They were amazed by the dancer.', tr: 'Dansçıya hayran kaldılar.'},
+    {ing: 'We felt shocked by the accident.', tr: 'Kazaya şok olduk.'},
+    {ing: 'I was interested in the painting.', tr: 'Resme ilgi duydum.'},
+    {
+      ing: 'She looked tired after studying.',
+      tr: 'Çalıştıktan sonra yorgun göründü.',
+    },
+    {
+      ing: 'He seemed confused by the question.',
+      tr: 'Soruya bakınca kafası karışmış gibi göründü.',
+    },
+    {ing: 'They were relaxed in the garden.', tr: 'Bahçede rahatlamışlardı.'},
+    {ing: 'We felt frustrated with the task.', tr: 'Görevden bıktık.'},
+    {
+      ing: 'I was pleased with my new car.',
+      tr: 'Yeni arabamdan memnun kaldım.',
+    },
+    {
+      ing: 'She looked excited for the holiday.',
+      tr: 'Tatil için heyecanlı göründü.',
+    },
+    {
+      ing: 'He seemed amazed by the scenery.',
+      tr: 'Manzaraya hayran kalmış göründü.',
+    },
+    {ing: 'They were surprised by the visit.', tr: 'Ziyarete şaşırdılar.'},
+    {ing: 'We felt bored during the lesson.', tr: 'Ders sırasında sıkıldık.'},
+    {ing: 'I was annoyed by the noise.', tr: 'Sesten rahatsız oldum.'},
+    {
+      ing: 'She looked interested in the movie.',
+      tr: 'Filme ilgi duyuyormuş gibi göründü.',
+    },
+    {
+      ing: 'He seemed shocked by the result.',
+      tr: 'Sonuçtan şok olmuş göründü.',
+    },
+    {
+      ing: 'They were disappointed by the food.',
+      tr: 'Yemekten hayal kırıklığına uğradılar.',
+    },
+    {
+      ing: 'We felt tired after the game.',
+      tr: 'Oyundan sonra yorgun hissettik.',
+    },
+    {
+      ing: 'I was scared during the thunderstorm.',
+      tr: 'Fırtına sırasında korktum.',
+    },
+    {
+      ing: 'She looked pleased with her dress.',
+      tr: 'Elbisesinden memnun göründü.',
+    },
+    {
+      ing: 'He seemed relaxed in the hot tub.',
+      tr: 'Sıcak küvette rahatlamış göründü.',
+    },
+    {
+      ing: 'They were excited for the festival.',
+      tr: 'Festival için heyecanlıydılar.',
+    },
+    {ing: 'We felt amazed by the sunset.', tr: 'Gün batımına hayran kaldık.'},
+    {ing: 'I was surprised by the present.', tr: 'Hediyeye şaşırdım.'},
+    {
+      ing: 'She looked confused by the puzzle.',
+      tr: 'Bulmacaya bakınca kafası karışmış gibi göründü.',
+    },
+    {
+      ing: 'He seemed worried about the interview.',
+      tr: 'Mülakat hakkında endişeli göründü.',
+    },
+    {ing: 'They were tired from the hike.', tr: 'Yürüyüşten yorulmuşlardı.'},
+    {ing: 'We felt frustrated with the traffic.', tr: 'Trafikten bıktık.'},
+    {
+      ing: 'I was pleased with my friend’s help.',
+      tr: 'Arkadaşımın yardımından memnun kaldım.',
+    },
+    {
+      ing: 'She looked shocked by the event.',
+      tr: 'Etkinliğe şok olmuş göründü.',
+    },
+    {ing: 'He seemed scared of the snake.', tr: 'Yılandan korkmuş göründü.'},
+    {
+      ing: 'They were interested in the exhibit.',
+      tr: 'Sergiye ilgi duyuyorlardı.',
+    },
+    {
+      ing: 'We felt bored during the speech.',
+      tr: 'Konuşma sırasında sıkıldık.',
+    },
+    {
+      ing: 'I was amazed by the fireworks.',
+      tr: 'Havai fişeklere hayran kaldım.',
+    },
+    {
+      ing: 'She looked annoyed at the mess.',
+      tr: 'Dağınıklığa kızmış gibi göründü.',
+    },
+    {
+      ing: 'He seemed excited for the vacation.',
+      tr: 'Tatil için heyecanlı göründü.',
+    },
+    {ing: 'They were pleased with the hotel.', tr: 'Otelden memnun kaldılar.'},
+    {
+      ing: 'We felt tired from the journey.',
+      tr: 'Yolculuktan yorgun hissettik.',
+    },
+    {ing: 'I was shocked by the loud noise.', tr: 'Yüksek sesten şok oldum.'},
+    {
+      ing: 'She looked scared of the heights.',
+      tr: 'Yükseklikten korkmuş gibi göründü.',
+    },
+    {
+      ing: 'He seemed confused by the menu.',
+      tr: 'Menüye bakınca kafası karışmış göründü.',
+    },
+    {
+      ing: 'They were amazed by the magic show.',
+      tr: 'Sihir gösterisine hayran kaldılar.',
+    },
+    {
+      ing: 'We felt relaxed in the warm sun.',
+      tr: 'Sıcak güneşte rahat hissettik.',
+    },
+    {
+      ing: 'I felt surprised by the news that my best friend was coming to visit me this weekend.',
+      tr: 'En iyi arkadaşımın bu hafta sonu beni ziyaret edeceğini öğrendiğimde şaşırdım.',
+    },
+    {
+      ing: 'She was very tired after working all day in the garden and just wanted to rest.',
+      tr: 'Bütün gün bahçede çalıştıktan sonra çok yorgundu ve sadece dinlenmek istedi.',
+    },
+    {
+      ing: 'He looked bored during the lecture because he already knew all the information.',
+      tr: 'Dersi dinlerken sıkılmış görünüyordu çünkü tüm bilgileri zaten biliyordu.',
+    },
+    {
+      ing: 'They were so excited about their vacation that they couldn’t stop talking about it.',
+      tr: 'Tatilleri hakkında o kadar heyecanlıydılar ki sürekli bundan bahsediyorlardı.',
+    },
+    {
+      ing: "We felt shocked by the movie's ending because we didn’t expect it to be so sad.",
+      tr: 'Filmin sonuna şok olduk çünkü bu kadar üzücü olmasını beklemiyorduk.',
+    },
+    {
+      ing: 'I was really interested in the book because it was full of mystery and adventure.',
+      tr: 'Kitaba gerçekten ilgi duydum çünkü gizem ve macera doluydu.',
+    },
+    {
+      ing: 'She seemed confused by the instructions, even after reading them twice.',
+      tr: 'Talimatları iki kez okuduktan sonra bile kafası karışmış görünüyordu.',
+    },
+    {
+      ing: 'He looked frightened by the loud thunderstorm outside that shook the windows.',
+      tr: 'Dışarıdaki camları sallayan şiddetli fırtınadan korkmuş görünüyordu.',
+    },
+    {
+      ing: 'They were disappointed with the football game because their team lost in the last minute.',
+      tr: 'Futbol maçından hayal kırıklığına uğradılar çünkü takımları son dakikada kaybetti.',
+    },
+    {
+      ing: 'We felt relaxed on the beach as the gentle waves washed over our feet.',
+      tr: 'Hafif dalgalar ayaklarımızın üzerinde dolanırken plajda rahat hissettik.',
+    },
+    {
+      ing: 'I was amazed by the fireworks at the festival; the colors were so bright and beautiful.',
+      tr: 'Festivaldeki havai fişeklere hayran kaldım; renkler çok parlak ve güzeldi.',
+    },
+    {
+      ing: "She looked worried about the upcoming exam because she didn't have much time to study.",
+      tr: 'Yaklaşan sınav hakkında endişeli görünüyordu çünkü çalışacak pek fazla zamanı yoktu.',
+    },
+    {
+      ing: 'He seemed annoyed by the traffic jam that made him late for the meeting.',
+      tr: 'Toplantıya geç kalmasına neden olan trafik sıkışıklığından rahatsız olmuş görünüyordu.',
+    },
+    {
+      ing: 'They were bored at the party because there wasn’t much to do or talk about.',
+      tr: 'Partide sıkıldılar çünkü yapacak veya konuşacak pek bir şey yoktu.',
+    },
+    {
+      ing: 'We felt scared during the storm because the wind was howling and the lights went out.',
+      tr: 'Fırtına sırasında korkmuş hissettik çünkü rüzgar uğuldayordu ve ışıklar sönmüştü.',
+    },
+    {
+      ing: "I was surprised by his visit because he hadn't told anyone he was coming.",
+      tr: 'Ziyaretine şaşırdım çünkü geleceğini kimseye söylememişti.',
+    },
+    {
+      ing: 'She looked tired after running five kilometers without stopping for a break.',
+      tr: 'Beş kilometre durmadan koştuktan sonra yorgun görünüyordu.',
+    },
+    {
+      ing: 'He seemed pleased with his work; he showed a big smile when he finished the project.',
+      tr: 'İşinden memnun görünüyordu; projeyi bitirdiğinde büyük bir gülümseme gösterdi.',
+    },
+    {
+      ing: 'They were confused about the rules of the game because no one explained them clearly.',
+      tr: 'Oyunun kuralları hakkında kafaları karıştı çünkü kimse onlara açıkça açıklamadı.',
+    },
+    {
+      ing: 'We felt amazed by the view from the top of the mountain; it was breathtaking.',
+      tr: 'Dağın tepesinden manzaraya hayran kaldık; nefes kesiciydi.',
+    },
+    {
+      ing: 'I was shocked by the loud sound that came from the street outside my window.',
+      tr: 'Penceremin dışındaki sokaktan gelen yüksek sesten şok oldum.',
+    },
+    {
+      ing: 'She looked excited to see her friend after so many years apart.',
+      tr: 'Yıllar sonra arkadaşını gördüğü için heyecanlı görünüyordu.',
+    },
+    {
+      ing: 'He seemed frustrated with the puzzle that took him hours to solve.',
+      tr: 'Saatlerce çözmekle uğraştığı bulmacadan bıkmış görünüyordu.',
+    },
+    {
+      ing: 'They were relaxed after the spa day; they felt refreshed and calm.',
+      tr: 'Spa gününden sonra rahatlamışlardı; yenilenmiş ve sakin hissediyorlardı.',
+    },
+    {
+      ing: 'We felt interested in the lesson because the teacher made it fun and engaging.',
+      tr: 'Ders ilgi çekiciydi çünkü öğretmen dersi eğlenceli ve sürükleyici hale getirdi.',
+    },
+    {
+      ing: 'I was pleased with my results on the test; I got a much higher score than I expected.',
+      tr: 'Test sonuçlarımdan memnun kaldım; beklediğimden çok daha yüksek bir puan aldım.',
+    },
+    {
+      ing: 'She looked scared of the dog when it started barking loudly at her.',
+      tr: 'Köpek ona yüksek sesle havlamaya başladığında korkmuş görünüyordu.',
+    },
+    {
+      ing: 'He seemed disappointed by the loss of his favorite team in the championship.',
+      tr: 'Şampiyonada favori takımının kaybından hayal kırıklığına uğramış görünüyordu.',
+    },
+    {
+      ing: 'They were shocked by the news of the sudden storm approaching the city.',
+      tr: 'Şehre yaklaşan ani fırtına haberine şok oldular.',
+    },
+    {
+      ing: 'We felt bored during the meeting because it was too long and not very interesting.',
+      tr: 'Toplantı sırasında sıkıldık çünkü çok uzundu ve çok ilginç değildi.',
+    },
+    {
+      ing: 'I was amazed by her performance on stage; she sang like a professional singer.',
+      tr: 'Sahnedeki performansına hayran kaldım; profesyonel bir şarkıcı gibi şarkı söyledi.',
+    },
+    {
+      ing: 'She looked annoyed with the noise coming from the construction site next door.',
+      tr: 'Yan taraftaki inşaat alanından gelen sesten rahatsız olmuş görünüyordu.',
+    },
+    {
+      ing: 'He seemed excited for his birthday party because all his friends were coming.',
+      tr: 'Doğum günü partisi için heyecanlı görünüyordu çünkü tüm arkadaşları gelecekti.',
+    },
+    {
+      ing: "They were worried about the exam results because they didn't study enough.",
+      tr: 'Sınav sonuçları hakkında endişeliydiler çünkü yeterince çalışmamışlardı.',
+    },
+    {
+      ing: 'We felt confused by the directions because the map was hard to read.',
+      tr: 'Harita okunması zor olduğu için yön tariflerinden kafamız karıştı.',
+    },
+    {
+      ing: 'I was pleased with the surprise birthday cake my friends made for me.',
+      tr: 'Arkadaşlarımın benim için yaptığı sürpriz doğum günü pastasından memnun kaldım.',
+    },
+    {
+      ing: 'She looked frustrated by her mistake in the final match.',
+      tr: 'Final maçındaki hatasından bıkmış görünüyordu.',
+    },
+    {
+      ing: 'He seemed relaxed on the weekend, enjoying his time with a good book.',
+      tr: 'Hafta sonu rahatlamış görünüyordu, iyi bir kitapla zaman geçiriyordu.',
+    },
+    {
+      ing: "They were amazed by the singer's voice at the concert last night.",
+      tr: 'Dün geceki konserde şarkıcının sesine hayran kaldılar.',
+    },
+    {
+      ing: 'We felt tired after the long walk through the forest trail.',
+      tr: 'Orman yolunda yapılan uzun yürüyüşten sonra yorgun hissettik.',
+    },
+    {
+      ing: 'I was bored at the library because I finished my book and had nothing else to read.',
+      tr: 'Kütüphanede sıkıldım çünkü kitabımı bitirdim ve okuyacak başka bir şeyim yoktu.',
+    },
+    {
+      ing: 'She looked surprised at the gift her brother gave her for her birthday.',
+      tr: 'Kardeşinin doğum günü için ona verdiği hediyeye şaşırmış görünüyordu.',
+    },
+    {
+      ing: 'He seemed scared of the dark and always kept a light on at night.',
+      tr: 'Karanlıktan korkmuş görünüyordu ve geceleri hep bir ışık açık bırakıyordu.',
+    },
+    {
+      ing: 'They were pleased with the dinner at the new restaurant in town.',
+      tr: 'Şehirdeki yeni restorandaki akşam yemeğinden memnun kaldılar.',
+    },
+    {
+      ing: 'We felt disappointed with the movie because the story was too simple.',
+      tr: 'Filmden hayal kırıklığına uğradık çünkü hikaye çok basitti.',
+    },
+    {
+      ing: 'I was shocked by the announcement that the school trip was canceled.',
+      tr: 'Okul gezisinin iptal edildiği duyurusuna şok oldum.',
+    },
+    {
+      ing: 'She looked interested in the story the teacher was telling the class.',
+      tr: 'Öğretmenin sınıfa anlattığı hikayeye ilgi duyuyormuş gibi göründü.',
+    },
+    {
+      ing: 'He seemed amazed by the magic trick that the magician performed on stage.',
+      tr: 'Sihirbazın sahnede yaptığı sihir numarasına hayran kalmış gibi göründü.',
+    },
+    {
+      ing: 'They were frustrated by the delay in their flight to the vacation spot.',
+      tr: 'Tatil yerine uçuşlarındaki gecikmeden bıkmışlardı.',
+    },
+    {
+      ing: 'We felt excited for the concert because our favorite band was playing live.',
+      tr: 'Konser için heyecanlı hissettik çünkü favori grubumuz canlı çalıyordu.',
+    },
+    {
+      ing: 'I was confused by the map and couldn’t find the right way to the park.',
+      tr: 'Haritaya bakınca kafam karıştı ve parka giden doğru yolu bulamadım.',
+    },
+    {
+      ing: 'She looked relaxed after the yoga class; her mind and body seemed calm.',
+      tr: 'Yoga dersinden sonra rahatlamış görünüyordu; zihni ve bedeni sakin görünüyordu.',
+    },
+    {
+      ing: 'He seemed surprised by the party his friends threw for his birthday.',
+      tr: 'Arkadaşlarının doğum günü için düzenlediği partiye şaşırmış görünüyordu.',
+    },
+    {
+      ing: 'They were tired from the long road trip but happy to finally arrive.',
+      tr: 'Uzun yolculuktan yorgunlardı ama sonunda varmış olmaktan mutluydular.',
+    },
+    {
+      ing: 'We felt annoyed by the mosquitoes while camping in the woods.',
+      tr: 'Ormanda kamp yaparken sivrisineklerden rahatsız olduk.',
+    },
+    {
+      ing: 'I was pleased with my grade on the test because I studied very hard.',
+      tr: 'Testteki notumdan memnun kaldım çünkü çok çalıştım.',
+    },
+    {
+      ing: 'She looked scared of the spider crawling on the wall in her room.',
+      tr: 'Odasındaki duvarda dolaşan örümcekten korkmuş görünüyordu.',
+    },
+    {
+      ing: 'He seemed bored in the class and kept looking at his watch.',
+      tr: 'Derste sıkılmış görünüyordu ve sürekli saatine bakıyordu.',
+    },
+    {
+      ing: "They were amazed by the dancer's performance at the talent show.",
+      tr: 'Yetenek gösterisinde dansçının performansına hayran kaldılar.',
+    },
+    {
+      ing: 'We felt shocked by the accident on the highway on our way to work.',
+      tr: 'İşe giderken otoyoldaki kazaya şok olduk.',
+    },
+    {
+      ing: 'I was interested in the painting at the art gallery; it was full of colors.',
+      tr: 'Sanat galerisindeki tabloya ilgi duydum; renklerle doluydu.',
+    },
+    {
+      ing: 'She looked tired after studying for her final exams all night.',
+      tr: 'Bütün gece final sınavlarına çalıştıktan sonra yorgun görünüyordu.',
+    },
+    {
+      ing: 'He seemed confused by the question the teacher asked during the test.',
+      tr: 'Öğretmenin test sırasında sorduğu soruya bakınca kafası karışmış gibi göründü.',
+    },
+    {
+      ing: 'They were relaxed in the garden, enjoying the sunny weather.',
+      tr: 'Bahçede rahatlamışlardı, güneşli havanın tadını çıkarıyorlardı.',
+    },
+    {
+      ing: 'We felt frustrated with the task because it was more difficult than expected.',
+      tr: 'Görevden bıktık çünkü beklediğimizden daha zordu.',
+    },
+    {
+      ing: 'I was pleased with my new car; it’s exactly what I was looking for.',
+      tr: 'Yeni arabamdan memnun kaldım; tam olarak aradığım gibi.',
+    },
+    {
+      ing: 'She looked excited for the holiday trip to the mountains with her family.',
+      tr: 'Ailesiyle birlikte dağlara tatile gitmek için heyecanlı görünüyordu.',
+    },
+    {
+      ing: 'He seemed amazed by the scenery of the beautiful forest and river.',
+      tr: 'Güzel orman ve nehir manzarasına hayran kalmış görünüyordu.',
+    },
+    {
+      ing: 'They were surprised by the unexpected visit from their old friends.',
+      tr: 'Eski arkadaşlarının beklenmedik ziyaretine şaşırdılar.',
+    },
+    {
+      ing: 'We felt bored during the lesson because the topic was not very interesting.',
+      tr: 'Ders sırasında sıkıldık çünkü konu pek ilginç değildi.',
+    },
+    {
+      ing: 'I was annoyed by the noise outside my window when I was trying to sleep.',
+      tr: 'Uyumaya çalışırken penceremin dışındaki sesten rahatsız oldum.',
+    },
+    {
+      ing: 'She looked interested in the movie, watching every scene closely.',
+      tr: 'Filme ilgi duyuyormuş gibi görünüyordu, her sahneyi dikkatle izliyordu.',
+    },
+    {
+      ing: 'He seemed shocked by the result of the match; he thought his team would win.',
+      tr: 'Maçın sonucuna şok olmuş görünüyordu; takımı kazanacak sanıyordu.',
+    },
+    {
+      ing: 'They were disappointed by the food at the restaurant; it wasn’t as good as they expected.',
+      tr: 'Restorandaki yemekten hayal kırıklığına uğradılar; bekledikleri kadar iyi değildi.',
+    },
+    {
+      ing: 'We felt tired after the soccer game, but we were happy that we won.',
+      tr: 'Futbol maçından sonra yorgun hissettik, ama kazandığımız için mutluyduk.',
+    },
+    {
+      ing: 'I was scared during the thunderstorm; the lightning and thunder were very loud.',
+      tr: 'Fırtına sırasında korktum; şimşek ve gök gürültüsü çok yüksekti.',
+    },
+    {
+      ing: "She looked pleased with her dress; she couldn't stop smiling at her reflection.",
+      tr: 'Elbisesinden memnun görünüyordu; yansımasına bakıp gülümsemekten kendini alamıyordu.',
+    },
+    {
+      ing: 'He seemed relaxed in the hot tub, closing his eyes and enjoying the bubbles.',
+      tr: 'Sıcak küvette rahatlamış görünüyordu, gözlerini kapatıp kabarcıkların tadını çıkarıyordu.',
+    },
+    {
+      ing: 'They were excited for the festival in their town; they had been waiting all year.',
+      tr: 'Şehirlerindeki festival için heyecanlıydılar; bütün yıl boyunca beklemişlerdi.',
+    },
+    {
+      ing: 'We felt amazed by the sunset over the ocean; the colors were simply stunning.',
+      tr: 'Okyanus üzerindeki gün batımına hayran kaldık; renkler gerçekten büyüleyiciydi.',
+    },
+    {
+      ing: 'I was surprised by the present that my best friend gave me on my birthday.',
+      tr: 'En iyi arkadaşımın doğum günümde bana verdiği hediyeye şaşırdım.',
+    },
+    {
+      ing: "She looked confused by the puzzle; she tried so hard but still couldn't solve it.",
+      tr: 'Bulmacaya bakınca kafası karışmış gibi görünüyordu; çok uğraştı ama yine de çözemedi.',
+    },
+    {
+      ing: 'He seemed worried about the interview he had tomorrow with the big company.',
+      tr: 'Yarın büyük şirketle yapacağı mülakat hakkında endişeli görünüyordu.',
+    },
+    {
+      ing: 'They were tired from the hike up the mountain but felt proud of reaching the top.',
+      tr: 'Dağa yapılan yürüyüşten yorulmuşlardı ama zirveye ulaşmanın gururunu yaşadılar.',
+    },
+    {
+      ing: 'We felt frustrated with the traffic; it seemed like we would never get home.',
+      tr: 'Trafikten bıktık; eve asla varamayacakmışız gibi görünüyordu.',
+    },
+    {
+      ing: 'I was pleased with my friend’s help on the project; I couldn’t have done it without her.',
+      tr: 'Arkadaşımın projede yaptığı yardımdan memnun kaldım; onsuz yapamazdım.',
+    },
+    {
+      ing: 'She looked shocked by the event that happened at the party last night.',
+      tr: 'Dün gece partide olan olay karşısında şok olmuş görünüyordu.',
+    },
+    {
+      ing: 'He seemed scared of the snake that was hiding under the rock.',
+      tr: 'Kayaların altında saklanan yılandan korkmuş görünüyordu.',
+    },
+    {
+      ing: 'They were interested in the exhibit at the museum; they spent hours looking at the art.',
+      tr: 'Müzedeki sergiye ilgi duyuyorlardı; sanat eserlerine saatlerce baktılar.',
+    },
+    {
+      ing: 'We felt bored during the speech because it was too long and not engaging.',
+      tr: 'Konuşma sırasında sıkıldık çünkü çok uzundu ve ilgi çekici değildi.',
+    },
+    {
+      ing: 'I was amazed by the fireworks at the festival; they lit up the entire night sky.',
+      tr: 'Festivaldeki havai fişeklere hayran kaldım; tüm gece gökyüzünü aydınlattılar.',
+    },
+    {
+      ing: 'She looked annoyed at the mess in the kitchen that her brother left.',
+      tr: 'Kardeşinin mutfakta bıraktığı dağınıklığa kızmış gibi göründü.',
+    },
+    {
+      ing: 'He seemed excited for the vacation to the mountains that they planned.',
+      tr: 'Planladıkları dağ tatili için heyecanlı görünüyordu.',
+    },
+    {
+      ing: 'They were pleased with the hotel room; it was clean, comfortable, and had a nice view.',
+      tr: 'Otel odasından memnun kaldılar; temizdi, rahattı ve güzel bir manzaraya sahipti.',
+    },
+    {
+      ing: 'We felt tired from the journey but were happy to finally reach our destination.',
+      tr: 'Yolculuktan yorgun hissettik ama sonunda varış noktamıza ulaşmaktan mutluyduk.',
+    },
+    {
+      ing: 'I was shocked by the loud noise that woke me up in the middle of the night.',
+      tr: 'Gece yarısı beni uyandıran yüksek sesten şok oldum.',
+    },
+    {
+      ing: 'She looked scared of the heights when we reached the top of the tall building.',
+      tr: 'Yüksek binanın tepesine ulaştığımızda yükseklikten korkmuş görünüyordu.',
+    },
+    {
+      ing: 'He seemed confused by the menu in the restaurant; he didn’t know what to order.',
+      tr: 'Restorandaki menüye bakınca kafası karışmış gibi görünüyordu; ne sipariş vereceğini bilmiyordu.',
+    },
+    {
+      ing: 'They were amazed by the magic show they saw at the theater last week.',
+      tr: 'Geçen hafta tiyatroda izledikleri sihir gösterisine hayran kaldılar.',
+    },
+    {
+      ing: 'We felt relaxed in the warm sun on the beach, listening to the sound of the waves.',
+      tr: 'Plajda sıcak güneşte, dalgaların sesini dinlerken rahat hissettik.',
+    },
+  ],
+  Exciting: [
+    {ing: 'The movie was boring.', tr: 'Film sıkıcıydı.'},
+    {ing: 'The book is interesting.', tr: 'Kitap ilginç.'},
+    {ing: 'The news was shocking.', tr: 'Haberler şok ediciydi.'},
+    {ing: 'The game was exciting.', tr: 'Oyun heyecan vericiydi.'},
+    {ing: 'The puzzle is confusing.', tr: 'Bulmaca kafa karıştırıcı.'},
+    {ing: 'The noise is annoying.', tr: 'Ses sinir bozucu.'},
+    {ing: 'The journey was tiring.', tr: 'Yolculuk yorucuydu.'},
+    {ing: 'The story is fascinating.', tr: 'Hikaye büyüleyici.'},
+    {ing: 'The weather is depressing.', tr: 'Hava iç karartıcı.'},
+    {ing: 'The match was thrilling.', tr: 'Maç heyecan vericiydi.'},
+    {ing: 'The class was engaging.', tr: 'Ders ilgi çekiciydi.'},
+    {ing: 'The ride was frightening.', tr: 'Yolculuk korkutucuydu.'},
+    {ing: 'The lecture was boring.', tr: 'Ders sıkıcıydı.'},
+    {ing: 'The meal was satisfying.', tr: 'Yemek tatmin ediciydi.'},
+    {ing: 'The movie is amazing.', tr: 'Film harika.'},
+    {ing: 'The sunset was stunning.', tr: 'Gün batımı büyüleyiciydi.'},
+    {ing: 'The joke was amusing.', tr: 'Şaka eğlenceliydi.'},
+    {ing: 'The film is disappointing.', tr: 'Film hayal kırıklığı yaratıcı.'},
+    {ing: 'The hike was exhausting.', tr: 'Yürüyüş yorucuydu.'},
+    {ing: 'The party was entertaining.', tr: 'Parti eğlenceliydi.'},
+    {ing: 'The weather is relaxing.', tr: 'Hava rahatlatıcı.'},
+    {ing: 'The music is calming.', tr: 'Müzik sakinleştirici.'},
+    {ing: 'The problem is puzzling.', tr: 'Problem kafa karıştırıcı.'},
+    {ing: 'The view is amazing.', tr: 'Manzara harika.'},
+    {ing: 'The festival was amusing.', tr: 'Festival eğlenceliydi.'},
+    {ing: 'The movie was thrilling.', tr: 'Film heyecan vericiydi.'},
+    {ing: 'The speech was inspiring.', tr: 'Konuşma ilham vericiydi.'},
+    {ing: 'The news was alarming.', tr: 'Haberler endişe vericiydi.'},
+    {ing: 'The game was challenging.', tr: 'Oyun zorlayıcıydı.'},
+    {ing: 'The book is engaging.', tr: 'Kitap ilgi çekici.'},
+    {ing: 'The noise is disturbing.', tr: 'Ses rahatsız edici.'},
+    {ing: 'The party was surprising.', tr: 'Parti şaşırtıcıydı.'},
+    {ing: 'The situation is worrying.', tr: 'Durum endişe verici.'},
+    {ing: 'The song is uplifting.', tr: 'Şarkı moral verici.'},
+    {ing: 'The ride was terrifying.', tr: 'Yolculuk korkutucuydu.'},
+    {ing: 'The sky is stunning.', tr: 'Gökyüzü büyüleyici.'},
+    {ing: 'The task is demanding.', tr: 'Görev zorlayıcı.'},
+    {ing: 'The movie is captivating.', tr: 'Film büyüleyici.'},
+    {ing: 'The show was entertaining.', tr: 'Gösteri eğlenceliydi.'},
+    {ing: 'The noise was deafening.', tr: 'Ses sağır ediciydi.'},
+    {ing: 'The film was touching.', tr: 'Film dokunaklıydı.'},
+    {ing: 'The book is puzzling.', tr: 'Kitap kafa karıştırıcı.'},
+    {ing: 'The journey was exhausting.', tr: 'Yolculuk yorucuydu.'},
+    {ing: 'The speech was motivating.', tr: 'Konuşma motive ediciydi.'},
+    {ing: 'The sunset is breathtaking.', tr: 'Gün batımı nefes kesici.'},
+    {ing: 'The project is exciting.', tr: 'Proje heyecan verici.'},
+    {ing: 'The performance was amazing.', tr: 'Performans harikaydı.'},
+    {ing: 'The story is thrilling.', tr: 'Hikaye heyecan verici.'},
+    {ing: 'The exam was confusing.', tr: 'Sınav kafa karıştırıcıydı.'},
+    {ing: 'The music was relaxing.', tr: 'Müzik rahatlatıcıydı.'},
+    {
+      ing: 'The movie we watched last night was really exciting; I couldn’t look away for even a minute.',
+      tr: 'Dün gece izlediğimiz film gerçekten heyecan vericiydi; bir dakika bile gözümü alamadım.',
+    },
+    {
+      ing: 'That story in the book is very inspiring because it shows how people can overcome difficulties.',
+      tr: 'Kitaptaki o hikaye çok ilham verici çünkü insanların zorlukları nasıl aşabileceğini gösteriyor.',
+    },
+    {
+      ing: 'His speech during the presentation was boring, and many people in the audience started looking at their phones.',
+      tr: 'Sunum sırasında yaptığı konuşma sıkıcıydı ve izleyicilerin çoğu telefonlarına bakmaya başladı.',
+    },
+    {
+      ing: 'This book about space is quite interesting, especially the part where it talks about black holes.',
+      tr: 'Bu uzay hakkında olan kitap oldukça ilginç, özellikle kara deliklerden bahsettiği kısım.',
+    },
+    {
+      ing: 'The news about the storm was shocking because no one expected it to be so powerful.',
+      tr: 'Fırtına hakkındaki haber şok ediciydi çünkü kimse bu kadar güçlü olmasını beklemiyordu.',
+    },
+    {
+      ing: 'The weather today is depressing, with all the rain and grey clouds making me feel sad.',
+      tr: 'Bugünkü hava iç karartıcı, tüm bu yağmur ve gri bulutlar beni üzgün hissettiriyor.',
+    },
+    {
+      ing: 'The football game was thrilling to watch; the players were so fast, and the score kept changing.',
+      tr: 'Futbol maçı izlemek çok heyecan vericiydi; oyuncular çok hızlıydı ve skor sürekli değişiyordu.',
+    },
+    {
+      ing: 'The journey through the mountains was exhausting, but the view at the top was worth it.',
+      tr: 'Dağlar arasındaki yolculuk yorucuydu ama zirvedeki manzara buna değdi.',
+    },
+    {
+      ing: 'Her performance on stage was amazing; everyone in the audience gave her a big round of applause.',
+      tr: 'Sahnedeki performansı harikaydı; izleyicilerin hepsi ona büyük bir alkış verdi.',
+    },
+    {
+      ing: 'The joke he told was amusing, and it made everyone at the party laugh out loud.',
+      tr: 'Anlattığı şaka eğlenceliydi ve partideki herkesi kahkahalarla güldürdü.',
+    },
+    {
+      ing: 'This math problem is really challenging; I’ve been working on it for an hour and still don’t have the answer.',
+      tr: 'Bu matematik problemi gerçekten zorlayıcı; bir saattir üzerinde çalışıyorum ve hala cevabı bulamadım.',
+    },
+    {
+      ing: 'The puzzle we tried to solve was confusing because there were too many similar pieces.',
+      tr: 'Çözmeye çalıştığımız bulmaca kafa karıştırıcıydı çünkü çok fazla benzer parça vardı.',
+    },
+    {
+      ing: 'That noise coming from the street is so annoying; I can’t concentrate on my homework.',
+      tr: 'Sokaktan gelen o ses çok sinir bozucu; ödevime odaklanamıyorum.',
+    },
+    {
+      ing: 'The dinner my mom made was very satisfying; I felt full and happy after eating it.',
+      tr: 'Annemin yaptığı akşam yemeği çok tatmin ediciydi; yedikten sonra tok ve mutlu hissettim.',
+    },
+    {
+      ing: 'The music in the background is relaxing, and it helps me feel calm while I study.',
+      tr: 'Arka plandaki müzik rahatlatıcı ve çalışırken beni sakin hissettiriyor.',
+    },
+    {
+      ing: 'The ride on the roller coaster was frightening; I closed my eyes because I was so scared.',
+      tr: 'Roller coaster yolculuğu korkutucuydu; o kadar korktum ki gözlerimi kapattım.',
+    },
+    {
+      ing: 'The competition at the school was demanding, and it required a lot of practice from all the students.',
+      tr: 'Okuldaki yarışma zorluydu ve tüm öğrencilerden çok fazla pratik yapmalarını gerektirdi.',
+    },
+    {
+      ing: 'His ideas about how to save the environment are inspiring; they make me want to help too.',
+      tr: 'Çevreyi nasıl kurtaracağımız konusundaki fikirleri ilham verici; benim de yardım etme isteğimi artırıyor.',
+    },
+    {
+      ing: 'The film we watched last weekend was disappointing because the story was too simple.',
+      tr: 'Geçen hafta sonu izlediğimiz film hayal kırıklığı yaratıcıydı çünkü hikaye çok basitti.',
+    },
+    {
+      ing: 'The problem we discussed in class was puzzling; even the teacher had a hard time explaining it.',
+      tr: 'Sınıfta tartıştığımız problem kafa karıştırıcıydı; öğretmen bile bunu açıklamakta zorlandı.',
+    },
+    {
+      ing: 'The hike up the mountain was tiring, but reaching the top gave us a great feeling of achievement.',
+      tr: 'Dağa yapılan yürüyüş yorucuydu ama zirveye ulaşmak bize büyük bir başarı hissi verdi.',
+    },
+    {
+      ing: 'This book about ancient history is fascinating; I didn’t know people used to live in such different ways.',
+      tr: 'Bu antik tarih hakkında kitap büyüleyici; insanların bu kadar farklı yaşam tarzları olduğunu bilmiyordum.',
+    },
+    {
+      ing: 'The situation in the town is alarming because the river levels are rising quickly due to heavy rain.',
+      tr: 'Kasabadaki durum endişe verici çünkü yoğun yağış nedeniyle nehir seviyeleri hızla yükseliyor.',
+    },
+    {
+      ing: 'The class was very engaging; the teacher used games and activities that made learning fun.',
+      tr: 'Sınıf çok ilgi çekiciydi; öğretmen, öğrenmeyi eğlenceli hale getiren oyunlar ve etkinlikler kullandı.',
+    },
+    {
+      ing: 'The quiz we took today was confusing because some of the questions didn’t make sense.',
+      tr: 'Bugün yaptığımız quiz kafa karıştırıcıydı çünkü bazı sorular mantıklı değildi.',
+    },
+    {
+      ing: 'The math test was challenging, but I’m glad I studied a lot and managed to answer most of the questions.',
+      tr: 'Matematik sınavı zorlayıcıydı, ama çok çalıştığım için çoğu soruyu cevaplayabildim.',
+    },
+    {
+      ing: 'The storm outside is frightening; the wind is so strong that the trees are bending.',
+      tr: 'Dışarıdaki fırtına korkutucu; rüzgar o kadar güçlü ki ağaçlar eğiliyor.',
+    },
+    {
+      ing: 'The sunset we saw on the beach was stunning; the sky was filled with beautiful colors like pink, orange, and purple.',
+      tr: 'Sahilde gördüğümüz gün batımı büyüleyiciydi; gökyüzü pembe, turuncu ve mor gibi güzel renklerle doluydu.',
+    },
+    {
+      ing: 'The party at my friend’s house was entertaining; there was music, dancing, and even some funny games.',
+      tr: 'Arkadaşımın evindeki parti eğlenceliydi; müzik, dans ve hatta bazı komik oyunlar vardı.',
+    },
+    {
+      ing: 'Her story about her travels was touching; it made me feel so happy for her adventures.',
+      tr: 'Seyahatleri hakkındaki hikayesi dokunaklıydı; onun maceraları için çok mutlu hissettim.',
+    },
+    {
+      ing: 'The fireworks at the festival were amazing; they lit up the night sky with bright colors.',
+      tr: 'Festivaldeki havai fişekler harikaydı; gece gökyüzünü parlak renklerle aydınlattılar.',
+    },
+    {
+      ing: 'The concert we went to last night was thrilling; the music was loud, and everyone was dancing.',
+      tr: 'Dün gece gittiğimiz konser heyecan vericiydi; müzik yüksekti ve herkes dans ediyordu.',
+    },
+    {
+      ing: 'The festival in the city was amusing; there were clowns, magic tricks, and lots of fun games.',
+      tr: 'Şehirdeki festival eğlenceliydi; palyaçolar, sihir numaraları ve birçok eğlenceli oyun vardı.',
+    },
+    {
+      ing: 'The meeting with the new team members was confusing because nobody knew what they were supposed to do.',
+      tr: 'Yeni takım üyeleriyle yapılan toplantı kafa karıştırıcıydı çünkü kimse ne yapması gerektiğini bilmiyordu.',
+    },
+    {
+      ing: 'The science lesson today was really interesting; we learned about how volcanoes erupt.',
+      tr: 'Bugünkü fen dersi gerçekten ilginçti; volkanların nasıl patladığını öğrendik.',
+    },
+    {
+      ing: 'The movie about superheroes was thrilling, and it kept me on the edge of my seat until the end.',
+      tr: 'Süper kahramanlar hakkındaki film heyecan vericiydi ve beni sonuna kadar koltuğumun ucunda tuttu.',
+    },
+    {
+      ing: 'The computer game we played last night was very engaging; I lost track of time while playing.',
+      tr: 'Dün gece oynadığımız bilgisayar oyunu çok sürükleyiciydi; oynarken zamanın nasıl geçtiğini unuttum.',
+    },
+    {
+      ing: 'The ride at the amusement park was frightening, and I screamed the whole time.',
+      tr: 'Eğlence parkındaki yolculuk korkutucuydu ve tüm zaman boyunca çığlık attım.',
+    },
+    {
+      ing: 'The speech the teacher gave was inspiring; it made me want to work harder and never give up.',
+      tr: 'Öğretmenin yaptığı konuşma ilham vericiydi; daha çok çalışmak ve asla pes etmemek istememi sağladı.',
+    },
+    {
+      ing: 'The weather in the morning was depressing; it was raining, cold, and very windy.',
+      tr: 'Sabah hava iç karartıcıydı; yağmur yağıyor, soğuk ve çok rüzgarlıydı.',
+    },
+    {
+      ing: 'The homework we got from school today is challenging, and I will need a lot of time to finish it.',
+      tr: 'Bugün okuldan aldığımız ödev zorlayıcı ve bitirmek için çok zamana ihtiyacım olacak.',
+    },
+    {
+      ing: 'The book about animals in the jungle was fascinating; I didn’t know so much about tigers and lions.',
+      tr: 'Ormandaki hayvanlar hakkında olan kitap büyüleyiciydi; kaplanlar ve aslanlar hakkında bu kadar çok şey bilmiyordum.',
+    },
+    {
+      ing: 'The story my grandma told me was touching; it made me feel so much love for my family.',
+      tr: 'Büyükannemin anlattığı hikaye dokunaklıydı; aileme karşı çok sevgi hissetmemi sağladı.',
+    },
+    {
+      ing: 'The movie we watched in the cinema was disappointing because the ending didn’t make any sense.',
+      tr: 'Sinemada izlediğimiz film hayal kırıklığı yaratıcıydı çünkü sonu hiç mantıklı değildi.',
+    },
+    {
+      ing: 'The music playing in the restaurant was relaxing; it helped me enjoy my meal even more.',
+      tr: 'Restoranda çalan müzik rahatlatıcıydı; yemeğimin tadını daha çok çıkarmama yardımcı oldu.',
+    },
+    {
+      ing: 'The news on TV last night was shocking; they talked about a new discovery in space.',
+      tr: 'Dün gece televizyondaki haberler şok ediciydi; uzayda yeni bir keşiften bahsettiler.',
+    },
+    {
+      ing: 'The hike through the forest was tiring, but when we reached the waterfall, it was all worth it.',
+      tr: 'Ormanda yapılan yürüyüş yorucuydu ama şelaleye ulaştığımızda her şeye değdi.',
+    },
+    {
+      ing: 'The puzzle with 1,000 pieces was confusing; it took me a whole week to put it together.',
+      tr: '1.000 parçalı bulmaca kafa karıştırıcıydı; bir hafta boyunca tüm parçaları birleştirmek sürdü.',
+    },
+    {
+      ing: 'The game we played at the party was amusing; we couldn’t stop laughing at each other.',
+      tr: 'Partide oynadığımız oyun eğlenceliydi; birbirimize gülmekten kendimizi alamadık.',
+    },
+    {
+      ing: 'The lecture at school was boring; I almost fell asleep in the middle of it.',
+      tr: 'Okuldaki ders sıkıcıydı; ortasında neredeyse uyuyordum.',
+    },
+    {
+      ing: 'The noise from the construction outside is annoying; I can’t focus on my work.',
+      tr: 'Dışarıdaki inşaat sesi sinir bozucu; işime odaklanamıyorum.',
+    },
+    {
+      ing: 'The art exhibition was fascinating; each painting had so much detail and color.',
+      tr: 'Sanat sergisi büyüleyiciydi; her tablo çok fazla ayrıntı ve renge sahipti.',
+    },
+    {
+      ing: 'The roller coaster ride was thrilling; my heart was beating so fast the entire time.',
+      tr: 'Roller coaster yolculuğu heyecan vericiydi; kalbim tüm süre boyunca çok hızlı atıyordu.',
+    },
+    {
+      ing: 'The weather outside is depressing; it’s been cloudy and rainy all week long.',
+      tr: 'Dışarıdaki hava iç karartıcı; bütün hafta boyunca bulutlu ve yağmurluydu.',
+    },
+    {
+      ing: 'The new video game is very engaging; I spent hours trying to beat the first level.',
+      tr: 'Yeni video oyunu çok sürükleyici; ilk seviyeyi geçmek için saatler harcadım.',
+    },
+    {
+      ing: 'The conversation at dinner was confusing; everyone was talking at the same time.',
+      tr: 'Akşam yemeğindeki konuşma kafa karıştırıcıydı; herkes aynı anda konuşuyordu.',
+    },
+    {
+      ing: 'The performance by the dancers was amazing; they moved so gracefully to the music.',
+      tr: 'Dansçıların performansı harikaydı; müziğe o kadar zarif bir şekilde hareket ettiler.',
+    },
+    {
+      ing: 'The play we watched was entertaining; the actors were so funny and talented.',
+      tr: 'İzlediğimiz oyun eğlenceliydi; oyuncular çok komik ve yetenekliydi.',
+    },
+    {
+      ing: 'The thunderstorm last night was frightening; I couldn’t sleep because of the loud noises.',
+      tr: 'Dün geceki fırtına korkutucuydu; yüksek sesler yüzünden uyuyamadım.',
+    },
+    {
+      ing: 'The long walk up the hill was tiring, but the view from the top was incredible.',
+      tr: 'Tepeye yapılan uzun yürüyüş yorucuydu ama zirveden manzara inanılmazdı.',
+    },
+    {
+      ing: 'The project we are working on is challenging; we need to think of creative solutions.',
+      tr: 'Üzerinde çalıştığımız proje zorlayıcı; yaratıcı çözümler düşünmemiz gerekiyor.',
+    },
+    {
+      ing: 'The carnival in town was amusing; there were clowns, games, and lots of prizes to win.',
+      tr: 'Kasabadaki karnaval eğlenceliydi; palyaçolar, oyunlar ve kazanılacak birçok ödül vardı.',
+    },
+    {
+      ing: 'The scene in the movie was shocking; I never expected the story to take that turn.',
+      tr: 'Filmdeki sahne şok ediciydi; hikayenin bu yönde ilerleyeceğini hiç beklemiyordum.',
+    },
+    {
+      ing: 'The class activity today was interesting; we learned how to do a science experiment.',
+      tr: 'Bugünkü sınıf etkinliği ilginçti; bir bilim deneyi yapmayı öğrendik.',
+    },
+    {
+      ing: 'The puzzle in the magazine was confusing; it took me several tries to solve it.',
+      tr: 'Dergideki bulmaca kafa karıştırıcıydı; çözmek için birkaç deneme yapmam gerekti.',
+    },
+    {
+      ing: 'The trip to the mountains was exhausting; we walked for miles and climbed steep paths.',
+      tr: 'Dağlara yapılan gezi yorucuydu; kilometrelerce yürüdük ve dik yokuşlara tırmandık.',
+    },
+    {
+      ing: 'The children’s laughter was amusing; they were so happy playing in the park.',
+      tr: 'Çocukların kahkahaları eğlenceliydi; parkta oynamaktan çok mutluydular.',
+    },
+    {
+      ing: 'The ending of the book was disappointing; I expected something more exciting.',
+      tr: 'Kitabın sonu hayal kırıklığı yaratıcıydı; daha heyecan verici bir şey bekliyordum.',
+    },
+    {
+      ing: 'The landscape we saw on our trip was stunning; I couldn’t believe how beautiful it was.',
+      tr: 'Gezimizde gördüğümüz manzara büyüleyiciydi; ne kadar güzel olduğuna inanamadım.',
+    },
+    {
+      ing: 'The holiday with my family was amazing; we visited so many beautiful places.',
+      tr: 'Ailemle olan tatil harikaydı; birçok güzel yeri ziyaret ettik.',
+    },
+    {
+      ing: 'The teacher’s instructions were confusing; I didn’t understand what we had to do.',
+      tr: 'Öğretmenin talimatları kafa karıştırıcıydı; ne yapmamız gerektiğini anlamadım.',
+    },
+    {
+      ing: 'The noise from the street is annoying; I wish it was quieter so I could study.',
+      tr: 'Sokaktan gelen ses sinir bozucu; keşke daha sessiz olsaydı da çalışabilseydim.',
+    },
+    {
+      ing: 'The detective story in the book was fascinating; I couldn’t stop reading until I knew who did it.',
+      tr: 'Kitaptaki dedektif hikayesi büyüleyiciydi; kimin yaptığını öğrenene kadar okumayı bırakamadım.',
+    },
+    {
+      ing: 'The news about the missing cat was alarming; everyone in the neighborhood was worried.',
+      tr: 'Kayıp kedi hakkındaki haber endişe vericiydi; mahalledeki herkes endişeliydi.',
+    },
+    {
+      ing: 'The competition at school was exciting; all the students were cheering for their teams.',
+      tr: 'Okuldaki yarışma heyecan vericiydi; tüm öğrenciler takımları için tezahürat yapıyordu.',
+    },
+    {
+      ing: 'The festival in the park was entertaining; there were music, dance, and delicious food.',
+      tr: 'Parktaki festival eğlenceliydi; müzik, dans ve lezzetli yiyecekler vardı.',
+    },
+    {
+      ing: 'The fireworks show was thrilling; each explosion of color made the crowd cheer loudly.',
+      tr: 'Havai fişek gösterisi heyecan vericiydi; her renk patlaması kalabalığın yüksek sesle tezahürat yapmasını sağladı.',
+    },
+    {
+      ing: 'The traffic jam this morning was frustrating; I was late to school because of it.',
+      tr: 'Bu sabahki trafik sıkışıklığı sinir bozucuydu; bu yüzden okula geç kaldım.',
+    },
+    {
+      ing: 'The new rules in class are confusing; I don’t know when we are supposed to turn in our homework.',
+      tr: 'Sınıftaki yeni kurallar kafa karıştırıcı; ödevlerimizi ne zaman teslim etmemiz gerektiğini bilmiyorum.',
+    },
+    {
+      ing: 'The TV show we watched last night was disappointing; the story didn’t make any sense.',
+      tr: 'Dün gece izlediğimiz TV şovu hayal kırıklığı yaratıcıydı; hikaye hiç mantıklı değildi.',
+    },
+    {
+      ing: 'The dessert we had at the restaurant was amazing; it was the best chocolate cake I’ve ever tasted.',
+      tr: 'Restoranda yediğimiz tatlı harikaydı; şimdiye kadar tattığım en iyi çikolatalı kekti.',
+    },
+    {
+      ing: 'The museum exhibit was fascinating; I learned so much about ancient history.',
+      tr: 'Müze sergisi büyüleyiciydi; antik tarih hakkında çok şey öğrendim.',
+    },
+    {
+      ing: 'The soccer game yesterday was thrilling; my favorite team won at the last minute.',
+      tr: 'Dün oynanan futbol maçı heyecan vericiydi; favori takımım son dakikada kazandı.',
+    },
+    {
+      ing: 'The rain outside is depressing; I wanted to go for a walk, but now I have to stay inside.',
+      tr: 'Dışarıdaki yağmur iç karartıcı; yürüyüşe çıkmak istedim ama şimdi içeride kalmam gerekiyor.',
+    },
+    {
+      ing: 'The magic trick he showed us was confusing; I have no idea how he did it.',
+      tr: 'Bize gösterdiği sihir numarası kafa karıştırıcıydı; bunu nasıl yaptığını hiç anlamadım.',
+    },
+    {
+      ing: 'The story the teacher told us was interesting; it was about a brave hero who saved his village.',
+      tr: 'Öğretmenin bize anlattığı hikaye ilginçti; köyünü kurtaran cesur bir kahraman hakkındaydı.',
+    },
+    {
+      ing: 'The parade in the city was amazing; people were dancing, singing, and celebrating.',
+      tr: 'Şehirdeki geçit töreni harikaydı; insanlar dans ediyor, şarkı söylüyor ve kutlama yapıyordu.',
+    },
+    {
+      ing: 'The puzzle game is challenging; it makes me think really hard to find the solution.',
+      tr: 'Bulmaca oyunu zorlayıcı; çözümü bulmak için çok derin düşünmemi sağlıyor.',
+    },
+    {
+      ing: 'The noise from the train station is annoying; it keeps waking me up in the morning.',
+      tr: 'Tren istasyonundan gelen ses sinir bozucu; sabahları beni sürekli uyandırıyor.',
+    },
+    {
+      ing: 'The animation movie we watched was fascinating; the characters looked so real.',
+      tr: 'İzlediğimiz animasyon filmi büyüleyiciydi; karakterler çok gerçekçi görünüyordu.',
+    },
+    {
+      ing: 'The science experiment we did in class was exciting; I loved watching the colors change.',
+      tr: 'Sınıfta yaptığımız bilim deneyi heyecan vericiydi; renklerin değişimini izlemeyi çok sevdim.',
+    },
+    {
+      ing: 'The art project is challenging; I’m trying to draw a perfect circle but it’s really hard.',
+      tr: 'Sanat projesi zorlayıcı; mükemmel bir daire çizmeye çalışıyorum ama gerçekten zor.',
+    },
+    {
+      ing: 'The evening sky was stunning; the stars were so bright and the moon was shining.',
+      tr: 'Akşam gökyüzü büyüleyiciydi; yıldızlar çok parlaktı ve ay parlıyordu.',
+    },
+    {
+      ing: 'The bus ride to the zoo was tiring; it took a long time, but we saw many animals.',
+      tr: 'Hayvanat bahçesine yapılan otobüs yolculuğu yorucuydu; uzun sürdü ama birçok hayvan gördük.',
+    },
+    {
+      ing: 'The joke my friend told me was amusing; I laughed so much that my stomach hurt.',
+      tr: 'Arkadaşımın bana anlattığı şaka eğlenceliydi; o kadar çok güldüm ki karnım ağrıdı.',
+    },
+    {
+      ing: 'The fireworks display at the festival was thrilling; I’ve never seen anything so bright.',
+      tr: 'Festivaldeki havai fişek gösterisi heyecan vericiydi; bu kadar parlak bir şey hiç görmedim.',
+    },
+    {
+      ing: 'The situation in the town is alarming; we need to find a way to help the people affected.',
+      tr: 'Kasabadaki durum endişe verici; etkilenen insanlara yardım etmenin bir yolunu bulmalıyız.',
+    },
+    {
+      ing: 'The test we took yesterday was confusing; I wasn’t sure what some of the questions meant.',
+      tr: 'Dün yaptığımız test kafa karıştırıcıydı; bazı soruların ne anlama geldiğinden emin değildim.',
+    },
+    {
+      ing: 'The movie about dinosaurs was exciting; I was on the edge of my seat the whole time.',
+      tr: 'Dinozorlar hakkındaki film heyecan vericiydi; tüm süre boyunca koltuğumun ucundaydım.',
+    },
+    {
+      ing: 'The summer vacation we planned is amazing; I can’t wait to travel with my family.',
+      tr: 'Planladığımız yaz tatili harika; ailemle seyahat etmeyi dört gözle bekliyorum.',
+    },
+    {
+      ing: 'The performance by the band was entertaining; everyone in the crowd was dancing to the music.',
+      tr: 'Grubun performansı eğlenceliydi; kalabalıktaki herkes müziğe dans ediyordu.',
+    },
+    {
+      ing: 'The scary story she told us was frightening; I was too scared to sleep last night.',
+      tr: 'Bize anlattığı korkunç hikaye korkutucuydu; dün gece uyuyamayacak kadar korktum.',
+    },
+    {
+      ing: 'The dinner my mom made was satisfying; I ate so much because it was delicious.',
+      tr: 'Annemin yaptığı akşam yemeği tatmin ediciydi; çok yedim çünkü çok lezzetliydi.',
+    },
+    {
+      ing: 'The view from the top of the hill was stunning; I could see the entire city from there.',
+      tr: 'Tepeden manzara büyüleyiciydi; oradan tüm şehri görebiliyordum.',
+    },
+    {
+      ing: 'The adventure game is thrilling; each level has a new surprise waiting for me.',
+      tr: 'Macera oyunu heyecan verici; her seviyede beni bekleyen yeni bir sürpriz var.',
+    },
+    {
+      ing: 'The conversation we had was confusing; I didn’t understand what they were talking about.',
+      tr: 'Yaptığımız konuşma kafa karıştırıcıydı; ne hakkında konuştuklarını anlamadım.',
+    },
+    {
+      ing: 'The mystery book was fascinating; I didn’t want to put it down until I knew the ending.',
+      tr: 'Gizemli kitap büyüleyiciydi; sonunu öğrenene kadar elimden bırakmak istemedim.',
+    },
+    {
+      ing: 'The park was amusing; there were clowns making balloon animals for the kids.',
+      tr: 'Park eğlenceliydi; çocuklar için balon hayvanlar yapan palyaçolar vardı.',
+    },
+    {
+      ing: 'The news report was alarming; it said that the storm would be worse than expected.',
+      tr: 'Haber raporu endişe vericiydi; fırtınanın beklenenden daha kötü olacağını söyledi.',
+    },
+    {
+      ing: 'The competition was exciting; everyone gave their best to win the first prize.',
+      tr: 'Yarışma heyecan vericiydi; herkes birinci ödülü kazanmak için elinden geleni yaptı.',
+    },
+    {
+      ing: 'The puzzle in the newspaper was confusing; I couldn’t figure out the last word.',
+      tr: 'Gazetedeki bulmaca kafa karıştırıcıydı; son kelimeyi çözemedim.',
+    },
+    {
+      ing: 'The sunset over the ocean was stunning; the colors in the sky were like a painting.',
+      tr: 'Okyanus üzerindeki gün batımı büyüleyiciydi; gökyüzündeki renkler bir tablo gibiydi.',
+    },
+    {
+      ing: 'The exam was challenging; I studied all week but still found some questions hard.',
+      tr: 'Sınav zorlayıcıydı; tüm hafta çalıştım ama yine de bazı soruları zor buldum.',
+    },
+    {
+      ing: 'The new rules at the game were confusing; I didn’t know when to score points.',
+      tr: 'Oyundaki yeni kurallar kafa karıştırıcıydı; ne zaman puan kazanmam gerektiğini bilmiyordum.',
+    },
+    {
+      ing: 'The music performance was amazing; they played my favorite songs beautifully.',
+      tr: 'Müzik performansı harikaydı; favori şarkılarımı çok güzel çaldılar.',
+    },
+    {
+      ing: 'The weather forecast was disappointing; I hoped for sunshine but it’s going to rain.',
+      tr: 'Hava tahmini hayal kırıklığı yaratıcıydı; güneşli bir hava umuyordum ama yağmur yağacak.',
+    },
+    {
+      ing: 'The film was boring; I kept looking at my watch, waiting for it to end.',
+      tr: 'Film sıkıcıydı; sürekli saatime bakarak bitmesini bekledim.',
+    },
+    {
+      ing: 'The game was thrilling; we scored the winning goal in the last second.',
+      tr: 'Oyun heyecan vericiydi; son saniyede kazandıran golü attık.',
+    },
+    {
+      ing: 'The flower garden is fascinating; there are so many different colors and shapes.',
+      tr: 'Çiçek bahçesi büyüleyici; çok fazla farklı renk ve şekil var.',
+    },
+    {
+      ing: 'The traffic on the road was frustrating; we moved so slowly that we missed the movie.',
+      tr: 'Yoldaki trafik sinir bozucuydu; o kadar yavaş ilerledik ki filmi kaçırdık.',
+    },
+    {
+      ing: 'The story of the lost treasure was exciting; I imagined finding the treasure myself.',
+      tr: 'Kayıp hazine hikayesi heyecan vericiydi; hazineyi kendim bulduğumu hayal ettim.',
+    },
+    {
+      ing: 'The fireworks were thrilling; they lit up the sky in bright colors and loud bangs.',
+      tr: 'Havai fişekler heyecan vericiydi; gökyüzünü parlak renkler ve yüksek patlamalarla aydınlattılar.',
+    },
+    {
+      ing: 'The detective story was confusing; I couldn’t guess who the thief was until the end.',
+      tr: 'Dedektif hikayesi kafa karıştırıcıydı; hırsızın kim olduğunu sonuna kadar tahmin edemedim.',
+    },
+    {
+      ing: 'The play was entertaining; the actors made everyone laugh with their jokes.',
+      tr: 'Oyun eğlenceliydi; oyuncular şakalarıyla herkesi güldürdü.',
+    },
+    {
+      ing: 'The noise from the market is annoying; I can’t hear myself think with all the shouting.',
+      tr: 'Pazardan gelen ses sinir bozucu; tüm bu bağırışlarla düşüncelerimi duyamıyorum.',
+    },
+    {
+      ing: 'The zoo visit was amazing; I saw animals I’ve never seen before.',
+      tr: 'Hayvanat bahçesi ziyareti harikaydı; daha önce hiç görmediğim hayvanlar gördüm.',
+    },
+    {
+      ing: 'The situation was alarming; we had to act quickly to help the injured people.',
+      tr: 'Durum endişe vericiydi; yaralı insanlara yardım etmek için hızlı hareket etmeliydik.',
+    },
+    {
+      ing: 'The conversation was confusing; I got lost in all the different topics they discussed.',
+      tr: 'Konuşma kafa karıştırıcıydı; tartıştıkları tüm farklı konularda kayboldum.',
+    },
+    {
+      ing: 'The match was thrilling; both teams played really well, and the score was very close.',
+      tr: 'Maç heyecan vericiydi; her iki takım da çok iyi oynadı ve skor çok yakındı.',
+    },
+    {
+      ing: 'The class was boring; I felt sleepy because the teacher spoke in a low voice.',
+      tr: 'Ders sıkıcıydı; öğretmen düşük bir sesle konuştuğu için uykum geldi.',
+    },
+    {
+      ing: 'The weather is depressing; it’s been raining all week, and I miss the sunshine.',
+      tr: 'Hava iç karartıcı; bütün hafta boyunca yağmur yağıyor ve güneşi özledim.',
+    },
+    {
+      ing: 'The book was fascinating; it was full of amazing facts about space and planets.',
+      tr: 'Kitap büyüleyiciydi; uzay ve gezegenler hakkında inanılmaz bilgilerle doluydu.',
+    },
+    {
+      ing: 'The meal was satisfying; I felt happy and full after eating my favorite dish.',
+      tr: 'Yemek tatmin ediciydi; en sevdiğim yemeği yedikten sonra mutlu ve tok hissettim.',
+    },
+    {
+      ing: 'The lesson was interesting; I learned a lot about different cultures around the world.',
+      tr: 'Ders ilginçti; dünya çapında farklı kültürler hakkında çok şey öğrendim.',
+    },
+    {
+      ing: 'The movie was disappointing; the trailers made it look better than it actually was.',
+      tr: 'Film hayal kırıklığı yaratıcıydı; fragmanlar onu olduğundan daha iyi gösteriyordu.',
+    },
+    {
+      ing: 'The game was challenging; I had to think really hard to solve each puzzle.',
+      tr: 'Oyun zorlayıcıydı; her bulmacayı çözmek için çok düşünmem gerekti.',
+    },
+    {
+      ing: 'The song was relaxing; it made me feel calm and ready to sleep.',
+      tr: 'Şarkı rahatlatıcıydı; beni sakinleştirip uykuya hazır hale getirdi.',
+    },
+    {
+      ing: 'The roller coaster was frightening; my heart was beating so fast the entire time.',
+      tr: 'Roller coaster korkutucuydu; kalbim tüm süre boyunca çok hızlı atıyordu.',
+    },
+    {
+      ing: 'The documentary was fascinating; it showed how animals live in the wild.',
+      tr: 'Belgesel büyüleyiciydi; hayvanların vahşi doğada nasıl yaşadıklarını gösterdi.',
+    },
+    {
+      ing: 'The sunset was stunning; the sky was painted with pink and orange colors.',
+      tr: 'Gün batımı büyüleyiciydi; gökyüzü pembe ve turuncu renklerle boyanmıştı.',
+    },
+    {
+      ing: 'The sports event was thrilling; everyone was cheering loudly for their favorite team.',
+      tr: 'Spor etkinliği heyecan vericiydi; herkes favori takımı için yüksek sesle tezahürat yapıyordu.',
+    },
+    {
+      ing: 'The noise from the street was annoying; I couldn’t focus on my homework at all.',
+      tr: 'Sokaktan gelen ses sinir bozucuydu; ödevime hiç odaklanamadım.',
+    },
+    {
+      ing: 'The science experiment was confusing; I didn’t understand why the liquid changed color.',
+      tr: 'Bilim deneyi kafa karıştırıcıydı; sıvının neden renk değiştirdiğini anlamadım.',
+    },
+    {
+      ing: 'The art class was interesting; we learned how to mix colors to create new shades.',
+      tr: 'Sanat dersi ilginçti; yeni tonlar oluşturmak için renkleri nasıl karıştıracağımızı öğrendik.',
+    },
+    {
+      ing: 'The puzzle we did was challenging; it took us all evening to finish it.',
+      tr: 'Yaptığımız bulmaca zorlayıcıydı; onu bitirmek bütün akşamımızı aldı.',
+    },
+    {
+      ing: 'The book we read in class was fascinating; it had a lot of unexpected twists.',
+      tr: 'Sınıfta okuduğumuz kitap büyüleyiciydi; birçok beklenmedik dönemeç vardı.',
+    },
+    {
+      ing: 'The music at the party was entertaining; everyone was dancing and having a good time.',
+      tr: 'Partideki müzik eğlenceliydi; herkes dans ediyor ve iyi vakit geçiriyordu.',
+    },
+    {
+      ing: 'The ride on the boat was relaxing; the gentle waves made me feel calm.',
+      tr: 'Teknedeki yolculuk rahatlatıcıydı; hafif dalgalar beni sakinleştirdi.',
+    },
+    {
+      ing: 'The story my friend told me was amusing; it was so funny that I couldn’t stop laughing.',
+      tr: 'Arkadaşımın anlattığı hikaye eğlenceliydi; o kadar komikti ki gülmeyi bırakamadım.',
+    },
+    {
+      ing: 'The movie about the space adventure was thrilling; I wished I could be an astronaut too.',
+      tr: 'Uzay macerası hakkındaki film heyecan vericiydi; ben de bir astronot olmak istedim.',
+    },
+  ],
+};
