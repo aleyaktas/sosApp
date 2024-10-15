@@ -4,13 +4,19 @@ import {TouchableOpacity} from 'react-native-gesture-handler';
 import {useNavigation} from '@react-navigation/native';
 import {ScreenProp} from '../navigation/types';
 import {Categories, test} from '../utils/data';
-import {translateLetsShall} from '../helpers/translateArray';
+import {
+  translateLetsShall,
+  translateModals,
+  translatePossessiveSOf,
+  translatePronouns,
+  translateThereIsAre,
+} from '../helpers/translateArray';
 
 const Home = () => {
   const navigation = useNavigation<ScreenProp>();
 
   useEffect(() => {
-    console.log(translateLetsShall(test));
+    console.log(translatePronouns(test));
   }, []);
 
   return (

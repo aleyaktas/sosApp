@@ -65282,3 +65282,10980 @@ export const LetsShallTranslationSentences = {
     {ing: 'Shall I teach you?', tr: 'Sana öğreteyim mi?'},
   ],
 };
+
+export const ModalsTranslationSentences = {
+  BeAbleTo: [
+    {
+      ing: 'I am able to solve this problem easily.',
+      tr: 'Bu problemi kolayca çözebiliyorum.',
+    },
+    {
+      ing: 'She is not able to attend the meeting today.',
+      tr: 'Bugün toplantıya katılamıyor.',
+    },
+    {
+      ing: 'Are they able to come to the party this evening?',
+      tr: 'Bu akşam partiye gelebiliyorlar mı?',
+    },
+    {
+      ing: 'He is able to swim faster than anyone I know.',
+      tr: 'Tanıdığım herkesten daha hızlı yüzebiliyor.',
+    },
+    {
+      ing: 'We are not able to finish the project on time.',
+      tr: 'Projeyi zamanında bitiremiyoruz.',
+    },
+    {
+      ing: 'Are you able to understand the instructions clearly?',
+      tr: 'Talimatları açıkça anlayabiliyor musun?',
+    },
+    {
+      ing: 'She is able to play the piano beautifully.',
+      tr: 'Piyanoyu güzel bir şekilde çalabiliyor.',
+    },
+    {
+      ing: 'They are not able to travel due to the restrictions.',
+      tr: 'Kısıtlamalar nedeniyle seyahat edemiyorlar.',
+    },
+    {
+      ing: 'Is he able to fix the car himself?',
+      tr: 'Arabayı kendi başına tamir edebiliyor mu?',
+    },
+    {
+      ing: 'I am able to speak three different languages.',
+      tr: 'Üç farklı dil konuşabiliyorum.',
+    },
+    {
+      ing: 'You are not able to access the website right now.',
+      tr: 'Şu anda web sitesine erişemiyorsun.',
+    },
+    {
+      ing: 'Are we able to see the stars clearly tonight?',
+      tr: 'Bu gece yıldızları net bir şekilde görebiliyor muyuz?',
+    },
+    {
+      ing: 'He is able to lift heavy weights at the gym.',
+      tr: 'Spor salonunda ağır ağırlıklar kaldırabiliyor.',
+    },
+    {
+      ing: 'She is not able to join us for lunch today.',
+      tr: 'Bugün bizimle öğle yemeğine katılamıyor.',
+    },
+    {
+      ing: 'Are they able to complete the task without help?',
+      tr: 'Görevi yardım almadan tamamlayabiliyorlar mı?',
+    },
+    {
+      ing: 'I am able to finish my work earlier than expected.',
+      tr: 'İşimi beklenenden daha erken bitirebiliyorum.',
+    },
+    {
+      ing: 'You are not able to park your car here.',
+      tr: 'Arabanı buraya park edemiyorsun.',
+    },
+    {
+      ing: 'Is she able to attend the event tomorrow?',
+      tr: 'Yarın etkinliğe katılabiliyor mu?',
+    },
+    {
+      ing: 'We are able to solve the puzzle in a few minutes.',
+      tr: 'Bulmacayı birkaç dakika içinde çözebiliyoruz.',
+    },
+    {
+      ing: 'He is not able to remember the password.',
+      tr: 'Şifreyi hatırlayamıyor.',
+    },
+    {
+      ing: 'Are you able to come with us on the trip?',
+      tr: 'Geziye bizimle gelebiliyor musun?',
+    },
+    {
+      ing: 'She is able to design beautiful graphics.',
+      tr: 'Güzel grafikler tasarlayabiliyor.',
+    },
+    {
+      ing: 'They are not able to make a decision right now.',
+      tr: 'Şu anda bir karar veremiyorlar.',
+    },
+    {
+      ing: 'Is he able to play soccer with his injured leg?',
+      tr: 'Yaralı bacağıyla futbol oynayabiliyor mu?',
+    },
+    {
+      ing: 'I am able to concentrate better in the morning.',
+      tr: 'Sabahları daha iyi odaklanabiliyorum.',
+    },
+    {
+      ing: 'You are not able to use this computer without permission.',
+      tr: 'İzin almadan bu bilgisayarı kullanamıyorsun.',
+    },
+    {
+      ing: 'Are we able to visit the museum today?',
+      tr: 'Bugün müzeyi ziyaret edebiliyor muyuz?',
+    },
+    {
+      ing: 'She is able to draw realistic portraits.',
+      tr: 'Gerçekçi portreler çizebiliyor.',
+    },
+    {
+      ing: 'He is not able to answer all the questions correctly.',
+      tr: 'Tüm soruları doğru bir şekilde cevaplayamıyor.',
+    },
+    {
+      ing: 'Are they able to find a solution to the problem?',
+      tr: 'Soruna bir çözüm bulabiliyorlar mı?',
+    },
+    {
+      ing: 'I am able to cook delicious meals for my family.',
+      tr: 'Ailem için lezzetli yemekler pişirebiliyorum.',
+    },
+    {
+      ing: 'You are not able to enter the building after hours.',
+      tr: 'Mesai saatlerinden sonra binaya giremezsin.',
+    },
+    {
+      ing: 'Is she able to manage the project on her own?',
+      tr: 'Projeyi kendi başına yönetebiliyor mu?',
+    },
+    {
+      ing: 'We are able to enjoy the weather at the beach.',
+      tr: 'Plajda havanın tadını çıkarabiliyoruz.',
+    },
+    {
+      ing: 'He is not able to focus on his studies.',
+      tr: 'Derslerine odaklanamıyor.',
+    },
+    {
+      ing: 'Are you able to tell the difference between them?',
+      tr: 'Onlar arasındaki farkı söyleyebiliyor musun?',
+    },
+    {
+      ing: 'She is able to ride a bicycle without training wheels.',
+      tr: 'Destek tekerlekleri olmadan bisiklet sürebiliyor.',
+    },
+    {
+      ing: 'They are not able to agree on a plan.',
+      tr: 'Bir plan üzerinde anlaşamıyorlar.',
+    },
+    {
+      ing: 'Is he able to explain the concept clearly?',
+      tr: 'Konuyu açıkça açıklayabiliyor mu?',
+    },
+    {
+      ing: 'I am able to swim across the lake.',
+      tr: 'Gölü yüzerek geçebiliyorum.',
+    },
+    {
+      ing: 'You are not able to join the meeting this week.',
+      tr: 'Bu hafta toplantıya katılamıyorsun.',
+    },
+    {
+      ing: 'Are we able to get tickets for the concert?',
+      tr: 'Konser için bilet alabiliyor muyuz?',
+    },
+    {
+      ing: 'She is able to understand complex theories.',
+      tr: 'Karmaşık teorileri anlayabiliyor.',
+    },
+    {
+      ing: 'He is not able to complete his homework on time.',
+      tr: 'Ödevini zamanında tamamlayamıyor.',
+    },
+    {
+      ing: 'Are they able to attend the workshop next month?',
+      tr: 'Gelecek ay atölyeye katılabiliyorlar mı?',
+    },
+    {
+      ing: 'I am able to walk to work every day.',
+      tr: 'Her gün işe yürüyebiliyorum.',
+    },
+    {
+      ing: 'You are not able to drink coffee at night.',
+      tr: 'Gece kahve içemiyorsun.',
+    },
+    {
+      ing: 'Is she able to play the violin at the event?',
+      tr: 'Etkinlikte keman çalabiliyor mu?',
+    },
+    {
+      ing: 'We are able to watch the movie in high quality.',
+      tr: 'Filmi yüksek kalitede izleyebiliyoruz.',
+    },
+    {
+      ing: 'He is not able to run as fast as before.',
+      tr: 'Eskisi kadar hızlı koşamıyor.',
+    },
+    {
+      ing: 'Are you able to help me with this project?',
+      tr: 'Bu projede bana yardımcı olabiliyor musun?',
+    },
+    {
+      ing: 'She is able to bake a cake from scratch.',
+      tr: 'Sıfırdan kek yapabiliyor.',
+    },
+    {
+      ing: 'They are not able to meet the deadline.',
+      tr: 'Son teslim tarihine yetişemiyorlar.',
+    },
+    {
+      ing: 'Is he able to join the team this season?',
+      tr: 'Bu sezon takıma katılabiliyor mu?',
+    },
+    {
+      ing: 'I am able to read books in two languages.',
+      tr: 'İki dilde kitap okuyabiliyorum.',
+    },
+    {
+      ing: 'You are not able to take photos in this area.',
+      tr: 'Bu alanda fotoğraf çekemiyorsun.',
+    },
+    {
+      ing: 'Are we able to finish the assignment on time?',
+      tr: 'Ödevi zamanında bitirebiliyor muyuz?',
+    },
+    {
+      ing: 'She is able to solve the math problems quickly.',
+      tr: 'Matematik problemlerini hızlıca çözebiliyor.',
+    },
+    {
+      ing: 'He is not able to express his feelings well.',
+      tr: 'Duygularını iyi ifade edemiyor.',
+    },
+    {
+      ing: 'Are they able to fix the broken machine?',
+      tr: 'Kırık makineyi tamir edebiliyorlar mı?',
+    },
+    {
+      ing: 'I am able to play chess with my friends.',
+      tr: 'Arkadaşlarımla satranç oynayabiliyorum.',
+    },
+    {
+      ing: 'You are not able to log into the system.',
+      tr: 'Sisteme giriş yapamıyorsun.',
+    },
+    {
+      ing: 'Is she able to write a novel by herself?',
+      tr: 'Kendi başına bir roman yazabiliyor mu?',
+    },
+    {
+      ing: 'We are able to visit the zoo this weekend.',
+      tr: 'Bu hafta sonu hayvanat bahçesini ziyaret edebiliyoruz.',
+    },
+    {
+      ing: 'He is not able to cook without a recipe.',
+      tr: 'Tarif olmadan yemek yapamıyor.',
+    },
+    {
+      ing: 'Are you able to drive in the city traffic?',
+      tr: 'Şehir trafiğinde araba kullanabiliyor musun?',
+    },
+    {
+      ing: 'She is able to dance gracefully.',
+      tr: 'Zarif bir şekilde dans edebiliyor.',
+    },
+    {
+      ing: 'They are not able to afford a new car.',
+      tr: 'Yeni bir araba alacak gücü yok.',
+    },
+    {
+      ing: 'Is he able to speak in front of a large audience?',
+      tr: 'Büyük bir topluluk önünde konuşabiliyor mu?',
+    },
+    {
+      ing: 'I am able to type quickly on my laptop.',
+      tr: 'Dizüstü bilgisayarımda hızlıca yazı yazabiliyorum.',
+    },
+    {
+      ing: 'You are not able to go outside during the storm.',
+      tr: 'Fırtına sırasında dışarı çıkamıyorsun.',
+    },
+    {
+      ing: 'Are we able to participate in the competition?',
+      tr: 'Yarışmaya katılabiliyor muyuz?',
+    },
+    {
+      ing: 'She is able to make friends easily.',
+      tr: 'Kolayca arkadaş edinebiliyor.',
+    },
+    {
+      ing: 'He is not able to complete the level in the game.',
+      tr: 'Oyundaki bölümü tamamlayamıyor.',
+    },
+    {
+      ing: 'Are they able to sing the song perfectly?',
+      tr: 'Şarkıyı mükemmel bir şekilde söyleyebiliyorlar mı?',
+    },
+    {
+      ing: 'We are able to travel abroad with our passports.',
+      tr: 'Pasaportlarımızla yurt dışına seyahat edebiliyoruz.',
+    },
+    {
+      ing: 'He is not able to reach the top shelf.',
+      tr: 'Üst raflara ulaşamıyor.',
+    },
+    {
+      ing: 'Are you able to attend the meeting tomorrow morning?',
+      tr: 'Yarın sabah toplantıya katılabiliyor musun?',
+    },
+    {
+      ing: 'She is able to run a marathon without stopping.',
+      tr: 'Durmadan maraton koşabiliyor.',
+    },
+    {
+      ing: 'They are not able to find a parking spot.',
+      tr: 'Park yeri bulamıyorlar.',
+    },
+    {
+      ing: 'Is he able to solve this puzzle by himself?',
+      tr: 'Bu bulmacayı kendi başına çözebiliyor mu?',
+    },
+    {
+      ing: 'I am able to focus better when it’s quiet.',
+      tr: 'Sessiz olduğunda daha iyi odaklanabiliyorum.',
+    },
+    {
+      ing: 'You are not able to use this equipment without training.',
+      tr: 'Eğitim almadan bu ekipmanı kullanamıyorsun.',
+    },
+    {
+      ing: 'Are we able to finish the project before the deadline?',
+      tr: 'Projeyi son teslim tarihinden önce bitirebiliyor muyuz?',
+    },
+    {
+      ing: 'She is able to read minds in a clever way.',
+      tr: 'Zekice zihin okuyabiliyor.',
+    },
+    {
+      ing: 'He is not able to handle stress well.',
+      tr: 'Stresi iyi yönetemiyor.',
+    },
+    {
+      ing: 'Are they able to explain the rules clearly?',
+      tr: 'Kuralları açıkça açıklayabiliyorlar mı?',
+    },
+    {
+      ing: 'I am able to paint realistic landscapes.',
+      tr: 'Gerçekçi manzaralar çizebiliyorum.',
+    },
+    {
+      ing: 'You are not able to cross the street here.',
+      tr: 'Burada karşıya geçemiyorsun.',
+    },
+    {
+      ing: 'Is she able to organize the event alone?',
+      tr: 'Etkinliği tek başına organize edebiliyor mu?',
+    },
+    {
+      ing: 'We are able to stay connected through the internet.',
+      tr: 'İnternet aracılığıyla bağlantıda kalabiliyoruz.',
+    },
+    {
+      ing: 'He is not able to finish the book this week.',
+      tr: 'Bu hafta kitabı bitiremiyor.',
+    },
+    {
+      ing: 'Are you able to drive a manual car?',
+      tr: 'Manuel araba kullanabiliyor musun?',
+    },
+    {
+      ing: 'She is able to sing beautifully in front of people.',
+      tr: 'İnsanlar önünde güzel bir şekilde şarkı söyleyebiliyor.',
+    },
+    {
+      ing: 'They are not able to make a decision quickly.',
+      tr: 'Hızlıca karar veremiyorlar.',
+    },
+    {
+      ing: 'Is he able to participate in the competition this year?',
+      tr: 'Bu yıl yarışmaya katılabiliyor mu?',
+    },
+    {
+      ing: 'I am able to multitask efficiently.',
+      tr: 'Etkili bir şekilde çoklu görev yapabiliyorum.',
+    },
+    {
+      ing: 'You are not able to download the file without permission.',
+      tr: 'İzin almadan dosyayı indiremezsin.',
+    },
+    {
+      ing: 'Are we able to contact the manager today?',
+      tr: 'Bugün müdürle iletişime geçebiliyor muyuz?',
+    },
+    {
+      ing: 'She is able to learn new languages quickly.',
+      tr: 'Yeni dilleri hızlı bir şekilde öğrenebiliyor.',
+    },
+    {
+      ing: 'He is not able to attend the party tonight.',
+      tr: 'Bu gece partiye katılamıyor.',
+    },
+    {
+      ing: 'Are they able to repair the damage?',
+      tr: 'Hasarı tamir edebiliyorlar mı?',
+    },
+    {
+      ing: 'I am able to complete the report in an hour.',
+      tr: 'Raporu bir saat içinde tamamlayabiliyorum.',
+    },
+    {
+      ing: 'You are not able to access the restricted area.',
+      tr: 'Sınırlı alana erişim sağlayamıyorsun.',
+    },
+    {
+      ing: 'Is she able to cook a meal for ten people?',
+      tr: 'On kişi için yemek yapabiliyor mu?',
+    },
+    {
+      ing: 'We are able to save money with our new budget.',
+      tr: 'Yeni bütçemizle para biriktirebiliyoruz.',
+    },
+    {
+      ing: 'He is not able to join the class this semester.',
+      tr: 'Bu dönem derse katılamıyor.',
+    },
+    {
+      ing: 'Are you able to respond to all emails today?',
+      tr: 'Bugün tüm e-postaları yanıtlayabiliyor musun?',
+    },
+    {
+      ing: 'She is able to manage her time very well.',
+      tr: 'Zamanını çok iyi yönetebiliyor.',
+    },
+    {
+      ing: 'They are not able to find the correct answer.',
+      tr: 'Doğru cevabı bulamıyorlar.',
+    },
+    {
+      ing: 'Is he able to understand the lesson clearly?',
+      tr: 'Dersi açıkça anlayabiliyor mu?',
+    },
+    {
+      ing: 'I am able to express my thoughts in English.',
+      tr: 'Düşüncelerimi İngilizce olarak ifade edebiliyorum.',
+    },
+    {
+      ing: 'You are not able to open the door without a key.',
+      tr: 'Anahtar olmadan kapıyı açamıyorsun.',
+    },
+    {
+      ing: 'Are we able to reach our goal this year?',
+      tr: 'Bu yıl hedefimize ulaşabiliyor muyuz?',
+    },
+    {
+      ing: 'She is able to write in perfect handwriting.',
+      tr: 'Mükemmel bir el yazısıyla yazabiliyor.',
+    },
+    {
+      ing: 'He is not able to attend the meeting regularly.',
+      tr: 'Toplantılara düzenli olarak katılamıyor.',
+    },
+    {
+      ing: 'Are they able to travel internationally?',
+      tr: 'Uluslararası seyahat edebiliyorlar mı?',
+    },
+    {
+      ing: 'I am able to create digital art on my computer.',
+      tr: 'Bilgisayarımda dijital sanat eseri yaratabiliyorum.',
+    },
+    {
+      ing: 'You are not able to play music loudly at night.',
+      tr: 'Gece saatlerinde yüksek sesle müzik çalamıyorsun.',
+    },
+    {
+      ing: 'Is she able to explain the situation in detail?',
+      tr: 'Durumu detaylı bir şekilde açıklayabiliyor mu?',
+    },
+    {
+      ing: 'We are able to communicate easily through video calls.',
+      tr: 'Görüntülü aramalar aracılığıyla kolayca iletişim kurabiliyoruz.',
+    },
+    {
+      ing: 'He is not able to lift such a heavy object.',
+      tr: 'Bu kadar ağır bir nesneyi kaldıramıyor.',
+    },
+    {
+      ing: 'Are you able to solve this math problem?',
+      tr: 'Bu matematik problemini çözebiliyor musun?',
+    },
+    {
+      ing: 'She is able to run faster than her teammates.',
+      tr: 'Takım arkadaşlarından daha hızlı koşabiliyor.',
+    },
+    {
+      ing: 'They are not able to believe the news they heard.',
+      tr: 'Duydukları habere inanamıyorlar.',
+    },
+    {
+      ing: 'Is he able to work from home this week?',
+      tr: 'Bu hafta evden çalışabiliyor mu?',
+    },
+    {
+      ing: 'I am able to help you with your homework.',
+      tr: 'Ödevinde sana yardımcı olabiliyorum.',
+    },
+    {
+      ing: 'You are not able to eat in the classroom.',
+      tr: 'Sınıfta yemek yiyemezsin.',
+    },
+    {
+      ing: 'Are we able to find the lost document?',
+      tr: 'Kayıp belgeyi bulabiliyor muyuz?',
+    },
+    {
+      ing: 'She is able to finish her tasks before the deadline.',
+      tr: 'Görevlerini son teslim tarihinden önce bitirebiliyor.',
+    },
+    {
+      ing: 'He is not able to attend the concert next week.',
+      tr: 'Gelecek hafta konsere katılamıyor.',
+    },
+    {
+      ing: 'Are they able to speak English fluently?',
+      tr: 'Akıcı bir şekilde İngilizce konuşabiliyorlar mı?',
+    },
+    {
+      ing: 'I am able to join the meeting through Zoom.',
+      tr: 'Zoom aracılığıyla toplantıya katılabiliyorum.',
+    },
+    {
+      ing: 'You are not able to park your car in this area.',
+      tr: 'Arabanı bu alana park edemezsin.',
+    },
+    {
+      ing: 'Is she able to keep up with the latest trends?',
+      tr: 'En son trendleri takip edebiliyor mu?',
+    },
+    {
+      ing: 'We are able to reach our destination safely.',
+      tr: 'Hedefimize güvenli bir şekilde ulaşabiliyoruz.',
+    },
+    {
+      ing: 'He is not able to work efficiently under pressure.',
+      tr: 'Baskı altında verimli çalışamıyor.',
+    },
+    {
+      ing: 'Are you able to solve the issue with the software?',
+      tr: 'Yazılımdaki sorunu çözebiliyor musun?',
+    },
+    {
+      ing: 'She is able to handle multiple tasks at once.',
+      tr: 'Aynı anda birden fazla görevi yönetebiliyor.',
+    },
+    {
+      ing: 'They are not able to follow the instructions correctly.',
+      tr: 'Talimatları doğru bir şekilde takip edemiyorlar.',
+    },
+    {
+      ing: 'Is he able to teach this subject to students?',
+      tr: 'Bu konuyu öğrencilere öğretebiliyor mu?',
+    },
+    {
+      ing: 'I am able to meditate for 20 minutes every day.',
+      tr: 'Her gün 20 dakika meditasyon yapabiliyorum.',
+    },
+    {
+      ing: 'You are not able to use your phone in this area.',
+      tr: 'Bu alanda telefonunu kullanamazsın.',
+    },
+    {
+      ing: 'Are we able to complete the training by Friday?',
+      tr: 'Eğitimi Cuma gününe kadar tamamlayabiliyor muyuz?',
+    },
+    {
+      ing: 'She is able to inspire her team to do their best.',
+      tr: 'Takımını ellerinden gelenin en iyisini yapmaları için motive edebiliyor.',
+    },
+    {
+      ing: "He is not able to remember people's names easily.",
+      tr: 'İnsanların isimlerini kolayca hatırlayamıyor.',
+    },
+    {
+      ing: 'Are they able to adapt to the new environment quickly?',
+      tr: 'Yeni ortama hızlı bir şekilde uyum sağlayabiliyorlar mı?',
+    },
+    {
+      ing: 'I am able to stay calm in stressful situations.',
+      tr: 'Stresli durumlarda sakin kalabiliyorum.',
+    },
+    {
+      ing: 'You are not able to open this file without the correct software.',
+      tr: 'Doğru yazılım olmadan bu dosyayı açamazsın.',
+    },
+    {
+      ing: 'Is she able to lead the project successfully?',
+      tr: 'Projeyi başarıyla yönetebiliyor mu?',
+    },
+  ],
+  BeLikely: [
+    {
+      ing: 'She is likely to arrive late to the meeting.',
+      tr: 'Toplantıya geç gelmesi muhtemel.',
+    },
+    {
+      ing: 'He is not likely to win the competition.',
+      tr: 'Yarışmayı kazanması muhtemel değil.',
+    },
+    {
+      ing: 'Are they likely to join us for dinner?',
+      tr: 'Akşam yemeğine katılmaları muhtemel mi?',
+    },
+    {
+      ing: 'It is likely to rain this afternoon.',
+      tr: 'Bu öğleden sonra yağmur yağması muhtemel.',
+    },
+    {
+      ing: 'We are not likely to finish the project on time.',
+      tr: 'Projeyi zamanında bitirmemiz muhtemel değil.',
+    },
+    {
+      ing: 'Is s+AB8:AC8he likely to accept the job offer?',
+      tr: 'İş teklifini kabul etmesi muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to be at the office today.',
+      tr: 'Bugün ofiste olması muhtemel.',
+    },
+    {
+      ing: 'They are not likely to agree with your proposal.',
+      tr: 'Teklifinize katılmaları muhtemel değil.',
+    },
+    {
+      ing: 'Are you likely to attend the conference next week?',
+      tr: 'Gelecek hafta konferansa katılmanız muhtemel mi?',
+    },
+    {ing: 'The train is likely to be delayed.', tr: 'Tren gecikmesi muhtemel.'},
+    {
+      ing: 'She is not likely to come to the party tonight.',
+      tr: 'Bu gece partiye gelmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is he likely to know the answer to this question?',
+      tr: 'Bu sorunun cevabını bilmesi muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to see him at the event.',
+      tr: 'Onu etkinlikte görmemiz muhtemel.',
+    },
+    {
+      ing: 'They are not likely to find a solution quickly.',
+      tr: 'Hızlı bir şekilde çözüm bulmaları muhtemel değil.',
+    },
+    {
+      ing: 'Are the prices likely to increase this month?',
+      tr: 'Bu ay fiyatların artması muhtemel mi?',
+    },
+    {
+      ing: 'She is likely to call you back soon.',
+      tr: 'Yakında seni geri araması muhtemel.',
+    },
+    {
+      ing: 'He is not likely to pass the exam without studying.',
+      tr: 'Çalışmadan sınavı geçmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely to be cold tomorrow?',
+      tr: 'Yarın soğuk olması muhtemel mi?',
+    },
+    {
+      ing: 'You are likely to receive an email about the meeting.',
+      tr: 'Toplantı hakkında bir e-posta almanız muhtemel.',
+    },
+    {
+      ing: 'They are not likely to change their plans.',
+      tr: 'Planlarını değiştirmeleri muhtemel değil.',
+    },
+    {
+      ing: 'Is she likely to get the promotion?',
+      tr: 'Terfi alması muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to forget his appointment.',
+      tr: 'Randevusunu unutması muhtemel.',
+    },
+    {
+      ing: 'We are not likely to have enough time to prepare.',
+      tr: 'Hazırlanmak için yeterli zamanımız olması muhtemel değil.',
+    },
+    {
+      ing: 'Are they likely to travel abroad this year?',
+      tr: 'Bu yıl yurt dışına seyahat etmeleri muhtemel mi?',
+    },
+    {
+      ing: 'She is likely to win the contest.',
+      tr: 'Yarışmayı kazanması muhtemel.',
+    },
+    {
+      ing: 'He is not likely to agree with your opinion.',
+      tr: 'Senin fikrine katılması muhtemel değil.',
+    },
+    {
+      ing: 'Is the event likely to be canceled?',
+      tr: 'Etkinliğin iptal edilmesi muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to enjoy the weather today.',
+      tr: 'Bugün havanın tadını çıkarmamız muhtemel.',
+    },
+    {
+      ing: 'They are not likely to stay for the whole event.',
+      tr: 'Etkinliğin tamamı boyunca kalmaları muhtemel değil.',
+    },
+    {
+      ing: 'Are you likely to finish the book this weekend?',
+      tr: 'Bu hafta sonu kitabı bitirmen muhtemel mi?',
+    },
+    {
+      ing: 'She is likely to feel nervous during the interview.',
+      tr: 'Mülakat sırasında gergin hissetmesi muhtemel.',
+    },
+    {
+      ing: 'He is not likely to move to a new city.',
+      tr: 'Yeni bir şehre taşınması muhtemel değil.',
+    },
+    {
+      ing: 'Is the movie likely to be a success?',
+      tr: 'Filmin başarılı olması muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to have a good time at the party.',
+      tr: 'Partide iyi vakit geçirmemiz muhtemel.',
+    },
+    {
+      ing: 'They are not likely to remember our names.',
+      tr: 'İsimlerimizi hatırlamaları muhtemel değil.',
+    },
+    {
+      ing: 'Is she likely to attend the seminar?',
+      tr: 'Seminere katılması muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to need help with the project.',
+      tr: 'Proje için yardıma ihtiyacı olması muhtemel.',
+    },
+    {
+      ing: 'You are not likely to find parking easily.',
+      tr: 'Kolayca park yeri bulman muhtemel değil.',
+    },
+    {
+      ing: 'Are the students likely to understand this concept?',
+      tr: 'Öğrencilerin bu kavramı anlaması muhtemel mi?',
+    },
+    {
+      ing: 'It is likely to snow later tonight.',
+      tr: 'Bu gece ilerleyen saatlerde kar yağması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to agree with the decision.',
+      tr: 'Karara katılması muhtemel değil.',
+    },
+    {
+      ing: 'Is he likely to join the team this season?',
+      tr: 'Bu sezon takıma katılması muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to need more supplies.',
+      tr: 'Daha fazla malzemeye ihtiyacımız olması muhtemel.',
+    },
+    {
+      ing: 'They are not likely to make it to the final round.',
+      tr: 'Final turuna çıkmaları muhtemel değil.',
+    },
+    {
+      ing: 'Are you likely to watch the game tonight?',
+      tr: 'Bu gece maçı izlemen muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to start his new job next month.',
+      tr: 'Gelecek ay yeni işine başlaması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to visit us this weekend.',
+      tr: 'Bu hafta sonu bizi ziyaret etmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is the project likely to be completed on time?',
+      tr: 'Projenin zamanında tamamlanması muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to receive a lot of rain this week.',
+      tr: 'Bu hafta çok yağmur almamız muhtemel.',
+    },
+    {
+      ing: 'They are not likely to come back soon.',
+      tr: 'Yakında geri dönmeleri muhtemel değil.',
+    },
+    {
+      ing: 'Is she likely to pass the driving test?',
+      tr: 'Sürüş testini geçmesi muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to make a good impression.',
+      tr: 'İyi bir izlenim bırakması muhtemel.',
+    },
+    {
+      ing: 'You are not likely to get the job offer.',
+      tr: 'İş teklifini alman muhtemel değil.',
+    },
+    {
+      ing: 'Are they likely to change their mind?',
+      tr: 'Fikirlerini değiştirmeleri muhtemel mi?',
+    },
+    {
+      ing: 'It is likely to be a long journey.',
+      tr: 'Uzun bir yolculuk olması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to enjoy the concert.',
+      tr: 'Konserden keyif alması muhtemel değil.',
+    },
+    {
+      ing: 'Is he likely to visit his family this month?',
+      tr: 'Bu ay ailesini ziyaret etmesi muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to need more time for the project.',
+      tr: 'Proje için daha fazla zamana ihtiyacımız olması muhtemel.',
+    },
+    {
+      ing: 'They are not likely to agree with each other.',
+      tr: 'Birbirleriyle anlaşmaları muhtemel değil.',
+    },
+    {
+      ing: 'Are you likely to go on vacation this summer?',
+      tr: 'Bu yaz tatile çıkman muhtemel mi?',
+    },
+    {
+      ing: 'She is likely to finish her work early.',
+      tr: 'İşini erken bitirmesi muhtemel.',
+    },
+    {
+      ing: 'He is not likely to accept the invitation.',
+      tr: 'Daveti kabul etmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is the event likely to be a big success?',
+      tr: 'Etkinliğin büyük bir başarı olması muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to have a meeting tomorrow.',
+      tr: 'Yarın bir toplantı yapmamız muhtemel.',
+    },
+    {
+      ing: 'They are not likely to participate in the survey.',
+      tr: 'Ankete katılmaları muhtemel değil.',
+    },
+    {
+      ing: 'Is she likely to speak at the conference?',
+      tr: 'Konferansta konuşması muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to win the chess game.',
+      tr: 'Satranç oyununu kazanması muhtemel.',
+    },
+    {
+      ing: 'You are not likely to receive a reply soon.',
+      tr: 'Yakında bir yanıt alman muhtemel değil.',
+    },
+    {
+      ing: 'Are they likely to make an announcement today?',
+      tr: 'Bugün bir duyuru yapmaları muhtemel mi?',
+    },
+    {
+      ing: 'It is likely to be very crowded at the mall.',
+      tr: 'Alışveriş merkezinde çok kalabalık olması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to trust him again.',
+      tr: 'Ona tekrar güvenmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is he likely to apply for the scholarship?',
+      tr: 'Burs başvurusunda bulunması muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to hear from them next week.',
+      tr: 'Gelecek hafta onlardan haber almamız muhtemel.',
+    },
+    {
+      ing: 'They are not likely to sell the house.',
+      tr: 'Evi satmaları muhtemel değil.',
+    },
+    {
+      ing: 'Are you likely to visit the new store?',
+      tr: 'Yeni mağazayı ziyaret etmen muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to play in the match tomorrow.',
+      tr: 'Yarın maçta oynaması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to answer your call tonight.',
+      tr: 'Bu gece çağrını yanıtlaması muhtemel değil.',
+    },
+    {
+      ing: 'Are they likely to visit us during the holidays?',
+      tr: 'Tatillerde bizi ziyaret etmeleri muhtemel mi?',
+    },
+    {
+      ing: 'It is likely to be a beautiful day tomorrow.',
+      tr: 'Yarın güzel bir gün olması muhtemel.',
+    },
+    {
+      ing: 'We are not likely to find a solution soon.',
+      tr: 'Yakında bir çözüm bulmamız muhtemel değil.',
+    },
+    {
+      ing: 'Is he likely to attend the training session?',
+      tr: 'Eğitim oturumuna katılması muhtemel mi?',
+    },
+    {
+      ing: 'You are likely to see some improvements.',
+      tr: 'Bazı gelişmeler görmen muhtemel.',
+    },
+    {
+      ing: 'They are not likely to come to an agreement.',
+      tr: 'Bir anlaşmaya varmaları muhtemel değil.',
+    },
+    {
+      ing: 'Is she likely to bring her friend to the party?',
+      tr: 'Arkadaşını partiye getirmesi muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to score a goal in the game.',
+      tr: 'Oyunda gol atması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to move to another country.',
+      tr: 'Başka bir ülkeye taşınması muhtemel değil.',
+    },
+    {
+      ing: 'Are you likely to finish your project today?',
+      tr: 'Bugün projenizi bitirmen muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to need more volunteers.',
+      tr: 'Daha fazla gönüllüye ihtiyacımız olması muhtemel.',
+    },
+    {
+      ing: 'They are not likely to change their behavior.',
+      tr: 'Davranışlarını değiştirmeleri muhtemel değil.',
+    },
+    {
+      ing: 'Is the company likely to expand its business?',
+      tr: 'Şirketin işini genişletmesi muhtemel mi?',
+    },
+    {
+      ing: 'It is likely to be windy this evening.',
+      tr: 'Bu akşam rüzgarlı olması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to enjoy the spicy food.',
+      tr: 'Baharatlı yemeklerden hoşlanması muhtemel değil.',
+    },
+    {
+      ing: 'Is he likely to arrive on time?',
+      tr: 'Zamanında varması muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to start the project next month.',
+      tr: 'Gelecek ay projeye başlamamız muhtemel.',
+    },
+    {
+      ing: 'They are not likely to forgive him easily.',
+      tr: 'Onu kolayca affetmeleri muhtemel değil.',
+    },
+    {
+      ing: 'Are you likely to join the book club?',
+      tr: 'Kitap kulübüne katılman muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to work from home this week.',
+      tr: 'Bu hafta evden çalışması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to travel alone.',
+      tr: 'Tek başına seyahat etmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is the weather likely to be good for hiking?',
+      tr: 'Yürüyüş için havanın iyi olması muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to face some challenges ahead.',
+      tr: 'Önümüzde bazı zorluklarla karşılaşmamız muhtemel.',
+    },
+    {
+      ing: 'They are not likely to make a decision today.',
+      tr: 'Bugün bir karar vermeleri muhtemel değil.',
+    },
+    {
+      ing: 'Is she likely to start her own business?',
+      tr: 'Kendi işini kurması muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to forget his wallet again.',
+      tr: 'Cüzdanını tekrar unutması muhtemel.',
+    },
+    {
+      ing: 'You are not likely to get a promotion this year.',
+      tr: 'Bu yıl terfi alman muhtemel değil.',
+    },
+    {
+      ing: 'Are they likely to support the new policy?',
+      tr: 'Yeni politikayı desteklemeleri muhtemel mi?',
+    },
+    {
+      ing: 'It is likely to be hot this weekend.',
+      tr: 'Bu hafta sonu sıcak olması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to change her opinion.',
+      tr: 'Fikrini değiştirmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is he likely to accept the invitation?',
+      tr: 'Daveti kabul etmesi muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to visit the museum this month.',
+      tr: 'Bu ay müzeyi ziyaret etmemiz muhtemel.',
+    },
+    {
+      ing: 'They are not likely to trust the information.',
+      tr: 'Bilgiye güvenmeleri muhtemel değil.',
+    },
+    {
+      ing: 'Are you likely to attend the workshop?',
+      tr: 'Atölyeye katılman muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to learn a new language this year.',
+      tr: 'Bu yıl yeni bir dil öğrenmesi muhtemel.',
+    },
+    {
+      ing: 'She is not likely to agree with the terms.',
+      tr: 'Şartlara katılması muhtemel değil.',
+    },
+    {
+      ing: 'Is the flight likely to be delayed again?',
+      tr: 'Uçuşun tekrar ertelenmesi muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to need more data for the analysis.',
+      tr: 'Analiz için daha fazla veriye ihtiyacımız olması muhtemel.',
+    },
+    {
+      ing: 'They are not likely to remember the details.',
+      tr: 'Detayları hatırlamaları muhtemel değil.',
+    },
+    {
+      ing: 'Is she likely to stay late at the office?',
+      tr: 'Ofiste geç saatlere kadar kalması muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to invest in the stock market.',
+      tr: 'Borsaya yatırım yapması muhtemel.',
+    },
+    {
+      ing: 'You are not likely to see him at the party.',
+      tr: 'Onu partide görmen muhtemel değil.',
+    },
+    {
+      ing: 'Are they likely to travel by train?',
+      tr: 'Trenle seyahat etmeleri muhtemel mi?',
+    },
+    {
+      ing: 'It is likely to rain heavily tonight.',
+      tr: 'Bu gece şiddetli yağmur yağması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to cook dinner today.',
+      tr: 'Bugün akşam yemeği yapması muhtemel değil.',
+    },
+    {
+      ing: 'Is he likely to pass the fitness test?',
+      tr: 'Fitness testini geçmesi muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to find the missing item soon.',
+      tr: 'Kayıp eşyayı yakında bulmamız muhtemel.',
+    },
+    {
+      ing: 'They are not likely to approve the request.',
+      tr: 'İsteği onaylamaları muhtemel değil.',
+    },
+    {
+      ing: 'Are you likely to enjoy the play?',
+      tr: 'Oyundan hoşlanman muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to become a great artist.',
+      tr: 'Büyük bir sanatçı olması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to remember our conversation.',
+      tr: 'Konuşmamızı hatırlaması muhtemel değil.',
+    },
+    {
+      ing: 'Is the decision likely to be announced today?',
+      tr: 'Kararın bugün açıklanması muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to need help with the project.',
+      tr: 'Proje için yardıma ihtiyacımız olması muhtemel.',
+    },
+    {
+      ing: 'They are not likely to stay overnight.',
+      tr: 'Geceyi burada geçirmeleri muhtemel değil.',
+    },
+    {
+      ing: 'Are you likely to recommend this book?',
+      tr: 'Bu kitabı tavsiye etmen muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to attend the meeting tomorrow.',
+      tr: 'Yarın toplantıya katılması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to understand the joke.',
+      tr: 'Şakayı anlaması muhtemel değil.',
+    },
+    {
+      ing: 'Is he likely to buy a new car soon?',
+      tr: 'Yakında yeni bir araba alması muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to visit the beach this weekend.',
+      tr: 'Bu hafta sonu plajı ziyaret etmemiz muhtemel.',
+    },
+    {
+      ing: 'They are not likely to respond quickly.',
+      tr: 'Hızlı bir şekilde yanıt vermeleri muhtemel değil.',
+    },
+    {
+      ing: 'Is she likely to win the award?',
+      tr: 'Ödülü kazanması muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to make a big announcement.',
+      tr: 'Büyük bir duyuru yapması muhtemel.',
+    },
+    {
+      ing: 'You are not likely to forget this experience.',
+      tr: 'Bu deneyimi unutman muhtemel değil.',
+    },
+    {
+      ing: 'Are they likely to attend the wedding?',
+      tr: 'Düğüne katılmaları muhtemel mi?',
+    },
+    {
+      ing: 'It is likely to be a challenging task.',
+      tr: 'Zorlu bir görev olması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to give up easily.',
+      tr: 'Kolayca vazgeçmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is he likely to recover soon?',
+      tr: 'Yakında iyileşmesi muhtemel mi?',
+    },
+    {
+      ing: 'We are likely to see new faces in the office.',
+      tr: 'Ofiste yeni yüzler görmemiz muhtemel.',
+    },
+    {
+      ing: 'They are not likely to agree to the terms.',
+      tr: 'Şartları kabul etmeleri muhtemel değil.',
+    },
+    {
+      ing: 'Are you likely to travel with your family?',
+      tr: 'Ailenle seyahat etmen muhtemel mi?',
+    },
+    {
+      ing: 'He is likely to miss the deadline.',
+      tr: 'Son teslim tarihini kaçırması muhtemel.',
+    },
+    {
+      ing: 'She is not likely to visit us next month.',
+      tr: 'Gelecek ay bizi ziyaret etmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is the event likely to take place outdoors?',
+      tr: 'Etkinliğin açık havada gerçekleşmesi muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that she will arrive late.',
+      tr: 'Onun geç gelmesi muhtemel.',
+    },
+    {
+      ing: 'It is not likely that he will agree with us.',
+      tr: 'Bizimle aynı fikirde olması muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that they will cancel the event?',
+      tr: 'Etkinliği iptal etmeleri muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that the meeting will last longer than expected.',
+      tr: 'Toplantının beklenenden uzun sürmesi muhtemel.',
+    },
+    {
+      ing: 'It is not likely that we will finish on time.',
+      tr: 'Zamanında bitirmemiz muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that she will accept the offer?',
+      tr: 'Teklifi kabul etmesi muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that it will rain this afternoon.',
+      tr: 'Bu öğleden sonra yağmur yağması muhtemel.',
+    },
+    {
+      ing: 'It is not likely that they will understand the instructions.',
+      tr: 'Talimatları anlamaları muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that he knows the answer?',
+      tr: 'Cevabı bilmesi muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that we will need more resources.',
+      tr: 'Daha fazla kaynağa ihtiyacımız olması muhtemel.',
+    },
+    {
+      ing: 'It is not likely that she will change her mind.',
+      tr: 'Fikrini değiştirmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that the project will be successful?',
+      tr: 'Projenin başarılı olması muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that they will arrive early.',
+      tr: 'Erken gelmeleri muhtemel.',
+    },
+    {
+      ing: 'It is not likely that he will pass the exam.',
+      tr: 'Sınavı geçmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that we will see him at the party?',
+      tr: 'Onu partide görmemiz muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that she will call you back.',
+      tr: 'Seni geri araması muhtemel.',
+    },
+    {
+      ing: 'It is not likely that the weather will improve soon.',
+      tr: 'Havaların yakında düzelmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that they will attend the meeting?',
+      tr: 'Toplantıya katılmaları muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that we will need to extend the deadline.',
+      tr: 'Son teslim tarihini uzatmamız muhtemel.',
+    },
+    {
+      ing: 'It is not likely that he will make the same mistake again.',
+      tr: 'Aynı hatayı tekrar yapması muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that she will visit her family this weekend?',
+      tr: 'Bu hafta sonu ailesini ziyaret etmesi muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that the prices will go up.',
+      tr: 'Fiyatların artması muhtemel.',
+    },
+    {
+      ing: 'It is not likely that we will find a better solution.',
+      tr: 'Daha iyi bir çözüm bulmamız muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that the movie will be a hit?',
+      tr: 'Filmin başarılı olması muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that he will win the competition.',
+      tr: 'Yarışmayı kazanması muhtemel.',
+    },
+    {
+      ing: 'It is not likely that she will forgive him easily.',
+      tr: 'Onu kolayca affetmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that we will get the funding we need?',
+      tr: 'İhtiyacımız olan finansmanı almamız muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that they will leave the party early.',
+      tr: 'Partiden erken ayrılmaları muhtemel.',
+    },
+    {
+      ing: 'It is not likely that he will remember our names.',
+      tr: 'İsimlerimizi hatırlaması muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that the flight will be delayed?',
+      tr: 'Uçuşun ertelenmesi muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that we will enjoy the show.',
+      tr: 'Gösteriden keyif almamız muhtemel.',
+    },
+    {
+      ing: 'It is not likely that she will participate in the event.',
+      tr: 'Etkinliğe katılması muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that he will make a good impression?',
+      tr: 'İyi bir izlenim bırakması muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that they will support our plan.',
+      tr: 'Planımızı desteklemeleri muhtemel.',
+    },
+    {
+      ing: 'It is not likely that the company will hire more staff.',
+      tr: 'Şirketin daha fazla eleman alması muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that we will face challenges in this project?',
+      tr: 'Bu projede zorluklarla karşılaşmamız muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that she will bring a guest.',
+      tr: 'Bir misafir getirmesi muhtemel.',
+    },
+    {
+      ing: 'It is not likely that he will attend the conference.',
+      tr: 'Konferansa katılması muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that we will have to postpone the meeting?',
+      tr: 'Toplantıyı ertelemek zorunda kalmamız muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that they will forget the deadline.',
+      tr: 'Son teslim tarihini unutmaları muhtemel.',
+    },
+    {
+      ing: 'It is not likely that the project will be finished on time.',
+      tr: 'Projenin zamanında tamamlanması muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that she will come to the celebration?',
+      tr: 'Kutlamaya gelmesi muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that we will have a productive discussion.',
+      tr: 'Verimli bir tartışma yapmamız muhtemel.',
+    },
+    {
+      ing: 'It is not likely that he will solve the problem by himself.',
+      tr: 'Sorunu kendi başına çözmesi muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that they will offer us a discount?',
+      tr: 'Bize indirim teklif etmeleri muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that she will make a decision soon.',
+      tr: 'Yakında bir karar vermesi muhtemel.',
+    },
+    {
+      ing: 'It is not likely that we will see any changes this year.',
+      tr: 'Bu yıl herhangi bir değişiklik görmemiz muhtemel değil.',
+    },
+    {
+      ing: 'Is it likely that the team will win the championship?',
+      tr: 'Takımın şampiyonluğu kazanması muhtemel mi?',
+    },
+    {
+      ing: 'It is likely that he will move to a new city.',
+      tr: 'Yeni bir şehre taşınması muhtemel.',
+    },
+    {
+      ing: 'It is not likely that the event will take place outdoors.',
+      tr: 'Etkinliğin açık havada gerçekleşmesi muhtemel değil.',
+    },
+  ],
+  Can: [
+    {ing: 'I can play the piano.', tr: 'Ben piyano çalabilirim.'},
+    {ing: 'She can swim fast.', tr: 'O hızlı yüzebilir.'},
+    {ing: 'We can speak English.', tr: 'Biz İngilizce konuşabiliriz.'},
+    {ing: 'He can drive a car.', tr: 'O araba sürebilir.'},
+    {ing: 'They can cook pasta.', tr: 'Onlar makarna pişirebilirler.'},
+    {ing: 'You can ride a bike.', tr: 'Sen bisiklet sürebilirsin.'},
+    {ing: 'I can read this book.', tr: 'Ben bu kitabı okuyabilirim.'},
+    {ing: 'She can sing a song.', tr: 'O bir şarkı söyleyebilir.'},
+    {ing: 'We can write a letter.', tr: 'Biz bir mektup yazabiliriz.'},
+    {ing: 'He can dance well.', tr: 'O iyi dans edebilir.'},
+    {ing: 'They can draw pictures.', tr: 'Onlar resim çizebilirler.'},
+    {ing: 'You can use a computer.', tr: 'Sen bir bilgisayar kullanabilirsin.'},
+    {ing: 'I can help you.', tr: 'Ben sana yardım edebilirim.'},
+    {ing: 'She can play the guitar.', tr: 'O gitar çalabilir.'},
+    {
+      ing: 'We can watch TV tonight.',
+      tr: 'Biz bu gece televizyon izleyebiliriz.',
+    },
+    {ing: 'He can make a cake.', tr: 'O bir kek yapabilir.'},
+    {ing: 'They can fix the car.', tr: 'Onlar arabayı tamir edebilirler.'},
+    {ing: 'You can come to the party.', tr: 'Sen partiye gelebilirsin.'},
+    {ing: 'I can open the door.', tr: 'Ben kapıyı açabilirim.'},
+    {ing: 'She can paint the wall.', tr: 'O duvarı boyayabilir.'},
+    {ing: 'We can travel by bus.', tr: 'Biz otobüsle seyahat edebiliriz.'},
+    {ing: 'He can play football.', tr: 'O futbol oynayabilir.'},
+    {ing: 'They can visit us.', tr: 'Onlar bizi ziyaret edebilirler.'},
+    {ing: 'You can buy the ticket.', tr: 'Sen bileti satın alabilirsin.'},
+    {ing: 'I can solve this problem.', tr: 'Ben bu problemi çözebilirim.'},
+    {ing: 'She can teach English.', tr: 'O İngilizce öğretebilir.'},
+    {ing: 'We can build a house.', tr: 'Biz bir ev inşa edebiliriz.'},
+    {ing: 'He can start now.', tr: 'O şimdi başlayabilir.'},
+    {ing: 'They can run fast.', tr: 'Onlar hızlı koşabilirler.'},
+    {ing: 'You can wear my jacket.', tr: 'Sen benim ceketimi giyebilirsin.'},
+    {ing: "I can't play the violin.", tr: 'Ben keman çalamam.'},
+    {ing: "She can't swim well.", tr: 'O iyi yüzemez.'},
+    {ing: "We can't speak Spanish.", tr: 'Biz İspanyolca konuşamayız.'},
+    {ing: "He can't drive a bus.", tr: 'O otobüs süremez.'},
+    {ing: "They can't cook rice.", tr: 'Onlar pilav pişiremezler.'},
+    {ing: "You can't ride a horse.", tr: 'Sen ata binemezsin.'},
+    {ing: "I can't read this text.", tr: 'Ben bu metni okuyamam.'},
+    {ing: "She can't sing loudly.", tr: 'O yüksek sesle şarkı söyleyemez.'},
+    {ing: "We can't write poems.", tr: 'Biz şiirler yazamayız.'},
+    {ing: "He can't dance at all.", tr: 'O hiç dans edemez.'},
+    {ing: "They can't draw animals.", tr: 'Onlar hayvanları çizemiyorlar.'},
+    {ing: "You can't use this phone.", tr: 'Sen bu telefonu kullanamazsın.'},
+    {ing: "I can't help him.", tr: 'Ben ona yardım edemem.'},
+    {ing: "She can't play chess.", tr: 'O satranç oynayamaz.'},
+    {ing: "We can't watch that movie.", tr: 'Biz o filmi izleyemeyiz.'},
+    {ing: "He can't make tea.", tr: 'O çay yapamaz.'},
+    {ing: "They can't fix the bike.", tr: 'Onlar bisikleti tamir edemezler.'},
+    {ing: "You can't come tomorrow.", tr: 'Sen yarın gelemezsin.'},
+    {ing: "I can't open this box.", tr: 'Ben bu kutuyu açamam.'},
+    {ing: "She can't paint well.", tr: 'O iyi resim yapamaz.'},
+    {ing: "We can't travel by train.", tr: 'Biz trenle seyahat edemeyiz.'},
+    {ing: "He can't play the drum.", tr: 'O davul çalamaz.'},
+    {ing: "They can't visit you.", tr: 'Onlar seni ziyaret edemezler.'},
+    {ing: "You can't buy that car.", tr: 'Sen o arabayı satın alamazsın.'},
+    {ing: "I can't solve this puzzle.", tr: 'Ben bu bulmacayı çözemem.'},
+    {ing: "She can't teach math.", tr: 'O matematik öğretemez.'},
+    {ing: "We can't build a bridge.", tr: 'Biz bir köprü inşa edemeyiz.'},
+    {ing: "He can't start the project.", tr: 'O projeye başlayamaz.'},
+    {ing: "They can't run in the rain.", tr: 'Onlar yağmurda koşamıyorlar.'},
+    {ing: "You can't wear these shoes.", tr: 'Sen bu ayakkabıları giyemezsin.'},
+    {ing: 'Can I play the piano?', tr: 'Ben piyano çalabilir miyim?'},
+    {ing: 'Can she swim fast?', tr: 'O hızlı yüzebilir mi?'},
+    {ing: 'Can we speak English?', tr: 'Biz İngilizce konuşabilir miyiz?'},
+    {ing: 'Can he drive a car?', tr: 'O araba sürebilir mi?'},
+    {ing: 'Can they cook pasta?', tr: 'Onlar makarna pişirebilirler mi?'},
+    {ing: 'Can you ride a bike?', tr: 'Sen bisiklet sürebilir misin?'},
+    {ing: 'Can I read this book?', tr: 'Ben bu kitabı okuyabilir miyim?'},
+    {ing: 'Can she sing a song?', tr: 'O bir şarkı söyleyebilir mi?'},
+    {ing: 'Can we write a letter?', tr: 'Biz bir mektup yazabilir miyiz?'},
+    {ing: 'Can he dance well?', tr: 'O iyi dans edebilir mi?'},
+    {ing: 'Can they draw pictures?', tr: 'Onlar resim çizebilirler mi?'},
+    {
+      ing: 'Can you use a computer?',
+      tr: 'Sen bir bilgisayar kullanabilir misin?',
+    },
+    {ing: 'Can I help you?', tr: 'Ben sana yardım edebilir miyim?'},
+    {ing: 'Can she play the guitar?', tr: 'O gitar çalabilir mi?'},
+    {
+      ing: 'Can we watch TV tonight?',
+      tr: 'Biz bu gece televizyon izleyebilir miyiz?',
+    },
+    {ing: 'Can he make a cake?', tr: 'O bir kek yapabilir mi?'},
+    {ing: 'Can they fix the car?', tr: 'Onlar arabayı tamir edebilirler mi?'},
+    {ing: 'Can you come to the party?', tr: 'Sen partiye gelebilir misin?'},
+    {ing: 'Can I open the door?', tr: 'Ben kapıyı açabilir miyim?'},
+    {ing: 'Can she paint the wall?', tr: 'O duvarı boyayabilir mi?'},
+    {ing: 'Can we travel by bus?', tr: 'Biz otobüsle seyahat edebilir miyiz?'},
+    {ing: 'Can he play football?', tr: 'O futbol oynayabilir mi?'},
+    {ing: 'Can they visit us?', tr: 'Onlar bizi ziyaret edebilirler mi?'},
+    {ing: 'Can you buy the ticket?', tr: 'Sen bileti satın alabilir misin?'},
+    {ing: 'Can I solve this problem?', tr: 'Ben bu problemi çözebilir miyim?'},
+    {ing: 'Can she teach English?', tr: 'O İngilizce öğretebilir mi?'},
+    {ing: 'Can we build a house?', tr: 'Biz bir ev inşa edebilir miyiz?'},
+    {ing: 'Can he start now?', tr: 'O şimdi başlayabilir mi?'},
+    {ing: 'Can they run fast?', tr: 'Onlar hızlı koşabilirler mi?'},
+    {ing: 'Can you wear my jacket?', tr: 'Sen benim ceketimi giyebilir misin?'},
+    {
+      ing: 'I can play the guitar very well when I practice every day.',
+      tr: 'Ben her gün pratik yaptığımda gitarı çok iyi çalabilirim.',
+    },
+    {
+      ing: 'She can cook delicious meals for her family on the weekends.',
+      tr: 'O hafta sonları ailesi için lezzetli yemekler yapabilir.',
+    },
+    {
+      ing: 'We can visit our grandparents in the countryside during the summer holiday.',
+      tr: 'Biz yaz tatilinde köydeki büyüklerimizi ziyaret edebiliriz.',
+    },
+    {
+      ing: 'He can solve complicated math problems without any help.',
+      tr: 'O karmaşık matematik problemlerini yardım almadan çözebilir.',
+    },
+    {
+      ing: "They can plan a surprise party for their best friend's birthday.",
+      tr: 'Onlar en iyi arkadaşlarının doğum günü için sürpriz bir parti planlayabilirler.',
+    },
+    {
+      ing: 'You can learn a new language if you study consistently every day.',
+      tr: 'Sen her gün düzenli çalışırsan yeni bir dil öğrenebilirsin.',
+    },
+    {
+      ing: 'I can read this novel in one week if I find enough time.',
+      tr: 'Yeterli zaman bulursam bu romanı bir haftada okuyabilirim.',
+    },
+    {
+      ing: 'She can run faster than anyone else in her class at the sports competition.',
+      tr: 'O spor yarışmasında sınıfındaki herkesten daha hızlı koşabilir.',
+    },
+    {
+      ing: 'We can build a treehouse in the garden if the weather is good this weekend.',
+      tr: 'Hava bu hafta sonu iyi olursa bahçeye bir ağaç evi inşa edebiliriz.',
+    },
+    {
+      ing: 'He can play the piano beautifully when he is in a good mood.',
+      tr: 'O iyi bir ruh hali içindeyken piyano çok güzel çalabilir.',
+    },
+    {
+      ing: "I can't visit you next weekend because I have a lot of work to do.",
+      tr: 'Gelecek hafta sonu seni ziyaret edemem çünkü yapacak çok işim var.',
+    },
+    {
+      ing: "She can't join the team because she doesn't have enough experience yet.",
+      tr: 'O takıma katılamaz çünkü henüz yeterli deneyime sahip değil.',
+    },
+    {
+      ing: "We can't travel abroad this year due to our tight budget.",
+      tr: 'Bu yıl sıkı bütçemiz nedeniyle yurtdışına seyahat edemeyiz.',
+    },
+    {
+      ing: "He can't drive at night because his vision is not very clear in the dark.",
+      tr: 'O gece araba süremez çünkü karanlıkta görüşü çok net değil.',
+    },
+    {
+      ing: "They can't start the project without approval from their manager.",
+      tr: 'Onlar projeye müdürlerinden onay almadan başlayamazlar.',
+    },
+    {
+      ing: "You can't attend the meeting if you don't register in advance.",
+      tr: 'Önceden kayıt yaptırmazsan toplantıya katılamazsın.',
+    },
+    {
+      ing: "I can't finish this report by tomorrow because it's too long and detailed.",
+      tr: 'Bu raporu yarına kadar bitiremem çünkü çok uzun ve detaylı.',
+    },
+    {
+      ing: "She can't open the door because she lost her keys yesterday.",
+      tr: 'O kapıyı açamaz çünkü dün anahtarlarını kaybetti.',
+    },
+    {
+      ing: "We can't make a reservation at that restaurant because it's fully booked.",
+      tr: 'O restoranda rezervasyon yapamayız çünkü tamamen dolu.',
+    },
+    {
+      ing: "He can't come to the party because he has an important exam the next day.",
+      tr: 'O partiye gelemez çünkü ertesi gün önemli bir sınavı var.',
+    },
+    {
+      ing: 'Can you help me with my homework this evening if you have some free time?',
+      tr: 'Eğer biraz boş zamanın varsa bu akşam ödevimde bana yardım edebilir misin?',
+    },
+    {
+      ing: 'Can she play the violin as beautifully as her older sister does?',
+      tr: 'O ablası gibi güzel keman çalabilir mi?',
+    },
+    {
+      ing: 'Can we finish the project on time if we work together as a team?',
+      tr: 'Bir ekip olarak çalışırsak projeyi zamanında bitirebilir miyiz?',
+    },
+    {
+      ing: 'Can he drive us to the airport tomorrow morning without any delay?',
+      tr: 'O bizi yarın sabah havaalanına gecikmeden götürebilir mi?',
+    },
+    {
+      ing: 'Can they find the solution to this puzzle before the end of the day?',
+      tr: 'Onlar bu bulmacanın çözümünü gün bitmeden bulabilirler mi?',
+    },
+    {
+      ing: 'Can you teach me how to cook that delicious dish you made last week?',
+      tr: 'Geçen hafta yaptığın o lezzetli yemeği nasıl yapacağımı bana öğretebilir misin?',
+    },
+    {
+      ing: 'Can I borrow your car this weekend if you are not using it?',
+      tr: 'Eğer kullanmıyorsan bu hafta sonu arabayı ödünç alabilir miyim?',
+    },
+    {
+      ing: 'Can she attend the concert with us on Saturday evening?',
+      tr: 'O Cumartesi akşamı bizimle konsere katılabilir mi?',
+    },
+    {
+      ing: 'Can we organize a charity event at our school next month?',
+      tr: 'Gelecek ay okulumuzda bir yardım etkinliği düzenleyebilir miyiz?',
+    },
+    {
+      ing: 'Can he play the guitar as well as he sings?',
+      tr: 'O gitarı şarkı söylediği kadar iyi çalabilir mi?',
+    },
+    {
+      ing: 'I can meet you at the park after school.',
+      tr: 'Ben okuldan sonra parkta seninle buluşabilirim.',
+    },
+    {
+      ing: 'She can work on her project until midnight.',
+      tr: 'O gece yarısına kadar projesi üzerinde çalışabilir.',
+    },
+    {
+      ing: 'We can sit under the tree and have a picnic.',
+      tr: 'Biz ağacın altında oturup piknik yapabiliriz.',
+    },
+    {
+      ing: 'He can travel to different countries during the summer break.',
+      tr: 'O yaz tatili sırasında farklı ülkelere seyahat edebilir.',
+    },
+    {
+      ing: 'They can find the keys in the drawer by the bed.',
+      tr: 'Onlar anahtarları yatağın yanındaki çekmecede bulabilirler.',
+    },
+    {
+      ing: 'You can put the book on the table next to the lamp.',
+      tr: 'Sen kitabı lambanın yanındaki masanın üzerine koyabilirsin.',
+    },
+    {
+      ing: 'I can study with you in the library after lunch.',
+      tr: 'Ben öğle yemeğinden sonra kütüphanede seninle çalışabilirim.',
+    },
+    {
+      ing: 'She can call you from her office before the meeting.',
+      tr: 'O toplantıdan önce ofisinden seni arayabilir.',
+    },
+    {
+      ing: 'We can walk along the beach in the evening.',
+      tr: 'Biz akşamleyin sahil boyunca yürüyebiliriz.',
+    },
+    {
+      ing: 'He can park his car behind the building.',
+      tr: 'O arabasını binanın arkasına park edebilir.',
+    },
+    {
+      ing: "I can't find my notebook in my bag.",
+      tr: 'Ben çantamda defterimi bulamıyorum.',
+    },
+    {
+      ing: "She can't see the board from the back of the classroom.",
+      tr: 'O sınıfın arkasından tahtayı göremez.',
+    },
+    {
+      ing: "We can't go outside without our jackets because it's cold.",
+      tr: 'Biz ceketlerimiz olmadan dışarı çıkamayız çünkü hava soğuk.',
+    },
+    {
+      ing: "He can't sit near the window because he feels cold.",
+      tr: 'O pencerenin yakınında oturamaz çünkü üşüyor.',
+    },
+    {
+      ing: "They can't play on the playground during the rain.",
+      tr: 'Onlar yağmur sırasında oyun alanında oynayamazlar.',
+    },
+    {
+      ing: "You can't reach the top shelf without a ladder.",
+      tr: 'Sen bir merdiven olmadan en üst rafına ulaşamazsın.',
+    },
+    {
+      ing: "I can't arrive at the office before 9 a.m.",
+      tr: "Ben sabah saat 9'dan önce ofise ulaşamam.",
+    },
+    {
+      ing: "She can't answer the phone while driving.",
+      tr: 'O araba kullanırken telefonu açamaz.',
+    },
+    {
+      ing: "We can't stay in this hotel because it's too expensive.",
+      tr: 'Biz bu otelde kalamayız çünkü çok pahalı.',
+    },
+    {
+      ing: "He can't sit between his friends because there is no space.",
+      tr: 'O arkadaşlarının arasında oturamaz çünkü yer yok.',
+    },
+    {
+      ing: 'Can you meet us at the coffee shop around 4 p.m.?',
+      tr: 'Bize saat 4 civarında kahve dükkanında buluşabilir misin?',
+    },
+    {
+      ing: 'Can she wait for me in front of the school gate?',
+      tr: 'O beni okul kapısının önünde bekleyebilir mi?',
+    },
+    {
+      ing: 'Can we drive through the tunnel to reach the city center?',
+      tr: 'Şehir merkezine ulaşmak için tünelden geçebilir miyiz?',
+    },
+    {
+      ing: 'Can he walk to his house from the train station?',
+      tr: 'O tren istasyonundan evine yürüyebilir mi?',
+    },
+    {
+      ing: 'Can they find the information on the website easily?',
+      tr: 'Onlar bilgiyi internet sitesinde kolayca bulabilirler mi?',
+    },
+    {
+      ing: 'Can you talk about your plans with me later?',
+      tr: 'Planların hakkında benimle daha sonra konuşabilir misin?',
+    },
+    {
+      ing: 'Can I put my bag next to your chair during the exam?',
+      tr: 'Sınav sırasında çantamı senin sandalyenin yanına koyabilir miyim?',
+    },
+    {
+      ing: 'Can she sit in the corner of the room quietly?',
+      tr: 'O odanın köşesinde sessizce oturabilir mi?',
+    },
+    {
+      ing: 'Can we travel across the country by train?',
+      tr: 'Ülke boyunca trenle seyahat edebilir miyiz?',
+    },
+    {
+      ing: 'Can he jump over the fence without getting hurt?',
+      tr: 'O zarar görmeden çitin üzerinden atlayabilir mi?',
+    },
+  ],
+  Could: [
+    {ing: 'I could swim when I was a child.', tr: 'Ben çocukken yüzebilirdim.'},
+    {
+      ing: "She couldn't find her keys yesterday.",
+      tr: 'O dün anahtarlarını bulamadı.',
+    },
+    {
+      ing: 'Could we meet at the library tomorrow?',
+      tr: 'Yarın kütüphanede buluşabilir miyiz?',
+    },
+    {
+      ing: 'He could play the guitar very well.',
+      tr: 'O gitarı çok iyi çalabilirdi.',
+    },
+    {
+      ing: "They couldn't come to the party last night.",
+      tr: 'Onlar dün gece partiye gelemediler.',
+    },
+    {
+      ing: 'Could you help me with this problem?',
+      tr: 'Bu problemde bana yardım edebilir misin?',
+    },
+    {
+      ing: "I couldn't open the window because it was stuck.",
+      tr: 'Pencere sıkıştığı için açamadım.',
+    },
+    {
+      ing: 'She could dance beautifully in her youth.',
+      tr: 'O gençliğinde güzel dans edebilirdi.',
+    },
+    {
+      ing: 'Could we travel to Paris next month?',
+      tr: "Gelecek ay Paris'e seyahat edebilir miyiz?",
+    },
+    {
+      ing: "He couldn't finish his homework on time.",
+      tr: 'O ödevini zamanında bitiremedi.',
+    },
+    {
+      ing: 'I could read at the age of four.',
+      tr: 'Ben dört yaşında okumayı öğrenmiştim.',
+    },
+    {
+      ing: 'Could you pass the salt, please?',
+      tr: 'Lütfen tuzu uzatabilir misin?',
+    },
+    {
+      ing: "They couldn't find a hotel room during the holiday.",
+      tr: 'Onlar tatil sırasında bir otel odası bulamadılar.',
+    },
+    {
+      ing: 'She could sing in different languages.',
+      tr: 'O farklı dillerde şarkı söyleyebilirdi.',
+    },
+    {
+      ing: 'Could he fix the car by himself?',
+      tr: 'O arabayı kendi başına tamir edebilir miydi?',
+    },
+    {
+      ing: "I couldn't sleep last night because of the noise.",
+      tr: 'Gürültü yüzünden dün gece uyuyamadım.',
+    },
+    {
+      ing: 'He could run faster when he was younger.',
+      tr: 'O daha gençken daha hızlı koşabilirdi.',
+    },
+    {
+      ing: 'Could we have a meeting on Friday?',
+      tr: 'Cuma günü bir toplantı yapabilir miyiz?',
+    },
+    {ing: "She couldn't remember the address.", tr: 'O adresi hatırlayamadı.'},
+    {
+      ing: 'I could see the mountains from my window.',
+      tr: 'Penceremden dağları görebiliyordum.',
+    },
+    {
+      ing: 'Could you please repeat that?',
+      tr: 'Lütfen onu tekrar edebilir misin?',
+    },
+    {
+      ing: "They couldn't join the game due to an injury.",
+      tr: 'Onlar bir sakatlık nedeniyle oyuna katılamadılar.',
+    },
+    {
+      ing: 'He could write with both hands.',
+      tr: 'O her iki eliyle de yazabilirdi.',
+    },
+    {
+      ing: 'Could I borrow your book for a day?',
+      tr: 'Kitabını bir günlüğüne ödünç alabilir miyim?',
+    },
+    {
+      ing: "She couldn't find her way back home.",
+      tr: 'O evin yolunu bulamadı.',
+    },
+    {
+      ing: 'I could listen to music all day long.',
+      tr: 'Bütün gün müzik dinleyebilirim.',
+    },
+    {ing: 'Could we take a break now?', tr: 'Şimdi bir ara verebilir miyiz?'},
+    {
+      ing: "He couldn't solve the puzzle without help.",
+      tr: 'O bulmacayı yardım olmadan çözemezdi.',
+    },
+    {
+      ing: 'She could understand French when she lived in Paris.',
+      tr: "O Paris'te yaşarken Fransızcayı anlayabilirdi.",
+    },
+    {
+      ing: 'Could you help me move this table?',
+      tr: 'Bu masayı taşımama yardım edebilir misin?',
+    },
+    {
+      ing: "I couldn't eat anything because I felt sick.",
+      tr: 'Kendimi hasta hissettiğim için hiçbir şey yiyemedim.',
+    },
+    {
+      ing: 'They could travel around the world in a year.',
+      tr: 'Onlar bir yılda dünyayı dolaşabilirlerdi.',
+    },
+    {
+      ing: 'Could he answer all the questions in the test?',
+      tr: 'Testteki tüm soruları cevaplayabilir miydi?',
+    },
+    {
+      ing: "She couldn't sleep well because of the storm.",
+      tr: 'Fırtına yüzünden iyi uyuyamadı.',
+    },
+    {
+      ing: 'I could speak a little Spanish when I was in Spain.',
+      tr: "İspanya'dayken biraz İspanyolca konuşabiliyordum.",
+    },
+    {
+      ing: 'Could we visit the museum this weekend?',
+      tr: 'Bu hafta sonu müzeyi ziyaret edebilir miyiz?',
+    },
+    {
+      ing: "He couldn't come to the meeting on time.",
+      tr: 'O toplantıya zamanında gelemedi.',
+    },
+    {
+      ing: 'She could paint very well when she was younger.',
+      tr: 'O daha gençken çok iyi resim yapabilirdi.',
+    },
+    {
+      ing: 'Could you tell me the way to the station?',
+      tr: 'Bana istasyona giden yolu tarif edebilir misin?',
+    },
+    {
+      ing: "I couldn't find my wallet this morning.",
+      tr: 'Bu sabah cüzdanımı bulamadım.',
+    },
+    {
+      ing: 'They could organize the event successfully.',
+      tr: 'Onlar etkinliği başarıyla organize edebilirlerdi.',
+    },
+    {
+      ing: 'Could she speak any other languages?',
+      tr: 'O başka diller konuşabilir miydi?',
+    },
+    {
+      ing: "He couldn't believe the news he heard.",
+      tr: 'O duyduğu habere inanamadı.',
+    },
+    {
+      ing: 'I could cook for the whole family if needed.',
+      tr: 'Gerekirse tüm aile için yemek yapabilirim.',
+    },
+    {
+      ing: 'Could we go for a walk after dinner?',
+      tr: 'Akşam yemeğinden sonra yürüyüşe çıkabilir miyiz?',
+    },
+    {
+      ing: "She couldn't come to the concert due to illness.",
+      tr: 'Hastalık yüzünden konsere gelemedi.',
+    },
+    {
+      ing: 'He could play chess like a professional.',
+      tr: 'O profesyonel gibi satranç oynayabilirdi.',
+    },
+    {
+      ing: 'Could you give me a ride to the airport?',
+      tr: 'Beni havaalanına bırakabilir misin?',
+    },
+    {
+      ing: "I couldn't visit my grandparents last weekend.",
+      tr: 'Geçen hafta sonu büyükannemi ve büyükbabamı ziyaret edemedim.',
+    },
+    {
+      ing: 'They could finish the project ahead of schedule.',
+      tr: 'Onlar projeyi planlanandan önce bitirebilirlerdi.',
+    },
+    {
+      ing: 'Could you explain this topic to me?',
+      tr: 'Bu konuyu bana açıklayabilir misin?',
+    },
+    {
+      ing: "She couldn't dance because of her injured leg.",
+      tr: 'Yaralı bacağı yüzünden dans edemedi.',
+    },
+    {
+      ing: 'I could see the stars clearly last night.',
+      tr: 'Dün gece yıldızları net bir şekilde görebiliyordum.',
+    },
+    {
+      ing: 'Could we plan a trip to the mountains next month?',
+      tr: 'Gelecek ay dağlara bir gezi planlayabilir miyiz?',
+    },
+    {
+      ing: "He couldn't answer the difficult questions.",
+      tr: 'O zor soruları cevaplayamadı.',
+    },
+    {
+      ing: 'She could easily solve mathematical problems.',
+      tr: 'O matematiksel problemleri kolayca çözebilirdi.',
+    },
+    {
+      ing: 'Could you please open the window?',
+      tr: 'Lütfen pencereyi açabilir misin?',
+    },
+    {
+      ing: "I couldn't join the team because I was busy.",
+      tr: 'Meşgul olduğum için takıma katılamadım.',
+    },
+    {
+      ing: 'They could understand each other without words.',
+      tr: 'Onlar kelimeler olmadan birbirlerini anlayabilirlerdi.',
+    },
+    {
+      ing: 'Could he stay with us for a few days?',
+      tr: 'O birkaç gün bizimle kalabilir mi?',
+    },
+    {
+      ing: 'Could you please help me clean the house?',
+      tr: 'Lütfen bana evi temizlememde yardım edebilir misin?',
+    },
+    {
+      ing: "She couldn't find a job that suited her skills.",
+      tr: 'O yeteneklerine uygun bir iş bulamadı.',
+    },
+    {
+      ing: 'He could walk for hours without getting tired.',
+      tr: 'O yorulmadan saatlerce yürüyebilir.',
+    },
+    {
+      ing: "I couldn't believe my eyes when I saw the surprise.",
+      tr: 'Sürprizi gördüğümde gözlerime inanamadım.',
+    },
+    {
+      ing: 'Could they attend the meeting yesterday?',
+      tr: 'Onlar dün toplantıya katılabilirler miydi?',
+    },
+    {
+      ing: 'We could hear the birds singing in the morning.',
+      tr: 'Sabah kuşların şarkı söylediğini duyabiliyorduk.',
+    },
+    {
+      ing: "She couldn't stop laughing at the joke.",
+      tr: 'O şakaya gülmeyi durduramadı.',
+    },
+    {
+      ing: 'Could I ask you a personal question?',
+      tr: 'Sana kişisel bir soru sorabilir miyim?',
+    },
+    {
+      ing: 'He could lift the heavy box by himself.',
+      tr: 'O ağır kutuyu kendi başına kaldırabilir.',
+    },
+    {
+      ing: "They couldn't see the road in the fog.",
+      tr: 'Onlar sis içinde yolu göremediler.',
+    },
+    {
+      ing: 'I could finish the project if I had more time.',
+      tr: 'Daha fazla zamanım olsaydı projeyi bitirebilirdim.',
+    },
+    {
+      ing: 'Could you play the piano when you were younger?',
+      tr: 'Gençken piyano çalabilir miydin?',
+    },
+    {
+      ing: "She couldn't sleep because of the loud noise outside.",
+      tr: 'Dışarıdaki yüksek gürültü yüzünden uyuyamadı.',
+    },
+    {
+      ing: 'He could swim across the lake when he was young.',
+      tr: 'Gençken gölün karşısına yüzebilir.',
+    },
+    {
+      ing: "We couldn't agree on the final decision.",
+      tr: 'Son karar üzerinde anlaşamadık.',
+    },
+    {
+      ing: 'Could you send me the report by the end of the day?',
+      tr: 'Günün sonunda raporu bana gönderebilir misin?',
+    },
+    {
+      ing: "I couldn't find the right words to say.",
+      tr: 'Söyleyecek doğru kelimeleri bulamadım.',
+    },
+    {
+      ing: 'She could stay up all night studying for exams.',
+      tr: 'O bütün gece sınavlara çalışarak uyanık kalabilirdi.',
+    },
+    {
+      ing: "He couldn't run as fast as his brother.",
+      tr: 'O kardeşi kadar hızlı koşamazdı.',
+    },
+    {
+      ing: 'Could they visit us next weekend?',
+      tr: 'Onlar gelecek hafta sonu bizi ziyaret edebilirler mi?',
+    },
+    {
+      ing: 'I could read all the books in the library if I had time.',
+      tr: 'Zamanım olsaydı kütüphanedeki tüm kitapları okuyabilirdim.',
+    },
+    {
+      ing: "She couldn't answer the question during the interview.",
+      tr: 'O mülakat sırasında soruyu cevaplayamadı.',
+    },
+    {
+      ing: 'He could play football even in the rain.',
+      tr: 'O yağmurda bile futbol oynayabilir.',
+    },
+    {
+      ing: 'Could you help me with this project tomorrow?',
+      tr: 'Yarın bu projede bana yardım edebilir misin?',
+    },
+    {
+      ing: "We couldn't visit the museum because it was closed.",
+      tr: 'Müze kapalı olduğu için ziyaret edemedik.',
+    },
+    {
+      ing: 'I could travel the world if I saved enough money.',
+      tr: 'Yeterince para biriktirirsem dünyayı gezebilirim.',
+    },
+    {
+      ing: 'Could she explain the situation to her parents?',
+      tr: 'O durumu ailesine açıklayabilir mi?',
+    },
+    {
+      ing: "He couldn't fix the broken chair.",
+      tr: 'O kırık sandalyeyi tamir edemedi.',
+    },
+    {
+      ing: 'They could organize a charity event for the community.',
+      tr: 'Onlar topluluk için bir yardım etkinliği düzenleyebilirler.',
+    },
+    {
+      ing: "I couldn't understand what he was saying.",
+      tr: 'O ne söylediğini anlayamadım.',
+    },
+    {
+      ing: 'Could you wait for me at the station?',
+      tr: 'İstasyonda beni bekleyebilir misin?',
+    },
+    {
+      ing: "She couldn't attend the class because she was ill.",
+      tr: 'O hasta olduğu için derse katılamadı.',
+    },
+    {
+      ing: 'He could easily pass the test if he studied.',
+      tr: 'O çalışsaydı testi kolayca geçebilirdi.',
+    },
+    {
+      ing: 'Could we discuss the plan after lunch?',
+      tr: 'Plandan öğle yemeğinden sonra bahsedebilir miyiz?',
+    },
+    {
+      ing: "I couldn't believe how fast time passed.",
+      tr: 'Zamanın ne kadar hızlı geçtiğine inanamadım.',
+    },
+    {
+      ing: 'She could always rely on her best friend.',
+      tr: 'O her zaman en iyi arkadaşına güvenebilirdi.',
+    },
+    {
+      ing: 'Could he really speak five different languages?',
+      tr: 'O gerçekten beş farklı dil konuşabilir mi?',
+    },
+    {
+      ing: "We couldn't find the exit in the dark.",
+      tr: 'Karanlıkta çıkışı bulamadık.',
+    },
+    {
+      ing: 'I could tell you a story from my childhood.',
+      tr: 'Sana çocukluğumdan bir hikaye anlatabilirim.',
+    },
+    {
+      ing: 'Could they solve the problem before the deadline?',
+      tr: 'Onlar sorunu son teslim tarihinden önce çözebilirler mi?',
+    },
+    {
+      ing: "She couldn't believe the good news when she heard it.",
+      tr: 'İyi haberi duyduğunda inanamadı.',
+    },
+    {
+      ing: 'He could travel by train to save money.',
+      tr: 'Para biriktirmek için trenle seyahat edebilir.',
+    },
+    {
+      ing: "I couldn't take a photo because my camera was broken.",
+      tr: 'Fotoğraf çekemedim çünkü kameram bozuktu.',
+    },
+    {
+      ing: 'Could you help me with my luggage?',
+      tr: 'Bana bagajımla yardım edebilir misin?',
+    },
+    {
+      ing: "We couldn't stay longer because we had to leave early.",
+      tr: 'Daha uzun kalamazdık çünkü erken ayrılmamız gerekiyordu.',
+    },
+    {
+      ing: 'She could always make people laugh with her jokes.',
+      tr: 'O şakalarıyla her zaman insanları güldürebilirdi.',
+    },
+    {
+      ing: "He couldn't fix his computer without professional help.",
+      tr: 'O bilgisayarını profesyonel yardım olmadan tamir edemedi.',
+    },
+    {
+      ing: 'Could I speak to the manager, please?',
+      tr: 'Müdürle konuşabilir miyim, lütfen?',
+    },
+    {
+      ing: "They couldn't find their seats in the crowded theater.",
+      tr: 'Kalabalık tiyatroda yerlerini bulamadılar.',
+    },
+    {
+      ing: 'I could imagine a better future for everyone.',
+      tr: 'Herkes için daha iyi bir gelecek hayal edebilirim.',
+    },
+    {
+      ing: 'Could you please close the door?',
+      tr: 'Lütfen kapıyı kapatabilir misin?',
+    },
+    {
+      ing: "She couldn't reach the top shelf without a ladder.",
+      tr: 'Merdiven olmadan en üst rafına ulaşamadı.',
+    },
+    {
+      ing: 'He could solve the math problem in a few seconds.',
+      tr: 'O matematik problemini birkaç saniyede çözebilir.',
+    },
+    {
+      ing: 'Could we have a barbecue this weekend?',
+      tr: 'Bu hafta sonu mangal yapabilir miyiz?',
+    },
+    {
+      ing: "I couldn't find my way out of the maze.",
+      tr: 'Labirentin çıkışını bulamadım.',
+    },
+    {
+      ing: 'She could explain the lesson very clearly.',
+      tr: 'O dersi çok net bir şekilde açıklayabilir.',
+    },
+    {
+      ing: "He couldn't come to the event due to a family emergency.",
+      tr: 'Ailevi bir acil durum nedeniyle etkinliğe gelemedi.',
+    },
+    {
+      ing: 'Could they visit us during the holidays?',
+      tr: 'Tatillerde bizi ziyaret edebilirler mi?',
+    },
+    {
+      ing: 'I could never forget the time we spent together.',
+      tr: 'Birlikte geçirdiğimiz zamanı asla unutamam.',
+    },
+    {
+      ing: "She couldn't hide her excitement about the news.",
+      tr: 'Haber hakkındaki heyecanını saklayamadı.',
+    },
+    {
+      ing: 'He could read a whole book in just one day.',
+      tr: 'O bir günde bir kitabı tamamen okuyabilir.',
+    },
+    {
+      ing: 'Could you please give me a hand with this?',
+      tr: 'Lütfen bana bu konuda yardım edebilir misin?',
+    },
+    {
+      ing: "We couldn't watch the movie because the tickets were sold out.",
+      tr: 'Biletler tükendiği için filmi izleyemedik.',
+    },
+    {
+      ing: 'She could sing like a professional singer.',
+      tr: 'O profesyonel bir şarkıcı gibi şarkı söyleyebilir.',
+    },
+    {
+      ing: "He couldn't find the solution to the problem.",
+      tr: 'O problemin çözümünü bulamadı.',
+    },
+    {
+      ing: 'Could we talk about this later?',
+      tr: 'Bu konu hakkında daha sonra konuşabilir miyiz?',
+    },
+    {
+      ing: "I couldn't join the picnic due to my busy schedule.",
+      tr: 'Yoğun programım nedeniyle pikniğe katılamadım.',
+    },
+    {
+      ing: "She could always count on her parents' support.",
+      tr: 'O her zaman ailesinin desteğine güvenebilirdi.',
+    },
+    {
+      ing: "He couldn't catch the bus because he was late.",
+      tr: 'O geç kaldığı için otobüsü yakalayamadı.',
+    },
+    {
+      ing: 'Could you please stay for dinner?',
+      tr: 'Akşam yemeği için kalabilir misin lütfen?',
+    },
+    {
+      ing: "We couldn't reach our destination because of the heavy snow.",
+      tr: 'Yoğun kar nedeniyle varış noktamıza ulaşamadık.',
+    },
+    {
+      ing: 'She could dance better than anyone at the party.',
+      tr: 'O partideki herkesten daha iyi dans edebilir.',
+    },
+    {
+      ing: "He couldn't understand why she was upset.",
+      tr: 'O, neden üzgün olduğunu anlayamadı.',
+    },
+    {
+      ing: 'Could I use your phone to make a quick call?',
+      tr: 'Hızlı bir arama yapmak için telefonunu kullanabilir miyim?',
+    },
+    {
+      ing: "They couldn't find any open shops late at night.",
+      tr: 'Gece geç saatte açık dükkan bulamadılar.',
+    },
+    {
+      ing: 'I could take care of the plants while you are away.',
+      tr: 'Sen uzaktayken bitkilere bakabilirim.',
+    },
+    {
+      ing: 'Could you lend me some money until tomorrow?',
+      tr: 'Bana yarına kadar biraz para ödünç verebilir misin?',
+    },
+    {
+      ing: "She couldn't answer the last question on the test.",
+      tr: 'Testteki son soruyu cevaplayamadı.',
+    },
+    {
+      ing: 'He could join us if he finishes his work early.',
+      tr: 'İşini erken bitirirse bize katılabilir.',
+    },
+    {
+      ing: "We couldn't make it to the train on time.",
+      tr: 'Trene zamanında yetişemedik.',
+    },
+    {
+      ing: 'Could I bring a friend to the party?',
+      tr: 'Partiye bir arkadaş getirebilir miyim?',
+    },
+    {
+      ing: "She couldn't believe what she was hearing.",
+      tr: 'Duyduklarına inanamadı.',
+    },
+    {
+      ing: 'He could create beautiful paintings from his imagination.',
+      tr: 'O hayal gücünden güzel resimler yaratabilir.',
+    },
+    {
+      ing: 'Could they explain the problem in more detail?',
+      tr: 'Onlar problemi daha detaylı açıklayabilirler mi?',
+    },
+    {
+      ing: "I couldn't go to the concert because I was sick.",
+      tr: 'Hasta olduğum için konsere gidemedim.',
+    },
+    {
+      ing: 'She could always find a solution to every issue.',
+      tr: 'O her soruna bir çözüm bulabilirdi.',
+    },
+    {
+      ing: "He couldn't arrive at the airport on time.",
+      tr: 'Havaalanına zamanında ulaşamadı.',
+    },
+    {
+      ing: 'Could you ask her to call me later?',
+      tr: 'Ona beni daha sonra aramasını söyleyebilir misin?',
+    },
+    {
+      ing: "We couldn't decide where to go for vacation.",
+      tr: 'Tatil için nereye gideceğimize karar veremedik.',
+    },
+    {
+      ing: 'She could remember every detail from the trip.',
+      tr: 'O yolculuktan her detayı hatırlayabilir.',
+    },
+  ],
+  HadBetter: [
+    {
+      ing: 'You had better finish your homework tonight.',
+      tr: 'Bu gece ödevini bitirsen iyi olur.',
+    },
+    {
+      ing: 'She had better not stay up too late.',
+      tr: 'Çok geç saatlere kadar kalmasa iyi olur.',
+    },
+    {
+      ing: 'Had we better leave before it gets dark?',
+      tr: 'Hava kararmadan önce ayrılsak iyi olur mu?',
+    },
+    {
+      ing: 'He had better call his parents soon.',
+      tr: 'Yakında ebeveynlerini arasa iyi olur.',
+    },
+    {
+      ing: 'They had better not argue in public.',
+      tr: 'Halka açık yerlerde tartışmasalar iyi olur.',
+    },
+    {
+      ing: 'You had better take your medicine on time.',
+      tr: 'İlacını zamanında alsan iyi olur.',
+    },
+    {
+      ing: 'I had better not forget to set my alarm.',
+      tr: 'Alarmımı kurmayı unutmamam iyi olur.',
+    },
+    {
+      ing: 'Had she better bring her own lunch?',
+      tr: 'Kendi öğle yemeğini getirse iyi olur mu?',
+    },
+    {
+      ing: 'We had better hurry to catch the bus.',
+      tr: 'Otobüsü yakalamak için acele etsek iyi olur.',
+    },
+    {
+      ing: 'He had better not be rude to his teacher.',
+      tr: 'Öğretmenine kaba olmasa iyi olur.',
+    },
+    {
+      ing: 'You had better save some money for the trip.',
+      tr: 'Gezi için biraz para biriktirsen iyi olur.',
+    },
+    {
+      ing: 'She had better apologize for her mistake.',
+      tr: 'Hatası için özür dilese iyi olur.',
+    },
+    {
+      ing: 'Had they better prepare for the meeting?',
+      tr: 'Toplantı için hazırlansalar iyi olur mu?',
+    },
+    {
+      ing: "I had better wear a jacket; it's cold outside.",
+      tr: 'Ceket giysem iyi olur; dışarısı soğuk.',
+    },
+    {
+      ing: 'We had better not forget to lock the door.',
+      tr: 'Kapıyı kilitlemeyi unutmamamız iyi olur.',
+    },
+    {
+      ing: 'He had better not drive too fast.',
+      tr: 'Çok hızlı sürmese iyi olur.',
+    },
+    {
+      ing: 'You had better talk to your friend about this.',
+      tr: 'Bu konuda arkadaşınla konuşsan iyi olur.',
+    },
+    {
+      ing: 'She had better finish her project by Friday.',
+      tr: 'Projesini Cuma gününe kadar bitirse iyi olur.',
+    },
+    {
+      ing: 'Had I better ask for help with this task?',
+      tr: 'Bu görev için yardım istesem iyi olur mu?',
+    },
+    {
+      ing: 'They had better not miss the last train.',
+      tr: 'Son treni kaçırmasalar iyi olur.',
+    },
+    {
+      ing: 'He had better pay the bills on time.',
+      tr: 'Faturaları zamanında ödese iyi olur.',
+    },
+    {
+      ing: 'You had better not forget her birthday.',
+      tr: 'Onun doğum gününü unutmaman iyi olur.',
+    },
+    {
+      ing: 'Had we better stay home during the storm?',
+      tr: 'Fırtına sırasında evde kalsak iyi olur mu?',
+    },
+    {
+      ing: 'I had better eat something before the meeting.',
+      tr: 'Toplantıdan önce bir şeyler yesem iyi olur.',
+    },
+    {
+      ing: 'She had better not leave her bag unattended.',
+      tr: 'Çantasını sahipsiz bırakmasa iyi olur.',
+    },
+    {
+      ing: 'He had better not be late for the interview.',
+      tr: 'Mülakata geç kalmasa iyi olur.',
+    },
+    {
+      ing: "You had better call the doctor if you're sick.",
+      tr: 'Hastaysan doktoru arasan iyi olur.',
+    },
+    {
+      ing: 'They had better check the weather forecast.',
+      tr: 'Hava durumunu kontrol etseler iyi olur.',
+    },
+    {
+      ing: 'Had she better stay quiet in the library?',
+      tr: 'Kütüphanede sessiz kalsa iyi olur mu?',
+    },
+    {
+      ing: 'We had better plan our trip in advance.',
+      tr: 'Gezimizi önceden planlasak iyi olur.',
+    },
+    {
+      ing: 'I had better take an umbrella; it might rain.',
+      tr: 'Şemsiye alsam iyi olur; yağmur yağabilir.',
+    },
+    {
+      ing: 'You had better not eat too much dessert.',
+      tr: 'Çok fazla tatlı yemesen iyi olur.',
+    },
+    {
+      ing: 'He had better exercise regularly to stay healthy.',
+      tr: 'Sağlıklı kalmak için düzenli egzersiz yapsa iyi olur.',
+    },
+    {
+      ing: 'She had better not skip her breakfast.',
+      tr: 'Kahvaltısını atlamasa iyi olur.',
+    },
+    {
+      ing: 'Had they better visit their grandparents soon?',
+      tr: 'Yakında büyükannelerini ziyaret etseler iyi olur mu?',
+    },
+    {
+      ing: 'We had better not be late to the movie.',
+      tr: 'Filme geç kalmasak iyi olur.',
+    },
+    {
+      ing: 'You had better learn to drive carefully.',
+      tr: 'Dikkatli araba sürmeyi öğrensen iyi olur.',
+    },
+    {
+      ing: 'He had better wear a helmet when cycling.',
+      tr: 'Bisiklet sürerken kask taksa iyi olur.',
+    },
+    {
+      ing: 'I had better not speak loudly in this place.',
+      tr: 'Bu yerde yüksek sesle konuşmasam iyi olur.',
+    },
+    {
+      ing: "She had better listen to her teacher's advice.",
+      tr: 'Öğretmeninin tavsiyesini dinlese iyi olur.',
+    },
+    {
+      ing: 'They had better not forget to water the plants.',
+      tr: 'Bitkileri sulamayı unutmamaları iyi olur.',
+    },
+    {
+      ing: 'Had you better buy tickets in advance?',
+      tr: 'Biletleri önceden alsan iyi olur mu?',
+    },
+    {
+      ing: 'We had better not waste any more time.',
+      tr: 'Daha fazla zaman harcamamak iyi olur.',
+    },
+    {
+      ing: 'He had better start studying for the exam soon.',
+      tr: 'Sınav için yakında çalışmaya başlasa iyi olur.',
+    },
+    {
+      ing: 'You had better be honest with your boss.',
+      tr: 'Patronuna karşı dürüst olsan iyi olur.',
+    },
+    {
+      ing: 'She had better not cancel her appointment.',
+      tr: 'Randevusunu iptal etmese iyi olur.',
+    },
+    {
+      ing: 'Had I better write down the instructions?',
+      tr: 'Talimatları yazsam iyi olur mu?',
+    },
+    {
+      ing: 'They had better not play loud music at night.',
+      tr: 'Gece yüksek sesle müzik çalmasalar iyi olur.',
+    },
+    {
+      ing: "I had better not make any promises I can't keep.",
+      tr: 'Tutamayacağım sözler vermesem iyi olur.',
+    },
+    {
+      ing: 'We had better clean the house before guests arrive.',
+      tr: 'Misafirler gelmeden önce evi temizlesek iyi olur.',
+    },
+    {
+      ing: 'You had better visit the dentist for that toothache.',
+      tr: 'Diş ağrısı için dişçiyi ziyaret etsen iyi olur.',
+    },
+    {
+      ing: 'He had better not forget his keys again.',
+      tr: 'Anahtarlarını bir daha unutmaması iyi olur.',
+    },
+    {
+      ing: 'She had better apologize to her friend soon.',
+      tr: 'Yakında arkadaşından özür dilese iyi olur.',
+    },
+    {
+      ing: 'Had they better prepare for the upcoming test?',
+      tr: 'Yaklaşan teste hazırlansalar iyi olur mu?',
+    },
+    {
+      ing: 'We had better not park our car here.',
+      tr: 'Arabamızı buraya park etmesek iyi olur.',
+    },
+    {
+      ing: 'You had better lock the door before leaving.',
+      tr: 'Çıkmadan önce kapıyı kilitlesen iyi olur.',
+    },
+    {
+      ing: 'He had better be careful while crossing the street.',
+      tr: 'Sokaktan geçerken dikkatli olsa iyi olur.',
+    },
+    {
+      ing: 'She had better not waste her money on unnecessary items.',
+      tr: 'Gereksiz eşyalara para harcamasa iyi olur.',
+    },
+    {
+      ing: 'Had I better arrive early for the meeting?',
+      tr: 'Toplantıya erken varsam iyi olur mu?',
+    },
+    {
+      ing: 'They had better keep their promises to their friends.',
+      tr: 'Arkadaşlarına verdikleri sözleri tutsalar iyi olur.',
+    },
+    {
+      ing: 'I had better drink more water every day.',
+      tr: 'Her gün daha fazla su içsem iyi olur.',
+    },
+    {
+      ing: 'You had better not skip your workout sessions.',
+      tr: 'Egzersiz seanslarını atlamasan iyi olur.',
+    },
+    {
+      ing: 'He had better finish his report by tomorrow.',
+      tr: 'Raporunu yarına kadar bitirse iyi olur.',
+    },
+    {
+      ing: "She had better not drive when she's tired.",
+      tr: 'Yorgunken araba kullanmasa iyi olur.',
+    },
+    {
+      ing: 'We had better avoid eating junk food.',
+      tr: 'Abur cubur yemekten kaçınsak iyi olur.',
+    },
+    {
+      ing: 'They had better not leave the window open.',
+      tr: 'Pencereyi açık bırakmasalar iyi olur.',
+    },
+    {
+      ing: 'Had you better tell the truth to your parents?',
+      tr: 'Ailene gerçeği söylesen iyi olur mu?',
+    },
+    {
+      ing: 'I had better organize my desk for more productivity.',
+      tr: 'Daha fazla üretkenlik için masamı düzenlesem iyi olur.',
+    },
+    {
+      ing: 'He had better not make any hasty decisions.',
+      tr: 'Aceleci kararlar vermese iyi olur.',
+    },
+    {
+      ing: 'She had better study for her exams properly.',
+      tr: 'Sınavları için düzgünce çalışsa iyi olur.',
+    },
+    {
+      ing: "You had better apologize before it's too late.",
+      tr: 'Çok geç olmadan özür dilesen iyi olur.',
+    },
+    {
+      ing: 'We had better plan the project timeline carefully.',
+      tr: 'Proje zaman çizelgesini dikkatlice planlasak iyi olur.',
+    },
+    {
+      ing: 'Had they better double-check their work?',
+      tr: 'İşlerini tekrar kontrol etseler iyi olur mu?',
+    },
+    {
+      ing: 'I had better turn off the lights when I leave.',
+      tr: 'Çıkarken ışıkları kapatsam iyi olur.',
+    },
+    {
+      ing: 'She had better not trust strangers easily.',
+      tr: 'Yabancılara kolayca güvenmese iyi olur.',
+    },
+    {
+      ing: 'You had better learn to cook some healthy meals.',
+      tr: 'Sağlıklı yemekler pişirmeyi öğrensen iyi olur.',
+    },
+    {
+      ing: 'He had better be more respectful to others.',
+      tr: 'Başkalarına karşı daha saygılı olsa iyi olur.',
+    },
+    {
+      ing: 'They had better not ignore the warning signs.',
+      tr: 'Uyarı işaretlerini görmezden gelmeseler iyi olur.',
+    },
+    {
+      ing: 'We had better review our notes before the exam.',
+      tr: 'Sınavdan önce notlarımızı gözden geçirsek iyi olur.',
+    },
+    {
+      ing: 'Had I better avoid that restaurant?',
+      tr: 'O restorandan kaçınsam iyi olur mu?',
+    },
+    {
+      ing: 'You had better practice your speech before the event.',
+      tr: 'Etkinlikten önce konuşmanı pratik yapsan iyi olur.',
+    },
+    {
+      ing: 'He had better not forget his promise.',
+      tr: 'Sözünü unutmaması iyi olur.',
+    },
+    {
+      ing: 'She had better check her email regularly.',
+      tr: 'E-postasını düzenli olarak kontrol etse iyi olur.',
+    },
+    {
+      ing: 'We had better get some rest before the journey.',
+      tr: 'Yolculuktan önce biraz dinlensek iyi olur.',
+    },
+    {
+      ing: 'They had better not argue with their boss.',
+      tr: 'Patronlarıyla tartışmasalar iyi olur.',
+    },
+    {
+      ing: 'I had better think twice before making a decision.',
+      tr: 'Karar vermeden önce iki kez düşünsem iyi olur.',
+    },
+    {
+      ing: 'Had he better bring an extra jacket?',
+      tr: 'Ekstra bir ceket getirse iyi olur mu?',
+    },
+    {
+      ing: 'You had better stay focused during the meeting.',
+      tr: 'Toplantı sırasında odaklansan iyi olur.',
+    },
+    {
+      ing: 'She had better not be late to class again.',
+      tr: 'Bir daha derse geç kalmasa iyi olur.',
+    },
+    {
+      ing: 'We had better save money for future expenses.',
+      tr: 'Gelecek harcamalar için para biriktirsek iyi olur.',
+    },
+    {
+      ing: 'They had better not skip the team meeting.',
+      tr: 'Ekip toplantısını atlamasalar iyi olur.',
+    },
+    {
+      ing: 'I had better keep my documents in a safe place.',
+      tr: 'Belgelerimi güvenli bir yerde tutsam iyi olur.',
+    },
+    {
+      ing: 'You had better not argue with your family.',
+      tr: 'Ailenle tartışmasan iyi olur.',
+    },
+    {
+      ing: 'He had better finish his tasks by the end of the day.',
+      tr: 'Gün sonuna kadar görevlerini bitirse iyi olur.',
+    },
+    {
+      ing: 'She had better stay home if she feels unwell.',
+      tr: 'Kendini iyi hissetmiyorsa evde kalsa iyi olur.',
+    },
+    {
+      ing: 'We had better not miss the flight tomorrow.',
+      tr: 'Yarınki uçağı kaçırmasak iyi olur.',
+    },
+    {
+      ing: 'Had you better ask your friend for advice?',
+      tr: 'Arkadaşından tavsiye istesen iyi olur mu?',
+    },
+    {
+      ing: 'They had better plan their budget carefully.',
+      tr: 'Bütçelerini dikkatlice planlasalar iyi olur.',
+    },
+    {
+      ing: 'He had better not speak rudely to the customers.',
+      tr: 'Müşterilere karşı kaba konuşmasa iyi olur.',
+    },
+    {
+      ing: 'I had better call the office to confirm my appointment.',
+      tr: 'Randevumu onaylamak için ofisi arasam iyi olur.',
+    },
+    {
+      ing: 'You had better take some rest after a long day.',
+      tr: 'Uzun bir günün ardından biraz dinlensen iyi olur.',
+    },
+    {
+      ing: 'She had better not forget to send the email.',
+      tr: 'E-postayı göndermeyi unutmaması iyi olur.',
+    },
+    {
+      ing: 'We had better discuss the project details soon.',
+      tr: 'Proje detaylarını yakında konuşsak iyi olur.',
+    },
+    {
+      ing: 'They had better arrive early to secure good seats.',
+      tr: 'İyi yer bulmak için erken gelseler iyi olur.',
+    },
+    {
+      ing: 'Had he better apologize to his colleague?',
+      tr: 'İş arkadaşından özür dilese iyi olur mu?',
+    },
+    {
+      ing: 'I had better avoid eating too much sugar.',
+      tr: 'Çok fazla şeker yemekten kaçınsam iyi olur.',
+    },
+    {
+      ing: 'You had better practice your skills more often.',
+      tr: 'Becerilerini daha sık pratik yapsan iyi olur.',
+    },
+    {
+      ing: 'He had better be careful with his words.',
+      tr: 'Söylediklerine dikkat etse iyi olur.',
+    },
+    {
+      ing: 'She had better take her umbrella; it looks like rain.',
+      tr: 'Şemsiyesini alsa iyi olur; yağmur yağacak gibi.',
+    },
+    {
+      ing: 'We had better stay quiet during the movie.',
+      tr: 'Film sırasında sessiz kalsak iyi olur.',
+    },
+    {
+      ing: 'They had better not ignore their responsibilities.',
+      tr: 'Sorumluluklarını görmezden gelmeseler iyi olur.',
+    },
+    {
+      ing: 'Had I better submit my report today?',
+      tr: 'Raporumu bugün teslim etsem iyi olur mu?',
+    },
+    {
+      ing: 'You had better study hard for the upcoming test.',
+      tr: 'Yaklaşan test için çok çalışsan iyi olur.',
+    },
+    {
+      ing: 'He had better not forget to lock the car doors.',
+      tr: 'Arabanın kapılarını kilitlemeyi unutmaması iyi olur.',
+    },
+    {
+      ing: 'She had better focus on her career goals.',
+      tr: 'Kariyer hedeflerine odaklansa iyi olur.',
+    },
+    {
+      ing: 'We had better not take any risks with this project.',
+      tr: 'Bu projede hiçbir risk almasak iyi olur.',
+    },
+    {
+      ing: 'They had better help each other with the assignment.',
+      tr: 'Ödev konusunda birbirlerine yardım etseler iyi olur.',
+    },
+    {
+      ing: 'I had better make a to-do list to stay organized.',
+      tr: 'Düzenli kalmak için bir yapılacaklar listesi yapsam iyi olur.',
+    },
+    {
+      ing: 'You had better not ignore the deadline.',
+      tr: 'Son teslim tarihini görmezden gelmesen iyi olur.',
+    },
+    {
+      ing: "He had better apologize before it's too late.",
+      tr: 'Çok geç olmadan özür dilese iyi olur.',
+    },
+    {
+      ing: 'She had better not trust unreliable sources.',
+      tr: 'Güvenilmez kaynaklara güvenmese iyi olur.',
+    },
+    {
+      ing: 'We had better check the traffic before leaving.',
+      tr: 'Çıkmadan önce trafiği kontrol etsek iyi olur.',
+    },
+    {
+      ing: 'Had they better ask for a discount?',
+      tr: 'İndirim isteseler iyi olur mu?',
+    },
+    {
+      ing: 'I had better not miss my flight tomorrow.',
+      tr: 'Yarınki uçağımı kaçırmasam iyi olur.',
+    },
+    {
+      ing: 'You had better arrive at the event on time.',
+      tr: 'Etkinliğe zamanında varsan iyi olur.',
+    },
+    {
+      ing: 'He had better not be too harsh on himself.',
+      tr: 'Kendine karşı çok sert olmasa iyi olur.',
+    },
+    {
+      ing: 'She had better organize her schedule better.',
+      tr: 'Programını daha iyi organize etse iyi olur.',
+    },
+    {
+      ing: 'We had better save some money for emergencies.',
+      tr: 'Acil durumlar için biraz para biriktirsek iyi olur.',
+    },
+    {
+      ing: 'They had better not leave the room in a mess.',
+      tr: 'Odayı dağınık bırakmasalar iyi olur.',
+    },
+    {
+      ing: 'Had you better prepare a backup plan?',
+      tr: 'Bir yedek plan hazırlasan iyi olur mu?',
+    },
+    {
+      ing: 'I had better write down the important points.',
+      tr: 'Önemli noktaları yazsam iyi olur.',
+    },
+    {
+      ing: 'You had better not raise your voice during the discussion.',
+      tr: 'Tartışma sırasında sesini yükseltmesen iyi olur.',
+    },
+    {
+      ing: 'He had better take responsibility for his actions.',
+      tr: 'Yaptıklarının sorumluluğunu alsa iyi olur.',
+    },
+    {
+      ing: 'She had better complete her tasks before the deadline.',
+      tr: 'Görevlerini son teslim tarihinden önce bitirse iyi olur.',
+    },
+    {
+      ing: 'We had better not ignore the safety rules.',
+      tr: 'Güvenlik kurallarını görmezden gelmesek iyi olur.',
+    },
+    {
+      ing: 'They had better not be late for the appointment.',
+      tr: 'Randevuya geç kalmasalar iyi olur.',
+    },
+    {
+      ing: 'Had I better ask for help if I get stuck?',
+      tr: 'Sıkışırsam yardım istesem iyi olur mu?',
+    },
+    {
+      ing: 'You had better keep your valuables in a safe place.',
+      tr: 'Değerli eşyalarını güvenli bir yerde tutsan iyi olur.',
+    },
+    {
+      ing: 'He had better not argue with his boss.',
+      tr: 'Patronuyla tartışmasa iyi olur.',
+    },
+    {
+      ing: 'She had better call her friend to check on her.',
+      tr: 'Arkadaşını kontrol etmek için arasa iyi olur.',
+    },
+    {
+      ing: 'We had better not spend too much on shopping.',
+      tr: 'Alışverişe çok fazla harcamasak iyi olur.',
+    },
+    {
+      ing: "They had better not take the risk if it's dangerous.",
+      tr: 'Tehlikeliyse riski almasalar iyi olur.',
+    },
+    {
+      ing: 'I had better prepare my presentation in advance.',
+      tr: 'Sunumumu önceden hazırlasam iyi olur.',
+    },
+    {
+      ing: 'You had better dress warmly in this cold weather.',
+      tr: 'Bu soğuk havada sıcak giyinsen iyi olur.',
+    },
+    {
+      ing: 'He had better be more polite to the guests.',
+      tr: 'Misafirlere karşı daha kibar olsa iyi olur.',
+    },
+    {
+      ing: 'She had better not forget to buy groceries.',
+      tr: 'Market alışverişini yapmayı unutmaması iyi olur.',
+    },
+    {
+      ing: 'We had better choose the best option available.',
+      tr: 'Mevcut en iyi seçeneği seçsek iyi olur.',
+    },
+    {
+      ing: 'Had they better be more careful next time?',
+      tr: 'Bir dahaki sefere daha dikkatli olsalar iyi olur mu?',
+    },
+    {
+      ing: 'You had better check your work for errors.',
+      tr: 'İşinizi hatalara karşı kontrol etsen iyi olur.',
+    },
+    {
+      ing: 'I had better not stay up too late tonight.',
+      tr: 'Bu gece çok geç saatlere kadar kalmasam iyi olur.',
+    },
+  ],
+  HaveTo: [
+    {
+      ing: 'I have to wake up early tomorrow.',
+      tr: 'Yarın erken kalkmak zorundayım.',
+    },
+    {
+      ing: 'She doesn’t have to attend the meeting.',
+      tr: 'Toplantıya katılmak zorunda değil.',
+    },
+    {
+      ing: 'Do we have to wear a uniform for the event?',
+      tr: 'Etkinlik için üniforma giymek zorunda mıyız?',
+    },
+    {
+      ing: 'He has to study harder for his exams.',
+      tr: 'Sınavları için daha çok çalışmak zorunda.',
+    },
+    {
+      ing: 'They don’t have to leave right now.',
+      tr: 'Şu anda ayrılmak zorunda değiller.',
+    },
+    {
+      ing: 'Does he have to finish the project by Friday?',
+      tr: 'Projeyi Cuma gününe kadar bitirmek zorunda mı?',
+    },
+    {
+      ing: 'We have to clean the house before guests arrive.',
+      tr: 'Misafirler gelmeden önce evi temizlemek zorundayız.',
+    },
+    {
+      ing: 'You don’t have to pay for the drinks.',
+      tr: 'İçecekler için ödeme yapmak zorunda değilsin.',
+    },
+    {
+      ing: 'Do I have to call the office today?',
+      tr: 'Bugün ofisi aramak zorunda mıyım?',
+    },
+    {
+      ing: 'She has to take her medicine twice a day.',
+      tr: 'İlacını günde iki kez almak zorunda.',
+    },
+    {
+      ing: 'He doesn’t have to drive to work every day.',
+      tr: 'Her gün işe arabayla gitmek zorunda değil.',
+    },
+    {
+      ing: 'Do they have to book tickets in advance?',
+      tr: 'Biletleri önceden ayırtmak zorundalar mı?',
+    },
+    {
+      ing: 'I have to renew my passport soon.',
+      tr: 'Pasaportumu yakında yenilemek zorundayım.',
+    },
+    {
+      ing: 'You don’t have to answer all the questions.',
+      tr: 'Tüm soruları cevaplamak zorunda değilsin.',
+    },
+    {
+      ing: 'Does she have to stay late at work tonight?',
+      tr: 'Bu gece işte geç kalmak zorunda mı?',
+    },
+    {
+      ing: 'We have to follow the rules strictly.',
+      tr: 'Kurallara kesinlikle uymak zorundayız.',
+    },
+    {
+      ing: 'He doesn’t have to worry about the problem.',
+      tr: 'Sorun hakkında endişelenmek zorunda değil.',
+    },
+    {
+      ing: 'Do we have to submit the report today?',
+      tr: 'Raporu bugün teslim etmek zorunda mıyız?',
+    },
+    {
+      ing: 'She has to wear glasses while driving.',
+      tr: 'Araç kullanırken gözlük takmak zorunda.',
+    },
+    {
+      ing: 'They don’t have to move to a new city.',
+      tr: 'Yeni bir şehre taşınmak zorunda değiller.',
+    },
+    {
+      ing: 'Do I have to attend the training session?',
+      tr: 'Eğitim oturumuna katılmak zorunda mıyım?',
+    },
+    {
+      ing: 'He has to fix the broken window.',
+      tr: 'Kırık pencereyi tamir etmek zorunda.',
+    },
+    {
+      ing: 'You don’t have to cook dinner tonight.',
+      tr: 'Bu gece akşam yemeği pişirmek zorunda değilsin.',
+    },
+    {
+      ing: 'Does she have to travel for work next week?',
+      tr: 'Gelecek hafta iş için seyahat etmek zorunda mı?',
+    },
+    {
+      ing: 'We have to be at the airport by 8 a.m.',
+      tr: "Sabah saat 8'e kadar havaalanında olmak zorundayız.",
+    },
+    {
+      ing: 'They don’t have to wake up so early.',
+      tr: 'Bu kadar erken kalkmak zorunda değiller.',
+    },
+    {
+      ing: 'Do you have to bring your own laptop?',
+      tr: 'Kendi dizüstü bilgisayarını getirmek zorunda mısın?',
+    },
+    {
+      ing: 'I have to finish reading this book by tonight.',
+      tr: 'Bu kitabı bu geceye kadar bitirmek zorundayım.',
+    },
+    {
+      ing: 'She doesn’t have to do the laundry today.',
+      tr: 'Bugün çamaşır yıkamak zorunda değil.',
+    },
+    {
+      ing: 'Does he have to apologize for his mistake?',
+      tr: 'Hatası için özür dilemek zorunda mı?',
+    },
+    {
+      ing: 'We have to meet the deadline for the project.',
+      tr: 'Proje için son teslim tarihine uymak zorundayız.',
+    },
+    {
+      ing: 'He doesn’t have to attend every meeting.',
+      tr: 'Her toplantıya katılmak zorunda değil.',
+    },
+    {
+      ing: 'Do they have to sign the contract now?',
+      tr: 'Şimdi sözleşmeyi imzalamak zorundalar mı?',
+    },
+    {
+      ing: 'You have to exercise regularly to stay fit.',
+      tr: 'Formda kalmak için düzenli egzersiz yapmak zorundasın.',
+    },
+    {
+      ing: 'She doesn’t have to buy a new car.',
+      tr: 'Yeni bir araba almak zorunda değil.',
+    },
+    {
+      ing: 'Does he have to work on weekends?',
+      tr: 'Hafta sonları çalışmak zorunda mı?',
+    },
+    {
+      ing: 'I have to call my parents every Sunday.',
+      tr: 'Her Pazar ailemi aramak zorundayım.',
+    },
+    {
+      ing: 'They don’t have to bring anything to the party.',
+      tr: 'Partiye bir şey getirmek zorunda değiller.',
+    },
+    {
+      ing: 'Do we have to turn off our phones in the meeting?',
+      tr: 'Toplantıda telefonlarımızı kapatmak zorunda mıyız?',
+    },
+    {
+      ing: 'She has to visit the doctor for a check-up.',
+      tr: 'Kontrol için doktora gitmek zorunda.',
+    },
+    {
+      ing: 'He doesn’t have to attend the class today.',
+      tr: 'Bugün derse katılmak zorunda değil.',
+    },
+    {
+      ing: 'Do you have to travel to another city for your job?',
+      tr: 'İşin için başka bir şehre seyahat etmek zorunda mısın?',
+    },
+    {
+      ing: 'We have to finish this task by tomorrow.',
+      tr: 'Bu görevi yarına kadar bitirmek zorundayız.',
+    },
+    {
+      ing: 'You don’t have to come to the office every day.',
+      tr: 'Her gün ofise gelmek zorunda değilsin.',
+    },
+    {
+      ing: 'Does she have to work late tonight?',
+      tr: 'Bu gece geç saatlere kadar çalışmak zorunda mı?',
+    },
+    {
+      ing: 'He has to explain the situation to his boss.',
+      tr: 'Durumu patronuna açıklamak zorunda.',
+    },
+    {
+      ing: 'They don’t have to clean the house on the weekend.',
+      tr: 'Hafta sonu evi temizlemek zorunda değiller.',
+    },
+    {
+      ing: 'Do I have to study for the exam this weekend?',
+      tr: 'Bu hafta sonu sınav için çalışmak zorunda mıyım?',
+    },
+    {
+      ing: "She has to renew her driver's license.",
+      tr: 'Ehliyetini yenilemek zorunda.',
+    },
+    {
+      ing: 'He doesn’t have to finish the project alone.',
+      tr: 'Projeyi tek başına bitirmek zorunda değil.',
+    },
+    {
+      ing: 'We have to wear masks in the hospital.',
+      tr: 'Hastanede maske takmak zorundayız.',
+    },
+    {
+      ing: 'Do they have to stay in quarantine?',
+      tr: 'Karantinada kalmak zorundalar mı?',
+    },
+    {
+      ing: 'You have to submit your assignment on time.',
+      tr: 'Ödevini zamanında teslim etmek zorundasın.',
+    },
+    {
+      ing: 'She doesn’t have to cook for the whole family.',
+      tr: 'Tüm aile için yemek pişirmek zorunda değil.',
+    },
+    {
+      ing: 'Does he have to pay the bill right away?',
+      tr: 'Faturayı hemen ödemek zorunda mı?',
+    },
+    {
+      ing: 'I have to go to the gym three times a week.',
+      tr: 'Haftada üç kez spor salonuna gitmek zorundayım.',
+    },
+    {
+      ing: 'They don’t have to attend the seminar.',
+      tr: 'Seminere katılmak zorunda değiller.',
+    },
+    {
+      ing: 'Do we have to wear formal clothes for the meeting?',
+      tr: 'Toplantı için resmi kıyafet giymek zorunda mıyız?',
+    },
+    {
+      ing: 'He has to prepare a presentation for tomorrow.',
+      tr: 'Yarın için bir sunum hazırlamak zorunda.',
+    },
+    {
+      ing: 'You don’t have to bring food to the picnic.',
+      tr: 'Pikniğe yiyecek getirmek zorunda değilsin.',
+    },
+    {
+      ing: 'She has to complete her training this month.',
+      tr: 'Eğitimini bu ay tamamlamak zorunda.',
+    },
+    {
+      ing: 'Do I have to inform my manager about this?',
+      tr: 'Bunu müdürüme bildirmek zorunda mıyım?',
+    },
+    {
+      ing: 'He doesn’t have to work overtime today.',
+      tr: 'Bugün fazla mesai yapmak zorunda değil.',
+    },
+    {
+      ing: 'We have to leave the house by 7 a.m.',
+      tr: "Sabah 7'ye kadar evden çıkmak zorundayız.",
+    },
+    {
+      ing: 'Do they have to clean their desks before leaving?',
+      tr: 'Ayrılmadan önce masalarını temizlemek zorundalar mı?',
+    },
+    {
+      ing: 'You have to take care of your health.',
+      tr: 'Sağlığına dikkat etmek zorundasın.',
+    },
+    {
+      ing: 'She doesn’t have to finish the project by herself.',
+      tr: 'Projeyi tek başına bitirmek zorunda değil.',
+    },
+    {
+      ing: 'Does he have to go to the bank today?',
+      tr: 'Bugün bankaya gitmek zorunda mı?',
+    },
+    {
+      ing: 'I have to buy groceries for the week.',
+      tr: 'Hafta için market alışverişi yapmak zorundayım.',
+    },
+    {
+      ing: 'They don’t have to attend the conference.',
+      tr: 'Konferansa katılmak zorunda değiller.',
+    },
+    {
+      ing: 'Do we have to prepare for the presentation?',
+      tr: 'Sunum için hazırlık yapmak zorunda mıyız?',
+    },
+    {
+      ing: 'She has to make an appointment with the dentist.',
+      tr: 'Dişçiyle randevu almak zorunda.',
+    },
+    {
+      ing: 'He doesn’t have to come to the meeting today.',
+      tr: 'Bugün toplantıya gelmek zorunda değil.',
+    },
+    {
+      ing: 'You have to take your dog for a walk daily.',
+      tr: 'Köpeğini her gün yürüyüşe çıkarmak zorundasın.',
+    },
+    {
+      ing: 'Do they have to follow the rules strictly?',
+      tr: 'Kurallara kesinlikle uymak zorundalar mı?',
+    },
+    {
+      ing: 'We have to check the weather before planning the trip.',
+      tr: 'Geziyi planlamadan önce hava durumunu kontrol etmek zorundayız.',
+    },
+    {
+      ing: 'He doesn’t have to clean the garage this weekend.',
+      tr: 'Bu hafta sonu garajı temizlemek zorunda değil.',
+    },
+    {
+      ing: 'Do you have to answer all these emails today?',
+      tr: 'Bugün tüm bu e-postaları yanıtlamak zorunda mısın?',
+    },
+    {
+      ing: 'I have to meet my friend for lunch.',
+      tr: 'Öğle yemeği için arkadaşımla buluşmak zorundayım.',
+    },
+    {
+      ing: 'She doesn’t have to do the dishes tonight.',
+      tr: 'Bu gece bulaşıkları yıkamak zorunda değil.',
+    },
+    {
+      ing: 'Does he have to visit his grandparents every Sunday?',
+      tr: 'Her Pazar büyüklerini ziyaret etmek zorunda mı?',
+    },
+    {
+      ing: 'We have to be quiet in the library.',
+      tr: 'Kütüphanede sessiz olmak zorundayız.',
+    },
+    {
+      ing: 'They don’t have to take the bus to school.',
+      tr: 'Okula otobüsle gitmek zorunda değiller.',
+    },
+    {
+      ing: 'Do I have to give a speech at the event?',
+      tr: 'Etkinlikte bir konuşma yapmak zorunda mıyım?',
+    },
+    {
+      ing: 'He has to attend the team meeting tomorrow.',
+      tr: 'Yarın takım toplantısına katılmak zorunda.',
+    },
+    {
+      ing: 'She doesn’t have to pack her bags until next week.',
+      tr: 'Gelecek haftaya kadar çantalarını toplamak zorunda değil.',
+    },
+    {
+      ing: 'Do we have to make a reservation for dinner?',
+      tr: 'Akşam yemeği için rezervasyon yapmak zorunda mıyız?',
+    },
+    {
+      ing: 'I have to call my boss about the project update.',
+      tr: 'Proje güncellemesi hakkında patronumu aramak zorundayım.',
+    },
+    {
+      ing: 'You don’t have to worry about the flight.',
+      tr: 'Uçuş hakkında endişelenmek zorunda değilsin.',
+    },
+    {
+      ing: 'Does he have to sign the documents now?',
+      tr: 'Şimdi belgeleri imzalamak zorunda mı?',
+    },
+    {
+      ing: 'We have to wear seat belts while driving.',
+      tr: 'Araç kullanırken emniyet kemeri takmak zorundayız.',
+    },
+    {
+      ing: 'They don’t have to join the training program.',
+      tr: 'Eğitim programına katılmak zorunda değiller.',
+    },
+    {
+      ing: 'Do you have to travel abroad for your job?',
+      tr: 'İşin için yurt dışına seyahat etmek zorunda mısın?',
+    },
+    {
+      ing: 'She has to take her cat to the vet.',
+      tr: 'Kedisini veterinere götürmek zorunda.',
+    },
+    {
+      ing: 'He doesn’t have to pay the fee until next month.',
+      tr: 'Gelecek aya kadar ücreti ödemek zorunda değil.',
+    },
+    {
+      ing: 'Do I have to turn in my assignment today?',
+      tr: 'Ödevimi bugün teslim etmek zorunda mıyım?',
+    },
+    {
+      ing: 'We have to check in at the airport two hours before the flight.',
+      tr: 'Uçuştan iki saat önce havaalanında check-in yapmak zorundayız.',
+    },
+    {
+      ing: 'You don’t have to apologize for your mistake.',
+      tr: 'Hatan için özür dilemek zorunda değilsin.',
+    },
+    {
+      ing: 'Does she have to finish her presentation by Friday?',
+      tr: 'Sunumunu Cuma gününe kadar bitirmek zorunda mı?',
+    },
+    {
+      ing: 'He has to buy a gift for his sister’s birthday.',
+      tr: 'Kız kardeşinin doğum günü için bir hediye almak zorunda.',
+    },
+    {
+      ing: 'They don’t have to worry about the accommodation.',
+      tr: 'Konaklama hakkında endişelenmek zorunda değiller.',
+    },
+    {
+      ing: 'Do we have to register for the course today?',
+      tr: 'Bugün kursa kayıt olmak zorunda mıyız?',
+    },
+    {
+      ing: 'I have to organize my work schedule.',
+      tr: 'Çalışma programımı düzenlemek zorundayım.',
+    },
+    {
+      ing: 'She doesn’t have to wake up early tomorrow.',
+      tr: 'Yarın erken kalkmak zorunda değil.',
+    },
+    {
+      ing: 'Does he have to go to the office every day?',
+      tr: 'Her gün ofise gitmek zorunda mı?',
+    },
+    {
+      ing: 'We have to pay attention to the instructions.',
+      tr: 'Talimatlara dikkat etmek zorundayız.',
+    },
+    {
+      ing: 'You don’t have to stay late at work.',
+      tr: 'İşte geç saatlere kadar kalmak zorunda değilsin.',
+    },
+    {
+      ing: 'Do they have to meet with the client today?',
+      tr: 'Bugün müşteriyle görüşmek zorundalar mı?',
+    },
+    {
+      ing: 'She has to take her car for a service check.',
+      tr: 'Arabasını bakım için götürmek zorunda.',
+    },
+    {
+      ing: 'He doesn’t have to play in the match tomorrow.',
+      tr: 'Yarın maçta oynamak zorunda değil.',
+    },
+    {
+      ing: 'Do you have to prepare a report every week?',
+      tr: 'Her hafta bir rapor hazırlamak zorunda mısın?',
+    },
+    {
+      ing: 'We have to use recycled materials for the project.',
+      tr: 'Proje için geri dönüştürülmüş malzemeler kullanmak zorundayız.',
+    },
+    {
+      ing: 'They don’t have to stay at the hotel tonight.',
+      tr: 'Bu gece otelde kalmak zorunda değiller.',
+    },
+    {
+      ing: 'Does she have to visit the headquarters next month?',
+      tr: 'Gelecek ay genel merkezi ziyaret etmek zorunda mı?',
+    },
+    {
+      ing: 'I have to buy a new phone charger.',
+      tr: 'Yeni bir telefon şarj cihazı almak zorundayım.',
+    },
+    {
+      ing: 'You don’t have to attend the interview if you’re busy.',
+      tr: 'Meşgulsen görüşmeye katılmak zorunda değilsin.',
+    },
+    {
+      ing: 'Do we have to inform everyone about the changes?',
+      tr: 'Değişiklikler hakkında herkesi bilgilendirmek zorunda mıyız?',
+    },
+    {
+      ing: 'He has to arrange the meeting schedule.',
+      tr: 'Toplantı takvimini düzenlemek zorunda.',
+    },
+    {
+      ing: 'She doesn’t have to carry heavy bags.',
+      tr: 'Ağır çantaları taşımak zorunda değil.',
+    },
+    {
+      ing: 'Do they have to clean the room every day?',
+      tr: 'Odayı her gün temizlemek zorunda mı?',
+    },
+    {
+      ing: 'We have to charge our devices before the trip.',
+      tr: 'Seyahatten önce cihazlarımızı şarj etmek zorundayız.',
+    },
+    {
+      ing: 'You don’t have to invite everyone to the party.',
+      tr: 'Herkesi partiye davet etmek zorunda değilsin.',
+    },
+    {
+      ing: 'Does he have to deliver the package by the weekend?',
+      tr: 'Paketi hafta sonuna kadar teslim etmek zorunda mı?',
+    },
+    {
+      ing: 'I have to prepare dinner for my family tonight.',
+      tr: 'Bu gece ailem için akşam yemeği hazırlamak zorundayım.',
+    },
+    {
+      ing: 'She doesn’t have to visit the bank today.',
+      tr: 'Bugün bankayı ziyaret etmek zorunda değil.',
+    },
+    {
+      ing: 'Do you have to attend the conference next month?',
+      tr: 'Gelecek ay konferansa katılmak zorunda mısın?',
+    },
+    {
+      ing: 'We have to fix the broken chair.',
+      tr: 'Kırık sandalyeyi tamir etmek zorundayız.',
+    },
+    {
+      ing: 'He doesn’t have to walk to school in the rain.',
+      tr: 'Yağmurda okula yürümek zorunda değil.',
+    },
+    {
+      ing: 'Does she have to travel to Paris for the meeting?',
+      tr: 'Toplantı için Paris’e seyahat etmek zorunda mı?',
+    },
+    {
+      ing: 'They have to plan their budget carefully.',
+      tr: 'Bütçelerini dikkatlice planlamak zorundalar.',
+    },
+    {
+      ing: 'You don’t have to visit the office in person.',
+      tr: 'Ofisi şahsen ziyaret etmek zorunda değilsin.',
+    },
+    {
+      ing: 'Do I have to confirm my reservation by tomorrow?',
+      tr: 'Rezervasyonumu yarına kadar onaylamak zorunda mıyım?',
+    },
+    {
+      ing: 'She has to get her car repaired soon.',
+      tr: 'Arabasını yakında tamir ettirmek zorunda.',
+    },
+    {
+      ing: 'He doesn’t have to answer all the questions now.',
+      tr: 'Şimdi tüm soruları yanıtlamak zorunda değil.',
+    },
+    {
+      ing: 'We have to turn off the lights when we leave.',
+      tr: 'Çıkarken ışıkları kapatmak zorundayız.',
+    },
+    {
+      ing: 'Do they have to complete the task by Friday?',
+      tr: 'Görevi Cuma gününe kadar tamamlamak zorundalar mı?',
+    },
+    {
+      ing: 'I have to clean my room this weekend.',
+      tr: 'Bu hafta sonu odamı temizlemek zorundayım.',
+    },
+    {
+      ing: 'She doesn’t have to explain her decision.',
+      tr: 'Kararını açıklamak zorunda değil.',
+    },
+    {
+      ing: 'Does he have to follow the new regulations?',
+      tr: 'Yeni düzenlemelere uymak zorunda mı?',
+    },
+    {
+      ing: 'You have to be on time for the meeting.',
+      tr: 'Toplantıya zamanında gelmek zorundasın.',
+    },
+    {
+      ing: 'They don’t have to book a hotel room for the trip.',
+      tr: 'Seyahat için otel odası ayırtmak zorunda değiller.',
+    },
+    {
+      ing: 'Do we have to provide identification at the entrance?',
+      tr: 'Girişte kimlik göstermek zorunda mıyız?',
+    },
+    {
+      ing: 'He has to learn to manage his time better.',
+      tr: 'Zamanını daha iyi yönetmeyi öğrenmek zorunda.',
+    },
+    {
+      ing: 'She doesn’t have to wear a uniform at work.',
+      tr: 'İşte üniforma giymek zorunda değil.',
+    },
+    {
+      ing: 'Do you have to submit the report before leaving?',
+      tr: 'Ayrılmadan önce raporu teslim etmek zorunda mısın?',
+    },
+    {
+      ing: 'We have to follow the guidelines strictly.',
+      tr: 'Talimatlara kesinlikle uymak zorundayız.',
+    },
+    {
+      ing: 'They don’t have to stay until the end of the event.',
+      tr: 'Etkinliğin sonuna kadar kalmak zorunda değiller.',
+    },
+    {
+      ing: 'Does he have to report to his supervisor?',
+      tr: 'Amire rapor vermek zorunda mı?',
+    },
+    {
+      ing: 'I have to return the library books by Friday.',
+      tr: 'Kütüphane kitaplarını Cuma gününe kadar iade etmek zorundayım.',
+    },
+    {
+      ing: 'You don’t have to wait for me if you’re in a hurry.',
+      tr: 'Acele ediyorsan beni beklemek zorunda değilsin.',
+    },
+  ],
+  May: [
+    {
+      ing: 'It may rain this afternoon.',
+      tr: 'Bu öğleden sonra yağmur yağabilir.',
+    },
+    {
+      ing: 'She might not come to the party tonight.',
+      tr: 'Bu gece partiye gelmeyebilir.',
+    },
+    {
+      ing: 'Could he be the person we are looking for?',
+      tr: 'Aradığımız kişi o olabilir mi?',
+    },
+    {ing: 'They may forget to call us.', tr: 'Bizi aramayı unutabilirler.'},
+    {
+      ing: 'You might feel tired after the long journey.',
+      tr: 'Uzun yolculuktan sonra yorgun hissedebilirsin.',
+    },
+    {
+      ing: 'He could get angry if you tell him the truth.',
+      tr: 'Ona gerçeği söylersen sinirlenebilir.',
+    },
+    {
+      ing: 'The keys may be in the kitchen drawer.',
+      tr: 'Anahtarlar mutfak çekmecesinde olabilir.',
+    },
+    {ing: 'She might not like this movie.', tr: 'Bu filmi beğenmeyebilir.'},
+    {
+      ing: 'Could it be possible that they missed the train?',
+      tr: 'Treni kaçırmış olabilirler mi?',
+    },
+    {
+      ing: 'We may see them at the event later.',
+      tr: 'Onları daha sonra etkinlikte görebiliriz.',
+    },
+    {
+      ing: 'He might know the answer to this question.',
+      tr: 'Bu sorunun cevabını biliyor olabilir.',
+    },
+    {
+      ing: 'They could be waiting for us outside.',
+      tr: 'Dışarıda bizi bekliyor olabilirler.',
+    },
+    {
+      ing: 'She may not want to join the team.',
+      tr: 'Takıma katılmak istemeyebilir.',
+    },
+    {
+      ing: 'Might you be free tomorrow evening?',
+      tr: 'Yarın akşam müsait olabilir misin?',
+    },
+    {
+      ing: 'The weather could change in a few hours.',
+      tr: 'Hava birkaç saat içinde değişebilir.',
+    },
+    {
+      ing: 'It may take longer than we expected.',
+      tr: 'Beklediğimizden daha uzun sürebilir.',
+    },
+    {ing: 'He might be at home now.', tr: 'Şu anda evde olabilir.'},
+    {
+      ing: 'They may not agree with your decision.',
+      tr: 'Senin kararına katılmayabilirler.',
+    },
+    {
+      ing: 'Could she be telling the truth?',
+      tr: 'Gerçeği söylüyor olabilir mi?',
+    },
+    {
+      ing: 'I might go to the park if it’s sunny.',
+      tr: 'Hava güneşliyse parka gidebilirim.',
+    },
+    {
+      ing: 'We may need more time to finish this project.',
+      tr: 'Bu projeyi bitirmek için daha fazla zamana ihtiyacımız olabilir.',
+    },
+    {
+      ing: 'He might not have enough money for the trip.',
+      tr: 'Gezi için yeterli parası olmayabilir.',
+    },
+    {
+      ing: 'Could they know about the surprise party?',
+      tr: 'Sürpriz partiden haberdar olabilirler mi?',
+    },
+    {
+      ing: 'The book may contain important information.',
+      tr: 'Kitap önemli bilgiler içerebilir.',
+    },
+    {
+      ing: 'She might not arrive on time for the meeting.',
+      tr: 'Toplantıya zamanında varamayabilir.',
+    },
+    {
+      ing: 'It could be a mistake in the report.',
+      tr: 'Raporda bir hata olabilir.',
+    },
+    {
+      ing: 'He may find this topic difficult to understand.',
+      tr: 'Bu konuyu anlamakta zorlanabilir.',
+    },
+    {
+      ing: 'They might have left the office early.',
+      tr: 'Ofisten erken çıkmış olabilirler.',
+    },
+    {
+      ing: 'Could the noise be coming from the basement?',
+      tr: 'Gürültü bodrumdan geliyor olabilir mi?',
+    },
+    {
+      ing: 'I may need your help later today.',
+      tr: 'Bugün daha sonra yardıma ihtiyacım olabilir.',
+    },
+    {
+      ing: 'You might feel better after some rest.',
+      tr: 'Biraz dinlendikten sonra daha iyi hissedebilirsin.',
+    },
+    {
+      ing: 'She could be working on the project right now.',
+      tr: 'Şu anda proje üzerinde çalışıyor olabilir.',
+    },
+    {
+      ing: 'He may not be interested in our proposal.',
+      tr: 'Teklifimize ilgi göstermeyebilir.',
+    },
+    {
+      ing: 'Might they have forgotten the appointment?',
+      tr: 'Randevuyu unutmuş olabilirler mi?',
+    },
+    {
+      ing: 'We could have lunch together if you like.',
+      tr: 'İstersen birlikte öğle yemeği yiyebiliriz.',
+    },
+    {
+      ing: 'The package may arrive by the end of the week.',
+      tr: 'Paket hafta sonuna kadar gelebilir.',
+    },
+    {
+      ing: 'She might feel nervous during her speech.',
+      tr: 'Konuşması sırasında gergin hissedebilir.',
+    },
+    {
+      ing: "It could be the reason why he's upset.",
+      tr: 'Onun üzgün olmasının nedeni bu olabilir.',
+    },
+    {
+      ing: 'He may not pass the test without studying.',
+      tr: 'Çalışmadan testi geçemeyebilir.',
+    },
+    {
+      ing: 'Could she be at the library this afternoon?',
+      tr: 'Bu öğleden sonra kütüphanede olabilir mi?',
+    },
+    {
+      ing: 'They might come to visit us this weekend.',
+      tr: 'Bu hafta sonu bizi ziyaret edebilirler.',
+    },
+    {
+      ing: 'The cat may be hiding under the sofa.',
+      tr: 'Kedi, kanepenin altında saklanıyor olabilir.',
+    },
+    {
+      ing: 'He might not remember where he put the keys.',
+      tr: 'Anahtarları nereye koyduğunu hatırlamayabilir.',
+    },
+    {
+      ing: 'Could the store be closed today?',
+      tr: 'Mağaza bugün kapalı olabilir mi?',
+    },
+    {
+      ing: 'She may not understand this concept easily.',
+      tr: 'Bu kavramı kolayca anlamayabilir.',
+    },
+    {
+      ing: 'Might you know the address of this place?',
+      tr: 'Bu yerin adresini biliyor olabilir misin?',
+    },
+    {
+      ing: 'It could snow later tonight.',
+      tr: 'Bu gece ilerleyen saatlerde kar yağabilir.',
+    },
+    {
+      ing: 'They may forget to bring their tickets.',
+      tr: 'Biletlerini getirmeyi unutabilirler.',
+    },
+    {
+      ing: 'He might have some doubts about the plan.',
+      tr: 'Plan hakkında bazı şüpheleri olabilir.',
+    },
+    {
+      ing: 'Could it be too late to change the date?',
+      tr: 'Tarihi değiştirmek için çok geç olabilir mi?',
+    },
+    {
+      ing: 'We may not see each other until next month.',
+      tr: 'Gelecek aya kadar birbirimizi görmeyebiliriz.',
+    },
+    {
+      ing: 'She might enjoy the concert tomorrow.',
+      tr: 'Yarınki konserden keyif alabilir.',
+    },
+    {
+      ing: 'He could be busy with another project.',
+      tr: 'Başka bir proje ile meşgul olabilir.',
+    },
+    {
+      ing: 'They may not attend the meeting this week.',
+      tr: 'Bu hafta toplantıya katılmayabilirler.',
+    },
+    {
+      ing: 'Might the children be playing outside?',
+      tr: 'Çocuklar dışarıda oynuyor olabilir mi?',
+    },
+    {
+      ing: 'I could be wrong about this decision.',
+      tr: 'Bu karar hakkında yanılıyor olabilirim.',
+    },
+    {
+      ing: 'You may feel confused by these instructions.',
+      tr: 'Bu talimatlarla kafan karışabilir.',
+    },
+    {
+      ing: 'He might not answer his phone right now.',
+      tr: 'Şu anda telefonunu açmayabilir.',
+    },
+    {
+      ing: 'Could she be planning a surprise for us?',
+      tr: 'Bizim için bir sürpriz planlıyor olabilir mi?',
+    },
+    {
+      ing: 'It may rain tomorrow, so take your umbrella.',
+      tr: 'Yarın yağmur yağabilir, bu yüzden şemsiyeni al.',
+    },
+    {
+      ing: 'They might be interested in joining the club.',
+      tr: 'Kulübe katılmakla ilgilenebilirler.',
+    },
+    {
+      ing: 'He could be late because of traffic.',
+      tr: 'Trafikten dolayı geç kalmış olabilir.',
+    },
+    {
+      ing: 'We may not have enough chairs for everyone.',
+      tr: 'Herkes için yeterli sandalyemiz olmayabilir.',
+    },
+    {
+      ing: 'Might she visit her parents this evening?',
+      tr: 'Bu akşam ailesini ziyaret edebilir mi?',
+    },
+    {
+      ing: 'The car could break down on the way.',
+      tr: 'Araba yolda bozulabilir.',
+    },
+    {
+      ing: 'You may see some changes in the system.',
+      tr: 'Sistemde bazı değişiklikler görebilirsin.',
+    },
+    {
+      ing: 'He might have lost his wallet in the park.',
+      tr: 'Cüzdanını parkta kaybetmiş olabilir.',
+    },
+    {
+      ing: 'Could they be looking for a new house?',
+      tr: 'Yeni bir ev arıyor olabilirler mi?',
+    },
+    {
+      ing: 'She may not agree with your suggestion.',
+      tr: 'Önerinle hemfikir olmayabilir.',
+    },
+    {
+      ing: 'Might he find the solution to the problem?',
+      tr: 'Sorunun çözümünü bulabilir mi?',
+    },
+    {
+      ing: 'The weather could be better tomorrow.',
+      tr: 'Hava yarın daha iyi olabilir.',
+    },
+    {
+      ing: 'We may need more information about the topic.',
+      tr: 'Konu hakkında daha fazla bilgiye ihtiyacımız olabilir.',
+    },
+    {
+      ing: 'She might not have enough time to prepare.',
+      tr: 'Hazırlanmak için yeterli zamanı olmayabilir.',
+    },
+    {
+      ing: 'Could it be a misunderstanding?',
+      tr: 'Bir yanlış anlama olabilir mi?',
+    },
+    {
+      ing: "He may know the answer, but he's not sure.",
+      tr: 'Cevabı biliyor olabilir ama emin değil.',
+    },
+    {
+      ing: 'You might feel better after taking a walk.',
+      tr: 'Yürüyüş yaptıktan sonra daha iyi hissedebilirsin.',
+    },
+    {
+      ing: 'The flight could be delayed due to bad weather.',
+      tr: 'Uçuş kötü hava koşulları nedeniyle ertelenebilir.',
+    },
+    {
+      ing: 'He may not be ready for the presentation.',
+      tr: 'Sunuma hazır olmayabilir.',
+    },
+    {
+      ing: 'Might she be considering a new job?',
+      tr: 'Yeni bir işi düşünüyor olabilir mi?',
+    },
+    {
+      ing: 'They could be staying at a hotel tonight.',
+      tr: 'Bu gece bir otelde kalıyor olabilirler.',
+    },
+    {
+      ing: 'We may arrive late if the traffic is heavy.',
+      tr: 'Trafik yoğunsa geç varabiliriz.',
+    },
+    {
+      ing: 'She might not be in a good mood today.',
+      tr: 'Bugün iyi bir ruh halinde olmayabilir.',
+    },
+    {
+      ing: 'Could he be hiding something from us?',
+      tr: 'Bizden bir şey saklıyor olabilir mi?',
+    },
+    {
+      ing: 'The cake may not taste as good as it looks.',
+      tr: 'Kek göründüğü kadar lezzetli olmayabilir.',
+    },
+    {
+      ing: 'He might have some problems with his car.',
+      tr: 'Arabasıyla ilgili bazı sorunları olabilir.',
+    },
+    {
+      ing: "They may think that we're not interested.",
+      tr: 'Bizim ilgilenmediğimizi düşünebilirler.',
+    },
+    {
+      ing: 'Could you be mistaken about the address?',
+      tr: 'Adres konusunda yanılıyor olabilir misin?',
+    },
+    {
+      ing: 'It might rain later in the afternoon.',
+      tr: 'Öğleden sonra yağmur yağabilir.',
+    },
+    {
+      ing: 'She may not remember what happened last week.',
+      tr: 'Geçen hafta ne olduğunu hatırlamayabilir.',
+    },
+    {
+      ing: 'He could find it difficult to adapt to the changes.',
+      tr: 'Değişikliklere uyum sağlamakta zorlanabilir.',
+    },
+    {
+      ing: 'We might be able to finish the work by Friday.',
+      tr: 'Cuma gününe kadar işi bitirebiliriz.',
+    },
+    {
+      ing: 'The results may not be what we expect.',
+      tr: 'Sonuçlar beklediğimiz gibi olmayabilir.',
+    },
+    {
+      ing: 'Could she be in the garden right now?',
+      tr: 'Şu anda bahçede olabilir mi?',
+    },
+    {
+      ing: "He might visit us when he's in town.",
+      tr: 'Şehre geldiğinde bizi ziyaret edebilir.',
+    },
+    {
+      ing: 'They may not be aware of the new rules.',
+      tr: 'Yeni kurallardan haberdar olmayabilirler.',
+    },
+    {
+      ing: 'It could be a good idea to double-check the details.',
+      tr: 'Detayları tekrar kontrol etmek iyi bir fikir olabilir.',
+    },
+    {
+      ing: 'She might feel uncomfortable in this situation.',
+      tr: 'Bu durumda rahatsız hissedebilir.',
+    },
+    {
+      ing: 'He may be waiting for your call.',
+      tr: 'Senin aramanı bekliyor olabilir.',
+    },
+    {
+      ing: "Could it be true that they're moving to another city?",
+      tr: 'Başka bir şehre taşındıkları doğru olabilir mi?',
+    },
+    {
+      ing: 'We might not have enough time to finish this task.',
+      tr: 'Bu görevi bitirmek için yeterli zamanımız olmayabilir.',
+    },
+    {
+      ing: 'The plan could fail if we don’t prepare properly.',
+      tr: 'Düzgün hazırlamazsak plan başarısız olabilir.',
+    },
+    {
+      ing: "She may think that we're joking.",
+      tr: 'Şaka yaptığımızı düşünebilir.',
+    },
+    {
+      ing: 'He might be the one responsible for the problem.',
+      tr: 'Sorunun sorumlusu o olabilir.',
+    },
+    {
+      ing: 'They could misunderstand what we mean.',
+      tr: 'Ne demek istediğimizi yanlış anlayabilirler.',
+    },
+    {
+      ing: 'It may not be the best day for a picnic.',
+      tr: 'Piknik için en iyi gün olmayabilir.',
+    },
+    {
+      ing: 'Might he be interested in joining our team?',
+      tr: 'Ekibimize katılmakla ilgilenebilir mi?',
+    },
+    {
+      ing: 'We could see a change in the market trends soon.',
+      tr: 'Yakında piyasa trendlerinde bir değişiklik görebiliriz.',
+    },
+    {
+      ing: 'She may not feel well enough to go out.',
+      tr: 'Dışarı çıkacak kadar iyi hissetmeyebilir.',
+    },
+    {
+      ing: 'He might help us with this project if we ask.',
+      tr: 'İstersek bu projede bize yardımcı olabilir.',
+    },
+    {
+      ing: 'Could they be talking about the same issue?',
+      tr: 'Aynı konu hakkında konuşuyor olabilirler mi?',
+    },
+    {
+      ing: 'The children may get bored if the movie is too long.',
+      tr: 'Film çok uzun olursa çocuklar sıkılabilir.',
+    },
+    {
+      ing: 'He might not recognize me after all these years.',
+      tr: 'Bunca yıl sonra beni tanımayabilir.',
+    },
+    {
+      ing: 'It could be a challenge to complete the work on time.',
+      tr: 'İşi zamanında tamamlamak zor olabilir.',
+    },
+    {
+      ing: 'We may need to make some adjustments to the plan.',
+      tr: 'Planda bazı değişiklikler yapmamız gerekebilir.',
+    },
+    {
+      ing: 'She might not be interested in attending the event.',
+      tr: 'Etkinliğe katılmakla ilgilenmeyebilir.',
+    },
+    {
+      ing: 'Could the lights be on by mistake?',
+      tr: 'Işıklar yanlışlıkla açık olabilir mi?',
+    },
+    {
+      ing: 'He may decide to stay at home today.',
+      tr: 'Bugün evde kalmaya karar verebilir.',
+    },
+    {
+      ing: 'They might be at the airport by now.',
+      tr: 'Şu anda havaalanında olabilirler.',
+    },
+    {
+      ing: 'It could be too late to change the reservation.',
+      tr: 'Rezervasyonu değiştirmek için çok geç olabilir.',
+    },
+    {
+      ing: 'She may have doubts about the project.',
+      tr: 'Proje hakkında şüpheleri olabilir.',
+    },
+    {
+      ing: 'He might try a different approach next time.',
+      tr: 'Bir dahaki sefere farklı bir yaklaşım deneyebilir.',
+    },
+    {
+      ing: 'We could have a problem with the schedule.',
+      tr: 'Programla ilgili bir sorunumuz olabilir.',
+    },
+    {
+      ing: 'It may not be safe to walk alone at night.',
+      tr: 'Gece yalnız yürümek güvenli olmayabilir.',
+    },
+    {
+      ing: 'Might they call us if they arrive early?',
+      tr: 'Erken gelirlerse bizi arayabilirler mi?',
+    },
+    {
+      ing: 'She could be at the gym right now.',
+      tr: 'Şu anda spor salonunda olabilir.',
+    },
+    {
+      ing: 'He may not have the right tools for the job.',
+      tr: 'İş için doğru araçlara sahip olmayabilir.',
+    },
+    {
+      ing: 'They might believe what we tell them.',
+      tr: 'Onlara söylediklerimize inanabilirler.',
+    },
+    {
+      ing: 'Could it be a better option than the last one?',
+      tr: 'Öncekinden daha iyi bir seçenek olabilir mi?',
+    },
+    {
+      ing: 'We may never know the real reason.',
+      tr: 'Gerçek nedeni asla bilemeyebiliriz.',
+    },
+    {
+      ing: 'She might want to talk to you about the issue.',
+      tr: 'Konu hakkında seninle konuşmak isteyebilir.',
+    },
+    {
+      ing: "He could get lost if he doesn't use a map.",
+      tr: 'Harita kullanmazsa kaybolabilir.',
+    },
+    {
+      ing: 'The meeting may not happen today as planned.',
+      tr: 'Toplantı planlandığı gibi bugün gerçekleşmeyebilir.',
+    },
+    {
+      ing: 'Might you join us for dinner tonight?',
+      tr: 'Bu akşam yemeğe katılabilir misin?',
+    },
+    {
+      ing: 'They could face some difficulties in the project.',
+      tr: 'Projede bazı zorluklarla karşılaşabilirler.',
+    },
+    {
+      ing: 'It may be risky to invest in that stock.',
+      tr: 'O hisseye yatırım yapmak riskli olabilir.',
+    },
+    {
+      ing: 'She might be waiting for a response from us.',
+      tr: 'Bizden bir yanıt bekliyor olabilir.',
+    },
+    {
+      ing: 'He may not know how to solve the problem.',
+      tr: 'Sorunu nasıl çözeceğini bilmiyor olabilir.',
+    },
+    {
+      ing: 'We could see them at the meeting next week.',
+      tr: 'Onları gelecek hafta toplantıda görebiliriz.',
+    },
+    {
+      ing: 'Could it be that they forgot the meeting time?',
+      tr: 'Toplantı saatini unutmuş olabilirler mi?',
+    },
+    {
+      ing: "You might get sick if you don't dress warmly.",
+      tr: 'Sıcak giyinmezsen hasta olabilirsin.',
+    },
+    {
+      ing: 'He may come to the party later.',
+      tr: 'Partiye daha sonra gelebilir.',
+    },
+    {
+      ing: 'She might not feel comfortable in that outfit.',
+      tr: 'O kıyafette rahat hissetmeyebilir.',
+    },
+    {
+      ing: 'They could be planning a trip soon.',
+      tr: 'Yakında bir gezi planlıyor olabilirler.',
+    },
+    {
+      ing: 'We may never understand their decision.',
+      tr: 'Kararlarını asla anlamayabiliriz.',
+    },
+    {
+      ing: 'Might he have second thoughts about this?',
+      tr: 'Bu konuda tereddüt ediyor olabilir mi?',
+    },
+    {
+      ing: 'It could rain heavily in the evening.',
+      tr: 'Akşam saatlerinde şiddetli yağmur yağabilir.',
+    },
+    {
+      ing: 'She may not finish the project by the deadline.',
+      tr: 'Projeyi son teslim tarihine kadar bitiremeyebilir.',
+    },
+    {
+      ing: "He might forget the meeting if we don't remind him.",
+      tr: 'Hatırlatmazsak toplantıyı unutabilir.',
+    },
+    {
+      ing: 'They could be watching a movie right now.',
+      tr: 'Şu anda film izliyor olabilirler.',
+    },
+    {
+      ing: 'We may get some good news soon.',
+      tr: 'Yakında iyi haberler alabiliriz.',
+    },
+    {
+      ing: 'She may arrive earlier than expected.',
+      tr: 'Beklenenden daha erken gelebilir.',
+    },
+    {
+      ing: 'He might have a surprise for us today.',
+      tr: 'Bugün bizim için bir sürprizi olabilir.',
+    },
+    {
+      ing: 'They could be in the meeting room right now.',
+      tr: 'Şu anda toplantı odasında olabilirler.',
+    },
+    {
+      ing: 'The results may not be accurate.',
+      tr: 'Sonuçlar doğru olmayabilir.',
+    },
+    {
+      ing: 'You might need to explain it again.',
+      tr: 'Tekrar açıklaman gerekebilir.',
+    },
+    {
+      ing: 'Could he be telling the truth this time?',
+      tr: 'Bu sefer gerçeği söylüyor olabilir mi?',
+    },
+    {
+      ing: 'We may not have enough supplies for everyone.',
+      tr: 'Herkes için yeterli malzememiz olmayabilir.',
+    },
+    {
+      ing: 'She might not want to discuss her problems.',
+      tr: 'Problemlerini tartışmak istemeyebilir.',
+    },
+    {
+      ing: 'The restaurant could be full tonight.',
+      tr: 'Restoran bu gece dolu olabilir.',
+    },
+    {
+      ing: 'He may be thinking about a new business idea.',
+      tr: 'Yeni bir iş fikri düşünüyor olabilir.',
+    },
+    {
+      ing: 'They might feel nervous before the presentation.',
+      tr: 'Sunumdan önce gergin hissedebilirler.',
+    },
+    {
+      ing: 'It could be a sign of something important.',
+      tr: 'Önemli bir şeyin işareti olabilir.',
+    },
+    {
+      ing: 'We may not reach our destination on time.',
+      tr: 'Hedefimize zamanında varamayabiliriz.',
+    },
+    {
+      ing: 'Could she still be at work this late?',
+      tr: 'Bu kadar geç saatte hala işte olabilir mi?',
+    },
+    {
+      ing: 'He might need more time to complete the task.',
+      tr: 'Görevi tamamlamak için daha fazla zamana ihtiyacı olabilir.',
+    },
+    {
+      ing: 'You may regret your decision later.',
+      tr: 'Kararından sonra pişman olabilirsin.',
+    },
+    {
+      ing: 'They might not believe what we tell them.',
+      tr: 'Onlara söylediğimize inanmayabilirler.',
+    },
+    {
+      ing: 'The store could have a sale next week.',
+      tr: 'Mağaza gelecek hafta indirim yapabilir.',
+    },
+    {
+      ing: 'She may be in a meeting with her boss.',
+      tr: 'Patronuyla bir toplantıda olabilir.',
+    },
+    {
+      ing: 'He might not hear you if you speak softly.',
+      tr: 'Yavaş konuşursan seni duymayabilir.',
+    },
+    {
+      ing: 'Could it be a misunderstanding between us?',
+      tr: 'Aramızda bir yanlış anlama olabilir mi?',
+    },
+    {
+      ing: 'We may face some challenges in the project.',
+      tr: 'Projede bazı zorluklarla karşılaşabiliriz.',
+    },
+    {
+      ing: 'She might take a different route to work.',
+      tr: 'İşe farklı bir yol kullanabilir.',
+    },
+    {
+      ing: 'He could be planning to move to another city.',
+      tr: 'Başka bir şehre taşınmayı planlıyor olabilir.',
+    },
+    {
+      ing: 'You may find the answer in the book.',
+      tr: 'Cevabı kitapta bulabilirsin.',
+    },
+    {
+      ing: 'They might not have the correct information.',
+      tr: 'Doğru bilgiye sahip olmayabilirler.',
+    },
+    {
+      ing: 'It could take longer than we thought.',
+      tr: 'Düşündüğümüzden daha uzun sürebilir.',
+    },
+    {
+      ing: 'She may feel uncertain about the decision.',
+      tr: 'Karar hakkında kararsız hissedebilir.',
+    },
+    {
+      ing: 'He might not agree with the proposal.',
+      tr: 'Teklife katılmayabilir.',
+    },
+    {
+      ing: 'Could they be meeting us at the restaurant?',
+      tr: 'Restoranda bizimle buluşuyor olabilirler mi?',
+    },
+    {
+      ing: 'The event may get canceled due to the weather.',
+      tr: 'Etkinlik hava durumu nedeniyle iptal olabilir.',
+    },
+    {
+      ing: 'She might visit us if she has time.',
+      tr: 'Zamanı olursa bizi ziyaret edebilir.',
+    },
+    {
+      ing: 'He could be busy with his family today.',
+      tr: 'Bugün ailesiyle meşgul olabilir.',
+    },
+    {
+      ing: 'You may not like the food at that place.',
+      tr: 'O yerdeki yemeği beğenmeyebilirsin.',
+    },
+    {
+      ing: 'They might choose to stay at home tonight.',
+      tr: 'Bu gece evde kalmayı tercih edebilirler.',
+    },
+    {
+      ing: 'It could be the last chance to join the team.',
+      tr: 'Takıma katılmak için son şans olabilir.',
+    },
+    {
+      ing: 'She may already know about the problem.',
+      tr: 'Sorunu zaten biliyor olabilir.',
+    },
+    {
+      ing: 'He might not remember meeting you before.',
+      tr: 'Sizinle daha önce tanıştığını hatırlamayabilir.',
+    },
+    {
+      ing: 'Could it be too expensive for us to afford?',
+      tr: 'Bize çok pahalı olabilir mi?',
+    },
+    {
+      ing: 'We may see some progress by the end of the week.',
+      tr: 'Hafta sonuna kadar biraz ilerleme görebiliriz.',
+    },
+    {
+      ing: 'She might feel lonely in the new city.',
+      tr: 'Yeni şehirde yalnız hissedebilir.',
+    },
+    {
+      ing: 'He could be looking for a new job opportunity.',
+      tr: 'Yeni bir iş fırsatı arıyor olabilir.',
+    },
+    {
+      ing: 'You may not agree with my opinion.',
+      tr: 'Benim görüşüme katılmayabilirsin.',
+    },
+    {
+      ing: 'They might change their plans at the last minute.',
+      tr: 'Son anda planlarını değiştirebilirler.',
+    },
+    {
+      ing: 'It could be a mistake to trust that company.',
+      tr: 'O şirkete güvenmek bir hata olabilir.',
+    },
+    {
+      ing: 'She may be waiting for your message.',
+      tr: 'Mesajını bekliyor olabilir.',
+    },
+    {
+      ing: 'He might find it hard to make a decision.',
+      tr: 'Karar vermekte zorlanabilir.',
+    },
+    {
+      ing: 'Could they be hiding something from us?',
+      tr: 'Bizden bir şey saklıyor olabilirler mi?',
+    },
+    {
+      ing: 'We may not have all the details yet.',
+      tr: 'Henüz tüm detaylara sahip olmayabiliriz.',
+    },
+    {
+      ing: 'She might leave earlier if the meeting ends soon.',
+      tr: 'Toplantı erken biterse daha erken ayrılabilir.',
+    },
+    {
+      ing: 'He could have doubts about the project.',
+      tr: 'Proje hakkında şüpheleri olabilir.',
+    },
+    {
+      ing: 'The kids may be playing in the garden.',
+      tr: 'Çocuklar bahçede oynuyor olabilir.',
+    },
+    {
+      ing: 'You might feel anxious about the upcoming exam.',
+      tr: 'Yaklaşan sınav hakkında endişeli hissedebilirsin.',
+    },
+    {
+      ing: 'It could be a good idea to call before visiting.',
+      tr: 'Ziyaret etmeden önce aramak iyi bir fikir olabilir.',
+    },
+    {
+      ing: 'They may prefer to take a taxi.',
+      tr: 'Taksiye binmeyi tercih edebilirler.',
+    },
+    {
+      ing: 'She might not enjoy the party atmosphere.',
+      tr: 'Partinin atmosferinden hoşlanmayabilir.',
+    },
+    {
+      ing: 'Could he be thinking about moving abroad?',
+      tr: 'Yurt dışına taşınmayı düşünüyor olabilir mi?',
+    },
+    {
+      ing: 'We may have to postpone our trip.',
+      tr: 'Seyahatimizi ertelemek zorunda kalabiliriz.',
+    },
+    {
+      ing: 'She might be looking for a new place to live.',
+      tr: 'Yaşamak için yeni bir yer arıyor olabilir.',
+    },
+    {
+      ing: 'He could have second thoughts about the decision.',
+      tr: 'Karar hakkında ikinci düşünceler olabilir.',
+    },
+    {ing: 'It may snow in the evening.', tr: 'Akşam kar yağabilir.'},
+    {
+      ing: 'You might not see her if you arrive late.',
+      tr: 'Geç gelirsen onu göremeyebilirsin.',
+    },
+    {
+      ing: 'They could be running late for the appointment.',
+      tr: 'Randevuya geç kalıyor olabilirler.',
+    },
+    {
+      ing: 'She may feel uncomfortable with the arrangement.',
+      tr: 'Düzenlemeden rahatsız hissedebilir.',
+    },
+    {
+      ing: 'He might need more information to make a decision.',
+      tr: 'Karar vermek için daha fazla bilgiye ihtiyacı olabilir.',
+    },
+    {
+      ing: 'Could we be making a mistake with this plan?',
+      tr: 'Bu planla hata yapıyor olabilir miyiz?',
+    },
+    {
+      ing: 'The weather may not improve by tomorrow.',
+      tr: 'Hava durumu yarına kadar düzelmeyebilir.',
+    },
+    {
+      ing: 'She might not find the answer she’s looking for.',
+      tr: 'Aradığı cevabı bulamayabilir.',
+    },
+    {
+      ing: 'He could be worried about the deadline.',
+      tr: 'Son tarih hakkında endişeli olabilir.',
+    },
+    {
+      ing: 'You may enjoy the new restaurant in town.',
+      tr: 'Şehirdeki yeni restorandan hoşlanabilirsin.',
+    },
+    {
+      ing: 'They might need more time to think it over.',
+      tr: 'Düşünmek için daha fazla zamana ihtiyaçları olabilir.',
+    },
+    {
+      ing: 'It could be the best decision you ever make.',
+      tr: 'Vereceğin en iyi karar olabilir.',
+    },
+    {
+      ing: 'She may not recognize the place anymore.',
+      tr: 'Artık bu yeri tanımayabilir.',
+    },
+    {
+      ing: 'He might have a meeting later in the afternoon.',
+      tr: 'Öğleden sonra bir toplantısı olabilir.',
+    },
+    {
+      ing: 'Could the train be delayed again?',
+      tr: 'Tren yine gecikmiş olabilir mi?',
+    },
+    {
+      ing: 'We may consider other options.',
+      tr: 'Diğer seçenekleri düşünebiliriz.',
+    },
+    {
+      ing: 'She might not have the patience for this task.',
+      tr: 'Bu görev için sabrı olmayabilir.',
+    },
+    {
+      ing: "He could get frustrated if things don't go well.",
+      tr: 'İşler yolunda gitmezse sinirlenebilir.',
+    },
+    {
+      ing: 'It may not be possible to reach them today.',
+      tr: 'Bugün onlara ulaşmak mümkün olmayabilir.',
+    },
+    {
+      ing: 'You might change your mind after hearing the details.',
+      tr: 'Detayları duyduktan sonra fikrini değiştirebilirsin.',
+    },
+    {
+      ing: 'They could be planning a celebration.',
+      tr: 'Bir kutlama planlıyor olabilirler.',
+    },
+    {
+      ing: 'She may choose to ignore the comments.',
+      tr: 'Yorumları görmezden gelmeyi tercih edebilir.',
+    },
+    {
+      ing: 'He might not be as confident as he seems.',
+      tr: 'Göründüğü kadar kendine güvenli olmayabilir.',
+    },
+    {
+      ing: 'Could it be a sign of a bigger issue?',
+      tr: 'Daha büyük bir sorunun işareti olabilir mi?',
+    },
+    {
+      ing: 'We may get lost without a map.',
+      tr: 'Harita olmadan kaybolabiliriz.',
+    },
+    {
+      ing: 'She might visit the art gallery this weekend.',
+      tr: 'Bu hafta sonu sanat galerisine gidebilir.',
+    },
+    {
+      ing: 'He could be in a meeting all day.',
+      tr: 'Bütün gün bir toplantıda olabilir.',
+    },
+    {
+      ing: 'The delivery may not arrive on time.',
+      tr: 'Teslimat zamanında gelmeyebilir.',
+    },
+    {
+      ing: 'You might enjoy the movie more than you think.',
+      tr: 'Filmden düşündüğünden daha çok hoşlanabilirsin.',
+    },
+    {
+      ing: 'They could find a solution to the problem.',
+      tr: 'Soruna bir çözüm bulabilirler.',
+    },
+    {
+      ing: 'She may not like the new changes at work.',
+      tr: 'İş yerindeki yeni değişiklikleri beğenmeyebilir.',
+    },
+    {
+      ing: 'He might already know the secret.',
+      tr: 'Sırrı zaten biliyor olabilir.',
+    },
+    {
+      ing: 'Could we face difficulties with this approach?',
+      tr: 'Bu yaklaşımla zorluklarla karşılaşabilir miyiz?',
+    },
+    {
+      ing: 'The weather may stay warm all week.',
+      tr: 'Hava tüm hafta sıcak kalabilir.',
+    },
+    {
+      ing: 'She might not trust him completely.',
+      tr: 'Ona tamamen güvenmeyebilir.',
+    },
+    {
+      ing: 'He could discover something unexpected.',
+      tr: 'Beklenmedik bir şey keşfedebilir.',
+    },
+    {
+      ing: 'You may want to reconsider your choice.',
+      tr: 'Seçimini yeniden gözden geçirmek isteyebilirsin.',
+    },
+    {
+      ing: 'They might arrive earlier than planned.',
+      tr: 'Planlanandan daha erken varabilirler.',
+    },
+    {
+      ing: 'It could be a tough decision to make.',
+      tr: 'Verilmesi zor bir karar olabilir.',
+    },
+    {
+      ing: 'We may never understand their logic.',
+      tr: 'Mantıklarını asla anlayamayabiliriz.',
+    },
+  ],
+  Must: [
+    {
+      ing: 'I must study hard for my exams.',
+      tr: 'Sınavlarım için çok çalışmalıyım.',
+    },
+    {
+      ing: "She mustn't go outside without a coat.",
+      tr: 'O, montsuz dışarı çıkmamalı.',
+    },
+    {
+      ing: 'Must we finish the homework today?',
+      tr: 'Ödevi bugün bitirmek zorunda mıyız?',
+    },
+    {
+      ing: "He must be at home now; it's already late.",
+      tr: 'O şimdi evde olmalı; zaten geç oldu.',
+    },
+    {
+      ing: "You mustn't touch the hot stove.",
+      tr: 'Sıcak ocağa dokunmamalısın.',
+    },
+    {
+      ing: 'They must arrive at the meeting on time.',
+      tr: 'Onlar toplantıya zamanında varmalılar.',
+    },
+    {
+      ing: 'I must not forget to call my mom tonight.',
+      tr: 'Bu gece annemi aramayı unutmamalıyım.',
+    },
+    {
+      ing: 'Must she always talk so loudly?',
+      tr: 'O her zaman bu kadar yüksek sesle konuşmak zorunda mı?',
+    },
+    {
+      ing: 'We must take the medicine twice a day.',
+      tr: 'İlacı günde iki kez almalıyız.',
+    },
+    {
+      ing: "He mustn't be late for his interview.",
+      tr: 'O mülakatına geç kalmamalı.',
+    },
+    {
+      ing: 'You must listen to your teacher in class.',
+      tr: 'Sınıfta öğretmenini dinlemelisin.',
+    },
+    {
+      ing: 'Must they really leave so soon?',
+      tr: 'Gerçekten bu kadar erken gitmek zorundalar mı?',
+    },
+    {
+      ing: 'She must complete her assignment by tomorrow.',
+      tr: 'O, ödevini yarına kadar bitirmeli.',
+    },
+    {
+      ing: 'I must lock the door before I go to bed.',
+      tr: 'Yatmadan önce kapıyı kilitlemeliyim.',
+    },
+    {
+      ing: "We mustn't forget the keys at home.",
+      tr: 'Anahtarları evde unutmamalıyız.',
+    },
+    {
+      ing: 'Must I bring my own lunch to work?',
+      tr: 'İşe kendi yemeğimi getirmek zorunda mıyım?',
+    },
+    {
+      ing: 'He must pay his bills on time.',
+      tr: 'O, faturalarını zamanında ödemeli.',
+    },
+    {
+      ing: 'You must not disturb the baby while he is sleeping.',
+      tr: 'Bebek uyurken onu rahatsız etmemelisin.',
+    },
+    {
+      ing: 'She must be really tired after that long journey.',
+      tr: 'O uzun yolculuktan sonra gerçekten yorgun olmalı.',
+    },
+    {
+      ing: 'Must we wear formal clothes to the event?',
+      tr: 'Etkinliğe resmi kıyafetler giymek zorunda mıyız?',
+    },
+    {
+      ing: 'I must finish reading this book by the weekend.',
+      tr: 'Bu kitabı hafta sonuna kadar bitirmeliyim.',
+    },
+    {
+      ing: 'They must not park their car here.',
+      tr: 'Arabalarını buraya park etmemeliler.',
+    },
+    {
+      ing: 'He must call his parents every week.',
+      tr: 'O, her hafta ailesini aramalı.',
+    },
+    {
+      ing: 'Must she always be so rude to everyone?',
+      tr: 'O her zaman herkese karşı bu kadar kaba olmak zorunda mı?',
+    },
+    {
+      ing: 'We must stay quiet in the library.',
+      tr: 'Kütüphanede sessiz kalmalıyız.',
+    },
+    {
+      ing: "You mustn't eat so much junk food.",
+      tr: 'Bu kadar fazla abur cubur yememelisin.',
+    },
+    {
+      ing: 'Must I clean the house today?',
+      tr: 'Bugün evi temizlemek zorunda mıyım?',
+    },
+    {
+      ing: "He must take a break if he's feeling tired.",
+      tr: 'Eğer yorgun hissediyorsa bir ara vermeli.',
+    },
+    {
+      ing: "She mustn't drive too fast on this road.",
+      tr: 'Bu yolda çok hızlı sürmemeli.',
+    },
+    {
+      ing: 'I must call the doctor if my condition worsens.',
+      tr: 'Durumum kötüleşirse doktoru aramalıyım.',
+    },
+    {
+      ing: 'Must we really attend that boring meeting?',
+      tr: 'Gerçekten o sıkıcı toplantıya katılmak zorunda mıyız?',
+    },
+    {
+      ing: 'You must finish your meal before leaving the table.',
+      tr: 'Masadan kalkmadan önce yemeğini bitirmelisin.',
+    },
+    {
+      ing: 'He must apologize to his friend for the mistake.',
+      tr: 'O, hatası için arkadaşından özür dilemeli.',
+    },
+    {
+      ing: "She mustn't stay up too late on a school night.",
+      tr: 'Okul gecesinde çok geç saatlere kadar kalmamalı.',
+    },
+    {
+      ing: 'I must exercise more to stay healthy.',
+      tr: 'Sağlıklı kalmak için daha fazla egzersiz yapmalıyım.',
+    },
+    {
+      ing: 'Must they bring their own tools to the workshop?',
+      tr: 'Atölyeye kendi aletlerini getirmek zorundalar mı?',
+    },
+    {
+      ing: "We mustn't waste water during the summer.",
+      tr: 'Yaz aylarında suyu boşa harcamamalıyız.',
+    },
+    {
+      ing: 'You must take your umbrella with you; it might rain.',
+      tr: 'Şemsiyeni yanına almalısın; yağmur yağabilir.',
+    },
+    {
+      ing: 'He must not make any noise while the baby is sleeping.',
+      tr: 'Bebek uyurken hiç ses çıkarmamalı.',
+    },
+    {
+      ing: 'Must she always interrupt when someone is talking?',
+      tr: 'Birisi konuşurken her zaman sözünü kesmek zorunda mı?',
+    },
+    {
+      ing: 'I must charge my phone before I leave the house.',
+      tr: 'Evden çıkmadan önce telefonumu şarj etmeliyim.',
+    },
+    {
+      ing: 'They must prepare for the exam well in advance.',
+      tr: 'Sınav için önceden iyi hazırlanmalılar.',
+    },
+    {
+      ing: "She mustn't forget her appointment with the dentist.",
+      tr: 'Dişçi randevusunu unutmamalı.',
+    },
+    {
+      ing: 'Must you ask so many questions all the time?',
+      tr: 'Her zaman bu kadar çok soru sormak zorunda mısın?',
+    },
+    {
+      ing: 'We must wear helmets when riding a bike.',
+      tr: 'Bisiklet sürerken kask takmalıyız.',
+    },
+    {
+      ing: "He mustn't lie to his friends.",
+      tr: 'O, arkadaşlarına yalan söylememeli.',
+    },
+    {
+      ing: 'Must I sign the document today?',
+      tr: 'Bugün belgeyi imzalamak zorunda mıyım?',
+    },
+    {
+      ing: 'You must speak clearly during the presentation.',
+      tr: 'Sunum sırasında net konuşmalısın.',
+    },
+    {
+      ing: 'She must be careful while crossing the street.',
+      tr: 'Karşıdan karşıya geçerken dikkatli olmalı.',
+    },
+    {
+      ing: "They mustn't go out late at night.",
+      tr: 'Gece geç saatlerde dışarı çıkmamalılar.',
+    },
+    {
+      ing: 'I must remember to feed the cat in the morning.',
+      tr: 'Sabah kediyi beslemeyi hatırlamalıyım.',
+    },
+    {
+      ing: 'Must we submit the report by Friday?',
+      tr: 'Raporu Cuma gününe kadar teslim etmek zorunda mıyız?',
+    },
+    {
+      ing: 'He must focus on his studies more.',
+      tr: 'O, derslerine daha fazla odaklanmalı.',
+    },
+    {
+      ing: "She mustn't use her phone during the meeting.",
+      tr: 'Toplantı sırasında telefonunu kullanmamalı.',
+    },
+    {
+      ing: 'We must visit our grandparents more often.',
+      tr: 'Büyüklerimizi daha sık ziyaret etmeliyiz.',
+    },
+    {
+      ing: 'You must not forget to bring your ID card.',
+      tr: 'Kimlik kartını getirmeyi unutmamalısın.',
+    },
+    {
+      ing: 'Must they pay the fee in cash?',
+      tr: 'Ücreti nakit olarak ödemek zorundalar mı?',
+    },
+    {
+      ing: 'I must organize my desk before starting work.',
+      tr: 'Çalışmaya başlamadan önce masamı düzenlemeliyim.',
+    },
+    {
+      ing: "He must be at the airport by 8 o'clock.",
+      tr: "O, saat 8'de havaalanında olmalı.",
+    },
+    {
+      ing: "She mustn't share her password with anyone.",
+      tr: 'Parolasını kimseyle paylaşmamalı.',
+    },
+    {
+      ing: 'Must we clean the house every weekend?',
+      tr: 'Her hafta sonu evi temizlemek zorunda mıyız?',
+    },
+    {
+      ing: 'You must stay calm during the emergency.',
+      tr: 'Acil durum sırasında sakin kalmalısın.',
+    },
+    {
+      ing: 'He must visit the doctor for a check-up.',
+      tr: 'O, kontrol için doktora gitmeli.',
+    },
+    {
+      ing: 'She must not skip her daily exercise routine.',
+      tr: 'Günlük egzersiz rutini atlamamalı.',
+    },
+    {
+      ing: 'We must pack our bags tonight.',
+      tr: 'Bu gece çantalarımızı hazırlamalıyız.',
+    },
+    {
+      ing: 'Must you always be so negative?',
+      tr: 'Her zaman bu kadar olumsuz olmak zorunda mısın?',
+    },
+    {
+      ing: "They must respect each other's opinions.",
+      tr: 'Birbirlerinin görüşlerine saygı duymalılar.',
+    },
+    {ing: 'I must take care of my health.', tr: 'Sağlığıma dikkat etmeliyim.'},
+    {
+      ing: "You mustn't be rude to your elders.",
+      tr: 'Büyüklerine karşı kaba olmamalısın.',
+    },
+    {ing: 'Must he leave right now?', tr: 'O, hemen şimdi gitmek zorunda mı?'},
+    {
+      ing: 'She must improve her language skills.',
+      tr: 'O, dil becerilerini geliştirmeli.',
+    },
+    {
+      ing: "We mustn't forget to turn off the lights.",
+      tr: 'Işıkları kapatmayı unutmamalıyız.',
+    },
+    {
+      ing: 'Must they sign the agreement?',
+      tr: 'Anlaşmayı imzalamak zorundalar mı?',
+    },
+    {
+      ing: 'He must practice more to get better.',
+      tr: 'O, daha iyi olmak için daha çok pratik yapmalı.',
+    },
+    {
+      ing: 'I must water the plants every day.',
+      tr: 'Her gün bitkileri sulamalıyım.',
+    },
+    {
+      ing: "You mustn't eat too much sugar; it's bad for your health.",
+      tr: 'Çok fazla şeker yememelisin; sağlığın için kötü.',
+    },
+    {
+      ing: 'Must I wear a tie to the meeting?',
+      tr: 'Toplantıya kravat takmak zorunda mıyım?',
+    },
+    {
+      ing: 'He must visit his grandmother this weekend.',
+      tr: 'Bu hafta sonu büyükannesini ziyaret etmeli.',
+    },
+    {
+      ing: "She mustn't leave the house without locking the door.",
+      tr: 'Kapıyı kilitlemeden evden çıkmamalı.',
+    },
+    {
+      ing: 'We must book our tickets early to get a good seat.',
+      tr: 'İyi bir koltuk bulmak için biletlerimizi erken ayırtmalıyız.',
+    },
+    {
+      ing: 'Must they always talk so loudly in the library?',
+      tr: 'Kütüphanede her zaman bu kadar yüksek sesle konuşmak zorundalar mı?',
+    },
+    {ing: 'I must go to bed early tonight.', tr: 'Bu gece erken yatmalıyım.'},
+    {
+      ing: 'You must not forget to charge your phone before the trip.',
+      tr: 'Seyahatten önce telefonunu şarj etmeyi unutmamalısın.',
+    },
+    {
+      ing: 'He must finish his work before the deadline.',
+      tr: 'O, işini son teslim tarihinden önce bitirmeli.',
+    },
+    {
+      ing: "She mustn't interrupt people when they are speaking.",
+      tr: 'İnsanlar konuşurken sözlerini kesmemeli.',
+    },
+    {
+      ing: 'Must we bring our own laptops to the workshop?',
+      tr: 'Atölyeye kendi dizüstü bilgisayarlarımızı getirmek zorunda mıyız?',
+    },
+    {
+      ing: 'They must clean up their room before they leave.',
+      tr: 'Ayrılmadan önce odalarını temizlemeliler.',
+    },
+    {
+      ing: 'I must not lose this important document.',
+      tr: 'Bu önemli belgeyi kaybetmemeliyim.',
+    },
+    {
+      ing: 'You must listen carefully to the instructions.',
+      tr: 'Talimatları dikkatlice dinlemelisin.',
+    },
+    {
+      ing: 'Must he always make so much noise?',
+      tr: 'O her zaman bu kadar çok gürültü yapmak zorunda mı?',
+    },
+    {
+      ing: 'She must write a thank-you note to her teacher.',
+      tr: 'O, öğretmenine bir teşekkür notu yazmalı.',
+    },
+    {
+      ing: "We mustn't leave any trash in the park.",
+      tr: 'Parkta hiçbir çöp bırakmamalıyız.',
+    },
+    {
+      ing: 'I must complete my assignment by tonight.',
+      tr: 'Ödevimi bu geceye kadar tamamlamalıyım.',
+    },
+    {
+      ing: 'Must they attend the training session tomorrow?',
+      tr: 'Yarınki eğitim oturumuna katılmak zorundalar mı?',
+    },
+    {
+      ing: 'He must not smoke in this area.',
+      tr: 'O, bu alanda sigara içmemeli.',
+    },
+    {
+      ing: 'You must try this new restaurant; the food is amazing.',
+      tr: 'Bu yeni restoranı denemelisin; yemekler harika.',
+    },
+    {
+      ing: "She mustn't skip her breakfast in the morning.",
+      tr: 'Sabah kahvaltısını atlamamalı.',
+    },
+    {
+      ing: 'Must I always be the one to do the dishes?',
+      tr: 'Her zaman bulaşıkları ben mi yıkamak zorundayım?',
+    },
+    {
+      ing: 'We must recycle more to protect the environment.',
+      tr: 'Çevreyi korumak için daha fazla geri dönüştürmeliyiz.',
+    },
+    {
+      ing: "He mustn't speak to his parents in that tone.",
+      tr: 'O, ailesiyle bu tonda konuşmamalı.',
+    },
+    {
+      ing: 'You must be careful while driving in the rain.',
+      tr: 'Yağmurda araba sürerken dikkatli olmalısın.',
+    },
+    {
+      ing: 'Must she leave so early in the morning?',
+      tr: 'Sabah çok erken mi gitmek zorunda?',
+    },
+    {
+      ing: "They mustn't ignore the safety rules at work.",
+      tr: 'İş yerindeki güvenlik kurallarını görmezden gelmemeliler.',
+    },
+    {
+      ing: 'I must call my friend to ask about the meeting.',
+      tr: 'Toplantı hakkında sormak için arkadaşımı aramalıyım.',
+    },
+    {
+      ing: 'You must bring your passport for international travel.',
+      tr: 'Uluslararası seyahat için pasaportunu getirmelisin.',
+    },
+    {
+      ing: 'He must not be late to pick up his kids from school.',
+      tr: 'O, çocuklarını okuldan almaya geç kalmamalı.',
+    },
+    {
+      ing: 'Must we always follow the same routine every day?',
+      tr: 'Her gün aynı rutini takip etmek zorunda mıyız?',
+    },
+    {
+      ing: 'She must clean the kitchen after cooking.',
+      tr: 'O, yemek pişirdikten sonra mutfağı temizlemeli.',
+    },
+    {
+      ing: "We mustn't speak loudly in the hospital.",
+      tr: 'Hastanede yüksek sesle konuşmamalıyız.',
+    },
+    {
+      ing: 'I must complete my project before the weekend.',
+      tr: 'Hafta sonundan önce projemi tamamlamalıyım.',
+    },
+    {
+      ing: 'You must not argue with your boss.',
+      tr: 'Patronunla tartışmamalısın.',
+    },
+    {
+      ing: 'Must they finish their homework by Friday?',
+      tr: 'Ödevlerini Cuma gününe kadar bitirmek zorundalar mı?',
+    },
+    {
+      ing: 'He must go to bed early to wake up on time.',
+      tr: 'Zamanında uyanmak için erken yatmalı.',
+    },
+    {
+      ing: "She mustn't wear casual clothes to the wedding.",
+      tr: 'Düğüne günlük kıyafet giymemeli.',
+    },
+    {
+      ing: 'We must learn more about this topic before the exam.',
+      tr: 'Sınavdan önce bu konu hakkında daha fazla şey öğrenmeliyiz.',
+    },
+    {
+      ing: 'I must not let this opportunity slip away.',
+      tr: 'Bu fırsatın kaçmasına izin vermemeliyim.',
+    },
+    {
+      ing: 'Must you always be so pessimistic about everything?',
+      tr: 'Her şey hakkında bu kadar karamsar olmak zorunda mısın?',
+    },
+    {
+      ing: 'He must check his emails regularly.',
+      tr: 'O, e-postalarını düzenli olarak kontrol etmeli.',
+    },
+    {
+      ing: "You mustn't stay up too late; you have school tomorrow.",
+      tr: 'Çok geç saatlere kadar kalmamalısın; yarın okulun var.',
+    },
+    {
+      ing: 'Must we always eat at the same restaurant?',
+      tr: 'Her zaman aynı restoranda mı yemek zorundayız?',
+    },
+    {
+      ing: 'She must be at work by 9 a.m.',
+      tr: "O, saat 9'a kadar işte olmalı.",
+    },
+    {
+      ing: "We mustn't be rude to our guests.",
+      tr: 'Misafirlerimize karşı kaba olmamalıyız.',
+    },
+    {
+      ing: 'I must try to improve my English skills.',
+      tr: 'İngilizce becerilerimi geliştirmeye çalışmalıyım.',
+    },
+    {
+      ing: 'Must he always complain about his job?',
+      tr: 'O, her zaman işi hakkında şikayet etmek zorunda mı?',
+    },
+    {
+      ing: 'You must save money for your future.',
+      tr: 'Geleceğin için para biriktirmelisin.',
+    },
+    {
+      ing: "He mustn't shout at his little brother.",
+      tr: 'O, küçük kardeşine bağırmamalı.',
+    },
+    {
+      ing: 'She must not leave her bag unattended.',
+      tr: 'O, çantasını sahipsiz bırakmamalı.',
+    },
+    {
+      ing: 'Must we make a reservation before going to the restaurant?',
+      tr: 'Restorana gitmeden önce rezervasyon yapmak zorunda mıyız?',
+    },
+    {
+      ing: 'They must learn to respect each other.',
+      tr: 'Birbirlerine saygı duymayı öğrenmeliler.',
+    },
+    {
+      ing: 'I must remember to buy milk on my way home.',
+      tr: 'Eve giderken süt almayı hatırlamalıyım.',
+    },
+    {
+      ing: "You mustn't forget to lock the front door.",
+      tr: 'Ön kapıyı kilitlemeyi unutmamalısın.',
+    },
+    {
+      ing: 'Must she always take things so seriously?',
+      tr: 'O her zaman her şeyi bu kadar ciddiye almak zorunda mı?',
+    },
+    {
+      ing: 'He must clean his room before guests arrive.',
+      tr: 'Misafirler gelmeden önce odasını temizlemeli.',
+    },
+    {
+      ing: "We mustn't argue in front of the children.",
+      tr: 'Çocukların önünde tartışmamalıyız.',
+    },
+    {
+      ing: 'I must exercise regularly to stay healthy.',
+      tr: 'Sağlıklı kalmak için düzenli olarak egzersiz yapmalıyım.',
+    },
+    {
+      ing: 'Must you really leave so early in the morning?',
+      tr: 'Gerçekten sabah bu kadar erken mi ayrılmak zorundasın?',
+    },
+    {
+      ing: "She mustn't drive without her seatbelt.",
+      tr: 'O, emniyet kemeri olmadan araba kullanmamalı.',
+    },
+    {
+      ing: 'We must follow the rules to stay safe.',
+      tr: 'Güvende kalmak için kurallara uymalıyız.',
+    },
+    {
+      ing: 'I must pay my bills on time.',
+      tr: 'Faturalarımı zamanında ödemeliyim.',
+    },
+    {
+      ing: 'Must they always argue about everything?',
+      tr: 'Her şey hakkında tartışmak zorundalar mı?',
+    },
+    {
+      ing: "He mustn't be late for his appointment.",
+      tr: 'O, randevusuna geç kalmamalı.',
+    },
+    {
+      ing: 'She must attend the meeting tomorrow.',
+      tr: 'O, yarın toplantıya katılmalı.',
+    },
+    {
+      ing: 'You must listen to the instructions carefully.',
+      tr: 'Talimatları dikkatlice dinlemelisin.',
+    },
+    {
+      ing: 'Must we clean the office before the boss arrives?',
+      tr: 'Patron gelmeden önce ofisi temizlemek zorunda mıyız?',
+    },
+    {
+      ing: 'They must take care of their pets properly.',
+      tr: 'Evcil hayvanlarına düzgün bir şekilde bakmalılar.',
+    },
+    {
+      ing: 'I must not let this chance pass by.',
+      tr: 'Bu şansın geçip gitmesine izin vermemeliyim.',
+    },
+    {
+      ing: 'Must she always talk about her problems?',
+      tr: 'O her zaman sorunları hakkında konuşmak zorunda mı?',
+    },
+    {
+      ing: 'We must arrive early to get good seats.',
+      tr: 'İyi yer bulmak için erken varmalıyız.',
+    },
+    {
+      ing: 'He must practice every day to improve.',
+      tr: 'O, gelişmek için her gün pratik yapmalı.',
+    },
+    {
+      ing: "She mustn't forget her umbrella; it's going to rain.",
+      tr: 'O, şemsiyesini unutmamalı; yağmur yağacak.',
+    },
+  ],
+  OughtTo: [
+    {
+      ing: 'You ought to drink more water every day.',
+      tr: 'Her gün daha fazla su içmelisin.',
+    },
+    {
+      ing: 'He ought not to stay up so late at night.',
+      tr: 'O, gece bu kadar geç saatlere kadar kalmamalı.',
+    },
+    {
+      ing: 'Ought we to go to the park this afternoon?',
+      tr: 'Bu öğleden sonra parka gitmeli miyiz?',
+    },
+    {
+      ing: 'She ought to call her parents more often.',
+      tr: 'O, ailesini daha sık aramalı.',
+    },
+    {
+      ing: 'They ought not to eat junk food so often.',
+      tr: 'Onlar bu kadar sık abur cubur yememeli.',
+    },
+    {
+      ing: 'Ought I to take my umbrella with me today?',
+      tr: 'Bugün şemsiyemi yanıma almalı mıyım?',
+    },
+    {
+      ing: 'We ought to help our neighbors when they need us.',
+      tr: 'Komşularımıza ihtiyaçları olduğunda yardım etmeliyiz.',
+    },
+    {
+      ing: 'You ought not to spend too much money on clothes.',
+      tr: 'Kıyafetlere çok fazla para harcamamalısın.',
+    },
+    {
+      ing: 'Ought he to apologize for his mistake?',
+      tr: 'O, hatası için özür dilemeli mi?',
+    },
+    {
+      ing: 'I ought to study harder to pass the exam.',
+      tr: 'Sınavı geçmek için daha çok çalışmalıyım.',
+    },
+    {
+      ing: 'She ought not to speak so loudly in the library.',
+      tr: 'O, kütüphanede bu kadar yüksek sesle konuşmamalı.',
+    },
+    {
+      ing: 'Ought we to invite them to the party?',
+      tr: 'Onları partiye davet etmeli miyiz?',
+    },
+    {
+      ing: 'He ought to see a doctor if he feels sick.',
+      tr: 'O, kendini hasta hissediyorsa bir doktora görünmeli.',
+    },
+    {
+      ing: 'You ought not to skip your breakfast.',
+      tr: 'Kahvaltını atlamamalısın.',
+    },
+    {
+      ing: 'Ought they to bring their own lunch to the office?',
+      tr: 'Ofise kendi öğle yemeğini getirmeliler mi?',
+    },
+    {
+      ing: 'We ought to arrive early to get good seats.',
+      tr: 'İyi yer bulmak için erken varmalıyız.',
+    },
+    {
+      ing: 'I ought not to be late for the meeting.',
+      tr: 'Toplantıya geç kalmamalıyım.',
+    },
+    {
+      ing: 'Ought she to wear a dress to the wedding?',
+      tr: 'Düğüne elbise giymeli mi?',
+    },
+    {
+      ing: 'You ought to visit your grandparents more often.',
+      tr: 'Büyükannelerini ve büyükbabalarını daha sık ziyaret etmelisin.',
+    },
+    {
+      ing: 'He ought not to lie to his friends.',
+      tr: 'O, arkadaşlarına yalan söylememeli.',
+    },
+    {
+      ing: 'Ought I to help her with her homework?',
+      tr: 'Ödevinde ona yardım etmeli miyim?',
+    },
+    {
+      ing: 'We ought to clean the house before the guests arrive.',
+      tr: 'Misafirler gelmeden önce evi temizlemeliyiz.',
+    },
+    {
+      ing: 'She ought not to drive so fast on this road.',
+      tr: 'O, bu yolda bu kadar hızlı sürmemeli.',
+    },
+    {
+      ing: 'Ought they to listen to their teacher?',
+      tr: 'Öğretmenlerini dinlemeliler mi?',
+    },
+    {
+      ing: 'You ought to save some money for emergencies.',
+      tr: 'Acil durumlar için biraz para biriktirmelisin.',
+    },
+    {
+      ing: 'He ought not to be rude to his parents.',
+      tr: 'O, ebeveynlerine karşı kaba olmamalı.',
+    },
+    {ing: 'Ought we to take a break now?', tr: 'Şimdi bir ara vermeli miyiz?'},
+    {
+      ing: 'I ought to visit the dentist every six months.',
+      tr: 'Her altı ayda bir dişçiyi ziyaret etmeliyim.',
+    },
+    {
+      ing: 'She ought not to watch too much TV before bed.',
+      tr: 'O, yatmadan önce çok fazla TV izlememeli.',
+    },
+    {
+      ing: 'Ought he to take this job offer?',
+      tr: 'Bu iş teklifini kabul etmeli mi?',
+    },
+    {
+      ing: 'We ought to recycle more to protect the environment.',
+      tr: 'Çevreyi korumak için daha fazla geri dönüşüm yapmalıyız.',
+    },
+    {
+      ing: "You ought not to ignore your friend's advice.",
+      tr: 'Arkadaşının tavsiyesini görmezden gelmemelisin.',
+    },
+    {
+      ing: 'Ought I to study a bit more for the test?',
+      tr: 'Test için biraz daha çalışmalı mıyım?',
+    },
+    {
+      ing: 'He ought to be kind to his classmates.',
+      tr: 'O, sınıf arkadaşlarına karşı nazik olmalı.',
+    },
+    {
+      ing: 'They ought not to leave their bags unattended.',
+      tr: 'Onlar çantalarını sahipsiz bırakmamalı.',
+    },
+    {
+      ing: 'Ought we to try that new restaurant downtown?',
+      tr: 'Şehir merkezindeki yeni restoranı denemeli miyiz?',
+    },
+    {
+      ing: 'She ought to finish her project on time.',
+      tr: 'O, projesini zamanında bitirmeli.',
+    },
+    {
+      ing: 'You ought not to argue with your boss.',
+      tr: 'Patronunla tartışmamalısın.',
+    },
+    {
+      ing: 'Ought they to practice more for the competition?',
+      tr: 'Yarışma için daha çok pratik yapmalılar mı?',
+    },
+    {
+      ing: 'I ought to call my friend to wish them good luck.',
+      tr: 'Arkadaşımı arayıp ona iyi şanslar dilemeliyim.',
+    },
+    {
+      ing: 'He ought not to ignore his health problems.',
+      tr: 'O, sağlık sorunlarını görmezden gelmemeli.',
+    },
+    {
+      ing: 'Ought we to stay home or go out tonight?',
+      tr: 'Bu gece evde mi kalmalıyız yoksa dışarı mı çıkmalıyız?',
+    },
+    {
+      ing: 'You ought to read more books to improve your knowledge.',
+      tr: 'Bilgini artırmak için daha fazla kitap okumalısın.',
+    },
+    {
+      ing: 'She ought not to be so harsh on herself.',
+      tr: 'O, kendine karşı bu kadar sert olmamalı.',
+    },
+    {
+      ing: 'Ought I to buy a gift for her birthday?',
+      tr: 'Onun doğum günü için hediye almalı mıyım?',
+    },
+    {
+      ing: "We ought to respect each other's opinions.",
+      tr: 'Birbirimizin fikirlerine saygı göstermeliyiz.',
+    },
+    {
+      ing: 'He ought not to waste his time on useless things.',
+      tr: 'O, boş şeylere zamanını harcamamalı.',
+    },
+    {
+      ing: 'Ought they to apologize for being late?',
+      tr: 'Geç kaldıkları için özür dilemeliler mi?',
+    },
+    {
+      ing: "I ought to listen to my parents' advice.",
+      tr: 'Ebeveynlerimin tavsiyelerini dinlemeliyim.',
+    },
+    {
+      ing: 'You ought not to give up so easily.',
+      tr: 'Bu kadar kolay vazgeçmemelisin.',
+    },
+    {
+      ing: 'Ought she to practice her presentation?',
+      tr: 'Sunumunu pratik yapmalı mı?',
+    },
+    {
+      ing: 'He ought to eat more vegetables for a healthy diet.',
+      tr: 'O, sağlıklı bir diyet için daha fazla sebze yemeli.',
+    },
+    {
+      ing: 'We ought not to ignore the rules of the game.',
+      tr: 'Oyunun kurallarını görmezden gelmemeliyiz.',
+    },
+    {ing: 'Ought I to tell him the truth?', tr: 'Ona gerçeği söylemeli miyim?'},
+    {
+      ing: 'You ought to stay calm during the interview.',
+      tr: 'Mülakat sırasında sakin kalmalısın.',
+    },
+    {
+      ing: 'She ought not to forget her homework at home.',
+      tr: 'O, ödevini evde unutmamalı.',
+    },
+    {
+      ing: 'Ought we to support our local businesses?',
+      tr: 'Yerel işletmeleri desteklemeli miyiz?',
+    },
+    {
+      ing: 'He ought to take his medicine twice a day.',
+      tr: 'O, ilacını günde iki kez almalı.',
+    },
+    {
+      ing: 'You ought not to neglect your responsibilities.',
+      tr: 'Sorumluluklarını ihmal etmemelisin.',
+    },
+    {
+      ing: 'Ought they to prepare more for the test?',
+      tr: 'Test için daha fazla hazırlanmalılar mı?',
+    },
+    {
+      ing: 'We ought to work together to solve this problem.',
+      tr: 'Bu sorunu çözmek için birlikte çalışmalıyız.',
+    },
+    {
+      ing: 'I ought not to worry too much about the future.',
+      tr: 'Gelecek hakkında çok fazla endişelenmemeliyim.',
+    },
+    {
+      ing: 'Ought he to explain his actions to the manager?',
+      tr: 'Yaptıklarını müdüre açıklamalı mı?',
+    },
+    {
+      ing: 'You ought to always be honest with your friends.',
+      tr: 'Arkadaşlarına karşı her zaman dürüst olmalısın.',
+    },
+    {
+      ing: 'She ought not to ignore her studies.',
+      tr: 'O, derslerini ihmal etmemeli.',
+    },
+    {
+      ing: "Ought I to bring a jacket; it's cold outside?",
+      tr: 'Ceket getirmeli miyim; dışarısı soğuk mu?',
+    },
+    {
+      ing: 'He ought not to talk back to his parents.',
+      tr: 'O, ebeveynlerine karşılık vermemeli.',
+    },
+    {
+      ing: 'We ought to check the weather before planning the trip.',
+      tr: 'Geziyi planlamadan önce havayı kontrol etmeliyiz.',
+    },
+    {
+      ing: "You ought not to make fun of other people's mistakes.",
+      tr: 'Başkalarının hatalarıyla alay etmemelisin.',
+    },
+    {
+      ing: 'Ought they to visit the museum on their day off?',
+      tr: 'Tatil günlerinde müzeyi ziyaret etmeliler mi?',
+    },
+    {
+      ing: 'I ought to organize my schedule to be more productive.',
+      tr: 'Daha üretken olmak için programımı düzenlemeliyim.',
+    },
+    {
+      ing: "He ought not to skip meals; it's unhealthy.",
+      tr: 'O, öğün atlamamalı; sağlıksızdır.',
+    },
+    {
+      ing: "Ought we to ask for directions if we're lost?",
+      tr: 'Kaybolursak yol tarifi sormalı mıyız?',
+    },
+    {
+      ing: 'You ought to be more patient with the kids.',
+      tr: 'Çocuklara karşı daha sabırlı olmalısın.',
+    },
+    {
+      ing: "She ought not to drive when she's tired.",
+      tr: 'O, yorgunken araba kullanmamalı.',
+    },
+    {
+      ing: 'We ought to always try to do our best.',
+      tr: 'Her zaman elimizden gelenin en iyisini yapmalıyız.',
+    },
+    {
+      ing: 'He ought not to complain about every little thing.',
+      tr: 'O, her küçük şeyden şikayet etmemeli.',
+    },
+    {
+      ing: 'Ought I to call her now or later?',
+      tr: 'Onu şimdi mi yoksa sonra mı aramalıyım?',
+    },
+    {
+      ing: 'They ought to wear helmets while riding bikes.',
+      tr: 'Bisiklet sürerken kask takmalılar.',
+    },
+    {
+      ing: 'You ought not to let anyone bully you.',
+      tr: 'Kimsenin sana zorbalık yapmasına izin vermemelisin.',
+    },
+    {
+      ing: "Ought she to ask for help if she can't do it alone?",
+      tr: 'Yalnız yapamıyorsa yardım istemeli mi?',
+    },
+    {
+      ing: 'I ought to visit my friends more often.',
+      tr: 'Arkadaşlarımı daha sık ziyaret etmeliyim.',
+    },
+    {
+      ing: 'We ought not to be afraid to try new things.',
+      tr: 'Yeni şeyler denemekten korkmamalıyız.',
+    },
+    {
+      ing: 'Ought he to take a break if he feels tired?',
+      tr: 'Kendini yorgun hissediyorsa bir ara vermeli mi?',
+    },
+    {
+      ing: 'She ought not to ignore her responsibilities at work.',
+      tr: 'O, işteki sorumluluklarını görmezden gelmemeli.',
+    },
+    {
+      ing: 'You ought to brush your teeth twice a day.',
+      tr: 'Dişlerini günde iki kez fırçalamalısın.',
+    },
+    {
+      ing: 'They ought not to leave without saying goodbye.',
+      tr: 'Onlar veda etmeden ayrılmamalı.',
+    },
+    {
+      ing: 'Ought we to listen to the advice of our elders?',
+      tr: 'Büyüklerimizin tavsiyelerini dinlemeli miyiz?',
+    },
+    {
+      ing: 'He ought to always keep his promises.',
+      tr: 'O, her zaman sözlerini tutmalı.',
+    },
+    {
+      ing: 'You ought not to argue in public.',
+      tr: 'Halka açık yerlerde tartışmamalısın.',
+    },
+    {
+      ing: 'Ought I to prepare lunch for everyone?',
+      tr: 'Herkes için öğle yemeği hazırlamalı mıyım?',
+    },
+    {
+      ing: 'We ought to take a walk every evening.',
+      tr: 'Her akşam yürüyüş yapmalıyız.',
+    },
+    {
+      ing: 'She ought not to waste her time on social media.',
+      tr: 'O, sosyal medyada zamanını boşa harcamamalı.',
+    },
+    {
+      ing: 'Ought he to practice his skills more?',
+      tr: 'Becerilerini daha fazla pratik yapmalı mı?',
+    },
+    {
+      ing: 'I ought to get enough sleep to stay healthy.',
+      tr: 'Sağlıklı kalmak için yeterince uyumalıyım.',
+    },
+    {
+      ing: 'You ought not to leave your phone unattended.',
+      tr: 'Telefonunu sahipsiz bırakmamalısın.',
+    },
+    {
+      ing: 'Ought they to tell the truth about what happened?',
+      tr: 'Ne olduğunu dürüstçe söylemeliler mi?',
+    },
+    {
+      ing: 'He ought to arrive at the airport two hours early.',
+      tr: 'O, havaalanına iki saat erken varmalı.',
+    },
+    {
+      ing: 'We ought not to ignore the warnings.',
+      tr: 'Uyarıları görmezden gelmemeliyiz.',
+    },
+    {
+      ing: 'Ought I to send an email to confirm the meeting?',
+      tr: 'Toplantıyı onaylamak için e-posta göndermeli miyim?',
+    },
+    {
+      ing: 'You ought to avoid eating too much fast food.',
+      tr: 'Çok fazla fast food yemekten kaçınmalısın.',
+    },
+    {
+      ing: 'She ought not to take unnecessary risks.',
+      tr: 'O, gereksiz riskler almamalı.',
+    },
+    {
+      ing: 'Ought we to support each other during tough times?',
+      tr: 'Zor zamanlarda birbirimizi desteklemeli miyiz?',
+    },
+    {
+      ing: 'He ought to be more responsible with his money.',
+      tr: 'O, parasına karşı daha sorumlu olmalı.',
+    },
+    {
+      ing: 'I ought not to ignore my health problems.',
+      tr: 'Sağlık sorunlarımı görmezden gelmemeliyim.',
+    },
+    {
+      ing: 'Ought you to always trust your instincts?',
+      tr: 'Her zaman içgüdülerine güvenmeli misin?',
+    },
+    {
+      ing: 'We ought to celebrate small victories in life.',
+      tr: 'Hayattaki küçük zaferleri kutlamalıyız.',
+    },
+    {
+      ing: "They ought not to ignore the teacher's instructions.",
+      tr: 'Onlar öğretmenin talimatlarını görmezden gelmemeli.',
+    },
+    {
+      ing: 'Ought I to ask my boss for a raise?',
+      tr: 'Patronumdan zam istemeli miyim?',
+    },
+    {
+      ing: 'She ought to focus more on her studies.',
+      tr: 'O, derslerine daha fazla odaklanmalı.',
+    },
+    {
+      ing: 'You ought not to skip important meetings.',
+      tr: 'Önemli toplantıları atlamamalısın.',
+    },
+    {
+      ing: 'Ought he to apologize for his rude behavior?',
+      tr: 'Kaba davranışları için özür dilemeli mi?',
+    },
+    {
+      ing: 'We ought to always be kind to others.',
+      tr: 'Başkalarına her zaman nazik olmalıyız.',
+    },
+    {
+      ing: 'I ought not to drink too much coffee at night.',
+      tr: 'Gece çok fazla kahve içmemeliyim.',
+    },
+    {
+      ing: 'Ought we to go on a vacation this summer?',
+      tr: 'Bu yaz tatile gitmeli miyiz?',
+    },
+    {
+      ing: 'He ought not to talk on his phone while driving.',
+      tr: 'O, araba kullanırken telefonla konuşmamalı.',
+    },
+    {
+      ing: 'You ought to read the instructions carefully before starting.',
+      tr: 'Başlamadan önce talimatları dikkatlice okumalı.',
+    },
+    {
+      ing: "She ought not to ignore her friends' feelings.",
+      tr: 'O, arkadaşlarının duygularını görmezden gelmemeli.',
+    },
+    {
+      ing: 'Ought they to start a new project next month?',
+      tr: 'Gelecek ay yeni bir projeye başlamalılar mı?',
+    },
+    {
+      ing: 'We ought to appreciate what we have.',
+      tr: 'Sahip olduklarımızın kıymetini bilmeliyiz.',
+    },
+    {
+      ing: 'He ought not to spend all his money in one day.',
+      tr: 'O, tüm parasını bir günde harcamamalı.',
+    },
+    {
+      ing: 'Ought I to save more money for the future?',
+      tr: 'Gelecek için daha fazla para biriktirmeli miyim?',
+    },
+    {
+      ing: 'She ought to exercise regularly to stay fit.',
+      tr: 'O, formda kalmak için düzenli olarak egzersiz yapmalı.',
+    },
+    {
+      ing: 'You ought not to be so hard on yourself.',
+      tr: 'Kendine karşı bu kadar sert olmamalısın.',
+    },
+    {
+      ing: 'Ought we to attend the workshop this weekend?',
+      tr: 'Bu hafta sonu atölyeye katılmalı mıyız?',
+    },
+    {
+      ing: "He ought to listen to his parents' advice.",
+      tr: 'O, ebeveynlerinin tavsiyelerini dinlemeli.',
+    },
+    {
+      ing: 'We ought not to leave the lights on when we leave.',
+      tr: 'Çıkarken ışıkları açık bırakmamalıyız.',
+    },
+    {
+      ing: 'Ought I to make a reservation for dinner tonight?',
+      tr: 'Bu gece akşam yemeği için rezervasyon yapmalı mıyım?',
+    },
+    {
+      ing: 'You ought to learn to manage your time better.',
+      tr: 'Zamanını daha iyi yönetmeyi öğrenmelisin.',
+    },
+    {
+      ing: 'She ought not to ignore her duties at home.',
+      tr: 'O, evdeki görevlerini ihmal etmemeli.',
+    },
+    {
+      ing: 'Ought he to try a different approach?',
+      tr: 'Farklı bir yaklaşımı denemeli mi?',
+    },
+    {
+      ing: 'I ought to help my friend move to her new apartment.',
+      tr: 'Arkadaşıma yeni dairesine taşınmasında yardım etmeliyim.',
+    },
+    {
+      ing: 'You ought not to speak without thinking first.',
+      tr: 'Düşünmeden konuşmamalısın.',
+    },
+    {
+      ing: 'Ought they to continue their studies abroad?',
+      tr: 'Yurt dışında eğitimlerine devam etmeli mi?',
+    },
+    {
+      ing: 'We ought to stay positive even in difficult times.',
+      tr: 'Zor zamanlarda bile pozitif kalmalıyız.',
+    },
+    {
+      ing: 'He ought not to take things for granted.',
+      tr: 'O, her şeyi olduğu gibi kabul etmemeli.',
+    },
+    {
+      ing: 'Ought I to bring a gift to the party?',
+      tr: 'Partiye hediye getirmeli miyim?',
+    },
+    {
+      ing: 'You ought to talk to your boss about your concerns.',
+      tr: 'Endişelerin hakkında patronunla konuşmalısın.',
+    },
+    {
+      ing: "She ought not to make promises she can't keep.",
+      tr: 'O, tutamayacağı sözler vermemeli.',
+    },
+    {
+      ing: 'Ought we to start preparing for the exam now?',
+      tr: 'Şimdi sınav için hazırlanmaya başlamalı mıyız?',
+    },
+    {
+      ing: 'He ought to call his friend to apologize.',
+      tr: 'O, özür dilemek için arkadaşını aramalı.',
+    },
+    {
+      ing: 'We ought not to be afraid to ask for help when needed.',
+      tr: 'Gerektiğinde yardım istemekten korkmamalıyız.',
+    },
+    {
+      ing: 'Ought they to invest in that new project?',
+      tr: 'Yeni projeye yatırım yapmalılar mı?',
+    },
+    {
+      ing: 'I ought to visit my family during the holidays.',
+      tr: 'Tatil sırasında ailemi ziyaret etmeliyim.',
+    },
+    {
+      ing: 'You ought not to believe everything you hear.',
+      tr: 'Duyduğun her şeye inanmamalısın.',
+    },
+    {
+      ing: 'Ought he to accept the job offer?',
+      tr: 'İş teklifini kabul etmeli mi?',
+    },
+    {
+      ing: 'We ought to be more grateful for the little things in life.',
+      tr: 'Hayattaki küçük şeyler için daha minnettar olmalıyız.',
+    },
+    {
+      ing: 'She ought not to ignore the signs of stress.',
+      tr: 'O, stres belirtilerini görmezden gelmemeli.',
+    },
+    {
+      ing: 'Ought I to tell them the truth about what happened?',
+      tr: 'Ne olduğunu onlara anlatmalı mıyım?',
+    },
+    {
+      ing: 'You ought to always follow your dreams.',
+      tr: 'Her zaman hayallerini takip etmelisin.',
+    },
+  ],
+  Should: [
+    {
+      ing: 'You should drink more water every day.',
+      tr: 'Her gün daha fazla su içmelisin.',
+    },
+    {
+      ing: "He shouldn't stay up so late at night.",
+      tr: 'O, gece bu kadar geç saatlere kadar kalmamalı.',
+    },
+    {
+      ing: 'Should we go to the park this afternoon?',
+      tr: 'Bu öğleden sonra parka gitmeli miyiz?',
+    },
+    {
+      ing: 'She should call her parents more often.',
+      tr: 'O, ailesini daha sık aramalı.',
+    },
+    {
+      ing: "They shouldn't eat junk food so often.",
+      tr: 'Onlar bu kadar sık abur cubur yememeli.',
+    },
+    {
+      ing: 'Should I take my umbrella with me today?',
+      tr: 'Bugün şemsiyemi yanıma almalı mıyım?',
+    },
+    {
+      ing: 'We should help our neighbors when they need us.',
+      tr: 'Komşularımıza ihtiyaçları olduğunda yardım etmeliyiz.',
+    },
+    {
+      ing: "You shouldn't spend too much money on clothes.",
+      tr: 'Kıyafetlere çok fazla para harcamamalısın.',
+    },
+    {
+      ing: 'Should he apologize for his mistake?',
+      tr: 'O, hatası için özür dilemeli mi?',
+    },
+    {
+      ing: 'I should study harder to pass the exam.',
+      tr: 'Sınavı geçmek için daha çok çalışmalıyım.',
+    },
+    {
+      ing: "She shouldn't speak so loudly in the library.",
+      tr: 'O, kütüphanede bu kadar yüksek sesle konuşmamalı.',
+    },
+    {
+      ing: 'Should we invite them to the party?',
+      tr: 'Onları partiye davet etmeli miyiz?',
+    },
+    {
+      ing: 'He should see a doctor if he feels sick.',
+      tr: 'O, kendini hasta hissediyorsa bir doktora görünmeli.',
+    },
+    {
+      ing: "You shouldn't skip your breakfast.",
+      tr: 'Kahvaltını atlamamalısın.',
+    },
+    {
+      ing: 'Should they bring their own lunch to the office?',
+      tr: 'Ofise kendi öğle yemeğini getirmeliler mi?',
+    },
+    {
+      ing: 'We should arrive early to get good seats.',
+      tr: 'İyi yer bulmak için erken varmalıyız.',
+    },
+    {
+      ing: "I shouldn't be late for the meeting.",
+      tr: 'Toplantıya geç kalmamalıyım.',
+    },
+    {
+      ing: 'Should she wear a dress to the wedding?',
+      tr: 'Düğüne elbise giymeli mi?',
+    },
+    {
+      ing: 'You should visit your grandparents more often.',
+      tr: 'Büyükannelerini ve büyükbabalarını daha sık ziyaret etmelisin.',
+    },
+    {
+      ing: "He shouldn't lie to his friends.",
+      tr: 'O, arkadaşlarına yalan söylememeli.',
+    },
+    {
+      ing: 'Should I help her with her homework?',
+      tr: 'Ödevinde ona yardım etmeli miyim?',
+    },
+    {
+      ing: 'We should clean the house before the guests arrive.',
+      tr: 'Misafirler gelmeden önce evi temizlemeliyiz.',
+    },
+    {
+      ing: "She shouldn't drive so fast on this road.",
+      tr: 'O, bu yolda bu kadar hızlı sürmemeli.',
+    },
+    {
+      ing: 'Should they listen to their teacher?',
+      tr: 'Öğretmenlerini dinlemeliler mi?',
+    },
+    {
+      ing: 'You should save some money for emergencies.',
+      tr: 'Acil durumlar için biraz para biriktirmelisin.',
+    },
+    {
+      ing: "He shouldn't be rude to his parents.",
+      tr: 'O, ebeveynlerine karşı kaba olmamalı.',
+    },
+    {ing: 'Should we take a break now?', tr: 'Şimdi bir ara vermeli miyiz?'},
+    {
+      ing: 'I should visit the dentist every six months.',
+      tr: 'Her altı ayda bir dişçiyi ziyaret etmeliyim.',
+    },
+    {
+      ing: "She shouldn't watch too much TV before bed.",
+      tr: 'O, yatmadan önce çok fazla TV izlememeli.',
+    },
+    {
+      ing: 'Should he take this job offer?',
+      tr: 'Bu iş teklifini kabul etmeli mi?',
+    },
+    {
+      ing: 'We should recycle more to protect the environment.',
+      tr: 'Çevreyi korumak için daha fazla geri dönüşüm yapmalıyız.',
+    },
+    {
+      ing: "You shouldn't ignore your friend's advice.",
+      tr: 'Arkadaşının tavsiyesini görmezden gelmemelisin.',
+    },
+    {
+      ing: 'Should I study a bit more for the test?',
+      tr: 'Test için biraz daha çalışmalı mıyım?',
+    },
+    {
+      ing: 'He should be kind to his classmates.',
+      tr: 'O, sınıf arkadaşlarına karşı nazik olmalı.',
+    },
+    {
+      ing: "They shouldn't leave their bags unattended.",
+      tr: 'Onlar çantalarını sahipsiz bırakmamalı.',
+    },
+    {
+      ing: 'Should we try that new restaurant downtown?',
+      tr: 'Şehir merkezindeki yeni restoranı denemeli miyiz?',
+    },
+    {
+      ing: 'She should finish her project on time.',
+      tr: 'O, projesini zamanında bitirmeli.',
+    },
+    {
+      ing: "You shouldn't argue with your boss.",
+      tr: 'Patronunla tartışmamalısın.',
+    },
+    {
+      ing: 'Should they practice more for the competition?',
+      tr: 'Yarışma için daha çok pratik yapmalılar mı?',
+    },
+    {
+      ing: 'I should call my friend to wish them good luck.',
+      tr: 'Arkadaşımı arayıp ona iyi şanslar dilemeliyim.',
+    },
+    {
+      ing: "He shouldn't ignore his health problems.",
+      tr: 'O, sağlık sorunlarını görmezden gelmemeli.',
+    },
+    {
+      ing: 'Should we stay home or go out tonight?',
+      tr: 'Bu gece evde mi kalmalıyız yoksa dışarı mı çıkmalıyız?',
+    },
+    {
+      ing: 'You should read more books to improve your knowledge.',
+      tr: 'Bilgini artırmak için daha fazla kitap okumalısın.',
+    },
+    {
+      ing: "She shouldn't be so harsh on herself.",
+      tr: 'O, kendine karşı bu kadar sert olmamalı.',
+    },
+    {
+      ing: 'Should I buy a gift for her birthday?',
+      tr: 'Onun doğum günü için hediye almalı mıyım?',
+    },
+    {
+      ing: "We should respect each other's opinions.",
+      tr: 'Birbirimizin fikirlerine saygı göstermeliyiz.',
+    },
+    {
+      ing: "He shouldn't waste his time on useless things.",
+      tr: 'O, boş şeylere zamanını harcamamalı.',
+    },
+    {
+      ing: 'Should they apologize for being late?',
+      tr: 'Geç kaldıkları için özür dilemeliler mi?',
+    },
+    {
+      ing: "I should listen to my parents' advice.",
+      tr: 'Ebeveynlerimin tavsiyelerini dinlemeliyim.',
+    },
+    {
+      ing: "You shouldn't give up so easily.",
+      tr: 'Bu kadar kolay vazgeçmemelisin.',
+    },
+    {
+      ing: 'Should she practice her presentation?',
+      tr: 'Sunumunu pratik yapmalı mı?',
+    },
+    {
+      ing: 'He should eat more vegetables for a healthy diet.',
+      tr: 'O, sağlıklı bir diyet için daha fazla sebze yemeli.',
+    },
+    {
+      ing: "We shouldn't ignore the rules of the game.",
+      tr: 'Oyunun kurallarını görmezden gelmemeliyiz.',
+    },
+    {ing: 'Should I tell him the truth?', tr: 'Ona gerçeği söylemeli miyim?'},
+    {
+      ing: 'You should stay calm during the interview.',
+      tr: 'Mülakat sırasında sakin kalmalısın.',
+    },
+    {
+      ing: "She shouldn't forget her homework at home.",
+      tr: 'O, ödevini evde unutmamalı.',
+    },
+    {
+      ing: 'Should we support our local businesses?',
+      tr: 'Yerel işletmeleri desteklemeli miyiz?',
+    },
+    {
+      ing: 'He should take his medicine twice a day.',
+      tr: 'O, ilacını günde iki kez almalı.',
+    },
+    {
+      ing: "You shouldn't neglect your responsibilities.",
+      tr: 'Sorumluluklarını ihmal etmemelisin.',
+    },
+    {
+      ing: 'Should they prepare more for the test?',
+      tr: 'Test için daha fazla hazırlanmalılar mı?',
+    },
+    {
+      ing: 'We should work together to solve this problem.',
+      tr: 'Bu sorunu çözmek için birlikte çalışmalıyız.',
+    },
+    {
+      ing: "I shouldn't worry too much about the future.",
+      tr: 'Gelecek hakkında çok fazla endişelenmemeliyim.',
+    },
+    {
+      ing: 'Should he explain his actions to the manager?',
+      tr: 'Yaptıklarını müdüre açıklamalı mı?',
+    },
+    {
+      ing: 'You should always be honest with your friends.',
+      tr: 'Arkadaşlarına karşı her zaman dürüst olmalısın.',
+    },
+    {
+      ing: "She shouldn't ignore her studies.",
+      tr: 'O, derslerini ihmal etmemeli.',
+    },
+    {
+      ing: "Should I bring a jacket; it's cold outside?",
+      tr: 'Ceket getirmeli miyim; dışarısı soğuk mu?',
+    },
+    {
+      ing: 'He should not talk back to his parents.',
+      tr: 'O, ebeveynlerine karşılık vermemeli.',
+    },
+    {
+      ing: 'We should check the weather before planning the trip.',
+      tr: 'Geziyi planlamadan önce havayı kontrol etmeliyiz.',
+    },
+    {
+      ing: "You shouldn't make fun of other people's mistakes.",
+      tr: 'Başkalarının hatalarıyla alay etmemelisin.',
+    },
+    {
+      ing: 'Should they visit the museum on their day off?',
+      tr: 'Tatil günlerinde müzeyi ziyaret etmeli mi?',
+    },
+    {
+      ing: 'I should organize my schedule to be more productive.',
+      tr: 'Daha üretken olmak için programımı düzenlemeliyim.',
+    },
+    {
+      ing: "He shouldn't skip meals; it's unhealthy.",
+      tr: 'O, öğün atlamamalı; sağlıksızdır.',
+    },
+    {
+      ing: "Should we ask for directions if we're lost?",
+      tr: 'Kaybolursak yol tarifi sormalı mıyız?',
+    },
+    {
+      ing: 'You should be more patient with the kids.',
+      tr: 'Çocuklara karşı daha sabırlı olmalısın.',
+    },
+    {
+      ing: "She shouldn't drive when she's tired.",
+      tr: 'O, yorgunken araba kullanmamalı.',
+    },
+    {
+      ing: 'We should always try to do our best.',
+      tr: 'Her zaman elimizden gelenin en iyisini yapmalıyız.',
+    },
+    {
+      ing: "He shouldn't complain about every little thing.",
+      tr: 'O, her küçük şeyden şikayet etmemeli.',
+    },
+    {
+      ing: 'Should I call her now or later?',
+      tr: 'Onu şimdi mi yoksa sonra mı aramalıyım?',
+    },
+    {
+      ing: 'They should wear helmets while riding bikes.',
+      tr: 'Bisiklet sürerken kask takmalılar.',
+    },
+    {
+      ing: "You shouldn't let anyone bully you.",
+      tr: 'Kimsenin sana zorbalık yapmasına izin vermemelisin.',
+    },
+    {
+      ing: "Should she ask for help if she can't do it alone?",
+      tr: 'Yalnız yapamıyorsa yardım istemeli mi?',
+    },
+    {
+      ing: 'I should visit my friends more often.',
+      tr: 'Arkadaşlarımı daha sık ziyaret etmeliyim.',
+    },
+    {
+      ing: "We shouldn't be afraid to try new things.",
+      tr: 'Yeni şeyler denemekten korkmamalıyız.',
+    },
+    {
+      ing: 'Should he take a break if he feels tired?',
+      tr: 'Kendini yorgun hissediyorsa bir ara vermeli mi?',
+    },
+    {
+      ing: 'She should not ignore her responsibilities at work.',
+      tr: 'O, işteki sorumluluklarını görmezden gelmemeli.',
+    },
+    {
+      ing: 'You should brush your teeth twice a day.',
+      tr: 'Dişlerini günde iki kez fırçalamalısın.',
+    },
+    {
+      ing: "They shouldn't leave without saying goodbye.",
+      tr: 'Onlar veda etmeden ayrılmamalı.',
+    },
+    {
+      ing: 'Should we listen to the advice of our elders?',
+      tr: 'Büyüklerimizin tavsiyelerini dinlemeli miyiz?',
+    },
+    {
+      ing: 'He should always keep his promises.',
+      tr: 'O, her zaman sözlerini tutmalı.',
+    },
+    {
+      ing: "You shouldn't argue in public.",
+      tr: 'Halka açık yerlerde tartışmamalısın.',
+    },
+    {
+      ing: 'Should I prepare lunch for everyone?',
+      tr: 'Herkes için öğle yemeği hazırlamalı mıyım?',
+    },
+    {
+      ing: 'We should take a walk every evening.',
+      tr: 'Her akşam yürüyüş yapmalıyız.',
+    },
+    {
+      ing: "She shouldn't waste her time on social media.",
+      tr: 'O, sosyal medyada zamanını boşa harcamamalı.',
+    },
+    {
+      ing: 'Should he practice his skills more?',
+      tr: 'Becerilerini daha fazla pratik yapmalı mı?',
+    },
+    {
+      ing: 'I should get enough sleep to stay healthy.',
+      tr: 'Sağlıklı kalmak için yeterince uyumalıyım.',
+    },
+    {
+      ing: "You shouldn't leave your phone unattended.",
+      tr: 'Telefonunu sahipsiz bırakmamalısın.',
+    },
+    {
+      ing: 'Should they tell the truth about what happened?',
+      tr: 'Ne olduğunu dürüstçe söylemeliler mi?',
+    },
+    {
+      ing: 'He should arrive at the airport two hours early.',
+      tr: 'O, havaalanına iki saat erken varmalı.',
+    },
+    {
+      ing: "We shouldn't ignore the warnings.",
+      tr: 'Uyarıları görmezden gelmemeliyiz.',
+    },
+    {
+      ing: 'Should I send an email to confirm the meeting?',
+      tr: 'Toplantıyı onaylamak için e-posta göndermeli miyim?',
+    },
+    {
+      ing: 'You should avoid eating too much fast food.',
+      tr: 'Çok fazla fast food yemekten kaçınmalısın.',
+    },
+    {
+      ing: "She shouldn't take unnecessary risks.",
+      tr: 'O, gereksiz riskler almamalı.',
+    },
+    {
+      ing: 'Should we support each other during tough times?',
+      tr: 'Zor zamanlarda birbirimizi desteklemeli miyiz?',
+    },
+    {
+      ing: 'He should be more responsible with his money.',
+      tr: 'O, parasına karşı daha sorumlu olmalı.',
+    },
+    {
+      ing: "I shouldn't ignore my health problems.",
+      tr: 'Sağlık sorunlarımı görmezden gelmemeliyim.',
+    },
+    {
+      ing: 'Should you always trust your instincts?',
+      tr: 'Her zaman içgüdülerine güvenmeli misin?',
+    },
+    {
+      ing: 'We should celebrate small victories in life.',
+      tr: 'Hayattaki küçük zaferleri kutlamalıyız.',
+    },
+    {
+      ing: "They shouldn't ignore the teacher's instructions.",
+      tr: 'Onlar öğretmenin talimatlarını görmezden gelmemeli.',
+    },
+    {
+      ing: 'Should I ask my boss for a raise?',
+      tr: 'Patronumdan zam istemeli miyim?',
+    },
+    {
+      ing: 'She should focus more on her studies.',
+      tr: 'O, derslerine daha fazla odaklanmalı.',
+    },
+    {
+      ing: "You shouldn't skip important meetings.",
+      tr: 'Önemli toplantıları atlamamalısın.',
+    },
+    {
+      ing: 'Should he apologize for his rude behavior?',
+      tr: 'Kaba davranışları için özür dilemeli mi?',
+    },
+    {
+      ing: 'We should always be kind to others.',
+      tr: 'Başkalarına her zaman nazik olmalıyız.',
+    },
+    {
+      ing: "I shouldn't drink too much coffee at night.",
+      tr: 'Gece çok fazla kahve içmemeliyim.',
+    },
+    {
+      ing: 'Should we go on a vacation this summer?',
+      tr: 'Bu yaz tatile gitmeli miyiz?',
+    },
+    {
+      ing: 'He should not talk on his phone while driving.',
+      tr: 'O, araba kullanırken telefonla konuşmamalı.',
+    },
+    {
+      ing: 'You should read the instructions carefully before starting.',
+      tr: 'Başlamadan önce talimatları dikkatlice okumalı.',
+    },
+    {
+      ing: "She shouldn't ignore her friends' feelings.",
+      tr: 'O, arkadaşlarının duygularını görmezden gelmemeli.',
+    },
+    {
+      ing: 'Should they start a new project next month?',
+      tr: 'Gelecek ay yeni bir projeye başlamalılar mı?',
+    },
+    {
+      ing: 'We should appreciate what we have.',
+      tr: 'Sahip olduklarımızın kıymetini bilmeliyiz.',
+    },
+    {
+      ing: "He shouldn't spend all his money in one day.",
+      tr: 'O, tüm parasını bir günde harcamamalı.',
+    },
+    {
+      ing: 'Should I save more money for the future?',
+      tr: 'Gelecek için daha fazla para biriktirmeli miyim?',
+    },
+    {
+      ing: 'She should exercise regularly to stay fit.',
+      tr: 'O, formda kalmak için düzenli olarak egzersiz yapmalı.',
+    },
+    {
+      ing: "You shouldn't be so hard on yourself.",
+      tr: 'Kendine karşı bu kadar sert olmamalısın.',
+    },
+    {
+      ing: 'Should we attend the workshop this weekend?',
+      tr: 'Bu hafta sonu atölyeye katılmalı mıyız?',
+    },
+    {
+      ing: "He should listen to his parents' advice.",
+      tr: 'O, ebeveynlerinin tavsiyelerini dinlemeli.',
+    },
+    {
+      ing: "We shouldn't leave the lights on when we leave.",
+      tr: 'Çıkarken ışıkları açık bırakmamalıyız.',
+    },
+    {
+      ing: 'Should I make a reservation for dinner tonight?',
+      tr: 'Bu gece akşam yemeği için rezervasyon yapmalı mıyım?',
+    },
+    {
+      ing: 'You should learn to manage your time better.',
+      tr: 'Zamanını daha iyi yönetmeyi öğrenmelisin.',
+    },
+    {
+      ing: "She shouldn't ignore her duties at home.",
+      tr: 'O, evdeki görevlerini ihmal etmemeli.',
+    },
+    {
+      ing: 'Should he try a different approach?',
+      tr: 'Farklı bir yaklaşımı denemeli mi?',
+    },
+    {
+      ing: 'I should help my friend move to her new apartment.',
+      tr: 'Arkadaşıma yeni dairesine taşınmasında yardım etmeliyim.',
+    },
+    {
+      ing: "You shouldn't speak without thinking first.",
+      tr: 'Düşünmeden konuşmamalısın.',
+    },
+    {
+      ing: 'Should they continue their studies abroad?',
+      tr: 'Yurt dışında eğitimlerine devam etmeli mi?',
+    },
+    {
+      ing: 'We should stay positive even in difficult times.',
+      tr: 'Zor zamanlarda bile pozitif kalmalıyız.',
+    },
+    {
+      ing: "He shouldn't take things for granted.",
+      tr: 'O, her şeyi olduğu gibi kabul etmemeli.',
+    },
+    {
+      ing: 'Should I bring a gift to the party?',
+      tr: 'Partiye hediye getirmeli miyim?',
+    },
+    {
+      ing: 'You should talk to your boss about your concerns.',
+      tr: 'Endişelerin hakkında patronunla konuşmalısın.',
+    },
+    {
+      ing: "She shouldn't make promises she can't keep.",
+      tr: 'O, tutamayacağı sözler vermemeli.',
+    },
+    {
+      ing: 'Should we start preparing for the exam now?',
+      tr: 'Şimdi sınav için hazırlanmaya başlamalı mıyız?',
+    },
+    {
+      ing: 'He should call his friend to apologize.',
+      tr: 'O, özür dilemek için arkadaşını aramalı.',
+    },
+    {
+      ing: "We shouldn't be afraid to ask for help when needed.",
+      tr: 'Gerektiğinde yardım istemekten korkmamalıyız.',
+    },
+    {
+      ing: 'Should they invest in that new project?',
+      tr: 'Yeni projeye yatırım yapmalılar mı?',
+    },
+    {
+      ing: 'I should visit my family during the holidays.',
+      tr: 'Tatil sırasında ailemi ziyaret etmeliyim.',
+    },
+    {
+      ing: "You shouldn't believe everything you hear.",
+      tr: 'Duyduğun her şeye inanmamalısın.',
+    },
+    {
+      ing: 'Should he accept the job offer?',
+      tr: 'İş teklifini kabul etmeli mi?',
+    },
+    {
+      ing: 'We should be more grateful for the little things in life.',
+      tr: 'Hayattaki küçük şeyler için daha minnettar olmalıyız.',
+    },
+    {
+      ing: "She shouldn't ignore the signs of stress.",
+      tr: 'O, stres belirtilerini görmezden gelmemeli.',
+    },
+    {
+      ing: 'Should I tell them the truth about what happened?',
+      tr: 'Ne olduğunu onlara anlatmalı mıyım?',
+    },
+    {
+      ing: 'You should always follow your dreams.',
+      tr: 'Her zaman hayallerini takip etmelisin.',
+    },
+  ],
+};
+
+export const PossessiveSOFTranslationSentences = {
+  PossessiveOf: [
+    {ing: 'The color of the sky is blue.', tr: 'Gökyüzünün rengi mavidir.'},
+    {ing: 'The door of the car is open.', tr: 'Arabanın kapısı açıktır.'},
+    {
+      ing: 'The name of the book is ""Harry Potter.""',
+      tr: 'Kitabın adı ""Harry Potter""dır.',
+    },
+    {ing: 'The taste of the cake is sweet.', tr: 'Pastanın tadı tatlıdır.'},
+    {ing: 'The end of the movie was sad.', tr: 'Filmin sonu üzücüydü.'},
+    {ing: 'The legs of the table are broken.', tr: 'Masanın ayakları kırık.'},
+    {ing: 'The sound of the bell is loud.', tr: 'Çanın sesi yüksek.'},
+    {ing: 'The smell of the flower is nice.', tr: 'Çiçeğin kokusu güzel.'},
+    {ing: 'The title of the song is beautiful.', tr: 'Şarkının başlığı güzel.'},
+    {
+      ing: 'The wheels of the bike are new.',
+      tr: 'Bisikletin tekerlekleri yeni.',
+    },
+    {ing: 'The price of the shirt is high.', tr: 'Gömleğin fiyatı yüksek.'},
+    {
+      ing: 'The color of the leaves is green.',
+      tr: 'Yaprakların rengi yeşildir.',
+    },
+    {ing: 'The roof of the house is red.', tr: 'Evin çatısı kırmızı.'},
+    {ing: 'The handle of the door is broken.', tr: 'Kapının kolu kırık.'},
+    {ing: 'The name of the street is Pine.', tr: "Sokağın adı Pine'dir."},
+    {ing: 'The shape of the box is square.', tr: 'Kutunun şekli karedir.'},
+    {
+      ing: 'The keys of the car are missing.',
+      tr: 'Arabanın anahtarları kayıp.',
+    },
+    {ing: 'The top of the hill is high.', tr: 'Tepenin zirvesi yüksektir.'},
+    {ing: 'The taste of the soup is spicy.', tr: 'Çorbanın tadı baharatlıdır.'},
+    {ing: 'The color of the sea is blue.', tr: 'Denizin rengi mavidir.'},
+    {
+      ing: 'The voice of the singer is soft.',
+      tr: 'Şarkıcının sesi yumuşaktır.',
+    },
+    {
+      ing: 'The sound of the rain is calming.',
+      tr: 'Yağmurun sesi sakinleştirici.',
+    },
+    {
+      ing: 'The flavor of the ice cream is vanilla.',
+      tr: 'Dondurmanın tadı vanilyadır.',
+    },
+    {
+      ing: 'The wheels of the bus are round.',
+      tr: 'Otobüsün tekerlekleri yuvarlaktır.',
+    },
+    {
+      ing: 'The name of the school is Greenfield.',
+      tr: "Okulun adı Greenfield'dir.",
+    },
+    {ing: 'The weight of the box is heavy.', tr: 'Kutunun ağırlığı ağırdır.'},
+    {
+      ing: 'The texture of the fabric is smooth.',
+      tr: 'Kumaşın dokusu pürüzsüzdür.',
+    },
+    {ing: 'The handle of the mug is hot.', tr: 'Kupanın sapı sıcaktır.'},
+    {ing: 'The cost of the meal is low.', tr: 'Yemeğin maliyeti düşüktür.'},
+    {ing: 'The scent of the candle is sweet.', tr: 'Mumun kokusu tatlıdır.'},
+    {
+      ing: 'The view of the mountain is stunning.',
+      tr: 'Dağın manzarası muhteşemdir.',
+    },
+    {ing: 'The title of the movie is long.', tr: 'Filmin başlığı uzundur.'},
+    {ing: 'The light of the lamp is bright.', tr: 'Lambanın ışığı parlaktır.'},
+    {ing: 'The edge of the paper is sharp.', tr: 'Kağıdın kenarı keskindir.'},
+    {ing: 'The bottom of the pool is deep.', tr: 'Havuzun dibi derindir.'},
+    {
+      ing: 'The length of the table is perfect.',
+      tr: 'Masanın uzunluğu mükemmeldir.',
+    },
+    {ing: 'The voice of the actor is clear.', tr: 'Aktörün sesi nettir.'},
+    {
+      ing: 'The color of the chair is brown.',
+      tr: 'Sandalyenin rengi kahverengidir.',
+    },
+    {
+      ing: 'The legs of the stool are short.',
+      tr: 'Taburenin ayakları kısadır.',
+    },
+    {
+      ing: 'The noise of the crowd is loud.',
+      tr: 'Kalabalığın gürültüsü yüksek.',
+    },
+    {
+      ing: 'The pattern of the dress is lovely.',
+      tr: 'Elbisenin deseni güzeldir.',
+    },
+    {ing: 'The name of the park is Central.', tr: "Parkın adı Central'dir."},
+    {
+      ing: 'The smell of the food is delicious.',
+      tr: 'Yemeğin kokusu lezzetlidir.',
+    },
+    {ing: 'The light of the candle is dim.', tr: 'Mumun ışığı sönüktür.'},
+    {ing: 'The roof of the car is leaking.', tr: 'Arabanın tavanı sızdırıyor.'},
+    {ing: 'The taste of the pizza is amazing.', tr: 'Pizzanın tadı harika.'},
+    {
+      ing: 'The surface of the desk is smooth.',
+      tr: 'Masanın yüzeyi pürüzsüzdür.',
+    },
+    {
+      ing: 'The style of the painting is modern.',
+      tr: 'Tablonun stili moderndir.',
+    },
+    {ing: 'The length of the movie is long.', tr: 'Filmin uzunluğu fazladır.'},
+    {
+      ing: 'The color of the sky at sunset is orange.',
+      tr: 'Gün batımındaki gökyüzünün rengi turuncudur.',
+    },
+    {
+      ing: 'The windows of the building are clean.',
+      tr: 'Binanın pencereleri temizdir.',
+    },
+    {
+      ing: 'The title of the story is interesting.',
+      tr: 'Hikayenin başlığı ilginçtir.',
+    },
+    {ing: 'The shape of the cloud is funny.', tr: 'Bulutun şekli komiktir.'},
+    {ing: 'The height of the tree is tall.', tr: 'Ağacın yüksekliği fazladır.'},
+    {ing: 'The speed of the car is fast.', tr: 'Arabanın hızı fazladır.'},
+    {
+      ing: 'The wheels of the skateboard are small.',
+      tr: 'Kaykayın tekerlekleri küçüktür.',
+    },
+    {ing: 'The name of the river is Nile.', tr: "Nehrin adı Nil'dir."},
+    {ing: 'The flavor of the tea is sweet.', tr: 'Çayın tadı tatlıdır.'},
+    {
+      ing: 'The title of the book is unique.',
+      tr: 'Kitabın başlığı benzersizdir.',
+    },
+    {
+      ing: 'The scent of the perfume is strong.',
+      tr: 'Parfümün kokusu yoğundur.',
+    },
+    {ing: 'The keys of the house are lost.', tr: 'Evin anahtarları kayboldu.'},
+    {
+      ing: 'The view of the city is beautiful.',
+      tr: 'Şehrin manzarası güzeldir.',
+    },
+    {ing: 'The name of the animal is tiger.', tr: 'Hayvanın adı kaplandır.'},
+    {ing: 'The size of the box is large.', tr: 'Kutunun boyutu büyüktür.'},
+    {ing: 'The sound of the piano is lovely.', tr: 'Piyanonun sesi güzeldir.'},
+    {ing: 'The walls of the room are white.', tr: 'Odanın duvarları beyazdır.'},
+    {
+      ing: 'The cover of the notebook is green.',
+      tr: 'Defterin kapağı yeşildir.',
+    },
+    {ing: 'The flavor of the soup is salty.', tr: 'Çorbanın tadı tuzludur.'},
+    {ing: 'The name of the lake is Blue Lake.', tr: "Gölün adı Blue Lake'dir."},
+    {ing: 'The speed of the wind is high.', tr: 'Rüzgarın hızı fazladır.'},
+    {ing: 'The color of the bird is bright.', tr: 'Kuşun rengi parlaktır.'},
+    {
+      ing: 'The texture of the bread is soft.',
+      tr: 'Ekmeğin dokusu yumuşaktır.',
+    },
+    {ing: 'The scent of the flower is fresh.', tr: 'Çiçeğin kokusu tazedir.'},
+    {ing: 'The voice of the teacher is clear.', tr: 'Öğretmenin sesi nettir.'},
+    {
+      ing: 'The surface of the mirror is shiny.',
+      tr: 'Aynanın yüzeyi parlaktır.',
+    },
+    {ing: 'The edge of the knife is sharp.', tr: 'Bıçağın kenarı keskindir.'},
+    {ing: 'The style of the building is classic.', tr: 'Binanın stili klasik.'},
+    {ing: 'The depth of the river is deep.', tr: 'Nehrin derinliği fazladır.'},
+    {ing: 'The color of the apples is red.', tr: 'Elmaların rengi kırmızıdır.'},
+    {
+      ing: 'The flavor of the juice is sweet.',
+      tr: 'Meyve suyunun tadı tatlıdır.',
+    },
+    {ing: 'The scent of the soap is floral.', tr: 'Sabunun kokusu çiçeksi.'},
+    {
+      ing: 'The price of the car is expensive.',
+      tr: 'Arabanın fiyatı pahalıdır.',
+    },
+    {ing: 'The weight of the book is light.', tr: 'Kitabın ağırlığı hafiftir.'},
+    {
+      ing: 'The light of the street lamp is bright.',
+      tr: 'Sokak lambasının ışığı parlaktır.',
+    },
+    {ing: 'The name of the movie is funny.', tr: 'Filmin adı komik.'},
+    {
+      ing: 'The title of the song is catchy.',
+      tr: 'Şarkının başlığı akılda kalıcıdır.',
+    },
+    {ing: 'The smell of the coffee is nice.', tr: 'Kahvenin kokusu güzel.'},
+    {ing: 'The shape of the leaf is oval.', tr: 'Yaprağın şekli ovaldir.'},
+    {ing: 'The speed of the bike is slow.', tr: 'Bisikletin hızı yavaştır.'},
+    {ing: 'The taste of the chocolate is rich.', tr: 'Çikolatanın tadı yoğun.'},
+    {
+      ing: 'The name of the museum is Art Hall.',
+      tr: "Müzenin adı Art Hall'dir.",
+    },
+    {ing: 'The texture of the fabric is rough.', tr: 'Kumaşın dokusu serttir.'},
+    {ing: 'The scent of the candle is lavender.', tr: 'Mumun kokusu lavanta.'},
+    {ing: 'The color of the water is clear.', tr: 'Suyun rengi berraktır.'},
+    {
+      ing: 'The title of the article is long.',
+      tr: 'Makalenin başlığı uzundur.',
+    },
+    {
+      ing: 'The flavor of the cake is chocolate.',
+      tr: 'Pastanın tadı çikolatadır.',
+    },
+    {
+      ing: 'The surface of the road is smooth.',
+      tr: 'Yolun yüzeyi pürüzsüzdür.',
+    },
+    {ing: 'The style of the dress is simple.', tr: 'Elbisenin stili sadedir.'},
+    {ing: 'The edge of the bed is soft.', tr: 'Yatağın kenarı yumuşaktır.'},
+    {ing: 'The roof of the building is high.', tr: 'Binanın çatısı yüksektir.'},
+    {
+      ing: 'I admired the color of the sky.',
+      tr: 'Gökyüzünün rengine hayran kaldım.',
+    },
+    {
+      ing: 'She cleaned the door of the car.',
+      tr: 'Arabanın kapısını temizledi.',
+    },
+    {
+      ing: 'He remembered the name of the book.',
+      tr: 'Kitabın adını hatırladı.',
+    },
+    {
+      ing: 'They tasted the sweetness of the cake.',
+      tr: 'Pastanın tadını tattılar.',
+    },
+    {ing: 'We discussed the end of the movie.', tr: 'Filmin sonunu tartıştık.'},
+    {
+      ing: 'She fixed the legs of the table.',
+      tr: 'Masanın ayaklarını tamir etti.',
+    },
+    {
+      ing: 'He disliked the sound of the bell.',
+      tr: 'Çanın sesinden hoşlanmadı.',
+    },
+    {
+      ing: 'I enjoyed the smell of the flower.',
+      tr: 'Çiçeğin kokusunun tadını çıkardım.',
+    },
+    {ing: 'She sang the title of the song.', tr: 'Şarkının başlığını söyledi.'},
+    {
+      ing: 'They replaced the wheels of the bike.',
+      tr: 'Bisikletin tekerleklerini değiştirdiler.',
+    },
+    {
+      ing: 'I checked the price of the shirt.',
+      tr: 'Gömleğin fiyatını kontrol ettim.',
+    },
+    {
+      ing: 'She painted the color of the leaves.',
+      tr: 'Yaprakların rengini boyadı.',
+    },
+    {
+      ing: 'He repaired the roof of the house.',
+      tr: 'Evin çatısını tamir etti.',
+    },
+    {
+      ing: 'We admired the handle of the door.',
+      tr: 'Kapının koluna hayran kaldık.',
+    },
+    {
+      ing: 'I wrote down the name of the street.',
+      tr: 'Sokağın adını not ettim.',
+    },
+    {
+      ing: 'She adjusted the shape of the box.',
+      tr: 'Kutunun şeklini ayarladı.',
+    },
+    {
+      ing: 'He lost the keys of the car.',
+      tr: 'Arabanın anahtarlarını kaybetti.',
+    },
+    {ing: 'We reached the top of the hill.', tr: 'Tepenin zirvesine ulaştık.'},
+    {ing: 'She enjoyed the taste of the soup.', tr: 'Çorbanın tadını beğendi.'},
+    {
+      ing: 'He admired the color of the sea.',
+      tr: 'Denizin rengine hayran kaldı.',
+    },
+    {
+      ing: 'I listened to the voice of the singer.',
+      tr: 'Şarkıcının sesini dinledim.',
+    },
+    {ing: 'She felt the sound of the rain.', tr: 'Yağmurun sesini hissetti.'},
+    {
+      ing: 'They loved the flavor of the ice cream.',
+      tr: 'Dondurmanın tadını sevdiler.',
+    },
+    {
+      ing: 'I replaced the wheels of the bus.',
+      tr: 'Otobüsün tekerleklerini değiştirdim.',
+    },
+    {
+      ing: 'She visited the name of the school.',
+      tr: 'Okulun adını ziyaret etti.',
+    },
+    {
+      ing: 'We measured the weight of the box.',
+      tr: 'Kutunun ağırlığını ölçtük.',
+    },
+    {
+      ing: 'He admired the texture of the fabric.',
+      tr: 'Kumaşın dokusuna hayran kaldı.',
+    },
+    {ing: 'She held the handle of the mug.', tr: 'Kupanın sapını tuttu.'},
+    {
+      ing: 'I calculated the cost of the meal.',
+      tr: 'Yemeğin maliyetini hesapladım.',
+    },
+    {
+      ing: 'They smelled the scent of the candle.',
+      tr: 'Mumun kokusunu kokladılar.',
+    },
+    {
+      ing: 'She loved the view of the mountain.',
+      tr: 'Dağın manzarasını sevdi.',
+    },
+    {
+      ing: 'We memorized the title of the movie.',
+      tr: 'Filmin başlığını ezberledik.',
+    },
+    {
+      ing: 'I changed the light of the lamp.',
+      tr: 'Lambanın ışığını değiştirdim.',
+    },
+    {ing: 'He cut the edge of the paper.', tr: 'Kağıdın kenarını kesti.'},
+    {ing: 'She swam to the bottom of the pool.', tr: 'Havuzun dibine yüzdü.'},
+    {
+      ing: 'We adjusted the length of the table.',
+      tr: 'Masanın uzunluğunu ayarladık.',
+    },
+    {
+      ing: 'I listened to the voice of the actor.',
+      tr: 'Aktörün sesini dinledim.',
+    },
+    {
+      ing: 'She matched the color of the chair.',
+      tr: 'Sandalyenin rengini eşleştirdi.',
+    },
+    {
+      ing: 'They shortened the legs of the stool.',
+      tr: 'Taburenin ayaklarını kısalttılar.',
+    },
+    {
+      ing: 'He covered the noise of the crowd.',
+      tr: 'Kalabalığın gürültüsünü kapattı.',
+    },
+    {
+      ing: 'I admired the pattern of the dress.',
+      tr: 'Elbisenin desenine hayran kaldım.',
+    },
+    {
+      ing: 'She renamed the name of the park.',
+      tr: 'Parkın adını yeniden adlandırdı.',
+    },
+    {
+      ing: 'We enjoyed the smell of the food.',
+      tr: 'Yemeğin kokusunun tadını çıkardık.',
+    },
+    {ing: 'He dimmed the light of the candle.', tr: 'Mumun ışığını kıstı.'},
+    {
+      ing: 'They fixed the roof of the car.',
+      tr: 'Arabanın tavanını tamir ettiler.',
+    },
+    {ing: 'She tasted the flavor of the pizza.', tr: 'Pizzanın tadını tattı.'},
+    {
+      ing: 'I smoothed the surface of the desk.',
+      tr: 'Masanın yüzeyini düzelttim.',
+    },
+    {
+      ing: 'He described the style of the painting.',
+      tr: 'Tablonun stilini tarif etti.',
+    },
+    {
+      ing: 'She checked the length of the movie.',
+      tr: 'Filmin uzunluğunu kontrol etti.',
+    },
+    {
+      ing: 'We noted the color of the sky at sunset.',
+      tr: 'Gün batımında gökyüzünün rengini not ettik.',
+    },
+    {
+      ing: 'I cleaned the windows of the building.',
+      tr: 'Binanın pencerelerini temizledim.',
+    },
+    {
+      ing: 'She analyzed the title of the story.',
+      tr: 'Hikayenin başlığını analiz etti.',
+    },
+    {
+      ing: 'They laughed at the shape of the cloud.',
+      tr: 'Bulutun şekline güldüler.',
+    },
+    {
+      ing: 'He climbed to the height of the tree.',
+      tr: 'Ağacın yüksekliğine tırmandı.',
+    },
+    {ing: 'We measured the speed of the car.', tr: 'Arabanın hızını ölçtük.'},
+    {
+      ing: 'I fixed the wheels of the skateboard.',
+      tr: 'Kaykayın tekerleklerini tamir ettim.',
+    },
+    {ing: 'She studied the name of the river.', tr: 'Nehrin adını inceledi.'},
+    {ing: 'He tasted the flavor of the tea.', tr: 'Çayın tadını tattı.'},
+    {
+      ing: 'We appreciated the title of the book.',
+      tr: 'Kitabın başlığını takdir ettik.',
+    },
+    {
+      ing: 'I inhaled the scent of the perfume.',
+      tr: 'Parfümün kokusunu içime çektim.',
+    },
+    {ing: 'She found the keys of the house.', tr: 'Evin anahtarlarını buldu.'},
+    {
+      ing: 'He captured the view of the city.',
+      tr: 'Şehrin manzarasını yakaladı.',
+    },
+    {
+      ing: 'They learned the name of the animal.',
+      tr: 'Hayvanın adını öğrendiler.',
+    },
+    {
+      ing: 'I resized the size of the box.',
+      tr: 'Kutunun boyutunu yeniden ayarladım.',
+    },
+    {ing: 'She played the sound of the piano.', tr: 'Piyanonun sesini çaldı.'},
+    {
+      ing: 'We painted the walls of the room.',
+      tr: 'Odanın duvarlarını boyadık.',
+    },
+    {
+      ing: 'He checked the cover of the notebook.',
+      tr: 'Defterin kapağını kontrol etti.',
+    },
+    {
+      ing: 'I adjusted the flavor of the soup.',
+      tr: 'Çorbanın tadını ayarladım.',
+    },
+    {ing: 'She walked to the name of the lake.', tr: 'Gölün adına yürüdü.'},
+    {
+      ing: 'He estimated the speed of the wind.',
+      tr: 'Rüzgarın hızını tahmin etti.',
+    },
+    {ing: 'We drew the color of the bird.', tr: 'Kuşun rengini çizdik.'},
+    {
+      ing: 'I touched the texture of the bread.',
+      tr: 'Ekmeğin dokusuna dokundum.',
+    },
+    {
+      ing: 'She smelled the scent of the flower.',
+      tr: 'Çiçeğin kokusunu kokladı.',
+    },
+    {ing: 'He heard the voice of the teacher.', tr: 'Öğretmenin sesini duydu.'},
+    {
+      ing: 'They polished the surface of the mirror.',
+      tr: 'Aynanın yüzeyini cilaladılar.',
+    },
+    {
+      ing: 'I sharpened the edge of the knife.',
+      tr: 'Bıçağın kenarını bileyledim.',
+    },
+    {
+      ing: 'She admired the style of the building.',
+      tr: 'Binanın stiline hayran kaldı.',
+    },
+    {
+      ing: 'We calculated the depth of the river.',
+      tr: 'Nehrin derinliğini hesapladık.',
+    },
+    {ing: 'He picked the color of the apples.', tr: 'Elmaların rengini seçti.'},
+    {
+      ing: 'I tasted the flavor of the juice.',
+      tr: 'Meyve suyunun tadını tattım.',
+    },
+    {
+      ing: 'She inhaled the scent of the soap.',
+      tr: 'Sabunun kokusunu içe çekti.',
+    },
+    {
+      ing: 'He calculated the price of the car.',
+      tr: 'Arabanın fiyatını hesapladı.',
+    },
+    {
+      ing: 'We lifted the weight of the book.',
+      tr: 'Kitabın ağırlığını kaldırdık.',
+    },
+    {
+      ing: 'I adjusted the light of the street lamp.',
+      tr: 'Sokak lambasının ışığını ayarladım.',
+    },
+    {
+      ing: 'She memorized the name of the movie.',
+      tr: 'Filmin adını ezberledi.',
+    },
+    {ing: 'He sang the title of the song.', tr: 'Şarkının başlığını söyledi.'},
+    {
+      ing: 'They smelled the aroma of the coffee.',
+      tr: 'Kahvenin aromasını kokladılar.',
+    },
+    {ing: 'I traced the shape of the leaf.', tr: 'Yaprağın şeklini izledim.'},
+    {
+      ing: 'She measured the speed of the bike.',
+      tr: 'Bisikletin hızını ölçtü.',
+    },
+    {
+      ing: 'He savored the taste of the chocolate.',
+      tr: 'Çikolatanın tadını çıkardı.',
+    },
+    {
+      ing: 'We visited the name of the museum.',
+      tr: 'Müzenin adını ziyaret ettik.',
+    },
+    {
+      ing: 'I felt the texture of the fabric.',
+      tr: 'Kumaşın dokusunu hissettim.',
+    },
+    {
+      ing: 'She enjoyed the scent of the candle.',
+      tr: 'Mumun kokusunun tadını çıkardı.',
+    },
+    {ing: 'He captured the color of the water.', tr: 'Suyun rengini yakaladı.'},
+    {
+      ing: 'They examined the title of the article.',
+      tr: 'Makalenin başlığını incelediler.',
+    },
+    {ing: 'I tasted the flavor of the cake.', tr: 'Pastanın tadını tattım.'},
+    {
+      ing: 'She smoothed the surface of the road.',
+      tr: 'Yolun yüzeyini düzeltti.',
+    },
+    {
+      ing: 'He appreciated the style of the dress.',
+      tr: 'Elbisenin stilini takdir etti.',
+    },
+    {ing: 'We touched the edge of the bed.', tr: 'Yatağın kenarına dokunduk.'},
+    {
+      ing: 'I fixed the roof of the building.',
+      tr: 'Binanın çatısını tamir ettim.',
+    },
+  ],
+  PossessiveS: [
+    {ing: 'John’s car is very fast.', tr: 'John’un arabası çok hızlı.'},
+    {ing: 'Sarah’s dog is barking.', tr: 'Sarah’ın köpeği havlıyor.'},
+    {ing: 'My brother’s bike is blue.', tr: 'Erkek kardeşimin bisikleti mavi.'},
+    {
+      ing: 'The teacher’s pen is on the desk.',
+      tr: 'Öğretmenin kalemi masanın üzerinde.',
+    },
+    {ing: 'Anna’s cat is sleeping.', tr: 'Anna’nın kedisi uyuyor.'},
+    {ing: 'Tom’s book is on the shelf.', tr: 'Tom’un kitabı rafın üzerinde.'},
+    {
+      ing: 'Lucy’s bag is on the chair.',
+      tr: 'Lucy’nin çantası sandalyenin üzerinde.',
+    },
+    {
+      ing: 'David’s house is near the park.',
+      tr: 'David’in evi parkın yakınında.',
+    },
+    {ing: 'The child’s toy is broken.', tr: 'Çocuğun oyuncağı kırık.'},
+    {ing: 'Emily’s computer is new.', tr: 'Emily’nin bilgisayarı yeni.'},
+    {ing: 'Mark’s phone is ringing.', tr: 'Mark’ın telefonu çalıyor.'},
+    {
+      ing: 'Lisa’s shoes are under the table.',
+      tr: 'Lisa’nın ayakkabıları masanın altında.',
+    },
+    {ing: 'Peter’s father is a doctor.', tr: 'Peter’ın babası bir doktor.'},
+    {ing: 'Jack’s hat is red.', tr: 'Jack’in şapkası kırmızı.'},
+    {ing: 'Mary’s dress is beautiful.', tr: 'Mary’nin elbisesi güzel.'},
+    {ing: 'Sam’s friend is coming.', tr: 'Sam’in arkadaşı geliyor.'},
+    {ing: 'The boy’s bicycle is green.', tr: 'Çocuğun bisikleti yeşil.'},
+    {ing: 'Jenny’s car is outside.', tr: 'Jenny’nin arabası dışarıda.'},
+    {ing: 'Alex’s homework is done.', tr: 'Alex’in ödevi tamamlandı.'},
+    {ing: 'Robert’s idea is great.', tr: 'Robert’ın fikri harika.'},
+    {
+      ing: 'Susan’s glasses are on the table.',
+      tr: 'Susan’ın gözlüğü masanın üzerinde.',
+    },
+    {ing: 'Ben’s lunch is ready.', tr: 'Ben’in öğle yemeği hazır.'},
+    {ing: 'The girl’s bag is pink.', tr: 'Kızın çantası pembe.'},
+    {ing: 'Emma’s room is clean.', tr: 'Emma’nın odası temiz.'},
+    {ing: 'Mike’s car is in the garage.', tr: 'Mike’ın arabası garajda.'},
+    {ing: 'Paul’s jacket is warm.', tr: 'Paul’un ceketi sıcak tutuyor.'},
+    {ing: 'Chloe’s shoes are new.', tr: 'Chloe’nin ayakkabıları yeni.'},
+    {ing: 'Andrew’s book is on the bed.', tr: 'Andrew’un kitabı yatakta.'},
+    {ing: 'Katie’s picture is on the wall.', tr: 'Katie’nin resmi duvarda.'},
+    {ing: 'George’s guitar is in the corner.', tr: 'George’un gitarı köşede.'},
+    {ing: 'Ella’s flowers are blooming.', tr: 'Ella’nın çiçekleri açıyor.'},
+    {ing: 'Luke’s dog is friendly.', tr: 'Luke’un köpeği dost canlısı.'},
+    {ing: 'Olivia’s phone is black.', tr: 'Olivia’nın telefonu siyah.'},
+    {ing: 'Daniel’s pen is red.', tr: 'Daniel’in kalemi kırmızı.'},
+    {ing: 'Rachel’s coat is soft.', tr: 'Rachel’ın ceketi yumuşak.'},
+    {ing: 'Brian’s cat is small.', tr: 'Brian’ın kedisi küçük.'},
+    {ing: 'Laura’s dress is red.', tr: 'Laura’nın elbisesi kırmızı.'},
+    {ing: 'Kevin’s car is old.', tr: 'Kevin’in arabası eski.'},
+    {ing: 'Alice’s idea is smart.', tr: 'Alice’in fikri akıllıca.'},
+    {ing: 'Matt’s bicycle is yellow.', tr: 'Matt’in bisikleti sarı.'},
+    {ing: 'Sophia’s bag is big.', tr: 'Sophia’nın çantası büyük.'},
+    {ing: 'Henry’s room is tidy.', tr: 'Henry’nin odası düzenli.'},
+    {ing: 'Megan’s hat is blue.', tr: 'Megan’ın şapkası mavi.'},
+    {ing: 'Steve’s shoes are dirty.', tr: 'Steve’in ayakkabıları kirli.'},
+    {ing: 'Claire’s toy is broken.', tr: 'Claire’in oyuncağı kırık.'},
+    {ing: 'James’s car is fast.', tr: 'James’in arabası hızlı.'},
+    {ing: 'Hannah’s house is large.', tr: 'Hannah’ın evi büyük.'},
+    {ing: 'Leo’s guitar is in the case.', tr: 'Leo’nun gitarı kutuda.'},
+    {ing: 'Zara’s cat is cute.', tr: 'Zara’nın kedisi sevimli.'},
+    {ing: 'Tom’s idea is funny.', tr: 'Tom’un fikri komik.'},
+    {ing: 'Jake’s book is long.', tr: 'Jake’in kitabı uzun.'},
+    {ing: 'Ellie’s garden is green.', tr: 'Ellie’nin bahçesi yeşil.'},
+    {ing: 'Will’s coat is warm.', tr: 'Will’in ceketi sıcak tutuyor.'},
+    {ing: 'Lucy’s picture is clear.', tr: 'Lucy’nin resmi net.'},
+    {ing: 'Tim’s idea is clever.', tr: 'Tim’in fikri zeki.'},
+    {ing: 'Grace’s car is red.', tr: 'Grace’in arabası kırmızı.'},
+    {ing: 'Sam’s shoes are small.', tr: 'Sam’in ayakkabıları küçük.'},
+    {ing: 'Mia’s dog is loud.', tr: 'Mia’nın köpeği gürültülü.'},
+    {ing: 'Ben’s hat is black.', tr: 'Ben’in şapkası siyah.'},
+    {ing: 'Anna’s phone is new.', tr: 'Anna’nın telefonu yeni.'},
+    {ing: 'Phil’s bike is fast.', tr: 'Phil’in bisikleti hızlı.'},
+    {ing: 'Jane’s dress is yellow.', tr: 'Jane’in elbisesi sarı.'},
+    {ing: 'Ryan’s room is quiet.', tr: 'Ryan’ın odası sessiz.'},
+    {ing: 'Tara’s book is blue.', tr: 'Tara’nın kitabı mavi.'},
+    {ing: 'Kyle’s idea is big.', tr: 'Kyle’ın fikri büyük.'},
+    {ing: 'Nora’s chair is soft.', tr: 'Nora’nın sandalyesi yumuşak.'},
+    {ing: 'Dylan’s cat is lazy.', tr: 'Dylan’ın kedisi tembel.'},
+    {ing: 'Sue’s picture is pretty.', tr: 'Sue’nin resmi güzel.'},
+    {ing: 'Max’s car is broken.', tr: 'Max’in arabası bozuk.'},
+    {ing: 'Lily’s hat is pink.', tr: 'Lily’nin şapkası pembe.'},
+    {ing: 'Nick’s toy is fun.', tr: 'Nick’in oyuncağı eğlenceli.'},
+    {ing: 'Zoe’s shoes are white.', tr: 'Zoe’nin ayakkabıları beyaz.'},
+    {ing: 'Dan’s book is thick.', tr: 'Dan’in kitabı kalın.'},
+    {ing: 'May’s dog is gentle.', tr: 'May’in köpeği nazik.'},
+    {ing: 'Ron’s jacket is brown.', tr: 'Ron’un ceketi kahverengi.'},
+    {ing: 'Claire’s pen is sharp.', tr: 'Claire’in kalemi keskin.'},
+    {ing: 'Owen’s bike is red.', tr: 'Owen’ın bisikleti kırmızı.'},
+    {ing: 'Kate’s house is small.', tr: 'Kate’in evi küçük.'},
+    {ing: 'Joel’s car is parked.', tr: 'Joel’in arabası park edilmiş.'},
+    {ing: 'Anna’s idea is creative.', tr: 'Anna’nın fikri yaratıcı.'},
+    {ing: 'Jack’s shoes are comfortable.', tr: 'Jack’in ayakkabıları rahat.'},
+    {ing: 'Lucy’s dress is pretty.', tr: 'Lucy’nin elbisesi güzel.'},
+    {ing: 'Mark’s phone is loud.', tr: 'Mark’ın telefonu sesli.'},
+    {ing: 'Sam’s dog is playful.', tr: 'Sam’in köpeği oyuncu.'},
+    {ing: 'Ella’s car is blue.', tr: 'Ella’nın arabası mavi.'},
+    {ing: 'Tom’s guitar is tuned.', tr: 'Tom’un gitarı akortlu.'},
+    {ing: 'Jane’s book is interesting.', tr: 'Jane’in kitabı ilginç.'},
+    {ing: 'Ben’s cat is black.', tr: 'Ben’in kedisi siyah.'},
+    {ing: 'Lily’s picture is colorful.', tr: 'Lily’nin resmi renkli.'},
+    {ing: 'Mike’s bike is in the shed.', tr: 'Mike’ın bisikleti barakada.'},
+    {ing: 'Jake’s room is messy.', tr: 'Jake’in odası dağınık.'},
+    {ing: 'Emma’s idea is brilliant.', tr: 'Emma’nın fikri parlak.'},
+    {ing: 'Tim’s car is parked.', tr: 'Tim’in arabası park edilmiş.'},
+    {ing: 'Zoe’s pen is broken.', tr: 'Zoe’nin kalemi kırık.'},
+    {ing: 'Ella’s shoes are clean.', tr: 'Ella’nın ayakkabıları temiz.'},
+    {ing: 'Luke’s hat is missing.', tr: 'Luke’un şapkası kayıp.'},
+    {ing: 'Nora’s bag is heavy.', tr: 'Nora’nın çantası ağır.'},
+    {ing: 'Sam’s toy is fun.', tr: 'Sam’in oyuncağı eğlenceli.'},
+    {ing: 'Mia’s dress is elegant.', tr: 'Mia’nın elbisesi zarif.'},
+    {ing: 'Dan’s bike is old.', tr: 'Dan’in bisikleti eski.'},
+    {
+      ing: 'I borrowed the book from Jack’s collection.',
+      tr: 'Jack’in koleksiyonundan kitabı ödünç aldım.',
+    },
+    {
+      ing: 'She loves the sound of Lucy’s laughter.',
+      tr: 'Lucy’nin kahkahasının sesini seviyor.',
+    },
+    {
+      ing: 'He fixed the wheel of John’s bicycle.',
+      tr: 'John’un bisikletinin tekerleğini tamir etti.',
+    },
+    {
+      ing: 'We admired the beauty of Lisa’s garden.',
+      tr: 'Lisa’nın bahçesinin güzelliğine hayran kaldık.',
+    },
+    {
+      ing: 'They painted the walls of Emma’s room.',
+      tr: 'Emma’nın odasının duvarlarını boyadılar.',
+    },
+    {
+      ing: 'She was impressed by Tom’s idea.',
+      tr: 'Tom’un fikrinden etkilendi.',
+    },
+    {
+      ing: 'I couldn’t find the key to Mark’s house.',
+      tr: 'Mark’ın evinin anahtarını bulamadım.',
+    },
+    {ing: 'He laughed at Sarah’s joke.', tr: 'Sarah’ın şakasına güldü.'},
+    {ing: 'We listened to Anna’s story.', tr: 'Anna’nın hikayesini dinledik.'},
+    {
+      ing: 'The teacher praised Robert’s work.',
+      tr: 'Öğretmen, Robert’ın işini övdü.',
+    },
+    {
+      ing: 'I found the cat playing with Sam’s toy.',
+      tr: 'Kediyi Sam’in oyuncağıyla oynarken buldum.',
+    },
+    {
+      ing: 'She looked at Katie’s picture on the wall.',
+      tr: 'Duvardaki Katie’nin resmine baktı.',
+    },
+    {
+      ing: 'He tried to use Brian’s phone.',
+      tr: 'Brian’ın telefonunu kullanmaya çalıştı.',
+    },
+    {
+      ing: 'They opened the window of David’s car.',
+      tr: 'David’in arabasının penceresini açtılar.',
+    },
+    {
+      ing: 'I read the note on Mary’s desk.',
+      tr: 'Mary’nin masasının üzerindeki notu okudum.',
+    },
+    {
+      ing: 'She borrowed the dress from Megan’s closet.',
+      tr: 'Megan’ın dolabından elbiseyi ödünç aldı.',
+    },
+    {
+      ing: 'He carried the bag to Susan’s car.',
+      tr: 'Çantayı Susan’ın arabasına taşıdı.',
+    },
+    {
+      ing: 'I placed the flower on Laura’s table.',
+      tr: 'Çiçeği Laura’nın masasına koydum.',
+    },
+    {
+      ing: 'She enjoyed the rhythm of Ben’s song.',
+      tr: 'Ben’in şarkısının ritminin tadını çıkardı.',
+    },
+    {
+      ing: 'He picked up Steve’s hat from the floor.',
+      tr: 'Steve’in şapkasını yerden aldı.',
+    },
+    {
+      ing: 'We admired the design of Olivia’s dress.',
+      tr: 'Olivia’nın elbisesinin tasarımına hayran kaldık.',
+    },
+    {
+      ing: 'She sat on the chair near Henry’s desk.',
+      tr: 'Henry’nin masasının yanındaki sandalyeye oturdu.',
+    },
+    {
+      ing: 'He wanted to borrow Daniel’s guitar.',
+      tr: 'Daniel’in gitarını ödünç almak istedi.',
+    },
+    {
+      ing: 'They listened to the beat of Jake’s drum.',
+      tr: 'Jake’in davulunun ritmini dinlediler.',
+    },
+    {
+      ing: 'I painted the frame of Ella’s photo.',
+      tr: 'Ella’nın fotoğrafının çerçevesini boyadım.',
+    },
+    {
+      ing: 'She borrowed John’s jacket for the party.',
+      tr: 'Parti için John’un ceketini ödünç aldı.',
+    },
+    {
+      ing: 'He washed the dishes from Chloe’s dinner.',
+      tr: 'Chloe’nin yemeğinden kalan tabakları yıkadı.',
+    },
+    {
+      ing: 'We fixed the lamp in Jack’s room.',
+      tr: 'Jack’in odasındaki lambayı tamir ettik.',
+    },
+    {
+      ing: 'I took a piece from Alex’s cake.',
+      tr: 'Alex’in pastasından bir parça aldım.',
+    },
+    {
+      ing: 'She opened the drawer of Peter’s desk.',
+      tr: 'Peter’ın masasının çekmecesini açtı.',
+    },
+    {
+      ing: 'He looked through the pages of Claire’s book.',
+      tr: 'Claire’in kitabının sayfalarına göz attı.',
+    },
+    {
+      ing: 'We enjoyed the warmth of Grace’s fireplace.',
+      tr: 'Grace’in şöminesinin sıcaklığının tadını çıkardık.',
+    },
+    {
+      ing: 'She watered the plants in Zara’s garden.',
+      tr: 'Zara’nın bahçesindeki bitkileri suladı.',
+    },
+    {
+      ing: 'I found the pen next to Tom’s notebook.',
+      tr: 'Tom’un defterinin yanında kalemi buldum.',
+    },
+    {
+      ing: 'He used the map from Mia’s guidebook.',
+      tr: 'Mia’nın rehber kitabındaki haritayı kullandı.',
+    },
+    {
+      ing: 'We repaired the roof of Sam’s house.',
+      tr: 'Sam’in evinin çatısını tamir ettik.',
+    },
+    {
+      ing: 'She wore Emma’s necklace to the event.',
+      tr: 'Etkinliğe Emma’nın kolyesini taktı.',
+    },
+    {
+      ing: 'I cleaned the window in Robert’s office.',
+      tr: 'Robert’ın ofisindeki pencereyi temizledim.',
+    },
+    {
+      ing: 'He checked the time on Ben’s watch.',
+      tr: 'Ben’in saatindeki zamanı kontrol etti.',
+    },
+    {
+      ing: 'They admired the scenery in Lily’s painting.',
+      tr: 'Lily’nin tablosundaki manzaraya hayran kaldılar.',
+    },
+    {
+      ing: 'She tasted the soup from Megan’s recipe.',
+      tr: 'Megan’ın tarifinden yapılan çorbayı tattı.',
+    },
+    {
+      ing: 'I fixed the handle of Luke’s suitcase.',
+      tr: 'Luke’un bavulunun sapını tamir ettim.',
+    },
+    {
+      ing: 'He played with Leo’s cat all afternoon.',
+      tr: 'Bütün öğleden sonra Leo’nun kedisiyle oynadı.',
+    },
+    {
+      ing: 'We listened to the lyrics of Sophia’s song.',
+      tr: 'Sophia’nın şarkısının sözlerini dinledik.',
+    },
+    {
+      ing: 'She washed the cups from Brian’s tea set.',
+      tr: 'Brian’ın çay takımından kupaları yıkadı.',
+    },
+    {
+      ing: 'I arranged the chairs for Daniel’s party.',
+      tr: 'Daniel’in partisi için sandalyeleri düzenledim.',
+    },
+    {
+      ing: 'He looked at Rachel’s photo on his phone.',
+      tr: 'Telefonundaki Rachel’ın fotoğrafına baktı.',
+    },
+    {
+      ing: 'They opened the box of Kevin’s tools.',
+      tr: 'Kevin’in alet kutusunu açtılar.',
+    },
+    {
+      ing: 'She borrowed Mike’s scarf for the trip.',
+      tr: 'Gezi için Mike’ın atkısını ödünç aldı.',
+    },
+    {
+      ing: 'We painted the walls of Nora’s living room.',
+      tr: 'Nora’nın oturma odasının duvarlarını boyadık.',
+    },
+    {
+      ing: 'I fixed the zipper on Matt’s coat.',
+      tr: 'Matt’in montunun fermuarını tamir ettim.',
+    },
+    {
+      ing: 'He admired the colors in Kate’s artwork.',
+      tr: 'Kate’in sanat eserindeki renklere hayran kaldı.',
+    },
+    {
+      ing: 'They danced to the beat of Steve’s music.',
+      tr: 'Steve’in müziğinin ritmiyle dans ettiler.',
+    },
+    {
+      ing: 'She drank the juice from Will’s bottle.',
+      tr: 'Will’in şişesindeki meyve suyunu içti.',
+    },
+    {
+      ing: 'I found the keys to Sue’s car.',
+      tr: 'Sue’nin arabasının anahtarlarını buldum.',
+    },
+    {
+      ing: 'He looked at the stars through Max’s telescope.',
+      tr: 'Max’in teleskobundan yıldızlara baktı.',
+    },
+    {
+      ing: 'We ate the cookies from Zoe’s jar.',
+      tr: 'Zoe’nin kavanozundaki kurabiyeleri yedik.',
+    },
+    {
+      ing: 'She washed the car in Claire’s driveway.',
+      tr: 'Claire’in giriş yolunda arabayı yıkadı.',
+    },
+    {
+      ing: 'I found the ticket in Mark’s pocket.',
+      tr: 'Mark’ın cebinde bileti buldum.',
+    },
+    {
+      ing: 'He fixed the chain on Paul’s bike.',
+      tr: 'Paul’un bisikletinin zincirini tamir etti.',
+    },
+    {
+      ing: 'They used the ladder from Jack’s shed.',
+      tr: 'Jack’in kulübesindeki merdiveni kullandılar.',
+    },
+    {
+      ing: 'She tasted the bread from Lily’s bakery.',
+      tr: 'Lily’nin fırınından ekmeği tattı.',
+    },
+    {
+      ing: 'I borrowed Anna’s glasses for reading.',
+      tr: 'Okumak için Anna’nın gözlüğünü ödünç aldım.',
+    },
+    {
+      ing: 'He cleaned the mud from Luke’s shoes.',
+      tr: 'Luke’un ayakkabılarındaki çamuru temizledi.',
+    },
+    {
+      ing: 'We admired the photos from Ella’s album.',
+      tr: 'Ella’nın albümündeki fotoğraflara hayran kaldık.',
+    },
+    {
+      ing: 'She fixed the necklace from Sam’s jewelry box.',
+      tr: 'Sam’in mücevher kutusundaki kolyeyi tamir etti.',
+    },
+    {
+      ing: 'I found the blanket in Jane’s closet.',
+      tr: 'Jane’in dolabında battaniyeyi buldum.',
+    },
+    {
+      ing: 'He looked at the map of Andrew’s hometown.',
+      tr: 'Andrew’un memleketinin haritasına baktı.',
+    },
+    {
+      ing: 'They painted the fence in Zara’s yard.',
+      tr: 'Zara’nın bahçesindeki çiti boyadılar.',
+    },
+    {
+      ing: 'She played the song from Dan’s playlist.',
+      tr: 'Dan’in çalma listesinden şarkıyı çaldı.',
+    },
+    {
+      ing: 'I washed the plates from Grace’s dinner.',
+      tr: 'Grace’in yemeğinden kalan tabakları yıkadım.',
+    },
+    {
+      ing: 'He used the gloves from Henry’s toolbox.',
+      tr: 'Henry’nin alet kutusundaki eldivenleri kullandı.',
+    },
+    {
+      ing: 'We read the letter in Lucy’s envelope.',
+      tr: 'Lucy’nin zarfındaki mektubu okuduk.',
+    },
+    {
+      ing: 'She tasted the cake from Olivia’s bakery.',
+      tr: 'Olivia’nın fırınından keki tattı.',
+    },
+    {
+      ing: 'I placed the vase on Laura’s shelf.',
+      tr: 'Laura’nın rafına vazoyu koydum.',
+    },
+    {
+      ing: 'He repaired the clock in Mike’s workshop.',
+      tr: 'Mike’ın atölyesindeki saati tamir etti.',
+    },
+    {
+      ing: 'They arranged the flowers for Nora’s wedding.',
+      tr: 'Nora’nın düğünü için çiçekleri düzenlediler.',
+    },
+    {
+      ing: 'She checked the calendar on Emma’s wall.',
+      tr: 'Emma’nın duvarındaki takvimi kontrol etti.',
+    },
+    {
+      ing: 'I drank the tea from Robert’s mug.',
+      tr: 'Robert’ın kupasından çayı içtim.',
+    },
+    {
+      ing: 'He borrowed the hammer from Jack’s toolbox.',
+      tr: 'Jack’in alet kutusundan çekici ödünç aldı.',
+    },
+    {
+      ing: 'We watched the video from Ben’s camera.',
+      tr: 'Ben’in kamerasından videoyu izledik.',
+    },
+    {
+      ing: 'She fixed the cushion on Tom’s sofa.',
+      tr: 'Tom’un kanepesindeki yastığı düzeltti.',
+    },
+    {
+      ing: 'I admired the cover of Mia’s book.',
+      tr: 'Mia’nın kitabının kapağına hayran kaldım.',
+    },
+    {
+      ing: 'He found the hat in Chloe’s suitcase.',
+      tr: 'Chloe’nin valizinde şapkayı buldu.',
+    },
+    {
+      ing: 'They laughed at Claire’s story.',
+      tr: 'Claire’in hikayesine güldüler.',
+    },
+    {
+      ing: 'She used the notebook from Steve’s desk.',
+      tr: 'Steve’in masasından defteri kullandı.',
+    },
+    {
+      ing: 'I picked up the toy from Lily’s floor.',
+      tr: 'Lily’nin zeminindeki oyuncağı aldım.',
+    },
+    {
+      ing: 'He took the blanket from Kate’s bed.',
+      tr: 'Kate’in yatağından battaniyeyi aldı.',
+    },
+    {
+      ing: 'We followed the recipe in John’s cookbook.',
+      tr: 'John’un yemek kitabındaki tarifi takip ettik.',
+    },
+    {
+      ing: 'She fixed the bike in Jake’s garage.',
+      tr: 'Jake’in garajındaki bisikleti tamir etti.',
+    },
+    {
+      ing: 'I washed the dish from Daniel’s lunch.',
+      tr: 'Daniel’in öğle yemeğinden tabağı yıkadım.',
+    },
+    {
+      ing: 'He tasted the soup from Alex’s kitchen.',
+      tr: 'Alex’in mutfağındaki çorbayı tattı.',
+    },
+    {
+      ing: 'They moved the chair in Sarah’s room.',
+      tr: 'Sarah’ın odasındaki sandalyeyi taşıdılar.',
+    },
+    {
+      ing: 'She borrowed the earrings from Megan’s drawer.',
+      tr: 'Megan’ın çekmecesinden küpeleri ödünç aldı.',
+    },
+    {
+      ing: 'I admired the picture in Peter’s frame.',
+      tr: 'Peter’ın çerçevesindeki resme hayran kaldım.',
+    },
+    {
+      ing: 'He used the computer on Anna’s desk.',
+      tr: 'Anna’nın masasındaki bilgisayarı kullandı.',
+    },
+    {
+      ing: 'We fixed the light in Grace’s garden.',
+      tr: 'Grace’in bahçesindeki lambayı tamir ettik.',
+    },
+    {
+      ing: 'She tasted the sauce from Will’s pan.',
+      tr: 'Will’in tavasındaki sosu tattı.',
+    },
+    {
+      ing: 'I cleaned the mirror in Ben’s bathroom.',
+      tr: 'Ben’in banyosundaki aynayı temizledim.',
+    },
+    {
+      ing: 'He borrowed the guitar from Lucy’s collection.',
+      tr: 'Lucy’nin koleksiyonundan gitarı ödünç aldı.',
+    },
+  ],
+};
+
+export const ThereIsAreTranslationSentences = {
+  IsAre: [
+    {
+      ing: 'There is a book on the table.',
+      tr: 'Masanın üzerinde bir kitap var.',
+    },
+    {
+      ing: 'There are some apples in the basket.',
+      tr: 'Sepette birkaç elma var.',
+    },
+    {
+      ing: 'There is a cat under the chair.',
+      tr: 'Sandalyenin altında bir kedi var.',
+    },
+    {ing: 'There are many birds in the tree.', tr: 'Ağaçta birçok kuş var.'},
+    {ing: 'There is a little water in the bottle.', tr: 'Şişede biraz su var.'},
+    {
+      ing: 'There are a few cookies in the jar.',
+      tr: 'Kavanozda birkaç kurabiye var.',
+    },
+    {
+      ing: 'There is a dog outside the house.',
+      tr: 'Evin dışında bir köpek var.',
+    },
+    {
+      ing: 'There are several cars in the parking lot.',
+      tr: 'Otoparkta birkaç araba var.',
+    },
+    {
+      ing: 'There is a computer on the desk.',
+      tr: 'Masanın üzerinde bir bilgisayar var.',
+    },
+    {
+      ing: 'There are two chairs next to the table.',
+      tr: 'Masanın yanında iki sandalye var.',
+    },
+    {
+      ing: 'There is a lot of milk in the fridge.',
+      tr: 'Buzdolabında çok fazla süt var.',
+    },
+    {
+      ing: 'There are some pencils in the drawer.',
+      tr: 'Çekmecede birkaç kalem var.',
+    },
+    {ing: 'There is a bag on the floor.', tr: 'Yerde bir çanta var.'},
+    {
+      ing: 'There are many books on the shelf.',
+      tr: 'Rafın üzerinde birçok kitap var.',
+    },
+    {ing: 'There is a flower in the vase.', tr: 'Vazoda bir çiçek var.'},
+    {ing: 'There are a few people in the room.', tr: 'Odada birkaç kişi var.'},
+    {
+      ing: 'There is a clock on the wall.',
+      tr: 'Duvarın üzerinde bir saat var.',
+    },
+    {
+      ing: 'There are some toys under the bed.',
+      tr: 'Yatağın altında birkaç oyuncak var.',
+    },
+    {
+      ing: 'There is an apple on the plate.',
+      tr: 'Tabağın üzerinde bir elma var.',
+    },
+    {
+      ing: 'There are several students in the class.',
+      tr: 'Sınıfta birkaç öğrenci var.',
+    },
+    {
+      ing: 'There is a lot of sugar in the bowl.',
+      tr: 'Kasede çok fazla şeker var.',
+    },
+    {
+      ing: 'There are a few candies in the box.',
+      tr: 'Kutuda birkaç şeker var.',
+    },
+    {
+      ing: 'There is a picture on the wall.',
+      tr: 'Duvarın üzerinde bir resim var.',
+    },
+    {
+      ing: 'There are some magazines on the table.',
+      tr: 'Masanın üzerinde birkaç dergi var.',
+    },
+    {
+      ing: 'There is a lamp beside the sofa.',
+      tr: 'Kanepenin yanında bir lamba var.',
+    },
+    {
+      ing: 'There are many stars in the sky.',
+      tr: 'Gökyüzünde birçok yıldız var.',
+    },
+    {
+      ing: 'There is a bottle of juice in the fridge.',
+      tr: 'Buzdolabında bir şişe meyve suyu var.',
+    },
+    {
+      ing: 'There are some letters on the desk.',
+      tr: 'Masanın üzerinde birkaç mektup var.',
+    },
+    {ing: 'There is a notebook in the bag.', tr: 'Çantada bir defter var.'},
+    {
+      ing: 'There are a few animals in the zoo.',
+      tr: 'Hayvanat bahçesinde birkaç hayvan var.',
+    },
+    {
+      ing: 'There isn’t any milk in the fridge.',
+      tr: 'Buzdolabında hiç süt yok.',
+    },
+    {
+      ing: 'There aren’t any books on the shelf.',
+      tr: 'Rafın üzerinde hiç kitap yok.',
+    },
+    {ing: 'There isn’t a chair in the room.', tr: 'Odada bir sandalye yok.'},
+    {
+      ing: 'There aren’t many cars on the street.',
+      tr: 'Sokakta çok fazla araba yok.',
+    },
+    {ing: 'There isn’t any bread on the table.', tr: 'Masada hiç ekmek yok.'},
+    {ing: 'There aren’t any people outside.', tr: 'Dışarıda hiç insan yok.'},
+    {
+      ing: 'There isn’t a lamp on the desk.',
+      tr: 'Masanın üzerinde bir lamba yok.',
+    },
+    {
+      ing: 'There aren’t any cookies in the jar.',
+      tr: 'Kavanozda hiç kurabiye yok.',
+    },
+    {ing: 'There isn’t any water in the glass.', tr: 'Bardakta hiç su yok.'},
+    {
+      ing: 'There aren’t many students in the class.',
+      tr: 'Sınıfta çok fazla öğrenci yok.',
+    },
+    {ing: 'There isn’t a cat in the garden.', tr: 'Bahçede bir kedi yok.'},
+    {
+      ing: 'There aren’t any pictures on the wall.',
+      tr: 'Duvarın üzerinde hiç resim yok.',
+    },
+    {
+      ing: 'There isn’t any juice in the bottle.',
+      tr: 'Şişede hiç meyve suyu yok.',
+    },
+    {ing: 'There aren’t any flowers in the vase.', tr: 'Vazoda hiç çiçek yok.'},
+    {
+      ing: 'There isn’t a dog under the table.',
+      tr: 'Masanın altında bir köpek yok.',
+    },
+    {
+      ing: 'There aren’t any pencils in the drawer.',
+      tr: 'Çekmecede hiç kalem yok.',
+    },
+    {
+      ing: 'There isn’t any cheese in the fridge.',
+      tr: 'Buzdolabında hiç peynir yok.',
+    },
+    {
+      ing: 'There aren’t many toys in the box.',
+      tr: 'Kutuda çok fazla oyuncak yok.',
+    },
+    {
+      ing: 'There isn’t a computer on the desk.',
+      tr: 'Masanın üzerinde bir bilgisayar yok.',
+    },
+    {
+      ing: 'There aren’t any letters on the table.',
+      tr: 'Masanın üzerinde hiç mektup yok.',
+    },
+    {ing: 'There isn’t any tea in the cup.', tr: 'Fincanda hiç çay yok.'},
+    {
+      ing: 'There aren’t any chairs in the kitchen.',
+      tr: 'Mutfakta hiç sandalye yok.',
+    },
+    {
+      ing: 'There isn’t a clock on the wall.',
+      tr: 'Duvarın üzerinde bir saat yok.',
+    },
+    {
+      ing: 'There aren’t many stars in the sky tonight.',
+      tr: 'Bu gece gökyüzünde çok fazla yıldız yok.',
+    },
+    {
+      ing: 'There isn’t any soap in the bathroom.',
+      tr: 'Banyoda hiç sabun yok.',
+    },
+    {
+      ing: 'There aren’t any apples in the basket.',
+      tr: 'Sepette hiç elma yok.',
+    },
+    {ing: 'There isn’t a bike in the garage.', tr: 'Garajda bir bisiklet yok.'},
+    {ing: 'There aren’t any fish in the pond.', tr: 'Gölette hiç balık yok.'},
+    {
+      ing: 'There isn’t any ice cream in the freezer.',
+      tr: 'Dondurucuda hiç dondurma yok.',
+    },
+    {
+      ing: 'There aren’t many cars in the parking lot.',
+      tr: 'Otoparkta çok fazla araba yok.',
+    },
+    {
+      ing: 'Is there any milk in the fridge?',
+      tr: 'Buzdolabında hiç süt var mı?',
+    },
+    {
+      ing: 'Are there any books on the shelf?',
+      tr: 'Rafın üzerinde hiç kitap var mı?',
+    },
+    {ing: 'Is there a cat in the garden?', tr: 'Bahçede bir kedi var mı?'},
+    {ing: 'Are there any people in the room?', tr: 'Odada hiç insan var mı?'},
+    {
+      ing: 'Is there a lamp on the desk?',
+      tr: 'Masanın üzerinde bir lamba var mı?',
+    },
+    {
+      ing: 'Are there any cookies in the jar?',
+      tr: 'Kavanozda hiç kurabiye var mı?',
+    },
+    {ing: 'Is there any water in the glass?', tr: 'Bardakta hiç su var mı?'},
+    {
+      ing: 'Are there many students in the class?',
+      tr: 'Sınıfta çok fazla öğrenci var mı?',
+    },
+    {
+      ing: 'Is there a dog under the table?',
+      tr: 'Masanın altında bir köpek var mı?',
+    },
+    {
+      ing: 'Are there any pictures on the wall?',
+      tr: 'Duvarın üzerinde hiç resim var mı?',
+    },
+    {ing: 'Is there any bread on the table?', tr: 'Masada hiç ekmek var mı?'},
+    {
+      ing: 'Are there any cars in the parking lot?',
+      tr: 'Otoparkta hiç araba var mı?',
+    },
+    {ing: 'Is there a flower in the vase?', tr: 'Vazoda bir çiçek var mı?'},
+    {ing: 'Are there any toys in the box?', tr: 'Kutuda hiç oyuncak var mı?'},
+    {ing: 'Is there a notebook in the bag?', tr: 'Çantada bir defter var mı?'},
+    {
+      ing: 'Are there any apples in the basket?',
+      tr: 'Sepette hiç elma var mı?',
+    },
+    {
+      ing: 'Is there a clock on the wall?',
+      tr: 'Duvarın üzerinde bir saat var mı?',
+    },
+    {
+      ing: 'Are there many stars in the sky?',
+      tr: 'Gökyüzünde çok fazla yıldız var mı?',
+    },
+    {
+      ing: 'Is there a computer on the desk?',
+      tr: 'Masanın üzerinde bir bilgisayar var mı?',
+    },
+    {
+      ing: 'Are there any letters on the table?',
+      tr: 'Masanın üzerinde hiç mektup var mı?',
+    },
+    {
+      ing: 'Is there any cheese in the fridge?',
+      tr: 'Buzdolabında hiç peynir var mı?',
+    },
+    {ing: 'Are there any fish in the pond?', tr: 'Gölette hiç balık var mı?'},
+    {ing: 'Is there a chair in the room?', tr: 'Odada bir sandalye var mı?'},
+    {
+      ing: 'Are there many animals in the zoo?',
+      tr: 'Hayvanat bahçesinde çok fazla hayvan var mı?',
+    },
+    {
+      ing: 'Is there a pen on the desk?',
+      tr: 'Masanın üzerinde bir kalem var mı?',
+    },
+    {
+      ing: 'Are there any flowers in the garden?',
+      tr: 'Bahçede hiç çiçek var mı?',
+    },
+    {
+      ing: 'Is there a TV in the living room?',
+      tr: 'Oturma odasında bir televizyon var mı?',
+    },
+    {ing: 'Are there any cars on the street?', tr: 'Sokakta hiç araba var mı?'},
+    {
+      ing: 'Is there a key on the shelf?',
+      tr: 'Rafın üzerinde bir anahtar var mı?',
+    },
+    {
+      ing: 'Are there any students in the library?',
+      tr: 'Kütüphanede hiç öğrenci var mı?',
+    },
+    {
+      ing: 'There is a little milk in the cup, isn’t there?',
+      tr: 'Bardakta biraz süt var, değil mi?',
+    },
+    {
+      ing: 'There are no books on the shelf, are there?',
+      tr: 'Rafın üzerinde hiç kitap yok, değil mi?',
+    },
+    {
+      ing: 'There isn’t a dog in the garden, is there?',
+      tr: 'Bahçede hiç köpek yok, değil mi?',
+    },
+    {
+      ing: 'There are some letters on the desk, aren’t there?',
+      tr: 'Masanın üzerinde birkaç mektup var, değil mi?',
+    },
+    {
+      ing: 'There is a computer on the table, isn’t there?',
+      tr: 'Masanın üzerinde bir bilgisayar var, değil mi?',
+    },
+    {
+      ing: 'There are no people in the park, are there?',
+      tr: 'Parkta hiç insan yok, değil mi?',
+    },
+    {
+      ing: 'There is a car outside the house, isn’t there?',
+      tr: 'Evin dışında bir araba var, değil mi?',
+    },
+    {
+      ing: 'There are many birds in the tree, aren’t there?',
+      tr: 'Ağaçta birçok kuş var, değil mi?',
+    },
+    {
+      ing: 'There isn’t any cheese in the fridge, is there?',
+      tr: 'Buzdolabında hiç peynir yok, değil mi?',
+    },
+    {
+      ing: 'There are no toys under the bed, are there?',
+      tr: 'Yatağın altında hiç oyuncak yok, değil mi?',
+    },
+    {
+      ing: 'Is there a lot of water in the lake?',
+      tr: 'Gölün içinde çok fazla su var mı?',
+    },
+    {
+      ing: 'Are there a few oranges in the bag?',
+      tr: 'Çantada birkaç portakal var mı?',
+    },
+    {
+      ing: 'Is there a clock above the door?',
+      tr: 'Kapının üzerinde bir saat var mı?',
+    },
+    {
+      ing: 'Are there some flowers near the window?',
+      tr: 'Pencerenin yanında birkaç çiçek var mı?',
+    },
+    {
+      ing: 'There is a cat behind the sofa.',
+      tr: 'Kanepenin arkasında bir kedi var.',
+    },
+    {
+      ing: 'There are several plants in front of the house.',
+      tr: 'Evin önünde birkaç bitki var.',
+    },
+    {
+      ing: 'There is no bread on the shelf.',
+      tr: 'Rafın üzerinde hiç ekmek yok.',
+    },
+    {
+      ing: 'There aren’t any plates on the table.',
+      tr: 'Masanın üzerinde hiç tabak yok.',
+    },
+    {ing: 'Is there any salt in the shaker?', tr: 'Tuzlukta hiç tuz var mı?'},
+    {
+      ing: 'Are there a few eggs in the fridge?',
+      tr: 'Buzdolabında birkaç yumurta var mı?',
+    },
+    {
+      ing: 'There is a picture beside the TV.',
+      tr: 'Televizyonun yanında bir resim var.',
+    },
+    {
+      ing: 'There are many cars on the road today.',
+      tr: 'Bugün yolda birçok araba var.',
+    },
+    {
+      ing: 'There isn’t much light in the room.',
+      tr: 'Odada çok fazla ışık yok.',
+    },
+    {
+      ing: 'There are some toys next to the bed.',
+      tr: 'Yatağın yanında birkaç oyuncak var.',
+    },
+    {
+      ing: 'There is a chair opposite the table.',
+      tr: 'Masanın karşısında bir sandalye var.',
+    },
+    {
+      ing: 'There aren’t many clouds in the sky.',
+      tr: 'Gökyüzünde çok fazla bulut yok.',
+    },
+    {
+      ing: 'There is a rabbit under the tree.',
+      tr: 'Ağacın altında bir tavşan var.',
+    },
+    {
+      ing: 'There are some pillows on the couch.',
+      tr: 'Kanepenin üzerinde birkaç yastık var.',
+    },
+    {ing: 'There isn’t any coffee in the pot.', tr: 'Demlikte hiç kahve yok.'},
+    {
+      ing: 'There are several paintings on the wall.',
+      tr: 'Duvarın üzerinde birkaç tablo var.',
+    },
+    {ing: 'There is a candle on the shelf.', tr: 'Rafın üzerinde bir mum var.'},
+    {
+      ing: 'There aren’t many chairs in the hall.',
+      tr: 'Salonda çok fazla sandalye yok.',
+    },
+    {
+      ing: 'There is a note on the fridge.',
+      tr: 'Buzdolabının üzerinde bir not var.',
+    },
+    {
+      ing: 'Are there any animals in the barn?',
+      tr: 'Ahırda hiç hayvan var mı?',
+    },
+    {
+      ing: 'There is no juice in the glass.',
+      tr: 'Bardakta hiç meyve suyu yok.',
+    },
+    {
+      ing: 'There are some pencils near the book.',
+      tr: 'Kitabın yanında birkaç kalem var.',
+    },
+    {ing: 'There isn’t a car in the garage.', tr: 'Garajda hiç araba yok.'},
+    {ing: 'There are few books in the bag.', tr: 'Çantada çok az kitap var.'},
+    {
+      ing: 'There is a clock in the living room.',
+      tr: 'Oturma odasında bir saat var.',
+    },
+    {
+      ing: 'There aren’t any magazines on the floor.',
+      tr: 'Yerde hiç dergi yok.',
+    },
+    {
+      ing: 'Is there a lot of noise outside?',
+      tr: 'Dışarıda çok fazla gürültü var mı?',
+    },
+    {
+      ing: 'Are there a few bags on the table?',
+      tr: 'Masanın üzerinde birkaç çanta var mı?',
+    },
+    {ing: 'There is no cat in the house.', tr: 'Evde hiç kedi yok.'},
+    {
+      ing: 'There are several cars in the driveway.',
+      tr: 'Yol üzerinde birkaç araba var.',
+    },
+    {
+      ing: 'There is a mouse behind the curtain.',
+      tr: 'Perdenin arkasında bir fare var.',
+    },
+    {ing: 'There aren’t any plants in the room.', tr: 'Odada hiç bitki yok.'},
+    {ing: 'Is there any oil in the bottle?', tr: 'Şişede hiç yağ var mı?'},
+    {
+      ing: 'Are there some shoes near the door?',
+      tr: 'Kapının yanında birkaç ayakkabı var mı?',
+    },
+    {
+      ing: 'There is a little sugar in the bowl.',
+      tr: 'Kasede biraz şeker var.',
+    },
+    {
+      ing: 'There are no toys on the rug.',
+      tr: 'Halının üzerinde hiç oyuncak yok.',
+    },
+    {
+      ing: 'There is a towel on the chair.',
+      tr: 'Sandalyenin üzerinde bir havlu var.',
+    },
+    {
+      ing: 'There are many people at the bus stop.',
+      tr: 'Otobüs durağında birçok insan var.',
+    },
+    {
+      ing: 'There isn’t much space in the closet.',
+      tr: 'Dolapta çok fazla yer yok.',
+    },
+    {
+      ing: 'There are some books near the lamp.',
+      tr: 'Lambanın yanında birkaç kitap var.',
+    },
+    {ing: 'There is a bird on the roof.', tr: 'Çatının üzerinde bir kuş var.'},
+    {
+      ing: 'There are no stars visible tonight.',
+      tr: 'Bu gece görünür hiç yıldız yok.',
+    },
+    {
+      ing: 'Is there any food on the plate?',
+      tr: 'Tabağın üzerinde hiç yiyecek var mı?',
+    },
+    {
+      ing: 'Are there a few jackets in the closet?',
+      tr: 'Dolapta birkaç ceket var mı?',
+    },
+    {
+      ing: 'There is a bag under the seat.',
+      tr: 'Koltuğun altında bir çanta var.',
+    },
+    {
+      ing: 'There are some coins in the drawer.',
+      tr: 'Çekmecede birkaç bozuk para var.',
+    },
+  ],
+  WasWere: [
+    {
+      ing: 'There was a loud noise in the room.',
+      tr: 'Odada yüksek bir ses vardı.',
+    },
+    {ing: 'There were three dogs in the park.', tr: 'Parkta üç köpek vardı.'},
+    {
+      ing: 'There was an old castle by the river.',
+      tr: 'Nehrin yanında eski bir kale vardı.',
+    },
+    {
+      ing: 'There were many stars in the sky last night.',
+      tr: 'Dün gece gökyüzünde birçok yıldız vardı.',
+    },
+    {
+      ing: 'There was a delicious smell in the kitchen.',
+      tr: 'Mutfakta lezzetli bir koku vardı.',
+    },
+    {
+      ing: 'There were a lot of toys on the floor.',
+      tr: 'Yerde çok fazla oyuncak vardı.',
+    },
+    {
+      ing: 'There was a broken chair in the corner.',
+      tr: 'Köşede kırık bir sandalye vardı.',
+    },
+    {
+      ing: 'There were two sandwiches on the plate.',
+      tr: 'Tabağın üzerinde iki sandviç vardı.',
+    },
+    {
+      ing: 'There was a beautiful painting on the wall.',
+      tr: 'Duvarın üzerinde güzel bir tablo vardı.',
+    },
+    {
+      ing: 'There were several bicycles outside the shop.',
+      tr: 'Dükkanın dışında birkaç bisiklet vardı.',
+    },
+    {
+      ing: 'There was a red balloon under the table.',
+      tr: 'Masanın altında kırmızı bir balon vardı.',
+    },
+    {
+      ing: 'There were some pictures on the desk.',
+      tr: 'Masanın üzerinde birkaç resim vardı.',
+    },
+    {
+      ing: 'There was a little bit of ice in the glass.',
+      tr: 'Bardakta biraz buz vardı.',
+    },
+    {
+      ing: 'There were many clouds in the sky.',
+      tr: 'Gökyüzünde birçok bulut vardı.',
+    },
+    {
+      ing: 'There was a rainbow after the rain.',
+      tr: 'Yağmurdan sonra bir gökkuşağı vardı.',
+    },
+    {
+      ing: 'There were some kids playing in the garden.',
+      tr: 'Bahçede oynayan birkaç çocuk vardı.',
+    },
+    {
+      ing: 'There was a movie on TV last night.',
+      tr: 'Dün gece televizyonda bir film vardı.',
+    },
+    {
+      ing: 'There were a few pencils on the desk.',
+      tr: 'Masanın üzerinde birkaç kalem vardı.',
+    },
+    {ing: 'There was a light in the hallway.', tr: 'Koridorda bir ışık vardı.'},
+    {
+      ing: 'There were some books on the chair.',
+      tr: 'Sandalyenin üzerinde birkaç kitap vardı.',
+    },
+    {
+      ing: 'There was a huge tree near the house.',
+      tr: 'Evin yakınında büyük bir ağaç vardı.',
+    },
+    {
+      ing: 'There were many birds in the sky.',
+      tr: 'Gökyüzünde birçok kuş vardı.',
+    },
+    {
+      ing: 'There was a dog barking in the yard.',
+      tr: 'Bahçede havlayan bir köpek vardı.',
+    },
+    {
+      ing: 'There were some candles on the table.',
+      tr: 'Masanın üzerinde birkaç mum vardı.',
+    },
+    {
+      ing: 'There was a small cat in the box.',
+      tr: 'Kutunun içinde küçük bir kedi vardı.',
+    },
+    {
+      ing: 'There were several buses on the road.',
+      tr: 'Yolda birkaç otobüs vardı.',
+    },
+    {
+      ing: 'There was a clock above the door.',
+      tr: 'Kapının üzerinde bir saat vardı.',
+    },
+    {
+      ing: 'There were many fish in the lake.',
+      tr: 'Gölün içinde birçok balık vardı.',
+    },
+    {
+      ing: 'There was a strange noise outside.',
+      tr: 'Dışarıda garip bir ses vardı.',
+    },
+    {
+      ing: 'There were some old photos on the shelf.',
+      tr: 'Rafın üzerinde birkaç eski fotoğraf vardı.',
+    },
+    {
+      ing: 'There wasn’t any bread on the counter.',
+      tr: 'Tezgahın üzerinde hiç ekmek yoktu.',
+    },
+    {
+      ing: 'There weren’t any cars in the parking lot.',
+      tr: 'Otoparkta hiç araba yoktu.',
+    },
+    {
+      ing: 'There wasn’t a book on the desk.',
+      tr: 'Masanın üzerinde bir kitap yoktu.',
+    },
+    {
+      ing: 'There weren’t any flowers in the vase.',
+      tr: 'Vazoda hiç çiçek yoktu.',
+    },
+    {
+      ing: 'There wasn’t a child in the playground.',
+      tr: 'Oyun alanında bir çocuk yoktu.',
+    },
+    {
+      ing: 'There weren’t any lights in the street.',
+      tr: 'Sokakta hiç ışık yoktu.',
+    },
+    {ing: 'There wasn’t a movie on the screen.', tr: 'Ekranda bir film yoktu.'},
+    {
+      ing: 'There weren’t any clouds in the sky.',
+      tr: 'Gökyüzünde hiç bulut yoktu.',
+    },
+    {
+      ing: 'There wasn’t any juice in the fridge.',
+      tr: 'Buzdolabında hiç meyve suyu yoktu.',
+    },
+    {
+      ing: 'There weren’t any chairs in the room.',
+      tr: 'Odada hiç sandalye yoktu.',
+    },
+    {
+      ing: 'There wasn’t a dog under the table.',
+      tr: 'Masanın altında bir köpek yoktu.',
+    },
+    {
+      ing: 'There weren’t any apples in the bowl.',
+      tr: 'Kasede hiç elma yoktu.',
+    },
+    {
+      ing: 'There wasn’t a bicycle outside.',
+      tr: 'Dışarıda bir bisiklet yoktu.',
+    },
+    {
+      ing: 'There weren’t any pens on the desk.',
+      tr: 'Masanın üzerinde hiç kalem yoktu.',
+    },
+    {
+      ing: 'There wasn’t a sign on the door.',
+      tr: 'Kapının üzerinde bir işaret yoktu.',
+    },
+    {
+      ing: 'There weren’t any people in the park.',
+      tr: 'Parkta hiç insan yoktu.',
+    },
+    {
+      ing: 'There wasn’t any tea in the teapot.',
+      tr: 'Çaydanlıkta hiç çay yoktu.',
+    },
+    {
+      ing: 'There weren’t any stars in the sky that night.',
+      tr: 'O gece gökyüzünde hiç yıldız yoktu.',
+    },
+    {
+      ing: 'There wasn’t a picture on the wall.',
+      tr: 'Duvarın üzerinde bir resim yoktu.',
+    },
+    {
+      ing: 'There weren’t any boats on the river.',
+      tr: 'Nehirde hiç tekne yoktu.',
+    },
+    {
+      ing: 'There wasn’t a coat on the chair.',
+      tr: 'Sandalyenin üzerinde bir ceket yoktu.',
+    },
+    {
+      ing: 'There weren’t any cookies in the jar.',
+      tr: 'Kavanozda hiç kurabiye yoktu.',
+    },
+    {ing: 'There wasn’t a lamp in the room.', tr: 'Odada bir lamba yoktu.'},
+    {
+      ing: 'There weren’t any toys on the floor.',
+      tr: 'Yerde hiç oyuncak yoktu.',
+    },
+    {
+      ing: 'There wasn’t any food in the pantry.',
+      tr: 'Kilerde hiç yiyecek yoktu.',
+    },
+    {
+      ing: 'There weren’t any trees in the field.',
+      tr: 'Tarlada hiç ağaç yoktu.',
+    },
+    {
+      ing: 'There wasn’t a smile on his face.',
+      tr: 'Yüzünde bir gülümseme yoktu.',
+    },
+    {
+      ing: 'There weren’t any keys on the table.',
+      tr: 'Masanın üzerinde hiç anahtar yoktu.',
+    },
+    {ing: 'There wasn’t a cat in the yard.', tr: 'Bahçede hiç kedi yoktu.'},
+    {ing: 'There weren’t any clocks in the house.', tr: 'Evde hiç saat yoktu.'},
+    {ing: 'Was there a car in the garage?', tr: 'Garajda bir araba var mıydı?'},
+    {
+      ing: 'Were there any kids at the party?',
+      tr: 'Partide hiç çocuk var mıydı?',
+    },
+    {
+      ing: 'Was there a bird on the roof?',
+      tr: 'Çatının üzerinde bir kuş var mıydı?',
+    },
+    {
+      ing: 'Were there any chairs in the hall?',
+      tr: 'Salonda hiç sandalye var mıydı?',
+    },
+    {
+      ing: 'Was there a cake on the table?',
+      tr: 'Masanın üzerinde bir pasta var mıydı?',
+    },
+    {
+      ing: 'Were there any pictures on the wall?',
+      tr: 'Duvarın üzerinde hiç resim var mıydı?',
+    },
+    {
+      ing: 'Was there a cat in the window?',
+      tr: 'Pencerede bir kedi var mıydı?',
+    },
+    {
+      ing: 'Were there any books in the bag?',
+      tr: 'Çantada hiç kitap var mıydı?',
+    },
+    {
+      ing: 'Was there a tree near the lake?',
+      tr: 'Gölün yakınında bir ağaç var mıydı?',
+    },
+    {
+      ing: 'Were there any stars in the sky?',
+      tr: 'Gökyüzünde hiç yıldız var mıydı?',
+    },
+    {
+      ing: 'Was there a key on the shelf?',
+      tr: 'Rafın üzerinde bir anahtar var mıydı?',
+    },
+    {
+      ing: 'Were there any letters on the desk?',
+      tr: 'Masanın üzerinde hiç mektup var mıydı?',
+    },
+    {ing: 'Was there a pen in the box?', tr: 'Kutuda bir kalem var mıydı?'},
+    {
+      ing: 'Were there any buses on the street?',
+      tr: 'Sokakta hiç otobüs var mıydı?',
+    },
+    {
+      ing: 'Was there a clock on the wall?',
+      tr: 'Duvarın üzerinde bir saat var mıydı?',
+    },
+    {
+      ing: 'Were there any toys in the room?',
+      tr: 'Odada hiç oyuncak var mıydı?',
+    },
+    {
+      ing: 'Was there a smile on her face?',
+      tr: 'Yüzünde bir gülümseme var mıydı?',
+    },
+    {ing: 'Were there any birds in the tree?', tr: 'Ağaçta hiç kuş var mıydı?'},
+    {
+      ing: 'Was there a picture on the fridge?',
+      tr: 'Buzdolabının üzerinde bir resim var mıydı?',
+    },
+    {
+      ing: 'Were there any cookies on the plate?',
+      tr: 'Tabağın üzerinde hiç kurabiye var mıydı?',
+    },
+    {
+      ing: 'Was there a car parked outside?',
+      tr: 'Dışarıda park etmiş bir araba var mıydı?',
+    },
+    {ing: 'Were there any windows open?', tr: 'Açık pencere var mıydı?'},
+    {
+      ing: 'Was there a sound in the hallway?',
+      tr: 'Koridorda bir ses var mıydı?',
+    },
+    {
+      ing: 'Were there any bottles on the table?',
+      tr: 'Masanın üzerinde hiç şişe var mıydı?',
+    },
+    {ing: 'Was there a light in the room?', tr: 'Odada bir ışık var mıydı?'},
+    {
+      ing: 'Were there any cups on the shelf?',
+      tr: 'Rafın üzerinde hiç fincan var mıydı?',
+    },
+    {ing: 'Was there a dog in the garden?', tr: 'Bahçede bir köpek var mıydı?'},
+    {
+      ing: 'Were there any stars visible last night?',
+      tr: 'Dün gece görünür hiç yıldız var mıydı?',
+    },
+    {
+      ing: 'Was there a chair by the door?',
+      tr: 'Kapının yanında bir sandalye var mıydı?',
+    },
+    {
+      ing: 'Were there any people at the station?',
+      tr: 'İstasyonda hiç insan var mıydı?',
+    },
+    {
+      ing: 'There was a lot of noise outside, wasn’t there?',
+      tr: 'Dışarıda çok fazla gürültü vardı, değil mi?',
+    },
+    {
+      ing: 'There were no people at the beach, were there?',
+      tr: 'Plajda hiç insan yoktu, değil mi?',
+    },
+    {
+      ing: 'There wasn’t a car in the garage, was there?',
+      tr: 'Garajda hiç araba yoktu, değil mi?',
+    },
+    {
+      ing: 'There were some old chairs in the attic, weren’t there?',
+      tr: 'Çatı katında birkaç eski sandalye vardı, değil mi?',
+    },
+    {
+      ing: 'There was a problem with the lights, wasn’t there?',
+      tr: 'Işıklarla ilgili bir sorun vardı, değil mi?',
+    },
+    {
+      ing: 'There were many birds in the tree, weren’t there?',
+      tr: 'Ağaçta birçok kuş vardı, değil mi?',
+    },
+    {
+      ing: 'There wasn’t any cheese in the fridge, was there?',
+      tr: 'Buzdolabında hiç peynir yoktu, değil mi?',
+    },
+    {
+      ing: 'There were no toys in the box, were there?',
+      tr: 'Kutuda hiç oyuncak yoktu, değil mi?',
+    },
+    {
+      ing: 'Was there a party at your house last week?',
+      tr: 'Geçen hafta evinizde bir parti var mıydı?',
+    },
+    {
+      ing: 'Were there any concerts in the park this summer?',
+      tr: 'Bu yaz parkta hiç konser var mıydı?',
+    },
+    {
+      ing: 'There was a lot of dust on the shelf.',
+      tr: 'Rafın üzerinde çok fazla toz vardı.',
+    },
+    {
+      ing: 'There were a few people at the café.',
+      tr: 'Kafede birkaç kişi vardı.',
+    },
+    {
+      ing: 'Was there a strange noise at night?',
+      tr: 'Gece garip bir ses var mıydı?',
+    },
+    {
+      ing: 'Were there some kids at the playground?',
+      tr: 'Oyun alanında birkaç çocuk var mıydı?',
+    },
+    {
+      ing: 'There was a puddle of water near the door.',
+      tr: 'Kapının yakınında bir su birikintisi vardı.',
+    },
+    {
+      ing: 'There were several books on the desk.',
+      tr: 'Masanın üzerinde birkaç kitap vardı.',
+    },
+    {
+      ing: 'There was a lamp beside the bed.',
+      tr: 'Yatağın yanında bir lamba vardı.',
+    },
+    {
+      ing: 'There were many fish in the pond.',
+      tr: 'Gölette birçok balık vardı.',
+    },
+    {
+      ing: 'There wasn’t any electricity in the house.',
+      tr: 'Evde hiç elektrik yoktu.',
+    },
+    {
+      ing: 'Were there some old magazines on the table?',
+      tr: 'Masanın üzerinde birkaç eski dergi var mıydı?',
+    },
+    {
+      ing: 'There was a jacket on the chair.',
+      tr: 'Sandalyenin üzerinde bir ceket vardı.',
+    },
+    {
+      ing: 'There were many clouds in the sky yesterday.',
+      tr: 'Dün gökyüzünde birçok bulut vardı.',
+    },
+    {
+      ing: 'There wasn’t a mirror in the bathroom.',
+      tr: 'Banyoda hiç ayna yoktu.',
+    },
+    {
+      ing: 'Were there any letters in the mailbox?',
+      tr: 'Posta kutusunda hiç mektup var mıydı?',
+    },
+    {
+      ing: 'There was a dog in the backyard.',
+      tr: 'Arka bahçede bir köpek vardı.',
+    },
+    {
+      ing: 'There were a few benches in the park.',
+      tr: 'Parkta birkaç bank vardı.',
+    },
+    {ing: 'There was a light in the window.', tr: 'Pencerede bir ışık vardı.'},
+    {
+      ing: 'There were some leaves on the ground.',
+      tr: 'Yerde birkaç yaprak vardı.',
+    },
+    {ing: 'There wasn’t any sugar in the bowl.', tr: 'Kasede hiç şeker yoktu.'},
+    {
+      ing: 'Were there any snacks at the party?',
+      tr: 'Partide hiç atıştırmalık var mıydı?',
+    },
+    {ing: 'There was a spider in the corner.', tr: 'Köşede bir örümcek vardı.'},
+    {
+      ing: 'There were many people on the street.',
+      tr: 'Sokakta birçok insan vardı.',
+    },
+    {
+      ing: 'There wasn’t much rain last week.',
+      tr: 'Geçen hafta çok fazla yağmur yoktu.',
+    },
+    {
+      ing: 'Were there any stars shining last night?',
+      tr: 'Dün gece parlayan yıldızlar var mıydı?',
+    },
+    {
+      ing: 'There was a clock on the fireplace.',
+      tr: 'Şöminenin üzerinde bir saat vardı.',
+    },
+    {
+      ing: 'There were some cars in the driveway.',
+      tr: 'Yol üzerinde birkaç araba vardı.',
+    },
+    {ing: 'There wasn’t a fan in the room.', tr: 'Odada hiç vantilatör yoktu.'},
+    {
+      ing: 'Were there a lot of tourists in the city?',
+      tr: 'Şehirde çok fazla turist var mıydı?',
+    },
+    {
+      ing: 'There was a poster on the door.',
+      tr: 'Kapının üzerinde bir poster vardı.',
+    },
+    {
+      ing: 'There were some plates on the table.',
+      tr: 'Masanın üzerinde birkaç tabak vardı.',
+    },
+    {
+      ing: 'Was there a bicycle near the gate?',
+      tr: 'Kapının yakınında bir bisiklet var mıydı?',
+    },
+    {
+      ing: 'Were there any pencils in the drawer?',
+      tr: 'Çekmecede hiç kalem var mıydı?',
+    },
+    {
+      ing: 'There wasn’t a TV in the living room.',
+      tr: 'Oturma odasında hiç televizyon yoktu.',
+    },
+    {
+      ing: 'There were a few cats in the alley.',
+      tr: 'Sokakta birkaç kedi vardı.',
+    },
+    {ing: 'There was a light on the ceiling.', tr: 'Tavanda bir ışık vardı.'},
+    {
+      ing: 'Were there some coins in the jar?',
+      tr: 'Kavanozda birkaç bozuk para var mıydı?',
+    },
+    {
+      ing: 'There wasn’t any cheese on the plate.',
+      tr: 'Tabağın üzerinde hiç peynir yoktu.',
+    },
+    {
+      ing: 'Were there any guests at the event?',
+      tr: 'Etkinlikte hiç misafir var mıydı?',
+    },
+    {
+      ing: 'There was a bell ringing in the distance.',
+      tr: 'Uzakta çalan bir zil vardı.',
+    },
+    {ing: 'There were some birds in the nest.', tr: 'Yuvada birkaç kuş vardı.'},
+    {
+      ing: 'There wasn’t a smile on his face.',
+      tr: 'Yüzünde hiç gülümseme yoktu.',
+    },
+    {
+      ing: 'Were there many books in the library?',
+      tr: 'Kütüphanede çok fazla kitap var mıydı?',
+    },
+    {
+      ing: 'There was a cup of tea on the table.',
+      tr: 'Masanın üzerinde bir fincan çay vardı.',
+    },
+    {
+      ing: 'There were several trains at the station.',
+      tr: 'İstasyonda birkaç tren vardı.',
+    },
+    {
+      ing: 'Was there a ticket on the desk?',
+      tr: 'Masanın üzerinde bir bilet var mıydı?',
+    },
+    {
+      ing: 'Were there any shoes in the closet?',
+      tr: 'Dolapta hiç ayakkabı var mıydı?',
+    },
+    {ing: 'There was a flower in the garden.', tr: 'Bahçede bir çiçek vardı.'},
+    {ing: 'There were no apples on the tree.', tr: 'Ağaçta hiç elma yoktu.'},
+    {
+      ing: 'Was there a rainbow after the storm?',
+      tr: 'Fırtınadan sonra bir gökkuşağı var mıydı?',
+    },
+    {
+      ing: 'Were there some clouds in the sky yesterday?',
+      tr: 'Dün gökyüzünde birkaç bulut var mıydı?',
+    },
+  ],
+  WillBe: [
+    {
+      ing: 'There will be a party at the park tomorrow.',
+      tr: 'Yarın parkta bir parti olacak.',
+    },
+    {
+      ing: 'There will be some rain in the afternoon.',
+      tr: 'Öğleden sonra biraz yağmur olacak.',
+    },
+    {
+      ing: 'There will be many stars in the sky tonight.',
+      tr: 'Bu gece gökyüzünde birçok yıldız olacak.',
+    },
+    {
+      ing: 'There will be a meeting in the office next week.',
+      tr: 'Gelecek hafta ofiste bir toplantı olacak.',
+    },
+    {
+      ing: 'There will be a lot of food on the table.',
+      tr: 'Masanın üzerinde çok fazla yiyecek olacak.',
+    },
+    {
+      ing: 'There will be some chairs in the garden.',
+      tr: 'Bahçede birkaç sandalye olacak.',
+    },
+    {
+      ing: 'There will be a concert in the city center.',
+      tr: 'Şehir merkezinde bir konser olacak.',
+    },
+    {
+      ing: 'There will be a new teacher in the class.',
+      tr: 'Sınıfta yeni bir öğretmen olacak.',
+    },
+    {
+      ing: 'There will be several events at the festival.',
+      tr: 'Festivalde birkaç etkinlik olacak.',
+    },
+    {
+      ing: 'There will be a book fair in the school.',
+      tr: 'Okulda bir kitap fuarı olacak.',
+    },
+    {
+      ing: 'There will be a movie on TV tonight.',
+      tr: 'Bu gece televizyonda bir film olacak.',
+    },
+    {
+      ing: 'There will be some flowers in the vase.',
+      tr: 'Vazoda birkaç çiçek olacak.',
+    },
+    {
+      ing: 'There will be a lot of traffic on the road.',
+      tr: 'Yolda çok fazla trafik olacak.',
+    },
+    {
+      ing: 'There will be a party at my house on Saturday.',
+      tr: 'Cumartesi günü evimde bir parti olacak.',
+    },
+    {ing: 'There will be a cat in the garden.', tr: 'Bahçede bir kedi olacak.'},
+    {
+      ing: 'There will be some milk in the fridge.',
+      tr: 'Buzdolabında biraz süt olacak.',
+    },
+    {
+      ing: 'There will be many people at the event.',
+      tr: 'Etkinlikte birçok insan olacak.',
+    },
+    {
+      ing: 'There will be a tree near the playground.',
+      tr: 'Oyun alanının yakınında bir ağaç olacak.',
+    },
+    {
+      ing: 'There will be some sandwiches on the table.',
+      tr: 'Masanın üzerinde birkaç sandviç olacak.',
+    },
+    {
+      ing: 'There will be a few cars in the parking lot.',
+      tr: 'Otoparkta birkaç araba olacak.',
+    },
+    {
+      ing: 'There will be a birthday cake on the table.',
+      tr: 'Masanın üzerinde bir doğum günü pastası olacak.',
+    },
+    {
+      ing: 'There will be a lot of fun at the party.',
+      tr: 'Partide çok fazla eğlence olacak.',
+    },
+    {
+      ing: 'There will be a game at the stadium.',
+      tr: 'Stadyumda bir oyun olacak.',
+    },
+    {
+      ing: 'There will be several activities at the park.',
+      tr: 'Parkta birkaç aktivite olacak.',
+    },
+    {
+      ing: 'There will be some snacks in the kitchen.',
+      tr: 'Mutfakta birkaç atıştırmalık olacak.',
+    },
+    {
+      ing: 'There won’t be any rain tomorrow.',
+      tr: 'Yarın hiç yağmur olmayacak.',
+    },
+    {
+      ing: 'There won’t be any food left on the table.',
+      tr: 'Masada hiç yiyecek kalmayacak.',
+    },
+    {
+      ing: 'There won’t be a movie on TV tonight.',
+      tr: 'Bu gece televizyonda bir film olmayacak.',
+    },
+    {
+      ing: 'There won’t be any stars in the sky tonight.',
+      tr: 'Bu gece gökyüzünde hiç yıldız olmayacak.',
+    },
+    {
+      ing: 'There won’t be a car in the garage.',
+      tr: 'Garajda hiç bir araba olmayacak.',
+    },
+    {
+      ing: 'There won’t be any milk in the fridge.',
+      tr: 'Buzdolabında hiç süt olmayacak.',
+    },
+    {
+      ing: 'There won’t be any flowers in the garden.',
+      tr: 'Bahçede hiç çiçek olmayacak.',
+    },
+    {
+      ing: 'There won’t be a party at my house.',
+      tr: 'Evimde bir parti olmayacak.',
+    },
+    {ing: 'There won’t be a cat in the room.', tr: 'Odada bir kedi olmayacak.'},
+    {
+      ing: 'There won’t be any people at the beach.',
+      tr: 'Plajda hiç insan olmayacak.',
+    },
+    {
+      ing: 'There won’t be any chairs in the garden.',
+      tr: 'Bahçede hiç sandalye olmayacak.',
+    },
+    {
+      ing: 'There won’t be any food in the fridge.',
+      tr: 'Buzdolabında hiç yiyecek olmayacak.',
+    },
+    {
+      ing: 'There won’t be a tree near the house.',
+      tr: 'Evin yakınında bir ağaç olmayacak.',
+    },
+    {
+      ing: 'There won’t be a concert in the park.',
+      tr: 'Parkta bir konser olmayacak.',
+    },
+    {
+      ing: 'There won’t be any events at the festival.',
+      tr: 'Festivalde hiç etkinlik olmayacak.',
+    },
+    {
+      ing: 'There won’t be any books on the shelf.',
+      tr: 'Rafın üzerinde hiç kitap olmayacak.',
+    },
+    {
+      ing: 'There won’t be any snacks in the kitchen.',
+      tr: 'Mutfakta hiç atıştırmalık olmayacak.',
+    },
+    {
+      ing: 'There won’t be a meeting in the office.',
+      tr: 'Ofiste hiç toplantı olmayacak.',
+    },
+    {
+      ing: 'There won’t be a movie at the cinema.',
+      tr: 'Sinemada hiç film olmayacak.',
+    },
+    {
+      ing: 'There won’t be any toys on the floor.',
+      tr: 'Yerde hiç oyuncak olmayacak.',
+    },
+    {
+      ing: 'There won’t be a dog in the garden.',
+      tr: 'Bahçede bir köpek olmayacak.',
+    },
+    {
+      ing: 'There won’t be any cookies in the jar.',
+      tr: 'Kavanozda hiç kurabiye olmayacak.',
+    },
+    {
+      ing: 'There won’t be a lamp on the desk.',
+      tr: 'Masanın üzerinde bir lamba olmayacak.',
+    },
+    {
+      ing: 'There won’t be any lights in the room.',
+      tr: 'Odada hiç ışık olmayacak.',
+    },
+    {
+      ing: 'There won’t be any kids at the park.',
+      tr: 'Parkta hiç çocuk olmayacak.',
+    },
+    {
+      ing: 'Will there be a concert in the city tomorrow?',
+      tr: 'Yarın şehirde bir konser olacak mı?',
+    },
+    {
+      ing: 'Will there be any milk in the fridge?',
+      tr: 'Buzdolabında hiç süt olacak mı?',
+    },
+    {
+      ing: 'Will there be a party at your house next week?',
+      tr: 'Gelecek hafta evinde bir parti olacak mı?',
+    },
+    {
+      ing: 'Will there be any stars in the sky tonight?',
+      tr: 'Bu gece gökyüzünde hiç yıldız olacak mı?',
+    },
+    {
+      ing: 'Will there be a cat in the garden?',
+      tr: 'Bahçede bir kedi olacak mı?',
+    },
+    {
+      ing: 'Will there be any rain on Saturday?',
+      tr: 'Cumartesi günü hiç yağmur olacak mı?',
+    },
+    {
+      ing: 'Will there be a game at the stadium?',
+      tr: 'Stadyumda bir oyun olacak mı?',
+    },
+    {
+      ing: 'Will there be any people at the event?',
+      tr: 'Etkinlikte hiç insan olacak mı?',
+    },
+    {
+      ing: 'Will there be a book on the table?',
+      tr: 'Masanın üzerinde bir kitap olacak mı?',
+    },
+    {
+      ing: 'Will there be any food in the kitchen?',
+      tr: 'Mutfakta hiç yiyecek olacak mı?',
+    },
+    {
+      ing: 'Will there be a tree near the playground?',
+      tr: 'Oyun alanının yakınında bir ağaç olacak mı?',
+    },
+    {
+      ing: 'Will there be a new teacher in the class?',
+      tr: 'Sınıfta yeni bir öğretmen olacak mı?',
+    },
+    {
+      ing: 'Will there be any snacks at the party?',
+      tr: 'Partide hiç atıştırmalık olacak mı?',
+    },
+    {
+      ing: 'Will there be a lot of traffic on the road?',
+      tr: 'Yolda çok fazla trafik olacak mı?',
+    },
+    {
+      ing: 'Will there be some games at the park?',
+      tr: 'Parkta birkaç oyun olacak mı?',
+    },
+    {
+      ing: 'Will there be a concert at the festival?',
+      tr: 'Festivalde bir konser olacak mı?',
+    },
+    {
+      ing: 'Will there be any cookies in the jar?',
+      tr: 'Kavanozda hiç kurabiye olacak mı?',
+    },
+    {
+      ing: 'Will there be a light in the hallway?',
+      tr: 'Koridorda bir ışık olacak mı?',
+    },
+    {
+      ing: 'Will there be any chairs at the table?',
+      tr: 'Masanın yanında hiç sandalye olacak mı?',
+    },
+    {
+      ing: 'Will there be a movie on TV tonight?',
+      tr: 'Bu gece televizyonda bir film olacak mı?',
+    },
+    {
+      ing: 'Will there be any books in the library?',
+      tr: 'Kütüphanede hiç kitap olacak mı?',
+    },
+    {
+      ing: 'Will there be any toys in the room?',
+      tr: 'Odada hiç oyuncak olacak mı?',
+    },
+    {
+      ing: 'Will there be a lot of fun at the festival?',
+      tr: 'Festivalde çok fazla eğlence olacak mı?',
+    },
+    {
+      ing: 'Will there be a birthday cake at the party?',
+      tr: 'Partide bir doğum günü pastası olacak mı?',
+    },
+    {
+      ing: 'Will there be several activities in the garden?',
+      tr: 'Bahçede birkaç aktivite olacak mı?',
+    },
+  ],
+};
+
+export const PronounsTranslationSentences = {
+  IMe: [
+    {ing: 'I see you at the park.', tr: 'Ben parkta seni görüyorum.'},
+    {ing: 'She loves him very much.', tr: 'O, onu çok seviyor.'},
+    {
+      ing: 'They invited us to their party.',
+      tr: 'Onlar, bizi partilerine davet etti.',
+    },
+    {ing: 'He gave me a gift.', tr: 'O, bana bir hediye verdi.'},
+    {
+      ing: 'We can help you with your homework.',
+      tr: 'Biz, sana ödevinle yardımcı olabiliriz.',
+    },
+    {ing: 'You told her the news.', tr: 'Sen, ona haberi söyledin.'},
+    {ing: 'I called them yesterday.', tr: 'Ben, dün onları aradım.'},
+    {ing: 'She saw us at the mall.', tr: 'O, alışveriş merkezinde bizi gördü.'},
+    {ing: 'He is waiting for me outside.', tr: 'O, dışarıda beni bekliyor.'},
+    {
+      ing: 'They will join us for dinner.',
+      tr: 'Onlar, akşam yemeğine bize katılacaklar.',
+    },
+    {
+      ing: 'We helped him with his project.',
+      tr: 'Biz, ona projesinde yardım ettik.',
+    },
+    {ing: 'You can ask me anything.', tr: 'Sen, bana her şeyi sorabilirsin.'},
+    {ing: 'I wrote her a letter.', tr: 'Ben, ona bir mektup yazdım.'},
+    {
+      ing: 'She showed me her new dress.',
+      tr: 'O, bana yeni elbisesini gösterdi.',
+    },
+    {ing: 'He wants to see you again.', tr: 'O, tekrar seni görmek istiyor.'},
+    {
+      ing: 'They told us about their trip.',
+      tr: 'Onlar, bize seyahatlerinden bahsetti.',
+    },
+    {
+      ing: 'We can meet them after school.',
+      tr: 'Biz, okuldan sonra onlarla buluşabiliriz.',
+    },
+    {ing: 'You made him laugh.', tr: 'Sen, onu güldürdün.'},
+    {ing: 'I bought her a book.', tr: 'Ben, ona bir kitap aldım.'},
+    {ing: 'She gave me some advice.', tr: 'O, bana birkaç tavsiye verdi.'},
+    {ing: 'He asked us to help him.', tr: 'O, bize yardım etmemizi istedi.'},
+    {ing: 'They called you last night.', tr: 'Onlar, dün gece seni aradı.'},
+    {ing: 'We saw him at the store.', tr: 'Biz, dükkanda onu gördük.'},
+    {
+      ing: 'You need to tell her the truth.',
+      tr: 'Sen, ona gerçeği söylemelisin.',
+    },
+    {
+      ing: 'I will help them with the project.',
+      tr: 'Ben, projelerinde onlara yardım edeceğim.',
+    },
+    {ing: 'She knows me very well.', tr: 'O, beni çok iyi tanıyor.'},
+    {ing: 'He will join us for lunch.', tr: 'O, öğle yemeğine bize katılacak.'},
+    {
+      ing: 'They saw you at the concert.',
+      tr: 'Onlar, konser alanında seni gördü.',
+    },
+    {
+      ing: 'We are waiting for her outside.',
+      tr: 'Biz, dışarıda onu bekliyoruz.',
+    },
+    {
+      ing: 'You told me about your plans.',
+      tr: 'Sen, bana planlarından bahsettin.',
+    },
+    {ing: 'I have seen him before.', tr: 'Ben, onu daha önce gördüm.'},
+    {ing: 'She called you yesterday.', tr: 'O, dün seni aradı.'},
+    {
+      ing: 'He can help us with this task.',
+      tr: 'O, bu görevde bize yardımcı olabilir.',
+    },
+    {
+      ing: 'They brought me a souvenir from their trip.',
+      tr: 'Onlar, seyahatlerinden bana bir hatıra getirdi.',
+    },
+    {
+      ing: 'We have to tell him about the meeting.',
+      tr: 'Biz, toplantı hakkında ona söylemeliyiz.',
+    },
+    {
+      ing: 'You should ask her for advice.',
+      tr: 'Sen, ondan tavsiye istemelisin.',
+    },
+    {ing: 'I will show them the way.', tr: 'Ben, onlara yolu göstereceğim.'},
+    {ing: 'She is thinking about him.', tr: 'O, onu düşünüyor.'},
+    {ing: 'He told us a funny story.', tr: 'O, bize komik bir hikaye anlattı.'},
+    {ing: 'They saw me at the party.', tr: 'Onlar, partide beni gördü.'},
+    {
+      ing: 'We should invite you to the barbecue.',
+      tr: 'Biz, seni mangala davet etmeliyiz.',
+    },
+    {
+      ing: 'You promised to help her with the move.',
+      tr: 'Sen, ona taşınmasında yardım edeceğine söz verdin.',
+    },
+    {ing: 'I met them last week.', tr: 'Ben, geçen hafta onlarla tanıştım.'},
+    {
+      ing: 'She loves to talk about her family.',
+      tr: 'O, ailesinden bahsetmeyi seviyor.',
+    },
+    {
+      ing: 'He gave you a nice compliment.',
+      tr: 'O, sana güzel bir iltifat etti.',
+    },
+    {
+      ing: 'They are excited to see us again.',
+      tr: 'Onlar, bizi tekrar görmek için heyecanlı.',
+    },
+    {ing: 'We can ask him for help.', tr: 'Biz, ondan yardım isteyebiliriz.'},
+    {
+      ing: 'You should tell me your thoughts.',
+      tr: 'Sen, bana düşüncelerini söylemelisin.',
+    },
+    {
+      ing: 'I found her book in the library.',
+      tr: 'Ben, kütüphanede onun kitabını buldum.',
+    },
+    {
+      ing: 'She always trusts me with her secrets.',
+      tr: 'O, her zaman bana sırlarını güvenir.',
+    },
+    {
+      ing: 'He brought us a delicious cake.',
+      tr: 'O, bize lezzetli bir pasta getirdi.',
+    },
+    {ing: 'They are looking for you.', tr: 'Onlar, seni arıyor.'},
+    {ing: 'We know him very well.', tr: 'Biz, onu çok iyi tanıyoruz.'},
+    {
+      ing: 'You can share your ideas with me.',
+      tr: 'Sen, fikirlerini benimle paylaşabilirsin.',
+    },
+    {
+      ing: 'I showed her the photos from my trip.',
+      tr: 'Ben, ona seyahatimden fotoğrafları gösterdim.',
+    },
+    {
+      ing: 'She bought him a nice gift for his birthday.',
+      tr: 'O, doğum günü için ona güzel bir hediye aldı.',
+    },
+    {
+      ing: 'He enjoys talking to us about his travels.',
+      tr: 'O, seyahatleri hakkında bizimle konuşmaktan hoşlanıyor.',
+    },
+    {
+      ing: 'They asked me to join their team.',
+      tr: 'Onlar, ekibine katılmamı istedi.',
+    },
+    {
+      ing: 'We celebrated her birthday together.',
+      tr: 'Biz, onun doğum gününü birlikte kutladık.',
+    },
+    {ing: 'You need to believe in yourself.', tr: 'Sen, kendine inanmalısın.'},
+    {
+      ing: 'I will send you an email later.',
+      tr: 'Ben, sana daha sonra bir e-posta göndereceğim.',
+    },
+    {
+      ing: 'She wanted to tell him the news.',
+      tr: 'O, ona haberi söylemek istedi.',
+    },
+    {
+      ing: 'He saw them playing soccer in the park.',
+      tr: 'O, parkta futbol oynarken onları gördü.',
+    },
+    {
+      ing: 'They invited us to their wedding next month.',
+      tr: 'Onlar, gelecek ayki düğünlerine bizi davet etti.',
+    },
+    {
+      ing: 'We should remind you about the meeting.',
+      tr: 'Biz, toplantı hakkında seni hatırlatmalıyız.',
+    },
+    {
+      ing: 'You told me your favorite movie.',
+      tr: 'Sen, bana en sevdiğin filmi söyledin.',
+    },
+    {
+      ing: 'I forgot to call her yesterday.',
+      tr: 'Ben, dün onu aramayı unuttum.',
+    },
+    {
+      ing: 'She made him a delicious breakfast.',
+      tr: 'O, ona lezzetli bir kahvaltı yaptı.',
+    },
+    {
+      ing: 'He wants to join us for the trip.',
+      tr: 'O, tatile bize katılmak istiyor.',
+    },
+    {ing: 'They found me at the coffee shop.', tr: 'Onlar, kafede beni buldu.'},
+    {
+      ing: 'We can help her with the project.',
+      tr: 'Biz, projede ona yardımcı olabiliriz.',
+    },
+    {
+      ing: 'You should take care of yourself.',
+      tr: 'Sen, kendine dikkat etmelisin.',
+    },
+    {
+      ing: 'I heard him talking about his plans.',
+      tr: 'Ben, onun planlarından bahsettiğini duydum.',
+    },
+    {
+      ing: 'She called us to join her at the concert.',
+      tr: 'O, konserine katılmamız için bizi aradı.',
+    },
+    {
+      ing: 'He will show you how to do it.',
+      tr: 'O, sana bunu nasıl yapacağını gösterecek.',
+    },
+    {
+      ing: 'They always listen to me when I speak.',
+      tr: 'Onlar, ben konuştuğumda her zaman beni dinler.',
+    },
+    {
+      ing: 'We enjoy playing games with them.',
+      tr: 'Biz, onlarla oyun oynamayı seviyoruz.',
+    },
+    {
+      ing: 'You have to remind her about the appointment.',
+      tr: 'Sen, ona randevuyu hatırlatmalısın.',
+    },
+    {ing: 'I think he is very talented.', tr: 'Bence o çok yetenekli.'},
+    {
+      ing: 'She wants to know if you finished your homework.',
+      tr: 'O, ödevini bitirip bitirmediğini bilmek istiyor.',
+    },
+    {ing: 'He gave me a call yesterday.', tr: 'O, dün bana telefon etti.'},
+    {
+      ing: 'They can help us with the preparations.',
+      tr: 'Onlar, hazırlıklarla bize yardım edebilir.',
+    },
+    {ing: 'We saw her at the grocery store.', tr: 'Biz, markette onu gördük.'},
+    {
+      ing: 'You can trust him with your secret.',
+      tr: 'Sen, ona sırrını güvenebilirsin.',
+    },
+    {
+      ing: 'I promised her that I would be there.',
+      tr: 'Ben, ona orada olacağıma söz verdim.',
+    },
+    {
+      ing: 'She brought us cookies for dessert.',
+      tr: 'O, tatlı için bize kurabiye getirdi.',
+    },
+    {
+      ing: 'He asked me if I wanted to join the club.',
+      tr: 'O, kulübe katılmak isteyip istemediğimi sordu.',
+    },
+    {
+      ing: 'They told you to be careful.',
+      tr: 'Onlar, sana dikkatli olmanı söyledi.',
+    },
+    {
+      ing: 'We appreciate your help with the project.',
+      tr: 'Biz, projedeki yardımını takdir ediyoruz.',
+    },
+    {
+      ing: 'You should consider your options carefully.',
+      tr: 'Sen, seçeneklerini dikkatlice düşünmelisin.',
+    },
+    {ing: 'I found him at the coffee shop.', tr: 'Ben, kafede onu buldum.'},
+    {
+      ing: 'She told them about her trip to Europe.',
+      tr: 'O, onlara Avrupa seyahatinden bahsetti.',
+    },
+    {
+      ing: 'He often helps us with our studies.',
+      tr: 'O, sık sık bize derslerimizle yardım eder.',
+    },
+    {
+      ing: 'They showed you their new puppy.',
+      tr: 'Onlar, sana yeni yavru köpeklerini gösterdi.',
+    },
+    {
+      ing: 'We enjoyed talking to her about travel.',
+      tr: 'Biz, seyahat hakkında onunla konuşmaktan keyif aldık.',
+    },
+    {
+      ing: 'You need to ask him for the details.',
+      tr: 'Sen, ayrıntıları ondan sormalısın.',
+    },
+    {
+      ing: 'I often see her at the gym.',
+      tr: 'Ben sık sık spor salonunda onu görürüm.',
+    },
+    {
+      ing: 'She loves to play with them in the park.',
+      tr: 'O, parkta onlarla oynamayı seviyor.',
+    },
+    {
+      ing: 'He sent me an email yesterday.',
+      tr: 'O, dün bana bir e-posta gönderdi.',
+    },
+    {
+      ing: 'They invited you to their anniversary party.',
+      tr: 'Onlar, yıl dönümü partisine seni davet etti.',
+    },
+    {
+      ing: 'We want to meet him next week.',
+      tr: 'Biz, gelecek hafta onunla buluşmak istiyoruz.',
+    },
+    {
+      ing: 'You can join us for dinner if you want.',
+      tr: 'Sen, istersen akşam yemeğine bize katılabilirsin.',
+    },
+    {
+      ing: 'I gave her the information she needed.',
+      tr: 'Ben, ona ihtiyacı olan bilgiyi verdim.',
+    },
+    {
+      ing: 'She saw him at the concert last night.',
+      tr: 'O, dün gece konser alanında onu gördü.',
+    },
+    {
+      ing: 'He will always support you in your decisions.',
+      tr: 'O, her zaman senin kararlarında seni destekleyecek.',
+    },
+    {
+      ing: 'They brought me a souvenir from their trip.',
+      tr: 'Onlar, seyahatlerinden bana bir hatıra getirdi.',
+    },
+    {
+      ing: 'We should respect their opinions.',
+      tr: 'Biz, onların fikirlerine saygı göstermeliyiz.',
+    },
+    {
+      ing: 'You need to finish your homework by tomorrow.',
+      tr: 'Sen, ödevini yarına kadar bitirmelisin.',
+    },
+    {
+      ing: 'I asked her to help me with the project.',
+      tr: 'Ben, ondan projede bana yardım etmesini istedim.',
+    },
+    {
+      ing: 'She gave him a nice compliment after his performance.',
+      tr: 'O, gösterisinden sonra ona güzel bir iltifat etti.',
+    },
+    {
+      ing: 'He often tells us funny stories.',
+      tr: 'O, sık sık bize komik hikayeler anlatır.',
+    },
+    {
+      ing: 'They have to call you if they need help.',
+      tr: 'Onlar, yardıma ihtiyaç duyarlarsa seni aramak zorundalar.',
+    },
+    {
+      ing: 'We enjoyed our time at the beach.',
+      tr: 'Biz, planda zamanımızdan keyif aldık.',
+    },
+    {
+      ing: 'You should thank him for his kindness.',
+      tr: 'Sen, ona nazikliği için teşekkür etmelisin.',
+    },
+    {
+      ing: 'I remember her birthday is coming soon.',
+      tr: 'Ben, onun doğum gününün yakında olduğunu hatırlıyorum.',
+    },
+    {
+      ing: 'She is teaching him how to play the guitar.',
+      tr: 'O, ona gitar çalmayı öğretiyor.',
+    },
+    {
+      ing: 'He borrowed my pen to sign the document.',
+      tr: 'O, belgeyi imzalamak için kalemimi ödünç aldı.',
+    },
+    {
+      ing: 'They will visit us during the holidays.',
+      tr: 'Onlar, tatil sırasında bizi ziyaret edecekler.',
+    },
+    {
+      ing: 'We are waiting for you at the coffee shop.',
+      tr: 'Biz, kafede seni bekliyoruz.',
+    },
+    {
+      ing: 'You can join them if you want to play soccer.',
+      tr: 'Sen, futbol oynamak istiyorsan onlara katılabilirsin.',
+    },
+    {
+      ing: 'I forgot to bring my notebook to class.',
+      tr: 'Ben, derse defterimi getirmeyi unuttum.',
+    },
+    {
+      ing: 'She is looking for her keys in the kitchen.',
+      tr: 'O, mutfakta anahtarlarını arıyor.',
+    },
+    {
+      ing: 'He enjoys helping us with our homework.',
+      tr: 'O, bize ödevlerimizle yardımcı olmaktan hoşlanıyor.',
+    },
+    {
+      ing: 'They saw you at the mall last weekend.',
+      tr: 'Onlar, geçen hafta sonu alışveriş merkezinde seni gördü.',
+    },
+    {
+      ing: 'We need to remind him about the meeting.',
+      tr: 'Biz, toplantı hakkında ona hatırlatmalıyız.',
+    },
+    {
+      ing: 'You are welcome to join us for dinner.',
+      tr: 'Sen, akşam yemeğine bize katılmaya davetlisiniz.',
+    },
+    {
+      ing: 'I took her advice and applied for the job.',
+      tr: 'Ben, onun tavsiyesini aldım ve işe başvurdum.',
+    },
+    {
+      ing: 'She always supports him in his decisions.',
+      tr: 'O, onun kararlarında her zaman destek olur.',
+    },
+    {
+      ing: 'He sent us a postcard from his vacation.',
+      tr: 'O, tatilinden bize bir kartpostal gönderdi.',
+    },
+    {
+      ing: 'They invited you to their graduation party.',
+      tr: 'Onlar, mezuniyet partilerine seni davet etti.',
+    },
+    {
+      ing: 'We are going to call her tomorrow.',
+      tr: 'Biz, yarın onu arayacağız.',
+    },
+    {
+      ing: 'You should help him with his studies.',
+      tr: 'Sen, ona derslerinde yardım etmelisin.',
+    },
+    {
+      ing: 'I can see them playing in the park.',
+      tr: 'Ben, parkta onların oynadığını görebiliyorum.',
+    },
+    {
+      ing: 'She forgot to return my book.',
+      tr: 'O, kitabımı geri vermeyi unuttu.',
+    },
+    {ing: 'He knows her very well.', tr: 'O, onu çok iyi tanıyor.'},
+    {
+      ing: 'They asked us to join them for lunch.',
+      tr: 'Onlar, öğle yemeğine bize katılmamızı istedi.',
+    },
+    {
+      ing: 'We should visit him next week.',
+      tr: 'Biz, gelecek hafta onu ziyaret etmeliyiz.',
+    },
+    {
+      ing: 'You made me a beautiful card for my birthday.',
+      tr: 'Sen, doğum günüm için bana güzel bir kart yaptın.',
+    },
+    {
+      ing: 'I will always remember you in my prayers.',
+      tr: 'Ben, her zaman seni dualarımda hatırlayacağım.',
+    },
+    {
+      ing: 'She bought him a present for his birthday.',
+      tr: 'O, doğum günü için ona bir hediye aldı.',
+    },
+    {
+      ing: 'He loves to play games with them.',
+      tr: 'O, onlarla oyun oynamayı sever.',
+    },
+    {
+      ing: 'They want to share their ideas with us.',
+      tr: 'Onlar, fikirlerini bizimle paylaşmak istiyor.',
+    },
+    {
+      ing: 'We found her lost dog yesterday.',
+      tr: 'Biz, dün onun kaybolan köpeğini bulduk.',
+    },
+    {
+      ing: 'You should call him when you get home.',
+      tr: 'Sen, eve döndüğünde onu aramalısın.',
+    },
+    {
+      ing: 'I always listen to her when she speaks.',
+      tr: 'Ben, o konuştuğunda her zaman onu dinlerim.',
+    },
+    {
+      ing: 'She asked us to help her with the task.',
+      tr: 'O, görevinde ona yardımcı olmamızı istedi.',
+    },
+    {ing: 'He is waiting for you to finish.', tr: 'O, bitirmeni bekliyor.'},
+    {
+      ing: 'They will bring us some snacks.',
+      tr: 'Onlar, bize atıştırmalıklar getirecek.',
+    },
+    {
+      ing: 'We need to tell him the good news.',
+      tr: 'Biz, ona iyi haberi söylemeliyiz.',
+    },
+    {
+      ing: 'You can trust me with your secrets.',
+      tr: 'Sen, sırlarını bana güvenebilirsin.',
+    },
+  ],
+  IMine: [
+    {
+      ing: 'I found this book; it is mine.',
+      tr: 'Ben bu kitabı buldum; bu benim.',
+    },
+    {
+      ing: 'She loves her dress, but hers is different.',
+      tr: 'O elbisesini seviyor ama onunki farklı.',
+    },
+    {
+      ing: 'They have a big house, and theirs is beautiful.',
+      tr: 'Onlar büyük bir eve sahip ve onlarınki güzeldir.',
+    },
+    {
+      ing: 'He forgot his keys, so these are not his.',
+      tr: 'O, anahtarlarını unuttu, bu yüzden bunlar onunki değil.',
+    },
+    {
+      ing: 'We brought our lunch, but ours is better.',
+      tr: 'Biz öğle yemeğimizi getirdik ama bizimki daha iyi.',
+    },
+    {
+      ing: 'You can borrow my pen if yours is missing.',
+      tr: 'Benim kalemimi alabilirsin eğer senin kaybolduysa.',
+    },
+    {
+      ing: 'I saw your car; yours is red.',
+      tr: 'Ben senin arabanı gördüm; seninki kırmızı.',
+    },
+    {
+      ing: 'She has a cat, but hers is very lazy.',
+      tr: 'O bir kediye sahip ama onunki çok tembel.',
+    },
+    {
+      ing: 'He always forgets his bag; his is green.',
+      tr: 'O, her zaman çantasını unutur; onunki yeşil.',
+    },
+    {
+      ing: 'They brought snacks, but theirs are healthier.',
+      tr: 'Onlar atıştırmalıklar getirdi ama onlarınki daha sağlıklı.',
+    },
+    {
+      ing: 'We finished our project; ours is the best in class.',
+      tr: 'Biz projemizi bitirdik; bizimki sınıfın en iyisi.',
+    },
+    {
+      ing: 'You should ask her for help; hers is really good.',
+      tr: 'Sen, yardım için ondan istemelisin; onunki gerçekten iyi.',
+    },
+    {
+      ing: 'I wrote my friend a letter, and it is mine.',
+      tr: 'Ben, arkadaşım için bir mektup yazdım ve bu benim.',
+    },
+    {
+      ing: 'She showed me her new dress, and it is hers.',
+      tr: 'O, bana yeni elbisesini gösterdi ve bu onunki.',
+    },
+    {
+      ing: 'He bought his sister a gift, and it is hers.',
+      tr: 'O, kız kardeşine bir hediye aldı ve bu onunki.',
+    },
+    {
+      ing: 'They invited us to their party, and it will be theirs.',
+      tr: 'Onlar, partilerine bizi davet etti ve bu onlarınki olacak.',
+    },
+    {
+      ing: 'We are planning our vacation, and it will be ours.',
+      tr: 'Biz, tatilimizi planlıyoruz ve bu bizimki olacak.',
+    },
+    {
+      ing: 'You can keep my book; it is yours now.',
+      tr: 'Sen, kitabımı alabilirsin; bu artık senin.',
+    },
+    {
+      ing: 'I lost my keys, and they were mine.',
+      tr: 'Ben, anahtarlarımı kaybettim ve onlar benimdi.',
+    },
+    {
+      ing: 'She thinks her car is the best, but mine is faster.',
+      tr: 'O, arabasının en iyi olduğunu düşünüyor ama benimki daha hızlı.',
+    },
+    {
+      ing: 'He said this book is his.',
+      tr: 'O, bu kitabın onun olduğunu söyledi.',
+    },
+    {
+      ing: 'They told us their plans for the weekend.',
+      tr: 'Onlar, hafta sonu için planlarını bize anlattı.',
+    },
+    {
+      ing: 'We enjoy our time together; ours is special.',
+      tr: 'Biz, birlikte zamanımızdan keyif alıyoruz; bizimki özel.',
+    },
+    {
+      ing: 'You should be proud of your achievements; yours are great.',
+      tr: 'Sen, başarılarınla gurur duymalısın; seninkiler harika.',
+    },
+    {
+      ing: 'I love my family, and they are mine.',
+      tr: 'Ben, ailemi seviyorum ve onlar benim.',
+    },
+    {
+      ing: 'She wants to take her dog to the park; it is hers.',
+      tr: 'O, köpeğini parka götürmek istiyor; o, onundur.',
+    },
+    {
+      ing: 'He believes his opinion is important; it is his.',
+      tr: 'O, fikrinin önemli olduğunu düşünüyor; o, onundur.',
+    },
+    {
+      ing: 'They think their house is beautiful; it is theirs.',
+      tr: 'Onlar, evlerinin güzel olduğunu düşünüyor; o, onlarınki.',
+    },
+    {
+      ing: 'We always remember our friends; they are ours.',
+      tr: 'Biz, her zaman arkadaşlarımızı hatırlarız; onlar, bizimdir.',
+    },
+    {
+      ing: 'You can join us; ours will be fun.',
+      tr: 'Sen, bize katılabilirsin; bizimki eğlenceli olacak.',
+    },
+    {
+      ing: 'I found my book; it is mine.',
+      tr: 'Ben, kitabımı buldum; o, benim.',
+    },
+    {
+      ing: 'She enjoys reading her favorite novels; they are hers.',
+      tr: 'O, en sevdiği romanları okumaktan keyif alıyor; onlar, onunkiler.',
+    },
+    {
+      ing: 'He said that his computer is faster than yours.',
+      tr: 'O, bilgisayarının seninkinden daha hızlı olduğunu söyledi.',
+    },
+    {
+      ing: 'They have a beautiful garden; it is theirs.',
+      tr: 'Onlar, güzel bir bahçeye sahip; o, onlarınki.',
+    },
+    {
+      ing: 'We need to finish our homework; it is ours.',
+      tr: 'Biz, ödevimizi bitirmeliyiz; o, bizimki.',
+    },
+    {
+      ing: 'You should take care of your dog; it is yours.',
+      tr: 'Sen, köpeğine dikkat etmelisin; o, senin.',
+    },
+    {
+      ing: 'I lost my jacket; it was mine.',
+      tr: 'Ben, ceketimi kaybettim; o, benimdi.',
+    },
+    {
+      ing: 'She loves her job; it is hers.',
+      tr: 'O, işini seviyor; o, onundur.',
+    },
+    {
+      ing: 'He always has his phone; it is his.',
+      tr: 'O, her zaman telefonunu taşır; o, onundur.',
+    },
+    {
+      ing: 'They are proud of their work; it is theirs.',
+      tr: 'Onlar, işlerinden gurur duyuyor; o, onlarınki.',
+    },
+    {
+      ing: 'We appreciate our friends; they are ours.',
+      tr: 'Biz, arkadaşlarımızı takdir ediyoruz; onlar, bizimdir.',
+    },
+    {
+      ing: 'You can enjoy your time at school; it is yours.',
+      tr: 'Sen, okulda zamanının tadını çıkarabilirsin; o, senin.',
+    },
+    {
+      ing: 'I have my own opinion; it is mine.',
+      tr: 'Ben, kendi fikrime sahibim; o, benim.',
+    },
+    {
+      ing: 'She is known for her kindness; it is hers.',
+      tr: 'O, nazikliğiyle tanınır; o, onundur.',
+    },
+    {
+      ing: 'He has his own way of doing things; it is his.',
+      tr: 'O, işleri yapmanın kendi yoluna sahiptir; o, onundur.',
+    },
+    {
+      ing: 'They are responsible for their actions; they are theirs.',
+      tr: 'Onlar, hareketlerinden sorumludurlar; onlar, onlarınki.',
+    },
+    {
+      ing: 'We are thankful for our friends; they are ours.',
+      tr: 'Biz, arkadaşlarımıza minnettarız; onlar, bizimdir.',
+    },
+    {
+      ing: 'You should take pride in your work; it’s yours.',
+      tr: 'Sen, işinle gurur duymalısın; o, senin.',
+    },
+    {
+      ing: 'I love my new bike; it’s mine.',
+      tr: 'Ben, yeni bisikletimi seviyorum; o, benim.',
+    },
+    {
+      ing: 'She believes her ideas are important; they are hers.',
+      tr: 'O, fikirlerinin önemli olduğunu düşünüyor; onlar, onundur.',
+    },
+    {
+      ing: 'He thinks his plan will succeed; it’s his.',
+      tr: 'O, planının başarılı olacağını düşünüyor; o, onundur.',
+    },
+    {
+      ing: 'They are looking forward to their trip; it’s theirs.',
+      tr: 'Onlar, seyahatlerini sabırsızlıkla bekliyor; o, onlarınki.',
+    },
+    {
+      ing: 'We have finished our project; it’s ours.',
+      tr: 'Biz, projeyi bitirdik; o, bizimdir.',
+    },
+    {
+      ing: 'You should trust your instincts; they are yours.',
+      tr: 'Sen, içgüdülerine güvenmelisin; onlar, senindir.',
+    },
+    {
+      ing: 'I will keep my promise; it’s mine.',
+      tr: 'Ben, sözümü tutacağım; o, benim.',
+    },
+    {
+      ing: 'She loves her cat; it’s hers.',
+      tr: 'O, kedisini seviyor; o, onundur.',
+    },
+    {
+      ing: 'He always brings his lunch to work; it’s his.',
+      tr: 'O, işe her zaman öğle yemeğini getirir; o, onundur.',
+    },
+    {
+      ing: 'They said that their house is the biggest; it’s theirs.',
+      tr: 'Onlar, evlerinin en büyük olduğunu söyledi; o, onlarınki.',
+    },
+    {
+      ing: 'We enjoy our evenings together; they are ours.',
+      tr: 'Biz, birlikte akşamlarımızdan keyif alıyoruz; onlar, bizimdir.',
+    },
+    {
+      ing: 'You can bring your friends; they are yours.',
+      tr: 'Sen, arkadaşlarını getirebilirsin; onlar, senindir.',
+    },
+    {
+      ing: 'I think my dog is the best; he is mine.',
+      tr: 'Ben, köpeğimin en iyi olduğunu düşünüyorum; o, benim.',
+    },
+    {
+      ing: 'She said her project is finished; it’s hers.',
+      tr: 'O, projesinin bittiğini söyledi; o, onundur.',
+    },
+    {
+      ing: 'He mentioned that his presentation is next week; it’s his.',
+      tr: 'O, sunumunun gelecek hafta olduğunu belirtti; o, onundur.',
+    },
+    {
+      ing: 'They are excited about their plans; they are theirs.',
+      tr: 'Onlar, planlarından heyecanlı; onlar, onlarınki.',
+    },
+    {
+      ing: 'We are working on our skills; they are ours.',
+      tr: 'Biz, becerilerimiz üzerinde çalışıyoruz; onlar, bizimdir.',
+    },
+    {
+      ing: 'You should share your toys; they are yours.',
+      tr: 'Sen, oyuncaklarını paylaşmalısın; onlar, senindir.',
+    },
+    {
+      ing: 'I think my ideas are good; they are mine.',
+      tr: 'Ben, fikirlerimin iyi olduğunu düşünüyorum; onlar, benim.',
+    },
+    {
+      ing: 'She enjoys showing her talents; they are hers.',
+      tr: 'O, yeteneklerini göstermeyi sever; onlar, onundur.',
+    },
+    {
+      ing: 'He believes his work is important; it’s his.',
+      tr: 'O, işinin önemli olduğunu düşünüyor; o, onundur.',
+    },
+    {
+      ing: 'They will be proud of their achievements; they are theirs.',
+      tr: 'Onlar, başarılarıyla gurur duyacaklar; onlar, onlarınki.',
+    },
+    {
+      ing: 'We will always cherish our memories; they are ours.',
+      tr: 'Biz, anılarımızı her zaman değerli bulacağız; onlar, bizimdir.',
+    },
+    {
+      ing: 'You can always count on your friends; they are yours.',
+      tr: 'Sen, her zaman arkadaşlarına güvenebilirsin; onlar, senindir.',
+    },
+    {
+      ing: 'I believe this is my best work; it’s mine.',
+      tr: 'Ben, bu işin en iyi olduğunu düşünüyorum; o, benim.',
+    },
+    {
+      ing: 'She thinks her ideas are unique; they are hers.',
+      tr: 'O, fikirlerinin benzersiz olduğunu düşünüyor; onlar, onundur.',
+    },
+    {
+      ing: 'He said his car is the fastest; it’s his.',
+      tr: 'O, arabasının en hızlı olduğunu söyledi; o, onundur.',
+    },
+    {
+      ing: 'They believe their team will win; it’s theirs.',
+      tr: 'Onlar, takımlarının kazanacağına inanıyor; o, onlarınki.',
+    },
+    {
+      ing: 'We should appreciate our teachers; they are ours.',
+      tr: 'Biz, öğretmenlerimizi takdir etmeliyiz; onlar, bizimdir.',
+    },
+    {
+      ing: 'You can trust your instincts; they are yours.',
+      tr: 'Sen, içgüdülerine güvenebilirsin; onlar, senindir.',
+    },
+    {
+      ing: 'I will always remember my childhood; it’s mine.',
+      tr: 'Ben, çocukluğumu her zaman hatırlayacağım; o, benimdir.',
+    },
+    {
+      ing: 'She thinks her stories are interesting; they are hers.',
+      tr: 'O, hikayelerinin ilginç olduğunu düşünüyor; onlar, onundur.',
+    },
+    {
+      ing: 'He loves his guitar; it’s his.',
+      tr: 'O, gitarını seviyor; o, onundur.',
+    },
+    {
+      ing: 'They are excited for their game; it’s theirs.',
+      tr: 'Onlar, oyunları için heyecanlı; o, onlarınki.',
+    },
+    {
+      ing: 'We will celebrate our success; it’s ours.',
+      tr: 'Biz, başarımızı kutlayacağız; o, bizimdir.',
+    },
+    {
+      ing: 'You can borrow my jacket; it’s yours now.',
+      tr: 'Sen, ceketimi ödünç alabilirsin; o, şimdi senin.',
+    },
+    {
+      ing: 'I always keep my promises; they are mine.',
+      tr: 'Ben, sözlerimi her zaman tutarım; onlar, benim.',
+    },
+    {
+      ing: 'She loves to tell her friends about her travels; they are hers.',
+      tr: 'O, yolculuklarından bahsetmeyi sever; onlar, onundur.',
+    },
+    {
+      ing: 'He thinks this book is his.',
+      tr: 'O, bu kitabın onun olduğunu düşünüyor.',
+    },
+    {
+      ing: 'They are happy with their performance; it’s theirs.',
+      tr: 'Onlar, performanslarıyla mutlu; o, onlarınki.',
+    },
+    {
+      ing: 'We will be proud of our achievements; they will be ours.',
+      tr: 'Biz, başarılarımızla gurur duyacağız; onlar, bizimdir.',
+    },
+    {
+      ing: 'You should enjoy your free time; it’s yours.',
+      tr: 'Sen, boş zamanının tadını çıkarmalısın; o, senin.',
+    },
+    {
+      ing: 'I have my own dreams; they are mine.',
+      tr: 'Ben, kendi hayallerime sahibim; onlar, benim.',
+    },
+    {
+      ing: 'She is proud of her accomplishments; they are hers.',
+      tr: 'O, başarılarıyla gurur duyuyor; onlar, onundur.',
+    },
+    {
+      ing: 'He believes his ideas will be accepted; they are his.',
+      tr: 'O, fikrinin kabul edileceğine inanıyor; onlar, onundur.',
+    },
+    {
+      ing: 'They know their goals; they are theirs.',
+      tr: 'Onlar, hedeflerini biliyor; onlar, onlarınki.',
+    },
+    {
+      ing: 'We should focus on our tasks; they are ours.',
+      tr: 'Biz, görevlerimize odaklanmalıyız; onlar, bizimdir.',
+    },
+    {
+      ing: 'You can count on your support network; they are yours.',
+      tr: 'Sen, destek ağına güvenebilirsin; onlar, senindir.',
+    },
+    {
+      ing: 'I will bring my favorite snacks; they are mine.',
+      tr: 'Ben, en sevdiğim atıştırmalıkları getireceğim; onlar, benimdir.',
+    },
+    {
+      ing: 'She believes her work is valuable; it’s hers.',
+      tr: 'O, işinin değerli olduğunu düşünüyor; o, onundur.',
+    },
+    {
+      ing: 'He thinks this solution is his.',
+      tr: 'O, bu çözümün onun olduğunu düşünüyor.',
+    },
+    {
+      ing: 'They enjoy their weekends; they are theirs.',
+      tr: 'Onlar, hafta sonlarını seviyor; onlar, onlarınki.',
+    },
+    {
+      ing: 'We like to share our experiences; they are ours.',
+      tr: 'Biz, deneyimlerimizi paylaşmayı seviyoruz; onlar, bizimdir.',
+    },
+    {
+      ing: 'You can achieve your dreams; they are yours.',
+      tr: 'Sen, hayallerine ulaşabilirsin; onlar, senindir.',
+    },
+    {
+      ing: 'I will take care of my plants; they are mine.',
+      tr: 'Ben, bitkilerime bakacağım; onlar, benimdir.',
+    },
+    {ing: 'She loves her job; it’s hers.', tr: 'O, işini seviyor; o, onundur.'},
+    {
+      ing: 'He said this car is his.',
+      tr: 'O, bu arabanın onun olduğunu söyledi.',
+    },
+    {
+      ing: 'They are proud of their work; it’s theirs.',
+      tr: 'Onlar, işleriyle gurur duyuyor; o, onlarınki.',
+    },
+    {
+      ing: 'We need to finish our tasks; they are ours.',
+      tr: 'Biz, görevlerimizi bitirmeliyiz; onlar, bizimdir.',
+    },
+    {
+      ing: 'You can take care of your responsibilities; they are yours.',
+      tr: 'Sen, sorumluluklarına dikkat edebilirsin; onlar, senindir.',
+    },
+    {
+      ing: 'I believe this idea is mine.',
+      tr: 'Ben, bu fikrin benim olduğunu düşünüyorum.',
+    },
+    {
+      ing: 'She thinks her stories are interesting; they are hers.',
+      tr: 'O, hikayelerinin ilginç olduğunu düşünüyor; onlar, onundur.',
+    },
+    {
+      ing: 'He enjoys showing his talents; they are his.',
+      tr: 'O, yeteneklerini göstermeyi sever; onlar, onundur.',
+    },
+    {
+      ing: 'They are excited about their new project; it’s theirs.',
+      tr: 'Onlar, yeni projeleri için heyecanlı; o, onlarınki.',
+    },
+    {
+      ing: 'We are working on our skills; they are ours.',
+      tr: 'Biz, becerilerimiz üzerinde çalışıyoruz; onlar, bizimdir.',
+    },
+    {
+      ing: 'You should enjoy your success; it’s yours.',
+      tr: 'Sen, başarılarının tadını çıkarmalısın; o, senindir.',
+    },
+    {
+      ing: 'I need to finish my report; it’s mine.',
+      tr: 'Ben, raporumu bitirmeliyim; o, benimdir.',
+    },
+    {
+      ing: 'She loves to share her stories; they are hers.',
+      tr: 'O, hikayelerini paylaşmayı sever; onlar, onundur.',
+    },
+    {
+      ing: 'He thinks this project is his.',
+      tr: 'O, bu projenin onun olduğunu düşünüyor.',
+    },
+    {
+      ing: 'They are happy with their results; they are theirs.',
+      tr: 'Onlar, sonuçlarıyla mutlu; onlar, onlarınki.',
+    },
+    {
+      ing: 'We will be proud of our achievements; they will be ours.',
+      tr: 'Biz, başarılarımızla gurur duyacağız; onlar, bizimdir.',
+    },
+    {
+      ing: 'You can bring your friends; they are yours.',
+      tr: 'Sen, arkadaşlarını getirebilirsin; onlar, senindir.',
+    },
+    {
+      ing: 'I love this painting; it’s mine.',
+      tr: 'Ben, bu tabloyu seviyorum; o, benimdir.',
+    },
+    {
+      ing: 'She said her dreams are big; they are hers.',
+      tr: 'O, hayallerinin büyük olduğunu söyledi; onlar, onundur.',
+    },
+    {
+      ing: 'He thinks this book is the best; it’s his.',
+      tr: 'O, bu kitabın en iyi olduğunu düşünüyor; o, onundur.',
+    },
+    {
+      ing: 'They said their favorite food is pizza; it’s theirs.',
+      tr: 'Onlar, en sevdikleri yemeğin pizza olduğunu söyledi; o, onlarınki.',
+    },
+    {
+      ing: 'We are grateful for our experiences; they are ours.',
+      tr: 'Biz, deneyimlerimiz için minnettarız; onlar, bizimdir.',
+    },
+    {
+      ing: 'You should keep your promises; they are yours.',
+      tr: 'Sen, sözlerini tutmalısın; onlar, senindir.',
+    },
+    {
+      ing: 'I always cherish my family; they are mine.',
+      tr: 'Ben, ailemi her zaman değerli bulurum; onlar, benimdir.',
+    },
+    {
+      ing: 'She thinks her stories are captivating; they are hers.',
+      tr: 'O, hikayelerinin büyüleyici olduğunu düşünüyor; onlar, onundur.',
+    },
+    {
+      ing: 'He believes his opinion is important; it’s his.',
+      tr: 'O, fikrinin önemli olduğunu düşünüyor; o, onundur.',
+    },
+    {
+      ing: 'They know their strengths; they are theirs.',
+      tr: 'Onlar, güçlerini biliyor; onlar, onlarınki.',
+    },
+    {
+      ing: 'We should celebrate our successes; they are ours.',
+      tr: 'Biz, başarılarımızı kutlamalıyız; onlar, bizimdir.',
+    },
+    {
+      ing: 'You can take your time to decide; it’s yours.',
+      tr: 'Sen, karar vermek için zamanını alabilirsin; o, senin.',
+    },
+    {
+      ing: 'I need to organize my schedule; it’s mine.',
+      tr: 'Ben, programımı düzenlemeliyim; o, benimdir.',
+    },
+    {
+      ing: 'She loves her garden; it’s hers.',
+      tr: 'O, bahçesini seviyor; o, onundur.',
+    },
+    {
+      ing: 'He always takes care of his pets; they are his.',
+      tr: 'O, her zaman evcil hayvanlarına dikkat eder; onlar, onundur.',
+    },
+    {
+      ing: 'They plan to travel to their dream destination; it’s theirs.',
+      tr: 'Onlar, hayal ettikleri destinasyona seyahat etmeyi planlıyor; o, onlarınki.',
+    },
+    {
+      ing: 'We love to explore our city; it’s ours.',
+      tr: 'Biz, şehrimizi keşfetmeyi seviyoruz; o, bizimdir.',
+    },
+    {
+      ing: 'You should take advantage of your skills; they are yours.',
+      tr: 'Sen, yeteneklerini kullanmalısın; onlar, senindir.',
+    },
+    {
+      ing: 'I enjoy cooking my favorite meals; they are mine.',
+      tr: 'Ben, en sevdiğim yemekleri pişirmeyi seviyorum; onlar, benimdir.',
+    },
+    {
+      ing: 'She thinks her work is meaningful; it’s hers.',
+      tr: 'O, işinin anlamlı olduğunu düşünüyor; o, onundur.',
+    },
+    {
+      ing: 'He is confident that his skills will improve; they are his.',
+      tr: 'O, becerilerinin gelişeceğinden emin; onlar, onundur.',
+    },
+    {
+      ing: 'They are excited for their new job; it’s theirs.',
+      tr: 'Onlar, yeni işlerine heyecanlı; o, onlarınki.',
+    },
+    {
+      ing: 'We should take care of our environment; it’s ours.',
+      tr: 'Biz, çevremize dikkat etmeliyiz; o, bizimdir.',
+    },
+    {
+      ing: 'You can trust your instincts; they are yours.',
+      tr: 'Sen, içgüdülerine güvenebilirsin; onlar, senindir.',
+    },
+    {
+      ing: 'I hope you like my gift; it’s mine.',
+      tr: 'Ben, hediyemi beğenmeni umuyorum; o, benimdir.',
+    },
+    {
+      ing: 'She said her brother is visiting; he is hers.',
+      tr: 'O, kardeşinin ziyarete geleceğini söyledi; o, onundur.',
+    },
+    {
+      ing: 'He thinks his project is important; it’s his.',
+      tr: 'O, projesinin önemli olduğunu düşünüyor; o, onundur.',
+    },
+    {
+      ing: 'They told us that this house is theirs.',
+      tr: 'Onlar, bu evin onların olduğunu söyledi.',
+    },
+    {
+      ing: 'We will support our friends; they are ours.',
+      tr: 'Biz, arkadaşlarımızı destekleyeceğiz; onlar, bizimdir.',
+    },
+    {
+      ing: 'I like my car and Ali likes his.',
+      tr: 'Ben benim arabamı severim. Ali onunkini sever.',
+    },
+  ],
+  IMy: [
+    {ing: 'I love my new car.', tr: 'Ben, yeni arabamı seviyorum.'},
+    {
+      ing: 'She is reading her favorite book.',
+      tr: 'O, en sevdiği kitabı okuyor.',
+    },
+    {
+      ing: 'They took their dog to the park.',
+      tr: 'Onlar, köpeklerini parka götürdü.',
+    },
+    {ing: 'He forgot his keys at home.', tr: 'O, anahtarlarını evde unuttu.'},
+    {
+      ing: 'We enjoyed our vacation last summer.',
+      tr: 'Biz, geçen yaz tatilimizi keyif aldık.',
+    },
+    {ing: 'You should clean your room.', tr: 'Sen, odanı temizlemelisin.'},
+    {
+      ing: 'I found my wallet under the couch.',
+      tr: 'Ben, ceddin altındaki cüzdanımı buldum.',
+    },
+    {ing: 'She loves her family very much.', tr: 'O, ailesini çok seviyor.'},
+    {
+      ing: 'He always brings his lunch to work.',
+      tr: 'O, her zaman işe öğle yemeğini getiriyor.',
+    },
+    {
+      ing: 'They are proud of their achievements.',
+      tr: 'Onlar, başarılarıyla gurur duyuyor.',
+    },
+    {
+      ing: 'We plan to decorate our house for the holidays.',
+      tr: 'Biz, tatil için evimizi süslemeyi planlıyoruz.',
+    },
+    {
+      ing: 'You forgot your umbrella at my place.',
+      tr: 'Sen, benim evimde şemsiyeni unuttun.',
+    },
+    {
+      ing: 'I usually take my dog for a walk in the morning.',
+      tr: 'Ben, genellikle sabahları köpeğimi yürüyüşe çıkarırım.',
+    },
+    {
+      ing: 'She bought her dress from the new store.',
+      tr: 'O, elbiseyi yeni dükkanından aldı.',
+    },
+    {
+      ing: 'He showed his painting at the gallery.',
+      tr: 'O, galeride tablosunu sergiledi.',
+    },
+    {
+      ing: 'They invited us to their wedding.',
+      tr: 'Onlar, düğünlerine bizi davet etti.',
+    },
+    {
+      ing: 'We need to finish our homework before dinner.',
+      tr: 'Biz, akşam yemeğinden önce ödevimizi bitirmeliyiz.',
+    },
+    {
+      ing: 'You should take care of your health.',
+      tr: 'Sen, sağlığına dikkat etmelisin.',
+    },
+    {
+      ing: 'I called my friend to talk about the movie.',
+      tr: 'Ben, filmi konuşmak için arkadaşımı aradım.',
+    },
+    {
+      ing: 'She always helps her brother with his studies.',
+      tr: 'O, her zaman kardeşine derslerinde yardım eder.',
+    },
+    {
+      ing: 'He forgot to bring his camera on the trip.',
+      tr: 'O, yolculukta kamerasını getirmeyi unuttu.',
+    },
+    {
+      ing: 'They are happy with their new home.',
+      tr: 'Onlar, yeni evleriyle mutlu.',
+    },
+    {
+      ing: 'We are excited about our upcoming vacation.',
+      tr: 'Biz, gelecek tatilimizle heyecanlıyız.',
+    },
+    {
+      ing: 'You should remember to pack your swimsuit.',
+      tr: 'Sen, mayokinini paklamayı unutmamalısın.',
+    },
+    {
+      ing: 'I enjoy listening to my favorite music.',
+      tr: 'Ben, en sevdiğim müziği dinlemeyi seviyorum.',
+    },
+    {
+      ing: 'She always wears her new shoes to school.',
+      tr: 'O, her zaman okula yeni ayakkabılarını giyiyor.',
+    },
+    {
+      ing: 'He likes to play video games in his free time.',
+      tr: 'O, boş zamanlarında video oyunları oynamayı sever.',
+    },
+    {
+      ing: 'They celebrated their anniversary last week.',
+      tr: 'Onlar, geçen hafta yıldönümlerini kutladı.',
+    },
+    {
+      ing: 'We will visit our grandparents this weekend.',
+      tr: 'Biz, bu hafta sonu büyükanne ve büyükbabamızı ziyaret edeceğiz.',
+    },
+    {
+      ing: 'You can use your phone to call me.',
+      tr: 'Sen, telefonunu beni aramak için kullanabilirsin.',
+    },
+    {ing: 'I forgot my lunch at home.', tr: 'Ben, evde öğle yemeğimi unuttum.'},
+    {
+      ing: 'She always shares her toys with other kids.',
+      tr: 'O, diğer çocuklarla oyuncaklarını her zaman paylaşır.',
+    },
+    {
+      ing: 'He bought a gift for his mother.',
+      tr: 'O, annesine bir hediye aldı.',
+    },
+    {
+      ing: 'They are working on their project together.',
+      tr: 'Onlar, birlikte projeleriyle çalışıyorlar.',
+    },
+    {
+      ing: 'We will bring our favorite games to the party.',
+      tr: 'Biz, partiye en sevdiğimiz oyunları getireceğiz.',
+    },
+    {
+      ing: 'You can finish your homework after dinner.',
+      tr: 'Sen, akşam yemeğinden sonra ödevini bitirebilirsin.',
+    },
+    {
+      ing: 'I found my keys under the sofa.',
+      tr: 'Ben, anahtarlarımı kanepe altında buldum.',
+    },
+    {
+      ing: 'She bought her brother a video game.',
+      tr: 'O, kardeşine bir video oyunu aldı.',
+    },
+    {
+      ing: 'He likes to ride his bicycle every weekend.',
+      tr: 'O, her hafta sonu bisikletini sürmeyi sever.',
+    },
+    {
+      ing: 'They often play soccer with their friends.',
+      tr: 'Onlar, arkadaşlarıyla sık sık futbol oynar.',
+    },
+    {
+      ing: 'We have to clean our room before guests arrive.',
+      tr: 'Biz, misafirler gelmeden önce odamızı temizlemeliyiz.',
+    },
+    {
+      ing: 'You should check your email for updates.',
+      tr: 'Sen, güncellemeler için e-postanı kontrol etmelisin.',
+    },
+    {
+      ing: 'I forgot my umbrella at your house.',
+      tr: 'Ben, şemsiyemi senin evinde unuttum.',
+    },
+    {
+      ing: 'She loves taking care of her plants.',
+      tr: 'O, bitkilerine bakmayı seviyor.',
+    },
+    {
+      ing: 'He enjoys cooking his favorite meals.',
+      tr: 'O, en sevdiği yemekleri yapmaktan hoşlanıyor.',
+    },
+    {
+      ing: 'They will show you their new puppy.',
+      tr: 'Onlar, yeni yavru köpeklerini sana gösterecek.',
+    },
+    {
+      ing: 'We are proud of our achievements this year.',
+      tr: 'Biz, bu yılki başarılarımızla gurur duyuyoruz.',
+    },
+    {
+      ing: 'You must take care of yourself during the cold weather.',
+      tr: 'Sen, soğuk havalarda kendine dikkat etmelisin.',
+    },
+    {
+      ing: 'I need my glasses to read.',
+      tr: 'Ben, okumak için gözlüklerime ihtiyacım var.',
+    },
+    {
+      ing: 'She always carries her notebook to class.',
+      tr: 'O, derse her zaman defterini getiriyor.',
+    },
+    {
+      ing: 'He is studying for his exams next week.',
+      tr: 'O, gelecek hafta için sınavlarına çalışıyor.',
+    },
+    {
+      ing: 'They gave us a tour of their house.',
+      tr: 'Onlar, evlerinin turunu bize yaptılar.',
+    },
+    {
+      ing: 'We made a cake for our friend’s birthday.',
+      tr: 'Biz, arkadaşımızın doğum günü için bir pasta yaptık.',
+    },
+    {
+      ing: 'You should bring your jacket; it’s cold outside.',
+      tr: 'Sen, ceketini getirmelisin; dışarısı soğuk.',
+    },
+    {
+      ing: 'I always forget my wallet at home.',
+      tr: 'Ben, her zaman cüzdanımı evde unuturum.',
+    },
+    {
+      ing: 'She likes to decorate her room with posters.',
+      tr: 'O, odasını posterlerle süslemeyi seviyor.',
+    },
+    {
+      ing: 'He took his dog for a walk in the park.',
+      tr: 'O, köpeğini parkta yürüyüşe çıkardı.',
+    },
+    {
+      ing: 'They have their own ideas about the project.',
+      tr: 'Onlar, proje hakkında kendi fikirlerine sahip.',
+    },
+    {
+      ing: 'We should celebrate our success together.',
+      tr: 'Biz, başarımızı birlikte kutlamalıyız.',
+    },
+    {
+      ing: 'You can use your computer to complete the assignment.',
+      tr: 'Sen, ödevi tamamlamak için bilgisayarını kullanabilirsin.',
+    },
+    {
+      ing: 'I always bring my lunch to work.',
+      tr: 'Ben, işe her zaman öğle yemeğimi getiririm.',
+    },
+    {
+      ing: 'She shared her toys with her friends.',
+      tr: 'O, oyuncaklarını arkadaşlarıyla paylaştı.',
+    },
+    {ing: 'He cleaned his room yesterday.', tr: 'O, dün odasını temizledi.'},
+    {
+      ing: 'They helped us with our homework last night.',
+      tr: 'Onlar, dün gece ödevimizle yardımcı oldu.',
+    },
+    {
+      ing: 'We are excited about our trip next week.',
+      tr: 'Biz, gelecek haftaki seyahatimiz için heyecanlıyız.',
+    },
+    {
+      ing: 'You should take your time when studying.',
+      tr: 'Sen, çalışırken zamanını almalısın.',
+    },
+    {
+      ing: 'I lost my keys somewhere in the house.',
+      tr: 'Ben, evde anahtarlarımı bir yere kaybettim.',
+    },
+    {
+      ing: 'She bought her brother a gift for his birthday.',
+      tr: 'O, kardeşine doğum günü hediyesi aldı.',
+    },
+    {
+      ing: 'He takes his dog for a run every morning.',
+      tr: 'O, her sabah köpeğini koşuya çıkarır.',
+    },
+    {
+      ing: 'They invited us to their anniversary party.',
+      tr: 'Onlar, yıl dönümü partilerine bizi davet etti.',
+    },
+    {
+      ing: 'We need to clean our house before guests arrive.',
+      tr: 'Biz, misafirler gelmeden önce evimizi temizlemeliyiz.',
+    },
+    {
+      ing: 'You should remind her about the meeting.',
+      tr: 'Sen, ona toplantıyı hatırlatmalısın.',
+    },
+    {ing: 'I left my book on the table.', tr: 'Ben, kitabımı masada unuttum.'},
+    {
+      ing: 'She is proud of her achievements in school.',
+      tr: 'O, okulda başarılarıyla gurur duyuyor.',
+    },
+    {
+      ing: 'He always shares his food with his friends.',
+      tr: 'O, her zaman arkadaşlarıyla yemeklerini paylaşır.',
+    },
+    {
+      ing: 'They love to play games with their family.',
+      tr: 'Onlar, aileleriyle oyun oynamayı severler.',
+    },
+    {
+      ing: 'We should visit our grandparents this weekend.',
+      tr: 'Biz, bu hafta sonu büyükanne ve büyükbabamızı ziyaret etmeliyiz.',
+    },
+    {
+      ing: 'You can borrow my pen if you need it.',
+      tr: 'Sen, kalemimi lazım olursa ödünç alabilirsin.',
+    },
+    {
+      ing: 'I often help her with her homework.',
+      tr: 'Ben, sık sık ona ödevinde yardım ederim.',
+    },
+    {
+      ing: 'She took her dog to the vet yesterday.',
+      tr: 'O, dün köpeğini veterinerine götürdü.',
+    },
+    {
+      ing: 'He always forgets his phone at home.',
+      tr: 'O, her zaman telefonunu evde unutur.',
+    },
+    {
+      ing: 'They brought their lunch to the picnic.',
+      tr: 'Onlar, pikniğe öğle yemeklerini getirdi.',
+    },
+    {
+      ing: 'We will visit our friends next weekend.',
+      tr: 'Biz, gelecek hafta sonu arkadaşlarımızı ziyaret edeceğiz.',
+    },
+    {
+      ing: 'You need to take your umbrella; it’s raining.',
+      tr: 'Sen, şemsiyeni almayı unutmamalısın; yağmur yağıyor.',
+    },
+    {
+      ing: 'I will share my notes with you.',
+      tr: 'Ben, notlarımı seninle paylaşacağım.',
+    },
+    {
+      ing: 'She likes to wear her favorite dress on special occasions.',
+      tr: 'O, özel günlerde en sevdiği elbiseyi giymeyi sever.',
+    },
+    {
+      ing: 'He is taking his time to finish the painting.',
+      tr: 'O, resmi bitirmek için zamanını alıyor.',
+    },
+    {
+      ing: 'They love visiting their relatives during the holidays.',
+      tr: 'Onlar, tatil zamanında akraba ziyaret etmeyi severler.',
+    },
+    {
+      ing: 'We had fun at our last family reunion.',
+      tr: 'Biz, son aile buluşmamızda eğlendik.',
+    },
+    {
+      ing: 'You should check your email for updates.',
+      tr: 'Sen, güncellemeler için e-postanı kontrol etmelisin.',
+    },
+    {
+      ing: 'I forgot to bring my jacket to the party.',
+      tr: 'Ben, partiye ceketimi getirmeyi unuttum.',
+    },
+    {
+      ing: 'She showed her friends the pictures from her vacation.',
+      tr: 'O, tatilinden arkadaşlarına fotoğrafları gösterdi.',
+    },
+    {
+      ing: 'He spends his weekends playing football.',
+      tr: 'O, hafta sonlarını futbol oynayarak geçiriyor.',
+    },
+    {
+      ing: 'They need to finish their homework before going out.',
+      tr: 'Onlar, dışarı çıkmadan önce ödevlerini bitirmelidir.',
+    },
+    {
+      ing: 'We have to prepare our presentation for tomorrow.',
+      tr: 'Biz, yarın için sunumumuzu hazırlamalıyız.',
+    },
+    {
+      ing: 'You can use my phone if yours is dead.',
+      tr: 'Sen, telefonunu kullanabilirsin, eğer senin telefonun kapandıysa.',
+    },
+    {
+      ing: 'I always carry my water bottle when I go hiking.',
+      tr: 'Ben, yürüyüşe giderken her zaman su şişemi yanımda taşırım.',
+    },
+    {
+      ing: 'She helped her mother with the cooking.',
+      tr: 'O, annesine yemek yapmasında yardım etti.',
+    },
+    {
+      ing: 'He is proud of his achievements at school.',
+      tr: 'O, okulda başarılarıyla gurur duyuyor.',
+    },
+    {
+      ing: 'They can use their bikes to go to school.',
+      tr: 'Onlar, okula gitmek için bisikletlerini kullanabilirler.',
+    },
+    {
+      ing: 'We celebrated our anniversary at a nice restaurant.',
+      tr: 'Biz, yıldönümümüzü güzel bir restoranda kutladık.',
+    },
+    {
+      ing: 'You should drink your water every day.',
+      tr: 'Sen, her gün su içmelisin.',
+    },
+    {
+      ing: 'I need to finish my book by tomorrow.',
+      tr: 'Ben, kitabımı yarına kadar bitirmeliyim.',
+    },
+    {ing: 'She has written her own story.', tr: 'O, kendi hikayesini yazdı.'},
+    {
+      ing: 'He wants to improve his skills in basketball.',
+      tr: 'O, basketboldaki becerilerini geliştirmek istiyor.',
+    },
+    {
+      ing: 'They took their kids to the zoo last weekend.',
+      tr: 'Onlar, geçen hafta sonu çocuklarını hayvanat bahçesine götürdü.',
+    },
+    {
+      ing: 'We are planning our trip to the mountains.',
+      tr: 'Biz, dağlara seyahatimizi planlıyoruz.',
+    },
+    {
+      ing: 'You should wear your glasses when reading.',
+      tr: 'Sen, okurken gözlüklerini takmalısın.',
+    },
+    {
+      ing: 'I bought my sister a gift for her birthday.',
+      tr: 'Ben, kız kardeşime doğum günü için bir hediye aldım.',
+    },
+    {
+      ing: 'She likes to take care of her garden.',
+      tr: 'O, bahçesine bakmayı sever.',
+    },
+    {
+      ing: 'He always shares his toys with his friends.',
+      tr: 'O, her zaman arkadaşlarıyla oyuncaklarını paylaşır.',
+    },
+    {
+      ing: 'They will show you their new house.',
+      tr: 'Onlar, sana yeni evlerini gösterecek.',
+    },
+    {
+      ing: 'We visited our grandparents last summer.',
+      tr: 'Biz, geçen yaz büyükanne ve büyükbabamızı ziyaret ettik.',
+    },
+    {
+      ing: 'You must keep your promises.',
+      tr: 'Sen, verdiğin sözleri tutmalısın.',
+    },
+    {
+      ing: 'I always forget my password.',
+      tr: 'Ben, her zaman şifremi unuturum.',
+    },
+    {
+      ing: 'She is cleaning her room today.',
+      tr: 'O, bugün odasını temizliyor.',
+    },
+    {
+      ing: 'He needs to wash his car this weekend.',
+      tr: 'O, bu hafta sonu arabasını yıkamaya ihtiyacı var.',
+    },
+    {
+      ing: 'They are going to visit their relatives in another city.',
+      tr: 'Onlar, başka bir şehirde akraba ziyaret etmeye gidiyorlar.',
+    },
+    {
+      ing: 'We should enjoy our time together.',
+      tr: 'Biz, birlikte zamanımızın tadını çıkarmalıyız.',
+    },
+    {
+      ing: 'You can take your time while studying.',
+      tr: 'Sen, çalışırken zamanını alabilirsin.',
+    },
+    {
+      ing: 'I will call my friend tonight.',
+      tr: 'Ben, bu gece arkadaşımı arayacağım.',
+    },
+    {ing: 'She forgot her phone at home.', tr: 'O, evde telefonunu unuttu.'},
+    {
+      ing: 'He is learning to cook his favorite meals.',
+      tr: 'O, en sevdiği yemekleri yapmayı öğreniyor.',
+    },
+    {
+      ing: 'They gave us a tour of their school.',
+      tr: 'Onlar, okullarını bize tanıttı.',
+    },
+    {
+      ing: 'We can take our lunch to the picnic.',
+      tr: 'Biz, pikniğe öğle yemeğimizi alabiliriz.',
+    },
+    {
+      ing: 'You should finish your homework before playing.',
+      tr: 'Sen, oynamadan önce ödevini bitirmelisin.',
+    },
+    {
+      ing: 'I will lend my book to you.',
+      tr: 'Ben, kitabımı sana ödünç vereceğim.',
+    },
+    {
+      ing: 'She always wears her favorite necklace.',
+      tr: 'O, her zaman en sevdiği kolyeyi takar.',
+    },
+    {
+      ing: "He promised to return his friend's call.",
+      tr: 'O, arkadaşının telefonunu geri arayacağına söz verdi.',
+    },
+    {
+      ing: 'They asked us to join their game.',
+      tr: 'Onlar, oyunlarına katılmamızı istedi.',
+    },
+    {
+      ing: 'We will bring our camera to take photos.',
+      tr: 'Biz, fotoğraf çekmek için kameramızı getireceğiz.',
+    },
+    {
+      ing: 'You should wear your hat in the sun.',
+      tr: 'Sen, güneşte şapkanı takmalısın.',
+    },
+    {
+      ing: 'I lost my keys somewhere in the house.',
+      tr: 'Ben, evde anahtarlarımı bir yere kaybettim.',
+    },
+    {
+      ing: 'She enjoys gardening in her free time.',
+      tr: 'O, boş zamanlarında bahçecilik yapmayı sever.',
+    },
+    {
+      ing: 'He bought his sister a nice dress.',
+      tr: 'O, kız kardeşine güzel bir elbise aldı.',
+    },
+    {
+      ing: 'They play soccer with their friends every weekend.',
+      tr: 'Onlar, her hafta sonu arkadaşlarıyla futbol oynar.',
+    },
+    {
+      ing: 'We always celebrate our birthdays together.',
+      tr: 'Biz, her zaman doğum günlerimizi birlikte kutlarız.',
+    },
+    {
+      ing: 'You can borrow my pen if you need it.',
+      tr: 'Sen, kalemimi lazımsa ödünç alabilirsin.',
+    },
+    {
+      ing: 'I will always remember my first teacher.',
+      tr: 'Ben, ilk öğretmenimi her zaman hatırlayacağım.',
+    },
+    {
+      ing: 'She likes to take care of her pets.',
+      tr: 'O, hayvanlarına bakmayı sever.',
+    },
+    {
+      ing: 'He finished his work early today.',
+      tr: 'O, bugün işini erken bitirdi.',
+    },
+    {
+      ing: 'They will bring their kids to the party.',
+      tr: 'Onlar, partiye çocuklarını getirecek.',
+    },
+    {
+      ing: 'We are proud of our school’s achievements.',
+      tr: 'Biz, okulumuzun başarılarıyla gurur duyuyoruz.',
+    },
+    {
+      ing: 'You should take care of your plants.',
+      tr: 'Sen, bitkilerine bakmalısın.',
+    },
+    {
+      ing: 'I need my glasses to read better.',
+      tr: 'Ben, daha iyi okumak için gözlüklerime ihtiyacım var.',
+    },
+    {
+      ing: 'She bought her mother flowers for her birthday.',
+      tr: 'O, annesi için doğum günü hediyesi olarak çiçek aldı.',
+    },
+    {
+      ing: 'He enjoys listening to his favorite music.',
+      tr: 'O, en sevdiği müziği dinlemekten hoşlanıyor.',
+    },
+    {
+      ing: 'They love spending time with their grandparents.',
+      tr: 'Onlar, büyükanne ve büyükbabalarıyla zaman geçirmeyi sever.',
+    },
+    {
+      ing: 'We need to clean our room before guests arrive.',
+      tr: 'Biz, misafirler gelmeden önce odamızı temizlemeliyiz.',
+    },
+    {
+      ing: 'You can use my computer if you need to.',
+      tr: 'Sen, ihtiyacın olursa bilgisayarımı kullanabilirsin.',
+    },
+  ],
+  IMyself: [
+    {
+      ing: 'I taught myself how to play the guitar.',
+      tr: 'Ben, gitar çalmayı kendime öğrettim.',
+    },
+    {
+      ing: 'She looked at herself in the mirror.',
+      tr: 'O, aynada kendine baktı.',
+    },
+    {
+      ing: 'They enjoyed the movie themselves.',
+      tr: 'Onlar, filmi kendileri izlemekten keyif aldılar.',
+    },
+    {
+      ing: 'He prepared dinner for himself.',
+      tr: 'O, akşam yemeğini kendisi için hazırladı.',
+    },
+    {
+      ing: 'We made this cake ourselves.',
+      tr: 'Biz, bu pastayı kendimiz yaptık.',
+    },
+    {ing: 'You should believe in yourself.', tr: 'Sen, kendine inanmalısın.'},
+    {
+      ing: 'I bought this gift for myself.',
+      tr: 'Ben, bu hediyeyi kendim için aldım.',
+    },
+    {
+      ing: 'She took care of herself during the illness.',
+      tr: 'O, hastalık süresince kendine dikkat etti.',
+    },
+    {
+      ing: 'They managed to fix the car themselves.',
+      tr: 'Onlar, arabayı kendileri tamir etmeyi başardılar.',
+    },
+    {
+      ing: 'He can express himself clearly.',
+      tr: 'O, kendini açıkça ifade edebilir.',
+    },
+    {
+      ing: 'We enjoyed ourselves at the party.',
+      tr: 'Biz, partide kendimizi eğlendirdik.',
+    },
+    {
+      ing: 'You need to remind yourself of your goals.',
+      tr: 'Sen, kendini hedeflerine hatırlatmalısın.',
+    },
+    {
+      ing: 'I treated myself to a nice dinner.',
+      tr: 'Ben, kendime güzel bir akşam yemeği ısmarladım.',
+    },
+    {
+      ing: 'She often talks to herself when she is alone.',
+      tr: 'O, yalnızken sık sık kendisiyle konuşur.',
+    },
+    {
+      ing: 'They prepared themselves for the exam.',
+      tr: 'Onlar, sınava kendilerini hazırladı.',
+    },
+    {
+      ing: 'He always blames himself for mistakes.',
+      tr: 'O, her zaman hatalarından kendini sorumlu tutar.',
+    },
+    {
+      ing: 'We have to remind ourselves to stay positive.',
+      tr: 'Biz, olumlu kalmayı kendimize hatırlatmalıyız.',
+    },
+    {
+      ing: 'You should be proud of yourself for completing the project.',
+      tr: 'Sen, projeyi tamamladığın için kendinle gurur duymalısın.',
+    },
+    {
+      ing: 'I can solve this problem by myself.',
+      tr: 'Ben, bu sorunu kendim çözebilirim.',
+    },
+    {
+      ing: 'She has learned to appreciate herself more.',
+      tr: 'O, kendini daha çok takdir etmeyi öğrendi.',
+    },
+    {
+      ing: 'They enjoyed their time together themselves.',
+      tr: 'Onlar, birlikte geçirdikleri zamanı kendileri keyifle değerlendirdi.',
+    },
+    {
+      ing: 'He should take care of himself better.',
+      tr: 'O, kendisine daha iyi bakmalı.',
+    },
+    {
+      ing: 'We helped ourselves to the food.',
+      tr: 'Biz, yiyecekten kendimize aldık.',
+    },
+    {
+      ing: 'You need to encourage yourself to keep going.',
+      tr: 'Sen, devam etmek için kendini teşvik etmelisin.',
+    },
+    {
+      ing: 'I found myself in a difficult situation.',
+      tr: 'Ben, zor bir durumda kendimi buldum.',
+    },
+    {
+      ing: 'She prepared a special meal for herself.',
+      tr: 'O, kendisi için özel bir yemek hazırladı.',
+    },
+    {
+      ing: 'They can manage this task by themselves.',
+      tr: 'Onlar, bu görevi kendileri halledebilir.',
+    },
+    {
+      ing: 'He often reminds himself to stay calm.',
+      tr: 'O, sakin kalmayı kendisine sık sık hatırlatır.',
+    },
+    {
+      ing: 'We should celebrate ourselves for our achievements.',
+      tr: 'Biz, başarılarımızı kendimizi kutlamalıyız.',
+    },
+    {
+      ing: 'You must learn to trust yourself.',
+      tr: 'Sen, kendine güvenmeyi öğrenmelisin.',
+    },
+    {
+      ing: 'I enjoyed myself at the concert.',
+      tr: 'Ben, konserde kendimi eğlendirdim.',
+    },
+    {
+      ing: 'She took some time to relax and focus on herself.',
+      tr: 'O, rahatlamak ve kendisine odaklanmak için biraz zaman ayırdı.',
+    },
+    {
+      ing: 'They can organize the event by themselves.',
+      tr: 'Onlar, etkinliği kendileri organize edebilir.',
+    },
+    {
+      ing: 'He loves to treat himself on special occasions.',
+      tr: 'O, özel günlerde kendini şımartmayı sever.',
+    },
+    {
+      ing: 'We taught ourselves how to play chess.',
+      tr: 'Biz, satranç oynamayı kendimiz öğrendik.',
+    },
+    {
+      ing: 'You should take some time for yourself.',
+      tr: 'Sen, kendine biraz zaman ayırmalısın.',
+    },
+    {
+      ing: 'I managed to fix the computer myself.',
+      tr: 'Ben, bilgisayarı kendim tamir ettim.',
+    },
+    {
+      ing: 'She is learning to accept herself as she is.',
+      tr: 'O, kendini olduğu gibi kabul etmeyi öğreniyor.',
+    },
+    {
+      ing: 'They enjoy taking care of themselves.',
+      tr: 'Onlar, kendilerine bakmaktan keyif alıyor.',
+    },
+    {ing: 'He always believes in himself.', tr: 'O, her zaman kendine inanır.'},
+    {
+      ing: 'We need to focus on ourselves first.',
+      tr: 'Biz, önce kendimize odaklanmalıyız.',
+    },
+    {
+      ing: 'You should remind yourself to stay positive.',
+      tr: 'Sen, olumlu kalmayı kendine hatırlatmalısın.',
+    },
+    {
+      ing: 'I encourage myself to be better every day.',
+      tr: 'Ben, her gün daha iyi olmaya kendimi teşvik ediyorum.',
+    },
+    {
+      ing: 'She looked at herself in the reflection.',
+      tr: 'O, yansımasında kendisine baktı.',
+    },
+    {
+      ing: 'They helped themselves to the food.',
+      tr: 'Onlar, yiyecekten kendileri aldı.',
+    },
+    {
+      ing: 'He enjoyed himself at the party.',
+      tr: 'O, partide kendini eğlendirdi.',
+    },
+    {
+      ing: 'We always support ourselves in difficult times.',
+      tr: 'Biz, zor zamanlarda her zaman kendimizi destekleriz.',
+    },
+    {
+      ing: 'You can treat yourself to something nice.',
+      tr: 'Sen, kendini güzel bir şeyle şımartabilirsin.',
+    },
+    {
+      ing: 'I often talk to myself when I’m thinking.',
+      tr: 'Ben, düşündüğümde sık sık kendimle konuşurum.',
+    },
+    {
+      ing: 'She likes to pamper herself with a spa day.',
+      tr: 'O, bir spa günü ile kendini şımartmayı sever.',
+    },
+    {
+      ing: 'They prepared themselves for the presentation.',
+      tr: 'Onlar, sunum için kendilerini hazırladı.',
+    },
+    {
+      ing: 'He is learning to express himself better.',
+      tr: 'O, kendini daha iyi ifade etmeyi öğreniyor.',
+    },
+    {
+      ing: 'We should appreciate ourselves for our hard work.',
+      tr: 'Biz, sıkı çalışmamız için kendimizi takdir etmeliyiz.',
+    },
+    {
+      ing: 'You can rely on yourself to get things done.',
+      tr: 'Sen, işleri halletmek için kendine güvenebilirsin.',
+    },
+    {
+      ing: 'I trust myself to make the right decisions.',
+      tr: 'Ben, doğru kararlar vereceğime kendime güveniyorum.',
+    },
+    {
+      ing: 'She believes in herself and her abilities.',
+      tr: 'O, kendine ve yeteneklerine inanıyor.',
+    },
+    {
+      ing: 'They enjoy spending time with themselves.',
+      tr: 'Onlar, kendileriyle vakit geçirmeyi seviyor.',
+    },
+    {
+      ing: 'He has learned to forgive himself for past mistakes.',
+      tr: 'O, geçmişteki hataları için kendini affetmeyi öğrendi.',
+    },
+    {
+      ing: 'We can improve ourselves with practice.',
+      tr: 'Biz, pratikle kendimizi geliştirebiliriz.',
+    },
+    {
+      ing: 'You should remind yourself to take breaks.',
+      tr: 'Sen, ara vermeyi kendine hatırlatmalısın.',
+    },
+    {
+      ing: 'I took a day off to focus on myself.',
+      tr: 'Ben, kendime odaklanmak için bir gün izin aldım.',
+    },
+    {
+      ing: 'She enjoys taking care of herself.',
+      tr: 'O, kendisine bakmaktan keyif alıyor.',
+    },
+    {
+      ing: 'They can help themselves if they try.',
+      tr: 'Onlar, eğer denerlerse kendilerine yardım edebilirler.',
+    },
+    {
+      ing: 'He always encourages himself to do better.',
+      tr: 'O, her zaman daha iyi yapmak için kendini teşvik eder.',
+    },
+    {
+      ing: 'We taught ourselves how to cook.',
+      tr: 'Biz, yemek yapmayı kendimiz öğrendik.',
+    },
+    {
+      ing: "You must take care of yourself when you're sick.",
+      tr: 'Sen, hasta olduğunda kendine dikkat etmelisin.',
+    },
+    {
+      ing: 'I often remind myself to stay positive.',
+      tr: 'Ben, olumlu kalmayı sık sık kendime hatırlatırım.',
+    },
+    {
+      ing: 'She can solve the problem by herself.',
+      tr: 'O, sorunu kendisi çözebilir.',
+    },
+    {
+      ing: 'They love to treat themselves on weekends.',
+      tr: 'Onlar, hafta sonları kendilerini şımartmayı sever.',
+    },
+    {
+      ing: 'He should learn to appreciate himself.',
+      tr: 'O, kendini takdir etmeyi öğrenmeli.',
+    },
+    {
+      ing: 'We like to relax and enjoy ourselves on vacation.',
+      tr: 'Biz, tatilde dinlenmeyi ve kendimizi eğlendirmeyi severiz.',
+    },
+    {
+      ing: 'You need to encourage yourself when things get tough.',
+      tr: 'Sen, işler zorlaştığında kendini teşvik etmelisin.',
+    },
+    {
+      ing: 'I bought a new book for myself.',
+      tr: 'Ben, kendim için yeni bir kitap aldım.',
+    },
+    {
+      ing: 'She enjoys talking to herself when she is thinking.',
+      tr: 'O, düşündüğünde sık sık kendisiyle konuşmaktan keyif alır.',
+    },
+    {
+      ing: 'They decided to do the project by themselves.',
+      tr: 'Onlar, projeyi kendileri yapmaya karar verdiler.',
+    },
+    {
+      ing: 'He is learning to take care of himself.',
+      tr: 'O, kendine bakmayı öğreniyor.',
+    },
+    {
+      ing: 'We must remember to treat ourselves kindly.',
+      tr: 'Biz, kendimize nazik davranmayı hatırlamalıyız.',
+    },
+    {
+      ing: 'You can enjoy yourself at the party.',
+      tr: 'Sen, partide kendini eğlendirebilirsin.',
+    },
+    {
+      ing: 'I have learned to rely on myself.',
+      tr: 'Ben, kendime güvenmeyi öğrendim.',
+    },
+    {
+      ing: 'She often reminds herself to stay focused.',
+      tr: 'O, odaklanmayı sık sık kendisine hatırlatır.',
+    },
+    {
+      ing: 'They took care of themselves during the trip.',
+      tr: 'Onlar, yolculuk sırasında kendilerine dikkat ettiler.',
+    },
+    {
+      ing: 'He has to look after himself better.',
+      tr: 'O, kendisine daha iyi bakmak zorunda.',
+    },
+    {
+      ing: 'We need to treat ourselves after a long week.',
+      tr: 'Biz, uzun bir haftadan sonra kendimizi şımartmalıyız.',
+    },
+    {ing: 'You should believe in yourself.', tr: 'Sen, kendine inanmalısın.'},
+    {
+      ing: 'I had to remind myself of my goals.',
+      tr: 'Ben, hedeflerimi kendime hatırlatmak zorunda kaldım.',
+    },
+    {
+      ing: 'She knows how to take care of herself.',
+      tr: 'O, kendisine nasıl bakacağını biliyor.',
+    },
+    {
+      ing: 'They often find themselves in difficult situations.',
+      tr: 'Onlar, sık sık zor durumlarda kendilerini bulurlar.',
+    },
+    {
+      ing: 'He taught himself how to play the piano.',
+      tr: 'O, piyano çalmayı kendisi öğrendi.',
+    },
+    {
+      ing: 'We enjoy pampering ourselves on weekends.',
+      tr: 'Biz, hafta sonları kendimizi şımartmaktan keyif alıyoruz.',
+    },
+    {
+      ing: 'You can motivate yourself to achieve your goals.',
+      tr: 'Sen, hedeflerine ulaşmak için kendini motive edebilirsin.',
+    },
+    {
+      ing: 'I made this decision by myself.',
+      tr: 'Ben, bu kararı kendim verdim.',
+    },
+    {
+      ing: 'She feels proud of herself for finishing the project.',
+      tr: 'O, projeyi bitirdiği için kendisiyle gurur duyuyor.',
+    },
+    {
+      ing: 'They took the initiative and organized the event themselves.',
+      tr: 'Onlar, inisiyatif alıp etkinliği kendileri organize etti.',
+    },
+    {
+      ing: 'He often praises himself for his achievements.',
+      tr: 'O, başarıları için sık sık kendini övüyor.',
+    },
+    {
+      ing: 'We must learn to value ourselves.',
+      tr: 'Biz, kendimizi değerlendirmeyi öğrenmeliyiz.',
+    },
+    {
+      ing: 'You can accomplish anything if you believe in yourself.',
+      tr: 'Sen, kendine inanırsan her şeyi başarabilirsin.',
+    },
+    {
+      ing: 'I am learning to love myself more.',
+      tr: 'Ben, kendimi daha çok sevmeyi öğreniyorum.',
+    },
+    {
+      ing: 'She knows she can rely on herself.',
+      tr: 'O, kendisine güvenebileceğini biliyor.',
+    },
+    {
+      ing: 'They are learning to express themselves confidently.',
+      tr: 'Onlar, kendilerini güvenle ifade etmeyi öğreniyor.',
+    },
+    {
+      ing: 'He decided to handle the situation himself.',
+      tr: 'O, durumu kendisi halletmeye karar verdi.',
+    },
+    {
+      ing: 'We appreciate ourselves for our hard work.',
+      tr: 'Biz, sıkı çalışmamız için kendimizi takdir ediyoruz.',
+    },
+    {
+      ing: 'You should take time for yourself.',
+      tr: 'Sen, kendine zaman ayırmalısın.',
+    },
+    {
+      ing: 'I enjoy spending time with myself.',
+      tr: 'Ben, kendimle vakit geçirmeyi seviyorum.',
+    },
+    {
+      ing: 'She looked after herself during the tough times.',
+      tr: 'O, zor zamanlarda kendisine baktı.',
+    },
+    {
+      ing: 'They took the time to understand themselves.',
+      tr: 'Onlar, kendilerini anlamak için zaman ayırdı.',
+    },
+    {
+      ing: 'He knows how to motivate himself.',
+      tr: 'O, kendini motive etmeyi biliyor.',
+    },
+    {
+      ing: 'We need to reflect on ourselves regularly.',
+      tr: 'Biz, düzenli olarak kendimizi değerlendirmeliyiz.',
+    },
+    {
+      ing: 'You can encourage yourself to do better.',
+      tr: 'Sen, daha iyi olmak için kendini teşvik edebilirsin.',
+    },
+    {
+      ing: 'I believe in myself and my abilities.',
+      tr: 'Ben, kendime ve yeteneklerime inanıyorum.',
+    },
+    {
+      ing: 'She often practices herself in front of the mirror.',
+      tr: 'O, sık sık aynanın önünde kendisiyle pratik yapar.',
+    },
+    {
+      ing: 'They should take care of themselves first.',
+      tr: 'Onlar, önce kendilerine dikkat etmelidir.',
+    },
+    {
+      ing: 'He is proud of himself for achieving his goals.',
+      tr: 'O, hedeflerine ulaştığı için kendisiyle gurur duyuyor.',
+    },
+    {
+      ing: 'We learned to manage ourselves during the project.',
+      tr: 'Biz, proje sırasında kendimizi yönetmeyi öğrendik.',
+    },
+    {
+      ing: 'You need to listen to yourself more.',
+      tr: 'Sen, daha fazla kendini dinlemelisin.',
+    },
+    {
+      ing: 'I find myself thinking about the future.',
+      tr: 'Ben, geleceği düşündüğümü kendimde buluyorum.',
+    },
+    {
+      ing: 'She treats herself to a spa day once a month.',
+      tr: 'O, ayda bir gün kendini spa günüyle şımartır.',
+    },
+    {
+      ing: 'They are learning to take care of themselves.',
+      tr: 'Onlar, kendilerine bakmayı öğreniyor.',
+    },
+    {
+      ing: 'He often finds himself in challenging situations.',
+      tr: 'O, sık sık zorlu durumlarda kendini bulur.',
+    },
+    {
+      ing: 'We should all take time for ourselves.',
+      tr: 'Biz, hepimiz kendimize zaman ayırmalıyız.',
+    },
+    {
+      ing: 'You should be nice to yourself.',
+      tr: 'Sen, kendine nazik olmalısın.',
+    },
+    {
+      ing: 'I made a goal to improve myself.',
+      tr: 'Ben, kendimi geliştirmek için bir hedef koydum.',
+    },
+    {
+      ing: 'She is focusing on herself this year.',
+      tr: 'O, bu yıl kendisine odaklanıyor.',
+    },
+    {
+      ing: 'They know how to enjoy themselves at parties.',
+      tr: 'Onlar, partilerde kendilerini eğlendirmeyi biliyor.',
+    },
+    {
+      ing: 'He always takes time to understand himself.',
+      tr: 'O, her zaman kendini anlamak için zaman ayırır.',
+    },
+    {
+      ing: 'We are learning to express ourselves better.',
+      tr: 'Biz, kendimizi daha iyi ifade etmeyi öğreniyoruz.',
+    },
+    {
+      ing: 'You can achieve your dreams if you believe in yourself.',
+      tr: 'Sen, kendine inanırsan hayallerine ulaşabilirsin.',
+    },
+    {
+      ing: 'I often talk to myself when I’m thinking.',
+      tr: 'Ben, düşündüğümde sık sık kendimle konuşurum.',
+    },
+    {
+      ing: 'She feels proud of herself for finishing her degree.',
+      tr: 'O, diplomasını bitirdiği için kendisiyle gurur duyuyor.',
+    },
+    {
+      ing: 'They can do the work by themselves.',
+      tr: 'Onlar, işi kendileri yapabilir.',
+    },
+    {
+      ing: 'He taught himself how to code.',
+      tr: 'O, programlamayı kendisi öğrendi.',
+    },
+    {
+      ing: 'We believe in taking care of ourselves.',
+      tr: 'Biz, kendimize bakmanın önemine inanıyoruz.',
+    },
+    {
+      ing: 'You must take care of yourself.',
+      tr: 'Sen, kendine dikkat etmelisin.',
+    },
+    {
+      ing: 'I treat myself to something special once in a while.',
+      tr: 'Ben, ara sıra kendimi özel bir şeyle şımartırım.',
+    },
+    {
+      ing: 'She often finds herself lost in thought.',
+      tr: 'O, sık sık düşüncelere dalmış kendini bulur.',
+    },
+    {
+      ing: 'They always push themselves to do better.',
+      tr: 'Onlar, her zaman daha iyi yapmak için kendilerini zorlar.',
+    },
+    {
+      ing: 'He knows how to motivate himself.',
+      tr: 'O, kendini motive etmeyi bilir.',
+    },
+    {
+      ing: 'We have to take care of ourselves first.',
+      tr: 'Biz, önce kendimize dikkat etmeliyiz.',
+    },
+    {
+      ing: 'You should reflect on yourself regularly.',
+      tr: 'Sen, düzenli olarak kendini değerlendirmelisin.',
+    },
+    {
+      ing: 'I took some time to enjoy myself.',
+      tr: 'Ben, kendimi eğlendirmek için biraz zaman ayırdım.',
+    },
+    {
+      ing: 'She loves to pamper herself on holidays.',
+      tr: 'O, tatillerde kendini şımartmayı sever.',
+    },
+    {
+      ing: 'They decided to work on the project themselves.',
+      tr: 'Onlar, projede kendileri çalışmaya karar verdiler.',
+    },
+    {
+      ing: 'He always finds ways to improve himself.',
+      tr: 'O, kendini geliştirmek için yollar bulur.',
+    },
+    {
+      ing: 'We should celebrate ourselves for our hard work.',
+      tr: 'Biz, sıkı çalışmamız için kendimizi kutlamalıyız.',
+    },
+    {
+      ing: 'You can take pride in yourself for your achievements.',
+      tr: 'Sen, başarıların için kendinle gurur duymalısın.',
+    },
+    {
+      ing: 'I enjoy spending time with myself.',
+      tr: 'Ben, kendimle vakit geçirmeyi seviyorum.',
+    },
+    {
+      ing: 'She looked at herself in the reflection.',
+      tr: 'O, yansımasında kendisine baktı.',
+    },
+    {
+      ing: 'They enjoy taking care of themselves.',
+      tr: 'Onlar, kendilerine bakmaktan keyif alıyor.',
+    },
+    {
+      ing: 'He learned to appreciate himself more.',
+      tr: 'O, kendini daha çok takdir etmeyi öğrendi.',
+    },
+    {
+      ing: 'We need to focus on ourselves before helping others.',
+      tr: 'Biz, başkalarına yardım etmeden önce kendimize odaklanmalıyız.',
+    },
+    {
+      ing: 'She is looking at herself in the mirror.',
+      tr: 'O aynada kendine bakıyor.',
+    },
+  ],
+};

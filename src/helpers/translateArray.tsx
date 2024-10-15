@@ -504,3 +504,258 @@ export const translateLetsShall = (data: LetsShall): LetsShallResult => {
 
   return result;
 };
+
+type Modals = {
+  Can_ing?: string;
+  Can_tr?: string;
+  Could_ing?: string;
+  Could_tr?: string;
+  Must_ing?: string;
+  Must_tr?: string;
+  May_ing?: string;
+  May_tr?: string;
+  Should_ing?: string;
+  Should_tr?: string;
+  Ought_to_ing?: string;
+  Ought_to_tr?: string;
+  Had_better_ing?: string;
+  Had_better_tr?: string;
+  Have_to_ing?: string;
+  Have_to_tr?: string;
+  Be_able_to_ing?: string;
+  Be_able_to_tr?: string;
+  Be_likely_ing?: string;
+  Be_likely_tr?: string;
+}[];
+
+type ModalsResult = {
+  Can: Array<{ing: string; tr: string}>;
+  Could: Array<{ing: string; tr: string}>;
+  Must: Array<{ing: string; tr: string}>;
+  May: Array<{ing: string; tr: string}>;
+  Should: Array<{ing: string; tr: string}>;
+  OughtTo: Array<{ing: string; tr: string}>;
+  HadBetter: Array<{ing: string; tr: string}>;
+  HaveTo: Array<{ing: string; tr: string}>;
+  BeAbleTo: Array<{ing: string; tr: string}>;
+  BeLikely: Array<{ing: string; tr: string}>;
+};
+
+export const translateModals = (data: Modals): ModalsResult => {
+  const result: ModalsResult = {
+    Can: [],
+    Could: [],
+    Must: [],
+    May: [],
+    Should: [],
+    OughtTo: [],
+    HadBetter: [],
+    HaveTo: [],
+    BeAbleTo: [],
+    BeLikely: [],
+  };
+
+  data.forEach(item => {
+    if (item.Can_ing && item.Can_tr) {
+      result.Can.push({
+        ing: item.Can_ing,
+        tr: item.Can_tr,
+      });
+    }
+    if (item.Could_ing && item.Could_tr) {
+      result.Could.push({
+        ing: item.Could_ing,
+        tr: item.Could_tr,
+      });
+    }
+    if (item.Must_ing && item.Must_tr) {
+      result.Must.push({
+        ing: item.Must_ing,
+        tr: item.Must_tr,
+      });
+    }
+    if (item.May_ing && item.May_tr) {
+      result.May.push({
+        ing: item.May_ing,
+        tr: item.May_tr,
+      });
+    }
+    if (item.Should_ing && item.Should_tr) {
+      result.Should.push({
+        ing: item.Should_ing,
+        tr: item.Should_tr,
+      });
+    }
+    if (item.Ought_to_ing && item.Ought_to_tr) {
+      result.OughtTo.push({
+        ing: item.Ought_to_ing,
+        tr: item.Ought_to_tr,
+      });
+    }
+    if (item.Had_better_ing && item.Had_better_tr) {
+      result.HadBetter.push({
+        ing: item.Had_better_ing,
+        tr: item.Had_better_tr,
+      });
+    }
+    if (item.Have_to_ing && item.Have_to_tr) {
+      result.HaveTo.push({
+        ing: item.Have_to_ing,
+        tr: item.Have_to_tr,
+      });
+    }
+    if (item.Be_able_to_ing && item.Be_able_to_tr) {
+      result.BeAbleTo.push({
+        ing: item.Be_able_to_ing,
+        tr: item.Be_able_to_tr,
+      });
+    }
+    if (item.Be_likely_ing && item.Be_likely_tr) {
+      result.BeLikely.push({
+        ing: item.Be_likely_ing,
+        tr: item.Be_likely_tr,
+      });
+    }
+  });
+  return result;
+};
+
+type PossessiveSOf = {
+  Possessive_s_ing?: string;
+  Possessive_s_tr?: string;
+  Possessive_of_ing?: string;
+  Possessive_of_tr?: string;
+}[];
+
+type PossessiveSOfResult = {
+  PossessiveS: Array<{ing: string; tr: string}>;
+  PossessiveOf: Array<{ing: string; tr: string}>;
+};
+
+export const translatePossessiveSOf = (
+  data: PossessiveSOf,
+): PossessiveSOfResult => {
+  const result: PossessiveSOfResult = {
+    PossessiveS: [],
+    PossessiveOf: [],
+  };
+
+  data.forEach(item => {
+    if (item.Possessive_s_ing && item.Possessive_s_tr) {
+      result.PossessiveS.push({
+        ing: item.Possessive_s_ing,
+        tr: item.Possessive_s_tr,
+      });
+    }
+    if (item.Possessive_of_ing && item.Possessive_of_tr) {
+      result.PossessiveOf.push({
+        ing: item.Possessive_of_ing,
+        tr: item.Possessive_of_tr,
+      });
+    }
+  });
+
+  return result;
+};
+
+type ThereIsAre = {
+  Is_are_ing?: string;
+  Is_are_tr?: string;
+  Was_were_ing?: string;
+  Was_were_tr?: string;
+  Will_be_ing?: string;
+  Will_be_tr?: string;
+}[];
+
+type ThereIsAreResult = {
+  IsAre: Array<{ing: string; tr: string}>;
+  WasWere: Array<{ing: string; tr: string}>;
+  WillBe: Array<{ing: string; tr: string}>;
+};
+
+export const translateThereIsAre = (data: ThereIsAre): ThereIsAreResult => {
+  const result: ThereIsAreResult = {
+    IsAre: [],
+    WasWere: [],
+    WillBe: [],
+  };
+
+  data.forEach(item => {
+    if (item.Is_are_ing && item.Is_are_tr) {
+      result.IsAre.push({
+        ing: item.Is_are_ing,
+        tr: item.Is_are_tr,
+      });
+    }
+    if (item.Was_were_ing && item.Was_were_tr) {
+      result.WasWere.push({
+        ing: item.Was_were_ing,
+        tr: item.Was_were_tr,
+      });
+    }
+    if (item.Will_be_ing && item.Will_be_tr) {
+      result.WillBe.push({
+        ing: item.Will_be_ing,
+        tr: item.Will_be_tr,
+      });
+    }
+  });
+
+  return result;
+};
+
+type Pronouns = {
+  I_me_ing?: string;
+  I_me_tr?: string;
+  I_my_ing?: string;
+  I_my_tr?: string;
+  I_mine_ing?: string;
+  I_mine_tr?: string;
+  I_myself_ing?: string;
+  I_myself_tr?: string;
+}[];
+
+type PronounsResult = {
+  IMe: Array<{ing: string; tr: string}>;
+  IMy: Array<{ing: string; tr: string}>;
+  IMine: Array<{ing: string; tr: string}>;
+  IMyself: Array<{ing: string; tr: string}>;
+};
+
+export const translatePronouns = (data: Pronouns): PronounsResult => {
+  const result: PronounsResult = {
+    IMe: [],
+    IMy: [],
+    IMine: [],
+    IMyself: [],
+  };
+
+  data.forEach(item => {
+    if (item.I_me_ing && item.I_me_tr) {
+      result.IMe.push({
+        ing: item.I_me_ing,
+        tr: item.I_me_tr,
+      });
+    }
+    if (item.I_my_ing && item.I_my_tr) {
+      result.IMy.push({
+        ing: item.I_my_ing,
+        tr: item.I_my_tr,
+      });
+    }
+    if (item.I_mine_ing && item.I_mine_tr) {
+      result.IMine.push({
+        ing: item.I_mine_ing,
+        tr: item.I_mine_tr,
+      });
+    }
+    if (item.I_myself_ing && item.I_myself_tr) {
+      result.IMyself.push({
+        ing: item.I_myself_ing,
+        tr: item.I_myself_tr,
+      });
+    }
+  });
+
+  return result;
+};

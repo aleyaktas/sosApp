@@ -44,6 +44,10 @@ import ExcitingExcitedTranslation from '../screens/Translation/ExcitingExcitedTr
 import GerundInfinitiveTranslation from '../screens/Translation/GerundInfinitiveTranslation';
 import HaveHasTranslation from '../screens/Translation/HaveHasTranslation';
 import LetsShallTranslation from '../screens/Translation/LetsShallTranslation';
+import ModalsTranslation from '../screens/Translation/ModalsTranslation';
+import PossessiveSOfTranslation from '../screens/Translation/PossessiveSOfTranslation';
+import ThereIsAreTranslation from '../screens/Translation/ThereIsAreTranslation';
+import PronounsTranslation from '../screens/Translation/PronounsTranslation';
 
 const Stack = createStackNavigator();
 
@@ -417,6 +421,42 @@ const RootNavigation = () => {
       <Stack.Screen
         name="LetsShallTranslation"
         component={LetsShallTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="ModalsTranslation"
+        component={ModalsTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="PossessiveSOfTranslation"
+        component={PossessiveSOfTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="ThereIsAreTranslation"
+        component={ThereIsAreTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="PronounsTranslation"
+        component={PronounsTranslation}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,
