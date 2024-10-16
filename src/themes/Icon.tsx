@@ -17,6 +17,7 @@ import Right from '../assets/icons/Right.svg';
 import Up from '../assets/icons/Up.svg';
 import Down from '../assets/icons/Down.svg';
 import Star from '../assets/icons/Star.svg';
+import StarOutline from '../assets/icons/Star_outline.svg';
 import Stars from '../assets/icons/Stars.svg';
 import UpArrow from '../assets/icons/UpArrow.svg';
 import DownArrow from '../assets/icons/DownArrow.svg';
@@ -55,6 +56,7 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   Up,
   Down,
   Star,
+  StarOutline,
   Stars,
   UpArrow,
   DownArrow,

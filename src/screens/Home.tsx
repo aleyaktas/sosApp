@@ -3,21 +3,10 @@ import {Text, View, Image, ScrollView, StyleSheet} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import {useNavigation} from '@react-navigation/native';
 import {ScreenProp} from '../navigation/types';
-import {Categories, test} from '../utils/data';
-import {
-  translateLetsShall,
-  translateModals,
-  translatePossessiveSOf,
-  translatePronouns,
-  translateThereIsAre,
-} from '../helpers/translateArray';
+import {Categories} from '../utils/data';
 
 const Home = () => {
   const navigation = useNavigation<ScreenProp>();
-
-  useEffect(() => {
-    console.log(translatePronouns(test));
-  }, []);
 
   return (
     <ScrollView

@@ -1,6 +1,7 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {QuestionContext} from '../contexts/QuestionContext';
 import {Route, useRoute} from '@react-navigation/native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   FlatList,
   StyleSheet,
@@ -26,7 +27,6 @@ export interface IWords {
   word: string;
   mean: string;
 }
-[];
 
 const Vocabulary = () => {
   const {uniteno} = useContext(QuestionContext);
@@ -37,6 +37,7 @@ const Vocabulary = () => {
 
   const [search, setSearch] = useState<string>('');
   const [vocabulary, setVocabulary] = useState<IWords[]>([]);
+  const [starredWords, setStarredWords] = useState<IWords[]>([]);
 
   useEffect(() => {
     const findUnitVoc = vocabularyList.find(
@@ -45,6 +46,7 @@ const Vocabulary = () => {
     if (findUnitVoc) {
       setVocabulary(findUnitVoc.words);
     }
+    loadStarredWords(); // Load starred words when component mounts
   }, [vocabularyList]);
 
   useEffect(() => {
@@ -66,6 +68,49 @@ const Vocabulary = () => {
       }
     }
   }, [search]);
+
+  // Load starred words from AsyncStorage
+  const loadStarredWords = async () => {
+    try {
+      const storedData = await AsyncStorage.getItem(`starredWords_${title}`);
+      if (storedData) {
+        setStarredWords(JSON.parse(storedData));
+      }
+    } catch (error) {
+      console.error('Failed to load starred words:', error);
+    }
+  };
+
+  // Toggle star status of a word
+  const toggleStar = async (word: IWords) => {
+    let updatedStarredWords = [...starredWords];
+    if (isStarred(word)) {
+      // Remove from starred
+      updatedStarredWords = updatedStarredWords.filter(
+        w => w.word !== word.word,
+      );
+    } else {
+      // Add to starred
+      updatedStarredWords.push(word);
+    }
+
+    setStarredWords(updatedStarredWords);
+
+    // Save to AsyncStorage
+    try {
+      await AsyncStorage.setItem(
+        `starredWords_${title}`,
+        JSON.stringify(updatedStarredWords),
+      );
+    } catch (error) {
+      console.error('Failed to save starred words:', error);
+    }
+  };
+
+  // Check if a word is starred
+  const isStarred = (word: IWords) => {
+    return starredWords.some(w => w.word === word.word);
+  };
 
   return (
     <View style={styles.container}>
@@ -97,6 +142,17 @@ const Vocabulary = () => {
               <Text style={styles.word}>{item.word}</Text>
             </TouchableOpacity>
             <Text style={styles.mean}>{item.mean}</Text>
+            <TouchableOpacity
+              onPress={() => toggleStar(item)}
+              activeOpacity={0.7}
+              style={{flexDirection: 'row', alignItems: 'center', gap: 4}}>
+              <Icon
+                name={isStarred(item) ? 'Star' : 'StarOutline'}
+                color="brown"
+                width={24}
+                height={24}
+              />
+            </TouchableOpacity>
           </View>
         )}
         keyExtractor={(item, index) => index.toString()}
@@ -127,7 +183,6 @@ const styles = StyleSheet.create({
   clearButton: {
     padding: 10,
   },
-
   wordContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',

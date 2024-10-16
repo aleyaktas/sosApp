@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -17,18 +17,22 @@ import AnswerInputComponent from './components/AnswerInputComponent';
 import BottomSheetComponent from './components/BottomSheetComponent';
 import DraggableFlatList from 'react-native-draggable-flatlist';
 import BottomSheet from '@gorhom/bottom-sheet/lib/typescript/components/bottomSheet/BottomSheet';
-import {IndefinitePronounsTranslationSentences} from '../../utils/translation';
+import {QuantifiersTranslationSentences} from '../../utils/translation';
 
-const IndefinitePronounsTranslation = () => {
+const QuantifiersTranslation = () => {
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
   const [isAnswerVisible, setIsAnswerVisible] = useState(true);
   const [selectedCells, setSelectedCells] = useState([
-    'SPronouns',
-    'EPronouns',
-    'APronouns',
-    'NPronouns',
+    'AFew',
+    'ALittle',
+    'ALotOf',
+    'Any',
+    'LotsOf',
+    'Many',
+    'Much',
+    'Some',
   ]);
   const [selectedCell, setSelectedCell] = useState('');
   const [sentence, setSentence] = useState(
@@ -109,7 +113,15 @@ const IndefinitePronounsTranslation = () => {
     handleAskButton();
     bottomSheetRef.current?.close();
   };
-  type SymbolKeys = 'SPronouns' | 'EPronouns' | 'APronouns' | 'NPronouns';
+  type SymbolKeys =
+    | 'AFew'
+    | 'ALittle'
+    | 'ALotOf'
+    | 'Any'
+    | 'LotsOf'
+    | 'Many'
+    | 'Much'
+    | 'Some';
 
   const generateQuestion = () => {
     const randomIndexForSymbols = Math.floor(
@@ -121,7 +133,7 @@ const IndefinitePronounsTranslation = () => {
     setSelectedCell(newSelectedSymbol);
 
     let newTranslationSentences =
-      IndefinitePronounsTranslationSentences[newSelectedSymbol];
+      QuantifiersTranslationSentences[newSelectedSymbol];
 
     if (!newTranslationSentences) {
       setSentence('Çeviri cümlesi bulunamadı, hücre seçimi yapmalısın!');
@@ -169,7 +181,7 @@ const IndefinitePronounsTranslation = () => {
       setCorrectAnswers(correctAnswers + 1);
 
       const translationSentences =
-        IndefinitePronounsTranslationSentences[selectedCell as SymbolKeys];
+        QuantifiersTranslationSentences[selectedCell as SymbolKeys];
       translationSentences.splice(questionIndex, 1);
       setRemainingQuestionCount(translationSentences.length);
     } else {
@@ -221,18 +233,37 @@ const IndefinitePronounsTranslation = () => {
             selectedCell={selectedCell}
             cells={[
               {
-                value: 'SPronouns',
-                label: 'Some',
+                value: 'AFew',
+                label: 'A Few',
               },
               {
-                value: 'EPronouns',
-                label: 'Every',
+                value: 'ALittle',
+                label: 'A Little',
               },
               {
-                value: 'APronouns',
+                value: 'ALotOf',
+                label: 'A Lot Of',
+              },
+              {
+                value: 'Any',
                 label: 'Any',
               },
-              {value: 'NPronouns', label: 'No'},
+              {
+                value: 'LotsOf',
+                label: 'Lots Of',
+              },
+              {
+                value: 'Many',
+                label: 'Many',
+              },
+              {
+                value: 'Much',
+                label: 'Much',
+              },
+              {
+                value: 'Some',
+                label: 'Some',
+              },
             ]}
           />
           <QuestionComponent
@@ -319,4 +350,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default IndefinitePronounsTranslation;
+export default QuantifiersTranslation;

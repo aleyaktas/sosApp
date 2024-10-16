@@ -48,6 +48,7 @@ import ModalsTranslation from '../screens/Translation/ModalsTranslation';
 import PossessiveSOfTranslation from '../screens/Translation/PossessiveSOfTranslation';
 import ThereIsAreTranslation from '../screens/Translation/ThereIsAreTranslation';
 import PronounsTranslation from '../screens/Translation/PronounsTranslation';
+import QuantifiersTranslation from '../screens/Translation/QuantifiersTranslation';
 
 const Stack = createStackNavigator();
 
@@ -457,6 +458,15 @@ const RootNavigation = () => {
       <Stack.Screen
         name="PronounsTranslation"
         component={PronounsTranslation}
+        options={{
+          headerTitle: 'Kelime Bilgisi',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="QuantifiersTranslation"
+        component={QuantifiersTranslation}
         options={{
           headerTitle: 'Kelime Bilgisi',
           headerShown: true,

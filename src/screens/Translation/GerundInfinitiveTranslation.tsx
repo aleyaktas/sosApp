@@ -239,39 +239,39 @@ const GerundInfinitiveTranslation = () => {
             cells={[
               {
                 value: 'AfterVerb',
-                label: 'Fiilden Sonra (Gerund)',
+                label: 'After Verb (G)',
               },
               {
                 value: 'SubjectPosition',
-                label: 'Subject Position (Gerund)',
+                label: 'Subject Position (G)',
               },
               {
                 value: 'AfterPrep',
-                label: 'Preposition Sonrası (Gerund)',
+                label: 'After Preposition (G)',
               },
               {
                 value: 'AfterMy',
-                label: 'My Sonrası (Gerund)',
+                label: 'After My (G)',
               },
               {
                 value: 'AfterIVerb',
-                label: 'Infinitive Verb Sonrası',
+                label: 'After Verb (I)',
               },
               {
                 value: 'AfterAdverb',
-                label: 'Sıfat Sonrası Infinitive',
+                label: 'After Adverb (I)',
               },
               {
                 value: 'AfterPassive',
-                label: 'Passive Sonrası Infinitive',
+                label: 'After Passive (I)',
               },
               {
                 value: 'AfterMe',
-                label: 'Me Sonrası Infinitive',
+                label: 'After Me (I)',
               },
               {
                 value: 'Too',
-                label: 'Too, Enough + Infinitive',
+                label: 'Too, Enough + I',
               },
             ]}
           />

@@ -759,3 +759,99 @@ export const translatePronouns = (data: Pronouns): PronounsResult => {
 
   return result;
 };
+
+type quantifiers = {
+  Many_ing?: string;
+  Many_tr?: string;
+  Much_ing?: string;
+  Much_tr?: string;
+  Some_ing?: string;
+  Some_tr?: string;
+  Any_ing?: string;
+  Any_tr?: string;
+  A_few_ing?: string;
+  A_few_tr?: string;
+  A_little_ing?: string;
+  A_little_tr?: string;
+  A_lot_of_ing?: string;
+  A_lot_of_tr?: string;
+  Lots_of_ing?: string;
+  Lots_of_tr?: string;
+}[];
+
+type quantifiersResult = {
+  Many: Array<{ing: string; tr: string}>;
+  Much: Array<{ing: string; tr: string}>;
+  Some: Array<{ing: string; tr: string}>;
+  Any: Array<{ing: string; tr: string}>;
+  AFew: Array<{ing: string; tr: string}>;
+  ALittle: Array<{ing: string; tr: string}>;
+  ALotOf: Array<{ing: string; tr: string}>;
+  LotsOf: Array<{ing: string; tr: string}>;
+};
+
+export const translateQuantifiers = (data: quantifiers): quantifiersResult => {
+  const result: quantifiersResult = {
+    Many: [],
+    Much: [],
+    Some: [],
+    Any: [],
+    AFew: [],
+    ALittle: [],
+    ALotOf: [],
+    LotsOf: [],
+  };
+
+  data.forEach(item => {
+    if (item.Many_ing && item.Many_tr) {
+      result.Many.push({
+        ing: item.Many_ing,
+        tr: item.Many_tr,
+      });
+    }
+    if (item.Much_ing && item.Much_tr) {
+      result.Much.push({
+        ing: item.Much_ing,
+        tr: item.Much_tr,
+      });
+    }
+    if (item.Some_ing && item.Some_tr) {
+      result.Some.push({
+        ing: item.Some_ing,
+        tr: item.Some_tr,
+      });
+    }
+    if (item.Any_ing && item.Any_tr) {
+      result.Any.push({
+        ing: item.Any_ing,
+        tr: item.Any_tr,
+      });
+    }
+    if (item.A_few_ing && item.A_few_tr) {
+      result.AFew.push({
+        ing: item.A_few_ing,
+        tr: item.A_few_tr,
+      });
+    }
+    if (item.A_little_ing && item.A_little_tr) {
+      result.ALittle.push({
+        ing: item.A_little_ing,
+        tr: item.A_little_tr,
+      });
+    }
+    if (item.A_lot_of_ing && item.A_lot_of_tr) {
+      result.ALotOf.push({
+        ing: item.A_lot_of_ing,
+        tr: item.A_lot_of_tr,
+      });
+    }
+    if (item.Lots_of_ing && item.Lots_of_tr) {
+      result.LotsOf.push({
+        ing: item.Lots_of_ing,
+        tr: item.Lots_of_tr,
+      });
+    }
+  });
+
+  return result;
+};
