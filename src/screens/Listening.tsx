@@ -175,9 +175,21 @@ const Listening = () => {
               backgroundColor: bgColor,
             },
           ]}>
-          <Text style={styles.choiceOptionText}>{optionTitle}</Text>
+          <Text style={[styles.choiceOptionText]}>{optionTitle}</Text>
         </View>
-        <Text style={styles.choiceText}>{option}</Text>
+        <Text
+          style={[
+            styles.choiceText,
+            {
+              color:
+                question.selectedOptionTitle === optionTitle &&
+                question.selectedOption !== question.correct_option
+                  ? '#fff'
+                  : 'black',
+            },
+          ]}>
+          {option}
+        </Text>
       </TouchableOpacity>
     );
   };

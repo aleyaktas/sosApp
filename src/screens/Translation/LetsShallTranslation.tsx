@@ -219,8 +219,12 @@ const LetsShallTranslation = () => {
             selectedCell={selectedCell}
             cells={[
               {
-                value: 'HaveHas',
-                label: 'Have / Has',
+                value: 'Lets',
+                label: "Let's",
+              },
+              {
+                value: 'Shall',
+                label: 'Shall',
               },
             ]}
           />
@@ -229,6 +233,7 @@ const LetsShallTranslation = () => {
             isAnswerVisible={isAnswerVisible}
             handleAskButton={handleAskButton}
             checkAnswer={checkAnswer}
+            selectedCell={selectedCell}
             textInputValue={textInputValue}
           />
           <AnswerInputComponent

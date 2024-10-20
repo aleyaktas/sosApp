@@ -239,6 +239,7 @@ const ThereIsAreTranslation = () => {
             handleAskButton={handleAskButton}
             checkAnswer={checkAnswer}
             textInputValue={textInputValue}
+            selectedCell={selectedCell}
           />
           <AnswerInputComponent
             isVoiceActive={isVoiceActive}

@@ -1473,8 +1473,7 @@ export const TensesTranslationSentences = {
     {
       meaning:
         "Müze yarın sabah 9'dan öğleden sonra 5'e kadar halkı kabul edecek.",
-      sentence:
-        'The museum will welcome the public from 9 a.m. to 5 p.m. tomorrow .',
+      sentence: 'The museum will welcome the public from 9 a.to 5 p.tomorrow .',
     },
     {
       meaning: 'Partiye ilk olarak o varacak.',
@@ -1872,7 +1871,7 @@ export const TensesTranslationSentences = {
     },
     {
       meaning: "O, raporunu bugün saat 17:00'ye kadar yazmış olacak.",
-      sentence: 'He will have written his report by 5 p.m. today .',
+      sentence: 'He will have written his report by 5 p.today .',
     },
     {
       meaning: 'Biz tiyatroya gittiğimizde oyun başlamış olacak.',
@@ -5281,7 +5280,7 @@ export const TensesTranslationSentences = {
     },
     {
       meaning: 'Öğretmen konuyu açıklıyordu.',
-      sentence: 'The teacher was explaining the subject . .',
+      sentence: 'The teacher was explaining the .',
     },
     {
       meaning: 'Kuşlar bu sabah erken saatlerde gökyüzünde uçmuyorlardı.',
@@ -9579,7 +9578,7 @@ export const QuestionsTranslationSentencesWhat = {
     },
     {
       meaning: 'Senin öğretmeninin adı ne olacak?',
-      possibleAnswer: "My teacher's name is going to be Mr. Smith.",
+      possibleAnswer: "My teacher's name is going to be Smith.",
       sentence: "What is your teacher's name going to be?",
     },
     {
@@ -10134,7 +10133,7 @@ export const QuestionsTranslationSentencesWhat = {
     },
     {
       meaning: 'Gelecek yıl senin öğretmeninin adı ne olacak?',
-      possibleAnswer: "My teacher's name next year will be Mr. Thompson.",
+      possibleAnswer: "My teacher's name next year will be Thompson.",
       sentence: "What will your teacher's name be next year?",
     },
     {
@@ -10260,7 +10259,7 @@ export const QuestionsTranslationSentencesWhat = {
     },
     {
       meaning: 'Senin sonraki öğretmenin adı ne olacak?',
-      possibleAnswer: 'The name of my next teacher will be Mrs. Brown.',
+      possibleAnswer: 'The name of my next teacher will be Brown.',
       sentence: 'What will the name of your next teacher be?',
     },
     {
@@ -12376,7 +12375,7 @@ export const QuestionsTranslationSentencesWhat = {
     },
     {
       meaning: 'Senin öğretmeninin adı nedir?',
-      possibleAnswer: "My teacher's name is Mr. Smith.",
+      possibleAnswer: "My teacher's name is Smith.",
       sentence: "What is your teacher's name?",
     },
     {
@@ -14345,7 +14344,7 @@ export const QuestionsTranslationSentencesWhat = {
     },
     {
       meaning: 'Anaokulunda öğretmeninin adı neydi?',
-      possibleAnswer: "My teacher's name in kindergarten was Mrs. Robinson.",
+      possibleAnswer: "My teacher's name in kindergarten was Robinson.",
       sentence: "What was your teacher's name in kindergarten?",
     },
     {
@@ -14448,7 +14447,7 @@ export const QuestionsTranslationSentencesWhat = {
     },
     {
       meaning: 'Senin ilk öğretmeninin adı neydi?',
-      possibleAnswer: 'The name of my first teacher was Mrs. Johnson.',
+      possibleAnswer: 'The name of my first teacher was Johnson.',
       sentence: 'What was the name of your first teacher?',
     },
     {
@@ -20094,7 +20093,7 @@ export const QuestionsTranslationSentencesWhy = {
       meaning: 'Neden dünyayı gezeceksin?',
       possibleAnswer:
         'Because I want to experience different cultures and broaden my perspective.',
-      sentence: '00. Why will you travel the world?',
+      sentence: 'Why will you travel the world?',
     },
   ],
   A3: [
@@ -21125,7 +21124,7 @@ export const QuestionsTranslationSentencesWhy = {
     {
       meaning: 'Gökkuşağı neden kaybolur?',
       possibleAnswer: 'Because the angle of sunlight changes.',
-      sentence: '00. Why does a rainbow disappear?',
+      sentence: 'Why does a rainbow disappear?',
     },
   ],
   B3: [
@@ -21382,7 +21381,7 @@ export const QuestionsTranslationSentencesWhy = {
     {
       meaning: 'Neden yüzme öğreniyor?',
       possibleAnswer: 'Because he wants to feel safe in the water.',
-      sentence: '00. Why is he learning to swim?',
+      sentence: 'Why is he learning to swim?',
     },
   ],
   C1: [
@@ -21906,7 +21905,7 @@ export const QuestionsTranslationSentencesWhy = {
     {
       meaning: 'İcat toplumu neden değiştirdi?',
       possibleAnswer: 'Because it revolutionized how people lived and worked.',
-      sentence: '00. Why did the invention change society?',
+      sentence: 'Why did the invention change society?',
     },
   ],
   C3: [
@@ -25856,7 +25855,7 @@ export const QueestionsTranslationSentencesHow = {
   B4: [
     {
       meaning: 'Sen tatilini şimdiye kadar nasıl geçirdin?',
-      possibleAnswer: 'I have enjoyed it a lot. The weather has been perfect.',
+      possibleAnswer: 'I have enjoyed it a The weather has been perfect.',
       sentence: 'How have you enjoyed your vacation so far?',
     },
     {
@@ -28018,7 +28017,7 @@ export const QueestionsTranslationSentencesWho = {
   'A1-W': [
     {
       meaning: 'Gelecek yıl yeni öğretmenin kim olacak?',
-      possibleAnswer: 'My teacher will be Mr. Smith.',
+      possibleAnswer: 'My teacher will be Smith.',
       sentence: 'Who will your new teacher be next year?',
     },
     {
@@ -28073,7 +28072,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Terfiden sonra yeni müdür kim olacak?',
-      possibleAnswer: 'The manager will be Mr. Johnson.',
+      possibleAnswer: 'The manager will be Johnson.',
       sentence: 'Who will the new manager be after the promotion?',
     },
     {
@@ -28098,7 +28097,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Gelecek dönem İngilizce öğretmenin kim olacak?',
-      possibleAnswer: 'My English teacher will be Mrs. Brown.',
+      possibleAnswer: 'My English teacher will be Brown.',
       sentence: 'Who will your English teacher be next term?',
     },
     {
@@ -28128,17 +28127,17 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Transferden sonra doktorun kim olacak?',
-      possibleAnswer: 'My doctor will be Dr. Smith.',
+      possibleAnswer: 'My doctor will be Smith.',
       sentence: 'Who will your doctor be after the transfer?',
     },
     {
       meaning: 'Gelecek dönemde şehrinin belediye başkanı kim olacak?',
-      possibleAnswer: 'The mayor will be Mr. Johnson.',
+      possibleAnswer: 'The mayor will be Johnson.',
       sentence: 'Who will the mayor of your city be in the next term?',
     },
     {
       meaning: 'Gelecek yıl okulun müdürü kim olacak?',
-      possibleAnswer: 'The principal will be Mr. Thompson.',
+      possibleAnswer: 'The principal will be Thompson.',
       sentence: 'Who will the principal of the school be next year?',
     },
     {
@@ -28179,7 +28178,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Yeni organizasyonda lider kim olacak?',
-      possibleAnswer: 'The leader will be Mr. Smith.',
+      possibleAnswer: 'The leader will be Smith.',
       sentence: 'Who will the leader be in the new organization?',
     },
     {
@@ -28195,7 +28194,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Gelecek ay konferansta konuşmacı kim olacak?',
-      possibleAnswer: 'The speaker will be Dr. Brown.',
+      possibleAnswer: 'The speaker will be Brown.',
       sentence: 'Who will the speaker be at the conference next month?',
     },
     {
@@ -28215,7 +28214,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Gelecek hafta sonu etkinlikte ziyaretçi kim olacak?',
-      possibleAnswer: 'The visitor will be Mr. White.',
+      possibleAnswer: 'The visitor will be White.',
       sentence: 'Who will the visitor be at the event next weekend?',
     },
     {
@@ -28235,12 +28234,12 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Müze turu için rehber kim olacak?',
-      possibleAnswer: 'The guide will be Mr. Green.',
+      possibleAnswer: 'The guide will be Green.',
       sentence: 'Who will the guide be for the museum tour?',
     },
     {
       meaning: 'Kitap kapağında yazar kim olacak?',
-      possibleAnswer: 'The author will be J.K. Rowling.',
+      possibleAnswer: 'The author will be J.Rowling.',
       sentence: 'Who will the author be on the book cover?',
     },
     {
@@ -28260,7 +28259,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Seçimden sonra grubun lideri kim olacak?',
-      possibleAnswer: 'The leader will be Mr. Brown.',
+      possibleAnswer: 'The leader will be Brown.',
       sentence: 'Who will the leader of the group be after the election?',
     },
     {
@@ -29644,7 +29643,7 @@ export const QueestionsTranslationSentencesWho = {
   B1: [
     {
       meaning: 'Öğretmenin kim?',
-      possibleAnswer: 'My teacher is Mr. Smith.',
+      possibleAnswer: 'My teacher is Smith.',
       sentence: 'Who is your teacher?',
     },
     {
@@ -29694,7 +29693,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'İngilizce öğretmenin kim?',
-      possibleAnswer: 'My English teacher is Mrs. Brown.',
+      possibleAnswer: 'My English teacher is Brown.',
       sentence: 'Who is your English teacher?',
     },
     {
@@ -29714,7 +29713,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Doktorun kim?',
-      possibleAnswer: 'My doctor is Dr. Smith.',
+      possibleAnswer: 'My doctor is Smith.',
       sentence: 'Who is your doctor?',
     },
     {
@@ -29744,7 +29743,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Lider kim?',
-      possibleAnswer: 'The leader is Mr. Smith.',
+      possibleAnswer: 'The leader is Smith.',
       sentence: 'Who is the leader?',
     },
     {
@@ -29754,7 +29753,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Konuşmacı kim?',
-      possibleAnswer: 'The speaker is Dr. Brown.',
+      possibleAnswer: 'The speaker is Brown.',
       sentence: 'Who is the speaker?',
     },
     {
@@ -29774,7 +29773,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Ziyaretçi kim?',
-      possibleAnswer: 'The visitor is Mr. White.',
+      possibleAnswer: 'The visitor is White.',
       sentence: 'Who is the visitor?',
     },
     {
@@ -29794,12 +29793,12 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Rehber kim?',
-      possibleAnswer: 'The guide is Mr. Green.',
+      possibleAnswer: 'The guide is Green.',
       sentence: 'Who is the guide?',
     },
     {
       meaning: 'Yazar kim?',
-      possibleAnswer: 'The author is J.K. Rowling.',
+      possibleAnswer: 'The author is J.Rowling.',
       sentence: 'Who is the author?',
     },
     {
@@ -29854,7 +29853,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Sunucu kim?',
-      possibleAnswer: 'The host is Mr. Black.',
+      possibleAnswer: 'The host is Black.',
       sentence: 'Who is the host?',
     },
     {
@@ -31182,7 +31181,7 @@ export const QueestionsTranslationSentencesWho = {
   C1: [
     {
       meaning: 'Öğretmenin kimdi?',
-      possibleAnswer: 'My teacher was Mr. Smith.',
+      possibleAnswer: 'My teacher was Smith.',
       sentence: 'Who was your teacher?',
     },
     {
@@ -31237,7 +31236,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Müdür kimdi?',
-      possibleAnswer: 'The manager was Mr. Johnson.',
+      possibleAnswer: 'The manager was Johnson.',
       sentence: 'Who was the manager?',
     },
     {
@@ -31262,7 +31261,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'İngilizce öğretmenin kimdi?',
-      possibleAnswer: 'My English teacher was Mrs. Brown.',
+      possibleAnswer: 'My English teacher was Brown.',
       sentence: 'Who was your English teacher?',
     },
     {
@@ -31292,17 +31291,17 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Doktorun kimdi?',
-      possibleAnswer: 'My doctor was Dr. Smith.',
+      possibleAnswer: 'My doctor was Smith.',
       sentence: 'Who was your doctor?',
     },
     {
       meaning: 'Şehrinin belediye başkanı kimdi?',
-      possibleAnswer: 'The mayor was Mr. Johnson.',
+      possibleAnswer: 'The mayor was Johnson.',
       sentence: 'Who was the mayor of your city?',
     },
     {
       meaning: 'Okulun müdürü kimdi?',
-      possibleAnswer: 'The principal was Mr. Thompson.',
+      possibleAnswer: 'The principal was Thompson.',
       sentence: 'Who was the principal of the school?',
     },
     {
@@ -31342,7 +31341,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Lider kimdi?',
-      possibleAnswer: 'The leader was Mr. Smith.',
+      possibleAnswer: 'The leader was Smith.',
       sentence: 'Who was the leader?',
     },
     {
@@ -31357,7 +31356,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Konuşmacı kimdi?',
-      possibleAnswer: 'The speaker was Dr. Brown.',
+      possibleAnswer: 'The speaker was Brown.',
       sentence: 'Who was the speaker?',
     },
     {
@@ -31377,7 +31376,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Ziyaretçi kimdi?',
-      possibleAnswer: 'The visitor was Mr. White.',
+      possibleAnswer: 'The visitor was White.',
       sentence: 'Who was the visitor?',
     },
     {
@@ -31397,12 +31396,12 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Rehber kimdi?',
-      possibleAnswer: 'The guide was Mr. Green.',
+      possibleAnswer: 'The guide was Green.',
       sentence: 'Who was the guide?',
     },
     {
       meaning: 'Yazar kimdi?',
-      possibleAnswer: 'The author was J.K. Rowling.',
+      possibleAnswer: 'The author was J.Rowling.',
       sentence: 'Who was the author?',
     },
     {
@@ -31422,7 +31421,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Grubun lideri kimdi?',
-      possibleAnswer: 'The leader was Mr. Brown.',
+      possibleAnswer: 'The leader was Brown.',
       sentence: 'Who was the leader of the group?',
     },
     {
@@ -31457,7 +31456,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Sürücü kimdi?',
-      possibleAnswer: 'The driver was Mr. Black.',
+      possibleAnswer: 'The driver was Black.',
       sentence: 'Who was the driver?',
     },
     {
@@ -31467,7 +31466,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Müdür kimdi?',
-      possibleAnswer: 'The principal was Mr. White.',
+      possibleAnswer: 'The principal was White.',
       sentence: 'Who was the principal?',
     },
     {
@@ -31517,7 +31516,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Sunucu kimdi?',
-      possibleAnswer: 'The host was Mr. Black.',
+      possibleAnswer: 'The host was Black.',
       sentence: 'Who was the host?',
     },
     {
@@ -31547,7 +31546,7 @@ export const QueestionsTranslationSentencesWho = {
     },
     {
       meaning: 'Koç kimdi?',
-      possibleAnswer: 'The coach was Mr. Green.',
+      possibleAnswer: 'The coach was Green.',
       sentence: 'Who was the coach?',
     },
     {
@@ -32882,99 +32881,99 @@ export const RcNcTranslationSentences = {
       tr: 'O, kendi çantasını nerede bıraktığını hatırladı.',
     },
     {
-      ing: "She doesn't understand why he is upset. ",
+      ing: "She doesn't understand why he is ",
       tr: 'O, onun neden üzgün olduğunu anlamıyor.',
     },
     {
-      ing: "I can't remember if I locked the door. ",
+      ing: "I can't remember if I locked the ",
       tr: 'Ben kapıyı kilitleyip kilitlemediğimi hatırlamıyorum.',
     },
     {
-      ing: 'They believe that honesty is the best policy. ',
+      ing: 'They believe that honesty is the best ',
       tr: 'Onlar dürüstlüğün en iyi davranış biçimi olduğuna inanırlar.',
     },
     {
-      ing: "I don't know where she put my book. ",
+      ing: "I don't know where she put my ",
       tr: 'Ben onun benim kitabımı nereye koyduğunu bilmiyorum.',
     },
     {
-      ing: 'He said that he will be late tonight. ',
+      ing: 'He said that he will be late ',
       tr: 'O bu gece geç kalacağını söyledi.',
     },
     {
-      ing: "We don't know if the game is cancelled. ",
+      ing: "We don't know if the game is ",
       tr: 'Biz maçın iptal edilip edilmediğini bilmiyoruz.',
     },
     {
-      ing: 'I am not sure whether I will go to the concert. ',
+      ing: 'I am not sure whether I will go to the ',
       tr: 'Ben konsere gidip gitmeyeceğimden emin değilim.',
     },
     {
-      ing: 'She asked if I could help her with her homework. ',
+      ing: 'She asked if I could help her with her ',
       tr: 'O bana ödevinde ona yardım edip edemeyeceğimi sordu.',
     },
     {
-      ing: 'They think that it will rain tomorrow. ',
+      ing: 'They think that it will rain ',
       tr: 'Onlar yarın yağmur yağacağını düşünüyorlar.',
     },
     {
-      ing: "I can't remember when the meeting is. ",
+      ing: "I can't remember when the meeting ",
       tr: 'Ben toplantının ne zaman olduğunu hatırlamıyorum.',
     },
     {
-      ing: "I don't understand what he wants. ",
+      ing: "I don't understand what he ",
       tr: 'Ben onun ne istediğini anlamıyorum.',
     },
     {
-      ing: 'I wonder whether she will call me back. ',
+      ing: 'I wonder whether she will call me ',
       tr: 'Ben, o beni geri arayacak mı diye merak ediyorum.',
     },
     {
-      ing: 'I think that it is going to rain today. ',
+      ing: 'I think that it is going to rain ',
       tr: 'Ben bugün yağmur yağacağını düşünüyorum.',
     },
     {
-      ing: "She doesn't know if she passed the test. ",
+      ing: "She doesn't know if she passed the ",
       tr: 'O testi geçip geçmediğini bilmiyor.',
     },
     {
-      ing: 'I wonder whether they will come to the party. ',
+      ing: 'I wonder whether they will come to the ',
       tr: 'Ben onların partiye gelip gelmeyeceklerini merak ediyorum.',
     },
     {
-      ing: "He didn't say that he was leaving. ",
+      ing: "He didn't say that he was ",
       tr: 'O onun ayrılacağını söylemedi.',
     },
     {
-      ing: "They didn't realize that the store was closed. ",
+      ing: "They didn't realize that the store was ",
       tr: 'Onlar mağazanın kapalı olduğunu fark etmediler.',
     },
     {
-      ing: "I didn't understand what she was trying to say. ",
+      ing: "I didn't understand what she was trying to ",
       tr: 'Ben onun ne söylemeye çalıştığını anlamadım.',
     },
     {
-      ing: 'My parents think that I should study more. ',
+      ing: 'My parents think that I should study ',
       tr: 'Ailem benim daha çok çalışmam gerektiğini düşünüyor.',
     },
     {
-      ing: 'She was surprised that I remembered her birthday. ',
+      ing: 'She was surprised that I remembered her ',
       tr: 'O benim onun doğum gününü hatırladığıma şaşırdı.',
     },
     {
-      ing: "I can't decide if I want to go to the concert. ",
+      ing: "I can't decide if I want to go to the ",
       tr: 'Ben konsere gitmek isteyip istemediğime karar veremiyorum.',
     },
     {
-      ing: "We didn't know that the game had been cancelled. ",
+      ing: "We didn't know that the game had been ",
       tr: 'Biz maçın iptal edildiğini bilmiyorduk.',
     },
     {
-      ing: "It's obvious that he likes her. ",
+      ing: "It's obvious that he likes ",
       tr: 'Onun, ondan hoşlandığı açıktır.',
     },
     {
-      ing: "He doesn't know whether he should take the job. ",
+      ing: "He doesn't know whether he should take the ",
       tr: 'O işi kabul edip etmemesi gerektiğini bilmiyor.',
     },
     {
@@ -33240,7 +33239,7 @@ export const RcNcTranslationSentences = {
       tr: 'Benim komşumun sahiplendiği köpek çok enerjiktir.',
     },
     {
-      ing: 'The shoes that I bought yesterday are already torn. ',
+      ing: 'The shoes that I bought yesterday are already ',
       tr: 'Benim dün aldığım ayakkabılar zaten yırtıktır.',
     },
     {
@@ -33576,107 +33575,107 @@ export const RcNcTranslationSentences = {
       tr: 'Bana İngilizce öğreten öğretmen çok naziktir.',
     },
     {
-      ing: 'The man who owns the grocery store is very friendly. ',
+      ing: 'The man who owns the grocery store is very ',
       tr: 'Bakkalın sahibi olan adam çok arkadaş canlısıdır.',
     },
     {
-      ing: 'The book that I borrowed from you was very interesting. ',
+      ing: 'The book that I borrowed from you was very ',
       tr: 'Benim sizden ödünç aldığım kitap çok ilginçti.',
     },
     {
-      ing: 'The dog that chased its tail made everyone laugh. ',
+      ing: 'The dog that chased its tail made everyone ',
       tr: 'Kendi kuyruğunu kovalayan köpek herkesi güldürdü.',
     },
     {
-      ing: 'My cousin, who moved to London, loves her new job. ',
+      ing: 'My cousin, who moved to London, loves her new ',
       tr: "Benim Londra'ya taşınan kuzenim yeni işini çok seviyor.",
     },
     {
-      ing: 'The restaurant where we had dinner has the best desserts. ',
+      ing: 'The restaurant where we had dinner has the best ',
       tr: 'Bizim akşam yemeği yediğimiz restoran en iyi tatlılara sahip.',
     },
     {
-      ing: 'The teacher, who has been teaching for 20 years, knows a lot about history. ',
+      ing: 'The teacher, who has been teaching for 20 years, knows a lot about ',
       tr: 'Yirmi yıldır öğretmenlik yapan öğretmen tarih konusunda çok şey biliyor.',
     },
     {
-      ing: 'The shoes that I bought last week are too tight. ',
+      ing: 'The shoes that I bought last week are too ',
       tr: 'Benim geçen hafta aldığım ayakkabılar çok dar.',
     },
     {
-      ing: 'The park, where we play football, is being renovated. ',
+      ing: 'The park, where we play football, is being ',
       tr: 'Bizim futbol oynadığımız park yenileniyor.',
     },
     {
-      ing: 'The woman who works in the post office is my aunt. ',
+      ing: 'The woman who works in the post office is my ',
       tr: 'Postanede çalışan kadın benim teyzemdir.',
     },
     {
-      ing: 'The film that we saw last night was scary. ',
+      ing: 'The film that we saw last night was ',
       tr: 'Bizim dün gece izlediğimiz film çok korkutucuydu.',
     },
     {
-      ing: 'The friend who helped me move is a really nice person. ',
+      ing: 'The friend who helped me move is a really nice ',
       tr: 'Benim taşınmama yardım eden arkadaşım gerçekten iyi bir insandır.',
     },
     {
-      ing: 'The boy who broke the window has apologized. ',
+      ing: 'The boy who broke the window has ',
       tr: 'Camı kıran çocuk özür diledi.',
     },
     {
-      ing: 'The dress, which I wore to the party, was very comfortable. ',
+      ing: 'The dress, which I wore to the party, was very ',
       tr: 'Benim partide giydiğim elbise çok rahattı.',
     },
     {
-      ing: 'The book that I read was very interesting. ',
+      ing: 'The book that I read was very ',
       tr: 'Benim okuduğum kitap çok ilginçti.',
     },
     {
-      ing: 'My brother, who is a firefighter, lives in the city. ',
+      ing: 'My brother, who is a firefighter, lives in the ',
       tr: 'Benim itfaiyeci olan ağabeyim şehirde yaşıyor.',
     },
     {
-      ing: 'The park where we used to play is being renovated. ',
+      ing: 'The park where we used to play is being ',
       tr: 'Bizim eskiden oynadığımız park yenileniyor.',
     },
     {
-      ing: 'The girl who sits in front of me in class is very smart. ',
+      ing: 'The girl who sits in front of me in class is very ',
       tr: 'Sınıfta benim önümde oturan kız çok akıllıdır.',
     },
     {
-      ing: 'My dog, which loves to run, is very energetic. ',
+      ing: 'My dog, which loves to run, is very ',
       tr: 'Benim koşmayı seven köpeğim çok enerjiktir.',
     },
     {
-      ing: 'The movie that we watched last night was scary. ',
+      ing: 'The movie that we watched last night was ',
       tr: 'Bizim dün gece izlediğimiz film çok korkutucuydu.',
     },
     {
-      ing: 'The restaurant where we ate dinner was very nice. ',
+      ing: 'The restaurant where we ate dinner was very ',
       tr: 'Bizim akşam yemeği yediğimiz restoran çok güzeldi.',
     },
     {
-      ing: 'The teacher who helped me with my math is very patient. ',
+      ing: 'The teacher who helped me with my math is very ',
       tr: 'Benim matematik derslerimde bana yardımcı olan öğretmenim çok sabırlıdır.',
     },
     {
-      ing: 'The shirt that I bought is too small. ',
+      ing: 'The shirt that I bought is too ',
       tr: 'Benim aldığım gömlek çok küçüktür.',
     },
     {
-      ing: 'The man who sold me the car was very helpful. ',
+      ing: 'The man who sold me the car was very ',
       tr: 'Arabayı bana satan adam çok yardım severdir.',
     },
     {
-      ing: 'The friend, whom I visited last week, has moved to a new city. ',
+      ing: 'The friend, whom I visited last week, has moved to a new ',
       tr: 'Benim geçen hafta ziyaret ettiğim arkadaşım yeni bir şehre taşındı.',
     },
     {
-      ing: 'The woman who lives next door is a famous author. ',
+      ing: 'The woman who lives next door is a famous ',
       tr: 'Yan evde yaşayan kadın ünlü bir yazardır.',
     },
     {
-      ing: 'The bakery where I buy my bread makes the best bagels. ',
+      ing: 'The bakery where I buy my bread makes the best ',
       tr: 'Benim ekmeğimi aldığım fırın en iyi simitleri yapıyor.',
     },
     {
@@ -38029,882 +38028,882 @@ export const Conjuction1GTranslationSentences = {
 export const Conjuction2GTranslationSentences = {
   AynıFikriSürdürme: [
     {
-      ing: 'I love to read books. In addition, I also enjoy writing my own stories.',
-      tr: 'Ben kitap okumayı severim. Ayrıca ben kendi hikayelerimi yazmaktan da keyif alıyorum.',
+      ing: 'I love to read In addition, I also enjoy writing my own stories.',
+      tr: 'Ben kitap okumayı Ayrıca ben kendi hikayelerimi yazmaktan da keyif alıyorum.',
     },
     {
-      ing: 'She likes to play tennis. Moreover, she is really good at it.',
-      tr: 'O tenis oynamayı seviyor. Üstelik o bu konuda gerçekten çok iyi.',
+      ing: 'She likes to play Moreover, she is really good at it.',
+      tr: 'O tenis oynamayı Üstelik o bu konuda gerçekten çok iyi.',
     },
     {
-      ing: 'He loves to eat fruits. Besides, they are healthy for him.',
-      tr: 'O meyve yemeyi çok seviyor. Üstelik onlar onun için sağlıklılar.',
+      ing: 'He loves to eat Besides, they are healthy for him.',
+      tr: 'O meyve yemeyi çok Üstelik onlar onun için sağlıklılar.',
     },
     {
-      ing: 'I like to paint. In addition, I also enjoy drawing with pencils.',
-      tr: 'Ben resim yapmayı severim. Ayrıca ben kara kalemle çizim yapmaktan da keyif alıyorum.',
+      ing: 'I like to In addition, I also enjoy drawing with pencils.',
+      tr: 'Ben resim yapmayı Ayrıca ben kara kalemle çizim yapmaktan da keyif alıyorum.',
     },
     {
-      ing: 'She plays the piano very well. Moreover, she can also play the violin.',
-      tr: 'O çok iyi piyano çalıyor. Üstelik o keman da çalabiliyor.',
+      ing: 'She plays the piano very Moreover, she can also play the violin.',
+      tr: 'O çok iyi piyano Üstelik o keman da çalabiliyor.',
     },
     {
-      ing: 'He likes to watch football. Besides, he also plays in a local team.',
-      tr: 'O futbol izlemeyi seviyor. Ayrıca o yerel bir takımda da oynuyor.',
+      ing: 'He likes to watch Besides, he also plays in a local team.',
+      tr: 'O futbol izlemeyi Ayrıca o yerel bir takımda da oynuyor.',
     },
     {
-      ing: 'I enjoy cooking. In addition, I love to bake desserts.',
-      tr: 'Ben yemek yapmaktan keyif alıyorum. Ayrıca ben tatlı yapmayı da seviyorum.',
+      ing: 'I enjoy In addition, I love to bake desserts.',
+      tr: 'Ben yemek yapmaktan keyif Ayrıca ben tatlı yapmayı da seviyorum.',
     },
     {
-      ing: 'She likes to go hiking. Moreover, she also enjoys camping in the woods.',
-      tr: 'O yürüyüşe çıkmayı seviyor. Ayrıca o ormanda kamp yapmaktan da hoşlanıyor.',
+      ing: 'She likes to go Moreover, she also enjoys camping in the woods.',
+      tr: 'O yürüyüşe çıkmayı Ayrıca o ormanda kamp yapmaktan da hoşlanıyor.',
     },
     {
-      ing: "He likes to ride his bike. Besides, it's good exercise.",
-      tr: 'O bisikletine binmeyi seviyor. Üstelik o iyi bir egzersizdir.',
+      ing: "He likes to ride his Besides, it's good exercise.",
+      tr: 'O bisikletine binmeyi Üstelik o iyi bir egzersizdir.',
     },
     {
-      ing: 'I love listening to music. In addition, I also play the guitar.',
-      tr: 'Ben müzik dinlemeyi seviyorum. Bunun dışında ben gitar da çalıyorum.',
+      ing: 'I love listening to In addition, I also play the guitar.',
+      tr: 'Ben müzik dinlemeyi Bunun dışında ben gitar da çalıyorum.',
     },
     {
-      ing: 'She enjoys watching movies. Moreover, she has a large collection of DVDs.',
-      tr: 'O film izlemekten hoşlanıyor. Üstelik onun geniş bir DVD koleksiyonu var.',
+      ing: 'She enjoys watching Moreover, she has a large collection of DVDs.',
+      tr: 'O film izlemekten Üstelik onun geniş bir DVD koleksiyonu var.',
     },
     {
-      ing: 'He loves to play video games. Besides, they help him relax.',
-      tr: 'O video oyunları oynamayı seviyor. Üstelik onlar onun rahatlamasına da yardımcı oluyorlar.',
+      ing: 'He loves to play video Besides, they help him relax.',
+      tr: 'O video oyunları oynamayı Üstelik onlar onun rahatlamasına da yardımcı oluyorlar.',
     },
     {
-      ing: "I enjoy gardening. In addition, it's a good way to spend time outdoors.",
-      tr: 'Ben bahçecilikten hoşlanırım. Ayrıca bu açık havada vakit geçirmenin iyi bir yoludur.',
+      ing: "I enjoy In addition, it's a good way to spend time outdoors.",
+      tr: 'Ben bahçecilikten Ayrıca bu açık havada vakit geçirmenin iyi bir yoludur.',
     },
     {
-      ing: 'She loves animals. Moreover, she volunteers at a local animal shelter.',
-      tr: 'O hayvanları seviyor. Ayrıca o yerel bir hayvan barınağında gönüllü olarak çalışıyor.',
+      ing: 'She loves Moreover, she volunteers at a local animal shelter.',
+      tr: 'O hayvanları Ayrıca o yerel bir hayvan barınağında gönüllü olarak çalışıyor.',
     },
     {
-      ing: "He enjoys swimming. Besides, it's a great way to stay fit.",
-      tr: 'O yüzmekten hoşlanıyor. Üstelik o formda kalmanın harika bir yoludur.',
+      ing: "He enjoys Besides, it's a great way to stay fit.",
+      tr: 'O yüzmekten Üstelik o formda kalmanın harika bir yoludur.',
     },
     {
-      ing: 'I love traveling. In addition, I enjoy learning about new cultures.',
-      tr: 'Ben seyahat etmeyi seviyorum. Ayrıca ben yeni kültürleri öğrenmekten de keyif alıyorum.',
+      ing: 'I love In addition, I enjoy learning about new cultures.',
+      tr: 'Ben seyahat etmeyi Ayrıca ben yeni kültürleri öğrenmekten de keyif alıyorum.',
     },
     {
-      ing: 'She loves fashion. Moreover, she designs her own clothes.',
-      tr: 'O modayı seviyor. Üstelik o kendi kıyafetlerini de tasarlıyor.',
+      ing: 'She loves Moreover, she designs her own clothes.',
+      tr: 'O modayı Üstelik o kendi kıyafetlerini de tasarlıyor.',
     },
     {
-      ing: 'He loves reading about history. Besides, he also enjoys visiting museums.',
-      tr: 'O tarih okumayı seviyor. Ayrıca o müzeleri gezmekten de hoşlanıyor.',
+      ing: 'He loves reading about Besides, he also enjoys visiting museums.',
+      tr: 'O tarih okumayı Ayrıca o müzeleri gezmekten de hoşlanıyor.',
     },
     {
-      ing: 'I like to write poems. In addition, I also enjoy reading poetry.',
-      tr: 'Ben şiir yazmayı severim. Ayrıca ben şiir okumaktan da keyif alıyorum.',
+      ing: 'I like to write In addition, I also enjoy reading poetry.',
+      tr: 'Ben şiir yazmayı Ayrıca ben şiir okumaktan da keyif alıyorum.',
     },
     {
-      ing: 'She loves to sing. Moreover, she also plays the piano.',
-      tr: 'O şarkı söylemeyi seviyor. Üstelik o piyano da çalıyor.',
+      ing: 'She loves to Moreover, she also plays the piano.',
+      tr: 'O şarkı söylemeyi Üstelik o piyano da çalıyor.',
     },
     {
-      ing: 'He enjoys running. Besides, it helps him clear his mind.',
-      tr: 'O koşmaktan hoşlanıyor. Ayrıca o, onun zihnini temizlemesine yardımcı olur.',
+      ing: 'He enjoys Besides, it helps him clear his mind.',
+      tr: 'O koşmaktan Ayrıca o, onun zihnini temizlemesine yardımcı olur.',
     },
     {
-      ing: 'I love to take photos. In addition, I also enjoy editing them.',
-      tr: 'Ben fotoğraf çekmeyi seviyorum. Ayrıca ben bunları düzenlemekten de keyif alıyorum.',
+      ing: 'I love to take In addition, I also enjoy editing them.',
+      tr: 'Ben fotoğraf çekmeyi Ayrıca ben bunları düzenlemekten de keyif alıyorum.',
     },
     {
-      ing: 'She loves dancing. Moreover, she takes dance classes every week.',
-      tr: 'O dans etmeyi seviyor. Ayrıca o her hafta dans dersleri alıyor.',
+      ing: 'She loves Moreover, she takes dance classes every week.',
+      tr: 'O dans etmeyi Ayrıca o her hafta dans dersleri alıyor.',
     },
     {
-      ing: 'He loves to eat pasta. Besides, he can cook a great spaghetti dish.',
-      tr: 'O makarna yemeyi çok seviyor. Ayrıca o harika bir spagetti yemeği de pişirebilir.',
+      ing: 'He loves to eat Besides, he can cook a great spaghetti dish.',
+      tr: 'O makarna yemeyi çok Ayrıca o harika bir spagetti yemeği de pişirebilir.',
     },
     {
-      ing: 'I enjoy painting. In addition, I like to visit art galleries.',
-      tr: 'Ben resim yapmaktan keyif alıyorum. Ayrıca ben sanat galerilerini ziyaret etmeyi seviyorum.',
+      ing: 'I enjoy In addition, I like to visit art galleries.',
+      tr: 'Ben resim yapmaktan keyif Ayrıca ben sanat galerilerini ziyaret etmeyi seviyorum.',
     },
     {
-      ing: 'The job is challenging. Furthermore, it is very rewarding.',
-      tr: 'İş zorlayıcı. Ayrıca, çok tatmin edici.',
+      ing: 'The job is Furthermore, it is very rewarding.',
+      tr: 'İş Ayrıca, çok tatmin edici.',
     },
     {
-      ing: 'The concert was amazing. Furthermore, the tickets were affordable.',
-      tr: 'Konser harikaydı. Ayrıca, biletler uygun fiyatlıydı.',
+      ing: 'The concert was Furthermore, the tickets were affordable.',
+      tr: 'Konser Ayrıca, biletler uygun fiyatlıydı.',
     },
     {
-      ing: 'He is very talented. Furthermore, he works very hard.',
-      tr: 'Çok yetenekli. Ayrıca, çok çalışkan.',
+      ing: 'He is very Furthermore, he works very hard.',
+      tr: 'Çok Ayrıca, çok çalışkan.',
     },
     {
-      ing: 'The team is strong. Moreover, they are very cooperative.',
-      tr: 'Takım güçlü. Ayrıca, çok işbirlikçiler.',
+      ing: 'The team is Moreover, they are very cooperative.',
+      tr: 'Takım Ayrıca, çok işbirlikçiler.',
     },
     {
-      ing: 'The store sells clothes. In addition, it has accessories.',
-      tr: 'Mağaza kıyafet satıyor. Ayrıca, aksesuarlar da var.',
+      ing: 'The store sells In addition, it has accessories.',
+      tr: 'Mağaza kıyafet Ayrıca, aksesuarlar da var.',
     },
     {
-      ing: 'He has a good job. Moreover, he loves what he does.',
-      tr: 'İyi bir işi var. Ayrıca, yaptığı işi seviyor.',
+      ing: 'He has a good Moreover, he loves what he does.',
+      tr: 'İyi bir işi Ayrıca, yaptığı işi seviyor.',
     },
     {
-      ing: 'The car is fast. In addition, it is very safe.',
-      tr: 'Araba hızlı. Ayrıca, çok güvenli.',
+      ing: 'The car is In addition, it is very safe.',
+      tr: 'Araba Ayrıca, çok güvenli.',
     },
     {
-      ing: 'The garden has flowers. In addition, there are many trees.',
-      tr: 'Bahçede çiçekler var. Ayrıca, birçok ağaç var.',
+      ing: 'The garden has In addition, there are many trees.',
+      tr: 'Bahçede çiçekler Ayrıca, birçok ağaç var.',
     },
     {
-      ing: 'The project was successful. Moreover, it was completed on time.',
-      tr: 'Proje başarılıydı. Ayrıca, zamanında tamamlandı.',
+      ing: 'The project was Moreover, it was completed on time.',
+      tr: 'Proje Ayrıca, zamanında tamamlandı.',
     },
     {
-      ing: 'The garden is large. Besides, it is well-maintained.',
-      tr: 'Bahçe büyük. Ayrıca, iyi bakılmış.',
+      ing: 'The garden is Besides, it is well-maintained.',
+      tr: 'Bahçe Ayrıca, iyi bakılmış.',
     },
     {
-      ing: 'The course is easy. In addition, it is very interesting.',
-      tr: 'Kurs kolay. Ayrıca, çok ilginç.',
+      ing: 'The course is In addition, it is very interesting.',
+      tr: 'Kurs Ayrıca, çok ilginç.',
     },
     {
       ing: 'The concert was great; thus, we enjoyed it a lot.',
       tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
     },
     {
-      ing: 'He is a talented artist. Moreover, he teaches art classes.',
-      tr: 'Yetenekli bir sanatçı. Ayrıca, sanat dersleri veriyor.',
+      ing: 'He is a talented Moreover, he teaches art classes.',
+      tr: 'Yetenekli bir Ayrıca, sanat dersleri veriyor.',
     },
     {
-      ing: 'She is an excellent chef. Furthermore, she has her own restaurant.',
-      tr: 'Harika bir şef. Ayrıca, kendi restoranı var.',
+      ing: 'She is an excellent Furthermore, she has her own restaurant.',
+      tr: 'Harika bir Ayrıca, kendi restoranı var.',
     },
     {
-      ing: 'The book was informative. Moreover, it was entertaining.',
-      tr: 'Kitap bilgilendiriciydi. Ayrıca, eğlenceliydi.',
+      ing: 'The book was Moreover, it was entertaining.',
+      tr: 'Kitap Ayrıca, eğlenceliydi.',
     },
     {
-      ing: 'The food was delicious. Moreover, it was beautifully presented.',
-      tr: 'Yemek lezzetliydi. Ayrıca, güzel sunulmuştu.',
+      ing: 'The food was Moreover, it was beautifully presented.',
+      tr: 'Yemek Ayrıca, güzel sunulmuştu.',
     },
     {
-      ing: 'The course is advanced. Furthermore, it is very engaging.',
-      tr: 'Kurs ileri seviyede. Ayrıca, çok sürükleyici.',
+      ing: 'The course is Furthermore, it is very engaging.',
+      tr: 'Kurs ileri Ayrıca, çok sürükleyici.',
     },
     {
-      ing: 'The cake was tasty. In addition, it looked beautiful.',
-      tr: 'Kek lezzetliydi. Ayrıca, güzel görünüyordu.',
+      ing: 'The cake was In addition, it looked beautiful.',
+      tr: 'Kek Ayrıca, güzel görünüyordu.',
     },
     {
-      ing: 'The movie was good. Besides, the actors were great.',
-      tr: 'Film iyiydi. Ayrıca, oyuncular harikaydı.',
+      ing: 'The movie was Besides, the actors were great.',
+      tr: 'Film Ayrıca, oyuncular harikaydı.',
     },
     {
-      ing: 'He is a great leader. Moreover, he is very humble.',
-      tr: 'Harika bir lider. Ayrıca, çok mütevazı.',
+      ing: 'He is a great Moreover, he is very humble.',
+      tr: 'Harika bir Ayrıca, çok mütevazı.',
     },
     {
-      ing: 'The park is beautiful. In addition, it is very clean.',
-      tr: 'Park güzel. Ayrıca, çok temiz.',
+      ing: 'The park is In addition, it is very clean.',
+      tr: 'Park Ayrıca, çok temiz.',
     },
     {
-      ing: 'She enjoys cooking. Besides, she loves baking.',
-      tr: 'Yemek yapmayı seviyor. Ayrıca, hamur işlerini de seviyor.',
+      ing: 'She enjoys Besides, she loves baking.',
+      tr: 'Yemek yapmayı Ayrıca, hamur işlerini de seviyor.',
     },
     {
-      ing: 'She is very creative. Moreover, she is very hardworking.',
-      tr: 'Çok yaratıcı. Ayrıca, çok çalışkan.',
+      ing: 'She is very Moreover, she is very hardworking.',
+      tr: 'Çok Ayrıca, çok çalışkan.',
     },
     {
-      ing: 'She is a good singer. In addition, she plays the piano well.',
-      tr: 'İyi bir şarkıcı. Ayrıca, piyano da iyi çalıyor.',
+      ing: 'She is a good In addition, she plays the piano well.',
+      tr: 'İyi bir Ayrıca, piyano da iyi çalıyor.',
     },
     {
-      ing: 'The class is fun. In addition, it is very educational.',
-      tr: 'Ders eğlenceli. Ayrıca, çok eğitici.',
+      ing: 'The class is In addition, it is very educational.',
+      tr: 'Ders Ayrıca, çok eğitici.',
     },
     {
-      ing: 'The food was organic. Furthermore, it was very tasty.',
-      tr: 'Yemek organikti. Ayrıca, çok lezzetliydi.',
+      ing: 'The food was Furthermore, it was very tasty.',
+      tr: 'Yemek Ayrıca, çok lezzetliydi.',
     },
     {
-      ing: 'He is very athletic. Furthermore, he is very disciplined.',
-      tr: 'Çok atletik. Ayrıca, çok disiplinli.',
+      ing: 'He is very Furthermore, he is very disciplined.',
+      tr: 'Çok Ayrıca, çok disiplinli.',
     },
     {
-      ing: 'The house is old. Besides, it needs a lot of repairs.',
-      tr: 'Ev eski. Ayrıca, birçok tamir gerekiyor.',
+      ing: 'The house is Besides, it needs a lot of repairs.',
+      tr: 'Ev Ayrıca, birçok tamir gerekiyor.',
     },
     {
-      ing: 'She speaks Spanish. Besides, she knows Italian.',
-      tr: 'İspanyolca konuşuyor. Ayrıca, İtalyanca biliyor.',
+      ing: 'She speaks Besides, she knows Italian.',
+      tr: 'İspanyolca Ayrıca, İtalyanca biliyor.',
     },
     {
-      ing: 'She studies a lot. Besides, she works part-time.',
-      tr: 'Çok çalışıyor. Ayrıca, yarı zamanlı çalışıyor.',
+      ing: 'She studies a Besides, she works part-time.',
+      tr: 'Çok Ayrıca, yarı zamanlı çalışıyor.',
     },
     {
-      ing: 'The team played well. Besides, they showed great sportsmanship.',
-      tr: 'Takım iyi oynadı. Ayrıca, harika sportmenlik gösterdiler.',
+      ing: 'The team played Besides, they showed great sportsmanship.',
+      tr: 'Takım iyi Ayrıca, harika sportmenlik gösterdiler.',
     },
     {
-      ing: 'The course is affordable. Moreover, it is very comprehensive.',
-      tr: 'Kurs uygun fiyatlı. Ayrıca, çok kapsamlı.',
+      ing: 'The course is Moreover, it is very comprehensive.',
+      tr: 'Kurs uygun Ayrıca, çok kapsamlı.',
     },
     {
-      ing: 'The book was a bestseller. Furthermore, it won several awards.',
-      tr: 'Kitap çok satan bir kitaptı. Ayrıca, birkaç ödül kazandı.',
+      ing: 'The book was a Furthermore, it won several awards.',
+      tr: 'Kitap çok satan bir Ayrıca, birkaç ödül kazandı.',
     },
     {
-      ing: 'The meal was delicious. In addition, the service was excellent.',
-      tr: 'Yemek lezzetliydi. Ayrıca, hizmet mükemmeldi.',
+      ing: 'The meal was In addition, the service was excellent.',
+      tr: 'Yemek Ayrıca, hizmet mükemmeldi.',
     },
     {
-      ing: 'He is very experienced. Furthermore, he is very reliable.',
-      tr: 'Çok deneyimli. Ayrıca, çok güvenilir.',
+      ing: 'He is very Furthermore, he is very reliable.',
+      tr: 'Çok Ayrıca, çok güvenilir.',
     },
     {
-      ing: 'The house is spacious. Furthermore, it has a beautiful garden.',
-      tr: 'Ev geniş. Ayrıca, güzel bir bahçesi var.',
+      ing: 'The house is Furthermore, it has a beautiful garden.',
+      tr: 'Ev Ayrıca, güzel bir bahçesi var.',
     },
     {
-      ing: 'The shop is new. Besides, it has many discounts.',
-      tr: 'Mağaza yeni. Ayrıca, birçok indirim var.',
+      ing: 'The shop is Besides, it has many discounts.',
+      tr: 'Mağaza Ayrıca, birçok indirim var.',
     },
     {
-      ing: 'The library is quiet. Besides, it has many books.',
-      tr: 'Kütüphane sessiz. Ayrıca, birçok kitabı var.',
+      ing: 'The library is Besides, it has many books.',
+      tr: 'Kütüphane Ayrıca, birçok kitabı var.',
     },
     {
-      ing: 'The city is beautiful. Furthermore, it is very historical.',
-      tr: 'Şehir güzel. Ayrıca, çok tarihi.',
+      ing: 'The city is Furthermore, it is very historical.',
+      tr: 'Şehir Ayrıca, çok tarihi.',
     },
     {
-      ing: 'The project was innovative. Furthermore, it was well-received.',
-      tr: 'Proje yenilikçiydi. Ayrıca, iyi karşılandı.',
+      ing: 'The project was Furthermore, it was well-received.',
+      tr: 'Proje Ayrıca, iyi karşılandı.',
     },
     {
-      ing: 'The park is spacious. Moreover, it is very peaceful.',
-      tr: 'Park geniş. Ayrıca, çok huzurlu.',
+      ing: 'The park is Moreover, it is very peaceful.',
+      tr: 'Park Ayrıca, çok huzurlu.',
     },
     {
-      ing: 'She loves painting. Besides, she is good at drawing.',
-      tr: 'Resim yapmayı seviyor. Ayrıca, çizimde de iyi.',
+      ing: 'She loves Besides, she is good at drawing.',
+      tr: 'Resim yapmayı Ayrıca, çizimde de iyi.',
     },
     {
       ing: 'The store was out of stock; therefore, I ordered online.',
       tr: 'Mağazada stok yoktu; bu yüzden çevrimiçi sipariş verdim.',
     },
     {
-      ing: 'He enjoys hiking. Besides, he likes camping.',
-      tr: 'Doğa yürüyüşlerini seviyor. Ayrıca, kamp yapmayı da seviyor.',
+      ing: 'He enjoys Besides, he likes camping.',
+      tr: 'Doğa yürüyüşlerini Ayrıca, kamp yapmayı da seviyor.',
     },
     {
-      ing: 'The car is new. Furthermore, it is very economical.',
-      tr: 'Araba yeni. Ayrıca, çok ekonomik.',
+      ing: 'The car is Furthermore, it is very economical.',
+      tr: 'Araba Ayrıca, çok ekonomik.',
     },
     {
-      ing: 'She is a skilled musician. Moreover, she can compose music.',
-      tr: 'Yetenekli bir müzisyen. Ayrıca, müzik bestelebilir.',
+      ing: 'She is a skilled Moreover, she can compose music.',
+      tr: 'Yetenekli bir Ayrıca, müzik bestelebilir.',
     },
     {
-      ing: 'The weather is perfect. Besides, the beach is not crowded.',
-      tr: 'Hava mükemmel. Ayrıca, plaj kalabalık değil.',
+      ing: 'The weather is Besides, the beach is not crowded.',
+      tr: 'Hava Ayrıca, plaj kalabalık değil.',
     },
     {
-      ing: 'The lesson was easy. Moreover, it was fun to learn.',
-      tr: 'Ders kolaydı. Ayrıca, öğrenmesi eğlenceliydi.',
+      ing: 'The lesson was Moreover, it was fun to learn.',
+      tr: 'Ders Ayrıca, öğrenmesi eğlenceliydi.',
     },
     {
-      ing: 'She is very artistic. Besides, she teaches art classes.',
-      tr: 'Çok sanatsal. Ayrıca, sanat dersleri veriyor.',
+      ing: 'She is very Besides, she teaches art classes.',
+      tr: 'Çok Ayrıca, sanat dersleri veriyor.',
     },
     {
-      ing: 'He speaks English. In addition, he knows French.',
-      tr: 'İngilizce konuşuyor. Ayrıca, Fransızca biliyor.',
+      ing: 'He speaks In addition, he knows French.',
+      tr: 'İngilizce Ayrıca, Fransızca biliyor.',
     },
     {
-      ing: 'The city is clean. Moreover, it is very safe.',
-      tr: 'Şehir temiz. Ayrıca, çok güvenli.',
+      ing: 'The city is Moreover, it is very safe.',
+      tr: 'Şehir Ayrıca, çok güvenli.',
     },
     {
-      ing: 'The garden is beautiful. Furthermore, it is well-maintained.',
-      tr: 'Bahçe güzel. Ayrıca, iyi bakılmış.',
+      ing: 'The garden is Furthermore, it is well-maintained.',
+      tr: 'Bahçe Ayrıca, iyi bakılmış.',
     },
     {
-      ing: 'The beach is clean. Furthermore, it is not crowded.',
-      tr: 'Plaj temiz. Ayrıca, kalabalık değil.',
+      ing: 'The beach is Furthermore, it is not crowded.',
+      tr: 'Plaj Ayrıca, kalabalık değil.',
     },
     {
-      ing: 'The event was well-organized. Moreover, it was very enjoyable.',
-      tr: 'Etkinlik iyi organize edilmişti. Ayrıca, çok keyifliydi.',
+      ing: 'The event was well-Moreover, it was very enjoyable.',
+      tr: 'Etkinlik iyi organize Ayrıca, çok keyifliydi.',
     },
     {
-      ing: 'She is very intelligent. Besides, she is very creative.',
-      tr: 'Çok zeki. Ayrıca, çok yaratıcı.',
+      ing: 'She is very Besides, she is very creative.',
+      tr: 'Çok Ayrıca, çok yaratıcı.',
     },
     {
-      ing: 'The park is clean. Furthermore, it is very safe.',
-      tr: 'Park temiz. Ayrıca, çok güvenli.',
+      ing: 'The park is Furthermore, it is very safe.',
+      tr: 'Park Ayrıca, çok güvenli.',
     },
     {
-      ing: 'He plays soccer. In addition, he likes basketball.',
-      tr: 'Futbol oynuyor. Ayrıca, basketbolu da seviyor.',
+      ing: 'He plays In addition, he likes basketball.',
+      tr: 'Futbol Ayrıca, basketbolu da seviyor.',
     },
     {
       ing: 'The food was spicy; though, it was tasty.',
       tr: 'Yemek acıydı; fakat lezzetliydi.',
     },
     {
-      ing: 'He is a good cook. In addition, he can bake well.',
-      tr: 'İyi bir aşçı. Ayrıca, iyi pasta yapabiliyor.',
+      ing: 'He is a good In addition, he can bake well.',
+      tr: 'İyi bir Ayrıca, iyi pasta yapabiliyor.',
     },
     {
-      ing: 'The book is short. Besides, it is very engaging.',
-      tr: 'Kitap kısa. Ayrıca, çok sürükleyici.',
+      ing: 'The book is Besides, it is very engaging.',
+      tr: 'Kitap Ayrıca, çok sürükleyici.',
     },
     {
-      ing: 'He runs fast. Besides, he has good stamina.',
-      tr: 'Hızlı koşar. Ayrıca, iyi bir dayanıklılığa sahiptir.',
+      ing: 'He runs Besides, he has good stamina.',
+      tr: 'Hızlı Ayrıca, iyi bir dayanıklılığa sahiptir.',
     },
     {
-      ing: 'The weather is nice. Furthermore, it is not too humid.',
-      tr: 'Hava güzel. Ayrıca, çok nemli değil.',
+      ing: 'The weather is Furthermore, it is not too humid.',
+      tr: 'Hava Ayrıca, çok nemli değil.',
     },
     {
-      ing: 'He has a dog. In addition, she has two cats.',
-      tr: 'Köpeği var. Ayrıca, iki kedisi var.',
+      ing: 'He has a In addition, she has two cats.',
+      tr: 'Köpeği Ayrıca, iki kedisi var.',
     },
     {
-      ing: 'The car is efficient. Moreover, it is environmentally friendly.',
-      tr: 'Araba verimli. Ayrıca, çevre dostu.',
+      ing: 'The car is Moreover, it is environmentally friendly.',
+      tr: 'Araba Ayrıca, çevre dostu.',
     },
     {
-      ing: 'The trip was enjoyable. Moreover, it was very relaxing.',
-      tr: 'Gezi keyifliydi. Ayrıca, çok rahatlatıcıydı.',
+      ing: 'The trip was Moreover, it was very relaxing.',
+      tr: 'Gezi Ayrıca, çok rahatlatıcıydı.',
     },
     {
-      ing: 'She speaks several languages. Moreover, she teaches them.',
-      tr: 'Birkaç dil konuşuyor. Ayrıca, onları öğretiyor.',
+      ing: 'She speaks several Moreover, she teaches them.',
+      tr: 'Birkaç dil Ayrıca, onları öğretiyor.',
     },
     {
-      ing: 'The city is big. Besides, it is very modern.',
-      tr: 'Şehir büyük. Ayrıca, çok modern.',
+      ing: 'The city is Besides, it is very modern.',
+      tr: 'Şehir Ayrıca, çok modern.',
     },
     {
-      ing: 'The class is fun. Besides, it is very educational.',
-      tr: 'Ders eğlenceli. Ayrıca, çok eğitici.',
+      ing: 'The class is Besides, it is very educational.',
+      tr: 'Ders Ayrıca, çok eğitici.',
     },
     {
-      ing: 'The movie was funny. Besides, it had a good storyline.',
-      tr: 'Film komikti. Ayrıca, iyi bir hikayesi vardı.',
+      ing: 'The movie was Besides, it had a good storyline.',
+      tr: 'Film Ayrıca, iyi bir hikayesi vardı.',
     },
     {
-      ing: 'The museum is free. Besides, it is very interesting.',
-      tr: 'Müze ücretsiz. Ayrıca, çok ilginç.',
-    },
-    {
-      ing: 'The concert was great; thus, we enjoyed it a lot.',
-      tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
-    },
-    {
-      ing: 'The job is challenging. Furthermore, it is very rewarding.',
-      tr: 'İş zorlayıcı. Ayrıca, çok tatmin edici.',
-    },
-    {
-      ing: 'The concert was amazing. Furthermore, the tickets were affordable.',
-      tr: 'Konser harikaydı. Ayrıca, biletler uygun fiyatlıydı.',
-    },
-    {
-      ing: 'He is very talented. Furthermore, he works very hard.',
-      tr: 'Çok yetenekli. Ayrıca, çok çalışkan.',
-    },
-    {
-      ing: 'The team is strong. Moreover, they are very cooperative.',
-      tr: 'Takım güçlü. Ayrıca, çok işbirlikçiler.',
-    },
-    {
-      ing: 'The store sells clothes. In addition, it has accessories.',
-      tr: 'Mağaza kıyafet satıyor. Ayrıca, aksesuarlar da var.',
-    },
-    {
-      ing: 'He has a good job. Moreover, he loves what he does.',
-      tr: 'İyi bir işi var. Ayrıca, yaptığı işi seviyor.',
-    },
-    {
-      ing: 'The car is fast. In addition, it is very safe.',
-      tr: 'Araba hızlı. Ayrıca, çok güvenli.',
-    },
-    {
-      ing: 'The garden has flowers. In addition, there are many trees.',
-      tr: 'Bahçede çiçekler var. Ayrıca, birçok ağaç var.',
-    },
-    {
-      ing: 'The project was successful. Moreover, it was completed on time.',
-      tr: 'Proje başarılıydı. Ayrıca, zamanında tamamlandı.',
-    },
-    {
-      ing: 'The garden is large. Besides, it is well-maintained.',
-      tr: 'Bahçe büyük. Ayrıca, iyi bakılmış.',
-    },
-    {
-      ing: 'The course is easy. In addition, it is very interesting.',
-      tr: 'Kurs kolay. Ayrıca, çok ilginç.',
+      ing: 'The museum is Besides, it is very interesting.',
+      tr: 'Müze Ayrıca, çok ilginç.',
     },
     {
       ing: 'The concert was great; thus, we enjoyed it a lot.',
       tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
     },
     {
-      ing: 'He is a talented artist. Moreover, he teaches art classes.',
-      tr: 'Yetenekli bir sanatçı. Ayrıca, sanat dersleri veriyor.',
+      ing: 'The job is Furthermore, it is very rewarding.',
+      tr: 'İş Ayrıca, çok tatmin edici.',
     },
     {
-      ing: 'She is an excellent chef. Furthermore, she has her own restaurant.',
-      tr: 'Harika bir şef. Ayrıca, kendi restoranı var.',
+      ing: 'The concert was Furthermore, the tickets were affordable.',
+      tr: 'Konser Ayrıca, biletler uygun fiyatlıydı.',
     },
     {
-      ing: 'The book was informative. Moreover, it was entertaining.',
-      tr: 'Kitap bilgilendiriciydi. Ayrıca, eğlenceliydi.',
+      ing: 'He is very Furthermore, he works very hard.',
+      tr: 'Çok Ayrıca, çok çalışkan.',
     },
     {
-      ing: 'The food was delicious. Moreover, it was beautifully presented.',
-      tr: 'Yemek lezzetliydi. Ayrıca, güzel sunulmuştu.',
+      ing: 'The team is Moreover, they are very cooperative.',
+      tr: 'Takım Ayrıca, çok işbirlikçiler.',
     },
     {
-      ing: 'The course is advanced. Furthermore, it is very engaging.',
-      tr: 'Kurs ileri seviyede. Ayrıca, çok sürükleyici.',
+      ing: 'The store sells In addition, it has accessories.',
+      tr: 'Mağaza kıyafet Ayrıca, aksesuarlar da var.',
     },
     {
-      ing: 'The cake was tasty. In addition, it looked beautiful.',
-      tr: 'Kek lezzetliydi. Ayrıca, güzel görünüyordu.',
+      ing: 'He has a good Moreover, he loves what he does.',
+      tr: 'İyi bir işi Ayrıca, yaptığı işi seviyor.',
     },
     {
-      ing: 'The movie was good. Besides, the actors were great.',
-      tr: 'Film iyiydi. Ayrıca, oyuncular harikaydı.',
+      ing: 'The car is In addition, it is very safe.',
+      tr: 'Araba Ayrıca, çok güvenli.',
     },
     {
-      ing: 'He is a great leader. Moreover, he is very humble.',
-      tr: 'Harika bir lider. Ayrıca, çok mütevazı.',
+      ing: 'The garden has In addition, there are many trees.',
+      tr: 'Bahçede çiçekler Ayrıca, birçok ağaç var.',
     },
     {
-      ing: 'The park is beautiful. In addition, it is very clean.',
-      tr: 'Park güzel. Ayrıca, çok temiz.',
+      ing: 'The project was Moreover, it was completed on time.',
+      tr: 'Proje Ayrıca, zamanında tamamlandı.',
     },
     {
-      ing: 'She enjoys cooking. Besides, she loves baking.',
-      tr: 'Yemek yapmayı seviyor. Ayrıca, hamur işlerini de seviyor.',
+      ing: 'The garden is Besides, it is well-maintained.',
+      tr: 'Bahçe Ayrıca, iyi bakılmış.',
     },
     {
-      ing: 'She is very creative. Moreover, she is very hardworking.',
-      tr: 'Çok yaratıcı. Ayrıca, çok çalışkan.',
+      ing: 'The course is In addition, it is very interesting.',
+      tr: 'Kurs Ayrıca, çok ilginç.',
+    },
+    {
+      ing: 'The concert was great; thus, we enjoyed it a lot.',
+      tr: 'Konser harikaydı; bu yüzden çok keyif aldık.',
+    },
+    {
+      ing: 'He is a talented Moreover, he teaches art classes.',
+      tr: 'Yetenekli bir Ayrıca, sanat dersleri veriyor.',
+    },
+    {
+      ing: 'She is an excellent Furthermore, she has her own restaurant.',
+      tr: 'Harika bir Ayrıca, kendi restoranı var.',
+    },
+    {
+      ing: 'The book was Moreover, it was entertaining.',
+      tr: 'Kitap Ayrıca, eğlenceliydi.',
+    },
+    {
+      ing: 'The food was Moreover, it was beautifully presented.',
+      tr: 'Yemek Ayrıca, güzel sunulmuştu.',
+    },
+    {
+      ing: 'The course is Furthermore, it is very engaging.',
+      tr: 'Kurs ileri Ayrıca, çok sürükleyici.',
+    },
+    {
+      ing: 'The cake was In addition, it looked beautiful.',
+      tr: 'Kek Ayrıca, güzel görünüyordu.',
+    },
+    {
+      ing: 'The movie was Besides, the actors were great.',
+      tr: 'Film Ayrıca, oyuncular harikaydı.',
+    },
+    {
+      ing: 'He is a great Moreover, he is very humble.',
+      tr: 'Harika bir Ayrıca, çok mütevazı.',
+    },
+    {
+      ing: 'The park is In addition, it is very clean.',
+      tr: 'Park Ayrıca, çok temiz.',
+    },
+    {
+      ing: 'She enjoys Besides, she loves baking.',
+      tr: 'Yemek yapmayı Ayrıca, hamur işlerini de seviyor.',
+    },
+    {
+      ing: 'She is very Moreover, she is very hardworking.',
+      tr: 'Çok Ayrıca, çok çalışkan.',
     },
   ],
   Diğer: [
     {
-      ing: 'I like to eat healthy food. For example, I eat a lot of fruits and vegetables.',
-      tr: 'Sağlıklı yemek yemeyi severim. Mesela çok fazla meyve ve sebze yerim.',
+      ing: 'I like to eat healthy For example, I eat a lot of fruits and vegetables.',
+      tr: 'Sağlıklı yemek yemeyi Mesela çok fazla meyve ve sebze yerim.',
     },
     {
       ing: "I prefer to take the bus instead of the subway because it's less crowded.",
       tr: 'Metro yerine otobüse binmeyi tercih ediyorum çünkü daha az kalabalık.',
     },
     {
-      ing: 'She likes to read books. For instance, she reads a book every week.',
-      tr: 'Kitap okumayı seviyor. Mesela her hafta bir kitap okuyor.',
+      ing: 'She likes to read For instance, she reads a book every week.',
+      tr: 'Kitap okumayı Mesela her hafta bir kitap okuyor.',
     },
     {
-      ing: "He loves to cook. That's why he decided to become a chef.",
-      tr: 'Yemek yapmayı seviyor. Bu yüzden şef olmaya karar verdi.',
+      ing: "He loves to That's why he decided to become a chef.",
+      tr: 'Yemek yapmayı Bu yüzden şef olmaya karar verdi.',
     },
     {
-      ing: "I don't like to go out when it's raining. Instead, I prefer to stay at home and read a book.",
-      tr: 'Yağmur yağarken dışarı çıkmayı sevmiyorum. Bunun yerine evde kalıp kitap okumayı tercih ediyorum.',
+      ing: "I don't like to go out when it's Instead, I prefer to stay at home and read a book.",
+      tr: 'Yağmur yağarken dışarı çıkmayı Bunun yerine evde kalıp kitap okumayı tercih ediyorum.',
     },
     {
-      ing: "I didn't understand the math problem. That's why I asked the teacher for help.",
-      tr: 'Matematik problemini anlamadım. Bu yüzden öğretmenden yardım istedim.',
+      ing: "I didn't understand the math That's why I asked the teacher for help.",
+      tr: 'Matematik problemini Bu yüzden öğretmenden yardım istedim.',
     },
     {
-      ing: 'She loves to travel. For example, she visited three countries last year.',
-      tr: 'Seyahat etmeyi seviyor. Mesela geçen yıl üç ülkeyi ziyaret etti.',
+      ing: 'She loves to For example, she visited three countries last year.',
+      tr: 'Seyahat etmeyi Mesela geçen yıl üç ülkeyi ziyaret etti.',
     },
     {
-      ing: "I forgot my umbrella at home. That's why I got wet in the rain.",
-      tr: 'Şemsiyemi evde unuttum. Bu yüzden yağmurda ıslandım.',
+      ing: "I forgot my umbrella at That's why I got wet in the rain.",
+      tr: 'Şemsiyemi evde Bu yüzden yağmurda ıslandım.',
     },
     {
-      ing: 'He is a great soccer player. In fact, he won a trophy last year.',
-      tr: 'O harika bir futbolcu. Aslında geçen sene bir kupa kazandı.',
+      ing: 'He is a great soccer In fact, he won a trophy last year.',
+      tr: 'O harika bir Aslında geçen sene bir kupa kazandı.',
     },
     {
-      ing: "I don't like to watch movies. Instead, I prefer to read books.",
-      tr: 'Film izlemeyi sevmiyorum. Bunun yerine kitap okumayı tercih ediyorum.',
+      ing: "I don't like to watch Instead, I prefer to read books.",
+      tr: 'Film izlemeyi Bunun yerine kitap okumayı tercih ediyorum.',
     },
     {
-      ing: "She likes to help others. That's why she volunteers at the community center.",
-      tr: 'Başkalarına yardım etmeyi sever. Bu yüzden toplum merkezinde gönüllü olarak çalışıyor.',
+      ing: "She likes to help That's why she volunteers at the community center.",
+      tr: 'Başkalarına yardım etmeyi Bu yüzden toplum merkezinde gönüllü olarak çalışıyor.',
     },
     {
-      ing: 'I love to play sports. For instance, I play basketball every weekend.',
-      tr: 'Spor yapmayı seviyorum. Mesela her hafta sonu basketbol oynuyorum.',
+      ing: 'I love to play For instance, I play basketball every weekend.',
+      tr: 'Spor yapmayı Mesela her hafta sonu basketbol oynuyorum.',
     },
     {
-      ing: "He didn't want to eat at home. Instead, he went to a restaurant.",
-      tr: 'Evde yemek yemek istemiyordu. Bunun yerine bir restorana gitti.',
+      ing: "He didn't want to eat at Instead, he went to a restaurant.",
+      tr: 'Evde yemek yemek Bunun yerine bir restorana gitti.',
     },
     {
-      ing: "I like to learn new things. That's why I read a lot.",
-      tr: 'Yeni şeyler öğrenmeyi severim. Bu yüzden çok okuyorum.',
+      ing: "I like to learn new That's why I read a lot.",
+      tr: 'Yeni şeyler öğrenmeyi Bu yüzden çok okuyorum.',
     },
     {
-      ing: 'She loves to dance. In fact, she takes dance classes every week.',
-      tr: 'Dans etmeyi seviyor. Aslında her hafta dans dersleri alıyor.',
+      ing: 'She loves to In fact, she takes dance classes every week.',
+      tr: 'Dans etmeyi Aslında her hafta dans dersleri alıyor.',
     },
     {
-      ing: "I don't like coffee. Instead, I prefer to drink tea.",
-      tr: 'Kahve sevmiyorum. Bunun yerine çay içmeyi tercih ediyorum.',
+      ing: "I don't like Instead, I prefer to drink tea.",
+      tr: 'Kahve Bunun yerine çay içmeyi tercih ediyorum.',
     },
     {
-      ing: 'He loves to draw. For example, he drew a beautiful picture yesterday.',
-      tr: 'Çizim yapmayı seviyor. Mesela dün çok güzel bir resim çizdi.',
+      ing: 'He loves to For example, he drew a beautiful picture yesterday.',
+      tr: 'Çizim yapmayı Mesela dün çok güzel bir resim çizdi.',
     },
     {
-      ing: "I didn't want to walk to the store. That's why I took the bus.",
-      tr: 'Mağazaya yürümek istemedim. Bu yüzden otobüse bindim.',
+      ing: "I didn't want to walk to the That's why I took the bus.",
+      tr: 'Mağazaya yürümek Bu yüzden otobüse bindim.',
     },
     {
-      ing: 'She loves to swim. In fact, she swims every morning.',
-      tr: 'Yüzmeyi seviyor. Aslında her sabah yüzüyor.',
+      ing: 'She loves to In fact, she swims every morning.',
+      tr: 'Yüzmeyi Aslında her sabah yüzüyor.',
     },
     {
-      ing: "I don't like to eat junk food. Instead, I prefer to eat homemade food.",
-      tr: 'Abur cubur yemeyi sevmiyorum. Bunun yerine ev yapımı yemek yemeyi tercih ediyorum.',
+      ing: "I don't like to eat junk Instead, I prefer to eat homemade food.",
+      tr: 'Abur cubur yemeyi Bunun yerine ev yapımı yemek yemeyi tercih ediyorum.',
     },
     {
-      ing: "He loves animals. That's why he has three pets.",
-      tr: 'Hayvanları seviyor. Bu yüzden üç evcil hayvanı var.',
+      ing: "He loves That's why he has three pets.",
+      tr: 'Hayvanları Bu yüzden üç evcil hayvanı var.',
     },
     {
-      ing: 'I like to listen to music. For instance, I listen to classical music every day.',
-      tr: 'Müzik dinlemeyi severim. Mesela her gün klasik müzik dinliyorum.',
+      ing: 'I like to listen to For instance, I listen to classical music every day.',
+      tr: 'Müzik dinlemeyi Mesela her gün klasik müzik dinliyorum.',
     },
     {
-      ing: "She didn't want to study at home. Instead, she went to the library.",
-      tr: 'Evde ders çalışmak istemiyordu. Bunun yerine kütüphaneye gitti.',
+      ing: "She didn't want to study at Instead, she went to the library.",
+      tr: 'Evde ders çalışmak Bunun yerine kütüphaneye gitti.',
     },
     {
-      ing: "I love to paint. That's why I joined an art class.",
-      tr: 'Resim yapmayı seviyorum. Bu yüzden bir sanat dersine katıldım.',
+      ing: "I love to That's why I joined an art class.",
+      tr: 'Resim yapmayı Bu yüzden bir sanat dersine katıldım.',
     },
     {
-      ing: 'He loves nature. In fact, he goes hiking every month.',
-      tr: 'Doğayı seviyor. Aslında her ay yürüyüşe çıkıyor.',
+      ing: 'He loves In fact, he goes hiking every month.',
+      tr: 'Doğayı Aslında her ay yürüyüşe çıkıyor.',
     },
     {
-      ing: 'I like to eat healthy food. For example, I eat a lot of fruits and vegetables.',
-      tr: 'Sağlıklı yemek yemeyi severim. Mesela çok fazla meyve ve sebze yerim.',
+      ing: 'I like to eat healthy For example, I eat a lot of fruits and vegetables.',
+      tr: 'Sağlıklı yemek yemeyi Mesela çok fazla meyve ve sebze yerim.',
     },
     {
       ing: "I prefer to take the bus but instead I take the subway because it's less crowded.",
       tr: 'Otobüse binmeyi tercih ediyorum ama bunun yerine metroya biniyorum çünkü daha az kalabalık.',
     },
     {
-      ing: 'She likes to read books. For instance, she reads a book every week.',
-      tr: 'Kitap okumayı seviyor. Mesela her hafta bir kitap okuyor.',
+      ing: 'She likes to read For instance, she reads a book every week.',
+      tr: 'Kitap okumayı Mesela her hafta bir kitap okuyor.',
     },
     {
-      ing: "He loves to cook. That's why he decided to become a chef.",
-      tr: 'Yemek yapmayı seviyor. Bu yüzden şef olmaya karar verdi.',
+      ing: "He loves to That's why he decided to become a chef.",
+      tr: 'Yemek yapmayı Bu yüzden şef olmaya karar verdi.',
     },
     {
-      ing: "I don't like to go out when it's raining. Instead, I prefer to stay at home and read a book.",
-      tr: 'Yağmur yağarken dışarı çıkmayı sevmiyorum. Bunun yerine evde kalıp kitap okumayı tercih ediyorum.',
+      ing: "I don't like to go out when it's Instead, I prefer to stay at home and read a book.",
+      tr: 'Yağmur yağarken dışarı çıkmayı Bunun yerine evde kalıp kitap okumayı tercih ediyorum.',
     },
     {
-      ing: "I didn't understand the math problem. That's why I asked the teacher for help.",
-      tr: 'Matematik problemini anlamadım. Bu yüzden öğretmenden yardım istedim.',
+      ing: "I didn't understand the math That's why I asked the teacher for help.",
+      tr: 'Matematik problemini Bu yüzden öğretmenden yardım istedim.',
     },
     {
-      ing: 'She loves to travel. For example, she visited three countries last year.',
-      tr: 'Seyahat etmeyi seviyor. Mesela geçen yıl üç ülkeyi ziyaret etti.',
+      ing: 'She loves to For example, she visited three countries last year.',
+      tr: 'Seyahat etmeyi Mesela geçen yıl üç ülkeyi ziyaret etti.',
     },
     {
-      ing: "I forgot my umbrella at home. That's why I got wet in the rain.",
-      tr: 'Şemsiyemi evde unuttum. Bu yüzden yağmurda ıslandım.',
+      ing: "I forgot my umbrella at That's why I got wet in the rain.",
+      tr: 'Şemsiyemi evde Bu yüzden yağmurda ıslandım.',
     },
     {
-      ing: 'He is a great soccer player. In fact, he won a trophy last year.',
-      tr: 'O harika bir futbolcu. Aslında geçen sene bir kupa kazandı.',
+      ing: 'He is a great soccer In fact, he won a trophy last year.',
+      tr: 'O harika bir Aslında geçen sene bir kupa kazandı.',
     },
     {
-      ing: "I don't like to watch movies. Instead, I prefer to read books.",
-      tr: 'Film izlemeyi sevmiyorum. Bunun yerine kitap okumayı tercih ediyorum.',
+      ing: "I don't like to watch Instead, I prefer to read books.",
+      tr: 'Film izlemeyi Bunun yerine kitap okumayı tercih ediyorum.',
     },
     {
-      ing: "She likes to help others. That's why she volunteers at the community center.",
-      tr: 'Başkalarına yardım etmeyi sever. Bu yüzden toplum merkezinde gönüllü olarak çalışıyor.',
+      ing: "She likes to help That's why she volunteers at the community center.",
+      tr: 'Başkalarına yardım etmeyi Bu yüzden toplum merkezinde gönüllü olarak çalışıyor.',
     },
     {
-      ing: 'I love to play sports. For instance, I play basketball every weekend.',
-      tr: 'Spor yapmayı seviyorum. Mesela her hafta sonu basketbol oynuyorum.',
+      ing: 'I love to play For instance, I play basketball every weekend.',
+      tr: 'Spor yapmayı Mesela her hafta sonu basketbol oynuyorum.',
     },
     {
-      ing: "He didn't want to eat at home. Instead, he went to a restaurant.",
-      tr: 'Evde yemek yemek istemiyordu. Bunun yerine bir restorana gitti.',
+      ing: "He didn't want to eat at Instead, he went to a restaurant.",
+      tr: 'Evde yemek yemek Bunun yerine bir restorana gitti.',
     },
     {
-      ing: "I like to learn new things. That's why I read a lot.",
-      tr: 'Yeni şeyler öğrenmeyi severim. Bu yüzden çok okuyorum.',
+      ing: "I like to learn new That's why I read a lot.",
+      tr: 'Yeni şeyler öğrenmeyi Bu yüzden çok okuyorum.',
     },
     {
-      ing: 'She loves to dance. In fact, she takes dance classes every week.',
-      tr: 'Dans etmeyi seviyor. Aslında her hafta dans dersleri alıyor.',
+      ing: 'She loves to In fact, she takes dance classes every week.',
+      tr: 'Dans etmeyi Aslında her hafta dans dersleri alıyor.',
     },
     {
-      ing: "I don't like coffee. Instead, I prefer to drink tea.",
-      tr: 'Kahve sevmiyorum. Bunun yerine çay içmeyi tercih ediyorum.',
+      ing: "I don't like Instead, I prefer to drink tea.",
+      tr: 'Kahve Bunun yerine çay içmeyi tercih ediyorum.',
     },
     {
-      ing: 'He loves to draw. For example, he drew a beautiful picture yesterday.',
-      tr: 'Çizim yapmayı seviyor. Mesela dün çok güzel bir resim çizdi.',
+      ing: 'He loves to For example, he drew a beautiful picture yesterday.',
+      tr: 'Çizim yapmayı Mesela dün çok güzel bir resim çizdi.',
     },
     {
-      ing: "I didn't want to walk to the store. That's why I took the bus.",
-      tr: 'Mağazaya yürümek istemedim. Bu yüzden otobüse bindim.',
+      ing: "I didn't want to walk to the That's why I took the bus.",
+      tr: 'Mağazaya yürümek Bu yüzden otobüse bindim.',
     },
     {
-      ing: 'She loves to swim. In fact, she swims every morning.',
-      tr: 'Yüzmeyi seviyor. Aslında her sabah yüzüyor.',
+      ing: 'She loves to In fact, she swims every morning.',
+      tr: 'Yüzmeyi Aslında her sabah yüzüyor.',
     },
     {
-      ing: "I don't like to eat junk food. Instead, I prefer to eat homemade food.",
-      tr: 'Abur cubur yemeyi sevmiyorum. Bunun yerine ev yapımı yemek yemeyi tercih ediyorum.',
+      ing: "I don't like to eat junk Instead, I prefer to eat homemade food.",
+      tr: 'Abur cubur yemeyi Bunun yerine ev yapımı yemek yemeyi tercih ediyorum.',
     },
     {
-      ing: "He loves animals. That's why he has three pets.",
-      tr: 'Hayvanları seviyor. Bu yüzden üç evcil hayvanı var.',
+      ing: "He loves That's why he has three pets.",
+      tr: 'Hayvanları Bu yüzden üç evcil hayvanı var.',
     },
     {
-      ing: 'I like to listen to music. For instance, I listen to classical music every day.',
-      tr: 'Müzik dinlemeyi severim. Mesela her gün klasik müzik dinliyorum.',
+      ing: 'I like to listen to For instance, I listen to classical music every day.',
+      tr: 'Müzik dinlemeyi Mesela her gün klasik müzik dinliyorum.',
     },
     {
-      ing: "She didn't want to study at home. Instead, she went to the library.",
-      tr: 'Evde ders çalışmak istemiyordu. Bunun yerine kütüphaneye gitti.',
+      ing: "She didn't want to study at Instead, she went to the library.",
+      tr: 'Evde ders çalışmak Bunun yerine kütüphaneye gitti.',
     },
     {
-      ing: "I love to paint. That's why I joined an art class.",
-      tr: 'Resim yapmayı seviyorum. Bu yüzden bir sanat dersine katıldım.',
+      ing: "I love to That's why I joined an art class.",
+      tr: 'Resim yapmayı Bu yüzden bir sanat dersine katıldım.',
     },
     {
-      ing: 'He loves nature. In fact, he goes hiking every month.',
-      tr: 'Doğayı seviyor. Aslında her ay yürüyüşe çıkıyor.',
+      ing: 'He loves In fact, he goes hiking every month.',
+      tr: 'Doğayı Aslında her ay yürüyüşe çıkıyor.',
     },
     {
-      ing: 'I like to eat fruits. For example, I eat an apple every day.',
-      tr: 'Meyve yemeyi severim. Mesela her gün bir elma yerim.',
+      ing: 'I like to eat For example, I eat an apple every day.',
+      tr: 'Meyve yemeyi Mesela her gün bir elma yerim.',
     },
     {
-      ing: "He loves to read. That's why he has so many books.",
-      tr: 'Okumayı seviyor. Bu yüzden bu kadar çok kitabı var.',
+      ing: "He loves to That's why he has so many books.",
+      tr: 'Okumayı Bu yüzden bu kadar çok kitabı var.',
     },
     {
-      ing: "I didn't want to watch TV. Instead, I decided to read a book.",
-      tr: 'Televizyon izlemek istemedim. Bunun yerine kitap okumaya karar verdim.',
+      ing: "I didn't want to watch Instead, I decided to read a book.",
+      tr: 'Televizyon izlemek Bunun yerine kitap okumaya karar verdim.',
     },
     {
-      ing: 'She likes to learn languages. For instance, she is learning Spanish and French.',
-      tr: 'Dil öğrenmeyi seviyor. Mesela İspanyolca ve Fransızca öğreniyor.',
+      ing: 'She likes to learn For instance, she is learning Spanish and French.',
+      tr: 'Dil öğrenmeyi Mesela İspanyolca ve Fransızca öğreniyor.',
     },
     {
-      ing: "I was tired. That's why I decided to go to bed early.",
-      tr: 'Yorulmuştum. Bu yüzden erken yatmaya karar verdim.',
+      ing: "I was That's why I decided to go to bed early.",
+      tr: 'Bu yüzden erken yatmaya karar verdim.',
     },
     {
-      ing: "He doesn't like to eat out. Instead, he prefers homemade meals.",
-      tr: 'Dışarıda yemek yemeyi sevmiyor. Bunun yerine ev yapımı yemekleri tercih ediyor.',
+      ing: "He doesn't like to eat Instead, he prefers homemade meals.",
+      tr: 'Dışarıda yemek yemeyi Bunun yerine ev yapımı yemekleri tercih ediyor.',
     },
     {
-      ing: 'I love animals. In fact, I have two cats and a dog.',
-      tr: 'Hayvanları severim. Aslında iki kedim ve bir köpeğim var.',
+      ing: 'I love In fact, I have two cats and a dog.',
+      tr: 'Hayvanları Aslında iki kedim ve bir köpeğim var.',
     },
     {
-      ing: "She enjoys gardening. That's why her garden is so beautiful.",
-      tr: 'Bahçecilikten hoşlanıyor. Bu yüzden bahçesi çok güzel.',
+      ing: "She enjoys That's why her garden is so beautiful.",
+      tr: 'Bahçecilikten Bu yüzden bahçesi çok güzel.',
     },
     {
-      ing: "I didn't want to take the bus. Instead, I decided to walk.",
-      tr: 'Otobüse binmek istemedim. Bunun yerine yürümeye karar verdim.',
+      ing: "I didn't want to take the Instead, I decided to walk.",
+      tr: 'Otobüse binmek Bunun yerine yürümeye karar verdim.',
     },
     {
-      ing: 'He loves playing sports. For example, he plays football every Sunday.',
-      tr: 'Spor yapmayı çok seviyor. Mesela her pazar futbol oynuyor.',
+      ing: 'He loves playing For example, he plays football every Sunday.',
+      tr: 'Spor yapmayı çok Mesela her pazar futbol oynuyor.',
     },
     {
-      ing: "I didn't like the movie. That's why I left the theater early.",
-      tr: 'Filmi beğenmedim. Bu yüzden sinemadan erken çıktım.',
+      ing: "I didn't like the That's why I left the theater early.",
+      tr: 'Filmi Bu yüzden sinemadan erken çıktım.',
     },
     {
-      ing: 'She likes to travel. In fact, she visited five countries last year.',
-      tr: 'O gezmeyi sever. Aslında geçen yıl beş ülkeyi ziyaret etti.',
+      ing: 'She likes to In fact, she visited five countries last year.',
+      tr: 'O gezmeyi Aslında geçen yıl beş ülkeyi ziyaret etti.',
     },
     {
-      ing: "I don't like cold weather. That's why I moved to a warmer city.",
-      tr: 'Soğuk havayı sevmiyorum. Bu yüzden daha sıcak bir şehre taşındım.',
+      ing: "I don't like cold That's why I moved to a warmer city.",
+      tr: 'Soğuk havayı Bu yüzden daha sıcak bir şehre taşındım.',
     },
     {
-      ing: 'He likes to write. For instance, he writes a poem every day.',
-      tr: 'Yazmayı seviyor. Mesela her gün bir şiir yazıyor.',
+      ing: 'He likes to For instance, he writes a poem every day.',
+      tr: 'Yazmayı Mesela her gün bir şiir yazıyor.',
     },
     {
-      ing: "I didn't want to cook. Instead, I ordered pizza.",
-      tr: 'Yemek pişirmek istemedim. Bunun yerine pizza sipariş ettim.',
+      ing: "I didn't want to Instead, I ordered pizza.",
+      tr: 'Yemek pişirmek Bunun yerine pizza sipariş ettim.',
     },
     {
-      ing: "She enjoys painting. That's why she attends an art class every week.",
-      tr: 'Resim yapmaktan hoşlanıyor. Bu yüzden her hafta resim dersine katılıyor.',
+      ing: "She enjoys That's why she attends an art class every week.",
+      tr: 'Resim yapmaktan Bu yüzden her hafta resim dersine katılıyor.',
     },
     {
-      ing: 'I love nature. In fact, I go hiking every month.',
-      tr: 'Doğayı seviyorum. Aslında her ay yürüyüşe çıkıyorum.',
+      ing: 'I love In fact, I go hiking every month.',
+      tr: 'Doğayı Aslında her ay yürüyüşe çıkıyorum.',
     },
     {
-      ing: "He doesn't like coffee. Instead, he drinks tea every morning.",
-      tr: 'Kahveyi sevmiyor. Bunun yerine her sabah çay içer.',
+      ing: "He doesn't like Instead, he drinks tea every morning.",
+      tr: 'Kahveyi Bunun yerine her sabah çay içer.',
     },
     {
-      ing: "I love to bake. For example, I baked a cake for my friend's birthday.",
-      tr: 'Pişirmeyi seviyorum. Mesela arkadaşımın doğum günü için pasta yaptım.',
+      ing: "I love to For example, I baked a cake for my friend's birthday.",
+      tr: 'Pişirmeyi Mesela arkadaşımın doğum günü için pasta yaptım.',
     },
     {
-      ing: "She didn't want to watch a movie. That's why she read a book instead.",
-      tr: 'Film izlemek istemedi. Bu yüzden onun yerine kitap okudu.',
+      ing: "She didn't want to watch a That's why she read a book instead.",
+      tr: 'Film izlemek Bu yüzden onun yerine kitap okudu.',
     },
     {
-      ing: 'I love the beach. In fact, I go there every summer.',
-      tr: 'Sahile bayılıyorum. Aslında her yaz oraya giderim.',
+      ing: 'I love the In fact, I go there every summer.',
+      tr: 'Sahile Aslında her yaz oraya giderim.',
     },
     {
-      ing: 'He likes music. For instance, he plays the guitar and the piano.',
-      tr: 'Müzikten hoşlanıyor. Mesela gitar ve piyano çalıyor.',
+      ing: 'He likes For instance, he plays the guitar and the piano.',
+      tr: 'Müzikten Mesela gitar ve piyano çalıyor.',
     },
     {
-      ing: "I didn't want to go shopping. Instead, I decided to stay at home and relax.",
-      tr: 'Alışverişe gitmek istemedim. Bunun yerine evde kalıp dinlenmeye karar verdim.',
+      ing: "I didn't want to go Instead, I decided to stay at home and relax.",
+      tr: 'Alışverişe gitmek Bunun yerine evde kalıp dinlenmeye karar verdim.',
     },
     {
-      ing: "She enjoys running. That's why she runs in the park every morning.",
-      tr: 'Koşmaktan hoşlanıyor. Bu yüzden her sabah parkta koşuyor.',
+      ing: "She enjoys That's why she runs in the park every morning.",
+      tr: 'Koşmaktan Bu yüzden her sabah parkta koşuyor.',
     },
     {
-      ing: 'I love photography. For example, I take photos of nature during my walks.',
-      tr: 'Fotoğrafçılığı seviyorum. Mesela yürüyüşlerimde doğa fotoğrafları çekiyorum.',
+      ing: 'I love For example, I take photos of nature during my walks.',
+      tr: 'Fotoğrafçılığı Mesela yürüyüşlerimde doğa fotoğrafları çekiyorum.',
     },
     {
-      ing: "He doesn't like to drive. Instead, he rides his bike to work.",
-      tr: 'Araba sürmeyi sevmiyor. Bunun yerine işe bisikletle gidiyor.',
+      ing: "He doesn't like to Instead, he rides his bike to work.",
+      tr: 'Araba sürmeyi Bunun yerine işe bisikletle gidiyor.',
     },
     {
-      ing: 'I love ice cream. In fact, I eat a scoop every day.',
-      tr: 'Dondurmayı severim. Aslında her gün bir kaşık yiyorum.',
+      ing: 'I love ice In fact, I eat a scoop every day.',
+      tr: 'Dondurmayı Aslında her gün bir kaşık yiyorum.',
     },
     {
-      ing: "She likes drawing. That's why she always carries a sketchbook.",
-      tr: 'Çizim yapmayı seviyor. Bu yüzden her zaman bir eskiz defteri taşıyor.',
+      ing: "She likes That's why she always carries a sketchbook.",
+      tr: 'Çizim yapmayı Bu yüzden her zaman bir eskiz defteri taşıyor.',
     },
     {
-      ing: "I didn't want to eat cake. Instead, I ate some fruit.",
-      tr: 'Pasta yemek istemiyordum. Bunun yerine biraz meyve yedim.',
+      ing: "I didn't want to eat Instead, I ate some fruit.",
+      tr: 'Pasta yemek Bunun yerine biraz meyve yedim.',
     },
     {
-      ing: 'He loves the mountains. For example, he goes hiking every weekend.',
-      tr: 'Dağları seviyor. Mesela her hafta sonu yürüyüşe çıkıyor.',
+      ing: 'He loves the For example, he goes hiking every weekend.',
+      tr: 'Dağları Mesela her hafta sonu yürüyüşe çıkıyor.',
     },
     {
-      ing: "I love to read. That's why I always have a book with me.",
-      tr: 'Okumayı çok severim. Bu yüzden her zaman yanımda bir kitap var.',
+      ing: "I love to That's why I always have a book with me.",
+      tr: 'Okumayı çok Bu yüzden her zaman yanımda bir kitap var.',
     },
     {
-      ing: "She doesn't like loud music. Instead, she prefers soft and soothing music.",
-      tr: 'Yüksek sesli müzikten hoşlanmaz. Bunun yerine yumuşak ve dinlendirici müziği tercih ediyor.',
+      ing: "She doesn't like loud Instead, she prefers soft and soothing music.",
+      tr: 'Yüksek sesli müzikten Bunun yerine yumuşak ve dinlendirici müziği tercih ediyor.',
     },
     {
-      ing: 'I enjoy swimming. In fact, I go to the swimming pool every week.',
-      tr: 'Yüzmekten zevk alırım. Aslında her hafta yüzme havuzuna gidiyorum.',
+      ing: 'I enjoy In fact, I go to the swimming pool every week.',
+      tr: 'Yüzmekten zevk Aslında her hafta yüzme havuzuna gidiyorum.',
     },
     {
-      ing: "He likes animals. That's why he volunteers at the animal shelter.",
-      tr: 'O hayvanları sever. Bu yüzden hayvan barınağında gönüllü olarak çalışıyor.',
+      ing: "He likes That's why he volunteers at the animal shelter.",
+      tr: 'O hayvanları Bu yüzden hayvan barınağında gönüllü olarak çalışıyor.',
     },
     {
-      ing: "I didn't want to go out. Instead, I decided to stay in and watch a movie.",
-      tr: 'Dışarı çıkmak istemedim. Bunun yerine evde kalıp film izlemeye karar verdim.',
+      ing: "I didn't want to go Instead, I decided to stay in and watch a movie.",
+      tr: 'Dışarı çıkmak Bunun yerine evde kalıp film izlemeye karar verdim.',
     },
     {
-      ing: "She enjoys yoga. That's why she attends a yoga class every day.",
-      tr: 'Yogadan hoşlanıyor. Bu yüzden her gün yoga dersine katılıyor.',
+      ing: "She enjoys That's why she attends a yoga class every day.",
+      tr: 'Yogadan Bu yüzden her gün yoga dersine katılıyor.',
     },
     {
-      ing: 'I love flowers. For example, I have a beautiful garden at home.',
-      tr: 'Çiçekleri severim. Mesela evimde çok güzel bir bahçem var.',
+      ing: 'I love For example, I have a beautiful garden at home.',
+      tr: 'Çiçekleri Mesela evimde çok güzel bir bahçem var.',
     },
     {
-      ing: "He doesn't like soda. Instead, he drinks water or juice.",
-      tr: 'Asitli içecekler sevmiyor. Bunun yerine su veya meyve suyu içer.',
+      ing: "He doesn't like Instead, he drinks water or juice.",
+      tr: 'Asitli içecekler Bunun yerine su veya meyve suyu içer.',
     },
     {
-      ing: 'I love dancing. In fact, I take dance lessons twice a week.',
-      tr: 'Dans etmeyi severim. Aslında haftada iki kez dans dersi alıyorum.',
+      ing: 'I love In fact, I take dance lessons twice a week.',
+      tr: 'Dans etmeyi Aslında haftada iki kez dans dersi alıyorum.',
     },
     {
-      ing: "She enjoys cycling. That's why she goes for a bike ride every day.",
-      tr: 'Bisiklete binmekten hoşlanıyor. Bu yüzden her gün bisiklete binmeye gidiyor.',
+      ing: "She enjoys That's why she goes for a bike ride every day.",
+      tr: 'Bisiklete binmekten Bu yüzden her gün bisiklete binmeye gidiyor.',
     },
     {
-      ing: "I didn't want to watch TV. Instead, I listened to music.",
-      tr: 'Televizyon izlemek istemedim. Onun yerine müzik dinledim.',
+      ing: "I didn't want to watch Instead, I listened to music.",
+      tr: 'Televizyon izlemek Onun yerine müzik dinledim.',
     },
     {
-      ing: 'He enjoys cooking. For example, he made a delicious pasta dish last night.',
-      tr: 'Yemek yapmaktan hoşlanıyor. Mesela dün akşam lezzetli bir makarna yemeği yaptı.',
+      ing: 'He enjoys For example, he made a delicious pasta dish last night.',
+      tr: 'Yemek yapmaktan Mesela dün akşam lezzetli bir makarna yemeği yaptı.',
     },
     {
-      ing: 'I love to travel. In fact, I am planning a trip to Europe next year.',
-      tr: "Seyahat etmeyi seviyorum. Aslında gelecek yıl Avrupa'ya bir gezi planlıyorum.",
+      ing: 'I love to In fact, I am planning a trip to Europe next year.',
+      tr: "Seyahat etmeyi Aslında gelecek yıl Avrupa'ya bir gezi planlıyorum.",
     },
     {
-      ing: "She doesn't like the cold. That's why she moved to a warmer place.",
-      tr: 'Soğuğu sevmiyor. Bu yüzden daha sıcak bir yere taşındı.',
+      ing: "She doesn't like the That's why she moved to a warmer place.",
+      tr: 'Soğuğu Bu yüzden daha sıcak bir yere taşındı.',
     },
     {
-      ing: 'I enjoy painting. For instance, I painted a beautiful landscape yesterday.',
-      tr: 'Resim yapmaktan keyif alıyorum. Mesela dün güzel bir manzara çizdim.',
+      ing: 'I enjoy For instance, I painted a beautiful landscape yesterday.',
+      tr: 'Resim yapmaktan keyif Mesela dün güzel bir manzara çizdim.',
     },
     {
-      ing: "He likes to play video games. That's why he has a big collection.",
-      tr: 'Video oyunları oynamayı seviyor. Bu yüzden büyük bir koleksiyonu var.',
+      ing: "He likes to play video That's why he has a big collection.",
+      tr: 'Video oyunları oynamayı Bu yüzden büyük bir koleksiyonu var.',
     },
     {
-      ing: "I didn't want to eat at home. Instead, I went to a restaurant.",
-      tr: 'Evde yemek yemek istemedim. Bunun yerine bir restorana gittim.',
+      ing: "I didn't want to eat at Instead, I went to a restaurant.",
+      tr: 'Evde yemek yemek Bunun yerine bir restorana gittim.',
     },
     {
-      ing: 'She enjoys learning languages. In fact, she is fluent in three languages.',
-      tr: 'Dil öğrenmekten hoşlanıyor. Aslında üç dili akıcı bir şekilde konuşabiliyor.',
+      ing: 'She enjoys learning In fact, she is fluent in three languages.',
+      tr: 'Dil öğrenmekten Aslında üç dili akıcı bir şekilde konuşabiliyor.',
     },
     {
-      ing: "I love playing the guitar. That's why I practice every day.",
-      tr: 'Gitar çalmayı seviyorum. Bu yüzden her gün pratik yapıyorum.',
+      ing: "I love playing the That's why I practice every day.",
+      tr: 'Gitar çalmayı Bu yüzden her gün pratik yapıyorum.',
     },
     {
-      ing: 'He enjoys watching movies. For instance, he watches a new movie every weekend.',
-      tr: 'Film izlemekten hoşlanıyor. Mesela her hafta sonu yeni bir film izliyor.',
+      ing: 'He enjoys watching For instance, he watches a new movie every weekend.',
+      tr: 'Film izlemekten Mesela her hafta sonu yeni bir film izliyor.',
     },
   ],
   Neden: [
@@ -46670,128 +46669,128 @@ export const IfClausesTranslationSentences = {
       tr: 'Geç gelirlerse film çoktan başlamış olacaktır.',
     },
     {
-      ing: 'If we work together, we can achieve our goal. ',
+      ing: 'If we work together, we can achieve our ',
       tr: 'Birlikte çalışırsak hedefimize ulaşabiliriz.',
     },
     {
-      ing: "You'll succeed if you believe in yourself. ",
+      ing: "You'll succeed if you believe in ",
       tr: 'Kendinize inanırsanız başaracaksınız.',
     },
     {
-      ing: "They'll have a party if they win the championship. ",
+      ing: "They'll have a party if they win the ",
       tr: 'Şampiyonayı kazanırlarsa parti verecekler.',
     },
     {
-      ing: "If you don't practice regularly, you won't improve. ",
+      ing: "If you don't practice regularly, you won't ",
       tr: 'Düzenli pratik yapmazsanız gelişmezsiniz.',
     },
     {
-      ing: "If we don't take care of the environment, we'll face serious consequences. ",
+      ing: "If we don't take care of the environment, we'll face serious ",
       tr: 'Çevreye dikkat etmezsek ciddi sonuçlarla karşı karşıya kalırız.',
     },
     {
-      ing: "We'll go shopping if we find a good sale. ",
+      ing: "We'll go shopping if we find a good ",
       tr: 'İyi bir indirim bulursak alışverişe gideriz.',
     },
     {
-      ing: "If you study hard, you'll succeed. ",
+      ing: "If you study hard, you'll ",
       tr: 'Çok çalışırsanız başarılı olursunuz.',
     },
     {
-      ing: "She'll be happy if she receives a surprise gift. ",
+      ing: "She'll be happy if she receives a surprise ",
       tr: 'Sürpriz bir hediye alırsa mutlu olur.',
     },
     {
-      ing: "We'll have a great time if the weather is nice. ",
+      ing: "We'll have a great time if the weather is ",
       tr: 'Hava güzelse harika vakit geçireceğiz.',
     },
     {
-      ing: "If they arrive late, they'll miss the beginning of the show. ",
+      ing: "If they arrive late, they'll miss the beginning of the ",
       tr: 'Geç gelirlerse gösterinin başlangıcını kaçıracaklar.',
     },
     {
-      ing: "If we don't leave now, we'll be late for the appointment. ",
+      ing: "If we don't leave now, we'll be late for the ",
       tr: 'Şimdi ayrılmazsak randevuya geç kalacağız.',
     },
     {
-      ing: "You'll understand the concept if you ask questions. ",
+      ing: "You'll understand the concept if you ask ",
       tr: 'Soru sorarsanız kavramı anlayacaksınız.',
     },
     {
-      ing: "If we don't take action now, the opportunity will slip away. ",
+      ing: "If we don't take action now, the opportunity will slip ",
       tr: 'Harekete geçmezsek fırsat kaçıp gidecek.',
     },
     {
-      ing: "She'll pass the exam if she studies consistently. ",
+      ing: "She'll pass the exam if she studies ",
       tr: 'Sürekli çalışırsa sınavı geçecektir.',
     },
     {
-      ing: "We'll go for a walk if the weather improves. ",
+      ing: "We'll go for a walk if the weather ",
       tr: 'Hava düzelirse yürüyüşe çıkacağız.',
     },
     {
-      ing: "If you don't take care of your health, you'll regret it later. ",
+      ing: "If you don't take care of your health, you'll regret it ",
       tr: 'Sağlığınıza dikkat etmezseniz sonradan pişman olursunuz.',
     },
     {
       ing: "If we don't leave now, we'll be late for the appointment.",
-      tr: 'Eğer şimdi ayrılmazsak randevuya geç kalacağız. ',
+      tr: 'Eğer şimdi ayrılmazsak randevuya geç ',
     },
     {
       ing: "If you study hard, you'll succeed.",
-      tr: 'Çok çalışırsanız başarılı olursunuz. ',
+      tr: 'Çok çalışırsanız başarılı ',
     },
     {
       ing: "We'll go shopping if we find a good sale.",
-      tr: 'İyi bir indirim bulursak alışverişe gideriz. ',
+      tr: 'İyi bir indirim bulursak alışverişe ',
     },
     {
       ing: "If you don't practice regularly, you won't improve.",
-      tr: 'Düzenli pratik yapmazsanız gelişmezsiniz. ',
+      tr: 'Düzenli pratik yapmazsanız ',
     },
     {
       ing: "She'll pass the exam if she studies consistently.",
-      tr: 'Düzenli çalışırsa sınavı geçecektir. ',
+      tr: 'Düzenli çalışırsa sınavı ',
     },
     {
       ing: 'If we work together, we can achieve our goal.',
-      tr: 'Birlikte çalışırsak hedefimize ulaşabiliriz. ',
+      tr: 'Birlikte çalışırsak hedefimize ',
     },
     {
       ing: "We'll have a great time if the weather is nice.",
-      tr: 'Hava güzelse harika vakit geçireceğiz. ',
+      tr: 'Hava güzelse harika vakit ',
     },
     {
       ing: "If you don't take care of your health, you'll regret it later.",
-      tr: 'Sağlığınıza dikkat etmezseniz sonradan pişman olursunuz. ',
+      tr: 'Sağlığınıza dikkat etmezseniz sonradan pişman ',
     },
     {
       ing: "You'll understand the concept if you ask questions.",
-      tr: 'Soru sorarsanız kavramı anlayacaksınız. ',
+      tr: 'Soru sorarsanız kavramı ',
     },
     {
       ing: "They'll have a party if they win the championship.",
-      tr: 'Şampiyonayı kazanırlarsa parti verecekler. ',
+      tr: 'Şampiyonayı kazanırlarsa parti ',
     },
     {
       ing: "If we don't take action now, the opportunity will slip away.",
-      tr: 'Şimdi harekete geçmezsek fırsat kaçıp gidecek. ',
+      tr: 'Şimdi harekete geçmezsek fırsat kaçıp ',
     },
     {
       ing: 'If you study hard, you will go to a good university.',
-      tr: 'Çok çalışırsanız iyi bir üniversiteye gidersiniz. ',
+      tr: 'Çok çalışırsanız iyi bir üniversiteye ',
     },
     {
       ing: "We'll go for a walk if the weather improves.",
-      tr: 'Hava güzelleşirse yürüyüşe çıkacağız. ',
+      tr: 'Hava güzelleşirse yürüyüşe ',
     },
     {
       ing: 'If we work together, we can achieve our goal.',
-      tr: 'Birlikte çalışırsak hedefimize ulaşabiliriz. ',
+      tr: 'Birlikte çalışırsak hedefimize ',
     },
     {
       ing: "They'll have a party if they win the championship.",
-      tr: 'Şampiyonayı kazanırlarsa parti verecekler. ',
+      tr: 'Şampiyonayı kazanırlarsa parti ',
     },
   ],
   Type2: [
@@ -47348,7 +47347,7 @@ export const IfClausesTranslationSentences = {
       tr: 'Bir süper kahraman olsaydım, dünyayı kurtarırdım.',
     },
     {
-      ing: 'If you were here, you would offer your help. ',
+      ing: 'If you were here, you would offer your ',
       tr: 'Burada olsaydın, yardım teklif ederdin.',
     },
     {
@@ -47356,31 +47355,31 @@ export const IfClausesTranslationSentences = {
       tr: 'Piyangoyu kazansaydı, ne yapardı?',
     },
     {
-      ing: 'If I had more experience, I would be better at this. ',
+      ing: 'If I had more experience, I would be better at ',
       tr: 'Daha fazla deneyimim olsaydı, bunda daha iyi olurdum.',
     },
     {
-      ing: 'If I had more money, I would travel the world. ',
+      ing: 'If I had more money, I would travel the ',
       tr: 'Daha fazla param olsaydı, dünyayı gezerdim.',
     },
     {
-      ing: 'If I were a famous actor, I would star in blockbuster movies. ',
+      ing: 'If I were a famous actor, I would star in blockbuster ',
       tr: 'Ünlü bir aktör olsaydım, gişe rekorları kıran filmlerde oynardım.',
     },
     {
-      ing: 'If she knew the answer, she would share it with us. ',
+      ing: 'If she knew the answer, she would share it with ',
       tr: 'Cevabı bilseydi, bizimle paylaşırdı.',
     },
     {
-      ing: 'If I were a bird, I would soar through the sky. ',
+      ing: 'If I were a bird, I would soar through the ',
       tr: 'Bir kuş olsaydım, gökyüzünde süzülürdüm.',
     },
     {
-      ing: 'If we had more time, we would explore new hobbies. ',
+      ing: 'If we had more time, we would explore new ',
       tr: 'Daha fazla zamanımız olsaydı, yeni hobiler keşfederdik.',
     },
     {
-      ing: 'If they put in more effort, they would see better results. ',
+      ing: 'If they put in more effort, they would see better ',
       tr: 'Daha fazla çaba gösterselerdi, daha iyi sonuçlar görürlerdi.',
     },
     {
@@ -50153,7 +50152,7 @@ export const PrepositionsTranslationSentences = {
     },
     {ing: 'The concert lasted for three hours.', tr: 'Konser üç saat sürdü.'},
     {
-      ing: 'The store opens at 9:00 a.m. on weekdays.',
+      ing: 'The store opens at 9:00 a.on weekdays.',
       tr: "Mağaza hafta içi saat 9:00'da açılıyor.",
     },
     {
@@ -50600,7 +50599,7 @@ export const PrepositionsTranslationSentences = {
       tr: "Her zaman saat 11:00'de yatarım.",
     },
     {
-      ing: 'The party starts at 7 p.m. sharp.',
+      ing: 'The party starts at 7 p.sharp.',
       tr: "Parti tam olarak saat 7:00'de başlıyor.",
     },
     {
@@ -50625,7 +50624,7 @@ export const PrepositionsTranslationSentences = {
       tr: "O, işini saat 5:00'e kadar bitirmişti.",
     },
     {
-      ing: "He's arriving at 3 p.m. tomorrow.",
+      ing: "He's arriving at 3 p.tomorrow.",
       tr: "O, yarın saat 3:00'te varıyor.",
     },
     {
@@ -50641,7 +50640,7 @@ export const PrepositionsTranslationSentences = {
       tr: 'Onlar, gece yarısında yatağa gittiler.',
     },
     {
-      ing: 'The show starts at 8 p.m. sharp.',
+      ing: 'The show starts at 8 p.sharp.',
       tr: "Gösteri tam olarak saat 8:00'de başlıyor.",
     },
     {
@@ -50924,7 +50923,7 @@ export const PrepositionsTranslationSentences = {
     },
     {ing: 'I get up early every morning.', tr: 'Her sabah erken kalkarım.'},
     {
-      ing: 'She gets up at 7 a.m. every day.',
+      ing: 'She gets up at 7 a.every day.',
       tr: "O, her gün saat 7'de kalkar.",
     },
     {ing: 'Please sit down and relax.', tr: 'Lütfen oturun ve rahatlayın.'},
@@ -50932,7 +50931,7 @@ export const PrepositionsTranslationSentences = {
       ing: 'He sat down at the front of the class.',
       tr: 'O, sınıfın önüne oturdu.',
     },
-    {ing: 'I wake up at 6 a.m. every day.', tr: "Her gün saat 6'da uyanırım."},
+    {ing: 'I wake up at 6 a.every day.', tr: "Her gün saat 6'da uyanırım."},
     {ing: 'She woke up late this morning.', tr: 'O, bu sabah geç uyandı.'},
     {
       ing: "Don't forget to turn off the lights.",
@@ -74985,7 +74984,7 @@ export const PronounsTranslationSentences = {
     },
     {
       ing: 'I like my car and Ali likes his.',
-      tr: 'Ben benim arabamı severim. Ali onunkini sever.',
+      tr: 'Ben benim arabamı Ali onunkini sever.',
     },
   ],
   IMy: [
@@ -76161,3088 +76160,3088 @@ export const PronounsTranslationSentences = {
 export const QuantifiersTranslationSentences = {
   AFew: [
     {
-      ing: '1. I have a few books on the shelf.',
+      ing: 'I have a few books on the shelf.',
       tr: 'Rafımda birkaç kitabım var.',
     },
     {
-      ing: '2. She made a few mistakes in the test.',
+      ing: 'She made a few mistakes in the test.',
       tr: 'Testte birkaç hata yaptı.',
     },
     {
-      ing: '3. There are a few apples left in the fridge.',
+      ing: 'There are a few apples left in the fridge.',
       tr: 'Buzdolabında birkaç elma kaldı.',
     },
     {
-      ing: '4. He met a few friends at the party.',
+      ing: 'He met a few friends at the party.',
       tr: 'Partide birkaç arkadaşıyla buluştu.',
     },
     {
-      ing: '5. I need a few minutes to finish this.',
+      ing: 'I need a few minutes to finish this.',
       tr: 'Bunu bitirmek için birkaç dakikaya ihtiyacım var.',
     },
     {
-      ing: '6. She has a few new ideas for the project.',
+      ing: 'She has a few new ideas for the project.',
       tr: 'Proje için birkaç yeni fikri var.',
     },
     {
-      ing: '7. We saw a few birds in the park.',
+      ing: 'We saw a few birds in the park.',
       tr: 'Parkta birkaç kuş gördük.',
     },
     {
-      ing: '8. I’ll be ready in a few minutes.',
+      ing: 'I’ll be ready in a few minutes.',
       tr: 'Birkaç dakika içinde hazır olacağım.',
     },
     {
-      ing: '9. There are a few problems with the computer.',
+      ing: 'There are a few problems with the computer.',
       tr: 'Bilgisayarda birkaç sorun var.',
     },
     {
-      ing: '10. He found a few old photos in the attic.',
+      ing: 'He found a few old photos in the attic.',
       tr: 'Çatı katında birkaç eski fotoğraf buldu.',
     },
     {
-      ing: '11. I need to ask you a few questions.',
+      ing: 'I need to ask you a few questions.',
       tr: 'Sana birkaç soru sormam gerekiyor.',
     },
     {
-      ing: '12. There are a few chairs in the room.',
+      ing: 'There are a few chairs in the room.',
       tr: 'Odada birkaç sandalye var.',
     },
-    {ing: '13. She has a few close friends.', tr: 'Birkaç yakın arkadaşı var.'},
+    {ing: 'She has a few close friends.', tr: 'Birkaç yakın arkadaşı var.'},
     {
-      ing: '14. I’ll call you back in a few hours.',
+      ing: 'I’ll call you back in a few hours.',
       tr: 'Seni birkaç saat içinde geri arayacağım.',
     },
     {
-      ing: '15. We visited a few museums during our trip.',
+      ing: 'We visited a few museums during our trip.',
       tr: 'Seyahatimiz sırasında birkaç müze ziyaret ettik.',
     },
     {
-      ing: '16. He made a few changes to the design.',
+      ing: 'He made a few changes to the design.',
       tr: 'Tasarıma birkaç değişiklik yaptı.',
     },
     {
-      ing: '17. I have a few suggestions for the plan.',
+      ing: 'I have a few suggestions for the plan.',
       tr: 'Plan için birkaç önerim var.',
     },
     {
-      ing: '18. There are a few people waiting outside.',
+      ing: 'There are a few people waiting outside.',
       tr: 'Dışarıda bekleyen birkaç kişi var.',
     },
     {
-      ing: '19. She wrote a few letters to her friends.',
+      ing: 'She wrote a few letters to her friends.',
       tr: 'Arkadaşlarına birkaç mektup yazdı.',
     },
     {
-      ing: '20. I have a few errands to run today.',
+      ing: 'I have a few errands to run today.',
       tr: 'Bugün halletmem gereken birkaç işim var.',
     },
     {
-      ing: '21. He took a few photos of the sunset.',
+      ing: 'He took a few photos of the sunset.',
       tr: 'Gün batımının birkaç fotoğrafını çekti.',
     },
     {
-      ing: '22. There are a few cookies left on the plate.',
+      ing: 'There are a few cookies left on the plate.',
       tr: 'Tabakta birkaç kurabiye kaldı.',
     },
     {
-      ing: '23. She bought a few gifts for her family.',
+      ing: 'She bought a few gifts for her family.',
       tr: 'Ailesi için birkaç hediye aldı.',
     },
     {
-      ing: '24. I need a few more minutes to complete this task.',
+      ing: 'I need a few more minutes to complete this task.',
       tr: 'Bu görevi tamamlamak için birkaç dakikaya daha ihtiyacım var.',
     },
     {
-      ing: '25. We met a few new people at the conference.',
+      ing: 'We met a few new people at the conference.',
       tr: 'Konferansta birkaç yeni insanla tanıştık.',
     },
     {
-      ing: '26. He has a few hobbies like painting and hiking.',
+      ing: 'He has a few hobbies like painting and hiking.',
       tr: 'Resim yapmak ve doğa yürüyüşü gibi birkaç hobisi var.',
     },
     {
-      ing: '27. I read a few chapters of the book last night.',
+      ing: 'I read a few chapters of the book last night.',
       tr: 'Dün gece kitabın birkaç bölümünü okudum.',
     },
     {
-      ing: '28. She made a few calls before the meeting.',
+      ing: 'She made a few calls before the meeting.',
       tr: 'Toplantıdan önce birkaç telefon görüşmesi yaptı.',
     },
     {
-      ing: '29. We need a few volunteers for the event.',
+      ing: 'We need a few volunteers for the event.',
       tr: 'Etkinlik için birkaç gönüllüye ihtiyacımız var.',
     },
     {
-      ing: '30. There are a few problems we need to solve.',
+      ing: 'There are a few problems we need to solve.',
       tr: 'Çözmemiz gereken birkaç sorun var.',
     },
     {
-      ing: '31. He gave me a few tips on how to improve.',
+      ing: 'He gave me a few tips on how to improve.',
       tr: 'Gelişmek için bana birkaç ipucu verdi.',
     },
     {
-      ing: '32. I’ll be gone for a few days.',
+      ing: 'I’ll be gone for a few days.',
       tr: 'Birkaç günlüğüne gideceğim.',
     },
     {
-      ing: '33. She found a few interesting articles online.',
+      ing: 'She found a few interesting articles online.',
       tr: 'İnternette birkaç ilginç makale buldu.',
     },
     {
-      ing: '34. I’ll bring a few snacks for the trip.',
+      ing: 'I’ll bring a few snacks for the trip.',
       tr: 'Seyahat için birkaç atıştırmalık getireceğim.',
     },
     {
-      ing: '35. There are a few options to choose from.',
+      ing: 'There are a few options to choose from.',
       tr: 'Seçilecek birkaç seçenek var.',
     },
     {
-      ing: '36. He needs a few more documents to complete the application.',
+      ing: 'He needs a few more documents to complete the application.',
       tr: 'Başvuruyu tamamlamak için birkaç belgeye daha ihtiyacı var.',
     },
     {
-      ing: '37. I made a few mistakes while speaking.',
+      ing: 'I made a few mistakes while speaking.',
       tr: 'Konuşurken birkaç hata yaptım.',
     },
     {
-      ing: '38. She bought a few new clothes yesterday.',
+      ing: 'She bought a few new clothes yesterday.',
       tr: 'Dün birkaç yeni kıyafet aldı.',
     },
     {
-      ing: '39. There are a few questions I want to ask.',
+      ing: 'There are a few questions I want to ask.',
       tr: 'Sormak istediğim birkaç soru var.',
     },
     {
-      ing: '40. We saw a few dolphins in the sea.',
+      ing: 'We saw a few dolphins in the sea.',
       tr: 'Denizde birkaç yunus gördük.',
     },
     {
-      ing: '41. I have a few free hours this afternoon.',
+      ing: 'I have a few free hours this afternoon.',
       tr: 'Bu öğleden sonra birkaç saat boş vaktim var.',
     },
     {
-      ing: '42. He found a few old coins in the garden.',
+      ing: 'He found a few old coins in the garden.',
       tr: 'Bahçede birkaç eski para buldu.',
     },
     {
-      ing: '43. She took a few days off work.',
+      ing: 'She took a few days off work.',
       tr: 'İşten birkaç gün izin aldı.',
     },
     {
-      ing: '44. I have a few suggestions for the new plan.',
+      ing: 'I have a few suggestions for the new plan.',
       tr: 'Yeni plan için birkaç önerim var.',
     },
     {
-      ing: '45. There are a few clouds in the sky.',
+      ing: 'There are a few clouds in the sky.',
       tr: 'Gökyüzünde birkaç bulut var.',
     },
     {
-      ing: '46. He invited a few friends to his house.',
+      ing: 'He invited a few friends to his house.',
       tr: 'Evine birkaç arkadaşını davet etti.',
     },
     {
-      ing: '47. We need a few more chairs for the guests.',
+      ing: 'We need a few more chairs for the guests.',
       tr: 'Misafirler için birkaç sandalyeye daha ihtiyacımız var.',
     },
     {
-      ing: '48. She bought a few vegetables from the market.',
+      ing: 'She bought a few vegetables from the market.',
       tr: 'Marketten birkaç sebze aldı.',
     },
     {
-      ing: '49. I need a few more details to understand the situation.',
+      ing: 'I need a few more details to understand the situation.',
       tr: 'Durumu anlamak için birkaç detaya daha ihtiyacım var.',
     },
     {
-      ing: '50. There are a few emails you should read.',
+      ing: 'There are a few emails you should read.',
       tr: 'Okuman gereken birkaç e-posta var.',
     },
     {
-      ing: '51. He met a few old classmates at the reunion.',
+      ing: 'He met a few old classmates at the reunion.',
       tr: 'Buluşmada birkaç eski sınıf arkadaşıyla karşılaştı.',
     },
     {
-      ing: '52. I took a few notes during the lecture.',
+      ing: 'I took a few notes during the lecture.',
       tr: 'Ders sırasında birkaç not aldım.',
     },
     {
-      ing: '53. She needs a few more minutes to finish the presentation.',
+      ing: 'She needs a few more minutes to finish the presentation.',
       tr: 'Sunumu bitirmek için birkaç dakikaya daha ihtiyacı var.',
     },
     {
-      ing: '54. There are a few buses that go to the city center.',
+      ing: 'There are a few buses that go to the city center.',
       tr: 'Şehir merkezine giden birkaç otobüs var.',
     },
     {
-      ing: '55. I have a few important things to discuss.',
+      ing: 'I have a few important things to discuss.',
       tr: 'Konuşmam gereken birkaç önemli şey var.',
     },
     {
-      ing: '56. He has a few interesting stories to tell.',
+      ing: 'He has a few interesting stories to tell.',
       tr: 'Anlatacak birkaç ilginç hikayesi var.',
     },
     {
-      ing: '57. We saw a few animals in the zoo.',
+      ing: 'We saw a few animals in the zoo.',
       tr: 'Hayvanat bahçesinde birkaç hayvan gördük.',
     },
     {
-      ing: '58. She made a few sandwiches for lunch.',
+      ing: 'She made a few sandwiches for lunch.',
       tr: 'Öğle yemeği için birkaç sandviç yaptı.',
     },
     {
-      ing: '59. I need to buy a few supplies for the trip.',
+      ing: 'I need to buy a few supplies for the trip.',
       tr: 'Seyahat için birkaç malzeme almam gerekiyor.',
     },
     {
-      ing: '60. He took a few deep breaths before starting.',
+      ing: 'He took a few deep breaths before starting.',
       tr: 'Başlamadan önce birkaç derin nefes aldı.',
     },
     {
-      ing: '61. There are a few trees in the garden.',
+      ing: 'There are a few trees in the garden.',
       tr: 'Bahçede birkaç ağaç var.',
     },
     {
-      ing: '62. She wrote a few pages in her journal.',
+      ing: 'She wrote a few pages in her journal.',
       tr: 'Günlüğüne birkaç sayfa yazdı.',
     },
     {
-      ing: '63. I have a few meetings scheduled for today.',
+      ing: 'I have a few meetings scheduled for today.',
       tr: 'Bugün birkaç toplantım var.',
     },
     {
-      ing: '64. He received a few gifts for his birthday.',
+      ing: 'He received a few gifts for his birthday.',
       tr: 'Doğum günü için birkaç hediye aldı.',
     },
     {
-      ing: '65. There are a few magazines on the table.',
+      ing: 'There are a few magazines on the table.',
       tr: 'Masada birkaç dergi var.',
     },
     {
-      ing: '66. We need a few more ingredients for the recipe.',
+      ing: 'We need a few more ingredients for the recipe.',
       tr: 'Tarif için birkaç malzemeye daha ihtiyacımız var.',
     },
     {
-      ing: '67. She invited a few colleagues to dinner.',
+      ing: 'She invited a few colleagues to dinner.',
       tr: 'Yemeğe birkaç meslektaşını davet etti.',
     },
     {
-      ing: '68. I took a few photos of the flowers.',
+      ing: 'I took a few photos of the flowers.',
       tr: 'Çiçeklerin birkaç fotoğrafını çektim.',
     },
     {
-      ing: '69. There are a few interesting topics in the article.',
+      ing: 'There are a few interesting topics in the article.',
       tr: 'Makalede birkaç ilginç konu var.',
     },
     {
-      ing: '70. He met a few important clients today.',
+      ing: 'He met a few important clients today.',
       tr: 'Bugün birkaç önemli müşteriyle tanıştı.',
     },
     {
-      ing: '71. I have a few errands to run this afternoon.',
+      ing: 'I have a few errands to run this afternoon.',
       tr: 'Bu öğleden sonra halletmem gereken birkaç işim var.',
     },
     {
-      ing: '72. She found a few old letters in a box.',
+      ing: 'She found a few old letters in a box.',
       tr: 'Bir kutuda birkaç eski mektup buldu.',
     },
     {
-      ing: '73. We saw a few stars in the sky last night.',
+      ing: 'We saw a few stars in the sky last night.',
       tr: 'Dün gece gökyüzünde birkaç yıldız gördük.',
     },
     {
-      ing: '74. There are a few cookies left in the jar.',
+      ing: 'There are a few cookies left in the jar.',
       tr: 'Kavanozda birkaç kurabiye kaldı.',
     },
     {
-      ing: '75. He needs a few more days to finish the project.',
+      ing: 'He needs a few more days to finish the project.',
       tr: 'Projeyi bitirmek için birkaç güne daha ihtiyacı var.',
     },
     {
-      ing: '76. I have a few things to do before I leave.',
+      ing: 'I have a few things to do before I leave.',
       tr: 'Gitmeden önce yapmam gereken birkaç şey var.',
     },
     {
-      ing: '77. She took a few books from the library.',
+      ing: 'She took a few books from the library.',
       tr: 'Kütüphaneden birkaç kitap aldı.',
     },
     {
-      ing: '78. There are a few challenges we need to face.',
+      ing: 'There are a few challenges we need to face.',
       tr: 'Karşılaşmamız gereken birkaç zorluk var.',
     },
     {
-      ing: '79. He met a few new people at the event.',
+      ing: 'He met a few new people at the event.',
       tr: 'Etkinlikte birkaç yeni insanla tanıştı.',
     },
     {
-      ing: '80. I have a few more questions for you.',
+      ing: 'I have a few more questions for you.',
       tr: 'Senin için birkaç sorum daha var.',
     },
     {
-      ing: '81. She added a few more details to her report.',
+      ing: 'She added a few more details to her report.',
       tr: 'Raporuna birkaç detay daha ekledi.',
     },
     {
-      ing: '82. There are a few differences between the two models.',
+      ing: 'There are a few differences between the two models.',
       tr: 'İki model arasında birkaç fark var.',
     },
     {
-      ing: '83. He needs a few tools to complete the job.',
+      ing: 'He needs a few tools to complete the job.',
       tr: 'İşi tamamlamak için birkaç araca ihtiyacı var.',
     },
     {
-      ing: '84. I’ll need a few days to think about it.',
+      ing: 'I’ll need a few days to think about it.',
       tr: 'Bunu düşünmek için birkaç güne ihtiyacım olacak.',
     },
     {
-      ing: '85. She gave a few suggestions for the party.',
+      ing: 'She gave a few suggestions for the party.',
       tr: 'Parti için birkaç öneri verdi.',
     },
     {
-      ing: '86. There are a few things we need to discuss.',
+      ing: 'There are a few things we need to discuss.',
       tr: 'Konuşmamız gereken birkaç şey var.',
     },
     {
-      ing: '87. He spent a few hours working on the project.',
+      ing: 'He spent a few hours working on the project.',
       tr: 'Projede çalışarak birkaç saat geçirdi.',
     },
     {
-      ing: '88. I met a few interesting people at the seminar.',
+      ing: 'I met a few interesting people at the seminar.',
       tr: 'Seminerde birkaç ilginç insanla tanıştım.',
     },
     {
-      ing: '89. She bought a few postcards from the souvenir shop.',
+      ing: 'She bought a few postcards from the souvenir shop.',
       tr: 'Hediyelik eşya dükkanından birkaç kartpostal aldı.',
     },
     {
-      ing: '90. There are a few cookies left on the table.',
+      ing: 'There are a few cookies left on the table.',
       tr: 'Masada birkaç kurabiye kaldı.',
     },
     {
-      ing: '91. He spent a few days at the beach.',
+      ing: 'He spent a few days at the beach.',
       tr: 'Birkaç gün sahilde vakit geçirdi.',
     },
     {
-      ing: '92. I need a few more details before making a decision.',
+      ing: 'I need a few more details before making a decision.',
       tr: 'Karar vermeden önce birkaç detaya daha ihtiyacım var.',
     },
     {
-      ing: '93. She saw a few movies over the weekend.',
+      ing: 'She saw a few movies over the weekend.',
       tr: 'Hafta sonu birkaç film izledi.',
     },
     {
-      ing: '94. There are a few tasks I need to complete today.',
+      ing: 'There are a few tasks I need to complete today.',
       tr: 'Bugün tamamlamam gereken birkaç görev var.',
     },
     {
-      ing: '95. He bought a few tools for his workshop.',
+      ing: 'He bought a few tools for his workshop.',
       tr: 'Atölyesi için birkaç araç satın aldı.',
     },
     {
-      ing: '96. I have a few more appointments tomorrow.',
+      ing: 'I have a few more appointments tomorrow.',
       tr: 'Yarın birkaç randevum daha var.',
     },
     {
-      ing: '97. She needs a few minutes to prepare.',
+      ing: 'She needs a few minutes to prepare.',
       tr: 'Hazırlanmak için birkaç dakikaya ihtiyacı var.',
     },
     {
-      ing: '98. There are a few people who know the answer.',
+      ing: 'There are a few people who know the answer.',
       tr: 'Cevabı bilen birkaç kişi var.',
     },
     {
-      ing: '99. He asked me a few questions about the plan.',
+      ing: 'He asked me a few questions about the plan.',
       tr: 'Planla ilgili bana birkaç soru sordu.',
     },
     {
-      ing: '100. I took a few deep breaths to calm down.',
+      ing: 'I took a few deep breaths to calm down.',
       tr: 'Sakinleşmek için birkaç derin nefes aldım.',
     },
   ],
   ALittle: [
-    {ing: '1. I need a little water.', tr: 'Biraz suya ihtiyacım var.'},
+    {ing: 'I need a little water.', tr: 'Biraz suya ihtiyacım var.'},
     {
-      ing: '2. She has a little time before the meeting.',
+      ing: 'She has a little time before the meeting.',
       tr: 'Toplantıdan önce biraz zamanı var.',
     },
     {
-      ing: '3. Can you give me a little help?',
+      ing: 'Can you give me a little help?',
       tr: 'Bana biraz yardım edebilir misin?',
     },
     {
-      ing: '4. There is a little milk left in the fridge.',
+      ing: 'There is a little milk left in the fridge.',
       tr: 'Buzdolabında biraz süt kaldı.',
     },
     {
-      ing: '5. I feel a little tired today.',
+      ing: 'I feel a little tired today.',
       tr: 'Bugün biraz yorgun hissediyorum.',
     },
     {
-      ing: '6. He added a little sugar to his coffee.',
+      ing: 'He added a little sugar to his coffee.',
       tr: 'Kahvesine biraz şeker ekledi.',
     },
     {
-      ing: '7. We need a little more time to finish.',
+      ing: 'We need a little more time to finish.',
       tr: 'Bitirmek için biraz daha zamana ihtiyacımız var.',
     },
     {
-      ing: '8. She spoke a little during the presentation.',
+      ing: 'She spoke a little during the presentation.',
       tr: 'Sunum sırasında biraz konuştu.',
     },
     {
-      ing: '9. Can you wait a little longer?',
+      ing: 'Can you wait a little longer?',
       tr: 'Biraz daha bekleyebilir misin?',
     },
     {
-      ing: '10. I have a little money left after shopping.',
+      ing: 'I have a little money left after shopping.',
       tr: 'Alışverişten sonra biraz param kaldı.',
     },
     {
-      ing: '11. There is a little juice in the glass.',
+      ing: 'There is a little juice in the glass.',
       tr: 'Bardakta biraz meyve suyu var.',
     },
     {
-      ing: '12. He showed a little interest in the project.',
+      ing: 'He showed a little interest in the project.',
       tr: 'Projeye biraz ilgi gösterdi.',
     },
     {
-      ing: '13. We spent a little time at the park.',
+      ing: 'We spent a little time at the park.',
       tr: 'Parkta biraz zaman geçirdik.',
     },
     {
-      ing: '14. I know a little about this topic.',
+      ing: 'I know a little about this topic.',
       tr: 'Bu konu hakkında biraz bilgim var.',
     },
     {
-      ing: '15. She felt a little sad after the movie.',
+      ing: 'She felt a little sad after the movie.',
       tr: 'Filmden sonra biraz üzgün hissetti.',
     },
     {
-      ing: '16. There is a little salt in the soup.',
+      ing: 'There is a little salt in the soup.',
       tr: 'Çorbada biraz tuz var.',
     },
     {
-      ing: '17. He needs a little rest after work.',
+      ing: 'He needs a little rest after work.',
       tr: 'İşten sonra biraz dinlenmeye ihtiyacı var.',
     },
     {
-      ing: '18. I have a little experience with programming.',
+      ing: 'I have a little experience with programming.',
       tr: 'Programlama konusunda biraz deneyimim var.',
     },
     {
-      ing: '19. She added a little pepper to the salad.',
+      ing: 'She added a little pepper to the salad.',
       tr: 'Salataya biraz karabiber ekledi.',
     },
     {
-      ing: '20. Can I have a little more bread, please?',
+      ing: 'Can I have a little more bread, please?',
       tr: 'Biraz daha ekmek alabilir miyim, lütfen?',
     },
     {
-      ing: '21. There is a little sunshine today.',
+      ing: 'There is a little sunshine today.',
       tr: 'Bugün biraz güneş var.',
     },
     {
-      ing: '22. He spoke a little French during the trip.',
+      ing: 'He spoke a little French during the trip.',
       tr: 'Seyahat sırasında biraz Fransızca konuştu.',
     },
     {
-      ing: '23. I need a little peace and quiet.',
+      ing: 'I need a little peace and quiet.',
       tr: 'Biraz huzur ve sessizliğe ihtiyacım var.',
     },
     {
-      ing: '24. She has a little free time this weekend.',
+      ing: 'She has a little free time this weekend.',
       tr: 'Bu hafta sonu biraz boş vakti var.',
     },
-    {ing: '25. There is a little oil in the pan.', tr: 'Tavada biraz yağ var.'},
+    {ing: 'There is a little oil in the pan.', tr: 'Tavada biraz yağ var.'},
     {
-      ing: '26. He gave me a little advice about the job.',
+      ing: 'He gave me a little advice about the job.',
       tr: 'Bana iş hakkında biraz tavsiye verdi.',
     },
     {
-      ing: '27. We need a little luck to succeed.',
+      ing: 'We need a little luck to succeed.',
       tr: 'Başarmak için biraz şansa ihtiyacımız var.',
     },
     {
-      ing: '28. I put a little sugar in my tea.',
+      ing: 'I put a little sugar in my tea.',
       tr: 'Çayıma biraz şeker koydum.',
     },
     {
-      ing: '29. She felt a little better after resting.',
+      ing: 'She felt a little better after resting.',
       tr: 'Dinlendikten sonra biraz daha iyi hissetti.',
     },
     {
-      ing: '30. There is a little milk for the cereal.',
+      ing: 'There is a little milk for the cereal.',
       tr: 'Mısır gevreği için biraz süt var.',
     },
     {
-      ing: '31. He made a little progress in his studies.',
+      ing: 'He made a little progress in his studies.',
       tr: 'Çalışmalarında biraz ilerleme kaydetti.',
     },
     {
-      ing: '32. I have a little space left in my bag.',
+      ing: 'I have a little space left in my bag.',
       tr: 'Çantamda biraz yer kaldı.',
     },
     {
-      ing: '33. She showed a little kindness to the stranger.',
+      ing: 'She showed a little kindness to the stranger.',
       tr: 'Yabancıya biraz nezaket gösterdi.',
     },
     {
-      ing: '34. There is a little noise coming from the street.',
+      ing: 'There is a little noise coming from the street.',
       tr: 'Caddeden biraz gürültü geliyor.',
     },
     {
-      ing: '35. He has a little money saved for a vacation.',
+      ing: 'He has a little money saved for a vacation.',
       tr: 'Tatil için biraz para biriktirdi.',
     },
     {
-      ing: '36. I need a little help with this project.',
+      ing: 'I need a little help with this project.',
       tr: 'Bu proje konusunda biraz yardıma ihtiyacım var.',
     },
     {
-      ing: '37. She added a little milk to the recipe.',
+      ing: 'She added a little milk to the recipe.',
       tr: 'Tarife biraz süt ekledi.',
     },
     {
-      ing: '38. There is a little snow on the ground.',
+      ing: 'There is a little snow on the ground.',
       tr: 'Yerde biraz kar var.',
     },
     {
-      ing: '39. He drank a little water after the run.',
+      ing: 'He drank a little water after the run.',
       tr: 'Koşudan sonra biraz su içti.',
     },
     {
-      ing: '40. I have a little energy left after work.',
+      ing: 'I have a little energy left after work.',
       tr: 'İşten sonra biraz enerjim kaldı.',
     },
     {
-      ing: '41. She showed a little patience with the children.',
+      ing: 'She showed a little patience with the children.',
       tr: 'Çocuklara karşı biraz sabır gösterdi.',
     },
     {
-      ing: '42. There is a little dirt on your shoes.',
+      ing: 'There is a little dirt on your shoes.',
       tr: 'Ayakkabılarında biraz kir var.',
     },
     {
-      ing: '43. He needs a little practice before the match.',
+      ing: 'He needs a little practice before the match.',
       tr: 'Maçtan önce biraz pratik yapması gerekiyor.',
     },
     {
-      ing: '44. I have a little coffee left in my cup.',
+      ing: 'I have a little coffee left in my cup.',
       tr: 'Fincanımda biraz kahve kaldı.',
     },
     {
-      ing: '45. She used a little salt in the recipe.',
+      ing: 'She used a little salt in the recipe.',
       tr: 'Tarifte biraz tuz kullandı.',
     },
-    {ing: '46. There is a little wind today.', tr: 'Bugün biraz rüzgar var.'},
+    {ing: 'There is a little wind today.', tr: 'Bugün biraz rüzgar var.'},
     {
-      ing: '47. He spoke a little louder to be heard.',
+      ing: 'He spoke a little louder to be heard.',
       tr: 'Duyulmak için biraz daha yüksek sesle konuştu.',
     },
     {
-      ing: '48. I have a little more work to do.',
+      ing: 'I have a little more work to do.',
       tr: 'Yapmam gereken biraz daha işim var.',
     },
     {
-      ing: '49. She showed a little courage in the difficult situation.',
+      ing: 'She showed a little courage in the difficult situation.',
       tr: 'Zor durumda biraz cesaret gösterdi.',
     },
     {
-      ing: '50. There is a little juice left in the bottle.',
+      ing: 'There is a little juice left in the bottle.',
       tr: 'Şişede biraz meyve suyu kaldı.',
     },
     {
-      ing: '51. He put a little effort into his homework.',
+      ing: 'He put a little effort into his homework.',
       tr: 'Ödevine biraz çaba sarf etti.',
     },
     {
-      ing: '52. I need a little space to organize my things.',
+      ing: 'I need a little space to organize my things.',
       tr: 'Eşyalarımı düzenlemek için biraz alana ihtiyacım var.',
     },
     {
-      ing: '53. She gave a little money to charity.',
+      ing: 'She gave a little money to charity.',
       tr: 'Hayır kurumuna biraz para bağışladı.',
     },
     {
-      ing: '54. There is a little ice in the freezer.',
+      ing: 'There is a little ice in the freezer.',
       tr: 'Dondurucuda biraz buz var.',
     },
     {
-      ing: '55. He added a little color to the painting.',
+      ing: 'He added a little color to the painting.',
       tr: 'Resme biraz renk ekledi.',
     },
     {
-      ing: '56. I need a little break after this task.',
+      ing: 'I need a little break after this task.',
       tr: 'Bu görevden sonra biraz molaya ihtiyacım var.',
     },
     {
-      ing: '57. She drank a little tea with her breakfast.',
+      ing: 'She drank a little tea with her breakfast.',
       tr: 'Kahvaltısında biraz çay içti.',
     },
     {
-      ing: '58. There is a little dust on the shelf.',
+      ing: 'There is a little dust on the shelf.',
       tr: 'Rafın üzerinde biraz toz var.',
     },
     {
-      ing: '59. He gave me a little hope during tough times.',
+      ing: 'He gave me a little hope during tough times.',
       tr: 'Zor zamanlarda bana biraz umut verdi.',
     },
     {
-      ing: '60. I used a little soap to wash my hands.',
+      ing: 'I used a little soap to wash my hands.',
       tr: 'Ellerimi yıkamak için biraz sabun kullandım.',
     },
-    {ing: '61. She has a little patience left.', tr: 'Biraz sabrı kaldı.'},
+    {ing: 'She has a little patience left.', tr: 'Biraz sabrı kaldı.'},
     {
-      ing: '62. There is a little butter on the table.',
+      ing: 'There is a little butter on the table.',
       tr: 'Masada biraz tereyağı var.',
     },
     {
-      ing: '63. He put a little cream in his coffee.',
+      ing: 'He put a little cream in his coffee.',
       tr: 'Kahvesine biraz krema koydu.',
     },
     {
-      ing: '64. I need a little inspiration for my project.',
+      ing: 'I need a little inspiration for my project.',
       tr: 'Projem için biraz ilhama ihtiyacım var.',
     },
     {
-      ing: '65. She spent a little time reading before bed.',
+      ing: 'She spent a little time reading before bed.',
       tr: 'Yatmadan önce biraz okuma yaptı.',
     },
     {
-      ing: '66. There is a little water in the bottle.',
+      ing: 'There is a little water in the bottle.',
       tr: 'Şişede biraz su var.',
     },
     {
-      ing: '67. He used a little glue to fix the toy.',
+      ing: 'He used a little glue to fix the toy.',
       tr: 'Oyuncağı tamir etmek için biraz yapıştırıcı kullandı.',
     },
     {
-      ing: '68. I need a little peace to concentrate.',
+      ing: 'I need a little peace to concentrate.',
       tr: 'Konsantre olmak için biraz huzura ihtiyacım var.',
     },
     {
-      ing: '69. She showed a little sympathy for her friend.',
+      ing: 'She showed a little sympathy for her friend.',
       tr: 'Arkadaşına biraz empati gösterdi.',
     },
     {
-      ing: '70. There is a little light in the room.',
+      ing: 'There is a little light in the room.',
       tr: 'Odada biraz ışık var.',
     },
     {
-      ing: '71. He made a little effort to understand.',
+      ing: 'He made a little effort to understand.',
       tr: 'Anlamaya biraz çaba gösterdi.',
     },
     {
-      ing: '72. I have a little money left in my wallet.',
+      ing: 'I have a little money left in my wallet.',
       tr: 'Cüzdanımda biraz para kaldı.',
     },
     {
-      ing: '73. She added a little spice to the dish.',
+      ing: 'She added a little spice to the dish.',
       tr: 'Yemeğe biraz baharat ekledi.',
     },
     {
-      ing: '74. There is a little fog in the morning.',
+      ing: 'There is a little fog in the morning.',
       tr: 'Sabah biraz sis var.',
     },
     {
-      ing: '75. He gave me a little encouragement before the exam.',
+      ing: 'He gave me a little encouragement before the exam.',
       tr: 'Sınavdan önce bana biraz cesaret verdi.',
     },
     {
-      ing: '76. I need a little more time to finish the task.',
+      ing: 'I need a little more time to finish the task.',
       tr: 'Görevi bitirmek için biraz daha zamana ihtiyacım var.',
     },
     {
-      ing: '77. She drank a little water during the workout.',
+      ing: 'She drank a little water during the workout.',
       tr: 'Egzersiz sırasında biraz su içti.',
     },
     {
-      ing: '78. There is a little sand on the beach.',
+      ing: 'There is a little sand on the beach.',
       tr: 'Sahilde biraz kum var.',
     },
     {
-      ing: '79. He added a little music to the background.',
+      ing: 'He added a little music to the background.',
       tr: 'Arka plana biraz müzik ekledi.',
     },
     {
-      ing: '80. I have a little headache today.',
+      ing: 'I have a little headache today.',
       tr: 'Bugün biraz baş ağrım var.',
     },
     {
-      ing: '81. She gave a little attention to her work.',
+      ing: 'She gave a little attention to her work.',
       tr: 'İşine biraz dikkat verdi.',
     },
     {
-      ing: '82. There is a little paint left in the can.',
+      ing: 'There is a little paint left in the can.',
       tr: 'Kutuda biraz boya kaldı.',
     },
     {
-      ing: '83. He spoke a little about his experiences.',
+      ing: 'He spoke a little about his experiences.',
       tr: 'Deneyimleri hakkında biraz konuştu.',
     },
     {
-      ing: '84. I need a little sunshine to feel better.',
+      ing: 'I need a little sunshine to feel better.',
       tr: 'Kendimi daha iyi hissetmek için biraz güneş ışığına ihtiyacım var.',
     },
     {
-      ing: '85. She felt a little nervous before the speech.',
+      ing: 'She felt a little nervous before the speech.',
       tr: 'Konuşmadan önce biraz gergin hissetti.',
     },
     {
-      ing: '86. There is a little water left in the pool.',
+      ing: 'There is a little water left in the pool.',
       tr: 'Havuzda biraz su kaldı.',
     },
     {
-      ing: '87. He put a little salt on his food.',
+      ing: 'He put a little salt on his food.',
       tr: 'Yemeğine biraz tuz koydu.',
     },
     {
-      ing: '88. I need a little guidance to solve this problem.',
+      ing: 'I need a little guidance to solve this problem.',
       tr: 'Bu sorunu çözmek için biraz rehberliğe ihtiyacım var.',
     },
     {
-      ing: '89. She added a little honey to her tea.',
+      ing: 'She added a little honey to her tea.',
       tr: 'Çayına biraz bal ekledi.',
     },
     {
-      ing: '90. There is a little dust on the table.',
+      ing: 'There is a little dust on the table.',
       tr: 'Masada biraz toz var.',
     },
     {
-      ing: '91. He gave me a little smile when I arrived.',
+      ing: 'He gave me a little smile when I arrived.',
       tr: 'Geldiğimde bana biraz gülümsedi.',
     },
     {
-      ing: '92. I need a little patience to handle this situation.',
+      ing: 'I need a little patience to handle this situation.',
       tr: 'Bu durumu yönetmek için biraz sabra ihtiyacım var.',
     },
     {
-      ing: '93. She used a little tape to fix the paper.',
+      ing: 'She used a little tape to fix the paper.',
       tr: 'Kağıdı tamir etmek için biraz bant kullandı.',
     },
     {
-      ing: '94. There is a little rain outside.',
+      ing: 'There is a little rain outside.',
       tr: 'Dışarıda biraz yağmur yağıyor.',
     },
     {
-      ing: '95. He added a little lemon to his tea.',
+      ing: 'He added a little lemon to his tea.',
       tr: 'Çayına biraz limon ekledi.',
     },
     {
-      ing: '96. I have a little hope that things will get better.',
+      ing: 'I have a little hope that things will get better.',
       tr: 'İşlerin düzeleceğine dair biraz umudum var.',
     },
     {
-      ing: '97. She drank a little coffee before starting her work.',
+      ing: 'She drank a little coffee before starting her work.',
       tr: 'İşine başlamadan önce biraz kahve içti.',
     },
     {
-      ing: '98. There is a little snow on the mountains.',
+      ing: 'There is a little snow on the mountains.',
       tr: 'Dağlarda biraz kar var.',
     },
     {
-      ing: '99. He spent a little time with his family over the weekend.',
+      ing: 'He spent a little time with his family over the weekend.',
       tr: 'Hafta sonu ailesiyle biraz vakit geçirdi.',
     },
     {
-      ing: '100. I need a little more information to complete the report.',
+      ing: 'I need a little more information to complete the report.',
       tr: 'Raporu tamamlamak için biraz daha bilgiye ihtiyacım var.',
     },
   ],
   ALotOf: [
-    {ing: '1. I have a lot of work to do.', tr: 'Yapacak çok işim var.'},
+    {ing: 'I have a lot of work to do.', tr: 'Yapacak çok işim var.'},
     {
-      ing: '2. She eats a lot of fruit every day.',
+      ing: 'She eats a lot of fruit every day.',
       tr: 'Her gün çok meyve yiyor.',
     },
     {
-      ing: '3. There are a lot of people at the park today.',
+      ing: 'There are a lot of people at the park today.',
       tr: 'Bugün parkta çok insan var.',
     },
     {
-      ing: '4. He has a lot of money in his bank account.',
+      ing: 'He has a lot of money in his bank account.',
       tr: 'Banka hesabında çok parası var.',
     },
     {
-      ing: '5. We spent a lot of time studying for the exam.',
+      ing: 'We spent a lot of time studying for the exam.',
       tr: 'Sınav için çok zaman harcadık.',
     },
     {
-      ing: '6. She bought a lot of clothes during the sale.',
+      ing: 'She bought a lot of clothes during the sale.',
       tr: 'İndirim sırasında çok kıyafet aldı.',
     },
     {
-      ing: '7. There’s a lot of food on the table.',
+      ing: 'There’s a lot of food on the table.',
       tr: 'Masada çok yemek var.',
     },
     {
-      ing: '8. He made a lot of mistakes in the test.',
+      ing: 'He made a lot of mistakes in the test.',
       tr: 'Testte çok hata yaptı.',
     },
     {
-      ing: '9. I drank a lot of water after my run.',
+      ing: 'I drank a lot of water after my run.',
       tr: 'Koşudan sonra çok su içtim.',
     },
     {
-      ing: '10. They took a lot of pictures on vacation.',
+      ing: 'They took a lot of pictures on vacation.',
       tr: 'Tatil sırasında çok fotoğraf çektiler.',
     },
     {
-      ing: '11. There are a lot of stars in the sky tonight.',
+      ing: 'There are a lot of stars in the sky tonight.',
       tr: 'Bu gece gökyüzünde çok yıldız var.',
     },
     {
-      ing: '12. She has a lot of friends at school.',
+      ing: 'She has a lot of friends at school.',
       tr: 'Okulda çok arkadaşı var.',
     },
     {
-      ing: '13. He gave me a lot of advice about the project.',
+      ing: 'He gave me a lot of advice about the project.',
       tr: 'Bana proje hakkında çok tavsiye verdi.',
     },
     {
-      ing: '14. We have a lot of homework to finish.',
+      ing: 'We have a lot of homework to finish.',
       tr: 'Bitirmemiz gereken çok ödevimiz var.',
     },
     {
-      ing: '15. There are a lot of books in the library.',
+      ing: 'There are a lot of books in the library.',
       tr: 'Kütüphanede çok kitap var.',
     },
     {
-      ing: '16. I ate a lot of chocolate yesterday.',
+      ing: 'I ate a lot of chocolate yesterday.',
       tr: 'Dün çok çikolata yedim.',
     },
     {
-      ing: '17. She spends a lot of time reading.',
+      ing: 'She spends a lot of time reading.',
       tr: 'Çok zamanını okumaya harcıyor.',
     },
     {
-      ing: '18. We need a lot of chairs for the event.',
+      ing: 'We need a lot of chairs for the event.',
       tr: 'Etkinlik için çok sandalyeye ihtiyacımız var.',
     },
     {
-      ing: '19. He has a lot of experience in this field.',
+      ing: 'He has a lot of experience in this field.',
       tr: 'Bu alanda çok deneyimi var.',
     },
     {
-      ing: '20. There’s a lot of traffic on the road today.',
+      ing: 'There’s a lot of traffic on the road today.',
       tr: 'Bugün yolda çok trafik var.',
     },
     {
-      ing: '21. I received a lot of emails this morning.',
+      ing: 'I received a lot of emails this morning.',
       tr: 'Bu sabah çok e-posta aldım.',
     },
     {
-      ing: '22. She bought a lot of flowers for the garden.',
+      ing: 'She bought a lot of flowers for the garden.',
       tr: 'Bahçe için çok çiçek aldı.',
     },
     {
-      ing: '23. There are a lot of animals in the zoo.',
+      ing: 'There are a lot of animals in the zoo.',
       tr: 'Hayvanat bahçesinde çok hayvan var.',
     },
     {
-      ing: '24. We made a lot of progress on the project.',
+      ing: 'We made a lot of progress on the project.',
       tr: 'Projede çok ilerleme kaydettik.',
     },
     {
-      ing: '25. He gave a lot of money to charity.',
+      ing: 'He gave a lot of money to charity.',
       tr: 'Hayır kurumuna çok para verdi.',
     },
     {
-      ing: '26. I have a lot of free time this weekend.',
+      ing: 'I have a lot of free time this weekend.',
       tr: 'Bu hafta sonu çok boş vaktim var.',
     },
     {
-      ing: '27. She learned a lot of new things in class.',
+      ing: 'She learned a lot of new things in class.',
       tr: 'Sınıfta çok yeni şey öğrendi.',
     },
     {
-      ing: '28. There are a lot of cars parked outside.',
+      ing: 'There are a lot of cars parked outside.',
       tr: 'Dışarıda park etmiş çok araba var.',
     },
     {
-      ing: '29. He needs a lot of help with his homework.',
+      ing: 'He needs a lot of help with his homework.',
       tr: 'Ödevi konusunda çok yardıma ihtiyacı var.',
     },
     {
-      ing: '30. I ate a lot of pasta for dinner.',
+      ing: 'I ate a lot of pasta for dinner.',
       tr: 'Akşam yemeğinde çok makarna yedim.',
     },
     {
-      ing: '31. We received a lot of support from our friends.',
+      ing: 'We received a lot of support from our friends.',
       tr: 'Arkadaşlarımızdan çok destek aldık.',
     },
     {
-      ing: '32. She has a lot of shoes in her closet.',
+      ing: 'She has a lot of shoes in her closet.',
       tr: 'Dolabında çok ayakkabısı var.',
     },
     {
-      ing: '33. There’s a lot of noise coming from the street.',
+      ing: 'There’s a lot of noise coming from the street.',
       tr: 'Caddeden çok gürültü geliyor.',
     },
     {
-      ing: '34. He has a lot of responsibilities at work.',
+      ing: 'He has a lot of responsibilities at work.',
       tr: 'İş yerinde çok sorumluluğu var.',
     },
     {
-      ing: '35. I need a lot of energy to finish this task.',
+      ing: 'I need a lot of energy to finish this task.',
       tr: 'Bu görevi bitirmek için çok enerjiye ihtiyacım var.',
     },
     {
-      ing: '36. She spends a lot of money on clothes.',
+      ing: 'She spends a lot of money on clothes.',
       tr: 'Kıyafetlere çok para harcıyor.',
     },
     {
-      ing: '37. There are a lot of trees in the park.',
+      ing: 'There are a lot of trees in the park.',
       tr: 'Parkta çok ağaç var.',
     },
-    {ing: '38. We had a lot of fun at the party.', tr: 'Partide çok eğlendik.'},
+    {ing: 'We had a lot of fun at the party.', tr: 'Partide çok eğlendik.'},
     {
-      ing: '39. He drinks a lot of coffee every day.',
+      ing: 'He drinks a lot of coffee every day.',
       tr: 'Her gün çok kahve içer.',
     },
     {
-      ing: '40. There’s a lot of sugar in this cake.',
+      ing: 'There’s a lot of sugar in this cake.',
       tr: 'Bu pastada çok şeker var.',
     },
     {
-      ing: '41. She has a lot of patience with children.',
+      ing: 'She has a lot of patience with children.',
       tr: 'Çocuklara karşı çok sabırlı.',
     },
     {
-      ing: '42. I saw a lot of birds in the garden.',
+      ing: 'I saw a lot of birds in the garden.',
       tr: 'Bahçede çok kuş gördüm.',
     },
     {
-      ing: '43. They have a lot of plans for the weekend.',
+      ing: 'They have a lot of plans for the weekend.',
       tr: 'Hafta sonu için çok planları var.',
     },
     {
-      ing: '44. There are a lot of houses in this neighborhood.',
+      ing: 'There are a lot of houses in this neighborhood.',
       tr: 'Bu mahallede çok ev var.',
     },
     {
-      ing: '45. He eats a lot of vegetables to stay healthy.',
+      ing: 'He eats a lot of vegetables to stay healthy.',
       tr: 'Sağlıklı kalmak için çok sebze yiyor.',
     },
     {
-      ing: '46. We need a lot of volunteers for the event.',
+      ing: 'We need a lot of volunteers for the event.',
       tr: 'Etkinlik için çok gönüllüye ihtiyacımız var.',
     },
     {
-      ing: '47. She drank a lot of water after the workout.',
+      ing: 'She drank a lot of water after the workout.',
       tr: 'Egzersizden sonra çok su içti.',
     },
     {
-      ing: '48. There are a lot of clouds in the sky today.',
+      ing: 'There are a lot of clouds in the sky today.',
       tr: 'Bugün gökyüzünde çok bulut var.',
     },
     {
-      ing: '49. He took a lot of notes during the lecture.',
+      ing: 'He took a lot of notes during the lecture.',
       tr: 'Ders sırasında çok not aldı.',
     },
     {
-      ing: '50. I spent a lot of money on my new phone.',
+      ing: 'I spent a lot of money on my new phone.',
       tr: 'Yeni telefonuma çok para harcadım.',
     },
     {
-      ing: '51. We have a lot of work to finish by tomorrow.',
+      ing: 'We have a lot of work to finish by tomorrow.',
       tr: 'Yarın bitirmemiz gereken çok işimiz var.',
     },
     {
-      ing: '52. She bought a lot of gifts for her friends.',
+      ing: 'She bought a lot of gifts for her friends.',
       tr: 'Arkadaşları için çok hediye aldı.',
     },
     {
-      ing: '53. There are a lot of flowers in the garden.',
+      ing: 'There are a lot of flowers in the garden.',
       tr: 'Bahçede çok çiçek var.',
     },
     {
-      ing: '54. He received a lot of praise for his work.',
+      ing: 'He received a lot of praise for his work.',
       tr: 'Çalışmaları için çok övgü aldı.',
     },
     {
-      ing: '55. I saw a lot of people at the concert.',
+      ing: 'I saw a lot of people at the concert.',
       tr: 'Konserde çok insan gördüm.',
     },
     {
-      ing: '56. There are a lot of dishes to wash.',
+      ing: 'There are a lot of dishes to wash.',
       tr: 'Yıkanacak çok bulaşık var.',
     },
     {
-      ing: '57. She needs a lot of rest after her surgery.',
+      ing: 'She needs a lot of rest after her surgery.',
       tr: 'Ameliyattan sonra çok dinlenmeye ihtiyacı var.',
     },
     {
-      ing: '58. We ate a lot of food at the restaurant.',
+      ing: 'We ate a lot of food at the restaurant.',
       tr: 'Restoranda çok yemek yedik.',
     },
     {
-      ing: '59. He bought a lot of furniture for his new apartment.',
+      ing: 'He bought a lot of furniture for his new apartment.',
       tr: 'Yeni dairesi için çok mobilya aldı.',
     },
     {
-      ing: '60. There’s a lot of space in this room.',
+      ing: 'There’s a lot of space in this room.',
       tr: 'Bu odada çok yer var.',
     },
     {
-      ing: '61. I have a lot of clothes to wash.',
+      ing: 'I have a lot of clothes to wash.',
       tr: 'Yıkamam gereken çok kıyafet var.',
     },
     {
-      ing: '62. She drank a lot of tea this morning.',
+      ing: 'She drank a lot of tea this morning.',
       tr: 'Bu sabah çok çay içti.',
     },
     {
-      ing: '63. We planted a lot of trees in the garden.',
+      ing: 'We planted a lot of trees in the garden.',
       tr: 'Bahçeye çok ağaç diktik.',
     },
     {
-      ing: '64. He made a lot of friends during the trip.',
+      ing: 'He made a lot of friends during the trip.',
       tr: 'Seyahat sırasında çok arkadaş edindi.',
     },
     {
-      ing: '65. There are a lot of good books in the library.',
+      ing: 'There are a lot of good books in the library.',
       tr: 'Kütüphanede çok iyi kitap var.',
     },
     {
-      ing: '66. I ate a lot of ice cream last night.',
+      ing: 'I ate a lot of ice cream last night.',
       tr: 'Dün gece çok dondurma yedim.',
     },
     {
-      ing: '67. She has a lot of energy in the mornings.',
+      ing: 'She has a lot of energy in the mornings.',
       tr: 'Sabahları çok enerjik.',
     },
     {
-      ing: '68. We faced a lot of challenges during the project.',
+      ing: 'We faced a lot of challenges during the project.',
       tr: 'Proje sırasında çok zorlukla karşılaştık.',
     },
     {
-      ing: '69. He took a lot of pictures during the trip.',
+      ing: 'He took a lot of pictures during the trip.',
       tr: 'Seyahat sırasında çok fotoğraf çekti.',
     },
     {
-      ing: '70. There’s a lot of traffic in the city center.',
+      ing: 'There’s a lot of traffic in the city center.',
       tr: 'Şehir merkezinde çok trafik var.',
     },
     {
-      ing: '71. She spends a lot of time with her family.',
+      ing: 'She spends a lot of time with her family.',
       tr: 'Ailesiyle çok zaman geçiriyor.',
     },
     {
-      ing: '72. I bought a lot of souvenirs on my vacation.',
+      ing: 'I bought a lot of souvenirs on my vacation.',
       tr: 'Tatilimde çok hediyelik eşya aldım.',
     },
     {
-      ing: '73. There are a lot of stars visible tonight.',
+      ing: 'There are a lot of stars visible tonight.',
       tr: 'Bu gece çok yıldız görünüyor.',
     },
     {
-      ing: '74. He made a lot of improvements in his work.',
+      ing: 'He made a lot of improvements in his work.',
       tr: 'İşinde çok ilerleme kaydetti.',
     },
     {
-      ing: '75. We have a lot of things to do this week.',
+      ing: 'We have a lot of things to do this week.',
       tr: 'Bu hafta yapacak çok şeyimiz var.',
     },
     {
-      ing: '76. She received a lot of support from her colleagues.',
+      ing: 'She received a lot of support from her colleagues.',
       tr: 'Meslektaşlarından çok destek aldı.',
     },
     {
-      ing: '77. There are a lot of tourists in this city.',
+      ing: 'There are a lot of tourists in this city.',
       tr: 'Bu şehirde çok turist var.',
     },
     {
-      ing: '78. He has a lot of skills in different areas.',
+      ing: 'He has a lot of skills in different areas.',
       tr: 'Farklı alanlarda çok yeteneği var.',
     },
     {
-      ing: '79. We need a lot of information to solve this problem.',
+      ing: 'We need a lot of information to solve this problem.',
       tr: 'Bu sorunu çözmek için çok bilgiye ihtiyacımız var.',
     },
     {
-      ing: '80. She ate a lot of fruit for breakfast.',
+      ing: 'She ate a lot of fruit for breakfast.',
       tr: 'Kahvaltıda çok meyve yedi.',
     },
     {
-      ing: '81. I have a lot of friends who live abroad.',
+      ing: 'I have a lot of friends who live abroad.',
       tr: 'Yurt dışında yaşayan çok arkadaşım var.',
     },
     {
-      ing: '82. There’s a lot of work to do before the deadline.',
+      ing: 'There’s a lot of work to do before the deadline.',
       tr: 'Teslim tarihinden önce yapılacak çok iş var.',
     },
     {
-      ing: '83. He spent a lot of money on his new car.',
+      ing: 'He spent a lot of money on his new car.',
       tr: 'Yeni arabasına çok para harcadı.',
     },
     {
-      ing: '84. We bought a lot of souvenirs from the gift shop.',
+      ing: 'We bought a lot of souvenirs from the gift shop.',
       tr: 'Hediyelik eşya dükkanından çok hatıra aldık.',
     },
     {
-      ing: '85. She saw a lot of familiar faces at the event.',
+      ing: 'She saw a lot of familiar faces at the event.',
       tr: 'Etkinlikte çok tanıdık yüz gördü.',
     },
     {
-      ing: '86. There’s a lot of sand on the beach.',
+      ing: 'There’s a lot of sand on the beach.',
       tr: 'Sahilde çok kum var.',
     },
     {
-      ing: '87. I spent a lot of time preparing for the exam.',
+      ing: 'I spent a lot of time preparing for the exam.',
       tr: 'Sınava hazırlanmak için çok zaman harcadım.',
     },
     {
-      ing: '88. He gave a lot of advice to his younger brother.',
+      ing: 'He gave a lot of advice to his younger brother.',
       tr: 'Küçük kardeşine çok tavsiye verdi.',
     },
     {
-      ing: '89. We drank a lot of coffee during the meeting.',
+      ing: 'We drank a lot of coffee during the meeting.',
       tr: 'Toplantı sırasında çok kahve içtik.',
     },
     {
-      ing: '90. She has a lot of photos from her vacation.',
+      ing: 'She has a lot of photos from her vacation.',
       tr: 'Tatilinden çok fotoğrafı var.',
     },
     {
-      ing: '91. There are a lot of tasks to complete today.',
+      ing: 'There are a lot of tasks to complete today.',
       tr: 'Bugün tamamlanacak çok görev var.',
     },
     {
-      ing: '92. He ate a lot of candy at the party.',
+      ing: 'He ate a lot of candy at the party.',
       tr: 'Partide çok şeker yedi.',
     },
     {
-      ing: '93. I saw a lot of flowers blooming in the garden.',
+      ing: 'I saw a lot of flowers blooming in the garden.',
       tr: 'Bahçede çok çiçek açtığını gördüm.',
     },
     {
-      ing: '94. She spends a lot of time practicing the piano.',
+      ing: 'She spends a lot of time practicing the piano.',
       tr: 'Piyano çalmayı pratik yapmak için çok zaman harcıyor.',
     },
     {
-      ing: '95. There are a lot of clouds in the sky.',
+      ing: 'There are a lot of clouds in the sky.',
       tr: 'Gökyüzünde çok bulut var.',
     },
     {
-      ing: '96. He received a lot of compliments on his work.',
+      ing: 'He received a lot of compliments on his work.',
       tr: 'Çalışmaları hakkında çok iltifat aldı.',
     },
     {
-      ing: '97. We saw a lot of animals at the zoo.',
+      ing: 'We saw a lot of animals at the zoo.',
       tr: 'Hayvanat bahçesinde çok hayvan gördük.',
     },
     {
-      ing: '98. She made a lot of friends at her new school.',
+      ing: 'She made a lot of friends at her new school.',
       tr: 'Yeni okulunda çok arkadaş edindi.',
     },
     {
-      ing: '99. There’s a lot of snow on the mountain.',
+      ing: 'There’s a lot of snow on the mountain.',
       tr: 'Dağda çok kar var.',
     },
     {
-      ing: '100. He gave a lot of attention to detail in his report.',
+      ing: 'He gave a lot of attention to detail in his report.',
       tr: 'Raporunda detaylara çok dikkat etti.',
     },
   ],
   Any: [
-    {ing: '1. Do you have any questions?', tr: 'Herhangi bir sorunuz var mı?'},
-    {ing: '2. I don’t have any money.', tr: 'Hiç param yok.'},
-    {ing: '3. Is there any food left?', tr: 'Hiç yemek kaldı mı?'},
+    {ing: 'Do you have any questions?', tr: 'Herhangi bir sorunuz var mı?'},
+    {ing: 'I don’t have any money.', tr: 'Hiç param yok.'},
+    {ing: 'Is there any food left?', tr: 'Hiç yemek kaldı mı?'},
     {
-      ing: '4. She doesn’t need any help.',
+      ing: 'She doesn’t need any help.',
       tr: 'Onun hiç yardıma ihtiyacı yok.',
     },
-    {ing: '5. Did you find any new books?', tr: 'Yeni kitap buldun mu?'},
-    {ing: '6. I don’t have any time today.', tr: 'Bugün hiç vaktim yok.'},
+    {ing: 'Did you find any new books?', tr: 'Yeni kitap buldun mu?'},
+    {ing: 'I don’t have any time today.', tr: 'Bugün hiç vaktim yok.'},
     {
-      ing: '7. Are there any students in the classroom?',
+      ing: 'Are there any students in the classroom?',
       tr: 'Sınıfta hiç öğrenci var mı?',
     },
     {
-      ing: '8. I didn’t see any mistakes in the report.',
+      ing: 'I didn’t see any mistakes in the report.',
       tr: 'Raporda hiç hata görmedim.',
     },
     {
-      ing: '9. Is there any sugar in the kitchen?',
+      ing: 'Is there any sugar in the kitchen?',
       tr: 'Mutfakta hiç şeker var mı?',
     },
     {
-      ing: '10. He doesn’t have any friends in this city.',
+      ing: 'He doesn’t have any friends in this city.',
       tr: 'Bu şehirde hiç arkadaşı yok.',
     },
-    {ing: '11. Did you bring any water?', tr: 'Hiç su getirdin mi?'},
+    {ing: 'Did you bring any water?', tr: 'Hiç su getirdin mi?'},
     {
-      ing: '12. There aren’t any chairs in the room.',
+      ing: 'There aren’t any chairs in the room.',
       tr: 'Odada hiç sandalye yok.',
     },
     {
-      ing: '13. She didn’t buy any clothes yesterday.',
+      ing: 'She didn’t buy any clothes yesterday.',
       tr: 'Dün hiç kıyafet almadı.',
     },
     {
-      ing: '14. Is there any coffee left in the pot?',
+      ing: 'Is there any coffee left in the pot?',
       tr: 'Demlikte hiç kahve kaldı mı?',
     },
     {
-      ing: '15. We don’t have any plans for the weekend.',
+      ing: 'We don’t have any plans for the weekend.',
       tr: 'Hafta sonu için hiç planımız yok.',
     },
     {
-      ing: '16. Did you hear any news from them?',
+      ing: 'Did you hear any news from them?',
       tr: 'Onlardan hiç haber aldın mı?',
     },
     {
-      ing: '17. I don’t see any cars on the street.',
+      ing: 'I don’t see any cars on the street.',
       tr: 'Caddede hiç araba görmüyorum.',
     },
     {
-      ing: '18. Are there any tickets available for the concert?',
+      ing: 'Are there any tickets available for the concert?',
       tr: 'Konser için hiç bilet var mı?',
     },
     {
-      ing: '19. She didn’t make any mistakes in the exam.',
+      ing: 'She didn’t make any mistakes in the exam.',
       tr: 'Sınavda hiç hata yapmadı.',
     },
     {
-      ing: '20. Do you know any good restaurants around here?',
+      ing: 'Do you know any good restaurants around here?',
       tr: 'Buralarda iyi bir restoran biliyor musun?',
     },
     {
-      ing: '21. I don’t have any free time this week.',
+      ing: 'I don’t have any free time this week.',
       tr: 'Bu hafta hiç boş vaktim yok.',
     },
     {
-      ing: '22. Did you take any photos on your trip?',
+      ing: 'Did you take any photos on your trip?',
       tr: 'Seyahatinizde hiç fotoğraf çektiniz mi?',
     },
     {
-      ing: '23. Is there any bread left on the table?',
+      ing: 'Is there any bread left on the table?',
       tr: 'Masada hiç ekmek kaldı mı?',
     },
     {
-      ing: '24. I didn’t find any information about the event.',
+      ing: 'I didn’t find any information about the event.',
       tr: 'Etkinlik hakkında hiç bilgi bulamadım.',
     },
     {
-      ing: '25. Are there any emails for me?',
+      ing: 'Are there any emails for me?',
       tr: 'Benim için hiç e-posta var mı?',
     },
     {
-      ing: '26. She doesn’t have any experience in this field.',
+      ing: 'She doesn’t have any experience in this field.',
       tr: 'Bu alanda hiç deneyimi yok.',
     },
     {
-      ing: '27. Did you meet any new people at the party?',
+      ing: 'Did you meet any new people at the party?',
       tr: 'Partide hiç yeni insanlarla tanıştın mı?',
     },
     {
-      ing: '28. We don’t need any more chairs.',
+      ing: 'We don’t need any more chairs.',
       tr: 'Daha fazla sandalyeye ihtiyacımız yok.',
     },
     {
-      ing: '29. Are there any buses going to the city center?',
+      ing: 'Are there any buses going to the city center?',
       tr: 'Şehir merkezine giden hiç otobüs var mı?',
     },
     {
-      ing: '30. He didn’t bring any snacks for the trip.',
+      ing: 'He didn’t bring any snacks for the trip.',
       tr: 'Seyahat için hiç atıştırmalık getirmedi.',
     },
     {
-      ing: '31. Do you have any advice for me?',
+      ing: 'Do you have any advice for me?',
       tr: 'Benim için hiç tavsiyen var mı?',
     },
     {
-      ing: '32. I don’t want any coffee, thank you.',
+      ing: 'I don’t want any coffee, thank you.',
       tr: 'Hiç kahve istemiyorum, teşekkür ederim.',
     },
     {
-      ing: '33. Are there any problems with the computer?',
+      ing: 'Are there any problems with the computer?',
       tr: 'Bilgisayarda hiç sorun var mı?',
     },
     {
-      ing: '34. She didn’t receive any letters this week.',
+      ing: 'She didn’t receive any letters this week.',
       tr: 'Bu hafta hiç mektup almadı.',
     },
     {
-      ing: '35. Do you know any other languages?',
+      ing: 'Do you know any other languages?',
       tr: 'Başka bir dil biliyor musun?',
     },
     {
-      ing: '36. I didn’t see any animals in the park.',
+      ing: 'I didn’t see any animals in the park.',
       tr: 'Parkta hiç hayvan görmedim.',
     },
     {
-      ing: '37. Are there any apples in the fridge?',
+      ing: 'Are there any apples in the fridge?',
       tr: 'Buzdolabında hiç elma var mı?',
     },
-    {ing: '38. He didn’t offer any help.', tr: 'Hiç yardım teklif etmedi.'},
+    {ing: 'He didn’t offer any help.', tr: 'Hiç yardım teklif etmedi.'},
     {
-      ing: '39. Is there any milk left for breakfast?',
+      ing: 'Is there any milk left for breakfast?',
       tr: 'Kahvaltı için hiç süt kaldı mı?',
     },
     {
-      ing: '40. We don’t have any paper to print.',
+      ing: 'We don’t have any paper to print.',
       tr: 'Yazdıracak hiç kağıdımız yok.',
     },
     {
-      ing: '41. Did you watch any movies last night?',
+      ing: 'Did you watch any movies last night?',
       tr: 'Dün gece hiç film izledin mi?',
     },
-    {ing: '42. She doesn’t eat any meat.', tr: 'Hiç et yemez.'},
+    {ing: 'She doesn’t eat any meat.', tr: 'Hiç et yemez.'},
     {
-      ing: '43. Is there any way to fix this problem?',
+      ing: 'Is there any way to fix this problem?',
       tr: 'Bu sorunu çözmenin bir yolu var mı?',
     },
     {
-      ing: '44. I didn’t bring any clothes for the trip.',
+      ing: 'I didn’t bring any clothes for the trip.',
       tr: 'Seyahat için hiç kıyafet getirmedim.',
     },
     {
-      ing: '45. Are there any vegetables in the garden?',
+      ing: 'Are there any vegetables in the garden?',
       tr: 'Bahçede hiç sebze var mı?',
     },
     {
-      ing: '46. He doesn’t have any tools to fix the car.',
+      ing: 'He doesn’t have any tools to fix the car.',
       tr: 'Arabayı tamir edecek hiç aleti yok.',
     },
     {
-      ing: '47. Did you find any seats in the restaurant?',
+      ing: 'Did you find any seats in the restaurant?',
       tr: 'Restoranda hiç yer buldunuz mu?',
     },
-    {ing: '48. Is there any work left to do?', tr: 'Yapacak hiç iş kaldı mı?'},
+    {ing: 'Is there any work left to do?', tr: 'Yapacak hiç iş kaldı mı?'},
     {
-      ing: '49. I don’t have any plans tonight.',
+      ing: 'I don’t have any plans tonight.',
       tr: 'Bu gece için hiç planım yok.',
     },
     {
-      ing: '50. Are there any good books to read?',
+      ing: 'Are there any good books to read?',
       tr: 'Okunacak iyi kitaplar var mı?',
     },
     {
-      ing: '51. She didn’t take any medicine for her cold.',
+      ing: 'She didn’t take any medicine for her cold.',
       tr: 'Soğuk algınlığı için hiç ilaç almadı.',
     },
     {
-      ing: '52. Do you have any suggestions for me?',
+      ing: 'Do you have any suggestions for me?',
       tr: 'Benim için hiç öneriniz var mı?',
     },
     {
-      ing: '53. I didn’t see any emails in my inbox.',
+      ing: 'I didn’t see any emails in my inbox.',
       tr: 'Gelen kutumda hiç e-posta görmedim.',
     },
     {
-      ing: '54. Are there any interesting articles in this magazine?',
+      ing: 'Are there any interesting articles in this magazine?',
       tr: 'Bu dergide hiç ilginç makale var mı?',
     },
     {
-      ing: '55. He didn’t hear any noise from the room.',
+      ing: 'He didn’t hear any noise from the room.',
       tr: 'Odadan hiç ses duymadı.',
     },
     {
-      ing: '56. Is there any chance of rain today?',
+      ing: 'Is there any chance of rain today?',
       tr: 'Bugün yağmur yağma ihtimali var mı?',
     },
     {
-      ing: '57. We don’t need any more information.',
+      ing: 'We don’t need any more information.',
       tr: 'Daha fazla bilgiye ihtiyacımız yok.',
     },
     {
-      ing: '58. Did you notice any mistakes in the document?',
+      ing: 'Did you notice any mistakes in the document?',
       tr: 'Belgede hiç hata fark ettin mi?',
     },
     {
-      ing: '59. Are there any flights available tomorrow?',
+      ing: 'Are there any flights available tomorrow?',
       tr: 'Yarın hiç uçuş var mı?',
     },
     {
-      ing: '60. I didn’t make any changes to the plan.',
+      ing: 'I didn’t make any changes to the plan.',
       tr: 'Plana hiç değişiklik yapmadım.',
     },
     {
-      ing: '61. Is there any juice left in the fridge?',
+      ing: 'Is there any juice left in the fridge?',
       tr: 'Buzdolabında hiç meyve suyu kaldı mı?',
     },
     {
-      ing: '62. She didn’t receive any calls today.',
+      ing: 'She didn’t receive any calls today.',
       tr: 'Bugün hiç telefon almadı.',
     },
     {
-      ing: '63. Do you have any questions about the lesson?',
+      ing: 'Do you have any questions about the lesson?',
       tr: 'Dersle ilgili hiç sorunuz var mı?',
     },
     {
-      ing: '64. I don’t need any help right now.',
+      ing: 'I don’t need any help right now.',
       tr: 'Şu an hiç yardıma ihtiyacım yok.',
     },
     {
-      ing: '65. Are there any seats available for the show?',
+      ing: 'Are there any seats available for the show?',
       tr: 'Gösteri için hiç yer var mı?',
     },
     {
-      ing: '66. He didn’t write any letters to his family.',
+      ing: 'He didn’t write any letters to his family.',
       tr: 'Ailesine hiç mektup yazmadı.',
     },
     {
-      ing: '67. Did you bring any food for lunch?',
+      ing: 'Did you bring any food for lunch?',
       tr: 'Öğle yemeği için hiç yemek getirdin mi?',
     },
     {
-      ing: '68. Is there any sugar in the cupboard?',
+      ing: 'Is there any sugar in the cupboard?',
       tr: 'Dolapta hiç şeker var mı?',
     },
-    {ing: '69. I don’t have any energy left.', tr: 'Hiç enerjim kalmadı.'},
+    {ing: 'I don’t have any energy left.', tr: 'Hiç enerjim kalmadı.'},
     {
-      ing: '70. Are there any good movies playing in the cinema?',
+      ing: 'Are there any good movies playing in the cinema?',
       tr: 'Sinemada oynayan hiç iyi film var mı?',
     },
     {
-      ing: '71. She didn’t save any money this month.',
+      ing: 'She didn’t save any money this month.',
       tr: 'Bu ay hiç para biriktirmedi.',
     },
     {
-      ing: '72. Do you know any shortcuts to get there?',
+      ing: 'Do you know any shortcuts to get there?',
       tr: 'Oraya gitmek için hiç kestirme biliyor musun?',
     },
     {
-      ing: '73. I didn’t feel any pain after the surgery.',
+      ing: 'I didn’t feel any pain after the surgery.',
       tr: 'Ameliyattan sonra hiç acı hissetmedim.',
     },
     {
-      ing: '74. Is there any butter for the bread?',
+      ing: 'Is there any butter for the bread?',
       tr: 'Ekmek için hiç tereyağı var mı?',
     },
     {
-      ing: '75. He didn’t answer any of my questions.',
+      ing: 'He didn’t answer any of my questions.',
       tr: 'Hiçbir soruma cevap vermedi.',
     },
     {
-      ing: '76. Do you have any idea where she went?',
+      ing: 'Do you have any idea where she went?',
       tr: 'Nereye gittiği hakkında bir fikrin var mı?',
     },
     {
-      ing: '77. I didn’t take any notes during the lecture.',
+      ing: 'I didn’t take any notes during the lecture.',
       tr: 'Ders sırasında hiç not almadım.',
     },
     {
-      ing: '78. Are there any problems we need to solve?',
+      ing: 'Are there any problems we need to solve?',
       tr: 'Çözmemiz gereken hiç sorun var mı?',
     },
     {
-      ing: '79. She doesn’t make any excuses for her mistakes.',
+      ing: 'She doesn’t make any excuses for her mistakes.',
       tr: 'Hataları için hiç bahane üretmez.',
     },
     {
-      ing: '80. Did you get any sleep last night?',
+      ing: 'Did you get any sleep last night?',
       tr: 'Dün gece hiç uyudun mu?',
     },
     {
-      ing: '81. I don’t have any milk for my coffee.',
+      ing: 'I don’t have any milk for my coffee.',
       tr: 'Kahvem için hiç sütüm yok.',
     },
     {
-      ing: '82. Are there any buses running today?',
+      ing: 'Are there any buses running today?',
       tr: 'Bugün hiç otobüs çalışıyor mu?',
     },
-    {ing: '83. He didn’t make any promises.', tr: 'Hiç söz vermedi.'},
+    {ing: 'He didn’t make any promises.', tr: 'Hiç söz vermedi.'},
     {
-      ing: '84. Do you have any plans for the weekend?',
+      ing: 'Do you have any plans for the weekend?',
       tr: 'Hafta sonu için hiç planın var mı?',
     },
     {
-      ing: '85. I didn’t hear any good news today.',
+      ing: 'I didn’t hear any good news today.',
       tr: 'Bugün hiç iyi haber duymadım.',
     },
     {
-      ing: '86. Is there any butter in the fridge?',
+      ing: 'Is there any butter in the fridge?',
       tr: 'Buzdolabında hiç tereyağı var mı?',
     },
     {
-      ing: '87. She doesn’t want any help with her work.',
+      ing: 'She doesn’t want any help with her work.',
       tr: 'İşiyle ilgili hiç yardım istemiyor.',
     },
     {
-      ing: '88. Did you find any good restaurants in town?',
+      ing: 'Did you find any good restaurants in town?',
       tr: 'Kasabada hiç iyi restoran buldun mu?',
     },
     {
-      ing: '89. I don’t have any idea how to solve this.',
+      ing: 'I don’t have any idea how to solve this.',
       tr: 'Bunu nasıl çözeceğim hakkında hiç fikrim yok.',
     },
     {
-      ing: '90. Are there any problems with the internet connection?',
+      ing: 'Are there any problems with the internet connection?',
       tr: 'İnternet bağlantısında hiç sorun var mı?',
     },
     {
-      ing: '91. He didn’t make any decisions yet.',
+      ing: 'He didn’t make any decisions yet.',
       tr: 'Henüz hiç karar vermedi.',
     },
     {
-      ing: '92. Do you have any free time this weekend?',
+      ing: 'Do you have any free time this weekend?',
       tr: 'Bu hafta sonu hiç boş vaktin var mı?',
     },
     {
-      ing: '93. I didn’t receive any gifts for my birthday.',
+      ing: 'I didn’t receive any gifts for my birthday.',
       tr: 'Doğum günümde hiç hediye almadım.',
     },
     {
-      ing: '94. Is there any food left in the fridge?',
+      ing: 'Is there any food left in the fridge?',
       tr: 'Buzdolabında hiç yemek kaldı mı?',
     },
     {
-      ing: '95. She didn’t answer any of the questions.',
+      ing: 'She didn’t answer any of the questions.',
       tr: 'Hiçbir soruya cevap vermedi.',
     },
     {
-      ing: '96. Do you have any milk for the recipe?',
+      ing: 'Do you have any milk for the recipe?',
       tr: 'Tarif için hiç sütün var mı?',
     },
     {
-      ing: '97. I didn’t find any keys in the room.',
+      ing: 'I didn’t find any keys in the room.',
       tr: 'Odada hiç anahtar bulamadım.',
     },
     {
-      ing: '98. Is there any chance we will finish on time?',
+      ing: 'Is there any chance we will finish on time?',
       tr: 'Zamanında bitirme ihtimalimiz var mı?',
     },
     {
-      ing: '99. He didn’t see any of his friends at the party.',
+      ing: 'He didn’t see any of his friends at the party.',
       tr: 'Partide hiçbir arkadaşını görmedi.',
     },
     {
-      ing: '100. Do you have any information about the meeting?',
+      ing: 'Do you have any information about the meeting?',
       tr: 'Toplantı hakkında hiç bilgin var mı?',
     },
   ],
   LotsOf: [
     {
-      ing: '1. There are lots of people in the park today.',
+      ing: 'There are lots of people in the park today.',
       tr: 'Bugün parkta çok insan var.',
     },
     {
-      ing: '2. She bought lots of clothes during the sale.',
+      ing: 'She bought lots of clothes during the sale.',
       tr: 'İndirim sırasında çok kıyafet aldı.',
     },
     {
-      ing: '3. I have lots of homework to finish.',
+      ing: 'I have lots of homework to finish.',
       tr: 'Bitirmem gereken çok ödevim var.',
     },
     {
-      ing: '4. He drinks lots of coffee every morning.',
+      ing: 'He drinks lots of coffee every morning.',
       tr: 'Her sabah çok kahve içer.',
     },
     {
-      ing: '5. We ate lots of delicious food at the party.',
+      ing: 'We ate lots of delicious food at the party.',
       tr: 'Partide çok lezzetli yemek yedik.',
     },
     {
-      ing: '6. She has lots of friends at school.',
+      ing: 'She has lots of friends at school.',
       tr: 'Okulda çok arkadaşı var.',
     },
     {
-      ing: '7. There are lots of trees in the forest.',
+      ing: 'There are lots of trees in the forest.',
       tr: 'Ormanda çok ağaç var.',
     },
     {
-      ing: '8. He made lots of mistakes in the exam.',
+      ing: 'He made lots of mistakes in the exam.',
       tr: 'Sınavda çok hata yaptı.',
     },
     {
-      ing: '9. I saw lots of birds in the garden.',
+      ing: 'I saw lots of birds in the garden.',
       tr: 'Bahçede çok kuş gördüm.',
     },
     {
-      ing: '10. We took lots of pictures on vacation.',
+      ing: 'We took lots of pictures on vacation.',
       tr: 'Tatilde çok fotoğraf çektik.',
     },
     {
-      ing: '11. She spends lots of time reading books.',
+      ing: 'She spends lots of time reading books.',
       tr: 'Kitap okumaya çok zaman harcar.',
     },
     {
-      ing: '12. There are lots of cars on the road today.',
+      ing: 'There are lots of cars on the road today.',
       tr: 'Bugün yolda çok araba var.',
     },
     {
-      ing: '13. He gave me lots of advice for the project.',
+      ing: 'He gave me lots of advice for the project.',
       tr: 'Bana proje hakkında çok tavsiye verdi.',
     },
     {
-      ing: '14. We have lots of plans for the weekend.',
+      ing: 'We have lots of plans for the weekend.',
       tr: 'Hafta sonu için çok planımız var.',
     },
     {
-      ing: '15. She bought lots of vegetables at the market.',
+      ing: 'She bought lots of vegetables at the market.',
       tr: 'Marketten çok sebze aldı.',
     },
     {
-      ing: '16. I have lots of clothes to wash.',
+      ing: 'I have lots of clothes to wash.',
       tr: 'Yıkamam gereken çok kıyafetim var.',
     },
     {
-      ing: '17. There are lots of stars in the sky tonight.',
+      ing: 'There are lots of stars in the sky tonight.',
       tr: 'Bu gece gökyüzünde çok yıldız var.',
     },
     {
-      ing: '18. He ate lots of pasta for dinner.',
+      ing: 'He ate lots of pasta for dinner.',
       tr: 'Akşam yemeğinde çok makarna yedi.',
     },
     {
-      ing: '19. We saw lots of animals at the zoo.',
+      ing: 'We saw lots of animals at the zoo.',
       tr: 'Hayvanat bahçesinde çok hayvan gördük.',
     },
     {
-      ing: '20. She received lots of gifts on her birthday.',
+      ing: 'She received lots of gifts on her birthday.',
       tr: 'Doğum gününde çok hediye aldı.',
     },
     {
-      ing: '21. There are lots of houses in the neighborhood.',
+      ing: 'There are lots of houses in the neighborhood.',
       tr: 'Mahallede çok ev var.',
     },
     {
-      ing: '22. He has lots of experience in his job.',
+      ing: 'He has lots of experience in his job.',
       tr: 'İşinde çok deneyimi var.',
     },
     {
-      ing: '23. We have lots of things to do this week.',
+      ing: 'We have lots of things to do this week.',
       tr: 'Bu hafta yapacak çok şeyimiz var.',
     },
     {
-      ing: '24. She spends lots of money on clothes.',
+      ing: 'She spends lots of money on clothes.',
       tr: 'Kıyafetlere çok para harcar.',
     },
     {
-      ing: '25. I have lots of free time this afternoon.',
+      ing: 'I have lots of free time this afternoon.',
       tr: 'Bu öğleden sonra çok boş vaktim var.',
     },
     {
-      ing: '26. There are lots of good restaurants in this area.',
+      ing: 'There are lots of good restaurants in this area.',
       tr: 'Bu bölgede çok iyi restoran var.',
     },
-    {ing: '27. He drinks lots of water every day.', tr: 'Her gün çok su içer.'},
+    {ing: 'He drinks lots of water every day.', tr: 'Her gün çok su içer.'},
     {
-      ing: '28. She needs lots of help with her homework.',
+      ing: 'She needs lots of help with her homework.',
       tr: 'Ödeviyle ilgili çok yardıma ihtiyacı var.',
     },
     {
-      ing: '29. We spent lots of time preparing for the event.',
+      ing: 'We spent lots of time preparing for the event.',
       tr: 'Etkinlik için çok zaman harcadık.',
     },
     {
-      ing: '30. There are lots of chairs in the room.',
+      ing: 'There are lots of chairs in the room.',
       tr: 'Odada çok sandalye var.',
     },
     {
-      ing: '31. He bought lots of books from the bookstore.',
+      ing: 'He bought lots of books from the bookstore.',
       tr: 'Kitapçıdan çok kitap aldı.',
     },
     {
-      ing: '32. I saw lots of tourists in the city center.',
+      ing: 'I saw lots of tourists in the city center.',
       tr: 'Şehir merkezinde çok turist gördüm.',
     },
     {
-      ing: '33. She received lots of compliments on her dress.',
+      ing: 'She received lots of compliments on her dress.',
       tr: 'Elbisesi hakkında çok iltifat aldı.',
     },
     {
-      ing: '34. There are lots of opportunities in this field.',
+      ing: 'There are lots of opportunities in this field.',
       tr: 'Bu alanda çok fırsat var.',
     },
     {
-      ing: '35. He has lots of work to do before the deadline.',
+      ing: 'He has lots of work to do before the deadline.',
       tr: 'Teslim tarihinden önce yapacak çok işi var.',
     },
     {
-      ing: '36. We have lots of fun during the summer.',
+      ing: 'We have lots of fun during the summer.',
       tr: 'Yaz boyunca çok eğleniyoruz.',
     },
     {
-      ing: '37. She has lots of toys in her room.',
+      ing: 'She has lots of toys in her room.',
       tr: 'Odasında çok oyuncağı var.',
     },
     {
-      ing: '38. There are lots of flowers in the garden.',
+      ing: 'There are lots of flowers in the garden.',
       tr: 'Bahçede çok çiçek var.',
     },
     {
-      ing: '39. He spends lots of time playing video games.',
+      ing: 'He spends lots of time playing video games.',
       tr: 'Video oyunları oynamaya çok zaman harcar.',
     },
     {
-      ing: '40. We took lots of notes during the lecture.',
+      ing: 'We took lots of notes during the lecture.',
       tr: 'Ders sırasında çok not aldık.',
     },
     {
-      ing: '41. She drank lots of tea at breakfast.',
+      ing: 'She drank lots of tea at breakfast.',
       tr: 'Kahvaltıda çok çay içti.',
     },
     {
-      ing: '42. There are lots of dishes to wash after dinner.',
+      ing: 'There are lots of dishes to wash after dinner.',
       tr: 'Akşam yemeğinden sonra yıkanacak çok bulaşık var.',
     },
     {
-      ing: '43. He ate lots of chocolate yesterday.',
+      ing: 'He ate lots of chocolate yesterday.',
       tr: 'Dün çok çikolata yedi.',
     },
     {
-      ing: '44. I received lots of emails this morning.',
+      ing: 'I received lots of emails this morning.',
       tr: 'Bu sabah çok e-posta aldım.',
     },
     {
-      ing: '45. There are lots of buses going to the city center.',
+      ing: 'There are lots of buses going to the city center.',
       tr: 'Şehir merkezine giden çok otobüs var.',
     },
     {
-      ing: '46. We have lots of ideas for the new project.',
+      ing: 'We have lots of ideas for the new project.',
       tr: 'Yeni proje için çok fikrimiz var.',
     },
     {
-      ing: '47. She brought lots of snacks for the trip.',
+      ing: 'She brought lots of snacks for the trip.',
       tr: 'Seyahat için çok atıştırmalık getirdi.',
     },
     {
-      ing: '48. There are lots of tasks to complete today.',
+      ing: 'There are lots of tasks to complete today.',
       tr: 'Bugün tamamlanacak çok görev var.',
     },
     {
-      ing: '49. He met lots of new people at the party.',
+      ing: 'He met lots of new people at the party.',
       tr: 'Partide çok yeni insanla tanıştı.',
     },
     {
-      ing: '50. We have lots of work to do before the meeting.',
+      ing: 'We have lots of work to do before the meeting.',
       tr: 'Toplantıdan önce yapacak çok işimiz var.',
     },
     {
-      ing: '51. She spent lots of time shopping for the event.',
+      ing: 'She spent lots of time shopping for the event.',
       tr: 'Etkinlik için alışveriş yapmaya çok zaman harcadı.',
     },
     {
-      ing: '52. There are lots of interesting places to visit.',
+      ing: 'There are lots of interesting places to visit.',
       tr: 'Ziyaret edilecek çok ilginç yer var.',
     },
     {
-      ing: '53. He has lots of talents in different fields.',
+      ing: 'He has lots of talents in different fields.',
       tr: 'Farklı alanlarda çok yeteneği var.',
     },
     {
-      ing: '54. We ate lots of food at the restaurant.',
+      ing: 'We ate lots of food at the restaurant.',
       tr: 'Restoranda çok yemek yedik.',
     },
     {
-      ing: '55. She needs lots of rest after her surgery.',
+      ing: 'She needs lots of rest after her surgery.',
       tr: 'Ameliyatından sonra çok dinlenmeye ihtiyacı var.',
     },
     {
-      ing: '56. There are lots of clouds in the sky today.',
+      ing: 'There are lots of clouds in the sky today.',
       tr: 'Bugün gökyüzünde çok bulut var.',
     },
     {
-      ing: '57. He took lots of pictures during the trip.',
+      ing: 'He took lots of pictures during the trip.',
       tr: 'Seyahat sırasında çok fotoğraf çekti.',
     },
     {
-      ing: '58. We need lots of volunteers for the event.',
+      ing: 'We need lots of volunteers for the event.',
       tr: 'Etkinlik için çok gönüllüye ihtiyacımız var.',
     },
     {
-      ing: '59. She received lots of love from her family.',
+      ing: 'She received lots of love from her family.',
       tr: 'Ailesinden çok sevgi aldı.',
     },
     {
-      ing: '60. There are lots of reasons to be happy.',
+      ing: 'There are lots of reasons to be happy.',
       tr: 'Mutlu olmak için çok sebep var.',
     },
     {
-      ing: '61. He drinks lots of milk to stay healthy.',
+      ing: 'He drinks lots of milk to stay healthy.',
       tr: 'Sağlıklı kalmak için çok süt içer.',
     },
     {
-      ing: '62. We faced lots of challenges during the project.',
+      ing: 'We faced lots of challenges during the project.',
       tr: 'Proje sırasında çok zorlukla karşılaştık.',
     },
     {
-      ing: '63. She has lots of respect for her teachers.',
+      ing: 'She has lots of respect for her teachers.',
       tr: 'Öğretmenlerine çok saygısı var.',
     },
     {
-      ing: '64. I received lots of support from my friends.',
+      ing: 'I received lots of support from my friends.',
       tr: 'Arkadaşlarımdan çok destek aldım.',
     },
     {
-      ing: '65. There are lots of things to learn in life.',
+      ing: 'There are lots of things to learn in life.',
       tr: 'Hayatta öğrenilecek çok şey var.',
     },
     {
-      ing: '66. He gave me lots of reasons to trust him.',
+      ing: 'He gave me lots of reasons to trust him.',
       tr: 'Ona güvenmem için bana çok sebep verdi.',
     },
     {
-      ing: '67. We need lots of energy to finish this task.',
+      ing: 'We need lots of energy to finish this task.',
       tr: 'Bu görevi bitirmek için çok enerjiye ihtiyacımız var.',
     },
     {
-      ing: '68. She spent lots of money on her new house.',
+      ing: 'She spent lots of money on her new house.',
       tr: 'Yeni evine çok para harcadı.',
     },
     {
-      ing: '69. There are lots of cars parked outside.',
+      ing: 'There are lots of cars parked outside.',
       tr: 'Dışarıda park etmiş çok araba var.',
     },
     {
-      ing: '70. He made lots of friends at his new school.',
+      ing: 'He made lots of friends at his new school.',
       tr: 'Yeni okulunda çok arkadaş edindi.',
     },
     {
-      ing: '71. We bought lots of souvenirs during our trip.',
+      ing: 'We bought lots of souvenirs during our trip.',
       tr: 'Seyahatimiz sırasında çok hatıra aldık.',
     },
     {
-      ing: '72. She received lots of compliments for her presentation.',
+      ing: 'She received lots of compliments for her presentation.',
       tr: 'Sunumu için çok iltifat aldı.',
     },
     {
-      ing: '73. There are lots of questions left unanswered.',
+      ing: 'There are lots of questions left unanswered.',
       tr: 'Cevaplanmamış çok soru var.',
     },
     {
-      ing: '74. He spent lots of time preparing for the exam.',
+      ing: 'He spent lots of time preparing for the exam.',
       tr: 'Sınava hazırlanmak için çok zaman harcadı.',
     },
     {
-      ing: '75. We have lots of things to discuss.',
+      ing: 'We have lots of things to discuss.',
       tr: 'Konuşacak çok şeyimiz var.',
     },
     {
-      ing: '76. She ate lots of fruit for breakfast.',
+      ing: 'She ate lots of fruit for breakfast.',
       tr: 'Kahvaltıda çok meyve yedi.',
     },
     {
-      ing: '77. There are lots of animals in the jungle.',
+      ing: 'There are lots of animals in the jungle.',
       tr: 'Ormanda çok hayvan var.',
     },
     {
-      ing: '78. He made lots of improvements in his skills.',
+      ing: 'He made lots of improvements in his skills.',
       tr: 'Becerilerinde çok gelişme kaydetti.',
     },
     {
-      ing: '79. We received lots of feedback from our customers.',
+      ing: 'We received lots of feedback from our customers.',
       tr: 'Müşterilerimizden çok geri bildirim aldık.',
     },
     {
-      ing: '80. She has lots of dreams for the future.',
+      ing: 'She has lots of dreams for the future.',
       tr: 'Gelecek için çok hayali var.',
     },
     {
-      ing: '81. There are lots of problems to solve in this project.',
+      ing: 'There are lots of problems to solve in this project.',
       tr: 'Bu projede çözülmesi gereken çok sorun var.',
     },
     {
-      ing: '82. He gave lots of money to help the charity.',
+      ing: 'He gave lots of money to help the charity.',
       tr: 'Hayır kurumuna yardımcı olmak için çok para verdi.',
     },
     {
-      ing: '83. We bought lots of groceries for the week.',
+      ing: 'We bought lots of groceries for the week.',
       tr: 'Hafta için çok market alışverişi yaptık.',
     },
     {
-      ing: '84. She spent lots of time organizing the event.',
+      ing: 'She spent lots of time organizing the event.',
       tr: 'Etkinliği organize etmek için çok zaman harcadı.',
     },
     {
-      ing: '85. There are lots of choices on the menu.',
+      ing: 'There are lots of choices on the menu.',
       tr: 'Menüde çok seçenek var.',
     },
     {
-      ing: '86. He drank lots of water during the race.',
+      ing: 'He drank lots of water during the race.',
       tr: 'Yarış sırasında çok su içti.',
     },
     {
-      ing: '87. We took lots of breaks during the hike.',
+      ing: 'We took lots of breaks during the hike.',
       tr: 'Yürüyüş sırasında çok mola verdik.',
     },
     {
-      ing: '88. She received lots of positive feedback.',
+      ing: 'She received lots of positive feedback.',
       tr: 'Çok olumlu geri bildirim aldı.',
     },
     {
-      ing: '89. There are lots of reasons to visit this city.',
+      ing: 'There are lots of reasons to visit this city.',
       tr: 'Bu şehri ziyaret etmek için çok sebep var.',
     },
     {
-      ing: '90. He made lots of mistakes while learning.',
+      ing: 'He made lots of mistakes while learning.',
       tr: 'Öğrenirken çok hata yaptı.',
     },
     {
-      ing: '91. We saw lots of beautiful landscapes on the trip.',
+      ing: 'We saw lots of beautiful landscapes on the trip.',
       tr: 'Seyahatte çok güzel manzaralar gördük.',
     },
     {
-      ing: '92. She brought lots of food to the picnic.',
+      ing: 'She brought lots of food to the picnic.',
       tr: 'Pikniğe çok yiyecek getirdi.',
     },
     {
-      ing: '93. There are lots of books in the library.',
+      ing: 'There are lots of books in the library.',
       tr: 'Kütüphanede çok kitap var.',
     },
     {
-      ing: '94. He received lots of support from his colleagues.',
+      ing: 'He received lots of support from his colleagues.',
       tr: 'Meslektaşlarından çok destek aldı.',
     },
-    {ing: '95. We had lots of fun at the beach.', tr: 'Plajda çok eğlendik.'},
+    {ing: 'We had lots of fun at the beach.', tr: 'Plajda çok eğlendik.'},
     {
-      ing: '96. She has lots of skills in different areas.',
+      ing: 'She has lots of skills in different areas.',
       tr: 'Farklı alanlarda çok becerisi var.',
     },
     {
-      ing: '97. There are lots of interesting articles in this magazine.',
+      ing: 'There are lots of interesting articles in this magazine.',
       tr: 'Bu dergide çok ilginç makale var.',
     },
     {
-      ing: '98. He spent lots of money on his vacation.',
+      ing: 'He spent lots of money on his vacation.',
       tr: 'Tatiline çok para harcadı.',
     },
     {
-      ing: '99. We saw lots of animals in the forest.',
+      ing: 'We saw lots of animals in the forest.',
       tr: 'Ormanda çok hayvan gördük.',
     },
     {
-      ing: '100. She made lots of new friends at the camp.',
+      ing: 'She made lots of new friends at the camp.',
       tr: 'Kampta çok yeni arkadaş edindi.',
     },
   ],
   Many: [
     {
-      ing: '1. There are many apples on the table.',
+      ing: 'There are many apples on the table.',
       tr: 'Masada birçok elma var.',
     },
     {
-      ing: '2. She has many friends at school.',
+      ing: 'She has many friends at school.',
       tr: 'Onun okulda birçok arkadaşı var.',
     },
-    {ing: '3. I saw many birds in the park.', tr: 'Parkta birçok kuş gördüm.'},
+    {ing: 'I saw many birds in the park.', tr: 'Parkta birçok kuş gördüm.'},
     {
-      ing: '4. There are many books in the library.',
+      ing: 'There are many books in the library.',
       tr: 'Kütüphanede birçok kitap var.',
     },
-    {ing: '5. He has many hobbies.', tr: 'Onun birçok hobisi var.'},
-    {ing: '6. Do you have many pencils?', tr: 'Birçok kalemin var mı?'},
-    {ing: '7. There are many cars on the road.', tr: 'Yolda birçok araba var.'},
+    {ing: 'He has many hobbies.', tr: 'Onun birçok hobisi var.'},
+    {ing: 'Do you have many pencils?', tr: 'Birçok kalemin var mı?'},
+    {ing: 'There are many cars on the road.', tr: 'Yolda birçok araba var.'},
     {
-      ing: '8. I have many questions to ask.',
+      ing: 'I have many questions to ask.',
       tr: 'Sormak için birçok sorum var.',
     },
     {
-      ing: '9. She bought many clothes yesterday.',
+      ing: 'She bought many clothes yesterday.',
       tr: 'Dün birçok kıyafet aldı.',
     },
     {
-      ing: '10. There are many students in the classroom.',
+      ing: 'There are many students in the classroom.',
       tr: 'Sınıfta birçok öğrenci var.',
     },
     {
-      ing: '11. They took many photos on vacation.',
+      ing: 'They took many photos on vacation.',
       tr: 'Tatil sırasında birçok fotoğraf çektiler.',
     },
     {
-      ing: '12. Many people attended the concert.',
+      ing: 'Many people attended the concert.',
       tr: 'Konsere birçok insan katıldı.',
     },
     {
-      ing: '13. He made many mistakes in the test.',
+      ing: 'He made many mistakes in the test.',
       tr: 'Sınavda birçok hata yaptı.',
     },
     {
-      ing: '14. I don’t know many of the answers.',
+      ing: 'I don’t know many of the answers.',
       tr: 'Cevapların çoğunu bilmiyorum.',
     },
     {
-      ing: '15. Many animals live in this forest.',
+      ing: 'Many animals live in this forest.',
       tr: 'Bu ormanda birçok hayvan yaşıyor.',
     },
-    {ing: '16. She has many toys at home.', tr: 'Evde birçok oyuncağı var.'},
+    {ing: 'She has many toys at home.', tr: 'Evde birçok oyuncağı var.'},
     {
-      ing: '17. I met many new people at the party.',
+      ing: 'I met many new people at the party.',
       tr: 'Partide birçok yeni insanla tanıştım.',
     },
     {
-      ing: '18. Many flowers are blooming in the garden.',
+      ing: 'Many flowers are blooming in the garden.',
       tr: 'Bahçede birçok çiçek açıyor.',
     },
     {
-      ing: '19. We visited many museums in the city.',
+      ing: 'We visited many museums in the city.',
       tr: 'Şehirde birçok müzeyi ziyaret ettik.',
     },
     {
-      ing: '20. There are many problems to solve.',
+      ing: 'There are many problems to solve.',
       tr: 'Çözülmesi gereken birçok sorun var.',
     },
     {
-      ing: '21. Many students are studying in the library.',
+      ing: 'Many students are studying in the library.',
       tr: 'Kütüphanede birçok öğrenci çalışıyor.',
     },
     {
-      ing: '22. I have many things to do today.',
+      ing: 'I have many things to do today.',
       tr: 'Bugün yapacak çok şeyim var.',
     },
     {
-      ing: '23. Many children like to play outside.',
+      ing: 'Many children like to play outside.',
       tr: 'Birçok çocuk dışarıda oynamayı sever.',
     },
     {
-      ing: '24. There were many clouds in the sky.',
+      ing: 'There were many clouds in the sky.',
       tr: 'Gökyüzünde birçok bulut vardı.',
     },
     {
-      ing: '25. She has many ideas for the project.',
+      ing: 'She has many ideas for the project.',
       tr: 'Proje için birçok fikri var.',
     },
     {
-      ing: '26. Many people enjoy watching movies.',
+      ing: 'Many people enjoy watching movies.',
       tr: 'Birçok insan film izlemeyi sever.',
     },
     {
-      ing: '27. I read many books last year.',
+      ing: 'I read many books last year.',
       tr: 'Geçen yıl birçok kitap okudum.',
     },
     {
-      ing: '28. There are many fish in the sea.',
+      ing: 'There are many fish in the sea.',
       tr: 'Denizde birçok balık var.',
     },
     {
-      ing: '29. He gave many gifts to his friends.',
+      ing: 'He gave many gifts to his friends.',
       tr: 'Arkadaşlarına birçok hediye verdi.',
     },
     {
-      ing: '30. Many tourists visit this city every year.',
+      ing: 'Many tourists visit this city every year.',
       tr: 'Her yıl bu şehri birçok turist ziyaret eder.',
     },
     {
-      ing: '31. They have many plans for the weekend.',
+      ing: 'They have many plans for the weekend.',
       tr: 'Hafta sonu için birçok planları var.',
     },
     {
-      ing: '32. I saw many stars in the night sky.',
+      ing: 'I saw many stars in the night sky.',
       tr: 'Gece gökyüzünde birçok yıldız gördüm.',
     },
     {
-      ing: '33. She has many beautiful dresses.',
+      ing: 'She has many beautiful dresses.',
       tr: 'Onun birçok güzel elbisesi var.',
     },
     {
-      ing: '34. Many students are afraid of exams.',
+      ing: 'Many students are afraid of exams.',
       tr: 'Birçok öğrenci sınavlardan korkar.',
     },
     {
-      ing: '35. There are many chairs in the room.',
+      ing: 'There are many chairs in the room.',
       tr: 'Odadaki birçok sandalye var.',
     },
     {
-      ing: '36. He has many responsibilities at work.',
+      ing: 'He has many responsibilities at work.',
       tr: 'İş yerinde birçok sorumluluğu var.',
     },
     {
-      ing: '37. Many people don’t like rainy weather.',
+      ing: 'Many people don’t like rainy weather.',
       tr: 'Birçok insan yağmurlu havayı sevmez.',
     },
     {
-      ing: '38. We found many interesting books in the store.',
+      ing: 'We found many interesting books in the store.',
       tr: 'Mağazada birçok ilginç kitap bulduk.',
     },
     {
-      ing: '39. Many houses were damaged by the storm.',
+      ing: 'Many houses were damaged by the storm.',
       tr: 'Fırtına birçok eve zarar verdi.',
     },
     {
-      ing: '40. She received many compliments on her dress.',
+      ing: 'She received many compliments on her dress.',
       tr: 'Elbisesi hakkında birçok iltifat aldı.',
     },
     {
-      ing: '41. There are many kinds of fruit in the market.',
+      ing: 'There are many kinds of fruit in the market.',
       tr: 'Pazarda birçok meyve çeşidi var.',
     },
     {
-      ing: '42. I visited many cities during my trip.',
+      ing: 'I visited many cities during my trip.',
       tr: 'Seyahatimde birçok şehir ziyaret ettim.',
     },
     {
-      ing: '43. Many people came to the party.',
+      ing: 'Many people came to the party.',
       tr: 'Partiye birçok insan geldi.',
     },
     {
-      ing: '44. She learned many new words in class.',
+      ing: 'She learned many new words in class.',
       tr: 'Sınıfta birçok yeni kelime öğrendi.',
     },
     {
-      ing: '45. There are many chairs in the dining room.',
+      ing: 'There are many chairs in the dining room.',
       tr: 'Yemek odasında birçok sandalye var.',
     },
     {
-      ing: '46. I collected many shells at the beach.',
+      ing: 'I collected many shells at the beach.',
       tr: 'Sahilde birçok deniz kabuğu topladım.',
     },
     {
-      ing: '47. He has many skills in different areas.',
+      ing: 'He has many skills in different areas.',
       tr: 'Farklı alanlarda birçok yeteneği var.',
     },
     {
-      ing: '48. Many people enjoy hiking in the mountains.',
+      ing: 'Many people enjoy hiking in the mountains.',
       tr: 'Birçok insan dağlarda yürüyüş yapmayı sever.',
     },
     {
-      ing: '49. There are many tasks to complete today.',
+      ing: 'There are many tasks to complete today.',
       tr: 'Bugün tamamlanması gereken birçok görev var.',
     },
     {
-      ing: '50. Many birds migrate in the winter.',
+      ing: 'Many birds migrate in the winter.',
       tr: 'Birçok kuş kışın göç eder.',
     },
     {
-      ing: '51. She baked many cookies for the party.',
+      ing: 'She baked many cookies for the party.',
       tr: 'Parti için birçok kurabiye pişirdi.',
     },
     {
-      ing: '52. We had many guests last night.',
+      ing: 'We had many guests last night.',
       tr: 'Dün gece birçok misafirimiz vardı.',
     },
     {
-      ing: '53. Many countries are participating in the event.',
+      ing: 'Many countries are participating in the event.',
       tr: 'Birçok ülke etkinliğe katılıyor.',
     },
     {
-      ing: '54. He found many errors in the report.',
+      ing: 'He found many errors in the report.',
       tr: 'Raporunda birçok hata buldu.',
     },
     {
-      ing: '55. Many trees were planted in the park.',
+      ing: 'Many trees were planted in the park.',
       tr: 'Parkta birçok ağaç dikildi.',
     },
     {
-      ing: '56. She bought many souvenirs from the trip.',
+      ing: 'She bought many souvenirs from the trip.',
       tr: 'Seyahatten birçok hediyelik eşya aldı.',
     },
     {
-      ing: '57. I have many memories of that place.',
+      ing: 'I have many memories of that place.',
       tr: 'O yerle ilgili birçok anım var.',
     },
     {
-      ing: '58. Many people use smartphones nowadays.',
+      ing: 'Many people use smartphones nowadays.',
       tr: 'Günümüzde birçok insan akıllı telefon kullanıyor.',
     },
     {
-      ing: '59. There are many lakes in this region.',
+      ing: 'There are many lakes in this region.',
       tr: 'Bu bölgede birçok göl var.',
     },
     {
-      ing: '60. He made many friends during his travels.',
+      ing: 'He made many friends during his travels.',
       tr: 'Seyahatleri sırasında birçok arkadaş edindi.',
     },
     {
-      ing: '61. Many animals live in the jungle.',
+      ing: 'Many animals live in the jungle.',
       tr: 'Ormanda birçok hayvan yaşıyor.',
     },
     {
-      ing: '62. She took many notes during the lecture.',
+      ing: 'She took many notes during the lecture.',
       tr: 'Ders sırasında birçok not aldı.',
     },
     {
-      ing: '63. Many people prefer tea over coffee.',
+      ing: 'Many people prefer tea over coffee.',
       tr: 'Birçok insan çayı kahveden daha çok sever.',
     },
     {
-      ing: '64. There are many buses that go to the city center.',
+      ing: 'There are many buses that go to the city center.',
       tr: 'Şehir merkezine giden birçok otobüs var.',
     },
     {
-      ing: '65. He received many awards for his work.',
+      ing: 'He received many awards for his work.',
       tr: 'Çalışmaları için birçok ödül aldı.',
     },
     {
-      ing: '66. Many children are playing in the park.',
+      ing: 'Many children are playing in the park.',
       tr: 'Parkta birçok çocuk oynuyor.',
     },
     {
-      ing: '67. There are many challenges in learning a new language.',
+      ing: 'There are many challenges in learning a new language.',
       tr: 'Yeni bir dil öğrenmede birçok zorluk var.',
     },
     {
-      ing: '68. She visited many art galleries in the city.',
+      ing: 'She visited many art galleries in the city.',
       tr: 'Şehirde birçok sanat galerisini ziyaret etti.',
     },
     {
-      ing: '69. I saw many new movies last month.',
+      ing: 'I saw many new movies last month.',
       tr: 'Geçen ay birçok yeni film izledim.',
     },
     {
-      ing: '70. Many people believe in good luck.',
+      ing: 'Many people believe in good luck.',
       tr: 'Birçok insan iyi şansa inanır.',
     },
     {
-      ing: '71. There are many steps to follow in this recipe.',
+      ing: 'There are many steps to follow in this recipe.',
       tr: 'Bu tarifte takip edilecek birçok adım var.',
     },
     {
-      ing: '72. He gave many reasons for his decision.',
+      ing: 'He gave many reasons for his decision.',
       tr: 'Kararı için birçok sebep sundu.',
     },
     {
-      ing: '73. She has many shoes in her closet.',
+      ing: 'She has many shoes in her closet.',
       tr: 'Dolabında birçok ayakkabısı var.',
     },
     {
-      ing: '74. Many people were excited about the concert.',
+      ing: 'Many people were excited about the concert.',
       tr: 'Birçok insan konser için heyecanlıydı.',
     },
     {
-      ing: '75. There are many flowers in the vase.',
+      ing: 'There are many flowers in the vase.',
       tr: 'Vazoda birçok çiçek var.',
     },
     {
-      ing: '76. He solved many problems in the math class.',
+      ing: 'He solved many problems in the math class.',
       tr: 'Matematik dersinde birçok problem çözdü.',
     },
     {
-      ing: '77. Many children don’t like vegetables.',
+      ing: 'Many children don’t like vegetables.',
       tr: 'Birçok çocuk sebze sevmez.',
     },
     {
-      ing: '78. I found many solutions to the problem.',
+      ing: 'I found many solutions to the problem.',
       tr: 'Soruna birçok çözüm buldum.',
     },
     {
-      ing: '79. She painted many pictures in her free time.',
+      ing: 'She painted many pictures in her free time.',
       tr: 'Boş zamanlarında birçok resim yaptı.',
     },
     {
-      ing: '80. Many students failed the exam.',
+      ing: 'Many students failed the exam.',
       tr: 'Birçok öğrenci sınavdan kaldı.',
     },
     {
-      ing: '81. There are many good books to read.',
+      ing: 'There are many good books to read.',
       tr: 'Okunacak birçok iyi kitap var.',
     },
     {
-      ing: '82. I met many people at the conference.',
+      ing: 'I met many people at the conference.',
       tr: 'Konferansta birçok insanla tanıştım.',
     },
     {
-      ing: '83. Many companies offer discounts in the summer.',
+      ing: 'Many companies offer discounts in the summer.',
       tr: 'Birçok şirket yaz aylarında indirim yapar.',
     },
     {
-      ing: '84. There are many interesting facts in this article.',
+      ing: 'There are many interesting facts in this article.',
       tr: 'Bu makalede birçok ilginç bilgi var.',
     },
     {
-      ing: '85. He found many old coins in the attic.',
+      ing: 'He found many old coins in the attic.',
       tr: 'Çatı katında birçok eski para buldu.',
     },
     {
-      ing: '86. Many people enjoy listening to music.',
+      ing: 'Many people enjoy listening to music.',
       tr: 'Birçok insan müzik dinlemeyi sever.',
     },
     {
-      ing: '87. She visited many historical places during her trip.',
+      ing: 'She visited many historical places during her trip.',
       tr: 'Seyahati sırasında birçok tarihi yer ziyaret etti.',
     },
     {
-      ing: '88. There are many delicious foods to try.',
+      ing: 'There are many delicious foods to try.',
       tr: 'Denenecek birçok lezzetli yemek var.',
     },
     {
-      ing: '89. He faced many difficulties during the project.',
+      ing: 'He faced many difficulties during the project.',
       tr: 'Proje sırasında birçok zorlukla karşılaştı.',
     },
     {
-      ing: '90. Many houses in the village were destroyed by the fire.',
+      ing: 'Many houses in the village were destroyed by the fire.',
       tr: 'Köydeki birçok ev yangında yıkıldı.',
     },
     {
-      ing: '91. I received many letters from my friends.',
+      ing: 'I received many letters from my friends.',
       tr: 'Arkadaşlarımdan birçok mektup aldım.',
     },
-    {ing: '92. Many workers are on strike.', tr: 'Birçok işçi grevde.'},
+    {ing: 'Many workers are on strike.', tr: 'Birçok işçi grevde.'},
     {
-      ing: '93. There are many different opinions on this topic.',
+      ing: 'There are many different opinions on this topic.',
       tr: 'Bu konuda birçok farklı görüş var.',
     },
     {
-      ing: '94. She read many articles for her research.',
+      ing: 'She read many articles for her research.',
       tr: 'Araştırması için birçok makale okudu.',
     },
     {
-      ing: '95. Many trees were cut down in the forest.',
+      ing: 'Many trees were cut down in the forest.',
       tr: 'Ormanda birçok ağaç kesildi.',
     },
     {
-      ing: '96. He answered many questions correctly.',
+      ing: 'He answered many questions correctly.',
       tr: 'Birçok soruya doğru cevap verdi.',
     },
     {
-      ing: '97. There are many interesting exhibits in the museum.',
+      ing: 'There are many interesting exhibits in the museum.',
       tr: 'Müzede birçok ilginç sergi var.',
     },
     {
-      ing: '98. Many people dream of traveling the world.',
+      ing: 'Many people dream of traveling the world.',
       tr: 'Birçok insan dünyayı gezmeyi hayal eder.',
     },
     {
-      ing: '99. She collected many stamps from different countries.',
+      ing: 'She collected many stamps from different countries.',
       tr: 'Birçok ülkeden birçok pul topladı.',
     },
     {
-      ing: '100. Many people are waiting for the bus.',
+      ing: 'Many people are waiting for the bus.',
       tr: 'Birçok insan otobüsü bekliyor.',
     },
   ],
   Much: [
-    {ing: '1. I don’t have much time.', tr: 'Çok fazla vaktim yok.'},
+    {ing: 'I don’t have much time.', tr: 'Çok fazla vaktim yok.'},
     {
-      ing: '2. There isn’t much water in the glass.',
+      ing: 'There isn’t much water in the glass.',
       tr: 'Bardakta çok fazla su yok.',
     },
     {
-      ing: '3. How much money do you need?',
+      ing: 'How much money do you need?',
       tr: 'Ne kadar paraya ihtiyacın var?',
     },
-    {ing: '4. She doesn’t eat much food.', tr: 'O, çok fazla yemek yemez.'},
+    {ing: 'She doesn’t eat much food.', tr: 'O, çok fazla yemek yemez.'},
     {
-      ing: '5. I didn’t spend much money yesterday.',
+      ing: 'I didn’t spend much money yesterday.',
       tr: 'Dün çok fazla para harcamadım.',
     },
     {
-      ing: '6. Do you have much homework to do?',
+      ing: 'Do you have much homework to do?',
       tr: 'Yapacak çok ödevin var mı?',
     },
     {
-      ing: '7. There wasn’t much snow last winter.',
+      ing: 'There wasn’t much snow last winter.',
       tr: 'Geçen kış çok kar yoktu.',
     },
-    {ing: '8. He doesn’t drink much coffee.', tr: 'O, çok fazla kahve içmez.'},
+    {ing: 'He doesn’t drink much coffee.', tr: 'O, çok fazla kahve içmez.'},
     {
-      ing: '9. How much milk is left in the fridge?',
+      ing: 'How much milk is left in the fridge?',
       tr: 'Buzdolabında ne kadar süt kaldı?',
     },
     {
-      ing: '10. She didn’t talk much during the meeting.',
+      ing: 'She didn’t talk much during the meeting.',
       tr: 'Toplantı sırasında çok fazla konuşmadı.',
     },
-    {ing: '11. I don’t have much energy today.', tr: 'Bugün çok enerjim yok.'},
+    {ing: 'I don’t have much energy today.', tr: 'Bugün çok enerjim yok.'},
     {
-      ing: '12. How much sugar do you want in your tea?',
+      ing: 'How much sugar do you want in your tea?',
       tr: 'Çayında ne kadar şeker istersin?',
     },
     {
-      ing: '13. There isn’t much furniture in the room.',
+      ing: 'There isn’t much furniture in the room.',
       tr: 'Odada çok fazla mobilya yok.',
     },
     {
-      ing: '14. She doesn’t use much makeup.',
+      ing: 'She doesn’t use much makeup.',
       tr: 'O, çok fazla makyaj yapmaz.',
     },
     {
-      ing: '15. How much rice do you need for the recipe?',
+      ing: 'How much rice do you need for the recipe?',
       tr: 'Tarif için ne kadar pirince ihtiyacın var?',
     },
     {
-      ing: '16. There isn’t much space in the car.',
+      ing: 'There isn’t much space in the car.',
       tr: 'Arabada çok fazla yer yok.',
     },
     {
-      ing: '17. I didn’t learn much from the lecture.',
+      ing: 'I didn’t learn much from the lecture.',
       tr: 'Dersten çok şey öğrenmedim.',
     },
     {
-      ing: '18. How much effort did you put into the project?',
+      ing: 'How much effort did you put into the project?',
       tr: 'Proje için ne kadar çaba harcadın?',
     },
     {
-      ing: '19. He doesn’t have much interest in sports.',
+      ing: 'He doesn’t have much interest in sports.',
       tr: 'Sporlara çok fazla ilgisi yok.',
     },
     {
-      ing: '20. There wasn’t much traffic this morning.',
+      ing: 'There wasn’t much traffic this morning.',
       tr: 'Bu sabah çok fazla trafik yoktu.',
     },
     {
-      ing: '21. How much water should I add to the soup?',
+      ing: 'How much water should I add to the soup?',
       tr: 'Çorbaya ne kadar su eklemeliyim?',
     },
     {
-      ing: '22. She doesn’t have much free time.',
+      ing: 'She doesn’t have much free time.',
       tr: 'Onun çok fazla boş zamanı yok.',
     },
     {
-      ing: '23. There isn’t much meat left for dinner.',
+      ing: 'There isn’t much meat left for dinner.',
       tr: 'Akşam yemeği için çok fazla et kalmadı.',
     },
     {
-      ing: '24. I didn’t use much oil while cooking.',
+      ing: 'I didn’t use much oil while cooking.',
       tr: 'Yemek yaparken çok fazla yağ kullanmadım.',
     },
     {
-      ing: '25. How much work is left to do?',
+      ing: 'How much work is left to do?',
       tr: 'Yapılacak ne kadar iş kaldı?',
     },
     {
-      ing: '26. He didn’t drink much juice.',
+      ing: 'He didn’t drink much juice.',
       tr: 'O, çok fazla meyve suyu içmedi.',
     },
     {
-      ing: '27. There isn’t much salt in the soup.',
+      ing: 'There isn’t much salt in the soup.',
       tr: 'Çorbada çok fazla tuz yok.',
     },
     {
-      ing: '28. She doesn’t need much help.',
+      ing: 'She doesn’t need much help.',
       tr: 'Onun çok fazla yardıma ihtiyacı yok.',
     },
     {
-      ing: '29. How much butter do you need for the cake?',
+      ing: 'How much butter do you need for the cake?',
       tr: 'Kek için ne kadar tereyağına ihtiyacın var?',
     },
     {
-      ing: '30. I don’t use much soap while washing dishes.',
+      ing: 'I don’t use much soap while washing dishes.',
       tr: 'Bulaşık yıkarken çok fazla sabun kullanmam.',
     },
     {
-      ing: '31. There isn’t much light in this room.',
+      ing: 'There isn’t much light in this room.',
       tr: 'Bu odada çok fazla ışık yok.',
     },
     {
-      ing: '32. He didn’t do much work today.',
+      ing: 'He didn’t do much work today.',
       tr: 'Bugün çok fazla iş yapmadı.',
     },
     {
-      ing: '33. How much rain did we get last week?',
+      ing: 'How much rain did we get last week?',
       tr: 'Geçen hafta ne kadar yağmur yağdı?',
     },
     {
-      ing: '34. There isn’t much cheese in the fridge.',
+      ing: 'There isn’t much cheese in the fridge.',
       tr: 'Buzdolabında çok fazla peynir yok.',
     },
     {
-      ing: '35. She didn’t take much time to finish the project.',
+      ing: 'She didn’t take much time to finish the project.',
       tr: 'Projeyi bitirmek için çok fazla zaman harcamadı.',
     },
     {
-      ing: '36. I don’t watch much TV during the week.',
+      ing: 'I don’t watch much TV during the week.',
       tr: 'Hafta içi çok fazla televizyon izlemem.',
     },
     {
-      ing: '37. How much flour do you need for the bread?',
+      ing: 'How much flour do you need for the bread?',
       tr: 'Ekmek için ne kadar una ihtiyacın var?',
     },
     {
-      ing: '38. There isn’t much oil in the car engine.',
+      ing: 'There isn’t much oil in the car engine.',
       tr: 'Arabanın motorunda çok fazla yağ yok.',
     },
     {
-      ing: '39. She doesn’t have much patience.',
+      ing: 'She doesn’t have much patience.',
       tr: 'Onun çok fazla sabrı yok.',
     },
     {
-      ing: '40. I didn’t eat much for breakfast.',
+      ing: 'I didn’t eat much for breakfast.',
       tr: 'Kahvaltıda çok fazla yemedim.',
     },
     {
-      ing: '41. How much ice cream do you want?',
+      ing: 'How much ice cream do you want?',
       tr: 'Ne kadar dondurma istersin?',
     },
     {
-      ing: '42. There isn’t much fresh fruit at the market.',
+      ing: 'There isn’t much fresh fruit at the market.',
       tr: 'Pazarda çok fazla taze meyve yok.',
     },
     {
-      ing: '43. He doesn’t have much experience in this field.',
+      ing: 'He doesn’t have much experience in this field.',
       tr: 'Bu alanda çok fazla deneyimi yok.',
     },
     {
-      ing: '44. I didn’t see much improvement.',
+      ing: 'I didn’t see much improvement.',
       tr: 'Çok fazla gelişme görmedim.',
     },
-    {ing: '45. How much milk should I buy?', tr: 'Ne kadar süt almalıyım?'},
+    {ing: 'How much milk should I buy?', tr: 'Ne kadar süt almalıyım?'},
     {
-      ing: '46. There wasn’t much noise in the room.',
+      ing: 'There wasn’t much noise in the room.',
       tr: 'Odada çok fazla gürültü yoktu.',
     },
     {
-      ing: '47. She doesn’t like much salt in her food.',
+      ing: 'She doesn’t like much salt in her food.',
       tr: 'Yemeklerinde çok fazla tuz sevmez.',
     },
     {
-      ing: '48. I didn’t bring much luggage with me.',
+      ing: 'I didn’t bring much luggage with me.',
       tr: 'Yanımda çok fazla bagaj getirmedim.',
     },
-    {ing: '49. How much ketchup do you want?', tr: 'Ne kadar ketçap istersin?'},
+    {ing: 'How much ketchup do you want?', tr: 'Ne kadar ketçap istersin?'},
     {
-      ing: '50. There isn’t much bread left on the table.',
+      ing: 'There isn’t much bread left on the table.',
       tr: 'Masada çok fazla ekmek kalmadı.',
     },
     {
-      ing: '51. He doesn’t know much about computers.',
+      ing: 'He doesn’t know much about computers.',
       tr: 'Bilgisayarlar hakkında çok fazla bilgi sahibi değil.',
     },
     {
-      ing: '52. I didn’t feel much pain after the surgery.',
+      ing: 'I didn’t feel much pain after the surgery.',
       tr: 'Ameliyattan sonra çok fazla acı hissetmedim.',
     },
-    {ing: '53. How much rice did you cook?', tr: 'Ne kadar pirinç pişirdin?'},
+    {ing: 'How much rice did you cook?', tr: 'Ne kadar pirinç pişirdin?'},
     {
-      ing: '54. There isn’t much money in my wallet.',
+      ing: 'There isn’t much money in my wallet.',
       tr: 'Cüzdanımda çok fazla para yok.',
     },
-    {ing: '55. She doesn’t have much luck.', tr: 'Onun çok fazla şansı yok.'},
+    {ing: 'She doesn’t have much luck.', tr: 'Onun çok fazla şansı yok.'},
     {
-      ing: '56. I didn’t drink much tea today.',
+      ing: 'I didn’t drink much tea today.',
       tr: 'Bugün çok fazla çay içmedim.',
     },
-    {ing: '57. How much coffee did you make?', tr: 'Ne kadar kahve yaptın?'},
+    {ing: 'How much coffee did you make?', tr: 'Ne kadar kahve yaptın?'},
     {
-      ing: '58. There isn’t much chocolate left.',
+      ing: 'There isn’t much chocolate left.',
       tr: 'Çok fazla çikolata kalmadı.',
     },
     {
-      ing: '59. He doesn’t spend much time at home.',
+      ing: 'He doesn’t spend much time at home.',
       tr: 'Evde çok fazla zaman geçirmez.',
     },
     {
-      ing: '60. I didn’t hear much noise from the street.',
+      ing: 'I didn’t hear much noise from the street.',
       tr: 'Caddeden çok fazla gürültü duymadım.',
     },
     {
-      ing: '61. How much paper do we need for printing?',
+      ing: 'How much paper do we need for printing?',
       tr: 'Yazdırmak için ne kadar kâğıda ihtiyacımız var?',
     },
     {
-      ing: '62. There isn’t much water in the bottle.',
+      ing: 'There isn’t much water in the bottle.',
       tr: 'Şişede çok fazla su yok.',
     },
     {
-      ing: '63. She doesn’t eat much fast food.',
+      ing: 'She doesn’t eat much fast food.',
       tr: 'Çok fazla fast food yemez.',
     },
     {
-      ing: '64. I didn’t make much progress today.',
+      ing: 'I didn’t make much progress today.',
       tr: 'Bugün çok fazla ilerleme kaydetmedim.',
     },
     {
-      ing: '65. How much sugar is in this dessert?',
+      ing: 'How much sugar is in this dessert?',
       tr: 'Bu tatlıda ne kadar şeker var?',
     },
     {
-      ing: '66. There isn’t much space in my bag.',
+      ing: 'There isn’t much space in my bag.',
       tr: 'Çantamda çok fazla yer yok.',
     },
-    {ing: '67. He doesn’t earn much money.', tr: 'Çok fazla para kazanmaz.'},
+    {ing: 'He doesn’t earn much money.', tr: 'Çok fazla para kazanmaz.'},
     {
-      ing: '68. I didn’t take much time to finish the task.',
+      ing: 'I didn’t take much time to finish the task.',
       tr: 'Görevi bitirmek için çok fazla zaman almadım.',
     },
     {
-      ing: '69. How much juice do you want?',
+      ing: 'How much juice do you want?',
       tr: 'Ne kadar meyve suyu istersin?',
     },
     {
-      ing: '70. There isn’t much ice in the freezer.',
+      ing: 'There isn’t much ice in the freezer.',
       tr: 'Dondurucuda çok fazla buz yok.',
     },
     {
-      ing: '71. She doesn’t have much to say about the topic.',
+      ing: 'She doesn’t have much to say about the topic.',
       tr: 'Bu konu hakkında çok fazla söyleyecek şeyi yok.',
     },
     {
-      ing: '72. I didn’t see much difference between the two options.',
+      ing: 'I didn’t see much difference between the two options.',
       tr: 'İki seçenek arasında çok fazla fark görmedim.',
     },
-    {ing: '73. How much pasta did you cook?', tr: 'Ne kadar makarna pişirdin?'},
+    {ing: 'How much pasta did you cook?', tr: 'Ne kadar makarna pişirdin?'},
     {
-      ing: '74. There isn’t much air in the tires.',
+      ing: 'There isn’t much air in the tires.',
       tr: 'Lastiklerde çok fazla hava yok.',
     },
-    {ing: '75. He doesn’t drink much alcohol.', tr: 'Çok fazla alkol içmez.'},
+    {ing: 'He doesn’t drink much alcohol.', tr: 'Çok fazla alkol içmez.'},
     {
-      ing: '76. I didn’t sleep much last night.',
+      ing: 'I didn’t sleep much last night.',
       tr: 'Dün gece çok fazla uyumadım.',
     },
     {
-      ing: '77. How much food should I bring?',
+      ing: 'How much food should I bring?',
       tr: 'Ne kadar yemek getirmeliyim?',
     },
     {
-      ing: '78. There isn’t much sugar in the cake.',
+      ing: 'There isn’t much sugar in the cake.',
       tr: 'Pastada çok fazla şeker yok.',
     },
-    {ing: '79. She doesn’t wear much jewelry.', tr: 'Çok fazla takı takmaz.'},
+    {ing: 'She doesn’t wear much jewelry.', tr: 'Çok fazla takı takmaz.'},
     {
-      ing: '80. I didn’t use much fuel on the trip.',
+      ing: 'I didn’t use much fuel on the trip.',
       tr: 'Seyahat sırasında çok fazla yakıt kullanmadım.',
     },
     {
-      ing: '81. How much flour is left in the bag?',
+      ing: 'How much flour is left in the bag?',
       tr: 'Torbanın içinde ne kadar un kaldı?',
     },
     {
-      ing: '82. There isn’t much tea in the pot.',
+      ing: 'There isn’t much tea in the pot.',
       tr: 'Demlikte çok fazla çay yok.',
     },
     {
-      ing: '83. He doesn’t like much cream in his coffee.',
+      ing: 'He doesn’t like much cream in his coffee.',
       tr: 'Kahvesinde çok fazla krema sevmez.',
     },
     {
-      ing: '84. I didn’t hear much news today.',
+      ing: 'I didn’t hear much news today.',
       tr: 'Bugün çok fazla haber duymadım.',
     },
-    {ing: '85. How much salt is in the soup?', tr: 'Çorbada ne kadar tuz var?'},
+    {ing: 'How much salt is in the soup?', tr: 'Çorbada ne kadar tuz var?'},
     {
-      ing: '86. There isn’t much oil in the pan.',
+      ing: 'There isn’t much oil in the pan.',
       tr: 'Tavada çok fazla yağ yok.',
     },
     {
-      ing: '87. She doesn’t spend much time online.',
+      ing: 'She doesn’t spend much time online.',
       tr: 'İnternette çok fazla zaman geçirmez.',
     },
     {
-      ing: '88. I didn’t eat much chocolate.',
+      ing: 'I didn’t eat much chocolate.',
       tr: 'Çok fazla çikolata yemedim.',
     },
     {
-      ing: '89. How much sugar do you add to your coffee?',
+      ing: 'How much sugar do you add to your coffee?',
       tr: 'Kahvene ne kadar şeker ekliyorsun?',
     },
     {
-      ing: '90. There isn’t much grass in the garden.',
+      ing: 'There isn’t much grass in the garden.',
       tr: 'Bahçede çok fazla çimen yok.',
     },
     {
-      ing: '91. He doesn’t have much respect for rules.',
+      ing: 'He doesn’t have much respect for rules.',
       tr: 'Kurallara çok fazla saygı duymaz.',
     },
     {
-      ing: '92. I didn’t see much traffic on the way home.',
+      ing: 'I didn’t see much traffic on the way home.',
       tr: 'Eve giderken çok fazla trafik görmedim.',
     },
     {
-      ing: '93. How much fabric do you need for the dress?',
+      ing: 'How much fabric do you need for the dress?',
       tr: 'Elbise için ne kadar kumaşa ihtiyacın var?',
     },
     {
-      ing: '94. There isn’t much sunshine today.',
+      ing: 'There isn’t much sunshine today.',
       tr: 'Bugün çok fazla güneş ışığı yok.',
     },
     {
-      ing: '95. She doesn’t drink much soda.',
+      ing: 'She doesn’t drink much soda.',
       tr: 'Çok fazla gazlı içecek içmez.',
     },
     {
-      ing: '96. I didn’t get much sleep last night.',
+      ing: 'I didn’t get much sleep last night.',
       tr: 'Dün gece çok fazla uyuyamadım.',
     },
     {
-      ing: '97. How much salt did you put in the salad?',
+      ing: 'How much salt did you put in the salad?',
       tr: 'Salataya ne kadar tuz koydun?',
     },
     {
-      ing: '98. There isn’t much light in the hallway.',
+      ing: 'There isn’t much light in the hallway.',
       tr: 'Koridorda çok fazla ışık yok.',
     },
     {
-      ing: '99. He doesn’t read much these days.',
+      ing: 'He doesn’t read much these days.',
       tr: 'Bu günlerde çok fazla okumuyor.',
     },
     {
-      ing: '100. I didn’t feel much excitement about the event.',
+      ing: 'I didn’t feel much excitement about the event.',
       tr: 'Etkinlikle ilgili çok fazla heyecan hissetmedim.',
     },
   ],
   Some: [
     {
-      ing: '1. I have some friends in London.',
+      ing: 'I have some friends in London.',
       tr: "Londra'da birkaç arkadaşım var.",
     },
-    {ing: '2. Would you like some tea?', tr: 'Biraz çay ister misin?'},
+    {ing: 'Would you like some tea?', tr: 'Biraz çay ister misin?'},
     {
-      ing: '3. She needs some help with her homework.',
+      ing: 'She needs some help with her homework.',
       tr: 'Ödevinde biraz yardıma ihtiyacı var.',
     },
     {
-      ing: '4. I bought some apples from the market.',
+      ing: 'I bought some apples from the market.',
       tr: 'Marketten biraz elma aldım.',
     },
     {
-      ing: '5. There are some people waiting outside.',
+      ing: 'There are some people waiting outside.',
       tr: 'Dışarıda bekleyen birkaç kişi var.',
     },
     {
-      ing: '6. He gave me some money for the trip.',
+      ing: 'He gave me some money for the trip.',
       tr: 'Bana seyahat için biraz para verdi.',
     },
     {
-      ing: '7. Do you want some more coffee?',
+      ing: 'Do you want some more coffee?',
       tr: 'Biraz daha kahve ister misin?',
     },
     {
-      ing: '8. She found some interesting books in the library.',
+      ing: 'She found some interesting books in the library.',
       tr: 'Kütüphanede birkaç ilginç kitap buldu.',
     },
     {
-      ing: '9. Can I have some water, please?',
+      ing: 'Can I have some water, please?',
       tr: 'Biraz su alabilir miyim, lütfen?',
     },
     {
-      ing: '10. There are some cookies left in the jar.',
+      ing: 'There are some cookies left in the jar.',
       tr: 'Kavanozda biraz kurabiye kaldı.',
     },
     {
-      ing: '11. We need some time to finish the project.',
+      ing: 'We need some time to finish the project.',
       tr: 'Projeyi bitirmek için biraz zamana ihtiyacımız var.',
     },
     {
-      ing: '12. He ate some bread for breakfast.',
+      ing: 'He ate some bread for breakfast.',
       tr: 'Kahvaltıda biraz ekmek yedi.',
     },
     {
-      ing: '13. Would you like some sugar in your tea?',
+      ing: 'Would you like some sugar in your tea?',
       tr: 'Çayına biraz şeker ister misin?',
     },
     {
-      ing: '14. She gave me some advice about the job.',
+      ing: 'She gave me some advice about the job.',
       tr: 'Bana iş hakkında birkaç tavsiye verdi.',
     },
-    {ing: '15. I have some questions for you.', tr: 'Sana birkaç sorum var.'},
+    {ing: 'I have some questions for you.', tr: 'Sana birkaç sorum var.'},
     {
-      ing: '16. We saw some birds in the park.',
+      ing: 'We saw some birds in the park.',
       tr: 'Parkta birkaç kuş gördük.',
     },
     {
-      ing: '17. I need some information about the course.',
+      ing: 'I need some information about the course.',
       tr: 'Kurs hakkında biraz bilgiye ihtiyacım var.',
     },
     {
-      ing: '18. They made some mistakes on the test.',
+      ing: 'They made some mistakes on the test.',
       tr: 'Sınavda birkaç hata yaptılar.',
     },
     {
-      ing: '19. He bought some new clothes yesterday.',
+      ing: 'He bought some new clothes yesterday.',
       tr: 'Dün birkaç yeni kıyafet aldı.',
     },
     {
-      ing: '20. Would you like some more cake?',
+      ing: 'Would you like some more cake?',
       tr: 'Biraz daha pasta ister misin?',
     },
     {
-      ing: '21. There are some toys in the box.',
+      ing: 'There are some toys in the box.',
       tr: 'Kutuda birkaç oyuncak var.',
     },
     {
-      ing: '22. I’d like to share some news with you.',
+      ing: 'I’d like to share some news with you.',
       tr: 'Seninle biraz haber paylaşmak istiyorum.',
     },
     {
-      ing: '23. She took some photos during the trip.',
+      ing: 'She took some photos during the trip.',
       tr: 'Seyahat sırasında birkaç fotoğraf çekti.',
     },
     {
-      ing: '24. I have some free time this afternoon.',
+      ing: 'I have some free time this afternoon.',
       tr: 'Bu öğleden sonra biraz boş vaktim var.',
     },
     {
-      ing: '25. Can you give me some examples?',
+      ing: 'Can you give me some examples?',
       tr: 'Bana birkaç örnek verebilir misin?',
     },
     {
-      ing: '26. He invited some friends to the party.',
+      ing: 'He invited some friends to the party.',
       tr: 'Partiye birkaç arkadaşını davet etti.',
     },
     {
-      ing: '27. I bought some milk on the way home.',
+      ing: 'I bought some milk on the way home.',
       tr: 'Eve giderken biraz süt aldım.',
     },
     {
-      ing: '28. We need some volunteers for the event.',
+      ing: 'We need some volunteers for the event.',
       tr: 'Etkinlik için birkaç gönüllüye ihtiyacımız var.',
     },
     {
-      ing: '29. She added some sugar to the cake.',
+      ing: 'She added some sugar to the cake.',
       tr: 'Keke biraz şeker ekledi.',
     },
     {
-      ing: '30. I need some rest after a long day.',
+      ing: 'I need some rest after a long day.',
       tr: 'Uzun bir günün ardından biraz dinlenmeye ihtiyacım var.',
     },
     {
-      ing: '31. They offered me some tea when I arrived.',
+      ing: 'They offered me some tea when I arrived.',
       tr: 'Geldiğimde bana biraz çay ikram ettiler.',
     },
     {
-      ing: '32. There are some chairs in the room.',
+      ing: 'There are some chairs in the room.',
       tr: 'Odada birkaç sandalye var.',
     },
     {
-      ing: '33. Would you like to watch some movies tonight?',
+      ing: 'Would you like to watch some movies tonight?',
       tr: 'Bu gece birkaç film izlemek ister misin?',
     },
     {
-      ing: '34. I found some old photos in the attic.',
+      ing: 'I found some old photos in the attic.',
       tr: 'Çatı katında birkaç eski fotoğraf buldum.',
     },
     {
-      ing: '35. She brought some flowers for the table.',
+      ing: 'She brought some flowers for the table.',
       tr: 'Masa için birkaç çiçek getirdi.',
     },
     {
-      ing: '36. Can you lend me some money?',
+      ing: 'Can you lend me some money?',
       tr: 'Bana biraz para verebilir misin?',
     },
     {
-      ing: '37. He did some work on the project yesterday.',
+      ing: 'He did some work on the project yesterday.',
       tr: 'Dün proje üzerinde biraz çalıştı.',
     },
     {
-      ing: '38. We had some problems with the car.',
+      ing: 'We had some problems with the car.',
       tr: 'Arabada birkaç sorun yaşadık.',
     },
     {
-      ing: '39. Would you like some bread with your soup?',
+      ing: 'Would you like some bread with your soup?',
       tr: 'Çorbanın yanında biraz ekmek ister misin?',
     },
     {
-      ing: '40. There are some students waiting for the teacher.',
+      ing: 'There are some students waiting for the teacher.',
       tr: 'Öğretmeni bekleyen birkaç öğrenci var.',
     },
     {
-      ing: '41. I have some ideas for the new project.',
+      ing: 'I have some ideas for the new project.',
       tr: 'Yeni proje için birkaç fikrim var.',
     },
     {
-      ing: '42. She asked me for some help with her assignment.',
+      ing: 'She asked me for some help with her assignment.',
       tr: 'Benden ödevi için biraz yardım istedi.',
     },
     {
-      ing: '43. We need some food for the picnic.',
+      ing: 'We need some food for the picnic.',
       tr: 'Piknik için biraz yiyeceğe ihtiyacımız var.',
     },
     {
-      ing: '44. He found some interesting articles online.',
+      ing: 'He found some interesting articles online.',
       tr: 'İnternette birkaç ilginç makale buldu.',
     },
     {
-      ing: '45. Can you bring me some paper?',
+      ing: 'Can you bring me some paper?',
       tr: 'Bana biraz kağıt getirebilir misin?',
     },
     {
-      ing: '46. There are some fish in the pond.',
+      ing: 'There are some fish in the pond.',
       tr: 'Gölette birkaç balık var.',
     },
     {
-      ing: '47. She made some soup for dinner.',
+      ing: 'She made some soup for dinner.',
       tr: 'Akşam yemeği için biraz çorba yaptı.',
     },
     {
-      ing: '48. I’d like to offer you some advice.',
+      ing: 'I’d like to offer you some advice.',
       tr: 'Sana biraz tavsiye vermek istiyorum.',
     },
     {
-      ing: '49. He needs some time to think about it.',
+      ing: 'He needs some time to think about it.',
       tr: 'Bu konuda düşünmek için biraz zamana ihtiyacı var.',
     },
     {
-      ing: '50. We saw some dolphins near the shore.',
+      ing: 'We saw some dolphins near the shore.',
       tr: 'Sahil yakınında birkaç yunus gördük.',
     },
     {
-      ing: '51. She bought some vegetables from the market.',
+      ing: 'She bought some vegetables from the market.',
       tr: 'Marketten birkaç sebze aldı.',
     },
     {
-      ing: '52. Would you like some cheese with your sandwich?',
+      ing: 'Would you like some cheese with your sandwich?',
       tr: 'Sandviçinle biraz peynir ister misin?',
     },
     {
-      ing: '53. I have some books you might like to read.',
+      ing: 'I have some books you might like to read.',
       tr: 'Okumayı sevebileceğin birkaç kitabım var.',
     },
     {
-      ing: '54. There are some cars parked outside.',
+      ing: 'There are some cars parked outside.',
       tr: 'Dışarıda park etmiş birkaç araba var.',
     },
     {
-      ing: '55. He brought some gifts for his friends.',
+      ing: 'He brought some gifts for his friends.',
       tr: 'Arkadaşları için birkaç hediye getirdi.',
     },
     {
-      ing: '56. We need some more chairs for the event.',
+      ing: 'We need some more chairs for the event.',
       tr: 'Etkinlik için birkaç sandalyeye daha ihtiyacımız var.',
     },
     {
-      ing: '57. She found some coins under the couch.',
+      ing: 'She found some coins under the couch.',
       tr: 'Kanepe altında birkaç bozuk para buldu.',
     },
     {
-      ing: '58. Can I get some water, please?',
+      ing: 'Can I get some water, please?',
       tr: 'Biraz su alabilir miyim, lütfen?',
     },
     {
-      ing: '59. There are some children playing in the park.',
+      ing: 'There are some children playing in the park.',
       tr: 'Parkta oynayan birkaç çocuk var.',
     },
     {
-      ing: '60. I bought some chocolates for the party.',
+      ing: 'I bought some chocolates for the party.',
       tr: 'Parti için birkaç çikolata aldım.',
     },
     {
-      ing: '61. Would you like some ice cream?',
+      ing: 'Would you like some ice cream?',
       tr: 'Biraz dondurma ister misin?',
     },
     {
-      ing: '62. I have some exciting news for you.',
+      ing: 'I have some exciting news for you.',
       tr: 'Senin için birkaç heyecan verici haberim var.',
     },
     {
-      ing: '63. She has some experience in teaching.',
+      ing: 'She has some experience in teaching.',
       tr: 'Öğretmenlikte biraz deneyimi var.',
     },
     {
-      ing: '64. Can you make some tea for us?',
+      ing: 'Can you make some tea for us?',
       tr: 'Bizim için biraz çay yapabilir misin?',
     },
     {
-      ing: '65. There are some magazines on the table.',
+      ing: 'There are some magazines on the table.',
       tr: 'Masada birkaç dergi var.',
     },
     {
-      ing: '66. He gave me some books to read.',
+      ing: 'He gave me some books to read.',
       tr: 'Bana okumam için birkaç kitap verdi.',
     },
     {
-      ing: '67. We had some good times together.',
+      ing: 'We had some good times together.',
       tr: 'Birlikte birkaç güzel zaman geçirdik.',
     },
     {
-      ing: '68. She added some milk to her coffee.',
+      ing: 'She added some milk to her coffee.',
       tr: 'Kahvesine biraz süt ekledi.',
     },
     {
-      ing: '69. There are some interesting facts in the article.',
+      ing: 'There are some interesting facts in the article.',
       tr: 'Makalede birkaç ilginç bilgi var.',
     },
     {
-      ing: '70. Can you pass me some salt?',
+      ing: 'Can you pass me some salt?',
       tr: 'Bana biraz tuz uzatabilir misin?',
     },
     {
-      ing: '71. He gave some flowers to his mother.',
+      ing: 'He gave some flowers to his mother.',
       tr: 'Annesine birkaç çiçek verdi.',
     },
     {
-      ing: '72. We had some free time before the meeting.',
+      ing: 'We had some free time before the meeting.',
       tr: 'Toplantıdan önce biraz boş vaktimiz vardı.',
     },
     {
-      ing: '73. She left some cookies on the plate.',
+      ing: 'She left some cookies on the plate.',
       tr: 'Tabakta birkaç kurabiye bıraktı.',
     },
     {
-      ing: '74. There are some mistakes in this document.',
+      ing: 'There are some mistakes in this document.',
       tr: 'Bu belgede birkaç hata var.',
     },
     {
-      ing: '75. Would you like some wine with dinner?',
+      ing: 'Would you like some wine with dinner?',
       tr: 'Akşam yemeğiyle biraz şarap ister misin?',
     },
     {
-      ing: '76. I need to make some phone calls.',
+      ing: 'I need to make some phone calls.',
       tr: 'Biraz telefon görüşmesi yapmam gerekiyor.',
     },
     {
-      ing: '77. She made some new friends at the party.',
+      ing: 'She made some new friends at the party.',
       tr: 'Partide birkaç yeni arkadaş edindi.',
     },
     {
-      ing: '78. Can I have some bread, please?',
+      ing: 'Can I have some bread, please?',
       tr: 'Biraz ekmek alabilir miyim, lütfen?',
     },
     {
-      ing: '79. There are some problems we need to solve.',
+      ing: 'There are some problems we need to solve.',
       tr: 'Çözmemiz gereken birkaç sorun var.',
     },
     {
-      ing: '80. He took some photos of the sunset.',
+      ing: 'He took some photos of the sunset.',
       tr: 'Gün batımının birkaç fotoğrafını çekti.',
     },
     {
-      ing: '81. I found some money in my pocket.',
+      ing: 'I found some money in my pocket.',
       tr: 'Cebimde biraz para buldum.',
     },
     {
-      ing: '82. Would you like to read some books?',
+      ing: 'Would you like to read some books?',
       tr: 'Biraz kitap okumak ister misin?',
     },
     {
-      ing: '83. We saw some stars in the night sky.',
+      ing: 'We saw some stars in the night sky.',
       tr: 'Gece gökyüzünde birkaç yıldız gördük.',
     },
     {
-      ing: '84. She made some sandwiches for lunch.',
+      ing: 'She made some sandwiches for lunch.',
       tr: 'Öğle yemeği için birkaç sandviç yaptı.',
     },
     {
-      ing: '85. There are some animals in the zoo.',
+      ing: 'There are some animals in the zoo.',
       tr: 'Hayvanat bahçesinde birkaç hayvan var.',
     },
     {
-      ing: '86. He drank some juice before the meeting.',
+      ing: 'He drank some juice before the meeting.',
       tr: 'Toplantıdan önce biraz meyve suyu içti.',
     },
     {
-      ing: '87. Can I borrow some money from you?',
+      ing: 'Can I borrow some money from you?',
       tr: 'Senden biraz para ödünç alabilir miyim?',
     },
     {
-      ing: '88. We need some more time to finish this.',
+      ing: 'We need some more time to finish this.',
       tr: 'Bunu bitirmek için biraz daha zamana ihtiyacımız var.',
     },
     {
-      ing: '89. She gave me some advice about cooking.',
+      ing: 'She gave me some advice about cooking.',
       tr: 'Bana yemek yapma konusunda birkaç tavsiye verdi.',
     },
     {
-      ing: '90. I left some books on the desk.',
+      ing: 'I left some books on the desk.',
       tr: 'Masada birkaç kitap bıraktım.',
     },
     {
-      ing: '91. There are some plants in the garden.',
+      ing: 'There are some plants in the garden.',
       tr: 'Bahçede birkaç bitki var.',
     },
     {
-      ing: '92. He ate some fruit after dinner.',
+      ing: 'He ate some fruit after dinner.',
       tr: 'Akşam yemeğinden sonra biraz meyve yedi.',
     },
     {
-      ing: '93. We had some rain last night.',
+      ing: 'We had some rain last night.',
       tr: 'Dün gece biraz yağmur yağdı.',
     },
-    {ing: '94. She took some time off work.', tr: 'İşten biraz izin aldı.'},
+    {ing: 'She took some time off work.', tr: 'İşten biraz izin aldı.'},
     {
-      ing: '95. I bought some flowers for the house.',
+      ing: 'I bought some flowers for the house.',
       tr: 'Ev için birkaç çiçek aldım.',
     },
     {
-      ing: '96. I bought some flowers for the house.',
+      ing: 'I bought some flowers for the house.',
       tr: 'Ev için birkaç çiçek aldım.',
     },
     {
-      ing: '97. There are some toys on the floor.',
+      ing: 'There are some toys on the floor.',
       tr: 'Yerde birkaç oyuncak var.',
     },
     {
-      ing: '98. He shared some good news with us.',
+      ing: 'He shared some good news with us.',
       tr: 'Bizimle birkaç güzel haber paylaştı.',
     },
     {
-      ing: '99. I found some interesting websites online.',
+      ing: 'I found some interesting websites online.',
       tr: 'İnternette birkaç ilginç web sitesi buldum.',
     },
     {
-      ing: '100. She brought some snacks for the movie night.',
+      ing: 'She brought some snacks for the movie night.',
       tr: 'Film gecesi için birkaç atıştırmalık getirdi.',
     },
   ],

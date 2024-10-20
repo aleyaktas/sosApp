@@ -171,31 +171,17 @@ export const Categories: ICategory[] = [
   },
   {
     id: 23,
-    title: 'Bağlaçlar-1G',
-    mainCategory: 'Conjunctions1G',
-    description: 'Bağlaçların kullanımı ve çeşitleri.',
-    image: require('../assets/icons/conj_1.png'),
+    title: 'This That These Those',
+    mainCategory: 'ThisThatTheseThose',
+    description: 'Bu, şu, bu, şunun kullanımı ve çeşitleri.',
+    image: require('../assets/icons/this_that.png'),
   },
   {
     id: 24,
-    title: 'Bağlaçlar-2G',
-    mainCategory: 'Conjunctions2G',
-    description: '2G Bağlaçların kullanımı ve çeşitleri.',
-    image: require('../assets/icons/conj_2.png'),
-  },
-  {
-    id: 25,
-    title: 'Bağlaçlar-3G',
-    mainCategory: 'Conjunctions3G',
-    description: '3G Bağlaçların kullanımı ve çeşitleri.',
-    image: require('../assets/icons/conj_3.png'),
-  },
-  {
-    id: 26,
-    title: 'Paralellik Bağlaçları',
-    mainCategory: 'ParallelConjunctions',
-    description: 'Paralellik bağlaçlarının kullanımı.',
-    image: require('../assets/icons/coordinating_conj.png'),
+    title: 'Bağlaçlar',
+    mainCategory: 'Conjunctions',
+    description: 'Bağlaçların kullanımı ve çeşitleri.',
+    image: require('../assets/icons/conjunction.png'),
   },
 ];
 
@@ -210,6 +196,53 @@ export interface ISubCategory {
   selectedSymbols?: string[];
   disabled?: boolean;
 }
+
+export const ConjunctionsSubCategory = [
+  {
+    id: 23,
+    title: 'Bağlaçlar-1G',
+    mainCategory: 'Conjunctions1G',
+    description: 'Bağlaçların kullanımı ve çeşitleri.',
+    page: 'SubCategory',
+    image: require('../assets/icons/conj_1.png'),
+  },
+  {
+    id: 24,
+    title: 'Bağlaçlar-2G',
+    mainCategory: 'Conjunctions2G',
+    description: '2G Bağlaçların kullanımı ve çeşitleri.',
+    page: 'SubCategory',
+    image: require('../assets/icons/conj_2.png'),
+  },
+  {
+    id: 25,
+    title: 'Bağlaçlar-3G',
+    mainCategory: 'Conjunctions3G',
+    description: '3G Bağlaçların kullanımı ve çeşitleri.',
+    page: 'SubCategory',
+    image: require('../assets/icons/conj_3.png'),
+  },
+  {
+    id: 26,
+    title: 'Paralellik Bağlaçları',
+    mainCategory: 'ParallelConjunctions',
+    description: 'Paralellik bağlaçlarının kullanımı.',
+    page: 'SubCategory',
+    image: require('../assets/icons/coordinating_conj.png'),
+  },
+];
+
+export const ThisThatTheseThoseSubCategory: ISubCategory[] = [
+  {
+    id: 1,
+    title: 'Videolar',
+    mainCategory: 'ThisThatTheseThose',
+    description: 'Konu video anlatımları',
+    page: 'Videos',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
 export const TensesSubCategory: ISubCategory[] = [
   {
     id: 1,
@@ -677,6 +710,17 @@ export const RelativeAndNounClauseVideos: IVideo[] = [
   },
 ];
 
+export const ThisThatTheseThoseVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'This That These Those Konu Anlatımı',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/e9047fbdf01.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
 export const GerundInfinitiveVideos: IVideo[] = [
   {
     id: 1,
@@ -793,6 +837,14 @@ export const ArticlesVideos: IVideo[] = [
     page: 'VideoDetails',
     videoUri:
       'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/a-an-the-zero-article-1726315797.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: 'Singular Plural test',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/cc8a2f60b51.mp4',
     image: require('../assets/icons/video.png'),
   },
 ];
@@ -2931,6 +2983,57 @@ export const TensesVideos: IVideo[] = [
     page: 'VideoDetails',
     videoUri:
       'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/39e0d98ddd1.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 15,
+    title: 'Regular Irregular Verbs test',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/9ac3ce08cc1.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+];
+
+export const AdjectivesAdverbsVideos: IVideo[] = [
+  {
+    id: 1,
+    title: 'Sıfatlar (Adjectives)',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sifatlar-adjectives-1727628769.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 2,
+    title: 'Zarflar (Adverbs)',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/zarflar-adverb-1727634360.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 3,
+    title: 'Comparative and Superlative Adjectives',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/comparative-and-superlative-1726316130.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 4,
+    title: 'Exciting and Excited (ed ve ing alan sıfatlar ve anlamları)',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/exciting-excited-ed-ve-ing-alan-sifatlar-ve-anlamlari-1726316157.mp4',
+    image: require('../assets/icons/video.png'),
+  },
+  {
+    id: 5,
+    title: 'Sıfatlar Zarf Yapıları (too, enough, so that gibi yapılar)',
+    page: 'VideoDetails',
+    videoUri:
+      'https://cloud.phdakademi.com/uploads/veyselsenol.com/videos/sifat-zarf-yapilari-too-enough-the-more-the-more-so-that-such-that-as-as-so-as-1728764186.mp4',
     image: require('../assets/icons/video.png'),
   },
 ];

@@ -5,7 +5,6 @@ import BottomTabsNavigation from './bottomTabsNavigation';
 import SosTable from '../screens/SosTable';
 import {TouchableOpacity} from 'react-native';
 import {ModalContext} from '../contexts/ModalContext';
-import SubCategory from '../screens/SubCategory';
 import {Text} from 'react-native';
 import Translation from '../screens/Translation/TensesTranslation';
 import Units from '../screens/Units';
@@ -49,6 +48,7 @@ import PossessiveSOfTranslation from '../screens/Translation/PossessiveSOfTransl
 import ThereIsAreTranslation from '../screens/Translation/ThereIsAreTranslation';
 import PronounsTranslation from '../screens/Translation/PronounsTranslation';
 import QuantifiersTranslation from '../screens/Translation/QuantifiersTranslation';
+import SubCategory from '../screens/SubCategory';
 
 const Stack = createStackNavigator();
 
@@ -115,6 +115,7 @@ const RootNavigation = () => {
           headerTitleAlign: 'center',
         }}
       />
+
       <Stack.Screen
         name="Units"
         component={Units}
@@ -261,7 +262,7 @@ const RootNavigation = () => {
         name="ThereIsAreSosTable"
         component={ThereIsAreSosTable}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Sos Tablosu',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -270,7 +271,7 @@ const RootNavigation = () => {
         name="RcNcTranslation"
         component={RcNcTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -279,7 +280,7 @@ const RootNavigation = () => {
         name="PassiveTranslation"
         component={ActivePassiveTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -288,7 +289,7 @@ const RootNavigation = () => {
         name="Conjunctions1GTranslation"
         component={Conjunctions1GTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -297,7 +298,7 @@ const RootNavigation = () => {
         name="Conjunctions2GTranslation"
         component={Conjunctions2GTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -306,7 +307,7 @@ const RootNavigation = () => {
         name="Conjunctions3GTranslation"
         component={Conjunctions3GTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -315,7 +316,7 @@ const RootNavigation = () => {
         name="ComparativesSuperlativesTranslation"
         component={ComparativesSuperlativesTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -324,7 +325,7 @@ const RootNavigation = () => {
         name="FlowerToTranslation"
         component={FlowerToTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -333,7 +334,7 @@ const RootNavigation = () => {
         name="ImpersonalItTranslation"
         component={ImpersonalItTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -342,7 +343,7 @@ const RootNavigation = () => {
         name="IfClausesTranslation"
         component={IfClausesTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -351,7 +352,7 @@ const RootNavigation = () => {
         name="PrepositionsTranslation"
         component={PrepositionsTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -360,7 +361,7 @@ const RootNavigation = () => {
         name="AAnTheTranslation"
         component={AAnTheTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -369,7 +370,7 @@ const RootNavigation = () => {
         name="AdjectivesAdverbTranslation"
         component={AdjectivesAdverbTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -378,7 +379,7 @@ const RootNavigation = () => {
         name="IndefinitePronounsTranslation"
         component={IndefinitePronounsTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -387,7 +388,7 @@ const RootNavigation = () => {
         name="ImperativesTranslation"
         component={ImperativesTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -396,7 +397,7 @@ const RootNavigation = () => {
         name="ExcitingExcitedTranslation"
         component={ExcitingExcitedTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -405,7 +406,7 @@ const RootNavigation = () => {
         name="GerundInfinitiveTranslation"
         component={GerundInfinitiveTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -414,7 +415,7 @@ const RootNavigation = () => {
         name="HaveHasTranslation"
         component={HaveHasTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -423,7 +424,7 @@ const RootNavigation = () => {
         name="LetsShallTranslation"
         component={LetsShallTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -432,7 +433,7 @@ const RootNavigation = () => {
         name="ModalsTranslation"
         component={ModalsTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -441,7 +442,7 @@ const RootNavigation = () => {
         name="PossessiveSOfTranslation"
         component={PossessiveSOfTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -450,7 +451,7 @@ const RootNavigation = () => {
         name="ThereIsAreTranslation"
         component={ThereIsAreTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -459,7 +460,7 @@ const RootNavigation = () => {
         name="PronounsTranslation"
         component={PronounsTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}
@@ -468,7 +469,7 @@ const RootNavigation = () => {
         name="QuantifiersTranslation"
         component={QuantifiersTranslation}
         options={{
-          headerTitle: 'Kelime Bilgisi',
+          headerTitle: 'Çeviri Çalışması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}

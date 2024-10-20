@@ -7,13 +7,15 @@ const QuestionComponent = ({
   handleAskButton,
   checkAnswer,
   textInputValue,
+  selectedCell,
 }: any) => {
   return (
     <View style={styles.container}>
       <TouchableOpacity
         style={styles.askButton}
         onPress={() => (isAnswerVisible ? handleAskButton() : checkAnswer())}
-        disabled={textInputValue.length === 0 && !isAnswerVisible}>
+        // disabled={textInputValue.length === 0 && !isAnswerVisible}
+        disabled={selectedCell === '' && !isAnswerVisible}>
         <Text
           style={[
             styles.askButtonText,

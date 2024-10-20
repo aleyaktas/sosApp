@@ -262,6 +262,7 @@ const styles = StyleSheet.create({
   },
   textInput: {
     textAlignVertical: 'top',
+    color: 'black',
   },
   micButton: {
     backgroundColor: '#DAFEFB',
