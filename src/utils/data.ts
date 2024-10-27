@@ -339,6 +339,14 @@ export const QuestionsSubCategory: ISubCategory[] = [
 export const ModalsSubCategory: ISubCategory[] = [
   {
     id: 1,
+    title: 'Uygulama',
+    mainCategory: 'Modals',
+    description: 'Sos uygulaması',
+    page: 'ModalsSosTable',
+    image: require('../assets/icons/application.png'),
+  },
+  {
+    id: 1,
     title: 'Videolar',
     mainCategory: 'Modals',
     description: 'Konu videoları',

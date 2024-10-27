@@ -33,49 +33,65 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
   }, []);
 
   const handleLogin = async () => {
-    console.log(username + ' ' + password + 'aaa');
     const formData = new FormData();
     formData.append('email', username);
     formData.append('password', password);
-    const res = await fetch('https://kelibu.net/api/sos/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'multipart/form-data',
-        'X-Custom-Header': 'Hilal',
-      },
-      body: formData,
-    });
-    console.log('res', res);
-    if (res.status === 200 || res.status === 201) {
-      console.log('Login success');
-      if (rememberMe) {
-        await AsyncStorage.setItem('username', username);
-        await AsyncStorage.setItem('password', password);
-      } else {
-        await AsyncStorage.removeItem('username');
-        await AsyncStorage.removeItem('password');
-      }
-
-      navigation.reset({
-        index: 0,
-        routes: [
-          {
-            name: 'BottomTabs',
-            state: {
-              index: 0,
-              routes: [
-                {
-                  name: 'Home',
-                },
-              ],
-            },
+    // const res = await fetch('https://kelibu.net/api/sos/login', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'multipart/form-data',
+    //     'X-Custom-Header': 'Hilal',
+    //   },
+    //   body: formData,
+    // });
+    navigation.reset({
+      index: 0,
+      routes: [
+        {
+          name: 'BottomTabs',
+          state: {
+            index: 0,
+            routes: [
+              {
+                name: 'Home',
+              },
+            ],
           },
-        ],
-      });
-    } else {
-      console.log('Login failed');
-      showMessage('Kullanıcı bulunamadı, bilgilerinizi kontrol edin', 'error');
-    }
+        },
+      ],
+    });
+    // console.log('res', res);
+    // if (res.status === 200 || res.status === 201) {
+    //   console.log('Login success');
+    //   if (rememberMe) {
+    //     await AsyncStorage.setItem('username', username);
+    //     await AsyncStorage.setItem('password', password);
+
+    //   } else {
+    //     await AsyncStorage.removeItem('username');
+    //     await AsyncStorage.removeItem('password');
+    //   }
+
+    //   navigation.reset({
+    //     index: 0,
+    //     routes: [
+    //       {
+    //         name: 'BottomTabs',
+    //         state: {
+    //           index: 0,
+    //           routes: [
+    //             {
+    //               name: 'Home',
+    //             },
+    //           ],
+    //         },
+    //       },
+    //     ],
+    //   });
+    // } else {
+    //   console.log('Login failed');
+    //   showMessage('Kullanıcı bulunamadı, bilgilerinizi kontrol edin', 'error');
+    // }
   };
 
   const handleRegister = () => {

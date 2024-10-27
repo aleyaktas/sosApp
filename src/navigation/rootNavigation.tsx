@@ -49,6 +49,7 @@ import ThereIsAreTranslation from '../screens/Translation/ThereIsAreTranslation'
 import PronounsTranslation from '../screens/Translation/PronounsTranslation';
 import QuantifiersTranslation from '../screens/Translation/QuantifiersTranslation';
 import SubCategory from '../screens/SubCategory';
+import ModalsSosTable from '../screens/ModalsSosTable';
 
 const Stack = createStackNavigator();
 
@@ -470,6 +471,15 @@ const RootNavigation = () => {
         component={QuantifiersTranslation}
         options={{
           headerTitle: 'Çeviri Çalışması',
+          headerShown: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="ModalsSosTable"
+        component={ModalsSosTable}
+        options={{
+          headerTitle: 'Modal Uygulaması',
           headerShown: true,
           headerTitleAlign: 'center',
         }}

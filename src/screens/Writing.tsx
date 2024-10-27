@@ -117,17 +117,17 @@ const Writing: React.FC = () => {
 
   const renderCarouselItem = ({item}: {item: string}) => (
     <View style={styles.carouselItem}>
+      <TouchableOpacity
+        onPressIn={() => (isPlaying ? pauseTrack() : playTrack(item))}
+        style={styles.playerButton}>
+        <Icon
+          name={isPlaying ? 'Pause' : 'Play'}
+          width={32}
+          height={32}
+          color="green"
+        />
+      </TouchableOpacity>
       <ScrollView>
-        <TouchableOpacity
-          onPressIn={() => (isPlaying ? pauseTrack() : playTrack(item))}
-          style={styles.playerButton}>
-          <Icon
-            name={isPlaying ? 'Pause' : 'Play'}
-            width={32}
-            height={32}
-            color="green"
-          />
-        </TouchableOpacity>
         <View style={styles.carouselTouchable}>
           <Text style={styles.answerText}>{item}</Text>
         </View>

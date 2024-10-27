@@ -6,9 +6,10 @@ const ChartComponent = ({
   totalQuestions,
   correctAnswers,
   wrongAnswers,
+  style,
 }: any) => {
   return (
-    <View style={styles.chartContainer}>
+    <View style={[styles.chartContainer, style]}>
       <View style={styles.barContainer}>
         <Bar
           progress={totalQuestions !== 0 ? correctAnswers / totalQuestions : 0}

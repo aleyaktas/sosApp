@@ -77,7 +77,7 @@ const IVerbsModal = () => {
         el.v3.toLowerCase().includes(search.toLowerCase()) ||
         el.mean.toLowerCase().includes(search.toLowerCase()),
     );
-    console.log('result', result);
+    // console.log('result', result);
     setData(result);
   };
 
