@@ -23,10 +23,10 @@ import IVerbsModal from '../components/IVerbsModal';
 import {ttsSettings} from '../utils/ttsSettings';
 import {Route, useRoute} from '@react-navigation/native';
 import TestTable from '../components/TestTable';
-import CellSelectionComponent from './Translation/components/CellSelectionComponent';
 import {checkAbbreviation} from '../utils/modalsabbreviation';
 import ChartComponent from './Translation/components/ChartComponent';
 import ModalsSosCellSelectComponent from './Translation/components/ModalsSosCellSelect';
+import TextLabel from '../components/TextLabel';
 
 export interface SosTable {
   id: number;
@@ -121,8 +121,49 @@ const ModalsSosTable = () => {
     isSingle: boolean,
   ) => {
     if (state === '?') {
-      return `${option} ${subject} ${selectedEntry.presentPlural}?`;
+      if (option === 'Ought To') {
+        return `Ought ${subject} to ${selectedEntry.presentPlural}?`;
+      } else if (option === 'Had Better') {
+        return `Had ${subject} better ${selectedEntry.presentPlural}?`;
+      } else if (option === 'Be Likely') {
+        return `${
+          subject === 'I' || !isSingle
+            ? `Is ${subject} likely to`
+            : `Are ${subject} likely to`
+        } ${selectedEntry.presentPlural}?`;
+      } else if (option === 'Be Able To') {
+        return `${
+          subject === 'I'
+            ? 'Am I'
+            : isSingle
+            ? `Is ${subject}`
+            : `Are ${subject}`
+        } able to ${selectedEntry.presentPlural}?`;
+      } else if (option === 'Have To') {
+        return `${
+          subject === 'I' || !isSingle
+            ? `Do ${subject} have to`
+            : `Does ${subject} have to`
+        }  ${selectedEntry.presentPlural}?`;
+      }
+
+      return `${option.toLowerCase()} ${subject} ${
+        selectedEntry.presentPlural
+      }?`;
     } else if (state === '+') {
+      if (option === 'Be Able To') {
+        return `${subject} ${
+          subject === 'I' ? 'am' : isSingle ? `is` : `are`
+        } able to ${selectedEntry.presentPlural}`;
+      } else if (option === 'Have To') {
+        return `${subject} ${
+          subject === 'I' || !isSingle ? 'have to' : 'has to'
+        } ${selectedEntry.presentPlural}`;
+      } else if (option === 'Be Likely') {
+        return `${subject} ${
+          subject === 'I' ? 'am' : isSingle ? `is` : `are`
+        } likely to ${selectedEntry.presentPlural}`;
+      }
       return `${subject} ${option.toLowerCase()} ${
         selectedEntry.presentPlural
       }`;
@@ -135,20 +176,24 @@ const ModalsSosTable = () => {
         return `${subject} mustn't ${selectedEntry.presentPlural}`;
       } else if (option === 'Should') {
         return `${subject} shouldn't ${selectedEntry.presentPlural}`;
-      } else if (option === 'OughtTo') {
+      } else if (option === 'Ought To') {
         return `${subject} ought not to ${selectedEntry.presentPlural}`;
-      } else if (option === 'HadBetter') {
+      } else if (option === 'Had Better') {
         return `${subject} had better not ${selectedEntry.presentPlural}`;
       } else if (option === 'May') {
         return `${subject} may not ${selectedEntry.presentPlural}`;
-      } else if (option === 'HaveTo') {
+      } else if (option === 'Have To') {
         return `${subject} ${isSingle ? `doesn't have to` : `don't have to`} ${
           selectedEntry.presentPlural
         }`;
-      } else if (option === 'BeAbleTo') {
+      } else if (option === 'Be Able To') {
         return `${subject} ${
           isSingle ? `isn't` : subject === 'I' ? 'am not' : `aren't`
         } able to ${selectedEntry.presentPlural}`;
+      } else if (option === 'Be Likely') {
+        return `${subject} ${
+          isSingle ? `isn't` : subject === 'I' ? 'am not' : `aren't`
+        } likely to ${selectedEntry.presentPlural}`;
       }
     }
 
@@ -215,6 +260,9 @@ const ModalsSosTable = () => {
       Voice.destroy().then(Voice.removeAllListeners);
     };
   }, []);
+
+  const formatText = (text: string): string =>
+    text.charAt(0).toUpperCase() + text.slice(1);
 
   const onSpeechStart = (e: any) => {
     console.log('onSpeechStart', e);
@@ -290,11 +338,11 @@ const ModalsSosTable = () => {
                 label: 'Should',
               },
               {
-                value: 'OughtTo',
+                value: 'Ought To',
                 label: 'Ought To',
               },
               {
-                value: 'HadBetter',
+                value: 'Had Better',
                 label: 'Had Better',
               },
               {
@@ -302,15 +350,15 @@ const ModalsSosTable = () => {
                 label: 'May',
               },
               {
-                value: 'HaveTo',
+                value: 'Have To',
                 label: 'Have To',
               },
               {
-                value: 'BeAbleTo',
+                value: 'Be Able To',
                 label: 'Be Able To',
               },
               {
-                value: 'BeLikely',
+                value: 'Be Likely',
                 label: 'Be Likely',
               },
             ]}
@@ -327,13 +375,7 @@ const ModalsSosTable = () => {
               symbols={symbols}
               mainCategory="Sos"
             />
-
-            <View
-              style={
-                {
-                  // marginTop: 16,
-                }
-              }>
+            <View>
               <TouchableOpacity
                 style={styles.askButton}
                 activeOpacity={0.7}
@@ -366,76 +408,18 @@ const ModalsSosTable = () => {
                 justifyContent: 'space-between',
                 alignItems: 'center',
               }}>
-              <View
-                style={{
-                  flex: 1,
-                }}>
-                <View
-                  style={{
-                    flex: 1,
-                    flexDirection: 'row',
-                    alignItems: 'center',
-                    marginBottom: 8,
-                  }}>
-                  <Text
-                    style={{
-                      fontWeight: 'bold',
-                      color: 'black',
-                      alignSelf: 'flex-start',
-                    }}>
-                    Anlam:{' '}
-                  </Text>
-                  {isAnswerVisible ? (
-                    <Text
-                      style={{
-                        color: '#6c6c6c',
-                        flex: 1,
-                      }}>
-                      {entry.turkishMean.charAt(0).toUpperCase() +
-                        entry.turkishMean.slice(1)}
-                    </Text>
-                  ) : (
-                    <Icon name="Lock" color="#6c6c6c" width={16} height={16} />
-                  )}
-                </View>
-                <View
-                  style={{
-                    flex: 1,
-                    flexDirection: 'row',
-                    alignItems: 'center',
-                    marginBottom: 8,
-                  }}>
-                  <Text
-                    style={{
-                      fontWeight: 'bold',
-                      color: 'black',
-                      alignSelf: 'flex-start',
-                    }}>
-                    Cevap:{' '}
-                  </Text>
-                  {isAnswerVisible ? (
-                    <TouchableOpacity
-                      style={{
-                        flex: 1,
-                        flexDirection: 'row',
-                        justifyContent: 'space-between',
-                        alignItems: 'flex-start',
-                      }}
-                      onPress={() => {
-                        handleVoice(answer);
-                      }}
-                      activeOpacity={0.7}>
-                      <Text
-                        style={{
-                          color: '#6c6c6c',
-                        }}>
-                        {answer.charAt(0).toUpperCase() + answer.slice(1)}
-                      </Text>
-                    </TouchableOpacity>
-                  ) : (
-                    <Icon name="Lock" color="#6c6c6c" width={16} height={16} />
-                  )}
-                </View>
+              <View style={styles.answerDetails}>
+                <TextLabel
+                  title="Anlam:"
+                  content={
+                    isAnswerVisible ? formatText(entry.turkishMean) : null
+                  }
+                />
+                <TextLabel
+                  title="Cevap:"
+                  content={isAnswerVisible ? answer : null}
+                  onPress={() => handleVoice(answer)}
+                />
               </View>
               <View
                 style={{
@@ -516,23 +500,13 @@ const ModalsSosTable = () => {
               </View>
             )}
             <CheckBox
-              style={{
-                borderRadius: 8,
-                marginTop: 8,
-                width: 'auto',
-                height: 'auto',
-                alignSelf: 'flex-start',
-              }}
+              style={styles.checkbox}
               onClick={() => {
                 setIsChecked(!isChecked);
               }}
               isChecked={isChecked}
               rightText="Soruyu cevaplamak istiyorum"
-              rightTextStyle={{
-                flex: 0,
-                marginLeft: 2,
-                color: 'black',
-              }}
+              rightTextStyle={styles.checkboxRightText}
               checkBoxColor="green"
             />
           </View>
@@ -652,6 +626,9 @@ const styles = StyleSheet.create({
     shadowRadius: 3.84,
     elevation: 5,
   },
+  answerDetails: {
+    flex: 1,
+  },
   answerButton: {
     justifyContent: 'center',
     alignItems: 'center',
@@ -663,6 +640,18 @@ const styles = StyleSheet.create({
   },
   chartContainer: {
     marginBottom: 16,
+  },
+  checkbox: {
+    borderRadius: 8,
+    marginTop: 8,
+    width: 'auto',
+    height: 'auto',
+    alignSelf: 'flex-start',
+  },
+  checkboxRightText: {
+    flex: 0,
+    marginLeft: 2,
+    color: 'black',
   },
 });
 

@@ -25,8 +25,8 @@ const CellSelectionComponent = ({
         styles.choiceCard,
         {
           borderColor: selectedCells.includes(item.value) ? '#2CC2DB' : '#fff',
-          minWidth: 100,
-          minHeight: 70,
+          minWidth: 50,
+          minHeight: 40,
           alignSelf: cells.length === 1 ? 'center' : 'flex-start',
         },
 
@@ -61,8 +61,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    alignItems: 'center',
-    gap: 12,
+    alignItems: 'flex-start',
+    rowGap: 8,
+    columnGap: 12,
     paddingHorizontal: 16,
   },
   choiceCard: {
@@ -105,8 +106,8 @@ const styles = StyleSheet.create({
   },
   tickIconPosition: {
     position: 'absolute',
-    right: -10,
-    top: -10,
+    right: -12,
+    top: -12,
   },
 });
 
