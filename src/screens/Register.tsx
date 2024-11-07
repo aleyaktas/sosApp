@@ -11,6 +11,8 @@ import {
 import {AuthNavigationProps} from '../navigation/authNavigation';
 import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
+import {Image} from 'react-native';
+import logo from '../assets/icons/logo.png';
 
 const Register: FC<AuthNavigationProps> = ({navigation}) => {
   // const [name, setName] = useState('');
@@ -69,15 +71,30 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
       <Toast />
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View style={styles.mainContainer}>
-          <Text style={styles.welcomeText}>Create Account</Text>
-          <Text style={styles.infoText}>
-            Welcome to the Sos App, please enter the information below to create
-            an account for you
-          </Text>
+          <Image
+            source={logo}
+            style={{
+              width: 120,
+              height: 120,
+              resizeMode: 'contain',
+            }}
+          />
+          <View
+            style={{
+              justifyContent: 'center',
+              alignItems: 'center',
+              gap: 10,
+            }}>
+            <Text style={styles.welcomeText}>Hesap Oluştur</Text>
+            <Text style={styles.infoText}>
+              Self English uygulamasına hoşgeldiniz. Lütfen aşağıdaki bilgileri
+              girerek hesap oluşturun
+            </Text>
+          </View>
           <View style={styles.inputContainer}>
             <TextInput
               style={styles.textInput}
-              placeholder="Email"
+              placeholder="E-posta"
               placeholderTextColor={'gray'}
               value={email}
               onChangeText={setEmail}
@@ -86,7 +103,7 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
           <View style={styles.inputContainer}>
             <TextInput
               style={styles.textInput}
-              placeholder="Password"
+              placeholder="Parola"
               placeholderTextColor={'gray'}
               secureTextEntry
               value={password}
@@ -96,7 +113,7 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
           <View style={styles.inputContainer}>
             <TextInput
               style={styles.textInput}
-              placeholder="Confirm Password"
+              placeholder="Parola Tekrar"
               placeholderTextColor={'gray'}
               secureTextEntry
               value={confirmPassword}
@@ -105,13 +122,13 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
           </View>
           <View style={styles.accountPromptContainer}>
             <Text style={styles.accountPromptText}>
-              Already have an account?
+              Zaten bir hesabınız var mı?
             </Text>
             <TouchableOpacity
               activeOpacity={0.9}
               onPress={() => handleLogin()}
               style={styles.loginPromptButton}>
-              <Text style={styles.loginPromptText}>Login</Text>
+              <Text style={styles.loginPromptText}>Giriş Yap</Text>
             </TouchableOpacity>
           </View>
           <TouchableOpacity
@@ -120,7 +137,7 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
             onPress={() => {
               handleRegister();
             }}>
-            <Text style={styles.loginButtonText}>Register</Text>
+            <Text style={styles.loginButtonText}>Kayıt Ol</Text>
           </TouchableOpacity>
         </View>
       </ScrollView>
@@ -144,7 +161,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   welcomeText: {
-    fontFamily: 'Poppins-Bold',
+    // fontFamily: 'Poppins-Bold',
+    fontWeight: 'bold',
     fontSize: 20,
     color: '#1F2937',
   },
@@ -152,14 +170,13 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins-Regular',
     fontSize: 14,
     color: '#4B5563',
-    paddingHorizontal: 40,
     textAlign: 'center',
   },
   inputContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: '#e5e5e5e5',
+    backgroundColor: '#fbfbfb',
     borderRadius: 8,
     width: '100%',
     height: 48,
@@ -185,7 +202,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#1292B4',
+    backgroundColor: '#F3602D',
     borderRadius: 8,
   },
   loginButtonText: {
@@ -209,7 +226,7 @@ const styles = StyleSheet.create({
   loginPromptText: {
     fontFamily: 'Poppins-Bold',
     fontSize: 14,
-    color: '#151954',
+    color: '#F3602D',
   },
 });
 

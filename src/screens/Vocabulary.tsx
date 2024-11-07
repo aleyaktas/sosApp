@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState, useMemo} from 'react';
 import {QuestionContext} from '../contexts/QuestionContext';
 import {Route, useRoute} from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -30,7 +30,6 @@ export interface IWords {
 
 const Vocabulary = () => {
   const {uniteno} = useContext(QuestionContext);
-
   const route = useRoute<VocabularyRoute>();
   const title = route.params.title;
   const vocabularyList = require(`../utils/data`)[`${title}Vocabulary`];
@@ -38,6 +37,7 @@ const Vocabulary = () => {
   const [search, setSearch] = useState<string>('');
   const [vocabulary, setVocabulary] = useState<IWords[]>([]);
   const [starredWords, setStarredWords] = useState<IWords[]>([]);
+  const [showStarredFirst, setShowStarredFirst] = useState<boolean>(false);
 
   useEffect(() => {
     const findUnitVoc = vocabularyList.find(
@@ -46,30 +46,36 @@ const Vocabulary = () => {
     if (findUnitVoc) {
       setVocabulary(findUnitVoc.words);
     }
-    loadStarredWords(); // Load starred words when component mounts
+    loadStarredWords();
   }, [vocabularyList]);
 
   useEffect(() => {
-    if (search === '') {
-      const findUnitVoc = vocabularyList.find(
-        (voc: IVocabulary) => String(voc.unitNumber) == uniteno,
-      );
-      if (findUnitVoc) {
-        setVocabulary(findUnitVoc.words);
-      }
-    } else {
-      const filteredVocabulary = vocabularyList
-        .find((voc: IVocabulary) => String(voc.unitNumber) == uniteno)
-        ?.words.filter((word: IWords) =>
-          word.word.toLowerCase().includes(search.toLowerCase()),
-        );
-      if (filteredVocabulary) {
-        setVocabulary(filteredVocabulary);
-      }
-    }
-  }, [search]);
+    filterAndSortVocabulary();
+  }, [search, showStarredFirst, starredWords]);
 
-  // Load starred words from AsyncStorage
+  const filterAndSortVocabulary = () => {
+    const findUnitVoc = vocabularyList.find(
+      (voc: IVocabulary) => String(voc.unitNumber) == uniteno,
+    );
+    if (findUnitVoc) {
+      const filteredVocabulary =
+        search === ''
+          ? findUnitVoc.words
+          : findUnitVoc.words.filter((word: IWords) =>
+              word.word.toLowerCase().includes(search.toLowerCase()),
+            );
+
+      const sortedVocabulary = showStarredFirst
+        ? [
+            ...filteredVocabulary.filter(word => isStarred(word)),
+            ...filteredVocabulary.filter(word => !isStarred(word)),
+          ]
+        : filteredVocabulary;
+
+      setVocabulary(sortedVocabulary);
+    }
+  };
+
   const loadStarredWords = async () => {
     try {
       const storedData = await AsyncStorage.getItem(`starredWords_${title}`);
@@ -81,22 +87,18 @@ const Vocabulary = () => {
     }
   };
 
-  // Toggle star status of a word
   const toggleStar = async (word: IWords) => {
     let updatedStarredWords = [...starredWords];
     if (isStarred(word)) {
-      // Remove from starred
       updatedStarredWords = updatedStarredWords.filter(
         w => w.word !== word.word,
       );
     } else {
-      // Add to starred
       updatedStarredWords.push(word);
     }
 
     setStarredWords(updatedStarredWords);
 
-    // Save to AsyncStorage
     try {
       await AsyncStorage.setItem(
         `starredWords_${title}`,
@@ -107,7 +109,6 @@ const Vocabulary = () => {
     }
   };
 
-  // Check if a word is starred
   const isStarred = (word: IWords) => {
     return starredWords.some(w => w.word === word.word);
   };
@@ -130,6 +131,16 @@ const Vocabulary = () => {
           </TouchableOpacity>
         )}
       </View>
+
+      {/* Toggle Button for Showing Starred Words First */}
+      <TouchableOpacity
+        style={styles.toggleButton}
+        onPress={() => setShowStarredFirst(!showStarredFirst)}>
+        <Text style={styles.toggleButtonText}>
+          {showStarredFirst ? 'Tümünü Göster' : 'Yıldızlıları Öne Çıkar'}
+        </Text>
+      </TouchableOpacity>
+
       <FlatList
         data={vocabulary}
         renderItem={({item}) => (
@@ -182,6 +193,18 @@ const styles = StyleSheet.create({
   },
   clearButton: {
     padding: 10,
+  },
+  toggleButton: {
+    alignItems: 'center',
+    backgroundColor: '#f2f2f2',
+    borderRadius: 10,
+    paddingVertical: 10,
+    marginBottom: 10,
+  },
+  toggleButtonText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
   },
   wordContainer: {
     flexDirection: 'row',

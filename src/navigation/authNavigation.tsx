@@ -24,6 +24,7 @@ const AuthNavigation = () => {
     <Stack.Navigator
       screenOptions={{
         headerShown: false,
+        cardStyle: {backgroundColor: '#E6EFF1'},
       }}>
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Register" component={Register} />

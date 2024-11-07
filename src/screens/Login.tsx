@@ -13,6 +13,8 @@ import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
 import Icon from '../themes/Icon';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {Image} from 'react-native';
+import logo from '../assets/icons/logo.png';
 
 const Login: FC<AuthNavigationProps> = ({navigation}) => {
   const [username, setUsername] = useState('');
@@ -36,62 +38,45 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
     const formData = new FormData();
     formData.append('email', username);
     formData.append('password', password);
-    // const res = await fetch('https://kelibu.net/api/sos/login', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'multipart/form-data',
-    //     'X-Custom-Header': 'Hilal',
-    //   },
-    //   body: formData,
-    // });
-    navigation.reset({
-      index: 0,
-      routes: [
-        {
-          name: 'BottomTabs',
-          state: {
-            index: 0,
-            routes: [
-              {
-                name: 'Home',
-              },
-            ],
-          },
-        },
-      ],
+    const res = await fetch('https://kelibu.net/api/sos/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'multipart/form-data',
+        'X-Custom-Header': 'Hilal',
+      },
+      body: formData,
     });
-    // console.log('res', res);
-    // if (res.status === 200 || res.status === 201) {
-    //   console.log('Login success');
-    //   if (rememberMe) {
-    //     await AsyncStorage.setItem('username', username);
-    //     await AsyncStorage.setItem('password', password);
 
-    //   } else {
-    //     await AsyncStorage.removeItem('username');
-    //     await AsyncStorage.removeItem('password');
-    //   }
+    if (res.status === 200 || res.status === 201) {
+      console.log('Login success');
+      if (rememberMe) {
+        await AsyncStorage.setItem('username', username);
+        await AsyncStorage.setItem('password', password);
+      } else {
+        await AsyncStorage.removeItem('username');
+        await AsyncStorage.removeItem('password');
+      }
 
-    //   navigation.reset({
-    //     index: 0,
-    //     routes: [
-    //       {
-    //         name: 'BottomTabs',
-    //         state: {
-    //           index: 0,
-    //           routes: [
-    //             {
-    //               name: 'Home',
-    //             },
-    //           ],
-    //         },
-    //       },
-    //     ],
-    //   });
-    // } else {
-    //   console.log('Login failed');
-    //   showMessage('Kullanıcı bulunamadı, bilgilerinizi kontrol edin', 'error');
-    // }
+      navigation.reset({
+        index: 0,
+        routes: [
+          {
+            name: 'BottomTabs',
+            state: {
+              index: 0,
+              routes: [
+                {
+                  name: 'Home',
+                },
+              ],
+            },
+          },
+        ],
+      });
+    } else {
+      console.log('Login failed');
+      showMessage('Kullanıcı bulunamadı, bilgilerinizi kontrol edin', 'error');
+    }
   };
 
   const handleRegister = () => {
@@ -103,14 +88,29 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
       <Toast />
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View style={styles.mainContainer}>
-          <Text style={styles.welcomeText}>Welcome</Text>
-          <Text style={styles.infoText}>
-            Please enter the information below to login Sos App
-          </Text>
+          <Image
+            source={logo}
+            style={{
+              width: 120,
+              height: 120,
+              resizeMode: 'contain',
+            }}
+          />
+          <View
+            style={{
+              justifyContent: 'center',
+              alignItems: 'center',
+              gap: 10,
+            }}>
+            <Text style={styles.welcomeText}>Hoş Geldiniz!</Text>
+            <Text style={styles.infoText}>
+              Self English ile İngilizce öğrenmeye hazır mısınız?
+            </Text>
+          </View>
           <View style={styles.inputContainer}>
             <TextInput
               style={styles.textInput}
-              placeholder="Email"
+              placeholder="E-posta"
               placeholderTextColor={'gray'}
               value={username}
               onChangeText={setUsername}
@@ -119,7 +119,7 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
           <View style={styles.inputContainer}>
             <TextInput
               style={styles.textInput}
-              placeholder="Password"
+              placeholder="Parola"
               placeholderTextColor={'gray'}
               secureTextEntry
               value={password}
@@ -149,26 +149,26 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
                     textDecorationLine: 'none',
                   },
                 ]}>
-                Remember me
+                Beni Hatırla
               </Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.forgotPasswordButton}
               activeOpacity={0.7}>
-              <Text style={styles.forgotPasswordText}>Forgot Password?</Text>
+              <Text style={styles.forgotPasswordText}>Şifremi Unuttum</Text>
             </TouchableOpacity>
           </View>
           <TouchableOpacity
             style={styles.loginButton}
             activeOpacity={0.7}
             onPress={handleLogin}>
-            <Text style={styles.loginButtonText}>Login</Text>
+            <Text style={styles.loginButtonText}>Giriş Yap</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.registerButton}
             activeOpacity={0.7}
             onPress={handleRegister}>
-            <Text style={styles.registerText}>Register</Text>
+            <Text style={styles.registerText}>Kayıt Ol</Text>
           </TouchableOpacity>
         </View>
       </ScrollView>
@@ -195,19 +195,19 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins-Bold',
     fontSize: 20,
     color: '#1F2937',
+    fontWeight: 'bold',
   },
   infoText: {
     fontFamily: 'Poppins-Regular',
     fontSize: 14,
-    color: '#4B5563',
-    paddingHorizontal: 40,
+    color: '#1F2937',
     textAlign: 'center',
   },
   inputContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: '#e5e5e5e5',
+    backgroundColor: '#fbfbfb',
     borderRadius: 8,
     width: '100%',
     height: 48,
@@ -233,7 +233,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#1292B4',
+    backgroundColor: '#F3602D',
     borderRadius: 8,
   },
   loginButtonText: {
@@ -243,7 +243,6 @@ const styles = StyleSheet.create({
   },
   registerButton: {
     width: '100%',
-    paddingVertical: 12,
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 8,
@@ -251,7 +250,7 @@ const styles = StyleSheet.create({
   registerText: {
     fontFamily: 'Poppins-Medium',
     fontSize: 16,
-    color: '#1292B4',
+    color: '#F3602D',
   },
   rememberMeButton: {
     flexDirection: 'row',

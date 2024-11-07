@@ -127,7 +127,9 @@ const ModalsSosTable = () => {
         return `Had ${subject} better ${selectedEntry.presentPlural}?`;
       } else if (option === 'Be Likely') {
         return `${
-          subject === 'I' || !isSingle
+          subject === 'I'
+            ? 'Am I likely to'
+            : isSingle
             ? `Is ${subject} likely to`
             : `Are ${subject} likely to`
         } ${selectedEntry.presentPlural}?`;
