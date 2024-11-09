@@ -59,6 +59,7 @@ const RootNavigation = () => {
     <Stack.Navigator
       screenOptions={{
         headerShown: false,
+        cardStyle: {backgroundColor: '#E6EFF1'},
       }}>
       <Stack.Screen name="Auth" component={AuthNavigation} />
       <Stack.Screen name="BottomTabs" component={BottomTabsNavigation} />
@@ -70,6 +71,7 @@ const RootNavigation = () => {
           headerShown: true,
           headerTitleAlign: 'center',
           headerRightContainerStyle: {right: 20},
+
           headerRight: () => (
             <TouchableOpacity onPress={() => toggleModal()} activeOpacity={0.7}>
               <Text

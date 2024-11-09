@@ -70,6 +70,19 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
     <SafeAreaView style={styles.safeArea}>
       <Toast />
       <ScrollView contentContainerStyle={styles.scrollView}>
+        <Text
+          style={{
+            fontFamily: 'Poppins-Regular',
+            fontSize: 14,
+            color: '#1F2937',
+            textAlign: 'center',
+            position: 'absolute',
+            top: 20,
+            right: 20,
+            fontStyle: 'italic',
+          }}>
+          Beta Version
+        </Text>
         <View style={styles.mainContainer}>
           <Image
             source={logo}
@@ -140,6 +153,14 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
             <Text style={styles.loginButtonText}>Kayıt Ol</Text>
           </TouchableOpacity>
         </View>
+        <Text
+          style={{
+            marginTop: 'auto',
+            marginBottom: 20,
+            textAlign: 'center',
+          }}>
+          PhD Akademi tarafından geliştirilmiştir.
+        </Text>
       </ScrollView>
     </SafeAreaView>
   );
