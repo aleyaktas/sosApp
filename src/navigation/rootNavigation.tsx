@@ -61,12 +61,20 @@ const RootNavigation = () => {
         headerShown: false,
       }}>
       <Stack.Screen name="Auth" component={AuthNavigation} />
-      <Stack.Screen name="BottomTabs" component={BottomTabsNavigation} />
-      <Stack.Screen
+        <Stack.Screen
+          name="BottomTabs"
+          component={BottomTabsNavigation}
+          options={{
+              headerTitle: 'Ana Sayfa',
+              headerShown: false,
+              headerTitleAlign: 'center',
+          }}
+        />
+        <Stack.Screen
         name="Sos"
         component={SosTable}
         options={{
-          headerTitle: 'Sos',
+          headerTitle: 'SelfEnglish',
           headerShown: true,
           headerTitleAlign: 'center',
           headerRightContainerStyle: {right: 20},
