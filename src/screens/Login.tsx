@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
   StyleSheet,
 } from 'react-native';
-import {AuthNavigationProps} from '../navigation/authNavigation';
+import {AuthNavigationProps} from '../navigation/AuthNavigator';
 import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
 import Icon from '../themes/Icon';
@@ -17,7 +17,7 @@ import {Image} from 'react-native';
 import logo from '../assets/icons/logo.png';
 
 const Login: FC<AuthNavigationProps> = ({navigation}) => {
-  const [username, setUsername] = useState('');
+  const [email, setMail] = useState('');
   const [password, setPassword] = useState('');
   const [rememberMe, setRememberMe] = useState(false);
 
@@ -26,7 +26,7 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
       const rememberedUsername = await AsyncStorage.getItem('username');
       const rememberedPassword = await AsyncStorage.getItem('password');
       if (rememberedUsername && rememberedPassword) {
-        setUsername(rememberedUsername);
+        setMail(rememberedUsername);
         setPassword(rememberedPassword);
         setRememberMe(true);
       }
@@ -36,46 +36,44 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
 
   const handleLogin = async () => {
     const formData = new FormData();
-    formData.append('email', username);
+    formData.append('email', email);
     formData.append('password', password);
-    const res = await fetch('https://kelibu.net/api/sos/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'multipart/form-data',
-        'X-Custom-Header': 'Hilal',
-      },
-      body: formData,
-    });
 
-    if (res.status === 200 || res.status === 201) {
-      console.log('Login success');
-      if (rememberMe) {
-        await AsyncStorage.setItem('username', username);
-        await AsyncStorage.setItem('password', password);
-      } else {
-        await AsyncStorage.removeItem('username');
-        await AsyncStorage.removeItem('password');
-      }
-
-      navigation.reset({
-        index: 0,
-        routes: [
-          {
-            name: 'BottomTabs',
-            state: {
-              index: 0,
-              routes: [
-                {
-                  name: 'Home',
-                },
-              ],
-            },
-          },
-        ],
+    try {
+      const res = await fetch('https://kelibu.net/api/sos/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'multipart/form-data',
+          'X-Custom-Header': 'Hilal',
+        },
+        body: formData,
       });
-    } else {
-      console.log('Login failed');
-      showMessage('Kullanıcı bulunamadı, bilgilerinizi kontrol edin', 'error');
+
+      const data = await res.json();
+
+      AsyncStorage.setItem('userId', JSON.stringify(data.user.id));
+
+      if (res.status === 200 || res.status === 201) {
+        if (rememberMe) {
+          await AsyncStorage.multiSet([
+            ['email', email],
+            ['password', password],
+          ]);
+        } else {
+          await AsyncStorage.multiRemove(['email', 'password']);
+        }
+        navigation.reset({
+          index: 0,
+          routes: [{name: 'BottomTabStack', state: {routes: [{name: 'Home'}]}}],
+        });
+      } else {
+        showMessage(
+          'Kullanıcı bulunamadı, bilgilerinizi kontrol edin',
+          'error',
+        );
+      }
+    } catch (error) {
+      console.error('Login error:', error);
     }
   };
 
@@ -87,34 +85,10 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
     <SafeAreaView style={styles.safeArea}>
       <Toast />
       <ScrollView contentContainerStyle={styles.scrollView}>
-        <Text
-          style={{
-            fontFamily: 'Poppins-Regular',
-            fontSize: 14,
-            color: '#1F2937',
-            textAlign: 'center',
-            position: 'absolute',
-            top: 20,
-            right: 20,
-            fontStyle: 'italic',
-          }}>
-          Beta Version
-        </Text>
+        <Text style={styles.betaText}>Beta Version</Text>
         <View style={styles.mainContainer}>
-          <Image
-            source={logo}
-            style={{
-              width: 120,
-              height: 120,
-              resizeMode: 'contain',
-            }}
-          />
-          <View
-            style={{
-              justifyContent: 'center',
-              alignItems: 'center',
-              gap: 10,
-            }}>
+          <Image source={logo} style={styles.logo} />
+          <View style={styles.welcomeContainer}>
             <Text style={styles.welcomeText}>Hoş Geldiniz!</Text>
             <Text style={styles.infoText}>
               Self English ile İngilizce öğrenmeye hazır mısınız?
@@ -125,8 +99,8 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
               style={styles.textInput}
               placeholder="E-posta"
               placeholderTextColor={'gray'}
-              value={username}
-              onChangeText={setUsername}
+              value={email}
+              onChangeText={setMail}
             />
           </View>
           <View style={styles.inputContainer}>
@@ -139,12 +113,7 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
               onChangeText={setPassword}
             />
           </View>
-          <View
-            style={{
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-              width: '100%',
-            }}>
+          <View style={styles.rememberMeContainer}>
             <TouchableOpacity
               style={styles.rememberMeButton}
               onPress={() => setRememberMe(!rememberMe)}
@@ -183,11 +152,7 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
             onPress={handleRegister}>
             <Text style={styles.registerText}>Kayıt Ol</Text>
           </TouchableOpacity>
-          <Text
-            style={{
-              marginTop: 'auto',
-              marginBottom: 20,
-            }}>
+          <Text style={styles.footerText}>
             PhD Akademi tarafından geliştirilmiştir.
           </Text>
         </View>
@@ -210,6 +175,26 @@ const styles = StyleSheet.create({
     display: 'flex',
     gap: 20,
     alignItems: 'center',
+  },
+  betaText: {
+    fontFamily: 'Poppins-Regular',
+    fontSize: 14,
+    color: '#1F2937',
+    textAlign: 'center',
+    position: 'absolute',
+    top: 20,
+    right: 20,
+    fontStyle: 'italic',
+  },
+  logo: {
+    width: 120,
+    height: 120,
+    resizeMode: 'contain',
+  },
+  welcomeContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 10,
   },
   welcomeText: {
     fontFamily: 'Poppins-Bold',
@@ -237,6 +222,11 @@ const styles = StyleSheet.create({
     flex: 1,
     fontFamily: 'Poppins-Light',
     color: '#374151',
+  },
+  rememberMeContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: '100%',
   },
   forgotPasswordButton: {
     alignSelf: 'flex-start',
@@ -275,6 +265,10 @@ const styles = StyleSheet.create({
   rememberMeButton: {
     flexDirection: 'row',
     alignItems: 'center',
+  },
+  footerText: {
+    marginTop: 'auto',
+    marginBottom: 20,
   },
 });
 

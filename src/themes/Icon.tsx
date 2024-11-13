@@ -36,6 +36,8 @@ import LeftArrowCircle from '../assets/icons/LeftArrowCircle.svg';
 import RightFillArrow from '../assets/icons/RightFillArrow.svg';
 import LeftFillArrow from '../assets/icons/LeftFillArrow.svg';
 import Bubble from '../assets/icons/Bubble.svg';
+import Pencil from '../assets/icons/Pencil.svg';
+import Notification from '../assets/icons/Notification.svg';
 
 const icons: {[key: string]: React.FC<SvgProps>} = {
   User,
@@ -74,6 +76,8 @@ const icons: {[key: string]: React.FC<SvgProps>} = {
   RightFillArrow,
   LeftFillArrow,
   Bubble,
+  Pencil,
+  Notification,
 };
 
 interface IconProps {

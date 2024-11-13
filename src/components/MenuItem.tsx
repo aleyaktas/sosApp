@@ -12,7 +12,7 @@ const MenuItem = ({
   item: SubCategory;
   onPress?: () => void;
 }) => {
-  const navigation = useNavigation<ScreenProp>();
+  const navigation = useNavigation<any>();
   return (
     <TouchableOpacity
       activeOpacity={0.7}
@@ -20,7 +20,15 @@ const MenuItem = ({
       onPress={() => {
         onPress && onPress();
         if (item.page) {
-          if (item.mainCategory) {
+          if (item.mainCategory && item.stack) {
+            return navigation.navigate(item.stack, {
+              screen: item.page as any,
+              params: {
+                title: item.mainCategory,
+                item: item,
+              },
+            });
+          } else if (item.mainCategory) {
             return navigation.navigate(item.page as any, {
               title: item.mainCategory,
               item: item,

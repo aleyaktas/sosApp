@@ -8,14 +8,13 @@ import {
   TouchableOpacity,
   StyleSheet,
 } from 'react-native';
-import {AuthNavigationProps} from '../navigation/authNavigation';
+import {AuthNavigationProps} from '../navigation/AuthNavigator';
 import {showMessage} from '../utils/showMessage';
 import Toast from '../components/Toast';
 import {Image} from 'react-native';
 import logo from '../assets/icons/logo.png';
 
 const Register: FC<AuthNavigationProps> = ({navigation}) => {
-  // const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
@@ -31,7 +30,6 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
     }
     const formData = new FormData();
     formData.append('email', email);
-    // formData.append('name', name);
     formData.append('password', password);
     formData.append('phone', '0');
     formData.append('points', '0');
@@ -47,19 +45,7 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
     if (res.status === 200 || res.status === 201) {
       navigation.reset({
         index: 0,
-        routes: [
-          {
-            name: 'BottomTabs',
-            state: {
-              index: 0,
-              routes: [
-                {
-                  name: 'Home',
-                },
-              ],
-            },
-          },
-        ],
+        routes: [{name: 'BottomTabStack', state: {routes: [{name: 'Home'}]}}],
       });
     } else {
       showMessage('Bir hata oluştu. Lütfen tekrar deneyiniz.', 'error');
@@ -70,34 +56,10 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
     <SafeAreaView style={styles.safeArea}>
       <Toast />
       <ScrollView contentContainerStyle={styles.scrollView}>
-        <Text
-          style={{
-            fontFamily: 'Poppins-Regular',
-            fontSize: 14,
-            color: '#1F2937',
-            textAlign: 'center',
-            position: 'absolute',
-            top: 20,
-            right: 20,
-            fontStyle: 'italic',
-          }}>
-          Beta Version
-        </Text>
+        <Text style={styles.betaText}>Beta Version</Text>
         <View style={styles.mainContainer}>
-          <Image
-            source={logo}
-            style={{
-              width: 120,
-              height: 120,
-              resizeMode: 'contain',
-            }}
-          />
-          <View
-            style={{
-              justifyContent: 'center',
-              alignItems: 'center',
-              gap: 10,
-            }}>
+          <Image source={logo} style={styles.logo} />
+          <View style={styles.welcomeContainer}>
             <Text style={styles.welcomeText}>Hesap Oluştur</Text>
             <Text style={styles.infoText}>
               Self English uygulamasına hoşgeldiniz. Lütfen aşağıdaki bilgileri
@@ -153,12 +115,7 @@ const Register: FC<AuthNavigationProps> = ({navigation}) => {
             <Text style={styles.loginButtonText}>Kayıt Ol</Text>
           </TouchableOpacity>
         </View>
-        <Text
-          style={{
-            marginTop: 'auto',
-            marginBottom: 20,
-            textAlign: 'center',
-          }}>
+        <Text style={styles.footerText}>
           PhD Akademi tarafından geliştirilmiştir.
         </Text>
       </ScrollView>
@@ -181,8 +138,27 @@ const styles = StyleSheet.create({
     gap: 20,
     alignItems: 'center',
   },
+  betaText: {
+    fontFamily: 'Poppins-Regular',
+    fontSize: 14,
+    color: '#1F2937',
+    textAlign: 'center',
+    position: 'absolute',
+    top: 20,
+    right: 20,
+    fontStyle: 'italic',
+  },
+  logo: {
+    width: 120,
+    height: 120,
+    resizeMode: 'contain',
+  },
+  welcomeContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 10,
+  },
   welcomeText: {
-    // fontFamily: 'Poppins-Bold',
     fontWeight: 'bold',
     fontSize: 20,
     color: '#1F2937',
@@ -248,6 +224,11 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins-Bold',
     fontSize: 14,
     color: '#F3602D',
+  },
+  footerText: {
+    marginTop: 'auto',
+    marginBottom: 20,
+    textAlign: 'center',
   },
 });
 

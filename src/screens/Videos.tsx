@@ -15,7 +15,7 @@ import {SubCategory} from './SubCategory';
 type VideosRoute = Route<'Videos', {title: string}>;
 
 const Videos = () => {
-  const navigation = useNavigation<ScreenProp>();
+  const navigation = useNavigation<any>();
   const route = useRoute<VideosRoute>();
   const title = route.params.title;
   const videos = require(`../utils/data`)[`${title}Videos`];

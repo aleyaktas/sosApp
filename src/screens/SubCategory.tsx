@@ -11,6 +11,7 @@ export interface SubCategory {
   image?: any;
   page: string;
   disabled?: boolean;
+  stack?: string;
 }
 
 type SubCategoryRoute = Route<'SubCategory', {title: string}>;

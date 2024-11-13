@@ -5,12 +5,12 @@ import {
 import React from 'react';
 import Login from '../screens/Login';
 import Register from '../screens/Register';
-import {BottomTabParamList} from './bottomTabsNavigation';
+import {BottomTabParamList} from './BottomTabsNavigator';
 
 type AuthStackParamList = {
   Login: undefined;
   Register: undefined;
-  BottomTabs: BottomTabParamList;
+  BottomTabStack: BottomTabParamList;
 };
 
 export type AuthNavigationProps = {
@@ -19,7 +19,7 @@ export type AuthNavigationProps = {
 
 const Stack = createStackNavigator<AuthStackParamList>();
 
-const AuthNavigation = () => {
+const AuthNavigator = () => {
   return (
     <Stack.Navigator
       screenOptions={{
@@ -32,4 +32,4 @@ const AuthNavigation = () => {
   );
 };
 
-export default AuthNavigation;
+export default AuthNavigator;

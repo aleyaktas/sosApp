@@ -195,6 +195,7 @@ export interface ISubCategory {
   symbols?: string[];
   selectedSymbols?: string[];
   disabled?: boolean;
+  stack?: string;
 }
 
 export const ConjunctionsSubCategory = [
@@ -276,6 +277,7 @@ export const TensesSubCategory: ISubCategory[] = [
     mainCategory: 'Tenses',
     description: 'Çeviri çalışmaları',
     page: 'Translation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -316,6 +318,7 @@ export const QuestionsSubCategory: ISubCategory[] = [
     symbols: ['What', 'Who', 'Where', 'When', 'Why', 'How'],
     selectedSymbols: ['What'],
     page: 'QuestionsTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -367,6 +370,7 @@ export const ModalsSubCategory: ISubCategory[] = [
     mainCategory: 'Modals',
     description: 'Çeviri çalışmaları',
     page: 'ModalsTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -404,6 +408,7 @@ export const ThereIsThereAreSubCategory: ISubCategory[] = [
     mainCategory: 'ThereIsThereAre',
     description: 'Çeviri çalışmaları',
     page: 'ThereIsAreTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -415,6 +420,7 @@ export const RelativeAndNounClauseSubCategory: ISubCategory[] = [
     mainCategory: 'RelativeAndNounClause',
     description: 'Çeviri çalışmaları',
     page: 'RcNcTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -458,6 +464,7 @@ export const PronounsSubCategory: ISubCategory[] = [
     mainCategory: 'Pronouns',
     description: 'Çeviri çalışmaları',
     page: 'PronounsTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -485,6 +492,7 @@ export const AdjectivesAdverbsSubCategory: ISubCategory[] = [
     mainCategory: 'AdjectivesAdverbs',
     description: 'Çeviri çalışmaları',
     page: 'AdjectivesAdverbTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -512,6 +520,7 @@ export const ImperativesSubCategory: ISubCategory[] = [
     mainCategory: 'Imperatives',
     description: 'Çeviri çalışmaları',
     page: 'ImperativesTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -539,6 +548,7 @@ export const LetsShallSubCategory: ISubCategory[] = [
     mainCategory: 'LetsShall',
     description: 'Çeviri çalışmaları',
     page: 'LetsShallTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -566,6 +576,7 @@ export const QuantifiersSubCategory: ISubCategory[] = [
     mainCategory: 'Quantifiers',
     description: 'Çeviri çalışmaları',
     page: 'QuantifiersTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -593,6 +604,7 @@ export const IndefinitePronounsSubCategory: ISubCategory[] = [
     mainCategory: 'IndefinitePronouns',
     description: 'Çeviri çalışmaları',
     page: 'IndefinitePronounsTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -620,6 +632,7 @@ export const GerundInfinitiveSubCategory: ISubCategory[] = [
     mainCategory: 'GerundInfinitive',
     description: 'Çeviri çalışmaları',
     page: 'GerundInfinitiveTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -647,6 +660,7 @@ export const ArticlesSubCategory: ISubCategory[] = [
     mainCategory: 'Articles',
     description: 'Çeviri çalışmaları',
     page: 'AAnTheTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -1006,6 +1020,7 @@ export const PassiveSubCategory: ISubCategory[] = [
     mainCategory: 'Passive',
     description: 'Çeviri çalışmaları',
     page: 'PassiveTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -1049,6 +1064,7 @@ export const SvsOfSubCategory: ISubCategory[] = [
     mainCategory: 'SvsOf',
     description: 'Çeviri çalışmaları',
     page: 'PossessiveSOfTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -1076,6 +1092,7 @@ export const ExcitingExcitedSubCategory: ISubCategory[] = [
     mainCategory: 'ExcitingExcited',
     description: 'Çeviri çalışmaları',
     page: 'ExcitingExcitedTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -1176,6 +1193,7 @@ export const Conjunctions1GSubCategory: ISubCategory[] = [
     mainCategory: 'Conjunctions1G',
     description: 'Çeviri çalışmaları',
     page: 'Conjunctions1GTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -1286,6 +1304,7 @@ export const Conjunctions2GSubCategory: ISubCategory[] = [
     mainCategory: 'Conjunctions2G',
     description: 'Çeviri çalışmaları',
     page: 'Conjunctions2GTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -1348,6 +1367,7 @@ export const Conjunctions3GSubCategory: ISubCategory[] = [
     mainCategory: 'Conjunctions3G',
     description: 'Çeviri çalışmaları',
     page: 'Conjunctions3GTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -1402,6 +1422,7 @@ export const ComparativesSuperlativesSubCategory: ISubCategory[] = [
     mainCategory: 'ComparativesSuperlatives',
     description: 'Çeviri çalışmaları',
     page: 'ComparativesSuperlativesTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -1429,6 +1450,7 @@ export const FlowerToSubCategory: ISubCategory[] = [
     mainCategory: 'FlowerTo',
     description: 'Çeviri çalışmaları',
     page: 'FlowerToTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -1472,6 +1494,7 @@ export const HaveHasSubCategory: ISubCategory[] = [
     mainCategory: 'HaveHas',
     description: 'Çeviri çalışmaları',
     page: 'HaveHasTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
 ];
@@ -1524,6 +1547,7 @@ export const ImpersonalItSubCategory: ISubCategory[] = [
     mainCategory: 'ImpersonalIt',
     description: 'Çeviri çalışmaları',
     page: 'ImpersonalItTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -1551,6 +1575,7 @@ export const IfClausesSubCategory: ISubCategory[] = [
     mainCategory: 'IfClauses',
     description: 'Çeviri çalışmaları',
     page: 'IfClausesTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -1624,6 +1649,7 @@ export const PrepositionsSubCategory: ISubCategory[] = [
     mainCategory: 'Prepositions',
     description: 'Çeviri çalışmaları',
     page: 'PrepositionsTranslation',
+    stack: 'TranslationStack',
     image: require('../assets/icons/translation.png'),
   },
   {
@@ -1703,6 +1729,7 @@ export interface IUnit {
   page: string;
   image: any;
   disabled?: boolean;
+  stack?: string;
 }
 
 export const TensesUnitChoices: IUnit[] = [
@@ -1771,6 +1798,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'Daily Routines: Describing a typical day.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/1.png'),
   },
   {
@@ -1779,6 +1807,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: `Occupations: Talking about people's jobs.`,
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/2.png'),
   },
   {
@@ -1788,6 +1817,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Personal Descriptions: Describing physical appearance and personality.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/3.png'),
   },
   {
@@ -1796,6 +1826,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'Weather Conditions: Discussing the weather.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/4.png'),
   },
   {
@@ -1804,6 +1835,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'Emotions and Feelings: Expressing how someone feels.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/5.png'),
   },
   {
@@ -1813,6 +1845,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Family Relationships: Describing family members and their roles.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/6.png'),
   },
   {
@@ -1821,6 +1854,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'Pets and Animals: Talking about characteristics of animals.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/7.png'),
   },
   {
@@ -1829,6 +1863,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'Classroom Objects: Identifying objects around the school.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/8.png'),
   },
   {
@@ -1838,6 +1873,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Hobbies and Interests: Sharing personal interests and hobbies.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/9.png'),
   },
   {
@@ -1846,6 +1882,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'Sports: Discussing various sports and who plays them.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/10.png'),
   },
   {
@@ -1855,6 +1892,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Health and Fitness: Talking about health habits and conditions.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/11.png'),
   },
   {
@@ -1863,6 +1901,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'Clothing and Fashion: Describing what people wear.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/12.png'),
   },
   {
@@ -1872,6 +1911,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Food and Cooking: Talking about different foods and cooking methods.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/13.png'),
   },
   {
@@ -1881,6 +1921,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Travel and Tourism: Describing popular tourist destinations and activities.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/14.png'),
   },
   {
@@ -1889,6 +1930,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'Cultural Festivals: Discussing traditional celebrations.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/15.png'),
   },
   {
@@ -1898,6 +1940,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Music and Movies: Sharing preferences and opinions about music and films.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/16.png'),
   },
   {
@@ -1907,6 +1950,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Books and Reading: Talking about favorite books and reading habits.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/17.png'),
   },
   {
@@ -1916,6 +1960,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Technology and Gadgets: Describing various technologies and their uses.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/18.png'),
   },
   {
@@ -1924,6 +1969,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'Social Media: Discussing the impact and use of social media.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/19.png'),
   },
   {
@@ -1933,6 +1979,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Transportation: Talking about different types of transportation.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/20.png'),
   },
   {
@@ -1941,6 +1988,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'School Subjects: Describing what is learned in each subject.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/21.png'),
   },
   {
@@ -1950,6 +1998,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Holidays and Vacations: Talking about holiday plans and experiences.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/22.png'),
   },
   {
@@ -1959,6 +2008,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Houses and Homes: Describing parts of the house and household items',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/23.png'),
   },
   {
@@ -1968,6 +2018,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Neighborhoods: Talking about what can be found in a neighborhood.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/24.png'),
   },
   {
@@ -1977,6 +2028,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Countries and Nationalities: Describing countries and the nationality of people.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/25.png'),
   },
   {
@@ -1985,6 +2037,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'Historical Events: Discussing significant events in history.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/26.png'),
   },
   {
@@ -1994,6 +2047,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Environmental Issues: Talking about the environment and sustainability.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/27.png'),
   },
   {
@@ -2002,6 +2056,7 @@ export const PresentSimpleUnits: IUnit[] = [
     description: 'Space Exploration: Describing planets and space missions.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/28.png'),
   },
   {
@@ -2011,6 +2066,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Art and Exhibitions: Talking about different art styles and exhibitions.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/29.png'),
   },
   {
@@ -2020,6 +2076,7 @@ export const PresentSimpleUnits: IUnit[] = [
       'Urban vs. Rural Life: Comparing life in cities to life in rural areas',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/30.png'),
   },
 ];
@@ -2032,6 +2089,7 @@ export const PastSimpleUnits: IUnit[] = [
       'Childhood Memories: Discuss what activities they enjoyed as children.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/31.png'),
   },
   {
@@ -2041,6 +2099,7 @@ export const PastSimpleUnits: IUnit[] = [
       'Last Vacation: Have students describe their most recent holiday experience.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/32.png'),
   },
   {
@@ -2050,6 +2109,7 @@ export const PastSimpleUnits: IUnit[] = [
       'First Day at School: Students recount their first day at a new school.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/33.png'),
   },
   {
@@ -2059,6 +2119,7 @@ export const PastSimpleUnits: IUnit[] = [
       'Historical Events: Students write about a significant event in history.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/34.png'),
   },
   {
@@ -2067,6 +2128,7 @@ export const PastSimpleUnits: IUnit[] = [
     description: 'A Day at the Park: Describe a past outing to a park.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/35.png'),
   },
   {
@@ -2076,6 +2138,7 @@ export const PastSimpleUnits: IUnit[] = [
       'My Favorite Movie: Discuss the plot of their favorite movie seen in the past.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/36.png'),
   },
   {
@@ -2085,6 +2148,7 @@ export const PastSimpleUnits: IUnit[] = [
       "Yesterday's Routine: Have students write about their activities from the previous day.",
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/37.png'),
   },
   {
@@ -2094,6 +2158,7 @@ export const PastSimpleUnits: IUnit[] = [
       'A Family Gathering: Describe a family event, such as a reunion or celebration.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/38.png'),
   },
   {
@@ -2103,6 +2168,7 @@ export const PastSimpleUnits: IUnit[] = [
       'Learning to Ride a Bike: Students recount their experience of learning to ride a bike.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/39.png'),
   },
   {
@@ -2112,6 +2178,7 @@ export const PastSimpleUnits: IUnit[] = [
       'Cooking a Meal: Describe the process of cooking a specific dish in the past.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/40.png'),
   },
   {
@@ -2121,6 +2188,7 @@ export const PastSimpleUnits: IUnit[] = [
       'A Sports Game: Write about a sports match they played or watched.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/41.png'),
   },
   {
@@ -2129,6 +2197,7 @@ export const PastSimpleUnits: IUnit[] = [
     description: 'My First Pet: Students talk about the first pet they had.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/42.png'),
   },
   {
@@ -2137,6 +2206,7 @@ export const PastSimpleUnits: IUnit[] = [
     description: 'A Concert I Attended: Describe a music concert they went to.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/43.png'),
   },
   {
@@ -2146,6 +2216,7 @@ export const PastSimpleUnits: IUnit[] = [
       'A Book I Read: Discuss the storyline of a book they have finished.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/44.png'),
   },
   {
@@ -2155,6 +2226,7 @@ export const PastSimpleUnits: IUnit[] = [
       'When I Got Lost: Students recount an experience of getting lost.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/45.png'),
   },
   {
@@ -2163,6 +2235,7 @@ export const PastSimpleUnits: IUnit[] = [
     description: 'A Birthday Party: Describe a memorable birthday celebration.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/46.png'),
   },
   {
@@ -2172,6 +2245,7 @@ export const PastSimpleUnits: IUnit[] = [
       'First Time I Saw Snow: Describe experiencing snow for the first time.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/47.png'),
   },
   {
@@ -2181,6 +2255,7 @@ export const PastSimpleUnits: IUnit[] = [
       'A Visit to the Zoo: Talk about a visit to the zoo and the animals they saw.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/48.png'),
   },
   {
@@ -2190,6 +2265,7 @@ export const PastSimpleUnits: IUnit[] = [
       'Best Friend in Childhood: Describe their best friend during childhood and activities they did together.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/49.png'),
   },
   {
@@ -2199,6 +2275,7 @@ export const PastSimpleUnits: IUnit[] = [
       'A Science Experiment: Discuss a science experiment they conducted in school.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/50.png'),
   },
   {
@@ -2207,6 +2284,7 @@ export const PastSimpleUnits: IUnit[] = [
     description: 'Last Weekend: Detail what they did last weekend.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/51.png'),
   },
   {
@@ -2215,6 +2293,7 @@ export const PastSimpleUnits: IUnit[] = [
     description: 'When I Won a Prize: Describe winning a prize or award.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/52.png'),
   },
   {
@@ -2224,6 +2303,7 @@ export const PastSimpleUnits: IUnit[] = [
       'A Memorable Trip: Discuss a particularly memorable trip and why it stood out.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/53.png'),
   },
   {
@@ -2233,6 +2313,7 @@ export const PastSimpleUnits: IUnit[] = [
       'My First Job: Talk about their first job and what duties they had.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/54.png'),
   },
   {
@@ -2242,6 +2323,7 @@ export const PastSimpleUnits: IUnit[] = [
       'Moving to a New House: Describe the process and feelings of moving to a new home.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/55.png'),
   },
   {
@@ -2251,6 +2333,7 @@ export const PastSimpleUnits: IUnit[] = [
       'Building a Snowman: Talk about the experience of building a snowman.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/56.png'),
   },
   {
@@ -2260,6 +2343,7 @@ export const PastSimpleUnits: IUnit[] = [
       'A Museum Visit: Describe what they saw and learned during a museum visit.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/57.png'),
   },
   {
@@ -2269,6 +2353,7 @@ export const PastSimpleUnits: IUnit[] = [
       'Repairing Something: Describe an experience where they fixed or helped fix something.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/58.png'),
   },
   {
@@ -2278,6 +2363,7 @@ export const PastSimpleUnits: IUnit[] = [
       'A Surprising Event: Write about a time something unexpected happened.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/59.png'),
   },
   {
@@ -2287,6 +2373,7 @@ export const PastSimpleUnits: IUnit[] = [
       'Watching a Sunrise or Sunset: Describe the experience and feelings during a sunrise or sunset viewing.',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/60.png'),
   },
 ];
@@ -2298,6 +2385,7 @@ export const PresentContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/61.png'),
   },
   {
@@ -2306,6 +2394,7 @@ export const PresentContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/62.png'),
   },
   {
@@ -2314,6 +2403,7 @@ export const PresentContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/63.png'),
   },
   {
@@ -2322,6 +2412,7 @@ export const PresentContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/64.png'),
   },
   {
@@ -2330,6 +2421,7 @@ export const PresentContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/65.png'),
   },
   {
@@ -2338,6 +2430,7 @@ export const PresentContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/66.png'),
   },
   {
@@ -2346,6 +2439,7 @@ export const PresentContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/67.png'),
   },
   {
@@ -2354,6 +2448,7 @@ export const PresentContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/68.png'),
   },
   {
@@ -2362,6 +2457,7 @@ export const PresentContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/69.png'),
   },
   {
@@ -2370,6 +2466,7 @@ export const PresentContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/70.png'),
   },
 ];
@@ -2381,6 +2478,7 @@ export const PastContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/71.png'),
   },
   {
@@ -2389,6 +2487,7 @@ export const PastContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/72.png'),
   },
   {
@@ -2397,6 +2496,7 @@ export const PastContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/73.png'),
   },
   {
@@ -2405,6 +2505,7 @@ export const PastContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/74.png'),
   },
   {
@@ -2413,6 +2514,7 @@ export const PastContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/75.png'),
   },
   {
@@ -2421,6 +2523,7 @@ export const PastContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/76.png'),
   },
   {
@@ -2429,6 +2532,7 @@ export const PastContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/77.png'),
   },
   {
@@ -2437,6 +2541,7 @@ export const PastContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/78.png'),
   },
   {
@@ -2445,6 +2550,7 @@ export const PastContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/79.png'),
   },
   {
@@ -2453,6 +2559,7 @@ export const PastContinuousUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/80.png'),
   },
 ];
@@ -2464,6 +2571,7 @@ export const FutureTensesUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/81.png'),
   },
   {
@@ -2472,6 +2580,7 @@ export const FutureTensesUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/82.png'),
   },
   {
@@ -2480,6 +2589,7 @@ export const FutureTensesUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/83.png'),
   },
   {
@@ -2488,6 +2598,7 @@ export const FutureTensesUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/84.png'),
   },
   {
@@ -2496,6 +2607,7 @@ export const FutureTensesUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/85.png'),
   },
   {
@@ -2504,6 +2616,7 @@ export const FutureTensesUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/86.png'),
   },
   {
@@ -2512,6 +2625,7 @@ export const FutureTensesUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/87.png'),
   },
   {
@@ -2520,6 +2634,7 @@ export const FutureTensesUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/88.png'),
   },
   {
@@ -2528,6 +2643,7 @@ export const FutureTensesUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/89.png'),
   },
   {
@@ -2536,6 +2652,7 @@ export const FutureTensesUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/90.png'),
   },
 ];
@@ -2547,6 +2664,7 @@ export const PresentPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/91.png'),
   },
   {
@@ -2555,6 +2673,7 @@ export const PresentPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/92.png'),
   },
   {
@@ -2563,6 +2682,7 @@ export const PresentPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/93.png'),
   },
   {
@@ -2571,6 +2691,7 @@ export const PresentPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/94.png'),
   },
   {
@@ -2587,6 +2708,7 @@ export const PresentPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/96.png'),
   },
   {
@@ -2595,6 +2717,7 @@ export const PresentPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/97.png'),
   },
   {
@@ -2603,6 +2726,7 @@ export const PresentPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/98.png'),
   },
   {
@@ -2611,6 +2735,7 @@ export const PresentPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/99.png'),
   },
   {
@@ -2619,6 +2744,7 @@ export const PresentPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/100.png'),
   },
 ];
@@ -2630,6 +2756,7 @@ export const PastPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/101.png'),
   },
   {
@@ -2638,6 +2765,7 @@ export const PastPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/102.png'),
   },
   {
@@ -2646,6 +2774,7 @@ export const PastPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/103.png'),
   },
   {
@@ -2654,6 +2783,7 @@ export const PastPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/104.png'),
   },
   {
@@ -2662,6 +2792,7 @@ export const PastPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/105.png'),
   },
   {
@@ -2670,6 +2801,7 @@ export const PastPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/106.png'),
   },
   {
@@ -2678,6 +2810,7 @@ export const PastPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/107.png'),
   },
   {
@@ -2686,6 +2819,7 @@ export const PastPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/108.png'),
   },
   {
@@ -2694,6 +2828,7 @@ export const PastPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/109.png'),
   },
   {
@@ -2702,6 +2837,7 @@ export const PastPerfectUnits: IUnit[] = [
     description: '',
     mainCategory: 'Tenses',
     page: 'FourSkills',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/110.png'),
   },
 ];
@@ -2713,6 +2849,7 @@ export const TensesClozeTestUnits: IUnit[] = [
     description: 'Zamanlar cloze test',
     mainCategory: 'TensesClozeTest',
     page: 'Listening',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/numbers/1.png'),
   },
 ];
@@ -2742,6 +2879,7 @@ export interface IFourSkill {
   mainCategory?: string;
   description: string;
   page: string;
+  stack?: string;
   image: any;
 }
 
@@ -2752,6 +2890,7 @@ export const fourSkills: IFourSkill[] = [
     mainCategory: 'Tenses',
     description: 'Kelime bilgisi',
     page: 'Vocabulary',
+    stack: 'FourSkillsStack',
     image: require('../assets/images/Vocabulary.png'),
   },
   {
@@ -2759,6 +2898,7 @@ export const fourSkills: IFourSkill[] = [
     title: 'Okuma',
     description: 'Okuma becerisi',
     page: 'Reading',
+    stack: 'FourSkillsStack',
     image: require('../assets/icons/reading.png'),
   },
   {
@@ -2766,6 +2906,7 @@ export const fourSkills: IFourSkill[] = [
     title: 'Dinleme',
     description: 'Dinleme becerisi',
     page: 'Listening',
+    stack: 'FourSkillsStack',
     image: require('../assets/icons/listening.png'),
   },
   {
@@ -2773,6 +2914,7 @@ export const fourSkills: IFourSkill[] = [
     title: 'Konuşma',
     description: 'Konuşma becerisi',
     page: 'SpeakingList',
+    stack: 'FourSkillsStack',
     image: require('../assets/icons/speaking.png'),
   },
   {
@@ -2780,6 +2922,7 @@ export const fourSkills: IFourSkill[] = [
     title: 'Yazma',
     description: 'Yazma becerisi',
     page: 'WritingList',
+    stack: 'FourSkillsStack',
     image: require('../assets/icons/writing.png'),
   },
 ];

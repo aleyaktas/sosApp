@@ -2,21 +2,16 @@ import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home';
 import Icon from '../themes/Icon';
-import {RouteProp} from '@react-navigation/native';
+import SettingsNavigator from './SettingsNavigator';
 
 export type BottomTabParamList = {
   Home: undefined;
-};
-
-export type BottomTabNavigationProp<T extends keyof BottomTabParamList> = {
-  navigation: {
-    navigate: (screen: T) => void;
-  } & RouteProp<BottomTabParamList, T>;
+  Settings: undefined;
 };
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
 
-const BottomTabNavigation: React.FC = () => {
+const BottomTabsNavigator: React.FC = () => {
   return (
     <BottomTab.Navigator>
       <BottomTab.Screen
@@ -30,8 +25,19 @@ const BottomTabNavigation: React.FC = () => {
           tabBarIcon: () => <Icon name="Home" color="black" />,
         }}
       />
+      <BottomTab.Screen
+        name="Settings"
+        component={SettingsNavigator}
+        options={{
+          headerShown: false,
+          headerTitleAlign: 'center',
+          tabBarActiveTintColor: 'black',
+          headerRightContainerStyle: {paddingRight: 20},
+          tabBarIcon: () => <Icon name="User" color="black" />,
+        }}
+      />
     </BottomTab.Navigator>
   );
 };
 
-export default BottomTabNavigation;
+export default BottomTabsNavigator;
