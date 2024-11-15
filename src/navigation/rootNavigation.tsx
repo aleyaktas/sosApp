@@ -38,7 +38,7 @@ const RootNavigation = () => {
         name="Sos"
         component={SosTable}
         options={{
-          headerTitle: 'Sos',
+          headerTitle: 'SelfEnglish',
           headerShown: true,
           headerTitleAlign: 'center',
           headerRightContainerStyle: {right: 20},

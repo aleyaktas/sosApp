@@ -11,6 +11,50 @@ export type BottomTabParamList = {
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
 
+const LogoutButton = () => {
+  const navigation = useNavigation();
+
+  const handleLogout = async () => {
+    try {
+      await AsyncStorage.removeItem('email');
+      await AsyncStorage.removeItem('password');
+
+      // Auth navigator'a yönlendirme yapıyoruz
+      navigation.dispatch(
+        CommonActions.reset({
+          index: 0,
+          routes: [
+            {
+              name: 'Auth',
+              state: {
+                routes: [
+                  {
+                    name: 'Login',
+                  },
+                ],
+              },
+            },
+          ],
+        }),
+      );
+    } catch (error) {
+      console.error('Logout error:', error);
+    }
+  };
+
+  return (
+    <TouchableOpacity
+      onPress={handleLogout}
+      style={{
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingHorizontal: 10,
+      }}>
+      <Text style={{color: '#F3602D', fontSize: 16}}>Çıkış</Text>
+    </TouchableOpacity>
+  );
+};
+
 const BottomTabsNavigator: React.FC = () => {
   return (
     <BottomTab.Navigator>
@@ -18,11 +62,26 @@ const BottomTabsNavigator: React.FC = () => {
         name="Home"
         component={Home}
         options={{
-          headerTitle: 'Konular',
+          headerTitle: 'Ana Sayfa',
           headerTitleAlign: 'center',
           tabBarActiveTintColor: 'black',
           headerRightContainerStyle: {paddingRight: 20},
-          tabBarIcon: () => <Icon name="Home" color="black" />,
+          headerRight: () => <LogoutButton />,
+          tabBarLabel: 'Konular',
+          tabBarIcon: ({color}) => (
+            <Icon name="Home" color={color} width={24} height={24} />
+          ),
+        }}
+      />
+      <BottomTab.Screen
+        name="Settings"
+        component={SettingsNavigator}
+        options={{
+          headerShown: false,
+          headerTitleAlign: 'center',
+          tabBarActiveTintColor: 'black',
+          headerRightContainerStyle: {paddingRight: 20},
+          tabBarIcon: () => <Icon name="User" color="black" />,
         }}
       />
       <BottomTab.Screen
