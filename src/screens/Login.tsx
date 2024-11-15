@@ -23,7 +23,7 @@ const Login: FC<AuthNavigationProps> = ({navigation}) => {
 
   useEffect(() => {
     const fetchRememberedUser = async () => {
-      const rememberedUsername = await AsyncStorage.getItem('username');
+      const rememberedUsername = await AsyncStorage.getItem('email');
       const rememberedPassword = await AsyncStorage.getItem('password');
       if (rememberedUsername && rememberedPassword) {
         setMail(rememberedUsername);

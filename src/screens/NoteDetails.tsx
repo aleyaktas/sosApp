@@ -1,6 +1,12 @@
 import {Route, useRoute} from '@react-navigation/native';
 import React from 'react';
-import {Dimensions, Platform, StyleSheet, View} from 'react-native';
+import {
+  Dimensions,
+  Platform,
+  NativeModules,
+  StyleSheet,
+  View,
+} from 'react-native';
 import Pdf from 'react-native-pdf';
 
 export interface NoteDetails {
@@ -22,7 +28,9 @@ const NoteDetails = () => {
   console.log(title);
   console.log(pdfName);
 
-  const pdfFile = require(`../assets/pdfs/Tenses/Tenses_1_1b_am_is_are.pdf`);
+  // const pdfFile = require(`../assets/pdfs/Tenses/Tenses_1_1b_am_is_are.pdf`);
+
+  const pdfFile = `${NativeModules.SourceCode.scriptURL}/assets/pdfs/${title}/${pdfName}.pdf`;
 
   const source =
     Platform.OS === 'ios'

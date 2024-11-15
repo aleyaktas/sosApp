@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Text, View, Image, ScrollView, StyleSheet, Alert} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import {useNavigation} from '@react-navigation/native';
@@ -6,9 +6,21 @@ import {ScreenProp} from '../navigation/types';
 import {Categories} from '../utils/data';
 import Icon from '../themes/Icon';
 import {deleteAccount} from '../actions';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Settings = () => {
   const navigation = useNavigation<any>();
+
+  const [mail, setMail] = React.useState('');
+
+  useEffect(() => {
+    const fetchMail = async () => {
+      AsyncStorage.getItem('email').then(email => {
+        setMail(email || '');
+      });
+    };
+    fetchMail();
+  }, []);
 
   return (
     <ScrollView style={styles.container}>
@@ -16,8 +28,7 @@ const Settings = () => {
         <View style={styles.profileImageContainer}>
           <Icon name="User" color="gray" width={70} height={70} />
         </View>
-        <Text style={styles.username}>Kullanıcı Adı</Text>
-        <Text style={styles.email}>user@example.com</Text>
+        <Text style={styles.email}>{mail}</Text>
       </View>
 
       <View style={styles.optionsContainer}>
@@ -83,7 +94,11 @@ const Settings = () => {
         </TouchableOpacity>
         <TouchableOpacity
           style={[styles.extraOptionButton]}
-          onPress={() => navigation.navigate('Login')}>
+          onPress={() =>
+            navigation.navigate('AuthStack', {
+              screen: 'Login',
+            })
+          }>
           <Text style={styles.extraOptionText}>Çıkış Yap</Text>
         </TouchableOpacity>
       </View>
@@ -122,14 +137,10 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     marginBottom: 10,
   },
-  username: {
+  email: {
     fontSize: 20,
     fontWeight: '600',
     color: '#333',
-  },
-  email: {
-    fontSize: 14,
-    color: 'gray',
   },
   optionsContainer: {
     paddingHorizontal: 20,
