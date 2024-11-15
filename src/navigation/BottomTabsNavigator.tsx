@@ -3,6 +3,10 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home';
 import Icon from '../themes/Icon';
 import SettingsNavigator from './SettingsNavigator';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {CommonActions, useNavigation} from '@react-navigation/native';
+import {TouchableOpacity} from 'react-native-gesture-handler';
+import {Text} from 'react-native';
 
 export type BottomTabParamList = {
   Home: undefined;
@@ -19,7 +23,6 @@ const LogoutButton = () => {
       await AsyncStorage.removeItem('email');
       await AsyncStorage.removeItem('password');
 
-      // Auth navigator'a yönlendirme yapıyoruz
       navigation.dispatch(
         CommonActions.reset({
           index: 0,
@@ -71,17 +74,6 @@ const BottomTabsNavigator: React.FC = () => {
           tabBarIcon: ({color}) => (
             <Icon name="Home" color={color} width={24} height={24} />
           ),
-        }}
-      />
-      <BottomTab.Screen
-        name="Settings"
-        component={SettingsNavigator}
-        options={{
-          headerShown: false,
-          headerTitleAlign: 'center',
-          tabBarActiveTintColor: 'black',
-          headerRightContainerStyle: {paddingRight: 20},
-          tabBarIcon: () => <Icon name="User" color="black" />,
         }}
       />
       <BottomTab.Screen
